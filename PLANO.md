@@ -11,12 +11,12 @@ Legenda: `[x]` feito, `[ ]` a fazer.
 
 Todos com plano gratuito. Limites mudam: confira as páginas de preço antes de crescer.
 
-- [ ] **GitHub:** crie o repositório e suba este projeto.
+- [x] **GitHub:** crie o repositório e suba este projeto.
   ```bash
   git init && git add . && git commit -m "Projeto base" && git branch -M main
   git remote add origin git@github.com:SEU_USUARIO/plataforma-questoes.git && git push -u origin main
   ```
-- [ ] **Turso (banco):** crie a conta e o banco.
+- [x] **Turso (banco):** crie a conta e o banco.
   ```bash
   curl -sSfL https://get.tur.so/install.sh | bash   # instala a CLI (macOS/Linux; no Windows use WSL)
   turso auth signup
@@ -26,9 +26,9 @@ Todos com plano gratuito. Limites mudam: confira as páginas de preço antes de 
   turso db tokens create plataforma-questoes         # vai em TURSO_AUTH_TOKEN
   ```
   Plano grátis: 5 GB de armazenamento, 500 milhões de linhas lidas e 10 milhões de linhas escritas por mês.
-- [ ] **Segredo do Better Auth:** `openssl rand -base64 32` e coloque em `BETTER_AUTH_SECRET`.
-- [ ] **`.env.local`:** copie `.env.example`, preencha, rode `npm run db:push` contra o Turso.
-- [ ] **Vercel:** importe o repositório, cadastre as 4 variáveis de ambiente (com `BETTER_AUTH_URL` = URL de produção) e faça o deploy.
+- [x] **Segredo do Better Auth:** `openssl rand -base64 32` e coloque em `BETTER_AUTH_SECRET`.
+- [x] **`.env.local`:** copie `.env.example`, preencha, rode `npm run db:push` contra o Turso.
+- [x] **Vercel:** importe o repositório, cadastre as 4 variáveis de ambiente (com `BETTER_AUTH_URL` = URL de produção) e faça o deploy.
   Em Settings > Functions, escolha a região mais próxima do banco.
   Atenção: o plano Hobby da Vercel é para uso não comercial. Se for cobrar dos alunos, veja a Fase 8.
 
@@ -97,9 +97,11 @@ Todos com plano gratuito. Limites mudam: confira as páginas de preço antes de 
 ## Fase 6: Contas
 
 - [ ] **6.1 Login com Google** (Better Auth `socialProviders`, já comentado em `src/lib/auth.ts`).
-- [ ] **6.2 Recuperar senha e verificar e-mail** (Better Auth + serviço de e-mail transacional com plano grátis, como o Resend).
-- [ ] **6.3 Página de perfil:** nome, senha, excluir conta.
-- [ ] **6.4 LGPD:** exportar meus dados e excluir conta com remoção do histórico (as FKs já têm `onDelete: cascade`).
+- [x] **6.2 Recuperar senha e verificar e-mail** (Better Auth + serviço de e-mail transacional com plano grátis, como o Resend).
+  **PENDENTE (combinar com o dono):** criar a senha de app do Gmail e cadastrar `GMAIL_USUARIO` e `GMAIL_SENHA_APP` no `.env.local` e na Vercel. Até lá o site não entrega os e-mails.
+  Envio pelo Gmail (sem domínio, até ~500 por dia). Quando houver domínio: verificar no Resend, cadastrar `RESEND_API_KEY` e `EMAIL_REMETENTE` na Vercel e remover as variáveis do Gmail.
+- [x] **6.3 Página de perfil:** nome, senha, excluir conta.
+- [x] **6.4 LGPD:** exportar meus dados e excluir conta com remoção do histórico (as FKs já têm `onDelete: cascade`).
 - [ ] **6.5 Papel de administrador** (campo `role` no usuário) para telas internas.
 
 ---

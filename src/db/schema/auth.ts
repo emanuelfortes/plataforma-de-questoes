@@ -51,3 +51,12 @@ export const verification = sqliteTable("verification", {
   createdAt: integer("created_at", { mode: "timestamp" }),
   updatedAt: integer("updated_at", { mode: "timestamp" }),
 });
+
+// Limite de tentativas (login, cadastro, recuperar senha). Fica no banco porque na Vercel
+// cada requisição pode cair numa instância diferente e a memória não é compartilhada.
+export const rateLimit = sqliteTable("rate_limit", {
+  id: text("id").primaryKey(),
+  key: text("key").notNull().unique(),
+  count: integer("count").notNull(),
+  lastRequest: integer("last_request").notNull(),
+});

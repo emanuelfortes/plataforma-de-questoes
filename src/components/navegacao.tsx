@@ -44,7 +44,16 @@ export function Navegacao({ nome }: { nome: string }) {
           ))}
         </nav>
         <div className="ml-auto flex items-center gap-3 text-sm">
-          <span className="hidden text-suave sm:inline">{nome}</span>
+          <Link
+            href="/conta"
+            className={cn(
+              "text-suave hover:text-texto",
+              caminho.startsWith("/conta") && "font-medium text-texto",
+            )}
+          >
+            <span className="hidden sm:inline">{nome}</span>
+            <span className="sm:hidden">Conta</span>
+          </Link>
           <button onClick={sair} className="text-suave hover:text-texto">
             Sair
           </button>
