@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+/* Tokens de design. Troque aqui para mudar a identidade visual inteira. */
+@theme {
+  --color-fundo: #f6f6f3;
+  --color-superficie: #ffffff;
+  --color-borda: #e4e3de;
+  --color-texto: #1b1b19;
+  --color-suave: #6a6964;
+
+  --color-marca: #0f766e;
+  --color-marca-forte: #115e59;
+  --color-marca-suave: #e5f2ef;
+
+  --color-acerto: #15803d;
+  --color-acerto-suave: #e7f4eb;
+  --color-erro: #b42318;
+  --color-erro-suave: #fbe9e7;
+
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: var(--color-fundo);
+  color: var(--color-texto);
+  font-family: var(--font-sans);
+}
+
+/* Virar o flashcard */
+.cena-card {
+  perspective: 1200px;
+}
+.card-giro {
+  transform-style: preserve-3d;
+  transition: transform 0.45s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.card-giro[data-virado="true"] {
+  transform: rotateY(180deg);
+}
+.card-face {
+  backface-visibility: hidden;
+}
+.card-verso {
+  transform: rotateY(180deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card-giro {
+    transition: none;
+  }
+}
