@@ -119,7 +119,7 @@ export function Importador() {
           setColar((c) => !c);
           recomecar();
         }}
-        className="text-sm font-bold text-marca-clara hover:underline"
+        className="-mt-2 block text-sm font-bold text-marca-clara hover:underline"
       >
         {colar ? "Prefiro enviar um arquivo" : "A IA respondeu em texto? Colar o conteúdo"}
       </button>
@@ -131,8 +131,13 @@ export function Importador() {
       )}
 
       {!conferencia && (
-        <Button onClick={conferir} disabled={!texto.trim() || ocupado}>
-          {ocupado ? "Conferindo..." : "Conferir"}
+        <Button
+          onClick={conferir}
+          disabled={!texto.trim() || ocupado}
+          tamanho="grande"
+          className="w-full shadow-[0_8px_24px_rgba(47,107,255,.4)] disabled:shadow-none sm:w-auto sm:px-10"
+        >
+          {ocupado ? "Conferindo..." : "Conferir arquivo"}
         </Button>
       )}
 
