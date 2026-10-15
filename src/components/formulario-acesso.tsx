@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { authClient } from "@/lib/auth-client";
 import { traduzirErroAuth } from "@/lib/erros-auth";
 
-/** Moldura comum das telas públicas (entrar, cadastrar, recuperar senha). */
+/** Moldura comum das telas públicas. */
 export function CaixaAcesso({
   titulo,
   subtitulo,
@@ -22,11 +22,17 @@ export function CaixaAcesso({
 }) {
   return (
     <main className="grid min-h-dvh place-items-center px-4">
-      <div className="w-full max-w-sm rounded-xl border border-borda bg-superficie p-6 shadow-xs">
-        <h1 className="text-xl font-semibold tracking-tight">{titulo}</h1>
-        <p className="mt-1 text-sm text-suave">{subtitulo}</p>
-        <div className="mt-6">{children}</div>
-        {rodape && <p className="mt-6 text-center text-sm text-suave">{rodape}</p>}
+      <div className="w-full max-w-[380px] space-y-6">
+        <div className="flex items-center gap-2.5 font-extrabold">
+          <span className="grid size-8 place-items-center rounded-lg bg-marca text-sm text-white">RN</span>
+          <span>Riccardo Nobrega</span>
+        </div>
+        <div>
+          <p className="text-[13px] font-bold uppercase tracking-[.06em] text-destaque">{subtitulo}</p>
+          <h1 className="mt-1 text-4xl font-extrabold leading-[1.1] tracking-[-.03em]">{titulo}</h1>
+        </div>
+        {children}
+        {rodape && <p className="text-sm text-suave">{rodape}</p>}
       </div>
     </main>
   );
@@ -47,88 +53,54 @@ export function FormularioAcesso({ modo, aviso }: { modo: "entrar" | "cadastrar"
       const { error } =
         modo === "entrar"
           ? await authClient.signIn.email({ email, password: senha })
-          : await authClient.signUp.email({
-              email,
-              password: senha,
-              name: nome,
-              // Para onde o link de confirmação do e-mail leva.
-              callbackURL: "/conta",
-            });
+          : await authClient.signUp.email({ email, password: senha, name: nome, callbackURL: "/conta" });
       if (error) {
-        setErro(
-          traduzirErroAuth(
-            error,
-            modo === "entrar" ? "E-mail ou senha incorretos." : "Não foi possível criar a conta.",
-          ),
-        );
+        setErro(traduzirErroAuth(error, modo === "entrar" ? "E-mail ou senha incorretos." : "Não foi possível criar a conta."));
         return;
       }
-      router.push("/questoes");
+      router.push("/estudar");
       router.refresh();
     });
   }
 
+  const rotulo = "text-[13px] font-bold text-texto/75";
+
   return (
     <CaixaAcesso
-      titulo={modo === "entrar" ? "Entrar" : "Criar conta"}
-      subtitulo={
-        modo === "entrar"
-          ? "Continue de onde parou."
-          : "Comece a resolver questões e acompanhar seu desempenho."
-      }
+      titulo={modo === "entrar" ? "Entre e continue de onde parou." : "Comece hoje. Amanhã é o dia 2."}
+      subtitulo={modo === "entrar" ? "Bem-vindo de volta" : "Criar conta"}
       rodape={
         modo === "entrar" ? (
-          <>
-            Não tem conta?{" "}
-            <Link href="/cadastrar" className="font-medium text-marca hover:underline">
-              Cadastre-se
-            </Link>
-          </>
+          <>Não tem conta? <Link href="/cadastrar" className="font-extrabold text-destaque hover:underline">Cadastre-se</Link></>
         ) : (
-          <>
-            Já tem conta?{" "}
-            <Link href="/entrar" className="font-medium text-marca hover:underline">
-              Entrar
-            </Link>
-          </>
+          <>Já tem conta? <Link href="/entrar" className="font-extrabold text-destaque hover:underline">Entrar</Link></>
         )
       }
     >
-      {aviso && (
-        <p className="mb-4 rounded-lg bg-acerto-suave px-3 py-2 text-sm text-acerto">{aviso}</p>
-      )}
+      {aviso && <p className="rounded-lg bg-acerto-suave px-3 py-2 text-sm text-acerto">{aviso}</p>}
       <form action={enviar} className="space-y-4">
         {modo === "cadastrar" && (
-          <label className="block space-y-1.5 text-sm">
-            <span className="font-medium">Nome</span>
+          <label className="block space-y-1.5">
+            <span className={rotulo}>Nome</span>
             <input name="nome" required maxLength={80} autoComplete="name" className={classeCampo} />
           </label>
         )}
-        <label className="block space-y-1.5 text-sm">
-          <span className="font-medium">E-mail</span>
+        <label className="block space-y-1.5">
+          <span className={rotulo}>E-mail</span>
           <input name="email" type="email" required autoComplete="email" className={classeCampo} />
         </label>
-        <div className="space-y-1.5 text-sm">
+        <div className="space-y-1.5">
           <div className="flex items-baseline justify-between">
-            <label htmlFor="senha" className="font-medium">
-              Senha
-            </label>
+            <label htmlFor="senha" className={rotulo}>Senha</label>
             {modo === "entrar" && (
-              <Link href="/esqueci-senha" className="text-xs text-marca hover:underline">
-                Esqueci minha senha
-              </Link>
+              <Link href="/esqueci-senha" className="text-xs font-bold text-marca-clara hover:underline">Esqueci minha senha</Link>
             )}
           </div>
-          <CampoSenha
-            id="senha"
-            name="senha"
-            required
-            autoComplete={modo === "entrar" ? "current-password" : "new-password"}
-          />
+          <CampoSenha id="senha" name="senha" required autoComplete={modo === "entrar" ? "current-password" : "new-password"} />
           {modo === "cadastrar" && <p className="text-xs text-suave">Mínimo de 8 caracteres.</p>}
         </div>
         {erro && <p className="text-sm text-erro">{erro}</p>}
-        <Button type="submit" className="w-full" disabled={enviando}>
+        <Button type="submit" tamanho="grande" className="w-full shadow-[0_8px_24px_rgba(47,107,255,.4)]" disabled={enviando}>
           {enviando ? "Aguarde..." : modo === "entrar" ? "Entrar" : "Criar conta"}
         </Button>
       </form>

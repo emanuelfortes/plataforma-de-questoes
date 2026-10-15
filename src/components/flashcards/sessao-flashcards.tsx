@@ -2,15 +2,14 @@
 
 import { useState, useTransition } from "react";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { avaliarFlashcard } from "@/server/acoes";
 import type { CardSessao } from "@/server/flashcards";
 
 const NOTAS = [
   { nota: 1, rotulo: "Errei", classe: "border-erro text-erro hover:bg-erro-suave" },
-  { nota: 2, rotulo: "Difícil", classe: "border-borda hover:bg-fundo" },
-  { nota: 3, rotulo: "Bom", classe: "border-borda hover:bg-fundo" },
+  { nota: 2, rotulo: "Difícil", classe: "border-white/20 text-texto hover:bg-white/10" },
+  { nota: 3, rotulo: "Bom", classe: "border-white/20 text-texto hover:bg-white/10" },
   { nota: 4, rotulo: "Fácil", classe: "border-acerto text-acerto hover:bg-acerto-suave" },
 ] as const;
 
@@ -24,12 +23,10 @@ export function SessaoFlashcards({ cards }: { cards: CardSessao[] }) {
 
   if (!atual) {
     return (
-      <div className="rounded-xl border border-borda bg-superficie p-10 text-center">
-        <p className="text-lg font-semibold">Sessão concluída</p>
+      <div className="rounded-2xl border border-borda bg-white/5 p-10 text-center">
+        <p className="text-lg font-extrabold">Sessão concluída</p>
         <p className="mt-1 text-sm text-suave">
-          {cards.length
-            ? `Você revisou ${cards.length} cards. Volte depois para as próximas revisões.`
-            : "Nenhum card para revisar agora."}
+          {cards.length ? `Você revisou ${cards.length} cards. Volte depois para as próximas revisões.` : "Nenhum card para revisar agora."}
         </p>
       </div>
     );
@@ -48,16 +45,8 @@ export function SessaoFlashcards({ cards }: { cards: CardSessao[] }) {
 
   return (
     <div className="space-y-4">
-      <div className="flex items-center justify-between text-sm text-suave">
-        <span className="tabular-nums">
-          {indice + 1} de {cards.length}
-        </span>
-        <span className="flex gap-2">
-          <Badge>{atual.disciplina}</Badge>
-          <Badge className={atual.tipo === "novo" ? "bg-marca-suave text-marca-forte" : ""}>
-            {atual.tipo === "novo" ? "Novo" : "Revisão"}
-          </Badge>
-        </span>
+      <div className="h-1 overflow-hidden rounded-full bg-white/10">
+        <div className="h-full bg-marca transition-[width]" style={{ width: `${(indice / cards.length) * 100}%` }} />
       </div>
 
       <button
@@ -66,39 +55,32 @@ export function SessaoFlashcards({ cards }: { cards: CardSessao[] }) {
         className="cena-card block w-full text-left"
         aria-label={virado ? "Mostrar frente" : "Mostrar resposta"}
       >
-        <div className="card-giro relative min-h-64" data-virado={virado}>
-          <div className="card-face absolute inset-0 flex flex-col rounded-xl border border-borda bg-superficie p-6 shadow-xs">
-            <span className="text-xs font-medium uppercase tracking-wide text-suave">Frente</span>
-            <p className="m-auto whitespace-pre-line text-center text-lg leading-relaxed">
-              {atual.frente}
-            </p>
-            <span className="text-center text-xs text-suave">Toque para ver a resposta</span>
+        <div className="card-giro relative min-h-[300px]" data-virado={virado}>
+          <div className="card-face absolute inset-0 flex flex-col rounded-[20px] bg-white p-8 text-[#0B1733] shadow-[0_20px_50px_rgba(0,0,0,.35)]">
+            <div className="flex justify-between text-xs font-extrabold">
+              <span className="uppercase tracking-[.08em] text-[#5B6B8C]">Frente · {atual.disciplina}</span>
+              <span className="text-marca">
+                {indice + 1} / {cards.length} · {atual.tipo === "novo" ? "Novo" : "Revisão"}
+              </span>
+            </div>
+            <p className="m-auto max-w-[480px] whitespace-pre-line text-center text-[26px] font-bold leading-[1.4]">{atual.frente}</p>
+            <span className="text-center text-[13px] font-bold text-[#5B6B8C]">Toque para ver a resposta</span>
           </div>
-          <div className="card-face card-verso absolute inset-0 flex flex-col rounded-xl border border-marca bg-marca-suave p-6">
-            <span className="text-xs font-medium uppercase tracking-wide text-marca-forte">
-              Verso
-            </span>
-            <p className="m-auto whitespace-pre-line text-center text-lg leading-relaxed">
-              {atual.verso}
-            </p>
+          <div className="card-face card-verso absolute inset-0 flex flex-col rounded-[20px] bg-marca p-8 text-white">
+            <span className="text-xs font-extrabold uppercase tracking-[.08em] text-white/70">Verso</span>
+            <p className="m-auto max-w-[480px] whitespace-pre-line text-center text-[26px] font-bold leading-[1.4]">{atual.verso}</p>
           </div>
         </div>
       </button>
 
       {erro && <p className="text-sm text-erro">{erro}</p>}
 
-      <div
-        className={cn(
-          "grid grid-cols-4 gap-2 transition-opacity",
-          !virado && "pointer-events-none opacity-40",
-        )}
-        aria-hidden={!virado}
-      >
+      <div className={cn("grid grid-cols-4 gap-2 transition-opacity", !virado && "pointer-events-none opacity-50")} aria-hidden={!virado}>
         {NOTAS.map(({ nota, rotulo, classe }) => (
           <Button
             key={nota}
             variante="contorno"
-            className={classe}
+            className={cn("h-[50px] rounded-xl border-[1.5px] bg-transparent font-extrabold", classe)}
             disabled={!virado || salvando}
             onClick={() => avaliar(nota)}
           >

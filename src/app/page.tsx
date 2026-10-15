@@ -3,5 +3,5 @@ import { obterSessao } from "@/lib/sessao";
 
 export default async function Inicio() {
   const sessao = await obterSessao();
-  redirect(sessao ? "/questoes" : "/entrar");
+  redirect(sessao ? "/estudar" : "/entrar");
 }

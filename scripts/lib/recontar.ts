@@ -20,5 +20,8 @@ export async function recontar(db: Db) {
     await tx.run(sql`
       INSERT INTO contagens (chave, total)
       SELECT 'f:d:' || disciplina_id, COUNT(*) FROM flashcards GROUP BY disciplina_id`);
+    await tx.run(sql`
+      INSERT INTO contagens (chave, total)
+      SELECT 'f:a:' || assunto_id, COUNT(*) FROM flashcards WHERE assunto_id IS NOT NULL GROUP BY assunto_id`);
   });
 }

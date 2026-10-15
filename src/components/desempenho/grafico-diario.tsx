@@ -30,6 +30,8 @@ export function GraficoDiario({ dados }: { dados: PontoDia[] }) {
             contentStyle={{
               borderRadius: 8,
               border: "1px solid var(--color-borda)",
+              background: "var(--color-superficie)",
+              color: "var(--color-texto)",
               fontSize: 12,
             }}
           />

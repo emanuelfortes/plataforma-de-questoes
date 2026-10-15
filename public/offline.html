@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#081433" />
+    <title>Sem internet · Riccardo Nobrega</title>
+    <link rel="icon" href="/icones/favicon-48.png" />
+    <style>
+      /* Página estática (mostrada pelo service worker quando a rede cai). Cores = tokens de globals.css. */
+      body {
+        margin: 0;
+        min-height: 100dvh;
+        display: grid;
+        place-items: center;
+        padding: 16px;
+        box-sizing: border-box;
+        background: #081433;
+        color: #ffffff;
+        font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+        text-align: center;
+      }
+      img { width: 64px; height: 64px; border-radius: 14px; }
+      h1 { margin: 20px 0 8px; font-size: 26px; font-weight: 800; letter-spacing: -0.02em; }
+      p { margin: 0; max-width: 320px; color: rgba(255, 255, 255, 0.6); font-size: 15px; line-height: 1.5; }
+      button {
+        margin-top: 24px; height: 44px; padding: 0 22px; border: 0; border-radius: 12px;
+        background: #2f6bff; color: #ffffff; font: inherit; font-weight: 800; cursor: pointer;
+      }
+      button:hover { background: #1d4ed8; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img src="/icones/icone-192.png" alt="" />
+      <h1>Sem internet</h1>
+      <p>Para resolver questões e salvar seu progresso é preciso estar conectado. Confira a conexão e tente de novo.</p>
+      <button type="button" onclick="location.reload()">Tentar de novo</button>
+    </main>
+  </body>
+</html>

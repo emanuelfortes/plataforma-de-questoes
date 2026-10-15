@@ -47,16 +47,22 @@ src/
   app/
     (acesso)/entrar, (acesso)/cadastrar   páginas públicas
     (app)/layout.tsx                      exige login (exigirUsuario)
-    (app)/questoes                        listagem, filtros, resolução
+    (app)/estudar                         início: tipo (questões ou flashcards), matéria e área (o aluno não escolhe nível)
+    (app)/questoes                        resolução (uma por vez) e filtro de status
     (app)/flashcards                      sessão de revisão
     (app)/desempenho                      janelas, gráfico diário, por disciplina
+    (app)/admin                           área do dono (ADMIN_EMAILS): gera o prompt de IA e importa o arquivo
     api/auth/[...all]                     rotas do Better Auth
   components/                             UI (ui/ são primitivos genéricos)
   db/schema/                              auth.ts, conteudo.ts, estudo.ts
+  db/importacao.ts                        núcleo da importação (script e /admin usam o mesmo)
   lib/                                    código compartilhado (pode ir para o cliente)
   server/                                 consultas e server actions (só servidor)
-scripts/                                  importação, geração de exemplo, recontagem, simulação
+scripts/                                  importação, geração de exemplo, recontagem, simulação, ícones do app
+public/sw.js, public/offline.html         PWA: service worker só mostra a tela "sem internet"; nunca guarda páginas nem dados do aluno
 docs/FORMATO-QUESTOES.md                  contrato do arquivo .jsonl
+docs/PROMPT-GERAR-QUESTOES.md             prompt para gerar questões de um PDF com IA
+data/catalogo.json                        nomes preferidos de matérias e áreas e apelidos (não é lista fechada)
 ```
 
 ## Modelo de dados (resumo)
@@ -64,8 +70,10 @@ docs/FORMATO-QUESTOES.md                  contrato do arquivo .jsonl
 - `questoes`: conteúdo. `id` inteiro (rowid) para paginação; `codigo` é o id do JSONL (único).
   `alternativas` é JSON na própria linha.
 - `flashcards`: frente e verso.
-- `disciplinas`, `assuntos`.
-- `contagens`: totais pré-calculados (`q:total`, `q:d:<id>`, `q:a:<id>`, `f:total`, `f:d:<id>`).
+- `disciplinas`, `assuntos` (matéria e área). Criadas na importação (a IA tira do PDF); nomes equivalentes são unidos por `chaveNome()` em `src/lib/catalogo.ts`.
+- `questoes.dificuldade`: 1 fácil, 2 médio, 3 difícil (`src/lib/dificuldade.ts`). Não é filtro do aluno; aparece só depois da resposta.
+- `questoes.ordem`: posição sorteada na importação. A listagem segue `(ordem, id)` para misturar níveis e áreas, começando num ponto sorteado por sessão.
+- `contagens`: totais pré-calculados (`q:total`, `q:d:<id>`, `q:a:<id>`, `f:total`, `f:d:<id>`, `f:a:<id>`).
 - `respostas`: histórico, uma linha por tentativa. Fonte do desempenho.
 - `status_questao`: último estado por aluno e questão. Fonte dos filtros e ícones.
   Sem linha = não resolvida. `ultima_correta` = acertou ou errou.
@@ -74,14 +82,15 @@ docs/FORMATO-QUESTOES.md                  contrato do arquivo .jsonl
 
 ## Regras do projeto (não quebre)
 
-1. **Nunca use OFFSET** para paginar questões. Use cursor (`WHERE id > ?`). Com 1 milhão de linhas o OFFSET lê tudo que vem antes.
+1. **Nunca use OFFSET nem `ORDER BY random()`** para listar questões. Use cursor (`WHERE (ordem, id) > (?, ?)`). Com 1 milhão de linhas os dois leem tudo.
 2. **Nunca faça `COUNT(*)` sobre `questoes` ou `flashcards` numa requisição.** Leia de `contagens`. No Turso cada linha lida conta na cota mensal. Recontagem só no fim da importação.
 3. **O gabarito e o comentário não vão para o cliente antes da resposta.** `listarQuestoes` não seleciona esses campos; só `responderQuestao` (server action) devolve. Mantenha assim em qualquer tela nova.
 4. **Toda server action e página do aluno começa com `exigirUsuario()`** e valida a entrada com Zod. Nunca confie em `usuarioId` vindo do cliente.
 5. **Datas em UTC no banco.** O agrupamento por dia usa o fuso de Brasília (UTC-3) via `src/lib/datas.ts`. Não espalhe `-3 hours` pelo código; use as constantes.
 6. **Importação em lote:** inserts de 500 linhas, `onConflictDoNothing` pelo `codigo`. Um item do JSONL deve gerar uma escrita (por isso alternativas ficam em JSON).
 7. **Separação servidor e cliente:** arquivos em `src/server/` importam `server-only` (exceto `acoes.ts`, que é `"use server"`). Constantes e tipos usados nos dois lados ficam em `src/lib/`.
-8. **Mudou o formato do JSONL?** Atualize juntos `src/lib/formato-jsonl.ts`, `docs/FORMATO-QUESTOES.md` e `scripts/gerar-exemplo.ts`.
+8. **Mudou o formato do JSONL?** Atualize juntos `src/lib/formato-jsonl.ts`, `src/db/importacao.ts`, `src/lib/prompt-ia.ts`, `docs/FORMATO-QUESTOES.md`, `docs/PROMPT-GERAR-QUESTOES.md` e `scripts/gerar-exemplo.ts`.
+10. **Área do dono:** páginas e ações de `/admin` começam com `exigirAdmin()` (e-mails em `ADMIN_EMAILS`).
 9. Toda consulta nova que filtra `questoes` precisa de índice que a cubra. Confira com `EXPLAIN QUERY PLAN` (veja `/revisar-performance`).
 
 ## Convenções
@@ -102,6 +111,6 @@ docs/FORMATO-QUESTOES.md                  contrato do arquivo .jsonl
 
 ## Ambiente
 
-- `.env.local` (copie de `.env.example`): `TURSO_DATABASE_URL`, `TURSO_AUTH_TOKEN`, `BETTER_AUTH_SECRET`, `BETTER_AUTH_URL`, `GMAIL_USUARIO`, `GMAIL_SENHA_APP` (ou `RESEND_API_KEY` e `EMAIL_REMETENTE` com domínio próprio).
+- `.env.local` (copie de `.env.example`): `TURSO_DATABASE_URL`, `TURSO_AUTH_TOKEN`, `BETTER_AUTH_SECRET`, `BETTER_AUTH_URL`, `ADMIN_EMAILS`, `GMAIL_USUARIO`, `GMAIL_SENHA_APP` (ou `RESEND_API_KEY` e `EMAIL_REMETENTE` com domínio próprio).
 - E-mails (recuperar senha, confirmar e-mail) saem por `src/server/email.ts`. Usa o Gmail se configurado, senão o Resend, senão só imprime no terminal.
 - Sem `TURSO_DATABASE_URL` o app usa `file:local.db`. Na Vercel o modo arquivo não funciona: use sempre a URL do Turso.

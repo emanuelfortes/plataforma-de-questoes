@@ -5,6 +5,8 @@
 import { createWriteStream } from "node:fs";
 import { once } from "node:events";
 import { parseArgs } from "node:util";
+import { DIFICULDADES } from "../src/lib/dificuldade";
+import { CATALOGO } from "../src/lib/catalogo";
 
 const { values } = parseArgs({
   options: {
@@ -29,23 +31,20 @@ function aleatorio() {
 }
 const escolher = <T>(lista: readonly T[]) => lista[Math.floor(aleatorio() * lista.length)]!;
 
-const DISCIPLINAS = {
-  "Língua Portuguesa": ["Crase", "Concordância Verbal", "Regência", "Pontuação", "Interpretação de Texto"],
-  "Direito Constitucional": ["Direitos Fundamentais", "Organização do Estado", "Poder Legislativo", "Controle de Constitucionalidade"],
-  "Direito Administrativo": ["Atos Administrativos", "Licitações e Contratos", "Agentes Públicos", "Improbidade Administrativa"],
-  Matemática: ["Porcentagem", "Razão e Proporção", "Equações do 1º Grau", "Probabilidade"],
-  "Raciocínio Lógico": ["Proposições", "Sequências", "Lógica de Argumentação"],
-  Informática: ["Redes de Computadores", "Segurança da Informação", "Planilhas", "Sistemas Operacionais"],
-} as const;
-const NOMES = Object.keys(DISCIPLINAS) as (keyof typeof DISCIPLINAS)[];
+// Matérias e áreas vêm do mapa oficial (data/catalogo.json), como no conteúdo real.
+const DISCIPLINAS: Record<string, string[]> = Object.fromEntries(
+  CATALOGO.map((d) => [d.nome, d.assuntos]),
+);
+const NOMES = Object.keys(DISCIPLINAS);
 const BANCAS = ["CEBRASPE", "FGV", "FCC", "VUNESP", "CESGRANRIO"] as const;
 const LETRAS = ["A", "B", "C", "D", "E"] as const;
 
 function questao(n: number) {
   const disciplina = escolher(NOMES);
-  const assunto = escolher(DISCIPLINAS[disciplina]);
+  const assunto = escolher(DISCIPLINAS[disciplina]!);
   const banca = escolher(BANCAS);
   const ano = 2015 + Math.floor(aleatorio() * 11);
+  const dificuldade = escolher(DIFICULDADES);
   const id = `q_${String(n).padStart(7, "0")}`;
 
   // A CEBRASPE usa o formato Certo/Errado: modelado como 2 alternativas.
@@ -56,6 +55,7 @@ function questao(n: number) {
       id,
       disciplina,
       assunto,
+      dificuldade,
       banca,
       ano,
       enunciado: `(Exemplo ${n}) Julgue o item a seguir, relativo a ${assunto.toLowerCase()}.\n\nAfirmação de exemplo sobre ${assunto} em ${disciplina}, gerada para testar a plataforma.`,
@@ -74,6 +74,7 @@ function questao(n: number) {
     id,
     disciplina,
     assunto,
+    dificuldade,
     banca,
     ano,
     enunciado: `(Exemplo ${n}) Sobre ${assunto.toLowerCase()} em ${disciplina}, assinale a alternativa correta.`,
@@ -88,7 +89,7 @@ function questao(n: number) {
 
 function flashcard(n: number) {
   const disciplina = escolher(NOMES);
-  const assunto = escolher(DISCIPLINAS[disciplina]);
+  const assunto = escolher(DISCIPLINAS[disciplina]!);
   return {
     tipo: "flashcard",
     id: `f_${String(n).padStart(7, "0")}`,

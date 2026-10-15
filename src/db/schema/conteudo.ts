@@ -38,10 +38,17 @@ export const questoes = sqliteTable(
     alternativas: text("alternativas", { mode: "json" }).$type<Alternativa[]>().notNull(),
     gabarito: text("gabarito").notNull(),
     comentario: text("comentario"),
+    // 1 fácil, 2 médio, 3 difícil (src/lib/dificuldade.ts). Nulo = não classificada.
+    // O aluno não escolhe o nível: serve para equilibrar o conteúdo e aparece depois da resposta.
+    dificuldade: integer("dificuldade"),
+    // Posição sorteada na importação: a listagem segue esta ordem para misturar níveis e áreas.
+    ordem: integer("ordem").notNull().default(0),
   },
   (t) => [
-    index("questoes_disciplina_id").on(t.disciplinaId, t.id),
-    index("questoes_assunto_id").on(t.assuntoId, t.id),
+    // O SQLite acrescenta o id (rowid) no fim de todo índice: (ordem, id) fica coberto para o cursor.
+    index("questoes_ordem").on(t.ordem),
+    index("questoes_disciplina_ordem").on(t.disciplinaId, t.ordem),
+    index("questoes_assunto_ordem").on(t.assuntoId, t.ordem),
   ],
 );
 
@@ -57,12 +64,15 @@ export const flashcards = sqliteTable(
     frente: text("frente").notNull(),
     verso: text("verso").notNull(),
   },
-  (t) => [index("flashcards_disciplina_id").on(t.disciplinaId, t.id)],
+  (t) => [
+    index("flashcards_disciplina_id").on(t.disciplinaId, t.id),
+    index("flashcards_assunto_id").on(t.assuntoId, t.id),
+  ],
 );
 
 // Totais pré-calculados. Nunca faça COUNT(*) sobre "questoes" numa requisição:
 // no Turso cada linha contada entra na cota de linhas lidas.
-// Chaves: "q:total", "q:d:<disciplinaId>", "q:a:<assuntoId>", "f:total", "f:d:<disciplinaId>".
+// Chaves: "q:total", "q:d:<disciplinaId>", "q:a:<assuntoId>", "f:total", "f:d:<disciplinaId>", "f:a:<assuntoId>".
 export const contagens = sqliteTable("contagens", {
   chave: text("chave").primaryKey(),
   total: integer("total").notNull(),

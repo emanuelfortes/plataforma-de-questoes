@@ -1,6 +1,7 @@
 // Contrato do arquivo de importação (.jsonl, um objeto por linha).
 // Documentação completa em docs/FORMATO-QUESTOES.md. Mantenha os dois em sincronia.
 import { z } from "zod";
+import { DIFICULDADES } from "./dificuldade";
 
 const textoObrigatorio = z.string().trim().min(1);
 
@@ -12,9 +13,11 @@ export const esquemaAlternativa = z.object({
 export const esquemaQuestao = z
   .object({
     tipo: z.literal("multipla"),
-    id: textoObrigatorio,
+    // Opcional: sem id, a importação usa uma impressão digital do conteúdo (questão idêntica não duplica).
+    id: textoObrigatorio.optional(),
     disciplina: textoObrigatorio,
     assunto: z.string().trim().min(1).optional(),
+    dificuldade: z.enum(DIFICULDADES).optional(),
     banca: z.string().trim().min(1).optional(),
     ano: z.number().int().min(1900).max(2100).optional(),
     enunciado: textoObrigatorio,
@@ -33,7 +36,7 @@ export const esquemaQuestao = z
 
 export const esquemaFlashcard = z.object({
   tipo: z.literal("flashcard"),
-  id: textoObrigatorio,
+  id: textoObrigatorio.optional(),
   disciplina: textoObrigatorio,
   assunto: z.string().trim().min(1).optional(),
   frente: textoObrigatorio,

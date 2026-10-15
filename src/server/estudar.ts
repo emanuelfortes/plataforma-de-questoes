@@ -1,0 +1,69 @@
+import "server-only";
+import { asc, eq, inArray } from "drizzle-orm";
+import { db } from "@/db";
+import { assuntos, contagens, disciplinas } from "@/db/schema";
+
+// Dados da tela "Estudar" (escolha de tipo, matéria e área). Tudo sai de "contagens",
+// nunca de COUNT(*) sobre questoes ou flashcards.
+
+export type TipoEstudo = "questoes" | "flashcards";
+const PREFIXO: Record<TipoEstudo, "q" | "f"> = { questoes: "q", flashcards: "f" };
+
+async function lerContagens(chaves: string[]) {
+  if (!chaves.length) return new Map<string, number>();
+  const linhas = await db
+    .select({ chave: contagens.chave, total: contagens.total })
+    .from(contagens)
+    .where(inArray(contagens.chave, chaves));
+  return new Map(linhas.map((l) => [l.chave, l.total]));
+}
+
+export async function totaisPorTipo() {
+  const totais = await lerContagens(["q:total", "f:total"]);
+  return { questoes: totais.get("q:total") ?? 0, flashcards: totais.get("f:total") ?? 0 };
+}
+
+/** Matérias com pelo menos um item do tipo escolhido. */
+export async function listarMaterias(tipo: TipoEstudo) {
+  const todas = await db.select().from(disciplinas).orderBy(asc(disciplinas.nome));
+  const p = PREFIXO[tipo];
+  const totais = await lerContagens(todas.map((d) => `${p}:d:${d.id}`));
+  return todas
+    .map((d) => ({ ...d, total: totais.get(`${p}:d:${d.id}`) ?? 0 }))
+    .filter((d) => d.total > 0);
+}
+
+/** Áreas da matéria com pelo menos um item. */
+export async function detalharMateria(tipo: TipoEstudo, disciplinaId: number) {
+  const [disciplina] = await db.select().from(disciplinas).where(eq(disciplinas.id, disciplinaId));
+  if (!disciplina) return null;
+
+  const areas = await db
+    .select({ id: assuntos.id, nome: assuntos.nome })
+    .from(assuntos)
+    .where(eq(assuntos.disciplinaId, disciplinaId))
+    .orderBy(asc(assuntos.nome));
+
+  const p = PREFIXO[tipo];
+  const chaveMateria = `${p}:d:${disciplinaId}`;
+  const totais = await lerContagens([chaveMateria, ...areas.map((a) => `${p}:a:${a.id}`)]);
+
+  return {
+    disciplina,
+    total: totais.get(chaveMateria) ?? 0,
+    areas: areas
+      .map((a) => ({ ...a, total: totais.get(`${p}:a:${a.id}`) ?? 0 }))
+      .filter((a) => a.total > 0),
+  };
+}
+
+/** Nomes para o cabeçalho "Matéria · Área" das telas de questões e flashcards. */
+export async function nomesSelecao(disciplinaId?: number, assuntoId?: number) {
+  const [d] = disciplinaId
+    ? await db.select({ nome: disciplinas.nome }).from(disciplinas).where(eq(disciplinas.id, disciplinaId))
+    : [];
+  const [a] = assuntoId
+    ? await db.select({ nome: assuntos.nome }).from(assuntos).where(eq(assuntos.id, assuntoId))
+    : [];
+  return { disciplina: d?.nome, assunto: a?.nome };
+}

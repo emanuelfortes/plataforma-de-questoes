@@ -1,0 +1,165 @@
+{
+  "_leia": "Nomes PREFERIDOS de matérias e áreas (não é lista fechada: a IA cria matérias e áreas novas a partir do PDF). Quando a IA usa um nome equivalente (maiúsculas, acentos, plural, apelido), a importação troca pelo nome daqui. Apelidos são outros nomes da mesma matéria.",
+  "disciplinas": [
+    {
+      "nome": "Língua Portuguesa",
+      "apelidos": [
+        "Português",
+        "Gramática",
+        "Língua Portuguesa e Interpretação de Texto"
+      ],
+      "assuntos": [
+        "Ortografia",
+        "Acentuação Gráfica",
+        "Uso do Hífen",
+        "Fonologia",
+        "Estrutura e Formação de Palavras",
+        "Substantivo",
+        "Adjetivo",
+        "Artigo",
+        "Numeral",
+        "Pronome",
+        "Verbo",
+        "Advérbio",
+        "Preposição",
+        "Conjunção",
+        "Interjeição",
+        "Vozes Verbais",
+        "Termos Essenciais da Oração",
+        "Termos Integrantes da Oração",
+        "Termos Acessórios da Oração",
+        "Período Composto por Coordenação",
+        "Período Composto por Subordinação",
+        "Concordância Verbal",
+        "Concordância Nominal",
+        "Regência Verbal",
+        "Regência Nominal",
+        "Crase",
+        "Colocação Pronominal",
+        "Pontuação",
+        "Uso do Que e do Se",
+        "Uso dos Porquês",
+        "Semântica: Sinônimos, Antônimos, Homônimos e Parônimos",
+        "Figuras de Linguagem",
+        "Funções da Linguagem",
+        "Interpretação de Texto",
+        "Tipologia e Gêneros Textuais",
+        "Coesão e Coerência",
+        "Redação Oficial"
+      ]
+    },
+    {
+      "nome": "Matemática",
+      "apelidos": [
+        "Matemática Básica"
+      ],
+      "assuntos": [
+        "Conjuntos",
+        "Números Naturais e Inteiros",
+        "Frações e Números Decimais",
+        "MMC e MDC",
+        "Razão e Proporção",
+        "Regra de Três",
+        "Porcentagem",
+        "Juros Simples",
+        "Juros Compostos",
+        "Equações do 1º Grau",
+        "Equações do 2º Grau",
+        "Sistemas de Equações",
+        "Funções",
+        "Progressões Aritméticas e Geométricas",
+        "Geometria Plana",
+        "Geometria Espacial",
+        "Análise Combinatória",
+        "Probabilidade",
+        "Estatística Básica",
+        "Matrizes e Determinantes"
+      ]
+    },
+    {
+      "nome": "Raciocínio Lógico",
+      "apelidos": [
+        "Raciocínio Lógico-Matemático",
+        "Raciocínio Lógico Matemático",
+        "RLM",
+        "Lógica"
+      ],
+      "assuntos": [
+        "Proposições e Conectivos",
+        "Tabela-Verdade",
+        "Equivalências Lógicas",
+        "Negação de Proposições",
+        "Argumentação Lógica",
+        "Diagramas Lógicos",
+        "Quantificadores",
+        "Sequências Lógicas",
+        "Problemas de Raciocínio"
+      ]
+    },
+    {
+      "nome": "Informática",
+      "apelidos": [
+        "Noções de Informática",
+        "Informática Básica"
+      ],
+      "assuntos": [
+        "Hardware",
+        "Sistema Operacional Windows",
+        "Sistema Operacional Linux",
+        "Editores de Texto",
+        "Planilhas Eletrônicas",
+        "Editores de Apresentação",
+        "Internet e Navegadores",
+        "Correio Eletrônico",
+        "Redes de Computadores",
+        "Segurança da Informação",
+        "Computação em Nuvem",
+        "Backup"
+      ]
+    },
+    {
+      "nome": "Direito Constitucional",
+      "apelidos": [
+        "Constitucional"
+      ],
+      "assuntos": [
+        "Princípios Fundamentais",
+        "Direitos e Garantias Fundamentais",
+        "Remédios Constitucionais",
+        "Direitos Sociais",
+        "Nacionalidade",
+        "Direitos Políticos",
+        "Organização do Estado",
+        "Administração Pública na Constituição",
+        "Poder Legislativo",
+        "Processo Legislativo",
+        "Poder Executivo",
+        "Poder Judiciário",
+        "Funções Essenciais à Justiça",
+        "Controle de Constitucionalidade"
+      ]
+    },
+    {
+      "nome": "Direito Administrativo",
+      "apelidos": [
+        "Administrativo"
+      ],
+      "assuntos": [
+        "Princípios da Administração Pública",
+        "Organização Administrativa",
+        "Poderes Administrativos",
+        "Atos Administrativos",
+        "Agentes Públicos",
+        "Licitações (Lei 14.133/2021)",
+        "Contratos Administrativos",
+        "Serviços Públicos",
+        "Responsabilidade Civil do Estado",
+        "Controle da Administração Pública",
+        "Improbidade Administrativa",
+        "Processo Administrativo (Lei 9.784/1999)",
+        "Bens Públicos",
+        "Intervenção do Estado na Propriedade"
+      ]
+    }
+  ]
+}

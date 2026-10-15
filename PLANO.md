@@ -61,6 +61,8 @@ Todos com plano gratuito. Limites mudam: confira as páginas de preço antes de 
 
 ## Fase 3: Experiência de questões
 
+- [x] **3.0 Tela Estudar e organização do conteúdo.** Início em `/estudar`: questões ou flashcards, matéria e área (opcional). O aluno não escolhe nível: as questões vêm embaralhadas (coluna `ordem` sorteada na importação e ponto de partida sorteado por sessão). Matérias e áreas criadas na importação, com nomes equivalentes unidos (`chaveNome`) e nomes preferidos em `data/catalogo.json`, nível `facil`/`medio`/`dificil`, `id` opcional com impressão digital do conteúdo (não duplica), `--verificar` na importação e prompt de IA em `docs/PROMPT-GERAR-QUESTOES.md`.
+
 - [ ] **3.1 Filtros por banca e ano.** Colunas já existem. Adicionar selects, índices compostos e contagens (`q:b:<banca>` etc.) se for exibir totais.
 - [ ] **3.2 Busca por texto (FTS5).** Tabela virtual `questoes_fts` com `enunciado`, populada na importação; campo de busca na listagem.
   Pronto quando: busca em 1 milhão retorna em menos de 300 ms. Cuidado: o índice FTS ocupa espaço (medir).
@@ -102,7 +104,7 @@ Todos com plano gratuito. Limites mudam: confira as páginas de preço antes de 
   Envio pelo Gmail (sem domínio, até ~500 por dia). Quando houver domínio: verificar no Resend, cadastrar `RESEND_API_KEY` e `EMAIL_REMETENTE` na Vercel e remover as variáveis do Gmail.
 - [x] **6.3 Página de perfil:** nome, senha, excluir conta.
 - [x] **6.4 LGPD:** exportar meus dados e excluir conta com remoção do histórico (as FKs já têm `onDelete: cascade`).
-- [ ] **6.5 Papel de administrador** (campo `role` no usuário) para telas internas.
+- [x] **6.5 Área do dono** em `/admin`, liberada pelos e-mails de `ADMIN_EMAILS`: gera o prompt de IA por matéria (com as áreas do catálogo) e importa o arquivo com conferência antes de gravar.
 
 ---
 
@@ -115,7 +117,7 @@ Todos com plano gratuito. Limites mudam: confira as páginas de preço antes de 
 - [ ] **7.5 Cache do conteúdo:** listas de disciplinas e assuntos mudam só na importação; cachear e invalidar ao importar.
 - [ ] **7.6 Monitoramento:** acompanhar linhas lidas no painel do Turso toda semana; logs de erro (Vercel tem logs no grátis).
 - [ ] **7.7 Modo escuro:** redefinir os tokens de `globals.css` sob `prefers-color-scheme: dark`.
-- [ ] **7.8 PWA / mobile:** manifest, ícone e layout testado em 360 px.
+- [x] **7.8 PWA:** manifesto (`src/app/manifest.ts`), ícones (`scripts/gerar-icones.ts`), service worker só com a tela "sem internet" (`public/sw.js`, não guarda dados do aluno). Falta testar o layout em 360 px.
 
 ---
 

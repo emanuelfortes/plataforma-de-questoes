@@ -1,24 +1,27 @@
 @import "tailwindcss";
 
-/* Tokens de design. Troque aqui para mudar a identidade visual inteira. */
+/* Tokens de design: modelo 1c (Modo foco). Azul-marinho escuro + azul vibrante + âmbar. */
 @theme {
-  --color-fundo: #f6f6f3;
-  --color-superficie: #ffffff;
-  --color-borda: #e4e3de;
-  --color-texto: #1b1b19;
-  --color-suave: #6a6964;
+  --color-fundo: #081433;
+  --color-superficie: #0f2050;
+  --color-borda: rgba(255, 255, 255, 0.12);
+  --color-texto: #ffffff;
+  --color-suave: rgba(255, 255, 255, 0.6);
 
-  --color-marca: #0f766e;
-  --color-marca-forte: #115e59;
-  --color-marca-suave: #e5f2ef;
+  --color-marca: #2f6bff;
+  --color-marca-forte: #1d4ed8;
+  --color-marca-suave: rgba(47, 107, 255, 0.18);
+  --color-marca-clara: #9dbbff;
 
-  --color-acerto: #15803d;
-  --color-acerto-suave: #e7f4eb;
-  --color-erro: #b42318;
-  --color-erro-suave: #fbe9e7;
+  --color-destaque: #ffb020;
+  --color-destaque-suave: rgba(255, 176, 32, 0.15);
 
-  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
-    sans-serif;
+  --color-acerto: #4ade80;
+  --color-acerto-suave: rgba(74, 222, 128, 0.15);
+  --color-erro: #f87171;
+  --color-erro-suave: rgba(248, 113, 113, 0.15);
+
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
 }
 
 html {
@@ -31,26 +34,27 @@ body {
   font-family: var(--font-sans);
 }
 
-/* Virar o flashcard */
-.cena-card {
-  perspective: 1200px;
+/* Campos de formulário no fundo escuro */
+input, select {
+  color-scheme: dark;
 }
-.card-giro {
-  transform-style: preserve-3d;
-  transition: transform 0.45s cubic-bezier(0.2, 0.7, 0.2, 1);
+/* A lista aberta do select é desenhada pelo navegador; no Windows ela vem branca sem isso. */
+select option,
+select optgroup {
+  background-color: var(--color-superficie);
+  color: var(--color-texto);
 }
-.card-giro[data-virado="true"] {
-  transform: rotateY(180deg);
-}
-.card-face {
-  backface-visibility: hidden;
-}
-.card-verso {
-  transform: rotateY(180deg);
+select option:disabled {
+  color: var(--color-suave);
 }
 
+/* Virar o flashcard */
+.cena-card { perspective: 1200px; }
+.card-giro { transform-style: preserve-3d; transition: transform 0.45s cubic-bezier(0.2, 0.7, 0.2, 1); }
+.card-giro[data-virado="true"] { transform: rotateY(180deg); }
+.card-face { backface-visibility: hidden; }
+.card-verso { transform: rotateY(180deg); }
+
 @media (prefers-reduced-motion: reduce) {
-  .card-giro {
-    transition: none;
-  }
+  .card-giro { transition: none; }
 }

@@ -9,9 +9,11 @@ export const NOVOS_POR_SESSAO = 10;
 /**
  * Monta uma sessão: primeiro os cards vencidos (revisão), depois cards nunca vistos (novos).
  */
-export async function montarSessao(usuarioId: string, disciplinaId?: number) {
+export async function montarSessao(usuarioId: string, disciplinaId?: number, assuntoId?: number) {
   const agora = new Date();
-  const filtroDisciplina: SQL[] = disciplinaId ? [eq(flashcards.disciplinaId, disciplinaId)] : [];
+  const filtroDisciplina: SQL[] = [];
+  if (disciplinaId) filtroDisciplina.push(eq(flashcards.disciplinaId, disciplinaId));
+  if (assuntoId) filtroDisciplina.push(eq(flashcards.assuntoId, assuntoId));
 
   const campos = {
     id: flashcards.id,

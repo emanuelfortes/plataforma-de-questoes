@@ -1,8 +1,9 @@
 import "server-only";
-import { and, asc, count, eq, gt, isNotNull, isNull, sql, type SQL } from "drizzle-orm";
+import { and, asc, count, eq, gte, isNotNull, isNull, lt, sql, type SQL } from "drizzle-orm";
 import { db } from "@/db";
 import { assuntos, contagens, disciplinas, questoes, statusQuestao } from "@/db/schema";
 
+import { dificuldadePorNivel } from "@/lib/dificuldade";
 import type { FiltroStatus, StatusAluno } from "@/lib/filtros";
 
 export const TAMANHO_PAGINA = 20;
@@ -13,6 +14,9 @@ export type FiltrosQuestoes = {
   assuntoId?: number;
   status: FiltroStatus;
 };
+
+/** Posição na ordem embaralhada: a próxima página começa depois deste par. */
+export type CursorQuestoes = { ordem: number; id: number };
 
 export async function listarDisciplinas() {
   return db.select().from(disciplinas).orderBy(asc(disciplinas.nome));
@@ -27,50 +31,82 @@ export async function listarAssuntos(disciplinaId: number) {
 }
 
 /**
- * Lista questões com paginação por cursor (WHERE id > cursor). Nunca use OFFSET aqui:
- * com 1 milhão de linhas o OFFSET obriga o banco a ler todas as linhas anteriores.
+ * Lista questões em ordem embaralhada, com paginação por cursor. Nunca use OFFSET nem ORDER BY random():
+ * com 1 milhão de linhas os dois leem a tabela inteira.
+ *
+ * Cada questão recebe na importação uma posição sorteada ("ordem"), então níveis e áreas vêm misturados.
+ * Cada sessão começa num ponto sorteado ("inicio"): vai de inicio até o fim e depois dá a volta,
+ * do começo até inicio ("voltou"). Assim cada aluno, a cada sessão, vê uma sequência diferente.
+ *
  * O gabarito e o comentário NÃO saem desta função. Eles só são revelados por responderQuestao.
  */
-export async function listarQuestoes(filtros: FiltrosQuestoes & { cursor?: number }) {
-  const { usuarioId, disciplinaId, assuntoId, status, cursor } = filtros;
+export async function listarQuestoes(
+  filtros: FiltrosQuestoes & { inicio: number; cursor?: CursorQuestoes; voltou: boolean },
+) {
+  const { usuarioId, disciplinaId, assuntoId, status, inicio, cursor, voltou } = filtros;
 
   const condicoes: SQL[] = [];
   if (disciplinaId) condicoes.push(eq(questoes.disciplinaId, disciplinaId));
   if (assuntoId) condicoes.push(eq(questoes.assuntoId, assuntoId));
-  if (cursor) condicoes.push(gt(questoes.id, cursor));
 
   if (status === "nao_resolvidas") condicoes.push(isNull(statusQuestao.questaoId));
   if (status === "resolvidas") condicoes.push(isNotNull(statusQuestao.questaoId));
   if (status === "acertei") condicoes.push(eq(statusQuestao.ultimaCorreta, true));
   if (status === "errei") condicoes.push(eq(statusQuestao.ultimaCorreta, false));
 
-  const linhas = await db
-    .select({
-      id: questoes.id,
-      codigo: questoes.codigo,
-      banca: questoes.banca,
-      ano: questoes.ano,
-      enunciado: questoes.enunciado,
-      alternativas: questoes.alternativas,
-      disciplina: disciplinas.nome,
-      assunto: assuntos.nome,
-      ultimaCorreta: statusQuestao.ultimaCorreta,
-      tentativas: statusQuestao.tentativas,
-    })
-    .from(questoes)
-    .innerJoin(disciplinas, eq(disciplinas.id, questoes.disciplinaId))
-    .leftJoin(assuntos, eq(assuntos.id, questoes.assuntoId))
-    .leftJoin(
-      statusQuestao,
-      and(eq(statusQuestao.questaoId, questoes.id), eq(statusQuestao.usuarioId, usuarioId)),
-    )
-    .where(condicoes.length ? and(...condicoes) : undefined)
-    .orderBy(asc(questoes.id))
-    .limit(TAMANHO_PAGINA + 1);
+  const depoisDoCursor = cursor
+    ? sql`(${questoes.ordem}, ${questoes.id}) > (${cursor.ordem}, ${cursor.id})`
+    : undefined;
+
+  const buscar = (trecho: SQL | undefined, limite: number) =>
+    db
+      .select({
+        id: questoes.id,
+        ordem: questoes.ordem,
+        codigo: questoes.codigo,
+        banca: questoes.banca,
+        ano: questoes.ano,
+        enunciado: questoes.enunciado,
+        alternativas: questoes.alternativas,
+        nivel: questoes.dificuldade,
+        disciplina: disciplinas.nome,
+        assunto: assuntos.nome,
+        ultimaCorreta: statusQuestao.ultimaCorreta,
+        tentativas: statusQuestao.tentativas,
+      })
+      .from(questoes)
+      .innerJoin(disciplinas, eq(disciplinas.id, questoes.disciplinaId))
+      .leftJoin(assuntos, eq(assuntos.id, questoes.assuntoId))
+      .leftJoin(
+        statusQuestao,
+        and(eq(statusQuestao.questaoId, questoes.id), eq(statusQuestao.usuarioId, usuarioId)),
+      )
+      .where(and(...condicoes, trecho))
+      .orderBy(asc(questoes.ordem), asc(questoes.id))
+      .limit(limite);
+
+  // Trecho 1: de "inicio" até o fim. Trecho 2 (a volta): do começo até "inicio".
+  type Linha = Awaited<ReturnType<typeof buscar>>[number] & { daVolta: boolean };
+  let linhas: Linha[];
+  if (!voltou) {
+    const primeiro = await buscar(depoisDoCursor ?? gte(questoes.ordem, inicio), TAMANHO_PAGINA + 1);
+    linhas = primeiro.map((l) => ({ ...l, daVolta: false }));
+    if (primeiro.length <= TAMANHO_PAGINA && inicio > 0) {
+      const volta = await buscar(lt(questoes.ordem, inicio), TAMANHO_PAGINA + 1 - primeiro.length);
+      linhas.push(...volta.map((l) => ({ ...l, daVolta: true })));
+    }
+  } else {
+    const volta = await buscar(and(lt(questoes.ordem, inicio), depoisDoCursor), TAMANHO_PAGINA + 1);
+    linhas = volta.map((l) => ({ ...l, daVolta: true }));
+  }
 
   const temMais = linhas.length > TAMANHO_PAGINA;
-  const pagina = linhas.slice(0, TAMANHO_PAGINA).map((l) => ({
+  const visiveis = linhas.slice(0, TAMANHO_PAGINA);
+  const ultima = visiveis[visiveis.length - 1];
+
+  const pagina = visiveis.map(({ nivel, ordem: _ordem, daVolta: _daVolta, ...l }) => ({
     ...l,
+    dificuldade: dificuldadePorNivel(nivel),
     status: (l.tentativas == null
       ? "nao_resolvida"
       : l.ultimaCorreta
@@ -80,7 +116,10 @@ export async function listarQuestoes(filtros: FiltrosQuestoes & { cursor?: numbe
 
   return {
     questoes: pagina,
-    proximoCursor: temMais ? pagina[pagina.length - 1]?.id : undefined,
+    proximo:
+      temMais && ultima
+        ? { cursor: { ordem: ultima.ordem, id: ultima.id }, voltou: ultima.daVolta }
+        : undefined,
   };
 }
 
@@ -94,11 +133,11 @@ export async function contarPorStatus(filtros: Omit<FiltrosQuestoes, "status">) 
   const { usuarioId, disciplinaId, assuntoId } = filtros;
 
   const chave = assuntoId ? `q:a:${assuntoId}` : disciplinaId ? `q:d:${disciplinaId}` : "q:total";
-  const [base] = await db
+  const [linhaTotal] = await db
     .select({ total: contagens.total })
     .from(contagens)
     .where(eq(contagens.chave, chave));
-  const totalBanco = base?.total ?? 0;
+  const totalBanco = linhaTotal?.total ?? 0;
 
   const condicoes: SQL[] = [eq(statusQuestao.usuarioId, usuarioId)];
   if (disciplinaId) condicoes.push(eq(questoes.disciplinaId, disciplinaId));
@@ -138,4 +177,3 @@ export async function obterGabarito(questaoId: number) {
     .where(eq(questoes.id, questaoId));
   return q;
 }
-
