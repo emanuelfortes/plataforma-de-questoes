@@ -18,9 +18,9 @@ export function AvisoConfirmarEmail({ email }: { email: string }) {
 
   return (
     <div className="border-b border-borda bg-marca-suave">
-      <div className="mx-auto flex max-w-4xl flex-wrap items-center gap-x-3 gap-y-1 px-4 py-2 text-sm text-marca-forte">
+      <div className="mx-auto flex max-w-4xl flex-wrap items-center gap-x-3 gap-y-1 px-5 py-2.5 text-sm text-marca-clara">
         <span>
-          Confirme seu e-mail (<strong className="font-medium">{email}</strong>) para poder recuperar a
+          Confirme seu e-mail (<strong className="font-medium break-all">{email}</strong>) para poder recuperar a
           senha se precisar.
         </span>
         {retorno ? (

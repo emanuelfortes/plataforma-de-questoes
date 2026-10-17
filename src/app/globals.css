@@ -32,6 +32,16 @@ body {
   background: var(--color-fundo);
   color: var(--color-texto);
   font-family: var(--font-sans);
+  /* Palavra ou link muito longo (enunciado, nome de matéria) quebra em vez de vazar a tela. */
+  overflow-wrap: break-word;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* No iPhone, campo com fonte menor que 16px dá zoom ao tocar e a página fica larga. */
+@media (max-width: 767px) {
+  input, select, textarea {
+    font-size: 16px !important;
+  }
 }
 
 /* Campos de formulário no fundo escuro */
@@ -47,6 +57,10 @@ select optgroup {
 select option:disabled {
   color: var(--color-suave);
 }
+
+/* Lista que rola para o lado sem mostrar a barra de rolagem */
+.sem-barra { scrollbar-width: none; }
+.sem-barra::-webkit-scrollbar { display: none; }
 
 /* Virar o flashcard */
 .cena-card { perspective: 1200px; }

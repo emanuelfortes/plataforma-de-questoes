@@ -55,20 +55,21 @@ export function SessaoFlashcards({ cards }: { cards: CardSessao[] }) {
         className="cena-card block w-full text-left"
         aria-label={virado ? "Mostrar frente" : "Mostrar resposta"}
       >
-        <div className="card-giro relative min-h-[300px]" data-virado={virado}>
-          <div className="card-face absolute inset-0 flex flex-col rounded-[20px] bg-white p-8 text-[#0B1733] shadow-[0_20px_50px_rgba(0,0,0,.35)]">
-            <div className="flex justify-between text-xs font-extrabold">
-              <span className="uppercase tracking-[.08em] text-[#5B6B8C]">Frente · {atual.disciplina}</span>
-              <span className="text-marca">
+        {/* As duas faces ocupam a mesma célula do grid: o card cresce até a face com mais texto. */}
+        <div className="card-giro grid" data-virado={virado}>
+          <div className="card-face flex min-h-[280px] flex-col gap-4 rounded-[20px] bg-white p-5 text-[#0B1733] shadow-[0_20px_50px_rgba(0,0,0,.35)] [grid-area:1/1] sm:min-h-[300px] sm:p-8">
+            <div className="flex items-start justify-between gap-3 text-xs font-extrabold">
+              <span className="min-w-0 truncate uppercase tracking-[.08em] text-[#5B6B8C]">Frente · {atual.disciplina}</span>
+              <span className="shrink-0 text-marca">
                 {indice + 1} / {cards.length} · {atual.tipo === "novo" ? "Novo" : "Revisão"}
               </span>
             </div>
-            <p className="m-auto max-w-[480px] whitespace-pre-line text-center text-[26px] font-bold leading-[1.4]">{atual.frente}</p>
+            <p className="m-auto max-w-[480px] whitespace-pre-line text-center text-xl font-bold leading-[1.4] sm:text-[26px]">{atual.frente}</p>
             <span className="text-center text-[13px] font-bold text-[#5B6B8C]">Toque para ver a resposta</span>
           </div>
-          <div className="card-face card-verso absolute inset-0 flex flex-col rounded-[20px] bg-marca p-8 text-white">
+          <div className="card-face card-verso flex min-h-[280px] flex-col gap-4 rounded-[20px] bg-marca p-5 text-white [grid-area:1/1] sm:min-h-[300px] sm:p-8">
             <span className="text-xs font-extrabold uppercase tracking-[.08em] text-white/70">Verso</span>
-            <p className="m-auto max-w-[480px] whitespace-pre-line text-center text-[26px] font-bold leading-[1.4]">{atual.verso}</p>
+            <p className="m-auto max-w-[480px] whitespace-pre-line text-center text-xl font-bold leading-[1.4] sm:text-[26px]">{atual.verso}</p>
           </div>
         </div>
       </button>
@@ -80,7 +81,7 @@ export function SessaoFlashcards({ cards }: { cards: CardSessao[] }) {
           <Button
             key={nota}
             variante="contorno"
-            className={cn("h-[50px] rounded-xl border-[1.5px] bg-transparent font-extrabold", classe)}
+            className={cn("h-[50px] rounded-xl border-[1.5px] bg-transparent px-1 font-extrabold", classe)}
             disabled={!virado || salvando}
             onClick={() => avaliar(nota)}
           >

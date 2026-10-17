@@ -15,3 +15,11 @@ export function lerId(valor: string | undefined) {
   const n = Number(valor);
   return Number.isInteger(n) && n > 0 ? n : undefined;
 }
+
+/** Áreas escolhidas juntas (?assunto=3&assunto=7). Sem nenhuma = todas as áreas da matéria. */
+export const MAX_AREAS = 30;
+export function lerIds(valor: string | string[] | undefined) {
+  const lista = Array.isArray(valor) ? valor : valor ? [valor] : [];
+  const ids = lista.map(lerId).filter((n): n is number => n !== undefined);
+  return [...new Set(ids)].slice(0, MAX_AREAS);
+}

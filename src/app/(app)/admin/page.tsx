@@ -10,7 +10,7 @@ export const metadata: Metadata = { title: "Área do dono" };
 
 function Passo({ numero, titulo, children }: { numero: number; titulo: string; children: React.ReactNode }) {
   return (
-    <Card className="space-y-5 border-borda bg-white/5 p-6">
+    <Card className="space-y-5 border-borda bg-white/5 p-4 sm:p-6">
       <h2 className="flex items-center gap-3 text-lg font-extrabold">
         <span className="grid size-8 place-items-center rounded-lg bg-marca text-sm text-white">{numero}</span>
         {titulo}
@@ -42,7 +42,7 @@ export default async function PaginaAdmin() {
     <div className="mx-auto max-w-3xl space-y-8">
       <div>
         <p className="text-[13px] font-bold uppercase tracking-[.06em] text-destaque">Área do dono</p>
-        <h1 className="mt-1 text-[34px] font-extrabold leading-[1.1] tracking-[-.03em]">Alimentar a plataforma</h1>
+        <h1 className="mt-1 text-[28px] sm:text-[34px] font-extrabold leading-[1.1] tracking-[-.03em]">Alimentar a plataforma</h1>
         <p className="mt-2 text-sm text-suave">
           Gere o prompt, mande para a IA junto com o PDF e importe o arquivo que ela devolver.
         </p>

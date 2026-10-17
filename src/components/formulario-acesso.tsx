@@ -21,7 +21,7 @@ export function CaixaAcesso({
   rodape?: React.ReactNode;
 }) {
   return (
-    <main className="grid min-h-dvh place-items-center px-4">
+    <main className="grid min-h-dvh place-items-center px-5">
       <div className="w-full max-w-[380px] space-y-6">
         <div className="flex items-center gap-2.5 font-extrabold">
           <span className="grid size-8 place-items-center rounded-lg bg-marca text-sm text-white">RN</span>

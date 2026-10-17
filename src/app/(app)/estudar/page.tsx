@@ -1,8 +1,8 @@
-import { BookOpenCheck, ChevronRight, Layers } from "lucide-react";
+import { BookOpenCheck, Check, ChevronRight, Layers } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Button } from "@/components/ui/button";
+import { BarraConfirmar } from "@/components/estudar/barra-confirmar";
 import { lerId } from "@/lib/filtros";
 import { exigirUsuario } from "@/lib/sessao";
 import { cn, formatarNumero } from "@/lib/utils";
@@ -26,7 +26,7 @@ const TIPOS: Record<TipoEstudo, { rotulo: string; descricao: string; destino: st
 };
 
 const classeOpcao =
-  "flex items-center justify-between gap-4 rounded-2xl border border-borda bg-white/5 px-5 py-4 transition-colors hover:border-marca hover:bg-marca-suave";
+  "flex items-center justify-between gap-4 rounded-2xl border border-borda bg-white/5 px-4 py-4 transition-colors hover:border-marca hover:bg-marca-suave sm:px-5";
 const classeRadio =
   "flex cursor-pointer items-center justify-between gap-3 rounded-xl border border-borda bg-white/5 px-4 py-3 text-sm font-bold transition-colors hover:bg-white/10 has-[:checked]:border-marca has-[:checked]:bg-marca-suave";
 
@@ -34,7 +34,7 @@ function Cabecalho({ passo, titulo, voltar }: { passo: string; titulo: string; v
   return (
     <div>
       <p className="text-[13px] font-bold uppercase tracking-[.06em] text-destaque">{passo}</p>
-      <h1 className="mt-1 text-[34px] font-extrabold leading-[1.1] tracking-[-.03em]">{titulo}</h1>
+      <h1 className="mt-1 text-[28px] sm:text-[34px] font-extrabold leading-[1.1] tracking-[-.03em]">{titulo}</h1>
       {voltar && (
         <Link href={voltar} className="mt-3 inline-block text-sm font-bold text-marca-clara hover:underline">
           Voltar
@@ -71,7 +71,7 @@ export default async function PaginaEstudar({ searchParams }: { searchParams: Pa
               <Link
                 key={t}
                 href={`/estudar?tipo=${t}`}
-                className="group rounded-2xl border border-borda bg-white/5 p-6 transition-colors hover:border-marca hover:bg-marca-suave"
+                className="group rounded-2xl border border-borda bg-white/5 p-5 transition-colors sm:p-6 hover:border-marca hover:bg-marca-suave"
               >
                 <Icone className="size-7 text-marca-clara" aria-hidden />
                 <p className="mt-4 text-xl font-extrabold">{TIPOS[t].rotulo}</p>
@@ -103,8 +103,8 @@ export default async function PaginaEstudar({ searchParams }: { searchParams: Pa
           <div className="grid gap-3 sm:grid-cols-2">
             {materias.map((m) => (
               <Link key={m.id} href={`/estudar?tipo=${tipo}&disciplina=${m.id}`} className={classeOpcao}>
-                <span className="font-extrabold">{m.nome}</span>
-                <span className="flex items-center gap-2">
+                <span className="min-w-0 font-extrabold">{m.nome}</span>
+                <span className="flex shrink-0 items-center gap-2">
                   <Total n={m.total} rotulo={unidade} />
                   <ChevronRight className="size-4 text-suave" aria-hidden />
                 </span>
@@ -120,36 +120,57 @@ export default async function PaginaEstudar({ searchParams }: { searchParams: Pa
     );
   }
 
-  // Passo 3: área (opcional). O nível não é escolhido: as questões vêm misturadas, como na prova.
-  // Formulário GET: funciona sem JavaScript.
+  // Passo 3: áreas (opcional, uma ou várias). O nível não é escolhido: as questões vêm misturadas, como na prova.
   const materia = await detalharMateria(tipo, disciplinaId);
   if (!materia) notFound();
+  const todasAsAreas = `Todas as áreas de ${materia.disciplina.nome}`;
 
   return (
     <div className="mx-auto max-w-3xl space-y-8">
       <Cabecalho
         passo={`Passo 3 de 3 · ${TIPOS[tipo].rotulo} · ${materia.disciplina.nome}`}
-        titulo="Tudo da matéria ou uma área específica?"
+        titulo="Tudo da matéria ou só algumas áreas?"
         voltar={`/estudar?tipo=${tipo}`}
       />
 
-      <form action={TIPOS[tipo].destino} className="space-y-8">
+      {/* Formulário GET: as áreas marcadas viram ?assunto=1&assunto=2. Nenhuma marcada = todas. */}
+      <form action={TIPOS[tipo].destino} className="group/form space-y-6">
         <input type="hidden" name="disciplina" value={materia.disciplina.id} />
+        <BarraConfirmar todas={{ nome: todasAsAreas, total: materia.total }} unidade={unidade} />
 
         <fieldset className="space-y-3">
-          <legend className="mb-3 text-sm font-bold text-texto/75">Área</legend>
-          <label className={classeRadio}>
-            <span className="flex items-center gap-3">
-              <input type="radio" name="assunto" value="" defaultChecked className="accent-marca" />
-              Todas as áreas de {materia.disciplina.nome}
+          <legend className="mb-3 text-sm font-bold text-texto/75">Marque uma ou mais áreas</legend>
+          {/* "Todas" limpa a seleção (reset nativo, funciona sem JavaScript). Fica marcada enquanto nada está. */}
+          <button
+            type="reset"
+            className={cn(
+              classeRadio,
+              "w-full border-marca bg-marca-suave text-left group-has-[:checked]/form:border-borda group-has-[:checked]/form:bg-white/5",
+            )}
+          >
+            <span className="flex min-w-0 items-center gap-3">
+              <span className="grid size-5 shrink-0 place-items-center rounded-full bg-marca group-has-[:checked]/form:bg-transparent group-has-[:checked]/form:ring-[1.5px] group-has-[:checked]/form:ring-white/30">
+                <Check className="size-3.5 text-white group-has-[:checked]/form:opacity-0" strokeWidth={3} aria-hidden />
+              </span>
+              {todasAsAreas}
             </span>
             <Total n={materia.total} rotulo={unidade} />
-          </label>
+          </button>
           <div className="grid gap-2 sm:grid-cols-2">
             {materia.areas.map((a) => (
               <label key={a.id} className={cn(classeRadio, "font-semibold")}>
-                <span className="flex items-center gap-3">
-                  <input type="radio" name="assunto" value={a.id} className="accent-marca" />
+                <span className="flex min-w-0 items-center gap-3">
+                  <input
+                    type="checkbox"
+                    name="assunto"
+                    value={a.id}
+                    data-nome={a.nome}
+                    data-total={a.total}
+                    className="peer sr-only"
+                  />
+                  <span className="grid size-5 shrink-0 place-items-center rounded-md border-[1.5px] border-white/30 transition-colors peer-checked:border-marca peer-checked:bg-marca peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-marca [&_svg]:opacity-0 peer-checked:[&_svg]:opacity-100">
+                    <Check className="size-3.5 text-white" strokeWidth={3} aria-hidden />
+                  </span>
                   {a.nome}
                 </span>
                 <Total n={a.total} rotulo="" />
@@ -157,11 +178,6 @@ export default async function PaginaEstudar({ searchParams }: { searchParams: Pa
             ))}
           </div>
         </fieldset>
-
-
-        <Button type="submit" tamanho="grande" className="w-full px-9 shadow-[0_8px_24px_rgba(47,107,255,.4)] sm:w-auto">
-          Começar
-        </Button>
       </form>
     </div>
   );

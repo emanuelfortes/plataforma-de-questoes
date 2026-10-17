@@ -10,7 +10,7 @@ export default function Erro({ error, reset }: { error: Error & { digest?: strin
   }, [error]);
 
   return (
-    <main className="grid min-h-[60dvh] place-items-center px-4">
+    <main className="grid min-h-[60dvh] place-items-center px-5">
       <div className="max-w-sm text-center">
         <h1 className="text-2xl font-semibold tracking-tight">Algo deu errado</h1>
         <p className="mt-2 text-sm text-suave">

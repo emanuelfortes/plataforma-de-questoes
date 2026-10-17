@@ -40,7 +40,12 @@ export function Filtros({ contagens, atual }: Props) {
 
   return (
     <section aria-label="Filtros" className={cn("space-y-4 transition-opacity", pendente && "opacity-60")}>
-      <div role="radiogroup" aria-label="Status" className="flex flex-wrap gap-2">
+      {/* No celular, uma linha que rola para o lado (sangra até a borda da tela). */}
+      <div
+        role="radiogroup"
+        aria-label="Status"
+        className="sem-barra -mx-5 flex gap-2 overflow-x-auto px-5 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0"
+      >
         {FILTROS_STATUS.map((status) => {
           const ativo = atual.status === status;
           return (
@@ -51,7 +56,7 @@ export function Filtros({ contagens, atual }: Props) {
               aria-checked={ativo}
               onClick={() => aplicar({ status: status === "todas" ? undefined : status })}
               className={cn(
-                "inline-flex h-[34px] items-center gap-2 rounded-full border px-3 text-xs font-bold transition-colors",
+                "inline-flex h-9 shrink-0 items-center gap-2 whitespace-nowrap rounded-full border px-3 text-xs font-bold transition-colors",
                 ativo ? "border-marca bg-marca text-white" : "border-borda bg-white/5 text-texto/75 hover:bg-white/10",
               )}
             >

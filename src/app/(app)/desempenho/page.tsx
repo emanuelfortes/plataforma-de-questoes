@@ -24,9 +24,9 @@ export default async function PaginaDesempenho() {
         </p>
       </div>
 
-      <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5" aria-label="Resumo por período">
+      <section className="grid grid-cols-2 gap-3 lg:grid-cols-5" aria-label="Resumo por período">
         {janelas.map((j) => (
-          <Card key={j.chave} className="p-4">
+          <Card key={j.chave} className="p-4 first:col-span-2 lg:first:col-span-1">
             <p className="text-xs font-medium text-suave">{j.rotulo}</p>
             <p
               className={cn(
@@ -63,7 +63,7 @@ export default async function PaginaDesempenho() {
       </section>
 
       <Card>
-        <div className="mb-4 flex items-center justify-between">
+        <div className="mb-4 flex flex-wrap items-center justify-between gap-x-4 gap-y-2">
           <CardTitulo>Últimos 30 dias</CardTitulo>
           <div className="flex gap-4 text-xs text-suave">
             <span className="flex items-center gap-1.5">
@@ -77,7 +77,7 @@ export default async function PaginaDesempenho() {
         <GraficoDiario dados={serie} />
       </Card>
 
-      <Card>
+      <Card className="p-4 sm:p-5">
         <CardTitulo className="mb-4">Por disciplina (30 dias)</CardTitulo>
         {porDisciplina.length === 0 ? (
           <p className="text-sm text-suave">Resolva algumas questões para ver este quadro.</p>
@@ -86,21 +86,21 @@ export default async function PaginaDesempenho() {
             <table className="w-full text-sm">
               <thead>
                 <tr className="border-b border-borda text-left text-xs text-suave">
-                  <th className="py-2 font-medium">Disciplina</th>
-                  <th className="py-2 text-right font-medium">Resolvidas</th>
-                  <th className="py-2 text-right font-medium">Acertos</th>
-                  <th className="py-2 text-right font-medium">Erros</th>
-                  <th className="py-2 text-right font-medium">%</th>
+                  <th className="py-2 pr-3 font-medium">Disciplina</th>
+                  <th className="hidden py-2 pl-4 text-right sm:table-cell font-medium">Resolvidas</th>
+                  <th className="py-2 pl-4 text-right font-medium">Acertos</th>
+                  <th className="py-2 pl-4 text-right font-medium">Erros</th>
+                  <th className="py-2 pl-4 text-right font-medium">%</th>
                 </tr>
               </thead>
               <tbody>
                 {porDisciplina.map((d) => (
                   <tr key={d.disciplina} className="border-b border-borda last:border-0">
                     <td className="py-2.5">{d.disciplina}</td>
-                    <td className="py-2.5 text-right tabular-nums">{formatarNumero(d.total)}</td>
-                    <td className="py-2.5 text-right tabular-nums text-acerto">{formatarNumero(d.acertos)}</td>
-                    <td className="py-2.5 text-right tabular-nums text-erro">{formatarNumero(d.erros)}</td>
-                    <td className="py-2.5 text-right font-semibold tabular-nums">{d.percentual}%</td>
+                    <td className="hidden py-2.5 pl-4 text-right sm:table-cell tabular-nums">{formatarNumero(d.total)}</td>
+                    <td className="py-2.5 pl-4 text-right tabular-nums text-acerto">{formatarNumero(d.acertos)}</td>
+                    <td className="py-2.5 pl-4 text-right tabular-nums text-erro">{formatarNumero(d.erros)}</td>
+                    <td className="py-2.5 pl-4 text-right font-semibold tabular-nums">{d.percentual}%</td>
                   </tr>
                 ))}
               </tbody>

@@ -58,12 +58,16 @@ export async function detalharMateria(tipo: TipoEstudo, disciplinaId: number) {
 }
 
 /** Nomes para o cabeçalho "Matéria · Área" das telas de questões e flashcards. */
-export async function nomesSelecao(disciplinaId?: number, assuntoId?: number) {
+export async function nomesSelecao(disciplinaId?: number, assuntoIds: number[] = []) {
   const [d] = disciplinaId
     ? await db.select({ nome: disciplinas.nome }).from(disciplinas).where(eq(disciplinas.id, disciplinaId))
     : [];
-  const [a] = assuntoId
-    ? await db.select({ nome: assuntos.nome }).from(assuntos).where(eq(assuntos.id, assuntoId))
+  const areas = assuntoIds.length
+    ? await db
+        .select({ nome: assuntos.nome })
+        .from(assuntos)
+        .where(inArray(assuntos.id, assuntoIds))
+        .orderBy(asc(assuntos.nome))
     : [];
-  return { disciplina: d?.nome, assunto: a?.nome };
+  return { disciplina: d?.nome, assunto: areas.map((a) => a.nome).join(" + ") || undefined };
 }

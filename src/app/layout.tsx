@@ -24,6 +24,8 @@ export const viewport: Viewport = {
   colorScheme: "dark",
   width: "device-width",
   initialScale: 1,
+  // Libera env(safe-area-inset-*) para a barra de abas não ficar sob a barra de gestos do iPhone.
+  viewportFit: "cover",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
