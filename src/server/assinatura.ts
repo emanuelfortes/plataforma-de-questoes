@@ -1,5 +1,5 @@
 import "server-only";
-import { and, count, desc, eq, gte, sql } from "drizzle-orm";
+import { and, count, desc, eq, gte, ne, or, sql } from "drizzle-orm";
 import { Invoice, MercadoPagoConfig, PreApproval } from "mercadopago";
 import { db } from "@/db";
 import { assinaturas, pagamentos, respostas, user } from "@/db/schema";
@@ -89,6 +89,13 @@ export async function sincronizarPagamento(id: string) {
   // A cobrança só é desta plataforma se a assinatura for (o aviso pode chegar antes dela).
   const usuarioId = (await sincronizarAssinatura(p.preapproval_id)) ?? null;
   if (!usuarioId) return;
+  await salvarPagamento(p, usuarioId);
+}
+
+type CobrancaMP = Awaited<ReturnType<Invoice["get"]>>;
+
+async function salvarPagamento(p: CobrancaMP, usuarioId: string) {
+  if (!p.id || !p.preapproval_id) return;
   const agora = new Date();
   const valores = {
     assinaturaId: p.preapproval_id,
@@ -102,6 +109,36 @@ export async function sincronizarPagamento(id: string) {
     .insert(pagamentos)
     .values({ id: String(p.id), ...valores })
     .onConflictDoUpdate({ target: pagamentos.id, set: valores });
+}
+
+/**
+ * Conferência diária (cron): atualiza no Mercado Pago todas as assinaturas que ainda importam
+ * e as cobranças de cada uma. Garante renovações, recusas e cancelamentos mesmo sem webhook
+ * (a conta do Mercado Pago é compartilhada e o webhook dela aponta para outro produto).
+ */
+export async function sincronizarTodas() {
+  const umMesAtras = new Date(Date.now() - 35 * 24 * 60 * 60 * 1000);
+  const lista = await db
+    .select({ id: assinaturas.id, usuarioId: assinaturas.usuarioId })
+    .from(assinaturas)
+    .where(or(ne(assinaturas.status, "cancelled"), gte(assinaturas.atualizadaEm, umMesAtras)));
+  const faturas = new Invoice(cliente());
+  let cobrancas = 0;
+  const falhas: string[] = [];
+  for (const a of lista) {
+    try {
+      await sincronizarAssinatura(a.id);
+      const r = await faturas.search({ options: { preapproval_id: a.id, limit: 50 } });
+      for (const p of r.results ?? []) {
+        await salvarPagamento(p, a.usuarioId);
+        cobrancas++;
+      }
+    } catch (erro) {
+      console.error(`[assinatura] falha ao conferir ${a.id}:`, erro);
+      falhas.push(a.id);
+    }
+  }
+  return { assinaturas: lista.length, cobrancas, falhas };
 }
 
 export async function cancelarAssinatura(id: string) {

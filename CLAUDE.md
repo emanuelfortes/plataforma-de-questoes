@@ -53,7 +53,8 @@ src/
     (app)/desempenho                      janelas, gráfico diário, por disciplina
     (app)/admin                           área do dono (ADMIN_EMAILS): gera o prompt de IA, importa o arquivo e mostra o faturamento
     (app)/assinatura                      assinatura mensal (Mercado Pago), cancelar, limite grátis do dia
-    api/mercadopago/webhook               avisos do Mercado Pago (assinatura e cobranças)
+    api/mercadopago/webhook               avisos do Mercado Pago (assinatura e cobranças), opcional
+    api/cron/assinaturas                  conferência diária no Mercado Pago (vercel.json, CRON_SECRET)
     api/auth/[...all]                     rotas do Better Auth
   components/                             UI (ui/ são primitivos genéricos)
   db/schema/                              auth.ts, conteudo.ts, estudo.ts
@@ -115,6 +116,6 @@ data/catalogo.json                        nomes preferidos de matérias e áreas
 
 ## Ambiente
 
-- `.env.local` (copie de `.env.example`): `TURSO_DATABASE_URL`, `TURSO_AUTH_TOKEN`, `BETTER_AUTH_SECRET`, `BETTER_AUTH_URL`, `ADMIN_EMAILS`, `MP_ACCESS_TOKEN`, `MP_WEBHOOK_SECRET`, `GMAIL_USUARIO`, `GMAIL_SENHA_APP` (ou `RESEND_API_KEY` e `EMAIL_REMETENTE` com domínio próprio).
+- `.env.local` (copie de `.env.example`): `TURSO_DATABASE_URL`, `TURSO_AUTH_TOKEN`, `BETTER_AUTH_SECRET`, `BETTER_AUTH_URL`, `ADMIN_EMAILS`, `MP_ACCESS_TOKEN`, `MP_WEBHOOK_SECRET`, `CRON_SECRET`, `GMAIL_USUARIO`, `GMAIL_SENHA_APP` (ou `RESEND_API_KEY` e `EMAIL_REMETENTE` com domínio próprio).
 - E-mails (recuperar senha, confirmar e-mail) saem por `src/server/email.ts`. Usa o Gmail se configurado, senão o Resend, senão só imprime no terminal.
 - Sem `TURSO_DATABASE_URL` o app usa `file:local.db`. Na Vercel o modo arquivo não funciona: use sempre a URL do Turso.
