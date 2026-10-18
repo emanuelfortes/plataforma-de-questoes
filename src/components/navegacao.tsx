@@ -2,9 +2,11 @@
 
 import { ChartColumn, Flame, GraduationCap, LogOut, ShieldCheck, UserRound, type LucideIcon } from "lucide-react";
 import Link from "next/link";
+import { Logo } from "@/components/logo";
 import { usePathname, useRouter } from "next/navigation";
 import { authClient } from "@/lib/auth-client";
 import { cn } from "@/lib/utils";
+import { NOME_PLATAFORMA } from "@/lib/marca";
 
 type ItemNav = { href: string; rotulo: string; Icone: LucideIcon; ativoEm: string[] };
 
@@ -27,8 +29,8 @@ type Props = {
 function Marca() {
   return (
     <Link href="/estudar" className="flex min-w-0 items-center gap-2.5 font-extrabold">
-      <span className="grid size-7 shrink-0 place-items-center rounded-lg bg-marca text-xs text-white">RN</span>
-      <span className="truncate text-[15px]">Riccardo Nobrega</span>
+      <Logo tamanho={32} />
+      <span className="truncate text-[15px]">{NOME_PLATAFORMA}</span>
     </Link>
   );
 }

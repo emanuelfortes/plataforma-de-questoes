@@ -126,7 +126,7 @@ Todos com plano gratuito. Limites mudam: confira as páginas de preço antes de 
 - [ ] **8.1 Hospedagem comercial:** Vercel Pro ou migrar para Cloudflare (Workers + OpenNext), que permite uso comercial no grátis.
 - [ ] **8.2 Planos:** grátis (limite de questões por dia) e premium.
 - [ ] **8.3 Pagamento:** Mercado Pago ou Stripe (Pix e cartão), webhook que ativa o plano.
-- [ ] **8.4 Página de vendas** e termos de uso / política de privacidade.
+- [ ] **8.4 Página de vendas.** (Termos de uso e política de privacidade já feitos em `/termos` e `/privacidade`; dados do responsável e WhatsApp em `src/lib/legal.ts`.)
 
 ---
 

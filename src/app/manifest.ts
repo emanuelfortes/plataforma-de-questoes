@@ -1,11 +1,12 @@
 import type { MetadataRoute } from "next";
+import { NOME_CURTO, NOME_PLATAFORMA } from "@/lib/marca";
 
 // Manifesto do PWA: é o que permite "Instalar app" / "Adicionar à tela inicial".
 // Ícones gerados por scripts/gerar-icones.ts. Cores = tokens de src/app/globals.css.
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Riccardo Nobrega",
-    short_name: "R. Nobrega",
+    name: NOME_PLATAFORMA,
+    short_name: NOME_CURTO,
     description: "Resolva questões, revise com flashcards e acompanhe seu desempenho.",
     lang: "pt-BR",
     start_url: "/estudar",

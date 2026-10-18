@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import {
   ExcluirConta,
   FormularioNome,
@@ -55,6 +56,16 @@ export default async function PaginaConta({
       <SairDosOutrosAparelhos />
       <MeusDados />
       <ExcluirConta />
+
+      <p className="text-center text-xs text-suave">
+        <Link href="/termos" className="hover:text-texto">
+          Termos de uso
+        </Link>{" "}
+        ·{" "}
+        <Link href="/privacidade" className="hover:text-texto">
+          Política de privacidade
+        </Link>
+      </p>
     </div>
   );
 }

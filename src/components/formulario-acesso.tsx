@@ -1,12 +1,14 @@
 "use client";
 
 import Link from "next/link";
+import { Logo } from "@/components/logo";
 import { useRouter } from "next/navigation";
 import { useState, useTransition } from "react";
 import { CampoSenha, classeCampo } from "@/components/campo-senha";
 import { Button } from "@/components/ui/button";
 import { authClient } from "@/lib/auth-client";
 import { traduzirErroAuth } from "@/lib/erros-auth";
+import { NOME_PLATAFORMA } from "@/lib/marca";
 
 /** Moldura comum das telas públicas. */
 export function CaixaAcesso({
@@ -24,8 +26,8 @@ export function CaixaAcesso({
     <main className="grid min-h-dvh place-items-center px-5">
       <div className="w-full max-w-[380px] space-y-6">
         <div className="flex items-center gap-2.5 font-extrabold">
-          <span className="grid size-8 place-items-center rounded-lg bg-marca text-sm text-white">RN</span>
-          <span>Riccardo Nobrega</span>
+          <Logo tamanho={44} />
+          <span>{NOME_PLATAFORMA}</span>
         </div>
         <div>
           <p className="text-[13px] font-bold uppercase tracking-[.06em] text-destaque">{subtitulo}</p>
@@ -33,6 +35,15 @@ export function CaixaAcesso({
         </div>
         {children}
         {rodape && <p className="text-sm text-suave">{rodape}</p>}
+        <p className="text-xs text-suave">
+          <Link href="/termos" className="hover:text-texto">
+            Termos de uso
+          </Link>{" "}
+          ·{" "}
+          <Link href="/privacidade" className="hover:text-texto">
+            Privacidade
+          </Link>
+        </p>
       </div>
     </main>
   );
@@ -103,6 +114,19 @@ export function FormularioAcesso({ modo, aviso }: { modo: "entrar" | "cadastrar"
         <Button type="submit" tamanho="grande" className="w-full shadow-[0_8px_24px_rgba(47,107,255,.4)]" disabled={enviando}>
           {enviando ? "Aguarde..." : modo === "entrar" ? "Entrar" : "Criar conta"}
         </Button>
+        {modo === "cadastrar" && (
+          <p className="text-xs leading-relaxed text-suave">
+            Ao criar a conta, você concorda com os{" "}
+            <Link href="/termos" className="font-bold text-marca-clara hover:underline">
+              Termos de uso
+            </Link>{" "}
+            e a{" "}
+            <Link href="/privacidade" className="font-bold text-marca-clara hover:underline">
+              Política de privacidade
+            </Link>
+            .
+          </p>
+        )}
       </form>
     </CaixaAcesso>
   );
