@@ -59,6 +59,10 @@ export function FormularioAcesso({ modo, aviso }: { modo: "entrar" | "cadastrar"
     const email = String(dados.get("email") ?? "").trim();
     const senha = String(dados.get("senha") ?? "");
     const nome = String(dados.get("nome") ?? "").trim();
+    if (modo === "cadastrar" && senha !== String(dados.get("confirmacao") ?? "")) {
+      setErro("As senhas não são iguais. Digite a mesma senha nos dois campos.");
+      return;
+    }
 
     iniciar(async () => {
       const { error } =
@@ -110,6 +114,14 @@ export function FormularioAcesso({ modo, aviso }: { modo: "entrar" | "cadastrar"
           <CampoSenha id="senha" name="senha" required autoComplete={modo === "entrar" ? "current-password" : "new-password"} />
           {modo === "cadastrar" && <p className="text-xs text-suave">Mínimo de 8 caracteres.</p>}
         </div>
+        {modo === "cadastrar" && (
+          <div className="space-y-1.5">
+            <label htmlFor="confirmacao" className={rotulo}>
+              Confirmar senha
+            </label>
+            <CampoSenha id="confirmacao" name="confirmacao" required autoComplete="new-password" />
+          </div>
+        )}
         {erro && <p className="text-sm text-erro">{erro}</p>}
         <Button type="submit" tamanho="grande" className="w-full shadow-[0_8px_24px_rgba(47,107,255,.4)]" disabled={enviando}>
           {enviando ? "Aguarde..." : modo === "entrar" ? "Entrar" : "Criar conta"}
