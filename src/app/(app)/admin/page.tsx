@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { GeradorPrompt } from "@/components/admin/gerador-prompt";
 import { Importador } from "@/components/admin/importador";
 import { Card } from "@/components/ui/card";
@@ -46,6 +47,9 @@ export default async function PaginaAdmin() {
         <p className="mt-2 text-sm text-suave">
           Gere o prompt, mande para a IA junto com o PDF e importe o arquivo que ela devolver.
         </p>
+        <Link href="/admin/faturamento" className="mt-3 inline-block text-sm font-bold text-marca-clara hover:underline">
+          Ver faturamento e assinantes
+        </Link>
       </div>
 
       <Passo numero={1} titulo="Gerar o prompt">

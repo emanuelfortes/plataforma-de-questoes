@@ -36,7 +36,14 @@ export default function PaginaPrivacidade() {
           IP usado para limitar tentativas de login.
         </li>
       </ul>
-      <p>Não coletamos documentos, endereço, telefone, dados de pagamento nem dados sensíveis.</p>
+      <ul>
+        <li>
+          <strong>Assinatura:</strong> se você assinar, guardamos a situação da assinatura (ativa ou cancelada), o
+          valor, as datas e o resultado de cada cobrança. Os dados do cartão são digitados direto no Mercado Pago:
+          nunca passam por nós.
+        </li>
+      </ul>
+      <p>Não coletamos documentos, endereço, telefone, números de cartão nem dados sensíveis.</p>
 
       <h2>3. Para que usamos</h2>
       <ul>
@@ -48,6 +55,7 @@ export default function PaginaPrivacidade() {
           investigar abusos.
         </li>
         <li>Enviar e-mails do serviço, como confirmação de e-mail e recuperação de senha.</li>
+        <li>Cobrar a assinatura, liberar o acesso de quem paga e cumprir obrigações fiscais.</li>
       </ul>
       <p>Não vendemos seus dados, não exibimos publicidade e não usamos cookies de rastreamento ou de anúncios.</p>
 
@@ -74,6 +82,10 @@ export default function PaginaPrivacidade() {
           <strong>Turso:</strong> banco de dados onde ficam sua conta e seu histórico, em servidores em São Paulo.
         </li>
         <li>
+          <strong>Mercado Pago:</strong> processa o pagamento da assinatura. Recebe seu e-mail e os dados do cartão
+          que você informar na página dele.
+        </li>
+        <li>
           <strong>Serviço de envio de e-mail:</strong> recebe apenas seu nome e e-mail para entregar as mensagens do
           serviço.
         </li>
@@ -83,8 +95,9 @@ export default function PaginaPrivacidade() {
       <h2>7. Por quanto tempo guardamos</h2>
       <p>
         Enquanto sua conta existir. Quando você exclui a conta, apagamos na hora seu cadastro, sessões, respostas,
-        desempenho e revisões de flashcards. Cópias de segurança do provedor podem manter esses dados por um prazo
-        curto até serem substituídas.
+        desempenho e revisões de flashcards. O registro das cobranças (valor, data e situação) é mantido pelo prazo
+        exigido pela lei fiscal (art. 16, I, da LGPD), sem ficar ligado ao seu perfil de estudo. Cópias de
+        segurança do provedor podem manter os dados por um prazo curto até serem substituídas.
       </p>
 
       <h2>8. Seus direitos</h2>

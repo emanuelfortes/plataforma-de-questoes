@@ -177,7 +177,12 @@ export function ExcluirConta() {
       if (error) {
         return setMensagem({
           tipo: "erro",
-          texto: error.code === "INVALID_PASSWORD" ? "Senha incorreta." : traduzirErroAuth(error),
+          texto:
+            error.code === "INVALID_PASSWORD"
+              ? "Senha incorreta."
+              : error.message?.includes("assinatura")
+                ? error.message
+                : traduzirErroAuth(error),
         });
       }
       router.push("/entrar?aviso=conta-excluida");

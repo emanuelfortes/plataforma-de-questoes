@@ -8,7 +8,9 @@ import {
   SairDosOutrosAparelhos,
 } from "@/components/conta/secoes-conta";
 import { Card, CardTitulo } from "@/components/ui/card";
+import { formatarReais } from "@/lib/planos";
 import { exigirUsuario } from "@/lib/sessao";
+import { acessoLiberado, assinaturaDoUsuario, cobrancaAtiva } from "@/server/assinatura";
 
 export const metadata: Metadata = { title: "Minha conta" };
 
@@ -19,6 +21,7 @@ export default async function PaginaConta({
   searchParams: Promise<{ error?: string }>;
 }) {
   const usuario = await exigirUsuario();
+  const assinatura = await assinaturaDoUsuario(usuario.id);
   const { error } = await searchParams;
 
   return (
@@ -50,6 +53,22 @@ export default async function PaginaConta({
           )}
         </p>
       </Card>
+
+      {cobrancaAtiva() && (
+        <Card>
+          <CardTitulo>Assinatura</CardTitulo>
+          <p className="mt-2 text-sm text-suave">
+            {assinatura?.status === "authorized"
+              ? `Ativa: ${formatarReais(assinatura.valorCentavos / 100)} por mês.`
+              : acessoLiberado(assinatura)
+                ? "Cancelada: o acesso continua até o fim do período pago."
+                : "Você usa o plano grátis, com limite de questões por dia."}
+          </p>
+          <Link href="/assinatura" className="mt-3 inline-block text-sm font-bold text-marca-clara hover:underline">
+            {assinatura?.status === "authorized" ? "Ver ou cancelar assinatura" : "Ver assinatura"}
+          </Link>
+        </Card>
+      )}
 
       <FormularioNome nome={usuario.name} />
       <FormularioTrocarSenha />

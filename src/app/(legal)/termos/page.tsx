@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ContatoWhatsapp, PaginaLegal, Responsavel } from "@/components/pagina-legal";
 import { LEGAL } from "@/lib/legal";
+import { ASSINATURA, formatarReais, LIMITE_GRATIS_DIA } from "@/lib/planos";
 
 export const metadata: Metadata = { title: "Termos de uso" };
 
@@ -58,10 +59,31 @@ export default function PaginaTermos() {
       </p>
 
       <h2>6. Planos e pagamento</h2>
-      <p>
-        O acesso hoje é gratuito. Se houver planos pagos, preço, forma de pagamento, renovação e cancelamento serão
-        informados antes da contratação, e você poderá desistir nos prazos do Código de Defesa do Consumidor.
-      </p>
+      <ul>
+        <li>
+          <strong>Plano grátis:</strong> até {LIMITE_GRATIS_DIA} questões por dia.
+        </li>
+        <li>
+          <strong>{ASSINATURA.nome}:</strong> {formatarReais(ASSINATURA.valor)} por mês, com questões ilimitadas.
+        </li>
+        <li>
+          O pagamento é processado pelo Mercado Pago, no cartão de crédito, e <strong>renova sozinho todo mês</strong>{" "}
+          até você cancelar. Não recebemos nem guardamos os dados do seu cartão.
+        </li>
+        <li>
+          <strong>Cancelamento:</strong> a qualquer momento, em <Link href="/assinatura">Assinatura</Link>, sem multa.
+          Você continua com acesso até o fim do mês já pago e não há novas cobranças.
+        </li>
+        <li>
+          <strong>Direito de arrependimento:</strong> você pode desistir em até 7 dias após a primeira contratação
+          (art. 49 do Código de Defesa do Consumidor) e recebe o valor de volta. Peça pelo <ContatoWhatsapp />.
+        </li>
+        <li>Se o preço mudar, avisaremos antes; a mudança só vale para as cobranças seguintes ao aviso.</li>
+        <li>
+          Se uma cobrança for recusada, o Mercado Pago tenta de novo nos dias seguintes; sem pagamento, o acesso
+          volta ao plano grátis.
+        </li>
+      </ul>
 
       <h2>7. Encerramento</h2>
       <p>

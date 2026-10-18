@@ -5,7 +5,9 @@ import { createEmptyCard, fsrs, type Card, type Grade } from "ts-fsrs";
 import { z } from "zod";
 import { db } from "@/db";
 import { flashcards, respostas, revisoesFlashcard, statusQuestao } from "@/db/schema";
+import { LIMITE_GRATIS_DIA } from "@/lib/planos";
 import { exigirUsuario } from "@/lib/sessao";
+import { situacaoDoAluno } from "./assinatura";
 import { obterGabarito } from "./questoes";
 
 const entradaResposta = z.object({
@@ -15,7 +17,7 @@ const entradaResposta = z.object({
 
 export type ResultadoResposta =
   | { ok: true; correta: boolean; gabarito: string; comentario: string | null }
-  | { ok: false; erro: string };
+  | { ok: false; erro: string; limite?: boolean };
 
 /** Registra a tentativa no histórico e atualiza o último estado da questão para o aluno. */
 export async function responderQuestao(
@@ -25,6 +27,16 @@ export async function responderQuestao(
   const usuario = await exigirUsuario();
   const entrada = entradaResposta.safeParse({ questaoId, alternativa });
   if (!entrada.success) return { ok: false, erro: "Resposta inválida." };
+
+  // Quem não assina tem um limite de questões por dia (o dono não tem limite).
+  const situacao = await situacaoDoAluno(usuario);
+  if (!situacao.assinante && situacao.respondidasHoje >= LIMITE_GRATIS_DIA) {
+    return {
+      ok: false,
+      limite: true,
+      erro: `Você usou as ${LIMITE_GRATIS_DIA} questões grátis de hoje. Assine para continuar sem limite.`,
+    };
+  }
 
   const questao = await obterGabarito(entrada.data.questaoId);
   if (!questao) return { ok: false, erro: "Questão não encontrada." };

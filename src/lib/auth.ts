@@ -1,8 +1,10 @@
 import { betterAuth } from "better-auth";
+import { APIError } from "better-auth/api";
 import { drizzleAdapter } from "better-auth/adapters/drizzle";
 import { nextCookies } from "better-auth/next-js";
 import { db } from "@/db";
 import { account, rateLimit, session, user, verification } from "@/db/schema";
+import { cancelarAssinaturasDoUsuario } from "@/server/assinatura";
 import { apagarDadosDeEstudo } from "@/server/conta";
 import { emailConfirmarEndereco, emailRedefinirSenha, enviarEmail } from "@/server/email";
 
@@ -46,7 +48,18 @@ export const auth = betterAuth({
   user: {
     deleteUser: {
       enabled: true,
-      beforeDelete: async (usuario) => apagarDadosDeEstudo(usuario.id),
+      beforeDelete: async (usuario) => {
+        // Sem isso o Mercado Pago continuaria cobrando quem excluiu a conta.
+        try {
+          await cancelarAssinaturasDoUsuario(usuario.id);
+        } catch (erro) {
+          console.error("[conta] falha ao cancelar assinatura antes de excluir:", erro);
+          throw new APIError("BAD_REQUEST", {
+            message: "Não foi possível cancelar sua assinatura agora. Tente de novo ou fale conosco pelo WhatsApp.",
+          });
+        }
+        await apagarDadosDeEstudo(usuario.id);
+      },
     },
   },
   // Só vale em produção. Janela em segundos.

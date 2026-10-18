@@ -25,3 +25,8 @@ export function rotuloDia(iso: string) {
   const [, mes, dia] = iso.split("-");
   return `${dia}/${mes}`;
 }
+
+/** Instante (UTC) em que começou o dia de hoje no fuso de Brasília. */
+export function inicioDoDiaLocal(data: Date = new Date()) {
+  return new Date(Date.parse(`${diaLocal(data)}T00:00:00Z`) - DESLOCAMENTO_MS);
+}

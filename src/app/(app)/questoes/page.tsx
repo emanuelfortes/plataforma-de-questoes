@@ -1,11 +1,14 @@
 import { randomInt } from "node:crypto";
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Filtros } from "@/components/questoes/filtros";
 import { Resolucao } from "@/components/questoes/resolucao";
 import { SelecaoAtual } from "@/components/selecao-atual";
 import { lerFiltroStatus, lerId, lerIds } from "@/lib/filtros";
+import { LIMITE_GRATIS_DIA } from "@/lib/planos";
 import { exigirUsuario } from "@/lib/sessao";
 import { formatarNumero } from "@/lib/utils";
+import { situacaoDoAluno } from "@/server/assinatura";
 import { nomesSelecao } from "@/server/estudar";
 import { contarPorStatus, listarQuestoes, TAMANHO_PAGINA, type CursorQuestoes } from "@/server/questoes";
 
@@ -39,7 +42,8 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
   const voltou = texto("volta") === "1";
   const pagina = Math.max(1, lerId(texto("pagina")) ?? 1);
 
-  const [nomes, contagens, { questoes, proximo }] = await Promise.all([
+  const [situacao, nomes, contagens, { questoes, proximo }] = await Promise.all([
+    situacaoDoAluno(usuario),
     nomesSelecao(disciplinaId, assuntoIds),
     contarPorStatus({ usuarioId: usuario.id, disciplinaId, assuntoIds }),
     listarQuestoes({ usuarioId: usuario.id, disciplinaId, assuntoIds, status, inicio, cursor, voltou }),
@@ -81,6 +85,17 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
         />
 
         <Filtros contagens={contagens} atual={{ status }} />
+
+        {!situacao.assinante && (
+          <p className="flex flex-wrap items-center gap-x-2 text-sm text-suave">
+            <span className="tabular-nums">
+              {Math.max(LIMITE_GRATIS_DIA - situacao.respondidasHoje, 0)} de {LIMITE_GRATIS_DIA} questões grátis hoje.
+            </span>
+            <Link href="/assinatura" className="font-bold text-destaque hover:underline">
+              Assinar e estudar sem limite
+            </Link>
+          </p>
+        )}
       </div>
 
       {/* Separação por padding e borda (não por margem): mesmo espaço em qualquer navegador. */}

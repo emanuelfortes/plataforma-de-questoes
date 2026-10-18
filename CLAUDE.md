@@ -51,7 +51,9 @@ src/
     (app)/questoes                        resolução (uma por vez) e filtro de status
     (app)/flashcards                      sessão de revisão
     (app)/desempenho                      janelas, gráfico diário, por disciplina
-    (app)/admin                           área do dono (ADMIN_EMAILS): gera o prompt de IA e importa o arquivo
+    (app)/admin                           área do dono (ADMIN_EMAILS): gera o prompt de IA, importa o arquivo e mostra o faturamento
+    (app)/assinatura                      assinatura mensal (Mercado Pago), cancelar, limite grátis do dia
+    api/mercadopago/webhook               avisos do Mercado Pago (assinatura e cobranças)
     api/auth/[...all]                     rotas do Better Auth
   components/                             UI (ui/ são primitivos genéricos)
   db/schema/                              auth.ts, conteudo.ts, estudo.ts
@@ -78,6 +80,7 @@ data/catalogo.json                        nomes preferidos de matérias e áreas
 - `status_questao`: último estado por aluno e questão. Fonte dos filtros e ícones.
   Sem linha = não resolvida. `ultima_correta` = acertou ou errou.
 - `revisoes_flashcard`: estado FSRS por aluno e card.
+- `assinaturas`, `pagamentos`: assinatura mensal e cada cobrança do Mercado Pago (fonte do faturamento). Só de quem tem `external_reference` com o prefixo `nobrega-questoes:` (`src/lib/planos.ts`), para separar de outros produtos na mesma conta.
 - `user`, `session`, `account`, `verification`: Better Auth. Não renomeie colunas.
 
 ## Regras do projeto (não quebre)
@@ -90,6 +93,7 @@ data/catalogo.json                        nomes preferidos de matérias e áreas
 6. **Importação em lote:** inserts de 500 linhas, `onConflictDoNothing` pelo `codigo`. Um item do JSONL deve gerar uma escrita (por isso alternativas ficam em JSON).
 7. **Separação servidor e cliente:** arquivos em `src/server/` importam `server-only` (exceto `acoes.ts`, que é `"use server"`). Constantes e tipos usados nos dois lados ficam em `src/lib/`.
 8. **Mudou o formato do JSONL?** Atualize juntos `src/lib/formato-jsonl.ts`, `src/db/importacao.ts`, `src/lib/prompt-ia.ts`, `docs/FORMATO-QUESTOES.md`, `docs/PROMPT-GERAR-QUESTOES.md` e `scripts/gerar-exemplo.ts`.
+11. **Pagamentos:** nunca confie no conteúdo do aviso (webhook) nem em parâmetros da URL: pegue só o id e busque o recurso na API do Mercado Pago (`src/server/assinatura.ts`). Sem `MP_ACCESS_TOKEN` a cobrança fica desligada (sem limite diário).
 10. **Área do dono:** páginas e ações de `/admin` começam com `exigirAdmin()` (e-mails em `ADMIN_EMAILS`).
 9. Toda consulta nova que filtra `questoes` precisa de índice que a cubra. Confira com `EXPLAIN QUERY PLAN` (veja `/revisar-performance`).
 
@@ -111,6 +115,6 @@ data/catalogo.json                        nomes preferidos de matérias e áreas
 
 ## Ambiente
 
-- `.env.local` (copie de `.env.example`): `TURSO_DATABASE_URL`, `TURSO_AUTH_TOKEN`, `BETTER_AUTH_SECRET`, `BETTER_AUTH_URL`, `ADMIN_EMAILS`, `GMAIL_USUARIO`, `GMAIL_SENHA_APP` (ou `RESEND_API_KEY` e `EMAIL_REMETENTE` com domínio próprio).
+- `.env.local` (copie de `.env.example`): `TURSO_DATABASE_URL`, `TURSO_AUTH_TOKEN`, `BETTER_AUTH_SECRET`, `BETTER_AUTH_URL`, `ADMIN_EMAILS`, `MP_ACCESS_TOKEN`, `MP_WEBHOOK_SECRET`, `GMAIL_USUARIO`, `GMAIL_SENHA_APP` (ou `RESEND_API_KEY` e `EMAIL_REMETENTE` com domínio próprio).
 - E-mails (recuperar senha, confirmar e-mail) saem por `src/server/email.ts`. Usa o Gmail se configurado, senão o Resend, senão só imprime no terminal.
 - Sem `TURSO_DATABASE_URL` o app usa `file:local.db`. Na Vercel o modo arquivo não funciona: use sempre a URL do Turso.

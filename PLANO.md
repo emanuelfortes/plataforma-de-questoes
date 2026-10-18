@@ -124,8 +124,8 @@ Todos com plano gratuito. Limites mudam: confira as páginas de preço antes de 
 ## Fase 8: Monetização (se for cobrar)
 
 - [ ] **8.1 Hospedagem comercial:** Vercel Pro ou migrar para Cloudflare (Workers + OpenNext), que permite uso comercial no grátis.
-- [ ] **8.2 Planos:** grátis (limite de questões por dia) e premium.
-- [ ] **8.3 Pagamento:** Mercado Pago ou Stripe (Pix e cartão), webhook que ativa o plano.
+- [x] **8.2 Planos:** grátis com 10 questões por dia e assinatura mensal de R$ 25 (`src/lib/planos.ts`).
+- [x] **8.3 Pagamento:** assinatura recorrente no cartão pelo Mercado Pago (preapproval), webhook, cancelamento pelo aluno e painel de faturamento em `/admin/faturamento`. Falta: credenciais da aplicação "Nóbrega Questões" e webhook configurados na produção.
 - [ ] **8.4 Página de vendas.** (Termos de uso e política de privacidade já feitos em `/termos` e `/privacidade`; dados do responsável e WhatsApp em `src/lib/legal.ts`.)
 
 ---

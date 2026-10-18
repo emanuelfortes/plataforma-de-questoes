@@ -1,8 +1,9 @@
 "use client";
 
 import { ArrowRight, Check, CircleCheck, CircleX, LoaderCircle, RotateCcw, X } from "lucide-react";
+import Link from "next/link";
 import { useEffect, useRef, useState, useTransition } from "react";
-import { Button } from "@/components/ui/button";
+import { Button, variantesBotao } from "@/components/ui/button";
 import { ROTULO_DIFICULDADE } from "@/lib/dificuldade";
 import { cn } from "@/lib/utils";
 import { responderQuestao, type ResultadoResposta } from "@/server/acoes";
@@ -30,6 +31,7 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
   const [escolhida, setEscolhida] = useState<string | null>(null);
   const [resultado, setResultado] = useState<Resultado | null>(null);
   const [erro, setErro] = useState<string | null>(null);
+  const [noLimite, setNoLimite] = useState(false);
   const [enviando, iniciar] = useTransition();
   const refResultado = useRef<HTMLDivElement>(null);
 
@@ -49,7 +51,10 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
     setErro(null);
     iniciar(async () => {
       const r = await responderQuestao(questao.id, escolhida);
-      if (!r.ok) return setErro(r.erro);
+      if (!r.ok) {
+        setNoLimite(!!r.limite);
+        return setErro(r.erro);
+      }
       setResultado(r);
     });
   }
@@ -196,7 +201,17 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
         </ul>
       )}
 
-      {erro && (
+      {erro && noLimite && (
+        <div role="alert" className="space-y-3 rounded-2xl border border-destaque/40 bg-destaque-suave p-5">
+          <p className="font-extrabold text-destaque">Limite grátis de hoje atingido</p>
+          <p className="text-sm text-texto/85">{erro}</p>
+          <Link href="/assinatura" className={variantesBotao({ className: "w-full sm:w-auto" })}>
+            Ver assinatura
+          </Link>
+        </div>
+      )}
+
+      {erro && !noLimite && (
         <p role="alert" className="text-sm font-bold text-erro">
           {erro}
         </p>
