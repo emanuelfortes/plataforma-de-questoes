@@ -1,110 +1,132 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { GeradorPrompt } from "@/components/admin/gerador-prompt";
-import { Importador } from "@/components/admin/importador";
-import { Card } from "@/components/ui/card";
-import { exigirAdmin } from "@/lib/sessao";
+import { CabecalhoPagina, CardMetrica, LinkBotao, Secao, Selo } from "@/components/admin/kit";
+import { ultimosDias, rotuloDia } from "@/lib/datas";
+import { formatarReais } from "@/lib/planos";
 import { formatarNumero } from "@/lib/utils";
-import { detalharMateria, listarMaterias } from "@/server/estudar";
+import { resumoFaturamento } from "@/server/assinatura";
+import { cadastrosPorDia, resumoPessoas, ROTULO_SITUACAO, totaisConteudo } from "@/server/pessoas";
 
 export const metadata: Metadata = { title: "Área do dono" };
 
-function Passo({ numero, titulo, children }: { numero: number; titulo: string; children: React.ReactNode }) {
+const reais = (centavos: number) => formatarReais(centavos / 100);
+
+/** Novos cadastros por dia (30 dias), em barras CSS. */
+function GraficoCadastros({ porDia }: { porDia: Map<string, number> }) {
+  const dias = ultimosDias(30);
+  const maior = Math.max(1, ...dias.map((d) => porDia.get(d) ?? 0));
   return (
-    <Card className="space-y-5 border-borda bg-white/5 p-4 sm:p-6">
-      <h2 className="flex items-center gap-3 text-lg font-extrabold">
-        <span className="grid size-8 place-items-center rounded-lg bg-marca text-sm text-white">{numero}</span>
-        {titulo}
-      </h2>
-      {children}
-    </Card>
+    <div className="px-4 pb-4 sm:px-5">
+      <div className="flex h-28 items-end gap-0.75" role="img" aria-label="Novos cadastros por dia nos últimos 30 dias">
+        {dias.map((d) => {
+          const n = porDia.get(d) ?? 0;
+          return (
+            <div
+              key={d}
+              title={`${rotuloDia(d)}: ${n}`}
+              className={n ? "flex-1 rounded-t-sm bg-marca" : "flex-1 rounded-t-sm bg-white/10"}
+              style={{ height: `${Math.max(4, (n / maior) * 100)}%` }}
+            />
+          );
+        })}
+      </div>
+      <div className="mt-1.5 flex justify-between text-[10px] font-bold text-suave">
+        <span>{rotuloDia(dias[0]!)}</span>
+        <span>hoje</span>
+      </div>
+    </div>
   );
 }
 
-export default async function PaginaAdmin() {
-  await exigirAdmin();
-
-  // Cobertura atual por matéria (tudo sai de "contagens"). As matérias nascem das importações.
-  const [comQuestoes, comFlashcards] = await Promise.all([listarMaterias("questoes"), listarMaterias("flashcards")]);
-  const ids = new Map([...comQuestoes, ...comFlashcards].map((d) => [d.id, d.nome]));
-  const cobertura = (
-    await Promise.all(
-      [...ids].map(async ([id, nome]) => {
-        const [q, f] = await Promise.all([detalharMateria("questoes", id), detalharMateria("flashcards", id)]);
-        const areas = [...new Set([...(q?.areas ?? []), ...(f?.areas ?? [])].map((x) => x.nome))].sort((x, y) =>
-          x.localeCompare(y, "pt-BR"),
-        );
-        return { nome, questoes: q?.total ?? 0, flashcards: f?.total ?? 0, areas };
-      }),
-    )
-  ).sort((x, y) => x.nome.localeCompare(y.nome, "pt-BR"));
+// exigirAdmin() já roda no layout de /admin.
+export default async function PaginaVisaoGeral() {
+  const [pessoas, faturamento, conteudo, cadastros] = await Promise.all([
+    resumoPessoas(),
+    resumoFaturamento(),
+    totaisConteudo(),
+    cadastrosPorDia(),
+  ]);
+  const mesAtual = new Date().toLocaleDateString("sv-SE", { timeZone: "America/Sao_Paulo" }).slice(0, 7);
+  const doMes = faturamento.porMes.find((m) => m.mes === mesAtual);
+  const porDia = new Map(cadastros.map((c) => [c.dia, Number(c.n)]));
 
   return (
-    <div className="mx-auto max-w-3xl space-y-8">
-      <div>
-        <p className="text-[13px] font-bold uppercase tracking-[.06em] text-destaque">Área do dono</p>
-        <h1 className="mt-1 text-[28px] sm:text-[34px] font-extrabold leading-[1.1] tracking-[-.03em]">Alimentar a plataforma</h1>
-        <p className="mt-2 text-sm text-suave">
-          Gere o prompt, mande para a IA junto com o PDF e importe o arquivo que ela devolver.
-        </p>
-        <Link href="/admin/faturamento" className="mt-3 inline-block text-sm font-bold text-marca-clara hover:underline">
-          Ver faturamento e assinantes
-        </Link>
+    <>
+      <CabecalhoPagina
+        titulo="Visão geral"
+        subtitulo="Como está a Nóbrega Questões hoje."
+        acoes={<LinkBotao href="/admin/questoes">Importar questões</LinkBotao>}
+      />
+
+      <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
+        <CardMetrica
+          rotulo="Faturado este mês"
+          valor={reais(Number(doMes?.total ?? 0))}
+          dica={`MRR ${reais(faturamento.mrrCentavos)}`}
+          destaque
+        />
+        <CardMetrica
+          rotulo="Assinantes ativos"
+          valor={formatarNumero(pessoas.porSituacao.assinante)}
+          dica={`${String(pessoas.conversao).replace(".", ",")}% dos cadastrados`}
+          tom="acerto"
+        />
+        <CardMetrica
+          rotulo="Cadastrados"
+          valor={formatarNumero(pessoas.cadastrados)}
+          dica={`+${pessoas.novos7} em 7 dias · +${pessoas.novos30} em 30`}
+        />
+        <CardMetrica
+          rotulo="Banco de conteúdo"
+          valor={formatarNumero(conteudo.questoes)}
+          dica={`questões · ${formatarNumero(conteudo.flashcards)} flashcards`}
+        />
       </div>
 
-      <Passo numero={1} titulo="Gerar o prompt">
-        <GeradorPrompt existentes={cobertura.map((c) => ({ nome: c.nome, areas: c.areas }))} />
-      </Passo>
+      <Secao titulo="Novos cadastros (30 dias)" acao={<LinkBotao href="/admin/pessoas">Ver pessoas</LinkBotao>}>
+        <GraficoCadastros porDia={porDia} />
+      </Secao>
 
-      <Passo numero={2} titulo="Mandar para a IA">
-        <ol className="list-decimal space-y-2 pl-5 text-sm text-texto/85">
-          <li>Abra uma conversa nova no Claude, ChatGPT ou Gemini.</li>
-          <li>Anexe o PDF (se for grande, um capítulo por vez).</li>
-          <li>Cole o prompt copiado no passo 1 e envie.</li>
-          <li>Baixe o arquivo .json que ela gerar. Se ela responder em texto, copie o bloco de código.</li>
-          <li>Para mais questões do mesmo PDF, na mesma conversa: &quot;Gere outro lote no mesmo formato, priorizando os pontos com menos questões, sem repetir as anteriores&quot;.</li>
-        </ol>
-      </Passo>
-
-      <Passo numero={3} titulo="Importar o arquivo">
-        <Importador />
-        <p className="text-xs text-suave">
-          A IA erra às vezes. Depois de importar, resolva algumas questões de cada lote para conferir os gabaritos.
-        </p>
-      </Passo>
-
-      <section className="space-y-3">
-        <h2 className="text-lg font-extrabold">O que já tem na plataforma</h2>
-        <div className="overflow-x-auto rounded-xl border border-borda">
-          <table className="w-full text-sm">
-            <thead className="bg-white/5 text-left text-xs text-suave">
-              <tr>
-                <th className="px-4 py-2.5 font-bold">Matéria</th>
-                <th className="px-3 font-bold">Questões</th>
-                <th className="px-3 font-bold">Flashcards</th>
-                <th className="px-3 font-bold">Áreas</th>
-              </tr>
-            </thead>
-            <tbody>
-              {cobertura.length === 0 && (
-                <tr>
-                  <td colSpan={4} className="px-4 py-6 text-center text-suave">
-                    Nada importado ainda. As matérias aparecem aqui depois da primeira importação.
-                  </td>
-                </tr>
-              )}
-              {cobertura.map((c) => (
-                <tr key={c.nome} className="border-t border-borda">
-                  <td className="px-4 py-2.5 font-semibold">{c.nome}</td>
-                  <td className="px-3 tabular-nums">{formatarNumero(c.questoes)}</td>
-                  <td className="px-3 tabular-nums">{formatarNumero(c.flashcards)}</td>
-                  <td className="px-3 py-2.5 text-xs text-suave">{c.areas.join(", ") || "(sem área)"}</td>
-                </tr>
+      <div className="grid gap-6 lg:grid-cols-2">
+        <Secao titulo="Últimos cadastros">
+          {pessoas.recentes.length === 0 ? (
+            <p className="px-5 pb-6 pt-1 text-sm text-suave">Ninguém ainda.</p>
+          ) : (
+            <ul className="divide-y divide-borda">
+              {pessoas.recentes.map((p) => (
+                <li key={p.id} className="flex items-center justify-between gap-3 px-4 py-2.5 sm:px-5">
+                  <span className="min-w-0">
+                    <span className="block truncate text-sm font-bold">{p.nome}</span>
+                    <span className="block truncate text-xs text-suave">{p.email}</span>
+                  </span>
+                  <Selo tom={p.situacao === "assinante" ? "acerto" : "neutro"}>{ROTULO_SITUACAO[p.situacao]}</Selo>
+                </li>
               ))}
-            </tbody>
-          </table>
-        </div>
-      </section>
-    </div>
+            </ul>
+          )}
+        </Secao>
+
+        <Secao titulo="Últimas cobranças" acao={<LinkBotao href="/admin/financeiro">Financeiro</LinkBotao>}>
+          {faturamento.ultimos.length === 0 ? (
+            <p className="px-5 pb-6 pt-1 text-sm text-suave">Nenhuma cobrança ainda.</p>
+          ) : (
+            <ul className="divide-y divide-borda">
+              {faturamento.ultimos.slice(0, 5).map((c) => (
+                <li key={c.id} className="flex items-center justify-between gap-3 px-4 py-2.5 sm:px-5">
+                  <span className="min-w-0">
+                    <span className="block truncate text-sm font-bold">{c.nome ?? "(conta excluída)"}</span>
+                    <span className="block text-xs text-suave">
+                      {c.cobradoEm.toLocaleDateString("pt-BR", { timeZone: "America/Sao_Paulo" })}
+                    </span>
+                  </span>
+                  <span className={c.status === "approved" ? "font-bold text-acerto" : "font-bold text-erro"}>
+                    {reais(c.valorCentavos)}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          )}
+        </Secao>
+      </div>
+    </>
   );
 }

@@ -51,12 +51,13 @@ src/
     (app)/questoes                        resolução (uma por vez) e filtro de status
     (app)/flashcards                      sessão de revisão
     (app)/desempenho                      janelas, gráfico diário, por disciplina
-    (app)/admin                           área do dono (ADMIN_EMAILS): gera o prompt de IA, importa o arquivo e mostra o faturamento
+    (app)/admin                           área do dono (ADMIN_EMAILS), com menu lateral: visão geral, financeiro,
+                                          pessoas (cadastrados x assinantes) e questões (prompt de IA e importação)
     (app)/assinatura                      assinatura mensal (Mercado Pago), cancelar, limite grátis do dia
     api/mercadopago/webhook               avisos do Mercado Pago (assinatura e cobranças), opcional
     api/cron/assinaturas                  conferência diária no Mercado Pago (vercel.json, CRON_SECRET)
     api/auth/[...all]                     rotas do Better Auth
-  components/                             UI (ui/ são primitivos genéricos)
+  components/                             UI (ui/ são primitivos genéricos; admin/kit.tsx são os blocos do painel do dono)
   db/schema/                              auth.ts, conteudo.ts, estudo.ts
   db/importacao.ts                        núcleo da importação (script e /admin usam o mesmo)
   lib/                                    código compartilhado (pode ir para o cliente)
