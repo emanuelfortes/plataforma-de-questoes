@@ -84,7 +84,7 @@ export function GeradorPrompt({ existentes }: { existentes: MateriaExistente[] }
           {ESTILOS.map((e) => (
             <label
               key={e.valor}
-              className="flex cursor-pointer items-center gap-2 rounded-xl border border-borda bg-white/5 px-3.5 py-2.5 font-bold has-[:checked]:border-marca has-[:checked]:bg-marca-suave"
+              className="flex cursor-pointer items-center gap-2 rounded-xl border border-borda bg-camada px-3.5 py-2.5 font-bold has-[:checked]:border-marca has-[:checked]:bg-marca-suave"
             >
               <input
                 type="radio"

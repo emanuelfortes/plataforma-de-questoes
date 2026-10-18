@@ -10,9 +10,9 @@ export const metadata: Metadata = { title: "Questões" };
 
 function Passo({ numero, titulo, children }: { numero: number; titulo: string; children: React.ReactNode }) {
   return (
-    <Card className="space-y-5 border-borda bg-white/5 p-4 sm:p-6">
+    <Card className="space-y-5 border-borda bg-camada p-4 sm:p-6">
       <h2 className="flex items-center gap-3 text-lg font-extrabold">
-        <span className="grid size-8 place-items-center rounded-lg bg-marca text-sm text-white">{numero}</span>
+        <span className="grid size-8 place-items-center rounded-lg bg-marca text-sm text-sobre-marca">{numero}</span>
         {titulo}
       </h2>
       {children}
@@ -69,7 +69,7 @@ export default async function PaginaAdminQuestoes() {
         <h2 className="text-lg font-extrabold">O que já tem na plataforma</h2>
         <div className="overflow-x-auto rounded-xl border border-borda">
           <table className="w-full text-sm">
-            <thead className="bg-white/5 text-left text-xs text-suave">
+            <thead className="bg-camada text-left text-xs text-suave">
               <tr>
                 <th className="px-4 py-2.5 font-bold">Matéria</th>
                 <th className="px-3 font-bold">Questões</th>

@@ -83,11 +83,11 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
         <div className="flex items-center gap-3">
           <span className="shrink-0 text-xs font-extrabold tabular-nums text-marca-clara">
             Questão {numero}
-            {total && <span className="font-bold text-white/40"> de {total}</span>}
+            {total && <span className="font-bold text-suave"> de {total}</span>}
           </span>
           {progresso !== undefined && (
             <div
-              className="h-1 flex-1 overflow-hidden rounded-full bg-white/10"
+              className="h-1 flex-1 overflow-hidden rounded-full bg-camada-forte"
               role="progressbar"
               aria-label="Progresso desta página"
               aria-valuenow={Math.round(progresso * 100)}
@@ -104,12 +104,12 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
             {questao.assunto && <span className="font-semibold text-suave"> · {questao.assunto}</span>}
           </p>
           {(origem || (resultado && questao.dificuldade)) && (
-            <p className="flex flex-wrap items-center gap-x-2 text-xs font-bold uppercase tracking-[.04em] text-white/45">
+            <p className="flex flex-wrap items-center gap-x-2 text-xs font-bold uppercase tracking-[.04em] text-suave">
               {origem && <span>{origem}</span>}
               {/* Nível só depois da resposta: antes seria dica (o aluno deve encarar a questão sem saber). */}
               {resultado && questao.dificuldade && (
                 <span className="text-destaque">
-                  {origem && <span className="mr-2 text-white/25">·</span>}
+                  {origem && <span className="mr-2 text-suave">·</span>}
                   {ROTULO_DIFICULDADE[questao.dificuldade]}
                 </span>
               )}
@@ -142,11 +142,11 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
                 onClick={() => setEscolhida(alt.letra)}
                 className={cn(
                   "flex h-12 items-center justify-center gap-2 rounded-xl border-[1.5px] text-[15px] font-extrabold transition-[background-color,border-color,opacity,transform] duration-150 motion-safe:active:scale-[.98] disabled:cursor-default",
-                  e === "livre" && "border-white/12 bg-white/[.03] text-texto/85 hover:border-white/25 hover:bg-white/[.06]",
+                  e === "livre" && "border-borda bg-superficie text-texto/85 hover:border-borda-forte hover:bg-camada",
                   e === "selecionada" && "border-marca bg-marca-suave text-texto",
                   e === "certa" && "border-acerto bg-acerto-suave text-acerto",
                   e === "errada" && "border-erro bg-erro-suave text-erro",
-                  e === "apagada" && "border-white/10 text-texto/40",
+                  e === "apagada" && "border-borda text-texto/40",
                 )}
               >
                 <Icone className="size-[18px]" strokeWidth={2.5} aria-hidden />
@@ -169,18 +169,18 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
                   onClick={() => setEscolhida(alt.letra)}
                   className={cn(
                     "flex min-h-14 w-full items-start gap-3 rounded-xl border-[1.5px] px-3 py-3 text-left transition-[background-color,border-color,opacity,transform] duration-150 motion-safe:active:scale-[.99] disabled:cursor-default sm:gap-4 sm:px-4",
-                    e === "livre" && "border-white/10 bg-white/[.03] hover:border-white/25 hover:bg-white/[.06]",
+                    e === "livre" && "border-borda bg-superficie hover:border-borda-forte hover:bg-camada",
                     e === "selecionada" && "border-marca bg-marca-suave",
                     e === "certa" && "border-acerto bg-acerto-suave",
                     e === "errada" && "border-erro bg-erro-suave",
-                    e === "apagada" && "border-white/[.06] opacity-45",
+                    e === "apagada" && "border-borda opacity-45",
                   )}
                 >
                   <span
                     className={cn(
                       "grid size-7 shrink-0 place-items-center rounded-full border-[1.5px] text-xs font-extrabold transition-colors duration-150",
-                      (e === "livre" || e === "apagada") && "border-white/25 text-texto/70",
-                      e === "selecionada" && "border-marca bg-marca text-white",
+                      (e === "livre" || e === "apagada") && "border-borda-forte text-texto/70",
+                      e === "selecionada" && "border-marca bg-marca text-sobre-marca",
                       e === "certa" && "border-acerto bg-acerto text-fundo",
                       e === "errada" && "border-erro bg-erro text-fundo",
                     )}

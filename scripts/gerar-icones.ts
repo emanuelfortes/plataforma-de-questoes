@@ -5,7 +5,7 @@ import { mkdir } from "node:fs/promises";
 import sharp from "sharp";
 
 const LOGO = "public/marca/logo-riccardo.png";
-const FUNDO = "#081433"; // --color-fundo
+const FUNDO = "#262626"; // --color-fundo (visão escura)
 const PASTA = "public/icones";
 
 // "escala": fração do lado ocupada pela logo. Ícones "maskable" são recortados em círculo pelo

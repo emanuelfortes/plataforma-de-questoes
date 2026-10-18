@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { Manrope } from "next/font/google";
+import { cookies } from "next/headers";
 import { RegistrarSW } from "@/components/registrar-sw";
+import { COOKIE_TEMA, COR_BARRA, lerTema } from "@/lib/tema";
 import "./globals.css";
 import { NOME_CURTO, NOME_PLATAFORMA } from "@/lib/marca";
 
@@ -19,19 +21,25 @@ export const metadata: Metadata = {
   formatDetection: { telephone: false },
 };
 
-// Cor da barra do navegador e do app instalado (= --color-fundo).
+// Cor da barra do navegador e do app instalado (= --color-fundo de cada visão).
+// O botão de tema troca essa cor na hora quando o aluno escolhe uma visão.
 export const viewport: Viewport = {
-  themeColor: "#081433",
-  colorScheme: "dark",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: COR_BARRA.claro },
+    { media: "(prefers-color-scheme: dark)", color: COR_BARRA.escuro },
+  ],
+  colorScheme: "dark light",
   width: "device-width",
   initialScale: 1,
   // Libera env(safe-area-inset-*) para a barra de abas não ficar sob a barra de gestos do iPhone.
   viewportFit: "cover",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  // Visão escolhida pelo aluno (cookie). Sem escolha, o CSS segue a preferência do aparelho.
+  const tema = lerTema((await cookies()).get(COOKIE_TEMA)?.value);
   return (
-    <html lang="pt-BR" className={manrope.variable}>
+    <html lang="pt-BR" className={manrope.variable} data-tema={tema}>
       <body className="min-h-dvh">
         {children}
         <RegistrarSW />

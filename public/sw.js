@@ -4,7 +4,7 @@
 // questões, desempenho) e um cache errado mostraria dados velhos ou de outra conta.
 // Ele só guarda a página "sem internet" e os ícones, e mostra essa página quando a rede cai.
 // Mudou este arquivo? Troque a VERSAO para os aparelhos descartarem o cache antigo.
-const VERSAO = "v2";
+const VERSAO = "v3";
 const CACHE = `rn-offline-${VERSAO}`;
 const OFFLINE = "/offline.html";
 const ARQUIVOS = [OFFLINE, "/icones/icone-192.png", "/icones/favicon-48.png"];

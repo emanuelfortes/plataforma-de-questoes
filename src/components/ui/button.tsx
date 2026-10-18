@@ -7,8 +7,8 @@ export const variantesBotao = cva(
   {
     variants: {
       variante: {
-        padrao: "bg-marca text-white hover:bg-marca-forte",
-        contorno: "border-[1.5px] border-white/25 bg-transparent text-texto hover:bg-white/10",
+        padrao: "bg-marca text-sobre-marca hover:bg-marca-forte",
+        contorno: "border-[1.5px] border-borda-forte bg-transparent text-texto hover:bg-camada-forte",
         fantasma: "text-suave hover:text-texto",
       },
       tamanho: {

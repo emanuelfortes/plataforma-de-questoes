@@ -71,3 +71,34 @@ export async function nomesSelecao(disciplinaId?: number, assuntoIds: number[] =
     : [];
   return { disciplina: d?.nome, assunto: areas.map((a) => a.nome).join(" + ") || undefined };
 }
+
+export type MateriaArvore = {
+  id: number;
+  nome: string;
+  total: number;
+  areas: { id: number; nome: string; total: number }[];
+};
+
+/**
+ * Árvore da tela Estudar (pastas no estilo do TEC): matérias com conteúdo do tipo escolhido e,
+ * dentro, as áreas com conteúdo. Três consultas no total, com contagens de "contagens".
+ */
+export async function arvoreDeEstudo(tipo: TipoEstudo): Promise<MateriaArvore[]> {
+  const p = PREFIXO[tipo];
+  const [ds, as] = await Promise.all([
+    db.select().from(disciplinas).orderBy(asc(disciplinas.nome)),
+    db.select({ id: assuntos.id, nome: assuntos.nome, disciplinaId: assuntos.disciplinaId }).from(assuntos).orderBy(asc(assuntos.nome)),
+  ]);
+  const totais = await lerContagens([...ds.map((d) => `${p}:d:${d.id}`), ...as.map((a) => `${p}:a:${a.id}`)]);
+  return ds
+    .map((d) => ({
+      id: d.id,
+      nome: d.nome,
+      total: totais.get(`${p}:d:${d.id}`) ?? 0,
+      areas: as
+        .filter((a) => a.disciplinaId === d.id)
+        .map((a) => ({ id: a.id, nome: a.nome, total: totais.get(`${p}:a:${a.id}`) ?? 0 }))
+        .filter((a) => a.total > 0),
+    }))
+    .filter((d) => d.total > 0);
+}

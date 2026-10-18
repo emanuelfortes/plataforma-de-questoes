@@ -73,7 +73,7 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
         <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1 text-xs font-bold">
           <p className="uppercase tracking-[.06em] text-destaque">
             Meta de hoje: {feitasHoje} de {META_DIARIA}
-            <span className="text-white/45"> · {faltam ? `faltam ${faltam}` : "meta batida"}</span>
+            <span className="text-suave"> · {faltam ? `faltam ${faltam}` : "meta batida"}</span>
           </p>
           <p className="tabular-nums text-suave">{formatarNumero(contagens[status])} questões neste filtro</p>
         </div>

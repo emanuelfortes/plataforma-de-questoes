@@ -23,7 +23,7 @@ function GraficoCadastros({ porDia }: { porDia: Map<string, number> }) {
             <div
               key={d}
               title={`${rotuloDia(d)}: ${n}`}
-              className={n ? "flex-1 rounded-t-sm bg-marca" : "flex-1 rounded-t-sm bg-white/10"}
+              className={n ? "flex-1 rounded-t-sm bg-marca" : "flex-1 rounded-t-sm bg-camada-forte"}
               style={{ height: `${Math.max(4, (n / maior) * 100)}%` }}
             />
           );

@@ -12,8 +12,8 @@ export default function manifest(): MetadataRoute.Manifest {
     start_url: "/estudar",
     scope: "/",
     display: "standalone",
-    background_color: "#081433",
-    theme_color: "#081433",
+    background_color: "#262626",
+    theme_color: "#262626",
     categories: ["education"],
     icons: [
       { src: "/icones/icone-192.png", sizes: "192x192", type: "image/png", purpose: "any" },

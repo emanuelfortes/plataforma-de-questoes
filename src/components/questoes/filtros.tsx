@@ -15,7 +15,7 @@ type Props = {
 // Cor do pontinho de cada status (substitui o ícone; mais limpo no fundo escuro).
 const PONTO: Record<FiltroStatus, string> = {
   todas: "bg-destaque",
-  nao_resolvidas: "bg-white/40",
+  nao_resolvidas: "bg-suave/60",
   resolvidas: "bg-marca",
   acertei: "bg-acerto",
   errei: "bg-erro",
@@ -57,7 +57,7 @@ export function Filtros({ contagens, atual }: Props) {
               onClick={() => aplicar({ status: status === "todas" ? undefined : status })}
               className={cn(
                 "inline-flex h-9 shrink-0 items-center gap-2 whitespace-nowrap rounded-full border px-3 text-xs font-bold transition-colors",
-                ativo ? "border-marca bg-marca text-white" : "border-borda bg-white/5 text-texto/75 hover:bg-white/10",
+                ativo ? "border-marca bg-marca text-sobre-marca" : "border-borda bg-superficie text-texto/75 hover:bg-camada-forte",
               )}
             >
               <span className={cn("size-1.5 rounded-full", PONTO[status])} aria-hidden />

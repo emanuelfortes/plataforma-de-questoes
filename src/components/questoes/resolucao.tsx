@@ -29,7 +29,7 @@ export function Resolucao({ questoes, inicio, proximaUrl }: Props) {
 
   if (!atual) {
     return (
-      <div ref={refTopo} className="scroll-mt-20 rounded-2xl border border-borda bg-white/5 p-8 text-center sm:p-10">
+      <div ref={refTopo} className="scroll-mt-20 rounded-2xl border border-borda bg-camada p-8 text-center sm:p-10">
         <p className="text-lg font-extrabold">Você fechou esta página.</p>
         <p className="mt-1 text-sm text-suave">{questoes.length} questões resolvidas aqui. Continue para a próxima.</p>
         {proximaUrl && (

@@ -63,7 +63,7 @@ function escapar(texto: string) {
 
 // Cores da marca (src/app/globals.css). E-mail não lê CSS externo: tudo vai inline, em tabelas,
 // que é o que Gmail, Outlook e celulares exibem do mesmo jeito.
-const COR = { fundo: "#081433", marca: "#2f6bff", destaque: "#ffb020", texto: "#1b2233", suave: "#5b6478" };
+const COR = { fundo: "#262626", marca: "#1b8ed3", destaque: "#e3a52b", texto: "#1d2733", suave: "#5d6a79" };
 
 /** Endereço público do site, para a logo e os links do rodapé (precisam ser absolutos no e-mail). */
 function enderecoSite() {
@@ -79,8 +79,8 @@ function modelo(titulo: string, paragrafos: string[], botao: { rotulo: string; u
   return `<!doctype html>
 <html lang="pt-BR">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>${titulo}</title></head>
-<body style="margin:0;padding:0;background:#eef1f7">
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#eef1f7">
+<body style="margin:0;padding:0;background:#f3f5f8">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f3f5f8">
   <tr><td align="center" style="padding:32px 16px">
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:520px;border-radius:16px;overflow:hidden;background:#ffffff">
       <tr><td align="center" style="background:${COR.fundo};padding:28px 24px 22px">
@@ -100,7 +100,7 @@ function modelo(titulo: string, paragrafos: string[], botao: { rotulo: string; u
         <p style="margin:0 0 28px;padding:14px 16px;border-radius:10px;background:#f4f6fb;font-size:13px;line-height:1.5;color:${COR.suave};${fonte}">${rodape}</p>
       </td></tr>
       <tr><td align="center" style="background:${COR.fundo};padding:18px 24px">
-        <p style="margin:0;font-size:12px;line-height:1.6;color:#9aa6c4;${fonte}">
+        <p style="margin:0;font-size:12px;line-height:1.6;color:#a3a3a3;${fonte}">
           <a href="${site}" style="color:#ffffff;font-weight:bold;text-decoration:none">${site.replace(/^https?:\/\//, "")}</a><br>
           Este é um e-mail automático. Não responda esta mensagem.
         </p>

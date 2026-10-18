@@ -1,27 +1,83 @@
 @import "tailwindcss";
 
-/* Tokens de design: modelo 1c (Modo foco). Azul-marinho escuro + azul vibrante + âmbar. */
+/* Tokens de design. Duas visões, inspiradas no TEC Concursos: escura (carvão) e clara.
+   Os valores abaixo são os da visão escura (padrão); a clara redefine as mesmas variáveis mais abaixo.
+   Use sempre os tokens (bg-camada, border-borda, text-suave...), nunca white/black soltos:
+   assim tudo funciona nas duas visões. */
 @theme {
-  --color-fundo: #081433;
-  --color-superficie: #0f2050;
+  --color-fundo: #262626;
+  --color-superficie: #313131;
+  /* Camadas sutis sobre o fundo (cards, campos, hover). */
+  --color-camada: rgba(255, 255, 255, 0.05);
+  --color-camada-forte: rgba(255, 255, 255, 0.1);
   --color-borda: rgba(255, 255, 255, 0.12);
-  --color-texto: #ffffff;
-  --color-suave: rgba(255, 255, 255, 0.6);
+  --color-borda-forte: rgba(255, 255, 255, 0.28);
+  --color-texto: #ededed;
+  --color-suave: #a3a3a3;
 
-  --color-marca: #2f6bff;
-  --color-marca-forte: #1d4ed8;
-  --color-marca-suave: rgba(47, 107, 255, 0.18);
-  --color-marca-clara: #9dbbff;
+  /* Azul-céu dos botões e destaques do TEC. */
+  --color-marca: #2f9ee0;
+  --color-marca-forte: #1f86c4;
+  --color-marca-suave: rgba(47, 158, 224, 0.16);
+  --color-marca-clara: #7cc4ef;
+  --color-sobre-marca: #ffffff;
 
-  --color-destaque: #ffb020;
-  --color-destaque-suave: rgba(255, 176, 32, 0.15);
+  /* Âmbar das pastas e de avisos. */
+  --color-destaque: #e3a52b;
+  --color-destaque-suave: rgba(227, 165, 43, 0.15);
 
-  --color-acerto: #4ade80;
-  --color-acerto-suave: rgba(74, 222, 128, 0.15);
-  --color-erro: #f87171;
-  --color-erro-suave: rgba(248, 113, 113, 0.15);
+  --color-acerto: #3cc36b;
+  --color-acerto-suave: rgba(60, 195, 107, 0.15);
+  --color-erro: #ef5a5a;
+  --color-erro-suave: rgba(239, 90, 90, 0.15);
 
   --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Visão clara: escolhida no botão (data-tema="claro") ou, sem escolha, pelo sistema do aparelho. */
+@layer base {
+  :root[data-tema="claro"] {
+    --color-fundo: #f3f5f8;
+    --color-superficie: #ffffff;
+    --color-camada: rgba(15, 23, 42, 0.04);
+    --color-camada-forte: rgba(15, 23, 42, 0.08);
+    --color-borda: #dfe4ea;
+    --color-borda-forte: #b9c2cd;
+    --color-texto: #1d2733;
+    --color-suave: #5d6a79;
+    --color-marca: #1b8ed3;
+    --color-marca-forte: #1574ad;
+    --color-marca-suave: #e2f1fb;
+    --color-marca-clara: #1574ad;
+    --color-destaque: #b57a12;
+    --color-destaque-suave: #fbf0da;
+    --color-acerto: #1d9a4c;
+    --color-acerto-suave: #e2f5e9;
+    --color-erro: #d33a3a;
+    --color-erro-suave: #fbe5e5;
+  }
+  @media (prefers-color-scheme: light) {
+    :root:not([data-tema]) {
+      --color-fundo: #f3f5f8;
+      --color-superficie: #ffffff;
+      --color-camada: rgba(15, 23, 42, 0.04);
+      --color-camada-forte: rgba(15, 23, 42, 0.08);
+      --color-borda: #dfe4ea;
+      --color-borda-forte: #b9c2cd;
+      --color-texto: #1d2733;
+      --color-suave: #5d6a79;
+      --color-marca: #1b8ed3;
+      --color-marca-forte: #1574ad;
+      --color-marca-suave: #e2f1fb;
+      --color-marca-clara: #1574ad;
+      --color-destaque: #b57a12;
+      --color-destaque-suave: #fbf0da;
+      --color-acerto: #1d9a4c;
+      --color-acerto-suave: #e2f5e9;
+      --color-erro: #d33a3a;
+      --color-erro-suave: #fbe5e5;
+    }
+  }
 }
 
 html {
@@ -44,9 +100,18 @@ body {
   }
 }
 
-/* Campos de formulário no fundo escuro */
-input, select {
+
+/* Campos nativos (calendário, barra de rolagem do select) seguem a visão escolhida. */
+:root {
   color-scheme: dark;
+}
+:root[data-tema="claro"] {
+  color-scheme: light;
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-tema]) {
+    color-scheme: light;
+  }
 }
 /* A lista aberta do select é desenhada pelo navegador; no Windows ela vem branca sem isso. */
 select option,

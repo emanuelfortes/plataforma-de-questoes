@@ -11,7 +11,7 @@ export function BotaoAssinar({ rotulo = "Assinar agora" }: { rotulo?: string }) 
     <div className="space-y-2">
       <Button
         tamanho="grande"
-        className="w-full shadow-[0_8px_24px_rgba(47,107,255,.4)] sm:w-auto sm:px-10"
+        className="w-full shadow-lg shadow-marca/30 sm:w-auto sm:px-10"
         disabled={enviando}
         onClick={() =>
           iniciar(async () => {

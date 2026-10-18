@@ -32,7 +32,7 @@ export function MenuAdmin() {
             aria-current={ativo ? "page" : undefined}
             className={cn(
               "flex shrink-0 items-center gap-2.5 rounded-xl px-3 py-2.5 text-sm font-bold transition-colors",
-              ativo ? "bg-marca text-white" : "text-suave hover:bg-white/5 hover:text-texto",
+              ativo ? "bg-marca text-sobre-marca" : "text-suave hover:bg-camada hover:text-texto",
             )}
           >
             <Icone className="size-4" aria-hidden />

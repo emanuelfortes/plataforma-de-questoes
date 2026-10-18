@@ -135,7 +135,7 @@ export function Importador() {
           onClick={conferir}
           disabled={!texto.trim() || ocupado}
           tamanho="grande"
-          className="w-full shadow-[0_8px_24px_rgba(47,107,255,.4)] disabled:shadow-none sm:w-auto sm:px-10"
+          className="w-full shadow-lg shadow-marca/30 disabled:shadow-none sm:w-auto sm:px-10"
         >
           {ocupado ? "Conferindo..." : "Conferir arquivo"}
         </Button>
@@ -178,7 +178,7 @@ function Conferencia({ dados }: { dados: Conferido }) {
           { rotulo: "Já existiam", n: totais.jaExistem, cor: "text-suave" },
           { rotulo: "Com problema", n: totais.invalidos, cor: totais.invalidos ? "text-erro" : "text-suave" },
         ].map((c) => (
-          <div key={c.rotulo} className="rounded-xl border border-borda bg-white/5 p-3">
+          <div key={c.rotulo} className="rounded-xl border border-borda bg-camada p-3">
             <p className="text-xs font-bold text-suave">{c.rotulo}</p>
             <p className={cn("mt-1 text-2xl font-extrabold tabular-nums", c.cor)}>{formatarNumero(c.n)}</p>
           </div>
@@ -266,7 +266,7 @@ function Conferencia({ dados }: { dados: Conferido }) {
       )}
 
       {dados.extras.pontosCobertos.length > 0 && (
-        <details className="rounded-xl border border-borda bg-white/5 p-4 text-sm">
+        <details className="rounded-xl border border-borda bg-camada p-4 text-sm">
           <summary className="cursor-pointer font-extrabold">
             Pontos cobertos ({dados.extras.pontosCobertos.length}): guarde para o próximo lote
           </summary>
@@ -283,7 +283,7 @@ function Conferencia({ dados }: { dados: Conferido }) {
       )}
 
       {dados.amostra.length > 0 && (
-        <details className="rounded-xl border border-borda bg-white/5 p-4 text-sm">
+        <details className="rounded-xl border border-borda bg-camada p-4 text-sm">
           <summary className="cursor-pointer font-extrabold">Ver amostra ({dados.amostra.length} questões)</summary>
           <div className="mt-3 space-y-5">
             {dados.amostra.map((q, i) => (

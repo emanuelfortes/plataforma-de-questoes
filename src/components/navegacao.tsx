@@ -7,6 +7,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { authClient } from "@/lib/auth-client";
 import { cn } from "@/lib/utils";
 import { NOME_PLATAFORMA } from "@/lib/marca";
+import { BotaoTema } from "@/components/botao-tema";
 
 type ItemNav = { href: string; rotulo: string; Icone: LucideIcon; ativoEm: string[] };
 
@@ -88,6 +89,7 @@ export function Navegacao({ nome, admin, streak, percentual }: Props) {
           </nav>
           <div className="ml-auto flex items-center gap-4 text-sm">
             {indicadores}
+            <BotaoTema className="-mx-1" />
             <Link
               href="/conta"
               className={cn("max-w-48 truncate font-semibold text-suave hover:text-texto", ativo(CONTA) && "text-texto")}
@@ -103,8 +105,9 @@ export function Navegacao({ nome, admin, streak, percentual }: Props) {
         {/* Celular */}
         <div className="flex h-14 items-center gap-3 border-b border-borda px-5 md:hidden">
           <Marca />
-          <div className="ml-auto flex shrink-0 items-center gap-3 text-sm">
+          <div className="ml-auto flex shrink-0 items-center gap-1 text-sm">
             {indicadores}
+            <BotaoTema />
             <button
               onClick={sair}
               aria-label="Sair"

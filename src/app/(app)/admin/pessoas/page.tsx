@@ -87,7 +87,7 @@ export default async function PaginaPessoas({ searchParams }: { searchParams: Pa
                 aria-current={filtro === a.filtro ? "page" : undefined}
                 className={cn(
                   "inline-flex shrink-0 items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs font-bold transition-colors",
-                  filtro === a.filtro ? "border-marca bg-marca text-white" : "border-borda text-texto/75 hover:bg-white/10",
+                  filtro === a.filtro ? "border-marca bg-marca text-sobre-marca" : "border-borda text-texto/75 hover:bg-camada-forte",
                 )}
               >
                 {a.rotulo}
@@ -101,9 +101,9 @@ export default async function PaginaPessoas({ searchParams }: { searchParams: Pa
               name="q"
               defaultValue={busca}
               placeholder="Buscar por nome ou e-mail"
-              className="h-10 min-w-0 flex-1 rounded-lg border border-borda bg-white/5 px-3 text-sm placeholder:text-suave focus-visible:outline-2 focus-visible:outline-marca"
+              className="h-10 min-w-0 flex-1 rounded-lg border border-borda bg-camada px-3 text-sm placeholder:text-suave focus-visible:outline-2 focus-visible:outline-marca"
             />
-            <button type="submit" className="h-10 rounded-lg bg-marca px-4 text-sm font-bold text-white hover:bg-marca-forte">
+            <button type="submit" className="h-10 rounded-lg bg-marca px-4 text-sm font-bold text-sobre-marca hover:bg-marca-forte">
               Buscar
             </button>
           </form>

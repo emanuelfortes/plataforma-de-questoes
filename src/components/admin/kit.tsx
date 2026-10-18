@@ -39,7 +39,7 @@ export function CardMetrica({
 }) {
   const corDica = { normal: "text-suave", acerto: "text-acerto", erro: "text-erro", destaque: "text-destaque" }[tom];
   return (
-    <div className={cn("rounded-2xl border p-4", destaque ? "border-marca bg-marca-suave" : "border-borda bg-white/5")}>
+    <div className={cn("rounded-2xl border p-4", destaque ? "border-marca bg-marca-suave" : "border-borda bg-superficie")}>
       <p className="text-[13px] text-suave">{rotulo}</p>
       <p className="mt-1.5 text-[26px] font-extrabold leading-tight tracking-tight tabular-nums">{valor}</p>
       {dica && <p className={cn("mt-1 text-xs font-semibold", corDica)}>{dica}</p>}
@@ -59,7 +59,7 @@ export function Secao({
   className?: string;
 }) {
   return (
-    <section className={cn("overflow-hidden rounded-2xl border border-borda bg-white/5", className)}>
+    <section className={cn("overflow-hidden rounded-2xl border border-borda bg-superficie", className)}>
       {(titulo || acao) && (
         <div className="flex items-center justify-between gap-3 px-4 pb-2 pt-4 sm:px-5">
           {titulo && <h2 className="text-sm font-extrabold">{titulo}</h2>}
@@ -76,7 +76,7 @@ const SELO = {
   marca: "bg-marca-suave text-marca-clara",
   destaque: "bg-destaque-suave text-destaque",
   erro: "bg-erro-suave text-erro",
-  neutro: "bg-white/10 text-suave",
+  neutro: "bg-camada-forte text-suave",
 } as const;
 
 export function Selo({ tom = "neutro", children }: { tom?: keyof typeof SELO; children: React.ReactNode }) {
@@ -92,7 +92,7 @@ export function LinkBotao({ href, children, className }: { href: string; childre
     <Link
       href={href}
       className={cn(
-        "inline-flex h-9 items-center justify-center gap-1.5 rounded-lg border border-borda px-3.5 text-[13px] font-bold transition-colors hover:bg-white/10",
+        "inline-flex h-9 items-center justify-center gap-1.5 rounded-lg border border-borda px-3.5 text-[13px] font-bold transition-colors hover:bg-camada-forte",
         className,
       )}
     >

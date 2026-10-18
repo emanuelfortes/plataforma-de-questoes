@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button";
 import { authClient } from "@/lib/auth-client";
 import { traduzirErroAuth } from "@/lib/erros-auth";
 import { NOME_PLATAFORMA } from "@/lib/marca";
+import { BotaoTema } from "@/components/botao-tema";
 
 /** Moldura comum das telas públicas. */
 export function CaixaAcesso({
@@ -28,6 +29,7 @@ export function CaixaAcesso({
         <div className="flex items-center gap-2.5 font-extrabold">
           <Logo tamanho={44} />
           <span>{NOME_PLATAFORMA}</span>
+          <BotaoTema className="-mr-2 ml-auto" />
         </div>
         <div>
           <p className="text-[13px] font-bold uppercase tracking-[.06em] text-destaque">{subtitulo}</p>
@@ -123,7 +125,7 @@ export function FormularioAcesso({ modo, aviso }: { modo: "entrar" | "cadastrar"
           </div>
         )}
         {erro && <p className="text-sm text-erro">{erro}</p>}
-        <Button type="submit" tamanho="grande" className="w-full shadow-[0_8px_24px_rgba(47,107,255,.4)]" disabled={enviando}>
+        <Button type="submit" tamanho="grande" className="w-full shadow-lg shadow-marca/30" disabled={enviando}>
           {enviando ? "Aguarde..." : modo === "entrar" ? "Entrar" : "Criar conta"}
         </Button>
         {modo === "cadastrar" && (

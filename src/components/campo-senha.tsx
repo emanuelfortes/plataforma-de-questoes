@@ -5,7 +5,7 @@ import { useState, type ComponentProps } from "react";
 import { cn } from "@/lib/utils";
 
 export const classeCampo =
-  "h-12 w-full rounded-lg border border-borda bg-white/5 px-3.5 text-[15px] text-texto placeholder:text-suave focus-visible:outline-2 focus-visible:outline-marca";
+  "h-12 w-full rounded-lg border border-borda bg-camada px-3.5 text-[15px] text-texto placeholder:text-suave focus-visible:outline-2 focus-visible:outline-marca";
 
 export function CampoSenha({ className, ...props }: Omit<ComponentProps<"input">, "type">) {
   const [visivel, setVisivel] = useState(false);

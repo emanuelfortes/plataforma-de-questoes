@@ -116,7 +116,7 @@ Todos com plano gratuito. Limites mudam: confira as páginas de preço antes de 
 - [ ] **7.4 Rate limit nas server actions** (Better Auth tem rate limit para auth; para `responderQuestao` usar contador simples por usuário).
 - [ ] **7.5 Cache do conteúdo:** listas de disciplinas e assuntos mudam só na importação; cachear e invalidar ao importar.
 - [ ] **7.6 Monitoramento:** acompanhar linhas lidas no painel do Turso toda semana; logs de erro (Vercel tem logs no grátis).
-- [ ] **7.7 Modo escuro:** redefinir os tokens de `globals.css` sob `prefers-color-scheme: dark`.
+- [x] **7.7 Visões clara e escura:** paleta inspirada no TEC, botão de tema (cookie) e preferência do aparelho.
 - [x] **7.8 PWA:** manifesto (`src/app/manifest.ts`), ícones (`scripts/gerar-icones.ts`), service worker só com a tela "sem internet" (`public/sw.js`, não guarda dados do aluno). Falta testar o layout em 360 px.
 
 ---

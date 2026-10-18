@@ -104,7 +104,7 @@ data/catalogo.json                        nomes preferidos de matérias e áreas
 - Código, nomes de variáveis, rotas e textos de interface em português do Brasil.
 - Textos da interface e documentação: não usar travessões (o caractere longo de pontuação). Use vírgula, dois pontos ou parênteses.
 - Componentes de UI novos: siga o padrão de `src/components/ui/` (cva + `cn`). Pode usar `npx shadcn add <componente>`; o `components.json` já está configurado.
-- Cores só pelos tokens (`bg-marca`, `text-acerto`, `text-erro`, `border-borda`, etc.). Não use cores soltas do Tailwind.
+- Cores só pelos tokens (`bg-marca`, `bg-superficie`, `bg-camada`, `text-suave`, `text-sobre-marca`, `border-borda`, etc.). Não use cores soltas do Tailwind nem `white/` ou `black/`: há duas visões (escura, padrão, e clara), definidas em `src/app/globals.css`. A escolha fica no cookie `tema` (`src/lib/tema.ts`, botão em `src/components/botao-tema.tsx`); sem cookie, segue o aparelho.
 - Server Components por padrão. `"use client"` só onde há estado ou evento.
 - `searchParams` e `params` são Promises no Next 16: sempre `await`.
 
