@@ -145,7 +145,8 @@ for (const n of [...new Set(mantidas.map((m) => m.lote.alternativas))]) {
 // Textos que citem os ids internos (a1, a2...) passam a citar a letra final.
 const trocarIds = (t: string | null, letraDe: Map<string, string>) =>
   t === null ? null : t.replace(/\b(?:alternativa\s+)?(a[1-5])\b/gi, (m, id: string) => (letraDe.has(id.toLowerCase()) ? `alternativa ${letraDe.get(id.toLowerCase())}` : m));
-const naoSeAplica = (t: string) => (/^n[ãa]o se aplica\.?$/i.test(t.trim()) ? null : t);
+// "Não se aplica" (às vezes com explicação: "Não se aplica: disciplina sem lei...") vira vazio.
+const naoSeAplica = (t: string) => (/^n[ãa]o se aplica\b/i.test(t.trim()) ? null : t);
 
 function codigo(disciplina: string, q: QuestaoGerada) {
   const partes = [disciplina, q.enunciado, ...q.alternativas.map((a) => a.texto)];
@@ -164,8 +165,9 @@ const linhas = prontas.map((p) => {
     ] as const
   ).flatMap(([tipo, texto]) => (texto ? [{ tipo, texto: trocarIds(texto, p.letraDe)! }] : []));
   const auditoria: ResultadoAuditoria = {
-    justificativa: p.a.justificativa,
-    problemas: p.a.problemas,
+    // O auditor escreve com os ids internos (a1, a2...); aqui viram as letras embaralhadas que o revisor vê.
+    justificativa: trocarIds(p.a.justificativa, p.letraDe)!,
+    problemas: p.a.problemas.map((x) => ({ ...x, descricao: trocarIds(x.descricao, p.letraDe)! })),
     correcao_sugerida: trocarIds(p.a.correcao_sugerida, p.letraDe),
     gabarito_confere: p.a.gabarito_confere,
     mais_de_uma_correta: p.a.mais_de_uma_correta,
@@ -173,7 +175,7 @@ const linhas = prontas.map((p) => {
     fundamento_confere: p.a.fundamento_confere,
     citacoes_jurisprudencia: p.citacoes,
     regenerada: p.regenerada,
-    ...(p.ajuste ? { ajuste: p.ajuste } : {}),
+    ...(p.ajuste ? { ajuste: { ...p.ajuste, motivos: p.ajuste.motivos.map((m) => trocarIds(m, p.letraDe)!) } } : {}),
     ...(p.semNota?.length ? { alertas: p.semNota } : {}),
   };
   return {
@@ -269,7 +271,7 @@ const cartoes = itens
       ? p.alternativas.map((a) => ({ rotulo: a.letra, texto: a.texto, correta: a.letra === p.gabarito, just: i.q.analise_alternativas.find((x) => p.letraDe.get(x.id) === a.letra)?.justificativa }))
       : i.q.alternativas.map((a) => ({ rotulo: a.id, texto: a.texto, correta: a.id === i.q.id_correta, just: i.q.analise_alternativas.find((x) => x.id === a.id)?.justificativa }));
     const troca = (t: string | null) => (p ? trocarIds(t, p.letraDe) : t);
-    const problemas = i.a.problemas.map((x) => `<li><b>${esc(x.tipo)}</b> (${esc(x.gravidade)}): ${esc(x.descricao)}</li>`).join("");
+    const problemas = i.a.problemas.map((x) => `<li><b>${esc(x.tipo)}</b> (${esc(x.gravidade)}): ${esc(troca(x.descricao))}</li>`).join("");
     const destaques = [
       ["Macete do Riccardo", i.q.macete_do_riccardo],
       ["Fique ligado", i.q.fique_ligado],
@@ -282,7 +284,7 @@ const cartoes = itens
   <ol class="alts">${alts.map((a) => `<li class="${a.correta ? "certa" : ""}"><b>${esc(a.rotulo)})</b> ${esc(a.texto)}<details><summary>Análise</summary>${esc(troca(a.just ?? ""))}</details></li>`).join("")}</ol>
   <details><summary>Comentário do professor</summary><p>${esc(troca(i.q.comentario_geral))}</p><p><b>Fundamento legal:</b> ${esc(i.q.fundamento_legal)}</p><p><b>Pegadinha:</b> ${esc(troca(i.q.pegadinha))}</p>${destaques}</details>
   ${i.ajuste?.motivos.length ? `<details><summary>Motivos do ajuste</summary><ul>${i.ajuste.motivos.map((m) => `<li>${esc(m)}</li>`).join("")}</ul></details>` : ""}
-  <div class="auditor"><b>Auditor${i.ajuste?.motivos.length ? " (do ajuste)" : ""}:</b> ${esc(i.a.status)}${i.status !== i.a.status && ORDEM_STATUS.includes(i.status) ? ` (rebaixada para ${ROTULO[i.status]} pelas checagens em código)` : ""}. ${esc(i.a.justificativa)}
+  <div class="auditor"><b>Auditor${i.ajuste?.motivos.length ? " (do ajuste)" : ""}:</b> ${esc(i.a.status)}${i.status !== i.a.status && ORDEM_STATUS.includes(i.status) ? ` (rebaixada para ${ROTULO[i.status]} pelas checagens em código)` : ""}. ${esc(troca(i.a.justificativa))}
   ${problemas ? `<ul>${problemas}</ul>` : ""}${i.a.correcao_sugerida ? `<p><b>Correção sugerida:</b> ${esc(troca(i.a.correcao_sugerida))}</p>` : ""}${i.citacoes.length ? `<p><b>Citações de jurisprudência fora da lista:</b> ${esc(i.citacoes.join(", "))}</p>` : ""}${i.semNota?.length ? `<p><b>Checagem em código:</b> ${esc(i.semNota.join(", "))}</p>` : ""}</div>
 </article>`;
   })

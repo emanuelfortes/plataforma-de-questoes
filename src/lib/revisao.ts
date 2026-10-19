@@ -38,16 +38,18 @@ type PartesComentario = {
  * responder): explicação geral, análise de cada alternativa, fundamentos, pegadinha e destaques.
  */
 export function montarComentario(p: PartesComentario) {
+  // Campos sem conteúdo útil ("Não se aplica", com ou sem explicação) não aparecem para o aluno.
+  const util = (t: string | null) => (t && !/^n[ãa]o se aplica\b/i.test(t.trim()) ? t : null);
   const blocos = [p.comentario.trim()];
   if (p.analiseAlternativas.length)
     blocos.push(
       ["Análise das alternativas:", ...p.analiseAlternativas.map((a) => `${a.letra}) ${a.correta ? "Correta" : "Errada"}. ${a.justificativa}`)].join("\n"),
     );
-  if (p.fundamentoLegal) blocos.push(`Fundamento legal: ${p.fundamentoLegal}`);
-  if (p.fundamentoJurisprudencial) blocos.push(`Jurisprudência: ${p.fundamentoJurisprudencial}`);
-  if (p.pegadinha) blocos.push(`Pegadinha: ${p.pegadinha}`);
+  if (util(p.fundamentoLegal)) blocos.push(`Fundamento legal: ${p.fundamentoLegal}`);
+  if (util(p.fundamentoJurisprudencial)) blocos.push(`Jurisprudência: ${p.fundamentoJurisprudencial}`);
+  if (util(p.pegadinha)) blocos.push(`Pegadinha: ${p.pegadinha}`);
   for (const d of p.destaques ?? []) blocos.push(`${ROTULO_DESTAQUE[d.tipo] ?? d.tipo}: ${d.texto}`);
-  if (p.observacaoTemporal) blocos.push(`Atualização: ${p.observacaoTemporal}`);
+  if (util(p.observacaoTemporal)) blocos.push(`Atualização: ${p.observacaoTemporal}`);
   return blocos.join("\n\n");
 }
 

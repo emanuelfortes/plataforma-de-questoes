@@ -43,8 +43,19 @@ export const questoes = sqliteTable(
     dificuldade: integer("dificuldade"),
     // Posição sorteada na importação: a listagem segue esta ordem para misturar níveis e áreas.
     ordem: integer("ordem").notNull().default(0),
+    // Ligação com a geração por IA (aprovação em /admin/revisao). Nulos nas questões importadas por arquivo.
+    // "codigo" é o mesmo de questoes_revisao.codigo: é por ele que se acha a ficha completa da revisão.
+    /** "ia" para as geradas por IA e aprovadas; nulo para as importadas. */
+    origem: text("origem"),
+    /** Tópico de data/taxonomia.json: diz quais leis a questão usa (para revisar quando uma lei mudar). */
+    topicoTaxonomia: text("topico_taxonomia"),
+    subtopico: text("subtopico"),
+    /** Dispositivo citado (ex.: "CPP, art. 14"). */
+    leiReferencia: text("lei_referencia"),
   },
   (t) => [
+    // Achar as questões de IA de um tópico (ex.: lei alterada). Fora do caminho do aluno.
+    index("questoes_origem_topico").on(t.origem, t.topicoTaxonomia),
     // O SQLite acrescenta o id (rowid) no fim de todo índice: (ordem, id) fica coberto para o cursor.
     index("questoes_ordem").on(t.ordem),
     index("questoes_disciplina_ordem").on(t.disciplinaId, t.ordem),

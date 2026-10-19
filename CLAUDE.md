@@ -89,6 +89,7 @@ prompts/gerador.md, prompts/auditor.md    instruções da geração por IA; scri
   Sem linha = não resolvida. `ultima_correta` = acertou ou errou.
 - `revisoes_flashcard`: estado FSRS por aluno e card.
 - `questoes_revisao`: questões geradas por IA aguardando revisão (status pendente_revisao, aprovada, rejeitada). Fora de `questoes` até a aprovação em /admin/revisao.
+  A aprovada leva o mesmo `codigo` para `questoes`, com `origem = 'ia'`, `topico_taxonomia`, `subtopico` e `lei_referencia` (nulos nas importadas por arquivo; índice `questoes_origem_topico`).
 - `assinaturas`, `pagamentos`: assinatura mensal e cada cobrança do Mercado Pago (fonte do faturamento). Só de quem tem `external_reference` com o prefixo `nobrega-questoes:` (`src/lib/planos.ts`), para separar de outros produtos na mesma conta.
 - `user`, `session`, `account`, `verification`: Better Auth. Não renomeie colunas.
 

@@ -12,6 +12,8 @@ import { NIVEL_DIFICULDADE } from "../lib/dificuldade";
 import { esquemaFlashcard, esquemaQuestao, type LinhaFlashcard, type LinhaQuestao } from "../lib/formato-jsonl";
 
 export type QuestaoPronta = LinhaQuestao & { codigo: string };
+/** Dados extras de questões aprovadas na revisão de IA (não fazem parte do arquivo JSONL). */
+export type OrigemQuestao = { origem?: string; topicoTaxonomia?: string | null; subtopico?: string | null; leiReferencia?: string | null };
 export type FlashcardPronto = LinhaFlashcard & { codigo: string };
 export type ItemPronto = QuestaoPronta | FlashcardPronto;
 
@@ -182,7 +184,7 @@ export function criarGravador(db: Db) {
   }
 
   /** Devolve quantas entraram (as demais já existiam). */
-  async function gravarQuestoes(lista: QuestaoPronta[]) {
+  async function gravarQuestoes(lista: (QuestaoPronta & OrigemQuestao)[]) {
     if (!lista.length) return 0;
     const valores = [];
     for (const q of lista) {
@@ -200,6 +202,10 @@ export function criarGravador(db: Db) {
         dificuldade: q.dificuldade ? NIVEL_DIFICULDADE[q.dificuldade] : null,
         // Posição sorteada: mistura níveis e áreas na listagem (o arquivo costuma vir agrupado).
         ordem: randomInt(2 ** 31),
+        origem: q.origem ?? null,
+        topicoTaxonomia: q.topicoTaxonomia ?? null,
+        subtopico: q.subtopico ?? null,
+        leiReferencia: q.leiReferencia ?? null,
       });
     }
     const inseridas = await db

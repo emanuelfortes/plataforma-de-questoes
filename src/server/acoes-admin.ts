@@ -210,6 +210,11 @@ async function aprovar(ids: number[], email: string, edicao?: z.infer<typeof edi
       alternativas: edicao?.alternativas ?? r.alternativas,
       gabarito: edicao?.gabarito ?? r.gabarito,
       comentario,
+      // Ligação com a revisão (o código já é o mesmo): filtrar as de IA e revisar quando uma lei mudar.
+      origem: r.origem,
+      topicoTaxonomia: r.topicoTaxonomia,
+      subtopico: r.subtopico,
+      leiReferencia: r.leiReferencia,
     };
   });
   // Grava primeiro em "questoes" (ignora código repetido) e só depois marca como aprovada:
