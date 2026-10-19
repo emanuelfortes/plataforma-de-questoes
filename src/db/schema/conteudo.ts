@@ -52,6 +52,8 @@ export const questoes = sqliteTable(
     subtopico: text("subtopico"),
     /** Dispositivo citado (ex.: "CPP, art. 14"). */
     leiReferencia: text("lei_referencia"),
+    /** Fora do ar (um aluno reportou erro): não aparece nas listas nem nas contagens até ser revisada. */
+    suspensa: integer("suspensa", { mode: "boolean" }).notNull().default(false),
   },
   (t) => [
     // Achar as questões de IA de um tópico (ex.: lei alterada). Fora do caminho do aluno.
@@ -74,6 +76,12 @@ export const flashcards = sqliteTable(
     assuntoId: integer("assunto_id").references(() => assuntos.id),
     frente: text("frente").notNull(),
     verso: text("verso").notNull(),
+    // Mesma ligação das questões com a geração por IA (codigo = flashcards_revisao.codigo).
+    origem: text("origem"),
+    topicoTaxonomia: text("topico_taxonomia"),
+    leiReferencia: text("lei_referencia"),
+    /** Fora do ar por reporte de erro de aluno. */
+    suspensa: integer("suspensa", { mode: "boolean" }).notNull().default(false),
   },
   (t) => [
     index("flashcards_disciplina_id").on(t.disciplinaId, t.id),

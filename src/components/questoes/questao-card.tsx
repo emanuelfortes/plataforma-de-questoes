@@ -3,6 +3,7 @@
 import { ArrowRight, Check, CircleCheck, CircleX, LoaderCircle, RotateCcw, X } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useRef, useState, useTransition } from "react";
+import { ReportarErro } from "@/components/reportar-erro";
 import { Button, variantesBotao } from "@/components/ui/button";
 import { ROTULO_DIFICULDADE } from "@/lib/dificuldade";
 import { cn } from "@/lib/utils";
@@ -237,6 +238,7 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
               <p className="mt-2 whitespace-pre-line text-[15px] leading-[1.7] text-texto/85">{resultado.comentario}</p>
             </section>
           )}
+          <ReportarErro key={questao.id} tipo="questao" id={questao.id} />
         </div>
       )}
 

@@ -1,15 +1,15 @@
 "use server";
 
 // Ações da área do dono (/admin). Todas começam com exigirAdmin().
-import { and, eq, inArray } from "drizzle-orm";
+import { inArray } from "drizzle-orm";
 import { revalidatePath } from "next/cache";
 import { z } from "zod";
 import { db } from "@/db";
 import { criarGravador, lerArquivo, prepararItem, type ExtrasArquivo, type ItemPronto } from "@/db/importacao";
-import { assuntos, disciplinas, flashcards, questoes, questoesRevisao } from "@/db/schema";
+import { aprovarFlashcards, aprovarQuestoes, rejeitar, resolverReporte } from "@/db/aprovacao";
+import { assuntos, disciplinas, flashcards, questoes } from "@/db/schema";
 import { chaveNome, semelhanca } from "@/lib/catalogo";
-import { dificuldadePorNivel, type Dificuldade } from "@/lib/dificuldade";
-import { bancaInedita, montarComentario } from "@/lib/revisao";
+import type { Dificuldade } from "@/lib/dificuldade";
 import { exigirAdmin } from "@/lib/sessao";
 
 // 5 MB: bem acima de um lote gerado por IA (cerca de 100 questões dão 100 KB).
@@ -176,10 +176,11 @@ export async function importarConteudo(texto: string): Promise<ResultadoImportac
   };
 }
 
-// ---------- Revisão das questões geradas por IA (/admin/revisao) ----------
+// ---------- Revisão das questões e flashcards gerados por IA (/admin/revisao) ----------
+// A lógica fica em src/db/aprovacao.ts (a produção automática usa a mesma).
 
 const idRevisao = z.number().int().positive();
-const edicaoRevisao = z
+const edicaoQuestao = z
   .object({
     enunciado: z.string().trim().min(1).max(20_000),
     alternativas: z.array(z.object({ letra: z.string().regex(/^[A-E]$/), texto: z.string().trim().min(1).max(5_000) })).min(2).max(5),
@@ -187,88 +188,62 @@ const edicaoRevisao = z
     comentario: z.string().trim().min(1).max(40_000),
   })
   .refine((e) => e.alternativas.some((a) => a.letra === e.gabarito), { message: "O gabarito precisa ser uma das alternativas." });
+const edicaoFlashcard = z.object({ frente: z.string().trim().min(1).max(2_000), verso: z.string().trim().min(1).max(10_000) });
+const motivoRejeicao = z.string().trim().min(3, "Escreva o motivo.").max(2_000);
 
 export type ResultadoRevisao = { ok: true; aprovadas: number } | { ok: false; erro: string };
 
-/** Copia questões revisadas para "questoes" (com contagens) e marca como aprovadas. Idempotente. */
-async function aprovar(ids: number[], email: string, edicao?: z.infer<typeof edicaoRevisao>) {
-  const linhas = await db
-    .select()
-    .from(questoesRevisao)
-    .where(and(inArray(questoesRevisao.id, ids), eq(questoesRevisao.status, "pendente_revisao")));
-  if (!linhas.length) return 0;
-  const prontas = linhas.map((r) => {
-    const comentario = edicao?.comentario ?? montarComentario(r);
-    return {
-      tipo: "multipla" as const,
-      codigo: r.codigo,
-      disciplina: r.disciplina,
-      assunto: r.assunto,
-      dificuldade: dificuldadePorNivel(r.dificuldade) ?? undefined,
-      banca: bancaInedita(r.banca),
-      enunciado: edicao?.enunciado ?? r.enunciado,
-      alternativas: edicao?.alternativas ?? r.alternativas,
-      gabarito: edicao?.gabarito ?? r.gabarito,
-      comentario,
-      // Ligação com a revisão (o código já é o mesmo): filtrar as de IA e revisar quando uma lei mudar.
-      origem: r.origem,
-      topicoTaxonomia: r.topicoTaxonomia,
-      subtopico: r.subtopico,
-      leiReferencia: r.leiReferencia,
-    };
-  });
-  // Grava primeiro em "questoes" (ignora código repetido) e só depois marca como aprovada:
-  // se cair no meio, aprovar de novo não duplica.
-  await criarGravador(db).gravarQuestoes(prontas);
-  const agora = new Date();
-  for (const p of prontas) {
-    await db
-      .update(questoesRevisao)
-      .set({
-        status: "aprovada",
-        revisadoEm: agora,
-        revisadoPor: email,
-        comentarioFinal: p.comentario,
-        ...(edicao ? { enunciado: p.enunciado, alternativas: p.alternativas, gabarito: p.gabarito, motivoRevisao: "editada antes de aprovar" } : {}),
-      })
-      .where(eq(questoesRevisao.codigo, p.codigo));
-  }
-  return prontas.length;
+function revalidar() {
+  revalidatePath("/admin/revisao");
 }
 
 export async function aprovarRevisao(id: number, edicao?: unknown): Promise<ResultadoRevisao> {
   const usuario = await exigirAdmin();
   const i = idRevisao.safeParse(id);
   if (!i.success) return { ok: false, erro: "Questão inválida." };
-  let dados: z.infer<typeof edicaoRevisao> | undefined;
-  if (edicao !== undefined) {
-    const e = edicaoRevisao.safeParse(edicao);
-    if (!e.success) return { ok: false, erro: e.error.issues[0]!.message };
-    dados = e.data;
-  }
-  const aprovadas = await aprovar([i.data], usuario.email, dados);
-  revalidatePath("/admin/revisao");
+  const e = edicao === undefined ? undefined : edicaoQuestao.safeParse(edicao);
+  if (e && !e.success) return { ok: false, erro: e.error.issues[0]!.message };
+  const aprovadas = await aprovarQuestoes(db, [i.data], usuario.email, e?.data);
+  revalidar();
   return aprovadas ? { ok: true, aprovadas } : { ok: false, erro: "Essa questão já foi revisada." };
 }
 
 /** Aprova de uma vez as questões indicadas (a tela manda só as da página que o auditor validou). */
-export async function aprovarRevisaoEmLote(ids: unknown): Promise<ResultadoRevisao> {
+export async function aprovarRevisaoEmLote(ids: unknown, tipo: "questao" | "flashcard" = "questao"): Promise<ResultadoRevisao> {
   const usuario = await exigirAdmin();
   const lista = z.array(idRevisao).min(1).max(50).safeParse(ids);
-  if (!lista.success) return { ok: false, erro: "Seleção inválida." };
-  const aprovadas = await aprovar(lista.data, usuario.email);
-  revalidatePath("/admin/revisao");
+  if (!lista.success || !["questao", "flashcard"].includes(tipo)) return { ok: false, erro: "Seleção inválida." };
+  const aprovadas = tipo === "questao" ? await aprovarQuestoes(db, lista.data, usuario.email) : await aprovarFlashcards(db, lista.data, usuario.email);
+  revalidar();
   return { ok: true, aprovadas };
 }
 
-export async function rejeitarRevisao(id: number, motivo: string): Promise<ResultadoRevisao> {
+export async function rejeitarRevisao(id: number, motivo: string, tipo: "questao" | "flashcard" = "questao"): Promise<ResultadoRevisao> {
   const usuario = await exigirAdmin();
-  const dados = z.object({ id: idRevisao, motivo: z.string().trim().min(3, "Escreva o motivo.").max(2_000) }).safeParse({ id, motivo });
+  const dados = z.object({ id: idRevisao, motivo: motivoRejeicao, tipo: z.enum(["questao", "flashcard"]) }).safeParse({ id, motivo, tipo });
   if (!dados.success) return { ok: false, erro: dados.error.issues[0]!.message };
-  const r = await db
-    .update(questoesRevisao)
-    .set({ status: "rejeitada", revisadoEm: new Date(), revisadoPor: usuario.email, motivoRevisao: dados.data.motivo })
-    .where(and(eq(questoesRevisao.id, dados.data.id), eq(questoesRevisao.status, "pendente_revisao")));
-  revalidatePath("/admin/revisao");
-  return r.rowsAffected ? { ok: true, aprovadas: 0 } : { ok: false, erro: "Essa questão já foi revisada." };
+  const ok = await rejeitar(db, dados.data.tipo, dados.data.id, usuario.email, dados.data.motivo);
+  revalidar();
+  return ok ? { ok: true, aprovadas: 0 } : { ok: false, erro: "Esse item já foi revisado." };
+}
+
+export async function aprovarFlashcardRevisao(id: number, edicao?: unknown): Promise<ResultadoRevisao> {
+  const usuario = await exigirAdmin();
+  const i = idRevisao.safeParse(id);
+  if (!i.success) return { ok: false, erro: "Flashcard inválido." };
+  const e = edicao === undefined ? undefined : edicaoFlashcard.safeParse(edicao);
+  if (e && !e.success) return { ok: false, erro: e.error.issues[0]!.message };
+  const aprovados = await aprovarFlashcards(db, [i.data], usuario.email, e?.data);
+  revalidar();
+  return aprovados ? { ok: true, aprovadas: aprovados } : { ok: false, erro: "Esse flashcard já foi revisado." };
+}
+
+/** Aba "Reportados": devolve ao ar (reporte improcedente) ou mantém fora. */
+export async function resolverReporteAdmin(reporteId: number, decisao: "restaurado" | "removido"): Promise<ResultadoRevisao> {
+  await exigirAdmin();
+  const dados = z.object({ id: idRevisao, decisao: z.enum(["restaurado", "removido"]) }).safeParse({ id: reporteId, decisao });
+  if (!dados.success) return { ok: false, erro: "Reporte inválido." };
+  const ok = await resolverReporte(db, dados.data.id, dados.data.decisao);
+  revalidar();
+  return ok ? { ok: true, aprovadas: 0 } : { ok: false, erro: "Esse reporte já foi resolvido." };
 }

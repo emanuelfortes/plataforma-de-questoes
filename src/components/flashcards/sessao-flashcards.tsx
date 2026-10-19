@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useTransition } from "react";
+import { ReportarErro } from "@/components/reportar-erro";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { avaliarFlashcard } from "@/server/acoes";
@@ -89,6 +90,7 @@ export function SessaoFlashcards({ cards }: { cards: CardSessao[] }) {
           </Button>
         ))}
       </div>
+      {virado && <ReportarErro key={atual.id} tipo="flashcard" id={atual.id} />}
     </div>
   );
 }

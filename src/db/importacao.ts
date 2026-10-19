@@ -217,7 +217,7 @@ export function criarGravador(db: Db) {
     return inseridas.length;
   }
 
-  async function gravarFlashcards(lista: FlashcardPronto[]) {
+  async function gravarFlashcards(lista: (FlashcardPronto & Omit<OrigemQuestao, "subtopico">)[]) {
     if (!lista.length) return 0;
     const valores = [];
     for (const f of lista) {
@@ -228,6 +228,9 @@ export function criarGravador(db: Db) {
         assuntoId: await idAssunto(disciplinaId, f.assunto),
         frente: f.frente,
         verso: f.verso,
+        origem: f.origem ?? null,
+        topicoTaxonomia: f.topicoTaxonomia ?? null,
+        leiReferencia: f.leiReferencia ?? null,
       });
     }
     const inseridos = await db
@@ -239,5 +242,5 @@ export function criarGravador(db: Db) {
     return inseridos.length;
   }
 
-  return { gravarQuestoes, gravarFlashcards };
+  return { gravarQuestoes, gravarFlashcards, somarContagens };
 }

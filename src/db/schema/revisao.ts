@@ -18,6 +18,10 @@ export type ResultadoAuditoria = {
   ajuste?: { motivos: string[]; reprovado: string | null };
   /** Checagens em código que rebaixaram a questão (dispositivo sem nota, trecho de nota a confirmar). */
   alertas?: string[];
+  /** Segundo auditor independente (produção automática): aprovação automática exige VALIDADA dos dois. */
+  segundo?: { status: string; justificativa: string; problemas: { tipo: string; gravidade: string; descricao: string }[]; correcao_sugerida: string | null };
+  /** Por que não foi aprovada sozinha (vazio quando foi). */
+  motivos_fila?: string[];
 };
 
 export const questoesRevisao = sqliteTable(
@@ -67,4 +71,61 @@ export const questoesRevisao = sqliteTable(
     comentarioFinal: text("comentario_final"),
   },
   (t) => [index("questoes_revisao_status").on(t.status, t.topicoTaxonomia)],
+);
+
+/** Parecer de auditoria de um flashcard (mesmo formato básico do das questões). */
+export type AuditoriaFlashcard = {
+  justificativa: string;
+  problemas: { tipo: string; gravidade: string; descricao: string }[];
+  correcao_sugerida: string | null;
+  citacoes_jurisprudencia: string[];
+  regenerado: boolean;
+  alertas?: string[];
+  segundo?: { status: string; justificativa: string; problemas: { tipo: string; gravidade: string; descricao: string }[]; correcao_sugerida: string | null };
+  motivos_fila?: string[];
+};
+
+// Flashcards gerados por IA aguardando revisão: mesma regra das questões (aprovar copia para "flashcards").
+export const flashcardsRevisao = sqliteTable(
+  "flashcards_revisao",
+  {
+    id: integer("id").primaryKey(),
+    codigo: text("codigo").notNull().unique(),
+    status: text("status").notNull().default("pendente_revisao"),
+    origem: text("origem").notNull().default("ia"),
+    statusAuditoria: text("status_auditoria").notNull(),
+    disciplina: text("disciplina").notNull(),
+    assunto: text("assunto").notNull(),
+    subtopico: text("subtopico"),
+    topicoTaxonomia: text("topico_taxonomia").notNull(),
+    frente: text("frente").notNull(),
+    verso: text("verso").notNull(),
+    leiReferencia: text("lei_referencia"),
+    dataCorteLegislativo: text("data_corte_legislativo").notNull(),
+    auditoria: text("auditoria", { mode: "json" }).$type<AuditoriaFlashcard>().notNull(),
+    lote: text("lote").notNull(),
+    criadoEm: integer("criado_em", { mode: "timestamp" }).notNull(),
+    revisadoEm: integer("revisado_em", { mode: "timestamp" }),
+    revisadoPor: text("revisado_por"),
+    motivoRevisao: text("motivo_revisao"),
+  },
+  (t) => [index("flashcards_revisao_status").on(t.status, t.topicoTaxonomia)],
+);
+
+// Erros reportados por alunos. O item sai do ar (suspensa) até o dono decidir.
+export const reportes = sqliteTable(
+  "reportes",
+  {
+    id: integer("id").primaryKey(),
+    /** "questao" | "flashcard" */
+    tipo: text("tipo").notNull(),
+    itemId: integer("item_id").notNull(),
+    usuarioId: text("usuario_id").notNull(),
+    motivo: text("motivo").notNull(),
+    /** aberto | restaurado (voltou ao ar) | removido (continua fora) */
+    situacao: text("situacao").notNull().default("aberto"),
+    criadoEm: integer("criado_em", { mode: "timestamp" }).notNull(),
+    resolvidoEm: integer("resolvido_em", { mode: "timestamp" }),
+  },
+  (t) => [index("reportes_situacao").on(t.situacao, t.criadoEm), index("reportes_usuario").on(t.usuarioId, t.criadoEm)],
 );

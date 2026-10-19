@@ -109,7 +109,7 @@ const PLANO: { prefixo: string; topico: string; lotes: { concurso: string; foco:
 ];
 
 // Trecho de cada edital para o tópico (verticalizados em docs/).
-const EDITAL: Record<string, Record<string, string>> = {
+export const EDITAL: Record<string, Record<string, string>> = {
   "lingua-portuguesa--crase": {
     "pcce-2021": "Domínio da estrutura morfossintática do período: (...) emprego dos sinais de pontuação; concordância verbal e nominal; emprego do sinal indicativo de crase; colocação dos pronomes átonos.",
   },
@@ -136,7 +136,7 @@ const EDITAL: Record<string, Record<string, string>> = {
 };
 
 // 10 questões por lote: 3 fáceis, 4 médias e 3 difíceis.
-const DISTRIBUICAO = "3 fáceis (q01 a q03), 4 médias (q04 a q07) e 3 difíceis (q08 a q10)";
+export const DISTRIBUICAO = "3 fáceis (q01 a q03), 4 médias (q04 a q07) e 3 difíceis (q08 a q10)";
 
 export function lerProgresso(): Progresso {
   return JSON.parse(readFileSync(ARQUIVO_PROGRESSO, "utf8"));
@@ -148,7 +148,7 @@ export const pastaLote = (id: string) => `${PASTA}/lotes/${id}`;
 const lerJson = (caminho: string) => JSON.parse(readFileSync(caminho, "utf8"));
 
 /** Julgados da lista que tocam as leis do tópico (por enquanto a lista inteira, que é pequena). */
-function listaJurisprudencia() {
+export function listaJurisprudencia() {
   const lista = lerJurisprudencia();
   return lista.length
     ? lista.map((j) => `  - ${j.tribunal}, ${j.tipo} ${j.numero} (${j.dispositivo_afetado}): ${j.tese}`).join("\n")
@@ -156,7 +156,7 @@ function listaJurisprudencia() {
 }
 
 /** Seção com os dispositivos que só podem ser cobrados com nota obrigatória no comentário. */
-function secaoSensiveis(sensiveis: ReturnType<typeof sensiveisDoTopico>, leis: Taxonomia["leis"]) {
+export function secaoSensiveis(sensiveis: ReturnType<typeof sensiveisDoTopico>, leis: Taxonomia["leis"]) {
   if (!sensiveis.length) return "";
   const itens = sensiveis
     .map((d) => `- ${leis[d.lei]?.nome ?? d.lei}, art. ${d.artigos.map((a) => a.replace("-", "º-")).join(", ")} (${d.situacao}). Nota base: ${notaConferida(d.nota)}`)

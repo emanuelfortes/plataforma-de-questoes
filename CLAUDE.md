@@ -54,7 +54,7 @@ src/
     (app)/admin                           área do dono (ADMIN_EMAILS), com menu lateral: visão geral, financeiro,
                                           pessoas (cadastrados x assinantes) e questões (prompt de IA e importação)
     (app)/assinatura                      assinatura mensal (Mercado Pago), cancelar, limite grátis do dia
-    (app)/admin/revisao                   fila de questões geradas por IA (questoes_revisao): aprovar copia para questoes
+    (app)/admin/revisao                   fila de revisão: questões e flashcards de IA e itens reportados por alunos
     api/mercadopago/webhook               avisos do Mercado Pago (assinatura e cobranças), opcional
     api/cron/assinaturas                  conferência diária no Mercado Pago (vercel.json, CRON_SECRET)
     api/auth/[...all]                     rotas do Better Auth
@@ -73,6 +73,9 @@ data/leis/                                textos legais vigentes (scripts/leis/b
 data/jurisprudencia.json                  julgados que a IA pode citar pelo número (o professor preenche)
 data/dispositivos-sensiveis.json          artigos com inconstitucionalidade, interpretação conforme ou não recepção: só com nota
 prompts/gerador.md, prompts/auditor.md    instruções da geração por IA; scripts/questoes/ (piloto, ajustes, finalizar, api-lotes)
+scripts/questoes/producao.ts              produção automática (estado em data/geradas/producao.json); comando /gerar-lote
+scripts/questoes/rodar-noite.ps1          rodadas noturnas do Claude sem tela; agendar-noite.ps1 registra no Agendador
+src/db/aprovacao.ts                       aprovar, rejeitar e reportar erro (tela e produção usam o mesmo código)
 ```
 
 ## Modelo de dados (resumo)
@@ -88,6 +91,7 @@ prompts/gerador.md, prompts/auditor.md    instruções da geração por IA; scri
 - `status_questao`: último estado por aluno e questão. Fonte dos filtros e ícones.
   Sem linha = não resolvida. `ultima_correta` = acertou ou errou.
 - `revisoes_flashcard`: estado FSRS por aluno e card.
+- `flashcards_revisao`: o mesmo para flashcards. `reportes`: erros reportados por alunos (o item fica `suspensa` e sai das listas e contagens até a revisão).
 - `questoes_revisao`: questões geradas por IA aguardando revisão (status pendente_revisao, aprovada, rejeitada). Fora de `questoes` até a aprovação em /admin/revisao.
   A aprovada leva o mesmo `codigo` para `questoes`, com `origem = 'ia'`, `topico_taxonomia`, `subtopico` e `lei_referencia` (nulos nas importadas por arquivo; índice `questoes_origem_topico`).
 - `assinaturas`, `pagamentos`: assinatura mensal e cada cobrança do Mercado Pago (fonte do faturamento). Só de quem tem `external_reference` com o prefixo `nobrega-questoes:` (`src/lib/planos.ts`), para separar de outros produtos na mesma conta.
@@ -105,6 +109,7 @@ prompts/gerador.md, prompts/auditor.md    instruções da geração por IA; scri
 8. **Mudou o formato do JSONL?** Atualize juntos `src/lib/formato-jsonl.ts`, `src/db/importacao.ts`, `src/lib/prompt-ia.ts`, `docs/FORMATO-QUESTOES.md`, `docs/PROMPT-GERAR-QUESTOES.md` e `scripts/gerar-exemplo.ts`.
 11. **Pagamentos:** nunca confie no conteúdo do aviso (webhook) nem em parâmetros da URL: pegue só o id e busque o recurso na API do Mercado Pago (`src/server/assinatura.ts`). Sem `MP_ACCESS_TOKEN` a cobrança fica desligada (sem limite diário).
 10. **Área do dono:** páginas e ações de `/admin` começam com `exigirAdmin()` (e-mails em `ADMIN_EMAILS`).
+12. **Itens suspensos (reportados) não aparecem para o aluno:** toda consulta nova de `questoes` ou `flashcards` para o aluno filtra `suspensa = false`.
 9. Toda consulta nova que filtra `questoes` precisa de índice que a cubra. Confira com `EXPLAIN QUERY PLAN` (veja `/revisar-performance`).
 
 ## Convenções

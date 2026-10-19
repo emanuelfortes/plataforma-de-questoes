@@ -60,7 +60,8 @@ export async function listarQuestoes(
 ) {
   const { usuarioId, disciplinaId, assuntoIds, status, inicio, cursor, voltou } = filtros;
 
-  const condicoes: SQL[] = [];
+  // Questão reportada por aluno fica fora do ar até ser revisada.
+  const condicoes: SQL[] = [eq(questoes.suspensa, false)];
   if (disciplinaId) condicoes.push(eq(questoes.disciplinaId, disciplinaId));
   const areas = filtroAreas(questoes.assuntoId, assuntoIds);
   if (areas) condicoes.push(areas);
@@ -159,7 +160,7 @@ export async function contarPorStatus(filtros: Omit<FiltrosQuestoes, "status">) 
   const totalBanco = Number(linhaTotal?.total ?? 0);
 
   // Parte do aluno: o ponto de partida é status_questao (cresce com o aluno), então o "in" simples basta.
-  const condicoes: SQL[] = [eq(statusQuestao.usuarioId, usuarioId)];
+  const condicoes: SQL[] = [eq(statusQuestao.usuarioId, usuarioId), eq(questoes.suspensa, false)];
   if (disciplinaId) condicoes.push(eq(questoes.disciplinaId, disciplinaId));
   if (assuntoIds?.length) condicoes.push(inArray(questoes.assuntoId, assuntoIds));
 
@@ -194,6 +195,6 @@ export async function obterGabarito(questaoId: number) {
       letras: questoes.alternativas,
     })
     .from(questoes)
-    .where(eq(questoes.id, questaoId));
+    .where(and(eq(questoes.id, questaoId), eq(questoes.suspensa, false)));
   return q;
 }

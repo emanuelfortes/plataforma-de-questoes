@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Agent",
+      "Bash(npx tsx scripts/questoes/producao.ts *)",
+      "Bash(git add data/geradas *)",
+      "Bash(git commit *)",
+      "Edit(/data/geradas/producao/**)",
+      "Edit(/data/relatorios/**)"
+    ],
+    "deny": [
+      "Read(./.env*)",
+      "Read(**/.env*)",
+      "Bash(* --producao*)",
+      "Bash(npx drizzle-kit *)",
+      "Bash(npm run db:*)",
+      "Bash(git push*)"
+    ]
+  }
+}

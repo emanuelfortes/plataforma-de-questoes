@@ -36,6 +36,7 @@ export async function montarSessao(usuarioId: string, disciplinaId?: number, ass
       and(
         eq(revisoesFlashcard.usuarioId, usuarioId),
         lte(revisoesFlashcard.vence, agora),
+        eq(flashcards.suspensa, false),
         ...filtroDisciplina,
       ),
     )
@@ -57,7 +58,7 @@ export async function montarSessao(usuarioId: string, disciplinaId?: number, ass
               eq(revisoesFlashcard.usuarioId, usuarioId),
             ),
           )
-          .where(and(isNull(revisoesFlashcard.flashcardId), ...filtroDisciplina))
+          .where(and(isNull(revisoesFlashcard.flashcardId), eq(flashcards.suspensa, false), ...filtroDisciplina))
           .orderBy(asc(flashcards.id))
           .limit(vagas)
       : [];

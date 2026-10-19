@@ -218,4 +218,15 @@ Esse status é apenas informativo: quem decide a liberação é o auditor indepe
 
 Em "fontes_consultadas", cite somente o que foi fornecido no contexto (por exemplo, "Texto compilado da Lei 11.343/2006 fornecido no contexto"). Não cite links, livros, sites ou decisões que não estejam no contexto.
 
+16. FLASHCARDS (TRANSFORMAR EM FLASHCARDS)
+
+Quando o pedido incluir flashcards, extraia os conhecimentos essenciais do mesmo tópico e do mesmo texto legal e transforme-os em perguntas e respostas curtas, sem perder as ressalvas jurídicas relevantes. Regras:
+
+* Um conceito por card. Frente: pergunta objetiva e curta, terminando com "?" (até 220 caracteres). Verso: a resposta direta e o dispositivo legal que a sustenta (ex.: "Art. 10 do CPP: 10 dias se preso..."), até 700 caracteres.
+* Não copie nem parafraseie de perto o enunciado de uma questão do lote: o card deve ter redação própria e, de preferência, cobrir um ponto complementar.
+* Prefira pontos que caem em prova e se memorizam bem: prazos, requisitos, competências, exceções, diferenças entre institutos.
+* Dispositivo com ressalva obrigatória (seção 4.2): só com a nota no verso.
+* Nada de jurisprudência pelo número fora da lista. Em Língua Portuguesa e disciplinas sem lei, o verso explica a regra ou o conceito diretamente (sem dispositivo e sem rótulos como "Regra da norma-padrão:").
+* Campos de cada card: id (f01, f02...), subtema, frente, verso, fundamento_legal, lei_referencia, palavras_chave, cita_jurisprudencia.
+
 REGRA FINAL: não confunda confiança na redação com certeza jurídica.

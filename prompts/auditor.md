@@ -73,6 +73,15 @@ Resolva cada questão por conta própria antes de olhar o gabarito proposto. Dep
 * Há questões duplicadas ou que cobram o mesmo dispositivo do mesmo jeito?
 * Há gabaritos ou comentários contraditórios entre questões?
 
+8. Flashcards (quando houver)
+
+* A resposta do verso está correta conforme o texto legal fornecido e responde exatamente à frente?
+* A frente admite uma única resposta, sem ambiguidade?
+* O verso cita o dispositivo certo e não omite exceção que mude a resposta?
+* Dispositivo com ressalva obrigatória só com a nota no verso; número de julgado só se estiver na lista.
+* Um conceito por card, e o card não copia o enunciado de uma questão do lote?
+* Use os mesmos status das questões: "correto_conforme_lei" e "ambiguo" registram as duas verificações principais.
+
 STATUS FINAL
 
 Para cada questão, atribua:

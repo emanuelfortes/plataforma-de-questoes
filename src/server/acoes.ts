@@ -1,10 +1,11 @@
 "use server";
 
-import { and, eq, sql } from "drizzle-orm";
+import { and, count, eq, gte, sql } from "drizzle-orm";
 import { createEmptyCard, fsrs, type Card, type Grade } from "ts-fsrs";
 import { z } from "zod";
 import { db } from "@/db";
-import { flashcards, respostas, revisoesFlashcard, statusQuestao } from "@/db/schema";
+import { suspenderPorReporte } from "@/db/aprovacao";
+import { flashcards, reportes, respostas, revisoesFlashcard, statusQuestao } from "@/db/schema";
 import { LIMITE_GRATIS_DIA } from "@/lib/planos";
 import { exigirUsuario } from "@/lib/sessao";
 import { situacaoDoAluno } from "./assinatura";
@@ -100,7 +101,7 @@ export async function avaliarFlashcard(
   const [existe] = await db
     .select({ id: flashcards.id })
     .from(flashcards)
-    .where(eq(flashcards.id, entrada.data.flashcardId));
+    .where(and(eq(flashcards.id, entrada.data.flashcardId), eq(flashcards.suspensa, false)));
   if (!existe) return { ok: false, erro: "Flashcard não encontrado." };
 
   const [anterior] = await db
@@ -153,4 +154,31 @@ export async function avaliarFlashcard(
     });
 
   return { ok: true, proximaRevisao: card.due.toISOString() };
+}
+
+// Reporte de erro: o item sai do ar na hora e vai para a revisão do dono (/admin/revisao).
+// Limite por aluno para que ninguém tire o banco do ar reportando tudo.
+const LIMITE_REPORTES_DIA = 10;
+const entradaReporte = z.object({
+  tipo: z.enum(["questao", "flashcard"]),
+  id: z.number().int().positive(),
+  motivo: z.string().trim().min(5, "Conte em poucas palavras qual é o erro.").max(1_000),
+});
+
+export type ResultadoReporte = { ok: true } | { ok: false; erro: string };
+
+export async function reportarErro(tipo: string, id: number, motivo: string): Promise<ResultadoReporte> {
+  const usuario = await exigirUsuario();
+  const entrada = entradaReporte.safeParse({ tipo, id, motivo });
+  if (!entrada.success) return { ok: false, erro: entrada.error.issues[0]!.message };
+
+  const desde = new Date(Date.now() - 24 * 60 * 60 * 1000);
+  const [hoje] = await db
+    .select({ n: count() })
+    .from(reportes)
+    .where(and(eq(reportes.usuarioId, usuario.id), gte(reportes.criadoEm, desde)));
+  if ((hoje?.n ?? 0) >= LIMITE_REPORTES_DIA) return { ok: false, erro: "Você já enviou muitos reportes hoje. Tente amanhã." };
+
+  const ok = await suspenderPorReporte(db, entrada.data.tipo, entrada.data.id, usuario.id, entrada.data.motivo);
+  return ok ? { ok: true } : { ok: false, erro: "Item não encontrado." };
 }

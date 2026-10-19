@@ -135,7 +135,7 @@ const PADRAO_JURISPRUDENCIA =
   /\b(s[úu]mulas?(\s+vinculantes?)?\s*(n[º°o.]*\s*)?\d+|temas?\s*(n[º°o.]*\s*)?\d+|informativos?\s*(n[º°o.]*\s*)?\d+|(HC|RHC|RE|REsp|AREsp|ARE|AgRg|AgInt|EREsp|ADI|ADC|ADPF|ADO|MS|RMS|Rcl|Inq|AP|CC|Pet)\s*(n[º°o.]*\s*)?\d[\d.]*)/gi;
 
 /** Texto da questão em que se procuram citações (sem os campos de classificação). */
-function camposDeTexto(q: QuestaoGerada) {
+export function camposDeTexto(q: QuestaoGerada) {
   return [
     q.enunciado, q.comentario_geral, q.fundamento_legal, q.fundamento_jurisprudencial, q.observacao_temporal, q.pegadinha,
     q.lei_referencia, q.macete_do_riccardo ?? "", q.fique_ligado ?? "", q.cuidado_na_prova ?? "",
@@ -192,3 +192,112 @@ export function trechosAConfirmar(q: QuestaoGerada, sensiveis: DispositivoSensiv
 
 /** Nota como vai para o gerador: sem os trechos marcados para confirmar. */
 export const notaConferida = (nota: string) => nota.replace(/\s*\[CONFIRMAR:[^\]]*\]/g, "").replace(/\s{2,}/g, " ").trim();
+
+// ---------- Flashcards (produção automática: ~3 por lote de 10 questões) ----------
+
+export const esquemaFlashcardGerado = z.object({
+  id: texto.describe("Identificador do card no lote, ex.: f01"),
+  subtema: texto,
+  frente: texto.describe("Pergunta objetiva e curta"),
+  verso: texto.describe("Resposta, com o dispositivo legal"),
+  fundamento_legal: texto,
+  lei_referencia: texto,
+  palavras_chave: z.array(texto),
+  cita_jurisprudencia: z.boolean(),
+});
+
+/** Saída do gerador na produção: questões e flashcards do mesmo tópico e recorte de lei. */
+export const esquemaLoteProducao = z.object({
+  questoes: z.array(esquemaQuestaoGerada),
+  flashcards: z.array(esquemaFlashcardGerado),
+  observacoes_do_lote: z.string().nullable(),
+});
+
+export const esquemaAuditoriaFlashcard = z.object({
+  id: texto.describe("id do flashcard auditado"),
+  status: z.enum(STATUS_AUDITORIA),
+  correto_conforme_lei: z.boolean(),
+  ambiguo: z.boolean(),
+  problemas: z.array(
+    z.object({
+      tipo: z.enum(["normativo", "jurisprudencial", "ambiguidade", "gramatical", "pedagogico", "originalidade", "conjunto"]),
+      gravidade: z.enum(["alta", "media", "baixa"]),
+      descricao: texto,
+    }),
+  ),
+  correcao_sugerida: z.string().nullable(),
+  justificativa: texto.describe("Resumo do veredito, em 1 a 3 frases"),
+});
+
+export const esquemaLoteAuditadoProducao = z.object({
+  auditorias: z.array(esquemaAuditoria),
+  auditorias_flashcards: z.array(esquemaAuditoriaFlashcard),
+});
+
+export type FlashcardGerado = z.infer<typeof esquemaFlashcardGerado>;
+export type LoteProducao = z.infer<typeof esquemaLoteProducao>;
+export type AuditoriaFlashcardGerada = z.infer<typeof esquemaAuditoriaFlashcard>;
+
+export const LIMITE_FRENTE = 220;
+export const LIMITE_VERSO = 700;
+
+const textosFlashcard = (f: FlashcardGerado) => [f.frente, f.verso, f.fundamento_legal, f.lei_referencia];
+
+/** Citações de julgado fora da lista em um flashcard. */
+export function citacoesFlashcardForaDaLista(f: FlashcardGerado, lista: Julgado[]) {
+  const permitidas = new Set(lista.map((j) => chaveCitacao(`${j.tipo} ${j.numero}`)));
+  const achadas = [...new Set(textosFlashcard(f).flatMap((c) => c.match(PADRAO_JURISPRUDENCIA) ?? []).map((c) => c.replace(/\s+/g, " ").trim()))];
+  return achadas.filter((c) => !permitidas.has(chaveCitacao(c)));
+}
+
+/** Dispositivos sensíveis que o texto cita (com ou sem nota). Na produção, qualquer um manda para a fila manual. */
+export function artigosSensiveisCitados(textos: string[], sensiveis: DispositivoSensivel[]) {
+  const t = textos.join("\n");
+  return sensiveis.flatMap((d) => d.artigos.filter((a) => padraoArtigo(a).test(t)).map((a) => `art. ${a.replace("-", "º-")} (${d.lei})`));
+}
+
+/** Idem para questões. */
+export const sensiveisCitadosQuestao = (q: QuestaoGerada, sensiveis: DispositivoSensivel[]) => artigosSensiveisCitados(camposDeTexto(q), sensiveis);
+
+/**
+ * Regras do flashcard que o esquema não expressa: frente curta e em forma de pergunta, verso com o
+ * dispositivo (quando o tópico tem lei), nota obrigatória em dispositivo sensível e sem copiar enunciado.
+ */
+export function conferirFlashcard(f: FlashcardGerado, opcoes: { temLei: boolean; sensiveis: DispositivoSensivel[]; enunciados: string[] }) {
+  const erros: string[] = [];
+  if (f.frente.length > LIMITE_FRENTE) erros.push(`${f.id}: frente com ${f.frente.length} caracteres; o máximo é ${LIMITE_FRENTE} (pergunta curta e objetiva)`);
+  if (!f.frente.trim().endsWith("?")) erros.push(`${f.id}: a frente deve ser uma pergunta (terminar com "?")`);
+  if (f.verso.length > LIMITE_VERSO) erros.push(`${f.id}: verso com ${f.verso.length} caracteres; o máximo é ${LIMITE_VERSO}`);
+  if (opcoes.temLei && !/\bart(igo)?s?\.?\s*\d|§|\binciso\b|\bLei\b|\bCF\b|\bCP\b|\bCPP\b/i.test(f.verso))
+    erros.push(`${f.id}: o verso precisa citar o dispositivo legal (ex.: "art. 14 do CPP")`);
+  const citados = artigosSensiveisCitados(textosFlashcard(f), opcoes.sensiveis);
+  if (citados.length && !NOTA_PRESENTE.test(f.verso)) erros.push(`${f.id}: cita ${citados.join(", ")} sem a nota obrigatória no verso`);
+  for (const e of opcoes.enunciados) {
+    if (semelhancaSimples(f.frente, e) >= 0.6) {
+      erros.push(`${f.id}: a frente repete o enunciado de uma questão do lote; o card deve ter redação própria`);
+      break;
+    }
+  }
+  return erros;
+}
+
+// Semelhança por pares de letras (a mesma ideia de src/lib/catalogo.ts, sem depender dele aqui).
+function semelhancaSimples(a: string, b: string) {
+  const pares = (t: string) => {
+    const s = semAcento(t).replace(/[^a-z0-9]/g, "");
+    return Array.from({ length: Math.max(s.length - 1, 0) }, (_, i) => s.slice(i, i + 2));
+  };
+  const pa = pares(a);
+  const resto = pares(b);
+  if (!pa.length || !resto.length) return 0;
+  const total = pa.length + resto.length;
+  let comuns = 0;
+  for (const p of pa) {
+    const i = resto.indexOf(p);
+    if (i >= 0) {
+      comuns++;
+      resto.splice(i, 1);
+    }
+  }
+  return (2 * comuns) / total;
+}
