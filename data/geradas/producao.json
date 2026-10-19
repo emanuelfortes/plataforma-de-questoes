@@ -512,6 +512,416 @@
         "descartes": []
       },
       "concluidoEm": "2026-10-19T04:49:31.699Z"
+    },
+    {
+      "id": "lingua-portuguesa--interpretacao-de-texto-002",
+      "topico": "lingua-portuguesa--interpretacao-de-texto",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "gm-fortaleza",
+      "foco": "Estruturação do texto e dos parágrafos",
+      "execucao": "exec-2026-10-19T04-49-54-009Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T04:49:57.542Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 10,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 3,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T04:57:00.924Z"
+    },
+    {
+      "id": "direito-constitucional--direitos-e-garantias-fundamentais-002",
+      "topico": "direito-constitucional--direitos-e-garantias-fundamentais",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "gm-fortaleza",
+      "foco": "Direitos e deveres individuais e coletivos (art. 5º)",
+      "execucao": "exec-2026-10-19T04-49-54-009Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T04:49:57.658Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 10,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 3,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T04:57:03.160Z"
+    },
+    {
+      "id": "direito-processual-penal--inquerito-policial-002",
+      "topico": "direito-processual-penal--inquerito-policial",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "gm-fortaleza",
+      "foco": "Instauração, notitia e delatio criminis",
+      "execucao": "exec-2026-10-19T04-49-54-009Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T04:49:57.777Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 9,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 1
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 3,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T04:57:05.379Z"
+    },
+    {
+      "id": "informatica--seguranca-da-informacao-001",
+      "topico": "informatica--seguranca-da-informacao",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "pcce-2021",
+      "foco": "Princípios de segurança",
+      "execucao": "exec-2026-10-19T04-49-54-009Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T04:57:05.484Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 10,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 2,
+          "fila": 1,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T08:22:46.948Z"
+    },
+    {
+      "id": "legislacao-penal-especial--lei-de-drogas-002",
+      "topico": "legislacao-penal-especial--lei-de-drogas",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "gm-fortaleza",
+      "foco": "todo o tema, variando os pontos cobrados",
+      "execucao": "exec-2026-10-19T04-49-54-009Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T04:57:05.593Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 9,
+          "fila": 1,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 3,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T08:22:49.040Z"
+    },
+    {
+      "id": "direitos-humanos--teoria-dos-direitos-humanos-002",
+      "topico": "direitos-humanos--teoria-dos-direitos-humanos",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "gm-fortaleza",
+      "foco": "Características",
+      "execucao": "exec-2026-10-19T04-49-54-009Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T04:57:05.712Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 9,
+          "fila": 1,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 3,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T08:22:51.028Z"
+    },
+    {
+      "id": "direito-penal--crimes-contra-a-pessoa-001",
+      "topico": "direito-penal--crimes-contra-a-pessoa",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "pcce-2021",
+      "foco": "todo o tema, variando os pontos cobrados",
+      "execucao": "exec-2026-10-19T08-14-44-409Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [
+          "q04"
+        ],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T08:22:51.137Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 10,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 3,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T08:40:37.368Z"
+    },
+    {
+      "id": "legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-002",
+      "topico": "legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "gm-fortaleza",
+      "foco": "todo o tema, variando os pontos cobrados",
+      "execucao": "exec-2026-10-19T08-14-44-409Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T08:22:51.254Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 9,
+          "fila": 1,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 3,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T08:33:47.764Z"
+    },
+    {
+      "id": "direito-penal-militar--crime-militar-conceito-e-classificacao-002",
+      "topico": "direito-penal-militar--crime-militar-conceito-e-classificacao",
+      "banca": "Vunesp",
+      "alternativas": 5,
+      "concurso": "cfo-pmce",
+      "foco": "Propriamente e impropriamente militares",
+      "execucao": "exec-2026-10-19T08-14-44-409Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T08:22:51.375Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 6,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 4
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 3,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T08:33:49.707Z"
+    },
+    {
+      "id": "raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-002",
+      "topico": "raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias",
+      "banca": "Vunesp",
+      "alternativas": 5,
+      "concurso": "cfo-pmce",
+      "foco": "Avaliação das condições de uma estrutura",
+      "execucao": "exec-2026-10-19T08-14-44-409Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T08:33:49.826Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 10,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 3,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T08:40:39.561Z"
+    },
+    {
+      "id": "historia-e-geografia-do-ceara--ceara-na-republica-002",
+      "topico": "historia-e-geografia-do-ceara--ceara-na-republica",
+      "banca": "Vunesp",
+      "alternativas": 5,
+      "concurso": "cfo-pmce",
+      "foco": "1930 a 1964: Estado Novo, indústria da seca, DNOCS e SUDENE",
+      "execucao": "exec-2026-10-19T08-14-44-409Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T08:33:49.950Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 10,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 3,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T08:40:41.806Z"
+    },
+    {
+      "id": "administracao-publica-e-etica--processo-organizacional-001",
+      "topico": "administracao-publica-e-etica--processo-organizacional",
+      "banca": "Vunesp",
+      "alternativas": 5,
+      "concurso": "cfo-pmce",
+      "foco": "Planejamento, direção, comunicação, controle e avaliação",
+      "execucao": "exec-2026-10-19T08-14-44-409Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T08:40:41.923Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 0,
+          "fila": 10,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 0,
+          "fila": 3,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T08:45:52.543Z"
     }
   ],
   "execucoes": [
@@ -549,6 +959,24 @@
       "paralelo": 3,
       "lotesIniciados": 6,
       "fim": "2026-10-19T04:49:31.699Z",
+      "motivoFim": "teto atingido"
+    },
+    {
+      "id": "exec-2026-10-19T04-49-54-009Z",
+      "inicio": "2026-10-19T04:49:54.009Z",
+      "teto": 6,
+      "paralelo": 3,
+      "lotesIniciados": 6,
+      "fim": "2026-10-19T08:14:44.409Z",
+      "motivoFim": "substituída por nova execução"
+    },
+    {
+      "id": "exec-2026-10-19T08-14-44-409Z",
+      "inicio": "2026-10-19T08:14:44.409Z",
+      "teto": 6,
+      "paralelo": 3,
+      "lotesIniciados": 6,
+      "fim": "2026-10-19T08:45:52.544Z",
       "motivoFim": "teto atingido"
     }
   ],

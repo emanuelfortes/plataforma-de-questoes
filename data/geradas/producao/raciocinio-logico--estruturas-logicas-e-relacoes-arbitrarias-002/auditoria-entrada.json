@@ -1,0 +1,841 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Estruturas Lógicas e Relações Arbitrárias",
+      "subtema": "Avaliação das condições de uma estrutura",
+      "dificuldade": "facil",
+      "enunciado": "Em uma seção da PMCE, três policiais (Ana, Bruno e Célia) serão escalados para cobrir três horários distintos: manhã, tarde e noite, um policial por horário. Sabe-se que: Ana não cobre a noite; Bruno cobre a manhã. Qual escala satisfaz todas essas condições?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Bruno na manhã, Ana na tarde e Célia na noite."
+        },
+        {
+          "id": "a2",
+          "texto": "Bruno na manhã, Célia na tarde e Ana na noite."
+        },
+        {
+          "id": "a3",
+          "texto": "Ana na manhã, Bruno na tarde e Célia na noite."
+        },
+        {
+          "id": "a4",
+          "texto": "Célia na manhã, Bruno na tarde e Ana na noite."
+        },
+        {
+          "id": "a5",
+          "texto": "Ana na manhã, Célia na tarde e Bruno na noite."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Avaliar as condições de uma estrutura é testar cada arranjo contra todas as restrições e aceitar só o que cumpre todas ao mesmo tempo. Bruno cobre a manhã, então ele não pode estar em outro horário. Com Bruno fixado na manhã, sobram tarde e noite para Ana e Célia; como Ana não cobre a noite, Ana fica na tarde e Célia na noite. Logo, o único arranjo possível é Bruno na manhã, Ana na tarde e Célia na noite.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Respeita as duas condições: Bruno está na manhã e Ana não está na noite (está na tarde). É o único arranjo que cumpre tudo."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Coloca Ana na noite, o que viola a condição de que Ana não cobre a noite, embora Bruno esteja na manhã."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Coloca Bruno na tarde, violando a condição de que Bruno cobre a manhã."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Coloca Bruno na tarde e Ana na noite, violando as duas condições de uma só vez."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Coloca Bruno na noite, violando a condição de que Bruno cobre a manhã."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Marcar um arranjo que cumpre uma das condições (Bruno na manhã) mas desrespeita a outra (Ana na noite).",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "Para avaliar um arranjo, passe cada condição como um filtro: basta uma condição violada para eliminar a opção inteira.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "avaliação de condições",
+        "escala",
+        "arranjo válido",
+        "filtro de restrições",
+        "horários"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de raciocínio lógico (avaliação de arranjos sob restrições)"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Estruturas Lógicas e Relações Arbitrárias",
+      "subtema": "Avaliação das condições de uma estrutura",
+      "dificuldade": "facil",
+      "enunciado": "Quatro cadetes (Davi, Elisa, Felipe e Gabi) serão colocados em quatro armários numerados de 1 a 4, um cadete por armário. As condições são: Davi fica no armário 1; Elisa fica em um armário de número par. Com base apenas nessas condições, qual afirmação é necessariamente verdadeira?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Elisa fica no armário 2 ou no armário 4."
+        },
+        {
+          "id": "a2",
+          "texto": "Felipe fica obrigatoriamente no armário 3."
+        },
+        {
+          "id": "a3",
+          "texto": "Gabi fica obrigatoriamente no armário 2."
+        },
+        {
+          "id": "a4",
+          "texto": "Elisa fica no armário 3."
+        },
+        {
+          "id": "a5",
+          "texto": "Davi e Elisa ficam em armários vizinhos."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Uma afirmação é necessariamente verdadeira quando vale em todos os arranjos que satisfazem as condições, não apenas em um deles. Davi ocupa o armário 1 e Elisa ocupa um armário par (2 ou 4). Felipe e Gabi ficam nos dois armários que sobrarem, em qualquer ordem. Então só se garante que Elisa está no 2 ou no 4; as demais afirmações valem apenas em alguns arranjos, logo não são necessárias.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Como Elisa precisa ocupar um armário de número par entre 1 e 4, as únicas possibilidades são 2 e 4; isso vale em todo arranjo válido."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Se Elisa ficar no 2, Felipe pode ficar no 3 ou no 4; não há obrigatoriedade de Felipe no 3."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Gabi pode ficar no 2, 3 ou 4 conforme a posição de Elisa; não há obrigatoriedade de Gabi no 2."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O armário 3 é ímpar, e Elisa precisa de armário par, então essa posição é impossível para ela."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Se Elisa ficar no 4, ela não é vizinha de Davi (que está no 1); a vizinhança não é garantida."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Tomar como necessária uma posição que só acontece em um dos arranjos possíveis.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Necessariamente verdadeiro é o que vale em todos os cenários admitidos; se existe um só contraexemplo, a afirmação cai.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "necessariamente verdadeiro",
+        "armários",
+        "número par",
+        "arranjos possíveis",
+        "avaliação de condições"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de raciocínio lógico (conclusões necessárias sob restrições)"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Estruturas Lógicas e Relações Arbitrárias",
+      "subtema": "Avaliação das condições de uma estrutura",
+      "dificuldade": "facil",
+      "enunciado": "Um instrutor precisa escolher ao menos uma entre três disciplinas optativas (Tiro, Direito e Educação Física) para um treinamento, respeitando as condições: se escolher Tiro, então também escolhe Direito; não é permitido escolher Direito e Educação Física ao mesmo tempo. Qual das escolhas abaixo respeita todas as condições?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Escolher Educação Física, sem Tiro e sem Direito."
+        },
+        {
+          "id": "a2",
+          "texto": "Escolher Tiro e Educação Física, mas sem Direito."
+        },
+        {
+          "id": "a3",
+          "texto": "Escolher Direito e Educação Física, mas sem Tiro."
+        },
+        {
+          "id": "a4",
+          "texto": "Escolher Tiro, Direito e Educação Física juntos."
+        },
+        {
+          "id": "a5",
+          "texto": "Escolher Tiro, mas sem Direito e sem Educação Física."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Cada condição é um filtro sobre as escolhas admissíveis. A primeira condição diz que, havendo Tiro, tem de haver Direito; ela nada exige quando não há Tiro. A segunda proíbe Direito e Educação Física juntos. Escolher apenas Educação Física não aciona a primeira regra (não há Tiro) e não fere a segunda (não há Direito). Logo essa escolha é válida.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Sem Tiro, a primeira condição não é acionada; sem Direito, a segunda condição não é ferida. A escolha cumpre tudo e tem ao menos uma disciplina."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Tem Tiro mas não tem Direito, violando a condição de que escolher Tiro obriga a escolher Direito."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Tem Direito e Educação Física juntos, violando a condição que proíbe essa combinação."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Tem Direito e Educação Física juntos, violando a proibição dessa combinação, ainda que respeite a regra do Tiro."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Tem Tiro sem Direito, violando a condição de que escolher Tiro obriga a escolher Direito."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Esquecer que uma condicional só é acionada quando a hipótese ocorre: sem Tiro, a regra do Tiro não exige nada.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "A regra 'se A então B' não exige nada quando A é falso; ela só proíbe o par A verdadeiro e B falso.",
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "condicional",
+        "escolha válida",
+        "restrição de exclusão",
+        "disciplinas optativas",
+        "avaliação de condições"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de raciocínio lógico (condicionais e exclusões)"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Estruturas Lógicas e Relações Arbitrárias",
+      "subtema": "Avaliação das condições de uma estrutura",
+      "dificuldade": "media",
+      "enunciado": "Cinco viaturas (V1 a V5) serão estacionadas em fila, em cinco vagas consecutivas numeradas de 1 a 5. As condições são: V1 fica em uma das pontas; V2 fica imediatamente ao lado de V1; V3 fica na vaga 3. Considerando todas as condições, qual afirmação é necessariamente verdadeira sobre esses arranjos?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "V2 ocupa a vaga 2 ou a vaga 4."
+        },
+        {
+          "id": "a2",
+          "texto": "V1 ocupa necessariamente a vaga 1."
+        },
+        {
+          "id": "a3",
+          "texto": "V4 fica sempre imediatamente ao lado de V3."
+        },
+        {
+          "id": "a4",
+          "texto": "V5 ocupa necessariamente uma das pontas."
+        },
+        {
+          "id": "a5",
+          "texto": "V2 ocupa a vaga 3."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Com V3 fixa na vaga 3, V1 só pode estar numa ponta: vaga 1 ou vaga 5. Se V1 está na 1, V2 (vizinha de V1) vai para a 2; se V1 está na 5, V2 vai para a 4. Em ambos os cenários V2 fica na vaga 2 ou na vaga 4, o que é necessariamente verdadeiro. As demais afirmações só valem em um dos dois cenários ou são impossíveis.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "V2 precisa ser vizinha de V1 numa ponta; isso leva V2 à vaga 2 (se V1 está na 1) ou à vaga 4 (se V1 está na 5). Vale em todo arranjo válido."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "V1 pode estar na vaga 1 ou na vaga 5, pois ambas são pontas; não há obrigatoriedade da vaga 1."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "V4 fica entre as vagas restantes e pode não encostar em V3; por exemplo, V4 pode ficar na vaga 1 enquanto V3 está na 3."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A ponta oposta a V1 pode ser ocupada por V4 ou por V5; V5 não é obrigada a ficar numa ponta."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "A vaga 3 já é ocupada por V3, logo V2 não pode estar nela."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Fixar V1 na vaga 1 por hábito, esquecendo que a outra ponta (vaga 5) também satisfaz a condição.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Quando uma condição diz apenas 'numa das pontas', mantenha os dois cenários abertos até que outra condição descarte um deles.",
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "fila",
+        "pontas",
+        "vizinhança",
+        "necessariamente verdadeiro",
+        "avaliação de condições"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de raciocínio lógico (ordenação linear com restrições)"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Estruturas Lógicas e Relações Arbitrárias",
+      "subtema": "Avaliação das condições de uma estrutura",
+      "dificuldade": "media",
+      "enunciado": "Um comandante monta uma equipe escolhendo entre quatro agentes (P, Q, R e S), com as regras: P e Q não podem estar juntos na mesma equipe; S só entra na equipe se R também entrar; R só entra na equipe se S também entrar; a equipe deve ter exatamente dois agentes. Qual equipe de dois agentes respeita todas as regras?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A equipe formada por R e S."
+        },
+        {
+          "id": "a2",
+          "texto": "A equipe formada por P e Q."
+        },
+        {
+          "id": "a3",
+          "texto": "A equipe formada por R e P."
+        },
+        {
+          "id": "a4",
+          "texto": "A equipe formada por R e Q."
+        },
+        {
+          "id": "a5",
+          "texto": "A equipe formada por Q e S."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Testamos cada par contra as regras. As duas últimas regras dizem que S só entra com R e que R só entra com S, ou seja, R e S andam sempre juntos: ou os dois entram, ou nenhum entra. A regra de P e Q apenas proíbe esse par específico. A equipe de R e S respeita tudo: tem dois agentes, não junta P com Q, e mantém R e S juntos. Qualquer par que traga só um deles quebra o vínculo entre R e S.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Tem dois agentes, não contém o par proibido P e Q, e mantém R e S juntos, respeitando o vínculo mútuo entre eles. Cumpre todas as regras."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Junta P e Q na mesma equipe, exatamente o par proibido pela primeira regra."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "R entra sem S, violando a regra de que R só entra se S também entrar."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "R entra sem S, violando a regra de que R só entra se S também entrar."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "S entra sem R, violando a regra de que S só entra se R também entrar."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Aceitar um par que traz só R ou só S, esquecendo que as duas regras juntas obrigam R e S a entrarem sempre em conjunto.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "formação de equipe",
+        "par proibido",
+        "condicional",
+        "exatamente dois",
+        "avaliação de condições"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de raciocínio lógico (seleção de conjuntos sob restrições)"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Estruturas Lógicas e Relações Arbitrárias",
+      "subtema": "Avaliação das condições de uma estrutura",
+      "dificuldade": "media",
+      "enunciado": "Três guarnições (Alfa, Bravo e Charlie) devem ser alocadas a três setores (Norte, Sul e Centro), uma guarnição por setor. As condições informadas são: Alfa não fica no Centro; Bravo não fica no Norte; Charlie fica no Sul. A partir dessas condições, é possível determinar a alocação de forma única?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Sim: Alfa no Norte, Bravo no Centro e Charlie no Sul."
+        },
+        {
+          "id": "a2",
+          "texto": "Sim: Alfa no Centro, Bravo no Sul e Charlie no Norte."
+        },
+        {
+          "id": "a3",
+          "texto": "Não, porque Alfa pode ficar no Norte ou no Centro."
+        },
+        {
+          "id": "a4",
+          "texto": "Sim: Bravo no Norte, Alfa no Sul e Charlie no Centro."
+        },
+        {
+          "id": "a5",
+          "texto": "Não, porque Bravo pode ficar no Norte ou no Sul."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Charlie está no Sul, então Alfa e Bravo dividem Norte e Centro. Como Alfa não fica no Centro, Alfa vai para o Norte, e Bravo fica com o Centro. Todas as condições são respeitadas e não sobra alternativa para variar, então a alocação é única: Alfa no Norte, Bravo no Centro e Charlie no Sul.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Charlie no Sul libera Norte e Centro para Alfa e Bravo; como Alfa não pode ir ao Centro, Alfa vai ao Norte e Bravo ao Centro. Fecha de forma única e respeita Bravo fora do Norte."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Coloca Alfa no Centro, violando a condição de que Alfa não fica no Centro, e desloca Charlie do Sul."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Afirma indeterminação falsa: com Charlie no Sul e Alfa fora do Centro, Alfa só pode ficar no Norte, logo não há duas opções para Alfa."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Coloca Bravo no Norte, violando a condição de que Bravo não fica no Norte, e tira Charlie do Sul."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Afirma indeterminação falsa: o Sul já é de Charlie, então Bravo não disputa o Sul e só lhe resta o Centro."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Concluir que há indeterminação sem perceber que uma condição já fixou um elemento e reduziu as opções dos demais.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "Comece pela condição mais forte (a que fixa uma posição); ela costuma desencadear as demais deduções.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "alocação única",
+        "setores",
+        "eliminação",
+        "determinação",
+        "avaliação de condições"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de raciocínio lógico (unicidade de solução sob restrições)"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Estruturas Lógicas e Relações Arbitrárias",
+      "subtema": "Avaliação das condições de uma estrutura",
+      "dificuldade": "media",
+      "enunciado": "Um responsável pela escala de serviço afirmou: as condições do quadro de folga são que todo policial que trabalha no feriado tem a quarta-feira seguinte de folga, e que nenhum policial de folga na quarta trabalha também na quinta. Sabendo que o policial Mota trabalhou no feriado, qual conclusão decorre necessariamente dessas condições?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Mota tem folga na quarta e não trabalha na quinta."
+        },
+        {
+          "id": "a2",
+          "texto": "Mota trabalha na quarta e também na quinta."
+        },
+        {
+          "id": "a3",
+          "texto": "Mota tem folga na quinta, mas pode trabalhar na quarta."
+        },
+        {
+          "id": "a4",
+          "texto": "Mota não teve folga na quarta, pois trabalhou no feriado."
+        },
+        {
+          "id": "a5",
+          "texto": "Mota trabalha na quinta, mas tem folga na quarta seguinte."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "As condições encadeiam duas regras. Pela primeira, quem trabalha no feriado folga na quarta seguinte; Mota trabalhou no feriado, logo Mota tem folga na quarta. Pela segunda, quem está de folga na quarta não trabalha na quinta; como Mota está de folga na quarta, ele não trabalha na quinta. Encadeando, Mota folga na quarta e não trabalha na quinta.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Aplica as duas regras em cadeia: trabalho no feriado leva à folga na quarta, e a folga na quarta impede o trabalho na quinta."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Contraria as duas regras: nega a folga na quarta devida ao trabalho no feriado e afirma trabalho na quinta."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Inverte a primeira regra; o que se garante é a folga na quarta, não a folga na quinta."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Nega a conclusão correta: justamente por ter trabalhado no feriado, Mota tem folga na quarta."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "É contraditória com a segunda regra: se Mota folga na quarta, ele não pode trabalhar na quinta."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar a ordem do encadeamento ou aplicar a segunda regra sem antes concluir a folga na quarta.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Em encadeamento de condicionais, confirme primeiro a hipótese de cada regra antes de usar a conclusão dela na regra seguinte.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "encadeamento de condicionais",
+        "conclusão necessária",
+        "folga",
+        "silogismo hipotético",
+        "avaliação de condições"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de raciocínio lógico (encadeamento de condicionais)"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Estruturas Lógicas e Relações Arbitrárias",
+      "subtema": "Avaliação das condições de uma estrutura",
+      "dificuldade": "dificil",
+      "enunciado": "Seis cadetes (1 a 6) ocupam seis cadeiras em fila, numeradas de 1 a 6. As condições são: o cadete 1 senta antes do cadete 2 (posição de número menor); os cadetes 3 e 4 ocupam cadeiras vizinhas; o cadete 5 senta na cadeira 6. Qual dessas afirmações é compatível com as condições, isto é, ocorre em pelo menos um arranjo válido?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Os cadetes 3 e 4 ocupam as cadeiras 1 e 2, nessa ordem."
+        },
+        {
+          "id": "a2",
+          "texto": "O cadete 5 ocupa a cadeira 1."
+        },
+        {
+          "id": "a3",
+          "texto": "O cadete 2 senta em cadeira de número menor que a do cadete 1."
+        },
+        {
+          "id": "a4",
+          "texto": "Os cadetes 3 e 4 ocupam as cadeiras 2 e 5."
+        },
+        {
+          "id": "a5",
+          "texto": "O cadete 1 e o cadete 2 ocupam a mesma cadeira."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Uma afirmação é compatível quando existe ao menos um arranjo que a torna verdadeira sem violar as condições. Com o cadete 5 fixo na cadeira 6, sobram as cadeiras 1 a 5 para os demais. Se os cadetes 3 e 4 ocupam as cadeiras 1 e 2 (vizinhas, como exige a condição), restam as cadeiras 3, 4 e 5 para os cadetes 1, 2 e 6; basta pôr o cadete 1 antes do 2, por exemplo 1 na cadeira 3 e 2 na cadeira 4. Esse arranjo respeita tudo, logo a afirmação é compatível.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "As cadeiras 1 e 2 são vizinhas, satisfazendo a condição de 3 e 4; com o 5 na cadeira 6, dá para colocar o cadete 1 antes do 2 nas cadeiras restantes. Existe arranjo válido."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A condição fixa o cadete 5 na cadeira 6, então ele não pode ocupar a cadeira 1; a afirmação é incompatível."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Contraria diretamente a condição de que o cadete 1 senta em cadeira de número menor que a do cadete 2."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "As cadeiras 2 e 5 não são vizinhas, então 3 e 4 não podem ocupá-las sem violar a condição de vizinhança."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Cada cadeira recebe um único cadete, então 1 e 2 não podem dividir a mesma cadeira."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir 'compatível com as condições' (basta um arranjo) com 'necessariamente verdadeiro' (todos os arranjos).",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Para testar compatibilidade, tente construir um único arranjo que funcione; achou um, a afirmação é possível.",
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "compatibilidade",
+        "fila",
+        "vizinhança",
+        "ordem relativa",
+        "avaliação de condições"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de raciocínio lógico (possibilidade de arranjo sob restrições)"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Estruturas Lógicas e Relações Arbitrárias",
+      "subtema": "Avaliação das condições de uma estrutura",
+      "dificuldade": "dificil",
+      "enunciado": "Em um planejamento, quatro ações (I, II, III e IV) podem ser ativadas ou não. As condições exigidas são: ao menos uma das ações I e II deve ser ativada; se a ação III for ativada, então a ação IV não é ativada; a ação II só é ativada se a ação IV também for. Qual é o número mínimo de ações que precisam ser ativadas para satisfazer todas essas condições?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Uma única ação, bastando ativar a ação I e deixar as demais desativadas."
+        },
+        {
+          "id": "a2",
+          "texto": "Nenhuma ação, pois é possível satisfazer as condições sem ativar qualquer uma."
+        },
+        {
+          "id": "a3",
+          "texto": "Duas ações, sendo obrigatório ativar ao menos as ações II e IV."
+        },
+        {
+          "id": "a4",
+          "texto": "Três ações, pois I, III e IV precisam estar todas ativadas."
+        },
+        {
+          "id": "a5",
+          "texto": "Duas ações, sendo obrigatório ativar ao menos as ações I e III."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Buscamos o arranjo válido com o menor número de ações ativadas. A primeira condição obriga ativar I ou II, então ao menos uma ação é ativada. Testamos ativar só a ação I: a primeira condição fica satisfeita (I está ativa); a segunda só proíbe III com IV, e aqui III está desativada, então ela não é violada; a terceira só exige IV quando II está ativa, e aqui II está desativada, então também não é violada. Logo uma única ação (a I) basta, e é o mínimo possível.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Ativar só I satisfaz a exigência de I ou II e não dispara as outras duas condições, que só agem quando III ou II estão ativas. É o mínimo, pois a primeira regra impede ativar zero ação."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A primeira condição exige ao menos uma entre I e II, então deixar tudo desativado é proibido."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Ativar II e IV cumpre as regras, mas usa duas ações; existe solução com uma só ação, então este não é o mínimo."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Ativar III junto de IV viola a segunda condição, e de todo modo três ações superam o mínimo encontrado."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Ativar I já basta; ativar também III apenas aumenta o número de ações sem necessidade, não sendo o mínimo."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Supor que toda condicional obriga a ativar algo; na verdade ela só restringe quando sua hipótese ocorre.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Para achar o mínimo, ative o menos possível e verifique se alguma condição foi acionada; condicionais com hipótese falsa não cobram nada.",
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "número mínimo",
+        "ativação",
+        "condicionais",
+        "disjunção obrigatória",
+        "avaliação de condições"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de raciocínio lógico (otimização sob restrições)"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Estruturas Lógicas e Relações Arbitrárias",
+      "subtema": "Avaliação das condições de uma estrutura",
+      "dificuldade": "dificil",
+      "enunciado": "Cinco documentos (A, B, C, D e E) serão arquivados em cinco posições numeradas de 1 a 5, um por posição. As condições são: A ocupa posição de número menor que a de B; C ocupa a posição 2; D não ocupa posição imediatamente vizinha da de C; E ocupa a posição 5. Quantos arranjos diferentes satisfazem todas essas condições?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Exatamente dois arranjos satisfazem todas as condições."
+        },
+        {
+          "id": "a2",
+          "texto": "Exatamente um arranjo satisfaz todas as condições."
+        },
+        {
+          "id": "a3",
+          "texto": "Exatamente três arranjos satisfazem todas as condições."
+        },
+        {
+          "id": "a4",
+          "texto": "Nenhum arranjo satisfaz todas as condições ao mesmo tempo."
+        },
+        {
+          "id": "a5",
+          "texto": "Exatamente quatro arranjos satisfazem todas as condições."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "C ocupa a posição 2 e E a posição 5, então restam as posições 1, 3 e 4 para A, B e D. As posições vizinhas da 2 são a 1 e a 3; como D não pode ser vizinho de C, D não fica na 1 nem na 3, sobrando apenas a posição 4 para D. Com D na 4, A e B ocupam as posições 1 e 3; como A vem em posição de número menor que a de B, fica A na 1 e B na 3. Cada documento tem um único encaixe, logo existe exatamente um arranjo: A, C, B, D, E.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Superestima a contagem: a exigência de D não vizinho da posição 2 força D para a posição 4, o que trava A e B nas posições 1 e 3 em uma única ordem, deixando um só arranjo."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Com C na 2, E na 5 e D obrigado à posição 4 (única não vizinha da 2 entre as livres), A e B ficam nas posições 1 e 3; a ordem de A antes de B fixa A na 1 e B na 3. Resulta um único arranjo."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Superestima a contagem: as restrições de vizinhança de D e de ordem entre A e B eliminam todas as variações, restando apenas um arranjo, não três."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Existe arranjo válido, a saber A, C, B, D, E, então não é verdade que nenhum arranjo satisfaça as condições."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Superestima a contagem: fixadas C e E e obrigada a posição de D, a ordem entre A e B deixa um único arranjo, longe de quatro."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Deixar D na posição 3 por achá-la distante de C, sem notar que a posição 3 é imediatamente vizinha da 2.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Em contagem de arranjos, fixe primeiro as posições travadas, depois distribua os livres testando cada restrição de vizinhança e de ordem.",
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "contagem de arranjos",
+        "posições",
+        "vizinhança",
+        "ordem anterior",
+        "avaliação de condições"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de raciocínio lógico (contagem de arranjos sob restrições)"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "subtema": "Avaliação das condições de uma estrutura",
+      "frente": "O que diferencia uma afirmação necessariamente verdadeira de uma afirmação apenas possível (compatível) em um problema de condições?",
+      "verso": "Necessariamente verdadeira é a que vale em todos os arranjos que satisfazem as condições; basta um contraexemplo para derrubá-la. Apenas possível (compatível) é a que vale em pelo menos um arranjo válido, ainda que não em todos. Para testar necessidade, procure um contraexemplo; para testar possibilidade, tente montar um único arranjo que funcione.",
+      "fundamento_legal": "não se aplica",
+      "lei_referencia": "não se aplica",
+      "palavras_chave": [
+        "necessariamente verdadeiro",
+        "possível",
+        "compatível",
+        "contraexemplo"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f02",
+      "subtema": "Avaliação das condições de uma estrutura",
+      "frente": "Em uma estrutura com a regra 'se A então B', quando essa condição é violada e quando ela nada exige?",
+      "verso": "A regra 'se A então B' só é violada no caso em que A ocorre e B não ocorre. Quando A não ocorre, a regra nada exige e fica automaticamente satisfeita, independentemente de B. Por isso, ao avaliar um arranjo, verifique primeiro se a hipótese A está presente: sem A, essa condicional não restringe nada.",
+      "fundamento_legal": "não se aplica",
+      "lei_referencia": "não se aplica",
+      "palavras_chave": [
+        "condicional",
+        "se então",
+        "hipótese falsa",
+        "violação"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f03",
+      "subtema": "Avaliação das condições de uma estrutura",
+      "frente": "Qual é a estratégia mais eficiente para começar a resolver um problema em que várias condições restringem um arranjo?",
+      "verso": "Comece pela condição mais forte, aquela que fixa diretamente uma posição ou um elemento (por exemplo, 'C está na posição 2'). Ela reduz o espaço de possibilidades e costuma desencadear as demais deduções. Em seguida aplique as condicionais e as proibições, eliminando os arranjos que violem qualquer regra, até restar o conjunto das soluções válidas.",
+      "fundamento_legal": "não se aplica",
+      "lei_referencia": "não se aplica",
+      "palavras_chave": [
+        "estratégia",
+        "condição mais forte",
+        "posição fixa",
+        "eliminação"
+      ],
+      "cita_jurisprudencia": false
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A expressao \"industria da seca\" designa o aproveitamento politico e economico da estiagem por grupos dominantes, que capturavam verbas e obras de socorro. a1 traduz esse sentido consolidado; a2 a a5 tomam o termo ao pe da letra ou inventam politicas inexistentes. Gabarito e comentario corretos, sem ambiguidade."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O Estado Novo (1937-1945) foi regime autoritario e centralizador de Vargas, com Congresso fechado e sem partidos nem eleicoes livres (a1). a2 (democracia), a3 (parlamentarismo), a4 (monarquia) e a5 (autonomia estadual plena) sao historicamente falsas. Correta unica."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O DNOCS (Departamento Nacional de Obras Contra as Secas) e historicamente identificado com a solucao hidraulica: construcao de acudes e reservatorios (a1). Hidreletricas, rodovias, portos e escolas tecnicas nao correspondem a sua vocacao. Gabarito e fundamento corretos."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A SUDENE nasceu com a proposta de enfrentar o subdesenvolvimento pelo planejamento economico e pela industrializacao, superando a visao que reduzia o Nordeste a falta de chuvas (a1), em linha com o diagnostico de Celso Furtado. Os demais distratores nao correspondem a proposta original. Correta unica."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "As grandes secas provocavam migracao de sertanejos pobres, gerando exodo para outras regioes e aglomeracao de retirantes nas cidades (a1). a2 (populacao fixa com renda garantida), a3 (retirantes grandes proprietarios), a4 (deslocamento so municipal) e a5 (crescimento da populacao rural) erram por conteudo. Gabarito correto."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A diferenca de concepcao e corretamente apresentada em a1: o DNOCS ligado a solucao hidraulica (acudes) e a SUDENE ao planejamento e desenvolvimento economico regional. a2 inverte os papeis; a3 nega a diferenca; a4 e a5 atribuem funcoes inexistentes. Correta unica."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "No Estado Novo os governadores eleitos foram substituidos por interventores nomeados por Vargas, subordinando os estados ao poder central (a1). Ampliacao de autonomia, assembleias fiscalizadoras, mais eleicoes diretas e republicas autonomas contrariam a centralizacao do periodo. Gabarito correto."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A leitura da transicao de uma visao hidraulica e emergencial (DNOCS) para uma visao estrutural e planejadora (SUDENE) e coerente (a1). a3 inverte a cronologia (o DNOCS e anterior a SUDENE, de 1959); a2, a4 e a5 distorcem as missoes. O comentario ressalva corretamente que os orgaos conviveram no tempo. Correta unica."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A critica da \"industria da seca\" recai sobre o fato de que as obras e verbas de socorro reforcavam a dependencia dos atingidos em relacao a quem controlava os recursos (a1). a2 exagera (seca artificial), a3 e a5 afirmam o oposto e a4 vira defesa de abandono. Gabarito e analise corretos."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O periodo 1930-1964 combinou a centralizacao do Estado Novo (interventores no lugar de governadores eleitos) e a passagem da politica acudeira para o planejamento regional da SUDENE (a1). Os demais distratores inventam democracia plena, monarquia, interventores eleitos ou transferencia de capital. A SUDENE (1959) cabe no recorte temporal. Correta unica."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A frente pergunta o que a expressao \"industria da seca\" critica e admite uma unica resposta. O verso descreve corretamente a captura das verbas e obras de socorro por grupos dominantes, transformando a tragedia em fonte de poder. Conceito consolidado, sem ambiguidade."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A frente pergunta a diferenca de concepcao entre DNOCS e SUDENE. O verso responde com precisao: DNOCS na solucao hidraulica (acudes) e SUDENE, inspirada em Celso Furtado, no planejamento economico e na industrializacao contra o subdesenvolvimento. Resposta unica e correta."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A frente pergunta como o Estado Novo mudou a relacao entre o governo federal e os estados. O verso descreve corretamente o regime autoritario e centralizador de Vargas e a substituicao dos governadores eleitos por interventores nomeados, inclusive no Ceara. Correto e sem ambiguidade."
+    }
+  ]
+}

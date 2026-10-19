@@ -1,0 +1,159 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º declara imprescritíveis o racismo (XLII) e a ação de grupos armados contra a ordem constitucional (XLIV). Entre as alternativas, só o racismo (a1) é declarado imprescritível. Tortura, tráfico e hediondos (XLIII) são apenas inafiançáveis e insuscetíveis de graça ou anistia. Gabarito e fundamento conferem no texto fornecido."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "normativo",
+          "gravidade": "baixa",
+          "descricao": "A alternativa correta (a1) enumera a inviolabilidade de vida, liberdade, igualdade e propriedade, mas omite a segurança, que o caput do art. 5º também lista. A omissão não a torna incorreta frente às demais (que trazem erros claros de titularidade), mas destoa da literalidade do dispositivo."
+        }
+      ],
+      "correcao_sugerida": "Em a1, incluir a segurança na enumeração: '... a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade.'",
+      "justificativa": "A única titularidade que corresponde ao caput do art. 5º (todos iguais perante a lei, brasileiros e estrangeiros residentes) é a da alternativa a1. As demais restringem indevidamente a titularidade. Ajuste pontual: a1 omitiu 'à segurança' do rol do caput."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O caput do art. 5º lista exatamente vida, liberdade, igualdade, segurança e propriedade (a1). As demais inserem direitos de outros dispositivos (moradia, saúde, voto, lazer, previdência). Gabarito e macete conferem."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A relatividade é demonstrada pelas exceções do art. 5º, XI (ingresso no domicílio), reproduzidas em a1. As demais tratam direitos (locomoção XV, sigilo XII, manifestação IV) como absolutos, contrariando o próprio texto. Gabarito confere."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A dignidade da pessoa humana é fundamento da República (art. 1º, III), como afirma a1. As demais a situam erroneamente entre objetivos (art. 3º), princípios internacionais (art. 4º) ou no caput do art. 5º. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A não taxatividade (abertura material) está no art. 5º, § 2º, descrito em a1. As demais remetem ao § 1º (aplicação imediata), § 3º (equivalência a emenda) e § 4º (TPI), temas diversos. Gabarito confere no texto fornecido."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A proteção da integridade física e moral está nos incisos III (vedação à tortura e a tratamento desumano) e XLIX (respeito à integridade dos presos), combinados em a1. As demais reúnem incisos de outros temas (expressão, sigilo, propriedade). Gabarito confere."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa a1 reproduz fielmente o art. 5º, XVI (reunião pacífica, sem armas, independe de autorização, prévio aviso, sem frustrar reunião anterior). As demais exigem autorização, admitem armas ou dispensam o aviso. Gabarito confere."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, § 1º, afirma que as normas definidoras de direitos e garantias fundamentais têm aplicação imediata (a1). As demais inserem condições (lei prévia, prazo do Executivo, restrição a direitos individuais) inexistentes no dispositivo. Gabarito confere."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "No art. 5º, XLVII, 'a', a pena de morte é a única vedada com exceção expressa (guerra declarada, art. 84, XIX), como em a1. Perpétua, banimento e trabalhos forçados são vedados sem ressalva; as alternativas que inventam exceções estão erradas. A referência ao art. 84, XIX, consta do próprio texto legal fornecido. Gabarito confere."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso identifica corretamente os dois únicos crimes declarados imprescritíveis no art. 5º: racismo (XLII) e ação de grupos armados contra a ordem constitucional (XLIV), distinguindo-os do inciso XLIII. Frente objetiva e de resposta única."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reproduz corretamente o art. 5º, XI, e suas exceções (flagrante, desastre, socorro e, durante o dia, determinação judicial), ilustrando a relatividade. Frente clara e sem ambiguidade; dispositivo citado."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso corresponde ao art. 5º, § 2º (cláusula de abertura material, rol exemplificativo), conforme o texto fornecido. Frente objetiva, resposta única, dispositivo indicado."
+    }
+  ]
+}

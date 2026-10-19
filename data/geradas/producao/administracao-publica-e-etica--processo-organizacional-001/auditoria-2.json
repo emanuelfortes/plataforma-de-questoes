@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O planejamento é a função que define previamente objetivos e meios, antecedendo as demais no ciclo administrativo. Gabarito a1 correto; distratores descrevem outras funções e estão corretamente errados. Conteúdo consolidado, dentro do foco e do nível do cargo."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Medir desempenho, comparar com padrão e corrigir desvios é a definição de controle (a1). Distratores bem construídos. A alternativa mais longa é um distrator (a2), não a correta, logo não gera pista indevida."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "No modelo básico de comunicação o emissor codifica e o receptor decodifica (a1). A a3 inverte corretamente os papéis como distrator clássico. Conceitos consolidados, sem ambiguidade."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Planejamento que abrange toda a organização e projeta o longo prazo é o nível estratégico (a1). Os níveis tático e operacional têm abrangência e horizonte menores. Classificação consolidada e compatível com o cargo."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A direção conduz o comportamento das pessoas por meio de liderança, motivação e comunicação (a1). Os distratores descrevem corretamente planejamento, controle e organização, estando errados como respostas à pergunta. A alternativa mais longa é um distrator (a4)."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Controle exercido antes do início da atividade, para evitar falhas, é o controle preventivo (a priori), a1. A classificação por momento (preventivo, simultâneo, posterior) é consolidada e o caso concreto se encaixa com clareza."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Ordens, instruções e diretrizes que descem do comandante para os subordinados caracterizam a comunicação descendente (a1). Os demais fluxos (ascendente, horizontal, diagonal, informal) estão corretamente afastados."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Bom uso de recursos (eficiência) + metas cumpridas (eficácia) + ausência de impacto social real (falta de efetividade) correspondem a a1: eficiente e eficaz, mas não efetiva. Distinção clássica aplicada corretamente ao caso."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A sequência lógica do controle é fixar padrão (II), medir (IV), comparar (I) e corrigir (III), ou seja a1. Não há como comparar antes de medir nem medir sem padrão. Demais sequências corretamente afastadas."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A interferência de sinal e os termos ambíguos caracterizam o ruído, e o feedback é o recurso de confirmação de entendimento, nessa ordem (a1). A a3 traz os conceitos certos em ordem invertida; como o enunciado pede respectivamente, é distrator legítimo e não há segunda correta."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "As quatro funções do processo administrativo na ordem correta (planejamento, organização, direção e controle - P-O-D-C) estão corretamente descritas. Frente objetiva com resposta única; disciplina sem texto legal, logo não se exige citação de dispositivo."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A distinção entre eficiência (uso dos meios), eficácia (atingir objetivos) e efetividade (impacto real) está correta e é consolidada. Frente clara, verso preciso e um único conceito por card."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Ruído (interferência física ou semântica que distorce a mensagem) e feedback (resposta do receptor que confirma o entendimento) estão corretamente definidos. Frente com resposta única e redação própria."
+    }
+  ]
+}

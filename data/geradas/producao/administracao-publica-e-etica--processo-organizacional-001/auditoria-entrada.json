@@ -1,0 +1,829 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Processo Organizacional",
+      "subtema": "Planejamento",
+      "dificuldade": "facil",
+      "enunciado": "O processo organizacional é formado por funções administrativas sequenciais e interligadas que orientam a atuação da organização. A função responsável por definir previamente os objetivos a alcançar e os meios adequados para atingi-los, antecedendo logicamente as demais funções, é denominada:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "planejamento, pois estabelece os objetivos e os cursos de ação futuros da organização."
+        },
+        {
+          "id": "a2",
+          "texto": "direção, pois conduz e orienta o comportamento das pessoas rumo aos resultados esperados."
+        },
+        {
+          "id": "a3",
+          "texto": "controle, pois acompanha os resultados e corrige eventuais desvios de execução."
+        },
+        {
+          "id": "a4",
+          "texto": "organização, pois distribui tarefas, recursos e autoridade entre as unidades de trabalho."
+        },
+        {
+          "id": "a5",
+          "texto": "coordenação, pois harmoniza esforços dispersos entre os diferentes setores existentes."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O planejamento é a primeira função do processo administrativo. É ele que define para onde a organização quer ir, fixando objetivos e os meios para alcançá-los. Por isso antecede logicamente as demais funções: só depois de saber o que se quer é possível organizar, dirigir e controlar. As demais alternativas descrevem corretamente outras funções, mas nenhuma delas é a que define previamente objetivos e meios.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "O planejamento é exatamente a função que define objetivos e os meios para alcançá-los, situando-se no início do processo administrativo."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A direção atua sobre as pessoas durante a execução; ela não define previamente os objetivos, apenas conduz esforços para alcançá-los."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O controle vem ao final do ciclo, comparando o realizado com o planejado; não é a função que fixa os objetivos iniciais."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A organização estrutura recursos e atribui tarefas, mas isso ocorre depois de definidos os objetivos pelo planejamento."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "A coordenação harmoniza esforços já em andamento e, em muitas abordagens, é vista como parte da direção; não é a função que define previamente objetivos e meios."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir o planejamento, que define objetivos, com a organização, que apenas estrutura recursos para alcançá-los.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "Pense na sigla P-O-D-C: Planejar vem sempre primeiro, porque é ele que decide para onde ir.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "planejamento",
+        "funções administrativas",
+        "objetivos",
+        "processo organizacional"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de Teoria Geral da Administração sobre as funções do processo administrativo"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Processo Organizacional",
+      "subtema": "Controle",
+      "dificuldade": "facil",
+      "enunciado": "Em uma organização, ao final de um período de atividade, o gestor compara os resultados efetivamente alcançados com os objetivos que haviam sido fixados no planejamento e, identificando diferenças, adota medidas para corrigi-las. Essa atividade de medir o desempenho, compará-lo com um padrão e corrigir os desvios corresponde à função administrativa de:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "controle, que mede e avalia o desempenho e adota ações corretivas em relação aos padrões fixados."
+        },
+        {
+          "id": "a2",
+          "texto": "planejamento, que estabelece previamente os objetivos e os padrões de desempenho a serem perseguidos pela organização ao longo de todo o período de atividade."
+        },
+        {
+          "id": "a3",
+          "texto": "direção, que se limita a motivar e liderar as pessoas durante a execução das tarefas diárias."
+        },
+        {
+          "id": "a4",
+          "texto": "organização, que agrupa atividades e aloca os recursos necessários conforme a estrutura montada."
+        },
+        {
+          "id": "a5",
+          "texto": "comunicação, que apenas transmite as informações internas entre os diferentes níveis existentes."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O controle é a função que fecha o ciclo administrativo: estabelecer padrões, medir o desempenho, comparar o medido com o padrão e agir corretivamente diante dos desvios. A descrição do enunciado (comparar o alcançado com o planejado e corrigir diferenças) é a própria definição de controle. As demais funções têm papéis diferentes no ciclo e não realizam, por si, a correção de desvios.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Medir desempenho, comparar com um padrão e corrigir desvios são exatamente as etapas do controle."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O planejamento fixa os objetivos e padrões, mas não realiza a comparação final nem a correção dos desvios."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A direção conduz pessoas durante a execução; não é ela que compara resultados com padrões ao final do período."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A organização estrutura recursos e atividades, mas não mede desempenho nem corrige desvios."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "A comunicação transmite informações, mas não é a função que compara resultados com padrões e aplica ações corretivas."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Atribuir ao planejamento a correção dos desvios, quando ele só fixa os padrões; quem compara e corrige é o controle.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "A ação corretiva é o que diferencia o controle da mera medição: medir sem corrigir não fecha o ciclo.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "controle",
+        "ação corretiva",
+        "padrão",
+        "desempenho"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de Teoria Geral da Administração sobre a função controle"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Processo Organizacional",
+      "subtema": "Comunicação",
+      "dificuldade": "facil",
+      "enunciado": "No processo de comunicação, há elementos que se articulam para que uma mensagem seja transmitida e compreendida. Considerando o modelo básico desse processo, o elemento que converte a mensagem em sinais capazes de ser transmitidos e aquele que transforma esses sinais de volta em significado para o destinatário são, respectivamente:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "a codificação, feita pelo emissor, e a decodificação, feita pelo receptor da mensagem."
+        },
+        {
+          "id": "a2",
+          "texto": "o canal, usado pelo emissor, e o ruído, produzido pelo ambiente ao redor da mensagem."
+        },
+        {
+          "id": "a3",
+          "texto": "a decodificação, feita pelo emissor, e a codificação, feita pelo receptor da mensagem."
+        },
+        {
+          "id": "a4",
+          "texto": "o feedback, dado pelo emissor, e o canal, escolhido pelo receptor para enviar a resposta."
+        },
+        {
+          "id": "a5",
+          "texto": "o ruído, criado pelo emissor, e a redundância, aplicada pelo receptor sobre a mensagem."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "No modelo básico de comunicação, o emissor codifica a mensagem (transforma a ideia em sinais, como palavras ou gestos) e a envia por um canal; o receptor decodifica esses sinais, reconstruindo o significado. Codificar é tarefa de quem emite; decodificar é tarefa de quem recebe. O erro clássico é inverter esses papéis, como fazem alguns distratores.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "O emissor codifica a mensagem em sinais e o receptor a decodifica, reconstruindo o significado: é exatamente o que o enunciado pede."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O canal é o meio de transmissão e o ruído é a interferência; nenhum dos dois converte a mensagem em sinais nem a reconverte em significado."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Inverte os papéis: quem codifica é o emissor e quem decodifica é o receptor, e não o contrário."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O feedback é a resposta do receptor e o canal é o meio de transmissão; não correspondem às operações de converter e reconverter a mensagem."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Ruído é interferência e redundância é a repetição que combate o ruído; não são as operações de codificar e decodificar."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Inverter codificação e decodificação, atribuindo a codificação ao receptor e a decodificação ao emissor.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "Emissor Codifica, receptor Decodifica: a letra inicial acompanha quem faz a ação (o Emissor Escreve o código).",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "comunicação",
+        "codificação",
+        "decodificação",
+        "emissor",
+        "receptor"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de Teoria Geral da Administração sobre o processo de comunicação"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Processo Organizacional",
+      "subtema": "Planejamento",
+      "dificuldade": "media",
+      "enunciado": "Uma organização policial-militar estrutura suas decisões em três níveis. No nível mais alto, o comando define a missão, os objetivos gerais e as diretrizes para um horizonte de longo prazo, abrangendo toda a corporação. Esse tipo de planejamento, voltado para o longo prazo e para a organização como um todo, é classificado como:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "estratégico, por abranger a organização inteira e projetar objetivos de longo prazo."
+        },
+        {
+          "id": "a2",
+          "texto": "tático, por traduzir as diretrizes gerais em planos de médio prazo para cada unidade."
+        },
+        {
+          "id": "a3",
+          "texto": "operacional, por detalhar as tarefas e os procedimentos de curto prazo de cada equipe."
+        },
+        {
+          "id": "a4",
+          "texto": "contingencial, por preparar respostas alternativas apenas para situações imprevistas e raras."
+        },
+        {
+          "id": "a5",
+          "texto": "orçamentário, por limitar-se a distribuir recursos financeiros entre os diversos setores."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O planejamento costuma ser dividido em três níveis: estratégico (organização como um todo, longo prazo, alta direção), tático (cada unidade ou departamento, médio prazo) e operacional (tarefas e rotinas, curto prazo). O enunciado descreve decisões que abrangem toda a corporação e projetam o longo prazo, o que corresponde ao nível estratégico. Os demais níveis têm abrangência e horizonte temporais menores.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "O planejamento estratégico abrange a organização como um todo e trabalha com objetivos de longo prazo, como descrito no enunciado."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O planejamento tático é de médio prazo e se refere a unidades ou departamentos, não à organização inteira no longo prazo."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O planejamento operacional detalha tarefas de curto prazo de equipes específicas, o oposto do longo prazo abrangente descrito."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Planejamento de contingência prepara respostas para imprevistos; não é o critério usado para classificar o nível descrito no enunciado."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "O planejamento não se reduz à distribuição de recursos financeiros; o orçamento é apenas um dos instrumentos, não o nível descrito."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar o nível estratégico pelo tático, deslocando o longo prazo e a abrangência total para o médio prazo e a unidade.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Dois critérios resolvem a maioria dessas questões: abrangência (toda a organização, unidade ou tarefa) e horizonte de tempo (longo, médio ou curto).",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "planejamento estratégico",
+        "níveis de planejamento",
+        "longo prazo",
+        "abrangência"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de Teoria Geral da Administração sobre níveis de planejamento"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Processo Organizacional",
+      "subtema": "Direção",
+      "dificuldade": "media",
+      "enunciado": "A função de direção atua diretamente sobre as pessoas, acionando os recursos humanos da organização para que executem as atividades planejadas. Entre os meios de que a direção se vale para influenciar o comportamento dos subordinados, destacam-se a liderança, a motivação e a comunicação. Sobre a direção, assinale a afirmação correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A direção é a função que conduz e orienta o comportamento das pessoas, valendo-se de liderança, motivação e comunicação."
+        },
+        {
+          "id": "a2",
+          "texto": "A direção limita-se a elaborar os planos da organização, sem interferir na execução realizada pelos subordinados."
+        },
+        {
+          "id": "a3",
+          "texto": "A direção consiste exclusivamente em comparar resultados com padrões, aplicando ações corretivas quando há desvios."
+        },
+        {
+          "id": "a4",
+          "texto": "A direção restringe-se a desenhar o organograma da instituição e a definir os níveis de autoridade e de responsabilidade entre os cargos existentes na estrutura formal."
+        },
+        {
+          "id": "a5",
+          "texto": "A direção atua apenas sobre recursos materiais e financeiros, sem qualquer relação com o comportamento humano."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A direção é a função que faz a organização funcionar na prática, acionando as pessoas para executar o que foi planejado. Ela se apoia em liderança (influenciar), motivação (energizar) e comunicação (orientar). Por lidar com o fator humano, não se confunde com planejamento (que define planos), com controle (que compara e corrige) nem com organização (que estrutura cargos e autoridade).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Descreve corretamente a direção: conduzir o comportamento das pessoas por meio de liderança, motivação e comunicação."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Elaborar planos é tarefa do planejamento; a direção atua justamente durante a execução, não fora dela."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Comparar resultados com padrões e corrigir desvios é a função controle, não a direção."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Desenhar organograma e definir autoridade é tarefa da função organização, não da direção."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "A direção atua precisamente sobre o comportamento humano; afirmar que ignora as pessoas contraria sua própria definição."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir a direção com a organização, deslocando para ela o desenho do organograma e a definição de autoridade.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "A direção é a única função que lida diretamente com pessoas em execução; liderança, motivação e comunicação são seus três instrumentos clássicos.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "direção",
+        "liderança",
+        "motivação",
+        "comunicação"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de Teoria Geral da Administração sobre a função direção"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Processo Organizacional",
+      "subtema": "Controle",
+      "dificuldade": "media",
+      "enunciado": "Quanto ao momento em que é exercido, o controle pode ser classificado em preventivo, simultâneo (ou concomitante) e posterior (ou corretivo). Um comandante determina que, antes do início de uma operação, sejam conferidos os equipamentos e a aptidão da tropa, de modo a evitar falhas durante a execução. Esse controle, exercido antes de a atividade começar, classifica-se como:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "controle preventivo, pois é exercido antes do início da atividade para evitar que falhas ocorram."
+        },
+        {
+          "id": "a2",
+          "texto": "controle simultâneo, pois ocorre durante a execução da atividade, acompanhando-a em tempo real."
+        },
+        {
+          "id": "a3",
+          "texto": "controle posterior, pois ocorre após a conclusão da atividade, verificando os resultados obtidos."
+        },
+        {
+          "id": "a4",
+          "texto": "controle estratégico, pois se volta apenas para os objetivos de longo prazo de toda a organização."
+        },
+        {
+          "id": "a5",
+          "texto": "controle informal, pois decorre apenas de hábitos da equipe, sem procedimentos previamente definidos."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Pelo critério temporal, o controle preventivo (a priori) ocorre antes da atividade, buscando evitar problemas; o simultâneo (concomitante) acompanha a execução; o posterior (a posteriori ou corretivo) verifica os resultados depois de concluída a ação. Conferir equipamentos e aptidão antes do início da operação é típico controle preventivo. Os demais momentos (durante e depois) e os critérios de abrangência não se encaixam no enunciado.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "O controle feito antes do início da atividade, para evitar falhas, é o controle preventivo (a priori)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O controle simultâneo ocorre durante a execução; aqui a conferência é feita antes de a operação começar."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O controle posterior verifica resultados após a conclusão; não se aplica a uma conferência prévia."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Controle estratégico é classificação por nível ou abrangência, não por momento; o enunciado pergunta pelo momento."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "O enunciado descreve uma determinação formal do comandante com procedimento definido, não um controle informal."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Misturar o critério de momento (preventivo, simultâneo, posterior) com o de abrangência (estratégico, tático, operacional).",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "Antes, durante e depois: preventivo, simultâneo e posterior. É só situar a ação na linha do tempo.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "controle preventivo",
+        "momentos do controle",
+        "controle simultâneo",
+        "controle posterior"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de Teoria Geral da Administração sobre tipos de controle"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Processo Organizacional",
+      "subtema": "Comunicação",
+      "dificuldade": "media",
+      "enunciado": "Em uma organização hierarquizada, as mensagens circulam em diferentes direções. Quando um comandante transmite ordens, instruções e diretrizes aos seus subordinados, a comunicação segue um fluxo que, pela sua direção na estrutura hierárquica, é classificado como:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "comunicação descendente, que flui dos níveis superiores para os inferiores na hierarquia."
+        },
+        {
+          "id": "a2",
+          "texto": "comunicação ascendente, que flui dos níveis inferiores para os superiores na hierarquia."
+        },
+        {
+          "id": "a3",
+          "texto": "comunicação horizontal, que ocorre entre pessoas e setores situados no mesmo nível hierárquico."
+        },
+        {
+          "id": "a4",
+          "texto": "comunicação informal, que percorre a chamada rede de rumores à margem dos canais oficiais."
+        },
+        {
+          "id": "a5",
+          "texto": "comunicação diagonal, que cruza níveis e áreas distintas sem seguir a linha de comando regular."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Pela direção na estrutura, a comunicação formal pode ser descendente (de cima para baixo: ordens, instruções, diretrizes), ascendente (de baixo para cima: relatórios, sugestões, feedback) ou horizontal/lateral (entre pares do mesmo nível). Ordens e diretrizes do comandante para subordinados descem na hierarquia, logo é comunicação descendente. As demais classificações descrevem outras direções ou a comunicação informal.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Ordens, instruções e diretrizes que vão do superior para os subordinados caracterizam a comunicação descendente."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A comunicação ascendente vai de baixo para cima (relatórios, sugestões), o inverso do descrito no enunciado."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A comunicação horizontal ocorre entre pessoas do mesmo nível, não entre superior e subordinado."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A comunicação informal corre fora dos canais oficiais; ordens e diretrizes do comando são comunicação formal."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "A comunicação diagonal cruza níveis e áreas fora da linha de comando; aqui a mensagem segue a hierarquia direta."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar descendente por ascendente, invertendo o sentido do fluxo na hierarquia.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Ordem desce (descendente) e relatório sobe (ascendente); conversa entre pares é horizontal.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "comunicação descendente",
+        "fluxos de comunicação",
+        "hierarquia",
+        "comunicação formal"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de Teoria Geral da Administração sobre fluxos de comunicação organizacional"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Processo Organizacional",
+      "subtema": "Avaliação",
+      "dificuldade": "dificil",
+      "enunciado": "Na gestão de desempenho, costuma-se distinguir eficiência, eficácia e efetividade. Uma unidade policial utilizou poucos recursos para patrulhar uma área (bom aproveitamento de meios), cumpriu integralmente as metas de rondas previstas (atingiu os objetivos) e, ainda assim, os moradores não perceberam redução real na sensação de insegurança (o impacto esperado não se concretizou). Com base nessa distinção, é correto afirmar que a unidade foi:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "eficiente e eficaz, mas não efetiva, pois usou bem os recursos e cumpriu as metas, sem gerar o impacto social esperado."
+        },
+        {
+          "id": "a2",
+          "texto": "efetiva e eficaz, mas não eficiente, pois gerou impacto social e cumpriu metas, embora tenha desperdiçado recursos."
+        },
+        {
+          "id": "a3",
+          "texto": "eficiente e efetiva, mas não eficaz, pois usou bem os recursos e gerou impacto, sem cumprir as metas previstas."
+        },
+        {
+          "id": "a4",
+          "texto": "apenas eficiente, pois o bom uso dos recursos já basta para afastar qualquer juízo sobre metas e impacto."
+        },
+        {
+          "id": "a5",
+          "texto": "apenas efetiva, pois somente o impacto social percebido pelos moradores define a qualidade da atuação."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A distinção clássica: eficiência é fazer bem (bom uso dos meios e recursos); eficácia é atingir os objetivos e metas propostos; efetividade é gerar o impacto ou a transformação real desejada. No caso, houve bom uso de recursos (eficiência) e cumprimento das metas de ronda (eficácia), mas sem redução efetiva da insegurança (faltou efetividade). Logo: eficiente e eficaz, porém não efetiva.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Bom uso de recursos é eficiência, metas cumpridas é eficácia e ausência de impacto social real é falta de efetividade: exatamente o descrito."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Inverte os dados: o enunciado diz que houve bom uso de recursos (eficiência) e nenhum impacto social (falta de efetividade), o oposto desta alternativa."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Afirma que as metas não foram cumpridas e que houve impacto, mas o enunciado diz justamente o contrário em ambos os pontos."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Ignora que as metas foram cumpridas (eficácia); a eficiência não afasta a análise de eficácia e efetividade, que são dimensões distintas."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Reduz tudo à efetividade, mas o caso mostra eficiência e eficácia presentes e justamente a efetividade ausente."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir eficácia (cumprir metas) com efetividade (gerar impacto real), tratando o cumprimento de rondas como se já garantisse o resultado social.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "Eficiência é meio bem usado, eficácia é meta batida, efetividade é mundo mudado.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "eficiência",
+        "eficácia",
+        "efetividade",
+        "avaliação de desempenho"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de Teoria Geral da Administração sobre eficiência, eficácia e efetividade"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Processo Organizacional",
+      "subtema": "Controle",
+      "dificuldade": "dificil",
+      "enunciado": "O controle costuma ser descrito como um processo cíclico composto por etapas encadeadas. Analise as etapas a seguir e ordene-as segundo a sequência lógica do processo de controle: (I) comparar o desempenho medido com o padrão; (II) estabelecer padrões ou critérios de desempenho; (III) adotar a ação corretiva sobre os desvios; (IV) medir ou avaliar o desempenho efetivo. A sequência correta é:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "II, IV, I e III, pois primeiro se fixa o padrão, depois se mede, então se compara e, por fim, se corrige."
+        },
+        {
+          "id": "a2",
+          "texto": "IV, II, I e III, pois primeiro se mede, depois se fixa o padrão, então se compara e, por fim, se corrige."
+        },
+        {
+          "id": "a3",
+          "texto": "I, II, IV e III, pois primeiro se compara, depois se fixa o padrão, então se mede e, por fim, se corrige."
+        },
+        {
+          "id": "a4",
+          "texto": "II, I, IV e III, pois primeiro se fixa o padrão, depois se compara, então se mede e, por fim, se corrige."
+        },
+        {
+          "id": "a5",
+          "texto": "III, II, IV e I, pois primeiro se corrige, depois se fixa o padrão, então se mede e, por fim, se compara."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O processo de controle segue uma ordem lógica: (1) estabelecer padrões de desempenho; (2) medir o desempenho efetivo; (3) comparar o desempenho medido com o padrão; (4) adotar a ação corretiva sobre os desvios encontrados. Aplicando às etapas numeradas, a ordem é II, IV, I e III. Não faz sentido comparar antes de medir, nem medir antes de ter um padrão de referência.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Fixar padrão (II), medir (IV), comparar (I) e corrigir (III) é a sequência lógica do controle."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Inverte as duas primeiras etapas: não se pode medir o desempenho (IV) antes de existir um padrão de referência (II)."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Começa pela comparação (I), que é impossível antes de haver padrão e medição; a ordem está fora de sentido."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Coloca a comparação (I) antes da medição (IV), mas só se compara depois de medir o desempenho efetivo."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Inicia pela ação corretiva (III), que é a última etapa, e deixa a comparação por último, invertendo todo o ciclo."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Antecipar a comparação ou a medição à fixação do padrão, quando o padrão é o ponto de partida do controle.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Sem padrão não há o que medir, e sem medir não há o que comparar: a ação corretiva é sempre a etapa final do ciclo.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "etapas do controle",
+        "padrão",
+        "medição",
+        "ação corretiva"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de Teoria Geral da Administração sobre as etapas do processo de controle"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Processo Organizacional",
+      "subtema": "Comunicação",
+      "dificuldade": "dificil",
+      "enunciado": "Durante uma operação, uma ordem transmitida por rádio foi parcialmente compreendida pela equipe em campo, pois interferências no sinal e o uso de termos ambíguos distorceram parte da mensagem. Analisando o episódio à luz do processo de comunicação, é correto afirmar que o principal fenômeno que comprometeu a transmissão e o recurso mais adequado para que o emissor confirme se a mensagem foi corretamente entendida são, respectivamente:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "o ruído, que é qualquer interferência que distorce a mensagem, e o feedback, pelo qual o receptor confirma o que entendeu."
+        },
+        {
+          "id": "a2",
+          "texto": "a redundância, que é a repetição de partes da mensagem, e o canal, que é o meio físico pelo qual ela trafega."
+        },
+        {
+          "id": "a3",
+          "texto": "o feedback, que é a resposta de quem recebe, e o ruído, que é a interferência capaz de distorcer a mensagem transmitida."
+        },
+        {
+          "id": "a4",
+          "texto": "a decodificação, que é a leitura feita pelo receptor, e a codificação, que é a conversão feita pelo emissor da mensagem."
+        },
+        {
+          "id": "a5",
+          "texto": "o canal, que é o meio de transmissão da mensagem, e a redundância, que é toda interferência externa sobre o sinal."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Ruído é qualquer interferência (física, como falha de sinal, ou semântica, como termos ambíguos) que distorce a mensagem entre emissor e receptor, prejudicando a transmissão. O feedback é a resposta do receptor que permite ao emissor verificar se a mensagem foi entendida como pretendia e, se preciso, corrigi-la. No episódio, o problema é o ruído e o recurso de confirmação é o feedback. As demais alternativas trocam conceitos ou invertem a ordem pedida.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "A interferência de sinal e a ambiguidade são ruído, e o feedback é o recurso pelo qual se confirma o entendimento: na ordem pedida."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A redundância combate o ruído, não é o fenômeno que distorceu a mensagem; e o canal é o meio, não o recurso de confirmação de entendimento."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Os conceitos estão certos, mas em ordem invertida: o enunciado pede primeiro o fenômeno que prejudicou (ruído) e depois o recurso de confirmação (feedback)."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Codificação e decodificação são as conversões da mensagem, não a interferência que a distorceu nem o recurso de confirmação de entendimento."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Define mal a redundância como interferência externa; a interferência é o ruído, e a redundância é justamente a repetição que o combate."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Inverter a ordem dos conceitos pedidos ou confundir redundância (combate ao ruído) com o próprio ruído (a interferência).",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Ruído atrapalha, redundância reforça e feedback confirma: três conceitos que a banca adora embaralhar.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "ruído",
+        "feedback",
+        "processo de comunicação",
+        "redundância"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de Teoria Geral da Administração sobre ruído e feedback na comunicação"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "subtema": "Planejamento",
+      "frente": "Quais são, em ordem, as quatro funções do processo administrativo?",
+      "verso": "Planejamento, organização, direção e controle (ciclo P-O-D-C). O planejamento abre o ciclo fixando objetivos e meios; o controle o fecha comparando o realizado com o planejado e corrigindo desvios.",
+      "fundamento_legal": "não se aplica",
+      "lei_referencia": "não se aplica",
+      "palavras_chave": [
+        "PODC",
+        "funções administrativas",
+        "processo administrativo"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f02",
+      "subtema": "Avaliação",
+      "frente": "Qual a diferença entre eficiência, eficácia e efetividade?",
+      "verso": "Eficiência é usar bem os recursos (fazer certo, com economia de meios); eficácia é atingir os objetivos e metas propostos; efetividade é gerar o impacto ou a transformação real desejada. É possível ser eficiente e eficaz sem ser efetivo.",
+      "fundamento_legal": "não se aplica",
+      "lei_referencia": "não se aplica",
+      "palavras_chave": [
+        "eficiência",
+        "eficácia",
+        "efetividade"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f03",
+      "subtema": "Comunicação",
+      "frente": "No processo de comunicação, o que são ruído e feedback?",
+      "verso": "Ruído é qualquer interferência (física ou semântica) que distorce a mensagem entre emissor e receptor. Feedback é a resposta do receptor que permite ao emissor verificar se a mensagem foi entendida como pretendido e corrigi-la se necessário.",
+      "fundamento_legal": "não se aplica",
+      "lei_referencia": "não se aplica",
+      "palavras_chave": [
+        "ruído",
+        "feedback",
+        "comunicação"
+      ],
+      "cita_jurisprudencia": false
+    }
+  ]
+}

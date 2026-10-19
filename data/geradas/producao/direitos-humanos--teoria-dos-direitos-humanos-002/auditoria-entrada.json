@@ -1,0 +1,747 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Característica da imprescritibilidade (art. 5º, XLII e XLIV)",
+      "dificuldade": "facil",
+      "enunciado": "Uma das características apontadas para os direitos humanos é a imprescritibilidade, ou seja, a possibilidade de o direito ser exercido ou reconhecido independentemente do decurso do tempo. Na Constituição Federal de 1988, essa ideia aparece de forma expressa ao tratar de certos crimes. Qual conduta a Constituição declara imprescritível no art. 5º?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A prática do racismo, considerada crime inafiançável e imprescritível, sujeito à pena de reclusão, nos termos da lei."
+        },
+        {
+          "id": "a2",
+          "texto": "A prática da tortura, considerada crime inafiançável e insuscetível de graça ou anistia e, por isso, também imprescritível."
+        },
+        {
+          "id": "a3",
+          "texto": "O tráfico ilícito de entorpecentes, tido como crime inafiançável e, por isso, imprescritível."
+        },
+        {
+          "id": "a4",
+          "texto": "A ação dos crimes definidos como hediondos, que a Constituição trata como inafiançáveis e imprescritíveis em razão da gravidade."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A imprescritibilidade é uma característica frequentemente associada aos direitos humanos: em regra, o reconhecimento desses direitos não se perde pelo decurso do tempo. No texto da Constituição, essa ideia aparece expressamente em dois crimes do art. 5º: o racismo (inciso XLII) e a ação de grupos armados contra a ordem constitucional (inciso XLIV). Por isso, a única conduta que o art. 5º declara imprescritível, entre as listadas, é a prática do racismo. Tortura, tráfico, terrorismo e crimes hediondos são apenas inafiançáveis e insuscetíveis de graça ou anistia (inciso XLIII), sem previsão de imprescritibilidade.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 5º, XLII: o racismo é crime inafiançável e imprescritível, sujeito à pena de reclusão, nos termos da lei."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A tortura está no inciso XLIII, que a trata como inafiançável e insuscetível de graça ou anistia, mas não a declara imprescritível."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O tráfico ilícito de entorpecentes também está no inciso XLIII, sem previsão de imprescritibilidade no texto constitucional."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Os crimes hediondos integram o inciso XLIII (inafiançáveis e insuscetíveis de graça ou anistia); a Constituição não os declara imprescritíveis."
+        }
+      ],
+      "fundamento_legal": "Art. 5º, XLII, XLIII e XLIV, da Constituição Federal de 1988.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Estender a imprescritibilidade do inciso XLII aos crimes do inciso XLIII (tortura, tráfico, terrorismo e hediondos), que são só inafiançáveis e insuscetíveis de graça ou anistia.",
+      "lei_referencia": "CF/1988, art. 5º, XLII",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Imprescritíveis no art. 5º só o racismo (XLII) e a ação de grupos armados contra a ordem constitucional (XLIV); o inciso XLIII traz inafiançabilidade, não imprescritibilidade.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "imprescritibilidade",
+        "racismo",
+        "art. 5º XLII",
+        "característica dos direitos humanos"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Característica da universalidade e titularidade (art. 5º, caput)",
+      "dificuldade": "facil",
+      "enunciado": "A universalidade é apontada como característica dos direitos humanos, no sentido de que eles se dirigem a todas as pessoas, pela sua simples condição humana. No caput do art. 5º da Constituição Federal, como essa ideia se manifesta quanto à titularidade dos direitos ali previstos?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Todos são iguais perante a lei, assegurando-se aos brasileiros e aos estrangeiros residentes a inviolabilidade do direito à vida, à liberdade, à igualdade e à propriedade."
+        },
+        {
+          "id": "a2",
+          "texto": "Os direitos previstos no caput do art. 5º alcançam apenas os brasileiros natos, ficando os naturalizados e os estrangeiros residentes sujeitos a regime inteiramente fixado em lei específica."
+        },
+        {
+          "id": "a3",
+          "texto": "A igualdade perante a lei é garantida somente aos cidadãos que estejam no pleno gozo dos direitos políticos, excluídos os que não estejam regularmente alistados como eleitores."
+        },
+        {
+          "id": "a4",
+          "texto": "Os direitos do caput do art. 5º dependem, para os estrangeiros, de prévia autorização expressa do órgão competente, ainda que eles residam de forma regular no País."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A universalidade liga-se à ideia de que os direitos humanos pertencem a todos, independentemente de condição pessoal. No caput do art. 5º, a Constituição afirma que todos são iguais perante a lei, sem distinção de qualquer natureza, e assegura a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade. A dicção do dispositivo não restringe a titularidade a brasileiros natos nem a eleitores, e não condiciona o gozo dos direitos a autorização prévia.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reflete o caput do art. 5º: igualdade perante a lei, sem distinção de qualquer natureza, e inviolabilidade dos direitos ali enumerados."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O caput não limita os direitos aos brasileiros natos; refere-se a brasileiros e estrangeiros residentes, sem essa distinção."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A igualdade do caput não é reservada aos eleitores; é afirmada para todos, sem distinção de qualquer natureza."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O texto não exige autorização prévia para que o estrangeiro residente usufrua dos direitos do caput do art. 5º."
+        }
+      ],
+      "fundamento_legal": "Art. 5º, caput, da Constituição Federal de 1988.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Restringir a titularidade dos direitos do caput do art. 5º a certos grupos (só natos, só eleitores), quando o texto fala em igualdade sem distinção de qualquer natureza.",
+      "lei_referencia": "CF/1988, art. 5º, caput",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "universalidade",
+        "igualdade perante a lei",
+        "titularidade",
+        "art. 5º caput"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Característica da inviolabilidade (art. 5º, caput)",
+      "dificuldade": "facil",
+      "enunciado": "Entre as características dos direitos humanos, costuma-se destacar a inviolabilidade, que aparece de modo expresso já no caput do art. 5º da Constituição Federal. Quais direitos são ali apontados como invioláveis para brasileiros e estrangeiros residentes no País?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O direito à vida, à liberdade, à igualdade, à segurança e à propriedade."
+        },
+        {
+          "id": "a2",
+          "texto": "O direito à vida, à moradia, à saúde, à educação e ao trabalho digno."
+        },
+        {
+          "id": "a3",
+          "texto": "O direito à liberdade, à honra, à nacionalidade, ao voto e à propriedade privada."
+        },
+        {
+          "id": "a4",
+          "texto": "O direito à vida, à liberdade de locomoção, ao lazer, à segurança pública e à previdência."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A inviolabilidade indica que certos bens jurídicos não podem ser desrespeitados pelo Estado ou por particulares. O caput do art. 5º lista exatamente cinco: vida, liberdade, igualdade, segurança e propriedade. Os demais itens citados nas outras alternativas (moradia, saúde, educação, trabalho, voto, lazer, previdência) até existem na Constituição, mas em outros dispositivos, e não constam do rol de invioláveis do caput do art. 5º.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde ao caput do art. 5º: vida, liberdade, igualdade, segurança e propriedade."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Moradia, saúde, educação e trabalho não figuram entre os invioláveis do caput do art. 5º; trata-se de direitos previstos em outros dispositivos."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Honra, nacionalidade e voto não compõem o rol do caput do art. 5º, que indica vida, liberdade, igualdade, segurança e propriedade."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Lazer, segurança pública e previdência não integram o rol de invioláveis do caput do art. 5º."
+        }
+      ],
+      "fundamento_legal": "Art. 5º, caput, da Constituição Federal de 1988.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Incluir direitos sociais (moradia, saúde, educação) no rol de invioláveis do caput do art. 5º, que traz apenas vida, liberdade, igualdade, segurança e propriedade.",
+      "lei_referencia": "CF/1988, art. 5º, caput",
+      "macete_do_riccardo": "No caput do art. 5º são cinco invioláveis: Vida, Liberdade, Igualdade, Segurança e Propriedade.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "inviolabilidade",
+        "vida",
+        "liberdade",
+        "igualdade",
+        "segurança",
+        "propriedade"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Característica da relatividade ou limitabilidade (art. 5º, incisos)",
+      "dificuldade": "media",
+      "enunciado": "A doutrina costuma afirmar que os direitos fundamentais não são absolutos, pois admitem limitações: é a característica da relatividade ou limitabilidade. Analisando os incisos do art. 5º da Constituição Federal, qual situação confirma que um direito ali previsto pode sofrer restrição?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A casa é asilo inviolável, mas se admite o ingresso sem consentimento do morador no caso de flagrante delito ou desastre, para prestar socorro ou, durante o dia, por decisão judicial."
+        },
+        {
+          "id": "a2",
+          "texto": "A liberdade de locomoção no território nacional é assegurada em qualquer tempo, inclusive em período de guerra declarada, sem nenhuma possibilidade de condicionamento ou disciplina pela lei."
+        },
+        {
+          "id": "a3",
+          "texto": "O sigilo das comunicações telefônicas tem caráter absoluto e não pode ser afastado nem mesmo por ordem judicial fundamentada para fins de investigação criminal ou instrução penal."
+        },
+        {
+          "id": "a4",
+          "texto": "A manifestação do pensamento é livre e admite o anonimato, não comportando nenhum tipo de responsabilização posterior do autor pelo que vier a divulgar."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A relatividade (ou limitabilidade) significa que direitos fundamentais podem ser restringidos em situações previstas no próprio ordenamento. O art. 5º, XI, é um bom exemplo: a casa é asilo inviolável, mas o texto já traz exceções em que se pode entrar sem consentimento do morador (flagrante delito, desastre, prestação de socorro e, durante o dia, por determinação judicial). As demais alternativas apresentam direitos como se fossem absolutos, contrariando o texto: a locomoção é livre em tempo de paz e nos termos da lei (XV); o sigilo telefônico pode ser afastado por ordem judicial (XII); e a manifestação do pensamento é livre, mas vedado o anonimato (IV).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 5º, XI, que, apesar da inviolabilidade do domicílio, prevê expressamente exceções de ingresso, demonstrando a relatividade do direito."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O art. 5º, XV, assegura a locomoção em tempo de paz e nos termos da lei; logo, há condicionamento, não liberdade irrestrita em qualquer tempo."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 5º, XII, permite o afastamento do sigilo telefônico por ordem judicial, para investigação criminal ou instrução processual penal; não é absoluto."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 5º, IV, veda o anonimato na manifestação do pensamento, o que afasta a ideia de direito sem qualquer limite."
+        }
+      ],
+      "fundamento_legal": "Art. 5º, XI, da Constituição Federal de 1988 (com apoio nos incisos IV, XII e XV).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Tratar direitos do art. 5º como absolutos, ignorando as exceções que o próprio texto prevê (ingresso no domicílio, afastamento do sigilo telefônico, vedação ao anonimato).",
+      "lei_referencia": "CF/1988, art. 5º, XI",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Quando a alternativa diz que um direito do art. 5º é absoluto ou sem exceção, desconfie: o próprio texto costuma trazer os limites.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "excecao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "relatividade",
+        "limitabilidade",
+        "direitos não absolutos",
+        "inviolabilidade do domicílio",
+        "exceções"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Característica da indivisibilidade e dignidade (arts. 1º e 5º)",
+      "dificuldade": "media",
+      "enunciado": "Costuma-se dizer que os direitos humanos são indivisíveis e que a dignidade da pessoa humana funciona como fio condutor desses direitos. Considerando o texto da Constituição Federal de 1988, assinale a alternativa correta sobre a posição da dignidade da pessoa humana.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A dignidade da pessoa humana é um dos fundamentos da República Federativa do Brasil, previsto no art. 1º, III, ao lado da soberania, da cidadania e do pluralismo político."
+        },
+        {
+          "id": "a2",
+          "texto": "A dignidade da pessoa humana é apresentada no art. 3º como objetivo fundamental da República, a ser alcançado junto com a erradicação da pobreza e a redução das desigualdades sociais e regionais."
+        },
+        {
+          "id": "a3",
+          "texto": "A dignidade da pessoa humana figura no art. 4º entre os princípios que regem o Brasil em suas relações internacionais, ao lado da prevalência dos direitos humanos e da defesa da paz."
+        },
+        {
+          "id": "a4",
+          "texto": "A dignidade da pessoa humana aparece apenas no caput do art. 5º, como um dos direitos invioláveis assegurados a brasileiros e a estrangeiros residentes no território nacional."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A dignidade da pessoa humana é tratada como base dos direitos fundamentais e, no texto constitucional, está expressamente no art. 1º, III, como fundamento da República, junto da soberania, da cidadania, dos valores sociais do trabalho e da livre iniciativa e do pluralismo político. É preciso não confundir: o art. 3º traz objetivos fundamentais (construir sociedade livre, garantir o desenvolvimento, erradicar a pobreza, promover o bem de todos); o art. 4º cuida de princípios das relações internacionais (entre eles a prevalência dos direitos humanos); e o caput do art. 5º lista vida, liberdade, igualdade, segurança e propriedade, não a dignidade.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 1º, III: a dignidade da pessoa humana é fundamento da República, ao lado dos demais incisos do art. 1º."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O art. 3º lista objetivos fundamentais, não fundamentos; a dignidade está no art. 1º, III, e não no rol de objetivos."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 4º trata de princípios das relações internacionais; a dignidade da pessoa humana não figura nesse rol."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O caput do art. 5º enumera vida, liberdade, igualdade, segurança e propriedade; a dignidade não consta como um de seus direitos invioláveis."
+        }
+      ],
+      "fundamento_legal": "Art. 1º, III, da Constituição Federal de 1988.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir fundamentos (art. 1º), objetivos fundamentais (art. 3º) e princípios das relações internacionais (art. 4º), situando a dignidade no dispositivo errado.",
+      "lei_referencia": "CF/1988, art. 1º, III",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Dignidade da pessoa humana: FUNDAMENTO (art. 1º, III), não objetivo (art. 3º) nem princípio de relações internacionais (art. 4º).",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "dignidade da pessoa humana",
+        "fundamento da República",
+        "art. 1º III",
+        "indivisibilidade"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Característica da não taxatividade do rol (art. 5º, § 2º)",
+      "dificuldade": "media",
+      "enunciado": "Entre as características dos direitos humanos aponta-se a sua não taxatividade: o rol de direitos declarados não esgota os direitos protegidos. No texto da Constituição Federal, qual dispositivo do art. 5º confirma essa ideia de abertura do catálogo de direitos?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O que afirma que os direitos e garantias expressos na Constituição não excluem outros decorrentes do regime e dos princípios por ela adotados, ou de tratados internacionais."
+        },
+        {
+          "id": "a2",
+          "texto": "O que determina que as normas definidoras dos direitos e garantias fundamentais têm aplicação imediata, de modo a dispensar, por completo, qualquer regulamentação posterior por lei."
+        },
+        {
+          "id": "a3",
+          "texto": "O que estabelece que os tratados internacionais sobre direitos humanos aprovados em dois turnos, por três quintos dos votos de cada Casa do Congresso, equivalem a emendas constitucionais."
+        },
+        {
+          "id": "a4",
+          "texto": "O que prevê expressamente a submissão do Brasil à jurisdição do Tribunal Penal Internacional a cuja criação o País tenha, em algum momento, manifestado a sua adesão."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A não taxatividade (ou abertura material) significa que o catálogo de direitos é exemplificativo: podem existir outros direitos além dos expressamente listados. Essa ideia está no art. 5º, § 2º, que diz que os direitos e garantias expressos na Constituição não excluem outros decorrentes do regime, dos princípios por ela adotados ou dos tratados internacionais de que o Brasil seja parte. Os demais parágrafos tratam de temas distintos: o § 1º cuida da aplicação imediata; o § 3º, da equivalência de certos tratados a emenda; o § 4º, do Tribunal Penal Internacional.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 5º, § 2º, que consagra a abertura material do catálogo de direitos, afastando a taxatividade do rol."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Trata do art. 5º, § 1º (aplicação imediata), que cuida da eficácia das normas, não da abertura do rol de direitos."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Refere-se ao art. 5º, § 3º (equivalência a emenda de certos tratados), tema diverso da não taxatividade."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Corresponde ao art. 5º, § 4º (Tribunal Penal Internacional), sem relação com a abertura do catálogo de direitos."
+        }
+      ],
+      "fundamento_legal": "Art. 5º, § 2º, da Constituição Federal de 1988.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar o § 2º (abertura do rol) pelos §§ 1º, 3º ou 4º, que tratam de aplicação imediata, equivalência a emenda e Tribunal Penal Internacional.",
+      "lei_referencia": "CF/1988, art. 5º, § 2º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "O § 2º do art. 5º é a cláusula de abertura: o rol de direitos é exemplificativo, não fecha a lista.",
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "não taxatividade",
+        "abertura material",
+        "rol exemplificativo",
+        "art. 5º § 2º"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Característica da vedação ao retrocesso e núcleo mínimo (art. 5º, III e XLIX)",
+      "dificuldade": "media",
+      "enunciado": "A vedação a tratamentos que atinjam o núcleo da dignidade é apontada como traço marcante dos direitos humanos, protegendo a integridade da pessoa mesmo em situações de restrição da liberdade. Entre os incisos do art. 5º da Constituição Federal, qual par de previsões melhor expressa essa proteção da integridade física e moral?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Ninguém será submetido a tortura nem a tratamento desumano ou degradante; e é assegurado aos presos o respeito à sua integridade física e moral."
+        },
+        {
+          "id": "a2",
+          "texto": "É livre a manifestação do pensamento, sendo vedado o anonimato; e é assegurado o direito de resposta, proporcional ao agravo sofrido pela pessoa ofendida."
+        },
+        {
+          "id": "a3",
+          "texto": "É inviolável o sigilo da correspondência e das comunicações; e é livre o exercício de qualquer trabalho, ofício ou profissão, atendidas as qualificações legais."
+        },
+        {
+          "id": "a4",
+          "texto": "É garantido o direito de propriedade; e a propriedade atenderá a sua função social, nos termos definidos pela legislação aplicável a cada caso concreto."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A proteção da integridade física e moral é expressão da dignidade e do núcleo mínimo dos direitos humanos. No art. 5º, dois incisos traduzem bem essa ideia: o inciso III (ninguém será submetido a tortura nem a tratamento desumano ou degradante) e o inciso XLIX (é assegurado aos presos o respeito à integridade física e moral). As demais alternativas reúnem direitos que existem no art. 5º, mas tratam de liberdade de expressão (IV e V), sigilo e trabalho (XII e XIII) ou propriedade (XXII e XXIII), e não da integridade física e moral da pessoa.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Combina os incisos III e XLIX do art. 5º, que protegem diretamente a integridade física e moral, inclusive dos presos."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Reúne os incisos IV e V, relativos à liberdade de expressão e ao direito de resposta, não à integridade física e moral."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Combina os incisos XII e XIII (sigilo de correspondência e liberdade profissional), que não cuidam da integridade da pessoa."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Traz os incisos XXII e XXIII, sobre propriedade e função social, temas diversos da proteção à integridade física e moral."
+        }
+      ],
+      "fundamento_legal": "Art. 5º, III e XLIX, da Constituição Federal de 1988.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Associar a proteção da integridade física e moral a incisos que, embora existentes no art. 5º, cuidam de outros direitos (expressão, sigilo, propriedade).",
+      "lei_referencia": "CF/1988, art. 5º, III e XLIX",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "integridade física e moral",
+        "vedação à tortura",
+        "presos",
+        "art. 5º III",
+        "art. 5º XLIX"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Características no caso concreto: relatividade e reserva legal (art. 5º, XVI)",
+      "dificuldade": "dificil",
+      "enunciado": "Um grupo pretende realizar reunião pacífica em praça pública para debater pautas de interesse social. Diante da característica da relatividade dos direitos fundamentais e do texto do art. 5º, XVI, da Constituição Federal, assinale a alternativa correta sobre as condições para o exercício do direito de reunião.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A reunião deve ser pacífica e sem armas, em local aberto ao público, independe de autorização, não pode frustrar outra reunião antes convocada para o mesmo local e exige só prévio aviso à autoridade."
+        },
+        {
+          "id": "a2",
+          "texto": "A reunião em local aberto ao público depende de autorização prévia e expressa da autoridade competente, que poderá negá-la por motivo de simples conveniência administrativa, ainda que o encontro seja inteiramente pacífico."
+        },
+        {
+          "id": "a3",
+          "texto": "A reunião pacífica pode ocorrer com porte de armas pelos participantes, desde que haja prévio aviso formal à autoridade competente e que o local escolhido esteja efetivamente aberto ao público em geral."
+        },
+        {
+          "id": "a4",
+          "texto": "A reunião independe de qualquer comunicação prévia à autoridade competente e pode, inclusive, ocupar local já reservado a outra reunião anteriormente convocada para o mesmo espaço e horário."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O direito de reunião ilustra bem a relatividade: é assegurado, mas sob condições previstas no próprio texto. O art. 5º, XVI, exige que a reunião seja pacífica, sem armas, em local aberto ao público, independentemente de autorização, desde que não frustre outra reunião anteriormente convocada para o mesmo local, sendo apenas exigido prévio aviso à autoridade competente. A banca costuma explorar três pegadinhas: trocar o aviso por autorização, admitir armas e eliminar a ressalva da reunião anterior.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz integralmente o art. 5º, XVI: reunião pacífica, sem armas, independe de autorização, com prévio aviso e sem frustrar reunião anterior."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O inciso XVI dispensa autorização prévia; exige apenas aviso. Não há previsão de negativa por conveniência administrativa."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O dispositivo exige que a reunião seja sem armas; o porte de armas descaracteriza a proteção constitucional."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O texto exige prévio aviso à autoridade e impede frustrar reunião anteriormente convocada para o mesmo local."
+        }
+      ],
+      "fundamento_legal": "Art. 5º, XVI, da Constituição Federal de 1988.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Exigir autorização (em vez de mero aviso), admitir reunião armada ou ignorar a ressalva da reunião anteriormente convocada.",
+      "lei_referencia": "CF/1988, art. 5º, XVI",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Reunião: pacífica, sem armas, sem autorização, só aviso prévio, e sem furar reunião já convocada para o mesmo local.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "direito de reunião",
+        "prévio aviso",
+        "sem armas",
+        "relatividade",
+        "art. 5º XVI"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Característica da aplicabilidade imediata (art. 5º, § 1º)",
+      "dificuldade": "dificil",
+      "enunciado": "Discute-se, quanto às características dos direitos fundamentais, o grau de eficácia das normas que os definem. Com base exclusivamente no art. 5º, § 1º, da Constituição Federal, assinale a alternativa que traduz corretamente o comando do dispositivo.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "As normas definidoras dos direitos e garantias fundamentais têm aplicação imediata, segundo a dicção literal do próprio dispositivo constitucional invocado."
+        },
+        {
+          "id": "a2",
+          "texto": "As normas definidoras dos direitos e garantias fundamentais só produzem efeitos após a edição de lei que discipline cada direito."
+        },
+        {
+          "id": "a3",
+          "texto": "As normas definidoras dos direitos e garantias fundamentais têm aplicação diferida, condicionada a prazo fixado pelo Poder Executivo."
+        },
+        {
+          "id": "a4",
+          "texto": "As normas definidoras dos direitos e garantias fundamentais aplicam-se de imediato apenas aos direitos de natureza individual."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 5º, § 1º, afirma, de forma direta, que as normas definidoras dos direitos e garantias fundamentais têm aplicação imediata. Pela literalidade do dispositivo, não há exigência de lei regulamentadora prévia, não há condicionamento a prazo do Executivo e não há distinção entre direitos individuais e coletivos. A questão cobra a leitura fiel do texto; as demais alternativas inserem restrições que o § 1º não prevê.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 5º, § 1º: as normas definidoras de direitos e garantias fundamentais têm aplicação imediata."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O § 1º não condiciona a eficácia à edição prévia de lei regulamentadora; ao contrário, fala em aplicação imediata."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Não há no dispositivo previsão de aplicação diferida nem de prazo fixado por ato do Executivo."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O § 1º não restringe a aplicação imediata aos direitos individuais; o texto não faz essa distinção."
+        }
+      ],
+      "fundamento_legal": "Art. 5º, § 1º, da Constituição Federal de 1988.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Condicionar a eficácia dos direitos fundamentais à lei regulamentadora, contrariando a aplicação imediata prevista no § 1º.",
+      "lei_referencia": "CF/1988, art. 5º, § 1º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "A questão pede a letra do § 1º: aplicação imediata, sem as ressalvas doutrinárias sobre normas de eficácia limitada.",
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "aplicação imediata",
+        "eficácia",
+        "normas definidoras",
+        "art. 5º § 1º"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Características e fundamentos: dignidade e vedação a penas (arts. 1º e 5º, XLVII)",
+      "dificuldade": "dificil",
+      "enunciado": "A dignidade da pessoa humana, fundamento da República (art. 1º, III), costuma ser invocada para justificar a vedação a certas penas. Considerando o art. 5º, XLVII, da Constituição Federal, qual das penas a seguir é vedada, mas comporta exceção expressa no próprio texto?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A pena de morte, que é vedada, salvo em caso de guerra declarada, nos termos do art. 84, XIX, da Constituição."
+        },
+        {
+          "id": "a2",
+          "texto": "A pena de caráter perpétuo, que é vedada em regra, mas admitida em caso de guerra declarada, conforme o texto constitucional."
+        },
+        {
+          "id": "a3",
+          "texto": "A pena de banimento, que é vedada, salvo nos crimes de racismo e de ação de grupos armados contra a ordem constitucional."
+        },
+        {
+          "id": "a4",
+          "texto": "A pena de trabalhos forçados, que é vedada, salvo para o condenado por crime hediondo, tortura, tráfico ilícito de drogas ou terrorismo."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A vedação a penas cruéis, perpétuas, de banimento e de trabalhos forçados liga-se à dignidade da pessoa humana. No art. 5º, XLVII, a Constituição proíbe penas de morte, de caráter perpétuo, de trabalhos forçados, de banimento e cruéis. A única exceção expressa está na pena de morte, admitida em caso de guerra declarada, nos termos do art. 84, XIX. As demais vedações (perpétua, banimento, trabalhos forçados e cruéis) não têm exceção no texto, de modo que as alternativas que inventam ressalvas estão erradas.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 5º, XLVII, 'a': a pena de morte é vedada, salvo em caso de guerra declarada, nos termos do art. 84, XIX."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A pena de caráter perpétuo é vedada sem exceção; o texto não a admite em caso de guerra declarada."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A pena de banimento é vedada sem exceção; não há ressalva para racismo ou ação de grupos armados."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A pena de trabalhos forçados é vedada sem exceção; a Constituição não a autoriza para crimes hediondos ou equiparados."
+        }
+      ],
+      "fundamento_legal": "Art. 5º, XLVII, da Constituição Federal de 1988 (com apoio no art. 1º, III).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Criar exceções inexistentes para penas perpétua, de banimento ou de trabalhos forçados; a única exceção do art. 5º, XLVII, é a pena de morte em guerra declarada.",
+      "lei_referencia": "CF/1988, art. 5º, XLVII",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Das penas vedadas no inciso XLVII, só a de morte tem exceção: guerra declarada (art. 84, XIX).",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "excecao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "penas vedadas",
+        "pena de morte",
+        "guerra declarada",
+        "dignidade",
+        "art. 5º XLVII"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988 fornecido no contexto"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "subtema": "Imprescritibilidade no art. 5º (incisos XLII e XLIV)",
+      "frente": "A imprescritibilidade é característica dos direitos humanos; quais crimes o art. 5º da Constituição declara expressamente imprescritíveis?",
+      "verso": "Apenas dois: o racismo (art. 5º, XLII) e a ação de grupos armados, civis ou militares, contra a ordem constitucional e o Estado Democrático (art. 5º, XLIV). Os crimes do inciso XLIII (tortura, tráfico, terrorismo e hediondos) são inafiançáveis e insuscetíveis de graça ou anistia, mas não imprescritíveis.",
+      "fundamento_legal": "Art. 5º, XLII, XLIII e XLIV, da Constituição Federal de 1988.",
+      "lei_referencia": "CF/1988, art. 5º, XLII e XLIV",
+      "palavras_chave": [
+        "imprescritibilidade",
+        "racismo",
+        "grupos armados",
+        "característica"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f02",
+      "subtema": "Relatividade dos direitos fundamentais (art. 5º, XI)",
+      "frente": "A relatividade indica que os direitos fundamentais não são absolutos; que exemplo o art. 5º traz ao tratar da inviolabilidade do domicílio?",
+      "verso": "Art. 5º, XI: a casa é asilo inviolável do indivíduo, mas admite-se o ingresso sem consentimento do morador em caso de flagrante delito ou desastre, para prestar socorro ou, durante o dia, por determinação judicial. As exceções mostram que o direito pode ser limitado.",
+      "fundamento_legal": "Art. 5º, XI, da Constituição Federal de 1988.",
+      "lei_referencia": "CF/1988, art. 5º, XI",
+      "palavras_chave": [
+        "relatividade",
+        "inviolabilidade do domicílio",
+        "flagrante",
+        "determinação judicial"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f03",
+      "subtema": "Não taxatividade e abertura do rol (art. 5º, § 2º)",
+      "frente": "A não taxatividade dos direitos humanos tem base em qual dispositivo do art. 5º da Constituição, e o que ele estabelece?",
+      "verso": "Art. 5º, § 2º: os direitos e garantias expressos na Constituição não excluem outros decorrentes do regime e dos princípios por ela adotados, ou dos tratados internacionais de que o Brasil seja parte. É a cláusula de abertura material: o rol é exemplificativo.",
+      "fundamento_legal": "Art. 5º, § 2º, da Constituição Federal de 1988.",
+      "lei_referencia": "CF/1988, art. 5º, § 2º",
+      "palavras_chave": [
+        "não taxatividade",
+        "abertura material",
+        "rol exemplificativo",
+        "art. 5º § 2º"
+      ],
+      "cita_jurisprudencia": false
+    }
+  ]
+}

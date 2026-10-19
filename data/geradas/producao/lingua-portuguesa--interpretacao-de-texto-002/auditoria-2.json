@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A primeira frase é o tópico frasal que anuncia a ideia geral; as demais são exemplos de desenvolvimento. Gabarito a1 correto, única resposta defensável, dentro do foco de estruturação do parágrafo."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A relação entre alagamento e trânsito interrompido é de consequência; \"em razão disso\" é o único conectivo adequado. Oposição, ordenação e exemplificação não cabem. Gabarito correto."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A ordem temporal é II (chegada vazia), III (ida ao posto, marcada por \"então\") e I (liberação após abastecer, marcada por \"depois de abastecida\"). Só II, III, I é coerente. Gabarito a1 correto."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A frase sobre a chuva na capital rompe a unidade temática da reciclagem; as demais integram o tema. Gabarito a1 correto, única intrusa."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O pronome \"Eles\" retoma \"os pais\", únicos a quem o período anterior atribui a boa recepção e compatíveis em gênero e número. Demais referentes não cabem. Gabarito a1 correto."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "I apresenta (introdução), II argumenta (desenvolvimento) e III fecha com proposta (conclusão). Correspondência a1 correta; as demais trocam as funções."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A quebra de expectativa entre o esforço e a ausência de resposta exige conectivo de oposição; \"contudo\" é o único cabível. Causa, conclusão e tempo não servem. Gabarito a1 correto."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "\"No entanto\" introduz o contraponto que opõe o segundo movimento (afastar quem está perto) ao primeiro (aproximar distantes), no mesmo tema. Não é adição, conclusão nem causa. Gabarito a1 correto."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Só a1 retoma o investimento do primeiro parágrafo (\"o resultado\") e anuncia as falhas do segundo (\"as razões dessa frustração\"), fazendo a transição. As demais são genéricas. Gabarito correto."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O autor concede uma vantagem da câmera (\"de fato, ajuda\") e a relativiza com \"porém\" para defender o conjunto de medidas. a1 capta esse movimento; as demais confundem a crença inicial com a tese, negam toda utilidade ou ignoram a posição. Gabarito correto."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Verso define corretamente o tópico frasal como a frase da ideia principal, que as demais desenvolvem, podendo vir no início, meio ou fim. Responde exatamente à frente, sem ambiguidade. Tema sem texto legal."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Distingue corretamente coesão (ligação visível por conectivos, pronomes, repetições) de coerência (lógica interna das ideias), conforme a norma consolidada. Um conceito, sem ambiguidade."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Descreve corretamente introdução, desenvolvimento e conclusão do texto dissertativo. Tem redação própria e não copia o enunciado da q06 (conceitual x aplicação). Sem ambiguidade."
+    }
+  ]
+}

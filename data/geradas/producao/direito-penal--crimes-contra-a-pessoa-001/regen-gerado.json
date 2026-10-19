@@ -1,0 +1,42 @@
+{
+  "questoes": [
+    {
+      "id": "q04",
+      "tema": "Crimes contra a Pessoa",
+      "subtema": "Redução a condição análoga à de escravo",
+      "dificuldade": "media",
+      "enunciado": "Um empregador sujeita trabalhadores rurais a jornada exaustiva e a condições degradantes de trabalho, sem que haja restrição da liberdade de locomoção nem dívida contraída com ele. À luz do art. 149 do Código Penal, essa situação:",
+      "alternativas": [
+        { "id": "a1", "texto": "Configura o crime de redução a condição análoga à de escravo, pois a jornada exaustiva ou as condições degradantes de trabalho já bastam, por si sós, para o tipo." },
+        { "id": "a2", "texto": "Não configura esse crime, porque o tipo penal exige, em todas as suas modalidades, a efetiva restrição da liberdade de locomoção da vítima no local de trabalho." },
+        { "id": "a3", "texto": "Não configura esse crime, porque a restrição da locomoção só é punível quando decorre de dívida contraída pelo trabalhador com o empregador ou preposto." },
+        { "id": "a4", "texto": "Configura mera contravenção de infração às normas trabalhistas, pois a conduta descrita não alcança a gravidade penal exigida pelo art. 149 do Código Penal." }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 149 do Código Penal descreve condutas alternativas: reduzir alguém a condição análoga à de escravo submetendo-o a trabalhos forçados ou a jornada exaustiva, sujeitando-o a condições degradantes de trabalho, ou restringindo sua locomoção em razão de dívida com o empregador ou preposto. Basta a presença de uma dessas hipóteses para a tipicidade. Assim, a jornada exaustiva e as condições degradantes já configuram o crime, independentemente de cerceamento da liberdade de ir e vir ou de dívida. A restrição por dívida é apenas uma das modalidades, e não requisito geral do tipo.",
+      "analise_alternativas": [
+        { "id": "a1", "correta": true, "justificativa": "O art. 149 prevê condutas alternativas; a jornada exaustiva e as condições degradantes, isoladamente, já bastam para o crime." },
+        { "id": "a2", "correta": false, "justificativa": "A restrição da liberdade de locomoção é só uma das modalidades (a ligada à dívida), não exigência comum a todas as formas do tipo." },
+        { "id": "a3", "correta": false, "justificativa": "Confunde a modalidade específica (restrição por dívida) com requisito geral; jornada exaustiva e condições degradantes independem de dívida." },
+        { "id": "a4", "correta": false, "justificativa": "A conduta é crime punido com reclusão de dois a oito anos e multa, e não simples infração administrativa ou contravenção trabalhista." }
+      ],
+      "fundamento_legal": "Art. 149, caput, do Código Penal (Decreto-Lei 2.848/1940).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Supor que o crime exige, em qualquer caso, restrição da liberdade de locomoção ou dívida, ignorando que a jornada exaustiva e as condições degradantes já bastam.",
+      "lei_referencia": "CP, art. 149, caput",
+      "macete_do_riccardo": "Art. 149 tem quatro portas alternativas: trabalho forçado, jornada exaustiva, condições degradantes ou restrição por dívida. Basta uma para o crime.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": ["trabalho escravo", "jornada exaustiva", "condições degradantes", "art. 149"],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": ["Texto compilado do Código Penal (Decreto-Lei 2.848/1940), arts. 121 a 154, fornecido no contexto"]
+    }
+  ],
+  "flashcards": [],
+  "observacoes_do_lote": "Regeneração apenas da questão q04 (média). O item anterior foi reprovado por erro de gabarito (perda da visão de um olho tratada como lesão gravíssima). A nova q04 muda de ponto, caso, dispositivo e pegadinha: passa para a redução a condição análoga à de escravo (art. 149 do CP), cobrando o caráter alternativo das condutas do tipo. Base exclusiva no texto compilado do Código Penal fornecido no contexto; nenhuma jurisprudência citada por número."
+}

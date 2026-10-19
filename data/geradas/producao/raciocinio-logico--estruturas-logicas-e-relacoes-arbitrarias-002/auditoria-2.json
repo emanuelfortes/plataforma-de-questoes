@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Bruno fixo na manhã e Ana fora da noite forçam Ana na tarde e Célia na noite. O único arranjo que cumpre as duas condições é a1. Distratores violam ao menos uma restrição. Dentro do nível fácil e do foco do lote."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Com Davi no 1 e Elisa em armário par entre 1 e 4, as únicas posições de Elisa são 2 ou 4, válido em todo arranjo. As demais afirmações só valem em alguns cenários ou são impossíveis. Conceito de 'necessariamente verdadeiro' aplicado corretamente."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Escolher só Educação Física não aciona a condicional do Tiro e não fere a proibição de Direito com Educação Física, cumprindo o mínimo de uma disciplina. Os demais pares violam a condicional ou a exclusão. Única resposta válida: a1."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "V3 na vaga 3 obriga V1 a uma ponta (1 ou 5) e V2, sua vizinha, à vaga 2 ou 4. Logo 'V2 na 2 ou 4' é necessariamente verdadeiro. As outras afirmações só valem em um cenário ou são impossíveis."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "As condicionais mútuas S só com R e R só com S obrigam R e S a entrarem sempre juntos. O par R e S tem dois agentes, não junta P com Q e respeita o vínculo. Os demais pares quebram a proibição P e Q ou separam R de S. Única equipe válida: a1."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Charlie no Sul libera Norte e Centro; Alfa fora do Centro vai ao Norte e Bravo ao Centro (compatível com Bravo fora do Norte). A alocação fica única, confirmando a1. As opções que alegam indeterminação são falsas."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Encadeamento correto: trabalho no feriado leva à folga na quarta (regra 1) e a folga na quarta impede o trabalho na quinta (regra 2). Conclusão necessária: folga na quarta e sem trabalho na quinta, a1. Os distratores invertem ou contrariam as regras."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Com o cadete 5 na cadeira 6, os cadetes 3 e 4 nas cadeiras 1 e 2 (vizinhas) deixam 3, 4 e 5 livres para 1, 2 e 6 com 1 antes de 2; existe arranjo válido, logo a1 é compatível. As demais contrariam uma condição fixada ou a vizinhança."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Ativar só a ação I cumpre a disjunção obrigatória I ou II e não dispara as condicionais, que só restringem quando III ou II estão ativas. A regra I ou II impede zero ação, então uma é o mínimo: a1. As outras opções usam mais ações ou violam III com IV."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "C na 2 e E na 5 deixam 1, 3 e 4 para A, B e D; como D não pode ser vizinho de C (posições 1 e 3), D vai à 4, e A antes de B fixa A na 1 e B na 3. Resulta um único arranjo (A, C, B, D, E), confirmando a2."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Distinção correta: necessariamente verdadeira vale em todos os arranjos (cai com um contraexemplo) e possível vale em pelo menos um. As estratégias de teste indicadas estão corretas. Frente objetiva e verso com resposta única."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Correto: a condicional 'se A então B' só é violada quando A ocorre e B não ocorre; com A falso ela é satisfeita por vacuidade e nada exige. Frente clara, sem ambiguidade."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Estratégia consolidada e útil: começar pela condição que fixa posição ou elemento, que reduz o espaço e desencadeia deduções, aplicando depois condicionais e proibições. Frente objetiva e resposta coerente."
+    }
+  ]
+}

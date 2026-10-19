@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 9º, I, do CPM define o crime militar qualquer que seja o agente, salvo disposição especial; a1 reproduz essa cláusula. Os distratores inserem requisitos de outras hipóteses (lugar, agente militar, patrimônio, art. 12). Uma única correta, fundamento conferido."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 9º, III, arrola o civil (e o reservista ou reformado) como autor de crime militar em tempo de paz contra as instituições militares; a1 descreve corretamente essa hipótese. As demais negam ou condicionam indevidamente a autoria do civil. Única correta."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reproduz o art. 22 do CPM (redação da Lei 14.688/2023): é militar quem é incorporado ou matriculado para servir em posto, graduação ou regime de sujeição à disciplina militar. Os distratores restringem ou estendem o conceito. Observação temporal correta."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Civil que subtrai material sob administração militar enquadra-se no art. 9º, III, a (crime impropriamente militar); a1 está correta. O enunciado acerta ao condicionar à tipificação no CPM. Os distratores invertem institutos (art. 12, imóvel da União, manobras, competência)."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O critério doutrinário do crime impropriamente militar é a possibilidade de autoria por não militar, apoiada no art. 9º, III; a1 o expressa. Os distratores adotam critérios que o Código não fixa (pena, tempo, autoria da ativa, competência). Única correta."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Militar da ativa, em manobras, contra civil é a hipótese do art. 9º, II, d, que não exige lugar sujeito à administração militar; a1 está correta. Os distratores trocam de inciso ou invocam competência (júri) que não é o fundamento da tipificação. Única correta."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reproduz o art. 12 do CPM (equiparação do reservista ou reformado empregado na administração militar ao da ativa). Os demais contrariam os arts. 12 e 13. Observação temporal (Lei 14.688/2023) correta. Única correta."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Reservista, em lugar sujeito à administração militar, contra militar da ativa no exercício de função do cargo é o art. 9º, III, b, independentemente da equiparação do art. 12; a1 está correta. Os distratores negam a autoria do reservista, exigem o art. 12 ou classificam como crime comum. Única correta."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reproduz o art. 14 do CPM (redação da Lei 14.688/2023): o defeito não exclui a lei penal militar, salvo se alegado ou conhecido antes da prática do crime. Os distratores invertem a regra, exigem trânsito em julgado ou falam em competência. Única correta."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O inciso II pressupõe autor militar (da ativa ou em serviço) e o inciso III arrola reservista, reformado e civil contra as instituições militares; a1 descreve corretamente essa diferença de autoria. As demais trocam ou uniformizam a autoria dos incisos. Única correta."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A frente é uma pergunta objetiva sobre a autoria no art. 9º, I; o verso responde corretamente (qualquer que seja o agente, salvo disposição especial) e cita o dispositivo. Sem ambiguidade."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reproduz o art. 12 do CPM (equiparação do reservista ou reformado empregado na administração militar ao da ativa) e cita o dispositivo. A frente admite resposta única."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reproduz o art. 14 do CPM: em regra o defeito não exclui a lei penal militar, salvo se alegado ou conhecido antes da prática do crime. Cita o dispositivo e responde exatamente à frente, sem ambiguidade."
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A primeira frase e o topico frasal: anuncia a ideia geral (o trabalho vai alem da fiscalizacao) que as demais apenas exemplificam. Os distratores a2, a3 e a4 sao exemplos de desenvolvimento, nao a ideia central. So a1 responde. Comentario claro e correto."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A relacao e de causa e consequencia; \"em razao disso\" introduz a consequencia (trânsito interrompido). \"No entanto\" marca oposicao, \"em primeiro lugar\" ordenacao e \"por exemplo\" exemplificacao, nenhum cabe. Resposta unica."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A ordem logica dos fatos e II (chegada com tanque vazio), III (conducao ao posto, marcada por \"entao\") e I (liberacao apos abastecer, marcada por \"depois de abastecida\"). As pistas de coesao confirmam II, III, I. Unica sequencia coerente."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A frase \"Ontem choveu bastante na capital\" rompe a unidade tematica do paragrafo (reciclagem). As demais (beneficio, facilidade e conclusao) integram o tema. So a1 e a frase intrusa. Justificativas dos distratores corretas."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O pronome \"Eles\" retoma \"os pais\", unico termo do periodo anterior compativel em genero e numero e agente da recepcao da medida e da cobranca. Bairros, prefeito e agentes nao servem como referente. Resposta unica."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A estrutura dissertativa e introducao (apresenta tema e posicao), desenvolvimento (argumentos e exemplos) e conclusao (retoma e fecha). I-II-III correspondem a introducao-desenvolvimento-conclusao, exatamente a alternativa a1. As demais trocam as funcoes."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A relacao e de oposicao/quebra de expectativa (esforco x ausencia de resposta); \"contudo\" e o conectivo adequado. \"Porque\" (causa), \"portanto\" (conclusao) e \"assim que\" (tempo) nao cabem. Resposta unica."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "\"No entanto\" articula por contraste os dois movimentos do paragrafo (a tecnologia aproximou distantes x afastou proximos), sem fugir do tema. a1 descreve exatamente esse contraponto. a2 (adicao), a3 (conclusao) e a4 (causa) erram a relacao. Resposta unica."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A frase de transicao deve retomar o que foi dito e anunciar o que vem. a1 retoma o investimento (\"o resultado\") e anuncia as falhas (\"razoes dessa frustracao\"), costurando os dois paragrafos. a2, a3 e a4 trazem informacao generica sem ligacao. Unica adequada."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O autor concede uma vantagem da camera (\"de fato, ajuda\") e a relativiza com \"porem\", defendendo que a seguranca depende de um conjunto de medidas: e o que diz a1. a2 e a crenca rebatida, a3 nega toda utilidade e a4 ignora a posicao assumida. Resposta unica."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso define corretamente o topico frasal como a frase da ideia principal, em torno da qual as demais se organizam, podendo vir no inicio, meio ou fim. Frente objetiva, resposta unica. Tema sem lei, nao exige dispositivo."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Distingue corretamente coesao (ligacao visivel por conectivos, pronomes e repeticoes) de coerencia (logica interna das ideias), conforme a norma-padrao e as gramaticas de referencia. Frente clara, sem ambiguidade."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Lista corretamente as tres partes do texto dissertativo (introducao, desenvolvimento e conclusao) com suas funcoes. Reforca o conteudo de q06, mas com redacao propria e sem copiar o enunciado; e um conceito por card. Correto e sem ambiguidade."
+    }
+  ]
+}

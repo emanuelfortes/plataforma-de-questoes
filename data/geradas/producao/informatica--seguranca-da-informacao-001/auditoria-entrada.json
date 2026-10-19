@@ -1,0 +1,729 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Segurança da Informação",
+      "subtema": "Princípios de segurança",
+      "dificuldade": "facil",
+      "enunciado": "Em segurança da informação, o princípio que busca garantir que a informação esteja acessível e utilizável sempre que um usuário autorizado dela necessitar, evitando interrupções indevidas de serviços e sistemas, é denominado:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "disponibilidade, que assegura o acesso aos dados e serviços quando necessário."
+        },
+        {
+          "id": "a2",
+          "texto": "confidencialidade, que assegura o sigilo das informações frente a terceiros."
+        },
+        {
+          "id": "a3",
+          "texto": "integridade, que assegura a exatidão e a completude das informações."
+        },
+        {
+          "id": "a4",
+          "texto": "autenticidade, que assegura a comprovação da origem das informações."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A disponibilidade é um dos pilares clássicos da segurança da informação (ao lado da confidencialidade e da integridade). Ela trata de manter sistemas, serviços e dados acessíveis e em funcionamento para quem tem autorização, no momento em que forem necessários. Ataques de negação de serviço e falhas de infraestrutura são exemplos de ameaças diretas a esse princípio.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Disponibilidade é exatamente garantir acesso e uso da informação por usuários autorizados sempre que necessário, evitando interrupções indevidas."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Confidencialidade cuida do sigilo (restringir o acesso a quem é autorizado), e não da garantia de que a informação esteja acessível quando necessária."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Integridade cuida da exatidão e da não alteração indevida do dado, não da sua disponibilidade de acesso."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Autenticidade cuida de comprovar a origem e a identidade de quem produziu a informação, não do acesso contínuo a ela."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir disponibilidade com confidencialidade, trocando garantia de acesso por garantia de sigilo.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "Guarde o trio CID: Confidencialidade (sigilo), Integridade (não alteração) e Disponibilidade (acesso quando precisar).",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "disponibilidade",
+        "princípios de segurança",
+        "CID"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de segurança da informação (tríade confidencialidade, integridade e disponibilidade)"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Segurança da Informação",
+      "subtema": "Princípios de segurança",
+      "dificuldade": "facil",
+      "enunciado": "Um técnico percebeu que um relatório financeiro armazenado em um servidor foi alterado por pessoa não autorizada, passando a conter valores diferentes dos originais. O princípio de segurança da informação diretamente violado nesse caso é o da:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "integridade, que protege a informação contra modificações não autorizadas."
+        },
+        {
+          "id": "a2",
+          "texto": "disponibilidade, que protege o acesso contínuo à informação pelo usuário."
+        },
+        {
+          "id": "a3",
+          "texto": "confidencialidade, que protege a informação contra acesso não autorizado."
+        },
+        {
+          "id": "a4",
+          "texto": "irretratabilidade, que impede a negação da autoria de uma ação."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A integridade garante que a informação permaneça exata, completa e livre de alterações não autorizadas. Quando valores de um relatório são modificados por quem não tinha permissão, o dado perde sua fidelidade: é a integridade que foi quebrada. Confidencialidade seria afetada por uma leitura indevida; aqui houve alteração indevida.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "A alteração não autorizada do conteúdo descaracteriza o dado original, o que configura violação de integridade."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Não houve falta de acesso ao relatório; o serviço continuou disponível, logo a disponibilidade não é o foco."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Confidencialidade seria violada por acesso ou leitura indevida, mas o problema descrito foi a modificação do dado."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Irretratabilidade trata de impedir que o autor negue a autoria de um ato, e não da alteração do conteúdo em si."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Marcar confidencialidade por associar o caso a algo sigiloso, quando o problema foi a modificação do dado.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Alteração indevida do conteúdo ataca a integridade; leitura indevida ataca a confidencialidade.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "integridade",
+        "alteração não autorizada",
+        "princípios de segurança"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de segurança da informação (tríade confidencialidade, integridade e disponibilidade)"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Segurança da Informação",
+      "subtema": "Princípios de segurança",
+      "dificuldade": "facil",
+      "enunciado": "Sobre o princípio da confidencialidade em segurança da informação, assinale a alternativa que o descreve corretamente:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "garante que a informação seja acessada apenas por pessoas autorizadas."
+        },
+        {
+          "id": "a2",
+          "texto": "garante que a informação não sofra alterações indevidas em seu conteúdo."
+        },
+        {
+          "id": "a3",
+          "texto": "garante que a informação esteja acessível aos usuários quando necessária."
+        },
+        {
+          "id": "a4",
+          "texto": "garante que o autor de uma ação não possa posteriormente negá-la."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A confidencialidade assegura que a informação só seja acessível a pessoas, processos ou sistemas autorizados, mantendo o sigilo frente a terceiros. É ela que fundamenta controles como criptografia de dados em trânsito e em repouso, autenticação e políticas de controle de acesso por necessidade de conhecer.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Confidencialidade é precisamente a restrição do acesso à informação apenas a quem está autorizado."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A proteção contra alterações indevidas do conteúdo descreve a integridade, não a confidencialidade."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Manter a informação acessível quando necessária é a definição de disponibilidade."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Impedir que o autor negue um ato descreve a irretratabilidade (não repúdio), e não o sigilo."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar a definição de confidencialidade pela de integridade ou disponibilidade.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "confidencialidade",
+        "sigilo",
+        "princípios de segurança"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de segurança da informação (tríade confidencialidade, integridade e disponibilidade)"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Segurança da Informação",
+      "subtema": "Princípios de segurança",
+      "dificuldade": "media",
+      "enunciado": "Em uma transação eletrônica, deseja-se assegurar que o remetente de uma mensagem não possa, mais tarde, negar que a enviou. O princípio de segurança da informação que atende diretamente a essa necessidade é:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "o não repúdio, que impede a negação da autoria de uma ação realizada."
+        },
+        {
+          "id": "a2",
+          "texto": "a confidencialidade, que impede o acesso da mensagem por terceiros não autorizados."
+        },
+        {
+          "id": "a3",
+          "texto": "a disponibilidade, que impede a interrupção do serviço de envio de mensagens."
+        },
+        {
+          "id": "a4",
+          "texto": "a integridade, que impede a modificação do conteúdo da mensagem enviada."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O não repúdio (ou irretratabilidade) garante que uma parte não consiga negar a autoria de um ato que efetivamente praticou, como o envio de uma mensagem ou a assinatura de um documento. Ele costuma ser sustentado por mecanismos como a assinatura digital, que vincula a ação a uma identidade de forma verificável.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Impedir que o remetente negue o envio é exatamente a função do não repúdio (irretratabilidade)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Confidencialidade trata do sigilo da mensagem perante terceiros, e não da impossibilidade de negar a autoria."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Disponibilidade cuida de manter o serviço funcionando, sem relação com a negação de autoria."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Integridade garante que o conteúdo não seja alterado, mas não impede, por si só, que o autor negue o envio."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir não repúdio com integridade, pois ambos costumam ser garantidos pela assinatura digital.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Não repúdio responde à pergunta: foi você mesmo quem fez? E não permite que o autor negue depois.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "não repúdio",
+        "irretratabilidade",
+        "princípios de segurança"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de segurança da informação (princípios de segurança)"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Segurança da Informação",
+      "subtema": "Princípios de segurança",
+      "dificuldade": "media",
+      "enunciado": "Uma delegacia implanta um sistema que, antes de liberar o acesso a um usuário, verifica se ele é realmente quem afirma ser por meio de login, senha e um token. Essa verificação está diretamente ligada ao princípio da:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "autenticidade, que confirma a identidade legítima de quem acessa o sistema."
+        },
+        {
+          "id": "a2",
+          "texto": "integridade, que confirma que os dados do sistema não foram alterados indevidamente."
+        },
+        {
+          "id": "a3",
+          "texto": "disponibilidade, que confirma que o sistema está acessível no momento do acesso."
+        },
+        {
+          "id": "a4",
+          "texto": "confidencialidade, que confirma que os dados ficam em sigilo após o acesso."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A autenticidade assegura que uma entidade (usuário, sistema ou documento) é de fato quem ou o que afirma ser. O processo de verificar essa identidade antes de conceder acesso é a autenticação, apoiada em fatores como algo que se sabe (senha), algo que se tem (token) ou algo que se é (biometria). Não se confunde com a autorização, que define o que o usuário já autenticado pode fazer.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Verificar se o usuário é quem afirma ser, por login, senha e token, corresponde à autenticidade, concretizada pela autenticação."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Integridade cuida da não alteração dos dados, e não da confirmação da identidade de quem acessa."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Disponibilidade trata do sistema estar no ar, mas não da verificação de identidade do usuário."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Confidencialidade cuida do sigilo da informação; a checagem de identidade descrita é autenticação, ligada à autenticidade."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Associar a verificação de identidade à confidencialidade, por o acesso envolver dados sigilosos.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Não troque autenticação (provar quem você é) por autorização (definir o que você pode fazer).",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "autenticidade",
+        "autenticação",
+        "fatores de autenticação"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de segurança da informação (autenticidade e autenticação)"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Segurança da Informação",
+      "subtema": "Princípios de segurança",
+      "dificuldade": "media",
+      "enunciado": "A chamada tríade CID reúne os três pilares clássicos da segurança da informação. Assinale a alternativa que apresenta corretamente esses três princípios:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "confidencialidade, integridade e disponibilidade das informações protegidas."
+        },
+        {
+          "id": "a2",
+          "texto": "confidencialidade, identidade e durabilidade dos registros armazenados no sistema."
+        },
+        {
+          "id": "a3",
+          "texto": "criptografia, integridade e disponibilidade dos ativos de informação."
+        },
+        {
+          "id": "a4",
+          "texto": "controle de acesso, integridade e detecção de intrusões nos servidores."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A tríade CID (em inglês, CIA) é formada por confidencialidade, integridade e disponibilidade. Esses três princípios são a base sobre a qual se constroem as demais garantias e controles de segurança. Mecanismos como criptografia e controle de acesso são meios para alcançar esses princípios, mas não são os princípios em si.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "A tríade CID é exatamente confidencialidade, integridade e disponibilidade."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Identidade e durabilidade não compõem a tríade; o correto é integridade e disponibilidade."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Criptografia é um mecanismo de proteção, e não um dos três princípios da tríade."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Controle de acesso e detecção de intrusões são controles de segurança, não os pilares da tríade CID."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar um dos princípios por um mecanismo (criptografia, controle de acesso), que é meio e não pilar.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "CID: Confidencialidade, Integridade e Disponibilidade. Em inglês, CIA.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "tríade CID",
+        "pilares da segurança",
+        "CIA"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de segurança da informação (tríade CID)"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Segurança da Informação",
+      "subtema": "Princípios de segurança",
+      "dificuldade": "media",
+      "enunciado": "Um escrivão acessa o sistema de registros da delegacia com credenciais válidas, mas tenta abrir um módulo de folha de pagamento para o qual seu perfil não tem permissão, e o sistema bloqueia o acesso. O controle responsável por limitar o que um usuário já identificado pode fazer no sistema é a:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "autorização, que define quais recursos o usuário autenticado pode utilizar."
+        },
+        {
+          "id": "a2",
+          "texto": "autenticação, que define se o usuário é quem afirma ser ao entrar no sistema."
+        },
+        {
+          "id": "a3",
+          "texto": "auditoria, que define o registro histórico das ações realizadas no sistema."
+        },
+        {
+          "id": "a4",
+          "texto": "disponibilidade, que define se o sistema está acessível no momento do uso."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Depois que o usuário é autenticado (prova quem é), a autorização define a quais recursos e operações ele tem direito, conforme o perfil ou os privilégios atribuídos. No caso, as credenciais eram válidas (autenticação bem-sucedida), mas o perfil não tinha permissão para o módulo (autorização negada). Esse controle apoia o princípio do menor privilégio.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Limitar o que o usuário já identificado pode acessar é função da autorização, baseada no perfil e nos privilégios."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A autenticação já ocorreu (credenciais válidas); o bloqueio decorreu da falta de permissão, que é autorização."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Auditoria é o registro e a análise das ações, não o controle que concede ou nega o acesso a um módulo."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Disponibilidade trata de o sistema estar no ar; aqui o sistema funcionava e apenas negou a permissão."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir autorização (o que pode fazer) com autenticação (provar quem é).",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Autenticação vem antes (quem é você); autorização vem depois (o que você pode fazer).",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "autorização",
+        "autenticação",
+        "menor privilégio"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de segurança da informação (autenticação e autorização)"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Segurança da Informação",
+      "subtema": "Princípios de segurança",
+      "dificuldade": "dificil",
+      "enunciado": "Uma organização sofreu um incidente em que um invasor interceptou e copiou arquivos confidenciais trafegados na rede, sem alterar seu conteúdo e sem interromper nenhum serviço. Considerando os pilares da segurança da informação, é correto afirmar que:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "houve quebra de confidencialidade, preservadas a integridade e a disponibilidade dos dados."
+        },
+        {
+          "id": "a2",
+          "texto": "houve quebra de integridade, pois a cópia dos arquivos modifica o estado original da informação."
+        },
+        {
+          "id": "a3",
+          "texto": "houve quebra de disponibilidade, uma vez que a interceptação impede o acesso legítimo aos arquivos."
+        },
+        {
+          "id": "a4",
+          "texto": "não houve quebra de nenhum pilar, já que os dados originais continuaram íntegros e acessíveis."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A interceptação e a cópia de dados sigilosos por quem não tem autorização configuram quebra de confidencialidade: pessoa não autorizada obteve acesso à informação. Como o conteúdo não foi alterado, a integridade se manteve; como nenhum serviço foi interrompido, a disponibilidade também. O caso ilustra que ler indevidamente (sem mexer no dado) já viola um pilar, mesmo que os demais permaneçam intactos.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "O acesso não autorizado à informação sigilosa rompe a confidencialidade, enquanto integridade (dado inalterado) e disponibilidade (serviço no ar) seguem preservadas."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Copiar sem alterar o conteúdo não fere a integridade: o estado original do dado permaneceu o mesmo."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Não houve interrupção de acesso aos arquivos pelos usuários legítimos, logo a disponibilidade não foi atingida."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O acesso indevido a dados sigilosos, por si só, já quebra a confidencialidade, ainda que integridade e disponibilidade se mantenham."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Achar que, sem alteração do conteúdo nem parada de serviço, nenhum pilar teria sido violado.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Só ler ou copiar dado sigiloso sem autorização já viola a confidencialidade, mesmo sem alterar nada.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "confidencialidade",
+        "interceptação",
+        "tríade CID"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de segurança da informação (tríade CID)"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Segurança da Informação",
+      "subtema": "Princípios de segurança",
+      "dificuldade": "dificil",
+      "enunciado": "Sobre os princípios e conceitos básicos de segurança da informação, analise as afirmativas a seguir e assinale a correta:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "a disponibilidade pode ser comprometida por um ataque de negação de serviço, ainda que os dados permaneçam íntegros e sigilosos."
+        },
+        {
+          "id": "a2",
+          "texto": "a confidencialidade e a integridade são sinônimos, pois ambas tratam de proteger o conteúdo da informação contra terceiros."
+        },
+        {
+          "id": "a3",
+          "texto": "a integridade é assegurada exclusivamente pela cópia de segurança, que impede qualquer alteração dos dados originais."
+        },
+        {
+          "id": "a4",
+          "texto": "a autenticidade garante que a informação permaneça acessível aos usuários autorizados a qualquer momento."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Um ataque de negação de serviço sobrecarrega ou derruba um recurso, tornando-o indisponível para usuários legítimos, sem necessariamente ler ou alterar os dados. Por isso ele afeta a disponibilidade, ainda que confidencialidade e integridade sigam preservadas. As demais afirmativas misturam conceitos: confidencialidade e integridade são distintas, o backup ajuda na recuperação mas não impede alterações, e a autenticidade trata de identidade, não de acesso contínuo.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "A negação de serviço ataca a disponibilidade (deixa o recurso inacessível) sem precisar violar integridade ou confidencialidade."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Confidencialidade (sigilo de acesso) e integridade (não alteração do conteúdo) são princípios distintos, não sinônimos."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A cópia de segurança auxilia na recuperação após incidentes, mas não impede alterações nem é a única garantia de integridade."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Manter a informação acessível quando necessária é disponibilidade; autenticidade diz respeito à comprovação de identidade."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Aceitar generalizações falsas, como integridade garantida só por backup ou confidencialidade igual a integridade.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Negação de serviço mira a disponibilidade, mesmo sem ler nem alterar os dados.",
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "disponibilidade",
+        "negação de serviço",
+        "princípios de segurança"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de segurança da informação (princípios de segurança)"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Segurança da Informação",
+      "subtema": "Princípios de segurança",
+      "dificuldade": "dificil",
+      "enunciado": "Um documento eletrônico recebido por um servidor público veio acompanhado de mecanismos que permitem comprovar quem o emitiu e detectar se o conteúdo foi modificado após a emissão. Considerando os princípios de segurança da informação, esses mecanismos atendem, respectivamente, aos princípios de:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "autenticidade, quanto à origem, e integridade, quanto à ausência de alterações no conteúdo."
+        },
+        {
+          "id": "a2",
+          "texto": "confidencialidade, quanto à origem, e disponibilidade, quanto à ausência de alterações no conteúdo."
+        },
+        {
+          "id": "a3",
+          "texto": "disponibilidade, quanto à origem, e autenticidade, quanto à ausência de alterações no conteúdo."
+        },
+        {
+          "id": "a4",
+          "texto": "integridade, quanto à origem, e confidencialidade, quanto à ausência de alterações no conteúdo."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Comprovar quem emitiu o documento é garantir a autenticidade (a origem é verdadeira). Detectar se o conteúdo foi alterado após a emissão é garantir a integridade (o dado permaneceu íntegro). Esses dois princípios costumam andar juntos em soluções de assinatura digital, mas não se confundem: um cuida da identidade da origem, o outro da fidelidade do conteúdo.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Comprovar a origem é autenticidade; detectar alterações no conteúdo é integridade, nessa ordem."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Confidencialidade é sigilo e disponibilidade é acesso contínuo; nenhuma trata de comprovar origem nem de detectar alteração de conteúdo."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Disponibilidade não comprova a origem, e a detecção de alteração do conteúdo é integridade, não autenticidade."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A ordem está invertida e trocada: a origem é autenticidade, e a ausência de alterações é integridade, não confidencialidade."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Inverter ou trocar os princípios, associando origem à integridade e alteração de conteúdo à confidencialidade.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Origem verdadeira = autenticidade; conteúdo inalterado = integridade. A assinatura digital costuma garantir os dois.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "autenticidade",
+        "integridade",
+        "assinatura digital"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de segurança da informação (autenticidade e integridade)"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "subtema": "Princípios de segurança",
+      "frente": "Quais são os três pilares da tríade CID em segurança da informação?",
+      "verso": "Confidencialidade (acesso só por quem é autorizado), Integridade (informação exata e sem alteração indevida) e Disponibilidade (informação acessível quando o usuário autorizado precisar). Em inglês, a tríade é chamada de CIA.",
+      "fundamento_legal": "não se aplica",
+      "lei_referencia": "não se aplica",
+      "palavras_chave": [
+        "tríade CID",
+        "confidencialidade",
+        "integridade",
+        "disponibilidade"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f02",
+      "subtema": "Princípios de segurança",
+      "frente": "Qual a diferença entre autenticação e autorização em um sistema?",
+      "verso": "Autenticação verifica se o usuário é quem afirma ser (login, senha, token, biometria); ocorre primeiro. Autorização define o que o usuário já autenticado pode acessar ou fazer, conforme o perfil e os privilégios. Ligam-se, respectivamente, à autenticidade e ao princípio do menor privilégio.",
+      "fundamento_legal": "não se aplica",
+      "lei_referencia": "não se aplica",
+      "palavras_chave": [
+        "autenticação",
+        "autorização",
+        "menor privilégio"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f03",
+      "subtema": "Princípios de segurança",
+      "frente": "Por que a assinatura digital é apontada como garantia do não repúdio?",
+      "verso": "É a garantia de que uma parte não consiga negar a autoria de um ato que realizou, como enviar uma mensagem ou assinar um documento. Costuma ser sustentado por mecanismos como a assinatura digital, que vincula a ação a uma identidade de forma verificável.",
+      "fundamento_legal": "não se aplica",
+      "lei_referencia": "não se aplica",
+      "palavras_chave": [
+        "não repúdio",
+        "irretratabilidade",
+        "assinatura digital"
+      ],
+      "cita_jurisprudencia": false
+    }
+  ]
+}

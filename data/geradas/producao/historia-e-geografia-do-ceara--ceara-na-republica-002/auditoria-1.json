@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A \"indústria da seca\" é a expressão crítica para o aproveitamento político e econômico da estiagem por grupos dominantes, exatamente a alternativa a1. Os distratores literalizam ou inventam fatos, sem correta defensável. Conceito consolidado, dentro do recorte e do cargo."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O Estado Novo (1937-1945) foi regime autoritário e centralizador de Vargas, com Congresso fechado e sem partidos nem eleições livres (a1). As demais descrevem regimes distintos e falsos. Único gabarito defensável."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A marca histórica do DNOCS é a construção de açudes e reservatórios (solução hidráulica contra a seca), ou seja, a1. Energia, rodovias, portos e escolas técnicas não correspondem à sua vocação. Correta única."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A SUDENE (1959), ligada a Celso Furtado, nasceu da proposta de planejamento e industrialização para superar o subdesenvolvimento, não apenas a seca (a1). Os distratores repetem a visão hidráulica anterior ou inventam projetos. Gabarito correto."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "As grandes secas provocavam migração de sertanejos pobres, gerando êxodo e aglomeração de retirantes nas cidades (a1). As demais negam ou invertem o fenômeno (renda garantida, proprietários migrando, deslocamento só municipal, crescimento rural). Correta única e dentro do recorte."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A diferença de concepção está corretamente posta: DNOCS na solução hidráulica dos açudes e SUDENE no planejamento e desenvolvimento econômico regional (a1). Os distratores invertem papéis ou atribuem funções inexistentes. Gabarito correto."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "No Estado Novo os governadores eleitos foram substituídos por interventores nomeados por Vargas, subordinando os estados ao poder central (a1). As demais afirmam o oposto da centralização estadonovista. Correta única, compatível com o cargo."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A leitura da transição do emergencial/hidráulico (DNOCS) para o estrutural/planejador (SUDENE) é coerente, como diz a1. Os distratores invertem missões ou cronologia (a SUDENE é de 1959, posterior ao DNOCS) ou negam a mudança de visão. O cuidado_na_prova registra corretamente que os órgãos conviveram no tempo."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A crítica da \"indústria da seca\" recai sobre o socorro que, em vez de emancipar, reforçava a dependência dos atingidos frente a quem controlava os recursos (a1). Os distratores exageram (seca provocada), invertem ou negam o fundamento da crítica. Gabarito correto."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa a1 reúne sem distorção os dois traços do período 1930-1964: centralização do Estado Novo com interventores e a passagem da política açudeira para o planejamento regional da SUDENE. Os distratores combinam invenções (interventores eleitos, monarquia, extinção do DNOCS). Correta única."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A frente é objetiva e o verso responde exatamente: a expressão critica o uso político e econômico da seca por grupos dominantes, que capturavam verbas e obras de socorro. Conceito consolidado, tópico sem lei, redação própria."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso distingue corretamente DNOCS (solução hidráulica, açudes) e SUDENE (subdesenvolvimento estrutural, planejamento e industrialização, Celso Furtado). Pergunta única e sem ambiguidade, sem copiar enunciado do lote."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso resume corretamente o Estado Novo (regime autoritário e centralizador, Congresso fechado, partidos extintos, eleições suspensas) e a substituição dos governadores por interventores nos estados, inclusive o Ceará. Resposta correta e uma só."
+    }
+  ]
+}

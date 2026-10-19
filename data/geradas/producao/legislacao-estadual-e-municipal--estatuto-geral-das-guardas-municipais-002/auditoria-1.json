@@ -1,0 +1,159 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "pedagogico",
+          "gravidade": "baixa",
+          "descricao": "A justificativa da alternativa a1 diz que ela reúne o Conselho Nacional de Segurança Pública e o Conselho Nacional de Secretários e Gestores Municipais de Segurança Pública, mas o texto da alternativa a1 cita o Conselho Nacional de Segurança Pública e o Conselho Nacional das Guardas Municipais. Ambos os conselhos constam do art. 20, logo o gabarito permanece correto, mas a justificativa precisa nomear os conselhos que de fato aparecem na alternativa."
+        }
+      ],
+      "correcao_sugerida": "Na justificativa de a1, trocar \"o Conselho Nacional de Secretários e Gestores Municipais de Segurança Pública, este no interesse dos Municípios\" por \"o Conselho Nacional das Guardas Municipais\", que é o segundo conselho efetivamente citado na alternativa (ambos previstos no art. 20).",
+      "justificativa": "O art. 20 reconhece a representatividade das guardas no Conselho Nacional de Segurança Pública, no Conselho Nacional das Guardas Municipais e no Conselho Nacional de Secretários e Gestores Municipais de Segurança Pública. A alternativa a1 cita dois deles e é a única correta; os distratores (CNJ, CNMP, Conselho de Defesa Nacional) não constam do artigo. Só há um pequeno descompasso entre o texto de a1 e sua justificativa, corrigível por ajuste pontual."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 18 assegura o recolhimento à cela, isoladamente dos demais presos, quando sujeito à prisão antes de condenação definitiva. A alternativa a1 reproduz o núcleo da prerrogativa; os distratores (estabelecimento militar, trânsito em julgado, regime domiciliar) contrariam a letra do art. 18."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 21 determina uniforme e equipamentos padronizados, preferencialmente na cor azul-marinho. A alternativa a1 corresponde ao dispositivo; os distratores (identidade com a PM, livre escolha individual, definição obrigatória pela Senasp) não encontram apoio no texto."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, VI, condiciona o exercício de competências de trânsito a que elas sejam conferidas nos termos do CTB ou exercidas de forma concorrente por convênio com órgão de trânsito estadual ou municipal. A alternativa a1 reproduz essa regra; os distratores tratam a competência como automática, restrita a rodovias federais ou condicionada à inexistência de órgão local, todos sem respaldo legal."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa a1 combina corretamente o art. 4º, parágrafo único (bens de uso comum, especial e dominiais), com o art. 5º, parágrafo único (apoio à continuidade do atendimento quando comparece órgão do art. 144 da CF). Os distratores excluem bens de uso especial e dominiais, afirmam que a guarda se retira do local ou que não pode atuar com congêneres de Municípios vizinhos, contrariando o texto."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 12, caput, torna facultada a criação de órgão municipal de formação, e o § 3º proíbe que esse órgão seja o mesmo destinado à formação de forças militares. A alternativa a1 reúne os dois pontos; os distratores afirmam obrigatoriedade, compartilhamento obrigatório com a PM ou vedação de convênios e consórcios, todos contrariados pelos arts. 12 e §§."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 9º prevê carreira única e plano de cargos e salários conforme lei municipal, e o art. 22 impõe prazo de dois anos de adaptação às guardas existentes na publicação. A alternativa a1 combina os dois dispositivos; os distratores falam em carreiras múltiplas, dispensa de adaptação ou plano definido pela Senasp, sem base legal."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 13, § 2º, dispõe que a perda do mandato de corregedores e ouvidores será decidida pela maioria absoluta da Câmara Municipal, fundada em razão relevante e específica prevista em lei municipal. A alternativa a1 reproduz a regra; os distratores atribuem a decisão ao Executivo, ao dirigente da guarda ou à maioria simples, todos incorretos."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 15, § 1º, permite que, nos primeiros quatro anos de funcionamento, a guarda seja dirigida por profissional estranho a seus quadros, preferencialmente com experiência ou formação em segurança ou defesa social. Como o Município está no segundo ano, a nomeação é possível (alternativa a1). Os distratores ignoram a regra do caput ou a exceção do § 1º, ou inventam exigência de servidor cedido pela PM."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 13, I, exige controle interno por corregedoria nas guardas com efetivo superior a cinquenta servidores e em todas as que utilizam arma de fogo, para apurar infrações disciplinares. A alternativa a1 reproduz o inciso; a a2 descreve, na verdade, o controle externo por ouvidoria (inciso II), e as demais alteram o patamar numérico ou invertem a regra do uso de arma de fogo."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 17 determina que a Anatel destinará linha telefônica de número 153 e faixa exclusiva de frequência de rádio aos Municípios que possuam guarda municipal. O verso responde exatamente à frente e cita o dispositivo correto."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 19 veda à estrutura hierárquica da guarda usar denominação idêntica à das forças militares quanto a postos e graduações, títulos, uniformes, distintivos e condecorações. O verso responde corretamente a frente, sem ambiguidade."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 10, IV e V, exige nível médio completo de escolaridade e idade mínima de 18 anos para investidura. O verso traz os dois requisitos cobrados na frente e cita o dispositivo correto, sem omitir exceção que mude a resposta."
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reproduz o art. 5º, II, do CPP (requisição do juiz ou do MP, ou requerimento do ofendido), forma legal de iniciar o inquérito na ação pública. As demais trazem exigências inexistentes (autorização prévia do juiz, ordem do Executivo, deliberação de colegiado). Resolvi a questão e cheguei à mesma resposta; fundamento confere."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, § 3º, do CPP exige que a autoridade, verificada a procedência das informações, mande instaurar inquérito, exatamente como diz a a1. Afastados o início imediato sem verificação, o encaminhamento ao juiz e o arquivamento. Única correta."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 corresponde ao art. 5º, § 5º, do CPP: na ação privada, inquérito só a requerimento de quem tenha qualidade para intentar a ação. As erradas afirmam início de ofício, requisição do MP ou vedação absoluta, todas incorretas. Fundamento confere."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, § 2º, do CPP prevê recurso ao chefe de Polícia contra o despacho que indefere o requerimento de abertura de inquérito, como na a1. Não é recurso em sentido estrito ao tribunal, nem representação ao MP, nem decisão irrecorrível. Única correta."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O comando pede o item que NÃO consta do art. 5º, § 1º. A classificação jurídica definitiva e a pena (a1) não estão na lei; narração do fato (a), individualização do indiciado (b) e nomeação de testemunhas com profissão e residência (c) constam. Gabarito a1 confere."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Art. 5º, § 4º, do CPP: na ação pública condicionada, o inquérito não pode ser iniciado sem a representação, como na a1. Afastados o início de ofício, a requisição do juiz e a substituição pela requisição do MP. Resolução coincide com o gabarito."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 distingue corretamente o art. 5º, II: requisição parte do juiz ou do MP; requerimento parte do ofendido ou de quem o represente. As erradas invertem ou restringem indevidamente os legitimados. Única correta."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Art. 5º, § 3º, do CPP: a delatio criminis pode ser verbal ou escrita e a instauração depende da verificação da procedência pela autoridade policial, como reúne a a1. Afastadas a exigência de forma escrita, a instauração imediata e a decisão do juiz. Fundamento confere."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "I (art. 5º, I, início de ofício na ação pública) e II (art. 5º, § 4º, vedação sem representação na condicionada) são verdadeiras; III é falsa, pois a ação privada exige requerimento (art. 5º, § 5º) e não comporta ofício. Logo apenas I e II: a1. Gabarito confere."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 combina corretamente o § 2º (recurso ao chefe de Polícia) e o § 1º (conteúdo do requerimento: fato, individualização do indiciado e testemunhas) do art. 5º. As erradas negam o recurso, o endereçam ao juiz ou ao MP, ou esvaziam o conteúdo mínimo. Única correta."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso lista as três formas do art. 5º, I e II, do CPP (de ofício, requisição do juiz ou do MP, requerimento do ofendido) e responde exatamente à frente, com o dispositivo correto. Sem ambiguidade."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Conforme o art. 5º, § 2º, do CPP: cabe recurso ao chefe de Polícia contra o indeferimento do requerimento de abertura de inquérito. A natureza administrativa é consolidada. Frente objetiva, resposta única."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reproduz corretamente o art. 5º, § 5º (ação privada: requerimento de quem tem qualidade para intentar) e o § 4º (condicionada: sem representação não se inicia). Dispositivos certos, sem omissão de exceção, sem ambiguidade."
+    }
+  ]
+}

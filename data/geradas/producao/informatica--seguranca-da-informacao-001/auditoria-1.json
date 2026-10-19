@@ -1,0 +1,159 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvi antes de ver o gabarito: o princípio que garante acesso e uso da informação por quem é autorizado, evitando interrupções, é a disponibilidade (a1). Os distratores (confidencialidade, integridade, autenticidade) estão corretamente descartados, há uma única correta e o comentário ensina o conceito."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Alteração de valores por pessoa não autorizada viola a integridade (a1). Disponibilidade (serviço seguiu no ar), confidencialidade (seria leitura indevida) e irretratabilidade (negação de autoria) estão corretamente afastadas. Uma única correta e comentário preciso."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Confidencialidade é a restrição de acesso a quem está autorizado (a1). As demais descrevem integridade, disponibilidade e irretratabilidade. Conceito consolidado, uma única correta."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Impedir que o remetente negue o envio é o não repúdio (irretratabilidade) (a1). Confidencialidade, disponibilidade e integridade estão corretamente descartadas. Uma única correta e comentário correto."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Verificar se o usuário é quem afirma ser por login, senha e token corresponde à autenticidade, concretizada pela autenticação (a1). A distinção entre autenticação e autorização no comentário está correta. Uma única correta."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A tríade CID é confidencialidade, integridade e disponibilidade (a1). Os distratores trocam princípios por mecanismos (criptografia, controle de acesso) ou por termos que não compõem a tríade (identidade, durabilidade). Uma única correta."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Credenciais válidas (autenticação bem-sucedida) mas acesso negado por falta de permissão: o controle que limita o que o usuário já identificado pode fazer é a autorização (a1). Autenticação, auditoria e disponibilidade estão corretamente afastadas. Uma única correta."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Interceptar e copiar dados sigilosos, sem alterar conteúdo nem interromper serviço, quebra a confidencialidade e preserva integridade e disponibilidade (a1). A alternativa que diz não ter havido violação está corretamente errada, pois leitura indevida já fere a confidencialidade. Uma única correta."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A negação de serviço compromete a disponibilidade mesmo com dados íntegros e sigilosos (a1 correta). As demais são falsas: confidencialidade e integridade não são sinônimos, backup não é a garantia exclusiva da integridade e autenticidade não trata de acesso contínuo. Uma única correta."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Comprovar a origem é autenticidade; detectar alteração do conteúdo é integridade, nessa ordem (a1). As demais invertem ou trocam os princípios. Uma única correta e comentário correto."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A frente pede os três pilares da tríade CID e o verso responde exatamente: confidencialidade, integridade e disponibilidade, com o equivalente CIA em inglês. Conceito consolidado, resposta única, sem ambiguidade. Tópico sem lei, dispensa dispositivo."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A diferença entre autenticação (provar quem é, vem primeiro) e autorização (definir o que o usuário autenticado pode fazer) está correta e completa. Um conceito por card, frente objetiva, sem ambiguidade. Tópico sem lei."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA_COM_RESSALVA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [
+        {
+          "tipo": "pedagogico",
+          "gravidade": "baixa",
+          "descricao": "A frente pergunta o porquê de a assinatura digital garantir o não repúdio, mas o verso começa definindo o não repúdio e só responde ao porquê na última oração (vínculo verificável entre ação e identidade). Alinhamento pontual entre pergunta e resposta."
+        }
+      ],
+      "correcao_sugerida": "Alinhar frente e verso. Opção A: trocar a frente por \"O que é o princípio do não repúdio e como a assinatura digital o garante?\". Opção B: manter a frente e começar o verso pela resposta ao porquê: \"Porque a assinatura digital vincula a ação a uma identidade de forma verificável, impedindo que o autor negue depois a autoria do ato (ex.: enviar mensagem ou assinar documento). Essa impossibilidade de negar a autoria é o não repúdio (irretratabilidade).\"",
+      "justificativa": "O conteúdo está correto: o não repúdio impede negar a autoria e a assinatura digital o garante ao vincular a ação a uma identidade de forma verificável. Resta só um ajuste pontual de alinhamento, pois a frente pergunta o porquê e o verso só o responde no fim."
+    }
+  ]
+}

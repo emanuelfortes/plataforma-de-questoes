@@ -1,0 +1,17 @@
+{
+  "auditorias": [
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 149 do CP é tipo misto alternativo: submeter a trabalhos forçados ou jornada exaustiva, sujeitar a condições degradantes ou restringir a locomoção em razão de dívida são condutas autônomas, bastando uma para o crime. A cláusula 'em razão de dívida' qualifica apenas a modalidade de restrição da locomoção. Logo, jornada exaustiva e condições degradantes já configuram o crime, independentemente de restrição de liberdade ou dívida, o que torna a1 a única correta. Os distratores a2, a3 e a4 estão corretamente errados; não há pistas de tamanho nem termos absolutos, e o fundamento (art. 149, caput) confere com o texto fornecido."
+    }
+  ],
+  "auditorias_flashcards": []
+}

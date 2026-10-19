@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A medida educativa de comparecimento a programa ou curso educativo reproduz o art. 28, III. As penas do usuário são advertência, prestação de serviços e medida educativa, sem privativa de liberdade. Os distratores (reclusão, detenção de 6 meses a 2 anos do art. 38 e internação) estão corretamente afastados."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O preceito secundário do caput do art. 33 é reclusão de 5 a 15 anos e 500 a 1.500 dias-multa (a1). Os demais patamares batem com a associação (art. 35), o art. 33, § 2º e o financiamento (art. 36), conforme o texto legal fornecido."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O crime de maquinário e petrechos destinados à fabricação de drogas é o art. 34, como descrito em a1. Os distratores apontam corretamente os arts. 28, 38 e 39, todos alheios ao maquinário."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 28, § 3º, fixa o teto das penas dos incisos II e III em 5 meses, elevado a 10 meses na reincidência pelo § 4º (a1). Os demais prazos não constam da lei."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O caput do art. 35 exige duas ou mais pessoas, para praticar reiteradamente ou não os crimes dos arts. 33, caput e § 1º, e 34 (a1). Os distratores erram o número de pessoas, a exigência de estabilidade permanente, o objeto (art. 36) e a reiteração como requisito."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O enunciado reúne os requisitos do art. 33, § 3º (oferta eventual, sem objetivo de lucro, a pessoa do relacionamento, para consumo conjunto), com pena de detenção de 6 meses a 1 ano (a1). Os distratores de tráfico do caput, atipicidade e associação (art. 35) estão corretamente afastados."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Na conduta do art. 28 sem concurso com os crimes de tráfico, o art. 48, § 2º, veda a prisão em flagrante: o autor é encaminhado ao juízo ou assume compromisso de comparecer, com termo circunstanciado (a1). Os distratores (prisão em flagrante, detenção de 24 horas e arquivamento de plano) contrariam os §§ 2º e 3º do art. 48."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Pelo art. 48, § 1º, o usuário do art. 28 (salvo concurso com os arts. 33 a 37) é processado no Juizado Especial Criminal (Lei 9.099/1995), enquanto o traficante segue o procedimento próprio do Capítulo III da Lei de Drogas (a1). As demais alternativas invertem ou generalizam indevidamente os ritos."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Violência, grave ameaça e emprego de arma de fogo no tráfico incidem na causa de aumento de um sexto a dois terços do art. 40, IV (a1). O enunciado afasta o vínculo com organização ultraviolenta, grupo paramilitar ou milícia, excluindo o dobro do art. 40-A, e os requisitos do art. 33, § 4º impedem a redução. Distratores corretamente errados."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 33, § 2º, comina detenção de 1 a 3 anos e o § 3º, detenção de 6 meses a 1 ano, ambas inferiores à reclusão de 5 a 15 anos do caput (a1). Os distratores equiparam ao caput, afirmam atipicidade do § 3º ou invertem a gravidade entre os parágrafos, tudo em desacordo com a lei."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso lista corretamente as três penas do art. 28, I a III (advertência, prestação de serviços à comunidade e medida educativa), sem privativa de liberdade. A frente admite resposta única e não copia enunciado do lote."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A fração de aumento do art. 40 é de um sexto a dois terços, com exemplos que conferem (transnacionalidade, prevalecimento de função pública, imediações de escolas e presídios, arma de fogo, tráfico entre Estados). A distinção com o dobro do art. 40-A está correta. Frente objetiva e sem ambiguidade."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A pena do art. 34 (reclusão de 3 a 10 anos e 1.200 a 2.000 dias-multa) confere com o texto legal, assim como os requisitos da redução do tráfico privilegiado do art. 33, § 4º (primário, bons antecedentes, não dedicação a atividades criminosas nem integração a organização). Card correto e sem ambiguidade."
+    }
+  ]
+}

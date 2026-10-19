@@ -1,0 +1,159 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvi por conta própria: o art. 5º declara imprescritíveis apenas o racismo (XLII) e a ação de grupos armados (XLIV); tortura, tráfico e hediondos (XLIII) são só inafiançáveis e insuscetíveis de graça ou anistia. A única imprescritível entre as alternativas é a prática do racismo (a1). Distratores corretamente errados pelo inciso XLIII. Fundamento confere."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "alternativas",
+          "gravidade": "baixa",
+          "descricao": "A alternativa correta (a1) reproduz o caput sem mencionar 'segurança' entre os direitos invioláveis ('vida, liberdade, igualdade e propriedade'). Como a1 não se apresenta como enumeração exaustiva e o foco é a titularidade universal, o item segue correto; os distratores (só natos, só eleitores, autorização prévia) são inequivocamente falsos."
+        }
+      ],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvi sozinho: o caput do art. 5º garante os direitos a brasileiros e estrangeiros residentes, sem distinção de qualquer natureza; a1 é a única compatível. A omissão de 'segurança' na enumeração de a1 é imperfeição menor que não compromete o gabarito, pois o item cobra a titularidade e não a lista fechada de invioláveis."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvi sozinho: o caput do art. 5º enumera exatamente vida, liberdade, igualdade, segurança e propriedade, reproduzidos em a1. As demais alternativas inserem direitos de outros dispositivos (moradia, saúde, honra, voto, lazer, previdência). Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvi sozinho: a relatividade aparece no art. 5º, XI, com as exceções de ingresso no domicílio (flagrante, desastre, socorro e, de dia, decisão judicial), fielmente reproduzidas em a1. a2 ignora o 'tempo de paz' (XV), a3 nega a ordem judicial do XII e a4 admite anonimato, vedado pelo IV. Apenas a1 correta."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvi sozinho: a dignidade da pessoa humana é fundamento da República no art. 1º, III, ao lado de soberania, cidadania, valores sociais e pluralismo político (a1). Corretamente afastadas as confusões com objetivos (art. 3º), princípios internacionais (art. 4º) e invioláveis do caput do art. 5º. Fundamento confere."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvi sozinho: a não taxatividade (abertura material) está no art. 5º, § 2º, reproduzido em a1. a2 distorce o § 1º, a3 traz o § 3º e a4 o § 4º, todos temas diversos. Única correta a1; fundamento confere."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvi sozinho: a proteção da integridade física e moral está nos incisos III (vedação à tortura e a tratamento desumano ou degradante) e XLIX (respeito à integridade física e moral dos presos), combinados em a1. Os demais pares tratam de expressão, sigilo e propriedade. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvi sozinho: o art. 5º, XVI, exige reunião pacífica, sem armas, em local aberto, independe de autorização, sem frustrar reunião anterior e com prévio aviso, tudo reproduzido em a1. a2 exige autorização, a3 admite armas e a4 dispensa o aviso e autoriza ocupar local já reservado. Única correta a1."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvi sozinho: o enunciado pede a letra do § 1º do art. 5º (aplicação imediata), reproduzida em a1. a2 condiciona a lei, a3 inventa prazo do Executivo e a4 restringe aos direitos individuais, sem amparo no texto. Única correta a1; fundamento confere."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvi sozinho: no art. 5º, XLVII, a única pena vedada com exceção expressa é a de morte (salvo guerra declarada, art. 84, XIX), conforme a1. As vedações a pena perpétua, banimento e trabalhos forçados não têm ressalva no texto, de modo que a2, a3 e a4 inventam exceções. Única correta a1; fundamento confere."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso está correto conforme o texto: só o racismo (XLII) e a ação de grupos armados (XLIV) são imprescritíveis; os crimes do XLIII são inafiançáveis e insuscetíveis de graça ou anistia, mas não imprescritíveis. Frente objetiva, resposta única, dispositivo citado, redação própria."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reproduz fielmente o art. 5º, XI, com as exceções de ingresso no domicílio, ilustrando a relatividade dos direitos fundamentais. Frente em forma de pergunta, única resposta possível, dispositivo citado."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso corresponde ao art. 5º, § 2º (cláusula de abertura material, rol exemplificativo), sem omitir exceção que mude a resposta. Frente objetiva e sem ambiguidade, dispositivo citado, um conceito por card."
+    }
+  ]
+}

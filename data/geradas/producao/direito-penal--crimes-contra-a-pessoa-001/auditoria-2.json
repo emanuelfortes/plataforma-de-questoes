@@ -1,0 +1,164 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 121, § 3º, do CP comina ao homicídio culposo detenção de um a três anos (a1). Os distratores reproduzem corretamente a pena do caput (6 a 20), do § 2º (12 a 30) e da lesão culposa do art. 129, § 6º (2 meses a 1 ano). Fundamento confere."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 123 pune o infanticídio com detenção de dois a seis anos (a1). Os distratores trazem corretamente penas de outros tipos (homicídio simples, qualificado e aborto consentido do art. 124, detenção de 1 a 3 anos). Fundamento confere."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A conduta (estranho que deixa de socorrer ferido em grave e iminente perigo, sem risco pessoal) amolda-se ao art. 135. Os distratores exigem vínculo (abandono de incapaz, maus-tratos) ou conduta comissiva (art. 132), afastados corretamente. Fundamento confere."
+    },
+    {
+      "id": "q04",
+      "status": "REPROVADA",
+      "gabarito_confere": false,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": false,
+      "problemas": [
+        {
+          "tipo": "normativo",
+          "gravidade": "alta",
+          "descricao": "Gabarito incorreto segundo o entendimento consolidado. A perda da visão de UM olho configura debilidade permanente do sentido da visão (art. 129, § 1º, III, lesão grave), pois o sentido subsiste, apenas reduzido. A perda ou inutilização do sentido (§ 2º, III, gravíssima) pressupõe a perda total (cegueira dos dois olhos). O enunciado fala apenas de um olho, de modo que a resposta correta é a lesão grave (a2), e não a gravíssima (a1)."
+        },
+        {
+          "tipo": "alternativas",
+          "gravidade": "alta",
+          "descricao": "O distrator a2 (lesão grave por debilidade permanente, reclusão de um a cinco anos) é, na verdade, a resposta defensável e majoritária para a perda da visão de um único olho, o que torna a questão com mais de uma leitura plausível e o gabarito proposto errado."
+        }
+      ],
+      "correcao_sugerida": "Para manter a1 como correta, trocar a hipótese para perda total da visão (cegueira, perda dos dois olhos) ou perda de órgão/membro. Como está (um olho), a correta é a2 (lesão grave, debilidade permanente), o que exige regeneração.",
+      "justificativa": "Resolvendo por conta própria, a perda da visão de um só olho é debilidade permanente de sentido (lesão grave, § 1º, III), não perda do sentido (gravíssima, § 2º, III). O gabarito aponta a gravíssima (a1), contrariando o entendimento consolidado e tornando o distrator a2 a resposta correta. Erro jurídico de gabarito: REPROVADA."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O parágrafo único do art. 137 prevê, havendo morte ou lesão grave, detenção de seis meses a dois anos pelo só fato da participação na rixa (a1). Os distratores (pena simples, responder pela lesão em si ou pelo homicídio) são corretamente afastados. Fundamento confere."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Imputar falsamente a outrem a prática de furto (fato definido como crime) é calúnia (art. 138, a1). Os distratores (difamação, injúria, constrangimento ilegal) são corretamente distinguidos. Fundamento confere."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A privação por dezoito dias (mais de quinze) qualifica o crime pelo art. 148, § 1º, III, com reclusão de dois a cinco anos (a1). A distinção com o § 2º (grave sofrimento) está correta e não há figura de sequestro relâmpago no tipo. Fundamento confere."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resultando da automutilação lesão corporal grave, incide o art. 122, § 1º: reclusão de um a três anos (a1). Os distratores (pena do caput, pena do § 2º reservada à morte, ou resposta autônoma por lesão) são corretamente afastados. Vítima maior e capaz afasta as figuras dos §§ 6º e 7º. Fundamento confere."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Pelo art. 127, sobrevindo a morte da gestante em razão dos meios empregados, a pena do aborto (art. 126) é duplicada (a1). O aumento de um terço é só para a lesão grave, e a morte é resultado qualificador do próprio tipo, sem concurso com homicídio doloso. Fundamento confere."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A entrada diurna, com observância das formalidades legais, para efetuar prisão ou diligência não constitui crime (art. 150, § 3º, I, a1). Os distratores contrariam o § 3º, I, o § 4º (conceito amplo de casa) e o § 5º (exclusão de taverna e casa de jogo). Fundamento confere."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reproduz corretamente o art. 121, § 1º (relevante valor social ou moral ou domínio de violenta emoção logo após injusta provocação; redução de 1/6 a 1/3). Frente objetiva, resposta única, dispositivo citado."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reflete o art. 145: em regra, ação penal privada (queixa), com a exceção da injúria real (art. 140, § 2º) de que resulta lesão corporal, além das hipóteses de representação e requisição do parágrafo único. Correto e sem ambiguidade."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso corresponde ao art. 129, § 3º: resultado morte sem dolo nem assunção do risco (preterdolo), pena de reclusão de quatro a doze anos. Dispositivo citado; frente admite resposta única."
+    }
+  ]
+}

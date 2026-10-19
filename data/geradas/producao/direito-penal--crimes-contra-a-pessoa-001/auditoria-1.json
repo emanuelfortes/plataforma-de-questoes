@@ -1,0 +1,164 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Art. 121, § 3º: homicídio culposo pune-se com detenção de um a três anos (a1). Os distratores reproduzem corretamente as penas do caput (doloso simples), do § 2º (qualificado) e da lesão corporal culposa. Gabarito e fundamento conferem no texto fornecido."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Art. 123: infanticídio pune-se com detenção de dois a seis anos (a1). O distrator a4 reproduz corretamente a pena do aborto consentido (art. 124). A única correta é a a1; fundamento confere."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A conduta omissiva de quem, sem risco pessoal, deixa de socorrer pessoa ferida em grave e iminente perigo amolda-se ao art. 135 (a1). Abandono de incapaz, maus-tratos e perigo para a vida exigem elementos ausentes no caso, bem distinguidos na análise. Gabarito correto."
+    },
+    {
+      "id": "q04",
+      "status": "REPROVADA",
+      "gabarito_confere": false,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": true,
+      "ambiguidade": false,
+      "fundamento_confere": false,
+      "problemas": [
+        {
+          "tipo": "normativo",
+          "gravidade": "alta",
+          "descricao": "A perda da visão de UM olho, pela doutrina e jurisprudência dominantes (STF/STJ), configura debilidade permanente do sentido da visão (lesão GRAVE, art. 129, § 1º, III), e não perda ou inutilização de sentido (gravíssima, § 2º, III). A perda do próprio sentido da visão só se caracteriza com a cegueira de ambos os olhos, pois com o olho remanescente a pessoa conserva, ainda que reduzido, o sentido. O gabarito aponta a1 (gravíssima) como correta, mas a resposta defensável e majoritária é a a2 (grave, debilidade permanente). O texto legal fornecido não resolve a dúvida, e o enquadramento consagrado contraria o gabarito."
+        },
+        {
+          "tipo": "pedagogico",
+          "gravidade": "alta",
+          "descricao": "O macete e a pegadinha reforçam o enquadramento equivocado ('perda total sobe'), ensinando como gravíssima uma hipótese que o entendimento dominante trata como lesão grave. Isso pode induzir o aluno a erro em prova."
+        }
+      ],
+      "correcao_sugerida": "A correção não é pontual: trocar o caso para perda da visão de AMBOS os olhos (aí sim perda do sentido, gravíssima, § 2º, III) ou reformular a hipótese (ex.: enfermidade incurável, perda de membro) para que o gabarito a1 se sustente, ajustando também macete e pegadinha. Como muda o núcleo da questão, recomenda-se regeneração.",
+      "justificativa": "Gabarito juridicamente controverso e, pelo entendimento dominante, incorreto: perda da visão de um olho é debilidade permanente (lesão grave, a2), não perda de sentido (gravíssima). A questão tem distrator defensável que resolve melhor o enunciado e o problema atinge o núcleo do item."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Art. 137, parágrafo único: havendo morte ou lesão corporal grave, aplica-se, pelo só fato da participação na rixa, detenção de seis meses a dois anos (a1). A análise distingue corretamente a rixa qualificada da responsabilização autônoma por lesão ou homicídio. Gabarito confere."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Imputar falsamente a alguém a prática de furto (fato definido como crime) é calúnia, art. 138 (a1). Difamação exige fato ofensivo que não é crime; injúria não imputa fato determinado; constrangimento ilegal é crime contra a liberdade. Única correta é a a1."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Privação da liberdade por dezoito dias (mais de quinze) qualifica o crime pelo art. 148, § 1º, III, com reclusão de dois a cinco anos (a1). A qualificadora pela duração independe de grave sofrimento (hipótese diversa do § 2º). Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Vítima maior e capaz: aplica-se o art. 122, § 1º, pois da automutilação resultou lesão corporal grave, com reclusão de um a três anos (a1). Afastam-se o caput (sem resultado), o § 2º (morte) e a responsabilização autônoma por lesão. Gabarito correto."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Art. 127: sobrevindo a morte da gestante em consequência dos meios empregados, a pena do aborto consentido por terceiro (art. 126) é duplicada (a1). O aumento de um terço é para lesão grave; não há concurso com homicídio doloso, pois o resultado qualifica o próprio aborto. Gabarito confere."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Art. 150, § 3º, I: entrada diurna, com observância das formalidades legais, para efetuar prisão ou diligência não constitui crime (a1). Os distratores sobre conceito de casa são corretamente afastados pelos §§ 4º e 5º. Gabarito e fundamento conferem."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reproduz corretamente o art. 121, § 1º: relevante valor social ou moral ou domínio de violenta emoção logo após injusta provocação, com redução facultativa de 1/6 a 1/3. Frente objetiva, resposta única, dispositivo citado."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso está conforme o art. 145: regra geral de ação penal privada (queixa), com a exceção da injúria real que resulta em lesão corporal e as hipóteses de representação e requisição do parágrafo único. Dispositivo correto e sem ambiguidade."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reflete o art. 129, § 3º: resultado morte não querido nem assumido (crime preterdoloso), com pena de reclusão de quatro a doze anos. Conceito único, frente objetiva, dispositivo citado."
+    }
+  ]
+}

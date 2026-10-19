@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Bruno fixo na manhã e Ana fora da noite forçam Ana na tarde e Célia na noite. Único arranjo válido é a1. Os demais violam ao menos uma condição. Enunciado e análise corretos."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Davi no 1 e Elisa em armário par (2 ou 4) tornam a1 necessariamente verdadeira em todo arranjo. As demais só valem em alguns cenários ou são impossíveis. Correto."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Escolher só Educação Física não aciona a condicional de Tiro e não fere a proibição de Direito com Educação Física, cumprindo o mínimo de uma disciplina. Os distratores violam uma regra cada. Correto."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Com V3 na vaga 3, V1 fica numa ponta (1 ou 5) e V2 vizinha vai para a 2 ou a 4, sendo a1 necessariamente verdadeira. As demais só valem num cenário ou são impossíveis. Correto."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "As condicionais mútuas fazem R e S andarem juntos; a equipe R e S tem dois agentes e não traz o par proibido P e Q. Os demais pares quebram o vínculo R e S ou juntam P e Q. Correto."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Charlie no Sul e Alfa fora do Centro fixam Alfa no Norte e Bravo no Centro (que também respeita Bravo fora do Norte). Alocação única em a1. As afirmações de indeterminação são falsas. Correto."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Encadeamento correto: trabalho no feriado leva à folga na quarta, e a folga na quarta impede o trabalho na quinta. Conclusão necessária é a1. Os distratores contrariam uma das regras. Correto."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Com cadete 5 na cadeira 6, pôr 3 e 4 nas cadeiras 1 e 2 (vizinhas) e 1 antes do 2 nas restantes produz arranjo válido, tornando a1 compatível. As demais são impossíveis frente às condições. Correto."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Ativar só I satisfaz a exigência de I ou II e deixa as duas condicionais com hipótese falsa (III e II inativas), não as violando. Mínimo é uma ação, pois zero é proibido pela primeira regra. Correto."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "C na 2 e E na 5 deixam 1, 3 e 4 para A, B e D; como D não pode ser vizinho da 2 (posições 1 e 3), D vai para a 4, e A antes de B fixa A na 1 e B na 3. Exatamente um arranjo (A, C, B, D, E), gabarito a2. Correto."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Distingue corretamente necessariamente verdadeiro (vale em todos os arranjos, cai com um contraexemplo) de possível/compatível (vale em ao menos um). Frente objetiva com resposta única. Correto."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A condicional 'se A então B' só é violada quando A ocorre e B não; com A falso ela fica vacuamente satisfeita. Descrição correta e sem ambiguidade. Correto."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Estratégia consolidada: começar pela condição que fixa uma posição ou elemento, pois reduz o espaço e desencadeia as demais deduções. Orientação correta e sem ambiguidade. Correto."
+    }
+  ]
+}

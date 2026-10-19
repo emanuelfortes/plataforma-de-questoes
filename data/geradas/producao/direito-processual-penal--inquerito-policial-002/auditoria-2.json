@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reproduz o art. 5º, II, do CPP (requisição do juiz ou do MP, ou requerimento do ofendido), uma das formas legais de iniciar o inquérito na ação pública. Os distratores (autorização prévia do juiz, ordem do chefe do Executivo, deliberação de colegiado) não têm previsão legal. Gabarito único e fundamento conferido no texto fornecido."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 corresponde ao art. 5º, § 3º, do CPP: verificada a procedência das informações, a autoridade mandará instaurar inquérito. Os distratores (instauração imediata sem verificação, decisão do juiz, arquivamento) contrariam o dispositivo. Correta única e bem fundamentada."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reproduz o art. 5º, § 5º, do CPP: na ação privada a autoridade só procede a inquérito a requerimento de quem tenha qualidade para intentar a ação. Afasta corretamente início de ofício, requisição do MP e proibição absoluta de investigar. Gabarito único."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 corresponde ao art. 5º, § 2º, do CPP: do despacho que indefere o requerimento de abertura cabe recurso ao chefe de Polícia (recurso administrativo). Os distratores (recurso em sentido estrito, representação ao MP, irrecorribilidade) estão errados. Correta única e fundamento conferido."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Comando pede o item que NÃO consta do art. 5º, § 1º. a1 (classificação jurídica definitiva e pena) não é exigida pela lei, logo é a resposta. As demais reproduzem as alíneas a, b e c do § 1º. A análise de alternativas é coerente com o comando negativo. Gabarito correto."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 corresponde ao art. 5º, § 4º, do CPP: na ação pública condicionada o inquérito não pode ser iniciado sem a representação. Afasta corretamente início de ofício, requisição do juiz e substituição pelo MP. Correta única e bem fundamentada."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 distingue corretamente, conforme o art. 5º, II, do CPP: requisição parte do juiz ou do MP; requerimento parte do ofendido ou de quem o represente. Os distratores invertem ou excluem indevidamente os legitimados. Gabarito único e fundamento conferido."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reúne dois pontos do art. 5º, § 3º: a comunicação pode ser verbal e a instauração depende da verificação da procedência pela autoridade. Afasta exigência de forma escrita, instauração automática e decisão do juiz. Correta única; caso concreto compatível com o cargo de Guarda Municipal."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "I (art. 5º, I: de ofício na ação pública) e II (art. 5º, § 4º: condicionada não inicia sem representação) são verdadeiras; III é falsa (ação privada exige requerimento, art. 5º, § 5º, não início de ofício). Logo apenas I e II, que é a1. Gabarito correto e fundamento conferido."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 combina corretamente o art. 5º, § 2º (recurso ao chefe de Polícia) e o § 1º (conteúdo do requerimento: narração do fato, individualização do indiciado, nomeação de testemunhas). Os distratores erram o destinatário do recurso ou o conteúdo exigido. Correta única e fundamento conferido."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reproduz corretamente o art. 5º, I e II, do CPP (de ofício, por requisição do juiz ou do MP, ou a requerimento do ofendido). A frente é pergunta objetiva de resposta única e cita o dispositivo. Não copia enunciado de questão do lote."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso está correto conforme o art. 5º, § 2º, do CPP: cabe recurso ao chefe de Polícia contra o indeferimento do requerimento de abertura, de natureza administrativa. Frente objetiva, resposta única e dispositivo citado."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso está correto: ação privada depende de requerimento de quem tem qualidade para intentar a ação (art. 5º, § 5º) e ação pública condicionada não pode iniciar sem representação (art. 5º, § 4º). Frente objetiva e dispositivos citados corretamente."
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 20 reconhece a representatividade das guardas no Conselho Nacional de Segurança Pública e no Conselho Nacional das Guardas Municipais, que são justamente os dois conselhos citados em a1. Os demais (CNJ, CNMP e Conselho de Defesa Nacional) não constam do dispositivo. Gabarito correto e única alternativa defensável."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 18 assegura recolhimento à cela, isoladamente dos demais presos, quando o guarda está preso antes de condenação definitiva, exatamente como a1. Não há previsão de estabelecimento militar, trânsito em julgado como requisito, nem regime domiciliar. Gabarito correto."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 21 prevê uniforme e equipamentos padronizados, preferencialmente na cor azul-marinho, como em a1. As demais alternativas (identidade com a PM, livre escolha individual, imposição obrigatória pela Senasp) contrariam a lei. Gabarito correto."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, VI, condiciona o exercício das competências de trânsito a que lhe sejam conferidas nos termos do CTB ou de forma concorrente por convênio com órgão de trânsito estadual ou municipal, como em a1. As erradas tratam a competência como automática, restrita a rodovias federais ou dependente da inexistência de órgão local. Gabarito correto."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A1 combina corretamente o art. 4º, parágrafo único (bens de uso comum, especial e dominial) com o art. 5º, parágrafo único (apoio à continuidade do atendimento nas hipóteses dos incisos XIII e XIV quando comparece órgão do art. 144 da CF). As demais negam bens de uso especial e dominial, afirmam retirada da guarda ou vedam atuação com congêneres vizinhos. Gabarito correto."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 12, caput, torna facultativa a criação do órgão de formação, e o § 3º veda que esse órgão seja o mesmo destinado à formação de forças militares, exatamente como a1. As erradas afirmam obrigatoriedade, compartilhamento com a PM ou vedação de convênios entre Municípios (contrariada pelo § 1º). Gabarito correto."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A1 reúne o art. 9º (carreira única e plano de cargos e salários conforme lei municipal) e o art. 22 (prazo de dois anos para adaptação das guardas existentes na publicação). As erradas afirmam carreiras múltiplas, dispensa de adaptação ou definição do plano pela Senasp. Gabarito correto."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 13, § 2º, estabelece que a perda do mandato de corregedores e ouvidores é decidida pela maioria absoluta da Câmara Municipal, fundada em razão relevante e específica prevista em lei municipal, como em a1. As erradas atribuem a decisão ao Executivo, ao dirigente da guarda ou exigem apenas maioria simples. Gabarito correto."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Pelo art. 15, § 1º, nos primeiros quatro anos de funcionamento a guarda pode ser dirigida por profissional estranho a seus quadros, preferencialmente com experiência ou formação em segurança ou defesa social; como o Município está no segundo ano, a nomeação é possível, como em a1. As erradas tratam o provimento como livre, aplicam o caput sem exceção ou exigem cessão pela PM. Gabarito correto."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 13, I, exige corregedoria (controle interno) nas guardas com efetivo superior a cinquenta servidores e em todas as que utilizam arma de fogo, para apurar infrações disciplinares, como em a1. As erradas descrevem a ouvidoria (controle externo), elevam o patamar para quinhentos ou invertem a regra do uso de arma de fogo. Gabarito correto."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso corresponde ao art. 17: a Anatel destina linha telefônica de número 153 e faixa exclusiva de frequência de rádio aos Municípios que possuam guarda municipal. A frente admite resposta única e cita o dispositivo correto."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reproduz o art. 19, que veda à estrutura hierárquica da guarda denominação idêntica à das forças militares quanto a postos e graduações, títulos, uniformes, distintivos e condecorações. Frente objetiva e resposta correta."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso corresponde ao art. 10, IV e V: nível médio completo de escolaridade e idade mínima de 18 anos, mencionando ainda outros requisitos básicos. A frente delimita escolaridade e idade, de resposta única."
+    }
+  ]
+}

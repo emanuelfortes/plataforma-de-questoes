@@ -1,0 +1,159 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 28 comina três penas ao usuário (advertência, prestação de serviços à comunidade e medida educativa de comparecimento a programa ou curso educativo). A a1 reproduz o inciso III. Os distratores (reclusão em regime fechado, detenção e internação compulsória) não figuram no dispositivo. Gabarito e fundamento conferem no texto fornecido."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O preceito secundário do art. 33, caput, é reclusão de 5 a 15 anos e 500 a 1.500 dias-multa (a1). Os demais patamares batem com outros crimes: art. 35 (3 a 10 anos, 700 a 1.200), art. 33, § 2º (detenção 1 a 3 anos, 100 a 300) e art. 36 (8 a 20 anos, 1.500 a 4.000). Única correta."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O crime de maquinário e petrechos destinados à fabricação de drogas é o do art. 34 (a1). Os distratores remetem corretamente ao porte do usuário (art. 28), à conduta culposa do profissional (art. 38) e à condução de veículo após consumo (art. 39). Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 28, § 3º, fixa prazo máximo de 5 meses para as penas dos incisos II e III, elevado a 10 meses na reincidência (§ 4º). A a1 reproduz exatamente esses tetos. Os demais números não constam da lei. Única correta."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 35, caput, exige associação de duas ou mais pessoas para praticar, reiteradamente ou não, os crimes dos arts. 33, caput e § 1º, e 34 (a1). Os distratores erram ao exigir quatro pessoas e estabilidade permanente, três pessoas voltadas ao art. 36 ou prática reiterada, afastados pela expressão legal reiteradamente ou não."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A conduta descrita (oferta eventual, sem objetivo de lucro, a pessoa do relacionamento, para consumirem juntos) é o uso compartilhado do art. 33, § 3º, com pena de detenção de 6 meses a 1 ano (a1). Presentes os três requisitos, afasta-se o tráfico do caput. Enunciado completo e única correta."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Na conduta do art. 28, sem concurso com os arts. 33 a 37, o art. 48, § 2º, veda a prisão em flagrante: o autor é encaminhado ao juízo ou assume compromisso de comparecer, lavrando-se termo circunstanciado (a1). O § 3º veda a detenção e o fato segue sendo infração penal, o que afasta os demais distratores. Gabarito confere."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 48, § 1º, remete o usuário (art. 28), salvo concurso com os arts. 33 a 37, ao rito dos arts. 60 e ss. da Lei 9.099/1995 (JECrim), enquanto o tráfico segue o procedimento próprio do art. 48 e seguintes, com aplicação subsidiária do CPP (a1). As demais invertem ou generalizam indevidamente os ritos. Única correta."
+    },
+    {
+      "id": "q09",
+      "status": "NECESSITA_DE_CONFERENCIA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "normativo",
+          "gravidade": "media",
+          "descricao": "A a1 é literalmente correta pelo art. 40, IV (aumento de 1/6 a 2/3 por violência, grave ameaça ou emprego de arma de fogo). Porém o art. 40-A, parágrafo único (incluído pela Lei 15.358/2026, dentro da data de corte 2026-10-18), passou a mandar aplicar o concurso material do art. 69 do CP quando o crime é praticado com emprego de arma de fogo, independentemente de o uso estar ligado à mercancia. Há, portanto, conflito aparente entre a causa de aumento genérica do art. 40, IV, e a regra específica e mais recente do art. 40-A, parágrafo único, para o mesmo elemento (arma de fogo). O enunciado afasta milícia/paramilitar, mas não enfrenta a nova regra de concurso material, que poderia tornar a a1 discutível. A solução depende de interpretação (especialidade/posterioridade) que a letra da lei não resolve sozinha."
+        }
+      ],
+      "correcao_sugerida": "Deslocar o elemento de arma de fogo e manter apenas violência ou grave ameaça como causa de aumento do art. 40, IV, evitando o choque com o art. 40-A, parágrafo único; ou acrescentar ao enunciado e ao comentário nota explicando a relação entre o art. 40, IV, e a nova regra de concurso material do art. 40-A, parágrafo único, para o emprego de arma de fogo.",
+      "justificativa": "O gabarito a1 reflete a redação do art. 40, IV, mas a inclusão do art. 40-A, parágrafo único (Lei 15.358/2026), tratando também do emprego de arma de fogo com regra de concurso material, cria dúvida relevante de direito intertemporal/especialidade que só um revisor humano deve resolver antes da publicação."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 33, § 2º (induzir, instigar ou auxiliar ao uso) tem pena de detenção de 1 a 3 anos, e o § 3º (uso compartilhado), detenção de 6 meses a 1 ano, ambas mais brandas que a reclusão de 5 a 15 anos do caput (a1). Confere com o texto; os distratores erram ao equiparar ao caput, taxar o § 3º de atípico ou inverter a gravidade entre os parágrafos."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reproduz corretamente as três penas do art. 28 (advertência, prestação de serviços à comunidade e medida educativa), sem pena privativa de liberdade. A frente admite resposta única e o card não copia enunciado do lote."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A fração de aumento do art. 40 é de um sexto a dois terços, com exemplos corretos (transnacionalidade, prevalecimento de função, imediações de escolas e presídios, arma de fogo, tráfico entre Estados), e a distinção com o art. 40-A (dobro para organização ultraviolenta, grupo paramilitar ou milícia) está correta conforme o texto. Frente objetiva e sem ambiguidade."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A pena do art. 34 (reclusão de 3 a 10 anos e 1.200 a 2.000 dias-multa) e os requisitos do tráfico privilegiado do art. 33, § 4º (primário, bons antecedentes, não se dedicar a atividades criminosas nem integrar organização criminosa, com redução de 1/6 a 2/3) conferem exatamente com o texto fornecido. Card com redação própria e sem ambiguidade."
+    }
+  ]
+}

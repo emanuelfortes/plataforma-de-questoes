@@ -1,0 +1,17 @@
+{
+  "auditorias": [
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 149 do CP é tipo misto alternativo: submeter a trabalhos forçados ou jornada exaustiva, sujeitar a condições degradantes de trabalho ou restringir a locomoção em razão de dívida são modalidades autônomas, bastando uma para o crime. Logo, jornada exaustiva e condições degradantes já configuram o delito, independentemente de cerceamento da liberdade de locomoção ou de dívida, o que torna a1 a única correta. Os distratores a2 e a3 erram ao transformar a modalidade da restrição por dívida em requisito geral, e a4 nega a natureza penal da conduta (reclusão de 2 a 8 anos e multa). Fundamento e lei de referência (art. 149, caput) conferem no texto fornecido; não há citação de jurisprudência por número."
+    }
+  ],
+  "auditorias_flashcards": []
+}

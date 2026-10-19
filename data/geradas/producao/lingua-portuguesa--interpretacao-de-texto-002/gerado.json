@@ -1,0 +1,775 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Interpretação de Texto",
+      "subtema": "Estruturação do texto e dos parágrafos",
+      "dificuldade": "facil",
+      "enunciado": "Leia o parágrafo a seguir.\n\n\"O trabalho da guarda municipal vai muito além da fiscalização. O agente orienta pedestres, auxilia em acidentes, acompanha eventos públicos e ampara quem se perde na cidade. Em cada uma dessas tarefas, protege o cidadão de um jeito diferente.\"\n\nA frase que apresenta a ideia principal em torno da qual as demais se organizam é",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O trabalho da guarda municipal vai muito além da fiscalização."
+        },
+        {
+          "id": "a2",
+          "texto": "O agente orienta os pedestres e auxilia as vítimas em casos de acidentes de trânsito na via."
+        },
+        {
+          "id": "a3",
+          "texto": "O agente acompanha eventos públicos realizados pela cidade."
+        },
+        {
+          "id": "a4",
+          "texto": "O agente ampara quem se perde nas ruas movimentadas da cidade."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Num parágrafo bem construído há uma frase que anuncia a ideia central, chamada tópico frasal, e outras que a desenvolvem. Aqui, a primeira frase afirma que o trabalho vai além da fiscalização, e as seguintes dão exemplos dessas outras tarefas. Logo, a ideia principal está na frase de abertura. As demais são apenas exemplos que sustentam essa ideia.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "É o tópico frasal: anuncia a ideia geral que as frases seguintes passam a detalhar."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Traz apenas um exemplo das tarefas, não a ideia geral do parágrafo."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "É mais um exemplo de tarefa, subordinado à ideia central da abertura."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Também é um exemplo particular, não a frase que reúne as demais."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir um dos exemplos de desenvolvimento com a ideia principal do parágrafo.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "A ideia principal de um parágrafo costuma vir no tópico frasal, a frase que as outras explicam ou exemplificam.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "tópico frasal",
+        "ideia principal",
+        "parágrafo",
+        "desenvolvimento",
+        "estrutura"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de estruturação textual da norma-padrão"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Interpretação de Texto",
+      "subtema": "Estruturação do texto e dos parágrafos",
+      "dificuldade": "facil",
+      "enunciado": "Leia o período a seguir, em que falta uma palavra de ligação.\n\n\"A chuva forte alagou várias ruas do centro; ______, o trânsito ficou interrompido por horas.\"\n\nPara indicar que a segunda parte é consequência da primeira, a lacuna deve ser preenchida com",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "em razão disso"
+        },
+        {
+          "id": "a2",
+          "texto": "no entanto"
+        },
+        {
+          "id": "a3",
+          "texto": "em primeiro lugar"
+        },
+        {
+          "id": "a4",
+          "texto": "por exemplo"
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A relação entre as duas partes é de causa e consequência: a chuva alagou as ruas e, em razão disso, o trânsito parou. O conectivo que marca consequência é \"em razão disso\". \"No entanto\" indicaria oposição; \"em primeiro lugar\", ordenação; \"por exemplo\", exemplificação. Nenhum desses se ajusta ao sentido pretendido.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Expressa consequência, exatamente a relação entre o alagamento e a parada do trânsito."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Marca oposição, sentido que não há entre as duas ideias do período."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Serve para ordenar itens numa sequência, não para ligar causa e efeito."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Introduz um exemplo, e a segunda parte não é exemplo da primeira."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Escolher um conectivo de oposição onde o sentido pede consequência.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "Antes de escolher o conectivo, diga a relação em voz alta: causa, consequência, oposição ou adição. A palavra certa vem sozinha.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "conectivo",
+        "consequência",
+        "coesão",
+        "ligação",
+        "sentido"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de estruturação textual da norma-padrão"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Interpretação de Texto",
+      "subtema": "Estruturação do texto e dos parágrafos",
+      "dificuldade": "facil",
+      "enunciado": "Leia as frases a seguir, que formam um parágrafo fora de ordem.\n\nI. Depois de abastecida, ela foi liberada para o patrulhamento.\nII. A viatura chegou à base com o tanque quase vazio.\nIII. O agente então a conduziu até o posto de combustível mais próximo.\n\nA sequência que organiza o parágrafo numa ordem lógica dos fatos é",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "II, III, I"
+        },
+        {
+          "id": "a2",
+          "texto": "I, II, III"
+        },
+        {
+          "id": "a3",
+          "texto": "III, I, II"
+        },
+        {
+          "id": "a4",
+          "texto": "II, I, III"
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A ordem lógica segue a sequência dos acontecimentos no tempo. Primeiro a viatura chega com o tanque vazio (II); em seguida o agente a leva ao posto (III), ligação reforçada pelo \"então\"; por fim, abastecida, ela volta ao patrulhamento (I), ligação marcada por \"depois de abastecida\". Assim, a sequência correta é II, III, I. As demais quebram essa relação de causa e tempo entre as frases.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Segue a ordem dos fatos: chegada com tanque vazio, ida ao posto e liberação após abastecer."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Começa pela liberação, que só faz sentido depois do abastecimento."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Inicia pela condução ao posto sem antes explicar por que a viatura foi levada."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Coloca a liberação antes da ida ao posto, invertendo a ordem dos fatos."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Ignorar as pistas de tempo (\"então\", \"depois de abastecida\") que indicam a sequência dos fatos.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Palavras como \"então\", \"depois\" e \"por fim\" apontam a ordem em que as frases se encaixam.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "sequência lógica",
+        "ordem das frases",
+        "coesão",
+        "parágrafo",
+        "progressão"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de estruturação textual da norma-padrão"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Interpretação de Texto",
+      "subtema": "Estruturação do texto e dos parágrafos",
+      "dificuldade": "media",
+      "enunciado": "Leia o parágrafo a seguir.\n\n\"A reciclagem reduz o lixo enviado aos aterros. Separar o material em casa é simples e custa pouco tempo. Além disso, cada quilo reaproveitado significa menos matéria-prima retirada da natureza. Ontem choveu bastante na capital. Por tudo isso, reciclar é um hábito que compensa.\"\n\nUma das frases quebra a unidade do parágrafo porque não se relaciona com a ideia que o organiza. Essa frase é",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "\"Ontem choveu bastante na capital\", pois introduz um assunto alheio ao tema da reciclagem desenvolvido no parágrafo."
+        },
+        {
+          "id": "a2",
+          "texto": "\"A reciclagem reduz o lixo enviado aos aterros\", porque antecipa de forma indevida a conclusão do parágrafo sobre o tema."
+        },
+        {
+          "id": "a3",
+          "texto": "\"Separar o material em casa é simples e custa pouco tempo\", já que contradiz os demais argumentos favoráveis apresentados."
+        },
+        {
+          "id": "a4",
+          "texto": "\"Por tudo isso, reciclar é um hábito que compensa\", pois repete sem necessidade a ideia inicial do próprio parágrafo."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A unidade do parágrafo exige que todas as frases girem em torno de um mesmo núcleo. Aqui, o tema é a reciclagem e suas vantagens. A frase sobre a chuva na capital não tem ligação com esse tema e rompe a unidade. As demais contribuem para a ideia: apresentam o benefício, a facilidade e a conclusão do raciocínio.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "A informação sobre a chuva não se liga à reciclagem e, por isso, quebra a unidade temática."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Apresenta um benefício da reciclagem e integra o tema, não o rompe."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Reforça a facilidade de reciclar; não contradiz os demais argumentos."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Funciona como fechamento que reúne os argumentos, papel próprio da conclusão."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Apontar a frase de conclusão como intrusa, por parecer repetir a ideia inicial.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Num parágrafo, a frase que não cabe é a que muda de assunto, não a que resume o que já foi dito.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "unidade do parágrafo",
+        "coerência",
+        "frase intrusa",
+        "tema",
+        "digressão"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de estruturação textual da norma-padrão"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Interpretação de Texto",
+      "subtema": "Estruturação do texto e dos parágrafos",
+      "dificuldade": "media",
+      "enunciado": "Leia o trecho a seguir.\n\n\"O prefeito anunciou a ampliação da ronda escolar. A medida foi bem recebida pelos pais. Eles, porém, cobraram que a cobertura chegue também aos bairros mais afastados.\"\n\nNo terceiro período, o pronome \"Eles\" garante a ligação entre as frases ao retomar",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "os pais, mencionados no período anterior."
+        },
+        {
+          "id": "a2",
+          "texto": "os bairros mais afastados da cidade."
+        },
+        {
+          "id": "a3",
+          "texto": "o prefeito e sua equipe de governo."
+        },
+        {
+          "id": "a4",
+          "texto": "os agentes responsáveis pela ronda escolar."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A coesão de um texto se faz, entre outros recursos, por pronomes que retomam termos já citados. O pronome \"Eles\" refere-se ao termo mais próximo e compatível em gênero e número: \"os pais\", citados na frase anterior como quem recebeu bem a medida. São eles que, em seguida, fazem a cobrança. Os demais termos não concordam com o contexto ou não haviam sido apresentados como agentes dessa ação.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "O pronome retoma \"os pais\", únicos a quem o período anterior atribui a boa recepção da medida."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Os bairros são o destino da cobertura, não quem faz a cobrança expressa pelo pronome."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O prefeito aparece como quem anuncia a medida, não como quem a cobra depois."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Os agentes da ronda não são citados no texto como referente do pronome."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Associar o pronome a um termo citado, mas incompatível com a ação descrita.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Para achar o referente de um pronome, procure o termo anterior que combina em gênero, número e sentido.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "coesão",
+        "referência",
+        "pronome",
+        "retomada",
+        "parágrafo"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de estruturação textual da norma-padrão"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Interpretação de Texto",
+      "subtema": "Estruturação do texto e dos parágrafos",
+      "dificuldade": "media",
+      "enunciado": "Um candidato precisa redigir um pequeno texto dissertativo em três parágrafos. Dispõe das seguintes partes:\n\nI. Apresentação do tema e da posição a ser defendida.\nII. Argumentos e exemplos que sustentam a posição.\nIII. Retomada da ideia e fechamento com uma proposta.\n\nA correspondência correta entre cada parte e a função que ela cumpre na estrutura do texto é",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "I é a introdução, II é o desenvolvimento e III é a conclusão."
+        },
+        {
+          "id": "a2",
+          "texto": "I é o desenvolvimento, II é a introdução e III é a conclusão."
+        },
+        {
+          "id": "a3",
+          "texto": "I é a conclusão, II é a introdução e III é o desenvolvimento."
+        },
+        {
+          "id": "a4",
+          "texto": "I é a introdução, II é a conclusão e III é o desenvolvimento."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O texto dissertativo costuma se organizar em três momentos. A introdução apresenta o tema e a posição; o desenvolvimento traz os argumentos e exemplos que a sustentam; a conclusão retoma a ideia e fecha, às vezes com uma proposta. Assim, I corresponde à introdução, II ao desenvolvimento e III à conclusão. As demais trocam essas funções de lugar.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Casa cada parte com sua função: apresentar, argumentar e concluir, nessa ordem."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Chama de desenvolvimento a parte que apenas apresenta o tema, função da introdução."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Inverte tudo: coloca a apresentação do tema como se fosse o fechamento."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Troca desenvolvimento e conclusão, pondo o fechamento antes dos argumentos."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar as funções de desenvolvimento e conclusão na estrutura do texto.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Introdução apresenta, desenvolvimento prova e conclusão fecha: essa ordem raramente muda num texto dissertativo.",
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "introdução",
+        "desenvolvimento",
+        "conclusão",
+        "dissertação",
+        "estrutura do texto"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de estruturação textual da norma-padrão"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Interpretação de Texto",
+      "subtema": "Estruturação do texto e dos parágrafos",
+      "dificuldade": "media",
+      "enunciado": "Leia o período a seguir.\n\n\"Os moradores assinaram o abaixo-assinado, entregaram o documento à prefeitura ______ a resposta ainda não chegou.\"\n\nO espaço deve ser preenchido por um conectivo que marque a quebra de expectativa entre o esforço dos moradores e a falta de retorno. Esse conectivo é",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "contudo"
+        },
+        {
+          "id": "a2",
+          "texto": "porque"
+        },
+        {
+          "id": "a3",
+          "texto": "portanto"
+        },
+        {
+          "id": "a4",
+          "texto": "assim que"
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A relação entre as duas partes é de oposição ou quebra de expectativa: apesar de todo o esforço, a resposta não veio. O conectivo que expressa esse contraste é \"contudo\". \"Porque\" indicaria causa; \"portanto\", conclusão; \"assim que\", tempo. Nenhum deles traduz a contrariedade que o período pede.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Marca a oposição entre o esforço dos moradores e a ausência de resposta."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Indicaria causa, como se a entrega explicasse a falta de resposta, o que não ocorre."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Expressa conclusão, mas a ausência de resposta não é consequência do ato de entregar."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Estabelece relação de tempo, estranha ao contraste que o período quer marcar."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar o conectivo de oposição por um de causa ou de conclusão.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Quando o segundo fato frustra o que o primeiro faria esperar, o conectivo é de oposição: \"mas\", \"porém\", \"contudo\".",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "conectivo",
+        "oposição",
+        "quebra de expectativa",
+        "coesão",
+        "contraste"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de estruturação textual da norma-padrão"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Interpretação de Texto",
+      "subtema": "Estruturação do texto e dos parágrafos",
+      "dificuldade": "dificil",
+      "enunciado": "Leia o parágrafo a seguir.\n\n\"A tecnologia aproximou pessoas distantes. Quem antes esperava dias por uma carta hoje conversa em tempo real com quem está do outro lado do mundo. Essa mesma tecnologia, no entanto, afastou quem está perto: à mesa do jantar, cada um olha para a própria tela.\"\n\nConsiderando a estrutura do parágrafo, a função da expressão \"no entanto\" no interior dele é",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "introduzir um contraponto que opõe o segundo movimento do parágrafo ao primeiro, sem fugir do tema da tecnologia."
+        },
+        {
+          "id": "a2",
+          "texto": "acrescentar mais um exemplo da aproximação entre pessoas distantes, no mesmo sentido da frase que a antecede no parágrafo."
+        },
+        {
+          "id": "a3",
+          "texto": "encerrar o parágrafo com uma conclusão que resume, em poucas palavras, todas as ideias apresentadas até aquele ponto do texto."
+        },
+        {
+          "id": "a4",
+          "texto": "indicar a causa pela qual a tecnologia conseguiu aproximar pessoas que viviam distantes umas das outras em lugares diferentes."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O parágrafo se organiza em dois movimentos: primeiro mostra que a tecnologia aproximou pessoas distantes; depois, pela expressão \"no entanto\", mostra o lado oposto, que ela afastou quem está perto. A expressão articula esses dois movimentos por contraste, mantendo o mesmo tema. As demais confundem o contraponto com adição, conclusão ou causa, relações que \"no entanto\" não estabelece.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "A expressão opõe o segundo movimento ao primeiro, articulando o contraste dentro do mesmo tema."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Não acrescenta no mesmo sentido; introduz justamente a ideia contrária à aproximação."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Não encerra com conclusão; abre a segunda parte do raciocínio, que ainda será desenvolvida."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Não indica causa da aproximação; marca a oposição entre aproximar distantes e afastar próximos."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Tomar um conectivo de oposição como se fosse de adição ou de conclusão.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Dentro do parágrafo, \"no entanto\" e \"contudo\" costumam dividir o texto em dois lados que se opõem.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "conectivo",
+        "contraponto",
+        "organização do parágrafo",
+        "oposição",
+        "articulação"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de estruturação textual da norma-padrão"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Interpretação de Texto",
+      "subtema": "Estruturação do texto e dos parágrafos",
+      "dificuldade": "dificil",
+      "enunciado": "Leia o texto a seguir, dividido em dois parágrafos.\n\n\"Parágrafo 1: A cidade investiu em ciclovias para incentivar o uso da bicicleta. A ideia era reduzir o trânsito e a poluição.\n\nParágrafo 2: ______ Faltou integrá-las ao transporte público e garantir segurança em toda a extensão.\"\n\nEntre os dois parágrafos, a frase que melhor faz a transição, retomando o primeiro e anunciando o segundo, é",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O resultado, porém, ficou abaixo do esperado, e as razões dessa frustração começam a aparecer."
+        },
+        {
+          "id": "a2",
+          "texto": "As bicicletas são um meio de transporte saudável e usado em muitos países há bastante tempo."
+        },
+        {
+          "id": "a3",
+          "texto": "A poluição do ar é um problema que atinge grandes cidades em quase todo o mundo atual."
+        },
+        {
+          "id": "a4",
+          "texto": "Pedalar faz bem à saúde e deveria ser estimulado desde os primeiros anos da vida escolar."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Uma boa frase de transição retoma o que foi dito e prepara o que vem. O primeiro parágrafo fala do investimento e de seu objetivo; o segundo aponta o que faltou. A frase correta retoma esse investimento (\"o resultado\") e anuncia os problemas (\"as razões dessa frustração\"), ligando as duas partes. As demais trazem informações genéricas sobre bicicletas ou poluição, sem costurar o antes e o depois do texto.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Retoma o investimento do primeiro parágrafo e anuncia as falhas detalhadas no segundo."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Comenta as bicicletas em geral, sem ligar o objetivo do texto às falhas apontadas."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Fala da poluição de modo genérico, sem fazer a ponte entre os dois parágrafos."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Elogia o pedalar, mas não retoma o investimento nem anuncia o que faltou."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Escolher uma frase sobre o mesmo assunto que não faça a ligação entre os parágrafos.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Uma frase de transição olha para trás (retoma) e para frente (anuncia) ao mesmo tempo.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "transição",
+        "ligação entre parágrafos",
+        "coesão",
+        "progressão textual",
+        "retomada"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de estruturação textual da norma-padrão"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Interpretação de Texto",
+      "subtema": "Estruturação do texto e dos parágrafos",
+      "dificuldade": "dificil",
+      "enunciado": "Leia o parágrafo a seguir.\n\n\"Muitos acreditam que basta instalar câmeras para acabar com a violência urbana. A câmera, de fato, ajuda a registrar ocorrências e a identificar suspeitos. Sozinha, porém, ela não substitui a presença humana nas ruas, a iluminação adequada e o trabalho de prevenção junto à comunidade.\"\n\nSobre a construção do argumento ao longo do parágrafo, é correto afirmar que o autor",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "reconhece uma vantagem da câmera, mas a relativiza para defender que a segurança depende de um conjunto de medidas."
+        },
+        {
+          "id": "a2",
+          "texto": "defende que a instalação de câmeras é, por si só, suficiente para pôr fim à violência urbana nas cidades."
+        },
+        {
+          "id": "a3",
+          "texto": "nega qualquer utilidade das câmeras e sustenta que elas em nada ajudam no combate às ocorrências registradas nas ruas."
+        },
+        {
+          "id": "a4",
+          "texto": "limita-se a listar equipamentos de segurança, sem assumir posição alguma sobre a eficácia de cada um deles no texto."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O parágrafo constrói o argumento em três passos: expõe a crença comum (a câmera resolveria tudo), admite um ponto a favor dela (\"de fato, ajuda a registrar\") e, com \"porém\", a relativiza, defendendo que a segurança depende de outras medidas. Esse movimento de conceder para depois ressalvar sustenta a tese do conjunto. As demais ou tomam a crença inicial como tese do autor, ou negam toda utilidade da câmera, ou ignoram a posição assumida.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Capta o movimento do parágrafo: admite a vantagem da câmera e a relativiza em favor do conjunto de medidas."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Essa é a crença que o autor apresenta para depois rebater, não a tese que ele defende."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O texto reconhece que a câmera ajuda a registrar e identificar, logo não nega toda utilidade."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O autor assume posição clara, ao defender que a câmera não basta sozinha."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Tomar a crença exposta no início como se fosse a tese defendida pelo autor.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Conceder um ponto ao outro lado (\"de fato...\") para depois ressalvar (\"porém...\") é modo comum de reforçar a própria tese.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "construção do argumento",
+        "concessão",
+        "tese",
+        "relativização",
+        "organização do parágrafo"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de estruturação textual da norma-padrão"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "subtema": "Estruturação do texto e dos parágrafos",
+      "frente": "O que é o tópico frasal de um parágrafo?",
+      "verso": "É a frase que expressa a ideia principal do parágrafo, em torno da qual as demais se organizam para explicar, exemplificar ou detalhar. Costuma vir no início, mas pode aparecer no meio ou no fim. As outras frases do parágrafo funcionam como desenvolvimento dessa ideia central.",
+      "fundamento_legal": "não se aplica",
+      "lei_referencia": "não se aplica",
+      "palavras_chave": [
+        "tópico frasal",
+        "ideia principal",
+        "parágrafo",
+        "desenvolvimento",
+        "estrutura"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f02",
+      "subtema": "Estruturação do texto e dos parágrafos",
+      "frente": "Qual a diferença entre coesão e coerência de um texto?",
+      "verso": "Coesão é a ligação entre as partes do texto por meio de recursos visíveis, como conectivos, pronomes e repetições que amarram frases e parágrafos. Coerência é a lógica interna do conteúdo: as ideias precisam fazer sentido juntas, sem contradição ou salto. Um texto pode ter conectivos bem usados e ainda ser incoerente se as ideias não se sustentarem.",
+      "fundamento_legal": "não se aplica",
+      "lei_referencia": "não se aplica",
+      "palavras_chave": [
+        "coesão",
+        "coerência",
+        "conectivos",
+        "lógica",
+        "ligação"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f03",
+      "subtema": "Estruturação do texto e dos parágrafos",
+      "frente": "Quais são as três partes típicas de um texto dissertativo?",
+      "verso": "Introdução, que apresenta o tema e a posição a ser defendida; desenvolvimento, que traz os argumentos e exemplos que sustentam essa posição; e conclusão, que retoma a ideia e fecha o texto, às vezes com uma proposta. Essa divisão dá unidade e progressão ao texto.",
+      "fundamento_legal": "não se aplica",
+      "lei_referencia": "não se aplica",
+      "palavras_chave": [
+        "introdução",
+        "desenvolvimento",
+        "conclusão",
+        "dissertação",
+        "estrutura do texto"
+      ],
+      "cita_jurisprudencia": false
+    }
+  ],
+  "observacoes_do_lote": "Lote focado em Estruturação do texto e dos parágrafos (distinto do foco do lote 001, que tratou de gêneros): tópico frasal, unidade e coerência do parágrafo, conectivos (consequência, oposição, quebra de expectativa), referência por pronome, sequência lógica de frases, introdução/desenvolvimento/conclusão, transição entre parágrafos e construção do argumento por concessão. Tema sem lei (Língua Portuguesa): fundamento_legal, fundamento_jurisprudencial, observacao_temporal e lei_referencia não se aplicam; os versos dos flashcards explicam o conceito diretamente. Termo absoluto (\"em nenhuma hipótese\", \"sempre\") evitado; distratores erram por conteúdo (relação de sentido trocada, função textual invertida, referente incompatível)."
+}

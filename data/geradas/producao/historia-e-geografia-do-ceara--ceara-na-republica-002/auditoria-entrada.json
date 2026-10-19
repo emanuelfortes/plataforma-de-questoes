@@ -1,0 +1,854 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Ceará na República",
+      "subtema": "1930 a 1964: Estado Novo, indústria da seca, DNOCS e SUDENE",
+      "dificuldade": "facil",
+      "enunciado": "A expressão \"indústria da seca\" é usada na história do Ceará e do Nordeste para descrever um fenômeno ligado às políticas de combate à estiagem. Assinale a alternativa que apresenta corretamente o sentido dessa expressão.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O uso político e econômico da seca por grupos dominantes locais, que se beneficiavam dos recursos e das obras destinados ao socorro das populações atingidas."
+        },
+        {
+          "id": "a2",
+          "texto": "O conjunto de fábricas têxteis instaladas no sertão cearense para aproveitar a mão de obra barata dos retirantes durante os períodos de estiagem prolongada, substituindo assim a economia agrícola arruinada pela falta de chuvas."
+        },
+        {
+          "id": "a3",
+          "texto": "A política oficial de deslocar as indústrias do litoral para o interior do estado sempre que uma grande seca atingisse a capital e as cidades portuárias."
+        },
+        {
+          "id": "a4",
+          "texto": "O ramo da economia dedicado à fabricação e à venda de equipamentos de irrigação a pequenos agricultores empobrecidos pela falta de chuvas no sertão."
+        },
+        {
+          "id": "a5",
+          "texto": "A denominação dada ao conjunto de açudes públicos que, uma vez construídos, passaram a produzir e comercializar energia elétrica para as cidades do interior."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A \"indústria da seca\" não é uma indústria no sentido literal: é uma expressão crítica que denuncia o aproveitamento político e econômico da estiagem. Coronéis, políticos e grandes proprietários capturavam os recursos e as obras públicas de socorro (como as frentes de serviço e a construção de açudes), direcionando-os para benefício próprio em vez de atender de fato as populações castigadas. O termo resume como a tragédia da seca virou fonte de poder e de renda para grupos dominantes.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Descreve o sentido consagrado da expressão: a apropriação dos recursos e das obras de combate à seca por grupos dominantes, que transformavam o socorro público em fonte de poder e de lucro."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Toma a expressão ao pé da letra, como se fosse um parque fabril têxtil no sertão. A \"indústria da seca\" é uma crítica política, não um conjunto de fábricas."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Inventa uma política de transferência de indústrias do litoral para o interior, que não corresponde ao sentido da expressão nem aconteceu dessa forma."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Confunde a expressão com um ramo de venda de equipamentos de irrigação, o que não tem relação com o uso crítico do termo."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Reduz a expressão à comercialização de energia por açudes, desviando do sentido de aproveitamento político dos recursos de socorro."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Interpretar \"indústria da seca\" de forma literal, como se fosse um parque fabril, e não como a crítica ao uso político e econômico da estiagem.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "Indústria da seca: a seca vira negócio para quem deveria combatê-la. O produto não é tecido nem máquina, é poder.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "indústria da seca",
+        "coronelismo",
+        "recursos públicos",
+        "socorro",
+        "sertão",
+        "Ceará"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de História do Ceará sobre a chamada indústria da seca"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Ceará na República",
+      "subtema": "1930 a 1964: Estado Novo, indústria da seca, DNOCS e SUDENE",
+      "dificuldade": "facil",
+      "enunciado": "Durante o período do Estado Novo (1937 a 1945), o Brasil viveu um regime político com características bem definidas. Sobre esse período, assinale a alternativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Foi um regime autoritário e centralizador, instaurado por Getúlio Vargas, que fechou o Congresso Nacional e suprimiu os partidos e as eleições livres."
+        },
+        {
+          "id": "a2",
+          "texto": "Foi um período de ampla democracia representativa, com eleições diretas regulares para presidente, governadores e parlamentares em todo o território nacional."
+        },
+        {
+          "id": "a3",
+          "texto": "Foi um regime parlamentarista em que o presidente apenas representava o país e o poder de governar era exercido por um primeiro-ministro escolhido pela Câmara."
+        },
+        {
+          "id": "a4",
+          "texto": "Foi uma monarquia constitucional restaurada por Getúlio Vargas, com um imperador simbólico e um gabinete de ministros responsável perante as duas casas legislativas."
+        },
+        {
+          "id": "a5",
+          "texto": "Foi um período marcado pela plena autonomia dos estados, que mantinham suas próprias forças militares e suas constituições sem interferência do governo central."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O Estado Novo foi o regime autoritário implantado por Getúlio Vargas a partir do golpe de 1937. Entre suas marcas estão a centralização do poder no Executivo federal, o fechamento do Congresso Nacional, a extinção dos partidos políticos e a suspensão das eleições. Para o Ceará, isso significou a nomeação de interventores no lugar de governadores eleitos e a subordinação do estado ao governo central, no mesmo movimento de centralização vivido em todo o país.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Resume corretamente o Estado Novo: regime autoritário e centralizador de Vargas, com Congresso fechado e sem partidos nem eleições livres."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Descreve o oposto do que foi o Estado Novo, que justamente suspendeu eleições e a democracia representativa."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Atribui ao Estado Novo um parlamentarismo que não existiu; o poder concentrou-se no presidente, não em um primeiro-ministro."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Inventa uma monarquia constitucional, incompatível com o regime republicano e autoritário do período."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Contraria a essência centralizadora do Estado Novo, que reduziu a autonomia dos estados e nomeou interventores."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Associar o Estado Novo a democracia e eleições livres, quando foi exatamente um regime autoritário que as suspendeu.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "No Estado Novo, os estados passaram a ser governados por interventores nomeados por Vargas, no lugar dos governadores eleitos.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "Estado Novo",
+        "Getúlio Vargas",
+        "1937",
+        "autoritarismo",
+        "centralização",
+        "interventores"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de História do Brasil e do Ceará sobre o Estado Novo"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Ceará na República",
+      "subtema": "1930 a 1964: Estado Novo, indústria da seca, DNOCS e SUDENE",
+      "dificuldade": "facil",
+      "enunciado": "O DNOCS, órgão historicamente ligado ao combate à seca no Nordeste e muito atuante no Ceará, ficou conhecido principalmente por um tipo de obra. Assinale a alternativa que indica essa atuação característica.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A construção de açudes e de obras de acumulação de água, voltadas a enfrentar a escassez provocada pelas secas no sertão nordestino."
+        },
+        {
+          "id": "a2",
+          "texto": "A instalação de usinas hidrelétricas de grande porte nos principais rios da região, com o objetivo central de levar energia à indústria do litoral."
+        },
+        {
+          "id": "a3",
+          "texto": "A abertura de rodovias federais que ligavam as capitais nordestinas ao centro-sul do país, facilitando o escoamento da produção agrícola."
+        },
+        {
+          "id": "a4",
+          "texto": "A construção de portos marítimos e a dragagem de canais de navegação ao longo de todo o litoral dos estados do Nordeste brasileiro."
+        },
+        {
+          "id": "a5",
+          "texto": "A edificação de escolas técnicas agrícolas e de centros de pesquisa dedicados à formação de mão de obra especializada para a indústria regional."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O DNOCS (Departamento Nacional de Obras Contra as Secas) tem raízes no antigo órgão federal criado ainda no início do século XX para combater a seca e, ao longo do tempo, ficou identificado sobretudo com a chamada \"solução hidráulica\": a construção de açudes e de grandes reservatórios para acumular água nos períodos de chuva e enfrentar a estiagem. No Ceará, essa política açudeira marcou profundamente o sertão. É o traço mais lembrado da atuação do órgão.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "A construção de açudes e reservatórios é exatamente a marca histórica do DNOCS, voltada à acumulação de água contra a seca."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Troca a vocação do órgão: a grande geração de energia hidrelétrica não é a identidade histórica do DNOCS, ligado à acumulação de água."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Atribui ao DNOCS a abertura de rodovias, atuação que não corresponde à sua finalidade de obras contra as secas."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Confunde o DNOCS com órgãos portuários e de navegação, o que foge ao seu campo de obras hídricas no sertão."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Desloca a função do órgão para a área educacional, sem relação com a política açudeira que o caracteriza."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Imaginar que o DNOCS se dedicava a energia, rodovias ou portos, quando sua marca histórica são os açudes.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "DNOCS = Obras Contra as Secas. O \"produto\" principal é água acumulada em açude.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "DNOCS",
+        "açudes",
+        "solução hidráulica",
+        "seca",
+        "sertão",
+        "obras contra as secas"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de História do Ceará sobre a política açudeira e o DNOCS"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Ceará na República",
+      "subtema": "1930 a 1964: Estado Novo, indústria da seca, DNOCS e SUDENE",
+      "dificuldade": "media",
+      "enunciado": "A SUDENE, criada no fim da década de 1950, representou uma mudança na forma de pensar o combate aos problemas do Nordeste. Em relação à proposta que esteve na origem da SUDENE, assinale a alternativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Propunha enfrentar o atraso regional por meio do planejamento econômico e da industrialização, superando a visão que limitava o problema do Nordeste à falta de chuvas."
+        },
+        {
+          "id": "a2",
+          "texto": "Propunha concentrar os recursos federais apenas na construção de novos açudes e reservatórios no sertão, reforçando a chamada solução hidráulica como o único caminho possível para o enfrentamento dos problemas da região."
+        },
+        {
+          "id": "a3",
+          "texto": "Propunha transferir a capital do Nordeste para o interior e incentivar a migração da população litorânea para as áreas mais secas do sertão."
+        },
+        {
+          "id": "a4",
+          "texto": "Propunha extinguir os órgãos federais de combate à seca e deixar o desenvolvimento da região inteiramente a cargo dos governos estaduais."
+        },
+        {
+          "id": "a5",
+          "texto": "Propunha substituir a agricultura e a pecuária do sertão pela exploração mineral, vista como a única atividade capaz de enriquecer a região."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A SUDENE (Superintendência do Desenvolvimento do Nordeste) nasceu com uma proposta diferente da tradição anterior, ligada a Celso Furtado e ao diagnóstico de que o problema do Nordeste não era apenas a seca, mas o subdesenvolvimento e as desigualdades estruturais. Por isso, apostava no planejamento econômico regional e na industrialização para reduzir a distância em relação ao Centro-Sul. É a chave para distingui-la da fase anterior, centrada na \"solução hidráulica\" dos açudes.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Expressa o espírito original da SUDENE: planejamento e industrialização contra o subdesenvolvimento, superando a ideia de que o problema era só a falta de chuva."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Repete a visão anterior, da solução hidráulica, que a SUDENE justamente procurou superar ao tratar do subdesenvolvimento regional."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Inventa um projeto de transferência de capital e de migração dirigida que não corresponde à proposta da SUDENE."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A SUDENE não pregava a extinção dos órgãos federais nem a entrega do desenvolvimento só aos estados; ela própria era um órgão de planejamento federal."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Reduz a estratégia a uma troca por mineração, o que não reflete a aposta da SUDENE no planejamento e na industrialização."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir a proposta inovadora da SUDENE (planejamento e industrialização) com a antiga política hidráulica centrada apenas em açudes.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "A SUDENE está associada a Celso Furtado e à ideia de combater o subdesenvolvimento, não apenas a seca.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "SUDENE",
+        "Celso Furtado",
+        "planejamento",
+        "industrialização",
+        "subdesenvolvimento",
+        "Nordeste"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de História do Brasil e do Ceará sobre a criação da SUDENE"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Ceará na República",
+      "subtema": "1930 a 1964: Estado Novo, indústria da seca, DNOCS e SUDENE",
+      "dificuldade": "media",
+      "enunciado": "As secas que atingiram o sertão cearense entre 1930 e 1964 produziram um importante fenômeno social, ligado ao deslocamento das populações atingidas. Sobre esse processo, assinale a alternativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Grandes contingentes de sertanejos migravam em busca de sobrevivência, alimentando tanto o êxodo para outras regiões quanto a aglomeração de retirantes nas cidades."
+        },
+        {
+          "id": "a2",
+          "texto": "A população do sertão permanecia inteiramente fixa em suas terras, pois o governo federal garantia renda mensal suficiente a cada família atingida durante todo o longo período de estiagem, o que dispensava qualquer deslocamento."
+        },
+        {
+          "id": "a3",
+          "texto": "Os retirantes eram, em sua maioria, grandes proprietários de terras que deixavam o sertão para investir seus capitais nas indústrias instaladas no litoral."
+        },
+        {
+          "id": "a4",
+          "texto": "O deslocamento ocorria apenas dentro dos limites de cada município, sem que houvesse migração de sertanejos para a capital ou para outros estados."
+        },
+        {
+          "id": "a5",
+          "texto": "As secas provocavam o crescimento imediato da população rural do sertão, atraída pela abertura de novas frentes de colonização agrícola na região."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "As grandes secas do século XX agravaram a migração no sertão cearense. Sem meios de sobreviver no campo, famílias inteiras de sertanejos pobres saíam em busca de trabalho e de socorro: parte seguia para outras regiões do país (o chamado êxodo), parte se amontoava em cidades e na capital, formando contingentes de retirantes que marcaram a história social do Ceará. Esse movimento também era explorado politicamente, dentro da lógica da \"indústria da seca\".",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Descreve o fenômeno real: a seca empurrava os sertanejos pobres para a migração, gerando êxodo e aglomeração de retirantes nas cidades."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Contraria os fatos: não havia renda garantida a todas as famílias, e justamente por isso ocorria a migração em massa."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Inverte o perfil dos retirantes, que eram em geral sertanejos pobres, e não grandes proprietários indo investir no litoral."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Restringe indevidamente o deslocamento ao município, ignorando a migração para a capital e para outros estados."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Afirma o oposto do que ocorria: a seca esvaziava o campo, em vez de atrair população para novas colônias agrícolas."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Imaginar que a população do sertão ficava fixa e amparada, quando a seca gerava migração e massas de retirantes.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Retirante, no período, é o sertanejo pobre forçado a migrar pela seca, não o proprietário que vai investir no litoral.",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "seca",
+        "migração",
+        "retirantes",
+        "êxodo",
+        "sertão",
+        "Ceará"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de História do Ceará sobre seca, migração e retirantes"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Ceará na República",
+      "subtema": "1930 a 1964: Estado Novo, indústria da seca, DNOCS e SUDENE",
+      "dificuldade": "media",
+      "enunciado": "Compare a forma de combater os problemas do Nordeste associada ao DNOCS com a proposta que inspirou a criação da SUDENE. Assinale a alternativa que apresenta corretamente essa diferença de concepção.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O DNOCS associava-se à solução hidráulica, centrada em açudes contra a seca, enquanto a SUDENE propunha planejamento e desenvolvimento econômico para toda a região."
+        },
+        {
+          "id": "a2",
+          "texto": "O DNOCS defendia a industrialização planejada de todo o Nordeste e a superação do subdesenvolvimento, ao passo que a SUDENE se limitava a construir açudes e reservatórios de água no sertão cearense."
+        },
+        {
+          "id": "a3",
+          "texto": "Ambos os órgãos adotavam exatamente a mesma estratégia, concentrada apenas na construção de açudes, sem qualquer diferença de concepção entre eles."
+        },
+        {
+          "id": "a4",
+          "texto": "O DNOCS cuidava do planejamento financeiro das indústrias e a SUDENE era responsável pela distribuição de energia elétrica nas cidades do interior."
+        },
+        {
+          "id": "a5",
+          "texto": "O DNOCS tratava da reforma agrária em todo o país, enquanto a SUDENE se ocupava exclusivamente do abastecimento de água nas capitais litorâneas."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A diferença central está na concepção. O DNOCS representa a fase da \"solução hidráulica\": enfrentar a seca sobretudo pela construção de açudes e reservatórios. A SUDENE, inspirada no diagnóstico de Celso Furtado, muda o foco: o problema do Nordeste não seria apenas a falta de água, mas o subdesenvolvimento, de modo que a saída estaria no planejamento econômico e na industrialização da região. Por isso as duas instituições simbolizam momentos e visões distintas da política regional.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Opõe corretamente as duas concepções: o DNOCS na solução hidráulica dos açudes e a SUDENE no planejamento e no desenvolvimento econômico regional."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Inverte os papéis: era a SUDENE, e não o DNOCS, que apostava no planejamento industrial; o DNOCS ligava-se aos açudes."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Afirma que não havia diferença, quando justamente a mudança de concepção é o ponto central da comparação."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Atribui a cada órgão funções que não eram suas (planejamento financeiro de indústrias e distribuição de energia), distorcendo os papéis históricos."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Associa os órgãos a reforma agrária nacional e a abastecimento de capitais, o que não corresponde às suas finalidades."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Inverter as concepções, atribuindo ao DNOCS o planejamento industrial e à SUDENE a política dos açudes.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "DNOCS = água (açude). SUDENE = desenvolvimento (planejamento e indústria).",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "DNOCS",
+        "SUDENE",
+        "solução hidráulica",
+        "planejamento",
+        "industrialização",
+        "Nordeste"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de História do Ceará e do Nordeste sobre DNOCS e SUDENE"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Ceará na República",
+      "subtema": "1930 a 1964: Estado Novo, indústria da seca, DNOCS e SUDENE",
+      "dificuldade": "media",
+      "enunciado": "No plano político, o período do Estado Novo alterou a relação entre o governo federal e os estados. No Ceará, assim como nos demais estados, essa alteração se expressou principalmente de que forma?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Pela substituição dos governadores eleitos por interventores nomeados por Getúlio Vargas, subordinando a administração estadual ao poder central."
+        },
+        {
+          "id": "a2",
+          "texto": "Pela ampliação da autonomia estadual, com os governadores eleitos passando a legislar livremente e a manter forças militares próprias independentes da União."
+        },
+        {
+          "id": "a3",
+          "texto": "Pela criação de assembleias estaduais com poderes reforçados, encarregadas de fiscalizar o presidente da República e de aprovar o orçamento federal."
+        },
+        {
+          "id": "a4",
+          "texto": "Pela realização de eleições diretas mais frequentes para os governos estaduais, como forma de aproximar os eleitores das decisões do governo central."
+        },
+        {
+          "id": "a5",
+          "texto": "Pela divisão do estado em pequenas repúblicas autônomas, cada uma com seu próprio chefe político escolhido pelos coronéis das localidades do interior."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O Estado Novo foi um regime centralizador. Uma de suas marcas na organização do poder foi a figura do interventor: no lugar dos governadores eleitos, Vargas nomeava interventores que administravam os estados em nome do governo federal. No Ceará, isso significou subordinar a política estadual ao centro, enfraquecendo as antigas oligarquias que disputavam o governo pelas urnas. É o reflexo direto da centralização autoritária do período.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Aponta a marca central: interventores nomeados por Vargas substituíram os governadores eleitos, subordinando os estados ao poder federal."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Afirma o oposto da centralização estadonovista: a autonomia dos estados foi reduzida, não ampliada."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Inventa assembleias fiscalizando o presidente, incompatível com um regime que fechou o Congresso e concentrou o poder no Executivo."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Contraria o período, em que as eleições foram suspensas, e não tornadas mais frequentes."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Descreve uma fragmentação em repúblicas autônomas que não existiu e que vai contra a lógica de centralização do Estado Novo."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar a centralização do Estado Novo por uma suposta ampliação da autonomia e das eleições estaduais.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Interventor é a palavra-chave do Estado Novo nos estados: nomeado pelo centro, no lugar do governador eleito.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "Estado Novo",
+        "interventores",
+        "centralização",
+        "Vargas",
+        "oligarquias",
+        "Ceará"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de História do Brasil e do Ceará sobre o Estado Novo e os interventores"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Ceará na República",
+      "subtema": "1930 a 1964: Estado Novo, indústria da seca, DNOCS e SUDENE",
+      "dificuldade": "dificil",
+      "enunciado": "Um estudante afirma que a passagem da política de combate à seca para a política de desenvolvimento regional, no Nordeste, pode ser lida como a transição de uma visão emergencial e hidráulica para uma visão estrutural e planejadora. Considerando essa leitura e o papel do DNOCS e da SUDENE, assinale a alternativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A afirmação é coerente: o DNOCS encarna a resposta hidráulica e emergencial à seca, e a SUDENE traduz a tentativa de atacar as causas estruturais do subdesenvolvimento regional."
+        },
+        {
+          "id": "a2",
+          "texto": "A afirmação é incorreta, pois o DNOCS já nascera com a missão explícita de planejar a industrialização do Nordeste, cabendo à SUDENE apenas administrar os açudes existentes."
+        },
+        {
+          "id": "a3",
+          "texto": "A afirmação é incorreta, uma vez que a SUDENE foi criada antes do DNOCS e por isso representa a fase hidráulica, enquanto o DNOCS encarna o planejamento."
+        },
+        {
+          "id": "a4",
+          "texto": "A afirmação é incorreta, porque tanto o DNOCS quanto a SUDENE recusavam qualquer obra hídrica e defendiam somente a transferência de população para o Sul."
+        },
+        {
+          "id": "a5",
+          "texto": "A afirmação é incorreta, já que ambos os órgãos tinham a mesma concepção estrutural, de modo que não existe transição de visão alguma entre eles."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A leitura do estudante está correta. Historicamente, o DNOCS liga-se à chamada solução hidráulica, uma resposta mais emergencial à seca, centrada na construção de açudes e reservatórios. Já a SUDENE, inspirada no diagnóstico de Celso Furtado, desloca o olhar para as causas estruturais do atraso regional, propondo planejamento econômico e industrialização. Por isso é razoável descrever o processo como uma transição de uma visão hidráulica e emergencial para uma visão estrutural e planejadora, sem anular o fato de que os órgãos conviveram no tempo.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Confirma a leitura: o DNOCS representa a resposta hidráulica e emergencial, e a SUDENE a tentativa de enfrentar as causas estruturais do subdesenvolvimento."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Inverte as missões, atribuindo ao DNOCS o planejamento industrial, quando essa concepção é própria da SUDENE."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Erra a cronologia e os papéis: a SUDENE surge depois e é ela, não o DNOCS, que encarna o planejamento."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Atribui aos dois órgãos a recusa de obras hídricas e uma política de transferência de população, o que não corresponde à história."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Nega a transição de concepção, apagando a diferença real entre a lógica hidráulica do DNOCS e o planejamento da SUDENE."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Inverter cronologia e concepções do DNOCS e da SUDENE, ou negar que houve mudança de visão no combate aos problemas do Nordeste.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Dizer que houve transição de visão não significa dizer que um órgão acabou quando o outro surgiu: eles conviveram no tempo.",
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "DNOCS",
+        "SUDENE",
+        "solução hidráulica",
+        "planejamento",
+        "subdesenvolvimento",
+        "transição"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de História do Ceará e do Nordeste sobre DNOCS e SUDENE"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Ceará na República",
+      "subtema": "1930 a 1964: Estado Novo, indústria da seca, DNOCS e SUDENE",
+      "dificuldade": "dificil",
+      "enunciado": "Analise a relação entre as secas, as obras públicas de socorro e a estrutura de poder no sertão cearense no período de 1930 a 1964. Com base nessa relação, assinale a alternativa que melhor explica a crítica contida na expressão \"indústria da seca\".",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A crítica recai sobre o fato de que as obras e verbas de socorro à seca, em vez de emancipar os atingidos, reforçavam a dependência deles em relação aos grupos que controlavam esses recursos."
+        },
+        {
+          "id": "a2",
+          "texto": "A crítica sustenta que a seca era inteiramente provocada de forma artificial pelos coronéis, que impediam a chuva no sertão para manter o controle sobre a população pobre."
+        },
+        {
+          "id": "a3",
+          "texto": "A crítica afirma que as obras de socorro eliminaram por completo o poder dos coronéis, transferindo o comando do sertão para técnicos federais totalmente independentes."
+        },
+        {
+          "id": "a4",
+          "texto": "A crítica defende que a melhor forma de enfrentar a seca seria suspender todas as obras públicas, deixando a população do sertão sem qualquer tipo de assistência."
+        },
+        {
+          "id": "a5",
+          "texto": "A crítica aponta que os recursos de socorro eram integralmente aplicados em benefício dos retirantes, de modo que a expressão não teria qualquer fundamento histórico."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A expressão \"indústria da seca\" sintetiza uma crítica de fundo: os recursos e as obras destinados a socorrer as vítimas da estiagem acabavam, na prática, servindo aos interesses de coronéis, políticos e grandes proprietários que controlavam sua distribuição. Em vez de libertar o sertanejo da miséria, o socorro era usado para reforçar laços de dependência e clientelismo, transformando a tragédia em fonte de poder e de renda. A crítica não nega que a seca seja um fenômeno natural; o que ela denuncia é o uso político dos recursos de combate à seca.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Capta o cerne da crítica: as obras e verbas de socorro acabavam reforçando a dependência dos atingidos em relação a quem controlava os recursos."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Exagera e distorce: a crítica não diz que a seca era provocada artificialmente, mas que o socorro era politicamente explorado."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Afirma o contrário do que a expressão denuncia: o socorro não eliminava o poder dos coronéis, mas o alimentava."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Transforma a crítica em defesa de abandonar a população, o que não é o sentido da expressão."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Nega o próprio fundamento da crítica, afirmando que os recursos chegavam integralmente aos retirantes."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Transformar a crítica da indústria da seca em um exagero (seca provocada de propósito) ou em seu oposto (socorro bem aplicado).",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "A crítica não é contra combater a seca: é contra o uso político e clientelista dos recursos de socorro.",
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "indústria da seca",
+        "clientelismo",
+        "coronelismo",
+        "dependência",
+        "obras de socorro",
+        "sertão"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de História do Ceará sobre a indústria da seca e o clientelismo"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Ceará na República",
+      "subtema": "1930 a 1964: Estado Novo, indústria da seca, DNOCS e SUDENE",
+      "dificuldade": "dificil",
+      "enunciado": "Considere as transformações vividas pelo Ceará entre 1930 e 1964, no campo político e no combate aos problemas regionais. Assinale a alternativa que reúne corretamente características desse período.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O período combinou a centralização política do Estado Novo, com interventores no lugar de governadores eleitos, e a passagem da política açudeira para a ideia de planejamento regional ligada à SUDENE."
+        },
+        {
+          "id": "a2",
+          "texto": "O período caracterizou-se pela plena democracia, com eleições diretas ininterruptas no Ceará, e pela ausência completa de qualquer órgão federal voltado ao combate à seca."
+        },
+        {
+          "id": "a3",
+          "texto": "O período foi marcado pela restauração da monarquia no Ceará e pelo abandono total das obras contra a seca, substituídas apenas por programas de mineração no sertão."
+        },
+        {
+          "id": "a4",
+          "texto": "O período consistiu no fim do coronelismo imediato, na eleição direta de interventores pela população e na extinção definitiva do DNOCS logo após a criação da SUDENE."
+        },
+        {
+          "id": "a5",
+          "texto": "O período resumiu-se à transferência da capital cearense para o sertão e ao fechamento de todos os açudes públicos por decisão do governo federal da época."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Entre 1930 e 1964, o Ceará viveu, no plano político, a experiência da centralização do Estado Novo, com interventores nomeados por Vargas substituindo os governadores eleitos. No combate aos problemas regionais, o período assistiu à força da política açudeira (associada ao DNOCS e à solução hidráulica) e, ao fim da década de 1950, ao surgimento de uma nova concepção, de planejamento e desenvolvimento regional, encarnada pela SUDENE. A alternativa correta é a que reúne esses dois traços sem distorcê-los.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reúne corretamente os traços do período: centralização do Estado Novo com interventores e a passagem da política açudeira para o planejamento regional da SUDENE."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Afirma democracia plena e ausência de órgãos de combate à seca, contrariando a centralização do Estado Novo e a atuação do DNOCS."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Inventa restauração da monarquia e substituição das obras hídricas por mineração, o que não ocorreu."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Erra ao falar em eleição de interventores (eles eram nomeados) e em extinção do DNOCS logo após a SUDENE."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Descreve transferência de capital e fechamento dos açudes, fatos que não correspondem ao período."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Misturar traços verdadeiros do período com invenções (interventores eleitos, extinção do DNOCS, monarquia) para fabricar distratores plausíveis.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Interventor é nomeado, nunca eleito; e o surgimento da SUDENE não extinguiu o DNOCS.",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "Estado Novo",
+        "interventores",
+        "política açudeira",
+        "DNOCS",
+        "SUDENE",
+        "Ceará"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de História do Ceará sobre o período de 1930 a 1964"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "subtema": "1930 a 1964: Estado Novo, indústria da seca, DNOCS e SUDENE",
+      "frente": "O que a expressão \"indústria da seca\" procura criticar na história do Ceará e do Nordeste?",
+      "verso": "Critica o uso político e econômico da seca por grupos dominantes (coronéis, políticos e grandes proprietários), que capturavam as verbas e as obras de socorro às populações atingidas, transformando a tragédia em fonte de poder e de renda em vez de aliviar o sofrimento dos sertanejos.",
+      "fundamento_legal": "não se aplica",
+      "lei_referencia": "não se aplica",
+      "palavras_chave": [
+        "indústria da seca",
+        "clientelismo",
+        "socorro",
+        "coronelismo",
+        "sertão"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f02",
+      "subtema": "1930 a 1964: Estado Novo, indústria da seca, DNOCS e SUDENE",
+      "frente": "Qual a diferença de concepção entre o DNOCS e a SUDENE no combate aos problemas do Nordeste?",
+      "verso": "O DNOCS liga-se à solução hidráulica, centrada na construção de açudes e reservatórios para enfrentar a seca. A SUDENE, inspirada em Celso Furtado, muda o foco: trata o problema como subdesenvolvimento estrutural e aposta no planejamento econômico e na industrialização da região.",
+      "fundamento_legal": "não se aplica",
+      "lei_referencia": "não se aplica",
+      "palavras_chave": [
+        "DNOCS",
+        "SUDENE",
+        "solução hidráulica",
+        "planejamento",
+        "Celso Furtado"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f03",
+      "subtema": "1930 a 1964: Estado Novo, indústria da seca, DNOCS e SUDENE",
+      "frente": "Como o Estado Novo (1937 a 1945) mudou a relação entre o governo federal e os estados, como o Ceará?",
+      "verso": "O Estado Novo foi um regime autoritário e centralizador de Vargas: fechou o Congresso, extinguiu partidos e suspendeu eleições. Nos estados, inclusive no Ceará, os governadores eleitos foram substituídos por interventores nomeados pelo governo federal, subordinando a administração estadual ao poder central.",
+      "fundamento_legal": "não se aplica",
+      "lei_referencia": "não se aplica",
+      "palavras_chave": [
+        "Estado Novo",
+        "interventores",
+        "centralização",
+        "Vargas",
+        "Ceará"
+      ],
+      "cita_jurisprudencia": false
+    }
+  ]
+}

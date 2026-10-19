@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O caso descreve imposição de obrigação sem base legal, que viola o art. 5º, II (legalidade do particular). Os distratores remetem corretamente a XXXVI, XXXIX e XXXV, todos inaplicáveis. Única correta e fundamento confere."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reproduz fielmente o art. 5º, XXXV, que protege lesão e ameaça a direito. Os distratores criam restrições inexistentes (só lesão, esgotamento administrativo, exclusão do coletivo). Única correta."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, XXXIV assegura petição e certidão a todos, independentemente de taxas, sem exigir comprovação de carência. a1 confere; a3 confunde acertadamente com a hipótese do inciso LXXIV. Única correta."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "No iminente perigo público (art. 5º, XXV) a indenização é ulterior e condicionada a dano. a2 descreve a desapropriação (XXIV), corretamente afastada. Única correta e distratores bem fundamentados."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reproduz o art. 5º, X: inviolabilidade com indenização por dano material ou moral. Os distratores restringem indevidamente a reparação. Única correta."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, XLII classifica o racismo como inafiançável, imprescritível e punido com reclusão. a3 erra ao atribuir imprescritibilidade aos crimes do inciso XLIII e a4 contraria a vedação de graça/anistia. Única correta."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 transcreve o art. 5º, XV: em tempo de paz, nos termos da lei, qualquer pessoa pode entrar, permanecer ou sair com seus bens. Os distratores suprimem a cláusula de tempo de paz, a conduta de permanecer ou restringem a titularidade. Única correta."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reflete a ressalva do art. 5º, XLV: reparação do dano e perdimento de bens alcançam os sucessores até o limite do patrimônio transferido. A pena privativa de liberdade não se transmite (afasta a2) e não há cobrança ilimitada (afasta a4). Única correta."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 combina corretamente o sigilo da fonte no exercício profissional (art. 5º, XIV) e a ressalva de segurança da sociedade e do Estado no acesso à informação (art. 5º, XXXIII). Os distratores tratam o acesso como absoluto ou restringem indevidamente. Única correta."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reúne os incisos XXII a XXIV: garantia, função social e desapropriação com justa e prévia indenização em dinheiro, ressalvados os casos previstos na Constituição. Os distratores negam a desapropriação, dispensam indenização ou reduzem a função social a recomendação. A correta não é a mais longa nem a mais curta. Única correta."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso distingue corretamente a indenização justa, prévia e em dinheiro da desapropriação (art. 5º, XXIV) da indenização ulterior e condicionada a dano do uso em perigo público (art. 5º, XXV). Frente objetiva, resposta única, dispositivos citados."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Os únicos crimes declarados imprescritíveis no art. 5º são o racismo (XLII) e a ação de grupos armados contra a ordem constitucional (XLIV), conforme o texto fornecido. O verso diferencia corretamente os crimes do inciso XLIII. Frente com resposta única."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reproduz com precisão o art. 5º, XLV: a pena não passa da pessoa do condenado, mas reparação do dano e perdimento de bens alcançam os sucessores até o limite do patrimônio transferido. Frente objetiva e resposta única."
+    }
+  ]
+}

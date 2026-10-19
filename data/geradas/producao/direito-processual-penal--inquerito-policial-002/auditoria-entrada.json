@@ -1,0 +1,746 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Inquérito Policial",
+      "subtema": "Instauração, notitia e delatio criminis",
+      "dificuldade": "facil",
+      "enunciado": "De acordo com o Código de Processo Penal, nos crimes de ação pública o inquérito policial pode ser iniciado de ofício pela autoridade policial ou por outras formas de provocação. Assinale a alternativa que indica corretamente uma dessas formas de instauração prevista na lei.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Mediante requisição da autoridade judiciária ou do Ministério Público, ou a requerimento do ofendido."
+        },
+        {
+          "id": "a2",
+          "texto": "Somente depois de autorização expressa e por escrito do juiz competente para o futuro processo e julgamento do feito."
+        },
+        {
+          "id": "a3",
+          "texto": "Apenas por determinação direta e fundamentada do chefe do Poder Executivo da respectiva unidade da Federação."
+        },
+        {
+          "id": "a4",
+          "texto": "Exclusivamente por deliberação de colegiado formado pelos integrantes da polícia civil da localidade."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 5º do CPP lista como o inquérito começa nos crimes de ação pública: de ofício (inciso I) ou mediante requisição da autoridade judiciária ou do Ministério Público, ou a requerimento do ofendido ou de quem tenha qualidade para representá-lo (inciso II). Não há exigência de autorização prévia do juiz, de ordem do chefe do Executivo nem de decisão de colegiado para instaurar o inquérito.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz exatamente o inciso II do art. 5º do CPP, uma das formas legais de iniciar o inquérito nos crimes de ação pública."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A instauração do inquérito independe de autorização prévia do juiz; o controle judicial ocorre depois, e não como requisito para abrir a investigação."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A lei não prevê determinação do chefe do Executivo como forma de instaurar inquérito; a investigação é conduzida pela autoridade policial."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Não existe no CPP exigência de deliberação de colegiado policial para abrir inquérito; o início de ofício é ato da própria autoridade policial."
+        }
+      ],
+      "fundamento_legal": "Art. 5º, incisos I e II, do Código de Processo Penal (Decreto-Lei 3.689/1941).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Imaginar que a instauração do inquérito depende de autorização prévia do juiz.",
+      "lei_referencia": "CPP, art. 5º, I e II",
+      "macete_do_riccardo": "Ação pública: o inquérito começa de OFÍCIO, por REQUISIÇÃO (juiz ou MP) ou por REQUERIMENTO (ofendido). Guarde o trio ofício-requisição-requerimento.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "instauração",
+        "ação pública",
+        "requisição",
+        "requerimento",
+        "art. 5º"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (Decreto-Lei 3.689/1941) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Inquérito Policial",
+      "subtema": "Instauração, notitia e delatio criminis",
+      "dificuldade": "facil",
+      "enunciado": "Qualquer pessoa do povo que tiver conhecimento da existência de infração penal em que caiba ação pública comunica o fato à autoridade policial. Segundo o art. 5º, § 3º, do Código de Processo Penal, qual providência a autoridade deve adotar diante dessa comunicação?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Verificada a procedência das informações, mandará instaurar inquérito policial."
+        },
+        {
+          "id": "a2",
+          "texto": "Mandará instaurar inquérito de imediato, sem qualquer verificação prévia das informações."
+        },
+        {
+          "id": "a3",
+          "texto": "Encaminhará o relato diretamente ao juiz, a quem caberá decidir sobre a instauração."
+        },
+        {
+          "id": "a4",
+          "texto": "Arquivará o relato, por não ser forma válida de notícia de crime perante a polícia."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A comunicação feita por qualquer pessoa do povo é a chamada delatio criminis. O art. 5º, § 3º, do CPP permite que ela seja verbal ou escrita; recebida a notícia, a autoridade policial primeiro verifica a procedência das informações e, só então, manda instaurar o inquérito. Não é instauração automática nem depende de decisão do juiz.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde ao § 3º do art. 5º: a autoridade, verificada a procedência das informações, mandará instaurar inquérito."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A lei exige a prévia verificação da procedência das informações; não há instauração imediata e incondicional."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A decisão de instaurar cabe à autoridade policial após verificar a procedência, e não ao juiz, que não decide sobre a abertura do inquérito nessa hipótese."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A comunicação de qualquer pessoa do povo é notícia de crime válida e expressamente admitida pela lei, que não autoriza o seu simples arquivamento."
+        }
+      ],
+      "fundamento_legal": "Art. 5º, § 3º, do Código de Processo Penal (Decreto-Lei 3.689/1941).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Achar que a comunicação de qualquer pessoa do povo obriga a instaurar inquérito automaticamente, sem verificação.",
+      "lei_referencia": "CPP, art. 5º, § 3º",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Na delatio criminis de qualquer do povo, a instauração não é automática: a autoridade verifica antes a procedência das informações.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "delatio criminis",
+        "notícia de crime",
+        "procedência das informações",
+        "art. 5º § 3º"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (Decreto-Lei 3.689/1941) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Inquérito Policial",
+      "subtema": "Instauração, notitia e delatio criminis",
+      "dificuldade": "facil",
+      "enunciado": "Nos crimes de ação penal privada, o Código de Processo Penal estabelece condição específica para que a autoridade policial possa proceder a inquérito. Assinale a alternativa que descreve corretamente essa condição.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A autoridade policial somente poderá proceder a inquérito a requerimento de quem tenha qualidade para intentar a ação."
+        },
+        {
+          "id": "a2",
+          "texto": "A autoridade policial poderá proceder a inquérito de ofício, exatamente do mesmo modo que está previsto para os crimes de ação pública incondicionada."
+        },
+        {
+          "id": "a3",
+          "texto": "A autoridade policial dependerá de prévia requisição do Ministério Público para que possa instaurar o inquérito correspondente ao caso."
+        },
+        {
+          "id": "a4",
+          "texto": "A autoridade policial ficará proibida de instaurar qualquer inquérito, por ser a investigação incompatível com a natureza da ação privada."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Nos crimes de ação privada, a iniciativa é do ofendido. Por isso o art. 5º, § 5º, do CPP diz que a autoridade policial só pode proceder a inquérito a requerimento de quem tenha qualidade para intentar a ação. Não há instauração de ofício nem por requisição do MP, mas também não há proibição absoluta de investigar: basta o requerimento do legitimado.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 5º, § 5º, do CPP, que condiciona o inquérito ao requerimento de quem tem qualidade para intentar a ação privada."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A instauração de ofício é prevista para a ação pública; na ação privada a lei exige o requerimento do ofendido."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A requisição do Ministério Público não é a condição da ação privada; nela quem provoca a investigação é o legitimado a intentar a ação."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Não há proibição de investigar crime de ação privada; a lei apenas exige o requerimento de quem tem qualidade para intentar a ação."
+        }
+      ],
+      "fundamento_legal": "Art. 5º, § 5º, do Código de Processo Penal (Decreto-Lei 3.689/1941).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Transportar a instauração de ofício, própria da ação pública, para a ação privada.",
+      "lei_referencia": "CPP, art. 5º, § 5º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Na ação privada o inquérito não começa de ofício nem por requisição do MP: só a requerimento de quem pode intentar a ação.",
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "ação privada",
+        "requerimento",
+        "qualidade para intentar",
+        "art. 5º § 5º"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (Decreto-Lei 3.689/1941) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Inquérito Policial",
+      "subtema": "Instauração, notitia e delatio criminis",
+      "dificuldade": "media",
+      "enunciado": "Um cidadão apresenta à autoridade policial requerimento pedindo a abertura de inquérito sobre crime de ação pública. A autoridade indefere o pedido. Conforme o art. 5º, § 2º, do Código de Processo Penal, qual é a consequência prevista em lei para esse indeferimento?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Caberá recurso para o chefe de Polícia contra o despacho que indeferiu o requerimento de abertura de inquérito."
+        },
+        {
+          "id": "a2",
+          "texto": "Caberá recurso em sentido estrito ao tribunal competente, contra a decisão da autoridade."
+        },
+        {
+          "id": "a3",
+          "texto": "Caberá representação formal ao Ministério Público, apontada pela lei como a única via possível para reverter o indeferimento do requerimento."
+        },
+        {
+          "id": "a4",
+          "texto": "Não caberá recurso, por ser o indeferimento decisão discricionária e definitiva."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Quando o ofendido requer a abertura do inquérito (art. 5º, II) e a autoridade indefere, o art. 5º, § 2º, do CPP prevê recurso para o chefe de Polícia. Trata-se de recurso administrativo, dirigido à autoridade superior na própria estrutura policial, e não ao tribunal nem ao Ministério Público.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "É a redação do art. 5º, § 2º: do despacho que indeferir o requerimento de abertura de inquérito cabe recurso para o chefe de Polícia."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O recurso em sentido estrito é meio de impugnação de decisões judiciais; aqui o recurso é administrativo, ao chefe de Polícia."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A lei não prevê representação ao Ministério Público como via desse indeferimento; o recurso é endereçado ao chefe de Polícia."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Existe sim recurso previsto em lei para o chefe de Polícia, de modo que o indeferimento não é decisão irrecorrível."
+        }
+      ],
+      "fundamento_legal": "Art. 5º, § 2º, do Código de Processo Penal (Decreto-Lei 3.689/1941).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir o recurso administrativo ao chefe de Polícia com um recurso judicial dirigido a tribunal.",
+      "lei_referencia": "CPP, art. 5º, § 2º",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Indeferiu o requerimento de abertura? O recurso é ADMINISTRATIVO, para o chefe de Polícia, e não para o juiz.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "indeferimento",
+        "recurso",
+        "chefe de Polícia",
+        "requerimento de abertura",
+        "art. 5º § 2º"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (Decreto-Lei 3.689/1941) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Inquérito Policial",
+      "subtema": "Instauração, notitia e delatio criminis",
+      "dificuldade": "media",
+      "enunciado": "O art. 5º, § 1º, do Código de Processo Penal indica o conteúdo que o requerimento de abertura de inquérito deve conter, sempre que possível. Assinale a alternativa que NÃO corresponde a um desses elementos previstos em lei.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A indicação antecipada da classificação jurídica definitiva do crime e da pena a ser aplicada ao autor."
+        },
+        {
+          "id": "a2",
+          "texto": "A narração do fato investigado, com todas as circunstâncias que o envolvem, conforme indicado pelo requerente."
+        },
+        {
+          "id": "a3",
+          "texto": "A individualização do indiciado ou de seus sinais característicos e as razões de convicção de ser ele o autor."
+        },
+        {
+          "id": "a4",
+          "texto": "A nomeação das testemunhas do fato, com a indicação da profissão e da residência de cada uma delas."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 5º, § 1º, do CPP lista o que o requerimento deve conter sempre que possível: a narração do fato com todas as circunstâncias (alínea a), a individualização do indiciado ou seus sinais característicos e as razões de convicção ou presunção de ser ele o autor, ou os motivos da impossibilidade (alínea b), e a nomeação das testemunhas, com profissão e residência (alínea c). A lei não exige que o requerente faça a classificação jurídica definitiva do crime nem indique a pena.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "É o item que não consta do § 1º do art. 5º: a lei não pede classificação jurídica definitiva nem indicação de pena no requerimento. Por isso é a alternativa que responde ao comando."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Consta da alínea a do § 1º do art. 5º; é elemento previsto em lei, logo não é a resposta do comando."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Consta da alínea b do § 1º do art. 5º; é elemento previsto em lei, logo não é a resposta do comando."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Consta da alínea c do § 1º do art. 5º; é elemento previsto em lei, logo não é a resposta do comando."
+        }
+      ],
+      "fundamento_legal": "Art. 5º, § 1º, alíneas a, b e c, do Código de Processo Penal (Decreto-Lei 3.689/1941).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Supor que o requerente precisa já classificar juridicamente o crime e apontar a pena, o que a lei não exige.",
+      "lei_referencia": "CPP, art. 5º, § 1º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "O requerimento traz fato, indiciado e testemunhas, sempre que possível; não exige que o cidadão classifique o crime nem aponte a pena.",
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "requerimento",
+        "narração do fato",
+        "individualização do indiciado",
+        "testemunhas",
+        "art. 5º § 1º"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (Decreto-Lei 3.689/1941) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Inquérito Policial",
+      "subtema": "Instauração, notitia e delatio criminis",
+      "dificuldade": "media",
+      "enunciado": "Em crime de ação pública condicionada à representação, a autoridade policial tem notícia do fato por comunicação da vítima, mas esta ainda não ofereceu a representação. Diante do art. 5º, § 4º, do Código de Processo Penal, como deve proceder a autoridade policial quanto ao início do inquérito?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Não poderá iniciar o inquérito sem a representação, pois a lei condiciona o começo da investigação a essa manifestação."
+        },
+        {
+          "id": "a2",
+          "texto": "Deverá iniciar o inquérito de ofício de imediato, já que a simples notícia do fato comunicada pela vítima seria suficiente para a instauração da investigação."
+        },
+        {
+          "id": "a3",
+          "texto": "Poderá iniciar o inquérito desde que obtenha previamente a requisição do juiz competente para o processo e julgamento do feito."
+        },
+        {
+          "id": "a4",
+          "texto": "Deverá aguardar a requisição do Ministério Público, órgão a quem caberia substituir a representação que está ausente por parte da vítima."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Na ação pública condicionada, a representação do ofendido é condição de procedibilidade também para o inquérito. O art. 5º, § 4º, do CPP é expresso: o inquérito, nos crimes em que a ação pública depender de representação, não poderá sem ela ser iniciado. Sem a manifestação da vítima, a autoridade não instaura o inquérito, nem de ofício, nem por requisição de juiz ou do Ministério Público.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 5º, § 4º: sem a representação, o inquérito não pode ser iniciado nos crimes de ação pública condicionada."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A instauração de ofício só vale para a ação pública incondicionada; na condicionada falta a representação, que é condição para começar."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A requisição do juiz não supre a representação do ofendido; a condição legal é a manifestação da vítima, não uma ordem judicial."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O Ministério Público não substitui a representação do ofendido; sem ela, nem o MP pode fazer iniciar o inquérito."
+        }
+      ],
+      "fundamento_legal": "Art. 5º, § 4º, do Código de Processo Penal (Decreto-Lei 3.689/1941).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Tratar o crime de ação pública condicionada como se admitisse início de ofício, ignorando a falta de representação.",
+      "lei_referencia": "CPP, art. 5º, § 4º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Ação pública condicionada: sem representação não há inquérito; a representação é condição para começar a investigação.",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "ação pública condicionada",
+        "representação",
+        "condição de procedibilidade",
+        "art. 5º § 4º"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (Decreto-Lei 3.689/1941) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Inquérito Policial",
+      "subtema": "Instauração, notitia e delatio criminis",
+      "dificuldade": "media",
+      "enunciado": "Sobre as formas de instauração do inquérito policial previstas no art. 5º do Código de Processo Penal, assinale a alternativa correta quanto à diferença entre requisição e requerimento.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A requisição parte da autoridade judiciária ou do Ministério Público; o requerimento parte do ofendido ou de quem tenha qualidade para representá-lo."
+        },
+        {
+          "id": "a2",
+          "texto": "A requisição parte do próprio ofendido, enquanto o requerimento de abertura é formulado pela autoridade judiciária ou pelo órgão do Ministério Público."
+        },
+        {
+          "id": "a3",
+          "texto": "Tanto a requisição quanto o requerimento de abertura do inquérito só podem ser apresentados pela autoridade judiciária que for competente para o caso."
+        },
+        {
+          "id": "a4",
+          "texto": "Tanto a requisição quanto o requerimento de abertura do inquérito partem exclusivamente do ofendido ou de quem seja o seu representante legal."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 5º, II, do CPP separa duas formas de provocação: a requisição, que vem da autoridade judiciária ou do Ministério Público, e o requerimento, que parte do ofendido ou de quem tenha qualidade para representá-lo. Trocar quem faz cada ato é o erro mais comum; por isso é útil lembrar que requisição está ligada a juiz e MP, e requerimento à vítima.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Descreve corretamente o art. 5º, II: requisição é de juiz ou MP; requerimento é do ofendido ou de quem o represente."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Inverte os papéis: a requisição não parte do ofendido, e o requerimento não é de juiz ou do MP."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O requerimento é do ofendido, não só da autoridade judiciária; a afirmação exclui indevidamente a vítima e o MP."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A requisição pode vir do juiz ou do MP, de modo que nem tudo parte do ofendido; a afirmação ignora essas fontes."
+        }
+      ],
+      "fundamento_legal": "Art. 5º, inciso II, do Código de Processo Penal (Decreto-Lei 3.689/1941).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Inverter quem requisita (juiz e MP) e quem requer (o ofendido).",
+      "lei_referencia": "CPP, art. 5º, II",
+      "macete_do_riccardo": "ReQUISIção vem de autoridade (juiz ou MP); reQUERImento vem de quem quer e pede (o ofendido).",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "requisição",
+        "requerimento",
+        "autoridade judiciária",
+        "Ministério Público",
+        "ofendido"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (Decreto-Lei 3.689/1941) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Inquérito Policial",
+      "subtema": "Instauração, notitia e delatio criminis",
+      "dificuldade": "dificil",
+      "enunciado": "Durante um plantão, um Guarda Municipal recebe de um morador a comunicação verbal de que teria ocorrido furto no bairro, crime de ação pública incondicionada. O morador pede providências imediatas. Considerando o art. 5º do Código de Processo Penal, assinale a alternativa correta sobre o tratamento dessa comunicação.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A comunicação verbal é forma válida de notícia de crime e, verificada a procedência das informações, a autoridade policial mandará instaurar inquérito."
+        },
+        {
+          "id": "a2",
+          "texto": "A comunicação verbal não produz efeito, porque a notícia de crime feita por um particular exigiria sempre a forma escrita para que possa ser recebida."
+        },
+        {
+          "id": "a3",
+          "texto": "A comunicação obriga a autoridade a instaurar inquérito de imediato, sem lhe deixar margem para verificar antes a procedência daquilo que foi relatado."
+        },
+        {
+          "id": "a4",
+          "texto": "A comunicação deve ser encaminhada ao juiz competente, pois só a ele caberia decidir se as informações prestadas pelo particular justificam a abertura."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 5º, § 3º, do CPP admite que qualquer pessoa do povo comunique o crime de ação pública verbalmente ou por escrito. Recebida a notícia, a autoridade verifica a procedência das informações e, confirmada, manda instaurar o inquérito. Logo, a forma verbal é válida, não há instauração automática e a decisão de abrir a investigação é da autoridade policial, não do juiz.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Une dois pontos do § 3º do art. 5º: a comunicação pode ser verbal e a instauração depende da verificação da procedência pela autoridade."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O § 3º admite expressamente a comunicação verbal; não há exigência de forma escrita para a notícia de crime feita por particular."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A lei condiciona a instauração à verificação da procedência das informações; não existe dever de instaurar de imediato e sem análise."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A decisão de instaurar é da autoridade policial, após verificar a procedência; o juiz não decide sobre a abertura nessa hipótese."
+        }
+      ],
+      "fundamento_legal": "Art. 5º, § 3º, do Código de Processo Penal (Decreto-Lei 3.689/1941).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Exigir forma escrita para a delatio criminis ou tratar a comunicação como ordem de instaurar sem verificação.",
+      "lei_referencia": "CPP, art. 5º, § 3º",
+      "macete_do_riccardo": null,
+      "fique_ligado": "A delatio criminis pode ser verbal OU escrita; o que prende a instauração é a verificação da procedência, não a forma.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "delatio criminis",
+        "comunicação verbal",
+        "procedência",
+        "instauração",
+        "art. 5º § 3º"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (Decreto-Lei 3.689/1941) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Inquérito Policial",
+      "subtema": "Instauração, notitia e delatio criminis",
+      "dificuldade": "dificil",
+      "enunciado": "Analise as afirmações sobre as formas de instauração do inquérito policial no Código de Processo Penal: I. Nos crimes de ação pública, o inquérito pode ser iniciado de ofício pela autoridade policial. II. Nos crimes de ação pública condicionada à representação, o inquérito não pode ser iniciado sem ela. III. Nos crimes de ação privada, a autoridade policial pode instaurar o inquérito de ofício. Assinale a alternativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Apenas as afirmações I e II estão corretas."
+        },
+        {
+          "id": "a2",
+          "texto": "Apenas as afirmações I e III estão corretas."
+        },
+        {
+          "id": "a3",
+          "texto": "Apenas as afirmações II e III estão corretas."
+        },
+        {
+          "id": "a4",
+          "texto": "Todas as afirmações estão corretas."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A afirmação I está certa: o art. 5º, I, prevê o início de ofício na ação pública. A II também: o art. 5º, § 4º, veda o início do inquérito sem a representação nos crimes de ação pública condicionada. A III está errada: na ação privada, o art. 5º, § 5º, exige requerimento de quem tenha qualidade para intentar a ação, não havendo instauração de ofício. Corretas, portanto, apenas I e II.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "As afirmações I (art. 5º, I) e II (art. 5º, § 4º) reproduzem a lei; a III contraria o art. 5º, § 5º, logo apenas I e II estão corretas."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Inclui a afirmação III, que é falsa: na ação privada não cabe instauração de ofício, mas apenas a requerimento do legitimado."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Inclui a afirmação III, falsa, e exclui a I, que é verdadeira; a ação pública admite início de ofício."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A afirmação III é incorreta, de modo que nem todas estão certas; a ação privada não comporta inquérito de ofício."
+        }
+      ],
+      "fundamento_legal": "Art. 5º, inciso I, § 4º e § 5º, do Código de Processo Penal (Decreto-Lei 3.689/1941).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Estender o início de ofício, próprio da ação pública, aos crimes de ação privada.",
+      "lei_referencia": "CPP, art. 5º, I, §§ 4º e 5º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "De ofício só na ação pública incondicionada; condicionada exige representação; privada exige requerimento do ofendido.",
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "de ofício",
+        "ação pública",
+        "ação condicionada",
+        "ação privada",
+        "art. 5º"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (Decreto-Lei 3.689/1941) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Inquérito Policial",
+      "subtema": "Instauração, notitia e delatio criminis",
+      "dificuldade": "dificil",
+      "enunciado": "O ofendido apresenta requerimento de abertura de inquérito em crime de ação pública, acompanhado da narração do fato e da indicação de testemunhas. A autoridade policial indefere o pedido por entender ausentes indícios mínimos. Com base no art. 5º do Código de Processo Penal, assinale a alternativa correta sobre a situação.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O ofendido poderá recorrer do indeferimento ao chefe de Polícia, e o requerimento deve conter, sempre que possível, narração do fato, individualização do indiciado e nomeação de testemunhas."
+        },
+        {
+          "id": "a2",
+          "texto": "O ofendido não dispõe de qualquer recurso contra esse indeferimento, embora o requerimento devesse trazer a narração do fato ocorrido e também a nomeação das testemunhas com sua profissão e residência."
+        },
+        {
+          "id": "a3",
+          "texto": "O ofendido poderá recorrer do indeferimento ao juiz competente para o feito, bastando ao requerimento a simples menção genérica da existência do crime que teria sido praticado contra ele."
+        },
+        {
+          "id": "a4",
+          "texto": "O ofendido poderá recorrer do indeferimento ao Ministério Público, órgão a quem caberia exigir do requerente a prévia classificação jurídica definitiva do crime narrado no pedido."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A questão reúne dois pontos do art. 5º. Pelo § 2º, do despacho que indefere o requerimento de abertura de inquérito cabe recurso ao chefe de Polícia, recurso administrativo. Pelo § 1º, o requerimento deve conter, sempre que possível, a narração do fato com as circunstâncias, a individualização do indiciado ou seus sinais característicos e a nomeação das testemunhas com profissão e residência. Logo, há recurso ao chefe de Polícia e o conteúdo mínimo do requerimento é esse.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Combina corretamente o § 2º (recurso ao chefe de Polícia) e o § 1º (conteúdo do requerimento) do art. 5º."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Erra ao negar a existência de recurso; o § 2º prevê recurso ao chefe de Polícia contra o indeferimento."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O recurso é ao chefe de Polícia, não ao juiz, e o § 1º pede conteúdo detalhado, não a simples menção genérica do crime."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O recurso é ao chefe de Polícia, não ao MP, e a lei não exige que o requerente faça a classificação jurídica do crime."
+        }
+      ],
+      "fundamento_legal": "Art. 5º, § 1º e § 2º, do Código de Processo Penal (Decreto-Lei 3.689/1941).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Direcionar o recurso ao juiz ou ao MP e esvaziar o conteúdo mínimo que o requerimento deve trazer.",
+      "lei_referencia": "CPP, art. 5º, §§ 1º e 2º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Recurso contra o indeferimento é para o chefe de Polícia; o requerimento pede fato, indiciado e testemunhas, sempre que possível.",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "indeferimento",
+        "chefe de Polícia",
+        "conteúdo do requerimento",
+        "art. 5º §§ 1º e 2º"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (Decreto-Lei 3.689/1941) fornecido no contexto"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "subtema": "Instauração, notitia e delatio criminis",
+      "frente": "Nos crimes de ação pública, de quais formas o inquérito policial pode ser iniciado?",
+      "verso": "De ofício; mediante requisição da autoridade judiciária ou do Ministério Público; ou a requerimento do ofendido ou de quem tenha qualidade para representá-lo (art. 5º, I e II, do CPP).",
+      "fundamento_legal": "Art. 5º, incisos I e II, do CPP.",
+      "lei_referencia": "CPP, art. 5º, I e II",
+      "palavras_chave": [
+        "instauração",
+        "ação pública",
+        "requisição",
+        "requerimento"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f02",
+      "subtema": "Instauração, notitia e delatio criminis",
+      "frente": "Cabe recurso contra o despacho que indefere o requerimento de abertura de inquérito? Para quem?",
+      "verso": "Sim. Do despacho que indeferir o requerimento de abertura de inquérito cabe recurso para o chefe de Polícia, recurso de natureza administrativa (art. 5º, § 2º, do CPP).",
+      "fundamento_legal": "Art. 5º, § 2º, do CPP.",
+      "lei_referencia": "CPP, art. 5º, § 2º",
+      "palavras_chave": [
+        "indeferimento",
+        "recurso",
+        "chefe de Polícia"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f03",
+      "subtema": "Instauração, notitia e delatio criminis",
+      "frente": "Nos crimes de ação privada e nos de ação pública condicionada, como fica o início do inquérito?",
+      "verso": "Na ação privada, a autoridade só procede a inquérito a requerimento de quem tenha qualidade para intentar a ação (art. 5º, § 5º). Na ação pública condicionada, o inquérito não pode ser iniciado sem a representação (art. 5º, § 4º, do CPP).",
+      "fundamento_legal": "Art. 5º, §§ 4º e 5º, do CPP.",
+      "lei_referencia": "CPP, art. 5º, §§ 4º e 5º",
+      "palavras_chave": [
+        "ação privada",
+        "ação condicionada",
+        "representação",
+        "requerimento"
+      ],
+      "cita_jurisprudencia": false
+    }
+  ]
+}
