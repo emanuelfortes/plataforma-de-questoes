@@ -1,0 +1,749 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Atos Administrativos",
+      "subtema": "Anulação, revogação, cassação e convalidação",
+      "dificuldade": "facil",
+      "enunciado": "Conforme a Lei 9.784/1999, diante de um ato administrativo seu que se revele contrário à lei, qual é o dever imposto à Administração?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Deve anular o ato eivado de vício de legalidade, respeitados os direitos adquiridos pelos destinatários."
+        },
+        {
+          "id": "a2",
+          "texto": "Deve apenas suspender o ato ilegal até que decisão judicial confirme a existência do vício de legalidade."
+        },
+        {
+          "id": "a3",
+          "texto": "Pode manter o ato ilegal por conveniência, desde que ele atenda melhor ao interesse público do serviço."
+        },
+        {
+          "id": "a4",
+          "texto": "Deve revogar o ato ilegal, com fundamento em juízo de conveniência e oportunidade da autoridade competente."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 53 da Lei 9.784/1999 diz que a Administração deve anular seus próprios atos quando eivados de vício de legalidade, respeitados os direitos adquiridos. A anulação é dever (ato vinculado ao controle de legalidade), não faculdade. O vício de legalidade leva à anulação; a conveniência é fundamento da revogação, não do desfazimento do ato ilegal.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 53: dever de anular o ato com vício de legalidade, respeitados os direitos adquiridos."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O art. 53 impõe a anulação pela própria Administração (autotutela), não apenas suspensão à espera de decisão judicial."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A conveniência não justifica manter ato ilegal; o vício de legalidade conduz ao dever de anular, não à revogação."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A revogação se funda em conveniência ou oportunidade; o ato ilegal é anulado, não revogado."
+        }
+      ],
+      "fundamento_legal": "Lei 9.784/1999, art. 53",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Associar o vício de legalidade à revogação por conveniência, em vez do dever de anular.",
+      "lei_referencia": "Lei 9.784/1999, art. 53",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Vício de legalidade gera dever de anular; a Administração não escolhe manter ato ilegal por conveniência.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "anulação",
+        "vício de legalidade",
+        "dever",
+        "direitos adquiridos",
+        "autotutela"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 9.784/1999 (arts. 11 a 17, 50 e 53 a 55) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Atos Administrativos",
+      "subtema": "Anulação, revogação, cassação e convalidação",
+      "dificuldade": "facil",
+      "enunciado": "Segundo a Lei 9.784/1999, qual é o fundamento que autoriza a Administração a revogar um de seus atos administrativos?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Motivo de conveniência ou oportunidade quanto a ato válido, respeitados os direitos adquiridos pelos destinatários do ato."
+        },
+        {
+          "id": "a2",
+          "texto": "Existência de vício de legalidade no ato, apurado em processo administrativo próprio instaurado para esse fim."
+        },
+        {
+          "id": "a3",
+          "texto": "Descumprimento superveniente de condições pelo beneficiário, que assim perde a vantagem antes regularmente deferida pelo ato administrativo válido."
+        },
+        {
+          "id": "a4",
+          "texto": "Defeito sanável do ato, sem lesão ao interesse público nem prejuízo a terceiros interessados no processo."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 53 da Lei 9.784/1999 permite à Administração revogar seus atos por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos. A revogação atua sobre atos válidos que deixaram de atender ao interesse público; a ilegalidade conduz à anulação, e o defeito sanável sem lesão nem prejuízo conduz à convalidação (art. 55).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 53: a revogação se funda em conveniência ou oportunidade, respeitados os direitos adquiridos."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O vício de legalidade enseja anulação (art. 53), não revogação."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O descumprimento de condições descreve a cassação, instituto não disciplinado nos dispositivos fornecidos; o fundamento da revogação é a conveniência."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O defeito sanável sem lesão nem prejuízo é hipótese de convalidação (art. 55), não de revogação."
+        }
+      ],
+      "fundamento_legal": "Lei 9.784/1999, art. 53",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir os fundamentos: dar à revogação o motivo da anulação (ilegalidade) ou da convalidação (defeito sanável).",
+      "lei_referencia": "Lei 9.784/1999, art. 53",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Revogação olha o mérito (conveniência e oportunidade); nunca se funda em ilegalidade do ato.",
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "revogação",
+        "conveniência",
+        "oportunidade",
+        "mérito",
+        "direitos adquiridos"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 9.784/1999 (arts. 11 a 17, 50 e 53 a 55) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Atos Administrativos",
+      "subtema": "Anulação, revogação, cassação e convalidação",
+      "dificuldade": "facil",
+      "enunciado": "De acordo com a Lei 9.784/1999, a convalidação de ato administrativo pela própria Administração pressupõe qual tipo de defeito no ato?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Defeito sanável, cuja decisão evidencie não haver lesão ao interesse público nem prejuízo a terceiros."
+        },
+        {
+          "id": "a2",
+          "texto": "Defeito de qualquer natureza, sanável ou insanável, desde que o ato tenha produzido efeitos favoráveis."
+        },
+        {
+          "id": "a3",
+          "texto": "Vício de competência insanável, decorrente de ato praticado por órgão que carecia de atribuição legal."
+        },
+        {
+          "id": "a4",
+          "texto": "Ausência total de motivação, suprida por declaração posterior da autoridade que praticou o ato."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 55 da Lei 9.784/1999 autoriza a convalidação apenas de atos com defeitos sanáveis, quando a decisão evidenciar que não há lesão ao interesse público nem prejuízo a terceiros. Convalidar é corrigir o vício sanável mantendo o ato; o defeito insanável conduz à anulação, não à convalidação.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "É a redação do art. 55: defeito sanável, sem lesão ao interesse público nem prejuízo a terceiros."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A convalidação exige defeito sanável; o defeito insanável não pode ser convalidado, mesmo que o ato seja favorável."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O vício de competência por falta de atribuição legal é defeito insanável, que conduz à anulação, não à convalidação do art. 55."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 55 não trata de suprir motivação; condiciona a convalidação ao defeito sanável e à ausência de lesão ou prejuízo."
+        }
+      ],
+      "fundamento_legal": "Lei 9.784/1999, art. 55",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Admitir convalidação de defeito insanável ou de qualquer vício, ignorando a exigência de defeito sanável.",
+      "lei_referencia": "Lei 9.784/1999, art. 55",
+      "macete_do_riccardo": "Convalidou? Só defeito Sanável, Sem lesão ao interesse público, Sem prejuízo a terceiros (3S).",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "convalidação",
+        "defeito sanável",
+        "lesão ao interesse público",
+        "prejuízo a terceiros"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 9.784/1999 (arts. 11 a 17, 50 e 53 a 55) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Atos Administrativos",
+      "subtema": "Anulação, revogação, cassação e convalidação",
+      "dificuldade": "media",
+      "enunciado": "A Administração concedeu, por ato administrativo, uma vantagem com efeitos favoráveis ao destinatário. Posteriormente, identificou ilegalidade no ato. À luz da Lei 9.784/1999, qual é o prazo e o termo inicial para que a Administração anule esse ato?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Cinco anos, contados da data em que o ato foi praticado, salvo comprovada má-fé do beneficiário."
+        },
+        {
+          "id": "a2",
+          "texto": "Cinco anos, contados da data em que a ilegalidade foi efetivamente conhecida pela autoridade administrativa."
+        },
+        {
+          "id": "a3",
+          "texto": "Dez anos, contados da data da prática do ato, prazo que não se interrompe nem se suspende por qualquer motivo."
+        },
+        {
+          "id": "a4",
+          "texto": "Prazo não previsto em lei, pois o direito de anular ato ilegal pode ser exercido pela Administração a qualquer tempo."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 54 da Lei 9.784/1999 fixa em cinco anos o prazo de decadência do direito de a Administração anular atos de que decorram efeitos favoráveis, contados da data em que foram praticados, salvo comprovada má-fé. O termo inicial é a prática do ato (regra geral); a má-fé afasta a decadência. A contagem a partir do primeiro pagamento só vale para efeitos patrimoniais contínuos (§ 1º).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o caput do art. 54: cinco anos da prática do ato, salvo comprovada má-fé."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O termo inicial é a data da prática do ato, não a data em que a ilegalidade foi conhecida."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O prazo do art. 54 é de cinco anos, não de dez."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Há prazo decadencial de cinco anos no art. 54; o direito de anular atos favoráveis não é atemporal, salvo má-fé."
+        }
+      ],
+      "fundamento_legal": "Lei 9.784/1999, art. 54, caput",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar o termo inicial da decadência (prática do ato) pela data em que a ilegalidade foi conhecida.",
+      "lei_referencia": "Lei 9.784/1999, art. 54",
+      "macete_do_riccardo": null,
+      "fique_ligado": "A regra do art. 54 conta cinco anos da prática do ato; só nos efeitos patrimoniais contínuos vai para o primeiro pagamento.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "decadência",
+        "cinco anos",
+        "data da prática",
+        "efeitos favoráveis",
+        "má-fé"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 9.784/1999 (arts. 11 a 17, 50 e 53 a 55) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Atos Administrativos",
+      "subtema": "Conceito, requisitos e atributos",
+      "dificuldade": "media",
+      "enunciado": "Ao decidir, a Administração anulou um ato administrativo anterior. Conforme a Lei 9.784/1999, quanto à motivação dessa decisão de anulação, é correto afirmar que",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "a decisão deve ser motivada, com indicação dos fatos e dos fundamentos jurídicos, por importar anulação de ato administrativo."
+        },
+        {
+          "id": "a2",
+          "texto": "a decisão dispensa motivação, pois o desfazimento do ato ilegal decorre automaticamente do dever de autotutela."
+        },
+        {
+          "id": "a3",
+          "texto": "a motivação é exigida apenas se a anulação atingir ato que tenha gerado direito adquirido ao destinatário."
+        },
+        {
+          "id": "a4",
+          "texto": "a motivação só é obrigatória quando a anulação resultar de provocação do interessado por recurso administrativo."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 50 da Lei 9.784/1999 exige motivação, com indicação dos fatos e dos fundamentos jurídicos, nos atos que importem anulação, revogação, suspensão ou convalidação de ato administrativo (inciso VIII). A anulação, portanto, deve ser sempre motivada, independentemente de direito adquirido ou de provocação por recurso.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 50, VIII: a anulação de ato administrativo é hipótese de motivação obrigatória."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O art. 50, VIII, impõe motivação à anulação; o dever de autotutela não dispensa a indicação dos fatos e fundamentos."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A motivação da anulação não depende de haver direito adquirido; decorre do próprio art. 50, VIII."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A exigência de motivação não se condiciona à provocação por recurso; a anulação a exige em si (art. 50, VIII)."
+        }
+      ],
+      "fundamento_legal": "Lei 9.784/1999, art. 50, VIII",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Supor que a anulação dispensa motivação por decorrer da autotutela.",
+      "lei_referencia": "Lei 9.784/1999, art. 50, VIII",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Anular, revogar, suspender ou convalidar ato são sempre decisões que exigem motivação (art. 50, VIII).",
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "motivação",
+        "anulação",
+        "fatos",
+        "fundamentos jurídicos",
+        "art. 50"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 9.784/1999 (arts. 11 a 17, 50 e 53 a 55) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Atos Administrativos",
+      "subtema": "Anulação, revogação, cassação e convalidação",
+      "dificuldade": "media",
+      "enunciado": "Ao estudar o desfazimento dos atos administrativos na Lei 9.784/1999, um candidato compara anulação e revogação. Qual afirmação distingue corretamente os dois institutos conforme a lei?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A anulação recai sobre ato com vício de legalidade e é um dever; a revogação recai sobre ato válido e se funda em conveniência ou oportunidade."
+        },
+        {
+          "id": "a2",
+          "texto": "A anulação recai sobre ato válido inconveniente e é facultativa; a revogação recai sobre ato ilegal e constitui um dever da Administração."
+        },
+        {
+          "id": "a3",
+          "texto": "Tanto a anulação quanto a revogação exigem vício de legalidade no ato e constituem deveres vinculados da Administração."
+        },
+        {
+          "id": "a4",
+          "texto": "Tanto a anulação quanto a revogação são faculdades da Administração e dispensam o respeito aos direitos adquiridos pelos destinatários."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 53 da Lei 9.784/1999 separa os dois institutos: a Administração deve anular atos eivados de vício de legalidade (dever, controle de legalidade) e pode revogar atos válidos por conveniência ou oportunidade (faculdade, juízo de mérito), sempre respeitados os direitos adquiridos. Logo, ilegalidade leva à anulação; inconveniência de ato válido leva à revogação.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reflete o art. 53: anulação por ilegalidade (dever) e revogação por conveniência ou oportunidade (faculdade)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Inverte os institutos: o vício de legalidade enseja anulação, e o ato válido inconveniente é revogado."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A revogação não pressupõe vício de legalidade; recai sobre ato válido por motivo de conveniência ou oportunidade."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A anulação é dever, não faculdade, e o art. 53 ressalva expressamente os direitos adquiridos."
+        }
+      ],
+      "fundamento_legal": "Lei 9.784/1999, art. 53",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Inverter dever e faculdade ou os fundamentos (legalidade x conveniência) de anulação e revogação.",
+      "lei_referencia": "Lei 9.784/1999, art. 53",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Anular é dever e olha a legalidade; revogar é faculdade e olha o mérito. Os dois respeitam direitos adquiridos.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "anulação",
+        "revogação",
+        "dever",
+        "faculdade",
+        "mérito"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 9.784/1999 (arts. 11 a 17, 50 e 53 a 55) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Atos Administrativos",
+      "subtema": "Anulação, revogação, cassação e convalidação",
+      "dificuldade": "media",
+      "enunciado": "A Administração verificou, em um de seus atos, um defeito que pode ser corrigido sem comprometer a validade do restante do ato. Pretende, então, mantê-lo em vigor. Segundo a Lei 9.784/1999, essa medida",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "é a convalidação, cabível quando o defeito é sanável e a decisão evidencia não haver lesão ao interesse público nem prejuízo a terceiros."
+        },
+        {
+          "id": "a2",
+          "texto": "é a revogação parcial, cabível sempre que o defeito do ato decorrer de simples inconveniência superveniente do ato administrativo."
+        },
+        {
+          "id": "a3",
+          "texto": "é a anulação com efeitos limitados, aplicável a qualquer vício, inclusive insanável, desde que preservada parte dos efeitos já produzidos."
+        },
+        {
+          "id": "a4",
+          "texto": "é vedada em qualquer hipótese, pois todo ato defeituoso deve ser necessariamente anulado pela própria Administração."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A medida descrita é a convalidação do art. 55 da Lei 9.784/1999: cabível para defeitos sanáveis, quando a decisão evidencie não haver lesão ao interesse público nem prejuízo a terceiros. Convalidar mantém o ato, corrigindo o vício sanável; não se confunde com revogação (ato válido inconveniente) nem com anulação (vício de legalidade, inclusive insanável).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Descreve o art. 55: convalidação de defeito sanável, sem lesão ao interesse público nem prejuízo a terceiros."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A revogação pressupõe ato válido inconveniente, não a correção de um defeito; a hipótese é de convalidação."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A convalidação do art. 55 exige defeito sanável; o vício insanável conduz à anulação, não à manutenção do ato."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A lei admite a convalidação (art. 55); nem todo ato defeituoso precisa ser anulado."
+        }
+      ],
+      "fundamento_legal": "Lei 9.784/1999, art. 55",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir a convalidação de defeito sanável com revogação ou com anulação de efeitos limitados.",
+      "lei_referencia": "Lei 9.784/1999, art. 55",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Corrigir o vício e manter o ato é convalidar (art. 55); só vale para defeito sanável, sem lesão nem prejuízo.",
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "convalidação",
+        "defeito sanável",
+        "manutenção do ato",
+        "interesse público"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 9.784/1999 (arts. 11 a 17, 50 e 53 a 55) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Atos Administrativos",
+      "subtema": "Anulação, revogação, cassação e convalidação",
+      "dificuldade": "dificil",
+      "enunciado": "Em 2015, a Administração reconheceu a um servidor, mediante ato ilegal, uma gratificação paga mês a mês desde então, tendo o servidor agido de boa-fé. Em 2024, a Administração pretende anular o ato. Segundo a Lei 9.784/1999, o prazo de decadência",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "conta-se da percepção do primeiro pagamento da gratificação, por se tratar de efeitos patrimoniais contínuos."
+        },
+        {
+          "id": "a2",
+          "texto": "conta-se da data em que o ato de reconhecimento da gratificação foi praticado, independentemente dos pagamentos mensais."
+        },
+        {
+          "id": "a3",
+          "texto": "renova-se a cada pagamento mensal da gratificação, reiniciando a contagem dos cinco anos a partir de cada parcela recebida."
+        },
+        {
+          "id": "a4",
+          "texto": "não se aplica, pois, havendo boa-fé do beneficiário, o ato se torna insuscetível de anulação pela Administração."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Como há efeitos patrimoniais contínuos (gratificação paga mês a mês), incide o art. 54, § 1º, da Lei 9.784/1999: o prazo de decadência de cinco anos conta-se da percepção do primeiro pagamento, e não da data da prática do ato. A boa-fé não afasta a decadência (quem a afasta é a má-fé, pelo caput), e o prazo não se renova a cada pagamento.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Aplica o art. 54, § 1º: nos efeitos patrimoniais contínuos, o prazo corre da percepção do primeiro pagamento."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A regra geral (prática do ato) cede ao § 1º quando os efeitos são patrimoniais contínuos, caso dos autos."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O § 1º fixa o termo inicial no primeiro pagamento; não há renovação do prazo a cada pagamento mensal."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A boa-fé não afasta a decadência; o caput do art. 54 só ressalva a hipótese de comprovada má-fé."
+        }
+      ],
+      "fundamento_legal": "Lei 9.784/1999, art. 54, caput e § 1º",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Imaginar que a boa-fé impede a anulação ou que o prazo se renova a cada pagamento da vantagem.",
+      "lei_referencia": "Lei 9.784/1999, art. 54, § 1º",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Má-fé afasta a decadência; boa-fé não. No efeito patrimonial contínuo, conte do primeiro pagamento.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "decadência",
+        "efeitos patrimoniais contínuos",
+        "primeiro pagamento",
+        "boa-fé",
+        "má-fé"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 9.784/1999 (arts. 11 a 17, 50 e 53 a 55) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Atos Administrativos",
+      "subtema": "Anulação, revogação, cassação e convalidação",
+      "dificuldade": "dificil",
+      "enunciado": "Dentro do prazo de cinco anos, a autoridade administrativa instaurou procedimento que impugnou expressamente a validade de ato do qual decorriam efeitos favoráveis ao destinatário. Conforme a Lei 9.784/1999, qual é o efeito dessa medida sobre o prazo de decadência do direito de anular?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A medida configura exercício do direito de anular, pois qualquer medida de autoridade que importe impugnação à validade do ato tem esse efeito."
+        },
+        {
+          "id": "a2",
+          "texto": "A medida é irrelevante para a decadência, que só se considera exercida com a edição do ato final que efetivamente anula o ato impugnado."
+        },
+        {
+          "id": "a3",
+          "texto": "A medida suspende o prazo de decadência por prazo certo, voltando a correr integralmente após o encerramento do procedimento."
+        },
+        {
+          "id": "a4",
+          "texto": "A medida converte o prazo de decadência em prazo de prescrição, que passa a admitir interrupção por iniciativa do interessado."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 54, § 2º, da Lei 9.784/1999 considera exercício do direito de anular qualquer medida de autoridade administrativa que importe impugnação à validade do ato. Assim, a impugnação expressa feita dentro dos cinco anos já configura o exercício do direito, não sendo necessário aguardar o ato final de anulação para evitar a decadência.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 54, § 2º: qualquer medida que importe impugnação à validade do ato é exercício do direito de anular."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O § 2º equipara a impugnação à validade ao exercício do direito; não se exige o ato final de anulação para tanto."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A lei não trata de suspensão com retomada integral; a impugnação já configura o exercício do direito (§ 2º)."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 54 trata de prazo de decadência; não há conversão em prescrição nem previsão de interrupção pelo interessado."
+        }
+      ],
+      "fundamento_legal": "Lei 9.784/1999, art. 54, § 2º",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Exigir o ato final de anulação para evitar a decadência, ignorando que a impugnação à validade já é exercício do direito.",
+      "lei_referencia": "Lei 9.784/1999, art. 54, § 2º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Pelo § 2º, basta uma medida que impugne a validade do ato; não é preciso concluir a anulação dentro dos cinco anos.",
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "exercício do direito de anular",
+        "impugnação à validade",
+        "decadência",
+        "art. 54",
+        "§ 2º"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 9.784/1999 (arts. 11 a 17, 50 e 53 a 55) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Atos Administrativos",
+      "subtema": "Anulação, revogação, cassação e convalidação",
+      "dificuldade": "dificil",
+      "enunciado": "Sobre o regime do desfazimento e da manutenção dos atos administrativos na Lei 9.784/1999, considere as situações: a Administração pretende (I) anular ato ilegal do qual decorrem efeitos favoráveis ao destinatário de boa-fé, praticado há sete anos; e (II) convalidar ato com defeito sanável que não causa lesão ao interesse público nem prejuízo a terceiros. É correto afirmar que",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "em (I) a anulação está impedida pela decadência de cinco anos, e em (II) a convalidação é admitida pela própria Administração."
+        },
+        {
+          "id": "a2",
+          "texto": "em (I) a anulação é possível a qualquer tempo por se tratar de ato ilegal, e em (II) a convalidação depende de autorização judicial."
+        },
+        {
+          "id": "a3",
+          "texto": "em (I) a anulação está impedida porque a boa-fé a torna definitiva, e em (II) a convalidação é vedada por se tratar de ato defeituoso."
+        },
+        {
+          "id": "a4",
+          "texto": "em (I) a anulação é possível porque o prazo só começa a correr quando a ilegalidade é descoberta, e em (II) a convalidação exige prévia anulação."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Em (I), como o ato gera efeitos favoráveis e o destinatário está de boa-fé, incide o art. 54: a decadência de cinco anos, contada da prática do ato, já se consumou após sete anos, impedindo a anulação (a boa-fé não afasta a decadência; só a má-fé, pelo caput). Em (II), o art. 55 admite a convalidação pela própria Administração dos defeitos sanáveis, sem lesão ao interesse público nem prejuízo a terceiros, sem necessidade de intervenção judicial.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Combina o art. 54 (decadência de cinco anos consumada em (I)) e o art. 55 (convalidação pela própria Administração em (II))."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O art. 54 submete a anulação de ato favorável a prazo decadencial; e a convalidação do art. 55 é feita pela própria Administração, sem autorização judicial."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A boa-fé não torna o ato definitivo; é a decadência que impede a anulação. E a convalidação é justamente para atos com defeito sanável."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O prazo conta-se da prática do ato, não da descoberta da ilegalidade; e a convalidação não pressupõe anulação prévia."
+        }
+      ],
+      "fundamento_legal": "Lei 9.784/1999, arts. 54 e 55",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Achar que a ilegalidade permite anular a qualquer tempo e que a convalidação depende do Judiciário.",
+      "lei_referencia": "Lei 9.784/1999, arts. 54 e 55",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Ato favorável de boa-fé: cinco anos da prática e depois decai. Convalidação é da própria Administração, sem juiz.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "decadência",
+        "anulação",
+        "convalidação",
+        "boa-fé",
+        "autotutela"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 9.784/1999 (arts. 11 a 17, 50 e 53 a 55) fornecido no contexto"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "subtema": "Anulação, revogação, cassação e convalidação",
+      "frente": "Pela Lei 9.784/1999, anular é dever ou faculdade da Administração? E revogar?",
+      "verso": "Pelo art. 53 da Lei 9.784/1999, anular é dever: a Administração deve anular seus atos quando eivados de vício de legalidade. Revogar é faculdade: pode revogá-los por motivo de conveniência ou oportunidade. Em ambos, respeitam-se os direitos adquiridos.",
+      "fundamento_legal": "Lei 9.784/1999, art. 53",
+      "lei_referencia": "Lei 9.784/1999, art. 53",
+      "palavras_chave": [
+        "anulação",
+        "revogação",
+        "dever",
+        "faculdade"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f02",
+      "subtema": "Anulação, revogação, cassação e convalidação",
+      "frente": "Pela Lei 9.784/1999, a partir de quando corre o prazo de decadência para anular ato com efeitos patrimoniais contínuos?",
+      "verso": "Pelo art. 54, § 1º, da Lei 9.784/1999, nos casos de efeitos patrimoniais contínuos o prazo de decadência de cinco anos conta-se da percepção do primeiro pagamento, e não da data da prática do ato.",
+      "fundamento_legal": "Lei 9.784/1999, art. 54, § 1º",
+      "lei_referencia": "Lei 9.784/1999, art. 54, § 1º",
+      "palavras_chave": [
+        "decadência",
+        "efeitos patrimoniais contínuos",
+        "primeiro pagamento",
+        "cinco anos"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f03",
+      "subtema": "Conceito, requisitos e atributos",
+      "frente": "Pela Lei 9.784/1999, a anulação, a revogação, a suspensão e a convalidação de ato administrativo precisam ser motivadas?",
+      "verso": "Sim. Pelo art. 50, VIII, da Lei 9.784/1999, os atos que importem anulação, revogação, suspensão ou convalidação de ato administrativo devem ser motivados, com indicação dos fatos e dos fundamentos jurídicos.",
+      "fundamento_legal": "Lei 9.784/1999, art. 50, VIII",
+      "lei_referencia": "Lei 9.784/1999, art. 50, VIII",
+      "palavras_chave": [
+        "motivação",
+        "anulação",
+        "revogação",
+        "convalidação"
+      ],
+      "cita_jurisprudencia": false
+    }
+  ]
+}

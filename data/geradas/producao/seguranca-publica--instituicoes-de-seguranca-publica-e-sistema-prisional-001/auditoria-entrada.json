@@ -1,0 +1,828 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Instituições de Segurança Pública e Sistema Prisional",
+      "subtema": "Órgãos de segurança pública na Constituição",
+      "dificuldade": "facil",
+      "enunciado": "A segurança pública é exercida por um conjunto de órgãos previstos na Constituição Federal, cada qual com atribuições próprias. Entre os órgãos expressamente arrolados como responsáveis pela preservação da ordem pública e da incolumidade das pessoas e do patrimônio, assinale a opção que indica uma corporação que integra esse rol constitucional.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A polícia militar, encarregada do policiamento ostensivo e da preservação da ordem pública no âmbito dos estados."
+        },
+        {
+          "id": "a2",
+          "texto": "A guarda portuária federal, encarregada do controle de passaportes e vistos nas fronteiras terrestres do país."
+        },
+        {
+          "id": "a3",
+          "texto": "A polícia judiciária eleitoral, responsável pelo policiamento ostensivo das zonas eleitorais em dias de pleito."
+        },
+        {
+          "id": "a4",
+          "texto": "A guarda nacional de trânsito, responsável pela fiscalização das rodovias estaduais e pela ordem pública urbana."
+        },
+        {
+          "id": "a5",
+          "texto": "A polícia aeroportuária civil, incumbida da investigação criminal e do policiamento ostensivo em aeroportos."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A Constituição arrola um conjunto fechado de órgãos de segurança pública, entre eles as polícias militares, que são as forças estaduais encarregadas do policiamento ostensivo e da preservação da ordem pública. As demais alternativas inventam corporações inexistentes ou misturam atribuições, combinação típica de distrator em prova de ingresso na carreira.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Correta. A polícia militar integra o rol constitucional de órgãos de segurança pública e tem como função nuclear o policiamento ostensivo e a preservação da ordem pública nos estados."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Errada. Não existe órgão de segurança pública com esse nome no rol; o controle migratório de pessoas é atribuição tipicamente ligada à polícia federal, não a uma inexistente guarda portuária."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Errada. Não há no rol constitucional uma polícia judiciária eleitoral com função de policiamento ostensivo; confunde a atividade administrativa eleitoral com força policial autônoma."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Errada. Não existe guarda nacional de trânsito no rol de órgãos de segurança pública; a fiscalização de rodovias e a ordem urbana são distribuídas entre órgãos distintos previstos no texto."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Errada. Não há uma polícia aeroportuária civil no rol, e a alternativa ainda reúne indevidamente investigação criminal e policiamento ostensivo na mesma corporação."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Apresentar corporações inexistentes com nomes verossímeis para quem não memorizou o rol fechado de órgãos de segurança pública.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "O rol de órgãos de segurança pública é fechado: se a banca criar uma corporação com nome bonito que você nunca viu, desconfie.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "órgãos de segurança pública",
+        "polícia militar",
+        "rol constitucional",
+        "ordem pública"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado sobre a organização constitucional da segurança pública no Brasil"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Instituições de Segurança Pública e Sistema Prisional",
+      "subtema": "Função da polícia militar",
+      "dificuldade": "facil",
+      "enunciado": "Em um município, agentes fardados realizam rondas em vias públicas, mantêm presença visível em praças e abordam pessoas em atitude suspeita para prevenir a prática de crimes. Essa atividade, de caráter preventivo e visível, corresponde ao núcleo da função atribuída à polícia militar e é usualmente denominada:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Policiamento ostensivo, voltado à prevenção e à preservação da ordem pública mediante presença visível da força."
+        },
+        {
+          "id": "a2",
+          "texto": "Perícia criminal, voltada ao exame técnico de vestígios para a elucidação da autoria e da materialidade dos delitos."
+        },
+        {
+          "id": "a3",
+          "texto": "Polícia judiciária, voltada à apuração de infrações penais por meio da investigação e da lavratura de inquéritos."
+        },
+        {
+          "id": "a4",
+          "texto": "Custódia prisional, voltada à vigilância e ao acompanhamento de presos dentro de estabelecimentos penais."
+        },
+        {
+          "id": "a5",
+          "texto": "Fiscalização aduaneira, voltada ao controle de mercadorias e tributos nos pontos de entrada e saída do país."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A presença visível e fardada em vias públicas, com finalidade preventiva, caracteriza o policiamento ostensivo, núcleo da atuação da polícia militar. Os distratores descrevem atividades reais, mas de outros órgãos: perícia, polícia judiciária investigativa, custódia de presos e fiscalização aduaneira não são o núcleo da função militar estadual descrita.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Correta. A atuação fardada, visível e preventiva descrita é exatamente o policiamento ostensivo, função nuclear da polícia militar na preservação da ordem pública."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Errada. A perícia criminal é atividade técnica de exame de vestígios, posterior ao fato e sem caráter ostensivo de rua; não é a função descrita no enunciado."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Errada. A polícia judiciária apura infrações já ocorridas por meio de investigação e inquérito; não se confunde com a presença preventiva e visível narrada."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Errada. A custódia de presos ocorre dentro de estabelecimentos penais e é atribuição do sistema prisional, não o policiamento de rua descrito."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Errada. A fiscalização aduaneira trata de mercadorias e tributos nos pontos de entrada e saída do país, atividade estranha ao policiamento ostensivo de ordem pública."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar o policiamento ostensivo (preventivo e visível) pela atividade investigativa ou pericial, que é repressiva e posterior ao fato.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Ostensivo vem de mostrar: é a polícia que aparece para prevenir, antes do crime, não a que investiga depois.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "policiamento ostensivo",
+        "prevenção",
+        "polícia militar",
+        "ordem pública"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado sobre a organização constitucional da segurança pública no Brasil"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Instituições de Segurança Pública e Sistema Prisional",
+      "subtema": "Regimes de cumprimento de pena",
+      "dificuldade": "facil",
+      "enunciado": "O cumprimento da pena privativa de liberdade é organizado em regimes distintos, conforme o grau de restrição imposto ao condenado. Sobre essa divisão, é correto afirmar que:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O regime fechado é cumprido em estabelecimento de segurança máxima ou média, com maior restrição à liberdade do condenado."
+        },
+        {
+          "id": "a2",
+          "texto": "O regime aberto é cumprido em estabelecimento de segurança máxima, com total isolamento do condenado em cela individual."
+        },
+        {
+          "id": "a3",
+          "texto": "O regime semiaberto é cumprido integralmente em domicílio, sem qualquer forma de recolhimento ou de controle estatal."
+        },
+        {
+          "id": "a4",
+          "texto": "O regime fechado permite ao condenado trabalhar livremente fora do estabelecimento durante todo o dia, sem vigilância."
+        },
+        {
+          "id": "a5",
+          "texto": "O regime aberto é o mais severo de todos, reservado aos condenados por crimes de maior gravidade, aos reincidentes específicos e àqueles que descumpriram as condições do regime anterior."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Os regimes de cumprimento de pena vão do mais restritivo ao menos restritivo: o fechado, cumprido em estabelecimento de segurança máxima ou média, é o de maior restrição; o semiaberto admite colônia e trabalho externo; o aberto baseia-se na autodisciplina, com recolhimento em casa de albergado. Os distratores invertem essa escala de rigor.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Correta. O regime fechado é o de maior restrição e é cumprido em estabelecimento de segurança máxima ou média, conforme a graduação dos regimes."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Errada. O regime aberto não envolve isolamento em segurança máxima; ao contrário, é o menos restritivo, fundado na autodisciplina do condenado."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Errada. O semiaberto não é cumprido integralmente em domicílio sem controle; pressupõe recolhimento em colônia agrícola, industrial ou similar."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Errada. O regime fechado é o mais restritivo e não autoriza trabalho externo livre e sem vigilância durante todo o dia."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Errada. A afirmação inverte a escala: o aberto é o menos severo, e não o reservado aos crimes mais graves e reincidentes."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Inverter a escala de rigor dos regimes, tratando o aberto como o mais severo e o fechado como o mais brando.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "Do mais fechado ao mais livre: fechado (segurança máxima/média), semiaberto (colônia) e aberto (autodisciplina).",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "regimes de pena",
+        "regime fechado",
+        "regime semiaberto",
+        "regime aberto"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado sobre regimes de cumprimento de pena no direito penal brasileiro"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Instituições de Segurança Pública e Sistema Prisional",
+      "subtema": "Repartição de competências entre polícias",
+      "dificuldade": "media",
+      "enunciado": "Durante uma mesma ocorrência, uma equipe prende em flagrante um suspeito logo após o crime, enquanto, dias depois, outro órgão apura a autoria e a materialidade do delito por meio de procedimento investigativo. Considerando a divisão clássica de atribuições entre as instituições de segurança pública estaduais, é correto afirmar que:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O policiamento ostensivo e a prisão em flagrante cabem à polícia militar, e a investigação criminal subsequente cabe à polícia civil."
+        },
+        {
+          "id": "a2",
+          "texto": "Tanto o policiamento ostensivo quanto a investigação criminal subsequente são atribuições exclusivas da polícia militar estadual."
+        },
+        {
+          "id": "a3",
+          "texto": "A investigação criminal cabe à polícia militar, e o policiamento ostensivo é atribuição própria e exclusiva da polícia civil."
+        },
+        {
+          "id": "a4",
+          "texto": "O policiamento ostensivo cabe à guarda municipal, e a investigação criminal de qualquer delito cabe exclusivamente à polícia federal."
+        },
+        {
+          "id": "a5",
+          "texto": "A prisão em flagrante só pode ser realizada pela polícia civil, ficando a polícia militar restrita à vigilância de presídios."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "No modelo estadual, a polícia militar responde pelo policiamento ostensivo e pela preservação da ordem pública, atuando na prisão em flagrante; a apuração posterior da autoria e da materialidade, como polícia judiciária, cabe à polícia civil. Os distratores embaralham essas funções, atribuindo investigação à PM ou ostensivo à polícia civil ou à guarda municipal.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Correta. Reflete a divisão clássica: ostensivo e flagrante com a polícia militar; investigação criminal subsequente com a polícia civil, no âmbito estadual."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Errada. A investigação criminal, como função de polícia judiciária, não é atribuição própria da polícia militar, e sim da polícia civil."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Errada. Inverte as funções: o policiamento ostensivo é da polícia militar, e a investigação é da polícia civil."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Errada. O policiamento ostensivo de ordem pública não é da guarda municipal, e a investigação não é exclusiva da polícia federal, limitada a infrações de âmbito federal."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Errada. A prisão em flagrante pode ser realizada por autoridades policiais em geral, e a polícia militar não se restringe à vigilância de presídios."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Atribuir a investigação criminal à polícia militar ou o policiamento ostensivo à polícia civil, invertendo o modelo estadual.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "No estado: PM previne e prende em flagrante; polícia civil investiga depois, como polícia judiciária.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "polícia militar",
+        "polícia civil",
+        "investigação criminal",
+        "policiamento ostensivo"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado sobre a repartição de atribuições das polícias estaduais"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Instituições de Segurança Pública e Sistema Prisional",
+      "subtema": "Estabelecimentos penais e sua destinação",
+      "dificuldade": "media",
+      "enunciado": "O sistema prisional brasileiro prevê diferentes tipos de estabelecimentos penais, cada um destinado a uma categoria específica de pessoas submetidas à custódia do Estado. Sobre essa destinação, assinale a opção correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A cadeia pública destina-se ao recolhimento de presos provisórios, que ainda aguardam julgamento ou condenação definitiva."
+        },
+        {
+          "id": "a2",
+          "texto": "A penitenciária destina-se exclusivamente ao recolhimento de presos provisórios, antes de qualquer sentença condenatória."
+        },
+        {
+          "id": "a3",
+          "texto": "A casa do albergado destina-se ao cumprimento de pena em regime fechado, sob vigilância contínua e armada."
+        },
+        {
+          "id": "a4",
+          "texto": "A colônia agrícola ou industrial destina-se ao cumprimento de pena em regime fechado de segurança máxima, com vigilância armada permanente e isolamento do condenado em cela individual."
+        },
+        {
+          "id": "a5",
+          "texto": "A cadeia pública destina-se ao cumprimento definitivo de penas longas por condenados em regime fechado."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Cada estabelecimento penal tem destinação própria: a cadeia pública recolhe presos provisórios; a penitenciária recebe condenados em regime fechado; a colônia agrícola ou industrial serve ao semiaberto; e a casa do albergado, ao regime aberto. Os distratores trocam essas destinações, erro frequente em prova sobre sistema prisional.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Correta. A cadeia pública é o estabelecimento destinado ao recolhimento de presos provisórios, que ainda aguardam decisão definitiva."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Errada. A penitenciária destina-se ao condenado em regime fechado, e não exclusivamente a presos provisórios antes da sentença."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Errada. A casa do albergado é própria do regime aberto, baseado na autodisciplina, e não do regime fechado sob vigilância armada."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Errada. A colônia agrícola ou industrial é destinada ao regime semiaberto, e não ao regime fechado de segurança máxima."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Errada. A cadeia pública não se destina ao cumprimento definitivo de penas longas em regime fechado, finalidade típica da penitenciária."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir a destinação dos estabelecimentos penais, associando a cadeia pública ao condenado definitivo ou a colônia ao regime fechado.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "Cadeia pública: provisório. Penitenciária: fechado. Colônia: semiaberto. Casa do albergado: aberto.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "estabelecimentos penais",
+        "cadeia pública",
+        "penitenciária",
+        "preso provisório"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado sobre a destinação dos estabelecimentos penais no sistema prisional brasileiro"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Instituições de Segurança Pública e Sistema Prisional",
+      "subtema": "Corpo de bombeiros militar",
+      "dificuldade": "media",
+      "enunciado": "Entre as instituições estaduais ligadas à segurança e à proteção da coletividade, há uma corporação militar cuja atuação se concentra na defesa civil, no combate a incêndios, no socorro e no salvamento, além de outras atividades que a lei estadual venha a lhe atribuir. Essa corporação é:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O corpo de bombeiros militar, encarregado da defesa civil e da execução de atividades de combate a incêndio e de salvamento."
+        },
+        {
+          "id": "a2",
+          "texto": "A polícia civil, encarregada da defesa civil e, como regra, do combate direto a incêndios em edificações urbanas."
+        },
+        {
+          "id": "a3",
+          "texto": "A guarda municipal, à qual compete, por força constitucional, o comando das atividades de salvamento e de defesa civil."
+        },
+        {
+          "id": "a4",
+          "texto": "A polícia rodoviária federal, à qual incumbe, em todo o território nacional, o combate direto a incêndios, o socorro em desastres naturais e a coordenação das ações de defesa civil nos estados."
+        },
+        {
+          "id": "a5",
+          "texto": "A perícia oficial, responsável pela defesa civil e pela coordenação das ações de socorro e de salvamento em catástrofes."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O corpo de bombeiros militar é a corporação estadual, de natureza militar, voltada ao combate a incêndios, ao socorro, ao salvamento e à execução de atividades de defesa civil, além das que a lei estadual lhe atribuir. Os distratores deslocam essas funções para órgãos de polícia ou de perícia, que têm finalidades diversas.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Correta. O corpo de bombeiros militar é a corporação encarregada do combate a incêndios, do salvamento, do socorro e da defesa civil, além do que a lei estadual atribuir."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Errada. A polícia civil é órgão de polícia judiciária investigativa; combate a incêndios não é sua atribuição."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Errada. A guarda municipal não tem comando constitucional das atividades de salvamento e defesa civil, que são próprias do corpo de bombeiros."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Errada. A polícia rodoviária federal atua no patrulhamento das rodovias federais, não no combate a incêndios e socorro em desastres como função central."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Errada. A perícia oficial realiza exames técnicos de vestígios; não coordena socorro, salvamento e defesa civil."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Atribuir as funções de defesa civil, combate a incêndio e salvamento a órgãos de polícia ou de perícia, e não ao corpo de bombeiros militar.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Bombeiro militar é defesa civil, incêndio, socorro e salvamento; o resto, a lei estadual pode acrescentar.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "corpo de bombeiros militar",
+        "defesa civil",
+        "combate a incêndio",
+        "salvamento"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado sobre a organização constitucional da segurança pública no Brasil"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Instituições de Segurança Pública e Sistema Prisional",
+      "subtema": "Polícia penal e custódia de presos",
+      "dificuldade": "media",
+      "enunciado": "Com a reorganização recente das carreiras de segurança, foi criada uma categoria específica de agentes voltada à segurança dos estabelecimentos penais, vinculada aos órgãos de administração penitenciária. Sobre a atribuição típica desses agentes, é correto afirmar que a eles compete:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A segurança dos estabelecimentos penais e a custódia das pessoas privadas de liberdade sob responsabilidade do Estado."
+        },
+        {
+          "id": "a2",
+          "texto": "A investigação criminal das infrações cometidas dentro dos presídios, com poderes amplos de polícia judiciária plena e competência para a instauração e a presidência de inquéritos policiais."
+        },
+        {
+          "id": "a3",
+          "texto": "O policiamento ostensivo das vias públicas do município onde se localiza o estabelecimento penal correspondente."
+        },
+        {
+          "id": "a4",
+          "texto": "A fiscalização do trânsito nas rodovias federais que dão acesso aos complexos penitenciários da unidade federada."
+        },
+        {
+          "id": "a5",
+          "texto": "A perícia técnica dos locais de crime situados no interior dos estabelecimentos penais sob sua responsabilidade."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A polícia penal foi criada para atuar na segurança dos estabelecimentos penais e na custódia das pessoas privadas de liberdade, vinculando-se aos órgãos de administração penitenciária. Não lhe cabem investigação como polícia judiciária plena, policiamento ostensivo de rua, fiscalização de trânsito nem perícia, atribuições de outros órgãos.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Correta. A função típica da polícia penal é a segurança dos estabelecimentos penais e a custódia das pessoas privadas de liberdade sob o Estado."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Errada. A investigação como polícia judiciária plena não é atribuição da polícia penal, e sim das polícias judiciárias."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Errada. O policiamento ostensivo das vias públicas é próprio da polícia militar, não da polícia penal, voltada ao ambiente prisional."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Errada. A fiscalização de trânsito em rodovias federais é atribuição da polícia rodoviária federal, estranha à função da polícia penal."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Errada. A perícia técnica dos locais de crime é atividade dos órgãos periciais, não da polícia penal encarregada da custódia."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Ampliar as funções da polícia penal para investigação, policiamento ostensivo ou perícia, que pertencem a outros órgãos.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Polícia penal é dentro dos muros: segurança do estabelecimento penal e custódia de quem está preso.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "polícia penal",
+        "custódia",
+        "estabelecimentos penais",
+        "administração penitenciária"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado sobre a criação da polícia penal e a administração penitenciária"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Instituições de Segurança Pública e Sistema Prisional",
+      "subtema": "Natureza militar e subordinação das forças estaduais",
+      "dificuldade": "dificil",
+      "enunciado": "Um estudante afirma que, no modelo brasileiro, as polícias militares e os corpos de bombeiros militares dos estados, por serem corporações militares, estariam permanentemente subordinados ao comando das Forças Armadas, como se fossem seus braços locais. Avalie a afirmação e assinale a opção que a corrige adequadamente.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A afirmação é incorreta, pois polícias militares e bombeiros militares são forças estaduais subordinadas aos governadores, embora reserva das Forças Armadas."
+        },
+        {
+          "id": "a2",
+          "texto": "A afirmação é correta, porque as polícias militares integram organicamente as Forças Armadas e delas recebem comando direto em tempo de paz."
+        },
+        {
+          "id": "a3",
+          "texto": "A afirmação é correta, uma vez que os bombeiros militares, por sua natureza, substituem as Forças Armadas na defesa externa do território nacional."
+        },
+        {
+          "id": "a4",
+          "texto": "A afirmação é incorreta apenas quanto aos bombeiros, pois as polícias militares, de fato, são órgãos federais subordinados ao comando do Exército."
+        },
+        {
+          "id": "a5",
+          "texto": "A afirmação é incorreta porque polícias militares e bombeiros, embora civis, respondem diretamente ao Ministério da Defesa em toda a federação."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "As polícias militares e os corpos de bombeiros militares são forças estaduais, subordinadas aos governadores, e não integram organicamente as Forças Armadas; são tratados como forças auxiliares e reserva do Exército. A afirmação do estudante confunde natureza militar com subordinação ao comando federal, erro que os distratores exploram por caminhos diferentes.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Correta. Corrige a afirmação: são forças estaduais sob os governadores, qualificadas como forças auxiliares e reserva das Forças Armadas, sem subordinação orgânica a elas."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Errada. As polícias militares não integram organicamente as Forças Armadas nem delas recebem comando direto na rotina estadual."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Errada. Os bombeiros militares não substituem as Forças Armadas na defesa externa; sua atuação é interna, de defesa civil e salvamento."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Errada. As polícias militares não são órgãos federais subordinados ao Exército; são forças estaduais comandadas pelos governadores."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Errada. Polícias militares e bombeiros militares têm natureza militar, não civil, e não respondem diretamente ao Ministério da Defesa na federação."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir a condição de força auxiliar e reserva do Exército com subordinação orgânica das forças estaduais às Forças Armadas.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Força auxiliar e reserva não é o mesmo que estar dentro das Forças Armadas: PM e bombeiros respondem ao governador.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "forças auxiliares",
+        "reserva do Exército",
+        "subordinação estadual",
+        "governador"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado sobre a natureza das forças militares estaduais no Brasil"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Instituições de Segurança Pública e Sistema Prisional",
+      "subtema": "Progressão e individualização da pena",
+      "dificuldade": "dificil",
+      "enunciado": "Um condenado inicia o cumprimento da pena em regime fechado e, ao longo da execução, preenche os requisitos legais que lhe permitem passar a um regime menos rigoroso. Considerando a lógica de individualização da pena que orienta o sistema prisional, assinale a opção correta sobre esse movimento.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A passagem do regime fechado para o semiaberto é chamada de progressão e depende do cumprimento de requisitos objetivos e subjetivos."
+        },
+        {
+          "id": "a2",
+          "texto": "A passagem do regime fechado para o semiaberto é automática e ocorre pelo simples decurso do tempo, sem exame de qualquer requisito."
+        },
+        {
+          "id": "a3",
+          "texto": "A passagem do regime fechado para o aberto deve saltar o regime semiaberto em todos os casos, independentemente das condições pessoais do condenado e do tempo de pena já cumprido."
+        },
+        {
+          "id": "a4",
+          "texto": "A passagem a regime menos rigoroso é vedada a qualquer condenado, pois a pena é cumprida sempre no regime inicialmente fixado."
+        },
+        {
+          "id": "a5",
+          "texto": "A passagem a regime mais rigoroso, chamada regressão, ocorre automaticamente a cada falta, sem necessidade de procedimento."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A transição do condenado para um regime menos rigoroso chama-se progressão e, em regra, é gradual (do fechado para o semiaberto e deste para o aberto), condicionada a requisitos objetivos, como tempo de pena, e subjetivos, como o comportamento. Os distratores tornam o movimento automático, saltam etapas ou negam a existência da progressão e da regressão.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Correta. A transição do fechado para o semiaberto é a progressão de regime, que depende de requisitos objetivos (tempo) e subjetivos (comportamento)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Errada. A progressão não é automática pelo mero decurso do tempo; exige o preenchimento de requisitos objetivos e subjetivos."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Errada. A progressão é, em regra, gradual; não se salta o semiaberto para alcançar diretamente o aberto como regra geral."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Errada. A passagem a regime menos rigoroso não é vedada; a individualização da pena pressupõe justamente a possibilidade de progressão."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Errada. A regressão a regime mais rigoroso não é automática a cada falta; depende de apuração e de procedimento adequado."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Tratar a progressão como automática ou admitir salto do regime intermediário, ignorando a gradação e os requisitos.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Progressão sobe de grau em grau e nunca é automática: exige tempo (objetivo) e bom comportamento (subjetivo).",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "progressão de regime",
+        "individualização da pena",
+        "requisitos objetivos",
+        "requisitos subjetivos"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado sobre progressão de regime e execução penal no Brasil"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Instituições de Segurança Pública e Sistema Prisional",
+      "subtema": "Integração do sistema de segurança pública",
+      "dificuldade": "dificil",
+      "enunciado": "Diante da necessidade de articular a atuação de diferentes órgãos, foi estruturado no país um sistema destinado a integrar as instituições de segurança pública e de defesa social da União, dos estados, do Distrito Federal e dos municípios, preservando as atribuições próprias de cada ente. Sobre a lógica dessa integração, é correto afirmar que:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A integração busca coordenar a atuação dos órgãos de segurança dos diversos entes, sem suprimir as atribuições constitucionais de cada um."
+        },
+        {
+          "id": "a2",
+          "texto": "A integração transfere à União o comando operacional direto das polícias estaduais e das guardas municipais, extinguindo a autonomia administrativa e financeira dos demais entes federados."
+        },
+        {
+          "id": "a3",
+          "texto": "A integração cria um órgão único de segurança que substitui as polícias civis, militares e penais em todo o território nacional."
+        },
+        {
+          "id": "a4",
+          "texto": "A integração retira dos municípios qualquer participação em políticas de segurança, reservando-a somente à União e aos estados."
+        },
+        {
+          "id": "a5",
+          "texto": "A integração converte as guardas municipais em polícias judiciárias, com poder de investigar crimes em todo o país."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A lógica da integração do sistema de segurança pública é coordenar a atuação de órgãos da União, dos estados, do Distrito Federal e dos municípios, respeitando a repartição de competências e sem suprimir as atribuições constitucionais de cada ente. Os distratores supõem centralização indevida, criação de órgão único ou exclusão dos municípios, contrariando o modelo cooperativo.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Correta. A integração visa a coordenar os órgãos dos diferentes entes, preservando as atribuições constitucionais próprias de cada um, em cooperação."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Errada. A integração não transfere à União o comando direto das polícias estaduais nem extingue a autonomia dos entes federados."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Errada. Não se cria um órgão único substituindo polícias civis, militares e penais; cada corporação mantém sua existência e função."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Errada. Os municípios participam de políticas de segurança, inclusive por meio das guardas municipais, e não são excluídos da integração."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Errada. A integração não converte guardas municipais em polícias judiciárias com poder de investigar crimes em todo o país."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Interpretar a integração como centralização na União ou criação de órgão único, em vez de cooperação com respeito às competências de cada ente.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Integrar não é centralizar: cada ente mantém suas atribuições; o sistema só coordena quem já existe.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "sistema de segurança pública",
+        "integração",
+        "cooperação federativa",
+        "competências"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado sobre a integração das instituições de segurança pública no Brasil"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "subtema": "Destinação dos estabelecimentos penais",
+      "frente": "Qual estabelecimento penal se destina ao recolhimento de presos provisórios, que ainda aguardam julgamento ou condenação definitiva?",
+      "verso": "A cadeia pública. Ela recolhe presos provisórios (ainda sem condenação definitiva). Não confundir com a penitenciária, destinada ao condenado em regime fechado.",
+      "fundamento_legal": "não se aplica",
+      "lei_referencia": "não se aplica",
+      "palavras_chave": [
+        "cadeia pública",
+        "preso provisório",
+        "estabelecimentos penais"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f02",
+      "subtema": "Natureza das forças militares estaduais",
+      "frente": "Como se qualifica, perante o Exército, a condição das corporações militares estaduais, e a quem elas respondem no dia a dia?",
+      "verso": "São forças estaduais subordinadas aos governadores. Em relação às Forças Armadas, qualificam-se como forças auxiliares e reserva do Exército, sem integrá-las organicamente nem receber delas comando direto na rotina estadual.",
+      "fundamento_legal": "não se aplica",
+      "lei_referencia": "não se aplica",
+      "palavras_chave": [
+        "forças auxiliares",
+        "reserva do Exército",
+        "governador"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f03",
+      "subtema": "Progressão de regime",
+      "frente": "O que é a progressão de regime e de quais requisitos ela depende no cumprimento da pena?",
+      "verso": "É a passagem do condenado a um regime menos rigoroso (do fechado ao semiaberto e deste ao aberto), em regra de forma gradual. Depende de requisitos objetivos (como tempo de pena cumprido) e subjetivos (como bom comportamento); não é automática.",
+      "fundamento_legal": "não se aplica",
+      "lei_referencia": "não se aplica",
+      "palavras_chave": [
+        "progressão de regime",
+        "requisitos objetivos",
+        "requisitos subjetivos"
+      ],
+      "cita_jurisprudencia": false
+    }
+  ]
+}

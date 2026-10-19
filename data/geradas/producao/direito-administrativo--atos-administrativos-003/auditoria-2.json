@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 53 da Lei 9.784/1999 impõe o dever de anular o ato eivado de vício de legalidade, respeitados os direitos adquiridos. A a1 reproduz a regra; os distratores confundem com suspensão judicial, manutenção por conveniência ou revogação. Fundamento confere."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 53 funda a revogação na conveniência ou oportunidade sobre ato válido, respeitados os direitos adquiridos (a1). Os distratores descrevem anulação (a2), cassação (a3) e convalidação (a4), corretamente afastados. Fundamento confere."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 55 condiciona a convalidação ao defeito sanável, sem lesão ao interesse público nem prejuízo a terceiros (a1). Defeito insanável conduz à anulação, afastando a2 e a3; a4 extrapola a lei. Fundamento confere."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O caput do art. 54 fixa cinco anos contados da prática do ato, salvo comprovada má-fé (a1). Os distratores alteram termo inicial, prazo ou negam a decadência, corretamente errados. Fundamento confere."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 50, VIII, exige motivação dos atos que importem anulação de ato administrativo (a1), independentemente de direito adquirido ou de provocação por recurso. Os distratores dispensam ou condicionam indevidamente a motivação. O ponto está dentro do edital (requisitos do ato) e tangencia o foco (anulação). Fundamento confere."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 53 separa anulação (ilegalidade, dever) e revogação (ato válido, conveniência ou oportunidade), respeitados os direitos adquiridos (a1). A a2 inverte os institutos, a a3 exige ilegalidade na revogação e a a4 nega os direitos adquiridos. Fundamento confere."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A correção de defeito sanável mantendo o ato, sem lesão ao interesse público nem prejuízo a terceiros, é a convalidação do art. 55 (a1). Os distratores descrevem revogação, anulação de efeitos limitados ou vedação inexistente. Fundamento confere."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Havendo efeitos patrimoniais contínuos (gratificação mensal), o art. 54, § 1º, conta a decadência da percepção do primeiro pagamento (a1). A boa-fé não afasta a decadência (só a má-fé, caput) e o prazo não se renova a cada parcela. Fundamento confere."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 54, § 2º, considera exercício do direito de anular qualquer medida de autoridade que importe impugnação à validade do ato (a1); não é preciso o ato final de anulação. Os distratores negam esse efeito, inventam suspensão ou conversão em prescrição. Fundamento confere."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Em (I), a decadência de cinco anos do art. 54, contada da prática do ato, consumou-se em sete anos (a boa-fé não afasta, só a má-fé); em (II), o art. 55 admite a convalidação pela própria Administração, sem juiz. A a1 combina os dois pontos; os demais distratores têm erro jurídico. Fundamento confere."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reproduz corretamente o art. 53: anular é dever (vício de legalidade) e revogar é faculdade (conveniência ou oportunidade), respeitados os direitos adquiridos. A frente admite resposta única e o card cita o dispositivo."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso corresponde ao art. 54, § 1º: nos efeitos patrimoniais contínuos o prazo de cinco anos conta-se da percepção do primeiro pagamento. Frente objetiva e sem ambiguidade, com dispositivo citado."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reflete o art. 50, VIII: anulação, revogação, suspensão e convalidação de ato devem ser motivadas, com indicação dos fatos e fundamentos jurídicos. Frente clara, resposta única e dispositivo citado."
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reproduz o art. 5º, XII: interceptação só por ordem judicial, nas hipóteses e na forma da lei, para investigação criminal ou instrução processual penal. a2 (autoridade policial), a3 (fins civis/administrativos) e a4 (Ministério Público) são inequivocamente erradas. Uma única correta, sem pistas."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, XXXIX consagra a legalidade penal com lei anterior e prévia cominação, exatamente o que descreve a1. Insignificância, individualização (XLVI) e retroatividade são distratores corretamente afastados."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Literalidade do art. 5º, LVII: ninguém será considerado culpado até o trânsito em julgado da sentença penal condenatória (a1). Primeiro grau, segundo grau e recebimento da denúncia não são o marco. Correta e sem ambiguidade."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Art. 5º, XL: a lei penal não retroage, salvo para beneficiar o réu; a1 aplica corretamente a exceção. Os demais distratores (irretroatividade absoluta, limite à fase anterior à denúncia, exigência de requerimento da acusação) estão errados por conteúdo."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O enunciado cobra expressamente o art. 5º, LXVII, e a1 reproduz as duas ressalvas textuais (obrigação alimentícia e depositário infiel). a2 omite uma ressalva, a3 estende a dívidas patrimoniais e a4 inventa o fiador. Como o comando é a literalidade do inciso, não há ambiguidade com a discussão sobre o depositário infiel."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Art. 5º, LVI: são inadmissíveis as provas obtidas por meios ilícitos (a1). Indenização, gravidade do crime e ausência de outro meio não convalidam a prova ilícita; distratores corretamente errados."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reproduz o art. 5º, XIII (liberdade de trabalho, ofício ou profissão atendidas as qualificações que a lei estabelecer). a2 nega a reserva legal, a3 exige autorização de órgão de classe e a4 distingue natos de naturalizados: todas erradas. O 'fique_ligado' sobre eficácia contida está correto."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 corresponde ao art. 5º, XLVII: morte vedada salvo guerra declarada; perpétua, trabalhos forçados, banimento e cruéis vedadas. a2 (morte em hediondos), a3 (trabalhos forçados/banimento) e a4 (perpétua) contrariam o inciso. Uma única correta."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 combina corretamente os incisos LXI (flagrante ou ordem escrita e fundamentada do juiz), LXV (relaxamento da prisão ilegal pela autoridade judiciária) e LXVI (liberdade provisória quando a lei admite). a2 (ordem verbal e relaxamento pela polícia), a3 (dispensa de ordem em crimes dolosos contra a vida) e a4 (conversão automática em preventiva) são falsas."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Art. 5º, XXXVI: a lei não prejudicará o direito adquirido, o ato jurídico perfeito e a coisa julgada (a1). Os distratores reduzem a proteção ou abrem exceção por interesse público, inexistente no texto. Correta e sem ambiguidade."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Frente objetiva e única resposta. Verso fiel ao art. 5º, XII: quebra do sigilo telefônico só por ordem judicial, nas hipóteses e forma da lei, para investigação criminal ou instrução processual penal; e é a única comunicação do inciso cujo sigilo pode ser afastado. Cita o dispositivo."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Verso correto conforme o art. 5º, XLVII: vedadas as penas de caráter perpétuo, de trabalhos forçados, de banimento e cruéis; morte vedada salvo guerra declarada (art. 84, XIX). Frente clara, uma única resposta, com o dispositivo."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Frente delimita a literalidade do art. 5º, LXVII, e o verso traz as duas ressalvas textuais (obrigação alimentícia e depositário infiel), sem ambiguidade. Dispositivo citado."
+    }
+  ]
+}

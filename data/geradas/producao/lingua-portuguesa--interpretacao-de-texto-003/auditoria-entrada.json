@@ -1,0 +1,739 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Interpretação de Texto",
+      "subtema": "Inferência e ideia central",
+      "dificuldade": "facil",
+      "enunciado": "Leia o texto para responder.\n\n\"O trabalho de investigação raramente começa com uma certeza. Começa, quase sempre, com uma pergunta incômoda: por que algo que parecia comum, de repente, não faz mais sentido? É dessa estranheza, e não da pressa por concluir, que nascem as boas apurações.\"\n\nA ideia central do texto é:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A boa investigação nasce do estranhamento diante de um fato, e não da urgência em chegar a uma conclusão."
+        },
+        {
+          "id": "a2",
+          "texto": "A investigação depende, antes de tudo, da experiência acumulada por quem apura os fatos ao longo dos anos."
+        },
+        {
+          "id": "a3",
+          "texto": "As apurações devem ser concluídas com rapidez para que o investigador não perca o interesse pelo caso."
+        },
+        {
+          "id": "a4",
+          "texto": "A certeza inicial é o ponto de partida indispensável para qualquer trabalho de investigação bem conduzido."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A ideia central é aquilo que organiza o texto todo e aparece de forma explícita ao final: as boas apurações nascem da estranheza, e não da pressa por concluir. Localizar a ideia central exige ler o texto inteiro e separar o que é tese do que é apenas comentário de apoio.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Resume a tese do texto: a investigação parte da pergunta incômoda (estranheza), em oposição à pressa por concluir, exatamente o que o último período afirma."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O texto não trata de experiência acumulada; essa ideia não aparece em nenhum momento, logo é informação acrescentada por quem lê."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Inverte o sentido: o texto critica a pressa por concluir, não a recomenda como virtude da apuração."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Contraria o texto, que diz justamente que a investigação raramente começa com uma certeza."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar a ideia central do texto por uma afirmação plausível, mas que ele não sustenta (experiência) ou que contraria a tese (certeza inicial, pressa).",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "A ideia central costuma estar na tese defendida, não num detalhe de exemplo; leia o texto inteiro antes de escolher.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "ideia central",
+        "tese",
+        "estranhamento",
+        "compreensão",
+        "pergunta incômoda"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de interpretação de texto (norma-padrão); nenhum texto legal aplicável a este tema"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Interpretação de Texto",
+      "subtema": "Inferência e ideia central",
+      "dificuldade": "facil",
+      "enunciado": "Leia o texto para responder.\n\n\"Ana guardou o guarda-chuva na bolsa antes de sair, embora o céu estivesse limpo. Ao chegar ao escritório, comentou com a colega que havia escutado o barulho de trovões ao longe pela manhã.\"\n\nCom base no texto, é correto inferir que Ana:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "levou o guarda-chuva porque considerou possível que chovesse mais tarde."
+        },
+        {
+          "id": "a2",
+          "texto": "tem o hábito de carregar o guarda-chuva todos os dias, chova ou faça sol."
+        },
+        {
+          "id": "a3",
+          "texto": "chegou molhada ao escritório por causa de uma chuva que caiu no caminho."
+        },
+        {
+          "id": "a4",
+          "texto": "emprestou o guarda-chuva à colega assim que as duas se encontraram no trabalho."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Inferir é concluir algo que não está dito com todas as letras, mas que os dados do texto sustentam. O céu limpo mais os trovões ouvidos ao longe explicam por que Ana guardou o guarda-chuva: ela previu a possibilidade de chuva. É a única conclusão apoiada pelo texto.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "O guarda-chuva guardado com céu limpo, somado aos trovões ouvidos ao longe, sustenta a inferência de que Ana previu chuva para mais tarde."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O texto não diz nada sobre hábito diário; atribui a Ana uma rotina que não se deduz de um único episódio."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O texto não afirma que choveu nem que Ana se molhou; ela apenas ouviu trovões ao longe pela manhã."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Não há qualquer menção a empréstimo do guarda-chuva; o episódio relatado é a conversa sobre os trovões."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir inferência legítima (previu chuva) com suposição que extrapola o texto (hábito diário, chuva efetiva, empréstimo).",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Inferência válida é a conclusão que os dados do texto garantem; não é tudo que a cena permite imaginar.",
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "inferência",
+        "dedução",
+        "pistas textuais",
+        "conclusão sustentada"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de interpretação de texto (norma-padrão); nenhum texto legal aplicável a este tema"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Interpretação de Texto",
+      "subtema": "Inferência e ideia central",
+      "dificuldade": "facil",
+      "enunciado": "Leia o texto para responder.\n\n\"Não basta registrar o que aconteceu. Um relatório útil organiza os fatos de modo que outra pessoa, sem ter estado no local, consiga entender o que ocorreu e por quê. Escrever bem, aqui, é escrever para ser compreendido por quem não viu.\"\n\nO texto defende principalmente que um bom relatório deve:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "ser redigido de modo que alguém ausente do local compreenda o que ocorreu e as razões disso."
+        },
+        {
+          "id": "a2",
+          "texto": "limitar-se a registrar os fatos na exata ordem em que eles aconteceram, sem interpretações."
+        },
+        {
+          "id": "a3",
+          "texto": "empregar vocabulário técnico sofisticado para demonstrar o preparo de quem o redige."
+        },
+        {
+          "id": "a4",
+          "texto": "ser o mais breve possível, reunindo apenas as informações que o próprio autor julga relevantes."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A ideia central está dita no fecho: escrever bem é escrever para ser compreendido por quem não viu. O texto defende que o relatório organize os fatos para que um leitor ausente entenda o que ocorreu e por quê. As demais opções desviam desse ponto.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz a tese do texto: o relatório deve permitir que alguém que não esteve no local entenda o que ocorreu e por quê."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O texto diz que não basta registrar o que aconteceu; o simples registro ordenado é exatamente o que ele considera insuficiente."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O texto valoriza ser compreendido, não exibir vocabulário; a sofisticação não é defendida em momento algum."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A brevidade e a seleção pelo próprio autor não são o ponto defendido; o critério apresentado é a compreensão pelo leitor ausente."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Tomar o que o texto rejeita (apenas registrar os fatos) como se fosse a tese defendida.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "ideia central",
+        "finalidade do texto",
+        "compreensão do leitor",
+        "clareza"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de interpretação de texto (norma-padrão); nenhum texto legal aplicável a este tema"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Interpretação de Texto",
+      "subtema": "Inferência e ideia central",
+      "dificuldade": "media",
+      "enunciado": "Leia o texto para responder.\n\n\"A testemunha hesitou antes de responder. Olhou para a porta, depois para as próprias mãos, e só então disse que não se lembrava de nada. O delegado anotou tudo em silêncio, inclusive a demora.\"\n\nQual inferência o texto autoriza?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O comportamento da testemunha chamou a atenção do delegado, que registrou não só a resposta, mas também a hesitação que a antecedeu."
+        },
+        {
+          "id": "a2",
+          "texto": "A testemunha mentiu de forma deliberada ao afirmar que não se lembrava de nada sobre o episódio investigado."
+        },
+        {
+          "id": "a3",
+          "texto": "O delegado concluiu a investigação naquele momento, por entender que a testemunha nada tinha a acrescentar."
+        },
+        {
+          "id": "a4",
+          "texto": "A testemunha pretendia deixar a sala rapidamente, já que olhou para a porta durante o depoimento prestado."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O texto descreve gestos (hesitar, olhar para a porta e para as mãos, demorar) e informa que o delegado anotou tudo, inclusive a demora. A inferência segura é que esse comportamento foi notado e registrado. Afirmar que a testemunha mentiu ou queria fugir vai além do que os dados garantem: são leituras possíveis, mas não autorizadas pelo texto.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "O texto diz que o delegado anotou tudo, inclusive a demora; logo, a hesitação foi notada e registrada, inferência plenamente apoiada."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Mentira deliberada é hipótese não garantida: a hesitação pode ter muitas causas (medo, confusão), e o texto não decide qual."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O texto não afirma que a investigação foi encerrada; anotar a demora sugere o contrário, interesse no comportamento."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Olhar para a porta não permite concluir intenção de sair; é um dado isolado que não sustenta essa finalidade."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Transformar uma leitura possível (a testemunha mentiu, quis fugir) em inferência obrigatória, quando o texto só garante que o delegado registrou a hesitação.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Inferência autorizada é a que o texto garante; leitura possível, mas não garantida, é armadilha frequente.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "inferência",
+        "leitura autorizada",
+        "indícios",
+        "interpretação"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de interpretação de texto (norma-padrão); nenhum texto legal aplicável a este tema"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Interpretação de Texto",
+      "subtema": "Inferência e ideia central",
+      "dificuldade": "media",
+      "enunciado": "Leia o texto para responder.\n\n\"Há quem confunda firmeza com rispidez. A primeira sustenta uma posição com argumentos e respeito; a segunda a impõe pelo tom. Quem só grita pode parecer convicto, mas raramente convence quem ainda não concordava.\"\n\nDepreende-se do texto que:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "a firmeza persuade porque se apoia em argumentos, ao passo que a rispidez tende a não convencer quem discorda."
+        },
+        {
+          "id": "a2",
+          "texto": "a rispidez é uma forma intensa de firmeza, de modo que ambas levam ao mesmo resultado diante de um interlocutor."
+        },
+        {
+          "id": "a3",
+          "texto": "quem fala em tom elevado demonstra convicção e, por isso, costuma convencer com facilidade os que discordam."
+        },
+        {
+          "id": "a4",
+          "texto": "a firmeza deve ser evitada em discussões, pois tende a ser confundida com agressividade por quem ouve."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O texto distingue firmeza (sustenta a posição com argumentos e respeito) de rispidez (impõe pelo tom). A conclusão que se depreende é a do fecho: gritar pode parecer convicção, mas raramente convence quem ainda não concordava. A opção correta sintetiza essa oposição.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Capta a oposição central: a firmeza se apoia em argumentos (persuade), enquanto a rispidez, só tom, raramente convence quem discorda."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O texto separa os dois conceitos e nega que levem ao mesmo resultado; dizer que são equivalentes contraria a distinção feita."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Inverte o texto: falar alto pode parecer convicto, mas raramente convence quem ainda não concordava."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O texto não condena a firmeza; ele a valoriza e critica a rispidez, que é o oposto."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Igualar firmeza e rispidez, quando o texto as opõe, ou inverter o efeito atribuído ao tom elevado.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Quando o texto distingue dois conceitos, a alternativa que os funde ou os troca costuma ser o distrator.",
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "inferência",
+        "distinção de conceitos",
+        "ideia central",
+        "argumentação"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de interpretação de texto (norma-padrão); nenhum texto legal aplicável a este tema"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Interpretação de Texto",
+      "subtema": "Inferência e ideia central",
+      "dificuldade": "media",
+      "enunciado": "Leia o texto para responder.\n\n\"O bairro, antes silencioso, amanheceu cheio de curiosos. Fitas isolavam a entrada do prédio, e um policial pedia que ninguém se aproximasse. Nas janelas vizinhas, cortinas se mexiam sem parar.\"\n\nO texto permite concluir, sem afirmar diretamente, que:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "algo incomum ocorreu no prédio, despertando a atenção dos moradores e exigindo a atuação da polícia no local."
+        },
+        {
+          "id": "a2",
+          "texto": "um crime grave foi cometido dentro do prédio durante a madrugada que antecedeu a chegada dos curiosos."
+        },
+        {
+          "id": "a3",
+          "texto": "os moradores das janelas vizinhas presenciaram diretamente o que aconteceu na entrada do prédio isolado."
+        },
+        {
+          "id": "a4",
+          "texto": "o bairro é conhecido por reunir, com frequência, grande número de curiosos em torno de ocorrências policiais."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A cena reúne pistas (curiosos, fitas de isolamento, policial, cortinas que se mexem) que, somadas, autorizam concluir que algo incomum ocorreu e mobilizou moradores e polícia. O texto não especifica o que foi; por isso dizer que houve um crime grave na madrugada já extrapola os dados.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "É a conclusão que o conjunto de pistas garante: fato incomum, atenção dos moradores e presença policial, tudo apoiado no texto."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Crime grave e horário (madrugada) são detalhes não informados; a cena indica um evento fora do comum, não necessariamente um crime."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Cortinas que se mexem indicam curiosidade, não que os vizinhos presenciaram o fato; é inferência que o texto não garante."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O texto fala de um bairro antes silencioso; nada indica frequência de ocorrências, logo a generalização não se sustenta."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Avançar da inferência segura (algo incomum ocorreu) para detalhes não ditos (crime grave, horário, testemunho direto).",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "inferência",
+        "pistas do contexto",
+        "conclusão sustentada",
+        "subentendido"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de interpretação de texto (norma-padrão); nenhum texto legal aplicável a este tema"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Interpretação de Texto",
+      "subtema": "Inferência e ideia central",
+      "dificuldade": "media",
+      "enunciado": "Leia o texto para responder.\n\n\"A tecnologia prometeu nos poupar tempo, e em parte cumpriu: tarefas que levavam horas hoje se resolvem em minutos. O problema é que o tempo poupado foi logo ocupado por novas tarefas, de modo que a sensação de pressa não diminuiu, apenas mudou de endereço.\"\n\nA ideia central do texto é que a tecnologia:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "acelerou a execução de tarefas, mas não reduziu a sensação de pressa, pois o tempo ganho foi tomado por novas atividades."
+        },
+        {
+          "id": "a2",
+          "texto": "não cumpriu em nada a promessa de poupar tempo, uma vez que as tarefas continuam a levar tantas horas quanto antes."
+        },
+        {
+          "id": "a3",
+          "texto": "eliminou por completo a sensação de pressa no cotidiano, ao resolver em minutos o que antes consumia horas de trabalho."
+        },
+        {
+          "id": "a4",
+          "texto": "criou novas tarefas que são, em si, mais demoradas e complexas do que aquelas que existiam no período anterior a ela."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O texto reconhece que a tecnologia poupou tempo (tarefas de horas em minutos), mas sustenta que a pressa não diminuiu, porque o tempo ganho foi ocupado por novas tarefas: ela apenas mudou de endereço. A ideia central reúne esses dois movimentos, o ganho e a sua anulação.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Une os dois pontos do texto: houve ganho de tempo, mas a pressa permaneceu porque o tempo poupado foi preenchido por novas tarefas."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O texto afirma que a tecnologia cumpriu em parte a promessa; negar qualquer ganho contraria o que está escrito."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O texto diz o oposto: a sensação de pressa não diminuiu, apenas mudou de endereço, portanto não foi eliminada."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O texto não compara a dificuldade das novas tarefas com a das antigas; afirma que elas ocuparam o tempo, não que são mais complexas."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Reter só metade da tese (ou só o ganho, ou só a crítica) e perder a relação entre os dois, que é o ponto central.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Em texto que concede um ponto e depois o relativiza, a ideia central é a soma dos dois movimentos, não apenas um deles.",
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "ideia central",
+        "tese",
+        "síntese",
+        "inferência"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de interpretação de texto (norma-padrão); nenhum texto legal aplicável a este tema"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Interpretação de Texto",
+      "subtema": "Inferência e ideia central",
+      "dificuldade": "dificil",
+      "enunciado": "Leia o texto para responder.\n\n\"Elogiamos a prudência enquanto ela nos poupa de erros; quando nos faz perder uma oportunidade, passamos a chamá-la de covardia. O nome que damos a uma mesma atitude costuma depender menos dela do que do resultado que colhemos.\"\n\nA tese que o texto sustenta é a de que:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "o julgamento de uma atitude tende a variar conforme o resultado obtido, e não conforme a atitude em si."
+        },
+        {
+          "id": "a2",
+          "texto": "a prudência é sempre preferível à ousadia, pois poupa a pessoa de cometer erros que depois se lamentam."
+        },
+        {
+          "id": "a3",
+          "texto": "a covardia e a prudência são, no fundo, a mesma coisa, de modo que distingui-las não tem qualquer utilidade prática."
+        },
+        {
+          "id": "a4",
+          "texto": "as oportunidades perdidas por excesso de cautela raramente são recuperadas por quem hesitou no momento decisivo."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O exemplo (a mesma prudência vira covardia quando o resultado é ruim) serve a uma tese mais ampla, enunciada no fecho: o nome que damos a uma atitude depende menos dela do que do resultado colhido. A dificuldade está em separar o exemplo da tese que ele ilustra.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "É exatamente a tese do fecho: o julgamento (o nome) de uma atitude depende do resultado, não da atitude em si."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O texto não defende a prudência como sempre preferível; usa-a só como exemplo de atitude julgada conforme o desfecho."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O texto não iguala os conceitos; mostra que o mesmo ato recebe nomes diferentes segundo o resultado, o que pressupõe distingui-los."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Trata de recuperação de oportunidades, tema que o texto não aborda; é desvio do ponto central."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Tomar o exemplo (prudência) como se fosse a tese, quando a tese é a dependência do julgamento em relação ao resultado.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Exemplo ilustra a tese, não a substitui; a ideia central é a afirmação geral, não o caso particular.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "ideia central",
+        "tese",
+        "exemplo e generalização",
+        "inferência"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de interpretação de texto (norma-padrão); nenhum texto legal aplicável a este tema"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Interpretação de Texto",
+      "subtema": "Inferência e ideia central",
+      "dificuldade": "dificil",
+      "enunciado": "Leia o texto para responder.\n\n\"Dizem que o silêncio é a melhor resposta. Pode ser, quando poupa uma discussão inútil. Mas há silêncios que pesam mais do que qualquer palavra: os que calam diante da injustiça e, ao se calarem, consentem com ela.\"\n\nA ideia que o texto procura transmitir é a de que o silêncio:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "pode ser sensato para evitar embates vazios, mas se torna cumplicidade quando se omite diante da injustiça."
+        },
+        {
+          "id": "a2",
+          "texto": "deve ser cultivado como resposta sempre que uma discussão se mostrar inútil ou cansativa para os envolvidos."
+        },
+        {
+          "id": "a3",
+          "texto": "é, em qualquer situação, uma forma de consentir com a injustiça e, por isso, nunca constitui boa resposta."
+        },
+        {
+          "id": "a4",
+          "texto": "pesa igualmente em todas as circunstâncias, de modo que calar-se produz sempre o mesmo efeito sobre quem ouve."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O texto não defende nem condena o silêncio de modo absoluto: reconhece que ele pode ser sensato (poupa discussão inútil), mas afirma que há silêncios que consentem com a injustiça. A ideia central é essa distinção condicionada, não uma regra única. Captar a ressalva é o que separa a resposta das demais.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reúne os dois lados do texto: o silêncio pode ser sensato em embates vazios, mas vira cumplicidade diante da injustiça."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Generaliza o primeiro ponto e ignora a ressalva; o texto não recomenda o silêncio como resposta em todo embate inútil."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Absolutiza o segundo ponto: o texto admite silêncios sensatos, logo não é verdade que ele nunca seja boa resposta."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O texto distingue silêncios que pesam mais e menos; afirmar efeito sempre igual contraria essa diferenciação."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Transformar uma afirmação condicionada em regra absoluta, tomando só um dos dois lados que o texto equilibra.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Alternativas que absolutizam (sempre, nunca, em qualquer situação) costumam trair textos que trabalham com ressalvas.",
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "ideia central",
+        "ressalva",
+        "inferência",
+        "generalização indevida"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de interpretação de texto (norma-padrão); nenhum texto legal aplicável a este tema"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Interpretação de Texto",
+      "subtema": "Inferência e ideia central",
+      "dificuldade": "dificil",
+      "enunciado": "Leia o texto para responder.\n\n\"Ele chegou pontualmente, cumprimentou a todos pelo nome e trouxe os documentos em ordem. Ainda assim, ao sair, percebeu que ninguém o olhara nos olhos durante a reunião. Guardou a pasta devagar, como quem tenta adiar uma conclusão que já se formara.\"\n\nA partir dos indícios do texto, infere-se que o personagem:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "pressente que não foi bem recebido na reunião, apesar de ter se comportado de maneira impecável diante do grupo."
+        },
+        {
+          "id": "a2",
+          "texto": "foi formalmente comunicado, ao término do encontro, de que seus documentos haviam sido rejeitados pelos presentes."
+        },
+        {
+          "id": "a3",
+          "texto": "comportou-se de forma inadequada durante a reunião, o que explicaria a frieza com que os demais o trataram."
+        },
+        {
+          "id": "a4",
+          "texto": "pretendia encerrar a reunião o quanto antes, razão pela qual guardou a pasta devagar ao perceber o clima tenso."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O texto contrapõe o comportamento correto do personagem (pontual, cordial, documentos em ordem) a um indício contrário (ninguém o olhou nos olhos) e ao gesto final de adiar uma conclusão que já se formara. A inferência segura é que ele pressente não ter sido bem recebido, apesar de ter agido bem. As demais inventam fatos (rejeição formal, conduta inadequada) ou contradizem o texto.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "O contraste entre a conduta impecável e o olhar esquivo dos demais, mais o gesto de adiar a conclusão, sustenta que ele pressente a má recepção."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Não há comunicação formal de rejeição no texto; a percepção do personagem é tácita, deduzida dos olhares, não de um aviso."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Contraria o texto, que descreve um comportamento correto; a frieza não se explica por conduta inadequada do personagem."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Guardar a pasta devagar é apresentado como adiar a conclusão, não como pressa para encerrar; inverte o sentido do gesto."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Inventar um fato explícito (rejeição formal, conduta inadequada) ou inverter o sentido de um gesto (guardar a pasta devagar) em vez de ler o indício como ele é apresentado.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Em textos narrativos, o detalhe que destoa do todo (aqui, o olhar esquivo) costuma guardar a inferência pedida.",
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "inferência",
+        "indícios",
+        "subentendido",
+        "leitura de narrativa"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de interpretação de texto (norma-padrão); nenhum texto legal aplicável a este tema"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "subtema": "Inferência e ideia central",
+      "frente": "Onde costuma estar a ideia central de um texto argumentativo?",
+      "verso": "Na tese que o autor defende, que organiza todo o texto. Ela pode aparecer logo na abertura ou no fecho, mas nunca se confunde com um exemplo isolado ou com um detalhe de apoio. Para achá-la, pergunte: o que o autor quer, acima de tudo, que o leitor aceite?",
+      "fundamento_legal": "não se aplica",
+      "lei_referencia": "não se aplica",
+      "palavras_chave": [
+        "ideia central",
+        "tese",
+        "texto argumentativo"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f02",
+      "subtema": "Inferência e ideia central",
+      "frente": "Qual a diferença entre uma inferência autorizada e uma leitura que apenas é possível?",
+      "verso": "A inferência autorizada é a conclusão que os dados do texto garantem, mesmo sem estar escrita com todas as letras. A leitura apenas possível é aquela que a cena permite imaginar, mas que o texto não assegura. Em prova, só vale a conclusão sustentada pelas pistas do próprio texto.",
+      "fundamento_legal": "não se aplica",
+      "lei_referencia": "não se aplica",
+      "palavras_chave": [
+        "inferência",
+        "leitura autorizada",
+        "conclusão sustentada"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f03",
+      "subtema": "Inferência e ideia central",
+      "frente": "Por que alternativas com termos absolutos (sempre, nunca, em qualquer caso) exigem atenção na interpretação de texto?",
+      "verso": "Porque muitos textos trabalham com ressalvas e condições, e a alternativa que absolutiza costuma ir além do que o texto afirma. Antes de aceitá-la, verifique se o texto realmente sustenta a afirmação sem exceções; se ele admite algum caso contrário, a alternativa absoluta está incorreta.",
+      "fundamento_legal": "não se aplica",
+      "lei_referencia": "não se aplica",
+      "palavras_chave": [
+        "termos absolutos",
+        "ressalva",
+        "generalização indevida"
+      ],
+      "cita_jurisprudencia": false
+    }
+  ]
+}

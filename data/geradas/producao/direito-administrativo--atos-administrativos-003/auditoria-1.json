@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 53 da Lei 9.784/1999 impõe à Administração o dever de anular seus atos eivados de vício de legalidade, respeitados os direitos adquiridos. A alternativa a1 reproduz esse comando; as demais confundem com suspensão, revogação por conveniência ou manutenção do ato ilegal. Fundamento correto."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 53 autoriza a revogação por motivo de conveniência ou oportunidade de ato válido, respeitados os direitos adquiridos (a1). Os distratores descrevem anulação (vício de legalidade), cassação (descumprimento de condições) e convalidação (defeito sanável), corretamente afastados. Fundamento correto."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 55 condiciona a convalidação a defeito sanável e à ausência de lesão ao interesse público e de prejuízo a terceiros (a1). Defeito insanável, vício de competência por falta de atribuição e ausência de motivação não se enquadram no instituto. Fundamento correto."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O caput do art. 54 fixa prazo de cinco anos, contados da prática do ato, salvo comprovada má-fé, para anular atos de efeitos favoráveis (a1). O enunciado não menciona efeitos patrimoniais contínuos, logo vale a regra geral do caput, e não o § 1º. Distratores (conhecimento da ilegalidade, dez anos, atemporalidade) corretamente errados."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 50, VIII, exige motivação dos atos que importem anulação de ato administrativo, com indicação dos fatos e fundamentos jurídicos (a1). A exigência independe de direito adquirido ou de provocação por recurso, e não é dispensada pela autotutela. Fundamento correto; o subtema de classificação é secundário e não compromete a questão."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A distinção do art. 53 está correta em a1: anulação por vício de legalidade (dever) e revogação de ato válido por conveniência ou oportunidade (faculdade), sempre respeitados os direitos adquiridos. Os demais itens invertem os institutos, exigem vício na revogação ou negam a ressalva legal. Fundamento correto."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A situação descreve a convalidação do art. 55: defeito sanável, mantido o ato, sem lesão ao interesse público nem prejuízo a terceiros (a1). Revogação parcial, anulação de efeitos limitados e vedação absoluta estão corretamente afastadas. Fundamento correto."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Havendo efeitos patrimoniais contínuos (gratificação paga mês a mês), o art. 54, § 1º, fixa o termo inicial dos cinco anos na percepção do primeiro pagamento (a1). A boa-fé não afasta a decadência (só a má-fé, pelo caput) e o prazo não se renova a cada parcela. Fundamento correto."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 54, § 2º, considera exercício do direito de anular qualquer medida de autoridade administrativa que importe impugnação à validade do ato (a1). Não é preciso o ato final de anulação, não há suspensão com retomada integral nem conversão em prescrição. Fundamento correto."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Em (I), ato favorável de destinatário de boa-fé praticado há sete anos: a decadência de cinco anos do art. 54, contada da prática, já se consumou e impede a anulação (a boa-fé não afasta a decadência). Em (II), o art. 55 admite a convalidação pela própria Administração, sem intervenção judicial. A alternativa a1 combina corretamente ambos. O enunciado de (I) não indica efeitos patrimoniais contínuos, de modo que incide o caput, e não o § 1º. Fundamento correto."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reflete o art. 53: anular é dever (vício de legalidade) e revogar é faculdade (conveniência ou oportunidade), respeitados os direitos adquiridos. Responde exatamente à frente, sem ambiguidade, com o dispositivo correto."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso aplica corretamente o art. 54, § 1º: nos efeitos patrimoniais contínuos, os cinco anos contam-se da percepção do primeiro pagamento, e não da prática do ato. Pergunta única e inequívoca, com o dispositivo certo."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso corresponde ao art. 50, VIII: anulação, revogação, suspensão e convalidação de ato administrativo exigem motivação, com indicação dos fatos e fundamentos jurídicos. Responde à frente de forma direta e sem ambiguidade."
+    }
+  ]
+}

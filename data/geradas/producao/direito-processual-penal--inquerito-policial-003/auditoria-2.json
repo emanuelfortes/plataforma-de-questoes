@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 2º, § 6º, da Lei 12.830/2013 reserva o indiciamento, de forma privativa, ao delegado de polícia, por ato fundamentado e com análise técnico-jurídica do fato. A alternativa a1 reproduz a regra; MP, juiz e requisição externa estão corretamente afastados."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 2º, § 6º, da Lei 12.830/2013 exige que o indiciamento indique autoria, materialidade e suas circunstâncias (três elementos cumulativos). A a1 traz os três; os distratores suprimem elementos ou acrescentam dosimetria, que não cabe no ato."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reproduz o art. 6º, VIII, do CPP: identificação pelo processo datiloscópico, se possível, e juntada da folha de antecedentes. Os distratores inventam reconhecimento fotográfico, autorização judicial ou condição de ausência de documento, todos fora da norma."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reflete o art. 6º, IX, do CPP (pontos de vista individual, familiar e social, condição econômica e estado de ânimo antes, durante e depois do crime). Os distratores reduzem a antecedentes, condicionam a testemunhas do ofendido ou exigem perícia psiquiátrica, o que a norma não prevê."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reproduz o art. 23 do CPP: na remessa, a autoridade oficia ao Instituto de Identificação e Estatística ou congênere, com o juízo de distribuição e os dados da infração e do indiciado. Os distratores trocam o destinatário por MP, Defensoria ou cadastro nacional."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 15 do CPP determina que, sendo menor o indiciado, o curador seja nomeado pela própria autoridade policial. A a1 acerta a letra da lei; os distratores atribuem a nomeação ao juiz, ao MP ou à Defensoria. O comentário ainda ressalva a aplicação restrita atual sem comprometer o gabarito literal."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 2º da Lei 12.830/2013 qualifica as funções como de natureza jurídica, essenciais e exclusivas de Estado, exatamente como a a1. Os distratores (administrativa/delegável, técnica/compartilhada com o MP, política/avocável pelo Judiciário) contrariam o texto."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reúne o art. 2º, § 6º, da Lei 12.830/2013: indiciamento privativo, por decisão fundamentada e análise técnico-jurídica, não imposto por requisição de juiz ou MP. Os distratores admitem requisição pelo MP, autorização do juiz das garantias ou exercício direto pelo superior, todos incorretos. A menção ao juiz das garantias aparece só como distrator conceitual, sem citar os artigos sensíveis como regra em vigor, logo não exige a nota obrigatória."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 combina corretamente o art. 6º, VIII (identificação datiloscópica, se possível) e o art. 6º, IX (vida pregressa nos pontos de vista individual, familiar e social) do CPP. Os distratores exigem ordem judicial, perícia do estado mental, obrigatoriedade absoluta ou atribuição ao MP, todos fora da norma."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reúne o art. 10, § 1º (relatório minucioso e remessa ao juiz) e o art. 23 (ofício ao Instituto de Identificação com os dados do indiciado) do CPP. Os distratores atribuem juízo de responsabilidade, remessa direta ao MP, arquivamento pela autoridade (vedado pelo art. 17) ou fixação de pena, todos incorretos."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso corresponde ao art. 2º, § 6º, da Lei 12.830/2013: indiciamento privativo do delegado, por ato fundamentado e análise técnico-jurídica, sem indiciamento por MP ou juiz. Frente objetiva e com resposta única."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso traz os três elementos cumulativos do art. 2º, § 6º, da Lei 12.830/2013 (autoria, materialidade e circunstâncias). Pergunta clara, resposta única e dispositivo correto."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reproduz corretamente o art. 6º, VIII (identificação datiloscópica, se possível, e folha de antecedentes) e o art. 6º, IX (vida pregressa nos pontos de vista individual, familiar e social) do CPP. Reúne dois incisos conexos sobre a pessoa do indiciado, mas a frente é clara e a resposta é única."
+    }
+  ]
+}

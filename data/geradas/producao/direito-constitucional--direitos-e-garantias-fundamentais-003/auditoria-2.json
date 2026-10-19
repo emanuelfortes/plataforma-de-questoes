@@ -1,0 +1,165 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa a1 reproduz a única exceção do art. 5º, XII: interceptação por ordem judicial, nas hipóteses e na forma da lei, para investigação criminal ou instrução processual penal. Os distratores atribuem a autorização à autoridade policial ou ao MP, ou estendem a hipótese a fins civis/administrativos, todos contrariando o texto. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O enunciado do art. 5º, XXXIX, corresponde ao princípio da legalidade (e anterioridade) penal, exatamente a alternativa a1. Insignificância, individualização da pena (XLVI) e retroatividade são institutos distintos, afastados corretamente. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, LVII, fixa a culpa no trânsito em julgado da sentença penal condenatória (a1). Sentença de primeiro grau, acórdão de segundo grau e recebimento da denúncia não são o marco, sendo distratores corretos. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, XL, prevê a irretroatividade da lei penal, salvo para beneficiar o réu; sendo a lei nova mais branda, retroage (a1). As demais negam a ressalva, condicionam a retroatividade à fase processual ou a pedido da acusação, contrariando o dispositivo. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "pedagogico",
+          "gravidade": "baixa",
+          "descricao": "A alternativa correta e o enunciado cobram a literalidade do art. 5º, LXVII, mantendo a prisão do depositário infiel como exceção. O enunciado deixa claro que exige a letra da Constituição (o cuidado_na_prova reforça isso), mas é prudente registrar que, no entendimento atual do STF, essa prisão é tida por inaplicável. O dispositivo não consta da lista de ressalva obrigatória deste pedido, então não há reprovação; a limitação fica anotada para a revisão."
+        }
+      ],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa a1 reproduz fielmente o art. 5º, LXVII, com as duas ressalvas textuais (obrigação alimentícia e depositário infiel). Os distratores omitem uma ressalva, estendem a dívidas patrimoniais ou incluem o fiador, errando pelo texto. Gabarito e fundamento conferem; mantém-se ressalva pedagógica sobre o entendimento atual do STF quanto ao depositário infiel, já que a questão cobra expressamente a literalidade."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, LVI, torna inadmissíveis no processo as provas obtidas por meios ilícitos (a1). As demais tentam convalidar a prova por indenização, gravidade do crime ou ausência de outro meio, hipóteses não admitidas pelo texto. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, XIII, assegura a liberdade de trabalho, ofício ou profissão atendidas as qualificações que a lei estabelecer (a1), em norma de eficácia contida. Os distratores negam a possibilidade de qualificação legal, exigem autorização de órgão de classe ou distinguem natos e naturalizados, tudo fora do dispositivo. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, XLVII, veda as penas de caráter perpétuo, de trabalhos forçados, de banimento e as cruéis, admitindo a pena de morte apenas em caso de guerra declarada, exatamente como na alternativa a1. As demais admitem morte para hediondos, trabalhos forçados/banimento ou pena perpétua, contrariando o texto. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa a1 combina corretamente o inciso LXI (flagrante ou ordem escrita e fundamentada do juiz), o LXV (relaxamento da prisão ilegal pela autoridade judiciária) e o LXVI (liberdade provisória quando a lei admitir). Os distratores admitem ordem verbal, relaxamento pela autoridade policial, prisão sem flagrante/ordem judicial nos crimes dolosos contra a vida ou conversão automática em preventiva, todos fora do texto. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, XXXVI, protege as três situações (direito adquirido, ato jurídico perfeito e coisa julgada) contra a lei posterior, como na alternativa a1. As demais reduzem a proteção a uma ou duas figuras ou admitem exceção por interesse público, contrariando o dispositivo. Gabarito e fundamento conferem."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso responde com precisão à frente: o sigilo das comunicações telefônicas só é afastado por ordem judicial, nas hipóteses e na forma da lei, para investigação criminal ou instrução processual penal (art. 5º, XII). Dispositivo correto e sem ambiguidade."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso lista corretamente as penas vedadas pelo art. 5º, XLVII (perpétua, trabalhos forçados, banimento e cruéis) e a única exceção à vedação da pena de morte (guerra declarada, art. 84, XIX). Responde exatamente à frente, sem ambiguidade."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA_COM_RESSALVA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [
+        {
+          "tipo": "pedagogico",
+          "gravidade": "baixa",
+          "descricao": "A frente pede expressamente a literalidade do art. 5º, LXVII, e o verso a entrega de forma correta, incluindo o depositário infiel. Convém registrar, para a revisão, que o STF considera inaplicável a prisão do depositário infiel; como a frente cobra a letra da Constituição e o dispositivo não consta da lista de ressalva obrigatória deste pedido, não há reprovação."
+        }
+      ],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reproduz fielmente a literalidade do art. 5º, LXVII, com as duas ressalvas textuais (obrigação alimentícia e depositário infiel), respondendo exatamente à frente, que delimita a cobrança à letra da lei. Mantém-se ressalva pedagógica quanto ao entendimento atual do STF sobre o depositário infiel."
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A polícia militar integra o rol constitucional de órgãos de segurança pública, encarregada do policiamento ostensivo e da preservação da ordem pública. As demais alternativas inventam corporações inexistentes ou misturam atribuições, cada uma inequivocamente errada. Única correta e dentro do recorte do edital."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A atuação fardada, visível e preventiva descrita corresponde ao policiamento ostensivo, núcleo da função da polícia militar. Perícia, polícia judiciária, custódia prisional e fiscalização aduaneira são atividades de outros órgãos, todas descartáveis. Gabarito único e correto."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O regime fechado é o de maior restrição, cumprido em estabelecimento de segurança máxima ou média, como afirma a correta. Os distratores invertem a escala de rigor (aberto como o mais severo, semiaberto em domicílio, fechado com trabalho externo livre), cada um claramente errado."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Reflete a divisão clássica estadual: policiamento ostensivo e prisão em flagrante com a polícia militar, investigação criminal subsequente com a polícia civil. Os distratores embaralham as funções ou restringem indevidamente o flagrante, todos errados. Resposta única."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A cadeia pública destina-se ao recolhimento de presos provisórios, conforme a destinação consolidada dos estabelecimentos penais. Os distratores trocam essas destinações (penitenciária só para provisórios, casa do albergado em regime fechado, colônia em segurança máxima), todos incorretos. Gabarito único."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O corpo de bombeiros militar é a corporação estadual voltada ao combate a incêndios, socorro, salvamento e defesa civil, além do que a lei estadual atribuir. Os distratores deslocam essas funções para polícia civil, guarda municipal, PRF ou perícia, todos errados. Resposta inequívoca."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A polícia penal tem como função típica a segurança dos estabelecimentos penais e a custódia das pessoas privadas de liberdade, vinculada à administração penitenciária. Os distratores ampliam indevidamente suas atribuições para investigação plena, ostensivo, trânsito e perícia. Gabarito único e correto, sem citar número de norma."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Polícias militares e bombeiros militares são forças estaduais subordinadas aos governadores, qualificadas como forças auxiliares e reserva do Exército, sem integração orgânica às Forças Armadas, o que corrige corretamente a afirmação do estudante. Os distratores sustentam subordinação federal ou natureza civil, todos errados."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A passagem do fechado para o semiaberto é a progressão de regime, dependente de requisitos objetivos (tempo) e subjetivos (comportamento), em regra gradual. Os distratores tornam o movimento automático, saltam o semiaberto, vedam a progressão ou automatizam a regressão, todos incorretos. Resposta única."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A integração do sistema de segurança pública coordena a atuação dos órgãos dos diferentes entes federados sem suprimir suas atribuições constitucionais, em cooperação. Os distratores supõem centralização na União, órgão único ou exclusão dos municípios, contrariando o modelo cooperativo. Gabarito único, sem citar número de norma."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A frente pergunta de forma objetiva qual estabelecimento recolhe presos provisórios e o verso responde corretamente (cadeia pública), distinguindo-a da penitenciária. Conceito único, sem ambiguidade, coerente com a q05 sem copiar seu enunciado."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso responde com precisão à frente: as corporações militares estaduais são forças auxiliares e reserva do Exército, subordinadas aos governadores, sem integração orgânica às Forças Armadas. Conceito consolidado, resposta única e sem ambiguidade."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A frente pergunta o que é a progressão de regime e de quais requisitos depende; o verso responde corretamente (passagem gradual a regime menos rigoroso, com requisitos objetivos e subjetivos, não automática). Conceito único e sem ambiguidade."
+    }
+  ]
+}

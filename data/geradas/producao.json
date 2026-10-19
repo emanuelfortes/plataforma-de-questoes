@@ -922,6 +922,210 @@
         "descartes": []
       },
       "concluidoEm": "2026-10-19T08:45:52.543Z"
+    },
+    {
+      "id": "seguranca-publica--instituicoes-de-seguranca-publica-e-sistema-prisional-001",
+      "topico": "seguranca-publica--instituicoes-de-seguranca-publica-e-sistema-prisional",
+      "banca": "Vunesp",
+      "alternativas": 5,
+      "concurso": "cfo-pmce",
+      "foco": "todo o tema, variando os pontos cobrados",
+      "execucao": "exec-2026-10-19T08-46-22-718Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T08:46:26.672Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 0,
+          "fila": 10,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 0,
+          "fila": 3,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T08:53:01.061Z"
+    },
+    {
+      "id": "direito-administrativo--atos-administrativos-003",
+      "topico": "direito-administrativo--atos-administrativos",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "pcce-2021",
+      "foco": "Anulação, revogação, cassação e convalidação",
+      "execucao": "exec-2026-10-19T08-46-22-718Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T08:46:26.805Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 10,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 2,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 1
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T08:53:03.116Z"
+    },
+    {
+      "id": "lingua-portuguesa--interpretacao-de-texto-003",
+      "topico": "lingua-portuguesa--interpretacao-de-texto",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "pcce-2021",
+      "foco": "Inferência e ideia central",
+      "execucao": "exec-2026-10-19T08-46-22-718Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T08:46:26.930Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 10,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 3,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T08:53:05.053Z"
+    },
+    {
+      "id": "direito-constitucional--direitos-e-garantias-fundamentais-003",
+      "topico": "direito-constitucional--direitos-e-garantias-fundamentais",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "pcce-2021",
+      "foco": "Direitos e deveres individuais e coletivos (art. 5º)",
+      "execucao": "exec-2026-10-19T08-46-22-718Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T08:53:05.172Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 9,
+          "fila": 1,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 2,
+          "fila": 1,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T09:00:37.075Z"
+    },
+    {
+      "id": "legislacao-penal-especial--estatuto-do-desarmamento-001",
+      "topico": "legislacao-penal-especial--estatuto-do-desarmamento",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "pcce-2021",
+      "foco": "todo o tema, variando os pontos cobrados",
+      "execucao": "exec-2026-10-19T08-46-22-718Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T08:53:05.296Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 10,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 2,
+          "fila": 1,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T09:00:39.234Z"
+    },
+    {
+      "id": "direito-processual-penal--inquerito-policial-003",
+      "topico": "direito-processual-penal--inquerito-policial",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "pcce-2021",
+      "foco": "Indiciamento",
+      "execucao": "exec-2026-10-19T08-46-22-718Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T08:53:05.414Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 8,
+          "fila": 1,
+          "descartadas": 0,
+          "duplicadas": 1
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 3,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T09:00:41.136Z"
     }
   ],
   "execucoes": [
@@ -977,6 +1181,15 @@
       "paralelo": 3,
       "lotesIniciados": 6,
       "fim": "2026-10-19T08:45:52.544Z",
+      "motivoFim": "teto atingido"
+    },
+    {
+      "id": "exec-2026-10-19T08-46-22-718Z",
+      "inicio": "2026-10-19T08:46:22.719Z",
+      "teto": 6,
+      "paralelo": 3,
+      "lotesIniciados": 6,
+      "fim": "2026-10-19T09:00:41.136Z",
       "motivoFim": "teto atingido"
     }
   ],

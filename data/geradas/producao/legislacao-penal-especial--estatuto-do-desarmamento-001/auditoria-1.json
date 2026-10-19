@@ -1,0 +1,159 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 1º institui o Sinarm no Ministério da Justiça, no âmbito da Polícia Federal, com circunscrição nacional. A correta (a1) reproduz o dispositivo; os distratores (Exército, Ministério da Defesa, Secretarias estaduais) estão corretamente afastados."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A posse irregular de uso permitido (art. 12) é detenção de 1 a 3 anos e multa. Os distratores usam corretamente as penas do art. 14 (reclusão 2 a 4) e do art. 16 (reclusão 3 a 6), e um patamar inexistente, todos errados."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 14 comina reclusão de 2 a 4 anos e multa; o parágrafo único torna o crime inafiançável, salvo quando a arma estiver registrada em nome do agente. A correta (a1) reproduz caput e ressalva; os distratores erram a pena ou a afiançabilidade."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 13 pune deixar de observar cautelas para impedir que menor de 18 anos ou pessoa com deficiência mental se apodere de arma sob posse ou propriedade do agente, com detenção de 1 a 2 anos. A correta (a1) descreve a conduta e a pena; os distratores alteram marco etário (16/21), a pena ou trocam a omissão pelo disparo efetivo."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 32 prevê entrega espontânea, mediante recibo e boa-fé presumida, com indenização na forma do regulamento e extinção da punibilidade da posse irregular. A correta (a1) reproduz o dispositivo; os distratores reduzem a mera atenuante, negam efeito penal ou estendem a extinção a todos os crimes do Estatuto."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 20 aumenta a pena da metade nos arts. 14 a 18 se praticados por integrante dos órgãos/empresas dos arts. 6º, 7º e 8º ou por reincidente específico. A correta (a1) reproduz os incisos I e II; o distrator a3 remete corretamente ao art. 19 (uso proibido/restrito nos arts. 17 e 18)."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 3º torna obrigatório o registro no órgão competente e, no parágrafo único, registra a arma de uso restrito no Comando do Exército; o art. 5º limita o registro a manter a arma em casa ou no trabalho. A correta (a1) reúne o art. 3º; os distratores confundem registro com porte ou centralizam tudo na Polícia Federal."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "As penas conferem com o texto: art. 16 caput reclusão de 3 a 6 anos, art. 17 reclusão de 6 a 12 anos e art. 18 reclusão de 8 a 16 anos, na ordem crescente de a1. Os distratores alteram patamares ou invertem comércio e tráfico."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 1º, parágrafo único, II a IV, da Lei 8.072/1990 equipara a hediondos a posse/porte de uso proibido (art. 16), o comércio ilegal (art. 17) e o tráfico internacional (art. 18) do Estatuto. A correta (a1) reproduz o rol, com a ressalva do uso proibido no art. 16; os distratores incluem arts. 12, 14 ou 15 ou negam a hediondez."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 10, § 2º, prevê perda automática de eficácia do porte por embriaguez, sem processo prévio; o art. 21 torna insuscetíveis de liberdade provisória os arts. 16, 17 e 18, alcançando o tráfico internacional (art. 18). A correta (a1) combina os dois; os distratores exigem processo/condenação ou estendem a vedação a todos os crimes."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso traz corretamente as penas dos arts. 12 (detenção 1 a 3 anos), 14 (reclusão 2 a 4 anos) e 16 caput (reclusão 3 a 6 anos), além do § 2º (uso proibido, reclusão 4 a 12 anos). Frente objetiva, verso com os dispositivos."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reproduz corretamente o art. 1º, parágrafo único, II a IV, da Lei 8.072/1990 (arts. 16 de uso proibido, 17 e 18 do Estatuto) e esclarece que arts. 12, 14 e 15 não são hediondos. Sem ambiguidade."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA_COM_RESSALVA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [
+        {
+          "tipo": "pedagogico",
+          "gravidade": "baixa",
+          "descricao": "O card reúne dois conceitos distintos num só item (efeito penal da entrega espontânea, art. 32, e destinação das armas apreendidas, art. 25), contrariando a diretriz de um conceito por card. Ambas as informações estão corretas conforme o texto legal."
+        }
+      ],
+      "correcao_sugerida": "Dividir em dois flashcards: um sobre o art. 32 (entrega espontânea, extinção da punibilidade da posse irregular) e outro sobre o art. 25 (armas apreendidas, laudo, encaminhamento pelo juiz ao Comando do Exército em até 48 horas).",
+      "justificativa": "O conteúdo dos arts. 32 e 25 confere com o texto legal, mas o card mistura dois assuntos independentes. Ajuste pontual (separar em dois cards) resolve."
+    }
+  ]
+}

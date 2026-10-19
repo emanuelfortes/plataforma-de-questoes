@@ -1,0 +1,159 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A polícia militar (a1) integra o rol constitucional de órgãos de segurança pública, com função de policiamento ostensivo e preservação da ordem pública. As demais inventam corporações inexistentes (guarda portuária federal, polícia judiciária eleitoral, guarda nacional de trânsito, polícia aeroportuária civil). Gabarito único e correto."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A atuação fardada, visível e preventiva descrita é o policiamento ostensivo (a1), núcleo da função da polícia militar. Os distratores descrevem atividades reais de outros órgãos (perícia, polícia judiciária, custódia, fiscalização aduaneira). Caso concreto bem construído, com resposta única."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O regime fechado é cumprido em estabelecimento de segurança máxima ou média, sendo o de maior restrição (a1), em conformidade com a graduação dos regimes. Os distratores invertem a escala de rigor (aberto como mais severo, semiaberto só em domicílio, fechado com trabalho externo livre). Gabarito único."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A divisão clássica estadual confere o policiamento ostensivo e a prisão em flagrante à polícia militar e a investigação criminal subsequente, como polícia judiciária, à polícia civil (a1). Os distratores embaralham as funções. A justificativa de a5 reconhece corretamente que o flagrante pode ser feito por qualquer pessoa ou autoridade. Resposta única e correta."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A cadeia pública destina-se ao recolhimento de presos provisórios (a1), ao passo que penitenciária é do regime fechado, colônia do semiaberto e casa do albergado do aberto. Os distratores trocam essas destinações. Conteúdo consolidado, gabarito único."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O corpo de bombeiros militar é a corporação estadual, de natureza militar, voltada a combate a incêndios, socorro, salvamento e defesa civil, além do que a lei estadual atribuir (a1). Os distratores deslocam essas funções para polícia civil, guarda municipal, PRF ou perícia. Resposta única e correta."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A polícia penal, vinculada aos órgãos de administração penitenciária, tem como função típica a segurança dos estabelecimentos penais e a custódia das pessoas privadas de liberdade (a1). Não lhe cabem investigação como polícia judiciária plena, policiamento ostensivo de rua, fiscalização de trânsito nem perícia. Conhecimento consolidado, gabarito único."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "normativo",
+          "gravidade": "baixa",
+          "descricao": "A alternativa correta (a1) diz que as forças militares estaduais são 'reserva das Forças Armadas'. A fórmula constitucional consolidada é 'forças auxiliares e reserva do Exército'. A imprecisão não cria segunda correta nem torna a alternativa errada (o comentário e a análise já usam corretamente 'reserva do Exército'), mas o ideal é alinhar o texto da alternativa à expressão técnica."
+        }
+      ],
+      "correcao_sugerida": "Em a1, substituir 'embora reserva das Forças Armadas' por 'embora forças auxiliares e reserva do Exército', alinhando-a ao comentário e à terminologia constitucional.",
+      "justificativa": "A afirmação do estudante é incorreta e a1 a corrige adequadamente: PM e bombeiros militares são forças estaduais subordinadas aos governadores, sem integrar organicamente as Forças Armadas. Os demais distratores erram por conteúdo. Ressalva pontual apenas na expressão 'reserva das Forças Armadas', que o ideal é trocar por 'reserva do Exército'."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A transição do fechado para o semiaberto é a progressão de regime (a1), condicionada a requisitos objetivos (tempo) e subjetivos (comportamento), em regra gradual. Os distratores tornam o movimento automático, saltam etapa, negam a progressão ou tratam a regressão como automática. Gabarito único e correto."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A integração do sistema de segurança pública coordena a atuação dos órgãos dos diversos entes, preservando as atribuições constitucionais de cada um, em cooperação federativa (a1). Os distratores supõem centralização na União, criação de órgão único ou exclusão dos municípios. Resposta única e correta."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A frente admite resposta única (cadeia pública) e o verso está correto: a cadeia pública recolhe presos provisórios, distinta da penitenciária (regime fechado). Conceito consolidado, sem ambiguidade."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso responde exatamente à frente e usa a terminologia correta: forças estaduais subordinadas aos governadores, qualificadas como forças auxiliares e reserva do Exército, sem integração orgânica às Forças Armadas. Correto e inequívoco."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A progressão é a passagem a regime menos rigoroso, em regra gradual (fechado, semiaberto, aberto), dependente de requisitos objetivos (tempo) e subjetivos (comportamento), não automática. Verso correto e sem ambiguidade."
+    }
+  ]
+}

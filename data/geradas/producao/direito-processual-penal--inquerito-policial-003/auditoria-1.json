@@ -1,0 +1,159 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvi por conta própria: o art. 2º, § 6º, da Lei 12.830/2013 reserva o indiciamento, de forma privativa, ao delegado, por ato fundamentado com análise técnico-jurídica. A1 reproduz a norma; MP, juiz e requisição de indiciamento são distratores corretamente errados. Enunciado, alternativas e comentário sem erro jurídico ou gramatical."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 2º, § 6º, da Lei 12.830/2013 exige autoria, materialidade e circunstâncias. A1 traz os três elementos; a2 omite autoria/circunstâncias, a3 insere dosimetria (própria da sentença) e a4 exclui as circunstâncias. Distratores corretamente errados por conteúdo."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A1 reproduz o art. 6º, VIII, do CPP (identificação pelo processo datiloscópico, se possível, e juntada da folha de antecedentes). Os demais inventam reconhecimento fotográfico, exigência de ordem judicial ou condicionamento à falta de documento, nada disso previsto. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A1 reflete o art. 6º, IX, do CPP (pontos de vista individual, familiar e social, condição econômica e estado de ânimo antes, durante e depois do crime). Os distratores restringem a antecedentes, condicionam a testemunhas do ofendido ou inventam perícia psiquiátrica obrigatória. A correta é a mais longa do item, mas dentro da tolerância (razão em torno de 1,05)."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 23 do CPP manda oficiar ao Instituto de Identificação e Estatística, ou congênere, com o juízo de distribuição e os dados da infração e do indiciado. A1 reproduz a norma; MP, Defensoria e cadastro nacional são destinatários errados. A correta é a mais curta do item, mas em torno de 0,87 da média das erradas (acima do mínimo de 0,80)."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 15 do CPP é literal: sendo menor o indiciado, o curador é nomeado pela própria autoridade policial. O enunciado e o comentário deixam claro que cobram a letra do CPP (observacao_temporal registra a aplicação restrita hoje). Distratores (juiz, MP, Defensoria) corretamente errados."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 2º da Lei 12.830/2013 qualifica as funções como de natureza jurídica, essenciais e exclusivas de Estado. A1 reproduz a norma; os demais trocam por administrativa/delegável, técnica/compartilhada ou política/avocável, todos errados por conteúdo. A correta é a mais curta do item, com razão em torno de 0,81 (acima do mínimo de 0,80)."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Caso concreto que combina o art. 2º, § 6º (indiciamento privativo, por ato fundamentado) e o § 4º (avocação/redistribuição só por superior com despacho fundamentado) da Lei 12.830/2013. A1 reúne os pontos corretamente; MP não requisita indiciamento, o juiz das garantias não o autoriza e o superior não indicia no lugar do delegado. A correta é a mais longa do item, mas dentro da tolerância (razão em torno de 1,20)."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A1 combina corretamente o art. 6º, VIII (identificação datiloscópica, se possível) e o art. 6º, IX (vida pregressa individual, familiar e social) do CPP. Os distratores inventam ordem judicial, perícia obrigatória, substituição da folha de antecedentes ou atribuição ao MP. Uma só correta."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "alternativas",
+          "gravidade": "media",
+          "descricao": "A alternativa correta (a1) é visivelmente a mais longa e mais completa do item: tem cerca de 211 caracteres contra uma média de cerca de 158 nas erradas (razão em torno de 1,33, acima do limite de 1,25). Além disso, no conjunto do lote a correta é a mais longa em quatro questões (q04, q08, q09 e q10), acima do máximo de três. q10 é a que mais extrapola e concentra a pista pelo tamanho."
+        }
+      ],
+      "correcao_sugerida": "Enxugar a alternativa a1 (por exemplo, sem repetir \"com os dados relativos à infração e à pessoa do indiciado\", bastando \"e oficiará ao Instituto de Identificação e Estatística\") e deixar os distratores a3 e a4 com nível de detalhe equivalente, para que a correta não seja a mais longa nem destoe acima de 125% da média das erradas. No lote, ajustar também para reduzir a quantidade de questões em que a correta é a mais longa.",
+      "justificativa": "Gabarito correto: o art. 10, § 1º (relatório minucioso e remessa ao juiz) somado ao art. 23 (ofício ao Instituto de Identificação) do CPP; a3 é afastada pelo art. 17 (a autoridade não arquiva) e a4 pela impossibilidade de fixar pena ou determinar prisão. Tecnicamente utilizável, mas a correta se destaca pelo tamanho/completude (pista involuntária), ajuste pontual descrito na correção sugerida."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso responde exatamente à frente e confere com o art. 2º, § 6º, da Lei 12.830/2013: indiciamento privativo do delegado, por ato fundamentado com análise técnico-jurídica, sem requisição de MP ou juiz. Um conceito, frente em pergunta, dispositivo citado."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Verso correto conforme o art. 2º, § 6º, da Lei 12.830/2013: o indiciamento deve indicar autoria, materialidade e circunstâncias (três elementos cumulativos). Frente objetiva e sem ambiguidade; não copia enunciado de questão do lote."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Verso fiel ao art. 6º, VIII (identificação pelo processo datiloscópico, se possível, e folha de antecedentes) e IX (vida pregressa individual, familiar e social, condição econômica e estado de ânimo) do CPP. A frente delimita os dois pontos, então a resposta não é ambígua; dispositivos citados corretamente."
+    }
+  ]
+}

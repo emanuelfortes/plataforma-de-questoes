@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 1º institui o Sinarm no Ministério da Justiça, no âmbito da Polícia Federal, com circunscrição nacional. A alternativa a1 reproduz o dispositivo; as demais trocam o órgão. Única correta."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 12 comina detenção de 1 a 3 anos e multa. A a1 confere; as demais trazem penas de outros tipos (arts. 14 e 16) ou patamar inexistente. Única correta."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Art. 14: reclusão de 2 a 4 anos e multa, inafiançável salvo quando a arma estiver registrada em nome do agente (parágrafo único). A a1 reúne ambos corretamente; a vedação de liberdade provisória do art. 21 não alcança o art. 14. Única correta."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Art. 13: menor de 18 anos ou pessoa portadora de deficiência mental, apoderamento de arma sob posse ou propriedade do agente, detenção de 1 a 2 anos. A a1 descreve corretamente a conduta e a pena; as demais alteram marco etário ou pena. Única correta."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Art. 32: entrega espontânea mediante recibo, presunção de boa-fé, indenização na forma do regulamento e extinção da punibilidade da posse irregular. A a1 confere; a extinção não é mera atenuante, não é vazia e não alcança crimes graves. Única correta."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Art. 20: aumento da metade nos arts. 14 a 18 se praticados por integrante dos arts. 6º, 7º e 8º ou por reincidente específico. A a1 confere; a a3 corresponde ao art. 19. Única correta."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Art. 3º, caput (registro obrigatório) e parágrafo único (arma de uso restrito registrada no Comando do Exército), somados ao art. 5º (registro não autoriza porte). A a1 confere; as demais confundem registro com porte ou órgão. Única correta."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Penas: art. 16 (3 a 6 anos), art. 17 (6 a 12 anos) e art. 18 (8 a 16 anos). A a1 traz a ordem crescente correta; as demais alteram patamares ou invertem comércio e tráfico. Única correta."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Lei 8.072/1990, art. 1º, parágrafo único, II a IV: hediondos a posse ou porte de arma de uso proibido (art. 16), o comércio ilegal (art. 17) e o tráfico internacional (art. 18) do Estatuto. A a1 qualifica corretamente o art. 16 como de uso proibido; arts. 12, 14 e 15 não são hediondos. Única correta."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Art. 10, § 2º: a autorização de porte perde automaticamente a eficácia se o portador for detido ou abordado em estado de embriaguez. Art. 21: arts. 16, 17 e 18 insuscetíveis de liberdade provisória, abrangendo o tráfico internacional do art. 18. A a1 combina ambos; a vedação não alcança o art. 12. Única correta."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Verso correto: art. 12 (detenção de 1 a 3 anos), art. 14 (reclusão de 2 a 4 anos), art. 16 (reclusão de 3 a 6 anos; § 2º, uso proibido, 4 a 12 anos). Frente objetiva e resposta única."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Correto conforme o art. 1º, parágrafo único, II a IV, da Lei 8.072/1990: arts. 16 (uso proibido), 17 e 18 do Estatuto; arts. 12, 14 e 15 não são hediondos. Frente com resposta única."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Verso correto: art. 32 (extinção da punibilidade da posse irregular na entrega espontânea) e art. 25 (armas apreendidas encaminhadas pelo juiz ao Comando do Exército em até 48 horas para destruição ou doação). A frente delimita os dois dispositivos, com resposta única."
+    }
+  ]
+}

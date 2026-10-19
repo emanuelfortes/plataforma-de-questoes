@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A tese está explícita no fecho: as boas apurações nascem da estranheza, não da pressa por concluir. a1 a resume; a2 (experiência) não aparece no texto, a3 inverte o sentido e a4 contraria a abertura. Resposta única."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Céu limpo mais guarda-chuva guardado e trovões ouvidos ao longe sustentam a inferência de que Ana previu chuva (a1). a2 (hábito diário), a3 (chegou molhada) e a4 (empréstimo) extrapolam ou inventam fatos. Inferência única e segura."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A tese está no fecho: escrever para ser compreendido por quem não viu (a1). a2 é justamente o que o texto rejeita (não basta registrar), a3 e a4 defendem pontos que o texto não sustenta. Resposta única."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O texto garante que o delegado anotou tudo, inclusive a demora, logo a hesitação foi notada e registrada (a1). a2 (mentira deliberada), a3 (encerramento) e a4 (intenção de sair) são leituras possíveis, mas não autorizadas. A inferência pedida é bem distinguida da mera possibilidade."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O texto opõe firmeza (argumentos, persuade) a rispidez (só tom, não convence quem discorda); a1 capta essa oposição. a2 funde os conceitos, a3 inverte o efeito do tom e a4 condena a firmeza, que o texto valoriza. Resposta única."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O conjunto de pistas (curiosos, fita, policial, cortinas) autoriza concluir que algo incomum ocorreu e mobilizou moradores e polícia (a1). a2 (crime grave na madrugada) e a3 (presenciaram) extrapolam; a4 contraria o bairro antes silencioso. Inferência única e sustentada."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A ideia central une os dois movimentos: houve ganho de tempo, mas a pressa não diminuiu porque o tempo foi reocupado (a1). a2 nega qualquer ganho, a3 afirma eliminação da pressa e a4 compara complexidade, tudo contrário ao texto. Resposta única."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A tese do fecho é que o julgamento (o nome) de uma atitude depende do resultado, não da atitude em si (a1). a2 toma o exemplo (prudência) como tese, a3 iguala conceitos que o texto distingue e a4 desvia para recuperação de oportunidades. Resposta única."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O texto condiciona: o silêncio pode ser sensato, mas vira cumplicidade diante da injustiça (a1). a2 e a3 absolutizam um dos lados e a4 nega a diferenciação explícita no texto. Resposta única; os distratores absolutos erram por conteúdo."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O contraste entre a conduta impecável e o olhar esquivo, mais o gesto de adiar a conclusão, sustenta que o personagem pressente a má recepção (a1). a2 inventa comunicação formal, a3 contraria a conduta correta e a4 inverte o sentido do gesto. Inferência única e segura."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A frente admite resposta única e o verso está correto segundo a norma-padrão: a ideia central está na tese que organiza o texto, não num exemplo isolado. Tema sem lei, logo não se exige dispositivo. Não copia enunciado do lote."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Distinção correta e sem ambiguidade: a inferência autorizada é a conclusão garantida pelas pistas do texto; a leitura apenas possível não é assegurada por ele. Um conceito por card, redação própria."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Explicação correta: termos absolutos costumam extrapolar textos que trabalham com ressalvas, e a alternativa só vale se o texto sustentar a afirmação sem exceções. Frente com resposta única e verso coerente; não copia enunciado do lote."
+    }
+  ]
+}
