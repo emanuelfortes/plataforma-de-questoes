@@ -1,0 +1,25 @@
+{
+  "itens": [
+    {
+      "tipo": "flashcard",
+      "id": 57,
+      "frente": "Por que a assinatura digital é apontada como garantia do não repúdio?",
+      "verso": "Porque a assinatura digital vincula a ação a uma identidade de forma verificável, impedindo que o autor negue depois a autoria do ato (ex.: enviar mensagem ou assinar documento). Essa impossibilidade de negar a autoria é o não repúdio (irretratabilidade).",
+      "o_que_mudou": "O verso passou a responder diretamente ao porquê da frente, explicando o vínculo verificável com a identidade e só depois definindo o não repúdio."
+    },
+    {
+      "tipo": "flashcard",
+      "id": 95,
+      "frente": "Qual o efeito penal da entrega espontânea de arma de fogo, segundo o art. 32 do Estatuto do Desarmamento?",
+      "verso": "Art. 32 da Lei 10.826/2003: a entrega espontânea, mediante recibo e presumida a boa-fé, gera indenização na forma do regulamento e extingue a punibilidade da posse irregular.",
+      "o_que_mudou": "O card foi limitado ao art. 32 (entrega espontânea e extinção da punibilidade); o trecho do art. 25 (destino das armas apreendidas) saiu para virar um card próprio."
+    },
+    {
+      "tipo": "flashcard",
+      "id": 103,
+      "frente": "Como funciona a área de transferência comum quanto à quantidade de itens e ao desligamento do computador?",
+      "verso": "A área de transferência comum guarda apenas o último conteúdo copiado ou recortado (cada nova operação substitui a anterior). Como fica na memória volátil (RAM), o conteúdo se perde ao desligar o computador.",
+      "o_que_mudou": "A frente foi unificada em uma só pergunta sobre o funcionamento da área de transferência; o verso, já correto, foi mantido."
+    }
+  ]
+}

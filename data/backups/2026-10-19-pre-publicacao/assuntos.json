@@ -1,0 +1,111 @@
+{
+  "tabela": "assuntos",
+  "colunas": [
+    "id",
+    "disciplina_id",
+    "nome"
+  ],
+  "total": 20,
+  "linhas": [
+    {
+      "id": 1,
+      "disciplina_id": 1,
+      "nome": "Compreensão e Interpretação"
+    },
+    {
+      "id": 2,
+      "disciplina_id": 1,
+      "nome": "Pressupostos e Subentendidos"
+    },
+    {
+      "id": 3,
+      "disciplina_id": 1,
+      "nome": "Tipos e Gêneros Textuais"
+    },
+    {
+      "id": 4,
+      "disciplina_id": 1,
+      "nome": "Estruturação do Texto"
+    },
+    {
+      "id": 5,
+      "disciplina_id": 1,
+      "nome": "Vozes do Discurso"
+    },
+    {
+      "id": 6,
+      "disciplina_id": 1,
+      "nome": "Ironia, Humor e Ambiguidade"
+    },
+    {
+      "id": 7,
+      "disciplina_id": 1,
+      "nome": "Funções da Linguagem"
+    },
+    {
+      "id": 8,
+      "disciplina_id": 1,
+      "nome": "Variação Linguística"
+    },
+    {
+      "id": 9,
+      "disciplina_id": 1,
+      "nome": "Intertextualidade"
+    },
+    {
+      "id": 10,
+      "disciplina_id": 1,
+      "nome": "Coesão e Coerência"
+    },
+    {
+      "id": 11,
+      "disciplina_id": 1,
+      "nome": "Pronome"
+    },
+    {
+      "id": 12,
+      "disciplina_id": 1,
+      "nome": "Referenciação"
+    },
+    {
+      "id": 13,
+      "disciplina_id": 1,
+      "nome": "Conjunções e Nexos"
+    },
+    {
+      "id": 14,
+      "disciplina_id": 1,
+      "nome": "Operadores Sequenciais e Argumentativos"
+    },
+    {
+      "id": 15,
+      "disciplina_id": 1,
+      "nome": "Denotação e Conotação"
+    },
+    {
+      "id": 16,
+      "disciplina_id": 1,
+      "nome": "Sinonímia e Antonímia"
+    },
+    {
+      "id": 17,
+      "disciplina_id": 1,
+      "nome": "Homonímia e Paronímia"
+    },
+    {
+      "id": 18,
+      "disciplina_id": 1,
+      "nome": "Figuras de Linguagem"
+    },
+    {
+      "id": 19,
+      "disciplina_id": 1,
+      "nome": "Expressões Idiomáticas"
+    },
+    {
+      "id": 20,
+      "disciplina_id": 1,
+      "nome": "Prefixos e Sufixos"
+    }
+  ]
+}

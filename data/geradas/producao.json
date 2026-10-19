@@ -1126,6 +1126,156 @@
         "descartes": []
       },
       "concluidoEm": "2026-10-19T09:00:41.136Z"
+    },
+    {
+      "id": "direito-administrativo--atos-administrativos-004",
+      "topico": "direito-administrativo--atos-administrativos",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "gm-fortaleza",
+      "foco": "Vícios e teoria das nulidades",
+      "execucao": "exec-2026-10-19T09-01-03-671Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T09:01:07.060Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 8,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 2
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 2,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 1
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T09:10:38.742Z"
+    },
+    {
+      "id": "informatica--sistemas-operacionais-windows-e-linux-002",
+      "topico": "informatica--sistemas-operacionais-windows-e-linux",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "gm-fortaleza",
+      "foco": "Área de trabalho e área de transferência",
+      "execucao": "exec-2026-10-19T09-01-03-671Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T09:01:07.170Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 10,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 2,
+          "fila": 1,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T09:10:40.731Z"
+    },
+    {
+      "id": "direitos-humanos--teoria-dos-direitos-humanos-003",
+      "topico": "direitos-humanos--teoria-dos-direitos-humanos",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "pcce-2021",
+      "foco": "Gerações ou dimensões",
+      "execucao": "exec-2026-10-19T09-01-03-671Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T09:01:07.278Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 10,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 3,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T09:10:43.104Z"
+    },
+    {
+      "id": "direito-penal--teoria-do-crime-e-fato-tipico-002",
+      "topico": "direito-penal--teoria-do-crime-e-fato-tipico",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "gm-fortaleza",
+      "foco": "Tipicidade",
+      "execucao": "exec-2026-10-19T09-01-03-671Z",
+      "etapa": "gerado",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T09:10:43.251Z"
+    },
+    {
+      "id": "legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-003",
+      "topico": "legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "gm-fortaleza",
+      "foco": "todo o tema, variando os pontos cobrados",
+      "execucao": "exec-2026-10-19T09-01-03-671Z",
+      "etapa": "gerado",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T09:10:43.404Z"
+    },
+    {
+      "id": "direito-penal-militar--crime-militar-conceito-e-classificacao-003",
+      "topico": "direito-penal-militar--crime-militar-conceito-e-classificacao",
+      "banca": "Vunesp",
+      "alternativas": 5,
+      "concurso": "cfo-pmce",
+      "foco": "Crimes militares em tempo de paz",
+      "execucao": "exec-2026-10-19T09-01-03-671Z",
+      "etapa": "gerado",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T09:10:43.527Z"
     }
   ],
   "execucoes": [
@@ -1191,6 +1341,13 @@
       "lotesIniciados": 6,
       "fim": "2026-10-19T09:00:41.136Z",
       "motivoFim": "teto atingido"
+    },
+    {
+      "id": "exec-2026-10-19T09-01-03-671Z",
+      "inicio": "2026-10-19T09:01:03.672Z",
+      "teto": 6,
+      "paralelo": 3,
+      "lotesIniciados": 6
     }
   ],
   "erros": []

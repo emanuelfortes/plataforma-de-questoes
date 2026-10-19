@@ -1,0 +1,139 @@
+# Pedido de geração: lote legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-003
+
+## Parâmetros da produção
+- Disciplina: Legislação Estadual e Municipal
+- Tema: Estatuto Geral das Guardas Municipais
+- Subtemas do tema: não especificados
+- Foco deste lote: todo o tema, variando os pontos cobrados
+- Cargo: Guarda Municipal
+- Órgão: Prefeitura Municipal de Fortaleza
+- Banca examinadora: IDECAN (edital 2023)
+- Número de alternativas por questão: 4 (as letras A, B, C, D serão atribuídas pelo sistema depois; use ids a1 a a4)
+- Quantidade: 10 questões (ids q01 a q10) e 3 flashcards (ids f01 a f03)
+- Dificuldade das questões: 3 fáceis (q01 a q03), 4 médias (q04 a q07) e 3 difíceis (q08 a q10)
+- Objetivo: PLATAFORMA
+- Data de corte legislativo: 2026-10-18
+- Data de corte jurisprudencial: 2026-10-18
+- Lista de jurisprudência fornecida (só estes podem ser citados pelo número): nenhuma (não cite número de súmula, tema ou processo)
+- Perfil da banca: sem questões anteriores fornecidas; use apenas características gerais conhecidas da banca.
+- Tamanho e tom das alternativas (verificado em código): a correta tem entre 80% e 125% da média de caracteres das erradas; no lote, é a mais longa em no máximo 3 questões e a mais curta em no máximo 3; termos absolutos ("sempre", "jamais", "automaticamente"...) só nas erradas em no máximo 2 questões. As erradas erram por conteúdo, não por exagero.
+
+## Já cobertos neste tema (não repita o mesmo ponto do mesmo jeito)
+- Subtemas recentes: Controle interno por corregedoria; Cargos em comissão e primeiros anos de funcionamento; Controle: mandato de corregedores e ouvidores; Carreira única e disposições transitórias; Capacitação e órgão de formação; Competências: proteção de bens e atuação conjunta; Competências específicas: trânsito; Uniforme e equipamentos; Prerrogativas: recolhimento à cela; Representatividade institucional; Uso compartilhado, formação e disposições transitórias; Prerrogativas, vedações e cargos em comissão; Limites de efetivo; Prerrogativas e porte de arma; Controle interno e externo; Requisitos para investidura; Competências específicas; Criação e subordinação; Princípios mínimos de atuação; Disposições preliminares e natureza das guardas
+- Palavras-chave recentes: controle interno, corregedoria, cinquenta servidores, arma de fogo, infrações disciplinares, cargos em comissão, membros efetivos, quatro anos, dirigente estranho, defesa social, corregedor, ouvidor, mandato, maioria absoluta, câmara municipal, carreira única, plano de cargos e salários, lei municipal, prazo de dois anos, adaptação, órgão de formação, facultada, convênio, consórcio, forças militares, bens de uso comum, uso especial, dominiais, apoio à continuidade, atuação conjunta, competências de trânsito, código de trânsito brasileiro, órgão de trânsito, uniforme, equipamentos padronizados, azul-marinho, preferencialmente, recolhimento à cela, isoladamente, condenação definitiva
+- Flashcards recentes (frentes): "Quais são os requisitos básicos de escolaridade e idade para investidura em cargo público na guarda municipal, conforme a Lei nº 13.022/2014?"; "Segundo a Lei nº 13.022/2014, a estrutura hierárquica da guarda municipal pode adotar denominações idênticas às das forças militares?"; "Que recursos de telecomunicações a Anatel deve destinar aos Municípios que possuam guarda municipal?"; "Quais são os percentuais máximos de efetivo das guardas municipais conforme a população, na Lei nº 13.022/2014?"; "Na Lei nº 13.022/2014, quais órgãos exercem o controle interno e o controle externo das guardas municipais?"; "Qual é a natureza jurídica das guardas municipais e que tipo de proteção lhes incumbe, segundo a Lei nº 13.022/2014?"
+
+## Trecho do edital (Guarda Municipal de Fortaleza)
+Tópico do edital: Estatuto Geral das Guardas Municipais. Subtemas: não especificados.
+
+## Texto legal fornecido
+=== Estatuto Geral das Guardas Municipais (Lei 13.022/2014) (texto compilado integral vigente) ===
+L13022 LEI Nº 13.022, DE 8 DE AGOSTO DE 2014.
+
+Dispõe sobre o Estatuto Geral das Guardas Municipais.
+
+A PRESIDENTA DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+CAPÍTULO I
+DISPOSIÇÕES PRELIMINARES
+Art. 1º Esta Lei institui normas gerais para as guardas municipais, disciplinando o § 8º do art. 144 da Constituição Federal.
+Art. 2º Incumbe às guardas municipais, instituições de caráter civil, uniformizadas e armadas conforme previsto em lei, a função de proteção municipal preventiva, ressalvadas as competências da União, dos Estados e do Distrito Federal.
+CAPÍTULO II
+DOS PRINCÍPIOS
+Art. 3º São princípios mínimos de atuação das guardas municipais:
+I - proteção dos direitos humanos fundamentais, do exercício da cidadania e das liberdades públicas;
+II - preservação da vida, redução do sofrimento e diminuição das perdas;
+III - patrulhamento preventivo;
+IV - compromisso com a evolução social da comunidade; e
+V - uso progressivo da força.
+CAPÍTULO III
+DAS COMPETÉNCIAS
+Art. 4º É competência geral das guardas municipais a proteção de bens, serviços, logradouros públicos municipais e instalações do Município. (Vide ADPF 995)
+Parágrafo único. Os bens mencionados no caput abrangem os de uso comum, os de uso especial e os dominiais.
+Art. 5º São competências específicas das guardas municipais, respeitadas as competências dos órgãos federais e estaduais:
+I - zelar pelos bens, equipamentos e prédios públicos do Município;
+II - prevenir e inibir, pela presença e vigilância, bem como coibir, infrações penais ou administrativas e atos infracionais que atentem contra os bens, serviços e instalações municipais;
+III - atuar, preventiva e permanentemente, no território do Município, para a proteção sistêmica da população que utiliza os bens, serviços e instalações municipais;
+IV - colaborar, de forma integrada com os órgãos de segurança pública, em ações conjuntas que contribuam com a paz social; Regulamento
+V - colaborar com a pacificação de conflitos que seus integrantes presenciarem, atentando para o respeito aos direitos fundamentais das pessoas;
+VI - exercer as competências de trânsito que lhes forem conferidas, nas vias e logradouros municipais, nos termos da Lei nº 9.503, de 23 de setembro de 1997 (Código de Trânsito Brasileiro), ou de forma concorrente, mediante convênio celebrado com órgão de trânsito estadual ou municipal;
+VII - proteger o patrimônio ecológico, histórico, cultural, arquitetônico e ambiental do Município, inclusive adotando medidas educativas e preventivas;
+VIII - cooperar com os demais órgãos de defesa civil em suas atividades;
+IX - interagir com a sociedade civil para discussão de soluções de problemas e projetos locais voltados à melhoria das condições de segurança das comunidades;
+X - estabelecer parcerias com os órgãos estaduais e da União, ou de Municípios vizinhos, por meio da celebração de convênios ou consórcios, com vistas ao desenvolvimento de ações preventivas integradas;
+XI - articular-se com os órgãos municipais de políticas sociais, visando à adoção de ações interdisciplinares de segurança no Município;
+XII - integrar-se com os demais órgãos de poder de polícia administrativa, visando a contribuir para a normatização e a fiscalização das posturas e ordenamento urbano municipal;
+XIII - garantir o atendimento de ocorrências emergenciais, ou prestá-lo direta e imediatamente quando deparar-se com elas; Regulamento
+XIV - encaminhar ao delegado de polícia, diante de flagrante delito, o autor da infração, preservando o local do crime, quando possível e sempre que necessário; Regulamento
+XV - contribuir no estudo de impacto na segurança local, conforme plano diretor municipal, por ocasião da construção de empreendimentos de grande porte;
+XVI - desenvolver ações de prevenção primária à violência, isoladamente ou em conjunto com os demais órgãos da própria municipalidade, de outros Municípios ou das esferas estadual e federal;
+XVII - auxiliar na segurança de grandes eventos e na proteção de autoridades e dignatários; e
+XVIII - atuar mediante ações preventivas na segurança escolar, zelando pelo entorno e participando de ações educativas com o corpo discente e docente das unidades de ensino municipal, de forma a colaborar com a implantação da cultura de paz na comunidade local.
+Parágrafo único. No exercício de suas competências, a guarda municipal poderá colaborar ou atuar conjuntamente com órgãos de segurança pública da União, dos Estados e do Distrito Federal ou de congêneres de Municípios vizinhos e, nas hipóteses previstas nos incisos XIII e XIV deste artigo, diante do comparecimento de órgão descrito nos incisos do caput do art. 144 da Constituição Federal , deverá a guarda municipal prestar todo o apoio à continuidade do atendimento. Regulamento
+CAPÍTULO IV
+DA CRIAÇÃO
+Art. 6º O Município pode criar, por lei, sua guarda municipal.
+Parágrafo único. A guarda municipal é subordinada ao chefe do Poder Executivo municipal.
+Art. 7º As guardas municipais não poderão ter efetivo superior a:
+I - 0,4% (quatro décimos por cento) da população, em Municípios com até 50.000 (cinquenta mil) habitantes;
+II - 0,3% (três décimos por cento) da população, em Municípios com mais de 50.000 (cinquenta mil) e menos de 500.000 (quinhentos mil) habitantes, desde que o efetivo não seja inferior ao disposto no inciso I;
+III - 0,2% (dois décimos por cento) da população, em Municípios com mais de 500.000 (quinhentos mil) habitantes, desde que o efetivo não seja inferior ao disposto no inciso II.
+Parágrafo único. Se houver redução da população referida em censo ou estimativa oficial da Fundação Instituto Brasileiro de Geografia e Estatística (IBGE), é garantida a preservação do efetivo existente, o qual deverá ser ajustado à variação populacional, nos termos de lei municipal.
+Art. 8º Municípios limítrofes podem, mediante consórcio público, utilizar, reciprocamente, os serviços da guarda municipal de maneira compartilhada.
+Art. 9º A guarda municipal é formada por servidores públicos integrantes de carreira única e plano de cargos e salários, conforme disposto em lei municipal.
+CAPÍTULO V
+DAS EXIGÊNCIAS PARA INVESTIDURA
+Art. 10. São requisitos básicos para investidura em cargo público na guarda municipal:
+I - nacionalidade brasileira;
+II - gozo dos direitos políticos;
+III - quitação com as obrigações militares e eleitorais;
+IV - nível médio completo de escolaridade;
+V - idade mínima de 18 (dezoito) anos;
+VI - aptidão física, mental e psicológica; e
+VII - idoneidade moral comprovada por investigação social e certidões expedidas perante o Poder Judiciário estadual, federal e distrital.
+Parágrafo único. Outros requisitos poderão ser estabelecidos em lei municipal.
+CAPÍTULO VI
+DA CAPACITAÇÃO
+Art. 11. O exercício das atribuições dos cargos da guarda municipal requer capacitação específica, com matriz curricular compatível com suas atividades.
+Parágrafo único. Para fins do disposto no caput , poderá ser adaptada a matriz curricular nacional para formação em segurança pública, elaborada pela Secretaria Nacional de Segurança Pública (Senasp) do Ministério da Justiça.
+Art. 12. É facultada ao Município a criação de órgão de formação, treinamento e aperfeiçoamento dos integrantes da guarda municipal, tendo como princípios norteadores os mencionados no art. 3º .
+§ 1º Os Municípios poderão firmar convênios ou consorciar-se, visando ao atendimento do disposto no caput deste artigo.
+§ 2º O Estado poderá, mediante convênio com os Municípios interessados, manter órgão de formação e aperfeiçoamento centralizado, em cujo conselho gestor seja assegurada a participação dos Municípios conveniados.
+§ 3º O órgão referido no § 2º não pode ser o mesmo destinado a formação, treinamento ou aperfeiçoamento de forças militares.
+CAPÍTULO VII
+DO CONTROLE
+Art. 13. O funcionamento das guardas municipais será acompanhado por órgãos próprios, permanentes, autônomos e com atribuições de fiscalização, investigação e auditoria, mediante:
+I - controle interno, exercido por corregedoria, naquelas com efetivo superior a 50 (cinquenta) servidores da guarda e em todas as que utilizam arma de fogo, para apurar as infrações disciplinares atribuídas aos integrantes de seu quadro; e
+II - controle externo, exercido por ouvidoria, independente em relação à direção da respectiva guarda, qualquer que seja o número de servidores da guarda municipal, para receber, examinar e encaminhar reclamações, sugestões, elogios e denúncias acerca da conduta de seus dirigentes e integrantes e das atividades do órgão, propor soluções, oferecer recomendações e informar os resultados aos interessados, garantindo-lhes orientação, informação e resposta.
+§ 1º O Poder Executivo municipal poderá criar órgão colegiado para exercer o controle social das atividades de segurança do Município, analisar a alocação e aplicação dos recursos públicos e monitorar os objetivos e metas da política municipal de segurança e, posteriormente, a adequação e eventual necessidade de adaptação das medidas adotadas face aos resultados obtidos.
+§ 2º Os corregedores e ouvidores terão mandato cuja perda será decidida pela maioria absoluta da Câmara Municipal, fundada em razão relevante e específica prevista em lei municipal.
+Art. 14. Para efeito do disposto no inciso I do caput do art. 13, a guarda municipal terá código de conduta próprio, conforme dispuser lei municipal.
+Parágrafo único. As guardas municipais não podem ficar sujeitas a regulamentos disciplinares de natureza militar.
+CAPÍTULO VIII
+DAS PRERROGATIVAS
+Art. 15. Os cargos em comissão das guardas municipais deverão ser providos por membros efetivos do quadro de carreira do órgão ou entidade.
+§ 1º Nos primeiros 4 (quatro) anos de funcionamento, a guarda municipal poderá ser dirigida por profissional estranho a seus quadros, preferencialmente com experiência ou formação na área de segurança ou defesa social, atendido o disposto no caput .
+§ 2º Para ocupação dos cargos em todos os níveis da carreira da guarda municipal, deverá ser observado o percentual mínimo para o sexo feminino, definido em lei municipal.
+§ 3º Deverá ser garantida a progressão funcional da carreira em todos os níveis.
+Art. 16. Aos guardas municipais é autorizado o porte de arma de fogo, conforme previsto em lei.
+Parágrafo único. Suspende-se o direito ao porte de arma de fogo em razão de restrição médica, decisão judicial ou justificativa da adoção da medida pelo respectivo dirigente.
+Art. 17. A Agência Nacional de Telecomunicações (Anatel) destinará linha telefônica de número 153 e faixa exclusiva de frequência de rádio aos Municípios que possuam guarda municipal.
+Art. 18. É assegurado ao guarda municipal o recolhimento à cela, isoladamente dos demais presos, quando sujeito à prisão antes de condenação definitiva.
+CAPÍTULO IX
+DAS VEDAÇÕES
+Art. 19. A estrutura hierárquica da guarda municipal não pode utilizar denominação idêntica à das forças militares, quanto aos postos e graduações, títulos, uniformes, distintivos e condecorações.
+CAPÍTULO X
+DA REPRESENTATIVIDADE
+Art. 20. É reconhecida a representatividade das guardas municipais no Conselho Nacional de Segurança Pública, no Conselho Nacional das Guardas Municipais e, no interesse dos Municípios, no Conselho Nacional de Secretários e Gestores Municipais de Segurança Pública.
+CAPÍTULO XI
+DISPOSIÇÕES DIVERSAS E TRANSITÓRIAS
+Art. 21. As guardas municipais utilizarão uniforme e equipamentos padronizados, preferencialmente, na cor azul-marinho.
+Art. 22. Aplica-se esta Lei a todas as guardas municipais existentes na data de sua publicação, a cujas disposições devem adaptar-se no prazo de 2 (dois) anos.
+Parágrafo único. É assegurada a utilização de outras denominações consagradas pelo uso, como guarda civil, guarda civil municipal, guarda metropolitana e guarda civil metropolitana.
+Art. 23. Esta Lei entra em vigor na data de sua publicação.
+Brasília, 8 de agosto de 2014; 193º da Independência e 126º da República.
+DILMA ROUSSEFF
+José Eduardo Cardozo
+Miriam Belchior
+Gilberto Magalhães Occhi
+Este texto não substitui o publicado no DOU de 11.8.2014 - Edição extra
+*

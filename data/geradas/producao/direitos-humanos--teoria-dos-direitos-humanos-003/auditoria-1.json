@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Primeira geração ou dimensão = direitos civis e políticos, valor liberdade, em regra abstenção estatal (a1). Os distratores trocam corretamente os valores: igualdade/sociais (2ª), fraternidade/difusos e solidariedade/autodeterminação (3ª). Fundamento no art. 5º e art. 4º, III, confere. Única correta."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Segunda geração = direitos sociais, econômicos e culturais, ligados à igualdade, com prestações positivas (a1). Distratores corretamente afastados: civis/políticos (1ª), difusos (3ª) e patrimônio genético/biotecnologia (dimensões posteriores). Vínculo com os objetivos do art. 3º confere. Única correta."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A autodeterminação dos povos (art. 4º, III) é apontada pela doutrina como direito de terceira geração, de titularidade coletiva, ligado à fraternidade/solidariedade (a1). A alternativa a4 é bem refutada: embora seja princípio de relações internacionais, não deixa de ser classificada. Única correta e fundamento confere."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A razão central da preferência por dimensões é evitar a ideia de sucessão/substituição que gerações sugere, já que os direitos se acumulam e se complementam (a1). Distratores corretos: a2 (aplicação imediata não se restringe a direitos recentes), a3 (a CF não usa os termos nem declara inconstitucional) e a4 (dimensões afasta hierarquia). Única correta."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A liberdade de manifestação do pensamento (art. 5º, IV) é exemplo clássico de direito civil de primeira geração, ligado à liberdade e à abstenção estatal (a1). Os distratores são objetivos do art. 3º (prestacionais/solidários), corretamente afastados da primeira geração. Única correta e fundamento confere."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Solidariedade ou fraternidade é o valor típico da terceira geração, de titularidade coletiva ou difusa (a1), incorporado pelo art. 3º, I. A alternativa a3 erra ao ligar a segunda geração à liberdade (seu valor é a igualdade), e a4 erra ao negar que a solidariedade classifique direitos. Única correta."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "As gerações descrevem o surgimento histórico, mas os direitos permanecem indivisíveis e cumulativos, o que combina com a cláusula de não exclusão do art. 5º, § 2º (a1). Distratores corretamente errados por afirmarem prioridade absoluta, revogação recíproca, perda de vigência ou limitação da abertura material. Única correta."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A propriedade (art. 5º, XXII) nasce como liberdade de primeira dimensão oponível ao Estado, enquanto a função social (art. 5º, XXIII) agrega carga de igualdade e solidariedade (a1), posição doutrinária consolidada. Distratores errados ao enquadrar a propriedade inteira na 2ª ou 3ª dimensão ou reduzir a função social a mera abstenção. Única correta."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O objeto tutelado pela ação popular (meio ambiente, patrimônio histórico e cultural, art. 5º, LXXIII) são bens difusos de titularidade coletiva ligados à solidariedade, próprios da terceira dimensão (a1), ainda que a ação seja proposta por um cidadão. A questão distingue bem titularidade processual e material. Única correta."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O comando pede a associação INCORRETA. A proteção de dados pessoais (art. 5º, LXXIX, incluída pela EC 115/2022) é direito recente da era digital, jamais liberdade clássica do século XVIII de primeira dimensão: logo a1 é a incorreta e o gabarito. As demais (intimidade X, reunião XVI, petição XXXIV, a) são corretamente de primeira dimensão. Observação temporal sobre a EC 115/2022 confere. Única incorreta assinalável."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A frente admite resposta única e o verso está correto: primeira geração (civis/políticos, liberdade) pede abstenção; segunda geração (sociais, igualdade) pede prestações positivas, com citação dos arts. 5º e 3º da CF. Sem ambiguidade e com dispositivo legal."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Verso correto: gerações sugere sucessão e substituição, enquanto os direitos se acumulam e se complementam (indivisibilidade), reforçado pela cláusula de não exclusão do art. 5º, § 2º. Frente objetiva, resposta única, dispositivo citado."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Verso correto: terceira geração reúne direitos difusos/coletivos (meio ambiente, paz, desenvolvimento, autodeterminação dos povos) ligados à fraternidade/solidariedade, com apoio no art. 4º, III, e no art. 3º, I. Frente com resposta única e dispositivo legal citado."
+    }
+  ]
+}

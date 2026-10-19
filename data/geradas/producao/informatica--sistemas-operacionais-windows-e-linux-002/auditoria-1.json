@@ -1,0 +1,159 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A área de trabalho (desktop) é exatamente a região inicial da interface gráfica com ícones, atalhos e Lixeira, exibida após o login. Os distratores (área de transferência, barra de tarefas e gerenciador de arquivos) estão corretamente errados. Resolvi por conta própria e cheguei a a1."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O recurso que guarda temporariamente o conteúdo entre copiar e colar é a área de transferência (clipboard). Distratores (área de trabalho, Lixeira e barra de tarefas) sem papel de armazenamento do copiar/colar. Gabarito a1 confere."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Ctrl + C é o atalho padrão de copiar no Windows. Ctrl + V (colar), Ctrl + X (recortar) e Ctrl + Z (desfazer) estão descritos corretamente como distratores. Só uma alternativa correta: a1."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A área de transferência comum guarda apenas o último conteúdo; a cópia do segundo arquivo substitui o recorte anterior, logo o segundo é colado. O enunciado qualifica bem o comportamento padrão. Gabarito a1 confere."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Ao recortar, o arquivo só sai da origem quando colado no destino; ao copiar, permanece na origem após a colagem. A alternativa a1 descreve corretamente as duas operações; demais distratores estão errados. Confere."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Na configuração tradicional, Print Screen copia a tela para a área de transferência, de onde se cola para visualizar ou salvar. O enunciado restringe à configuração mais tradicional, afastando o comportamento moderno de abrir a Ferramenta de Captura. Gabarito a1 confere."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A troca de papel de parede é feita pelas opções de personalização, acessíveis pelo botão direito em área livre da área de trabalho (ou pelas Configurações). Distratores (formatar disco, área de transferência, esvaziar Lixeira) sem relação. Confere a1."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A área de transferência comum reside na memória volátil (RAM), de modo que o conteúdo se perde ao desligar; nada é colado após reiniciar. O enunciado qualifica 'área de transferência comum', afastando mecanismos de histórico persistente. Gabarito a1 confere."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Os ambientes gráficos do Linux também oferecem área de transferência para copiar e colar entre aplicativos; não é recurso exclusivo do Windows. Distratores (exclusivo do Windows, só dentro de um app, gravação permanente em disco) estão errados. Confere a1."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A área de trabalho é uma pasta especial do perfil do usuário, cujos ícones e atalhos podem ser organizados e reordenados. Não é mero fundo decorativo, não é a área de transferência nem parte da RAM (os ícones ficam em disco). Gabarito a1 confere."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Frente objetiva e com resposta única; o verso distingue corretamente a área de trabalho (tela de fundo com ícones) da área de transferência (memória temporária do copiar/colar). Conteúdo consolidado e correto."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso descreve corretamente Ctrl + C (copiar, mantendo origem), Ctrl + X (recortar, remove da origem ao colar) e Ctrl + V (colar). Frente clara, sem ambiguidade."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA_COM_RESSALVA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [
+        {
+          "tipo": "pedagogico",
+          "gravidade": "baixa",
+          "descricao": "A frente reúne duas perguntas (quantos itens guarda e o que ocorre ao desligar), afastando-se um pouco da regra de um conceito por card; os dois fatos, porém, são próximos e a resposta é única e correta."
+        }
+      ],
+      "correcao_sugerida": "Opcionalmente separar em dois cards (capacidade de um só item x perda ao desligar por ser memória volátil). Conteúdo já está correto como está.",
+      "justificativa": "O verso está correto: a área de transferência comum guarda apenas o último item (cada operação substitui a anterior) e, por ficar na RAM volátil, perde o conteúdo ao desligar. Única ressalva é agrupar dois fatos numa só frente."
+    }
+  ]
+}

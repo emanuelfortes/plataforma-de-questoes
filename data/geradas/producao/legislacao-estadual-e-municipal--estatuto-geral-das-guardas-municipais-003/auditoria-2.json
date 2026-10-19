@@ -1,0 +1,159 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 3º lista, entre os princípios mínimos, o patrulhamento preventivo (III) e o uso progressivo da força (V), exatamente o par da alternativa correta. Os distratores trazem atribuições de natureza repressiva, investigativa ou fiscalizatória que não constam do rol e contrariam o caráter civil e preventivo da instituição. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 17 determina que a Anatel destine linha telefônica de número 153 e faixa exclusiva de frequência de rádio, reproduzido fielmente na alternativa correta. Os demais itens (190, canal de TV, videomonitoramento, dados móveis) não têm base na lei. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "alternativas",
+          "gravidade": "baixa",
+          "descricao": "A justificativa do distrator a4 cita termos que não constam da alternativa ('Brigada, guarda armada local e destacamento urbano'), quando o texto de a4 é 'Brigada municipal, patrulha cívica e ronda urbana'. O veredito (a4 errada) está certo, mas o motivo indicado não bate com o enunciado da alternativa."
+        }
+      ],
+      "correcao_sugerida": "Na analise_alternativas de a4, ajustar a justificativa para mencionar os termos reais da alternativa: 'Brigada municipal, patrulha cívica e ronda urbana não integram o rol de denominações consagradas do art. 22, parágrafo único'.",
+      "justificativa": "O art. 22, parágrafo único, assegura guarda civil, guarda civil municipal, guarda metropolitana e guarda civil metropolitana; a correta reúne três delas. Gabarito e fundamento conferem. Ressalva apenas pela justificativa do distrator a4, que descreve termos diferentes dos que figuram na alternativa (ajuste pontual no comentário)."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 16, parágrafo único, prevê a suspensão do porte por restrição médica, decisão judicial ou justificativa do dirigente; a restrição médica da alternativa correta é uma dessas hipóteses. Conselho de segurança, ouvidoria e afastamento para capacitação não constam do dispositivo. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, XIV, prevê encaminhar o autor ao delegado diante de flagrante, preservando o local quando possível e sempre que necessário, redação espelhada na alternativa correta. Instaurar inquérito, colher depoimentos ou arbitrar fiança são atos estranhos à guarda. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa correta combina o art. 5º, XVIII (segurança escolar preventiva com ações educativas) e o art. 5º, VII (proteção do patrimônio ecológico, histórico, cultural e ambiental, com medidas educativas). Ministrar conteúdo, tombar bens ou licenciar empreendimentos não são competências da guarda. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 13, § 1º, autoriza (faculta) ao Poder Executivo municipal criar órgão colegiado de controle social que monitora objetivos e metas da política de segurança, exatamente o conteúdo da alternativa correta. Não é obrigatório, não substitui a corregedoria e não é de iniciativa da Câmara. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 12, § 2º, admite órgão estadual de formação centralizado mediante convênio, com participação dos Municípios no conselho gestor, e o § 3º veda que seja o mesmo das forças militares; a alternativa correta reúne os dois comandos. Os distratores violam a vedação do § 3º, negam a possibilidade ou dispensam o convênio. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 7º, III, fixa 0,2% para Municípios com mais de 500.000 habitantes e o parágrafo único garante a preservação do efetivo existente, ajustado à variação por lei municipal; a alternativa correta aplica ambos. Os distratores erram o percentual ou supõem redução imediata e proporcional. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 4º, parágrafo único, esclarece que os bens protegidos abrangem os de uso comum, os de uso especial e os dominiais, conteúdo da alternativa correta. A competência é dos bens municipais (art. 2º ressalva União e Estados). Gabarito e fundamento conferem."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 14, parágrafo único, veda que as guardas fiquem sujeitas a regulamentos disciplinares de natureza militar, e o caput prevê código de conduta próprio por lei municipal. Frente objetiva, verso correto e com o dispositivo. Confere."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 8º permite que Municípios limítrofes, mediante consórcio público, utilizem reciprocamente os serviços da guarda de forma compartilhada, exatamente o que o verso responde. Frente inequívoca e verso com o dispositivo. Confere."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 18 assegura ao guarda municipal o recolhimento à cela, isoladamente dos demais presos, quando sujeito à prisão antes de condenação definitiva, conforme o verso. Frente admite resposta única e verso cita o dispositivo. Confere."
+    }
+  ]
+}

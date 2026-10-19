@@ -1,0 +1,553 @@
+{
+  "itens": [
+    {
+      "tipo": "questao",
+      "id": 147,
+      "lote": "piloto/crase-01/q05",
+      "correcoes_sugeridas": [
+        "Variar a frase IV, por exemplo: \"O agente prestou assistência à vítima do assalto.\" (mantém a crase correta e o gabarito I e IV)."
+      ],
+      "atual": {
+        "enunciado": "Analise as frases a seguir quanto ao emprego do sinal indicativo de crase.\n\nI. O inspetor fez alusão à investigação concluída no mês passado.\nII. O suspeito pôs-se à correr assim que avistou a viatura.\nIII. As intimações foram enviadas à todas as testemunhas arroladas.\nIV. A escrivã obedeceu à determinação do delegado titular.\n\nEstá correto o emprego do acento grave apenas em:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "I e IV."
+          },
+          {
+            "letra": "B",
+            "texto": "IV."
+          },
+          {
+            "letra": "C",
+            "texto": "I, III e IV."
+          },
+          {
+            "letra": "D",
+            "texto": "II e III."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "Em I, \"alusão\" rege a preposição \"a\" e \"investigação\" é feminino com artigo: crase correta. Em IV, \"obedecer\" é transitivo indireto e \"determinação\" é feminino com artigo: crase correta. Em II, não há crase antes de verbo (\"pôs-se a correr\"). Em III, \"todas\" é pronome indefinido; o artigo vem depois dele (\"todas as testemunhas\"), de modo que o correto é \"a todas as testemunhas\", sem acento grave.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": true,
+            "justificativa": "I e IV estão corretas, pois em ambas há preposição exigida pelo termo regente e artigo feminino diante do substantivo; II e III estão erradas."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "Exclui I, que está correta: \"fazer alusão a\" + \"a investigação\" resulta em \"à investigação\"."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "Inclui III, que está errada: antes de \"todas\" não há artigo feminino; o artigo aparece depois do pronome (todas as)."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "Inverte o gabarito: II e III são justamente as frases erradas (crase antes de verbo e antes do indefinido \"todas\")."
+          }
+        ],
+        "fundamento_legal": null,
+        "pegadinha": "Acentuar o \"a\" antes de \"todas\" por estar diante de palavra feminina plural, sem perceber que o artigo vem depois do pronome indefinido.",
+        "destaques": [
+          {
+            "tipo": "macete_do_riccardo",
+            "texto": "Em \"a todas as\", o artigo já está depois do \"todas\". Se você colocar crase antes, o artigo apareceria duas vezes."
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "questao",
+      "id": 148,
+      "lote": "piloto/crase-01/q09",
+      "correcoes_sugeridas": [
+        "Em alternativa D, trocar \"(corregedora → Vossa Senhoria)\" por \"(corregedora → Sua Senhoria)\" e ajustar o comentário_geral e a justificativa de alternativa D para \"a Sua Senhoria\"."
+      ],
+      "atual": {
+        "enunciado": "Em cada frase a seguir, o termo destacado em maiúsculas deve ser substituído pelo indicado entre parênteses, com os ajustes necessários. Mantida a norma-padrão, o acento grave deverá ser RETIRADO após a substituição em:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "O escrivão fez referência à TESTEMUNHA no relatório. (testemunha → própria testemunha)"
+          },
+          {
+            "letra": "B",
+            "texto": "Os agentes dirigiram-se à SALA de interrogatório. (sala → mesma sala)"
+          },
+          {
+            "letra": "C",
+            "texto": "A defesa fez menção à INVESTIGAÇÃO durante a audiência. (investigação → referida investigação)"
+          },
+          {
+            "letra": "D",
+            "texto": "O inspetor entregou o relatório à CORREGEDORA no fim do dia. (corregedora → Vossa Senhoria)"
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "A crase permanece sempre que a palavra que passa a vir depois do \"a\" continua admitindo artigo feminino. \"Mesma\", \"própria\" e \"referida\" aceitam artigo (a mesma sala, a própria testemunha, a referida investigação), de modo que a crase se mantém: à mesma sala, à própria testemunha, à referida investigação. Já o pronome de tratamento \"Vossa Senhoria\" não admite artigo; com a substituição, resta apenas a preposição: entregou o relatório a Vossa Senhoria.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "A crase se mantém: \"própria\" admite artigo (a própria testemunha), resultando em \"referência à própria testemunha\"."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "A crase se mantém: \"mesma\" admite artigo (a mesma sala), e \"dirigir-se\" continua exigindo a preposição, resultando em \"à mesma sala\"."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "A crase se mantém: \"referida\" é adjetivo que aceita artigo (a referida investigação), resultando em \"menção à referida investigação\"."
+          },
+          {
+            "letra": "D",
+            "correta": true,
+            "justificativa": "A crase deve ser retirada: \"Vossa Senhoria\" é pronome de tratamento e não aceita artigo, restando só a preposição exigida por \"entregar\": \"a Vossa Senhoria\"."
+          }
+        ],
+        "fundamento_legal": null,
+        "pegadinha": "Tratar \"mesma\", \"própria\" e \"referida\" como se fossem pronomes indefinidos que bloqueiam a crase, quando na verdade aceitam artigo.",
+        "destaques": [
+          {
+            "tipo": "cuidado_na_prova",
+            "texto": "Antes de retirar a crase, teste o artigo: se cabe \"a mesma\", \"a própria\", \"a referida\", a crase continua. Se não cabe (\"a Vossa Senhoria\" sem artigo), ela sai."
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "questao",
+      "id": 149,
+      "lote": "piloto/crase-02/q09",
+      "correcoes_sugeridas": [
+        "Reescrever o macete: \"Troque 'até' por 'inclusive': se a frase continuar fazendo sentido, 'até' não é preposição e não gera crase facultativa; o acento só aparecerá se o verbo ou nome anterior exigir a preposição 'a'.\""
+      ],
+      "atual": {
+        "enunciado": "Depois de 'até', a crase costuma ser facultativa. Em qual das frases, porém, seria incorreto acentuar o 'a' que sucede essa palavra?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Os agentes acompanharam o advogado até a porta da cela do preso."
+          },
+          {
+            "letra": "B",
+            "texto": "A equipe percorreu todo o bairro até a praça central da cidade."
+          },
+          {
+            "letra": "C",
+            "texto": "O prazo para a entrega do inquérito vai até a sexta-feira desta semana."
+          },
+          {
+            "letra": "D",
+            "texto": "O delegado elogiou até a estagiária pelo empenho na operação."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "A crase facultativa depois de 'até' ocorre quando essa palavra é preposição de limite (lugar ou tempo). Quando 'até' significa 'inclusive', 'mesmo', ela não é preposição, e o 'a' seguinte é só artigo, regido por verbo que não pede preposição; não há, então, crase possível.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "'Até' indica limite espacial; 'até à porta da cela' também está correto, pois a crase é facultativa."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "'Até' indica limite espacial (preposição); 'até à praça central' também é correto, pois a crase é facultativa."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "'Até' indica limite temporal (preposição); 'até à sexta-feira' é igualmente aceito."
+          },
+          {
+            "letra": "D",
+            "correta": true,
+            "justificativa": "Aqui 'até' equivale a 'inclusive': o delegado elogiou inclusive a estagiária. 'Elogiar' é transitivo direto, não há preposição 'a' e, por isso, o acento grave seria erro."
+          }
+        ],
+        "fundamento_legal": null,
+        "pegadinha": "Aplicar a crase facultativa a todo 'até', sem verificar se ele é preposição de limite ou palavra de inclusão.",
+        "destaques": [
+          {
+            "tipo": "macete_do_riccardo",
+            "texto": "Troque 'até' por 'inclusive': se a frase continuar fazendo sentido, não há crase."
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "questao",
+      "id": 150,
+      "lote": "piloto/crase-02/q10",
+      "correcoes_sugeridas": [
+        "Opcional: trocar 'À medida que' por outra locução feminina (ex.: 'À exceção de' ou 'À força de') e substituir o distrator 'à partir' por outro erro (ex.: acento antes de palavra masculina)."
+      ],
+      "atual": {
+        "enunciado": "Assinale a alternativa em que todos os empregos e todas as ausências do acento indicativo de crase estão de acordo com a norma-padrão.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Às vezes, o escrivão chega a delegacia às pressas, antes do turno."
+          },
+          {
+            "letra": "B",
+            "texto": "Na medida em que os fatos se esclareciam, a equipe passou à agir à luz das provas."
+          },
+          {
+            "letra": "C",
+            "texto": "A investigação seguiu à risca o protocolo, à partir das instruções vigentes até à véspera."
+          },
+          {
+            "letra": "D",
+            "texto": "À medida que o caso avançava, o inspetor recorria a esta testemunha e à sua defensora."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "'À medida que' é locução conjuntiva feminina (crase obrigatória); 'a esta testemunha' não tem crase porque o demonstrativo 'esta' não admite artigo; 'à sua defensora' tem crase facultativa, antes de possessivo feminino. Nas demais, há omissão ou emprego indevido do acento.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "'Às vezes' e 'às pressas' estão corretas, mas 'chega a delegacia' deveria ter crase: 'chegar' pede 'a' e 'delegacia' vem com artigo ('chega à delegacia')."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "'Na medida em que' e 'à luz das provas' estão corretas, mas 'à agir' é erro: não há crase antes de verbo."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "'À risca' e 'até à véspera' estão corretas, mas 'à partir' é erro, pois o 'a' antecede o verbo 'partir'."
+          },
+          {
+            "letra": "D",
+            "correta": true,
+            "justificativa": "Locução conjuntiva acentuada, ausência de crase antes do demonstrativo 'esta' e crase facultativa, aqui usada, antes do possessivo 'sua': tudo conforme a norma-padrão."
+          }
+        ],
+        "fundamento_legal": null,
+        "pegadinha": "Avaliar só os acentos presentes e esquecer de conferir as ausências, como em 'chega a delegacia'.",
+        "destaques": [
+          {
+            "tipo": "cuidado_na_prova",
+            "texto": "Comando com 'empregos e ausências' cobra também onde a crase faltou."
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "questao",
+      "id": 151,
+      "lote": "piloto/crase-03/q04",
+      "correcoes_sugeridas": [
+        "Reescrever a justificativa de alternativa B: “O antecedente é ‘a sala’ e ‘que’ é relativo objeto direto de ‘reformou’ (o inspetor reformou a sala). Não há preposição nem demonstrativo antes de ‘que’: o correto é ‘a sala que o inspetor reformou’.”"
+      ],
+      "atual": {
+        "enunciado": "Em qual das frases o acento grave antes de “que” está empregado de acordo com a norma-padrão?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "O delegado ouviu a primeira testemunha e, depois, à que chegou atrasada."
+          },
+          {
+            "letra": "B",
+            "texto": "Esta não é a sala à que o inspetor reformou no ano passado."
+          },
+          {
+            "letra": "C",
+            "texto": "A versão do réu era idêntica à que a vítima apresentou em juízo."
+          },
+          {
+            "letra": "D",
+            "texto": "A versão que o réu apresentou era exatamente à que a vítima contou."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "Antes de “que”, o “a” pode ser pronome demonstrativo, equivalente a “aquela”. Haverá crase se o termo regente exigir a preposição “a”: troque por “aquela” e veja se aparece “àquela”. “Idêntica” rege a preposição “a” (idêntica àquela que a vítima apresentou), por isso “idêntica à que” está correto. Nas outras frases não há preposição antes do demonstrativo.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "“Ouvir” é transitivo direto: “ouviu aquela que chegou atrasada”. Sem preposição, o correto é “a que chegou atrasada”."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "Aqui “a” é artigo de “sala” e “que” é relativo objeto de “reformou”, verbo transitivo direto (reformou a sala). Não há preposição: “a sala que o inspetor reformou”."
+          },
+          {
+            "letra": "C",
+            "correta": true,
+            "justificativa": "“Idêntica a”: a preposição exigida pelo adjetivo se funde com o demonstrativo “a” (aquela), formando “à que”."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "“Ser” é verbo de ligação e não rege preposição: “era exatamente aquela que a vítima contou”. O correto é “era exatamente a que”."
+          }
+        ],
+        "fundamento_legal": null,
+        "pegadinha": "Ver crase em todo “a que” sem testar a substituição por “aquela que”.",
+        "destaques": [
+          {
+            "tipo": "cuidado_na_prova",
+            "texto": "“À que” só existe se a troca por “àquela que” funcionar. Se a troca der “aquela que”, sem acento, o “a” fica sem crase."
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "questao",
+      "id": 152,
+      "lote": "piloto/crase-03/q09",
+      "correcoes_sugeridas": [
+        "Trocar, em alternativa A, “idêntica” por “semelhante” (“A assinatura do contrato é semelhante à do documento apreendido.”) e ajustar o comentário e a justificativa de alternativa A para “semelhante a”."
+      ],
+      "atual": {
+        "enunciado": "Assinale a frase em que o sinal indicativo de crase foi empregado corretamente.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "A assinatura do contrato é idêntica à do documento apreendido."
+          },
+          {
+            "letra": "B",
+            "texto": "O laudo confirmou a primeira hipótese, e não à que o advogado sustentava."
+          },
+          {
+            "letra": "C",
+            "texto": "Entre a versão da defesa e à do acusado há contradições evidentes."
+          },
+          {
+            "letra": "D",
+            "texto": "A pena aplicada foi superior a que o promotor havia pedido."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O “a” antes de “de” ou de “que” pode ser demonstrativo, equivalente a “aquela”, e substitui um substantivo já mencionado. Haverá crase se o termo regente exigir a preposição “a”. “Idêntica” rege “a” (idêntica àquela do documento), daí “idêntica à do documento”. O mesmo raciocínio mostra que falta crase em “superior a que” e que ela sobra nas frases com “entre” e com “confirmou”.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": true,
+            "justificativa": "“Idêntica a”: a preposição se funde com o demonstrativo “a” (aquela), resultando em “à do documento”."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "“Confirmar” é transitivo direto: “confirmou aquela que o advogado sustentava”. O correto é “e não a que”."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "A preposição é “entre”, e não “a”: “entre a versão da defesa e aquela do acusado”. O correto é “e a do acusado”."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "“Superior” rege a preposição “a” (superior àquela que o promotor pedira). Faltou o acento: o correto é “superior à que”."
+          }
+        ],
+        "fundamento_legal": null,
+        "pegadinha": "Não reconhecer o “a” demonstrativo antes de “de” e “que”, ora omitindo a crase obrigatória, ora acentuando sem preposição.",
+        "destaques": [
+          {
+            "tipo": "macete_do_riccardo",
+            "texto": "Antes de “de” ou “que”, troque o “a” por “aquela”: se virar “àquela”, use “à”; se virar “aquela”, deixe “a”."
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "questao",
+      "id": 153,
+      "lote": "piloto/direitos-01/q08",
+      "correcoes_sugeridas": [
+        "Na analise_alternativas de alternativa B, trocar 'Inverte a regra: é a dissolução que exige trânsito em julgado' por 'Contraria a parte final do inciso XIX: a dissolução exige trânsito em julgado'."
+      ],
+      "atual": {
+        "enunciado": "Uma associação civil regularmente constituída passou a ser investigada por desvio de finalidade. O Município editou ato administrativo suspendendo suas atividades, e o Ministério Público ajuizou ação pedindo sua dissolução. Em primeira instância, o juiz julgou procedente o pedido de dissolução, e a associação recorreu. Considerando o art. 5º da Constituição Federal, é correto afirmar que:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "o ato do Município é inválido, pois tanto a suspensão quanto a dissolução compulsórias exigem decisão judicial transitada em julgado."
+          },
+          {
+            "letra": "B",
+            "texto": "o ato do Município é inválido, mas a dissolução compulsória já pode ser efetivada, pois basta a decisão judicial de primeira instância, sem necessidade de trânsito em julgado."
+          },
+          {
+            "letra": "C",
+            "texto": "o ato do Município é válido, pois a suspensão das atividades pode ser determinada pela via administrativa, mas a dissolução compulsória exige decisão judicial transitada em julgado."
+          },
+          {
+            "letra": "D",
+            "texto": "o ato do Município é inválido, pois a suspensão compulsória exige decisão judicial, e a dissolução só poderá ocorrer após o trânsito em julgado da sentença."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 5º, XIX, determina que as associações só poderão ser compulsoriamente dissolvidas ou ter suas atividades suspensas por decisão judicial, exigindo-se, no primeiro caso (dissolução), o trânsito em julgado. Assim, a suspensão por ato administrativo do Município é inválida (reserva de jurisdição), e a dissolução não pode ser efetivada enquanto pende o recurso. Para a suspensão, basta decisão judicial, sem exigência de trânsito em julgado.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "Generaliza indevidamente o trânsito em julgado, que o inciso XIX exige apenas para a dissolução, e não para a suspensão."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "Inverte a regra: é a dissolução que exige trânsito em julgado, de modo que a decisão de primeira instância, pendente de recurso, não permite efetivá-la."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "A suspensão compulsória também depende de decisão judicial; não há suspensão de atividades por via administrativa."
+          },
+          {
+            "letra": "D",
+            "correta": true,
+            "justificativa": "Aplica corretamente o inciso XIX: suspensão e dissolução exigem decisão judicial, e somente a dissolução exige trânsito em julgado."
+          }
+        ],
+        "fundamento_legal": "CF/1988, art. 5º, XIX (e XVIII, quanto à vedação de interferência estatal no funcionamento).",
+        "pegadinha": "Estender o trânsito em julgado à suspensão ou admitir suspensão por via administrativa.",
+        "destaques": [
+          {
+            "tipo": "macete_do_riccardo",
+            "texto": "Suspender: basta o juiz. Dissolver (acabar de vez): juiz e trânsito em julgado."
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "questao",
+      "id": 154,
+      "lote": "piloto/direitos-03/q04",
+      "correcoes_sugeridas": [
+        "Em alternativa C, escrever: \"Brasileiro naturalizado acusado de crime comum, sem relação com tráfico ilícito de entorpecentes, praticado depois da naturalização.\" Na justificativa de alternativa C, acrescentar que a ressalva do tráfico não depende do momento do fato, mas a alternativa não trata dela."
+      ],
+      "atual": {
+        "enunciado": "Considerando as regras constitucionais sobre extradição previstas no art. 5º da Constituição Federal de 1988, assinale a hipótese em que a extradição é constitucionalmente possível, na forma da lei.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Brasileiro nato com comprovado envolvimento em tráfico ilícito de entorpecentes no exterior."
+          },
+          {
+            "letra": "B",
+            "texto": "Estrangeiro acusado de crime político, desde que exista tratado de extradição com o Estado requerente."
+          },
+          {
+            "letra": "C",
+            "texto": "Brasileiro naturalizado acusado de crime comum praticado depois da naturalização."
+          },
+          {
+            "letra": "D",
+            "texto": "Brasileiro naturalizado acusado de crime comum praticado antes da naturalização."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "Pelo art. 5º, LI, nenhum brasileiro será extraditado, salvo o naturalizado em duas situações: crime comum praticado antes da naturalização ou comprovado envolvimento em tráfico ilícito de entorpecentes e drogas afins, na forma da lei. O brasileiro nato nunca é extraditado. Já o inciso LII proíbe a extradição de estrangeiro por crime político ou de opinião.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "A exceção do tráfico ilícito de entorpecentes alcança apenas o brasileiro naturalizado; o brasileiro nato não pode ser extraditado (art. 5º, LI)."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "O art. 5º, LII, veda a extradição de estrangeiro por crime político ou de opinião, sem ressalva para a existência de tratado."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "Para o crime comum, a Constituição só permite a extradição do naturalizado quando o fato foi praticado antes da naturalização."
+          },
+          {
+            "letra": "D",
+            "correta": true,
+            "justificativa": "É uma das duas exceções do art. 5º, LI: naturalizado, crime comum, praticado antes da naturalização."
+          }
+        ],
+        "fundamento_legal": "CF/1988, art. 5º, LI e LII.",
+        "pegadinha": "Inverter o momento do crime comum (antes ou depois da naturalização) e estender ao brasileiro nato a exceção do tráfico.",
+        "destaques": [
+          {
+            "tipo": "cuidado_na_prova",
+            "texto": "No crime comum o marco temporal importa (antes da naturalização); no tráfico ilícito de entorpecentes o texto não traz esse marco. E o nato nunca é extraditado."
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "questao",
+      "id": 155,
+      "lote": "piloto/patrimonio-01/q10",
+      "correcoes_sugeridas": [
+        "No fique_ligado, trocar \"primário e pequeno valor garantem o privilégio\" por \"sendo o agente primário e de pequeno valor a coisa, o juiz pode aplicar o privilégio\"."
+      ],
+      "atual": {
+        "enunciado": "Carlos, primário, subtraiu, durante o dia, alguns metros de cabos utilizados para a transmissão de telefonia, de pequeno valor, de um poste em via pública, agindo sozinho e sem romper obstáculo. Considerando o Código Penal, assinale a afirmativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Carlos responde por furto simples com pena aumentada de metade, porque os cabos de telefonia se equiparam à energia elétrica."
+          },
+          {
+            "letra": "B",
+            "texto": "Carlos responde pelo furto da subtração de fios e cabos, com pena de reclusão, de 2 (dois) a 8 (oito) anos, e multa, sendo vedada a aplicação do privilégio por se tratar de forma qualificada, ainda que primário o agente."
+          },
+          {
+            "letra": "C",
+            "texto": "Carlos responde pelo furto de dispositivo eletrônico ou informático, com pena de reclusão, de 4 (quatro) a 10 (dez) anos, e multa, pois os cabos servem à transferência de dados."
+          },
+          {
+            "letra": "D",
+            "texto": "Carlos responde pelo furto da subtração de fios e cabos, com pena de reclusão, de 2 (dois) a 8 (oito) anos, e multa, sendo aplicável, por expressa previsão legal, o benefício do furto privilegiado."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 155, § 8º, com a redação dada pela Lei 15.397/2026, pune com reclusão, de 2 a 8 anos, e multa a subtração de fios, cabos ou equipamentos utilizados para fornecimento ou transmissão de energia elétrica ou de telefonia, e determina expressamente a aplicação, em qualquer caso, do § 2º. Sendo Carlos primário e a coisa de pequeno valor, o juiz pode aplicar os benefícios do furto privilegiado.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "O § 3º equipara à coisa móvel a energia, não os cabos; e o aumento de metade é do repouso noturno, que não ocorreu. A subtração de cabos de telefonia tem forma própria no § 8º."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "A pena está correta, mas o § 8º afasta a vedação ao prever que se aplica, em qualquer caso, o disposto no § 2º (furto privilegiado), de modo que a primariedade de Carlos é relevante."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "O § 6º, II, trata de aparelho de telefonia celular, computador ou dispositivo eletrônico ou informático semelhante. Cabos de telefonia e de transferência de dados estão especificamente previstos no § 8º."
+          },
+          {
+            "letra": "D",
+            "correta": true,
+            "justificativa": "Reproduz o § 8º: pena de 2 a 8 anos e multa, com aplicação expressa do § 2º, cujos requisitos (primariedade e pequeno valor) estão presentes."
+          }
+        ],
+        "fundamento_legal": "Código Penal, art. 155, §§ 2º e 8º (§ 8º com redação dada pela Lei 15.397/2026).",
+        "pegadinha": "Supor que o privilégio nunca se aplica a formas qualificadas, quando o § 8º manda aplicá-lo expressamente.",
+        "destaques": [
+          {
+            "tipo": "fique_ligado",
+            "texto": "No furto de fios e cabos (§ 8º), a lei manda aplicar o § 2º em qualquer caso: primário e pequeno valor garantem o privilégio."
+          }
+        ]
+      }
+    }
+  ]
+}

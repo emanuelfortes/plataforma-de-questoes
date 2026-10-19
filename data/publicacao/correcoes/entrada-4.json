@@ -1,0 +1,41 @@
+{
+  "itens": [
+    {
+      "tipo": "flashcard",
+      "id": 57,
+      "lote": "producao/informatica--seguranca-da-informacao-001/f03",
+      "correcoes_sugeridas": [
+        "Alinhar frente e verso. Opção A: trocar a frente por \"O que é o princípio do não repúdio e como a assinatura digital o garante?\". Opção B: manter a frente e começar o verso pela resposta ao porquê: \"Porque a assinatura digital vincula a ação a uma identidade de forma verificável, impedindo que o autor negue depois a autoria do ato (ex.: enviar mensagem ou assinar documento). Essa impossibilidade de negar a autoria é o não repúdio (irretratabilidade).\""
+      ],
+      "atual": {
+        "frente": "Por que a assinatura digital é apontada como garantia do não repúdio?",
+        "verso": "É a garantia de que uma parte não consiga negar a autoria de um ato que realizou, como enviar uma mensagem ou assinar um documento. Costuma ser sustentado por mecanismos como a assinatura digital, que vincula a ação a uma identidade de forma verificável."
+      }
+    },
+    {
+      "tipo": "flashcard",
+      "id": 95,
+      "lote": "producao/legislacao-penal-especial--estatuto-do-desarmamento-001/f03",
+      "correcoes_sugeridas": [
+        "Dividir em dois flashcards: um sobre o art. 32 (entrega espontânea, extinção da punibilidade da posse irregular) e outro sobre o art. 25 (armas apreendidas, laudo, encaminhamento pelo juiz ao Comando do Exército em até 48 horas)."
+      ],
+      "atual": {
+        "frente": "Qual o efeito penal da entrega espontânea de arma de fogo (art. 32) e para onde vão as armas apreendidas após o laudo pericial (art. 25)?",
+        "verso": "Art. 32 da Lei 10.826/2003: a entrega espontânea, mediante recibo e presumida a boa-fé, gera indenização na forma do regulamento e extingue a punibilidade da posse irregular. Art. 25: as armas apreendidas, após laudo pericial e quando não mais interessarem à persecução penal, são encaminhadas pelo juiz ao Comando do Exército, em até 48 horas, para destruição ou doação."
+      }
+    },
+    {
+      "tipo": "flashcard",
+      "id": 103,
+      "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-002/f03",
+      "correcoes_sugeridas": [
+        "Opcionalmente separar em dois cards (capacidade de um só item x perda ao desligar por ser memória volátil). Conteúdo já está correto como está.",
+        "Opcionalmente, separar em dois cards (um para a substituicao pelo ultimo item, outro para a perda ao desligar) ou unificar a frente em: \"Como funciona a area de transferencia comum quanto a quantidade de itens e ao desligamento do computador?\". O conteudo atual esta correto."
+      ],
+      "atual": {
+        "frente": "Quantos itens a área de transferência comum guarda, e o que acontece ao desligar o computador?",
+        "verso": "A área de transferência comum guarda apenas o último conteúdo copiado ou recortado (cada nova operação substitui a anterior). Como fica na memória volátil (RAM), o conteúdo se perde ao desligar o computador."
+      }
+    }
+  ]
+}

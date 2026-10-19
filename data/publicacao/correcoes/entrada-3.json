@@ -1,0 +1,512 @@
+{
+  "itens": [
+    {
+      "tipo": "questao",
+      "id": 222,
+      "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-001/q08",
+      "correcoes_sugeridas": [
+        "Para VALIDADA sem conferência humana, o enunciado deveria deixar explícito que cobra o entendimento do STF/doutrina sobre o alcance dos direitos fundamentais (e não a literalidade do caput), e o comentário deveria registrar expressamente que a resposta se afasta da redação literal. Como a fonte única não confirma a extensão e o distrator literal é defensável, deixo para decisão humana."
+      ],
+      "atual": {
+        "enunciado": "Um turista estrangeiro, sem residência fixa no Brasil, teve sua casa alugada invadida por agentes públicos, sem ordem judicial e sem qualquer das situações de urgência. Ao analisar a abrangência do art. 5º da Constituição Federal, é correto afirmar que a inviolabilidade do domicílio:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "alcança o estrangeiro não residente, pois as garantias do art. 5º projetam-se sobre toda pessoa sujeita à ordem jurídica brasileira."
+          },
+          {
+            "letra": "B",
+            "texto": "alcança o estrangeiro apenas se houver tratado internacional de reciprocidade de direitos firmado entre o Brasil e o país de origem do turista."
+          },
+          {
+            "letra": "C",
+            "texto": "não alcança o estrangeiro não residente, pois o caput do art. 5º refere os direitos ali previstos aos brasileiros e aos estrangeiros residentes no País."
+          },
+          {
+            "letra": "D",
+            "texto": "não alcança o estrangeiro, pois a inviolabilidade do domicílio é direito reservado ao brasileiro nato ou naturalizado."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O caput do art. 5º da CF assegura direitos aos brasileiros e aos estrangeiros residentes no País. A leitura puramente literal excluiria o estrangeiro de passagem, mas os direitos fundamentais, como a inviolabilidade do domicílio (inciso XI), alcançam todas as pessoas sujeitas à ordem jurídica brasileira, inclusive o estrangeiro não residente, pois decorrem da dignidade da pessoa humana e não de mera condição de residência. O enunciado cobra a interpretação do alcance do dispositivo, indo além da literalidade do caput.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": true,
+            "justificativa": "A garantia protege toda pessoa submetida à ordem jurídica nacional; o estrangeiro não residente também é titular da inviolabilidade do domicílio, apesar da literalidade do caput."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "A proteção não depende de tratado de reciprocidade; a reciprocidade é exigida para situação diversa, a dos portugueses equiparados (art. 12, § 1º)."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "Prende-se à leitura literal do caput, ignorando que as garantias do art. 5º não se limitam ao estrangeiro residente, mas alcançam quem está sob a lei brasileira."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "A inviolabilidade do domicílio não é privativa de brasileiros; o rol de direitos privativos de nato está no art. 12, § 3º, e não inclui esse direito."
+          }
+        ],
+        "fundamento_legal": "CF/1988, art. 5º, caput, e inciso XI",
+        "pegadinha": "Fazer leitura exclusivamente literal do caput e excluir o estrangeiro não residente da proteção dos direitos fundamentais.",
+        "destaques": [
+          {
+            "tipo": "cuidado_na_prova",
+            "texto": "O caput cita \"estrangeiros residentes\", mas os direitos fundamentais alcançam também o estrangeiro de passagem sujeito à lei brasileira."
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "questao",
+      "id": 273,
+      "lote": "producao/direito-penal--teoria-do-crime-e-fato-tipico-001/q10",
+      "correcoes_sugeridas": [
+        "No comentario_geral, no fundamento_legal e na lei_referencia, atribuir o dever de agir à alínea b do art. 13, § 2º (de outra forma, assumiu a responsabilidade de impedir o resultado), por ser dever de origem contratual/funcional, ou citar as alíneas a e b em conjunto. A alternativa B e os distratores ficam inalterados."
+      ],
+      "atual": {
+        "enunciado": "Um gerente de uma loja, incumbido por contrato da vigilância do patrimônio, percebe que um funcionário subalterno está prestes a provocar um dano grave e, podendo impedi-lo com facilidade, prefere nada fazer para prejudicar o empregador. Sobre a possibilidade de responsabilizá-lo pelo resultado, à luz do Código Penal, assinale a opção correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Não pode responder, pois a omissão só se torna penalmente relevante quando o omitente é agente público no exercício do cargo."
+          },
+          {
+            "letra": "B",
+            "texto": "Pode responder pelo resultado, pois tinha, por força de sua função, o dever de vigilância e podia agir para evitá-lo."
+          },
+          {
+            "letra": "C",
+            "texto": "Não pode responder pelo resultado, pois a posição de garantidor exige vínculo de parentesco com quem titulariza o bem jurídico."
+          },
+          {
+            "letra": "D",
+            "texto": "Pode responder, mas apenas se a sua omissão tiver sido a única causa do resultado, excluída qualquer contribuição de terceiro."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O gerente tem o dever de vigilância sobre o patrimônio por força de sua função (art. 13, § 2º, a, do CP: obrigação de cuidado, proteção ou vigilância). Como devia e podia agir para evitar o resultado, sua omissão é penalmente relevante e ele pode responder pelo resultado, como se o tivesse causado. A posição de garantidor não exige vínculo de parentesco, nem se restringe a agentes públicos. E a omissão relevante não precisa ser a única causa do resultado: pela equivalência dos antecedentes, a contribuição de terceiro não afasta a imputação do garantidor que descumpriu o dever de agir.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "A omissão relevante não se restringe a agente público; as fontes do dever do § 2º alcançam o particular com dever de agir."
+          },
+          {
+            "letra": "B",
+            "correta": true,
+            "justificativa": "O dever de vigilância decorre da função (art. 13, § 2º, a); devendo e podendo agir, o gerente pode responder pelo resultado."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "A posição de garantidor pode nascer de dever de vigilância funcional; não exige vínculo de parentesco com o titular do bem."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "Pela equivalência dos antecedentes, a omissão não precisa ser a única causa; a contribuição de terceiro não afasta a imputação."
+          }
+        ],
+        "fundamento_legal": "CP, art. 13, § 2º, a.",
+        "pegadinha": "Exigir parentesco ou condição de agente público para a posição de garantidor, quando o dever pode decorrer de obrigação de vigilância funcional.",
+        "destaques": [
+          {
+            "tipo": "fique_ligado",
+            "texto": "O dever de agir da alínea a nasce de obrigação de cuidado, proteção OU vigilância; não precisa ser parente nem servidor público."
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "questao",
+      "id": 290,
+      "lote": "producao/direito-penal-militar--crime-militar-conceito-e-classificacao-001/q07",
+      "correcoes_sugeridas": [
+        "Antes de publicar junto com a q03, variar o ângulo desta questão (por exemplo, focar apenas na exigência ou não de definição também na lei comum, ou substituir por caso concreto) para não cobrar a mesma distinção, do mesmo jeito, duas vezes no lote."
+      ],
+      "atual": {
+        "enunciado": "Compare as espécies de crime militar quanto à possibilidade de autoria por civil e à exigência de definição também na lei comum. À luz do Código Penal Militar e da classificação doutrinária, assinale a opção correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "O crime propriamente militar viola dever próprio do militar e não admite autoria de civil; já o impropriamente militar pode ser praticado por civil, nas hipóteses do art. 9º."
+          },
+          {
+            "letra": "B",
+            "texto": "Tanto o crime propriamente quanto o impropriamente militar exigem, para a sua configuração, que o fato ocorra em lugar sujeito à administração militar."
+          },
+          {
+            "letra": "C",
+            "texto": "Os crimes propriamente e impropriamente militares distinguem-se apenas pela maior ou menor gravidade da pena cominada, sendo indiferente, para a classificação, quem pode figurar como autor do fato."
+          },
+          {
+            "letra": "D",
+            "texto": "O crime impropriamente militar é o único definido no Código Penal Militar, ao passo que o propriamente militar tem previsão exclusiva na legislação penal comum, fora do Código castrense."
+          },
+          {
+            "letra": "E",
+            "texto": "O crime propriamente militar seria de natureza dolosa, e o impropriamente militar, de natureza culposa, segundo critério que estaria fixado no próprio art. 9º do Código."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "A classificação toma por base o conceito legal de crime militar em tempo de paz (art. 9º do CPM). O crime propriamente militar viola dever ou condição inerente à vida militar e, por isso, só pode ser praticado por militar, não admitindo autoria de civil. O impropriamente militar, por sua vez, pode ser praticado por civil, encaixando-se nas hipóteses em que o art. 9º considera militar o fato (por exemplo, o inciso III, para civil contra as instituições militares). As demais opções erram ao fundar a distinção na pena, ao atribuir a previsão apenas à lei comum, ao exigir sempre lugar sujeito à administração militar ou ao vincular as espécies a dolo e culpa, critérios que o art. 9º não adota.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": true,
+            "justificativa": "Expressa corretamente a distinção: propriamente militar não admite autoria de civil; impropriamente militar admite, nas hipóteses do art. 9º."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "Nem toda hipótese do art. 9º exige lugar sujeito à administração militar; a exigência não vale para as duas espécies."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "A distinção não é de pena; o critério relevante é quem pode ser autor e a natureza do dever violado."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "O CPM define ambas as espécies; o propriamente militar não é previsto só na lei comum."
+          },
+          {
+            "letra": "E",
+            "correta": false,
+            "justificativa": "O art. 9º não liga as espécies a dolo ou culpa; não há esse critério na lei."
+          }
+        ],
+        "fundamento_legal": "CPM, art. 9º, I, II e III.",
+        "pegadinha": "Fundar a distinção entre propriamente e impropriamente militar na pena, no dolo/culpa ou no lugar do fato, em vez da possibilidade de autoria por civil.",
+        "destaques": [
+          {
+            "tipo": "fique_ligado",
+            "texto": "Propriamente militar: só o militar comete (dever militar). Impropriamente militar: também o civil pode ser autor, nas hipóteses do art. 9º."
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "questao",
+      "id": 391,
+      "lote": "producao/legislacao-penal-especial--lei-de-drogas-002/q09",
+      "correcoes_sugeridas": [
+        "Deslocar o elemento de arma de fogo e manter apenas violência ou grave ameaça como causa de aumento do art. 40, IV, evitando o choque com o art. 40-A, parágrafo único; ou acrescentar ao enunciado e ao comentário nota explicando a relação entre o art. 40, IV, e a nova regra de concurso material do art. 40-A, parágrafo único, para o emprego de arma de fogo."
+      ],
+      "atual": {
+        "enunciado": "Durante a repressão ao tráfico, verifica-se que o crime do art. 33 foi praticado com emprego de arma de fogo e mediante grave ameaça, por traficante que não integra organização criminosa ultraviolenta, grupo paramilitar nem milícia privada. Nos termos do art. 40 da Lei nº 11.343/2006, nessa hipótese a pena será:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Reduzida de um sexto a dois terços, por se tratar de traficante primário que não integra organização criminosa."
+          },
+          {
+            "letra": "B",
+            "texto": "Aplicada em dobro, pois o emprego de arma de fogo no tráfico, por si só, enquadraria o agente na atuação de milícia privada ou grupo paramilitar."
+          },
+          {
+            "letra": "C",
+            "texto": "Aumentada de um sexto a dois terços, por incidir a causa de aumento da violência, grave ameaça ou emprego de arma de fogo."
+          },
+          {
+            "letra": "D",
+            "texto": "Mantida sem qualquer alteração, pois o emprego de arma de fogo não repercute na dosimetria do crime de tráfico de drogas."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O art. 40, IV, prevê causa de aumento de um sexto a dois terços quando o crime dos arts. 33 a 37 é praticado com violência, grave ameaça, emprego de arma de fogo ou qualquer processo de intimidação difusa ou coletiva. A aplicação da pena em dobro é hipótese diversa (art. 40-A), que depende de o crime ser praticado por integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada, o que o enunciado afasta. A redução de um sexto a dois terços pertence ao § 4º do art. 33 (tráfico privilegiado), inaplicável a quem usa arma e grave ameaça.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "A redução de um sexto a dois terços é do tráfico privilegiado (art. 33, § 4º) e exige, entre outros requisitos, que o agente não se dedique a atividades criminosas; não se aplica a quem traficou com arma e grave ameaça."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "A aplicação em dobro do art. 40-A depende da atuação em organização ultraviolenta, grupo paramilitar ou milícia, o que o enunciado expressamente afasta."
+          },
+          {
+            "letra": "C",
+            "correta": true,
+            "justificativa": "Corresponde ao art. 40, IV: violência, grave ameaça ou emprego de arma de fogo aumentam a pena de um sexto a dois terços."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "O emprego de arma de fogo repercute sim na dosimetria, por constituir causa de aumento expressa no art. 40, IV."
+          }
+        ],
+        "fundamento_legal": "Art. 40, IV, da Lei nº 11.343/2006.",
+        "pegadinha": "Confundir a causa de aumento de um sexto a dois terços (art. 40) com a aplicação da pena em dobro (art. 40-A) ou com a redução do tráfico privilegiado (art. 33, § 4º).",
+        "destaques": [
+          {
+            "tipo": "cuidado_na_prova",
+            "texto": "Arma de fogo e grave ameaça no tráfico levam ao AUMENTO de 1/6 a 2/3 (art. 40, IV); o DOBRO (art. 40-A) exige vínculo com organização ultraviolenta, grupo paramilitar ou milícia."
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "questao",
+      "id": 394,
+      "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-002/q02",
+      "correcoes_sugeridas": [
+        "Em alternativa D, incluir a segurança na enumeração: '... a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade.'"
+      ],
+      "atual": {
+        "enunciado": "A universalidade é apontada como característica dos direitos humanos, no sentido de que eles se dirigem a todas as pessoas, pela sua simples condição humana. No caput do art. 5º da Constituição Federal, como essa ideia se manifesta quanto à titularidade dos direitos ali previstos?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Os direitos do caput do art. 5º dependem, para os estrangeiros, de prévia autorização expressa do órgão competente, ainda que eles residam de forma regular no País."
+          },
+          {
+            "letra": "B",
+            "texto": "A igualdade perante a lei é garantida somente aos cidadãos que estejam no pleno gozo dos direitos políticos, excluídos os que não estejam regularmente alistados como eleitores."
+          },
+          {
+            "letra": "C",
+            "texto": "Os direitos previstos no caput do art. 5º alcançam apenas os brasileiros natos, ficando os naturalizados e os estrangeiros residentes sujeitos a regime inteiramente fixado em lei específica."
+          },
+          {
+            "letra": "D",
+            "texto": "Todos são iguais perante a lei, assegurando-se aos brasileiros e aos estrangeiros residentes a inviolabilidade do direito à vida, à liberdade, à igualdade e à propriedade."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "A universalidade liga-se à ideia de que os direitos humanos pertencem a todos, independentemente de condição pessoal. No caput do art. 5º, a Constituição afirma que todos são iguais perante a lei, sem distinção de qualquer natureza, e assegura a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade. A dicção do dispositivo não restringe a titularidade a brasileiros natos nem a eleitores, e não condiciona o gozo dos direitos a autorização prévia.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "O texto não exige autorização prévia para que o estrangeiro residente usufrua dos direitos do caput do art. 5º."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "A igualdade do caput não é reservada aos eleitores; é afirmada para todos, sem distinção de qualquer natureza."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "O caput não limita os direitos aos brasileiros natos; refere-se a brasileiros e estrangeiros residentes, sem essa distinção."
+          },
+          {
+            "letra": "D",
+            "correta": true,
+            "justificativa": "Reflete o caput do art. 5º: igualdade perante a lei, sem distinção de qualquer natureza, e inviolabilidade dos direitos ali enumerados."
+          }
+        ],
+        "fundamento_legal": "Art. 5º, caput, da Constituição Federal de 1988.",
+        "pegadinha": "Restringir a titularidade dos direitos do caput do art. 5º a certos grupos (só natos, só eleitores), quando o texto fala em igualdade sem distinção de qualquer natureza.",
+        "destaques": null
+      }
+    },
+    {
+      "tipo": "questao",
+      "id": 403,
+      "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-002/q01",
+      "correcoes_sugeridas": [
+        "Na justificativa de alternativa D, trocar \"o Conselho Nacional de Secretários e Gestores Municipais de Segurança Pública, este no interesse dos Municípios\" por \"o Conselho Nacional das Guardas Municipais\", que é o segundo conselho efetivamente citado na alternativa (ambos previstos no art. 20)."
+      ],
+      "atual": {
+        "enunciado": "Segundo a Lei nº 13.022/2014, a representatividade das guardas municipais é reconhecida em colegiados nacionais ligados à segurança pública. Entre os conselhos indicados abaixo, aquele em que a lei reconhece expressamente essa representatividade é:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "o Conselho de Defesa Nacional, órgão consultivo nos assuntos ligados à soberania e à defesa do Estado democrático de direito."
+          },
+          {
+            "letra": "B",
+            "texto": "o Conselho Nacional do Ministério Público, a quem a lei teria confiado o controle externo da atividade de segurança municipal."
+          },
+          {
+            "letra": "C",
+            "texto": "o Conselho Nacional de Justiça, encarregado de fiscalizar a atuação administrativa das guardas e a regularidade de sua folha de pessoal."
+          },
+          {
+            "letra": "D",
+            "texto": "o Conselho Nacional de Segurança Pública e o Conselho Nacional das Guardas Municipais, ambos ligados à política de segurança pública."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 20 reconhece a representatividade das guardas municipais no Conselho Nacional de Segurança Pública, no Conselho Nacional das Guardas Municipais e, no interesse dos Municípios, no Conselho Nacional de Secretários e Gestores Municipais de Segurança Pública. São todos conselhos ligados à política de segurança, e não ao Judiciário, ao Ministério Público ou à defesa nacional.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "O Conselho de Defesa Nacional não aparece no art. 20 e trata de defesa do Estado, matéria estranha à proteção municipal preventiva."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "O Conselho Nacional do Ministério Público não consta do art. 20; o controle externo das guardas é feito por ouvidoria, nos termos do art. 13, II."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "O Conselho Nacional de Justiça não está no art. 20 e é órgão de controle do Poder Judiciário, não de representatividade das guardas."
+          },
+          {
+            "letra": "D",
+            "correta": true,
+            "justificativa": "Reúne dois dos conselhos listados no art. 20: o Conselho Nacional de Segurança Pública e o Conselho Nacional de Secretários e Gestores Municipais de Segurança Pública, este no interesse dos Municípios."
+          }
+        ],
+        "fundamento_legal": "Lei nº 13.022/2014, art. 20",
+        "pegadinha": "Trocar os conselhos de segurança pública por órgãos de controle do Judiciário ou do Ministério Público.",
+        "destaques": null
+      }
+    },
+    {
+      "tipo": "questao",
+      "id": 466,
+      "lote": "producao/seguranca-publica--instituicoes-de-seguranca-publica-e-sistema-prisional-001/q08",
+      "correcoes_sugeridas": [
+        "Em alternativa E, substituir 'embora reserva das Forças Armadas' por 'embora forças auxiliares e reserva do Exército', alinhando-a ao comentário e à terminologia constitucional."
+      ],
+      "atual": {
+        "enunciado": "Um estudante afirma que, no modelo brasileiro, as polícias militares e os corpos de bombeiros militares dos estados, por serem corporações militares, estariam permanentemente subordinados ao comando das Forças Armadas, como se fossem seus braços locais. Avalie a afirmação e assinale a opção que a corrige adequadamente.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "A afirmação é incorreta apenas quanto aos bombeiros, pois as polícias militares, de fato, são órgãos federais subordinados ao comando do Exército."
+          },
+          {
+            "letra": "B",
+            "texto": "A afirmação é correta, uma vez que os bombeiros militares, por sua natureza, substituem as Forças Armadas na defesa externa do território nacional."
+          },
+          {
+            "letra": "C",
+            "texto": "A afirmação é incorreta porque polícias militares e bombeiros, embora civis, respondem diretamente ao Ministério da Defesa em toda a federação."
+          },
+          {
+            "letra": "D",
+            "texto": "A afirmação é correta, porque as polícias militares integram organicamente as Forças Armadas e delas recebem comando direto em tempo de paz."
+          },
+          {
+            "letra": "E",
+            "texto": "A afirmação é incorreta, pois polícias militares e bombeiros militares são forças estaduais subordinadas aos governadores, embora reserva das Forças Armadas."
+          }
+        ],
+        "gabarito": "E",
+        "comentario": "As polícias militares e os corpos de bombeiros militares são forças estaduais, subordinadas aos governadores, e não integram organicamente as Forças Armadas; são tratados como forças auxiliares e reserva do Exército. A afirmação do estudante confunde natureza militar com subordinação ao comando federal, erro que os distratores exploram por caminhos diferentes.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "Errada. As polícias militares não são órgãos federais subordinados ao Exército; são forças estaduais comandadas pelos governadores."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "Errada. Os bombeiros militares não substituem as Forças Armadas na defesa externa; sua atuação é interna, de defesa civil e salvamento."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "Errada. Polícias militares e bombeiros militares têm natureza militar, não civil, e não respondem diretamente ao Ministério da Defesa na federação."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "Errada. As polícias militares não integram organicamente as Forças Armadas nem delas recebem comando direto na rotina estadual."
+          },
+          {
+            "letra": "E",
+            "correta": true,
+            "justificativa": "Correta. Corrige a afirmação: são forças estaduais sob os governadores, qualificadas como forças auxiliares e reserva das Forças Armadas, sem subordinação orgânica a elas."
+          }
+        ],
+        "fundamento_legal": null,
+        "pegadinha": "Confundir a condição de força auxiliar e reserva do Exército com subordinação orgânica das forças estaduais às Forças Armadas.",
+        "destaques": [
+          {
+            "tipo": "fique_ligado",
+            "texto": "Força auxiliar e reserva não é o mesmo que estar dentro das Forças Armadas: PM e bombeiros respondem ao governador."
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "questao",
+      "id": 517,
+      "lote": "producao/direito-processual-penal--inquerito-policial-003/q10",
+      "correcoes_sugeridas": [
+        "Enxugar a alternativa A (por exemplo, sem repetir \"com os dados relativos à infração e à pessoa do indiciado\", bastando \"e oficiará ao Instituto de Identificação e Estatística\") e deixar os distratores alternativa B e alternativa D com nível de detalhe equivalente, para que a correta não seja a mais longa nem destoe acima de 125% da média das erradas. No lote, ajustar também para reduzir a quantidade de questões em que a correta é a mais longa."
+      ],
+      "atual": {
+        "enunciado": "Concluída a investigação, a autoridade policial prepara a remessa dos autos ao juízo competente. Com base nos arts. 10 e 23 do CPP, sobre os deveres ligados ao indiciado nesse momento, é correto afirmar que a autoridade:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "fará minucioso relatório do que foi apurado, enviará os autos ao juiz competente e oficiará ao Instituto de Identificação e Estatística com os dados relativos à infração e à pessoa do indiciado."
+          },
+          {
+            "letra": "B",
+            "texto": "arquivará os autos quando entender insuficientes as provas contra o indiciado, comunicando o fato ao Instituto de Identificação e ao juízo competente."
+          },
+          {
+            "letra": "C",
+            "texto": "fará relatório no qual decidirá sobre a responsabilidade criminal do indiciado e, concluindo pela autoria, remeterá os autos diretamente ao Ministério Público para a denúncia."
+          },
+          {
+            "letra": "D",
+            "texto": "indicará no relatório a pena a ser aplicada ao indiciado e oficiará ao juízo competente para que seja desde logo expedido o mandado de prisão."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O art. 10, § 1º, do CPP determina que a autoridade faça minucioso relatório do que foi apurado e envie os autos ao juiz competente; o art. 23 acrescenta o dever de oficiar ao Instituto de Identificação e Estatística, ou congênere, com o juízo de distribuição e os dados da infração e do indiciado. O relatório é descritivo: a autoridade não julga a responsabilidade, não arquiva o inquérito (art. 17) nem fixa pena, que é tarefa da sentença.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": true,
+            "justificativa": "Reúne o art. 10, § 1º (relatório minucioso e remessa ao juiz) e o art. 23 (ofício ao Instituto de Identificação com os dados do indiciado) do CPP."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "A autoridade policial não pode mandar arquivar os autos de inquérito (art. 17 do CPP)."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "A autoridade não decide sobre a responsabilidade criminal no relatório, e os autos vão ao juiz competente, não diretamente ao Ministério Público."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "O relatório não fixa pena, que cabe à sentença, nem autoriza a autoridade a determinar a expedição de mandado de prisão."
+          }
+        ],
+        "fundamento_legal": "Código de Processo Penal, arts. 10, § 1º, e 23",
+        "pegadinha": "Atribuir ao relatório um juízo de responsabilidade ou de pena, ou admitir arquivamento pela própria autoridade policial.",
+        "destaques": [
+          {
+            "tipo": "fique_ligado",
+            "texto": "O relatório da autoridade é descritivo: aponta o que foi apurado, mas não julga nem fixa pena."
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "flashcard",
+      "id": 20,
+      "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-001/f02",
+      "correcoes_sugeridas": [
+        "Idealmente dividir em dois cards (um para a aplicação imediata do § 1º e outro para a cláusula de abertura do § 2º), ou reformular a frente para cobrar apenas um dos pontos."
+      ],
+      "atual": {
+        "frente": "Os direitos fundamentais dependem de lei para valer, e o catálogo do art. 5º da CF esgota todos os direitos protegidos?",
+        "verso": "Pelo art. 5º, § 1º, da CF, as normas definidoras de direitos e garantias fundamentais têm aplicação imediata. E o § 2º torna o rol exemplificativo: os direitos expressos não excluem outros do regime, dos princípios adotados ou de tratados internacionais em que o Brasil seja parte."
+      }
+    }
+  ]
+}

@@ -1,0 +1,588 @@
+{
+  "itens": [
+    {
+      "tipo": "questao",
+      "id": 156,
+      "lote": "piloto/patrimonio-02/q07",
+      "correcoes_sugeridas": [
+        "No fique_ligado, trocar \"roubo, extorsão ou violência e grave ameaça\" por \"roubo, extorsão ou emprego de grave ameaça ou violência à pessoa\"."
+      ],
+      "atual": {
+        "enunciado": "Pedro, de 30 anos, sob grave ameaça, subtraiu o automóvel de seu pai, de 55 anos, com quem não residia. Sobre a responsabilidade penal de Pedro, à luz das disposições gerais do Título dos crimes contra o patrimônio no Código Penal, é correto afirmar que",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "é isento de pena, porque a exclusão do benefício só ocorre quando a vítima tem 60 anos ou mais."
+          },
+          {
+            "letra": "B",
+            "texto": "responde normalmente pelo crime, pois a isenção de pena não se aplica ao roubo nem aos casos de grave ameaça à pessoa."
+          },
+          {
+            "letra": "C",
+            "texto": "é isento de pena, pois o crime foi cometido em prejuízo de ascendente, seja o parentesco civil ou natural, conforme o art. 181, II."
+          },
+          {
+            "letra": "D",
+            "texto": "somente se procede mediante representação do pai, por se tratar de crime contra o patrimônio praticado entre parentes que não residem juntos."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O art. 181, II, do Código Penal isenta de pena quem comete crime contra o patrimônio em prejuízo de ascendente ou descendente. O art. 183, I, porém, afasta essa isenção (e a representação do art. 182) quando o crime é de roubo ou de extorsão ou, em geral, quando há emprego de grave ameaça ou violência à pessoa. Pedro cometeu roubo, por isso responde normalmente, independentemente da idade do pai e de morar ou não com ele.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "Errada. A vítima com 60 anos ou mais (art. 183, III) é apenas uma das hipóteses de exclusão. A do inciso I (roubo, extorsão, grave ameaça ou violência) já basta para afastar o benefício."
+          },
+          {
+            "letra": "B",
+            "correta": true,
+            "justificativa": "Correta. O art. 183, I, determina que os arts. 181 e 182 não se aplicam ao roubo nem, em geral, aos casos com grave ameaça ou violência à pessoa."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "Errada. A isenção do art. 181, II, existe para ascendente, seja o parentesco civil ou natural, mas é afastada pelo art. 183, I, nos crimes de roubo e quando há grave ameaça ou violência à pessoa."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "Errada. A exigência de representação (art. 182) alcança outros parentes, como irmão, e não depende de o agente morar ou não com o ascendente; além disso, é afastada pelo art. 183, I, no caso de roubo."
+          }
+        ],
+        "fundamento_legal": "Código Penal, arts. 157, 181, II, e 183, I.",
+        "pegadinha": "Aplicar a imunidade entre ascendente e descendente sem lembrar que ela não alcança o roubo, e achar que só a idade da vítima a afasta.",
+        "destaques": [
+          {
+            "tipo": "fique_ligado",
+            "texto": "Imunidade patrimonial (arts. 181 e 182) cai em três casos do art. 183: roubo, extorsão ou violência e grave ameaça; estranho que participa; vítima com 60 anos ou mais."
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "questao",
+      "id": 157,
+      "lote": "piloto/drogas-01/q07",
+      "correcoes_sugeridas": [
+        "Na alternativa A, trocar 'ou, na falta deste,' por 'ou, na absoluta falta deste,'."
+      ],
+      "atual": {
+        "enunciado": "Sobre a internação involuntária de dependentes de drogas, disciplinada na Lei nº 11.343/2006, é correto afirmar que ela:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "pode ser pedida por familiar ou responsável legal ou, na falta deste, por servidor da saúde, da assistência social ou de órgão do Sisnad, exceto da segurança pública, e dura no máximo 90 dias."
+          },
+          {
+            "letra": "B",
+            "texto": "pode ser realizada em comunidade terapêutica acolhedora, desde que autorizada por médico registrado no Conselho Regional de Medicina, pelo prazo máximo de 180 dias."
+          },
+          {
+            "letra": "C",
+            "texto": "pode ser requerida pelo delegado de polícia que constate a dependência ao lavrar o termo circunstanciado, desde que haja posterior homologação judicial em 72 horas."
+          },
+          {
+            "letra": "D",
+            "texto": "só pode ser encerrada por decisão do médico responsável, não podendo a família ou o representante legal requerer sua interrupção antes do fim da desintoxicação."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "A internação involuntária ocorre sem o consentimento do dependente, a pedido de familiar ou do responsável legal ou, na absoluta falta deste, de servidor público da saúde, da assistência social ou de órgãos do Sisnad, com exceção dos servidores da segurança pública (art. 23-A, § 3º, II). Ela perdura apenas pelo tempo necessário à desintoxicação, no prazo máximo de 90 dias (§ 5º, III), e a família pode, a qualquer tempo, requerer ao médico a interrupção (§ 5º, IV).",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": true,
+            "justificativa": "Reúne corretamente o art. 23-A, § 3º, II (legitimados, na absoluta falta do responsável legal, e exclusão dos servidores da segurança pública) e o § 5º, III (tempo necessário à desintoxicação, no máximo 90 dias)."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "É vedada qualquer modalidade de internação nas comunidades terapêuticas acolhedoras (§ 9º), e o prazo máximo da involuntária é de 90 dias, não 180."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "Servidores da área de segurança pública estão expressamente excluídos do rol de quem pode pedir a internação involuntária. Além disso, o prazo de 72 horas refere-se à comunicação de internações e altas ao Ministério Público, à Defensoria e a outros órgãos (§ 7º)."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "O § 5º, IV, permite que a família ou o representante legal requeira ao médico, a qualquer tempo, a interrupção do tratamento."
+          }
+        ],
+        "fundamento_legal": "Lei 11.343/2006, art. 23-A, § 3º, II; § 5º, III e IV; §§ 7º e 9º.",
+        "pegadinha": "Incluir a autoridade policial entre os legitimados a pedir a internação involuntária e admitir internação em comunidade terapêutica.",
+        "destaques": [
+          {
+            "tipo": "fique_ligado",
+            "texto": "Na internação involuntária a polícia fica de fora do pedido, o prazo máximo é de 90 dias e a comunicação de internações e altas é feita em até 72 horas."
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "questao",
+      "id": 158,
+      "lote": "piloto/drogas-03/q01",
+      "correcoes_sugeridas": [
+        "Trocar \"Condenado pelo crime do art. 38 da Lei nº 11.343/2006, além da pena aplicada, a Lei determina que o juiz\" por \"Condenado o médico pelo crime do art. 38 da Lei nº 11.343/2006, além da pena aplicada, a Lei determina que o juiz\"."
+      ],
+      "atual": {
+        "enunciado": "Um médico, por desatenção, prescreve a um paciente medicamento à base de substância considerada droga em dose muito superior à necessária, sem intenção de causar dano. Condenado pelo crime do art. 38 da Lei nº 11.343/2006, além da pena aplicada, a Lei determina que o juiz",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "comunique a condenação ao Conselho Regional de Medicina do domicílio do paciente, para eventual suspensão do exercício profissional."
+          },
+          {
+            "letra": "B",
+            "texto": "decrete, como efeito automático da condenação, a cassação do registro profissional do agente pelo mesmo prazo da pena."
+          },
+          {
+            "letra": "C",
+            "texto": "comunique a condenação ao Conselho Federal da categoria profissional a que pertença o agente."
+          },
+          {
+            "letra": "D",
+            "texto": "encaminhe cópia da sentença à autoridade sanitária, que aplicará ao agente a pena de interdição do estabelecimento."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O art. 38 pune quem prescreve ou ministra drogas culposamente, sem que o paciente delas necessite, em doses excessivas ou em desacordo com determinação legal ou regulamentar, com detenção de 6 meses a 2 anos e 50 a 200 dias-multa. O parágrafo único traz uma providência específica: o juiz comunicará a condenação ao Conselho Federal da categoria profissional a que pertença o agente. A lei não prevê cassação automática de registro nem interdição de estabelecimento.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "A comunicação é dirigida ao Conselho Federal da categoria, e não ao Conselho Regional ligado ao domicílio do paciente."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "O art. 38 não prevê cassação de registro profissional como efeito automático. A cassação de habilitação pelo prazo da pena aparece no art. 39, para quem conduz embarcação ou aeronave."
+          },
+          {
+            "letra": "C",
+            "correta": true,
+            "justificativa": "Reproduz o parágrafo único do art. 38: o juiz comunicará a condenação ao Conselho Federal da categoria profissional do agente."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "Não há, no art. 38, previsão de comunicação à autoridade sanitária nem de interdição de estabelecimento como consequência da condenação."
+          }
+        ],
+        "fundamento_legal": "Lei 11.343/2006, art. 38, caput e parágrafo único.",
+        "pegadinha": "Trocar o Conselho Federal pelo Conselho Regional e confundir a comunicação ao conselho com a cassação de habilitação prevista no art. 39.",
+        "destaques": [
+          {
+            "tipo": "macete_do_riccardo",
+            "texto": "Art. 38 é o único crime culposo da Lei de Drogas, e quem recebe o aviso é o Conselho FEDERAL da profissão."
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "questao",
+      "id": 159,
+      "lote": "piloto/drogas-03/q10",
+      "correcoes_sugeridas": [
+        "Na alternativa A, trocar \"podem ser aumentadas até o décuplo se o juiz as considerar ineficazes, ainda que aplicadas no máximo\" por \"podem ser aumentadas até o décuplo se, pela situação econômica do acusado, o juiz as considerar ineficazes, ainda que aplicadas no máximo\"."
+      ],
+      "atual": {
+        "enunciado": "Ao sentenciar réu condenado por tráfico de drogas e por associação para o tráfico, em concurso de crimes, o juiz deve observar as regras próprias da Lei nº 11.343/2006 sobre fixação das penas e da multa. Nesse contexto, é correto afirmar que",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "a natureza e a quantidade da substância, a personalidade e a conduta social do agente preponderam sobre o art. 59 do Código Penal, e as multas, impostas cumulativamente, podem ser aumentadas até o décuplo se o juiz as considerar ineficazes, ainda que aplicadas no máximo."
+          },
+          {
+            "letra": "B",
+            "texto": "o valor de cada dia-multa será de, no mínimo, um trigésimo e, no máximo, dez vezes o maior salário-mínimo, conforme as condições econômicas do acusado, sendo as multas aplicadas de forma alternativa em caso de concurso de crimes, prevalecendo a cominada ao crime mais grave."
+          },
+          {
+            "letra": "C",
+            "texto": "a natureza e a quantidade da droga são consideradas apenas de forma subsidiária às circunstâncias do art. 59 do Código Penal, cabendo ao juiz priorizar a culpabilidade e os antecedentes, e as multas dos dois crimes devem ser unificadas pela maior delas, aumentada de um sexto a dois terços."
+          },
+          {
+            "letra": "D",
+            "texto": "as multas podem ser aumentadas até o triplo se ineficazes, em razão da situação econômica do acusado, e a culpabilidade e os antecedentes preponderam sobre a quantidade da droga."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O art. 42 manda o juiz considerar, com preponderância sobre o art. 59 do Código Penal, a natureza e a quantidade da substância ou do produto, a personalidade e a conduta social do agente. O art. 43 fixa o valor do dia-multa entre um trinta avos e 5 vezes o maior salário-mínimo, conforme as condições econômicas do acusado. Pelo parágrafo único, em concurso de crimes as multas são impostas sempre cumulativamente e podem ser aumentadas até o décuplo se o juiz as considerar ineficazes, ainda que aplicadas no máximo, em virtude da situação econômica do acusado.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": true,
+            "justificativa": "Reúne corretamente a preponderância do art. 42 e as regras do parágrafo único do art. 43 (cumulação e aumento até o décuplo)."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "O teto do dia-multa é 5 vezes o maior salário-mínimo, e não dez; e as multas em concurso de crimes são sempre cumulativas, não alternativas, sem prevalência da cominada ao crime mais grave."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "Inverte o art. 42: as circunstâncias da Lei de Drogas (natureza e quantidade da droga, personalidade e conduta social) preponderam sobre o art. 59 do CP. Além disso, as multas em concurso são cumulativas, não unificadas pela maior com aumento fracionário."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "O aumento é até o décuplo, não até o triplo, e o art. 42 dá preponderância à natureza e quantidade da droga, à personalidade e à conduta social, não à culpabilidade e aos antecedentes."
+          }
+        ],
+        "fundamento_legal": "Lei 11.343/2006, arts. 42 e 43, caput e parágrafo único.",
+        "pegadinha": "Trocar o limite do dia-multa (5 vezes o maior salário-mínimo) pelo limite de aumento (décuplo) e inverter a preponderância do art. 42 sobre o art. 59 do CP.",
+        "destaques": [
+          {
+            "tipo": "cuidado_na_prova",
+            "texto": "Dia-multa vai até 5 vezes o maior salário-mínimo; o aumento por ineficácia é que vai até o décuplo."
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "questao",
+      "id": 192,
+      "lote": "piloto/direitos-04/q04",
+      "correcoes_sugeridas": [
+        "Acrescentar à alternativa correta uma justificativa curta, por exemplo: \"apenas as entidades III e IV, pois atendem, respectivamente, ao requisito de representação no Congresso Nacional e ao de funcionamento há pelo menos um ano.\""
+      ],
+      "atual": {
+        "enunciado": "Considere as seguintes entidades, todas interessadas em impetrar mandado de segurança coletivo: (I) um partido político sem nenhum representante no Congresso Nacional, mas com vereadores eleitos em diversos municípios; (II) uma associação legalmente constituída e em funcionamento há oito meses, em defesa dos interesses de seus associados; (III) um partido político com representação no Congresso Nacional; (IV) uma associação legalmente constituída e em funcionamento há três anos, em defesa dos interesses de seus associados. Segundo o texto do art. 5º, LXX, da Constituição Federal, têm legitimidade para a impetração",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "apenas as entidades III e IV."
+          },
+          {
+            "letra": "B",
+            "texto": "apenas as entidades II e IV, pois os partidos políticos só podem impetrar mandado de segurança individual."
+          },
+          {
+            "letra": "C",
+            "texto": "todas as entidades, pois basta a constituição regular para que qualquer partido ou associação impetre o mandado de segurança coletivo."
+          },
+          {
+            "letra": "D",
+            "texto": "apenas as entidades I e III, pois a Constituição não legitima associações para o mandado de segurança coletivo."
+          },
+          {
+            "letra": "E",
+            "texto": "apenas as entidades I, III e IV, pois o requisito de representação no Congresso Nacional se dispensa quando o partido possui mandatos municipais."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O art. 5º, LXX, legitima para o mandado de segurança coletivo o partido político com representação no Congresso Nacional e a organização sindical, entidade de classe ou associação legalmente constituída e em funcionamento há pelo menos um ano, em defesa dos interesses de seus membros ou associados. Assim, o partido sem representação no Congresso (I) e a associação com oito meses de funcionamento (II) não preenchem os requisitos; o partido com representação (III) e a associação com três anos (IV) preenchem.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": true,
+            "justificativa": "O partido com representação no Congresso Nacional e a associação legalmente constituída e em funcionamento há mais de um ano atendem ao art. 5º, LXX, a e b."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "O partido político com representação no Congresso Nacional é legitimado expresso (art. 5º, LXX, a). Além disso, a associação com oito meses não cumpre o requisito de funcionamento há pelo menos um ano."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "Ignora os requisitos constitucionais: representação no Congresso Nacional para o partido e funcionamento há pelo menos um ano para a associação."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "Erra duas vezes: inclui o partido sem representação no Congresso Nacional e nega a legitimidade das associações, expressamente prevista no art. 5º, LXX, b."
+          },
+          {
+            "letra": "E",
+            "correta": false,
+            "justificativa": "O texto exige representação no Congresso Nacional; mandatos municipais não suprem esse requisito."
+          }
+        ],
+        "fundamento_legal": "Constituição Federal de 1988, art. 5º, LXX, a e b.",
+        "pegadinha": "Esquecer os requisitos específicos de cada legitimado: representação no Congresso Nacional para o partido e um ano de funcionamento para a associação.",
+        "destaques": [
+          {
+            "tipo": "cuidado_na_prova",
+            "texto": "O requisito de um ano de funcionamento está ligado à associação no texto da alínea b; para o partido, o que importa é ter representação no Congresso Nacional, e não número de mandatos em outras esferas."
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "questao",
+      "id": 193,
+      "lote": "piloto/patrimonio-04/q09",
+      "correcoes_sugeridas": [
+        "Antes de publicar, confirmar com um revisor a menção à redação anterior do § 5º no comentario_geral e na observacao_temporal, ou dizer apenas que o dispositivo que previa essa possibilidade foi revogado."
+      ],
+      "atual": {
+        "enunciado": "Joana, primária, comprou de um desconhecido, na rua, um celular de última geração por um décimo do preço de mercado, sem nota fiscal. Ela não sabia que o aparelho era furtado, mas, pela desproporção entre o valor e o preço e pela condição de quem o oferecia, deveria presumir sua origem criminosa. O autor do furto nunca foi identificado. Considerando a redação vigente do Código Penal, é correto afirmar que Joana",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "responde por receptação culposa, punível ainda que desconhecido o autor do furto, mas o juiz pode, tendo em conta as circunstâncias e a primariedade da agente, deixar de aplicar a pena."
+          },
+          {
+            "letra": "B",
+            "texto": "não pode ser punida por receptação enquanto não for identificado, processado e condenado o autor do furto do qual proveio o celular, pois a receptação depende do crime anterior."
+          },
+          {
+            "letra": "C",
+            "texto": "responde por receptação culposa, punível ainda que desconhecido o autor do furto, sem que a lei vigente preveja, para essa modalidade, a possibilidade de deixar de aplicar a pena."
+          },
+          {
+            "letra": "D",
+            "texto": "responde por receptação dolosa, punida com reclusão de 2 a 6 anos, e multa, pois deveria presumir a origem ilícita do bem pela desproporção entre o valor e o preço."
+          },
+          {
+            "letra": "E",
+            "texto": "responde por receptação culposa, que, por ter pena máxima de um ano, somente se procede mediante representação da vítima do furto, dona do aparelho."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "Adquirir coisa que, pela desproporção entre o valor e o preço ou pela condição de quem a oferece, deve presumir-se obtida por meio criminoso é a receptação culposa do art. 180, § 3º (detenção, de um mês a um ano, ou multa, ou ambas). O § 4º diz que a receptação é punível ainda que desconhecido ou isento de pena o autor do crime de que proveio a coisa. O § 5º, que tratava da receptação culposa e do privilégio, está revogado no texto vigente (Lei nº 15.358/2026), de modo que não há base legal para deixar de aplicar a pena nessa modalidade.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "O enquadramento no § 3º e a punibilidade pelo § 4º estão certos, mas a possibilidade de deixar de aplicar a pena constava do § 5º do art. 180, hoje revogado; a redação vigente não a prevê."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "Contraria o § 4º do art. 180: a receptação é punível ainda que desconhecido ou isento de pena o autor do crime antecedente."
+          },
+          {
+            "letra": "C",
+            "correta": true,
+            "justificativa": "Enquadramento no § 3º, punibilidade garantida pelo § 4º e ausência de previsão vigente de perdão judicial, já que o § 5º foi revogado."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "A receptação dolosa do caput exige que o agente saiba que a coisa é produto de crime; o dever de presumir pela desproporção do preço é a forma culposa do § 3º."
+          },
+          {
+            "letra": "E",
+            "correta": false,
+            "justificativa": "O art. 180 não condiciona a ação penal à representação, e o patamar da pena não cria essa condição; no caso, também não há relação de parentesco que atraia o art. 182."
+          }
+        ],
+        "fundamento_legal": "Código Penal, art. 180, caput, § 3º e § 4º; § 5º revogado pela Lei nº 15.358/2026.",
+        "pegadinha": "Aplicar a redação superada do § 5º, que permitia ao juiz deixar de aplicar a pena na receptação culposa.",
+        "destaques": [
+          {
+            "tipo": "fique_ligado",
+            "texto": "Receptação é crime autônomo: não depende de identificar, processar ou punir o autor do crime anterior (§ 4º)."
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "questao",
+      "id": 194,
+      "lote": "piloto/inquerito-04/q05",
+      "correcoes_sugeridas": [
+        "Trocar o crime do enunciado por um de ação pública incondicionada sem discussão (por exemplo, \"Carlos, vítima de um furto\") e retirar a expressão \"crime de ação penal pública incondicionada na situação descrita\", ou então descrever no caso a circunstância que torna a ação incondicionada."
+      ],
+      "atual": {
+        "enunciado": "Carlos, vítima de um estelionato, crime de ação penal pública incondicionada na situação descrita, apresentou à autoridade policial requerimento de abertura de inquérito, narrando o fato e indicando testemunhas. O delegado indeferiu o requerimento. Inconformado, Carlos procurou orientação sobre o que poderia fazer. À luz do Código de Processo Penal, é correto afirmar que",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "o indeferimento é irrecorrível, pois a instauração do inquérito é ato discricionário da autoridade policial."
+          },
+          {
+            "letra": "B",
+            "texto": "o requerimento era nulo, pois nos crimes de ação pública o inquérito só pode ser iniciado de ofício ou por requisição."
+          },
+          {
+            "letra": "C",
+            "texto": "Carlos poderá interpor recurso diretamente ao juiz competente, que determinará a instauração do inquérito."
+          },
+          {
+            "letra": "D",
+            "texto": "o requerimento só seria válido se contivesse obrigatoriamente a individualização do autor, sob pena de indeferimento."
+          },
+          {
+            "letra": "E",
+            "texto": "do despacho que indeferiu o requerimento de abertura do inquérito caberá recurso para o chefe de Polícia."
+          }
+        ],
+        "gabarito": "E",
+        "comentario": "Nos crimes de ação pública, o inquérito pode ser iniciado a requerimento do ofendido (art. 5º, II). Se o delegado indefere esse requerimento, o próprio CPP prevê recurso administrativo para o chefe de Polícia (art. 5º, § 2º). O requerimento deve conter, sempre que possível, os elementos do § 1º, o que não torna obrigatória a identificação do autor.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "O art. 5º, § 2º, prevê expressamente recurso contra o despacho que indefere o requerimento de abertura de inquérito."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "O art. 5º, II, admite expressamente o início do inquérito, nos crimes de ação pública, a requerimento do ofendido ou de quem tiver qualidade para representá-lo."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "O recurso previsto no art. 5º, § 2º, é dirigido ao chefe de Polícia, e não ao juiz competente."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "O § 1º do art. 5º exige os elementos sempre que possível e admite que se indiquem os motivos da impossibilidade de individualizar o autor; a individualização não é requisito absoluto."
+          },
+          {
+            "letra": "E",
+            "correta": true,
+            "justificativa": "Reproduz o art. 5º, § 2º, do CPP: do despacho que indeferir o requerimento de abertura de inquérito caberá recurso para o chefe de Polícia."
+          }
+        ],
+        "fundamento_legal": "CPP, art. 5º, II, § 1º e § 2º.",
+        "pegadinha": "Indicar o juiz como destinatário do recurso contra o indeferimento, em vez do chefe de Polícia.",
+        "destaques": [
+          {
+            "tipo": "fique_ligado",
+            "texto": "O recurso contra o indeferimento da abertura do inquérito é administrativo e vai para o chefe de Polícia."
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "questao",
+      "id": 195,
+      "lote": "piloto/inquerito-04/q10",
+      "correcoes_sugeridas": [],
+      "pedido_do_dono": "Remova do comentário (e da análise, se aparecer) o trecho sobre o STF permitir prorrogar a investigação de preso \"mais de uma vez\" / \"novas prorrogações\": ele ainda não foi confirmado na fonte oficial. Mantenha a nota de que o art. 3º-B, § 2º, é dispositivo com interpretação do STF, sem afirmar o conteúdo dessa interpretação.",
+      "atual": {
+        "enunciado": "Em uma comarca dividida em várias circunscrições policiais, um delegado preside inquérito sobre fato de difícil elucidação, com indiciado solto. Às vésperas do fim do prazo legal, ainda falta ouvir uma testemunha que reside em outra circunscrição da mesma comarca. Considerando os arts. 10, 16 e 22 do Código de Processo Penal, assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Vencido o prazo de 30 dias, o inquérito fica automaticamente prorrogado por igual período, independentemente de qualquer requerimento, bastando ao delegado registrar nos autos a diligência pendente."
+          },
+          {
+            "letra": "B",
+            "texto": "Por se tratar de outra circunscrição, a oitiva da testemunha dependerá de carta precatória ou de requisição à autoridade policial local, o que justifica pedir ao juiz a prorrogação do prazo legal."
+          },
+          {
+            "letra": "C",
+            "texto": "Recebidos os autos, o Ministério Público poderá requerer sua devolução à autoridade policial para qualquer diligência que considere útil à investigação, ainda que dispensável ao oferecimento da denúncia."
+          },
+          {
+            "letra": "D",
+            "texto": "O delegado poderá requerer ao juiz a devolução dos autos para ulteriores diligências, no prazo que o juiz marcar, e ordenar a diligência na outra circunscrição independentemente de precatória."
+          },
+          {
+            "letra": "E",
+            "texto": "A devolução dos autos para ulteriores diligências seria igualmente cabível se o indiciado estivesse preso, desde que o fato fosse de difícil elucidação e o juiz marcasse o prazo para concluí-las."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "Com fato de difícil elucidação e indiciado solto, a autoridade pode requerer ao juiz a devolução dos autos para ulteriores diligências, realizadas no prazo marcado pelo juiz (art. 10, § 3º). Na comarca com mais de uma circunscrição, o delegado pode ordenar diligências em outra circunscrição independentemente de precatórias ou requisições (art. 22). Já o Ministério Público só pode requerer a devolução do inquérito para novas diligências imprescindíveis ao oferecimento da denúncia (art. 16). Com investigado preso, o mecanismo não é a devolução do art. 10, § 3º, mas a prorrogação pelo juiz das garantias (art. 3º-B, VIII e § 2º); pela letra da lei, uma única vez por até 15 dias, mas o STF entendeu que pode ocorrer mais de uma vez, por decisão fundamentada, e que o fim do prazo não revoga a prisão automaticamente. A questão cobra a letra dos arts. 10, 16 e 22.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "Não há prorrogação automática: o art. 10, § 3º, exige requerimento da autoridade ao juiz, que marca o prazo das novas diligências; o simples registro nos autos não basta."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "O art. 22 permite ordenar diligências em outra circunscrição da mesma comarca independentemente de precatórias ou requisições; a residência da testemunha não justifica, por si, pedido de prorrogação."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "O art. 16 limita o pedido de devolução pelo Ministério Público a novas diligências imprescindíveis ao oferecimento da denúncia, e não a qualquer diligência útil."
+          },
+          {
+            "letra": "D",
+            "correta": true,
+            "justificativa": "Combina o art. 10, § 3º (devolução dos autos, a requerimento, com prazo fixado pelo juiz, para indiciado solto e fato de difícil elucidação) e o art. 22 (diligências em outra circunscrição sem precatória)."
+          },
+          {
+            "letra": "E",
+            "correta": false,
+            "justificativa": "O art. 10, § 3º, restringe a devolução para ulteriores diligências à hipótese de indiciado solto. Com investigado preso, o mecanismo não é a devolução do art. 10, § 3º, mas a prorrogação pelo juiz das garantias (art. 3º-B, VIII e § 2º); pela letra da lei, uma única vez por até 15 dias, mas o STF entendeu que pode ocorrer mais de uma vez, por decisão fundamentada, e que o fim do prazo não revoga a prisão automaticamente. A questão cobra a letra dos arts. 10, 16 e 22."
+          }
+        ],
+        "fundamento_legal": "CPP, art. 10, § 3º; art. 16; art. 22; contraste com o art. 3º-B, VIII e § 2º (investigado preso).",
+        "pegadinha": "Estender ao indiciado preso a devolução do art. 10, § 3º, exigir precatória entre circunscrições da mesma comarca ou ampliar o pedido de devolução do Ministério Público.",
+        "destaques": [
+          {
+            "tipo": "cuidado_na_prova",
+            "texto": "A devolução para ulteriores diligências do art. 10, § 3º, exige dois requisitos juntos: fato de difícil elucidação e indiciado solto."
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "questao",
+      "id": 208,
+      "lote": "producao/lingua-portuguesa--interpretacao-de-texto-001/q03",
+      "correcoes_sugeridas": [
+        "Enxugar o distrator alternativa A (por exemplo: quem trabalha a terra com dedicacao sempre obtem colheitas fartas) para aproximar o tamanho das alternativas e nao deixar a correta como a mais curta."
+      ],
+      "atual": {
+        "enunciado": "Leia o provérbio popular a seguir.\n\n\"Quem semeia vento colhe tempestade.\"\n\nO sentido que melhor expressa a mensagem desse provérbio é o de que",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "quem trabalha a terra com esforço e dedicação diária sempre obtém colheitas fartas ao fim de cada estação."
+          },
+          {
+            "letra": "B",
+            "texto": "o vento e a tempestade são fenômenos que ocorrem apenas no campo."
+          },
+          {
+            "letra": "C",
+            "texto": "atitudes negativas tendem a gerar consequências ainda mais graves."
+          },
+          {
+            "letra": "D",
+            "texto": "é impossível prever o clima no momento de semear qualquer lavoura."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O provérbio usa sentido figurado: \"semear vento\" representa provocar algo pequeno e ruim, e \"colher tempestade\" representa sofrer uma consequência maior. A leitura correta é a que capta esse sentido conotativo. As demais ficam presas ao sentido literal (agricultura e clima), que não é o pretendido pelo provérbio.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "Toma o verbo semear em sentido literal e dá mensagem oposta à do provérbio."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "Reduz o provérbio a fenômenos climáticos, ignorando a linguagem figurada."
+          },
+          {
+            "letra": "C",
+            "correta": true,
+            "justificativa": "Capta o sentido figurado: provocar algo ruim leva a um resultado pior."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "Introduz a ideia de imprevisibilidade do clima, ausente no provérbio."
+          }
+        ],
+        "fundamento_legal": null,
+        "pegadinha": "Interpretar literalmente um texto construído em sentido figurado.",
+        "destaques": [
+          {
+            "tipo": "macete_do_riccardo",
+            "texto": "Em provérbio, pergunte-se sempre: a frase fala mesmo de lavoura ou usa a lavoura como imagem?"
+          }
+        ]
+      }
+    }
+  ]
+}

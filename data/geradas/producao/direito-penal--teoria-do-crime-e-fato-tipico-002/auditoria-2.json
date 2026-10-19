@@ -1,0 +1,159 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reproduz o art. 14, I (crime consumado: reúne todos os elementos da definição legal). a2 descreve a tentativa, a3 atos preparatórios e a4 mera manifestação de vontade; todos corretamente errados. Fundamento e comentário conferem com o texto fornecido."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 corresponde ao art. 14, II (tentativa: execução iniciada, não consumada por circunstância alheia à vontade). a2 é o consumado, a3 a desistência voluntária (art. 15) e a4 o crime impossível (art. 17). Única correta e fundamentos adequados."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 transcreve o art. 20, caput (erro de tipo exclui o dolo, mas permite punição culposa se prevista em lei). Os distratores confundem com exclusão de culpabilidade, irrelevância ou exclusão de ilicitude, todos incorretos. Fundamento confere."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Caso de desistência voluntária (art. 15): o agente só responde pelos atos já praticados, exatamente a a1. a2 aplica indevidamente a redução da tentativa, a3 afirma isenção e a4 crime consumado; todos errados. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reproduz o art. 17 (não se pune a tentativa por ineficácia absoluta do meio ou absoluta impropriedade do objeto). Os distratores sustentam punição apesar da inidoneidade absoluta ou com inidoneidade apenas relativa, corretamente errados. Única correta."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 corresponde ao art. 18, I (doloso: quis o resultado ou assumiu o risco de produzi-lo). a2 exclui indevidamente o dolo eventual, a3 e a4 rotulam de culpa a assunção do risco, que é dolo eventual. Fundamento confere com o texto."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reproduz o art. 18, parágrafo único (excepcionalidade da culpa; a regra é a punição a título de dolo). Os distratores invertem a regra ou dispensam a previsão legal da culpa, todos incorretos. Única correta e fundamento adequado."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Caso de arrependimento posterior (art. 16): estelionato é crime sem violência ou grave ameaça, reparação voluntária até o recebimento da denúncia, gerando redução de um a dois terços (a1). a2 (isenção), a3 (atos anteriores, da desistência) e a4 (marco na sentença) estão corretamente errados."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "pedagogico",
+          "gravidade": "media",
+          "descricao": "O enunciado descreve 'erro de pontaria, atingindo pessoa diversa', que é a aberratio ictus (CP, art. 73, fora do texto fornecido), e não o erro sobre a pessoa (error in persona) do art. 20, § 3º, que o comando passa a cobrar. O narrado não ilustra o instituto nomeado, o que pode confundir o candidato preparado."
+        }
+      ],
+      "correcao_sugerida": "Ajustar o cenário para ilustrar erro sobre a pessoa de fato (error in persona), p. ex.: o agente, confundindo a identidade da vítima, atinge pessoa que supunha ser o desafeto. Evitar 'erro de pontaria', que remete à aberratio ictus (art. 73). As alternativas permanecem iguais; a1 segue correta pelo art. 20, § 3º.",
+      "justificativa": "O gabarito a1 reflete corretamente o art. 20, § 3º (erro sobre a pessoa não isenta de pena; valem as qualidades da vítima pretendida) e as alternativas se resolvem pela redação dos institutos. Há, porém, descasamento entre a narrativa (aberratio ictus) e o instituto nomeado (erro sobre a pessoa), corrigível com ajuste pontual no enunciado."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 distingue corretamente tentativa (art. 14, II: não consumação por causa alheia) e desistência voluntária (art. 15: por vontade do próprio agente). a2 iguala as origens, a3 inverte as consequências e a4 nega o início de execução na desistência; todos errados. Fundamentos conferem."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Frente objetiva e inequívoca; verso correto conforme art. 14, I, II e parágrafo único (consumado reúne todos os elementos; tentado tem pena reduzida de um a dois terços). Cita o dispositivo e não copia enunciado de questão."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Verso traz com exatidão os requisitos e o efeito do arrependimento posterior (art. 16: crime sem violência ou grave ameaça, reparação voluntária até o recebimento da denúncia ou queixa, redução de um a dois terços; causa de diminuição, não de isenção). Frente admite resposta única."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Descreve corretamente o erro de tipo (art. 20, caput): exclui o dolo, mas permite punição culposa se prevista em lei; distingue erro evitável (responde por culpa, havendo tipo culposo) e inevitável (não responde). Frente clara e verso com o dispositivo."
+    }
+  ]
+}

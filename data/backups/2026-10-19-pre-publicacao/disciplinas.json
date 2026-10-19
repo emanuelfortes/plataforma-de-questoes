@@ -1,0 +1,14 @@
+{
+  "tabela": "disciplinas",
+  "colunas": [
+    "id",
+    "nome"
+  ],
+  "total": 1,
+  "linhas": [
+    {
+      "id": 1,
+      "nome": "Língua Portuguesa"
+    }
+  ]
+}

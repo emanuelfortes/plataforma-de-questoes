@@ -1,0 +1,159 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 53 da Lei 9.784/1999 impõe o dever de anular o ato eivado de vício de legalidade; a revogação (conveniência ou oportunidade) recai sobre ato válido e a simples manutenção não cabe. A correta (a1) reproduz a regra e os distratores estão errados pelos motivos indicados."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Defeito sanável, sem lesão ao interesse público nem prejuízo a terceiros, é convalidado pela própria Administração (art. 55). A correta (a1) corresponde ao dispositivo e os distratores (revogação, anulação integral, homologação judicial) estão corretamente afastados."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A competência é irrenunciável e se exerce como própria, salvo delegação e avocação (art. 11). A correta (a1) transcreve o art. 11; os distratores contrariam os arts. 11, 12 e 13. O termo absoluto ('sempre') aparece só na errada a2, dentro do limite do lote."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 14, § 3º, exige menção explícita da delegação e imputa a decisão ao delegado. A correta (a1) reflete o dispositivo; os distratores (dispensar menção, imputar ao delegante, edição conjunta solidária) estão corretamente afastados."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Ato que impõe ou agrava deveres, encargos ou sanções deve ser motivado com fatos e fundamentos jurídicos (art. 50, II); a falta configura vício. A correta (a1) está certa e os distratores contrariam o art. 50. O termo absoluto ('sempre') aparece só na errada a2, dentro do limite do lote."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Defeito sanável, sem lesão nem prejuízo, admite convalidação (art. 55); o vício de legalidade insanável conduz ao dever de anular (art. 53). A correta (a1) combina os dois dispositivos; os distratores invertem ou confundem as providências."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A edição de atos de caráter normativo não pode ser objeto de delegação (art. 13, I), logo a delegação descrita é vedada. A correta (a1) está certa; os distratores ignoram o inciso I. O macete 'NRE' (Normativo, Recursos, Exclusiva) resume corretamente o art. 13."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Pelo art. 54, o direito de anular atos com efeitos favoráveis decai em cinco anos da prática, salvo má-fé. Com oito anos e destinatário de boa-fé, a decadência se consumou e impede a anulação (a1). Os distratores (prazo atemporal, dez anos, boa-fé que suspende o prazo) estão corretamente afastados."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 50, VIII, exige motivação nos atos que importem convalidação; a decisão deve ser explícita, clara e congruente (§ 1º). A correta (a1) está certa e os distratores (dispensa de motivação, motivação só com oposição, motivação verbal) contrariam o art. 50."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Em (I) o art. 12, parágrafo único, admite a delegação de colegiado ao presidente, com fundamento técnico do caput; em (II) o art. 55 autoriza a convalidação de defeito sanável sem lesão nem prejuízo. Ambas as situações estão de acordo com a lei, logo a1 é a única correta."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso está correto conforme os arts. 55 (defeito sanável, sem lesão nem prejuízo, convalidável) e 53 (vício de legalidade insanável, dever de anular). A frente admite resposta única e cita os dispositivos."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA_COM_RESSALVA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [
+        {
+          "tipo": "conjunto",
+          "gravidade": "baixa",
+          "descricao": "A frente ('quais matérias não podem ser objeto de delegação de competência?') é idêntica a uma das frentes listadas em 'Flashcards recentes' da entrada, repetindo do mesmo jeito um card já produzido. O conteúdo (art. 13) está correto, mas convém variar o recorte ou deixar a deduplicação do pipeline barrar a repetição."
+        }
+      ],
+      "correcao_sugerida": "Reformular a frente para um recorte diferente do art. 13 (por exemplo, perguntar por um inciso específico ou pela natureza da vedação) ou descartar o card por repetir frente recente.",
+      "justificativa": "Verso juridicamente correto conforme o art. 13, I a III, e frente sem ambiguidade. Única limitação: a frente repete, de forma idêntica, um flashcard recente informado na entrada."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso transcreve corretamente o art. 50, § 1º (motivação explícita, clara e congruente, com possibilidade de concordância com fundamentos anteriores que integram o ato). A frente admite resposta única e cita o dispositivo."
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "tabela": "contagens",
+  "colunas": [
+    "chave",
+    "total"
+  ],
+  "total": 44,
+  "linhas": [
+    {
+      "chave": "q:total",
+      "total": 135
+    },
+    {
+      "chave": "q:d:1",
+      "total": 135
+    },
+    {
+      "chave": "q:a:1",
+      "total": 9
+    },
+    {
+      "chave": "q:a:2",
+      "total": 6
+    },
+    {
+      "chave": "q:a:3",
+      "total": 6
+    },
+    {
+      "chave": "q:a:4",
+      "total": 6
+    },
+    {
+      "chave": "q:a:5",
+      "total": 6
+    },
+    {
+      "chave": "q:a:6",
+      "total": 5
+    },
+    {
+      "chave": "q:a:7",
+      "total": 3
+    },
+    {
+      "chave": "q:a:8",
+      "total": 3
+    },
+    {
+      "chave": "q:a:9",
+      "total": 1
+    },
+    {
+      "chave": "f:total",
+      "total": 45
+    },
+    {
+      "chave": "f:d:1",
+      "total": 45
+    },
+    {
+      "chave": "f:a:1",
+      "total": 2
+    },
+    {
+      "chave": "f:a:2",
+      "total": 2
+    },
+    {
+      "chave": "f:a:3",
+      "total": 2
+    },
+    {
+      "chave": "f:a:4",
+      "total": 2
+    },
+    {
+      "chave": "f:a:5",
+      "total": 2
+    },
+    {
+      "chave": "f:a:6",
+      "total": 2
+    },
+    {
+      "chave": "f:a:9",
+      "total": 1
+    },
+    {
+      "chave": "f:a:7",
+      "total": 1
+    },
+    {
+      "chave": "f:a:8",
+      "total": 1
+    },
+    {
+      "chave": "q:a:10",
+      "total": 4
+    },
+    {
+      "chave": "q:a:11",
+      "total": 13
+    },
+    {
+      "chave": "q:a:12",
+      "total": 9
+    },
+    {
+      "chave": "q:a:13",
+      "total": 12
+    },
+    {
+      "chave": "q:a:14",
+      "total": 7
+    },
+    {
+      "chave": "f:a:10",
+      "total": 1
+    },
+    {
+      "chave": "f:a:11",
+      "total": 4
+    },
+    {
+      "chave": "f:a:12",
+      "total": 3
+    },
+    {
+      "chave": "f:a:13",
+      "total": 4
+    },
+    {
+      "chave": "f:a:14",
+      "total": 3
+    },
+    {
+      "chave": "q:a:15",
+      "total": 5
+    },
+    {
+      "chave": "q:a:16",
+      "total": 6
+    },
+    {
+      "chave": "q:a:17",
+      "total": 9
+    },
+    {
+      "chave": "q:a:18",
+      "total": 16
+    },
+    {
+      "chave": "q:a:19",
+      "total": 3
+    },
+    {
+      "chave": "q:a:20",
+      "total": 6
+    },
+    {
+      "chave": "f:a:15",
+      "total": 2
+    },
+    {
+      "chave": "f:a:16",
+      "total": 2
+    },
+    {
+      "chave": "f:a:17",
+      "total": 3
+    },
+    {
+      "chave": "f:a:18",
+      "total": 5
+    },
+    {
+      "chave": "f:a:19",
+      "total": 1
+    },
+    {
+      "chave": "f:a:20",
+      "total": 2
+    }
+  ]
+}

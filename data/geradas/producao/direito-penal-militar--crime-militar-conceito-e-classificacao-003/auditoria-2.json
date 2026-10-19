@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O caput do art. 9º do CPM é textual: considera crimes militares os ali definidos em tempo de paz. O tempo de guerra está no art. 10; estado de defesa, estado de sítio e zona de operações não são recortes do art. 9º. Gabarito a1 confirmado no texto fornecido."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O parágrafo único do art. 9º manda os crimes dolosos contra a vida contra civil para a justiça comum, salvo quando praticados no contexto de ação militar na forma do art. 303 do Código Brasileiro de Aeronáutica. A alternativa a1 reproduz regra e ressalva; os demais distratores contrariam o texto."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O § 1º do art. 9º (redação da Lei 13.491/2017) atribui ao Tribunal do Júri os crimes dolosos contra a vida cometidos por militares contra civil. Gabarito a1 confirmado; o fique_ligado distingue corretamente o § 1º do § 2º."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alínea c do art. 9º, II, abrange o militar em comissão de natureza militar ainda que fora do lugar sujeito à administração militar, contra militar da reserva, reformado ou civil. A alternativa a1 usa redação hedge adequada (pode caracterizar) e os distratores confundem com a alínea b ou invocam requisitos inexistentes."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa a1 reproduz literalmente o inciso II do § 2º do art. 9º (ação que envolva a segurança de instituição militar ou de missão militar, mesmo que não beligerante). As demais descrevem hipóteses estranhas ao rol dos incisos I a III. Gabarito confirmado no texto."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alínea d do art. 9º, II, considera crime militar o praticado por militar durante o período de manobras ou exercício contra militar da reserva ou reformado ou contra civil. A alternativa a1 (pode configurar) está correta; os distratores restringem indevidamente ou alegam revogação inexistente."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O inciso III do § 2º do art. 9º remete expressamente ao art. 142 da Constituição Federal. A alternativa a1 está correta; o art. 144 (segurança pública) é o distrator mais tentador, mas não é o invocado pelo dispositivo."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alínea a (militar da ativa contra militar na mesma situação) não menciona lugar, enquanto a alínea b exige lugar sujeito à administração militar e alcança militar da reserva, reformado ou civil. A alternativa a1 descreve corretamente a distinção; a a3 inverte as alíneas."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alínea e do art. 9º, II, considera crime militar o praticado por militar da ativa contra o patrimônio sob a administração militar ou contra a ordem administrativa militar, hipótese autônoma. A alternativa a1 (pode configurar) está correta; a a2 confunde com o inciso III (autor civil)."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa a1 concilia corretamente os três comandos: parágrafo único (justiça comum, com ressalva do CBA), § 1º (Tribunal do Júri quando o autor é militar) e § 2º (Justiça Militar da União para militar das Forças Armadas em contexto específico). As demais uniformizam ou invertem as competências."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reproduz a alínea c do art. 9º, II (militar em serviço, atuando em razão da função, em comissão de natureza militar ou em formatura), com a cláusula ainda que fora do lugar sujeito à administração militar. Responde exatamente à frente e cita o dispositivo correto."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso lista fielmente os três contextos do § 2º, I a III, do art. 9º (atribuições do Presidente ou do Ministro da Defesa; segurança de instituição ou missão militar mesmo não beligerante; atividade militar, operação de paz, GLO ou atribuição subsidiária conforme o art. 142 da CF). Frente única e verso com dispositivo."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso confirma a alínea e do art. 9º, II (militar da ativa contra o patrimônio sob a administração militar ou contra a ordem administrativa militar), como hipótese autônoma. Responde exatamente à frente e cita o dispositivo correto."
+    }
+  ]
+}

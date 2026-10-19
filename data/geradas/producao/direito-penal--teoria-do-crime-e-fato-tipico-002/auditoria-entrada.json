@@ -1,0 +1,754 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Teoria do Crime e Fato Típico",
+      "subtema": "Tipicidade",
+      "dificuldade": "facil",
+      "enunciado": "Segundo o Código Penal, considera-se consumado o crime quando:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "nele se reúnem todos os elementos de sua definição legal prevista na lei penal."
+        },
+        {
+          "id": "a2",
+          "texto": "iniciada a execução, o resultado não se produz por circunstâncias alheias à vontade do agente que o pretendia."
+        },
+        {
+          "id": "a3",
+          "texto": "o agente pratica os atos preparatórios indispensáveis à prática pretendida."
+        },
+        {
+          "id": "a4",
+          "texto": "o agente manifesta a intenção de praticar a conduta descrita na lei penal."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O crime consumado é aquele em que se reúnem todos os elementos de sua definição legal, ou seja, o fato concreto preenche integralmente o tipo penal. É a plena realização do tipo. Isso está expresso no art. 14, I, do Código Penal. Quando falta algum elemento porque a execução é interrompida por causa externa, há tentativa (art. 14, II); e a simples manifestação de vontade ou a preparação, em regra, não são puníveis.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o conceito legal de crime consumado do art. 14, I: estão presentes todos os elementos da definição legal do crime."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Esse é o conceito de crime tentado (art. 14, II), e não de crime consumado: a execução começou, mas o resultado não se produziu por circunstância alheia à vontade do agente."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Atos preparatórios, em regra, não configuram sequer tentativa e muito menos consumação; a tentativa exige início de execução."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A mera manifestação de intenção não realiza o tipo penal; sem início de execução não há tentativa nem consumação."
+        }
+      ],
+      "fundamento_legal": "Art. 14, I, do Código Penal (Decreto-Lei 2.848/1940).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar o conceito de crime consumado pelo de crime tentado.",
+      "lei_referencia": "CP, art. 14, I",
+      "macete_do_riccardo": "Consumado = tipo \"completo\": todos os elementos da definição legal estão presentes.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "crime consumado",
+        "tipicidade",
+        "art. 14",
+        "elementos do tipo",
+        "definição legal"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (Decreto-Lei 2.848/1940), arts. 13 a 25, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Teoria do Crime e Fato Típico",
+      "subtema": "Tipicidade",
+      "dificuldade": "facil",
+      "enunciado": "De acordo com o Código Penal, diz-se tentado o crime quando:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "iniciada a execução, não se consuma por circunstâncias alheias à vontade do agente."
+        },
+        {
+          "id": "a2",
+          "texto": "nele se reúnem todos os elementos de sua definição legal, ainda que o resultado seja leve."
+        },
+        {
+          "id": "a3",
+          "texto": "o agente, voluntariamente, desiste de prosseguir na execução já iniciada."
+        },
+        {
+          "id": "a4",
+          "texto": "é impossível consumá-lo por ineficácia absoluta do meio empregado pelo agente."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A tentativa ocorre quando o agente inicia a execução do crime, mas este não se consuma por circunstâncias alheias à sua vontade, conforme o art. 14, II, do Código Penal. Dois elementos aparecem: o início da execução e a não consumação por causa externa à vontade do agente. Se o resultado não vem porque o próprio agente desistiu voluntariamente, não é tentativa, mas desistência voluntária (art. 15); e se a consumação era impossível por ineficácia absoluta do meio, há crime impossível (art. 17).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o conceito de crime tentado do art. 14, II: execução iniciada e não consumada por circunstância alheia à vontade do agente."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Descreve o crime consumado (art. 14, I), situação em que todos os elementos do tipo se reuniram."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A interrupção voluntária pelo próprio agente é desistência voluntária (art. 15), não tentativa, que exige causa alheia à vontade do agente."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A impossibilidade de consumação por ineficácia absoluta do meio caracteriza crime impossível (art. 17), em que não se pune a tentativa."
+        }
+      ],
+      "fundamento_legal": "Art. 14, II, do Código Penal (Decreto-Lei 2.848/1940).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir a tentativa (causa alheia) com a desistência voluntária (vontade do próprio agente).",
+      "lei_referencia": "CP, art. 14, II",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Na tentativa, a não consumação vem de fora; se a vontade do próprio agente trava o resultado, já é outro instituto.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "crime tentado",
+        "tentativa",
+        "art. 14",
+        "início de execução",
+        "circunstâncias alheias"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (Decreto-Lei 2.848/1940), arts. 13 a 25, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Teoria do Crime e Fato Típico",
+      "subtema": "Tipicidade",
+      "dificuldade": "facil",
+      "enunciado": "Conforme o Código Penal, o erro sobre elemento constitutivo do tipo legal de crime:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "exclui o dolo, mas permite a punição por crime culposo, se previsto em lei."
+        },
+        {
+          "id": "a2",
+          "texto": "exclui a culpabilidade do agente, isentando-o de pena em todas as situações."
+        },
+        {
+          "id": "a3",
+          "texto": "não produz qualquer efeito sobre a responsabilidade penal do agente."
+        },
+        {
+          "id": "a4",
+          "texto": "exclui a ilicitude do fato, por tornar a conduta objetivamente permitida."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O erro de tipo recai sobre um elemento constitutivo do tipo penal: o agente não sabe que pratica a conduta descrita na lei. Como o dolo exige conhecer os elementos do tipo, o erro afasta o dolo. Ainda assim, se o erro era evitável e a lei prevê a modalidade culposa, o agente responde por crime culposo. É o que diz o art. 20 do Código Penal: o erro exclui o dolo, mas permite a punição por crime culposo, se previsto em lei.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde exatamente ao art. 20: o erro sobre elemento do tipo exclui o dolo, mas admite punição por crime culposo quando a lei a prevê."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O erro de tipo atua sobre o dolo (elemento do fato típico), não isenta de pena em todo caso; se for evitável, pode haver punição culposa."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O erro de tipo produz efeito relevante: exclui o dolo, podendo restar a forma culposa, conforme o art. 20."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O erro de tipo não exclui a ilicitude; ele afeta o dolo, que integra o fato típico, e não a antijuridicidade."
+        }
+      ],
+      "fundamento_legal": "Art. 20, caput, do Código Penal (Decreto-Lei 2.848/1940).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Dizer que o erro de tipo exclui a culpabilidade ou a ilicitude, quando o art. 20 trata da exclusão do dolo.",
+      "lei_referencia": "CP, art. 20",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Erro de tipo = exclui o DOLO; se o erro era evitável e há previsão culposa, o agente responde por culpa.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "erro de tipo",
+        "elemento constitutivo",
+        "art. 20",
+        "exclusão do dolo",
+        "crime culposo"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (Decreto-Lei 2.848/1940), arts. 13 a 25, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Teoria do Crime e Fato Típico",
+      "subtema": "Tipicidade",
+      "dificuldade": "media",
+      "enunciado": "Durante uma tentativa de furto, o agente já havia subtraído parte dos objetos quando, antes de deixar o local e sem qualquer interferência externa, resolveu devolver tudo e abandonar o plano. Diante da desistência voluntária, nos termos do Código Penal, o agente:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "só responde pelos atos já praticados até o momento em que desistiu da execução."
+        },
+        {
+          "id": "a2",
+          "texto": "responde pela tentativa de furto, com a pena do crime consumado diminuída de um a dois terços."
+        },
+        {
+          "id": "a3",
+          "texto": "fica isento de pena, pois a desistência exclui o próprio fato típico desde o seu início."
+        },
+        {
+          "id": "a4",
+          "texto": "responde pelo furto consumado, uma vez que chegou a praticar atos de subtração."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A desistência voluntária ocorre quando o agente, já iniciada a execução, voluntariamente desiste de prosseguir. O art. 15 do Código Penal determina que, nesse caso, ele só responde pelos atos já praticados. Assim, não responde pela tentativa do crime que deixou de consumar, mas pode responder por crime autônomo configurado pelos atos anteriores. Diferente da tentativa (art. 14, II), aqui a não consumação decorre da própria vontade do agente, e não de causa alheia.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "É a consequência exata da desistência voluntária no art. 15: o agente responde apenas pelos atos já praticados, afastada a punição pela tentativa do crime desejado."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A redução de um a dois terços é a da tentativa (art. 14, parágrafo único); na desistência voluntária não se pune a tentativa, mas apenas os atos já praticados."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A desistência não apaga o fato desde o início: o agente ainda responde pelos atos já praticados, conforme o art. 15."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Não há furto consumado, pois o agente desistiu antes de consumá-lo; ele responde pelos atos já praticados, não pelo crime pretendido consumado."
+        }
+      ],
+      "fundamento_legal": "Art. 15 do Código Penal (Decreto-Lei 2.848/1940).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Aplicar à desistência voluntária a redução de pena própria da tentativa, em vez da regra dos atos já praticados.",
+      "lei_referencia": "CP, art. 15",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Desistência voluntária e arrependimento eficaz: o agente responde só pelos atos já praticados, não pela tentativa.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "desistência voluntária",
+        "art. 15",
+        "atos já praticados",
+        "tentativa",
+        "voluntariedade"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (Decreto-Lei 2.848/1940), arts. 13 a 25, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Teoria do Crime e Fato Típico",
+      "subtema": "Tipicidade",
+      "dificuldade": "media",
+      "enunciado": "Sobre o crime impossível, previsto no Código Penal, assinale a alternativa correta:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "não se pune a tentativa quando a ineficácia absoluta do meio ou a impropriedade absoluta do objeto torna impossível a consumação."
+        },
+        {
+          "id": "a2",
+          "texto": "pune-se a tentativa com a pena do crime consumado, diminuída de um a dois terços, ainda que a consumação fosse impossível desde o início da execução."
+        },
+        {
+          "id": "a3",
+          "texto": "pune-se a tentativa sempre que o meio for inidôneo, ainda que a inidoneidade do meio seja apenas relativa."
+        },
+        {
+          "id": "a4",
+          "texto": "a tentativa é punida, pois a impropriedade do objeto não afasta a tipicidade da conduta do agente."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "No crime impossível, o resultado nunca poderia ocorrer, seja porque o meio empregado é absolutamente ineficaz, seja porque o objeto é absolutamente impróprio. Faltando a possibilidade de consumação, não há tentativa punível. O art. 17 do Código Penal é claro: não se pune a tentativa quando, por ineficácia absoluta do meio ou por absoluta impropriedade do objeto, é impossível consumar-se o crime. Note que a lei exige inidoneidade absoluta; a inidoneidade apenas relativa não afasta a punição.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 17: a tentativa não é punida quando a consumação é impossível por ineficácia absoluta do meio ou absoluta impropriedade do objeto."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "No crime impossível não se pune a tentativa; a redução de um a dois terços do art. 14, parágrafo único, pressupõe tentativa punível, o que não ocorre aqui."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 17 exige ineficácia absoluta; a inidoneidade apenas relativa do meio não configura crime impossível, de modo que a tentativa pode ser punida."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A absoluta impropriedade do objeto é justamente uma das hipóteses de crime impossível, em que a tentativa não é punida, conforme o art. 17."
+        }
+      ],
+      "fundamento_legal": "Art. 17 do Código Penal (Decreto-Lei 2.848/1940).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar a inidoneidade absoluta (que gera crime impossível) pela relativa (que não afasta a tentativa).",
+      "lei_referencia": "CP, art. 17",
+      "macete_do_riccardo": "Crime impossível = inidoneidade ABSOLUTA do meio ou do objeto; se for só relativa, a tentativa é punível.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "crime impossível",
+        "art. 17",
+        "ineficácia absoluta",
+        "impropriedade do objeto",
+        "tentativa"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (Decreto-Lei 2.848/1940), arts. 13 a 25, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Teoria do Crime e Fato Típico",
+      "subtema": "Tipicidade",
+      "dificuldade": "media",
+      "enunciado": "O elemento subjetivo do fato típico pode ser o dolo ou a culpa. Sobre a definição legal de crime doloso e culposo no Código Penal, é correto afirmar que:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "é doloso o crime quando o agente quis o resultado ou assumiu o risco de produzi-lo."
+        },
+        {
+          "id": "a2",
+          "texto": "é doloso o crime apenas quando o agente quis diretamente o resultado, excluída a assunção do risco."
+        },
+        {
+          "id": "a3",
+          "texto": "é culposo o crime quando o agente prevê o resultado e, mesmo assim, aceita a sua ocorrência."
+        },
+        {
+          "id": "a4",
+          "texto": "é culposo o crime quando o agente assume o risco de produzir o resultado ao agir de modo imprudente."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O Código Penal define, no art. 18, I, o crime doloso: ele existe quando o agente quis o resultado (dolo direto) ou assumiu o risco de produzi-lo (dolo eventual). Ou seja, a assunção do risco já configura dolo, não culpa. O crime culposo, por sua vez, está no art. 18, II: ocorre quando o agente dá causa ao resultado por imprudência, negligência ou imperícia. Assumir o risco de produzir o resultado é dolo eventual, e não culpa.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 18, I: o dolo abrange tanto querer o resultado (dolo direto) quanto assumir o risco de produzi-lo (dolo eventual)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O art. 18, I, não exclui a assunção do risco: o dolo eventual (assumir o risco) também é dolo, e não apenas o dolo direto."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Prever o resultado e aceitar sua ocorrência configura dolo eventual (art. 18, I), e não crime culposo."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Assumir o risco de produzir o resultado é dolo eventual; o crime culposo decorre de imprudência, negligência ou imperícia sem essa aceitação do resultado (art. 18, II)."
+        }
+      ],
+      "fundamento_legal": "Art. 18, I e II, do Código Penal (Decreto-Lei 2.848/1940).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Classificar como culpa a conduta de quem assume o risco do resultado, que na verdade é dolo eventual.",
+      "lei_referencia": "CP, art. 18, I e II",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Assumir o risco do resultado = dolo eventual (ainda é dolo). Culpa é imprudência, negligência ou imperícia.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "dolo",
+        "culpa",
+        "art. 18",
+        "dolo eventual",
+        "assumiu o risco",
+        "elemento subjetivo"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (Decreto-Lei 2.848/1940), arts. 13 a 25, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Teoria do Crime e Fato Típico",
+      "subtema": "Tipicidade",
+      "dificuldade": "media",
+      "enunciado": "Sobre a regra do Código Penal para a punição a título de dolo e de culpa, assinale a alternativa correta:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "salvo os casos expressos em lei, ninguém pode ser punido por fato previsto como crime senão quando o pratica dolosamente."
+        },
+        {
+          "id": "a2",
+          "texto": "todo fato previsto como crime admite punição tanto a título de dolo quanto a título de culpa, sem exceção."
+        },
+        {
+          "id": "a3",
+          "texto": "a punição por crime culposo independe de previsão legal expressa, bastando a imprudência do agente."
+        },
+        {
+          "id": "a4",
+          "texto": "a modalidade dolosa somente é punível quando a lei a prevê de forma expressa para cada tipo penal."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A regra geral do Código Penal é a excepcionalidade do crime culposo. Pelo art. 18, parágrafo único, salvo os casos expressos em lei, ninguém pode ser punido por fato previsto como crime senão quando o pratica dolosamente. Em outras palavras, o dolo é a regra e a culpa só é punível quando a lei prevê expressamente a forma culposa daquele crime. Por isso, nem todo tipo penal admite modalidade culposa.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 18, parágrafo único: a punição a título de culpa é excepcional e depende de previsão legal expressa; a regra é a punição a título de dolo."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Nem todo crime admite forma culposa: a culpa só é punível nos casos expressos em lei, conforme o art. 18, parágrafo único."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A punição por crime culposo depende sim de previsão legal expressa; sem ela, só há punição dolosa."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A regra é inversa: a forma dolosa é a punível por padrão; a exceção que exige previsão expressa é a modalidade culposa."
+        }
+      ],
+      "fundamento_legal": "Art. 18, parágrafo único, do Código Penal (Decreto-Lei 2.848/1940).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Inverter a regra e a exceção, exigindo previsão expressa para o dolo em vez de para a culpa.",
+      "lei_referencia": "CP, art. 18, parágrafo único",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Dolo é a regra; culpa só pune quando a lei diz expressamente. Logo, nem todo crime tem forma culposa.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "excepcionalidade da culpa",
+        "art. 18",
+        "parágrafo único",
+        "crime doloso",
+        "crime culposo"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (Decreto-Lei 2.848/1940), arts. 13 a 25, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Teoria do Crime e Fato Típico",
+      "subtema": "Tipicidade",
+      "dificuldade": "dificil",
+      "enunciado": "Em um crime de estelionato (praticado sem violência ou grave ameaça), o agente, após consumar a fraude, reparou integralmente o dano à vítima, por ato voluntário, antes do recebimento da denúncia. Considerando o instituto do arrependimento posterior no Código Penal, é correto afirmar que o agente:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "terá a pena reduzida de um a dois terços, pois reparou o dano por ato voluntário até o recebimento da denúncia."
+        },
+        {
+          "id": "a2",
+          "texto": "ficará isento de pena, já que a reparação voluntária do dano antes da denúncia extingue a punibilidade do fato."
+        },
+        {
+          "id": "a3",
+          "texto": "responderá apenas pelos atos praticados antes de iniciar a conduta fraudulenta que causou o prejuízo."
+        },
+        {
+          "id": "a4",
+          "texto": "não terá benefício algum, porque o arrependimento posterior exige a reparação até a sentença de primeiro grau."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O arrependimento posterior (art. 16 do Código Penal) é causa de redução de pena, e não de isenção. Ele exige: crime cometido sem violência ou grave ameaça à pessoa; reparação do dano ou restituição da coisa; por ato voluntário do agente; até o recebimento da denúncia ou da queixa. Presentes esses requisitos, a pena é reduzida de um a dois terços. No caso, o estelionato é crime sem violência ou grave ameaça, e a reparação foi voluntária e anterior ao recebimento da denúncia, incidindo a redução. Não há isenção de pena nem limite de reparação até a sentença.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Preenche os requisitos do art. 16: crime sem violência ou grave ameaça, reparação voluntária do dano até o recebimento da denúncia, gerando redução de um a dois terços."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O arrependimento posterior reduz a pena, não isenta nem extingue a punibilidade; a consequência prevista no art. 16 é apenas a diminuição de um a dois terços."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Responder só pelos atos anteriores é efeito da desistência voluntária (art. 15), que pressupõe não consumação; aqui o crime se consumou e incide o art. 16."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O marco temporal do art. 16 é o recebimento da denúncia ou da queixa, e não a sentença de primeiro grau; a reparação ocorreu em tempo hábil."
+        }
+      ],
+      "fundamento_legal": "Art. 16 do Código Penal (Decreto-Lei 2.848/1940).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Tratar o arrependimento posterior como causa de isenção de pena ou prorrogar o marco até a sentença.",
+      "lei_referencia": "CP, art. 16",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "O arrependimento posterior REDUZ a pena (um a dois terços); não isenta. O limite é o recebimento da denúncia ou queixa.",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "arrependimento posterior",
+        "art. 16",
+        "reparação do dano",
+        "recebimento da denúncia",
+        "redução de pena"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (Decreto-Lei 2.848/1940), arts. 13 a 25, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Teoria do Crime e Fato Típico",
+      "subtema": "Tipicidade",
+      "dificuldade": "dificil",
+      "enunciado": "Um agente, ao atirar contra determinada pessoa que pretendia matar, acaba, por erro de pontaria, atingindo pessoa diversa. No crime impossível, por outro lado, discute-se a idoneidade do meio ou do objeto. Considerando os institutos do erro sobre a pessoa e do crime impossível no Código Penal, assinale a alternativa correta:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "no erro quanto à pessoa, consideram-se as qualidades da vítima pretendida, e não as da pessoa efetivamente atingida."
+        },
+        {
+          "id": "a2",
+          "texto": "no erro quanto à pessoa, o agente fica isento de pena, pois atingiu vítima diversa daquela que efetivamente desejava alcançar com a sua conduta."
+        },
+        {
+          "id": "a3",
+          "texto": "no crime impossível, a ineficácia apenas relativa do meio já basta para afastar a punição da tentativa do agente."
+        },
+        {
+          "id": "a4",
+          "texto": "no erro quanto à pessoa, consideram-se obrigatoriamente as condições pessoais da vítima efetivamente atingida para a fixação da pena."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O erro quanto à pessoa contra a qual o crime é praticado não isenta de pena (art. 20, § 3º, do Código Penal). A lei manda desprezar as condições ou qualidades da vítima efetivamente atingida e considerar as da pessoa contra quem o agente queria praticar o crime. Ou seja, o agente responde como se tivesse acertado o alvo pretendido. Já o crime impossível (art. 17) exige inidoneidade absoluta do meio ou do objeto; a inidoneidade apenas relativa não afasta a punição da tentativa.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reflete o art. 20, § 3º: o erro sobre a pessoa não isenta de pena e consideram-se as condições da vítima pretendida, não as da atingida."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O art. 20, § 3º, é expresso ao afirmar que o erro quanto à pessoa não isenta de pena."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 17 exige ineficácia absoluta do meio; a inidoneidade apenas relativa não caracteriza crime impossível e não afasta a punição da tentativa."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 20, § 3º, manda considerar as condições da vítima pretendida, e não as da pessoa efetivamente atingida."
+        }
+      ],
+      "fundamento_legal": "Art. 20, § 3º, e art. 17 do Código Penal (Decreto-Lei 2.848/1940).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Considerar as qualidades da vítima efetivamente atingida, quando a lei manda considerar as da vítima pretendida.",
+      "lei_referencia": "CP, art. 20, § 3º",
+      "macete_do_riccardo": "Erro sobre a pessoa: pune-se como se tivesse acertado o alvo; valem as qualidades de quem ele QUERIA atingir.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "excecao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "erro sobre a pessoa",
+        "art. 20",
+        "§ 3º",
+        "vítima pretendida",
+        "crime impossível",
+        "art. 17"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (Decreto-Lei 2.848/1940), arts. 13 a 25, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Teoria do Crime e Fato Típico",
+      "subtema": "Tipicidade",
+      "dificuldade": "dificil",
+      "enunciado": "O fato típico pode ser praticado na forma consumada ou tentada, e o agente pode interromper a execução de modos diversos. Com base no Código Penal, assinale a alternativa que distingue corretamente os institutos:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "na tentativa, a não consumação decorre de circunstância alheia à vontade do agente; na desistência voluntária, decorre da própria vontade de não prosseguir."
+        },
+        {
+          "id": "a2",
+          "texto": "tanto na tentativa quanto na desistência voluntária, a não consumação decorre de causa externa alheia à vontade do agente."
+        },
+        {
+          "id": "a3",
+          "texto": "na tentativa, o agente responde apenas pelos atos já praticados; na desistência voluntária, pune-se com a pena do consumado reduzida de um a dois terços."
+        },
+        {
+          "id": "a4",
+          "texto": "na desistência voluntária, a execução sequer se inicia; na tentativa, o agente conclui todos os atos de execução e aguarda o resultado."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A distinção central está na origem da não consumação. Na tentativa (art. 14, II), a execução foi iniciada e o resultado não ocorreu por circunstâncias alheias à vontade do agente, por isso ele responde pela tentativa, com pena reduzida de um a dois terços (art. 14, parágrafo único). Na desistência voluntária (art. 15), é a própria vontade do agente que interrompe a execução, e ele responde apenas pelos atos já praticados. As duas pressupõem início de execução, mas a não consumação da tentativa vem de fora e a da desistência vem do próprio agente.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Distingue corretamente: tentativa (art. 14, II) tem não consumação por causa alheia à vontade; desistência voluntária (art. 15) tem não consumação por vontade do próprio agente."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Na desistência voluntária a não consumação decorre da vontade do agente, não de causa externa; só a tentativa tem causa alheia à vontade."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "As consequências estão invertidas: responder só pelos atos já praticados é da desistência (art. 15); a redução de um a dois terços é da tentativa (art. 14, parágrafo único)."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Ambas pressupõem início de execução; a desistência não exige que a execução nem se inicie, e a tentativa não exige que todos os atos de execução sejam concluídos."
+        }
+      ],
+      "fundamento_legal": "Art. 14, II e parágrafo único, e art. 15 do Código Penal (Decreto-Lei 2.848/1940).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Inverter as consequências da tentativa e da desistência voluntária, ou atribuir a mesma origem à não consumação.",
+      "lei_referencia": "CP, art. 14, II, e art. 15",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Tentativa: causa de fora, pena reduzida. Desistência: vontade do agente, responde só pelos atos já praticados.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "tentativa",
+        "desistência voluntária",
+        "art. 14",
+        "art. 15",
+        "não consumação",
+        "distinção"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (Decreto-Lei 2.848/1940), arts. 13 a 25, fornecido no contexto"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "subtema": "Tipicidade",
+      "frente": "Qual a diferença entre crime consumado e crime tentado no Código Penal?",
+      "verso": "Consumado: reúne todos os elementos da definição legal (art. 14, I). Tentado: iniciada a execução, não se consuma por circunstâncias alheias à vontade do agente, punindo-se com a pena do consumado reduzida de um a dois terços (art. 14, II e parágrafo único, do CP).",
+      "fundamento_legal": "Art. 14, I, II e parágrafo único, do Código Penal.",
+      "lei_referencia": "CP, art. 14",
+      "palavras_chave": [
+        "crime consumado",
+        "crime tentado",
+        "tentativa",
+        "art. 14"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f02",
+      "subtema": "Tipicidade",
+      "frente": "No arrependimento posterior, quais os requisitos e qual o efeito previsto no Código Penal?",
+      "verso": "Crime sem violência ou grave ameaça, reparação do dano ou restituição da coisa, por ato voluntário do agente, até o recebimento da denúncia ou queixa: a pena é reduzida de um a dois terços (art. 16 do CP). É causa de diminuição de pena, não de isenção.",
+      "fundamento_legal": "Art. 16 do Código Penal.",
+      "lei_referencia": "CP, art. 16",
+      "palavras_chave": [
+        "arrependimento posterior",
+        "reparação do dano",
+        "redução de pena",
+        "art. 16"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f03",
+      "subtema": "Tipicidade",
+      "frente": "Se o agente desconhece uma circunstância de fato que integra o tipo penal, o que acontece com a responsabilidade dele?",
+      "verso": "Trata-se de erro de tipo: exclui o dolo, mas permite punição por crime culposo, se previsto em lei (art. 20, caput, do CP). Se o erro for evitável e houver forma culposa, responde por culpa; se inevitável, não responde.",
+      "fundamento_legal": "Art. 20, caput, do Código Penal.",
+      "lei_referencia": "CP, art. 20",
+      "palavras_chave": [
+        "erro de tipo",
+        "exclusão do dolo",
+        "crime culposo",
+        "art. 20"
+      ],
+      "cita_jurisprudencia": false
+    }
+  ]
+}

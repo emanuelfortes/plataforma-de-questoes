@@ -1,0 +1,374 @@
+{
+  "tabela": "flashcards",
+  "colunas": [
+    "id",
+    "codigo",
+    "disciplina_id",
+    "assunto_id",
+    "frente",
+    "verso"
+  ],
+  "total": 45,
+  "linhas": [
+    {
+      "id": 1,
+      "codigo": "hf_200933adde4017eaa5e1ea01",
+      "disciplina_id": 1,
+      "assunto_id": 1,
+      "frente": "Quais são os três erros clássicos de leitura?",
+      "verso": "Extrapolação: ir além do texto.\nRedução: ficar aquém, tomando a parte pelo todo.\nContradição: afirmar o oposto, muitas vezes trocando uma palavra."
+    },
+    {
+      "id": 2,
+      "codigo": "hf_e8a1bc582b2d111de4e858dd",
+      "disciplina_id": 1,
+      "assunto_id": 1,
+      "frente": "Assunto, tema, tese e ideia central",
+      "verso": "Assunto: campo genérico (cabe numa palavra).\nTema: recorte do assunto.\nTese: opinião defendida (só em texto argumentativo).\nIdeia central: síntese do todo; coincide com a tese em textos argumentativos."
+    },
+    {
+      "id": 3,
+      "codigo": "hf_5109acbdef1960ae0bc77e4a",
+      "disciplina_id": 1,
+      "assunto_id": 2,
+      "frente": "Pressuposto x subentendido: origem e responsabilidade",
+      "verso": "Pressuposto: vem de marca linguística da frase; responsabilidade do enunciado.\nSubentendido: vem do contexto e da intenção do falante; responsabilidade do ouvinte, que faz a inferência."
+    },
+    {
+      "id": 4,
+      "codigo": "hf_1faf19bcbd79a2d1ec684963",
+      "disciplina_id": 1,
+      "assunto_id": 2,
+      "frente": "Como funciona o teste da negação?",
+      "verso": "Negue a frase: o que continuar valendo é pressuposto; o que desaparecer era o conteúdo afirmado (posto)."
+    },
+    {
+      "id": 5,
+      "codigo": "hf_e5aa9f4b0a1bed60b9d1d0cf",
+      "disciplina_id": 1,
+      "assunto_id": 3,
+      "frente": "Tipo textual x gênero textual",
+      "verso": "Tipo: modo de organizar a linguagem; conjunto pequeno e fechado (narrar, descrever, expor, argumentar, instruir).\nGênero: forma concreta e social em que o texto circula; incontáveis. Um gênero combina vários tipos."
+    },
+    {
+      "id": 6,
+      "codigo": "hf_ff8ced4d6ee1cc6d85199d84",
+      "disciplina_id": 1,
+      "assunto_id": 3,
+      "frente": "O tempo verbal entrega o tipo",
+      "verso": "Pretérito perfeito: ação que avança (narração).\nImperfeito: cenário, hábito, retrato (descrição).\nPresente atemporal: verdade geral (exposição e argumentação).\nImperativo, infinitivo, dever: ordem (injunção)."
+    },
+    {
+      "id": 7,
+      "codigo": "hf_27ecc5643bb20ac52a06b613",
+      "disciplina_id": 1,
+      "assunto_id": 4,
+      "frente": "Tipos de tópico frasal",
+      "verso": "Declaração inicial, definição, divisão ou enumeração, interrogação, alusão histórica e contraposição."
+    },
+    {
+      "id": 8,
+      "codigo": "hf_9887e51e213c10b3f9608d2e",
+      "disciplina_id": 1,
+      "assunto_id": 4,
+      "frente": "Recursos de desenvolvimento e argumentação",
+      "verso": "Exemplificação, autoridade, comparação/contraste, causa e consequência, dados e estatísticas, definição, concessão/refutação e senso comum (frágil quando é só isso)."
+    },
+    {
+      "id": 9,
+      "codigo": "hf_f271f2e3b2fecd1429e010ca",
+      "disciplina_id": 1,
+      "assunto_id": 5,
+      "frente": "Discurso direto, indireto e indireto livre: marcas",
+      "verso": "Direto: verbo dicendi, dois-pontos, travessão, aspas.\nIndireto: dicendi + oração com que/se; 3ª pessoa.\nIndireto livre: sem dicendi e sem subordinação; conserva exclamações e expressões da personagem."
+    },
+    {
+      "id": 10,
+      "codigo": "hf_a1ad36abeed425f5945209a5",
+      "disciplina_id": 1,
+      "assunto_id": 5,
+      "frente": "Transposição do direto para o indireto: tempos e pessoas",
+      "verso": "1ª/2ª pessoa → 3ª; presente → imperfeito; perfeito → mais-que-perfeito; futuro do presente → futuro do pretérito; imperativo → subjuntivo; interrogativa direta → indireta com “se”."
+    },
+    {
+      "id": 11,
+      "codigo": "hf_418d98ba7a1ba9aebdf89a07",
+      "disciplina_id": 1,
+      "assunto_id": 6,
+      "frente": "O que é ironia e quais são suas pistas?",
+      "verso": "Dizer uma coisa para significar o contrário, contando que o leitor perceba. Pistas: contraste com o contexto, elogio exagerado, reticências em frase categórica, aspas em palavra comum, adjetivos como curioso, brilhante, admirável diante do absurdo."
+    },
+    {
+      "id": 12,
+      "codigo": "hf_760c79331918eb68e8a260ec",
+      "disciplina_id": 1,
+      "assunto_id": 6,
+      "frente": "Ambiguidade é defeito ou recurso?",
+      "verso": "Depende do gênero: defeito em textos técnicos e normativos; recurso expressivo intencional em humor, publicidade e literatura."
+    },
+    {
+      "id": 13,
+      "codigo": "hf_afa34997bb4674f199442b6f",
+      "disciplina_id": 1,
+      "assunto_id": 9,
+      "frente": "Citação, alusão, paráfrase, paródia e epígrafe",
+      "verso": "Citação: reprodução literal, com aspas e fonte.\nAlusão: referência breve.\nParáfrase: recria mantendo o sentido.\nParódia: recria subvertendo o sentido.\nEpígrafe: citação no início da obra."
+    },
+    {
+      "id": 14,
+      "codigo": "hf_bcc045ccb3ed8bbfec5d61f1",
+      "disciplina_id": 1,
+      "assunto_id": 7,
+      "frente": "Funções da linguagem e seus focos (Jakobson)",
+      "verso": "Referencial: referente. Emotiva: emissor. Conativa: receptor. Fática: canal. Metalinguística: código. Poética: mensagem."
+    },
+    {
+      "id": 15,
+      "codigo": "hf_345a07c2c120b6450feb940c",
+      "disciplina_id": 1,
+      "assunto_id": 8,
+      "frente": "Tipos de variação linguística",
+      "verso": "Diatópica: região. Diastrática: grupo social, escolaridade, profissão, idade. Diafásica: situação (formal x informal). Histórica ou diacrônica: tempo."
+    },
+    {
+      "id": 16,
+      "codigo": "hf_66d7797b78d25d31e6e3c986",
+      "disciplina_id": 1,
+      "assunto_id": 10,
+      "frente": "Coesão x coerência",
+      "verso": "Coesão: ligação linguística visível (pronomes, conjunções, sinônimos, elipses).\nCoerência: lógica do sentido; depende de contexto e conhecimento de mundo.\nUm texto coeso pode ser incoerente, e um texto sem conectivos pode ser coerente."
+    },
+    {
+      "id": 17,
+      "codigo": "hf_426852a9f601161c1138b96d",
+      "disciplina_id": 1,
+      "assunto_id": 11,
+      "frente": "Pronome substantivo x pronome adjetivo",
+      "verso": "Substantivo: aparece sozinho, no lugar do nome (“Este é o meu”).\nAdjetivo: acompanha o substantivo e concorda com ele (“Este livro é meu”)."
+    },
+    {
+      "id": 18,
+      "codigo": "hf_f6a864b8fc1848052534a038",
+      "disciplina_id": 1,
+      "assunto_id": 11,
+      "frente": "O, a, os, as x lhe, lhes",
+      "verso": "O, a, os, as: substituem objeto direto (sem preposição).\nLhe, lhes: substituem objeto indireto de pessoa (com a/para).\nEm textos literários, lhe pode ter valor de possessivo."
+    },
+    {
+      "id": 19,
+      "codigo": "hf_d0114585fa15f77d79f44e47",
+      "disciplina_id": 1,
+      "assunto_id": 11,
+      "frente": "Forma do oblíquo o, a, os, as conforme o verbo",
+      "verso": "Vogal ou ditongo oral: o, a (louvo-o).\n-r, -s, -z: cai a consoante, vira lo, la (vendê-la, fá-los).\nDitongo nasal: no, na (dão-no, põe-na).\nFuturo do presente e do pretérito: mesóclise (vendê-lo-ei)."
+    },
+    {
+      "id": 20,
+      "codigo": "hf_4c897fbe1195f8fab4255b6d",
+      "disciplina_id": 1,
+      "assunto_id": 11,
+      "frente": "Regras dos pronomes relativos",
+      "verso": "Que: básico, troca-se por o qual.\nO qual: desfaz ambiguidade.\nQuem: só pessoa; com antecedente, sempre com preposição.\nCujo: posse, concorda com o possuído, sem artigo depois.\nOnde: só lugar.\nOs relativos sempre têm função sintática."
+    },
+    {
+      "id": 21,
+      "codigo": "hf_d77a806d162b30e3e8c49718",
+      "disciplina_id": 1,
+      "assunto_id": 12,
+      "frente": "Anáfora, catáfora e dêixis",
+      "verso": "Anáfora: retoma o que veio antes.\nCatáfora: antecipa o que vem depois (isto:, este:).\nDêixis ou exófora: aponta para fora do texto, para a situação (eu, aqui, hoje)."
+    },
+    {
+      "id": 22,
+      "codigo": "hf_08825dd01c75a5441e7846cb",
+      "disciplina_id": 1,
+      "assunto_id": 12,
+      "frente": "Retomadas por expressões nominais",
+      "verso": "Sinônimo; hiperônimo (termo mais genérico); epíteto (expressão que qualifica); nominalização (verbo vira substantivo); encapsulamento ou rótulo (resume um trecho inteiro); pronome neutro (isso, o que), que retoma ideias."
+    },
+    {
+      "id": 23,
+      "codigo": "hf_029c7c2090d068047e464296",
+      "disciplina_id": 1,
+      "assunto_id": 12,
+      "frente": "Este, esse e aquele dentro do texto",
+      "verso": "Esse: retoma o que já foi dito.\nEste: anuncia o que vai ser dito; também indica o tempo em que se fala.\nCom dois termos citados: aquele = o primeiro; este = o último."
+    },
+    {
+      "id": 24,
+      "codigo": "hf_a839a23c251689c4ec49228d",
+      "disciplina_id": 1,
+      "assunto_id": 13,
+      "frente": "Os cinco tipos de coordenativas",
+      "verso": "Aditivas (e, nem); adversativas (mas, porém, contudo, todavia, no entanto, entretanto); alternativas (ou, ora... ora); conclusivas (logo, portanto, pois posposto); explicativas (que, porque, pois anteposto)."
+    },
+    {
+      "id": 25,
+      "codigo": "hf_c31542930e2f3a66366c5ac6",
+      "disciplina_id": 1,
+      "assunto_id": 13,
+      "frente": "Pois: explicativo ou conclusivo?",
+      "verso": "Antes da oração que introduz: explicativo ou causal.\nDepois do verbo, entre vírgulas: conclusivo (= portanto)."
+    },
+    {
+      "id": 26,
+      "codigo": "hf_16f54da33e653da43b437c8d",
+      "disciplina_id": 1,
+      "assunto_id": 13,
+      "frente": "Conectivos com mais de um valor",
+      "verso": "Como: causa (anteposto), comparação ou conformidade.\nDesde que: condição (subjuntivo) ou tempo (indicativo).\nEnquanto: tempo, proporção ou contraste.\nSe: condição ou integrante.\nQuando: tempo e, às vezes, condição."
+    },
+    {
+      "id": 27,
+      "codigo": "hf_bcff5606c0e78b47183f3baa",
+      "disciplina_id": 1,
+      "assunto_id": 13,
+      "frente": "Ajustes exigidos nas trocas de conectivo",
+      "verso": "Mas → embora: a oposição muda de oração e o verbo vai ao subjuntivo.\nSe → caso: presente do subjuntivo.\nEmbora → apesar de: infinitivo.\nComo causal: antes da principal.\nMas: no início da oração; porém e contudo podem vir no meio."
+    },
+    {
+      "id": 28,
+      "codigo": "hf_eb26c3746f81418491409afb",
+      "disciplina_id": 1,
+      "assunto_id": 14,
+      "frente": "Sequenciadores",
+      "verso": "Início: em primeiro lugar, inicialmente.\nContinuação: em seguida, além disso, ademais.\nContraste de aspectos: por um lado... por outro.\nFechamento: por fim, em suma, em síntese."
+    },
+    {
+      "id": 29,
+      "codigo": "hf_ff6666bd9ba7da9db9f6b5ce",
+      "disciplina_id": 1,
+      "assunto_id": 14,
+      "frente": "Operadores de escala",
+      "verso": "Até, mesmo, inclusive: argumento mais forte em escala afirmativa.\nNem, sequer, nem mesmo: escala negativa.\nO efeito é ênfase por uma escala implícita."
+    },
+    {
+      "id": 30,
+      "codigo": "hf_6ea2b3f7cfc0519315e632c4",
+      "disciplina_id": 1,
+      "assunto_id": 14,
+      "frente": "Palavras denotativas (Cunha)",
+      "verso": "Inclusão (até, inclusive, também), exclusão (apenas, só, somente, salvo, senão), designação (eis), realce (cá, lá, é que, só), retificação (aliás, ou melhor, isto é) e situação (afinal, agora, então)."
+    },
+    {
+      "id": 31,
+      "codigo": "hf_267e3667ef49854288c373b0",
+      "disciplina_id": 1,
+      "assunto_id": 15,
+      "frente": "Denotação x conotação",
+      "verso": "Denotação: sentido literal, de dicionário; predomina em textos técnicos, jornalísticos e normativos.\nConotação: sentido figurado, por associação ou emoção; predomina na literatura, na publicidade e no humor."
+    },
+    {
+      "id": 32,
+      "codigo": "hf_77c7b2981fc5c25e174086f6",
+      "disciplina_id": 1,
+      "assunto_id": 15,
+      "frente": "Como saber se o sentido é conotativo?",
+      "verso": "Teste do dicionário: troque a palavra pelo sentido literal. Se a frase fica absurda, o sentido é conotativo; se continua fazendo sentido, é denotativo."
+    },
+    {
+      "id": 33,
+      "codigo": "hf_5e84be3e43ba84c0e08464f1",
+      "disciplina_id": 1,
+      "assunto_id": 16,
+      "frente": "Sinonímia contextual",
+      "verso": "Sinônimos perfeitos quase não existem. A banca cobra a palavra que substitui outra naquele trecho; o sentido mais comum do dicionário costuma ser a alternativa errada."
+    },
+    {
+      "id": 34,
+      "codigo": "hf_e594cf621147cbc74136c34f",
+      "disciplina_id": 1,
+      "assunto_id": 16,
+      "frente": "Hiperônimo x hipônimo",
+      "verso": "Hiperônimo: termo de sentido mais amplo (artista).\nHipônimo: termo mais específico (poeta, pintor, músico).\nNa coesão, o hiperônimo costuma retomar o hipônimo."
+    },
+    {
+      "id": 35,
+      "codigo": "hf_ce196c2a1d2bcb591d835e83",
+      "disciplina_id": 1,
+      "assunto_id": 17,
+      "frente": "Polissemia x homonímia",
+      "verso": "Polissemia: uma palavra com vários sentidos relacionados (visão, pé, errar).\nHomonímia: palavras diferentes com a mesma forma e sentidos sem relação (cela/sela)."
+    },
+    {
+      "id": 36,
+      "codigo": "hf_c775551a207e658e6e9b8e2a",
+      "disciplina_id": 1,
+      "assunto_id": 17,
+      "frente": "Tipos de homônimos",
+      "verso": "Homófonos: mesmo som, grafia diferente (concerto/conserto).\nHomógrafos: mesma grafia, som diferente (colher verbo/colher talher).\nPerfeitos: mesma grafia e mesmo som (são sadio/são verbo)."
+    },
+    {
+      "id": 37,
+      "codigo": "hf_c7714e0c6a8c250617add429",
+      "disciplina_id": 1,
+      "assunto_id": 17,
+      "frente": "Parônimos da rotina de segurança pública",
+      "verso": "Mandado (ordem judicial) x mandato (representação).\nInfringir (violar) x infligir (aplicar pena).\nTráfego (trânsito) x tráfico (comércio ilegal).\nFlagrante (surpreendido no ato) x fragrante (perfumado).\nIminente (prestes a ocorrer) x eminente (ilustre)."
+    },
+    {
+      "id": 38,
+      "codigo": "hf_326797aff3e8e2c56acca834",
+      "disciplina_id": 1,
+      "assunto_id": 18,
+      "frente": "Metáfora x metonímia",
+      "verso": "Metáfora: semelhança, sem conectivo (“coração de ferro”).\nMetonímia: relação real, de proximidade: autor pela obra, continente pelo conteúdo, lugar pela instituição, parte pelo todo."
+    },
+    {
+      "id": 39,
+      "codigo": "hf_ec090839c4949835d4acb1b1",
+      "disciplina_id": 1,
+      "assunto_id": 18,
+      "frente": "Antítese x paradoxo",
+      "verso": "Antítese: ideias opostas lado a lado, cada uma com seu referente.\nParadoxo: ideias opostas atribuídas ao mesmo ser, ao mesmo tempo, numa contradição aparente."
+    },
+    {
+      "id": 40,
+      "codigo": "hf_a60a41f0159397db353d6432",
+      "disciplina_id": 1,
+      "assunto_id": 18,
+      "frente": "Figuras de pensamento",
+      "verso": "Hipérbole (exagero), eufemismo (suavização), ironia (dizer o contrário), prosopopeia (traço humano a inanimados ou animais), gradação (progressão), apóstrofe (invocação com vocativo)."
+    },
+    {
+      "id": 41,
+      "codigo": "hf_db241dbdaa6139e3ffddf9f8",
+      "disciplina_id": 1,
+      "assunto_id": 18,
+      "frente": "Figuras de sintaxe",
+      "verso": "Elipse e zeugma (omissão), pleonasmo (redundância; vicioso se não expressivo), hipérbato (inversão), assíndeto (sem conjunção), polissíndeto (conjunções repetidas), anacoluto (termo solto), silepse (concordância com o sentido), anáfora (repetição no início)."
+    },
+    {
+      "id": 42,
+      "codigo": "hf_824c57c1beaa07d04d969426",
+      "disciplina_id": 1,
+      "assunto_id": 18,
+      "frente": "Figuras de som",
+      "verso": "Aliteração: repetição de consoantes.\nAssonância: repetição de vogais.\nOnomatopeia: palavra que imita som.\nParonomásia: palavras de som parecido e sentido diferente."
+    },
+    {
+      "id": 43,
+      "codigo": "hf_272fb718c52790d0f37903dc",
+      "disciplina_id": 1,
+      "assunto_id": 19,
+      "frente": "Expressões idiomáticas",
+      "verso": "Combinações fixas cujo sentido não é a soma das palavras (pagar o pato = arcar com a culpa alheia; chover no molhado = repetir o óbvio). O humor pode nascer da leitura ao pé da letra."
+    },
+    {
+      "id": 44,
+      "codigo": "hf_0f440493394eee3b5938c65d",
+      "disciplina_id": 1,
+      "assunto_id": 20,
+      "frente": "Valor dos prefixos",
+      "verso": "des-, in- (i-, im-), a-: negação. mal-/bem-: modo negativo/positivo. re-: repetição, intensidade. pre-/pós-: antes/depois. sub-: inferioridade. super-, hiper-: excesso."
+    },
+    {
+      "id": 45,
+      "codigo": "hf_2488a26b0d6392f6699c9f00",
+      "disciplina_id": 1,
+      "assunto_id": 20,
+      "frente": "Valor dos sufixos",
+      "verso": "Diminutivo e aumentativo podem indicar tamanho, afeto, pena, admiração, intensidade ou desprezo, conforme o contexto. -eco, -ebre, -ucho, -astro são pejorativos; -ico é diminutivo afetivo (burrico)."
+    }
+  ]
+}

@@ -1,0 +1,748 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Estatuto Geral das Guardas Municipais",
+      "subtema": "Patrulhamento e uso da força nos princípios de atuação",
+      "dificuldade": "facil",
+      "enunciado": "De acordo com o Estatuto Geral das Guardas Municipais (Lei nº 13.022/2014), em seu capítulo sobre os princípios, assinale a opção que indica corretamente dois dos princípios mínimos de atuação das guardas municipais.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O patrulhamento preventivo e o uso progressivo da força pelos agentes."
+        },
+        {
+          "id": "a2",
+          "texto": "A repressão qualificada ao crime organizado e o patrulhamento armado."
+        },
+        {
+          "id": "a3",
+          "texto": "A investigação criminal preliminar e a condução coercitiva de suspeitos."
+        },
+        {
+          "id": "a4",
+          "texto": "A fiscalização tributária e a cobrança administrativa de multas de trânsito."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 3º da Lei nº 13.022/2014 lista os princípios mínimos de atuação das guardas municipais, entre eles o patrulhamento preventivo (inciso III) e o uso progressivo da força (inciso V). Repressão qualificada, investigação criminal e fiscalização tributária não constam da lista, pois fogem ao caráter preventivo e civil da instituição.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Patrulhamento preventivo (art. 3º, III) e uso progressivo da força (art. 3º, V) são exatamente dois dos princípios mínimos previstos na lei."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A lei fala em patrulhamento preventivo, não ostensivo armado, e não traz repressão ao crime organizado como princípio; a atuação é preventiva, não repressiva qualificada."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Investigação criminal e condução coercitiva não são princípios de atuação e não cabem à guarda, cujo caráter é civil e preventivo."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Fiscalização tributária e cobrança de multas não figuram entre os princípios do art. 3º e não integram a função de proteção municipal preventiva."
+        }
+      ],
+      "fundamento_legal": "Lei nº 13.022/2014, art. 3º, III e V",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar o patrulhamento preventivo por ostensivo armado e inventar princípios de natureza repressiva ou investigativa.",
+      "lei_referencia": "Lei 13.022/2014, art. 3º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "princípios mínimos",
+        "patrulhamento preventivo",
+        "uso progressivo da força",
+        "art. 3º"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei nº 13.022/2014 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Estatuto Geral das Guardas Municipais",
+      "subtema": "Linha 153 e frequência de rádio pela Anatel",
+      "dificuldade": "facil",
+      "enunciado": "Segundo a Lei nº 13.022/2014, a Agência Nacional de Telecomunicações (Anatel) deve destinar determinados recursos aos Municípios que possuam guarda municipal. Assinale a opção que descreve corretamente essa destinação.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Linha telefônica de número 153 e faixa exclusiva de frequência de rádio."
+        },
+        {
+          "id": "a2",
+          "texto": "Linha telefônica de número 190 e canal de televisão institucional municipal de uso exclusivo."
+        },
+        {
+          "id": "a3",
+          "texto": "Sistema integrado de câmeras de videomonitoramento urbano para as áreas de maior risco."
+        },
+        {
+          "id": "a4",
+          "texto": "Rede de dados móveis gratuita para todos os agentes da guarda em serviço."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 17 da Lei nº 13.022/2014 determina que a Anatel destine linha telefônica de número 153 e faixa exclusiva de frequência de rádio aos Municípios que possuam guarda municipal. O número 190 é da Polícia Militar, e a lei não prevê canal de TV, videomonitoramento nem rede de dados como obrigação da Anatel.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 17: linha telefônica 153 e faixa exclusiva de frequência de rádio."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Troca o número correto (153) pelo 190, da Polícia Militar, e inventa um canal de televisão não previsto em lei."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A lei não atribui à Anatel a destinação de sistema de videomonitoramento."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A lei não prevê rede de dados móveis gratuita; a destinação se limita à linha 153 e à faixa de rádio."
+        }
+      ],
+      "fundamento_legal": "Lei nº 13.022/2014, art. 17",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir o número 153 da guarda municipal com o 190 da Polícia Militar.",
+      "lei_referencia": "Lei 13.022/2014, art. 17",
+      "macete_do_riccardo": "Guarda municipal atende pelo 153; o 190 é da Polícia Militar.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "Anatel",
+        "linha 153",
+        "frequência de rádio",
+        "art. 17"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei nº 13.022/2014 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Estatuto Geral das Guardas Municipais",
+      "subtema": "Denominações consagradas pelo uso",
+      "dificuldade": "facil",
+      "enunciado": "A Lei nº 13.022/2014, em suas disposições diversas e transitórias, assegura a utilização de denominações já consagradas pelo uso para as guardas municipais. Assinale a opção que reúne somente denominações expressamente asseguradas por essa lei.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Guarda civil, guarda civil municipal e guarda metropolitana."
+        },
+        {
+          "id": "a2",
+          "texto": "Polícia municipal, guarda militar urbana e corpo de vigilantes."
+        },
+        {
+          "id": "a3",
+          "texto": "Força municipal de segurança, milícia cívica e patrulha distrital."
+        },
+        {
+          "id": "a4",
+          "texto": "Brigada municipal, patrulha cívica e ronda urbana."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O parágrafo único do art. 22 da Lei nº 13.022/2014 assegura o uso de outras denominações consagradas, como guarda civil, guarda civil municipal, guarda metropolitana e guarda civil metropolitana. Termos como polícia municipal, guarda militar ou milícia não constam da lei e contrariam o caráter civil da instituição.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "As três denominações constam do rol do art. 22, parágrafo único."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Nenhuma das três está na lei; inclusive 'guarda militar' contraria o caráter civil da guarda."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Força municipal de segurança, milícia cívica e patrulha distrital não constam das denominações asseguradas pela lei."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Brigada, guarda armada local e destacamento urbano não integram o rol de denominações do art. 22."
+        }
+      ],
+      "fundamento_legal": "Lei nº 13.022/2014, art. 22, parágrafo único",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Aceitar 'polícia municipal' ou 'guarda militar' como denominação prevista, apesar do caráter civil da instituição.",
+      "lei_referencia": "Lei 13.022/2014, art. 22, parágrafo único",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "denominações",
+        "guarda civil",
+        "guarda metropolitana",
+        "art. 22"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei nº 13.022/2014 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Estatuto Geral das Guardas Municipais",
+      "subtema": "Suspensão do porte de arma de fogo",
+      "dificuldade": "media",
+      "enunciado": "Conforme a Lei nº 13.022/2014, o porte de arma de fogo é autorizado aos guardas municipais, nos termos da lei, mas pode ser suspenso em determinadas situações. Assinale a opção que indica corretamente uma hipótese de suspensão desse direito prevista na lei.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Restrição médica que recomende a suspensão do direito ao porte de arma de fogo."
+        },
+        {
+          "id": "a2",
+          "texto": "Decisão do conselho municipal de segurança pública tomada por maioria simples de seus membros."
+        },
+        {
+          "id": "a3",
+          "texto": "Pedido formulado pela ouvidoria após o recebimento de reclamação de qualquer cidadão interessado."
+        },
+        {
+          "id": "a4",
+          "texto": "Afastamento temporário do agente para capacitação em órgão de formação conveniado com o Estado."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O parágrafo único do art. 16 da Lei nº 13.022/2014 prevê a suspensão do porte de arma de fogo em três hipóteses: restrição médica, decisão judicial ou justificativa da adoção da medida pelo respectivo dirigente. Conselho de segurança, ouvidoria e afastamento para capacitação não são, por si, hipóteses de suspensão previstas no dispositivo.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "A restrição médica é uma das três hipóteses expressas de suspensão do porte no art. 16, parágrafo único."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A lei prevê decisão judicial, não deliberação do conselho municipal de segurança por maioria simples."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A ouvidoria recebe e encaminha reclamações, mas a lei não lhe dá competência para suspender o porte de arma."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O afastamento para capacitação não consta entre as hipóteses de suspensão do art. 16, parágrafo único."
+        }
+      ],
+      "fundamento_legal": "Lei nº 13.022/2014, art. 16, parágrafo único",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Atribuir ao conselho de segurança ou à ouvidoria o poder de suspender o porte, em vez da decisão judicial ou da restrição médica.",
+      "lei_referencia": "Lei 13.022/2014, art. 16, parágrafo único",
+      "macete_do_riccardo": null,
+      "fique_ligado": "A suspensão do porte decorre de restrição médica, decisão judicial ou justificativa do próprio dirigente.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "porte de arma de fogo",
+        "suspensão",
+        "restrição médica",
+        "decisão judicial",
+        "art. 16"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei nº 13.022/2014 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Estatuto Geral das Guardas Municipais",
+      "subtema": "Encaminhamento em flagrante e apoio ao órgão competente",
+      "dificuldade": "media",
+      "enunciado": "Durante o patrulhamento, um guarda municipal de Fortaleza depara-se com um flagrante delito. À luz das competências específicas previstas na Lei nº 13.022/2014, qual conduta está em conformidade com a lei?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Encaminhar o autor ao delegado de polícia e preservar o local do crime quando possível e necessário."
+        },
+        {
+          "id": "a2",
+          "texto": "Instaurar inquérito policial próprio e colher os depoimentos de todas as testemunhas presentes no local."
+        },
+        {
+          "id": "a3",
+          "texto": "Arbitrar fiança ao autor do fato e liberá-lo mediante assinatura de termo de comparecimento futuro."
+        },
+        {
+          "id": "a4",
+          "texto": "Aguardar ordem judicial específica antes de adotar qualquer providência no local da ocorrência."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 5º, XIV, da Lei nº 13.022/2014 inclui entre as competências específicas encaminhar ao delegado de polícia, diante de flagrante delito, o autor da infração, preservando o local do crime quando possível e sempre que necessário. Instaurar inquérito, colher depoimentos ou arbitrar fiança são atos da autoridade policial, estranhos à guarda, de caráter civil e preventivo.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 5º, XIV: encaminhamento ao delegado e preservação do local do crime quando possível e necessário."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A instauração de inquérito e a colheita de depoimentos cabem à autoridade policial, não à guarda municipal."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Arbitrar fiança é ato da autoridade policial ou judicial, não previsto entre as competências da guarda."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A lei exige o encaminhamento ao delegado e a preservação do local, sem condicionar a providência a ordem judicial prévia."
+        }
+      ],
+      "fundamento_legal": "Lei nº 13.022/2014, art. 5º, XIV",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Atribuir à guarda atos próprios da autoridade policial, como instaurar inquérito ou arbitrar fiança.",
+      "lei_referencia": "Lei 13.022/2014, art. 5º, XIV",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "A guarda encaminha o autor ao delegado e preserva o local; não investiga nem instaura inquérito.",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "flagrante delito",
+        "delegado de polícia",
+        "preservação do local",
+        "art. 5º"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei nº 13.022/2014 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Estatuto Geral das Guardas Municipais",
+      "subtema": "Segurança escolar e proteção do patrimônio cultural e ambiental",
+      "dificuldade": "media",
+      "enunciado": "Entre as competências específicas das guardas municipais na Lei nº 13.022/2014, há a atuação na segurança escolar e a proteção do patrimônio do Município. Assinale a opção que descreve corretamente essas competências.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Atuar preventivamente na segurança escolar e proteger o patrimônio ecológico, histórico, cultural e ambiental do Município, com medidas educativas."
+        },
+        {
+          "id": "a2",
+          "texto": "Ministrar o conteúdo pedagógico das disciplinas de cidadania nas unidades de ensino municipal e fiscalizar a frequência diária dos alunos matriculados."
+        },
+        {
+          "id": "a3",
+          "texto": "Tombar bens de valor histórico e cultural do Município e aplicar sanções aos proprietários que descumprirem as regras de preservação do patrimônio."
+        },
+        {
+          "id": "a4",
+          "texto": "Autorizar e licenciar empreendimentos de grande porte situados no entorno das escolas municipais, condicionando-os a prévio estudo de impacto."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 5º prevê, no inciso XVIII, a atuação preventiva na segurança escolar, zelando pelo entorno e participando de ações educativas, e, no inciso VII, a proteção do patrimônio ecológico, histórico, cultural, arquitetônico e ambiental, inclusive com medidas educativas e preventivas. A guarda colabora e protege, mas não ministra o conteúdo pedagógico, não tomba bens nem autoriza empreendimentos.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reúne corretamente o art. 5º, XVIII (segurança escolar preventiva) e o art. 5º, VII (proteção do patrimônio com medidas educativas)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A guarda participa de ações educativas e zela pelo entorno escolar, mas não ministra o conteúdo pedagógico nem fiscaliza a frequência dos alunos."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Tombar bens e aplicar sanções a proprietários são atos de outros órgãos; a guarda protege o patrimônio, sem esse poder."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Autorizar e licenciar empreendimentos não é competência da guarda, que apenas contribui no estudo de impacto na segurança (art. 5º, XV)."
+        }
+      ],
+      "fundamento_legal": "Lei nº 13.022/2014, art. 5º, VII e XVIII",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir a atuação preventiva e educativa da guarda com atos de ensino, tombamento ou licenciamento, próprios de outros órgãos.",
+      "lei_referencia": "Lei 13.022/2014, art. 5º, VII e XVIII",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "segurança escolar",
+        "patrimônio cultural",
+        "patrimônio ambiental",
+        "medidas educativas",
+        "art. 5º"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei nº 13.022/2014 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Estatuto Geral das Guardas Municipais",
+      "subtema": "Órgão colegiado de controle social",
+      "dificuldade": "media",
+      "enunciado": "A Lei nº 13.022/2014 trata do controle das guardas municipais e também da possibilidade de criação de órgão colegiado pelo Poder Executivo municipal. Sobre esse órgão colegiado, assinale a opção correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Pode ser criado pelo Poder Executivo municipal para exercer o controle social e monitorar as metas da política de segurança."
+        },
+        {
+          "id": "a2",
+          "texto": "Deve ser criado obrigatoriamente em todo Município que institua guarda com efetivo superior a cinquenta servidores de carreira."
+        },
+        {
+          "id": "a3",
+          "texto": "Substitui a corregedoria no exercício do controle interno das infrações disciplinares atribuídas aos integrantes da guarda."
+        },
+        {
+          "id": "a4",
+          "texto": "É instituído por iniciativa privativa da Câmara Municipal, a quem compete fiscalizar a aplicação dos recursos públicos empregados."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O § 1º do art. 13 da Lei nº 13.022/2014 autoriza o Poder Executivo municipal a criar órgão colegiado para exercer o controle social das atividades de segurança, analisar a alocação e a aplicação de recursos e monitorar os objetivos e metas da política municipal. A criação é faculdade, não obrigação; o órgão não substitui a corregedoria nem é de iniciativa da Câmara.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reflete o art. 13, § 1º: faculdade do Executivo municipal de criar órgão de controle social que monitora objetivos e metas da política de segurança."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A criação é faculdade do Executivo ('poderá criar'), não obrigação vinculada ao efetivo superior a cinquenta servidores."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Quem apura as infrações disciplinares é a corregedoria (controle interno); o órgão colegiado exerce controle social, sem substituí-la."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A iniciativa é do Poder Executivo municipal, não da Câmara Municipal."
+        }
+      ],
+      "fundamento_legal": "Lei nº 13.022/2014, art. 13, § 1º",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Transformar a faculdade de criar o órgão colegiado em obrigação e confundi-lo com a corregedoria.",
+      "lei_referencia": "Lei 13.022/2014, art. 13, § 1º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "órgão colegiado",
+        "controle social",
+        "política municipal de segurança",
+        "Poder Executivo",
+        "art. 13"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei nº 13.022/2014 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Estatuto Geral das Guardas Municipais",
+      "subtema": "Órgão estadual de formação centralizado e vedação militar",
+      "dificuldade": "dificil",
+      "enunciado": "Um Estado pretende manter, mediante convênio com Municípios interessados, um órgão de formação e aperfeiçoamento centralizado para guardas municipais. Considerando a Lei nº 13.022/2014, assinale a opção correta sobre essa possibilidade.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "É admitida, assegurada aos Municípios conveniados a participação no conselho gestor, vedado que o órgão seja o mesmo das forças militares."
+        },
+        {
+          "id": "a2",
+          "texto": "É admitida, desde que o órgão de formação seja o mesmo já utilizado pela Polícia Militar estadual, para aproveitar a estrutura existente no Estado."
+        },
+        {
+          "id": "a3",
+          "texto": "É vedada, pois a formação e o aperfeiçoamento dos integrantes da guarda municipal constituem atribuição exclusiva e indelegável de cada Município."
+        },
+        {
+          "id": "a4",
+          "texto": "É admitida independentemente de convênio, bastando ato unilateral do Estado para incluir os Municípios interessados no conselho gestor do órgão."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O § 2º do art. 12 da Lei nº 13.022/2014 permite que o Estado mantenha órgão de formação centralizado mediante convênio com os Municípios interessados, assegurada a participação deles no conselho gestor. O § 3º veda que esse órgão seja o mesmo destinado à formação de forças militares. A formação não é exclusiva de cada Município, e o convênio é pressuposto para a participação no conselho.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Combina o art. 12, § 2º (convênio e participação no conselho gestor) com o art. 12, § 3º (vedação de ser o mesmo órgão das forças militares)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O art. 12, § 3º veda expressamente que o órgão seja o mesmo destinado à formação de forças militares, inclusive a Polícia Militar."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A lei admite formação por convênio ou consórcio e órgão estadual centralizado; não é atribuição exclusiva e indelegável de cada Município."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O § 2º exige convênio com os Municípios interessados; não basta ato unilateral do Estado."
+        }
+      ],
+      "fundamento_legal": "Lei nº 13.022/2014, art. 12, §§ 2º e 3º",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Admitir que o órgão de formação seja o mesmo das forças militares, contrariando a vedação do § 3º.",
+      "lei_referencia": "Lei 13.022/2014, art. 12, §§ 2º e 3º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "O órgão de formação da guarda nunca pode ser o mesmo das forças militares.",
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "órgão de formação",
+        "convênio",
+        "conselho gestor",
+        "forças militares",
+        "art. 12"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei nº 13.022/2014 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Estatuto Geral das Guardas Municipais",
+      "subtema": "Efetivo máximo e preservação diante de redução populacional",
+      "dificuldade": "dificil",
+      "enunciado": "Um Município com população superior a 500.000 habitantes institui sua guarda municipal e, anos depois, sofre redução populacional comprovada por estimativa oficial do IBGE. Com base nos limites de efetivo da Lei nº 13.022/2014, assinale a opção correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O limite aplicável é de 0,2% da população, e a preservação do efetivo existente é garantida, ajustando-se à variação populacional nos termos de lei municipal."
+        },
+        {
+          "id": "a2",
+          "texto": "O limite aplicável é de 0,2% da população, devendo o efetivo ser imediatamente reduzido na mesma proporção da queda populacional verificada pelo IBGE no período."
+        },
+        {
+          "id": "a3",
+          "texto": "O limite aplicável é de 0,4% da população, e a redução populacional não produz qualquer efeito sobre o dimensionamento do efetivo já existente no Município."
+        },
+        {
+          "id": "a4",
+          "texto": "O limite aplicável é de 0,3% da população, cabendo ao Estado decidir sobre a manutenção ou não do efetivo existente após a variação."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 7º, III, fixa em 0,2% o limite de efetivo para Municípios com mais de 500.000 habitantes. O parágrafo único garante a preservação do efetivo existente se houver redução populacional apurada por censo ou estimativa do IBGE, devendo o efetivo ser ajustado à variação nos termos de lei municipal, e não reduzido de imediato na mesma proporção.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Aplica o art. 7º, III (0,2%) e o parágrafo único, que garante a preservação do efetivo com ajuste por lei municipal."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O limite de 0,2% está certo, mas a lei garante a preservação do efetivo existente; não há redução imediata e proporcional obrigatória."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O percentual de 0,4% é dos Municípios com até 50.000 habitantes; além disso, a redução populacional é tratada no parágrafo único."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O percentual correto é 0,2%, não 0,3%, e a decisão sobre o efetivo cabe a lei municipal, não ao Estado."
+        }
+      ],
+      "fundamento_legal": "Lei nº 13.022/2014, art. 7º, III e parágrafo único",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Supor redução imediata e proporcional do efetivo, ignorando a garantia de preservação prevista no parágrafo único.",
+      "lei_referencia": "Lei 13.022/2014, art. 7º, III",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "excecao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "efetivo máximo",
+        "0,2%",
+        "quinhentos mil habitantes",
+        "redução populacional",
+        "IBGE",
+        "art. 7º"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei nº 13.022/2014 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Estatuto Geral das Guardas Municipais",
+      "subtema": "Competência geral de proteção e espécies de bens municipais",
+      "dificuldade": "dificil",
+      "enunciado": "A Lei nº 13.022/2014 define a competência geral das guardas municipais como a proteção de bens, serviços, logradouros públicos municipais e instalações do Município, e especifica quais bens estão abrangidos. Sobre essa competência geral, assinale a opção correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Abrange os bens de uso comum, os de uso especial e os dominiais, nos termos do parágrafo único que delimita a competência geral."
+        },
+        {
+          "id": "a2",
+          "texto": "Abrange somente os bens de uso especial, como prédios e repartições públicas, excluídos os bens de uso comum e os bens dominiais do Município."
+        },
+        {
+          "id": "a3",
+          "texto": "Restringe-se aos bens dominiais que gerem renda ao Município, por serem considerados os de maior valor patrimonial e econômico."
+        },
+        {
+          "id": "a4",
+          "texto": "Alcança, além dos bens municipais, os bens estaduais e federais situados no território do Município, para evitar sobreposição."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 4º atribui às guardas a competência geral de proteção de bens, serviços, logradouros públicos municipais e instalações do Município, e o parágrafo único esclarece que esses bens abrangem os de uso comum, os de uso especial e os dominiais. A competência é dos bens municipais; as competências da União e dos Estados ficam ressalvadas (art. 2º).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 4º, parágrafo único: os bens abrangem os de uso comum, os de uso especial e os dominiais."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A proteção não se limita aos bens de uso especial; o parágrafo único inclui também os de uso comum e os dominiais."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Não há restrição aos bens dominiais que gerem renda; as três espécies de bens municipais estão abrangidas."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A competência geral é de bens municipais; as competências da União e dos Estados são ressalvadas pela própria lei (art. 2º)."
+        }
+      ],
+      "fundamento_legal": "Lei nº 13.022/2014, art. 4º e parágrafo único",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Restringir a proteção a uma única espécie de bem ou estendê-la a bens estaduais e federais.",
+      "lei_referencia": "Lei 13.022/2014, art. 4º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "competência geral",
+        "bens de uso comum",
+        "uso especial",
+        "dominiais",
+        "art. 4º"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei nº 13.022/2014 fornecido no contexto"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "subtema": "Vedação a regulamentos disciplinares militares",
+      "frente": "As guardas municipais podem ficar sujeitas a regulamentos disciplinares de natureza militar, segundo a Lei nº 13.022/2014?",
+      "verso": "Não. O parágrafo único do art. 14 da Lei nº 13.022/2014 veda que as guardas municipais fiquem sujeitas a regulamentos disciplinares de natureza militar. Elas têm código de conduta próprio, conforme lei municipal (art. 14, caput).",
+      "fundamento_legal": "Lei nº 13.022/2014, art. 14 e parágrafo único",
+      "lei_referencia": "Lei 13.022/2014, art. 14",
+      "palavras_chave": [
+        "regulamento disciplinar militar",
+        "vedação",
+        "código de conduta",
+        "art. 14"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f02",
+      "subtema": "Utilização compartilhada por consórcio público",
+      "frente": "Como Municípios limítrofes podem utilizar reciprocamente os serviços da guarda municipal de forma compartilhada, conforme a Lei nº 13.022/2014?",
+      "verso": "Por meio de consórcio público. O art. 8º da Lei nº 13.022/2014 permite que Municípios limítrofes, mediante consórcio público, utilizem reciprocamente os serviços da guarda municipal de maneira compartilhada.",
+      "fundamento_legal": "Lei nº 13.022/2014, art. 8º",
+      "lei_referencia": "Lei 13.022/2014, art. 8º",
+      "palavras_chave": [
+        "Municípios limítrofes",
+        "consórcio público",
+        "uso compartilhado",
+        "art. 8º"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f03",
+      "subtema": "Recolhimento à cela antes de condenação definitiva",
+      "frente": "Que garantia a Lei nº 13.022/2014 assegura ao guarda municipal sujeito à prisão antes de condenação definitiva?",
+      "verso": "O recolhimento à cela, isoladamente dos demais presos, quando sujeito à prisão antes de condenação definitiva (art. 18 da Lei nº 13.022/2014).",
+      "fundamento_legal": "Lei nº 13.022/2014, art. 18",
+      "lei_referencia": "Lei 13.022/2014, art. 18",
+      "palavras_chave": [
+        "recolhimento à cela",
+        "isoladamente",
+        "condenação definitiva",
+        "art. 18"
+      ],
+      "cita_jurisprudencia": false
+    }
+  ]
+}

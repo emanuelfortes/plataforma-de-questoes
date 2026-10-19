@@ -1,0 +1,754 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Gerações ou dimensões",
+      "dificuldade": "facil",
+      "enunciado": "A teoria das gerações ou dimensões dos direitos humanos costuma associar cada grupo de direitos a um dos valores inscritos no lema da Revolução Francesa (liberdade, igualdade e fraternidade). Considerando essa classificação, os direitos de primeira geração ou dimensão estão ligados a qual desses valores?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "À liberdade, abrangendo os direitos civis e políticos que exigem uma abstenção do Estado."
+        },
+        {
+          "id": "a2",
+          "texto": "À igualdade, abrangendo os direitos sociais, econômicos e culturais que exigem prestações do Estado."
+        },
+        {
+          "id": "a3",
+          "texto": "À fraternidade, abrangendo os direitos de titularidade coletiva, como o direito ao meio ambiente."
+        },
+        {
+          "id": "a4",
+          "texto": "À solidariedade, abrangendo o direito ao desenvolvimento e à autodeterminação dos povos."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A classificação em gerações ou dimensões vincula cada grupo ao lema liberdade, igualdade e fraternidade. Os direitos de primeira geração ou dimensão são os direitos civis e políticos, ligados ao valor liberdade: marcam limites à atuação estatal e, em regra, exigem do Estado uma abstenção (um não fazer). A Constituição concentra boa parte deles no art. 5º, que trata, por exemplo, da vida, da liberdade de locomoção, de consciência, de crença e de manifestação do pensamento. As demais alternativas trocam os valores: igualdade é da segunda geração (direitos sociais), e fraternidade ou solidariedade é da terceira.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "A primeira geração ou dimensão reúne os direitos civis e políticos, ligados ao valor liberdade, que impõem ao Estado, em regra, um dever de abstenção. É o grupo em que se enquadra boa parte do rol do art. 5º da Constituição."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Direitos sociais, econômicos e culturais que exigem prestações estatais correspondem à segunda geração ou dimensão, ligada ao valor igualdade, não à primeira."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Direitos de titularidade coletiva, como o meio ambiente, pertencem à terceira geração ou dimensão, ligada à fraternidade, não à primeira."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Direito ao desenvolvimento e autodeterminação dos povos são exemplos de terceira geração ou dimensão, ligados à solidariedade; a autodeterminação, aliás, aparece como princípio das relações internacionais no art. 4º, III, da CF."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 5º (direitos individuais, ligados à liberdade); art. 4º, III (autodeterminação dos povos)",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar os valores do lema revolucionário entre as gerações, associando liberdade à igualdade ou à fraternidade.",
+      "lei_referencia": "CF/1988, art. 5º",
+      "macete_do_riccardo": "Liberdade, igualdade e fraternidade seguem a ordem 1ª, 2ª e 3ª gerações. Decore na sequência do lema francês.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "primeira geração",
+        "primeira dimensão",
+        "liberdade",
+        "direitos civis e políticos",
+        "abstenção do Estado"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, arts. 1º a 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Gerações ou dimensões",
+      "dificuldade": "facil",
+      "enunciado": "A doutrina classifica os direitos humanos de segunda geração ou dimensão como aqueles ligados ao valor igualdade, que em regra demandam uma atuação positiva do Estado. Qual grupo de direitos corresponde a essa segunda geração ou dimensão?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Os direitos sociais, econômicos e culturais, que exigem prestações positivas do Estado."
+        },
+        {
+          "id": "a2",
+          "texto": "Os direitos civis e políticos, que exigem a abstenção do Estado perante o indivíduo."
+        },
+        {
+          "id": "a3",
+          "texto": "Os direitos de titularidade difusa, como a paz e o meio ambiente equilibrado."
+        },
+        {
+          "id": "a4",
+          "texto": "Os direitos relativos ao patrimônio genético e à biotecnologia, ditos de quarta geração."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A segunda geração ou dimensão reúne os direitos sociais, econômicos e culturais, ligados ao valor igualdade. Diferentemente dos de primeira geração (que pedem abstenção), eles em regra exigem prestações positivas do Estado, voltadas a reduzir desigualdades. Essa lógica aparece já nos objetivos fundamentais da República (art. 3º da CF), como construir uma sociedade justa e solidária, erradicar a pobreza e reduzir as desigualdades sociais e regionais. As demais alternativas descrevem a primeira geração (civis e políticos), a terceira (difusos) ou gerações posteriores sugeridas por parte da doutrina.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Direitos sociais, econômicos e culturais, ligados à igualdade e às prestações positivas do Estado, são o núcleo da segunda geração ou dimensão."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Direitos civis e políticos, que pedem abstenção estatal, são de primeira geração ou dimensão, ligados à liberdade."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Direitos difusos, como paz e meio ambiente, são de terceira geração ou dimensão, ligados à fraternidade ou solidariedade."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Direitos ligados ao patrimônio genético e à biotecnologia são apontados por parte da doutrina como de gerações posteriores à segunda, não como seu conteúdo."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 3º (objetivos fundamentais: sociedade justa e solidária, erradicar a pobreza, reduzir desigualdades)",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Associar a segunda geração à abstenção do Estado, que é a marca da primeira geração.",
+      "lei_referencia": "CF/1988, art. 3º",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Primeira geração pede que o Estado não faça; segunda geração pede que o Estado faça (prestações positivas).",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "segunda geração",
+        "segunda dimensão",
+        "igualdade",
+        "direitos sociais",
+        "prestações positivas"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, arts. 1º a 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Gerações ou dimensões",
+      "dificuldade": "facil",
+      "enunciado": "Entre os princípios que regem a República Federativa do Brasil em suas relações internacionais, o art. 4º da Constituição prevê a autodeterminação dos povos. Essa previsão costuma ser citada pela doutrina como exemplo de direito de qual geração ou dimensão?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Terceira geração ou dimensão, ligada à fraternidade ou solidariedade e à titularidade coletiva dos povos."
+        },
+        {
+          "id": "a2",
+          "texto": "Primeira geração ou dimensão, ligada à liberdade e aos direitos civis e políticos de titularidade individual."
+        },
+        {
+          "id": "a3",
+          "texto": "Segunda geração ou dimensão, ligada à igualdade e aos direitos sociais prestacionais."
+        },
+        {
+          "id": "a4",
+          "texto": "Nenhuma geração, por ser princípio de política externa, e não um direito humano reconhecido."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A terceira geração ou dimensão abrange direitos de titularidade coletiva ou difusa, ligados ao valor fraternidade ou solidariedade. São exemplos clássicos o direito ao desenvolvimento, à paz, ao meio ambiente equilibrado e à autodeterminação dos povos. A Constituição consagra a autodeterminação dos povos como princípio das relações internacionais (art. 4º, III), e a doutrina a aponta como manifestação típica dessa terceira geração. As outras gerações têm por valores a liberdade (primeira) e a igualdade (segunda).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "A autodeterminação dos povos é um direito de titularidade coletiva, ligado à fraternidade ou solidariedade, características da terceira geração ou dimensão."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A primeira geração reúne direitos civis e políticos de titularidade individual, não direitos de titularidade coletiva como a autodeterminação dos povos."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A segunda geração reúne direitos sociais prestacionais ligados à igualdade, e não direitos coletivos ligados à solidariedade."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Embora conste do art. 4º como princípio das relações internacionais, a autodeterminação dos povos é tratada pela doutrina como direito de terceira geração, de modo que não deixa de ser classificada."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 4º, III (autodeterminação dos povos)",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Achar que, por estar entre os princípios de relações internacionais, a autodeterminação não se classifica em nenhuma geração.",
+      "lei_referencia": "CF/1988, art. 4º, III",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "terceira geração",
+        "terceira dimensão",
+        "fraternidade",
+        "autodeterminação dos povos",
+        "art. 4º III"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, arts. 1º a 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Gerações ou dimensões",
+      "dificuldade": "media",
+      "enunciado": "Parte expressiva da doutrina prefere a expressão dimensões dos direitos humanos à expressão gerações. Qual é a principal razão apontada para essa preferência terminológica?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A palavra gerações poderia sugerir que uma categoria substitui a anterior, quando os direitos se acumulam e se complementam."
+        },
+        {
+          "id": "a2",
+          "texto": "A palavra dimensões indica que apenas os direitos mais recentes têm aplicação imediata, ao passo que os antigos dependeriam de lei integradora, conforme o art. 5º, § 1º, da Constituição."
+        },
+        {
+          "id": "a3",
+          "texto": "A palavra gerações é considerada inconstitucional, pois a Constituição adota expressamente o termo dimensões no art. 5º."
+        },
+        {
+          "id": "a4",
+          "texto": "A palavra dimensões estabelece uma hierarquia entre os direitos, colocando os civis e políticos acima dos sociais."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A crítica mais conhecida é que falar em gerações pode passar a ideia de sucessão, como se uma categoria de direitos superasse ou substituísse a anterior. Na verdade, os direitos se somam ao longo do tempo: os de segunda e terceira geração não revogam os de primeira, mas os complementam. Por isso muitos autores preferem dimensões, que reforça a ideia de acúmulo e de indivisibilidade dos direitos humanos. A troca terminológica não cria hierarquia nem altera a aplicabilidade imediata das normas definidoras de direitos fundamentais (art. 5º, § 1º), que vale independentemente da geração.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "O termo gerações sugere sucessão e substituição; dimensões reforça que os direitos se acumulam e se complementam, sem que uma categoria apague a anterior. Essa é a razão central da preferência."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A aplicação imediata das normas definidoras de direitos fundamentais (art. 5º, § 1º) não se restringe a direitos recentes nem decorre da escolha do termo dimensões."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A Constituição não emprega os termos gerações ou dimensões no art. 5º nem declara o primeiro inconstitucional; a discussão é doutrinária, não textual."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A preferência por dimensões busca justamente afastar a ideia de hierarquia; não coloca os direitos civis e políticos acima dos sociais."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 5º, § 2º (os direitos não se excluem, mas se somam); art. 5º, § 1º (aplicação imediata)",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Imaginar que a Constituição usa literalmente o termo dimensões ou que a troca de palavra muda a aplicabilidade das normas.",
+      "lei_referencia": "CF/1988, art. 5º, § 2º",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Dimensões reforça acúmulo e indivisibilidade: direito novo soma, não apaga o anterior.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "dimensões",
+        "gerações",
+        "acúmulo de direitos",
+        "não substituição",
+        "indivisibilidade"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, arts. 1º a 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Gerações ou dimensões",
+      "dificuldade": "media",
+      "enunciado": "Um candidato classifica os direitos previstos na Constituição segundo a teoria das gerações ou dimensões. Entre os dispositivos abaixo, qual é tradicionalmente apontado como expressão de direito de primeira geração ou dimensão, ligado à liberdade?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A liberdade de manifestação do pensamento, vedado o anonimato, prevista no art. 5º, IV."
+        },
+        {
+          "id": "a2",
+          "texto": "A erradicação da pobreza e a redução das desigualdades sociais e regionais, previstas no art. 3º, III."
+        },
+        {
+          "id": "a3",
+          "texto": "A promoção do bem de todos, sem preconceitos e quaisquer formas de discriminação, prevista no art. 3º, IV."
+        },
+        {
+          "id": "a4",
+          "texto": "A construção de uma sociedade livre, justa e solidária, prevista no art. 3º, I, como objetivo da República."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Direitos de primeira geração ou dimensão são os civis e políticos, ligados à liberdade e que, em regra, exigem abstenção do Estado. A liberdade de manifestação do pensamento (art. 5º, IV) é exemplo clássico: é uma liberdade pública oponível ao Estado. Já os objetivos do art. 3º, como erradicar a pobreza, reduzir desigualdades, promover o bem de todos e construir uma sociedade justa e solidária, traduzem a lógica prestacional da segunda geração (igualdade) ou mesmo da solidariedade, e não da primeira.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "A liberdade de manifestação do pensamento (art. 5º, IV) é uma liberdade pública oponível ao Estado, exemplo típico de direito civil e político de primeira geração."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Erradicar a pobreza e reduzir desigualdades (art. 3º, III) exprime a lógica prestacional e igualitária da segunda geração, não a liberdade da primeira."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Promover o bem de todos sem discriminação (art. 3º, IV) é objetivo ligado à igualdade e à solidariedade, não um direito civil de primeira geração."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Construir uma sociedade livre, justa e solidária (art. 3º, I) é objetivo que remete à solidariedade e à igualdade, e não ao perfil de abstenção da primeira geração."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 5º, IV (manifestação do pensamento); art. 3º, I, III e IV (objetivos fundamentais)",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Classificar os objetivos do art. 3º (prestacionais e solidários) como direitos de primeira geração.",
+      "lei_referencia": "CF/1988, art. 5º, IV",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Objetivos do art. 3º (erradicar pobreza, reduzir desigualdades) não são direitos de primeira geração; são a lógica da segunda e da terceira.",
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "primeira geração",
+        "liberdade de pensamento",
+        "art. 5º IV",
+        "liberdade pública",
+        "abstenção"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, arts. 1º a 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Gerações ou dimensões",
+      "dificuldade": "media",
+      "enunciado": "A doutrina costuma relacionar os objetivos fundamentais da República, especialmente a construção de uma sociedade solidária prevista no art. 3º, I, da Constituição, ao valor que inspira uma determinada geração de direitos humanos. A solidariedade, nessa classificação, é o valor característico de qual geração ou dimensão?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Da terceira geração ou dimensão, que reúne direitos coletivos ou difusos ligados à fraternidade."
+        },
+        {
+          "id": "a2",
+          "texto": "Da primeira geração ou dimensão, que reúne os direitos civis e políticos ligados à abstenção estatal."
+        },
+        {
+          "id": "a3",
+          "texto": "Da segunda geração ou dimensão, que reúne os direitos sociais prestacionais ligados ao valor liberdade e à atuação negativa do Estado."
+        },
+        {
+          "id": "a4",
+          "texto": "De nenhuma geração, pois a solidariedade é dever moral e não serve de critério para classificar direitos."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A terceira geração ou dimensão é a dos direitos de fraternidade ou solidariedade, de titularidade coletiva ou difusa (meio ambiente, paz, desenvolvimento, autodeterminação dos povos). A Constituição incorpora esse valor ao fixar, entre os objetivos da República, a construção de uma sociedade solidária (art. 3º, I). Logo, a solidariedade é o valor típico da terceira geração. A alternativa que fala em segunda geração erra ao ligá-la à liberdade, quando o valor da segunda é a igualdade; e a solidariedade, longe de não classificar direitos, é justamente o critério da terceira geração.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Solidariedade ou fraternidade é o valor que inspira a terceira geração ou dimensão, marcada por direitos de titularidade coletiva ou difusa."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A primeira geração é ligada à liberdade e à abstenção estatal, não à solidariedade."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A segunda geração é ligada à igualdade, e não à liberdade como afirma a alternativa; a solidariedade tampouco é seu valor."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A solidariedade serve de critério classificatório: é exatamente o valor que identifica a terceira geração de direitos."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 3º, I (sociedade livre, justa e solidária)",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir os valores: ligar a segunda geração à liberdade e não à igualdade.",
+      "lei_referencia": "CF/1988, art. 3º, I",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "terceira geração",
+        "solidariedade",
+        "fraternidade",
+        "art. 3º I",
+        "titularidade coletiva"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, arts. 1º a 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Gerações ou dimensões",
+      "dificuldade": "media",
+      "enunciado": "Sobre a relação entre a teoria das gerações ou dimensões e as características dos direitos humanos, assinale a afirmação correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "As gerações descrevem o surgimento histórico dos direitos, mas eles se mantêm indivisíveis, pois os de uma geração não excluem os das outras."
+        },
+        {
+          "id": "a2",
+          "texto": "A existência de gerações afasta a indivisibilidade, já que os direitos de uma geração teriam sempre prioridade absoluta sobre os das demais, inclusive para fins de revogação recíproca."
+        },
+        {
+          "id": "a3",
+          "texto": "Os direitos de primeira geração perdem a vigência quando reconhecidos os de segunda, pois cada geração substitui a anterior."
+        },
+        {
+          "id": "a4",
+          "texto": "A ideia de gerações impede a abertura material do rol de direitos, que fica limitado aos expressamente previstos no art. 5º."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A teoria das gerações ou dimensões descreve a ordem histórica em que os direitos foram reconhecidos, mas não quebra a indivisibilidade: todos convivem e se complementam. A própria Constituição confirma essa abertura e esse acúmulo ao dizer que os direitos expressos não excluem outros decorrentes do regime, dos princípios ou dos tratados (art. 5º, § 2º). Por isso é errado afirmar que uma geração tem prioridade permanente, que os direitos anteriores perdem a vigência ou que as gerações impedem a ampliação do rol.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "As gerações indicam o surgimento histórico, mas os direitos permanecem indivisíveis e cumulativos, o que combina com a cláusula de não exclusão do art. 5º, § 2º."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A classificação em gerações não cria prioridade permanente de uma categoria sobre as outras nem afasta a indivisibilidade."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Os direitos de primeira geração não perdem vigência com o reconhecimento dos de segunda; eles se somam, não se substituem."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O rol de direitos é aberto: o art. 5º, § 2º, admite outros direitos além dos expressos, o que a teoria das gerações não impede."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 5º, § 2º (os direitos expressos não excluem outros)",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Tratar as gerações como substituição, concluindo que direitos antigos perdem vigência.",
+      "lei_referencia": "CF/1988, art. 5º, § 2º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Geração é ordem de surgimento, não ranking: nenhuma categoria revoga ou tem prioridade permanente sobre a outra.",
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "gerações",
+        "indivisibilidade",
+        "acúmulo",
+        "art. 5º § 2º",
+        "abertura material"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, arts. 1º a 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Gerações ou dimensões",
+      "dificuldade": "dificil",
+      "enunciado": "Em uma aula sobre a teoria das dimensões dos direitos humanos, discute-se a classificação do direito de propriedade (art. 5º, XXII) e de sua função social (art. 5º, XXIII). Considerando a doutrina majoritária e o texto constitucional fornecido, qual afirmação melhor descreve essa classificação?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O direito de propriedade é de primeira dimensão, por ser liberdade oponível ao Estado, mas a função social traz carga das dimensões de igualdade e solidariedade."
+        },
+        {
+          "id": "a2",
+          "texto": "Tanto a propriedade quanto a função social são de segunda dimensão, por serem direitos sociais prestacionais que dependem de atuação positiva do Estado para que o particular adquira a coisa."
+        },
+        {
+          "id": "a3",
+          "texto": "A propriedade é de terceira dimensão, por ser direito de titularidade coletiva e difusa ligado à solidariedade e à proteção do meio ambiente equilibrado."
+        },
+        {
+          "id": "a4",
+          "texto": "A função social da propriedade pertence à primeira dimensão, por impor ao Estado apenas o dever de não interferir na coisa do particular."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O direito de propriedade (art. 5º, XXII) nasce como liberdade clássica, oponível ao Estado, e por isso é situado na primeira dimensão. A exigência de que a propriedade atenda à sua função social (art. 5º, XXIII) introduz uma lógica diferente, ligada à igualdade e à solidariedade (dimensões posteriores), pois condiciona o uso do bem ao interesse coletivo. Daí dizer que a propriedade reúne faces de dimensões distintas. As demais alternativas erram ao enquadrar a propriedade inteira na segunda ou na terceira dimensão, ou ao reduzir a função social a um simples dever de abstenção estatal, quando ela, ao contrário, impõe deveres ao próprio titular.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "A propriedade é liberdade clássica de primeira dimensão, enquanto a função social (art. 5º, XXIII) agrega preocupações de igualdade e solidariedade, próprias de dimensões posteriores."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A propriedade não é, em sua origem, direito social prestacional de segunda dimensão; ela surge como liberdade de primeira dimensão."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A propriedade individual não é direito de titularidade coletiva nem se confunde com o direito ao meio ambiente da terceira dimensão."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A função social não é mera abstenção estatal: ela impõe deveres ao próprio titular, condicionando o uso do bem ao interesse coletivo."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 5º, XXII (direito de propriedade) e XXIII (função social da propriedade)",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Enquadrar a propriedade inteira em uma única dimensão, ignorando a carga social que a função social lhe acrescenta.",
+      "lei_referencia": "CF/1988, art. 5º, XXII e XXIII",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Função social da propriedade não é abstenção: impõe deveres ao dono, puxando a propriedade para a lógica de igualdade e solidariedade.",
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "direito de propriedade",
+        "função social",
+        "art. 5º XXII",
+        "art. 5º XXIII",
+        "dimensões"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, arts. 1º a 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Gerações ou dimensões",
+      "dificuldade": "dificil",
+      "enunciado": "Um examinador afirma que a ação popular do art. 5º, LXXIII, da Constituição, que permite ao cidadão anular ato lesivo ao meio ambiente e ao patrimônio histórico e cultural, serve de instrumento típico para a tutela de direitos de certa dimensão. A que dimensão de direitos humanos esse objeto de proteção se associa com mais propriedade?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "À terceira dimensão, pois meio ambiente e patrimônio cultural são bens de titularidade coletiva ou difusa, ligados à solidariedade."
+        },
+        {
+          "id": "a2",
+          "texto": "À primeira dimensão, pois se trata de direito individual de liberdade exercido isoladamente pelo cidadão contra o Estado, sem qualquer repercussão sobre a coletividade titular do bem."
+        },
+        {
+          "id": "a3",
+          "texto": "À segunda dimensão, pois meio ambiente e patrimônio cultural são prestações sociais devidas individualmente a cada pessoa."
+        },
+        {
+          "id": "a4",
+          "texto": "A nenhuma dimensão, pois a ação popular é garantia processual e seu objeto não integra o catálogo de direitos humanos."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Embora a ação popular seja proposta por um cidadão (titularidade processual individual), o que ela tutela são bens de titularidade coletiva ou difusa: patrimônio público, moralidade administrativa, meio ambiente e patrimônio histórico e cultural (art. 5º, LXXIII). Esses bens pertencem à coletividade e se ligam ao valor solidariedade, marca da terceira dimensão. A questão testa a distinção entre quem pode agir (um cidadão) e o que se protege (um bem difuso). Por isso é incorreto reduzir o objeto da ação a uma liberdade individual de primeira dimensão ou a uma prestação social devida individualmente.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Meio ambiente e patrimônio histórico e cultural são bens difusos, de titularidade coletiva, ligados à solidariedade, o que os situa na terceira dimensão, ainda que a ação seja proposta por um cidadão."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O objeto protegido não é liberdade individual de primeira dimensão: são bens que pertencem à coletividade, não ao cidadão isoladamente."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Meio ambiente e patrimônio cultural não são prestações sociais devidas individualmente, característica da segunda dimensão, mas bens difusos de titularidade coletiva."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A ação popular é garantia, mas seu objeto (meio ambiente, patrimônio cultural) integra os direitos de terceira dimensão; portanto a classificação existe."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 5º, LXXIII (ação popular: meio ambiente e patrimônio histórico e cultural)",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir a titularidade processual individual (o cidadão que propõe) com a titularidade material do bem protegido, que é coletiva.",
+      "lei_referencia": "CF/1988, art. 5º, LXXIII",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Quem propõe a ação popular é um cidadão; o que ela protege são bens difusos de terceira dimensão.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "ação popular",
+        "art. 5º LXXIII",
+        "terceira dimensão",
+        "meio ambiente",
+        "direitos difusos"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, arts. 1º a 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Gerações ou dimensões",
+      "dificuldade": "dificil",
+      "enunciado": "Ao estudar a teoria das dimensões, um candidato relaciona cada direito do art. 5º à dimensão em que a doutrina costuma situá-lo. Assinale a associação que está INCORRETA.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O direito à proteção dos dados pessoais, inclusive nos meios digitais (art. 5º, LXXIX), é classificado como direito de primeira dimensão, por representar liberdade clássica surgida no século XVIII."
+        },
+        {
+          "id": "a2",
+          "texto": "A inviolabilidade da intimidade, da vida privada, da honra e da imagem das pessoas (art. 5º, X) é tradicionalmente apontada como direito de primeira dimensão, ligado ao valor liberdade."
+        },
+        {
+          "id": "a3",
+          "texto": "O direito de reunir-se pacificamente, sem armas, em locais abertos ao público (art. 5º, XVI) é classificado como direito de primeira dimensão, por ser liberdade pública oponível ao Estado."
+        },
+        {
+          "id": "a4",
+          "texto": "O direito de petição aos Poderes Públicos em defesa de direitos ou contra ilegalidade ou abuso de poder (art. 5º, XXXIV, a) é classificado como direito de primeira dimensão, de perfil civil e político."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A questão pede a associação incorreta. O direito à proteção de dados pessoais (art. 5º, LXXIX) foi incluído pela Emenda Constitucional 115/2022, fruto dos desafios da era digital, e por isso a doutrina costuma situá-lo em dimensão mais recente (normalmente apontada como quarta ou mesmo posterior, ligada à tecnologia e à informação), e não como liberdade clássica surgida no século XVIII. As demais associações estão corretas: intimidade e vida privada (X), reunião pacífica (XVI) e direito de petição (XXXIV, a) são liberdades civis e políticas típicas da primeira dimensão.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "É a incorreta: o direito à proteção de dados (art. 5º, LXXIX) foi acrescentado pela EC 115/2022 e é ligado à era digital, não a uma liberdade clássica do século XVIII de primeira dimensão."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Correta: intimidade e vida privada (art. 5º, X) são liberdades civis, típicas da primeira dimensão."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Correta: o direito de reunião pacífica (art. 5º, XVI) é liberdade pública oponível ao Estado, de primeira dimensão."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Correta: o direito de petição (art. 5º, XXXIV, a) é direito civil e político, situado na primeira dimensão."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 5º, LXXIX (proteção de dados, incluído pela EC 115/2022); art. 5º, X, XVI e XXXIV, a",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "O art. 5º, LXXIX, foi incluído pela Emenda Constitucional 115/2022, o que explica sua associação a dimensão mais recente, ligada ao ambiente digital.",
+      "pegadinha": "Classificar o direito à proteção de dados pessoais, novo e ligado ao meio digital, como liberdade clássica de primeira dimensão.",
+      "lei_referencia": "CF/1988, art. 5º, LXXIX",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Direito à proteção de dados (art. 5º, LXXIX) é recente (EC 115/2022) e digital: não é liberdade clássica de primeira dimensão.",
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "proteção de dados",
+        "art. 5º LXXIX",
+        "EC 115/2022",
+        "dimensões",
+        "era digital"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, arts. 1º a 5º, fornecido no contexto"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "subtema": "Gerações ou dimensões",
+      "frente": "Quanto à conduta exigida do Estado, qual é a diferença básica entre os direitos de primeira geração e os de segunda geração?",
+      "verso": "Os de primeira geração (civis e políticos, ligados à liberdade) pedem, em regra, uma abstenção do Estado (um não fazer), como as liberdades do art. 5º da CF. Os de segunda geração (sociais, ligados à igualdade) pedem prestações positivas do Estado (um fazer), na linha dos objetivos do art. 3º, como erradicar a pobreza e reduzir desigualdades.",
+      "fundamento_legal": "CF/1988, art. 5º (liberdade); art. 3º (igualdade e solidariedade); art. 4º, III (autodeterminação)",
+      "lei_referencia": "CF/1988, arts. 3º, 4º e 5º",
+      "palavras_chave": [
+        "gerações",
+        "liberdade",
+        "igualdade",
+        "fraternidade",
+        "três dimensões"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f02",
+      "subtema": "Gerações ou dimensões",
+      "frente": "Por que parte da doutrina prefere falar em dimensões em vez de gerações dos direitos humanos?",
+      "verso": "Porque gerações sugere sucessão, como se uma categoria substituísse a anterior. Na verdade os direitos se acumulam e se complementam (são indivisíveis). A CF reforça esse acúmulo no art. 5º, § 2º, ao dizer que os direitos expressos não excluem outros decorrentes do regime, dos princípios ou dos tratados.",
+      "fundamento_legal": "CF/1988, art. 5º, § 2º",
+      "lei_referencia": "CF/1988, art. 5º, § 2º",
+      "palavras_chave": [
+        "dimensões",
+        "gerações",
+        "acúmulo",
+        "indivisibilidade",
+        "não substituição"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f03",
+      "subtema": "Gerações ou dimensões",
+      "frente": "Quais são exemplos típicos de direitos de terceira geração ou dimensão e qual valor os inspira?",
+      "verso": "São direitos de titularidade coletiva ou difusa, inspirados na fraternidade ou solidariedade: meio ambiente, paz, desenvolvimento e autodeterminação dos povos. Na CF, a autodeterminação dos povos aparece no art. 4º, III, e o valor solidariedade entre os objetivos da República (art. 3º, I: sociedade livre, justa e solidária).",
+      "fundamento_legal": "CF/1988, art. 4º, III; art. 3º, I",
+      "lei_referencia": "CF/1988, arts. 3º, I, e 4º, III",
+      "palavras_chave": [
+        "terceira geração",
+        "solidariedade",
+        "direitos difusos",
+        "autodeterminação dos povos",
+        "meio ambiente"
+      ],
+      "cita_jurisprudencia": false
+    }
+  ]
+}

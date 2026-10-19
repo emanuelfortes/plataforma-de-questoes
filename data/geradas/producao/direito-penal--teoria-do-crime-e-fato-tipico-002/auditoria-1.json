@@ -1,0 +1,164 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reproduz o art. 14, I (crime consumado: reúne todos os elementos da definição legal). Distratores corretamente errados (a2 tentativa, a3 atos preparatórios, a4 cogitação). Fundamento e comentário conferem com o texto fornecido."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 corresponde ao art. 14, II (tentativa). a2 descreve consumação, a3 desistência voluntária (art. 15) e a4 crime impossível (art. 17), todas corretamente erradas. Fundamento confere."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reproduz literalmente o art. 20, caput (erro de tipo exclui o dolo, mas permite punição por crime culposo se previsto em lei). Demais alternativas trocam o efeito pela culpabilidade ou ilicitude, corretamente erradas."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Caso de desistência voluntária (interrupção por vontade do próprio agente, sem causa externa). a1 aplica corretamente o art. 15 (responde só pelos atos já praticados). a2 usa a redução da tentativa, a3 e a4 afirmam isenção total ou consumação, erradas."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reproduz o art. 17 (crime impossível por ineficácia absoluta do meio ou absoluta impropriedade do objeto). a3 confunde inidoneidade relativa com absoluta e a2/a4 ignoram a não punição da tentativa; corretamente erradas."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 corresponde ao art. 18, I (dolo: quis o resultado ou assumiu o risco). a2 exclui indevidamente o dolo eventual, a3 e a4 classificam como culpa condutas que são dolo eventual; corretamente erradas."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reproduz o art. 18, parágrafo único (excepcionalidade da culpa; dolo é a regra). Demais alternativas invertem regra e exceção ou dispensam previsão expressa da culpa; corretamente erradas."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Estelionato é crime sem violência ou grave ameaça; reparação voluntária antes do recebimento da denúncia preenche o art. 16 (redução de um a dois terços). a1 correta; a2 (isenção), a3 (atos anteriores, que é art. 15) e a4 (marco na sentença) erradas."
+    },
+    {
+      "id": "q09",
+      "status": "REPROVADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": false,
+      "problemas": [
+        {
+          "tipo": "normativo",
+          "gravidade": "alta",
+          "descricao": "O enunciado narra que o agente, 'por erro de pontaria, atingindo pessoa diversa', o que é aberratio ictus (erro na execução, art. 73 do CP), e NÃO erro sobre a pessoa (art. 20, § 3º). Erro sobre a pessoa pressupõe confusão de identidade (acerta quem mirou, mas se enganou sobre quem era), não erro de mira. A questão rotula o instituto errado e, ainda, o art. 73 está fora do texto legal fornecido (arts. 13 a 25) e fora do foco do lote."
+        },
+        {
+          "tipo": "pedagogico",
+          "gravidade": "media",
+          "descricao": "Embora a regra abstrata de a1 (consideram-se as qualidades da vítima pretendida) coincida com a consequência do art. 20, § 3º, aplicá-la a um caso que é de erro na execução ensina um conceito equivocado ao aluno. A correção exige reescrever a premissa fática, não um ajuste pontual."
+        }
+      ],
+      "correcao_sugerida": null,
+      "justificativa": "A regra enunciada em a1 está correta para o art. 20, § 3º, mas o exemplo fático do enunciado descreve aberratio ictus (erro de pontaria, art. 73), não erro sobre a pessoa. Erro jurídico de classificação do instituto, sobre dispositivo fora do texto fornecido; reprovada para regeneração."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 distingue corretamente a origem da não consumação: tentativa (causa alheia, art. 14, II) x desistência voluntária (vontade do agente, art. 15). a2 iguala as origens, a3 inverte as consequências e a4 nega o início de execução; corretamente erradas."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Frente objetiva e de resposta única; verso correto conforme o art. 14, I, II e parágrafo único (consumado reúne todos os elementos; tentado não se consuma por causa alheia, pena reduzida de um a dois terços)."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Verso lista corretamente os requisitos e o efeito do arrependimento posterior do art. 16 (sem violência ou grave ameaça, reparação voluntária até o recebimento da denúncia ou queixa, redução de um a dois terços; causa de diminuição, não de isenção)."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Frente descreve o erro de tipo sem ambiguidade; verso correto conforme o art. 20, caput (exclui o dolo, admite punição culposa se evitável e prevista em lei; se inevitável, não responde)."
+    }
+  ]
+}

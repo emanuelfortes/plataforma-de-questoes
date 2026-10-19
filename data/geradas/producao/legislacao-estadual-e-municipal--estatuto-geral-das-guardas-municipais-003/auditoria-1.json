@@ -1,0 +1,159 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Patrulhamento preventivo (art. 3º, III) e uso progressivo da força (art. 3º, V) são de fato dois dos princípios mínimos. Os demais pares (repressão ao crime organizado, investigação criminal, fiscalização tributária) não constam do art. 3º. Gabarito a1 único e correto."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 17 determina que a Anatel destine linha telefônica de número 153 e faixa exclusiva de frequência de rádio, exatamente como a a1. Demais alternativas não têm previsão legal. Gabarito correto e fundamento confere."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "pedagogico",
+          "gravidade": "baixa",
+          "descricao": "A justificativa da alternativa a4 descreve termos que não constam dela ('Brigada, guarda armada local e destacamento urbano'), enquanto o texto da a4 é 'Brigada municipal, patrulha cívica e ronda urbana'. A conclusão (não está no rol do art. 22) continua correta, mas o comentário fica incoerente com a alternativa."
+        }
+      ],
+      "correcao_sugerida": "Na análise da a4, substituir 'Brigada, guarda armada local e destacamento urbano' pelos termos realmente usados na alternativa: 'Brigada municipal, patrulha cívica e ronda urbana não integram o rol de denominações do art. 22, parágrafo único'.",
+      "justificativa": "Gabarito a1 correto: guarda civil, guarda civil municipal e guarda metropolitana estão no art. 22, parágrafo único. Ressalva apenas por incoerência pontual na justificativa da a4, que cita termos diferentes dos da alternativa; correção textual simples."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 16, parágrafo único, prevê a suspensão do porte por restrição médica, decisão judicial ou justificativa do dirigente. A a1 (restrição médica) é hipótese expressa; as demais (conselho, ouvidoria, afastamento para capacitação) não são. Gabarito único e correto."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, XIV, prevê encaminhar o autor ao delegado e preservar o local do crime quando possível e sempre que necessário, exatamente a a1. Instaurar inquérito, colher depoimentos ou arbitrar fiança são atos de autoridade policial/judicial, estranhos à guarda. Gabarito correto."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reúne corretamente o art. 5º, XVIII (segurança escolar preventiva, zelando pelo entorno e com ações educativas) e o art. 5º, VII (proteção do patrimônio ecológico, histórico, cultural e ambiental com medidas educativas). As demais atribuem à guarda atos de ensino, tombamento ou licenciamento. Gabarito único e correto."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 13, § 1º, autoriza (faculta) o Poder Executivo municipal a criar órgão colegiado para controle social e monitorar metas da política de segurança, como diz a a1. A criação não é obrigatória, o órgão não substitui a corregedoria nem é de iniciativa da Câmara. Gabarito correto."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 combina o art. 12, § 2º (convênio Estado-Municípios com participação no conselho gestor) e o § 3º (vedação de ser o mesmo órgão das forças militares). As demais contrariam o § 3º, inventam exclusividade municipal ou dispensam o convênio. Gabarito único e correto."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Para Município com mais de 500.000 habitantes o limite é 0,2% (art. 7º, III) e o parágrafo único garante a preservação do efetivo existente, ajustado à variação nos termos de lei municipal. A a1 reflete os dois pontos; as demais erram no percentual ou na consequência da redução. Gabarito correto."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 4º, parágrafo único, esclarece que os bens abrangem os de uso comum, de uso especial e os dominiais, exatamente a a1. As demais restringem ou estendem indevidamente a competência geral. Gabarito único e correto."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso está correto: o art. 14, parágrafo único, veda que as guardas fiquem sujeitas a regulamentos disciplinares de natureza militar, e o caput prevê código de conduta próprio por lei municipal. Frente objetiva, resposta única e dispositivo citado."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 8º permite que Municípios limítrofes, mediante consórcio público, utilizem reciprocamente os serviços da guarda de maneira compartilhada. Verso fiel à lei, frente sem ambiguidade e dispositivo correto."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 18 assegura ao guarda municipal o recolhimento à cela, isoladamente dos demais presos, quando sujeito à prisão antes de condenação definitiva. Verso correto, frente objetiva com resposta única e dispositivo citado."
+    }
+  ]
+}

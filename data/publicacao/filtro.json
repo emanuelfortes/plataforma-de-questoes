@@ -1,0 +1,5302 @@
+[
+  {
+    "tipo": "questao",
+    "id": 1,
+    "lote": "piloto/crase-01/q01",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 2,
+    "lote": "piloto/crase-01/q02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 3,
+    "lote": "piloto/crase-01/q03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 4,
+    "lote": "piloto/crase-01/q04",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 5,
+    "lote": "piloto/crase-01/q06",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 6,
+    "lote": "piloto/crase-01/q07",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 7,
+    "lote": "piloto/crase-01/q08",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "tamanho da correta 75% da média das erradas (limite 80% a 125%)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 8,
+    "lote": "piloto/crase-01/q10",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 9,
+    "lote": "piloto/crase-02/q01",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 10,
+    "lote": "piloto/crase-02/q02",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "tamanho da correta 75% da média das erradas (limite 80% a 125%)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 11,
+    "lote": "piloto/crase-02/q03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 12,
+    "lote": "piloto/crase-02/q04",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 13,
+    "lote": "piloto/crase-02/q05",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 14,
+    "lote": "piloto/crase-02/q06",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 15,
+    "lote": "piloto/crase-02/q07",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 16,
+    "lote": "piloto/crase-02/q08",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 17,
+    "lote": "piloto/crase-03/q01",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 18,
+    "lote": "piloto/crase-03/q02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 19,
+    "lote": "piloto/crase-03/q03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 20,
+    "lote": "piloto/crase-03/q05",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 21,
+    "lote": "piloto/crase-03/q06",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 22,
+    "lote": "piloto/crase-03/q07",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 23,
+    "lote": "piloto/crase-03/q08",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 24,
+    "lote": "piloto/crase-03/q10",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 25,
+    "lote": "piloto/crase-04/q01",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 26,
+    "lote": "piloto/crase-04/q02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 27,
+    "lote": "piloto/crase-04/q03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 28,
+    "lote": "piloto/crase-04/q04",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 29,
+    "lote": "piloto/crase-04/q05",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 30,
+    "lote": "piloto/crase-04/q06",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 31,
+    "lote": "piloto/crase-04/q07",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "tamanho da correta 75% da média das erradas (limite 80% a 125%)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 32,
+    "lote": "piloto/crase-04/q08",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 33,
+    "lote": "piloto/crase-04/q09",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 34,
+    "lote": "piloto/crase-04/q10",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 35,
+    "lote": "piloto/direitos-01/q01",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "tamanho da correta 63% da média das erradas (limite 80% a 125%)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 36,
+    "lote": "piloto/direitos-01/q02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 37,
+    "lote": "piloto/direitos-01/q03",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "tamanho da correta 69% da média das erradas (limite 80% a 125%)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 38,
+    "lote": "piloto/direitos-01/q04",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "tamanho da correta 75% da média das erradas (limite 80% a 125%)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 39,
+    "lote": "piloto/direitos-01/q05",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 40,
+    "lote": "piloto/direitos-01/q06",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "tamanho da correta 69% da média das erradas (limite 80% a 125%)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 41,
+    "lote": "piloto/direitos-01/q07",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 42,
+    "lote": "piloto/direitos-01/q09",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 43,
+    "lote": "piloto/direitos-01/q10",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 44,
+    "lote": "piloto/direitos-02/q01",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "tamanho da correta 79% da média das erradas (limite 80% a 125%)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 45,
+    "lote": "piloto/direitos-02/q02",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "tamanho da correta 69% da média das erradas (limite 80% a 125%)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 46,
+    "lote": "piloto/direitos-02/q03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 47,
+    "lote": "piloto/direitos-02/q04",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 48,
+    "lote": "piloto/direitos-02/q05",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "tamanho da correta 72% da média das erradas (limite 80% a 125%)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 49,
+    "lote": "piloto/direitos-02/q06",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 50,
+    "lote": "piloto/direitos-02/q07",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "tamanho da correta 65% da média das erradas (limite 80% a 125%)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 51,
+    "lote": "piloto/direitos-02/q08",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 52,
+    "lote": "piloto/direitos-02/q09",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 53,
+    "lote": "piloto/direitos-02/q10",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 54,
+    "lote": "piloto/direitos-03/q01",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 55,
+    "lote": "piloto/direitos-03/q02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 56,
+    "lote": "piloto/direitos-03/q03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 57,
+    "lote": "piloto/direitos-03/q05",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 58,
+    "lote": "piloto/direitos-03/q06",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "tamanho da correta 78% da média das erradas (limite 80% a 125%)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 59,
+    "lote": "piloto/direitos-03/q07",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 60,
+    "lote": "piloto/direitos-03/q08",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 61,
+    "lote": "piloto/direitos-03/q09",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 62,
+    "lote": "piloto/direitos-03/q10",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 63,
+    "lote": "piloto/patrimonio-01/q01",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "tamanho da correta 49% da média das erradas (limite 80% a 125%)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 64,
+    "lote": "piloto/patrimonio-01/q02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 65,
+    "lote": "piloto/patrimonio-01/q03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 66,
+    "lote": "piloto/patrimonio-01/q04",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 67,
+    "lote": "piloto/patrimonio-01/q05",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "tamanho da correta 55% da média das erradas (limite 80% a 125%)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 68,
+    "lote": "piloto/patrimonio-01/q06",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 69,
+    "lote": "piloto/patrimonio-01/q07",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 70,
+    "lote": "piloto/patrimonio-01/q08",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 71,
+    "lote": "piloto/patrimonio-01/q09",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 72,
+    "lote": "piloto/patrimonio-02/q01",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 73,
+    "lote": "piloto/patrimonio-02/q02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 74,
+    "lote": "piloto/patrimonio-02/q03",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "tamanho da correta 54% da média das erradas (limite 80% a 125%)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 75,
+    "lote": "piloto/patrimonio-02/q04",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 76,
+    "lote": "piloto/patrimonio-02/q05",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "tamanho da correta 43% da média das erradas (limite 80% a 125%)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 77,
+    "lote": "piloto/patrimonio-02/q06",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 78,
+    "lote": "piloto/patrimonio-02/q08",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 79,
+    "lote": "piloto/patrimonio-02/q09",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "tamanho da correta 75% da média das erradas (limite 80% a 125%)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 80,
+    "lote": "piloto/patrimonio-02/q10",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "tamanho da correta 59% da média das erradas (limite 80% a 125%)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 81,
+    "lote": "piloto/patrimonio-03/q01",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 82,
+    "lote": "piloto/patrimonio-03/q02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 83,
+    "lote": "piloto/patrimonio-03/q03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 84,
+    "lote": "piloto/patrimonio-03/q04",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 85,
+    "lote": "piloto/patrimonio-03/q05",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 86,
+    "lote": "piloto/patrimonio-03/q06",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 87,
+    "lote": "piloto/patrimonio-03/q07",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 88,
+    "lote": "piloto/patrimonio-03/q08",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 89,
+    "lote": "piloto/patrimonio-03/q09",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 90,
+    "lote": "piloto/patrimonio-03/q10",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 91,
+    "lote": "piloto/inquerito-01/q01",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 92,
+    "lote": "piloto/inquerito-01/q02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 93,
+    "lote": "piloto/inquerito-01/q03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 94,
+    "lote": "piloto/inquerito-01/q04",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 95,
+    "lote": "piloto/inquerito-01/q05",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 96,
+    "lote": "piloto/inquerito-01/q06",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "tamanho da correta 51% da média das erradas (limite 80% a 125%)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 97,
+    "lote": "piloto/inquerito-01/q07",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 98,
+    "lote": "piloto/inquerito-01/q08",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 99,
+    "lote": "piloto/inquerito-01/q09",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 100,
+    "lote": "piloto/inquerito-01/q10",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 101,
+    "lote": "piloto/inquerito-02/q01",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "tamanho da correta 47% da média das erradas (limite 80% a 125%)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 102,
+    "lote": "piloto/inquerito-02/q02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 103,
+    "lote": "piloto/inquerito-02/q03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 104,
+    "lote": "piloto/inquerito-02/q05",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 105,
+    "lote": "piloto/inquerito-02/q06",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 106,
+    "lote": "piloto/inquerito-02/q07",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 107,
+    "lote": "piloto/inquerito-02/q08",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 108,
+    "lote": "piloto/inquerito-02/q09",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 109,
+    "lote": "piloto/inquerito-02/q10",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 110,
+    "lote": "piloto/inquerito-03/q01",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 111,
+    "lote": "piloto/inquerito-03/q02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 112,
+    "lote": "piloto/inquerito-03/q03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 113,
+    "lote": "piloto/inquerito-03/q04",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 114,
+    "lote": "piloto/inquerito-03/q05",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 115,
+    "lote": "piloto/inquerito-03/q06",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 116,
+    "lote": "piloto/inquerito-03/q07",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 117,
+    "lote": "piloto/inquerito-03/q08",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 118,
+    "lote": "piloto/inquerito-03/q09",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 119,
+    "lote": "piloto/inquerito-03/q10",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 120,
+    "lote": "piloto/drogas-01/q01",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 121,
+    "lote": "piloto/drogas-01/q02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 122,
+    "lote": "piloto/drogas-01/q03",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "tamanho da correta 76% da média das erradas (limite 80% a 125%)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 123,
+    "lote": "piloto/drogas-01/q04",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 124,
+    "lote": "piloto/drogas-01/q05",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 125,
+    "lote": "piloto/drogas-01/q06",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 126,
+    "lote": "piloto/drogas-01/q08",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 127,
+    "lote": "piloto/drogas-01/q09",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 128,
+    "lote": "piloto/drogas-01/q10",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "cobra dispositivo com \"Vide ADI/ADC\" sem nota sobre o STF: lei-11343-2006 art. 48 (p3)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 129,
+    "lote": "piloto/drogas-02/q01",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 130,
+    "lote": "piloto/drogas-02/q02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 131,
+    "lote": "piloto/drogas-02/q03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 132,
+    "lote": "piloto/drogas-02/q04",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 133,
+    "lote": "piloto/drogas-02/q05",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "cobra dispositivo com \"Vide ADI/ADC\" sem nota sobre o STF: lei-11343-2006 art. 33 (p2), lei-11343-2006 art. 33"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 134,
+    "lote": "piloto/drogas-02/q06",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 135,
+    "lote": "piloto/drogas-02/q07",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "cobra dispositivo com \"Vide ADI/ADC\" sem nota sobre o STF: lei-11343-2006 art. 33 (p2)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 136,
+    "lote": "piloto/drogas-02/q08",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 137,
+    "lote": "piloto/drogas-02/q09",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 138,
+    "lote": "piloto/drogas-02/q10",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 139,
+    "lote": "piloto/drogas-03/q02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 140,
+    "lote": "piloto/drogas-03/q03",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "tamanho da correta 48% da média das erradas (limite 80% a 125%)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 141,
+    "lote": "piloto/drogas-03/q04",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "cobra dispositivo com \"Vide ADI/ADC\" sem nota sobre o STF: cf88 art. 39, cf88 art. 39 (pu)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 142,
+    "lote": "piloto/drogas-03/q05",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 143,
+    "lote": "piloto/drogas-03/q06",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 144,
+    "lote": "piloto/drogas-03/q07",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 145,
+    "lote": "piloto/drogas-03/q08",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 146,
+    "lote": "piloto/drogas-03/q09",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 147,
+    "lote": "piloto/crase-01/q05",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 148,
+    "lote": "piloto/crase-01/q09",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 149,
+    "lote": "piloto/crase-02/q09",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 150,
+    "lote": "piloto/crase-02/q10",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 151,
+    "lote": "piloto/crase-03/q04",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 152,
+    "lote": "piloto/crase-03/q09",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 153,
+    "lote": "piloto/direitos-01/q08",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 154,
+    "lote": "piloto/direitos-03/q04",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 155,
+    "lote": "piloto/patrimonio-01/q10",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 156,
+    "lote": "piloto/patrimonio-02/q07",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 157,
+    "lote": "piloto/drogas-01/q07",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 158,
+    "lote": "piloto/drogas-03/q01",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "cobra dispositivo com \"Vide ADI/ADC\" sem nota sobre o STF: cf88 art. 39"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 159,
+    "lote": "piloto/drogas-03/q10",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 160,
+    "lote": "piloto/direitos-04/q01",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 161,
+    "lote": "piloto/direitos-04/q02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 162,
+    "lote": "piloto/direitos-04/q03",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "tamanho da correta 56% da média das erradas (limite 80% a 125%)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 163,
+    "lote": "piloto/direitos-04/q05",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 164,
+    "lote": "piloto/direitos-04/q06",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 165,
+    "lote": "piloto/direitos-04/q07",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "cobra dispositivo com \"Vide ADI/ADC\" sem nota sobre o STF: cf88 art. 5 (p3)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 166,
+    "lote": "piloto/direitos-04/q08",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 167,
+    "lote": "piloto/direitos-04/q09",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "cobra dispositivo com \"Vide ADI/ADC\" sem nota sobre o STF: cf88 art. 5"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 168,
+    "lote": "piloto/direitos-04/q10",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 169,
+    "lote": "piloto/patrimonio-04/q01",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 170,
+    "lote": "piloto/patrimonio-04/q02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 171,
+    "lote": "piloto/patrimonio-04/q03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 172,
+    "lote": "piloto/patrimonio-04/q04",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 173,
+    "lote": "piloto/patrimonio-04/q05",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 174,
+    "lote": "piloto/patrimonio-04/q06",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 175,
+    "lote": "piloto/patrimonio-04/q07",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 176,
+    "lote": "piloto/patrimonio-04/q08",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 177,
+    "lote": "piloto/patrimonio-04/q10",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 178,
+    "lote": "piloto/inquerito-04/q01",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 179,
+    "lote": "piloto/inquerito-04/q02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 180,
+    "lote": "piloto/inquerito-04/q03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 181,
+    "lote": "piloto/inquerito-04/q04",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "tamanho da correta 79% da média das erradas (limite 80% a 125%)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 182,
+    "lote": "piloto/inquerito-04/q06",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 183,
+    "lote": "piloto/inquerito-04/q07",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 184,
+    "lote": "piloto/inquerito-04/q08",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 185,
+    "lote": "piloto/drogas-04/q02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 186,
+    "lote": "piloto/drogas-04/q05",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 187,
+    "lote": "piloto/drogas-04/q06",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "tamanho da correta 53% da média das erradas (limite 80% a 125%)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 188,
+    "lote": "piloto/drogas-04/q07",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 189,
+    "lote": "piloto/drogas-04/q08",
+    "status": "pendente_revisao",
+    "sobe": false,
+    "motivos": [
+      "cobra dispositivo com \"Vide ADI/ADC\" sem nota sobre o STF: cf88 art. 39 (pu), cf88 art. 39"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 190,
+    "lote": "piloto/drogas-04/q09",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 191,
+    "lote": "piloto/drogas-04/q10",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 192,
+    "lote": "piloto/direitos-04/q04",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 193,
+    "lote": "piloto/patrimonio-04/q09",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 194,
+    "lote": "piloto/inquerito-04/q05",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 195,
+    "lote": "piloto/inquerito-04/q10",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 196,
+    "lote": "producao/direito-administrativo--atos-administrativos-001/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 197,
+    "lote": "producao/direito-administrativo--atos-administrativos-001/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 198,
+    "lote": "producao/direito-administrativo--atos-administrativos-001/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 199,
+    "lote": "producao/direito-administrativo--atos-administrativos-001/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 200,
+    "lote": "producao/direito-administrativo--atos-administrativos-001/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 201,
+    "lote": "producao/direito-administrativo--atos-administrativos-001/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 202,
+    "lote": "producao/direito-administrativo--atos-administrativos-001/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 203,
+    "lote": "producao/direito-administrativo--atos-administrativos-001/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 204,
+    "lote": "producao/direito-administrativo--atos-administrativos-001/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 205,
+    "lote": "producao/direito-administrativo--atos-administrativos-001/q10",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 206,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-001/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 207,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-001/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 208,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-001/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 209,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-001/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 210,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-001/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 211,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-001/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 212,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-001/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 213,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-001/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 214,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-001/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 215,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-001/q10",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 216,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-001/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 217,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-001/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 218,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-001/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 219,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-001/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 220,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-001/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 221,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-001/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 222,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-001/q08",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 223,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-001/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 224,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-001/q10",
+    "status": "aprovada",
+    "sobe": false,
+    "motivos": [
+      "cobra dispositivo com \"Vide ADI/ADC\" sem nota sobre o STF: cf88 art. 5"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 225,
+    "lote": "producao/direito-processual-penal--inquerito-policial-001/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 226,
+    "lote": "producao/direito-processual-penal--inquerito-policial-001/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 227,
+    "lote": "producao/direito-processual-penal--inquerito-policial-001/q03",
+    "status": "aprovada",
+    "sobe": false,
+    "motivos": [
+      "cobra dispositivo com \"Vide ADI/ADC\" sem nota sobre o STF: lei-12830-2013 art. 2"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 228,
+    "lote": "producao/direito-processual-penal--inquerito-policial-001/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 229,
+    "lote": "producao/direito-processual-penal--inquerito-policial-001/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 230,
+    "lote": "producao/direito-processual-penal--inquerito-policial-001/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 231,
+    "lote": "producao/direito-processual-penal--inquerito-policial-001/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 232,
+    "lote": "producao/direito-processual-penal--inquerito-policial-001/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 233,
+    "lote": "producao/direito-processual-penal--inquerito-policial-001/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 234,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-001/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 235,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-001/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 236,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-001/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 237,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-001/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 238,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-001/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 239,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-001/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 240,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-001/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 241,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-001/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 242,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-001/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 243,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-001/q10",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 244,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-001/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 245,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-001/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 246,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-001/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 247,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-001/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 248,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-001/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 249,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-001/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 250,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-001/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 251,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-001/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 252,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-001/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 253,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-001/q10",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 254,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-001/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 255,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-001/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 256,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-001/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 257,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-001/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 258,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-001/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 259,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-001/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 260,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-001/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 261,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-001/q08",
+    "status": "aprovada",
+    "sobe": false,
+    "motivos": [
+      "cobra dispositivo com \"Vide ADI/ADC\" sem nota sobre o STF: cf88 art. 5 (p3)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 262,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-001/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 263,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-001/q10",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 264,
+    "lote": "producao/direito-penal--teoria-do-crime-e-fato-tipico-001/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 265,
+    "lote": "producao/direito-penal--teoria-do-crime-e-fato-tipico-001/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 266,
+    "lote": "producao/direito-penal--teoria-do-crime-e-fato-tipico-001/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 267,
+    "lote": "producao/direito-penal--teoria-do-crime-e-fato-tipico-001/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 268,
+    "lote": "producao/direito-penal--teoria-do-crime-e-fato-tipico-001/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 269,
+    "lote": "producao/direito-penal--teoria-do-crime-e-fato-tipico-001/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 270,
+    "lote": "producao/direito-penal--teoria-do-crime-e-fato-tipico-001/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 271,
+    "lote": "producao/direito-penal--teoria-do-crime-e-fato-tipico-001/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 272,
+    "lote": "producao/direito-penal--teoria-do-crime-e-fato-tipico-001/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 273,
+    "lote": "producao/direito-penal--teoria-do-crime-e-fato-tipico-001/q10",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 274,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-001/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 275,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-001/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 276,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-001/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 277,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-001/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 278,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-001/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 279,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-001/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 280,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-001/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 281,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-001/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 282,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-001/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 283,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-001/q10",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 284,
+    "lote": "producao/direito-penal-militar--crime-militar-conceito-e-classificacao-001/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 285,
+    "lote": "producao/direito-penal-militar--crime-militar-conceito-e-classificacao-001/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 286,
+    "lote": "producao/direito-penal-militar--crime-militar-conceito-e-classificacao-001/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 287,
+    "lote": "producao/direito-penal-militar--crime-militar-conceito-e-classificacao-001/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 288,
+    "lote": "producao/direito-penal-militar--crime-militar-conceito-e-classificacao-001/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 289,
+    "lote": "producao/direito-penal-militar--crime-militar-conceito-e-classificacao-001/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 290,
+    "lote": "producao/direito-penal-militar--crime-militar-conceito-e-classificacao-001/q07",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 291,
+    "lote": "producao/direito-penal-militar--crime-militar-conceito-e-classificacao-001/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 292,
+    "lote": "producao/direito-penal-militar--crime-militar-conceito-e-classificacao-001/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 293,
+    "lote": "producao/direito-penal-militar--crime-militar-conceito-e-classificacao-001/q10",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 294,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-001/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 295,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-001/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 296,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-001/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 297,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-001/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 298,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-001/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 299,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-001/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 300,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-001/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 301,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-001/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 302,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-001/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 303,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-001/q10",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 304,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-001/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 305,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-001/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 306,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-001/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 307,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-001/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 308,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-001/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 309,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-001/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 310,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-001/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 311,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-001/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 312,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-001/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 313,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-001/q10",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 314,
+    "lote": "producao/administracao-publica-e-etica--organizacoes-formais-e-estrutura-organizacional-001/q01",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 315,
+    "lote": "producao/administracao-publica-e-etica--organizacoes-formais-e-estrutura-organizacional-001/q02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 316,
+    "lote": "producao/administracao-publica-e-etica--organizacoes-formais-e-estrutura-organizacional-001/q03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 317,
+    "lote": "producao/administracao-publica-e-etica--organizacoes-formais-e-estrutura-organizacional-001/q04",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 318,
+    "lote": "producao/administracao-publica-e-etica--organizacoes-formais-e-estrutura-organizacional-001/q05",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 319,
+    "lote": "producao/administracao-publica-e-etica--organizacoes-formais-e-estrutura-organizacional-001/q06",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 320,
+    "lote": "producao/administracao-publica-e-etica--organizacoes-formais-e-estrutura-organizacional-001/q07",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 321,
+    "lote": "producao/administracao-publica-e-etica--organizacoes-formais-e-estrutura-organizacional-001/q08",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 322,
+    "lote": "producao/administracao-publica-e-etica--organizacoes-formais-e-estrutura-organizacional-001/q09",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 323,
+    "lote": "producao/administracao-publica-e-etica--organizacoes-formais-e-estrutura-organizacional-001/q10",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 324,
+    "lote": "producao/seguranca-publica--seguranca-publica-e-direitos-humanos-001/q01",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 325,
+    "lote": "producao/seguranca-publica--seguranca-publica-e-direitos-humanos-001/q02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 326,
+    "lote": "producao/seguranca-publica--seguranca-publica-e-direitos-humanos-001/q03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 327,
+    "lote": "producao/seguranca-publica--seguranca-publica-e-direitos-humanos-001/q04",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 328,
+    "lote": "producao/seguranca-publica--seguranca-publica-e-direitos-humanos-001/q05",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 329,
+    "lote": "producao/seguranca-publica--seguranca-publica-e-direitos-humanos-001/q06",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 330,
+    "lote": "producao/seguranca-publica--seguranca-publica-e-direitos-humanos-001/q07",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 331,
+    "lote": "producao/seguranca-publica--seguranca-publica-e-direitos-humanos-001/q08",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 332,
+    "lote": "producao/seguranca-publica--seguranca-publica-e-direitos-humanos-001/q09",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 333,
+    "lote": "producao/seguranca-publica--seguranca-publica-e-direitos-humanos-001/q10",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 334,
+    "lote": "producao/direito-administrativo--atos-administrativos-002/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 335,
+    "lote": "producao/direito-administrativo--atos-administrativos-002/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 336,
+    "lote": "producao/direito-administrativo--atos-administrativos-002/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 337,
+    "lote": "producao/direito-administrativo--atos-administrativos-002/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 338,
+    "lote": "producao/direito-administrativo--atos-administrativos-002/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 339,
+    "lote": "producao/direito-administrativo--atos-administrativos-002/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 340,
+    "lote": "producao/direito-administrativo--atos-administrativos-002/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 341,
+    "lote": "producao/direito-administrativo--atos-administrativos-002/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 342,
+    "lote": "producao/direito-administrativo--atos-administrativos-002/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 343,
+    "lote": "producao/direito-administrativo--atos-administrativos-002/q10",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 344,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-002/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 345,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-002/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 346,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-002/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 347,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-002/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 348,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-002/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 349,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-002/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 350,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-002/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 351,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-002/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 352,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-002/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 353,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-002/q10",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 354,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-002/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 355,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-002/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 356,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-002/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 357,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-002/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 358,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-002/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 359,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-002/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 360,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-002/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 361,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-002/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 362,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-002/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 363,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-002/q10",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 364,
+    "lote": "producao/direito-processual-penal--inquerito-policial-002/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 365,
+    "lote": "producao/direito-processual-penal--inquerito-policial-002/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 366,
+    "lote": "producao/direito-processual-penal--inquerito-policial-002/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 367,
+    "lote": "producao/direito-processual-penal--inquerito-policial-002/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 368,
+    "lote": "producao/direito-processual-penal--inquerito-policial-002/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 369,
+    "lote": "producao/direito-processual-penal--inquerito-policial-002/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 370,
+    "lote": "producao/direito-processual-penal--inquerito-policial-002/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 371,
+    "lote": "producao/direito-processual-penal--inquerito-policial-002/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 372,
+    "lote": "producao/direito-processual-penal--inquerito-policial-002/q10",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 373,
+    "lote": "producao/informatica--seguranca-da-informacao-001/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 374,
+    "lote": "producao/informatica--seguranca-da-informacao-001/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 375,
+    "lote": "producao/informatica--seguranca-da-informacao-001/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 376,
+    "lote": "producao/informatica--seguranca-da-informacao-001/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 377,
+    "lote": "producao/informatica--seguranca-da-informacao-001/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 378,
+    "lote": "producao/informatica--seguranca-da-informacao-001/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 379,
+    "lote": "producao/informatica--seguranca-da-informacao-001/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 380,
+    "lote": "producao/informatica--seguranca-da-informacao-001/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 381,
+    "lote": "producao/informatica--seguranca-da-informacao-001/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 382,
+    "lote": "producao/informatica--seguranca-da-informacao-001/q10",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 383,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-002/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 384,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-002/q02",
+    "status": "aprovada",
+    "sobe": false,
+    "motivos": [
+      "cobra dispositivo com \"Vide ADI/ADC\" sem nota sobre o STF: lei-11343-2006 art. 33"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 385,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-002/q03",
+    "status": "aprovada",
+    "sobe": false,
+    "motivos": [
+      "cobra dispositivo com \"Vide ADI/ADC\" sem nota sobre o STF: cf88 art. 39"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 386,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-002/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 387,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-002/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 388,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-002/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 389,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-002/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 390,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-002/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 391,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-002/q09",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 392,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-002/q10",
+    "status": "aprovada",
+    "sobe": false,
+    "motivos": [
+      "cobra dispositivo com \"Vide ADI/ADC\" sem nota sobre o STF: lei-11343-2006 art. 33, lei-11343-2006 art. 33 (p2)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 393,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-002/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 394,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-002/q02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 395,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-002/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 396,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-002/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 397,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-002/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 398,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-002/q06",
+    "status": "aprovada",
+    "sobe": false,
+    "motivos": [
+      "cobra dispositivo com \"Vide ADI/ADC\" sem nota sobre o STF: cf88 art. 5, cf88 art. 5 (p3)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 399,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-002/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 400,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-002/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 401,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-002/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 402,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-002/q10",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 403,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-002/q01",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 404,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-002/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 405,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-002/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 406,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-002/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 407,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-002/q05",
+    "status": "aprovada",
+    "sobe": false,
+    "motivos": [
+      "cobra dispositivo com \"Vide ADI/ADC\" sem nota sobre o STF: lei-13022-2014 art. 4 (pu)"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 408,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-002/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 409,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-002/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 410,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-002/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 411,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-002/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 412,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-002/q10",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 413,
+    "lote": "producao/direito-penal-militar--crime-militar-conceito-e-classificacao-002/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 414,
+    "lote": "producao/direito-penal-militar--crime-militar-conceito-e-classificacao-002/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 415,
+    "lote": "producao/direito-penal-militar--crime-militar-conceito-e-classificacao-002/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 416,
+    "lote": "producao/direito-penal-militar--crime-militar-conceito-e-classificacao-002/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 417,
+    "lote": "producao/direito-penal-militar--crime-militar-conceito-e-classificacao-002/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 418,
+    "lote": "producao/direito-penal-militar--crime-militar-conceito-e-classificacao-002/q10",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 419,
+    "lote": "producao/direito-penal--crimes-contra-a-pessoa-001/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 420,
+    "lote": "producao/direito-penal--crimes-contra-a-pessoa-001/q02",
+    "status": "aprovada",
+    "sobe": false,
+    "motivos": [
+      "cobra dispositivo com \"Vide ADI/ADC\" sem nota sobre o STF: cp art. 124"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 421,
+    "lote": "producao/direito-penal--crimes-contra-a-pessoa-001/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 422,
+    "lote": "producao/direito-penal--crimes-contra-a-pessoa-001/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 423,
+    "lote": "producao/direito-penal--crimes-contra-a-pessoa-001/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 424,
+    "lote": "producao/direito-penal--crimes-contra-a-pessoa-001/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 425,
+    "lote": "producao/direito-penal--crimes-contra-a-pessoa-001/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 426,
+    "lote": "producao/direito-penal--crimes-contra-a-pessoa-001/q09",
+    "status": "aprovada",
+    "sobe": false,
+    "motivos": [
+      "cobra dispositivo com \"Vide ADI/ADC\" sem nota sobre o STF: cp art. 126"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 427,
+    "lote": "producao/direito-penal--crimes-contra-a-pessoa-001/q10",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 428,
+    "lote": "producao/direito-penal--crimes-contra-a-pessoa-001/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 429,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-002/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 430,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-002/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 431,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-002/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 432,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-002/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 433,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-002/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 434,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-002/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 435,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-002/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 436,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-002/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 437,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-002/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 438,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-002/q10",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 439,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-002/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 440,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-002/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 441,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-002/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 442,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-002/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 443,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-002/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 444,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-002/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 445,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-002/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 446,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-002/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 447,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-002/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 448,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-002/q10",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 449,
+    "lote": "producao/administracao-publica-e-etica--processo-organizacional-001/q01",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 450,
+    "lote": "producao/administracao-publica-e-etica--processo-organizacional-001/q02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 451,
+    "lote": "producao/administracao-publica-e-etica--processo-organizacional-001/q03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 452,
+    "lote": "producao/administracao-publica-e-etica--processo-organizacional-001/q04",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 453,
+    "lote": "producao/administracao-publica-e-etica--processo-organizacional-001/q05",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 454,
+    "lote": "producao/administracao-publica-e-etica--processo-organizacional-001/q06",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 455,
+    "lote": "producao/administracao-publica-e-etica--processo-organizacional-001/q07",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 456,
+    "lote": "producao/administracao-publica-e-etica--processo-organizacional-001/q08",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 457,
+    "lote": "producao/administracao-publica-e-etica--processo-organizacional-001/q09",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 458,
+    "lote": "producao/administracao-publica-e-etica--processo-organizacional-001/q10",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 459,
+    "lote": "producao/seguranca-publica--instituicoes-de-seguranca-publica-e-sistema-prisional-001/q01",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 460,
+    "lote": "producao/seguranca-publica--instituicoes-de-seguranca-publica-e-sistema-prisional-001/q02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 461,
+    "lote": "producao/seguranca-publica--instituicoes-de-seguranca-publica-e-sistema-prisional-001/q03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 462,
+    "lote": "producao/seguranca-publica--instituicoes-de-seguranca-publica-e-sistema-prisional-001/q04",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 463,
+    "lote": "producao/seguranca-publica--instituicoes-de-seguranca-publica-e-sistema-prisional-001/q05",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 464,
+    "lote": "producao/seguranca-publica--instituicoes-de-seguranca-publica-e-sistema-prisional-001/q06",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 465,
+    "lote": "producao/seguranca-publica--instituicoes-de-seguranca-publica-e-sistema-prisional-001/q07",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 466,
+    "lote": "producao/seguranca-publica--instituicoes-de-seguranca-publica-e-sistema-prisional-001/q08",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 467,
+    "lote": "producao/seguranca-publica--instituicoes-de-seguranca-publica-e-sistema-prisional-001/q09",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 468,
+    "lote": "producao/seguranca-publica--instituicoes-de-seguranca-publica-e-sistema-prisional-001/q10",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 469,
+    "lote": "producao/direito-administrativo--atos-administrativos-003/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 470,
+    "lote": "producao/direito-administrativo--atos-administrativos-003/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 471,
+    "lote": "producao/direito-administrativo--atos-administrativos-003/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 472,
+    "lote": "producao/direito-administrativo--atos-administrativos-003/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 473,
+    "lote": "producao/direito-administrativo--atos-administrativos-003/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 474,
+    "lote": "producao/direito-administrativo--atos-administrativos-003/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 475,
+    "lote": "producao/direito-administrativo--atos-administrativos-003/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 476,
+    "lote": "producao/direito-administrativo--atos-administrativos-003/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 477,
+    "lote": "producao/direito-administrativo--atos-administrativos-003/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 478,
+    "lote": "producao/direito-administrativo--atos-administrativos-003/q10",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 479,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-003/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 480,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-003/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 481,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-003/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 482,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-003/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 483,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-003/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 484,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-003/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 485,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-003/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 486,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-003/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 487,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-003/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 488,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-003/q10",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 489,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-003/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 490,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-003/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 491,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-003/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 492,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-003/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 493,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-003/q05",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 494,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-003/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 495,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-003/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 496,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-003/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 497,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-003/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 498,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-003/q10",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 499,
+    "lote": "producao/legislacao-penal-especial--estatuto-do-desarmamento-001/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 500,
+    "lote": "producao/legislacao-penal-especial--estatuto-do-desarmamento-001/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 501,
+    "lote": "producao/legislacao-penal-especial--estatuto-do-desarmamento-001/q03",
+    "status": "aprovada",
+    "sobe": false,
+    "motivos": [
+      "cobra dispositivo com \"Vide ADI/ADC\" sem nota sobre o STF: lei-10826-2003 art. 14, lei-10826-2003 art. 14 (pu), lei-10826-2003 art. 21"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 502,
+    "lote": "producao/legislacao-penal-especial--estatuto-do-desarmamento-001/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 503,
+    "lote": "producao/legislacao-penal-especial--estatuto-do-desarmamento-001/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 504,
+    "lote": "producao/legislacao-penal-especial--estatuto-do-desarmamento-001/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 505,
+    "lote": "producao/legislacao-penal-especial--estatuto-do-desarmamento-001/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 506,
+    "lote": "producao/legislacao-penal-especial--estatuto-do-desarmamento-001/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 507,
+    "lote": "producao/legislacao-penal-especial--estatuto-do-desarmamento-001/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 508,
+    "lote": "producao/legislacao-penal-especial--estatuto-do-desarmamento-001/q10",
+    "status": "aprovada",
+    "sobe": false,
+    "motivos": [
+      "cobra dispositivo com \"Vide ADI/ADC\" sem nota sobre o STF: lei-10826-2003 art. 21"
+    ]
+  },
+  {
+    "tipo": "questao",
+    "id": 509,
+    "lote": "producao/direito-processual-penal--inquerito-policial-003/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 510,
+    "lote": "producao/direito-processual-penal--inquerito-policial-003/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 511,
+    "lote": "producao/direito-processual-penal--inquerito-policial-003/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 512,
+    "lote": "producao/direito-processual-penal--inquerito-policial-003/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 513,
+    "lote": "producao/direito-processual-penal--inquerito-policial-003/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 514,
+    "lote": "producao/direito-processual-penal--inquerito-policial-003/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 515,
+    "lote": "producao/direito-processual-penal--inquerito-policial-003/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 516,
+    "lote": "producao/direito-processual-penal--inquerito-policial-003/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 517,
+    "lote": "producao/direito-processual-penal--inquerito-policial-003/q10",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 518,
+    "lote": "producao/direito-administrativo--atos-administrativos-004/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 519,
+    "lote": "producao/direito-administrativo--atos-administrativos-004/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 520,
+    "lote": "producao/direito-administrativo--atos-administrativos-004/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 521,
+    "lote": "producao/direito-administrativo--atos-administrativos-004/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 522,
+    "lote": "producao/direito-administrativo--atos-administrativos-004/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 523,
+    "lote": "producao/direito-administrativo--atos-administrativos-004/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 524,
+    "lote": "producao/direito-administrativo--atos-administrativos-004/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 525,
+    "lote": "producao/direito-administrativo--atos-administrativos-004/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 526,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-002/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 527,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-002/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 528,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-002/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 529,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-002/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 530,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-002/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 531,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-002/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 532,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-002/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 533,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-002/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 534,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-002/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 535,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-002/q10",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 536,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-003/q01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 537,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-003/q02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 538,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-003/q03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 539,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-003/q04",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 540,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-003/q05",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 541,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-003/q06",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 542,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-003/q07",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 543,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-003/q08",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 544,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-003/q09",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "questao",
+    "id": 545,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-003/q10",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 1,
+    "lote": "producao/direito-administrativo--atos-administrativos-001/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 2,
+    "lote": "producao/direito-administrativo--atos-administrativos-001/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 3,
+    "lote": "producao/direito-administrativo--atos-administrativos-001/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 4,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-001/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 5,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-001/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 6,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-001/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 7,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-001/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 8,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-001/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 9,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-001/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 10,
+    "lote": "producao/direito-processual-penal--inquerito-policial-001/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 11,
+    "lote": "producao/direito-processual-penal--inquerito-policial-001/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 12,
+    "lote": "producao/direito-processual-penal--inquerito-policial-001/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 13,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-001/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 14,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-001/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 15,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-001/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 16,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-001/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 17,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-001/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 18,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-001/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 19,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-001/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 20,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-001/f02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 21,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-001/f03",
+    "status": "aprovada",
+    "sobe": false,
+    "motivos": [
+      "cobra dispositivo com \"Vide ADI/ADC\" sem nota sobre o STF: cf88 art. 5 (p3)"
+    ]
+  },
+  {
+    "tipo": "flashcard",
+    "id": 22,
+    "lote": "producao/direito-penal--teoria-do-crime-e-fato-tipico-001/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 23,
+    "lote": "producao/direito-penal--teoria-do-crime-e-fato-tipico-001/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 24,
+    "lote": "producao/direito-penal--teoria-do-crime-e-fato-tipico-001/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 25,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-001/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 26,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-001/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 27,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-001/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 28,
+    "lote": "producao/direito-penal-militar--crime-militar-conceito-e-classificacao-001/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 29,
+    "lote": "producao/direito-penal-militar--crime-militar-conceito-e-classificacao-001/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 30,
+    "lote": "producao/direito-penal-militar--crime-militar-conceito-e-classificacao-001/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 31,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-001/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 32,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-001/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 33,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-001/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 34,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-001/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 35,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-001/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 36,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-001/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 37,
+    "lote": "producao/administracao-publica-e-etica--organizacoes-formais-e-estrutura-organizacional-001/f01",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 38,
+    "lote": "producao/administracao-publica-e-etica--organizacoes-formais-e-estrutura-organizacional-001/f02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 39,
+    "lote": "producao/administracao-publica-e-etica--organizacoes-formais-e-estrutura-organizacional-001/f03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 40,
+    "lote": "producao/seguranca-publica--seguranca-publica-e-direitos-humanos-001/f01",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 41,
+    "lote": "producao/seguranca-publica--seguranca-publica-e-direitos-humanos-001/f02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 42,
+    "lote": "producao/seguranca-publica--seguranca-publica-e-direitos-humanos-001/f03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 43,
+    "lote": "producao/direito-administrativo--atos-administrativos-002/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 44,
+    "lote": "producao/direito-administrativo--atos-administrativos-002/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 45,
+    "lote": "producao/direito-administrativo--atos-administrativos-002/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 46,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-002/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 47,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-002/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 48,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-002/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 49,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-002/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 50,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-002/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 51,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-002/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 52,
+    "lote": "producao/direito-processual-penal--inquerito-policial-002/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 53,
+    "lote": "producao/direito-processual-penal--inquerito-policial-002/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 54,
+    "lote": "producao/direito-processual-penal--inquerito-policial-002/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 55,
+    "lote": "producao/informatica--seguranca-da-informacao-001/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 56,
+    "lote": "producao/informatica--seguranca-da-informacao-001/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 57,
+    "lote": "producao/informatica--seguranca-da-informacao-001/f03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 58,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-002/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 59,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-002/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 60,
+    "lote": "producao/legislacao-penal-especial--lei-de-drogas-002/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 61,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-002/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 62,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-002/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 63,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-002/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 64,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-002/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 65,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-002/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 66,
+    "lote": "producao/legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-002/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 67,
+    "lote": "producao/direito-penal-militar--crime-militar-conceito-e-classificacao-002/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 68,
+    "lote": "producao/direito-penal-militar--crime-militar-conceito-e-classificacao-002/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 69,
+    "lote": "producao/direito-penal-militar--crime-militar-conceito-e-classificacao-002/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 70,
+    "lote": "producao/direito-penal--crimes-contra-a-pessoa-001/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 71,
+    "lote": "producao/direito-penal--crimes-contra-a-pessoa-001/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 72,
+    "lote": "producao/direito-penal--crimes-contra-a-pessoa-001/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 73,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-002/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 74,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-002/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 75,
+    "lote": "producao/raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-002/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 76,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-002/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 77,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-002/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 78,
+    "lote": "producao/historia-e-geografia-do-ceara--ceara-na-republica-002/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 79,
+    "lote": "producao/administracao-publica-e-etica--processo-organizacional-001/f01",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 80,
+    "lote": "producao/administracao-publica-e-etica--processo-organizacional-001/f02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 81,
+    "lote": "producao/administracao-publica-e-etica--processo-organizacional-001/f03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 82,
+    "lote": "producao/seguranca-publica--instituicoes-de-seguranca-publica-e-sistema-prisional-001/f01",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 83,
+    "lote": "producao/seguranca-publica--instituicoes-de-seguranca-publica-e-sistema-prisional-001/f02",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 84,
+    "lote": "producao/seguranca-publica--instituicoes-de-seguranca-publica-e-sistema-prisional-001/f03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 85,
+    "lote": "producao/direito-administrativo--atos-administrativos-003/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 86,
+    "lote": "producao/direito-administrativo--atos-administrativos-003/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 87,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-003/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 88,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-003/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 89,
+    "lote": "producao/lingua-portuguesa--interpretacao-de-texto-003/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 90,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-003/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 91,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-003/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 92,
+    "lote": "producao/direito-constitucional--direitos-e-garantias-fundamentais-003/f03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 93,
+    "lote": "producao/legislacao-penal-especial--estatuto-do-desarmamento-001/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 94,
+    "lote": "producao/legislacao-penal-especial--estatuto-do-desarmamento-001/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 95,
+    "lote": "producao/legislacao-penal-especial--estatuto-do-desarmamento-001/f03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 96,
+    "lote": "producao/direito-processual-penal--inquerito-policial-003/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 97,
+    "lote": "producao/direito-processual-penal--inquerito-policial-003/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 98,
+    "lote": "producao/direito-processual-penal--inquerito-policial-003/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 99,
+    "lote": "producao/direito-administrativo--atos-administrativos-004/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 100,
+    "lote": "producao/direito-administrativo--atos-administrativos-004/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 101,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-002/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 102,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-002/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 103,
+    "lote": "producao/informatica--sistemas-operacionais-windows-e-linux-002/f03",
+    "status": "pendente_revisao",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 104,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-003/f01",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 105,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-003/f02",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  },
+  {
+    "tipo": "flashcard",
+    "id": 106,
+    "lote": "producao/direitos-humanos--teoria-dos-direitos-humanos-003/f03",
+    "status": "aprovada",
+    "sobe": true,
+    "motivos": []
+  }
+]
