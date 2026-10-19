@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Os cinco requisitos de validade (competência, finalidade, forma, motivo e objeto) são doutrina consolidada; a1 os reproduz corretamente. As demais misturam atributos, reduzem indevidamente os elementos ou listam juízo de mérito e princípios. Única correta e sem ambiguidade."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A presunção de legitimidade e veracidade é presunção relativa que inverte o ônus da prova, exatamente como descreve a1. Os distratores conceituam autoexecutoriedade, imperatividade e tipicidade, cada qual corretamente apontado como atributo distinto. Uma só resposta."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O conceito de ato administrativo como manifestação unilateral de vontade sob regime de direito público que produz efeitos jurídicos é pacífico; a1 o traduz bem. Os distratores descrevem ato de direito privado, lei e sentença, afastados corretamente. Sem ambiguidade."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A execução direta da interdição sem prévia ida ao Judiciário corresponde à autoexecutoriedade (a1), corretamente condicionada a previsão legal ou urgência. Os distratores (presunção de veracidade, tipicidade, imperatividade com falsa dependência de chancela judicial) estão errados. Caso concreto bem construído."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A competência decorre de lei, é de exercício obrigatório, irrenunciável e improrrogável, com delegação e avocação apenas nos limites legais: a1 resume corretamente. Os distratores tratam a competência como transferível em definitivo, discricionária ou renunciável, todos equivocados. Única correta."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Finalidade (interesse público, elemento vinculado) e motivo (pressuposto de fato e de direito) são distinguidos corretamente em a1. a2 iguala os conceitos, a3 os inverte e confunde finalidade com objeto, a4 trata a finalidade como discricionária. Sem ambiguidade."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A distinção entre imperatividade (imposição unilateral de obrigações) e exigibilidade (coação indireta ao cumprimento) é a classificação consolidada; a1 a reproduz. Os distratores generalizam a imperatividade a todo ato, confundem exigibilidade com execução material e igualam imperatividade e autoexecutoriedade. Uma só correta."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Agente competente que usa o ato para perseguir desafeto incorre em desvio de finalidade, vício no elemento finalidade (a1). A competência subsiste e o objeto pode permanecer lícito, afastando a3 e a4; a2 nega vício, o que é incorreto. Caso concreto claro e único gabarito defensável."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A forma é em regra escrita, mas o formalismo moderado admite outras formas quando a lei autoriza ou a situação exige, preservados segurança jurídica e controle: a1 está correta. Os distratores a tratam como absolutamente livre, sempre escrita e solene, ou como elemento acidental, todos errados."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A tipicidade exige correspondência do ato a figuras legais, em desdobramento da legalidade (a1). Os distratores a confundem com autoexecutoriedade, supõem que elimina a discricionariedade ou a igualam à presunção de legitimidade, todos incorretos. Único gabarito."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Os quatro atributos clássicos (presunção de legitimidade e veracidade, imperatividade, autoexecutoriedade e tipicidade) são doutrina consolidada; o verso responde exatamente à frente e diferencia atributos de requisitos. Pergunta de resposta única."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Correto: a autoexecutoriedade não está em todo ato, só havendo previsão legal expressa ou urgência; fora disso a Administração depende do Judiciário. Frente objetiva e verso sem ambiguidade."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A distinção entre finalidade (interesse público, elemento vinculado) e motivo (pressuposto de fato e de direito) está correta, assim como a menção ao desvio de finalidade. Verso responde precisamente à frente, sem ambiguidade."
+    }
+  ]
+}

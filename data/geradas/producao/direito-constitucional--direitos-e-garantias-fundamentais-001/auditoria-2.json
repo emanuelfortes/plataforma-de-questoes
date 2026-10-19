@@ -1,0 +1,159 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, XVI, dispensa autorização e exige apenas prévio aviso à autoridade competente, exatamente como a a1. Os distratores (autorização policial, licença do Executivo, alvará judicial) contrariam o inciso. Uma só correta, fundamento confere."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "No art. 5º, XI, só a determinação judicial fica restrita ao dia; flagrante, desastre e socorro admitem ingresso a qualquer hora. A a1 é a única correta e o fundamento confere."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reproduz o art. 5º, IV (livre manifestação, vedado o anonimato). Os distratores negam a vedação ao anonimato, a proporcionalidade do direito de resposta (inciso V) e a cumulação com indenização. Correta única."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A ressalva do art. 5º, XII, exige ordem judicial, nas hipóteses e na forma da lei, para investigação criminal ou instrução processual penal, como na a1. Delegado e Ministério Público não substituem a reserva de jurisdição e o sigilo não é absoluto. Uma só correta."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A competência do júri é restrita aos crimes dolosos contra a vida (art. 5º, XXXVIII, d), logo a a1 (todos os crimes dolosos) é a incorreta e é a resposta. Plenitude de defesa, sigilo das votações e soberania dos veredictos são garantias expressas; o detalhe procedimental acrescentado à a3 não a torna falsa."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reproduz o art. 5º, XX (liberdade negativa de associação). Os distratores violam XVII (paramilitar vedada, mesmo sem armas), XVIII (independe de autorização) e XIX (dissolução exige decisão judicial, não ato administrativo). Correta única."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, VIII, admite a privação de direitos quando a pessoa invoca a convicção para se eximir de obrigação a todos imposta e recusa a prestação alternativa fixada em lei, exatamente a hipótese da a1 (dupla recusa). Os distratores negam a ressalva, exigem autorização judicial inexistente ou restringem à crença religiosa. Correta única."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O enunciado cobra expressamente a interpretação do alcance do art. 5º, caput: a inviolabilidade do domicílio alcança o estrangeiro não residente sujeito à ordem jurídica brasileira (a1), entendimento consolidado e incontroverso. A reciprocidade (art. 12, § 1º) e o rol de cargos privativos de nato (art. 12, § 3º) não condicionam esse direito, afastando a3 e a4; a a2 prende-se à literalidade. Não cita número de julgado. Correta única."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 corresponde ao art. 136, § 1º, I, a (estado de defesa restringe a reunião, ainda que no seio das associações). O estado de sítio admite até a suspensão da liberdade de reunião (art. 139, IV), de modo que a2 (imunidade), a3 (só o sítio) e a4 (inversão das intensidades) estão erradas. Correta única e fundamentos conferem."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A inviolabilidade do domicílio é direito e garantia individual (art. 5º, XI) e, pelo art. 60, § 4º, IV, a PEC tendente a aboli-la não pode ser objeto de deliberação (a1), independentemente de quórum. O rol de cláusulas pétreas não se limita a federação e separação dos Poderes, e não há plebiscito para o caso. Correta única."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reproduz corretamente o art. 5º, XI: flagrante, desastre e socorro a qualquer hora; determinação judicial só durante o dia. Frente objetiva, resposta única, dispositivo citado."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA_COM_RESSALVA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [
+        {
+          "tipo": "pedagogico",
+          "gravidade": "baixa",
+          "descricao": "O verso acrescenta a vedação à associação paramilitar (art. 5º, XVII), que não é objeto da frente (dissolução x suspensão). Mistura um segundo conceito não perguntado, contra a regra de um conceito por card."
+        }
+      ],
+      "correcao_sugerida": "Remover a última frase do verso (\"É vedada a associação de caráter paramilitar (art. 5º, XVII)\"), mantendo apenas a resposta sobre decisão judicial e trânsito em julgado (art. 5º, XIX).",
+      "justificativa": "A resposta sobre dissolução e suspensão está correta conforme o art. 5º, XIX (ambas por decisão judicial; trânsito em julgado só na dissolução) e não é ambígua. Pontua-se apenas a inclusão de um conceito extra fora do escopo da frente, que pede ajuste pontual."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reflete a única ressalva do art. 5º, XII: interceptação telefônica por ordem judicial, nas hipóteses e na forma da lei, para investigação criminal ou instrução processual penal. Frente objetiva, resposta única, dispositivo citado."
+    }
+  ]
+}
