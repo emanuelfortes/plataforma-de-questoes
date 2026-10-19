@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvi por conta própria: o art. 4º do CPP fixa que a polícia judiciária tem por fim a apuração das infrações penais e da sua autoria, exatamente a a1. As erradas (aplicar pena, formar culpa, fiscalização administrativa) descrevem funções estranhas à investigação. Fundamento no texto fornecido, uma única correta."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reproduz literalmente o art. 9º do CPP (peças num só processado, reduzidas a escrito ou datilografadas e rubricadas pela autoridade). As demais inventam registro só audiovisual, autos separados ou forma escrita restrita a indiciado preso, sem base legal. Única correta, fundamento confere."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 2º da Lei 12.830/2013 qualifica as funções de polícia judiciária e a apuração de infrações como de natureza jurídica, essenciais e exclusivas de Estado, conforme a a1. As erradas trocam esses adjetivos por qualificações que a lei não usa. Fundamento no texto fornecido, uma única correta."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 17 do CPP veda que a autoridade policial mande arquivar autos de inquérito, de modo absoluto, como diz a a1. As alternativas que admitem arquivamento por despacho fundamentado, por comunicação ao MP ou conforme a prisão do indiciado contrariam a vedação. Única correta, fundamento confere."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O caráter inquisitivo do inquérito (ausência de contraditório e ampla defesa plenos na investigação) é conceito consolidado e incontroverso, apoiado no art. 14 do CPP, que deixa a realização das diligências a juízo da autoridade. A a1 descreve corretamente; acusatória, dispositiva e jurisdicional são afastadas. Uma única resposta defensável."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reproduz o art. 155 do CPP: o juiz não pode fundamentar a decisão exclusivamente nos elementos informativos da investigação, ressalvadas as provas cautelares, não repetíveis e antecipadas. As erradas dão presunção de veracidade, desconsideração total ou exceção ligada à oitiva do indiciado, sem base. Fundamento confere."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 capta o art. 12 do CPP e a dispensabilidade do inquérito: ele acompanha a denúncia ou queixa só quando lhes servir de base. As erradas tratam o inquérito como obrigatório, condicionam à prisão ou criam vedação que o art. 12 não prevê. Única correta, fundamento no texto fornecido."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reproduz o art. 107 do CPP: não se opõe suspeição à autoridade policial, mas ela deve declarar-se suspeita por motivo legal. As erradas admitem exceção de suspeição, equiparam integralmente o delegado ao juiz ou negam o dever de declaração. Única correta, fundamento confere."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 combina o art. 2º, § 6º (indiciamento privativo do delegado, por ato fundamentado) e o § 4º (avocação ou redistribuição só por superior hierárquico, mediante despacho fundamentado) da Lei 12.830/2013. As erradas transferem o indiciamento ao MP ou juiz, dispensam fundamentação ou tornam as atribuições concorrentes. Única correta, fundamento confere."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reúne o caput do art. 20 (dever de assegurar o sigilo exigido pelo interesse da sociedade) e o parágrafo único (vedação de mencionar instauração de inquérito nos atestados de antecedentes). As erradas tornam o sigilo absoluto e oponível ao juiz e ao MP, exigem autorização judicial prévia ou permitem registrar inquéritos nos atestados. Única correta, fundamento confere."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A frente pergunta o que o inquérito busca (materialidade e autoria) e o verso responde com base no art. 4º do CPP, corretamente. Pergunta unívoca, verso cita o dispositivo, um só conceito, sem copiar enunciado do lote."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Frente objetiva (pode a autoridade policial arquivar o inquérito?) e verso correto com o art. 17 do CPP (não pode). Resposta única, dispositivo citado, sem ambiguidade."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Frente sobre o valor probatório dos elementos do inquérito e verso correto com o art. 155 do CPP, inclusive a ressalva das provas cautelares, não repetíveis e antecipadas. Verso cita o dispositivo, um só conceito, sem ambiguidade."
+    }
+  ]
+}

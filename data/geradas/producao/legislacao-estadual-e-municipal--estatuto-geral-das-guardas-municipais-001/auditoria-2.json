@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reproduz fielmente o art. 2º: caráter civil, uniformizadas e armadas conforme a lei, proteção municipal preventiva e ressalva das competências da União, dos Estados e do DF. a2 erra em 'militar' e 'repressiva'; a3 em 'desarmadas' e 'policiamento ostensivo'; a4 suprime a ressalva de competências. Fundamento e análise conferem."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reúne princípios expressos do art. 3º (uso progressivo da força, patrulhamento preventivo, preservação da vida com redução do sofrimento e diminuição das perdas). As demais trocam por força letal/repressivo, interesse militar ou subordinação estadual, estranhos ao rol. Resposta única e correta."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 corresponde ao art. 6º, caput e parágrafo único: criação por lei pelo Município e subordinação ao chefe do Poder Executivo municipal. Os distratores trocam lei por decreto ou deslocam a subordinação para Câmara, PM ou Estado, todos incorretos."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reproduz o art. 5º, XIV: encaminhar o autor ao delegado, preservando o local do crime, quando possível e sempre que necessário. Lavrar flagrante, instaurar inquérito ou vedar contato não têm amparo na lei. Caso concreto bem construído."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 corresponde ao art. 10, IV e V, e ao parágrafo único: nível médio completo, idade mínima de 18 anos e abertura para a lei municipal acrescentar requisitos. Distratores elevam escolaridade/idade ou admitem dispensa/redução indevidas. Gabarito confere."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reproduz o art. 13, II: ouvidoria como controle externo, independente da direção e cabível qualquer que seja o número de servidores. Os distratores confundem corregedoria/ouvidoria, limiar de efetivo e vinculação à direção. Resposta única."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 corresponde ao art. 16, caput e parágrafo único: porte conforme a lei e suspensão por restrição médica, decisão judicial ou justificativa do dirigente. Os distratores tornam o porte incondicionado, exigem autorização da Câmara ou vedam o porte, todos sem base legal."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Município com 600 mil habitantes enquadra-se no art. 7º, III (mais de 500 mil): teto de 0,2%, desde que o efetivo não seja inferior ao do inciso II. a1 reflete exatamente essa regra e a ressalva de piso da faixa anterior. Não há faixa de 0,1%. Aplicação correta."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 combina o art. 15, caput (cargos em comissão por membros efetivos) com a exceção do § 1º (direção por profissional estranho nos primeiros quatro anos). Os distratores ignoram a exceção, admitem denominação militar (art. 19) ou regulamento disciplinar militar (art. 14, parágrafo único). Gabarito confere."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reúne o art. 8º (uso compartilhado por consórcio público) e o art. 12, § 3º (órgão de formação não pode ser o mesmo das forças militares). Os distratores admitem incorporação por ato do prefeito, dispensa do prazo do art. 22 ou obrigatoriedade de órgão isolado, contrariando a lei."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reproduz o art. 2º (caráter civil, uniformizadas e armadas conforme a lei, proteção municipal preventiva, ressalvadas as competências da União, Estados e DF) e responde exatamente à frente. Um conceito por card, com o dispositivo citado."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso traz corretamente o art. 13, I e II: controle interno por corregedoria (efetivo superior a 50 ou uso de arma de fogo) e controle externo por ouvidoria, independente, para qualquer efetivo. Frente objetiva e sem ambiguidade."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reflete o art. 7º, I a III: 0,4% até 50 mil, 0,3% entre mais de 50 mil e menos de 500 mil, 0,2% acima de 500 mil, sempre com piso não inferior ao da faixa anterior. Responde exatamente à frente, com o dispositivo citado."
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvi por conta própria: dignidade da pessoa humana é fundamento da República (art. 1º, III), ao lado de soberania (I) e cidadania (II). Os distratores deslocam prevalência dos DH (art. 4º, II), erradicação da pobreza (art. 3º, III) e autodeterminação (art. 4º, III) para o rol de fundamentos. Gabarito e fundamento conferem com o texto fornecido."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A prevalência dos direitos humanos está no art. 4º, II (princípios das relações internacionais), como aponta a a1. Distratores a localizam no art. 1º, 3º e 2º, todos errados. Gabarito confere."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, § 1º prevê aplicação imediata das normas definidoras de direitos e garantias fundamentais (a1). As demais condicionam a eficácia a lei, regulamento ou tratado, contrariando o dispositivo. Gabarito confere."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reproduz o art. 5º, § 2º (cláusula de abertura material: os direitos expressos não excluem outros do regime, dos princípios ou de tratados). A a3 confunde com o rito do § 3º. Só a a1 é defensável; gabarito confere."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Promover o bem de todos, sem preconceitos de origem, raça, sexo, cor e idade é objetivo fundamental (art. 3º, IV), transcrito fielmente na a1. Dignidade e pluralismo são fundamentos (art. 1º) e solução pacífica é princípio internacional (art. 4º, VII). Gabarito confere."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O caput do art. 5º garante a inviolabilidade a brasileiros e estrangeiros residentes, sem distinção de qualquer natureza (a1). Os distratores restringem indevidamente a titularidade. O cuidado_na_prova sobre o estrangeiro em trânsito é correto e esclarece que a questão cobra a literalidade. Gabarito confere."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A concessão de asilo político é princípio das relações internacionais (art. 4º, X), como diz a a1. Não é objetivo (art. 3º), fundamento (art. 1º) nem garantia do art. 5º. Gabarito confere."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, § 3º exige aprovação em cada Casa, em dois turnos, por três quintos dos votos dos respectivos membros (a1). Os distratores trocam quórum, turnos ou base de cálculo. Gabarito e observação temporal (EC 45/2004) conferem."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, § 4º submete o Brasil à jurisdição de TPI a cuja criação tenha manifestado adesão (a1). A submissão não é automática nem condicionada a resolução de outro órgão ou a crimes de estrangeiros. Gabarito confere."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Confiri cada par: só a a1 acerta as duas associações (repúdio ao terrorismo e ao racismo = art. 4º, VIII, princípio internacional; cidadania = art. 1º, II, fundamento). As a2, a3 e a4 trocam as categorias. Uma única correta; gabarito confere."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Frente objetiva com resposta única; o verso aponta corretamente o art. 1º, III da CF/1988 e situa a dignidade entre os fundamentos da República. Confere com o texto fornecido."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA_COM_RESSALVA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [
+        {
+          "tipo": "pedagogico",
+          "gravidade": "baixa",
+          "descricao": "A frente reúne dois conceitos distintos numa pergunta de duas partes (aplicação imediata, § 1º, e abertura material, § 2º), contrariando a diretriz de um conceito por card. A resposta, porém, é determinada e correta."
+        }
+      ],
+      "correcao_sugerida": "Idealmente dividir em dois cards (um para a aplicação imediata do § 1º e outro para a cláusula de abertura do § 2º), ou reformular a frente para cobrar apenas um dos pontos.",
+      "justificativa": "Conteúdo correto conforme o art. 5º, §§ 1º e 2º, e sem ambiguidade na resposta. A única ressalva é pedagógica: a frente mistura dois conceitos num só card. Utilizável com esse ajuste pontual."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Frente com resposta única; o verso traz o quórum exato do art. 5º, § 3º (cada Casa, dois turnos, três quintos dos membros) e a referência à EC 45/2004. Confere com o texto fornecido."
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A dignidade da pessoa humana figura como fundamento da República no art. 1º, III, ao lado da soberania (I) e da cidadania (II). Os distratores remetem corretamente a prevalência dos direitos humanos ao art. 4º, II, a erradicação da pobreza ao art. 3º, III, e a autodeterminação dos povos ao art. 4º, III. Gabarito único e fundamento conferido no texto fornecido."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A prevalência dos direitos humanos consta do art. 4º, II, entre os princípios das relações internacionais. As demais alternativas deslocam o dispositivo para os arts. 1º, 3º e 2º, todos incorretos. Resposta única sustentada pelo texto."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, § 1º, estabelece a aplicação imediata das normas definidoras de direitos e garantias fundamentais. Os distratores condicionam a eficácia a lei integradora, regulamento administrativo ou tratado, hipóteses não previstas no dispositivo. Gabarito único e literal."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa correta reproduz a cláusula de abertura material do art. 5º, § 2º (os direitos expressos não excluem outros do regime, dos princípios adotados ou de tratados). Os distratores invertem o sentido do dispositivo (rol fechado, só emenda, exclusão de tratados). Resposta única conferida no texto."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Promover o bem de todos, sem preconceitos de origem, raça, sexo, cor e idade, é objetivo fundamental do art. 3º, IV. A redução apenas cita parte do inciso, sem alterar o sentido. Dignidade e pluralismo são fundamentos (art. 1º) e solução pacífica é princípio internacional (art. 4º). Gabarito único."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O caput do art. 5º garante a inviolabilidade dos direitos a brasileiros e estrangeiros residentes no País, sem distinção de qualquer natureza. Os distratores restringem indevidamente a titularidade (natos, autorização do Executivo, direitos políticos). A nota de cuidado na prova esclarece que se cobra a literalidade do dispositivo, sem comprometer o gabarito."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A concessão de asilo político está no art. 4º, X, entre os princípios que regem as relações internacionais. Os distratores a classificam como objetivo (art. 3º), fundamento (art. 1º) ou garantia do art. 5º, todas incorretas. Resposta única conferida no texto."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, § 3º, exige aprovação em cada Casa do Congresso, em dois turnos, por três quintos dos votos dos respectivos membros. Os distratores alteram quórum, número de turnos ou base de cálculo (presentes em vez de membros). A observação temporal sobre a EC 45/2004 está correta. Gabarito único e literal."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, § 4º, submete o Brasil à jurisdição de Tribunal Penal Internacional a cuja criação tenha manifestado adesão. Os distratores afirmam submissão automática, exigem resolução do Conselho de Segurança ou limitam a crimes de estrangeiros, hipóteses não previstas. Observação sobre a EC 45/2004 correta. Resposta única."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Só a associação da alternativa correta procede: repúdio ao terrorismo e ao racismo é princípio das relações internacionais (art. 4º, VIII) e cidadania é fundamento da República (art. 1º, II). As demais trocam as categorias (objetivo por fundamento, princípio por objetivo etc.), conforme se confere nos arts. 1º, 3º e 4º. Gabarito único."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A frente pergunta o dispositivo em que a dignidade da pessoa humana é fundamento da República; o verso responde corretamente art. 1º, III, da CF/1988, com o rol de fundamentos. Resposta única e conferida no texto fornecido."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A frente indaga, de forma encadeada, se os direitos fundamentais dependem de lei e se o rol do art. 5º é exaustivo; o verso responde negativamente aos dois pontos com apoio nos §§ 1º (aplicação imediata) e 2º (cláusula de abertura) do art. 5º. Ambos os pontos convergem para o mesmo eixo (eficácia e abertura material) e a resposta é precisa e inequívoca."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A frente pede o quórum para que tratado de direitos humanos equivalha a emenda; o verso responde corretamente art. 5º, § 3º: dois turnos em cada Casa, por três quintos dos respectivos membros, com a referência correta à EC 45/2004. Resposta única e conferida no texto."
+    }
+  ]
+}

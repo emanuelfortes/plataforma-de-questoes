@@ -104,6 +104,210 @@
         "descartes": []
       },
       "concluidoEm": "2026-10-19T04:11:10.163Z"
+    },
+    {
+      "id": "direito-processual-penal--inquerito-policial-001",
+      "topico": "direito-processual-penal--inquerito-policial",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "pcce-2021",
+      "foco": "Natureza, características e finalidade",
+      "execucao": "exec-2026-10-19T04-15-38-228Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T04:15:41.711Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 9,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 1
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 3,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T04:22:52.750Z"
+    },
+    {
+      "id": "legislacao-penal-especial--lei-de-drogas-001",
+      "topico": "legislacao-penal-especial--lei-de-drogas",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "pcce-2021",
+      "foco": "todo o tema, variando os pontos cobrados",
+      "execucao": "exec-2026-10-19T04-15-38-228Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T04:15:41.840Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 10,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 3,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T04:22:55.051Z"
+    },
+    {
+      "id": "informatica--sistemas-operacionais-windows-e-linux-001",
+      "topico": "informatica--sistemas-operacionais-windows-e-linux",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "pcce-2021",
+      "foco": "Pastas, diretórios, arquivos e atalhos",
+      "execucao": "exec-2026-10-19T04-15-38-228Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T04:15:41.970Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 10,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 3,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T04:22:57.410Z"
+    },
+    {
+      "id": "direitos-humanos--teoria-dos-direitos-humanos-001",
+      "topico": "direitos-humanos--teoria-dos-direitos-humanos",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "pcce-2021",
+      "foco": "Conceito e fundamentação",
+      "execucao": "exec-2026-10-19T04-15-38-228Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T04:22:57.521Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 10,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 2,
+          "fila": 1,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T04:30:47.674Z"
+    },
+    {
+      "id": "direito-penal--teoria-do-crime-e-fato-tipico-001",
+      "topico": "direito-penal--teoria-do-crime-e-fato-tipico",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "pcce-2021",
+      "foco": "Conduta, resultado e nexo causal",
+      "execucao": "exec-2026-10-19T04-15-38-228Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T04:22:57.630Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 9,
+          "fila": 1,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 3,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T04:30:49.616Z"
+    },
+    {
+      "id": "legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais-001",
+      "topico": "legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "gm-fortaleza",
+      "foco": "todo o tema, variando os pontos cobrados",
+      "execucao": "exec-2026-10-19T04-15-38-228Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T04:22:57.750Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 10,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 3,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T04:30:52.145Z"
     }
   ],
   "execucoes": [
@@ -121,7 +325,18 @@
       "inicio": "2026-10-19T04:03:05.729Z",
       "teto": 3,
       "paralelo": 3,
-      "lotesIniciados": 3
+      "lotesIniciados": 3,
+      "fim": "2026-10-19T04:15:38.227Z",
+      "motivoFim": "substituída por nova execução"
+    },
+    {
+      "id": "exec-2026-10-19T04-15-38-228Z",
+      "inicio": "2026-10-19T04:15:38.228Z",
+      "teto": 6,
+      "paralelo": 3,
+      "lotesIniciados": 6,
+      "fim": "2026-10-19T04:30:52.145Z",
+      "motivoFim": "teto atingido"
     }
   ],
   "erros": []

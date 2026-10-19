@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reproduz fielmente o art. 28, § 2º (natureza e quantidade, local e condições da ação, circunstâncias sociais e pessoais, conduta e antecedentes). Os distratores negam ou dispensam fatores do dispositivo e estão corretamente refutados. Gabarito e fundamento conferem no texto fornecido."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reflete o art. 70, caput (competência da Justiça Federal no tráfico transnacional) e o parágrafo único (vara federal da circunscrição onde não houver sede). Os distratores contrariam o dispositivo. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 corresponde ao art. 31: licença prévia da autoridade competente para as operações com drogas ou matéria-prima. Os distratores trocam por registro posterior, comunicação ao MP ou restringem a importação/exportação, todos incorretos. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reproduz o art. 45, caput (isenção de pena do inteiramente incapaz por dependência) e o parágrafo único (encaminhamento a tratamento ao absolver). A distinção com a redução do art. 46 (semi-imputável) está bem explicada. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 corresponde ao art. 46: capacidade apenas parcial autoriza a redução das penas de um terço a dois terços. Os distratores propõem isenção, percentual fixo de metade ou ausência de redução, todos incorretos. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reflete o art. 40-A, caput (pena em dobro para organização ultraviolenta, grupo paramilitar ou milícia privada, no contexto do marco legal do crime organizado). O dispositivo, incluído pela Lei 15.358/2026, está vigente na data de corte (2026-10-18) e a observacao_temporal registra isso. Distratores confundem com o art. 35 e o art. 40, V. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Questão de exceção: a1 é a providência que NÃO consta do art. 54 (o afastamento cautelar do funcionário público é do juiz ao receber a denúncia, art. 56, § 1º). As demais (arquivamento, diligências e denúncia com até cinco testemunhas) estão nos incisos I a III do art. 54. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 combina o art. 27 (penas isoladas ou cumulativas, substituíveis a qualquer tempo, ouvidos MP e defensor) e o art. 47 (tratamento determinado pelo juiz na sentença, conforme avaliação). Os distratores negam a substituição a qualquer tempo ou o poder do juiz, contrariando os dispositivos. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 corresponde ao art. 63-F, § 1º: a perda alargada fica condicionada a elementos de conduta criminosa habitual, reiterada ou profissional, ou vínculo com organização criminosa. Os distratores dispensam esses requisitos, limitam os bens ou tornam a perda automática, contrariando os §§ 1º a 3º. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 conjuga o art. 1º, parágrafo único (drogas definidas em lei ou em listas do Executivo da União) e o art. 2º, parágrafo único (autorização da União para plantio medicinal ou científico). Os distratores fecham o conceito no texto da lei, tornam a proibição absoluta ou atribuem a autorização aos Estados, todos incorretos. Gabarito e fundamento conferem."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reproduz o art. 30: prescrevem em dois anos a imposição e a execução das penas, observado quanto à interrupção o disposto nos arts. 107 e seguintes do CP. O vínculo ao usuário do art. 28 é correto, pois o art. 30 fecha o capítulo das penas do usuário. Frente objetiva e com resposta única."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso confere com o art. 23, § 5º, III (internação involuntária pelo tempo da desintoxicação, prazo máximo de 90 dias) e com o art. 23-B, § 6º (PIA elaborado em até 30 dias do ingresso no atendimento). Frente clara, com dois prazos objetivos sem ambiguidade."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso corresponde ao art. 50, § 1º (laudo de constatação da natureza e quantidade da droga, firmado por perito oficial ou, na falta deste, por pessoa idônea, suficiente para a materialidade no flagrante) e ao § 2º (o perito do laudo de constatação não fica impedido de participar do laudo definitivo). Frente com resposta única."
+    }
+  ]
+}

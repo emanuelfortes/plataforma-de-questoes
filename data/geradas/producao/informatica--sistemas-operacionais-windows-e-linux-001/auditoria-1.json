@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Pasta e diretório são o mesmo conceito: contêiner lógico que agrupa arquivos e outras pastas em hierarquia. a1 está correta; os distratores (programa, arquivo compactado, dispositivo físico) estão todos errados por conteúdo. Dentro do recorte do edital e do nível fácil."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A extensão indica o tipo/formato e associa o arquivo ao programa que o abre. a1 correta; tamanho, data de criação e proteção por senha não são função da extensão. Enunciado e alternativas corretos e equilibrados."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O ícone que guarda apenas o caminho até o destino é o atalho (a1). Cópia de segurança, arquivo temporário e pasta compartilhada estão errados. Comentário correto (apagar o atalho não apaga o original; seta no ícone)."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Windows usa barra invertida e Linux usa barra normal como separador de pastas (a1). a2 (padrão único), a3 (invertida) e a4 (ambos exigem letra de unidade) estão corretamente erradas. Ponto clássico e incontroverso."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O Windows reserva caracteres como : * ? / \\ \" < > | em nomes de arquivos e pastas (a1). A aceitação total (a2), a exigência de maiúsculas (a3) e o limite 8.3 obrigatório (a4) estão errados. Comentário tecnicamente preciso."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Os sistemas de arquivos padrão do Linux (ex.: ext4) são sensíveis à caixa, então Relatorio.txt e relatorio.txt são distintos (a1); o Windows, por padrão, não distingue. As ressalvas (geralmente, costumam) estão bem colocadas. Conhecimento consolidado."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Caminho absoluto parte da raiz da unidade (local completo) e o relativo parte da pasta atual (a1). a2 inverte, a3 nega a diferença real e a4 cria restrição inexistente. Correto e sem ambiguidade."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Atalho do Windows e link simbólico do Linux apontam pelo caminho e ficam quebrados se o destino some (a1). O enunciado trata expressamente de link simbólico (não hard link), o que torna a1 inequívoca. a2, a3 e a4 estão corretamente erradas. Nível difícil adequado."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "No Linux, nome iniciado por ponto é item oculto por convenção: existe e pode ser exibido sob demanda (a1). Corrupção, atalho para a raiz e indicação de unidade estão errados. Comentário correto sobre arquivos de configuração."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Linux tem raiz única (/) com unidades montadas na árvore; Windows tem uma raiz por unidade identificada por letra, como C: ou D: (a1). a2 inverte e a3/a4 negam a diferença real. Nível difícil adequado e sem ambiguidade."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso distingue corretamente arquivo (unidade de conteúdo) de pasta/diretório (contêiner hierárquico) e nota que pasta e diretório são o mesmo conceito. Frente objetiva, um só conceito, sem ambiguidade. Tema sem lei, verso não precisa de dispositivo."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Verso correto: Windows usa barra invertida (\\) e inicia pela letra da unidade; Linux usa barra normal (/) a partir de raiz única. Frente clara e com resposta única. Redação própria."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Verso correto: atalho e link simbólico guardam só o caminho; se o destino for apagado ou movido, a referência quebra, mas o atalho continua existindo. Um conceito, sem ambiguidade; não copia enunciado do lote."
+    }
+  ]
+}

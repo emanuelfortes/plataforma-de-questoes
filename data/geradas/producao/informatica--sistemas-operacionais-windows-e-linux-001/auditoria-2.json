@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Pasta/diretório é de fato um contêiner lógico que agrupa arquivos e subpastas em hierarquia (a1). Os distratores (programa, arquivo compactado, dispositivo físico) estão todos corretamente errados. Conceito pacífico, dentro do edital e do nível fácil."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A extensão indica o tipo/formato do arquivo e permite ao sistema associá-lo ao programa (a1). Distratores (tamanho, data de criação, proteção por senha) estão corretamente errados. Conhecimento consolidado, nível fácil adequado."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O ícone que aponta para o destino guardando apenas o caminho é o atalho (a1). Distratores (cópia de segurança, arquivo temporário, pasta compartilhada) estão corretamente errados. Enunciado descreve bem o conceito."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Windows usa barra invertida (\\) e Linux usa barra normal (/) como separador de pastas (a1). Os distratores invertem a regra, inventam padrão único ou exigem letra de unidade no Linux, todos corretamente errados."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Caracteres como : * ? / \\ \" < > | são reservados e proibidos em nomes no Windows (a1). Distratores (aceita qualquer caractere, só maiúsculas, limite de 8 caracteres) estão corretamente errados; o limite 8.3 é padrão antigo. Enunciado coerente com o nome recusado."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Os sistemas de arquivos padrão do Linux são sensíveis à caixa, tratando 'Relatorio.txt' e 'relatorio.txt' como arquivos distintos (a1). A ressalva 'geralmente' no texto e 'por padrão' nos comentários é adequada e protege o gabarito. Distratores corretamente errados."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Caminho absoluto parte da raiz da unidade (local completo) e o relativo parte da pasta atual (a1). Distratores invertem os conceitos ou criam restrições inexistentes (só pastas/só arquivos), todos corretamente errados."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Atalho do Windows e link simbólico do Linux guardam o caminho ao destino; apagado o original, a referência quebra (a1). O enunciado restringe corretamente ao link simbólico (não ao hard link), o que torna o gabarito preciso. Distratores (copiam conteúdo, só diretórios/só programas, aumentam tamanho) corretamente errados."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "No Linux, nomes iniciados por ponto são ocultos por convenção: não aparecem na listagem padrão, mas existem e podem ser exibidos sob demanda (a1). Distratores (corrompidos, atalhos para a raiz, indicação de unidade) corretamente errados."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "No Linux a hierarquia parte de uma raiz única (/); no Windows cada unidade tem raiz própria por letra (C:, D:) (a1). Distratores invertem os sistemas ou negam qualquer ponto único, todos corretamente errados. Pegadinha legítima e adequada ao nível difícil."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A diferença entre arquivo (unidade que guarda conteúdo) e pasta/diretório (contêiner que organiza em hierarquia) está correta e completa. Frente objetiva com resposta única; não copia enunciado de questão do lote."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Windows usa barra invertida (\\) e inicia pela letra da unidade; Linux usa barra normal (/) a partir de raiz única. Verso correto e preciso, frente com resposta única e sem ambiguidade."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Atalho do Windows e link simbólico do Linux guardam apenas o caminho; apagado o destino, a referência quebra mas o atalho continua existindo. Correto e sem ambiguidade; coerente com o recorte do link simbólico (não hard link)."
+    }
+  ]
+}

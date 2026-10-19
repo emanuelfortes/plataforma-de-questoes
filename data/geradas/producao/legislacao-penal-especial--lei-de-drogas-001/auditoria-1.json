@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa a1 reproduz fielmente os critérios do art. 28, § 2º (natureza e quantidade, local e condições da ação, circunstâncias sociais e pessoais, conduta e antecedentes). Os distratores reduzem a análise a um único fator (quantidade, confissão ou antecedentes), contrariando a soma exigida pela lei. Fundamento confere."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 70, caput e parágrafo único, fixa a competência da Justiça Federal para os crimes dos arts. 33 a 37 quando caracterizado o ilícito transnacional, processando-se na vara federal da circunscrição onde não houver vara federal. A alternativa a1 traduz exatamente a regra; os distratores estão todos equivocados."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 31 exige licença prévia da autoridade competente para as operações com drogas ou matéria-prima, confirmando a alternativa a1. Os distratores trocam a licença prévia por registro posterior, por comunicação ao MP ou limitam a autorização à importação e exportação, todos em desacordo com o texto."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 45, caput e parágrafo único, isenta de pena o inteiramente incapaz e permite ao juiz encaminhá-lo a tratamento médico ao absolver, o que a alternativa a1 reproduz. A redução de um terço a dois terços (art. 46) é da semi-imputabilidade, afastando o distrator a2. Fundamento confere."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 46 prevê, para a capacidade apenas parcial, redução das penas de um terço a dois terços, exatamente como consta em a1. Os distratores confundem com a isenção do art. 45, fixam percentual de metade ou negam qualquer redução, todos incorretos à luz da lei."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 40-A, incluído pela Lei 15.358/2026 e vigente na data de corte, aplica as penas dos arts. 33 a 37 em dobro quando o crime for praticado por integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada, no contexto do marco legal do crime organizado, como traz a1. A observação temporal registra corretamente a inclusão recente. Distratores confundem com o art. 35 e com o art. 40, V."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Questão de exceção: as providências do MP no art. 54 são arquivamento (I), diligências (II) e denúncia com até cinco testemunhas (III). O afastamento cautelar do funcionário público (a1) é ato do juiz ao receber a denúncia (art. 56, § 1º), logo é a única que não se encaixa no art. 54, confirmando o gabarito. Fundamento confere."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa a1 combina corretamente o art. 27 (penas aplicadas isolada ou cumulativamente e substituídas a qualquer tempo, ouvidos MP e defensor) e o art. 47 (tratamento determinado pelo juiz na sentença, com base em avaliação). Os distratores contrariam esses dispositivos ao tornar as penas insubstituíveis, limitar a substituição ao pós-trânsito ou negar ao juiz o encaminhamento a tratamento."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 63-F, § 1º, condiciona a perda alargada à existência de elementos que indiquem conduta criminosa habitual, reiterada ou profissional, ou vinculação a organização criminosa, como afirma a1. Os distratores são afastados pelo § 1º (não basta a condenação), § 2º (alcança bens transferidos a terceiros desde o início da atividade criminal) e § 3º (o condenado pode demonstrar a origem lícita). Fundamento confere."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa a1 conjuga o art. 1º, parágrafo único (conceito de drogas remetido a lei ou a listas do Executivo da União) e o art. 2º, parágrafo único (autorização da União para plantio medicinal ou científico). Os distratores ignoram a remessa às listas, tratam a proibição do plantio como absoluta ou atribuem a autorização aos Estados, todos em contraste com o texto legal."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso corresponde ao art. 30: prescrevem em dois anos a imposição e a execução das penas do art. 28, observado o disposto nos arts. 107 e seguintes do Código Penal quanto à interrupção. Frente objetiva, com resposta única."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso confere com o art. 23, § 5º, III (internação involuntária pelo tempo da desintoxicação, prazo máximo de 90 dias) e com o art. 23-B, § 6º (PIA elaborado em até 30 dias do ingresso no atendimento). Dispositivos corretamente indicados e sem ambiguidade."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reflete o art. 50, § 1º (para a lavratura do auto de prisão em flagrante e a materialidade basta o laudo de constatação, firmado por perito oficial ou, na falta, por pessoa idônea) e o § 2º (o perito não fica impedido de participar do laudo definitivo). Resposta única e correta."
+    }
+  ]
+}

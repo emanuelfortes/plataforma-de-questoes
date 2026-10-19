@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reproduz a finalidade do art. 4º do CPP (apuração das infrações penais e da sua autoria). Distratores corretamente errados: aplicar pena é função jurisdicional, formação da culpa é em juízo e fiscalização administrativa não é finalidade da polícia judiciária. Resolvi sozinho e cheguei em a1."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 transcreve o art. 9º do CPP (num só processado, reduzidas a escrito ou datilografadas e rubricadas pela autoridade). Os demais criam regras inexistentes (registro só audiovisual, autos separados, escrita só com preso). Gabarito confere."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 corresponde ao art. 2º da Lei 12.830/2013 (natureza jurídica, essenciais e exclusivas de Estado). As demais trocam os adjetivos por qualificações que a lei não usa. Uma só correta."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Art. 17 do CPP veda que a autoridade policial mande arquivar autos de inquérito, sem exceção quanto a comunicação ao MP ou preso solto. a1 confere e os distratores estão corretamente errados."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Descreve corretamente o caráter inquisitivo da investigação, apoiado no art. 14 do CPP (diligências a juízo da autoridade). Acusatória, dispositiva e jurisdicional são impróprias para a fase de inquérito. Conceito consolidado e incontroverso; gabarito a1 confere."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reproduz o art. 155, caput, do CPP (vedação de decisão fundada exclusivamente nos elementos informativos, ressalvadas as provas cautelares, não repetíveis e antecipadas). Os distratores negam a regra. Gabarito confere."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reflete o art. 12 do CPP e o caráter dispensável do inquérito (acompanha a denúncia ou queixa só quando lhe servir de base). Os demais tratam o inquérito como obrigatório ou criam condições inexistentes. Uma só correta."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 transcreve o art. 107 do CPP: não se opõe suspeição à autoridade policial, mas ela deve declarar-se suspeita por motivo legal. a2 e a3 criam a exceção vedada e a arguição pela parte; a4 nega o dever de declarar-se suspeita. Gabarito confere."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 combina corretamente o art. 2º, § 6º (indiciamento privativo e fundamentado) e o § 4º (avocação ou redistribuição por superior hierárquico, com despacho fundamentado) da Lei 12.830/2013. Os distratores transferem o indiciamento ao MP/juiz, dispensam fundamentação ou tornam as atribuições concorrentes. Uma só correta."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reúne o caput do art. 20 (dever de sigilo) e o parágrafo único (vedação de mencionar inquérito nos atestados de antecedentes). Os distratores tornam o sigilo absoluto, exigem autorização judicial prévia ou autorizam o registro de inquéritos no atestado. Gabarito confere."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Verso correto conforme o art. 4º do CPP: o inquérito reúne elementos de materialidade (existência do fato) e autoria. Frente objetiva, resposta única, dispositivo certo, um só conceito."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Verso correto conforme o art. 17 do CPP: a autoridade policial não pode mandar arquivar autos de inquérito. Frente clara, sem ambiguidade, com o dispositivo exato."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Verso correto conforme o art. 155, caput, do CPP: valor relativo dos elementos informativos, ressalvadas as provas cautelares, não repetíveis e antecipadas. Frente única e o dispositivo correto."
+    }
+  ]
+}

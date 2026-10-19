@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvi por conta própria: o art. 13, caput, do CP define causa como a ação ou omissão sem a qual o resultado não teria ocorrido (equivalência dos antecedentes). A alternativa a1 reproduz essa regra, e o acréscimo 'próxima ou remota' é consequência direta da equivalência (todas as condições equivalem). Os três distratores erram por conteúdo: restringir à ação positiva, isolar a condição mais próxima e definir causa pela mera previsibilidade. Fundamento e análise conferem."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 13, § 2º, do CP exige, cumulativamente, dever e poder de agir (devia e podia agir para evitar o resultado), o que a a1 reflete fielmente. Os distratores suprimem um dos requisitos ou inventam hipótese (dever genérico de comunicar) que a lei não prevê. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Questão negativa (NÃO constitui fonte do dever de agir). As três fontes do art. 13, § 2º, alíneas a, b e c estão em a2, a3 e a4; o mero conhecimento do perigo sem vínculo (a1) não é fonte legal do dever. Comando claro, uma única resposta. Fundamento confere."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Caso clássico do art. 13, § 1º: o incêndio no hospital é causa superveniente que, por si só, produziu o resultado, excluindo a imputação da morte; os atos anteriores (lesão) imputam-se ao agente. A a1 aplica corretamente a regra. O termo 'nunca' em a3 está no distrator (errada), sem denunciar a correta. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O salva-vidas assumiu a responsabilidade de impedir o resultado (art. 13, § 2º, b) e podia agir com segurança; sua omissão é relevante e ele responde pela morte (a1). Os distratores restringem o dever à obrigação legal expressa, reduzem a responsabilidade à omissão de socorro ou negam a equiparação entre omissão e ação. Fundamento confere."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O CP adota a equivalência dos antecedentes (art. 13, caput) e o freio ao regresso ao infinito está no elemento subjetivo (dolo ou culpa, art. 18), o que a a1 expressa. Os distratores atribuem ao CP a causalidade adequada, a responsabilidade objetiva como regra ou a teoria da última condição, todos incorretos à luz dos arts. 13 e 18. Fundamento confere."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 19 do CP veda a responsabilidade objetiva no resultado que agrava a pena: só responde quem o causou ao menos culposamente (a1). Os distratores admitem o mero nexo material, exigem dolo necessário ou punem pela previsão sem causação por conduta própria. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A infecção comum ao tratamento está na linha de desdobramento da própria lesão (causa dependente), não é causa que, por si só, produziu o resultado (art. 13, § 1º), de modo que o nexo permanece e o agente responde pela morte (a1). Há dolo de matar, afastando a responsabilidade objetiva. Exemplo doutrinário consolidado. Fundamento confere no art. 13, caput e § 1º."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 integra o art. 13, caput (resultado imputável a quem lhe deu causa) com o art. 18 (dolo ou, nos casos expressos, culpa): a causalidade material sozinha não basta. Os distratores ignoram o art. 18, dispensam a previsão legal da culpa ou negam o dolo eventual (art. 18, I). Uma única resposta defensável. Fundamento confere."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O gerente tem dever de vigilância por força da função (art. 13, § 2º, a); devendo e podendo agir, pode responder pelo resultado (a1). A posição de garantidor não exige parentesco nem condição de agente público, e a omissão relevante não precisa ser a única causa (equivalência dos antecedentes). Gabarito e fundamento conferem."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Frente objetiva e com resposta única; o verso identifica corretamente a teoria da equivalência dos antecedentes (conditio sine qua non) e cita o art. 13, caput, do CP, conforme o texto legal fornecido. Não copia enunciado do lote."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reproduz com fidelidade o art. 13, § 1º: a superveniência de causa relativamente independente que, por si só, produz o resultado exclui a imputação, mas os fatos anteriores imputam-se ao agente. Pergunta precisa, sem ambiguidade."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso traz corretamente o requisito da omissão relevante (devia e podia agir) e as três fontes do dever de agir do art. 13, § 2º, alíneas a, b e c. Conforme o texto legal fornecido, sem ambiguidade."
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Reproduz o art. 13, caput, do CP (equivalência dos antecedentes). A correta define causa como a ação ou omissão sem a qual o resultado não teria ocorrido; o acréscimo 'próxima ou remota' é coerente com a teoria (todas as condições se equivalem). Os distratores erram por restringir à ação positiva, isolar a condição mais próxima ou definir causa pela mera previsibilidade. Uma só correta."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Corresponde ao art. 13, § 2º, do CP: a omissão é relevante quando o omitente devia e podia agir (requisitos cumulativos). Os distratores suprimem o dever, exigem só ciência do risco ou criam dever genérico de comunicar, todos afastados pela letra legal. Uma só correta."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Questão de exclusão bem construída: as alíneas a, b e c do art. 13, § 2º, correspondem a a2, a3 e a4; o mero conhecimento do perigo sem vínculo (a1) não é fonte do dever de agir. Enunciado em maiúscula destaca o NÃO. Uma só correta."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Caso clássico do art. 13, § 1º: incêndio no hospital que por si só produziu a morte é causa relativamente independente superveniente; exclui a imputação da morte, mas os atos anteriores (a lesão) imputam-se ao agente. A correta (a1) aplica corretamente a regra; os distratores imputam a morte, negam qualquer exclusão ou apagam os atos anteriores."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O salva-vidas contratado assumiu a responsabilidade de impedir o resultado (art. 13, § 2º, b); devia e podia agir, logo responde pela morte. A correta está alinhada à lei; os distratores restringem o dever à obrigação legal expressa, limitam a omissão de socorro ou exigem ação positiva, todos errados."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O freio ao regresso ao infinito da equivalência dos antecedentes (art. 13, caput) está no elemento subjetivo, dolo ou culpa (art. 18 e seu parágrafo único). A correta (a1) capta isso; os distratores atribuem à causalidade adequada, à responsabilidade objetiva ou à última condição, todos incompatíveis com o CP. Uma só correta."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Reproduz o art. 19 do CP: pelo resultado que agrava especialmente a pena só responde quem o causou ao menos culposamente (veda a responsabilidade objetiva). A correta usa a fórmula legal 'ao menos culposamente'; os distratores admitem mero nexo material, exigem dolo necessário ou previsão sem causação. Uma só correta."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A infecção comum ao tratamento da lesão está na mesma linha de desdobramento causal e não produziu a morte por si só; não incide a exclusão do art. 13, § 1º, e o agente responde pela morte (art. 13, caput, com dolo de matar). A correta (a1) distingue corretamente a causa que por si só produz o resultado da complicação da própria lesão; os distratores generalizam a causa superveniente, rompem o nexo indevidamente ou invocam responsabilidade objetiva."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Integra o art. 13, caput (causa), com o art. 18 (dolo ou culpa nos casos expressos): a causalidade material sozinha não basta para punir. A correta (a1) está certa; os distratores dispensam o elemento subjetivo, dispensam previsão legal para a culpa ou negam o dolo eventual (art. 18, I, 'assumiu o risco'). Uma só correta."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "normativo",
+          "gravidade": "baixa",
+          "descricao": "O dever do gerente nasce de contrato (assunção da responsabilidade de impedir o resultado), que se enquadra melhor na alínea b do art. 13, § 2º; o comentário e o fundamento_legal apontam a alínea a (obrigação 'por lei' de cuidado, proteção ou vigilância). O gabarito não muda: em qualquer leitura o gerente é garantidor, devia e podia agir e responde pelo resultado."
+        }
+      ],
+      "correcao_sugerida": "No comentario_geral, no fundamento_legal e na lei_referencia, atribuir o dever de agir à alínea b do art. 13, § 2º (de outra forma, assumiu a responsabilidade de impedir o resultado), por ser dever de origem contratual/funcional, ou citar as alíneas a e b em conjunto. A alternativa a1 e os distratores ficam inalterados.",
+      "justificativa": "Gabarito correto: o gerente com dever contratual de vigilância é garantidor (art. 13, § 2º); devendo e podendo agir, pode responder pelo resultado. Os distratores (parentesco, agente público, omissão como causa única) são todos falsos. Ressalva: o comentário enquadra o dever na alínea a, quando o dever contratual se ajusta melhor à alínea b; ajuste pontual no comentário, sem alterar o gabarito."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Verso correto conforme o art. 13, caput, do CP: teoria da equivalência dos antecedentes (conditio sine qua non); causa é a ação ou omissão sem a qual o resultado não teria ocorrido. Frente objetiva, resposta única, dispositivo citado."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Verso correto conforme o art. 13, § 1º, do CP: a superveniência de causa relativamente independente que por si só produz o resultado exclui a imputação, mas os fatos anteriores imputam-se a quem os praticou. Frente clara e sem ambiguidade."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Verso correto conforme o art. 13, § 2º, do CP: omissão relevante quando o omitente devia e podia agir, com as três fontes do dever de agir (alíneas a, b e c) corretamente descritas. Dispositivo citado, resposta única."
+    }
+  ]
+}

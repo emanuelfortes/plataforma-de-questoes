@@ -1,0 +1,752 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Inquérito Policial",
+      "subtema": "Natureza, características e finalidade",
+      "dificuldade": "facil",
+      "enunciado": "Segundo o Código de Processo Penal, a polícia judiciária é exercida pelas autoridades policiais no território de suas respectivas circunscrições. De acordo com a lei, qual é a finalidade dessa atuação?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A apuração das infrações penais e da sua autoria, no território da respectiva circunscrição."
+        },
+        {
+          "id": "a2",
+          "texto": "A aplicação, ao autor da infração apurada, da pena cabível que estiver prevista na legislação penal vigente."
+        },
+        {
+          "id": "a3",
+          "texto": "A formação da culpa do indiciado como fundamento direto da sua futura condenação."
+        },
+        {
+          "id": "a4",
+          "texto": "A fiscalização administrativa das atividades que a lei repute perigosas à coletividade."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 4º do CPP define que a polícia judiciária é exercida pelas autoridades policiais em suas circunscrições e tem por fim a apuração das infrações penais e da sua autoria. A finalidade do inquérito é investigativa: reunir elementos sobre a existência do crime (materialidade) e sobre quem o praticou (autoria). Aplicar pena é função do juiz, no processo; a formação da culpa ocorre em juízo; e a fiscalização administrativa não é a finalidade da polícia judiciária.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz a finalidade do art. 4º do CPP: apuração das infrações penais e da sua autoria."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Aplicar pena é atividade jurisdicional, exercida pelo juiz no processo, não pela polícia judiciária na investigação."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A culpa é formada e reconhecida em juízo; o inquérito apenas apura fatos e autoria, não fixa culpa para condenar."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Fiscalização administrativa de atividades perigosas é função de polícia administrativa, estranha à finalidade investigativa do art. 4º."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 4º, caput.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir a finalidade investigativa (apurar infração e autoria) com a função jurisdicional de aplicar pena ou formar a culpa.",
+      "lei_referencia": "CPP, art. 4º",
+      "macete_do_riccardo": "Polícia judiciária tem dois alvos: o FATO (materialidade) e o AUTOR (autoria). Quem aplica pena é o juiz.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "polícia judiciária",
+        "finalidade",
+        "apuração",
+        "infração penal",
+        "autoria",
+        "art. 4º"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Decreto-Lei 3.689/1941 (CPP) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Inquérito Policial",
+      "subtema": "Natureza, características e finalidade",
+      "dificuldade": "facil",
+      "enunciado": "O Código de Processo Penal estabelece como devem ser documentadas as peças do inquérito policial. Conforme o texto legal, essas peças serão:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "num só processado, reduzidas a escrito ou datilografadas e, neste caso, rubricadas pela autoridade."
+        },
+        {
+          "id": "a2",
+          "texto": "registradas preferencialmente por meio audiovisual, dispensada a redução a termo escrito."
+        },
+        {
+          "id": "a3",
+          "texto": "arquivadas em autos separados conforme a diligência, reunidas apenas ao final da investigação."
+        },
+        {
+          "id": "a4",
+          "texto": "reduzidas a escrito somente quando houver indiciado preso, bastando anotações nos demais casos."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 9º do CPP prevê que todas as peças do inquérito serão, num só processado, reduzidas a escrito ou datilografadas e, neste caso, rubricadas pela autoridade. Daí decorre a característica da forma escrita do inquérito: a investigação se documenta por escrito, em um único conjunto de autos. Não há previsão de registro apenas audiovisual que dispense o escrito, nem de autos separados por diligência, nem de forma escrita restrita aos casos de indiciado preso.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "É a redação do art. 9º do CPP: peças num só processado, reduzidas a escrito ou datilografadas e rubricadas pela autoridade."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O CPP não dispensa a forma escrita em favor de registro apenas audiovisual; a escrita é a forma do inquérito."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 9º exige um só processado; não há reunião apenas ao final de autos separados por diligência."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A forma escrita vale para todo inquérito, não só quando houver indiciado preso."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 9º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Imaginar que o inquérito admite forma apenas verbal ou audiovisual, quando a característica legal é a forma escrita.",
+      "lei_referencia": "CPP, art. 9º",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Forma escrita: tudo em um só processado, reduzido a escrito ou datilografado e rubricado pela autoridade.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "forma escrita",
+        "peças do inquérito",
+        "um só processado",
+        "rubricadas",
+        "art. 9º"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Decreto-Lei 3.689/1941 (CPP) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Inquérito Policial",
+      "subtema": "Natureza, características e finalidade",
+      "dificuldade": "facil",
+      "enunciado": "Sobre a natureza jurídica das funções exercidas pelo delegado de polícia, a Lei 12.830/2013 dispõe que as funções de polícia judiciária e a apuração de infrações penais são de natureza:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "jurídica, essenciais e exclusivas de Estado, conforme a lei."
+        },
+        {
+          "id": "a2",
+          "texto": "administrativa, acessórias e delegáveis a órgãos auxiliares."
+        },
+        {
+          "id": "a3",
+          "texto": "política, discricionárias e concorrentes com o Ministério Público."
+        },
+        {
+          "id": "a4",
+          "texto": "técnica, facultativas e subordinadas ao juízo competente."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 2º da Lei 12.830/2013 afirma que as funções de polícia judiciária e a apuração de infrações penais exercidas pelo delegado de polícia são de natureza jurídica, essenciais e exclusivas de Estado. Essa qualificação reforça o caráter técnico-jurídico da investigação conduzida pelo delegado. As demais alternativas trocam esses adjetivos por qualificações que a lei não usa (administrativa e delegável, política e concorrente, facultativa e subordinada).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "É a redação do art. 2º da Lei 12.830/2013: funções de natureza jurídica, essenciais e exclusivas de Estado."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A lei não qualifica as funções como administrativas, acessórias ou delegáveis a órgãos auxiliares."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A lei fala em exclusividade de Estado, não em função política concorrente com o Ministério Público."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A lei não trata a função como facultativa nem subordinada ao juízo; ela é essencial e exclusiva de Estado."
+        }
+      ],
+      "fundamento_legal": "Lei 12.830/2013, art. 2º, caput.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar a natureza jurídica, essencial e exclusiva de Estado por natureza meramente administrativa ou facultativa.",
+      "lei_referencia": "Lei 12.830/2013, art. 2º",
+      "macete_do_riccardo": "Decore a tríade do delegado: JURÍDICA, ESSENCIAL e EXCLUSIVA de Estado.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "natureza jurídica",
+        "delegado de polícia",
+        "exclusiva de Estado",
+        "Lei 12.830",
+        "polícia judiciária"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 12.830/2013 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Inquérito Policial",
+      "subtema": "Natureza, características e finalidade",
+      "dificuldade": "media",
+      "enunciado": "Durante a tramitação de um inquérito, o delegado conclui que não há base para prosseguir e pretende encerrar a investigação determinando, ele próprio, o arquivamento dos autos. À luz do Código de Processo Penal, essa pretensão:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "não é possível, pois a autoridade policial não poderá mandar arquivar autos de inquérito."
+        },
+        {
+          "id": "a2",
+          "texto": "é possível, desde que a autoridade policial comunique previamente o Ministério Público."
+        },
+        {
+          "id": "a3",
+          "texto": "é possível, por despacho fundamentado da autoridade policial, por falta de base para a denúncia."
+        },
+        {
+          "id": "a4",
+          "texto": "não é possível apenas quando houver indiciado preso, admitindo-se o arquivamento se ele estiver solto."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 17 do CPP é categórico: a autoridade policial não poderá mandar arquivar autos de inquérito. Essa é uma característica importante da investigação: o delegado reúne e documenta os elementos, mas a decisão sobre o destino do inquérito (arquivamento) não lhe cabe. O arquivamento é ordenado em outra esfera, não por despacho do próprio delegado, nem mediante simples comunicação ao Ministério Público, e a vedação não depende de o indiciado estar preso ou solto.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 17 do CPP: a autoridade policial não poderá mandar arquivar autos de inquérito."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A comunicação ao Ministério Público não autoriza o delegado a arquivar; a vedação do art. 17 é absoluta quanto a ele."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A autoridade policial não arquiva por despacho próprio, ainda que motivado por falta de base para a denúncia."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A vedação não varia conforme o indiciado esteja preso ou solto; o delegado nunca manda arquivar o inquérito."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 17.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Supor que o delegado pode arquivar o inquérito por falta de base, bastando motivar o despacho.",
+      "lei_referencia": "CPP, art. 17",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Delegado investiga, mas NÃO arquiva. O arquivamento foge das mãos da autoridade policial.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "arquivamento",
+        "autoridade policial",
+        "vedação",
+        "art. 17",
+        "característica"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Decreto-Lei 3.689/1941 (CPP) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Inquérito Policial",
+      "subtema": "Natureza, características e finalidade",
+      "dificuldade": "media",
+      "enunciado": "Um candidato foi questionado sobre a característica do inquérito policial segundo a qual, em regra, o investigado não exerce contraditório e ampla defesa durante a investigação. Essa característica é melhor descrita como a natureza:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "inquisitiva da investigação, em que a autoridade conduz as diligências sem contraditório."
+        },
+        {
+          "id": "a2",
+          "texto": "acusatória da investigação, com plena igualdade de armas entre a autoridade policial e o investigado."
+        },
+        {
+          "id": "a3",
+          "texto": "dispositiva da investigação, em que as diligências dependem de requerimento prévio das partes para serem realizadas."
+        },
+        {
+          "id": "a4",
+          "texto": "jurisdicional da investigação, submetida à decisão do juiz quanto a cada ato de apuração."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O inquérito é marcado pela característica inquisitiva: a autoridade policial conduz as diligências de apuração sem o contraditório e a ampla defesa que estruturam a fase processual. Isso se reflete no CPP, por exemplo quando o art. 14 permite que o ofendido e o indiciado requeiram diligências, mas deixa a realização a juízo da autoridade. A estrutura acusatória e o contraditório pleno pertencem ao processo; a investigação não é jurisdicional, pois a condução é da polícia judiciária, nem é dispositiva a ponto de depender de requerimento das partes para cada ato.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Descreve corretamente a característica inquisitiva: a autoridade conduz a apuração sem o contraditório da fase processual."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A estrutura acusatória com igualdade de armas é do processo; a investigação não garante contraditório pleno ao investigado."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "As diligências não dependem de requerimento prévio das partes; o art. 14 deixa a realização a juízo da autoridade."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A investigação é conduzida pela polícia judiciária, não submetida à decisão do juiz quanto a cada ato de apuração."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 14.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Atribuir ao inquérito o contraditório e a ampla defesa (estrutura acusatória) próprios da fase processual.",
+      "lei_referencia": "CPP, art. 14",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Caráter inquisitivo: na investigação não há contraditório pleno; o art. 14 deixa as diligências a juízo da autoridade.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "inquisitivo",
+        "contraditório",
+        "ampla defesa",
+        "característica",
+        "art. 14"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Decreto-Lei 3.689/1941 (CPP) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Inquérito Policial",
+      "subtema": "Natureza, características e finalidade",
+      "dificuldade": "media",
+      "enunciado": "Sobre o valor probatório dos elementos colhidos no inquérito policial, o Código de Processo Penal estabelece que o juiz formará sua convicção pela livre apreciação da prova produzida em contraditório judicial. Quanto aos elementos informativos colhidos na investigação, o juiz:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "não poderá fundamentar sua decisão exclusivamente neles, ressalvadas as provas cautelares, não repetíveis e antecipadas."
+        },
+        {
+          "id": "a2",
+          "texto": "poderá fundamentar sua decisão exclusivamente neles, por terem presunção de veracidade decorrente da fé pública da autoridade."
+        },
+        {
+          "id": "a3",
+          "texto": "deverá desconsiderá-los por completo, pois nenhum elemento do inquérito pode ser aproveitado na sentença."
+        },
+        {
+          "id": "a4",
+          "texto": "poderá fundamentar sua decisão neles de forma exclusiva, desde que o indiciado tenha sido ouvido na fase policial."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 155 do CPP fixa o valor probatório relativo do inquérito: o juiz forma sua convicção pela prova produzida em contraditório judicial e não pode fundamentar sua decisão exclusivamente nos elementos informativos colhidos na investigação, salvo as provas cautelares, não repetíveis e antecipadas. Ou seja, o inquérito tem valor informativo, mas não serve, sozinho, para condenar. Não há presunção absoluta de veracidade, nem desconsideração total dos elementos, nem exceção ligada apenas à oitiva do indiciado na fase policial.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 155 do CPP: vedação de decisão fundada exclusivamente nos elementos informativos, ressalvadas as provas cautelares, não repetíveis e antecipadas."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Os elementos do inquérito não têm presunção de veracidade que autorize decisão exclusivamente neles baseada."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O inquérito não é desconsiderado por completo; seus elementos podem compor a convicção junto com a prova judicial."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A oitiva do indiciado na fase policial não transforma os elementos informativos em base exclusiva da decisão."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 155, caput.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Achar que o inquérito tem valor de prova plena e pode, sozinho, fundamentar a condenação.",
+      "lei_referencia": "CPP, art. 155",
+      "macete_do_riccardo": null,
+      "fique_ligado": "O inquérito não condena sozinho: a exceção são as provas cautelares, não repetíveis e antecipadas.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "excecao",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "valor probatório",
+        "elementos informativos",
+        "contraditório judicial",
+        "provas cautelares",
+        "art. 155"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Decreto-Lei 3.689/1941 (CPP) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Inquérito Policial",
+      "subtema": "Natureza, características e finalidade",
+      "dificuldade": "media",
+      "enunciado": "Um escrivão afirma que, por ser mera peça informativa, o inquérito policial precisa necessariamente instruir toda ação penal, sob pena de nulidade. À luz do Código de Processo Penal, essa afirmação está incorreta porque o inquérito:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "acompanhará a denúncia ou queixa sempre que servir de base a uma ou outra, sendo peça dispensável quando não for esse o caso."
+        },
+        {
+          "id": "a2",
+          "texto": "é peça obrigatória e indispensável à ação penal, cuja ausência impede o oferecimento da denúncia ou da queixa."
+        },
+        {
+          "id": "a3",
+          "texto": "somente acompanhará a denúncia quando o indiciado estiver preso, sendo dispensado nos demais casos."
+        },
+        {
+          "id": "a4",
+          "texto": "integra o processo em qualquer hipótese, pois o art. 12 veda o oferecimento de denúncia sem o inquérito concluído."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 12 do CPP prevê que o inquérito acompanhará a denúncia ou queixa sempre que servir de base a uma ou outra. Daí a conclusão clássica: o inquérito é peça dispensável. Se a acusação dispuser de outros elementos suficientes, pode oferecer a denúncia sem o inquérito. A alternativa correta capta esse caráter informativo e dispensável. As demais invertem a regra, tratando o inquérito como obrigatório, ou criam condições (indiciado preso, inquérito concluído) que o art. 12 não estabelece.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reflete o art. 12 do CPP e o caráter dispensável do inquérito: ele acompanha a peça acusatória quando lhe serve de base."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O inquérito é dispensável; sua ausência não impede a denúncia ou queixa quando há outros elementos de base."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 12 não condiciona o acompanhamento do inquérito à prisão do indiciado."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 12 não veda a denúncia sem inquérito concluído; ao contrário, o inquérito só acompanha quando serve de base."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 12.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Tratar o inquérito como peça obrigatória, quando ele é dispensável e só acompanha a acusação quando lhe serve de base.",
+      "lei_referencia": "CPP, art. 12",
+      "macete_do_riccardo": "Inquérito é DISPENSÁVEL: acompanha a denúncia ou queixa só quando servir de base a elas (art. 12).",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "dispensabilidade",
+        "peça informativa",
+        "denúncia",
+        "queixa",
+        "art. 12"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Decreto-Lei 3.689/1941 (CPP) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Inquérito Policial",
+      "subtema": "Natureza, características e finalidade",
+      "dificuldade": "dificil",
+      "enunciado": "A respeito da suspeição e do caráter das atribuições da autoridade policial no inquérito, o Código de Processo Penal determina que:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "não se poderá opor suspeição às autoridades policiais nos atos do inquérito, mas elas deverão declarar-se suspeitas quando ocorrer motivo legal."
+        },
+        {
+          "id": "a2",
+          "texto": "poderá ser oposta exceção de suspeição à autoridade policial, com suspensão do inquérito até a decisão do incidente."
+        },
+        {
+          "id": "a3",
+          "texto": "a suspeição da autoridade policial segue integralmente as regras aplicáveis aos juízes, inclusive quanto ao afastamento imediato do feito e à possibilidade de arguição pela parte interessada."
+        },
+        {
+          "id": "a4",
+          "texto": "a autoridade policial jamais poderá declarar-se suspeita, por ser a investigação procedimento meramente administrativo."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 107 do CPP estabelece que não se poderá opor suspeição às autoridades policiais nos atos do inquérito, mas elas deverão declarar-se suspeitas quando ocorrer motivo legal. A regra tem dois lados: a parte não pode arguir a suspeição por exceção, mas a própria autoridade tem o dever de se declarar suspeita diante de motivo legal. Isso se liga ao caráter inquisitivo da fase: o rigor das regras de suspeição do processo não se transporta integralmente para o inquérito. As demais alternativas criam a exceção que a lei proíbe, equiparam por completo o delegado ao juiz ou negam o dever de a autoridade declarar-se suspeita.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "É a redação do art. 107 do CPP: não se opõe suspeição à autoridade policial, mas ela deve declarar-se suspeita por motivo legal."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A lei veda a oposição de suspeição à autoridade policial; não há exceção que suspenda o inquérito."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A suspeição no inquérito não segue integralmente as regras dos juízes; a parte não pode opô-la à autoridade policial."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 107 impõe à autoridade o dever de declarar-se suspeita quando houver motivo legal; não é algo vedado."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 107.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir a impossibilidade de a parte opor suspeição com a inexistência do dever de a autoridade declarar-se suspeita.",
+      "lei_referencia": "CPP, art. 107",
+      "macete_do_riccardo": null,
+      "fique_ligado": "A parte não OPÕE suspeição ao delegado; mas o delegado DEVE declarar-se suspeito por motivo legal (art. 107).",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "suspeição",
+        "autoridade policial",
+        "motivo legal",
+        "declarar-se suspeita",
+        "art. 107"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Decreto-Lei 3.689/1941 (CPP) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Inquérito Policial",
+      "subtema": "Natureza, características e finalidade",
+      "dificuldade": "dificil",
+      "enunciado": "A Lei 12.830/2013 trata da condução da investigação pelo delegado de polícia. Analise a relação entre o indiciamento e a avocação ou redistribuição do inquérito prevista nessa lei e assinale a opção correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O indiciamento é privativo do delegado, por ato fundamentado; a avocação só ocorre por superior hierárquico, com despacho fundamentado."
+        },
+        {
+          "id": "a2",
+          "texto": "O indiciamento pode ser determinado pelo Ministério Público ou pelo juiz competente; a avocação do inquérito independe de despacho fundamentado do superior hierárquico."
+        },
+        {
+          "id": "a3",
+          "texto": "O indiciamento é ato privativo do delegado, mas dispensa fundamentação expressa; a redistribuição do inquérito pode ser feita por qualquer autoridade de mesma hierarquia."
+        },
+        {
+          "id": "a4",
+          "texto": "O indiciamento e a avocação do inquérito são atribuições concorrentes do delegado e do Ministério Público, feitas de forma independente de motivação."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A Lei 12.830/2013 traz duas garantias importantes. O art. 2º, § 6º, afirma que o indiciamento é privativo do delegado de polícia e se dá por ato fundamentado, com análise técnico-jurídica que indique autoria, materialidade e circunstâncias. Já o art. 2º, § 4º, só admite a avocação ou redistribuição do inquérito por superior hierárquico, mediante despacho fundamentado, por motivo de interesse público ou nas hipóteses de inobservância dos procedimentos. A alternativa correta reúne os dois pontos. As demais erram ao transferir o indiciamento para o MP ou o juiz, dispensar a fundamentação ou tratar essas atribuições como concorrentes e imotivadas.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Combina corretamente o art. 2º, § 6º (indiciamento privativo e fundamentado) e o art. 2º, § 4º (avocação ou redistribuição por superior, com despacho fundamentado) da Lei 12.830/2013."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O indiciamento não cabe ao MP nem ao juiz, e a avocação exige despacho fundamentado do superior hierárquico."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O indiciamento exige ato fundamentado, e a redistribuição só ocorre por superior hierárquico, não por autoridade de mesma hierarquia."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Indiciamento é privativo do delegado e a avocação é do superior; não são atribuições concorrentes nem imotivadas."
+        }
+      ],
+      "fundamento_legal": "Lei 12.830/2013, art. 2º, §§ 4º e 6º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Transferir o indiciamento ao MP ou ao juiz e tratar a avocação do inquérito como ato imotivado.",
+      "lei_referencia": "Lei 12.830/2013, art. 2º, §§ 4º e 6º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Indiciamento é PRIVATIVO do delegado e FUNDAMENTADO; avocar ou redistribuir exige superior hierárquico e despacho fundamentado.",
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "indiciamento",
+        "privativo do delegado",
+        "avocação",
+        "redistribuição",
+        "Lei 12.830",
+        "despacho fundamentado"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 12.830/2013 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Inquérito Policial",
+      "subtema": "Natureza, características e finalidade",
+      "dificuldade": "dificil",
+      "enunciado": "Em um inquérito, o delegado realiza diligências e pretende acautelar o sigilo da investigação. Considerando o Código de Processo Penal, especialmente o dever de assegurar o sigilo e a emissão de atestados de antecedentes, assinale a opção correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A autoridade assegurará o sigilo exigido pelo interesse da sociedade e, nos atestados de antecedentes, não mencionará a instauração de inquérito contra o requerente."
+        },
+        {
+          "id": "a2",
+          "texto": "O sigilo do inquérito é absoluto e oponível inclusive ao juiz e ao Ministério Público, e os atestados de antecedentes devem registrar toda e qualquer instauração de inquérito contra o requerente."
+        },
+        {
+          "id": "a3",
+          "texto": "A autoridade só poderá decretar o sigilo da investigação mediante prévia autorização judicial, e os atestados de antecedentes incluirão os inquéritos que ainda estiverem em andamento contra o requerente."
+        },
+        {
+          "id": "a4",
+          "texto": "O sigilo da investigação é facultativo e, uma vez adotado pela autoridade, autoriza que ela mencione nos atestados de antecedentes qualquer inquérito já instaurado contra o requerente."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "São dois comandos do art. 20 do CPP. O caput diz que a autoridade assegurará no inquérito o sigilo necessário à elucidação do fato ou exigido pelo interesse da sociedade. O parágrafo único veda que, nos atestados de antecedentes solicitados, a autoridade policial mencione anotações referentes a instauração de inquérito contra os requerentes. A alternativa correta reúne os dois pontos. As demais erram ao tornar o sigilo absoluto e oponível ao juiz e ao MP, exigir autorização judicial prévia para o sigilo ou autorizar o registro de inquéritos nos atestados de antecedentes.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reúne o caput do art. 20 (dever de sigilo) e o seu parágrafo único (vedação de mencionar inquérito nos atestados de antecedentes)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O sigilo do inquérito não é oponível ao juiz nem ao MP, e os atestados não registram a instauração de inquérito contra o requerente."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 20 não exige autorização judicial prévia para o sigilo, e o atestado não inclui inquéritos em andamento contra o requerente."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A adoção do sigilo não autoriza mencionar inquéritos nos atestados; o parágrafo único veda essa menção."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 20, caput e parágrafo único.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Tratar o sigilo do inquérito como absoluto, oponível ao juiz e ao MP, e permitir a menção de inquéritos nos atestados de antecedentes.",
+      "lei_referencia": "CPP, art. 20",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Atestado de antecedentes não menciona inquérito contra o requerente (art. 20, parágrafo único).",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "excecao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "sigilo",
+        "atestado de antecedentes",
+        "interesse da sociedade",
+        "característica",
+        "art. 20"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Decreto-Lei 3.689/1941 (CPP) fornecido no contexto"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "subtema": "Natureza, características e finalidade",
+      "frente": "O que o inquérito policial busca reunir sobre o crime investigado, em termos de materialidade e de responsável?",
+      "verso": "Elementos sobre a existência do fato (materialidade) e sobre quem o praticou (autoria). Art. 4º do CPP: a polícia judiciária tem por fim a apuração das infrações penais e da sua autoria.",
+      "fundamento_legal": "CPP, art. 4º, caput.",
+      "lei_referencia": "CPP, art. 4º",
+      "palavras_chave": [
+        "polícia judiciária",
+        "finalidade",
+        "infração penal",
+        "autoria"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f02",
+      "subtema": "Natureza, características e finalidade",
+      "frente": "O inquérito policial pode ser arquivado por decisão da própria autoridade policial?",
+      "verso": "Não. Art. 17 do CPP: a autoridade policial não poderá mandar arquivar autos de inquérito. O delegado conduz a investigação, mas o arquivamento não é decidido por ele.",
+      "fundamento_legal": "CPP, art. 17.",
+      "lei_referencia": "CPP, art. 17",
+      "palavras_chave": [
+        "arquivamento",
+        "autoridade policial",
+        "vedação"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f03",
+      "subtema": "Natureza, características e finalidade",
+      "frente": "Qual é o valor probatório dos elementos colhidos no inquérito policial para a decisão do juiz?",
+      "verso": "Valor relativo: o juiz não pode fundamentar a decisão exclusivamente nos elementos informativos da investigação, ressalvadas as provas cautelares, não repetíveis e antecipadas. Art. 155 do CPP. A convicção se forma pela prova produzida em contraditório judicial.",
+      "fundamento_legal": "CPP, art. 155, caput.",
+      "lei_referencia": "CPP, art. 155",
+      "palavras_chave": [
+        "valor probatório",
+        "elementos informativos",
+        "provas cautelares",
+        "contraditório"
+      ],
+      "cita_jurisprudencia": false
+    }
+  ]
+}

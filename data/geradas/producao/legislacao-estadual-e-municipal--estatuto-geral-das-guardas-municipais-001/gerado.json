@@ -1,0 +1,758 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Estatuto Geral das Guardas Municipais",
+      "subtema": "Disposições preliminares e natureza das guardas",
+      "dificuldade": "facil",
+      "enunciado": "A Lei nº 13.022/2014 institui normas gerais para as guardas municipais. Acerca da natureza e da função dessas instituições, assinale a opção correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "As guardas municipais são instituições de caráter civil, uniformizadas e armadas conforme previsto em lei, incumbidas da proteção municipal preventiva, ressalvadas as competências da União, dos Estados e do Distrito Federal."
+        },
+        {
+          "id": "a2",
+          "texto": "As guardas municipais são instituições de caráter militar, uniformizadas e armadas conforme previsto em lei, incumbidas da proteção municipal repressiva, ressalvadas as competências da União e dos Estados em matéria de trânsito."
+        },
+        {
+          "id": "a3",
+          "texto": "As guardas municipais são instituições de caráter civil, uniformizadas e desarmadas em regra, incumbidas do policiamento ostensivo municipal, ressalvadas as competências da União, dos Estados e dos Municípios vizinhos."
+        },
+        {
+          "id": "a4",
+          "texto": "As guardas municipais são instituições de caráter civil, uniformizadas e armadas conforme previsto em lei, incumbidas da proteção municipal preventiva, sem ressalva das competências dos demais entes federativos."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 2º da Lei 13.022/2014 define as guardas municipais como instituições de caráter civil, uniformizadas e armadas conforme previsto em lei, às quais incumbe a função de proteção municipal preventiva, ressalvadas as competências da União, dos Estados e do Distrito Federal. Guarde dois pontos: a natureza é civil (nunca militar) e a atuação típica é preventiva. A ressalva das competências dos demais entes é parte do dispositivo e não pode ser suprimida.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 2º: caráter civil, uniformizadas e armadas conforme a lei, proteção municipal preventiva e a ressalva das competências da União, dos Estados e do Distrito Federal."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Erra ao afirmar caráter militar (a lei diz civil) e proteção repressiva (a lei fala em preventiva), além de restringir indevidamente a ressalva ao trânsito."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Afirma que a guarda é desarmada em regra e que exerce policiamento ostensivo, quando o art. 2º prevê instituição armada conforme a lei e função preventiva, não ostensiva."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Suprime a ressalva das competências da União, dos Estados e do Distrito Federal, parte expressa do art. 2º que delimita a atuação da guarda."
+        }
+      ],
+      "fundamento_legal": "Lei 13.022/2014, art. 2º",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar o caráter civil por militar ou a função preventiva por repressiva/ostensiva.",
+      "lei_referencia": "Lei 13.022/2014, art. 2º",
+      "macete_do_riccardo": "Guarda municipal é CIVIL e PREVENTIVA: natureza civil e proteção municipal preventiva, nunca militar nem repressiva.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "caráter civil",
+        "proteção municipal preventiva",
+        "armadas conforme a lei",
+        "ressalva de competências"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 13.022/2014 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Estatuto Geral das Guardas Municipais",
+      "subtema": "Princípios mínimos de atuação",
+      "dificuldade": "facil",
+      "enunciado": "Conforme o art. 3º da Lei nº 13.022/2014, que trata dos princípios mínimos de atuação das guardas municipais, assinale a opção que apresenta um desses princípios.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O uso progressivo da força, ao lado do patrulhamento preventivo e da preservação da vida, com redução do sofrimento e diminuição das perdas."
+        },
+        {
+          "id": "a2",
+          "texto": "O uso imediato da força letal, ao lado do patrulhamento repressivo e da priorização da autoridade, com redução do sofrimento e diminuição das perdas."
+        },
+        {
+          "id": "a3",
+          "texto": "A supremacia do interesse militar, ao lado do patrulhamento ostensivo e da hierarquia castrense, com redução do sofrimento e diminuição das perdas."
+        },
+        {
+          "id": "a4",
+          "texto": "A subordinação ao comando estadual, ao lado do patrulhamento concorrente e da fiscalização de trânsito, com redução do sofrimento e diminuição das perdas."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 3º lista cinco princípios mínimos de atuação: proteção dos direitos humanos fundamentais, do exercício da cidadania e das liberdades públicas; preservação da vida, redução do sofrimento e diminuição das perdas; patrulhamento preventivo; compromisso com a evolução social da comunidade; e uso progressivo da força. O examinador costuma trocar 'uso progressivo da força' por 'uso imediato da força letal' e 'patrulhamento preventivo' por repressivo ou ostensivo. Como a instituição é civil, não há hierarquia militar nem subordinação a comando estadual entre os princípios.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reúne princípios expressos no art. 3º: uso progressivo da força, patrulhamento preventivo e preservação da vida com redução do sofrimento e diminuição das perdas."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Troca o uso progressivo da força pelo uso imediato de força letal e o patrulhamento preventivo pelo repressivo, contrariando os incisos III e V do art. 3º."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Invoca interesse militar e hierarquia castrense, incompatíveis com a natureza civil da guarda e ausentes do rol de princípios do art. 3º."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Aponta subordinação ao comando estadual e fiscalização de trânsito como princípios, mas o art. 3º não os contempla; a guarda é subordinada ao chefe do Executivo municipal."
+        }
+      ],
+      "fundamento_legal": "Lei 13.022/2014, art. 3º, III e V",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar 'uso progressivo da força' por 'uso imediato da força letal' e 'patrulhamento preventivo' por repressivo.",
+      "lei_referencia": "Lei 13.022/2014, art. 3º",
+      "macete_do_riccardo": null,
+      "fique_ligado": "O uso da força é PROGRESSIVO e o patrulhamento é PREVENTIVO: palavras no superlativo (imediato, letal, repressivo) costumam marcar o distrator.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "princípios mínimos",
+        "uso progressivo da força",
+        "patrulhamento preventivo",
+        "preservação da vida"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 13.022/2014 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Estatuto Geral das Guardas Municipais",
+      "subtema": "Criação e subordinação",
+      "dificuldade": "facil",
+      "enunciado": "De acordo com a Lei nº 13.022/2014, a respeito da criação da guarda municipal e de sua subordinação, assinale a opção correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O Município pode criar, por lei, sua guarda municipal, que fica subordinada ao chefe do Poder Executivo municipal."
+        },
+        {
+          "id": "a2",
+          "texto": "O Município pode criar, por decreto, sua guarda municipal, que fica subordinada ao presidente da Câmara Municipal de Vereadores."
+        },
+        {
+          "id": "a3",
+          "texto": "O Município pode criar, por lei, sua guarda municipal, que fica subordinada ao comandante da Polícia Militar do Estado respectivo."
+        },
+        {
+          "id": "a4",
+          "texto": "O Estado pode criar, por lei, a guarda de cada Município, que fica subordinada ao secretário estadual de segurança pública."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Pelos arts. 6º e seu parágrafo único, o Município pode criar, por lei, sua guarda municipal, que é subordinada ao chefe do Poder Executivo municipal, ou seja, ao prefeito. Dois erros comuns: dizer que a criação se dá por decreto (a lei exige lei em sentido formal) e deslocar a subordinação para a Câmara, para a Polícia Militar estadual ou para o Estado. A iniciativa é do próprio Município.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 6º e seu parágrafo único: criação por lei pelo Município e subordinação ao chefe do Poder Executivo municipal."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Erra ao exigir decreto (a lei pede lei) e ao subordinar a guarda à Câmara Municipal, que exerce o Legislativo, não o Executivo."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Subordina a guarda ao comando da Polícia Militar, mas o parágrafo único do art. 6º a vincula ao chefe do Executivo municipal."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Atribui a criação ao Estado; o art. 6º reserva ao Município a faculdade de criar, por lei, sua guarda."
+        }
+      ],
+      "fundamento_legal": "Lei 13.022/2014, art. 6º e parágrafo único",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar lei por decreto ou a subordinação ao prefeito pela Câmara ou pela Polícia Militar.",
+      "lei_referencia": "Lei 13.022/2014, art. 6º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "A criação é POR LEI e a subordinação é ao chefe do Executivo municipal: desconfie de 'decreto' e de subordinação à Câmara ou à PM.",
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "criação por lei",
+        "subordinação",
+        "chefe do Executivo municipal"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 13.022/2014 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Estatuto Geral das Guardas Municipais",
+      "subtema": "Competências específicas",
+      "dificuldade": "media",
+      "enunciado": "Em patrulhamento, um guarda municipal depara-se com um indivíduo em flagrante delito de furto a um prédio público do Município. Considerando as competências específicas previstas no art. 5º da Lei nº 13.022/2014, qual providência está prevista na lei?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Encaminhar o autor da infração ao delegado de polícia, preservando o local do crime, quando possível e sempre que necessário."
+        },
+        {
+          "id": "a2",
+          "texto": "Conduzir o autor diretamente ao juízo criminal competente, lavrando ele próprio o auto de prisão em flagrante delito."
+        },
+        {
+          "id": "a3",
+          "texto": "Instaurar inquérito policial sobre o fato, requisitando perícia e ouvindo testemunhas antes de qualquer encaminhamento."
+        },
+        {
+          "id": "a4",
+          "texto": "Aguardar a chegada da Polícia Militar estadual, vedado à guarda municipal qualquer contato com o autor do flagrante."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 5º, XIV, prevê que cabe à guarda municipal encaminhar ao delegado de polícia, diante de flagrante delito, o autor da infração, preservando o local do crime, quando possível e sempre que necessário. A guarda não lavra auto de prisão em flagrante nem instaura inquérito, atos próprios da autoridade policial (delegado). Tampouco lhe é vedado agir: ela encaminha o autor à autoridade competente. Observe ainda que, pelo parágrafo único do art. 5º, se comparecer órgão do art. 144 da CF, a guarda deve prestar todo o apoio à continuidade do atendimento.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 5º, XIV: encaminhar o autor ao delegado de polícia, preservando o local do crime, quando possível e sempre que necessário."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A lavratura do auto de prisão em flagrante cabe à autoridade policial; a guarda encaminha o autor ao delegado, não ao juízo diretamente."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A instauração de inquérito e a presidência das investigações competem ao delegado de polícia, não à guarda municipal."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Não há vedação ao contato com o autor; o art. 5º, XIV, impõe justamente o encaminhamento ao delegado diante do flagrante."
+        }
+      ],
+      "fundamento_legal": "Lei 13.022/2014, art. 5º, XIV",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir o encaminhamento ao delegado com a lavratura de flagrante ou a instauração de inquérito pela própria guarda.",
+      "lei_referencia": "Lei 13.022/2014, art. 5º, XIV",
+      "macete_do_riccardo": null,
+      "fique_ligado": "A guarda ENCAMINHA o autor ao delegado e preserva o local: não lavra flagrante nem instaura inquérito.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "flagrante delito",
+        "encaminhar ao delegado",
+        "preservar o local do crime"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 13.022/2014 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Estatuto Geral das Guardas Municipais",
+      "subtema": "Requisitos para investidura",
+      "dificuldade": "media",
+      "enunciado": "Acerca dos requisitos básicos para investidura em cargo público na guarda municipal, previstos no art. 10 da Lei nº 13.022/2014, assinale a opção correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Exige-se nível médio completo de escolaridade e idade mínima de 18 anos, entre outros requisitos, podendo a lei municipal estabelecer requisitos adicionais."
+        },
+        {
+          "id": "a2",
+          "texto": "Exige-se nível superior completo de escolaridade e idade mínima de 21 anos, entre outros requisitos, vedado à lei municipal estabelecer requisitos adicionais."
+        },
+        {
+          "id": "a3",
+          "texto": "Exige-se nível fundamental completo de escolaridade e idade mínima de 18 anos, entre outros requisitos, podendo a lei municipal reduzir a escolaridade exigida."
+        },
+        {
+          "id": "a4",
+          "texto": "Exige-se nível médio completo de escolaridade e idade mínima de 21 anos, entre outros requisitos, podendo a lei municipal dispensar a investigação social."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 10 lista como requisitos básicos, entre outros, o nível médio completo de escolaridade (inciso IV) e a idade mínima de 18 anos (inciso V). O parágrafo único permite que a lei municipal estabeleça outros requisitos, mas essa abertura é para acrescentar, não para reduzir os patamares da lei federal. As bancas costumam elevar a escolaridade para nível superior, mudar a idade para 21 anos ou afirmar que a lei municipal pode dispensar exigências como a investigação social (inciso VII).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 10, IV e V, e ao parágrafo único: nível médio completo, idade mínima de 18 anos e possibilidade de a lei municipal fixar outros requisitos."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Eleva a escolaridade para nível superior e a idade para 21 anos, contrariando os incisos IV e V do art. 10."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Rebaixa a escolaridade para nível fundamental e sugere redução pela lei municipal, mas o inciso IV exige nível médio completo."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Fixa idade mínima de 21 anos e admite dispensa da investigação social, mas a idade é de 18 anos (inciso V) e a idoneidade comprovada por investigação social consta do inciso VII."
+        }
+      ],
+      "fundamento_legal": "Lei 13.022/2014, art. 10, IV, V e VII, e parágrafo único",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar nível médio por superior, a idade de 18 por 21 anos ou admitir dispensa de requisitos pela lei municipal.",
+      "lei_referencia": "Lei 13.022/2014, art. 10",
+      "macete_do_riccardo": "Investidura: nível MÉDIO completo e 18 anos. A lei municipal só ACRESCENTA requisitos, nunca abaixa.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "investidura",
+        "nível médio",
+        "idade mínima de 18 anos",
+        "lei municipal"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 13.022/2014 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Estatuto Geral das Guardas Municipais",
+      "subtema": "Controle interno e externo",
+      "dificuldade": "media",
+      "enunciado": "Sobre o controle do funcionamento das guardas municipais, disciplinado no art. 13 da Lei nº 13.022/2014, assinale a opção correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O controle externo é exercido por ouvidoria, independente em relação à direção da guarda, qualquer que seja o número de servidores da guarda municipal."
+        },
+        {
+          "id": "a2",
+          "texto": "O controle externo é exercido por corregedoria, subordinada à direção da guarda, apenas nas guardas com mais de cinquenta servidores."
+        },
+        {
+          "id": "a3",
+          "texto": "O controle interno é exercido por ouvidoria, naquelas com efetivo superior a cem servidores da guarda, dispensado nas guardas municipais que não utilizam arma de fogo em suas atividades cotidianas."
+        },
+        {
+          "id": "a4",
+          "texto": "O controle externo é exercido por ouvidoria vinculada à direção da guarda, cabível somente nas guardas que utilizam arma de fogo."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 13 prevê dois controles. O interno é exercido por corregedoria, naquelas com efetivo superior a 50 servidores da guarda e em todas as que utilizam arma de fogo (inciso I). O externo é exercido por ouvidoria, independente em relação à direção da respectiva guarda, qualquer que seja o número de servidores (inciso II). Fixe a divisão: corregedoria = controle interno (com limiar de efetivo ou uso de arma); ouvidoria = controle externo, independente da direção e sem condicionamento ao número de servidores.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 13, II: ouvidoria como controle externo, independente em relação à direção da guarda e cabível qualquer que seja o número de servidores."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Confunde os institutos: o controle externo é por ouvidoria, não corregedoria, e esta não é subordinada à direção nem se limita ao controle externo."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Atribui o controle interno à ouvidoria e fixa limiar de cem servidores; o interno é por corregedoria, com efetivo superior a 50 ou uso de arma de fogo."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A ouvidoria é independente da direção, não vinculada a ela, e o controle externo não se restringe às guardas que usam arma de fogo."
+        }
+      ],
+      "fundamento_legal": "Lei 13.022/2014, art. 13, I e II",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar corregedoria (interno) por ouvidoria (externo) ou condicionar o controle externo ao efetivo ou ao uso de arma.",
+      "lei_referencia": "Lei 13.022/2014, art. 13",
+      "macete_do_riccardo": "Corregedoria é de Casa (controle Interno); Ouvidoria Ouve de fora (controle Externo), independente e para qualquer efetivo.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "controle interno",
+        "controle externo",
+        "corregedoria",
+        "ouvidoria"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 13.022/2014 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Estatuto Geral das Guardas Municipais",
+      "subtema": "Prerrogativas e porte de arma",
+      "dificuldade": "media",
+      "enunciado": "A respeito do porte de arma de fogo dos guardas municipais, nos termos do art. 16 da Lei nº 13.022/2014, assinale a opção correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "É autorizado o porte de arma de fogo conforme previsto em lei, suspendendo-se esse direito em razão de restrição médica, decisão judicial ou justificativa da adoção da medida pelo respectivo dirigente."
+        },
+        {
+          "id": "a2",
+          "texto": "É autorizado o porte de arma de fogo em qualquer hipótese, independentemente de previsão em lei, não se admitindo suspensão desse direito por restrição médica ou decisão judicial."
+        },
+        {
+          "id": "a3",
+          "texto": "É autorizado o porte de arma de fogo conforme previsto em lei, mas a suspensão desse direito depende sempre de prévia autorização da Câmara Municipal por maioria absoluta."
+        },
+        {
+          "id": "a4",
+          "texto": "É vedado o porte de arma de fogo aos guardas municipais, salvo convênio com a Polícia Militar estadual que autorize o uso compartilhado do armamento."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 16, caput, autoriza aos guardas municipais o porte de arma de fogo conforme previsto em lei. O parágrafo único prevê três hipóteses de suspensão desse direito: restrição médica, decisão judicial ou justificativa da adoção da medida pelo respectivo dirigente. Perceba que o porte não é incondicionado: depende de previsão legal e admite suspensão. Não há previsão de autorização da Câmara para suspender o porte (esse quórum do art. 13, § 2º, refere-se à perda do mandato de corregedores e ouvidores).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 16, caput e parágrafo único: porte conforme a lei e suspensão por restrição médica, decisão judicial ou justificativa do dirigente."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O porte depende de previsão legal e admite suspensão; não é incondicionado nem imune a restrição médica ou decisão judicial."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A suspensão do porte não exige deliberação da Câmara; o quórum de maioria absoluta refere-se à perda do mandato de corregedores e ouvidores (art. 13, § 2º)."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Não há vedação ao porte; o art. 16 o autoriza conforme a lei, sem exigir convênio com a Polícia Militar."
+        }
+      ],
+      "fundamento_legal": "Lei 13.022/2014, art. 16, caput e parágrafo único",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Apresentar o porte como incondicionado e insuscetível de suspensão, ou exigir autorização da Câmara para suspendê-lo.",
+      "lei_referencia": "Lei 13.022/2014, art. 16",
+      "macete_do_riccardo": null,
+      "fique_ligado": "O porte suspende-se por três motivos: restrição Médica, Decisão judicial ou justificativa do Dirigente (M-D-D).",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "porte de arma de fogo",
+        "suspensão do porte",
+        "restrição médica",
+        "decisão judicial"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 13.022/2014 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Estatuto Geral das Guardas Municipais",
+      "subtema": "Limites de efetivo",
+      "dificuldade": "dificil",
+      "enunciado": "Um Município com população de 600.000 habitantes pretende dimensionar o efetivo máximo de sua guarda municipal. À luz dos limites do art. 7º da Lei nº 13.022/2014, qual é o teto percentual aplicável e qual a ressalva que o acompanha?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O efetivo não pode superar 0,2% da população, desde que não seja inferior ao limite previsto para os Municípios da faixa imediatamente anterior."
+        },
+        {
+          "id": "a2",
+          "texto": "O efetivo não pode superar 0,3% da população, desde que não seja inferior ao limite previsto para os Municípios de até cinquenta mil habitantes."
+        },
+        {
+          "id": "a3",
+          "texto": "O efetivo não pode superar 0,4% da população, sem qualquer ressalva, por se tratar da faixa de maior população do dispositivo legal."
+        },
+        {
+          "id": "a4",
+          "texto": "O efetivo não pode superar 0,1% da população, desde que respeitado o piso de servidores fixado livremente pela lei orçamentária municipal de cada exercício financeiro."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 7º escalona o teto de efetivo em três faixas: 0,4% até 50 mil habitantes (I); 0,3% entre mais de 50 mil e menos de 500 mil (II), desde que não inferior ao do inciso I; e 0,2% acima de 500 mil habitantes (III), desde que não inferior ao do inciso II. Para 600 mil habitantes, aplica-se o inciso III: teto de 0,2%, com a ressalva de que o efetivo não pode ser inferior ao do inciso II. Ou seja, quanto maior a população, menor o percentual, mas há um piso de garantia tomado da faixa anterior. Não existe faixa de 0,1%.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Para mais de 500 mil habitantes incide o inciso III: 0,2% da população, desde que o efetivo não seja inferior ao do inciso II (a faixa anterior)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "0,3% é o teto do inciso II (mais de 50 mil e menos de 500 mil); não se aplica a Município com 600 mil habitantes."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "0,4% é o teto do inciso I (até 50 mil habitantes); além disso, há ressalva de piso, e a faixa de maior população é a de menor percentual."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Não existe limite de 0,1% no art. 7º; os pisos decorrem das faixas do próprio dispositivo, não da lei orçamentária."
+        }
+      ],
+      "fundamento_legal": "Lei 13.022/2014, art. 7º, III",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Inverter o escalonamento (mais população, mais percentual) ou ignorar o piso tomado da faixa anterior.",
+      "lei_referencia": "Lei 13.022/2014, art. 7º",
+      "macete_do_riccardo": "Quanto MAIOR a população, MENOR o percentual: 0,4% (até 50 mil), 0,3% (50 mil a 500 mil) e 0,2% (mais de 500 mil), sempre com piso da faixa anterior.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "limites de efetivo",
+        "percentual da população",
+        "faixas de habitantes",
+        "piso da faixa anterior"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 13.022/2014 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Estatuto Geral das Guardas Municipais",
+      "subtema": "Prerrogativas, vedações e cargos em comissão",
+      "dificuldade": "dificil",
+      "enunciado": "Considerando as prerrogativas, as vedações e o provimento de cargos em comissão nas guardas municipais, nos termos da Lei nº 13.022/2014, assinale a opção correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Os cargos em comissão devem ser providos por membros efetivos do quadro de carreira, mas, nos primeiros quatro anos de funcionamento, a guarda pode ser dirigida por profissional estranho a seus quadros."
+        },
+        {
+          "id": "a2",
+          "texto": "Os cargos em comissão podem ser providos por qualquer cidadão, admitindo-se denominação de postos e graduações idêntica à das forças militares quando houver experiência em segurança."
+        },
+        {
+          "id": "a3",
+          "texto": "Os cargos em comissão devem ser providos por membros efetivos do quadro, sendo vedada, em qualquer hipótese, a direção da guarda por profissional estranho aos seus quadros."
+        },
+        {
+          "id": "a4",
+          "texto": "Os cargos em comissão podem ser providos por militares da reserva, podendo a guarda adotar regulamentos disciplinares de natureza militar enquanto durar a fase de implantação."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 15, caput, exige que os cargos em comissão sejam providos por membros efetivos do quadro de carreira do órgão. O § 1º abre exceção: nos primeiros 4 anos de funcionamento, a guarda pode ser dirigida por profissional estranho a seus quadros, preferencialmente com experiência ou formação em segurança ou defesa social. Lembre que o art. 19 veda denominação idêntica à das forças militares (postos, graduações, títulos, uniformes etc.) e o parágrafo único do art. 14 proíbe sujeitar a guarda a regulamentos disciplinares de natureza militar. Por isso as alternativas que admitem denominação militar ou direção por qualquer cidadão sem a ressalva temporal estão erradas.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Combina o art. 15, caput (cargos em comissão por membros efetivos), com a exceção do § 1º: direção por profissional estranho nos primeiros quatro anos de funcionamento."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O caput do art. 15 não admite provimento por qualquer cidadão, e o art. 19 veda denominação de postos e graduações idêntica à das forças militares."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Ignora a exceção do § 1º do art. 15, que permite, nos primeiros quatro anos, a direção por profissional estranho aos quadros."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O parágrafo único do art. 14 proíbe regulamentos disciplinares de natureza militar; não há previsão de provimento reservado a militares da reserva."
+        }
+      ],
+      "fundamento_legal": "Lei 13.022/2014, art. 15, caput e § 1º; art. 14, parágrafo único; art. 19",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Esquecer a exceção dos quatro anos iniciais ou admitir denominação e disciplina de natureza militar.",
+      "lei_referencia": "Lei 13.022/2014, art. 15",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Regra: cargos em comissão para efetivos de carreira. Exceção: nos 4 primeiros anos, dirigente pode ser de fora.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "excecao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "cargos em comissão",
+        "membros efetivos",
+        "quatro anos de funcionamento",
+        "vedação militar"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 13.022/2014 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Estatuto Geral das Guardas Municipais",
+      "subtema": "Uso compartilhado, formação e disposições transitórias",
+      "dificuldade": "dificil",
+      "enunciado": "Sobre o uso compartilhado dos serviços da guarda, a formação dos integrantes e as disposições transitórias da Lei nº 13.022/2014, assinale a opção correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Municípios limítrofes podem, mediante consórcio público, utilizar reciprocamente os serviços da guarda de maneira compartilhada, e o órgão estadual de formação não pode ser o mesmo destinado a forças militares."
+        },
+        {
+          "id": "a2",
+          "texto": "Municípios limítrofes podem, mediante simples ato do prefeito, incorporar definitivamente a guarda vizinha ao seu quadro, e o órgão estadual de formação pode ser o mesmo destinado a forças militares, por economia de recursos."
+        },
+        {
+          "id": "a3",
+          "texto": "Municípios limítrofes podem, mediante consórcio público, utilizar reciprocamente os serviços da guarda, mas as guardas existentes na publicação da lei estão dispensadas de qualquer prazo de adaptação."
+        },
+        {
+          "id": "a4",
+          "texto": "Municípios limítrofes só podem compartilhar serviços de guarda por autorização do governo estadual, e o órgão de formação deve, obrigatoriamente, ser mantido por cada Município isoladamente."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A alternativa correta reúne três regras do Estatuto. O art. 8º permite que Municípios limítrofes, mediante consórcio público, utilizem reciprocamente os serviços da guarda de maneira compartilhada. O art. 12, § 2º, admite órgão estadual de formação por convênio, mas o § 3º proíbe que esse órgão seja o mesmo destinado a formação, treinamento ou aperfeiçoamento de forças militares. Já o art. 22 determina que as guardas existentes na data de publicação devem adaptar-se às disposições da lei no prazo de 2 anos, afastando a ideia de dispensa de adaptação.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reúne o art. 8º (uso compartilhado por consórcio público) e o art. 12, § 3º (o órgão de formação não pode ser o mesmo das forças militares)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O compartilhamento exige consórcio público, não ato do prefeito, e o § 3º do art. 12 proíbe que o órgão de formação seja o mesmo das forças militares."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 22 impõe adaptação das guardas existentes no prazo de 2 anos; não há dispensa de prazo de adaptação."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 8º dispensa autorização estadual para o consórcio entre Municípios, e o art. 12 faculta, não obriga, a manutenção isolada de órgão de formação por cada Município."
+        }
+      ],
+      "fundamento_legal": "Lei 13.022/2014, art. 8º; art. 12, §§ 2º e 3º; art. 22",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "O art. 22 fixa prazo de 2 anos, contado da publicação da lei (2014), para adaptação das guardas então existentes.",
+      "pegadinha": "Admitir compartilhamento por ato do prefeito, órgão de formação comum com forças militares ou dispensa do prazo de adaptação.",
+      "lei_referencia": "Lei 13.022/2014, art. 8º e art. 12",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Compartilhar guarda entre Municípios exige CONSÓRCIO PÚBLICO; e o órgão de formação jamais é o mesmo das forças militares.",
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "consórcio público",
+        "uso compartilhado",
+        "órgão de formação",
+        "prazo de adaptação"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 13.022/2014 fornecido no contexto"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "subtema": "Natureza e função da guarda municipal",
+      "frente": "Qual é a natureza jurídica das guardas municipais e que tipo de proteção lhes incumbe, segundo a Lei nº 13.022/2014?",
+      "verso": "São instituições de caráter civil, uniformizadas e armadas conforme previsto em lei, incumbidas da proteção municipal preventiva, ressalvadas as competências da União, dos Estados e do Distrito Federal (art. 2º da Lei 13.022/2014).",
+      "fundamento_legal": "Lei 13.022/2014, art. 2º",
+      "lei_referencia": "Lei 13.022/2014, art. 2º",
+      "palavras_chave": [
+        "caráter civil",
+        "proteção preventiva",
+        "armadas conforme a lei"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f02",
+      "subtema": "Controle interno e externo",
+      "frente": "Na Lei nº 13.022/2014, quais órgãos exercem o controle interno e o controle externo das guardas municipais?",
+      "verso": "Controle interno pela corregedoria (nas guardas com efetivo superior a 50 servidores e em todas as que usam arma de fogo) e controle externo pela ouvidoria, independente da direção, qualquer que seja o número de servidores (art. 13, I e II, da Lei 13.022/2014).",
+      "fundamento_legal": "Lei 13.022/2014, art. 13, I e II",
+      "lei_referencia": "Lei 13.022/2014, art. 13",
+      "palavras_chave": [
+        "corregedoria",
+        "ouvidoria",
+        "controle interno",
+        "controle externo"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f03",
+      "subtema": "Limites de efetivo",
+      "frente": "Quais são os percentuais máximos de efetivo das guardas municipais conforme a população, na Lei nº 13.022/2014?",
+      "verso": "0,4% da população em Municípios com até 50 mil habitantes; 0,3% entre mais de 50 mil e menos de 500 mil; e 0,2% acima de 500 mil habitantes, sempre com piso não inferior ao da faixa anterior (art. 7º, I a III, da Lei 13.022/2014).",
+      "fundamento_legal": "Lei 13.022/2014, art. 7º, I a III",
+      "lei_referencia": "Lei 13.022/2014, art. 7º",
+      "palavras_chave": [
+        "efetivo máximo",
+        "percentual da população",
+        "faixas de habitantes"
+      ],
+      "cita_jurisprudencia": false
+    }
+  ],
+  "observacoes_do_lote": "Todas as questões e flashcards baseiam-se exclusivamente no texto compilado da Lei 13.022/2014 fornecido no contexto. Evitou-se construir questões sobre a interpretação da ADPF 995 (vide anotado no art. 4º), por não estar na lista de jurisprudência fornecida; as questões cobram a letra vigente da lei."
+}

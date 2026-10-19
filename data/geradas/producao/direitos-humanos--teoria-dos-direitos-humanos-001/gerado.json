@@ -1,0 +1,770 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Dignidade da pessoa humana como fundamento da República",
+      "dificuldade": "facil",
+      "enunciado": "A Constituição Federal de 1988, logo em seu art. 1º, relaciona os fundamentos da República Federativa do Brasil. Entre esses fundamentos, figura expressamente:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "a dignidade da pessoa humana, ao lado da soberania e da cidadania."
+        },
+        {
+          "id": "a2",
+          "texto": "a prevalência dos direitos humanos, que orienta a atuação interna do Estado."
+        },
+        {
+          "id": "a3",
+          "texto": "a erradicação da pobreza, tomada como alicerce do pacto republicano."
+        },
+        {
+          "id": "a4",
+          "texto": "a autodeterminação dos povos, afirmada como base da ordem constitucional."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 1º da CF arrola os fundamentos da República: soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e da livre iniciativa e pluralismo político (incisos I a V). A dignidade da pessoa humana (inciso III) é o núcleo axiológico dos direitos humanos no ordenamento brasileiro. Prevalência dos direitos humanos e autodeterminação dos povos são princípios das relações internacionais (art. 4º), e a erradicação da pobreza é objetivo fundamental (art. 3º); por isso não se confundem com os fundamentos do art. 1º.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "A dignidade da pessoa humana está no art. 1º, III, ao lado da soberania (I) e da cidadania (II), todos fundamentos da República."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A prevalência dos direitos humanos é princípio das relações internacionais (art. 4º, II), e não fundamento do art. 1º."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A erradicação da pobreza é objetivo fundamental da República (art. 3º, III), não um dos fundamentos listados no art. 1º."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A autodeterminação dos povos é princípio das relações internacionais (art. 4º, III), fora do rol de fundamentos do art. 1º."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 1º, III",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir fundamentos da República (art. 1º) com princípios das relações internacionais (art. 4º) e objetivos fundamentais (art. 3º).",
+      "lei_referencia": "CF/1988, art. 1º, III",
+      "macete_do_riccardo": "Fundamentos do art. 1º: SO-CI-DI-VA-PLU (Soberania, Cidadania, Dignidade, Valores sociais, Pluralismo).",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "dignidade da pessoa humana",
+        "fundamentos da República",
+        "art. 1º",
+        "soberania",
+        "cidadania"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988 (arts. 1º a 5º) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Prevalência dos direitos humanos nas relações internacionais",
+      "dificuldade": "facil",
+      "enunciado": "Ao tratar da fundamentação dos direitos humanos no plano externo, a Constituição estabelece que a República Federativa do Brasil se rege, nas suas relações internacionais, pelo princípio da prevalência dos direitos humanos. Esse princípio está previsto:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "no art. 4º, que enumera os princípios regentes das relações internacionais do país."
+        },
+        {
+          "id": "a2",
+          "texto": "no art. 1º, entre os fundamentos nucleares do Estado Democrático de Direito."
+        },
+        {
+          "id": "a3",
+          "texto": "no art. 3º, como objetivo fundamental a ser perseguido pela República."
+        },
+        {
+          "id": "a4",
+          "texto": "no art. 2º, que organiza a separação harmônica entre os Poderes da União."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 4º da CF reúne os princípios que regem o Brasil nas relações internacionais e, no inciso II, prevê expressamente a prevalência dos direitos humanos. Esse dispositivo revela que a proteção da pessoa é também diretriz da política externa, abrindo o sistema à cooperação internacional em direitos humanos. Não se confunde com os fundamentos do art. 1º, com os objetivos do art. 3º nem com a separação de Poderes do art. 2º.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "A prevalência dos direitos humanos consta do art. 4º, II, dentro dos princípios das relações internacionais."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O art. 1º traz os fundamentos da República (como a dignidade), não a prevalência dos direitos humanos no plano externo."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 3º lista objetivos fundamentais (sociedade livre, desenvolvimento, redução de desigualdades), e não os princípios das relações internacionais."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 2º cuida da independência e harmonia entre Legislativo, Executivo e Judiciário, tema estranho à prevalência dos direitos humanos."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 4º, II",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Localizar a prevalência dos direitos humanos no art. 1º (fundamentos) em vez do art. 4º (relações internacionais).",
+      "lei_referencia": "CF/1988, art. 4º, II",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Prevalência dos direitos humanos é princípio das relações internacionais (art. 4º, II), e não fundamento do art. 1º.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "prevalência dos direitos humanos",
+        "relações internacionais",
+        "art. 4º",
+        "princípios",
+        "política externa"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988 (arts. 1º a 5º) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Aplicação imediata das normas definidoras de direitos fundamentais",
+      "dificuldade": "facil",
+      "enunciado": "Quanto à eficácia das normas que definem direitos e garantias fundamentais, a Constituição Federal estabelece, no art. 5º, § 1º, que tais normas:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "têm aplicação imediata, independentemente de ato posterior de integração."
+        },
+        {
+          "id": "a2",
+          "texto": "dependem de lei integradora para produzir efeito jurídico."
+        },
+        {
+          "id": "a3",
+          "texto": "produzem efeitos só após regulamentação administrativa."
+        },
+        {
+          "id": "a4",
+          "texto": "condicionam-se à prévia ratificação de tratado internacional de direitos humanos."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 5º, § 1º, da CF é direto: as normas definidoras dos direitos e garantias fundamentais têm aplicação imediata. Essa regra traduz a força normativa dos direitos fundamentais, afastando a ideia de que seriam meras promessas dependentes de atuação posterior. A questão explora exatamente a literalidade: a aplicação é imediata, sem exigência prévia de lei integradora, regulamento administrativo ou tratado.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 5º, § 1º: as normas definidoras de direitos e garantias fundamentais têm aplicação imediata."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O § 1º não condiciona a eficácia à lei integradora; a aplicação é imediata, ainda que alguns direitos admitam regulamentação complementar."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A Constituição não submete esses direitos a regulamentação administrativa prévia como requisito de eficácia."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A aplicação imediata independe de ratificação de tratado; o § 1º não impõe essa condição."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 5º, § 1º",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Supor que todo direito fundamental precisa de lei ou regulamento para produzir efeitos, negando a aplicação imediata do § 1º.",
+      "lei_referencia": "CF/1988, art. 5º, § 1º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "aplicação imediata",
+        "art. 5º § 1º",
+        "normas definidoras",
+        "eficácia",
+        "direitos fundamentais"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988 (arts. 1º a 5º) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Cláusula de abertura material (art. 5º, § 2º)",
+      "dificuldade": "media",
+      "enunciado": "A fundamentação dos direitos humanos no Brasil admite que o catálogo constitucional não seja exaustivo. Segundo o art. 5º, § 2º, da Constituição Federal, os direitos e garantias nela expressos:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "não excluem outros decorrentes do regime, dos princípios adotados ou de tratados internacionais firmados pelo Brasil."
+        },
+        {
+          "id": "a2",
+          "texto": "esgotam o rol de direitos fundamentais oponíveis ao Estado, vedada por completo a invocação de direitos implícitos."
+        },
+        {
+          "id": "a3",
+          "texto": "só podem ser ampliados por emenda constitucional aprovada em dois turnos nas duas Casas do Congresso Nacional."
+        },
+        {
+          "id": "a4",
+          "texto": "prevalecem sobre quaisquer tratados, que ficam impedidos de reconhecer quaisquer novos direitos à pessoa."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 5º, § 2º, consagra a cláusula de abertura material dos direitos fundamentais: os direitos expressos na Constituição não excluem outros decorrentes do regime, dos princípios por ela adotados ou dos tratados internacionais em que a República seja parte. Isso significa que o rol constitucional é exemplificativo, não exaustivo, admitindo direitos implícitos e os reconhecidos em tratados. As demais alternativas invertem esse sentido, tratando o rol como fechado ou negando a eficácia dos tratados.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 5º, § 2º: os direitos expressos não excluem outros do regime, dos princípios adotados ou de tratados internacionais."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O § 2º afirma justamente o contrário: o rol é aberto e admite direitos implícitos e decorrentes de tratados, não sendo exaustivo."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A ampliação do catálogo não depende só de emenda: o § 2º reconhece direitos decorrentes do regime, dos princípios e de tratados."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O § 2º reconhece direitos oriundos de tratados; não os impede de reconhecer novos direitos à pessoa."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 5º, § 2º",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Tratar o rol de direitos fundamentais como exaustivo, ignorando a cláusula de abertura material do § 2º.",
+      "lei_referencia": "CF/1988, art. 5º, § 2º",
+      "macete_do_riccardo": null,
+      "fique_ligado": "O § 2º do art. 5º torna o rol de direitos fundamentais exemplificativo: há direitos implícitos e os decorrentes de tratados.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "cláusula de abertura",
+        "art. 5º § 2º",
+        "rol exemplificativo",
+        "direitos implícitos",
+        "tratados internacionais"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988 (arts. 1º a 5º) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Objetivos fundamentais da República (art. 3º)",
+      "dificuldade": "media",
+      "enunciado": "No campo da fundamentação dos direitos humanos, costuma-se distinguir fundamentos, objetivos e princípios das relações internacionais. Entre os objetivos fundamentais da República Federativa do Brasil, previstos no art. 3º da Constituição, inclui-se:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "promover o bem de todos, sem preconceitos de origem, raça, sexo, cor e idade."
+        },
+        {
+          "id": "a2",
+          "texto": "assegurar a dignidade da pessoa humana, valor que sustenta o Estado Democrático de Direito."
+        },
+        {
+          "id": "a3",
+          "texto": "garantir a solução pacífica dos conflitos nas relações com os demais Estados soberanos."
+        },
+        {
+          "id": "a4",
+          "texto": "resguardar o pluralismo político como alicerce da ordem democrática interna."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 3º da CF enumera os objetivos fundamentais da República: construir sociedade livre, justa e solidária; garantir o desenvolvimento nacional; erradicar a pobreza e a marginalização e reduzir as desigualdades; e promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação (inciso IV). Dignidade da pessoa humana e pluralismo político são fundamentos do art. 1º, e a solução pacífica dos conflitos é princípio das relações internacionais (art. 4º), não objetivos do art. 3º.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 3º, IV: promover o bem de todos, sem preconceitos e discriminações, é objetivo fundamental da República."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A dignidade da pessoa humana é fundamento (art. 1º, III), não objetivo fundamental do art. 3º."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A solução pacífica dos conflitos é princípio das relações internacionais (art. 4º, VII), e não objetivo do art. 3º."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O pluralismo político é fundamento da República (art. 1º, V), não um dos objetivos fundamentais listados no art. 3º."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 3º, IV",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Misturar objetivos fundamentais (art. 3º) com fundamentos (art. 1º) e princípios das relações internacionais (art. 4º).",
+      "lei_referencia": "CF/1988, art. 3º, IV",
+      "macete_do_riccardo": "Objetivos (art. 3º) são verbos de ação: CONSTRUIR, GARANTIR, ERRADICAR, PROMOVER. Fundamentos (art. 1º) são substantivos.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "objetivos fundamentais",
+        "art. 3º",
+        "promover o bem de todos",
+        "sem preconceitos",
+        "discriminação"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988 (arts. 1º a 5º) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Igualdade perante a lei e titularidade (art. 5º, caput)",
+      "dificuldade": "media",
+      "enunciado": "A fundamentação dos direitos humanos no texto constitucional parte do princípio da igualdade. De acordo com o caput do art. 5º da Constituição Federal, a inviolabilidade dos direitos à vida, à liberdade, à igualdade, à segurança e à propriedade é garantida:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "aos brasileiros e aos estrangeiros residentes no País, sem distinção de qualquer natureza."
+        },
+        {
+          "id": "a2",
+          "texto": "apenas aos cidadãos brasileiros natos, excluídos os naturalizados e os estrangeiros."
+        },
+        {
+          "id": "a3",
+          "texto": "somente aos estrangeiros que tenham obtido autorização específica do Poder Executivo."
+        },
+        {
+          "id": "a4",
+          "texto": "exclusivamente às pessoas que estejam em pleno gozo dos direitos políticos no território nacional."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O caput do art. 5º proclama que todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade. A base é o princípio da igualdade, e a titularidade alcança brasileiros e estrangeiros residentes, sem exigir distinção entre natos e naturalizados nem condicionar a proteção ao gozo de direitos políticos ou a autorização do Executivo.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o caput do art. 5º: a garantia alcança brasileiros e estrangeiros residentes no País, sem distinção de qualquer natureza."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O caput não restringe a proteção aos brasileiros natos; estende-a a brasileiros em geral e a estrangeiros residentes."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A Constituição não condiciona a inviolabilidade de direitos do estrangeiro residente a autorização específica do Executivo."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A titularidade não se limita a quem goza de direitos políticos; os direitos do caput independem dessa condição."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 5º, caput",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Restringir a titularidade dos direitos do caput a brasileiros natos ou a quem detém direitos políticos.",
+      "lei_referencia": "CF/1988, art. 5º, caput",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "O caput fala em estrangeiros residentes, mas a doutrina e a prática estendem a proteção, por força da dignidade, também ao estrangeiro em trânsito; a literalidade cobra a redação do dispositivo.",
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "igualdade perante a lei",
+        "art. 5º caput",
+        "brasileiros e estrangeiros residentes",
+        "titularidade",
+        "inviolabilidade"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988 (arts. 1º a 5º) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Concessão de asilo político (art. 4º, X)",
+      "dificuldade": "media",
+      "enunciado": "A fundamentação internacional dos direitos humanos no Brasil projeta-se também sobre institutos de proteção à pessoa perseguida. A concessão de asilo político é prevista na Constituição como:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "princípio que rege as relações internacionais da República, enumerado no art. 4º."
+        },
+        {
+          "id": "a2",
+          "texto": "objetivo fundamental da República, inscrito no art. 3º ao lado da redução de desigualdades."
+        },
+        {
+          "id": "a3",
+          "texto": "fundamento do Estado Democrático de Direito, previsto no art. 1º junto à soberania."
+        },
+        {
+          "id": "a4",
+          "texto": "garantia individual do art. 5º, assegurada a brasileiros e estrangeiros residentes no País."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 4º, X, da CF inclui a concessão de asilo político entre os princípios que regem o Brasil nas relações internacionais. O rol do art. 4º reúne diretrizes da política externa (independência nacional, prevalência dos direitos humanos, autodeterminação, não intervenção, repúdio ao terrorismo e ao racismo, cooperação, asilo etc.). Não se trata de objetivo fundamental (art. 3º), de fundamento da República (art. 1º) nem de garantia do art. 5º.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "A concessão de asilo político está no art. 4º, X, entre os princípios das relações internacionais."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Os objetivos do art. 3º são sociedade livre, desenvolvimento, redução de desigualdades e bem de todos; o asilo não está ali."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Os fundamentos do art. 1º são soberania, cidadania, dignidade, valores sociais do trabalho e pluralismo; a concessão de asilo não figura entre eles."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 5º trata de direitos e deveres individuais e coletivos; a concessão de asilo político é princípio das relações internacionais, no art. 4º."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 4º, X",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Classificar a concessão de asilo como garantia do art. 5º ou objetivo do art. 3º, em vez de princípio das relações internacionais.",
+      "lei_referencia": "CF/1988, art. 4º, X",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "asilo político",
+        "art. 4º X",
+        "relações internacionais",
+        "princípios",
+        "proteção da pessoa"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988 (arts. 1º a 5º) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Tratados de direitos humanos equivalentes a emenda (art. 5º, § 3º)",
+      "dificuldade": "dificil",
+      "enunciado": "Sobre a hierarquia dos tratados internacionais de direitos humanos no ordenamento brasileiro, o art. 5º, § 3º, da Constituição Federal estabelece que tais tratados e convenções serão equivalentes às emendas constitucionais quando forem aprovados:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "em cada Casa do Congresso Nacional, em dois turnos, por três quintos dos votos dos respectivos membros."
+        },
+        {
+          "id": "a2",
+          "texto": "em sessão conjunta do Congresso Nacional, em turno único, por maioria absoluta dos votos dos presentes."
+        },
+        {
+          "id": "a3",
+          "texto": "em cada Casa do Congresso Nacional, em dois turnos, por maioria absoluta dos respectivos membros."
+        },
+        {
+          "id": "a4",
+          "texto": "em cada Casa do Congresso Nacional, em turno único, por três quintos dos votos dos presentes à sessão."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 5º, § 3º, exige um rito qualificado para que o tratado de direitos humanos ganhe status de emenda constitucional: aprovação em cada Casa do Congresso Nacional, em dois turnos, por três quintos dos votos dos respectivos membros. Trata-se do mesmo quórum do processo de emenda (art. 60). A pegadinha típica troca o quórum (maioria absoluta em vez de três quintos), o número de turnos (único em vez de dois) ou a base de cálculo (presentes em vez de membros). Sem esse rito, o tratado de direitos humanos não adquire equivalência a emenda.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 5º, § 3º: aprovação em cada Casa, em dois turnos, por três quintos dos votos dos respectivos membros."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O rito não é de sessão conjunta em turno único nem por maioria dos presentes; são dois turnos em cada Casa e três quintos dos membros."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O quórum não é de maioria absoluta, mas de três quintos dos membros de cada Casa."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "São dois turnos, não turno único, e o cálculo é sobre os respectivos membros, não sobre os presentes à sessão."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 5º, § 3º",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "O § 3º foi incluído pela Emenda Constitucional nº 45, de 2004; só os tratados aprovados por esse rito após a emenda adquirem equivalência a emenda constitucional.",
+      "pegadinha": "Trocar três quintos por maioria absoluta, dois turnos por turno único ou membros por presentes.",
+      "lei_referencia": "CF/1988, art. 5º, § 3º",
+      "macete_do_riccardo": "Tratado vira emenda com o rito da emenda: 2 Casas, 2 turnos, 3/5 dos membros.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "tratados de direitos humanos",
+        "art. 5º § 3º",
+        "três quintos",
+        "dois turnos",
+        "equivalência a emenda"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988 (arts. 1º a 5º) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Tribunal Penal Internacional (art. 5º, § 4º)",
+      "dificuldade": "dificil",
+      "enunciado": "A fundamentação internacional da proteção da pessoa alcançou o texto constitucional também no tocante à jurisdição penal internacional. De acordo com o art. 5º, § 4º, da Constituição Federal, o Brasil se submete à jurisdição de Tribunal Penal Internacional:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "a cuja criação o país tenha manifestado adesão, nos termos do texto constitucional."
+        },
+        {
+          "id": "a2",
+          "texto": "sempre que requerido por organismo internacional, dispensada a adesão prévia."
+        },
+        {
+          "id": "a3",
+          "texto": "desde que o tribunal tenha sido criado por resolução do Conselho de Segurança da ONU."
+        },
+        {
+          "id": "a4",
+          "texto": "apenas nos crimes de estrangeiros em território nacional, mediante aval do Congresso."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 5º, § 4º, da CF prevê que o Brasil se submete à jurisdição de Tribunal Penal Internacional a cuja criação tenha manifestado adesão. O ponto central é a adesão: a submissão depende de o país ter manifestado sua concordância com a criação da corte, e não de requerimento de organismo internacional, de instituição por resolução de outro órgão ou de restrição a crimes de estrangeiros. A questão testa a literalidade do dispositivo, incluído pela EC nº 45/2004.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 5º, § 4º: a submissão ocorre em relação a Tribunal Penal Internacional a cuja criação o Brasil tenha manifestado adesão."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O § 4º condiciona a submissão à adesão prévia do Brasil; não há submissão automática por requerimento de organismo internacional."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O dispositivo não exige que o tribunal decorra de resolução do Conselho de Segurança; o requisito é a adesão do Brasil à criação da corte."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O § 4º não limita a submissão a crimes de estrangeiros nem a condiciona a autorização casuística do Congresso."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 5º, § 4º",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "O § 4º foi incluído pela Emenda Constitucional nº 45, de 2004.",
+      "pegadinha": "Afirmar submissão automática ao TPI, sem o requisito da manifestação de adesão à sua criação.",
+      "lei_referencia": "CF/1988, art. 5º, § 4º",
+      "macete_do_riccardo": null,
+      "fique_ligado": "A submissão ao TPI pressupõe adesão do Brasil à criação da corte; não é automática.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "Tribunal Penal Internacional",
+        "art. 5º § 4º",
+        "manifestação de adesão",
+        "jurisdição internacional",
+        "EC 45/2004"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988 (arts. 1º a 5º) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Teoria dos Direitos Humanos",
+      "subtema": "Distinção entre fundamentos, objetivos e princípios internacionais",
+      "dificuldade": "dificil",
+      "enunciado": "Um candidato precisa classificar corretamente dispositivos ligados à fundamentação dos direitos humanos na Constituição. Considerando os arts. 1º a 4º da Constituição Federal, assinale a associação correta entre o conteúdo e a categoria a que ele pertence:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "o repúdio ao terrorismo e ao racismo é princípio das relações internacionais, enquanto a cidadania é fundamento da República."
+        },
+        {
+          "id": "a2",
+          "texto": "a construção de uma sociedade livre, justa e solidária é fundamento da República, e a soberania é objetivo fundamental a ser alcançado."
+        },
+        {
+          "id": "a3",
+          "texto": "a não intervenção é fundamento da República, ao passo que o desenvolvimento nacional é princípio das relações internacionais."
+        },
+        {
+          "id": "a4",
+          "texto": "a dignidade da pessoa humana é princípio das relações internacionais, e a defesa da paz é objetivo fundamental da República."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O enunciado exige separar três categorias dos arts. 1º a 4º. Fundamentos da República (art. 1º): soberania, cidadania, dignidade, valores sociais do trabalho e da livre iniciativa, pluralismo político. Objetivos fundamentais (art. 3º): sociedade livre, justa e solidária; desenvolvimento nacional; erradicação da pobreza e redução de desigualdades; bem de todos sem preconceitos. Princípios das relações internacionais (art. 4º): independência, prevalência dos direitos humanos, autodeterminação, não intervenção, igualdade entre Estados, defesa da paz, solução pacífica, repúdio ao terrorismo e ao racismo, cooperação e asilo. Só a primeira associação é correta: repúdio ao terrorismo e ao racismo (art. 4º, VIII) é princípio internacional, e cidadania (art. 1º, II) é fundamento.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "O repúdio ao terrorismo e ao racismo é princípio das relações internacionais (art. 4º, VIII) e a cidadania é fundamento da República (art. 1º, II)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A sociedade livre, justa e solidária é objetivo (art. 3º, I), não fundamento; e a soberania é fundamento (art. 1º, I), não objetivo."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A não intervenção é princípio das relações internacionais (art. 4º, IV), não fundamento; e o desenvolvimento nacional é objetivo (art. 3º, II), não princípio internacional."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A dignidade da pessoa humana é fundamento (art. 1º, III), não princípio internacional; e a defesa da paz é princípio das relações internacionais (art. 4º, VI), não objetivo."
+        }
+      ],
+      "fundamento_legal": "CF/1988, arts. 1º, 3º e 4º",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar as categorias entre si: apresentar objetivo como fundamento, fundamento como princípio internacional, e assim por diante.",
+      "lei_referencia": "CF/1988, arts. 1º, 3º e 4º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "A banca mistura dispositivos dos arts. 1º, 3º e 4º numa mesma alternativa: confira cada parte isoladamente antes de marcar.",
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "fundamentos",
+        "objetivos fundamentais",
+        "princípios das relações internacionais",
+        "repúdio ao terrorismo e ao racismo",
+        "classificação"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988 (arts. 1º a 5º) fornecido no contexto"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "subtema": "Dignidade da pessoa humana como fundamento",
+      "frente": "Em que dispositivo da Constituição de 1988 a dignidade da pessoa humana aparece como fundamento da República Federativa do Brasil?",
+      "verso": "No art. 1º, III, da CF/1988. A dignidade da pessoa humana é fundamento do Estado Democrático de Direito, ao lado da soberania, cidadania, valores sociais do trabalho e da livre iniciativa e pluralismo político.",
+      "fundamento_legal": "CF/1988, art. 1º, III",
+      "lei_referencia": "CF/1988, art. 1º, III",
+      "palavras_chave": [
+        "dignidade da pessoa humana",
+        "fundamento",
+        "art. 1º III"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f02",
+      "subtema": "Aplicação imediata e abertura material",
+      "frente": "Os direitos fundamentais dependem de lei para valer, e o catálogo do art. 5º da CF esgota todos os direitos protegidos?",
+      "verso": "Pelo art. 5º, § 1º, da CF, as normas definidoras de direitos e garantias fundamentais têm aplicação imediata. E o § 2º torna o rol exemplificativo: os direitos expressos não excluem outros do regime, dos princípios adotados ou de tratados internacionais em que o Brasil seja parte.",
+      "fundamento_legal": "CF/1988, art. 5º, §§ 1º e 2º",
+      "lei_referencia": "CF/1988, art. 5º, §§ 1º e 2º",
+      "palavras_chave": [
+        "aplicação imediata",
+        "cláusula de abertura",
+        "art. 5º § 1º e § 2º"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f03",
+      "subtema": "Tratados de direitos humanos com status de emenda",
+      "frente": "Qual o quórum para que um tratado internacional de direitos humanos seja equivalente a emenda constitucional?",
+      "verso": "Pelo art. 5º, § 3º, da CF (incluído pela EC 45/2004): aprovação em cada Casa do Congresso Nacional, em dois turnos, por três quintos dos votos dos respectivos membros. É o mesmo rito de uma emenda à Constituição.",
+      "fundamento_legal": "CF/1988, art. 5º, § 3º",
+      "lei_referencia": "CF/1988, art. 5º, § 3º",
+      "palavras_chave": [
+        "tratados de direitos humanos",
+        "três quintos",
+        "dois turnos",
+        "art. 5º § 3º"
+      ],
+      "cita_jurisprudencia": false
+    }
+  ],
+  "observacoes_do_lote": "Lote focado em 'Conceito e fundamentação' da Teoria dos Direitos Humanos, extraído exclusivamente dos arts. 1º a 5º da CF/1988 fornecidos. Explorou-se a distinção entre fundamentos (art. 1º), objetivos fundamentais (art. 3º) e princípios das relações internacionais (art. 4º), além da eficácia e abertura dos direitos fundamentais (art. 5º, §§ 1º a 4º). Não havia dispositivos com ressalva obrigatória no pedido, e nenhuma jurisprudência foi citada por número."
+}

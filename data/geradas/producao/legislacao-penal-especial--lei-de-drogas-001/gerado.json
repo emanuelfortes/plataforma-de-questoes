@@ -1,0 +1,775 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Lei de Drogas",
+      "subtema": "Critérios para aferir o consumo pessoal (art. 28, § 2º)",
+      "dificuldade": "facil",
+      "enunciado": "Ao apreender droga com determinada pessoa, a autoridade precisa definir se a substância se destinava a consumo pessoal ou ao tráfico. Segundo o art. 28, § 2º, da Lei nº 11.343/2006, para decidir se a droga era para consumo pessoal, o juiz atenderá:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "à natureza e à quantidade da droga, ao local e às condições da ação e às circunstâncias sociais e pessoais, à conduta e aos antecedentes do agente."
+        },
+        {
+          "id": "a2",
+          "texto": "unicamente à quantidade da substância apreendida, segundo tabela de valores de referência editada pelo Poder Executivo da União para cada tipo de droga."
+        },
+        {
+          "id": "a3",
+          "texto": "à confissão do agente quanto à finalidade de uso, declaração que vincula de modo definitivo a classificação adotada pela autoridade policial no auto de prisão."
+        },
+        {
+          "id": "a4",
+          "texto": "à natureza da substância e à existência de condenação anterior pelo tráfico, dispensada a análise do local e das condições em que se desenvolveu a ação."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 28, § 2º, da Lei de Drogas lista os elementos que o juiz deve considerar para definir se a droga era para consumo pessoal: a natureza e a quantidade da substância, o local e as condições em que se desenvolveu a ação, as circunstâncias sociais e pessoais e a conduta e os antecedentes do agente. Não há um critério único e isolado: a lei manda somar esses fatores, afastando a ideia de que só a quantidade ou só a confissão decidem a questão.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reúne exatamente os fatores do art. 28, § 2º: natureza e quantidade, local e condições da ação, circunstâncias sociais e pessoais e conduta e antecedentes do agente."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A lei não reduz a análise à quantidade nem remete a tabela do Executivo: a quantidade é apenas um dos vários fatores do § 2º, somado ao local, às condições e às circunstâncias pessoais."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A confissão do agente não consta do § 2º como critério, nem vincula a classificação: o juiz decide pelo conjunto dos elementos objetivos e subjetivos ali previstos."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O § 2º inclui o local e as condições da ação entre os critérios, de modo que não podem ser dispensados; a análise não se resume à natureza da droga e a antecedentes."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 28, § 2º",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Reduzir a aferição do consumo pessoal a um único critério (só a quantidade ou só a confissão), quando a lei exige a soma de vários fatores.",
+      "lei_referencia": "Lei 11.343/2006, art. 28, § 2º",
+      "macete_do_riccardo": null,
+      "fique_ligado": "O art. 28, § 2º, não trabalha com quantidade isolada: é a soma de natureza, quantidade, local, condições e perfil do agente.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "consumo pessoal",
+        "art. 28 § 2º",
+        "natureza e quantidade",
+        "local e condições",
+        "conduta e antecedentes"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Lei de Drogas",
+      "subtema": "Competência da Justiça Federal no tráfico transnacional (art. 70)",
+      "dificuldade": "facil",
+      "enunciado": "Comprovado que o tráfico de drogas tem caráter transnacional, o processo e o julgamento dos crimes previstos nos arts. 33 a 37 da Lei nº 11.343/2006, conforme o art. 70 da mesma Lei, competem à:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Justiça Federal, sendo que, nos Municípios sem sede de vara federal, o feito corre na vara federal da circunscrição respectiva."
+        },
+        {
+          "id": "a2",
+          "texto": "Justiça Estadual, pois a repressão ao tráfico de drogas é atribuição originária e exclusiva das polícias e dos juízos dos Estados."
+        },
+        {
+          "id": "a3",
+          "texto": "Justiça Federal apenas na fase de inquérito, remetendo-se os autos à Justiça Estadual com o oferecimento da denúncia."
+        },
+        {
+          "id": "a4",
+          "texto": "Justiça Estadual do local da apreensão, salvo se houver pedido expresso de deslocamento formulado pela Procuradoria-Geral da República."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 70 da Lei de Drogas fixa a competência da Justiça Federal para o processo e julgamento dos crimes dos arts. 33 a 37 quando caracterizado o ilícito transnacional. O parágrafo único resolve a situação do Município que não é sede de vara federal: o caso será processado e julgado na vara federal da circunscrição respectiva. Sem transnacionalidade, a regra geral é a competência da Justiça Estadual; o que desloca o feito para a Justiça Federal é o caráter transnacional do tráfico.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 70, caput e parágrafo único: tráfico transnacional é de competência da Justiça Federal, e, onde não há vara federal, o feito corre na vara federal da circunscrição."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Caracterizada a transnacionalidade, o art. 70 desloca a competência para a Justiça Federal; a atuação dos Estados não é exclusiva nessa hipótese."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 70 atribui à Justiça Federal o processo e o julgamento, não só o inquérito; não há previsão de devolução dos autos à Justiça Estadual com a denúncia."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O deslocamento decorre da própria transnacionalidade prevista no art. 70, e não de pedido da Procuradoria-Geral da República, instituto estranho a esse dispositivo."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 70, caput e parágrafo único",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Deixar o tráfico transnacional na Justiça Estadual ou supor que a vara federal só atua no inquérito.",
+      "lei_referencia": "Lei 11.343/2006, art. 70",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "É a transnacionalidade (e não a transnacionalidade mais a interestadualidade) que leva o tráfico à Justiça Federal pelo art. 70.",
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "competência",
+        "Justiça Federal",
+        "tráfico transnacional",
+        "art. 70",
+        "vara federal da circunscrição"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Lei de Drogas",
+      "subtema": "Licença prévia para operações com drogas e matéria-prima (art. 31)",
+      "dificuldade": "facil",
+      "enunciado": "Sobre as atividades lícitas que envolvem drogas ou matéria-prima destinada à sua preparação, o art. 31 da Lei nº 11.343/2006 estabelece que é indispensável:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "a licença prévia da autoridade competente para produzir, importar, exportar, vender, adquirir e demais operações com drogas ou matéria-prima para sua preparação."
+        },
+        {
+          "id": "a2",
+          "texto": "o registro posterior da operação perante o conselho profissional da área de saúde, dispensada qualquer autorização antes da realização das condutas enumeradas."
+        },
+        {
+          "id": "a3",
+          "texto": "a comunicação ao Ministério Público, no prazo de quarenta e oito horas, de toda operação que envolva matéria-prima destinada à preparação de drogas."
+        },
+        {
+          "id": "a4",
+          "texto": "a autorização prévia apenas para importar e exportar drogas, ficando as demais operações submetidas a mero cadastro sanitário."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 31 da Lei de Drogas exige licença prévia da autoridade competente para produzir, extrair, fabricar, importar, exportar, vender, comprar, adquirir e praticar as demais operações ali enumeradas com drogas ou com matéria-prima destinada à sua preparação, observadas as demais exigências legais. Trata-se de autorização anterior à conduta, e não de registro posterior; e ela alcança todas as operações listadas, não só a importação e a exportação.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 31: a licença da autoridade competente é prévia e abrange a produção, o comércio e as demais operações com drogas ou matéria-prima."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O art. 31 fala em licença prévia, não em registro posterior; a autorização precede a conduta, e não a sucede."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 31 não condiciona a atividade a comunicação ao Ministério Público em quarenta e oito horas; exige a licença prévia da autoridade competente."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A licença prévia do art. 31 não se limita a importar e exportar: alcança todas as operações enumeradas, inclusive produzir, vender e adquirir."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 31",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar a licença prévia por registro posterior ou restringir a autorização só à importação e exportação.",
+      "lei_referencia": "Lei 11.343/2006, art. 31",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "licença prévia",
+        "autoridade competente",
+        "matéria-prima",
+        "art. 31",
+        "operações com drogas"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Lei de Drogas",
+      "subtema": "Isenção de pena do dependente inteiramente incapaz (art. 45)",
+      "dificuldade": "media",
+      "enunciado": "Comprovado por perícia que o agente, em razão da dependência de droga, era, ao tempo do fato, inteiramente incapaz de entender o caráter ilícito de sua conduta, qual a consequência prevista no art. 45 da Lei nº 11.343/2006?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O agente é isento de pena, podendo o juiz, ao absolvê-lo, determinar na sentença seu encaminhamento para tratamento médico adequado."
+        },
+        {
+          "id": "a2",
+          "texto": "O agente tem a pena reduzida de um terço a dois terços, mantida a condenação, por se tratar de causa de diminuição vinculada à dependência."
+        },
+        {
+          "id": "a3",
+          "texto": "O agente responde normalmente pela pena cominada, aplicando-se, de forma cumulativa, medida de segurança de internação."
+        },
+        {
+          "id": "a4",
+          "texto": "O agente é isento de pena somente se a dependência decorrer de caso fortuito, respondendo integralmente se a dependência for voluntária."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 45 da Lei de Drogas prevê a isenção de pena quando o agente, por dependência ou sob o efeito de droga proveniente de caso fortuito ou força maior, era, ao tempo da ação ou omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se conforme esse entendimento (inimputabilidade). O parágrafo único permite que o juiz, ao absolver, determine o encaminhamento do agente para tratamento médico adequado. A redução de um terço a dois terços do art. 46 é para a capacidade apenas parcial (semi-imputabilidade), hipótese diversa.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 45 e seu parágrafo único: incapacidade plena gera isenção de pena, e o juiz pode encaminhar o absolvido a tratamento médico adequado."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A redução de um terço a dois terços é do art. 46 e pressupõe capacidade apenas parcial; na incapacidade plena do art. 45 há isenção, não mera diminuição."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 45 isenta de pena o inteiramente incapaz; ele não responde normalmente pela pena cominada em cumulação com internação."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A exigência de caso fortuito ou força maior, no art. 45, incide sobre o efeito da droga; a dependência, por si, já fundamenta a isenção do inteiramente incapaz."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 45, caput e parágrafo único",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir a isenção de pena do inteiramente incapaz (art. 45) com a redução de pena do semi-imputável (art. 46).",
+      "lei_referencia": "Lei 11.343/2006, art. 45",
+      "macete_do_riccardo": "Incapacidade plena: art. 45, isenção de pena. Capacidade só parcial: art. 46, redução de um terço a dois terços.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "isenção de pena",
+        "inimputabilidade",
+        "dependência de drogas",
+        "art. 45",
+        "tratamento médico"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Lei de Drogas",
+      "subtema": "Redução de pena do semi-imputável (art. 46)",
+      "dificuldade": "media",
+      "enunciado": "Em um crime previsto na Lei nº 11.343/2006, a perícia concluiu que o agente, por força das circunstâncias ligadas ao efeito ou à dependência de droga, não possuía, ao tempo do fato, a plena capacidade de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento. De acordo com o art. 46, as penas:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "podem ser reduzidas de um terço a dois terços, por se tratar de capacidade apenas parcial de entendimento ou de autodeterminação."
+        },
+        {
+          "id": "a2",
+          "texto": "ficam integralmente afastadas, pois a capacidade parcial de entendimento equivale à inimputabilidade e isenta o agente de pena."
+        },
+        {
+          "id": "a3",
+          "texto": "são reduzidas de metade, percentual fixo previsto para o agente com capacidade parcial de entendimento do caráter ilícito do fato."
+        },
+        {
+          "id": "a4",
+          "texto": "são aplicadas sem qualquer redução, convertendo-se obrigatoriamente em medida de segurança de internação ao final do cumprimento."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 46 da Lei de Drogas cuida da capacidade apenas parcial (semi-imputabilidade): quando, por força das circunstâncias do art. 45, o agente não possuía, ao tempo do fato, a plena capacidade de entender o caráter ilícito ou de determinar-se, as penas podem ser reduzidas de um terço a dois terços. Não há isenção (essa é do art. 45, para o inteiramente incapaz), nem percentual fixo de metade: a redução é variável, de um terço a dois terços.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 46: a capacidade parcial autoriza a redução das penas de um terço a dois terços, mantida a responsabilidade do agente."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A capacidade parcial do art. 46 não equivale à inimputabilidade; a isenção de pena é do art. 45, para quem era inteiramente incapaz."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 46 prevê redução de um terço a dois terços, não um percentual fixo de metade."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 46 permite a redução das penas; não as mantém intactas nem impõe conversão obrigatória em medida de segurança de internação."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 46",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Tratar a capacidade parcial (art. 46) como isenção de pena ou fixar a redução em metade, quando ela é de um terço a dois terços.",
+      "lei_referencia": "Lei 11.343/2006, art. 46",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Semi-imputável na Lei de Drogas: redução de um terço a dois terços (art. 46), nunca isenção.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "semi-imputabilidade",
+        "redução de pena",
+        "capacidade parcial",
+        "art. 46",
+        "um terço a dois terços"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Lei de Drogas",
+      "subtema": "Aumento em dobro: organização ultraviolenta e milícia (art. 40-A)",
+      "dificuldade": "media",
+      "enunciado": "A Lei nº 11.343/2006, no art. 40-A, prevê que as penas dos arts. 33 a 37 serão aplicadas em dobro em determinada hipótese. Essa duplicação incide quando o crime for praticado por integrante de:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "organização criminosa ultraviolenta, grupo paramilitar ou milícia privada, no contexto da atuação prevista no marco legal do crime organizado."
+        },
+        {
+          "id": "a2",
+          "texto": "qualquer associação de duas ou mais pessoas voltada à prática, reiterada ou não, dos crimes de tráfico e de maquinário previstos na própria Lei de Drogas."
+        },
+        {
+          "id": "a3",
+          "texto": "grupo que atue em tráfico entre Estados da Federação, hipótese em que a pena é sempre aplicada em dobro, independentemente de qualquer violência ou grave ameaça."
+        },
+        {
+          "id": "a4",
+          "texto": "organização criminosa de qualquer natureza, bastando a reiteração das condutas, ainda que sem o emprego de violência ou de armas."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 40-A da Lei de Drogas determina que as penas dos arts. 33 a 37 sejam aplicadas em dobro se o crime for praticado por integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada, no contexto da atuação ou para a consecução das condutas previstas na lei que institui o marco legal do combate ao crime organizado. É hipótese específica e qualificada, que não se confunde com a mera associação do art. 35 nem com o aumento de um sexto a dois terços do art. 40, V (tráfico interestadual).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 40-A: a duplicação da pena pressupõe organização ultraviolenta, grupo paramilitar ou milícia privada, no contexto do marco legal do crime organizado."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A associação de duas ou mais pessoas é o crime autônomo do art. 35, não a causa de aplicação em dobro; o art. 40-A exige organização ultraviolenta, paramilitar ou milícia."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O tráfico interestadual é causa de aumento de um sexto a dois terços (art. 40, V), e não de duplicação da pena pelo art. 40-A."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 40-A não alcança organização criminosa de qualquer natureza: exige o caráter ultraviolento, paramilitar ou de milícia privada, no contexto do crime organizado."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 40-A, caput",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "O art. 40-A foi incluído pela Lei nº 15.358, de 2026; a questão cobra a redação vigente na data de corte.",
+      "pegadinha": "Confundir a aplicação em dobro do art. 40-A (organização ultraviolenta, paramilitar ou milícia) com a associação do art. 35 ou com o aumento do art. 40.",
+      "lei_referencia": "Lei 11.343/2006, art. 40-A",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Pena em dobro (art. 40-A) é só para organização ultraviolenta, grupo paramilitar ou milícia privada; não se confunde com o aumento de um sexto a dois terços do art. 40.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "aplicação em dobro",
+        "art. 40-A",
+        "organização ultraviolenta",
+        "milícia privada",
+        "grupo paramilitar"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Lei de Drogas",
+      "subtema": "Providências do Ministério Público ao receber os autos (art. 54)",
+      "dificuldade": "media",
+      "enunciado": "Recebidos em juízo os autos do inquérito policial relativo a crime de tráfico, dar-se-á vista ao Ministério Público. Segundo o art. 54 da Lei nº 11.343/2006, nesse momento o Ministério Público, no prazo de dez dias, adotará uma das seguintes providências, EXCETO:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "decretar, desde logo, o afastamento cautelar do funcionário público denunciado de suas atividades funcionais."
+        },
+        {
+          "id": "a2",
+          "texto": "requerer o arquivamento dos autos, quando entender ausentes elementos para a persecução penal."
+        },
+        {
+          "id": "a3",
+          "texto": "requisitar as diligências que entender necessárias ao esclarecimento dos fatos apurados no inquérito."
+        },
+        {
+          "id": "a4",
+          "texto": "oferecer denúncia, arrolar até cinco testemunhas e requerer as demais provas que entender pertinentes ao esclarecimento da imputação dirigida ao acusado."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 54 da Lei de Drogas prevê que, recebidos os autos, o Ministério Público, em dez dias, pode requerer o arquivamento, requisitar diligências ou oferecer denúncia, arrolando até cinco testemunhas e requerendo as provas pertinentes. O afastamento cautelar do funcionário público denunciado é medida do juiz, ao receber a denúncia (art. 56, § 1º), e não providência do Ministério Público nesse momento; por isso é a alternativa que não se encaixa no art. 54.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "É a exceção pedida: o afastamento cautelar do funcionário público é decretado pelo juiz ao receber a denúncia (art. 56, § 1º), não pelo Ministério Público no art. 54."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Requerer o arquivamento é providência expressa do art. 54, I, logo é opção prevista e não a exceção buscada."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Requisitar diligências consta do art. 54, II, estando entre as providências que o Ministério Público pode adotar no prazo de dez dias."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Oferecer denúncia, arrolar até cinco testemunhas e requerer provas é o art. 54, III; portanto é providência prevista, e não a exceção."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 54, I a III (c/c art. 56, § 1º)",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Atribuir ao Ministério Público, no art. 54, o afastamento cautelar do funcionário, que cabe ao juiz ao receber a denúncia (art. 56, § 1º).",
+      "lei_referencia": "Lei 11.343/2006, art. 54",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "No art. 54, o MP tem três caminhos: arquivamento, diligências ou denúncia (até cinco testemunhas). O afastamento do funcionário é ato do juiz.",
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "Ministério Público",
+        "art. 54",
+        "arquivamento",
+        "diligências",
+        "oferecimento de denúncia"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Lei de Drogas",
+      "subtema": "Aplicação das penas do Capítulo dos crimes e tratamento (arts. 27 e 47)",
+      "dificuldade": "dificil",
+      "enunciado": "Sobre a aplicação das penas previstas no Capítulo dos crimes e das penas da Lei nº 11.343/2006 e o encaminhamento do condenado a tratamento, assinale a alternativa correta:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "elas podem ser aplicadas isolada ou cumulativamente e substituídas a qualquer tempo, ouvidos o Ministério Público e o defensor, e o juiz pode determinar o tratamento do condenado na sentença."
+        },
+        {
+          "id": "a2",
+          "texto": "elas são sempre aplicadas de forma cumulativa e são insubstituíveis, e o encaminhamento do condenado a tratamento depende de requerimento formulado de maneira exclusiva pela defesa técnica."
+        },
+        {
+          "id": "a3",
+          "texto": "a substituição das penas só é cabível depois do trânsito em julgado da condenação, ficando vedada qualquer alteração no curso da execução penal, ainda que previamente ouvidas as partes."
+        },
+        {
+          "id": "a4",
+          "texto": "o tratamento do condenado é medida administrativa da autoridade sanitária, não cabendo ao juiz determiná-lo na própria sentença penal condenatória proferida contra o acusado."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 27 da Lei de Drogas permite que as penas do Capítulo sejam aplicadas isolada ou cumulativamente e substituídas a qualquer tempo, ouvidos o Ministério Público e o defensor. O art. 47, por sua vez, autoriza o juiz a determinar, na sentença condenatória e com base em avaliação que ateste a necessidade, o encaminhamento do agente a tratamento, observado o art. 26. Logo, há flexibilidade na aplicação e substituição das penas e papel ativo do juiz quanto ao tratamento.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Combina corretamente o art. 27 (penas isoladas ou cumulativas, substituíveis a qualquer tempo, ouvidas as partes) e o art. 47 (tratamento determinado pelo juiz na sentença, conforme avaliação)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Contraria o art. 27, que admite aplicação isolada e substituição das penas a qualquer tempo; o tratamento do art. 47 não depende de requerimento exclusivo da defesa."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 27 autoriza a substituição das penas a qualquer tempo, inclusive no curso da execução, e não apenas após o trânsito em julgado."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 47 atribui ao juiz determinar o tratamento na sentença condenatória, com base em avaliação; não é mera medida administrativa da autoridade sanitária."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 27 e art. 47 (c/c art. 26)",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Supor que as penas do Capítulo são sempre cumulativas e insubstituíveis, ou negar ao juiz o poder de determinar o tratamento na sentença.",
+      "lei_referencia": "Lei 11.343/2006, art. 27",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Art. 27: penas aplicadas isolada ou cumulativamente e substituídas a qualquer tempo, ouvidos MP e defensor. Art. 47: tratamento fixado pelo juiz na sentença.",
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "aplicação das penas",
+        "substituição a qualquer tempo",
+        "art. 27",
+        "tratamento",
+        "art. 47"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Lei de Drogas",
+      "subtema": "Perda alargada de bens do condenado (art. 63-F)",
+      "dificuldade": "dificil",
+      "enunciado": "Em condenação por infração da Lei nº 11.343/2006 com pena máxima superior a seis anos de reclusão, o art. 63-F autoriza a decretação da perda, como produto ou proveito do crime, dos bens correspondentes à diferença entre o patrimônio do condenado e aquele compatível com seu rendimento lícito. A respeito dessa medida, é correto afirmar que:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "sua decretação fica condicionada a elementos que indiquem conduta criminosa habitual, reiterada ou profissional, ou a vinculação do condenado a organização criminosa."
+        },
+        {
+          "id": "a2",
+          "texto": "ela independe de qualquer indício de habitualidade ou de vínculo com organização criminosa, bastando a condenação pela infração de pena máxima superior a seis anos."
+        },
+        {
+          "id": "a3",
+          "texto": "ela alcança apenas os bens adquiridos pelo condenado após a sentença, excluídos aqueles transferidos a terceiros a título gratuito antes do trânsito em julgado da condenação."
+        },
+        {
+          "id": "a4",
+          "texto": "ela impede, em definitivo, que o condenado demonstre a origem lícita do patrimônio, cuja perda se torna automática com a sentença condenatória."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 63-F da Lei de Drogas trata da perda alargada: nas condenações por infração com pena máxima superior a seis anos de reclusão, pode-se decretar a perda dos bens correspondentes à diferença entre o patrimônio do condenado e o compatível com seu rendimento lícito. O § 1º condiciona a medida à existência de elementos que indiquem conduta criminosa habitual, reiterada ou profissional, ou vinculação a organização criminosa. O § 2º define o patrimônio alcançado (inclusive bens transferidos a terceiros a título gratuito ou por valor irrisório desde o início da atividade criminal), e o § 3º garante ao condenado demonstrar a inexistência da incompatibilidade ou a procedência lícita do patrimônio.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 63-F, § 1º: a perda alargada exige elementos de conduta criminosa habitual, reiterada ou profissional, ou vínculo com organização criminosa."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O § 1º condiciona a medida a indícios de habitualidade ou de vínculo com organização criminosa; a condenação, por si só, não basta para a perda alargada."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O § 2º inclui bens transferidos a terceiros a título gratuito ou por valor irrisório a partir do início da atividade criminal; a perda não se limita a bens adquiridos após a condenação."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O § 3º assegura ao condenado demonstrar a inexistência da incompatibilidade ou a origem lícita do patrimônio; a perda não é automática nem impede essa defesa."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 63-F, caput e §§ 1º a 3º",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Tornar automática a perda alargada ou dispensar os indícios de habitualidade e de vínculo com organização criminosa exigidos pelo § 1º.",
+      "lei_referencia": "Lei 11.343/2006, art. 63-F",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "A perda alargada do art. 63-F não é automática: depende de indícios de habitualidade ou vínculo com organização, e o condenado pode provar a origem lícita.",
+      "tipo_cobranca": "excecao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "perda alargada",
+        "art. 63-F",
+        "patrimônio incompatível",
+        "conduta habitual",
+        "origem lícita"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Lei de Drogas",
+      "subtema": "Conceito de drogas e proibições do Sisnad (arts. 1º, parágrafo único, e 2º)",
+      "dificuldade": "dificil",
+      "enunciado": "Considerando o conceito de drogas e o regime de proibições da Lei nº 11.343/2006, assinale a alternativa correta:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "drogas são as substâncias capazes de causar dependência, especificadas em lei ou em listas atualizadas pelo Poder Executivo da União, e a União pode autorizar o plantio para fins medicinais ou científicos."
+        },
+        {
+          "id": "a2",
+          "texto": "drogas são apenas as substâncias nominalmente descritas no texto da própria Lei nº 11.343/2006, vedada a remessa do rol a listas editadas pelo Poder Executivo."
+        },
+        {
+          "id": "a3",
+          "texto": "o plantio e a cultura de vegetais dos quais se possam extrair drogas são proibidos em termos absolutos, não admitida qualquer autorização legal ou regulamentar."
+        },
+        {
+          "id": "a4",
+          "texto": "a autorização para o plantio de vegetais dos quais se extraiam drogas compete aos Estados e ao Distrito Federal, para fins medicinais, independentemente de fiscalização e de prazo predeterminado."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O parágrafo único do art. 1º da Lei de Drogas define como drogas as substâncias ou produtos capazes de causar dependência, assim especificados em lei ou relacionados em listas atualizadas periodicamente pelo Poder Executivo da União (norma penal em branco). O art. 2º proíbe as drogas e o plantio, a cultura, a colheita e a exploração de vegetais dos quais possam ser extraídas, mas ressalva a hipótese de autorização legal ou regulamentar e o uso ritualístico-religioso previsto na Convenção de Viena; o parágrafo único do art. 2º permite que a União autorize o plantio exclusivamente para fins medicinais ou científicos, em local e prazo predeterminados, mediante fiscalização.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Conjuga o art. 1º, parágrafo único (conceito de drogas remetido a lei ou a listas do Executivo da União) e o art. 2º, parágrafo único (autorização da União para plantio medicinal ou científico)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O art. 1º, parágrafo único, admite a definição de drogas por listas atualizadas pelo Poder Executivo da União; o conceito não se esgota no texto da própria lei."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 2º ressalva expressamente a autorização legal ou regulamentar e o uso ritualístico-religioso, de modo que a proibição do plantio não é absoluta."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 2º, parágrafo único, atribui a autorização à União, para fins medicinais ou científicos, em local e prazo predeterminados e mediante fiscalização, não aos Estados sem controle."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 1º, parágrafo único, e art. 2º, caput e parágrafo único",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Tratar a definição de drogas como fechada no texto da lei ou a proibição do plantio como absoluta, ignorando as ressalvas e a competência da União.",
+      "lei_referencia": "Lei 11.343/2006, art. 2º, parágrafo único",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Conceito de drogas é norma penal em branco: depende de lei ou de listas do Executivo da União; a autorização do plantio medicinal ou científico é da União.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "conceito de drogas",
+        "norma penal em branco",
+        "listas do Executivo",
+        "art. 2º",
+        "plantio medicinal ou científico"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "subtema": "Prescrição das penas do usuário (art. 30)",
+      "frente": "Qual o prazo de prescrição da imposição e da execução das penas aplicadas ao usuário de drogas (art. 28)?",
+      "verso": "Dois anos, observado quanto à interrupção o disposto nos arts. 107 e seguintes do Código Penal. Art. 30 da Lei 11.343/2006.",
+      "fundamento_legal": "Lei 11.343/2006, art. 30",
+      "lei_referencia": "Lei 11.343/2006, art. 30",
+      "palavras_chave": [
+        "prescrição",
+        "dois anos",
+        "usuário",
+        "art. 30",
+        "art. 28"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f02",
+      "subtema": "Prazos do PIA e da internação involuntária (arts. 23 e 23-B)",
+      "frente": "Qual o prazo máximo da internação involuntária de dependente de drogas e em quanto tempo deve ser elaborado o Plano Individual de Atendimento (PIA)?",
+      "verso": "A internação involuntária perdura só pelo tempo da desintoxicação, no prazo máximo de 90 dias (art. 23, § 5º, III). O PIA deve ser elaborado em até 30 dias do ingresso no atendimento (art. 23-B, § 6º). Lei 11.343/2006.",
+      "fundamento_legal": "Lei 11.343/2006, art. 23, § 5º, III, e art. 23-B, § 6º",
+      "lei_referencia": "Lei 11.343/2006, art. 23, § 5º, III",
+      "palavras_chave": [
+        "internação involuntária",
+        "90 dias",
+        "PIA",
+        "30 dias",
+        "desintoxicação"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f03",
+      "subtema": "Laudo de constatação no flagrante (art. 50, §§ 1º e 2º)",
+      "frente": "Para a lavratura do auto de prisão em flagrante por tráfico, o que basta para estabelecer a materialidade e quem pode subscrever esse exame?",
+      "verso": "Basta o laudo de constatação da natureza e quantidade da droga, firmado por perito oficial ou, na falta deste, por pessoa idônea; esse perito não fica impedido de participar do laudo definitivo. Art. 50, §§ 1º e 2º, da Lei 11.343/2006.",
+      "fundamento_legal": "Lei 11.343/2006, art. 50, §§ 1º e 2º",
+      "lei_referencia": "Lei 11.343/2006, art. 50, §§ 1º e 2º",
+      "palavras_chave": [
+        "laudo de constatação",
+        "materialidade",
+        "perito oficial",
+        "pessoa idônea",
+        "flagrante"
+      ],
+      "cita_jurisprudencia": false
+    }
+  ],
+  "observacoes_do_lote": "Lote de 10 questões e 3 flashcards sobre a Lei 11.343/2006, com base exclusiva no texto legal fornecido. Foram evitados os pontos já cobrados no tema (arts. 33 a 44, 50 a 53, informante, tráfico privilegiado, causas de aumento do art. 40, entre outros), privilegiando dispositivos menos explorados: art. 28, § 2º; arts. 30, 31, 45, 46, 54, 27, 47, 63-F; arts. 1º e 2º; e o novo art. 40-A (Lei 15.358/2026). Nenhuma questão cita jurisprudência pelo número. O art. 44 (dispositivo com ressalva obrigatória) não foi cobrado."
+}
