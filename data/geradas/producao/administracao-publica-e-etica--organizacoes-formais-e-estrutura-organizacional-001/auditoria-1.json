@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvi por conta própria: cadeia de comando única e um único superior por integrante é a marca da estrutura linear (a1). Os demais tipos (matricial, funcional, rede, colegiada) estão corretamente descritos e corretamente afastados. Conceito consolidado de Teoria Geral da Administração, sem necessidade de texto legal."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O staff tem autoridade de assessoria, sem comando sobre a linha (a1). Os distratores invertem corretamente os papéis ou restringem indevidamente o modelo ao setor privado. Uma única correta, sem ambiguidade."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A autoridade funcional (dividida entre especialistas, vários chefes para o mesmo subordinado) distingue a estrutura funcional da linear (a1). Os distratores descrevem corretamente linear, colegiada, por projetos e em rede. Gabarito confere."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Dupla subordinação (chefe funcional de origem e coordenador de projeto) é o traço definidor da estrutura matricial (a1). O caso concreto é claro e os distratores (linear, divisional, linha-staff, mecanicista) são corretamente afastados. Nível e cargo adequados."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A estrutura divisional agrupa por produto, cliente ou região, com autonomia e responsabilidade por resultados (a1). Os distratores confundem com funcional, matricial, centralização e estrutura horizontal, todos corretamente errados. Uma única correta."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A única alternativa que casa corretamente vantagem e desvantagem com o tipo de estrutura é a1 (linear: disciplina e clareza de comando, mas sobrecarga do chefe e pouca especialização). As demais trocam traços entre linear e funcional. Comparação válida."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A estrutura informal é o conjunto de relações espontâneas, fruto da convivência, não previstas no organograma (a1). Os distratores descrevem a estrutura formal, a formalização por normas, a divisional e a assessoria, corretamente afastados. Sem ambiguidade."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Distinção clássica (Burns e Stalker): estrutura mecanicista para ambiente estável (X) e orgânica para ambiente instável (Y), com classificação ligada ao ambiente (a1). Os distratores invertem rótulos, generalizam ou negam o modelo mecanicista, todos errados. Confere."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Mantido o tamanho, amplitude de controle maior reduz o número de níveis e achata a estrutura (relação inversa) (a1). Os distratores invertem a relação, negam qualquer relação ou confundem amplitude com número de clientes. Gabarito correto."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A descentralização aproxima a decisão de quem conhece o problema e agiliza respostas, mas dificulta a padronização e o controle (a1). Os distratores descrevem centralização ou exageram os efeitos (eliminar hierarquia, impedir delegação), corretamente afastados. Troca bem colocada, sem alternativa defensável."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Verso correto: linear tem unidade de comando (um chefe por subordinado) e funcional tem autoridade dividida (vários chefes especializados). A frente admite resposta única e tem redação própria, sem copiar enunciado. Tema sem texto legal, logo não exige citação de dispositivo."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Verso correto: a linha tem autoridade de comando e o staff tem autoridade de assessoria (aconselha e presta serviços, sem mandar na linha). Um conceito por card, pergunta objetiva e sem ambiguidade. Conceito consolidado, sem necessidade de dispositivo legal."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Verso correto: a característica central da estrutura matricial é a dupla subordinação (chefe funcional e gerente de projeto), que combina especialização e flexibilidade ao custo da unidade de comando. Frente única e clara, redação própria. Tema sem texto legal."
+    }
+  ]
+}

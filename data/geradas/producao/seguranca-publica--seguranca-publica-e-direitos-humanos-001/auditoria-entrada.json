@@ -1,0 +1,841 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Segurança Pública e Direitos Humanos",
+      "subtema": "Desarmamento: objetivos do Estatuto",
+      "dificuldade": "facil",
+      "enunciado": "O chamado Estatuto do Desarmamento, editado em 2003, organizou no país as regras sobre armas de fogo e munições. Sobre a lógica geral adotada por essa lei, é correto afirmar que ela:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "disciplina o registro, a posse e o porte de armas de fogo, submetendo a circulação desses bens a controle estatal rigoroso."
+        },
+        {
+          "id": "a2",
+          "texto": "liberou de forma ampla a aquisição de armas de fogo por qualquer cidadão maior de idade, sem necessidade de registro."
+        },
+        {
+          "id": "a3",
+          "texto": "transferiu integralmente aos municípios a competência para autorizar o porte de arma de fogo em todo o território."
+        },
+        {
+          "id": "a4",
+          "texto": "limitou-se a tratar das armas brancas e de artefatos explosivos, sem cuidar das armas de fogo propriamente ditas."
+        },
+        {
+          "id": "a5",
+          "texto": "aboliu a distinção entre posse e porte, tratando as duas condutas como uma única situação jurídica indiferenciada."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O Estatuto do Desarmamento (Lei 10.826/2003) tem como eixo central submeter as armas de fogo e munições a um controle estatal rígido, disciplinando separadamente o registro (ato que regulariza a arma), a posse (manter a arma no interior da residência ou local de trabalho) e o porte (trazer a arma consigo fora desses locais). A regra do sistema é a restrição, não a liberação: a aquisição depende de requisitos e de registro, e o porte é excepcional e sujeito a autorização federal. Por isso a arma circula sob controle do Estado, e não livremente.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Resume a lógica da lei: registro, posse e porte são tratados de forma própria, sob controle estatal rigoroso da circulação de armas de fogo."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A lei não liberou a aquisição ampla: ela exige requisitos e registro, justamente para restringir o acesso a armas de fogo."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A autorização de porte é de controle federal, e não atribuída de forma geral aos municípios."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O objeto principal do Estatuto são as armas de fogo e munições, e não apenas armas brancas ou explosivos."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Posse e porte são situações distintas na lei: ter a arma na residência ou trabalho não se confunde com trazê-la consigo fora desses locais."
+        }
+      ],
+      "fundamento_legal": "Lei 10.826/2003 (Estatuto do Desarmamento)",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Imaginar que o Estatuto liberou o acesso a armas, quando a lógica da norma é de restrição e controle.",
+      "lei_referencia": "Lei 10.826/2003",
+      "macete_do_riccardo": "Posse é PAREDE (arma em casa ou no trabalho); porte é PÉ NA RUA (arma consigo fora desses locais).",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "Estatuto do Desarmamento",
+        "controle de armas",
+        "registro",
+        "posse",
+        "porte"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado sobre o Estatuto do Desarmamento (Lei 10.826/2003)"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Segurança Pública e Direitos Humanos",
+      "subtema": "Desarmamento: diferença entre posse e porte",
+      "dificuldade": "facil",
+      "enunciado": "No regime do Estatuto do Desarmamento, é fundamental distinguir as condutas de posse e de porte de arma de fogo. Com base nessa distinção, é correto afirmar que a posse de arma de fogo consiste em:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "manter a arma de fogo guardada no interior da residência ou no local de trabalho, sendo o agente o titular."
+        },
+        {
+          "id": "a2",
+          "texto": "trazer a arma de fogo consigo em via pública, pronta para uso imediato em qualquer deslocamento do agente."
+        },
+        {
+          "id": "a3",
+          "texto": "adquirir a arma de fogo em loja autorizada, independentemente de onde ela será posteriormente guardada pelo dono."
+        },
+        {
+          "id": "a4",
+          "texto": "transportar a arma de fogo desmuniciada entre o estande de tiro e a residência do atirador habilitado."
+        },
+        {
+          "id": "a5",
+          "texto": "ceder a arma de fogo a terceiro para uso temporário em um evento esportivo devidamente autorizado pelo órgão."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "No Estatuto do Desarmamento, posse e porte são condutas distintas. A posse é ter a arma de fogo guardada no interior da residência ou no local de trabalho (quando o agente é o titular ou o responsável legal do estabelecimento), um espaço delimitado. O porte, por outro lado, é trazer a arma consigo fora desses locais, por exemplo em via pública. A distinção importa porque os requisitos, as autorizações e até o enquadramento penal variam conforme a conduta: posse e porte têm tratamentos próprios na lei.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "A posse é exatamente manter a arma dentro da residência ou do local de trabalho, sendo o agente o titular ou responsável legal."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Trazer a arma consigo em via pública descreve o porte, e não a posse."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A aquisição da arma é ato anterior e autônomo; ela não se confunde com a posse, que diz respeito a manter a arma no local permitido."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O deslocamento da arma entre locais caracteriza transporte, situação diversa da posse definida pela lei."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Entregar a arma a terceiro é cessão, conduta distinta da posse, que pressupõe a guarda pelo próprio titular no local permitido."
+        }
+      ],
+      "fundamento_legal": "Lei 10.826/2003 (Estatuto do Desarmamento)",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar posse por porte, descrevendo a arma trazida consigo em via pública como se fosse posse.",
+      "lei_referencia": "Lei 10.826/2003",
+      "macete_do_riccardo": null,
+      "fique_ligado": "O ponto que decide a questão é o lugar: dentro de casa ou do trabalho é posse; fora deles, trazendo consigo, é porte.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "posse de arma",
+        "porte de arma",
+        "residência",
+        "local de trabalho",
+        "Estatuto do Desarmamento"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado sobre o Estatuto do Desarmamento (Lei 10.826/2003)"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Segurança Pública e Direitos Humanos",
+      "subtema": "Desarmamento: sistemas de controle (Sinarm e Sigma)",
+      "dificuldade": "facil",
+      "enunciado": "O controle das armas de fogo no país é feito por sistemas de registro distintos conforme a natureza da arma. Sobre esses sistemas, assinale a alternativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O Sinarm, da Polícia Federal, registra as armas de uso permitido na esfera civil, e o Sigma, do Exército, as armas militares e de uso restrito."
+        },
+        {
+          "id": "a2",
+          "texto": "O Sinarm e o Sigma são, na verdade, um único cadastro de armas, mantido com exclusividade pelas polícias militares dos estados."
+        },
+        {
+          "id": "a3",
+          "texto": "O Sigma cuida apenas das armas de colecionadores particulares, e todas as demais armas acabam ficando sem qualquer registro federal."
+        },
+        {
+          "id": "a4",
+          "texto": "O Sinarm registra somente as armas de uso restrito do país, enquanto as armas civis dispensam qualquer cadastro central de controle."
+        },
+        {
+          "id": "a5",
+          "texto": "O controle de todas as armas, tanto civis quanto militares, caberia com exclusividade aos governos estaduais, sem participação da União."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O sistema brasileiro divide o registro das armas conforme a natureza delas. O Sinarm (Sistema Nacional de Armas), no âmbito da Polícia Federal, concentra o controle das armas de uso permitido na esfera civil. O Sigma (Sistema de Gerenciamento Militar de Armas), a cargo do Exército, controla as armas das Forças Armadas, das forças auxiliares e as de uso restrito, além das atividades de colecionadores, atiradores e caçadores. A divisão é relevante porque define a quem o interessado deve se dirigir e qual a disciplina aplicável a cada tipo de arma.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Descreve corretamente a divisão: Sinarm (Polícia Federal) para armas civis de uso permitido e Sigma (Exército) para armas militares e de uso restrito."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "São sistemas distintos, com órgãos gestores diferentes, e não um único cadastro das polícias militares."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O Sigma não se limita a colecionadores: abrange armas militares e de uso restrito, e as armas civis têm o registro do Sinarm."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O Sinarm cuida das armas civis de uso permitido; são as de uso restrito que ficam no Sigma."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "O controle é federal (Polícia Federal e Exército), e não exclusivo dos governos estaduais."
+        }
+      ],
+      "fundamento_legal": "Lei 10.826/2003 (Estatuto do Desarmamento)",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Inverter as competências do Sinarm (armas civis, Polícia Federal) e do Sigma (armas militares e de uso restrito, Exército).",
+      "lei_referencia": "Lei 10.826/2003",
+      "macete_do_riccardo": "SiNARM é da PF e cuida do cidadão (uso permitido); SiGMA é do Exército e cuida do militar e do uso restrito.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "Sinarm",
+        "Sigma",
+        "Polícia Federal",
+        "Exército",
+        "uso restrito"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado sobre o Estatuto do Desarmamento (Lei 10.826/2003)"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Segurança Pública e Direitos Humanos",
+      "subtema": "Desarmamento: requisitos para adquirir arma de fogo",
+      "dificuldade": "media",
+      "enunciado": "Um cidadão pretende adquirir uma arma de fogo de uso permitido para mantê-la em sua residência. Considerando os requisitos consagrados no Estatuto do Desarmamento, a autorização para a compra depende, entre outras exigências, de o interessado:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "comprovar idoneidade, ocupação lícita e residência certa, além de aptidão psicológica e capacidade técnica para o manuseio da arma."
+        },
+        {
+          "id": "a2",
+          "texto": "apenas apresentar o seu documento de identidade e pagar a taxa de registro, sem qualquer avaliação pessoal de natureza técnica ou psicológica."
+        },
+        {
+          "id": "a3",
+          "texto": "comprovar renda mensal superior a determinado patamar fixado em lei, tido como o único requisito exigido para a aquisição."
+        },
+        {
+          "id": "a4",
+          "texto": "obter autorização judicial prévia em processo específico de habilitação, dispensados os exames técnicos e psicológicos do interessado."
+        },
+        {
+          "id": "a5",
+          "texto": "comprovar filiação a clube de tiro e participação regular em competições esportivas homologadas pela federação da modalidade."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Para adquirir arma de fogo de uso permitido, o Estatuto do Desarmamento exige um conjunto de requisitos que materializam a lógica de controle da lei: declaração de efetiva necessidade, comprovação de idoneidade (com certidões criminais), ocupação lícita e residência certa, além de aptidão psicológica e capacidade técnica para o manuseio da arma, atestadas na forma da regulamentação. Essas exigências visam a assegurar que apenas pessoas habilitadas e sem antecedentes acessem armas de fogo. Não basta documento e taxa, não há exigência de renda mínima como requisito único, não se exige autorização judicial para a aquisição comum, nem filiação obrigatória a clube de tiro.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reúne os requisitos essenciais: idoneidade, ocupação lícita, residência certa, aptidão psicológica e capacidade técnica para o manuseio."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Documento e taxa não bastam: a lei exige avaliação de idoneidade, aptidão psicológica e capacidade técnica."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Não há requisito de renda mínima, muito menos como exigência única para a aquisição."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A aquisição comum não depende de autorização judicial, e os exames técnicos e psicológicos não são dispensados."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Filiação a clube de tiro é condição ligada ao atirador desportivo, não requisito geral para quem quer apenas a posse em casa."
+        }
+      ],
+      "fundamento_legal": "Lei 10.826/2003 (Estatuto do Desarmamento)",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Reduzir a aquisição a um ato meramente burocrático (documento e taxa), ignorando os exames de aptidão e a avaliação de idoneidade.",
+      "lei_referencia": "Lei 10.826/2003",
+      "macete_do_riccardo": null,
+      "fique_ligado": "A capacidade técnica e a aptidão psicológica são requisitos pessoais que a banca gosta de omitir nos distratores.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "requisitos",
+        "aquisição de arma",
+        "idoneidade",
+        "aptidão psicológica",
+        "capacidade técnica"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado sobre o Estatuto do Desarmamento (Lei 10.826/2003)"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Segurança Pública e Direitos Humanos",
+      "subtema": "Desarmamento: natureza excepcional do porte",
+      "dificuldade": "media",
+      "enunciado": "A respeito do porte de arma de fogo no regime do Estatuto do Desarmamento, considerando a diretriz adotada pela lei, assinale a alternativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O porte é tratado como medida excepcional, mediante autorização e comprovação de efetiva necessidade, salvo os casos de porte funcional."
+        },
+        {
+          "id": "a2",
+          "texto": "O porte é direito automático de todo cidadão que já possua o registro da sua arma, bastando a posse regular para portá-la livremente em via pública."
+        },
+        {
+          "id": "a3",
+          "texto": "O porte é concedido de forma livre pelas polícias civis dos estados a qualquer pessoa maior de vinte e um anos que simplesmente o requeira."
+        },
+        {
+          "id": "a4",
+          "texto": "O porte depende apenas do pagamento de uma taxa anual ao órgão competente, sendo dispensada a demonstração de necessidade pelo interessado."
+        },
+        {
+          "id": "a5",
+          "texto": "O porte civil de armas foi inteiramente proibido pela lei, restando apenas o porte dos integrantes das Forças Armadas em serviço."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A diretriz do Estatuto do Desarmamento é tratar o porte de arma de fogo como situação excepcional. Diferentemente da posse (arma guardada em casa ou no trabalho), o porte é trazer a arma consigo fora desses locais e, por isso, exige autorização e, em regra, demonstração de efetiva necessidade, na forma da regulamentação. A própria lei, porém, reconhece situações de porte funcional (por exemplo, de integrantes de órgãos de segurança pública no exercício da função), que decorrem do cargo. Assim, o porte não é automático nem livre, mas também não foi totalmente proibido para civis.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reflete a diretriz legal: porte excepcional, com autorização e necessidade, ressalvados os casos de porte funcional previstos em lei."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Ter registro não gera porte automático: posse e porte são condições distintas, e o porte exige autorização própria."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O porte não é concedido livremente pelas polícias civis estaduais, e sua concessão não é discricionária a qualquer requerente."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O porte não se reduz ao pagamento de taxa: a demonstração de efetiva necessidade é elemento central do pedido."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "A lei não proibiu por completo o porte civil: ela o tornou excepcional e condicionado, não inexistente."
+        }
+      ],
+      "fundamento_legal": "Lei 10.826/2003 (Estatuto do Desarmamento)",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir registro ou posse regular com direito automático de porte em via pública.",
+      "lei_referencia": "Lei 10.826/2003",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Posse regular não dá porte: são autorizações diferentes, e o porte exige demonstração de necessidade.",
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "porte de arma",
+        "excepcionalidade",
+        "efetiva necessidade",
+        "porte funcional",
+        "autorização"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado sobre o Estatuto do Desarmamento (Lei 10.826/2003)"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Segurança Pública e Direitos Humanos",
+      "subtema": "Desarmamento: entrega voluntária e campanhas",
+      "dificuldade": "media",
+      "enunciado": "As campanhas de entrega voluntária de armas de fogo integram a política de desarmamento adotada no Brasil. Quanto a essa entrega espontânea à autoridade competente, é correto afirmar que:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "quem entrega espontaneamente a arma à autoridade recebe indenização e tem afastada a punição pela posse irregular que mantinha antes."
+        },
+        {
+          "id": "a2",
+          "texto": "a entrega espontânea da arma impede qualquer forma de compensação ao entregante, que apenas se livra do objeto, sem receber nenhuma contrapartida."
+        },
+        {
+          "id": "a3",
+          "texto": "a entrega da arma à autoridade somente é admitida mediante prévia autorização judicial, concedida em cada caso concreto por decisão fundamentada."
+        },
+        {
+          "id": "a4",
+          "texto": "a entrega voluntária da arma converte-se de forma automática em confissão do crime de homicídio, independentemente do uso que tenha sido dado à arma."
+        },
+        {
+          "id": "a5",
+          "texto": "a arma entregue deve ser imediatamente devolvida ao entregante assim que terminar a campanha de desarmamento."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A política de desarmamento prevê campanhas de entrega voluntária de armas e munições. Quem entrega espontaneamente a arma à autoridade competente recebe uma indenização (valor fixado conforme a regulamentação) e, quanto à posse irregular anterior, fica abrigado por causa de extinção da punibilidade ou de exclusão da responsabilidade por aquela posse, estimulando a adesão. A lógica é incentivar a retirada de armas de circulação. Logo, há contrapartida ao entregante, não se exige autorização judicial caso a caso, a entrega não equivale a confissão de homicídio e a arma entregue não é devolvida: destina-se à destruição ou ao controle do Estado.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Descreve corretamente a entrega voluntária: há indenização e afastamento da punição pela posse irregular anterior, como incentivo ao desarmamento."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A entrega espontânea prevê contrapartida (indenização), não sendo um ato sem qualquer compensação ao entregante."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A entrega à autoridade nas campanhas não exige autorização judicial em cada caso: é procedimento administrativo de adesão voluntária."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Entregar a arma não é confissão de homicídio; a medida alcança a posse irregular, não crimes praticados com a arma."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "A arma entregue não retorna ao entregante: destina-se ao controle estatal e, em regra, à destruição."
+        }
+      ],
+      "fundamento_legal": "Lei 10.826/2003 (Estatuto do Desarmamento)",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Supor que a entrega voluntária funciona como confissão de crimes ou que não gera qualquer efeito favorável ao entregante.",
+      "lei_referencia": "Lei 10.826/2003",
+      "macete_do_riccardo": null,
+      "fique_ligado": "A entrega voluntária alcança a posse irregular anterior; ela não apaga eventual crime cometido com a arma.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "entrega voluntária",
+        "campanha de desarmamento",
+        "indenização",
+        "posse irregular",
+        "extinção da punibilidade"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado sobre o Estatuto do Desarmamento (Lei 10.826/2003)"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Segurança Pública e Direitos Humanos",
+      "subtema": "Desarmamento: posse irregular x porte ilegal",
+      "dificuldade": "media",
+      "enunciado": "Durante abordagem, policiais encontram com um indivíduo, em plena via pública, uma arma de fogo de uso permitido sem qualquer autorização de porte. O mesmo indivíduo, em sua casa, mantinha outra arma de uso permitido com registro vencido. Sobre o enquadramento dessas situações no Estatuto do Desarmamento, é correto afirmar que:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "a arma trazida na via pública caracteriza porte ilegal, e a guardada em casa com registro vencido tende a configurar posse irregular."
+        },
+        {
+          "id": "a2",
+          "texto": "ambas as situações configuram exatamente o mesmo crime de porte ilegal, pois o lugar em que cada arma estava é totalmente irrelevante para a lei."
+        },
+        {
+          "id": "a3",
+          "texto": "nenhuma das duas condutas constitui crime, por se tratar de armas de uso permitido pertencentes, no caso, a um único e mesmo dono."
+        },
+        {
+          "id": "a4",
+          "texto": "apenas a arma guardada em casa é crime, pois o porte em via pública de arma de uso permitido não passaria de mera infração administrativa."
+        },
+        {
+          "id": "a5",
+          "texto": "ambas as condutas configuram o crime de tráfico de armas, já que havia mais de uma arma de fogo em poder do mesmo agente abordado."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O Estatuto do Desarmamento distingue a posse (arma na residência ou local de trabalho) do porte (arma trazida consigo fora desses locais), e também separa armas de uso permitido das de uso restrito. Trazer a arma em via pública sem autorização caracteriza o porte ilegal; manter arma em casa fora das condições regulares (por exemplo, registro vencido) tende a configurar a posse irregular de arma de uso permitido. São figuras distintas, com tratamento penal próprio. Não se trata do mesmo crime nem de simples infração administrativa, e a existência de mais de uma arma, por si, não transforma a conduta em tráfico.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Separa corretamente as figuras: porte ilegal (arma na via pública) e posse irregular de arma de uso permitido (arma em casa fora das condições regulares)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O lugar é relevante: a lei distingue posse (em casa ou trabalho) de porte (fora desses locais), com enquadramentos diferentes."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Ser arma de uso permitido e do mesmo dono não afasta o crime: tanto a posse irregular quanto o porte ilegal são tipificados."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O porte ilegal de arma de uso permitido é crime, e não mera infração administrativa."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "A pluralidade de armas não configura, por si, tráfico; o tráfico exige conduta própria de comércio ou fornecimento ilegal."
+        }
+      ],
+      "fundamento_legal": "Lei 10.826/2003 (Estatuto do Desarmamento)",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Tratar posse e porte como um único crime, ignorando que o local da arma muda o enquadramento legal.",
+      "lei_referencia": "Lei 10.826/2003",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Mais de uma arma não é tráfico: o tráfico exige conduta de comércio ou fornecimento ilegal, não simples quantidade.",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "posse irregular",
+        "porte ilegal",
+        "uso permitido",
+        "registro vencido",
+        "enquadramento"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado sobre o Estatuto do Desarmamento (Lei 10.826/2003)"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Segurança Pública e Direitos Humanos",
+      "subtema": "Desarmamento: uso permitido e uso restrito",
+      "dificuldade": "dificil",
+      "enunciado": "A classificação das armas de fogo em uso permitido e uso restrito é determinante para definir o órgão de registro e o rigor do controle. Sobre essa classificação e seus reflexos no Estatuto do Desarmamento, assinale a alternativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "As de uso restrito têm controle mais rígido e ficam no Sigma, do Exército; as de uso permitido, próprias do cidadão comum, ficam no Sinarm, da Polícia Federal."
+        },
+        {
+          "id": "a2",
+          "texto": "A distinção entre as armas de uso permitido e as de uso restrito seria meramente doutrinária, sem qualquer reflexo prático no órgão de registro ou no regime de controle aplicável."
+        },
+        {
+          "id": "a3",
+          "texto": "Todas as armas de fogo do país, qualquer que seja a sua classificação, são registradas apenas no Sinarm, incluídas aí até mesmo as armas de emprego estritamente militar."
+        },
+        {
+          "id": "a4",
+          "texto": "As armas de uso restrito poderiam ser adquiridas por qualquer cidadão nas mesmas condições das de uso permitido, sem nenhum tipo de controle adicional por parte do Estado."
+        },
+        {
+          "id": "a5",
+          "texto": "As armas de uso permitido seriam proibidas ao cidadão comum, que só poderia adquirir as de uso restrito mediante autorização específica concedida pelo Exército."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A classificação em uso permitido e uso restrito organiza todo o controle. As armas de uso restrito, por seu maior potencial lesivo, sujeitam-se a controle mais rígido e ficam no Sigma, a cargo do Exército; as de uso permitido, típicas do cidadão comum que preenche os requisitos, são registradas no Sinarm, da Polícia Federal. A distinção tem efeito prático direto: define o órgão competente, os requisitos e as hipóteses de aquisição. Por isso não é mero debate doutrinário, não há registro único de tudo no Sinarm, o acesso às armas de uso restrito é mais estrito, e as de uso permitido não são vedadas ao cidadão.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Relaciona corretamente a classificação ao órgão e ao controle: uso restrito no Sigma (Exército), uso permitido no Sinarm (Polícia Federal)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A distinção tem reflexos concretos: muda o órgão de registro, os requisitos e o rigor do controle; não é só doutrinária."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "As armas de emprego militar e de uso restrito ficam no Sigma, do Exército, e não todas no Sinarm."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "As armas de uso restrito têm controle adicional e acesso mais estrito, não equiparado ao das de uso permitido."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "A lógica é inversa: o cidadão comum pode acessar as de uso permitido; as de uso restrito é que têm acesso limitado."
+        }
+      ],
+      "fundamento_legal": "Lei 10.826/2003 (Estatuto do Desarmamento)",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Tratar a classificação uso permitido x uso restrito como irrelevante ou concentrar todo o registro no Sinarm.",
+      "lei_referencia": "Lei 10.826/2003",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "uso permitido",
+        "uso restrito",
+        "Sinarm",
+        "Sigma",
+        "classificação de armas"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado sobre o Estatuto do Desarmamento (Lei 10.826/2003)"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Segurança Pública e Direitos Humanos",
+      "subtema": "Desarmamento: disparo de arma de fogo em via pública",
+      "dificuldade": "dificil",
+      "enunciado": "Em uma comemoração, um indivíduo efetua vários disparos de arma de fogo para o alto, em plena via pública de área habitada, sem atingir ou pretender atingir pessoa determinada. Considerando o tratamento dado pelo Estatuto do Desarmamento, é correto afirmar que essa conduta:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "configura o crime autônomo de disparo de arma de fogo em via pública, salvo quando o disparo for elemento de crime mais grave."
+        },
+        {
+          "id": "a2",
+          "texto": "é penalmente irrelevante, pois a ausência de um alvo humano determinado afastaria, no caso, qualquer figura delitiva prevista na lei de armas."
+        },
+        {
+          "id": "a3",
+          "texto": "constitui mera infração administrativa de perturbação do sossego público, sem nenhum reflexo na esfera penal do agente que efetuou os disparos."
+        },
+        {
+          "id": "a4",
+          "texto": "só é punível se ficar comprovado que o agente pretendia atingir alguém com os disparos efetuados para o alto."
+        },
+        {
+          "id": "a5",
+          "texto": "equivale, em qualquer caso, ao crime de homicídio tentado, dado o grave risco à vida criado pelos disparos feitos em local habitado."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O Estatuto do Desarmamento tipifica, como crime autônomo, o disparo de arma de fogo em via pública ou em direção a ela, em lugar habitado ou em suas adjacências. A finalidade é punir a criação de perigo, independentemente de haver alvo humano determinado. Trata-se de crime subsidiário: se o disparo for meio ou elemento de crime mais grave (por exemplo, uma tentativa de homicídio), o agente responde pelo crime mais grave, e não pelo disparo isolado. Logo, a conduta não é penalmente irrelevante nem simples infração administrativa, e não se transforma automaticamente em homicídio tentado pela só criação de risco.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Descreve o crime de disparo de arma de fogo e sua subsidiariedade: cede lugar ao crime mais grave quando o disparo é elemento deste."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A conduta não é irrelevante: o crime de disparo pune o perigo criado, mesmo sem alvo humano determinado."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Não se trata de mera infração administrativa: a lei prevê figura penal própria para o disparo em via pública."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A punição não depende de intenção de atingir alguém: o tipo se contenta com o disparo em via pública habitada."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "O disparo para o alto, sem alvo determinado, não equivale sempre a homicídio tentado, que exige dolo de matar pessoa certa."
+        }
+      ],
+      "fundamento_legal": "Lei 10.826/2003 (Estatuto do Desarmamento)",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Achar que, sem alvo humano determinado, o disparo em via pública não é crime, ou enquadrá-lo sempre como homicídio tentado.",
+      "lei_referencia": "Lei 10.826/2003",
+      "macete_do_riccardo": null,
+      "fique_ligado": "O disparo de arma de fogo é crime subsidiário: se ele integra um crime mais grave, o agente responde pelo mais grave.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "disparo de arma de fogo",
+        "via pública",
+        "crime de perigo",
+        "subsidiariedade",
+        "Estatuto do Desarmamento"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado sobre o Estatuto do Desarmamento (Lei 10.826/2003)"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Segurança Pública e Direitos Humanos",
+      "subtema": "Desarmamento: diálogo com direitos humanos",
+      "dificuldade": "dificil",
+      "enunciado": "A política de desarmamento costuma ser apresentada como instrumento de proteção de direitos fundamentais. Sob a perspectiva da relação entre desarmamento e direitos humanos, a afirmação mais adequada é a de que:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "o controle de armas busca reduzir a letalidade e proteger o direito à vida e à segurança, conciliando a restrição ao acesso com bens jurídicos coletivos."
+        },
+        {
+          "id": "a2",
+          "texto": "o desarmamento seria, em essência, incompatível com os direitos humanos, pois toda e qualquer restrição ao acesso a armas violaria a liberdade individual de forma insuperável."
+        },
+        {
+          "id": "a3",
+          "texto": "o controle de armas interessaria apenas ao campo da segurança pública, sem guardar nenhuma conexão real com a proteção dos direitos fundamentais das pessoas."
+        },
+        {
+          "id": "a4",
+          "texto": "a efetiva proteção dos direitos humanos exigiria a proibição total e imediata de qualquer arma de fogo, incluídas até mesmo as de uso das próprias forças de segurança."
+        },
+        {
+          "id": "a5",
+          "texto": "o tema dos direitos humanos seria de todo estranho à política de armas, que se resolveria unicamente no campo econômico do comércio internacional de armamentos."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A política de desarmamento dialoga diretamente com os direitos humanos. Ao restringir e controlar o acesso a armas de fogo, o Estado busca reduzir a violência armada e a letalidade, protegendo o direito à vida e à segurança das pessoas, bens jurídicos de alcance coletivo. Não se trata de supressão arbitrária de liberdades, mas de uma ponderação: limita-se o acesso a armas para resguardar direitos de terceiros e da sociedade. Por isso o desarmamento não é incompatível com os direitos humanos, não é tema restrito à segurança pública nem exige a proibição total de toda arma, inclusive as das forças de segurança, que atuam na própria proteção de direitos.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Expressa a ponderação correta: restringir o acesso a armas para proteger a vida e a segurança, bens jurídicos coletivos ligados aos direitos humanos."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Restringir o acesso a armas não viola de forma insuperável a liberdade: é limitação legítima em favor de direitos de terceiros."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O controle de armas conecta-se à proteção do direito à vida e à segurança, não sendo tema isolado da segurança pública."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Direitos humanos não exigem proibir toda arma, inclusive a das forças de segurança, que servem justamente à proteção de direitos."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "O tema não é apenas econômico: envolve a proteção de direitos fundamentais contra a violência armada."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Opor desarmamento e direitos humanos, como se o controle de armas fosse por si uma violação de liberdades.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "O desarmamento é visto como proteção do direito à vida e à segurança, não como seu oposto.",
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "desarmamento",
+        "direitos humanos",
+        "direito à vida",
+        "segurança",
+        "ponderação"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado sobre a política de desarmamento e sua relação com os direitos humanos"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "subtema": "Desarmamento: posse x porte",
+      "frente": "No Estatuto do Desarmamento, qual é a diferença entre posse e porte de arma de fogo?",
+      "verso": "Posse é manter a arma no interior da residência ou do local de trabalho (quando o agente é titular ou responsável legal); porte é trazer a arma consigo fora desses locais. São condutas distintas, com autorizações e enquadramentos próprios no Estatuto do Desarmamento (Lei 10.826/2003).",
+      "fundamento_legal": "Lei 10.826/2003 (Estatuto do Desarmamento)",
+      "lei_referencia": "Lei 10.826/2003",
+      "palavras_chave": [
+        "posse",
+        "porte",
+        "residência",
+        "local de trabalho"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f02",
+      "subtema": "Desarmamento: Sinarm x Sigma",
+      "frente": "Quais órgãos gerenciam o Sinarm e o Sigma, e que tipo de arma cada sistema registra?",
+      "verso": "O Sinarm é da Polícia Federal e registra as armas de uso permitido na esfera civil; o Sigma é do Exército e controla as armas das Forças Armadas, das forças auxiliares e as de uso restrito, além de colecionadores, atiradores e caçadores. Base: Lei 10.826/2003.",
+      "fundamento_legal": "Lei 10.826/2003 (Estatuto do Desarmamento)",
+      "lei_referencia": "Lei 10.826/2003",
+      "palavras_chave": [
+        "Sinarm",
+        "Sigma",
+        "Polícia Federal",
+        "Exército"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f03",
+      "subtema": "Desarmamento: entrega voluntária",
+      "frente": "O que recebe e de que fica isento quem entrega espontaneamente uma arma de fogo nas campanhas de desarmamento?",
+      "verso": "Quem entrega a arma à autoridade competente recebe indenização e tem afastada a punição pela posse irregular anterior daquela arma. A medida incentiva a retirada de armas de circulação; a arma entregue é controlada pelo Estado e, em regra, destruída. Base: Lei 10.826/2003.",
+      "fundamento_legal": "Lei 10.826/2003 (Estatuto do Desarmamento)",
+      "lei_referencia": "Lei 10.826/2003",
+      "palavras_chave": [
+        "entrega voluntária",
+        "indenização",
+        "posse irregular",
+        "campanha"
+      ],
+      "cita_jurisprudencia": false
+    }
+  ]
+}

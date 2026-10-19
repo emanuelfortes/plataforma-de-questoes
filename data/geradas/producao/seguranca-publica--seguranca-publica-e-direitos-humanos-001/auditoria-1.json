@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A lógica do Estatuto do Desarmamento (Lei 10.826/2003) é disciplinar registro, posse e porte sob controle estatal rigoroso. A alternativa a1 resume corretamente esse eixo; os quatro distratores erram por conteúdo (liberação ampla, competência municipal, só armas brancas, fusão posse/porte). Conhecimento consolidado e incontroverso."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Posse é manter a arma no interior da residência ou local de trabalho, sendo o agente o titular, exatamente como descreve a1. Os distratores confundem posse com porte (a2), aquisição (a3), transporte (a4) e cessão (a5). Fundamento conferido no conhecimento consolidado sobre a Lei 10.826/2003."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O Sinarm (Polícia Federal) cadastra armas de uso permitido na esfera civil e o Sigma (Exército) as armas militares e de uso restrito, conforme a1. É ponto pacífico. Os demais invertem ou negam a divisão federal do controle."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Para adquirir arma de uso permitido o Estatuto exige idoneidade, ocupação lícita, residência certa, aptidão psicológica e capacidade técnica, como em a1. Os distratores reduzem a aquisição a documento e taxa, renda, autorização judicial ou filiação a clube de tiro, todos equivocados. Fundamento consolidado."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O porte é medida excepcional, condicionada a autorização e comprovação de efetiva necessidade, ressalvados os casos de porte funcional, como diz a1. Os distratores tratam o porte como automático, livre, dependente só de taxa ou totalmente proibido, todos incorretos. Ponto consolidado."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Quem entrega espontaneamente a arma à autoridade recebe indenização e fica a salvo da punição pela posse irregular anterior, incentivo central das campanhas de desarmamento, como em a1. Os distratores negam a contrapartida, exigem autorização judicial, equiparam a confissão de homicídio ou devolvem a arma, todos errados. Consolidado."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A arma trazida na via pública sem autorização caracteriza porte ilegal e a arma mantida em casa com registro vencido tende a configurar posse irregular de arma de uso permitido, como em a1. O uso adequado de \"tende a configurar\" evita afirmação categórica indevida. Os distratores igualam as figuras, negam o crime ou falam em tráfico, todos equivocados. Fundamento consolidado."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A classificação em uso permitido e uso restrito tem reflexo prático direto: uso restrito no Sigma (Exército) com controle mais rígido e uso permitido no Sinarm (Polícia Federal), como em a1. Os distratores tratam a distinção como só doutrinária, concentram tudo no Sinarm ou invertem o acesso, todos incorretos. Consolidado."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O disparo de arma de fogo em via pública ou em lugar habitado é crime autônomo de perigo, independentemente de alvo determinado, e subsidiário (cede ao crime mais grave quando o disparo é elemento deste), exatamente como a1. Os distratores negam a tipicidade, reduzem a infração administrativa, exigem intenção de atingir alguém ou equiparam sempre a homicídio tentado, todos errados. Consolidado."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O controle de armas busca reduzir a letalidade e proteger o direito à vida e à segurança, conciliando a restrição ao acesso com bens jurídicos coletivos, como em a1. Os distratores opõem desarmamento e direitos humanos, negam a conexão ou exigem proibição total, posições extremas e indefensáveis. A alternativa correta é a única sustentável e responde ao comando interpretativo sem ambiguidade."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso distingue corretamente posse (arma em casa ou no trabalho, agente titular ou responsável) de porte (arma consigo fora desses locais) e cita a Lei 10.826/2003. A frente admite resposta única e tem redação própria."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Descreve corretamente Sinarm (Polícia Federal, armas de uso permitido civil) e Sigma (Exército, Forças Armadas, forças auxiliares, uso restrito, colecionadores, atiradores e caçadores), com base na Lei 10.826/2003. Pergunta objetiva e sem ambiguidade."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso acerta ao dizer que quem entrega a arma recebe indenização e fica a salvo da punição pela posse irregular anterior, com a arma destinada ao controle estatal e, em regra, à destruição, conforme a Lei 10.826/2003. Frente clara e com resposta única."
+    }
+  ]
+}

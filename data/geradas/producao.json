@@ -308,6 +308,210 @@
         "descartes": []
       },
       "concluidoEm": "2026-10-19T04:30:52.145Z"
+    },
+    {
+      "id": "direito-penal-militar--crime-militar-conceito-e-classificacao-001",
+      "topico": "direito-penal-militar--crime-militar-conceito-e-classificacao",
+      "banca": "Vunesp",
+      "alternativas": 5,
+      "concurso": "cfo-pmce",
+      "foco": "Crimes militares em tempo de paz",
+      "execucao": "exec-2026-10-19T04-31-12-310Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T04:31:15.968Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 9,
+          "fila": 1,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 3,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T04:40:25.628Z"
+    },
+    {
+      "id": "historia-e-geografia-do-ceara--ceara-na-republica-001",
+      "topico": "historia-e-geografia-do-ceara--ceara-na-republica",
+      "banca": "Vunesp",
+      "alternativas": 5,
+      "concurso": "cfo-pmce",
+      "foco": "República Velha: coronelismo, movimentos religiosos e banditismo",
+      "execucao": "exec-2026-10-19T04-31-12-310Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T04:31:16.094Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 10,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 3,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T04:40:27.935Z"
+    },
+    {
+      "id": "raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias-001",
+      "topico": "raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "gm-fortaleza",
+      "foco": "Dedução a partir de relações entre pessoas, lugares e objetos",
+      "execucao": "exec-2026-10-19T04-31-12-310Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T04:31:16.216Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 10,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 3,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T04:40:30.436Z"
+    },
+    {
+      "id": "administracao-publica-e-etica--organizacoes-formais-e-estrutura-organizacional-001",
+      "topico": "administracao-publica-e-etica--organizacoes-formais-e-estrutura-organizacional",
+      "banca": "Vunesp",
+      "alternativas": 5,
+      "concurso": "cfo-pmce",
+      "foco": "Tipos de estrutura",
+      "execucao": "exec-2026-10-19T04-31-12-310Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T04:40:30.549Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 0,
+          "fila": 10,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 0,
+          "fila": 3,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T04:49:29.598Z"
+    },
+    {
+      "id": "seguranca-publica--seguranca-publica-e-direitos-humanos-001",
+      "topico": "seguranca-publica--seguranca-publica-e-direitos-humanos",
+      "banca": "Vunesp",
+      "alternativas": 5,
+      "concurso": "cfo-pmce",
+      "foco": "Desarmamento",
+      "execucao": "exec-2026-10-19T04-31-12-310Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T04:40:30.661Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 0,
+          "fila": 10,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 0,
+          "fila": 3,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T04:49:29.828Z"
+    },
+    {
+      "id": "direito-administrativo--atos-administrativos-002",
+      "topico": "direito-administrativo--atos-administrativos",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "gm-fortaleza",
+      "foco": "Classificação e espécies",
+      "execucao": "exec-2026-10-19T04-31-12-310Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T04:40:30.772Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 10,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 3,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T04:49:31.699Z"
     }
   ],
   "execucoes": [
@@ -336,6 +540,15 @@
       "paralelo": 3,
       "lotesIniciados": 6,
       "fim": "2026-10-19T04:30:52.145Z",
+      "motivoFim": "teto atingido"
+    },
+    {
+      "id": "exec-2026-10-19T04-31-12-310Z",
+      "inicio": "2026-10-19T04:31:12.310Z",
+      "teto": 6,
+      "paralelo": 3,
+      "lotesIniciados": 6,
+      "fim": "2026-10-19T04:49:31.699Z",
       "motivoFim": "teto atingido"
     }
   ],

@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Padre Cícero Romão Batista, em Juazeiro do Norte, no Cariri, é corretamente identificado como a liderança religiosa cearense da Primeira República. Os distratores trocam personagem, estado ou papel (Conselheiro/Canudos na Bahia, Frei Damião, José Lourenço, Ibiapina) e estão todos errados por conteúdo. Única correta."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Descreve corretamente o coronel como grande proprietário rural que controlava votos e trocava apoio por favores. Os distratores (oficial do Exército, proibição de voto, ausência de relação, comerciante urbano) erram por conteúdo. O destaque sobre a origem do título na Guarda Nacional está correto."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Define o cangaço como bandos armados que saqueavam o sertão, com Lampião como figura mais conhecida, o que é consolidado. As demais alternativas (força policial, movimento operário, romaria, partido) são todas falsas e sem defensabilidade."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A atuação política de Padre Cícero (ocupou postos de representação, inclusive a prefeitura de Juazeiro) e a Sedição de Juazeiro de 1914, ligada às disputas pelo poder estadual, estão corretas e são incontroversas. Os distratores (afastamento da política, levante tenentista, movimento abolicionista, recusa de cargos) estão errados; o tenentismo é dos anos 1920 e a abolição é de 1888."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A cadeia de trocas do coronelismo articulada à política dos governadores (coronéis entregam votos, governo estadual apoia o presidente, retornam cargos e verbas) está descrita corretamente. Os distratores invertem ou descaracterizam a lógica do sistema e estão errados por conteúdo."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O episódio da hóstia dada em comunhão à beata Maria de Araújo, origem das romarias de Juazeiro, e a ausência de reconhecimento oficial do milagre pela Igreja são pontos consolidados. Os distratores (aparição mariana reconhecida, cura de Conselheiro, imagem achada por tropas, livramento de seca atribuído ao governador) são todos falsos."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O cangaço ligado ao sertão de terra concentrada, secas e poder dos coronéis, com bandos móveis entre estados e relação ambígua com chefes locais, está correto. O distrator a4 usa termo absoluto (sempre/jamais) e é corretamente falso, pois a relação era ambígua. Único gabarito defensável."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A Sedição de Juazeiro (1914) como conflito armado inserido na disputa pelo governo do Ceará, com reação do grupo do Cariri e marcha sobre Fortaleza que abalou o governo instalado, é descrição consolidada. Os distratores (separatismo, revolta só religiosa, greve operária, abolicionismo tardio) são falsos."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Distingue corretamente Canudos (Conselheiro, Bahia, guerra contra tropas federais) de Juazeiro do Norte (Padre Cícero, Ceará, romarias e poder regional). Os distratores fundem ou trocam os dois fenômenos e estão errados por conteúdo."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Relaciona coronelismo, religiosidade popular e cangaço ao mesmo quadro social do sertão (terra concentrada, secas, Estado frágil), sem reduzi-los a um movimento único. Síntese correta e dentro do recorte; os distratores (fenômenos urbanos do litoral, oposição absoluta, criados pela União, movimento único) são falsos."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A frente é pergunta única e objetiva; o verso define corretamente o coronel (grande proprietário rural, título da Guarda Nacional, voto de cabresto, troca de favores na política dos governadores). Tema sem texto legal, logo não se exige dispositivo. Não copia enunciado do lote."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Verso correto: episódio da hóstia na comunhão da beata Maria de Araújo (1889), origem das romarias, e ausência de reconhecimento oficial da Igreja, com sanções a Padre Cícero. Frente sem ambiguidade e com resposta única. Conteúdo consolidado."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Define corretamente a Sedição de Juazeiro (1914) como conflito armado ligado à disputa pelo governo do Ceará, com reação do grupo do Cariri e marcha sobre Fortaleza. Consistente com a questão q08, sem copiar enunciado. Resposta única."
+    }
+  ]
+}

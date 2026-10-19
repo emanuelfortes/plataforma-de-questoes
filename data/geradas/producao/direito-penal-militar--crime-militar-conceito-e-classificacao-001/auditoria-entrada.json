@@ -1,0 +1,842 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Crime Militar: Conceito e Classificação",
+      "subtema": "Crimes militares em tempo de paz",
+      "dificuldade": "facil",
+      "enunciado": "O Código Penal Militar, ao definir os crimes militares em tempo de paz, trata dos crimes previstos no próprio Código quando definidos de modo diverso na lei penal comum, ou nela não previstos. Segundo o texto legal, nessa primeira hipótese esses crimes são considerados militares:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "qualquer que seja o agente, inclusive civil, salvo disposição especial, de acordo com a parte final do próprio inciso."
+        },
+        {
+          "id": "a2",
+          "texto": "apenas quando praticados por militar da ativa contra outro militar que esteja na mesma situação funcional, no exercício regular de suas atribuições."
+        },
+        {
+          "id": "a3",
+          "texto": "só quando praticados em lugar sujeito à administração militar, a partir da condição do agente e do bem atingido."
+        },
+        {
+          "id": "a4",
+          "texto": "no caso de o agente ser civil que atue contra o patrimônio sob a administração militar ou contra a ordem administrativa."
+        },
+        {
+          "id": "a5",
+          "texto": "quando o agente for militar da reserva ou reformado que esteja empregado na administração militar no momento do fato."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 9º, I, do CPM define como crimes militares em tempo de paz os crimes de que trata o próprio Código, quando definidos de modo diverso na lei penal comum, ou nela não previstos, qualquer que seja o agente, salvo disposição especial. A expressão qualquer que seja o agente mostra que, nessa hipótese, não importa a condição de militar ou civil de quem pratica o fato. As demais alternativas restringem o alcance do inciso I com exigências que ele não traz (agente militar, lugar sujeito à administração militar ou condição específica do autor), confundindo o inciso I com hipóteses dos incisos II e III.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz a parte final do art. 9º, I: tais crimes são militares qualquer que seja o agente, salvo disposição especial."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A exigência de militar da ativa contra militar na mesma situação é hipótese do art. 9º, II, a, e não condição do inciso I."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 9º, I, não condiciona a caracterização ao lugar sujeito à administração militar; essa exigência aparece em outras hipóteses."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Restringir ao civil contra o patrimônio sob administração militar é hipótese do art. 9º, III, a, e não do inciso I."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "A situação do militar da reserva empregado na administração militar trata de equiparação (art. 12), não do conceito do inciso I."
+        }
+      ],
+      "fundamento_legal": "CPM, art. 9º, I.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Restringir o art. 9º, I, a um agente militar ou a um lugar sujeito à administração militar, ignorando a cláusula qualquer que seja o agente.",
+      "lei_referencia": "CPM, art. 9º, I",
+      "macete_do_riccardo": null,
+      "fique_ligado": "No art. 9º, I, do CPM, a definição diversa na lei comum (ou a ausência de previsão nela) basta: vale qualquer que seja o agente, salvo disposição especial.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "crime militar em tempo de paz",
+        "art. 9º",
+        "inciso I",
+        "qualquer que seja o agente",
+        "definição diversa"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Decreto-Lei 1.001/1969 (Código Penal Militar), arts. 1º a 28, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Crime Militar: Conceito e Classificação",
+      "subtema": "Crimes militares em tempo de paz",
+      "dificuldade": "facil",
+      "enunciado": "Conforme o Código Penal Militar, os crimes dolosos contra a vida cometidos por militares contra civil, dentre os crimes militares em tempo de paz, são, em regra, de competência:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "do Tribunal do Júri, conforme regra expressa inserida no próprio dispositivo que define esses crimes militares em tempo de paz."
+        },
+        {
+          "id": "a2",
+          "texto": "da Justiça Militar da União, pelo simples fato de o crime envolver militares das Forças Armadas que o praticam contra pessoa civil."
+        },
+        {
+          "id": "a3",
+          "texto": "da Justiça Militar estadual, bastando que o agente seja integrante de polícia militar ou de corpo de bombeiros militar do estado."
+        },
+        {
+          "id": "a4",
+          "texto": "do juiz singular da Justiça comum, afastada a competência do Tribunal do Júri em razão da condição militar do réu."
+        },
+        {
+          "id": "a5",
+          "texto": "do Superior Tribunal Militar, por se tratar de crime doloso contra a vida de especial gravidade institucional."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 9º, § 1º, do CPM estabelece que os crimes de que trata o artigo, quando dolosos contra a vida e cometidos por militares contra civil, serão da competência do Tribunal do Júri. É a regra geral de deslocamento para o júri. A competência da Justiça Militar da União só aparece, no § 2º, em hipóteses específicas ligadas a operações e missões das Forças Armadas, não em qualquer caso. Não há no texto regra que mande para a Justiça Militar estadual sempre que o agente for policial militar, nem que afaste o júri pela só condição militar, nem que atribua a competência ao Superior Tribunal Militar.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 9º, § 1º, do CPM: tais crimes dolosos contra a vida, cometidos por militares contra civil, vão ao Tribunal do Júri."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A Justiça Militar da União só é competente nas hipóteses do § 2º (Forças Armadas em certas operações), não em qualquer caso."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O CPM não fixa competência da Justiça Militar estadual pela só condição de policial militar do agente nesses crimes."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A regra do § 1º é justamente levar o caso ao Tribunal do Júri; a condição militar do réu não o afasta."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "O texto não atribui esses crimes ao Superior Tribunal Militar; a regra geral é a competência do júri."
+        }
+      ],
+      "fundamento_legal": "CPM, art. 9º, § 1º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Mandar todo crime doloso contra a vida de militar contra civil para a Justiça Militar, esquecendo que a regra do § 1º é o Tribunal do Júri.",
+      "lei_referencia": "CPM, art. 9º, § 1º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Doloso contra a vida de militar contra civil: regra é o Tribunal do Júri (§ 1º). A Justiça Militar da União só nas hipóteses específicas do § 2º.",
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "crime doloso contra a vida",
+        "Tribunal do Júri",
+        "art. 9º",
+        "§ 1º",
+        "militar contra civil"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Decreto-Lei 1.001/1969 (Código Penal Militar), arts. 1º a 28, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Crime Militar: Conceito e Classificação",
+      "subtema": "Propriamente e impropriamente militares",
+      "dificuldade": "facil",
+      "enunciado": "A doutrina classifica os crimes militares em propriamente militares e impropriamente militares, a partir da definição de crimes militares em tempo de paz do Código Penal Militar. Sobre essa distinção, assinale a afirmação correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O crime propriamente militar só pode ser praticado por militar, por ofender dever próprio da vida na caserna, ao passo que o impropriamente militar admite autoria de civil."
+        },
+        {
+          "id": "a2",
+          "texto": "O crime impropriamente militar é aquele que apenas o militar pode cometer, por ofender dever da caserna, enquanto o propriamente militar admite também a autoria de pessoa civil."
+        },
+        {
+          "id": "a3",
+          "texto": "Ambas as espécies exigem que o autor seja militar da ativa, de modo que é irrelevante, para a aplicação da lei penal militar, distinguir propriamente de impropriamente militar."
+        },
+        {
+          "id": "a4",
+          "texto": "O crime propriamente militar é o que tem pena mais grave, e o impropriamente militar, o de pena menos severa, segundo critério puramente quantitativo."
+        },
+        {
+          "id": "a5",
+          "texto": "O crime impropriamente militar é o que só existe em tempo de guerra, e o propriamente militar, o que existe em tempo de paz."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A classificação parte do conceito legal de crime militar em tempo de paz (art. 9º do CPM). O crime propriamente militar é aquele que só pode ser praticado por militar, porque viola dever ou condição inerente à vida militar; já o impropriamente militar tem definição também na lei comum, ou pode ser praticado por civil, encaixando-se nas hipóteses em que o art. 9º considera militar o fato praticado por civil contra as instituições militares (inciso III) ou definido de modo diverso na lei comum (inciso I). As demais opções invertem a definição, criam exigência de autoria militar para as duas espécies ou fundam a distinção em critério de pena ou de tempo de guerra, que não é o adotado.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "É a distinção corrente: propriamente militar só o militar pratica (dever militar); impropriamente militar pode ter autoria de civil."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A alternativa inverte os conceitos: é o propriamente militar que só o militar pode cometer, não o impropriamente."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Nem sempre o autor é militar: o art. 9º, III, admite crime militar praticado por civil contra as instituições militares."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A distinção não é quantitativa de pena; funda-se em quem pode ser autor e na natureza do dever violado."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "A distinção não depende de tempo de guerra; o art. 9º cuida justamente dos crimes militares em tempo de paz."
+        }
+      ],
+      "fundamento_legal": "CPM, art. 9º, I, II e III.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Inverter as espécies, afirmando que o impropriamente militar é o que só o militar pode praticar.",
+      "lei_referencia": "CPM, art. 9º",
+      "macete_do_riccardo": "PRÓPRIO = só o militar PRÓPRIO da caserna comete (dever militar). IMPRÓPRIO = também o civil pode cometer.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "crime propriamente militar",
+        "crime impropriamente militar",
+        "classificação",
+        "art. 9º",
+        "autoria"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Decreto-Lei 1.001/1969 (Código Penal Militar), arts. 1º a 28, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Crime Militar: Conceito e Classificação",
+      "subtema": "Crimes militares em tempo de paz",
+      "dificuldade": "media",
+      "enunciado": "Um militar da ativa, em serviço, pratica fato previsto na legislação penal comum contra um civil, em local fora de área sujeita à administração militar. À luz do art. 9º do Código Penal Militar, o enquadramento desse fato como crime militar em tempo de paz:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "é possível, pois o militar em serviço pode praticar crime militar ainda que fora de lugar sujeito à administração militar."
+        },
+        {
+          "id": "a2",
+          "texto": "depende de que o fato ocorra em lugar sujeito à administração militar, requisito que, por ter sido praticado fora dela, afastaria a hipótese no caso."
+        },
+        {
+          "id": "a3",
+          "texto": "só se admite quando o fato estiver também previsto no próprio Código Penal Militar, de modo que ficaria de fora o que conste apenas da lei penal comum."
+        },
+        {
+          "id": "a4",
+          "texto": "é vedado, porque o fato praticado contra pessoa civil não pode ser tratado como crime militar em tempo de paz, segundo o próprio art. 9º."
+        },
+        {
+          "id": "a5",
+          "texto": "fica condicionado à existência de prévia requisição do comandante da força a que o militar estiver subordinado no momento."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 9º, II, c, do CPM considera crime militar o fato praticado por militar em serviço ou atuando em razão da função, ainda que fora do lugar sujeito à administração militar, inclusive contra civil. Portanto, a circunstância de o fato ter ocorrido fora de área militar não afasta, por si só, o enquadramento. Além disso, após a Lei 13.491/2017, o inciso II abrange os crimes previstos neste Código e os previstos na legislação penal, de modo que o fato não precisa estar tipificado também no CPM. Não há regra que proíba de forma absoluta tratar crime contra civil como militar, nem exigência de prévia requisição do comandante nessa hipótese do inciso II.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "O art. 9º, II, c, admite o crime militar praticado por militar em serviço ainda que fora de lugar sujeito à administração militar."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O inciso II, c, dispensa que o fato ocorra em lugar sujeito à administração militar quando o militar está em serviço ou em razão da função."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Com a redação do inciso II dada pela Lei 13.491/2017, abrangem-se também os crimes previstos na legislação penal, não só os do CPM."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 9º prevê expressamente hipóteses de crime militar praticado contra civil; não há vedação absoluta."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "A requisição do comando é exigência de dispositivo específico (art. 122), não condição geral do art. 9º, II."
+        }
+      ],
+      "fundamento_legal": "CPM, art. 9º, II, c (redação da Lei 13.491/2017).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "A redação do art. 9º, II, do CPM foi dada pela Lei 13.491/2017, que ampliou a hipótese para abranger também os crimes previstos na legislação penal, não só os do próprio Código.",
+      "pegadinha": "Exigir que o fato ocorra em lugar sujeito à administração militar mesmo quando o militar atua em serviço ou em razão da função.",
+      "lei_referencia": "CPM, art. 9º, II, c",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Militar em serviço ou em razão da função: o crime militar pode se configurar ainda que fora de lugar sujeito à administração militar (art. 9º, II, c).",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "art. 9º",
+        "inciso II",
+        "militar em serviço",
+        "fora de lugar militar",
+        "Lei 13.491/2017"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Decreto-Lei 1.001/1969 (Código Penal Militar), arts. 1º a 28, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Crime Militar: Conceito e Classificação",
+      "subtema": "Crimes militares em tempo de paz",
+      "dificuldade": "media",
+      "enunciado": "O art. 9º, III, do Código Penal Militar trata dos crimes praticados por militar da reserva, ou reformado, ou por civil, contra as instituições militares. Sobre uma dessas hipóteses, assinale a alternativa correta conforme o texto legal.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Configura crime militar o fato praticado contra o patrimônio sob a administração militar ou contra a ordem administrativa militar."
+        },
+        {
+          "id": "a2",
+          "texto": "Só há crime militar se o agente civil, no momento do fato, estiver prestando serviço militar obrigatório em unidade das Forças Armadas regularmente constituída."
+        },
+        {
+          "id": "a3",
+          "texto": "O fato praticado por civil em lugar sujeito à administração militar só é crime militar quando a vítima for oficial de patente superior à de capitão da respectiva força."
+        },
+        {
+          "id": "a4",
+          "texto": "Exige-se, em todas as hipóteses do inciso III, que o fato ocorra dentro de lugar sujeito à administração militar, inclusive naquelas ligadas a militar em serviço."
+        },
+        {
+          "id": "a5",
+          "texto": "O crime militar do inciso III depende de o agente ser reincidente específico em infrações contra as instituições militares."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 9º, III, a, do CPM considera crime militar o fato praticado por militar da reserva ou reformado, ou por civil, contra as instituições militares, quando dirigido contra o patrimônio sob a administração militar ou contra a ordem administrativa militar. O inciso não exige que o civil esteja prestando serviço obrigatório, não gradua a proteção pela patente da vítima e não condiciona todas as hipóteses ao lugar sujeito à administração militar; a alínea d, inclusive, admite o crime ainda que fora desse lugar. Também não há exigência de reincidência específica para a caracterização.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "É a alínea a do art. 9º, III: fato contra o patrimônio sob administração militar ou contra a ordem administrativa militar."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O inciso III não condiciona a caracterização a estar o civil prestando serviço militar obrigatório."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A lei não gradua a proteção pela patente da vítima; não há essa exigência quanto a oficial superior a capitão."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A alínea d admite crime militar ainda que fora do lugar sujeito à administração militar; não há exigência sem exceção."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "O inciso III não exige reincidência específica; basta a hipótese objetiva descrita em suas alíneas."
+        }
+      ],
+      "fundamento_legal": "CPM, art. 9º, III, a.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Criar exigências estranhas ao inciso III (serviço obrigatório, patente da vítima, reincidência) ou generalizar o requisito de lugar sujeito à administração militar.",
+      "lei_referencia": "CPM, art. 9º, III, a",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "No art. 9º, III, o crime pode ser praticado por civil contra as instituições militares; a alínea d admite o fato até fora de lugar sujeito à administração militar.",
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "art. 9º",
+        "inciso III",
+        "civil contra instituições militares",
+        "patrimônio sob administração militar",
+        "ordem administrativa militar"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Decreto-Lei 1.001/1969 (Código Penal Militar), arts. 1º a 28, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Crime Militar: Conceito e Classificação",
+      "subtema": "Crimes militares em tempo de paz",
+      "dificuldade": "media",
+      "enunciado": "Dois militares da ativa, na mesma situação funcional, envolvem-se em fato previsto na legislação penal, praticado por um contra o outro, fora de lugar sujeito à administração militar e sem relação com o serviço. Considerando a redação do art. 9º, II, do Código Penal Militar, é correto afirmar que o fato:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "pode ser crime militar, pois a lei prevê o fato de militar da ativa contra militar na mesma situação, sem exigir lugar militar."
+        },
+        {
+          "id": "a2",
+          "texto": "não é crime militar, porque o art. 9º, II, condicionaria todo fato praticado entre militares à ocorrência em lugar sujeito à administração militar."
+        },
+        {
+          "id": "a3",
+          "texto": "só é crime militar se, além da condição funcional dos dois agentes, houver dano efetivo e apurável ao patrimônio sob a administração militar."
+        },
+        {
+          "id": "a4",
+          "texto": "deixa de ser crime militar quando o fato tiver previsão apenas na legislação penal comum, e não também no Código Penal Militar vigente."
+        },
+        {
+          "id": "a5",
+          "texto": "é crime militar apenas se um dos militares estiver, no momento do fato, em serviço, em formatura ou em período de manobras ou exercício."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 9º, II, a, do CPM considera crime militar o fato praticado por militar da ativa contra militar na mesma situação. A alínea não exige, nessa hipótese específica, lugar sujeito à administração militar nem que o agente esteja em serviço. Com a redação do inciso II dada pela Lei 13.491/2017, abrangem-se os crimes previstos no Código e os previstos na legislação penal, de modo que a só previsão na lei comum não afasta o enquadramento. A exigência de dano ao patrimônio militar é de outra alínea (inciso III, a), e a condição de estar em serviço, formatura ou manobras corresponde às alíneas c e d, que cuidam de hipóteses distintas.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 9º, II, a: militar da ativa contra militar na mesma situação, sem exigência de lugar sujeito à administração militar."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A alínea a não condiciona o fato entre militares na mesma situação ao lugar sujeito à administração militar."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O dano ao patrimônio sob administração militar é requisito de outra hipótese (inciso III, a), não da alínea a do inciso II."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A Lei 13.491/2017 incluiu os crimes previstos na legislação penal no inciso II; a previsão só na lei comum não afasta o crime militar."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Estar em serviço, formatura ou manobras são hipóteses das alíneas c e d; a alínea a dispensa essas circunstâncias."
+        }
+      ],
+      "fundamento_legal": "CPM, art. 9º, II, a (redação da Lei 14.688/2023) e II, caput (redação da Lei 13.491/2017).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "O caput do inciso II foi alterado pela Lei 13.491/2017 (inclusão dos crimes previstos na legislação penal) e a alínea a recebeu redação da Lei 14.688/2023, conforme indicado no texto fornecido.",
+      "pegadinha": "Exigir lugar sujeito à administração militar ou condição de serviço para o fato entre militares da ativa na mesma situação (alínea a).",
+      "lei_referencia": "CPM, art. 9º, II, a",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "excecao",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "art. 9º",
+        "inciso II",
+        "alínea a",
+        "militar contra militar",
+        "Lei 13.491/2017"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Decreto-Lei 1.001/1969 (Código Penal Militar), arts. 1º a 28, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Crime Militar: Conceito e Classificação",
+      "subtema": "Propriamente e impropriamente militares",
+      "dificuldade": "media",
+      "enunciado": "Compare as espécies de crime militar quanto à possibilidade de autoria por civil e à exigência de definição também na lei comum. À luz do Código Penal Militar e da classificação doutrinária, assinale a opção correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O crime propriamente militar viola dever próprio do militar e não admite autoria de civil; já o impropriamente militar pode ser praticado por civil, nas hipóteses do art. 9º."
+        },
+        {
+          "id": "a2",
+          "texto": "Os crimes propriamente e impropriamente militares distinguem-se apenas pela maior ou menor gravidade da pena cominada, sendo indiferente, para a classificação, quem pode figurar como autor do fato."
+        },
+        {
+          "id": "a3",
+          "texto": "O crime impropriamente militar é o único definido no Código Penal Militar, ao passo que o propriamente militar tem previsão exclusiva na legislação penal comum, fora do Código castrense."
+        },
+        {
+          "id": "a4",
+          "texto": "Tanto o crime propriamente quanto o impropriamente militar exigem, para a sua configuração, que o fato ocorra em lugar sujeito à administração militar."
+        },
+        {
+          "id": "a5",
+          "texto": "O crime propriamente militar seria de natureza dolosa, e o impropriamente militar, de natureza culposa, segundo critério que estaria fixado no próprio art. 9º do Código."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A classificação toma por base o conceito legal de crime militar em tempo de paz (art. 9º do CPM). O crime propriamente militar viola dever ou condição inerente à vida militar e, por isso, só pode ser praticado por militar, não admitindo autoria de civil. O impropriamente militar, por sua vez, pode ser praticado por civil, encaixando-se nas hipóteses em que o art. 9º considera militar o fato (por exemplo, o inciso III, para civil contra as instituições militares). As demais opções erram ao fundar a distinção na pena, ao atribuir a previsão apenas à lei comum, ao exigir sempre lugar sujeito à administração militar ou ao vincular as espécies a dolo e culpa, critérios que o art. 9º não adota.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Expressa corretamente a distinção: propriamente militar não admite autoria de civil; impropriamente militar admite, nas hipóteses do art. 9º."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A distinção não é de pena; o critério relevante é quem pode ser autor e a natureza do dever violado."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O CPM define ambas as espécies; o propriamente militar não é previsto só na lei comum."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Nem toda hipótese do art. 9º exige lugar sujeito à administração militar; a exigência não vale para as duas espécies."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "O art. 9º não liga as espécies a dolo ou culpa; não há esse critério na lei."
+        }
+      ],
+      "fundamento_legal": "CPM, art. 9º, I, II e III.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Fundar a distinção entre propriamente e impropriamente militar na pena, no dolo/culpa ou no lugar do fato, em vez da possibilidade de autoria por civil.",
+      "lei_referencia": "CPM, art. 9º",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Propriamente militar: só o militar comete (dever militar). Impropriamente militar: também o civil pode ser autor, nas hipóteses do art. 9º.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "propriamente militar",
+        "impropriamente militar",
+        "autoria de civil",
+        "art. 9º",
+        "dever militar"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Decreto-Lei 1.001/1969 (Código Penal Militar), arts. 1º a 28, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Crime Militar: Conceito e Classificação",
+      "subtema": "Crimes militares em tempo de paz",
+      "dificuldade": "dificil",
+      "enunciado": "Um militar das Forças Armadas, no contexto de operação de garantia da lei e da ordem realizada conforme a Constituição e a legislação de regência, pratica crime doloso contra a vida de um civil. Considerando os parágrafos do art. 9º do Código Penal Militar, é correto afirmar que a competência para o processo e julgamento será:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "da Justiça Militar da União, pois o fato se insere em hipótese específica em que a competência é deslocada do júri para a Justiça castrense."
+        },
+        {
+          "id": "a2",
+          "texto": "do Tribunal do Júri, porque a regra geral de deslocamento para o júri seria aplicável mesmo quando o agente é militar das Forças Armadas em operação dessa natureza."
+        },
+        {
+          "id": "a3",
+          "texto": "da Justiça Militar estadual, por envolver operação de garantia da lei e da ordem conduzida por militar no território do respectivo estado da Federação."
+        },
+        {
+          "id": "a4",
+          "texto": "da Justiça comum estadual em primeiro grau, por se tratar de crime doloso contra a vida de pessoa civil, afastada a competência de justiça militar."
+        },
+        {
+          "id": "a5",
+          "texto": "do Supremo Tribunal Federal, por envolver crime praticado em operação determinada no contexto de atuação das Forças Armadas."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A regra geral do art. 9º, § 1º, do CPM leva ao Tribunal do Júri os crimes dolosos contra a vida de militar contra civil. O § 2º, porém, abre exceção para os crimes cometidos por militares das Forças Armadas contra civil quando praticados no contexto ali descrito, entre os quais a atividade de natureza militar, a operação de paz, a garantia da lei e da ordem ou a atribuição subsidiária, realizadas conforme o art. 142 da Constituição e os diplomas legais indicados: nesses casos a competência é da Justiça Militar da União. Logo, a operação de garantia da lei e da ordem desloca o caso para a Justiça Militar da União. Não há previsão de competência da Justiça Militar estadual (o § 2º fala em Forças Armadas), nem da Justiça comum em primeiro grau, nem do Supremo Tribunal Federal.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "É o art. 9º, § 2º, III: crime doloso contra a vida de militar das Forças Armadas contra civil em operação de garantia da lei e da ordem vai à Justiça Militar da União."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A regra do júri (§ 1º) comporta a exceção do § 2º justamente quando se trata de militares das Forças Armadas nas situações ali previstas."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O § 2º refere-se a militares das Forças Armadas e à Justiça Militar da União, não à Justiça Militar estadual."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Na hipótese do § 2º, a competência não é da Justiça comum, mas da Justiça Militar da União."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "O art. 9º não atribui a competência ao Supremo Tribunal Federal; a hipótese do § 2º é da Justiça Militar da União."
+        }
+      ],
+      "fundamento_legal": "CPM, art. 9º, § 1º e § 2º, III (redação da Lei 14.688/2023, com origem na Lei 13.491/2017).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "O § 2º do art. 9º foi incluído pela Lei 13.491/2017 e recebeu nova redação pela Lei 14.688/2023, conforme o texto fornecido; a exceção à competência do júri aplica-se a militares das Forças Armadas nas situações descritas.",
+      "pegadinha": "Aplicar a regra geral do Tribunal do Júri (§ 1º) sem perceber a exceção do § 2º para militares das Forças Armadas em operações como a garantia da lei e da ordem.",
+      "lei_referencia": "CPM, art. 9º, § 2º, III",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Doloso contra a vida de civil: regra é o júri (§ 1º). Exceção do § 2º: militar das Forças Armadas em GLO, operação de paz etc. vai à Justiça Militar da União.",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "art. 9º",
+        "§ 2º",
+        "garantia da lei e da ordem",
+        "Forças Armadas",
+        "Justiça Militar da União"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Decreto-Lei 1.001/1969 (Código Penal Militar), arts. 1º a 28, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Crime Militar: Conceito e Classificação",
+      "subtema": "Crimes militares em tempo de paz",
+      "dificuldade": "dificil",
+      "enunciado": "Analise a evolução da redação do art. 9º, II, do Código Penal Militar, tal como indicada no texto compilado fornecido, e assinale a opção que descreve corretamente o seu alcance atual.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O inciso II passou a abranger, além dos crimes do próprio Código, também os crimes previstos na legislação penal, quando presentes as circunstâncias de suas alíneas."
+        },
+        {
+          "id": "a2",
+          "texto": "O inciso II continuaria restrito aos crimes definidos no Código Penal Militar, de modo que os fatos previstos apenas na legislação penal comum ficariam fora do conceito de crime militar."
+        },
+        {
+          "id": "a3",
+          "texto": "O inciso II somente se aplicaria a crimes dolosos contra a vida de pessoa civil, deixando de fora as demais infrações, ainda que presentes as circunstâncias de suas alíneas."
+        },
+        {
+          "id": "a4",
+          "texto": "O inciso II exige, em todas as suas alíneas, que o agente seja civil atuando contra militar da ativa em lugar sujeito à administração militar."
+        },
+        {
+          "id": "a5",
+          "texto": "O inciso II foi inteiramente revogado, de maneira que o conceito de crime militar em tempo de paz hoje decorreria apenas dos incisos I e III do art. 9º."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O texto fornecido indica que o inciso II do art. 9º passou a ter a redação dada pela Lei 13.491/2017, pela qual são crimes militares os crimes previstos neste Código e os previstos na legislação penal, quando praticados nas circunstâncias das alíneas. Houve, assim, ampliação: fatos definidos também na legislação penal comum (e não só no CPM) podem ser crimes militares quando presentes as hipóteses das alíneas. Por isso é incorreto dizer que o inciso se restringe aos crimes do próprio Código, que só alcança dolosos contra a vida, que todas as alíneas exigem agente civil contra militar da ativa em área militar, ou que o inciso foi revogado: ele continua vigente e com alcance ampliado.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reflete a redação do inciso II dada pela Lei 13.491/2017: abrange os crimes do Código e os da legislação penal, nas circunstâncias das alíneas."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A redação atual incluiu os crimes previstos na legislação penal; o inciso não se restringe aos definidos só no CPM."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O inciso II não se limita a dolosos contra a vida; estes têm regra de competência própria nos §§ 1º e 2º."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "As alíneas do inciso II tratam de hipóteses variadas (militar contra militar, militar em serviço etc.), não só de civil contra militar da ativa."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "O inciso II não foi revogado; segue vigente, com o alcance ampliado pela Lei 13.491/2017."
+        }
+      ],
+      "fundamento_legal": "CPM, art. 9º, II, caput (redação da Lei 13.491/2017).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "A ampliação do inciso II para abranger os crimes previstos na legislação penal decorre da Lei 13.491/2017, conforme consignado no texto compilado fornecido.",
+      "pegadinha": "Afirmar que só os crimes definidos no CPM podem ser militares, ignorando a ampliação do inciso II pela Lei 13.491/2017.",
+      "lei_referencia": "CPM, art. 9º, II",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Depois da Lei 13.491/2017, o art. 9º, II, alcança crimes do CPM E crimes da legislação penal, desde que presentes as circunstâncias das alíneas.",
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "art. 9º",
+        "inciso II",
+        "Lei 13.491/2017",
+        "legislação penal",
+        "ampliação do crime militar"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Decreto-Lei 1.001/1969 (Código Penal Militar), arts. 1º a 28, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Crime Militar: Conceito e Classificação",
+      "subtema": "Propriamente e impropriamente militares",
+      "dificuldade": "dificil",
+      "enunciado": "Um civil, em lugar sujeito à administração militar, pratica fato contra militar da ativa no exercício de função inerente ao seu cargo. Discute-se o enquadramento como crime militar e a natureza dessa espécie. Considerando o art. 9º do Código Penal Militar e a classificação doutrinária, assinale a opção correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O fato pode ser crime militar pelo inciso III e, por admitir autoria de civil, enquadra-se como crime impropriamente militar."
+        },
+        {
+          "id": "a2",
+          "texto": "O fato não poderia ser crime militar, porque o civil não figuraria como autor de crime militar em tempo de paz, seja qual for a circunstância do fato praticado."
+        },
+        {
+          "id": "a3",
+          "texto": "O fato seria crime propriamente militar, por ter sido praticado em lugar sujeito à administração militar contra militar da ativa no exercício regular de sua função."
+        },
+        {
+          "id": "a4",
+          "texto": "O fato só seria crime militar se o civil fosse militar da reserva convocado, afastada a autoria de quem não integrou antes as instituições militares."
+        },
+        {
+          "id": "a5",
+          "texto": "O fato configuraria crime propriamente militar por ofender a hierarquia e a disciplina, pouco importando a condição de quem seja o seu autor."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 9º, III, b, do CPM considera crime militar o fato praticado por civil, em lugar sujeito à administração militar, contra militar da ativa no exercício de função inerente ao seu cargo. Como o civil pode figurar como autor, o crime é impropriamente militar, pois o crime propriamente militar é aquele que só o militar pode cometer. Por isso é errado dizer que o civil nunca pratica crime militar, classificar o fato como propriamente militar (que não admite autoria de civil) ou exigir que o civil seja militar da reserva convocado, condição que o inciso III não impõe para quem nunca integrou as instituições militares.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "O inciso III, b, admite o fato praticado por civil contra militar da ativa; por admitir autoria de civil, é crime impropriamente militar."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O art. 9º, III, prevê expressamente o crime militar praticado por civil contra as instituições militares."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Crime propriamente militar só o militar pode cometer; como aqui o autor é civil, não é dessa espécie."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O inciso III alcança o civil em geral, não só o militar da reserva convocado; não há essa restrição de autoria."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "A ofensa à hierarquia e à disciplina não transforma em propriamente militar um fato que admite autoria de civil."
+        }
+      ],
+      "fundamento_legal": "CPM, art. 9º, III, b.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Classificar como propriamente militar um fato praticado por civil, quando o propriamente militar não admite autoria de civil.",
+      "lei_referencia": "CPM, art. 9º, III, b",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Se o fato admite autoria de civil, não é propriamente militar. O propriamente militar só o militar pratica (viola dever militar).",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "art. 9º",
+        "inciso III",
+        "civil autor",
+        "crime impropriamente militar",
+        "lugar sujeito à administração militar"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Decreto-Lei 1.001/1969 (Código Penal Militar), arts. 1º a 28, fornecido no contexto"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "subtema": "Crimes militares em tempo de paz",
+      "frente": "Quais são as três grandes hipóteses de crime militar em tempo de paz no art. 9º do Código Penal Militar?",
+      "verso": "Art. 9º do CPM: I - crimes do Código definidos de modo diverso na lei comum, ou nela não previstos, qualquer que seja o agente; II - crimes do Código e da legislação penal praticados nas circunstâncias das alíneas (ex.: militar da ativa contra militar na mesma situação); III - crimes praticados por militar da reserva, reformado ou civil contra as instituições militares.",
+      "fundamento_legal": "CPM, art. 9º, I, II e III.",
+      "lei_referencia": "CPM, art. 9º",
+      "palavras_chave": [
+        "crime militar em tempo de paz",
+        "art. 9º",
+        "incisos I, II e III",
+        "classificação"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f02",
+      "subtema": "Propriamente e impropriamente militares",
+      "frente": "Qual a diferença entre crime propriamente militar e crime impropriamente militar?",
+      "verso": "Propriamente militar: só pode ser praticado por militar, pois viola dever ou condição própria da vida militar. Impropriamente militar: pode ser praticado também por civil, nas hipóteses em que o art. 9º do CPM o considera militar (ex.: inciso III, civil contra as instituições militares).",
+      "fundamento_legal": "CPM, art. 9º (base da classificação doutrinária).",
+      "lei_referencia": "CPM, art. 9º",
+      "palavras_chave": [
+        "propriamente militar",
+        "impropriamente militar",
+        "autoria de civil",
+        "dever militar"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f03",
+      "subtema": "Crimes militares em tempo de paz",
+      "frente": "Qual a competência para o crime doloso contra a vida de militar contra civil, segundo o art. 9º do CPM?",
+      "verso": "Regra do art. 9º, § 1º, do CPM: competência do Tribunal do Júri. Exceção do § 2º: se cometido por militar das Forças Armadas contra civil no contexto ali descrito (ex.: garantia da lei e da ordem, operação de paz), a competência é da Justiça Militar da União.",
+      "fundamento_legal": "CPM, art. 9º, § 1º e § 2º.",
+      "lei_referencia": "CPM, art. 9º, §§ 1º e 2º",
+      "palavras_chave": [
+        "crime doloso contra a vida",
+        "Tribunal do Júri",
+        "Justiça Militar da União",
+        "art. 9º",
+        "§§ 1º e 2º"
+      ],
+      "cita_jurisprudencia": false
+    }
+  ]
+}

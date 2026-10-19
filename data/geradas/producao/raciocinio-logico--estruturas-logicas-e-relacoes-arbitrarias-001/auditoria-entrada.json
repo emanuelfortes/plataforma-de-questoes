@@ -1,0 +1,738 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Estruturas Lógicas e Relações Arbitrárias",
+      "subtema": "Dedução a partir de relações entre pessoas, lugares e objetos",
+      "dificuldade": "facil",
+      "enunciado": "Três guardas municipais (Ana, Bruno e Célia) foram escalados, cada um para um posto diferente: praça, mercado e rodoviária. Sabe-se que Ana não ficou na praça e Bruno ficou no mercado. Com base apenas nessas informações, conclui-se corretamente que:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Ana ficou na rodoviária e Célia ficou na praça, conforme a escala."
+        },
+        {
+          "id": "a2",
+          "texto": "Ana ficou na praça e Célia ficou na rodoviária, conforme a escala."
+        },
+        {
+          "id": "a3",
+          "texto": "Ana ficou no mercado e Célia ficou na rodoviária, conforme a escala."
+        },
+        {
+          "id": "a4",
+          "texto": "Célia ficou no mercado e Ana ficou na rodoviária, conforme a escala."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O problema tem três pessoas para três postos distintos. Bruno ficou no mercado, então Ana e Célia dividem praça e rodoviária. Como Ana não ficou na praça, Ana ficou na rodoviária e, por eliminação, Célia ficou na praça. A resposta sai de aplicar as duas pistas em cadeia: primeiro quem está fixo, depois quem foi excluído.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Bruno está no mercado; Ana não pode ficar na praça, logo fica na rodoviária, e Célia ocupa a praça restante."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Contraria a pista de que Ana não ficou na praça, portanto esse arranjo é impossível."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Coloca Ana no mercado, posto que já pertence a Bruno segundo o enunciado, o que não é permitido."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Coloca Célia no mercado, posto que já é de Bruno, violando a correspondência de um posto por pessoa."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Esquecer que cada posto pertence a uma única pessoa e aceitar arranjo que repete o mercado.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "Fixe primeiro quem já tem lugar certo (Bruno no mercado); o resto cai por eliminação.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "correspondência",
+        "eliminação",
+        "postos",
+        "associação"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de raciocínio lógico (associação e dedução por eliminação)"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Estruturas Lógicas e Relações Arbitrárias",
+      "subtema": "Dedução a partir de relações entre pessoas, lugares e objetos",
+      "dificuldade": "facil",
+      "enunciado": "No almoxarifado, quatro objetos foram guardados em prateleiras numeradas de 1 a 4, um objeto por prateleira: colete, rádio, lanterna e cone. Sabe-se que o rádio está na prateleira 2 e a lanterna está imediatamente acima do rádio (prateleiras maiores ficam acima). Considerando apenas esses dados, é correto afirmar que:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A lanterna está na prateleira 3, acima do rádio que ocupa a 2."
+        },
+        {
+          "id": "a2",
+          "texto": "A lanterna está na prateleira 1, abaixo do rádio que ocupa a 2."
+        },
+        {
+          "id": "a3",
+          "texto": "A lanterna está na prateleira 4, no topo, logo acima do rádio."
+        },
+        {
+          "id": "a4",
+          "texto": "O rádio está na prateleira 3 e a lanterna, na prateleira 4."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O rádio ocupa a prateleira 2. Estar imediatamente acima significa uma posição logo em seguida, para cima, sem prateleira no meio. Logo a lanterna fica na prateleira 3. As demais ignoram o significado de imediatamente acima ou mudam a posição fixa do rádio.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Imediatamente acima da prateleira 2 é a prateleira 3, sem posição intermediária, o que fixa a lanterna na 3."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A prateleira 1 fica abaixo do rádio, contrariando a pista de que a lanterna está acima dele."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A prateleira 4 está acima, mas não é imediatamente acima da 2, pois há a prateleira 3 entre elas."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Altera o dado fixo de que o rádio está na prateleira 2, o que o enunciado não autoriza."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir imediatamente acima (vizinho direto) com qualquer posição acima.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Imediatamente antes ou depois significa vizinho direto, sem nada entre os dois.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "ordenação",
+        "imediatamente acima",
+        "posição",
+        "prateleiras"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de raciocínio lógico (ordenação linear de objetos)"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Estruturas Lógicas e Relações Arbitrárias",
+      "subtema": "Dedução a partir de relações entre pessoas, lugares e objetos",
+      "dificuldade": "facil",
+      "enunciado": "Dois guardas, Diego e Elisa, dirigem viaturas de cores diferentes: uma branca e uma prata. Sabe-se que Diego não dirige a viatura prata. A partir dessa única informação, qual conclusão está correta?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Diego dirige a viatura branca e Elisa dirige a viatura prata."
+        },
+        {
+          "id": "a2",
+          "texto": "Diego dirige a viatura prata e Elisa dirige a branca."
+        },
+        {
+          "id": "a3",
+          "texto": "Elisa dirige a viatura branca e, por isso, Diego acaba ficando com a viatura prata."
+        },
+        {
+          "id": "a4",
+          "texto": "Diego e Elisa dirigem, os dois, a viatura branca."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Com duas pessoas e duas cores distintas, excluir uma opção de uma pessoa define tudo. Diego não dirige a prata, então Diego dirige a branca. Sobrando a prata para Elisa. É o raciocínio mais simples de associação: a negação de uma alternativa, num par, equivale à afirmação da outra.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Como Diego não dirige a prata e só há duas cores, ele dirige a branca, restando a prata para Elisa."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Afirma que Diego dirige a prata, exatamente o que o enunciado nega."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Mantém Diego na prata, contrariando a pista, apenas invertendo a ordem da descrição."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "As cores são diferentes, então os dois não podem dirigir a mesma viatura branca."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar a cor que Diego dirige ou admitir que os dois tenham a mesma cor.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Num par de duas opções, negar uma é o mesmo que afirmar a outra.",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "negação",
+        "par",
+        "associação",
+        "dedução"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de raciocínio lógico (associação binária)"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Estruturas Lógicas e Relações Arbitrárias",
+      "subtema": "Dedução a partir de relações entre pessoas, lugares e objetos",
+      "dificuldade": "media",
+      "enunciado": "Quatro pessoas (Fábio, Gisele, Heitor e Iara) estão sentadas, nessa ordem da esquerda para a direita, numa fila de atendimento. Cada uma leva um documento diferente: carteira, passaporte, título e certidão. Sabe-se que: Gisele leva o passaporte; quem leva o título está sentado imediatamente à direita de quem leva a carteira; Iara não leva a certidão. Qual é a distribuição correta dos documentos?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Fábio: carteira; Gisele: passaporte; Heitor: título; Iara: certidão."
+        },
+        {
+          "id": "a2",
+          "texto": "Fábio: carteira; Gisele: passaporte; Heitor: certidão; Iara: título."
+        },
+        {
+          "id": "a3",
+          "texto": "Fábio: título; Gisele: passaporte; Heitor: carteira; Iara: certidão."
+        },
+        {
+          "id": "a4",
+          "texto": "Fábio: certidão; Gisele: passaporte; Heitor: carteira; Iara: título."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "Gisele (2ª posição) leva o passaporte, então carteira, título e certidão ficam com Fábio (1º), Heitor (3º) e Iara (4ª). O par carteira-título precisa ocupar posições vizinhas, com o título à direita. Entre as posições livres (1ª, 3ª e 4ª), o único par vizinho em sequência é 3ª e 4ª, logo Heitor leva a carteira e Iara o título, o que também respeita que Iara não leva a certidão. Sobra a certidão para Fábio.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Coloca carteira na 1ª e título na 3ª, que não são vizinhas, quebrando a regra do título imediatamente à direita da carteira."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Carteira na 1ª e título na 4ª não são posições vizinhas, então o título não está imediatamente à direita da carteira."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Põe o título na 1ª posição, sem ninguém com carteira à sua esquerda, o que torna a relação impossível."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Carteira na 3ª e título na 4ª são vizinhas na ordem exigida, Gisele fica com o passaporte e Iara leva o título, não a certidão."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Posicionar o par carteira-título em lugares não vizinhos ou inverter qual fica à direita.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Relações de vizinhança (imediatamente à direita) só valem entre posições coladas; teste cada par antes de fechar.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "vizinhança",
+        "ordenação",
+        "associação",
+        "posição relativa"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de raciocínio lógico (ordenação com restrições de posição)"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Estruturas Lógicas e Relações Arbitrárias",
+      "subtema": "Dedução a partir de relações entre pessoas, lugares e objetos",
+      "dificuldade": "media",
+      "enunciado": "Em uma ronda, três guardas (João, Karla e Léo) usam coletes de cores distintas (azul, verde e cinza) e cada um porta um equipamento diferente (lanterna, apito e rádio). Sabe-se que: quem usa o colete azul porta o rádio; Karla usa o colete verde; Léo não usa o colete cinza; João não porta o apito. Qual conclusão é necessariamente verdadeira?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Léo usa o colete azul e porta o rádio, enquanto João porta a lanterna."
+        },
+        {
+          "id": "a2",
+          "texto": "João usa o colete azul e porta o rádio, enquanto Léo porta o apito."
+        },
+        {
+          "id": "a3",
+          "texto": "Karla usa o colete azul e porta o rádio, enquanto Léo porta a lanterna."
+        },
+        {
+          "id": "a4",
+          "texto": "Léo usa o colete cinza e porta o rádio, enquanto João porta o apito."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Karla usa o verde, então azul e cinza ficam para João e Léo. Como Léo não usa o cinza, Léo usa o azul e, pela pista, porta o rádio; sobra o cinza para João. Restam apito e lanterna para João e Karla, e, como João não porta o apito, João fica com a lanterna e Karla, com o apito.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Léo não usa cinza e Karla usa verde, então Léo usa o azul e porta o rádio; João fica de cinza e, por não portar apito, leva a lanterna."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Coloca João no colete azul, mas, como Léo não usa cinza, é Léo quem fica com o azul e o rádio."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Atribui o colete azul a Karla, mas ela usa o verde, segundo a pista dada."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Diz que Léo usa cinza, exatamente a cor que o enunciado afirma que ele não usa."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Desligar a cor do colete do equipamento, ignorando que azul e rádio andam juntos.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Quando uma pista liga dois atributos (colete e equipamento), trate o par como um bloco único.",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "associação múltipla",
+        "atributos",
+        "eliminação",
+        "dedução"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de raciocínio lógico (associação de dois atributos)"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Estruturas Lógicas e Relações Arbitrárias",
+      "subtema": "Dedução a partir de relações entre pessoas, lugares e objetos",
+      "dificuldade": "media",
+      "enunciado": "Três amigos moram em cidades diferentes (Fortaleza, Sobral e Juazeiro) e cada um torce por um time diferente. Marcos mora em Fortaleza. Quem mora em Sobral não é o mesmo que torce pelo time X. Paulo torce pelo time X. Sabendo que Marcos não torce pelo time X, qual afirmação é compatível com todos os dados?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Paulo mora em Juazeiro e Rui mora em Sobral."
+        },
+        {
+          "id": "a2",
+          "texto": "Paulo mora em Sobral e Rui mora em Juazeiro."
+        },
+        {
+          "id": "a3",
+          "texto": "Rui mora em Fortaleza e Paulo mora em Sobral."
+        },
+        {
+          "id": "a4",
+          "texto": "Marcos mora em Sobral e Paulo mora em Juazeiro."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Marcos mora em Fortaleza, então Paulo e Rui dividem Sobral e Juazeiro. Paulo torce pelo time X, e quem mora em Sobral não torce pelo time X, logo Paulo não mora em Sobral: Paulo mora em Juazeiro e Rui, em Sobral. A pista sobre Marcos não torcer pelo X é consistente, mas não muda a conclusão sobre as moradias.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Paulo torce pelo X e quem mora em Sobral não torce pelo X, então Paulo mora em Juazeiro e Rui fica com Sobral."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Coloca Paulo em Sobral, mas quem mora lá não torce pelo X, e Paulo torce pelo X."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Põe Rui em Fortaleza, cidade que já é de Marcos segundo o enunciado."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Coloca Marcos em Sobral, contrariando a informação de que ele mora em Fortaleza."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Ignorar a ligação entre torcer pelo time X e não morar em Sobral.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "restrição",
+        "associação",
+        "eliminação",
+        "compatibilidade"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de raciocínio lógico (restrições negativas em associação)"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Estruturas Lógicas e Relações Arbitrárias",
+      "subtema": "Dedução a partir de relações entre pessoas, lugares e objetos",
+      "dificuldade": "media",
+      "enunciado": "Quatro viaturas ocupam, lado a lado, as vagas 1, 2, 3 e 4 de um pátio, uma viatura por vaga, identificadas por P, Q, R e S. Sabe-se que P está na vaga 1; Q está imediatamente ao lado de P; R não está na vaga 4. Qual afirmação é necessariamente verdadeira?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A viatura S está na vaga 4 do pátio."
+        },
+        {
+          "id": "a2",
+          "texto": "A viatura R está na vaga 4 do pátio."
+        },
+        {
+          "id": "a3",
+          "texto": "A viatura Q está na vaga 3 do pátio."
+        },
+        {
+          "id": "a4",
+          "texto": "A viatura R está na vaga 2 do pátio."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "P está na vaga 1, e Q, vizinho imediato de P, só pode estar na vaga 2. Sobram as vagas 3 e 4 para R e S. Como R não fica na vaga 4, R vai para a 3 e S para a 4. Logo S na vaga 4 é a única conclusão garantida; as demais ou contrariam uma pista ou não são obrigatórias.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Com P na 1 e Q na 2, restam 3 e 4 para R e S; como R não pode estar na 4, S ocupa necessariamente a vaga 4."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O enunciado diz expressamente que R não está na vaga 4, então essa afirmação é falsa."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Q é vizinho de P, que está na vaga 1, portanto Q está na vaga 2, e não na vaga 3."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A vaga 2 é ocupada por Q, vizinho de P; R fica na vaga 3, nunca na vaga 2."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Supor que Q, vizinho de P, pudesse ocupar outra vaga que não a imediatamente ao lado da vaga 1.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Com uma ponta fixa (vaga 1) e um vizinho obrigatório, a ordem das duas primeiras vagas já fica travada.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "ponta",
+        "vizinhança",
+        "ordenação",
+        "eliminação"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de raciocínio lógico (ordenação com extremidades)"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Estruturas Lógicas e Relações Arbitrárias",
+      "subtema": "Dedução a partir de relações entre pessoas, lugares e objetos",
+      "dificuldade": "dificil",
+      "enunciado": "Cinco guardas (Ana, Bia, Caio, Davi e Eva) foram escalados para cinco ruas numeradas de 1 a 5, uma rua por guarda. Sabe-se que: Ana está em uma rua de número menor que a de Bia; Caio está na rua 3; Davi está imediatamente depois de Bia; Eva está na rua 1. Em qual rua está Ana?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Ana está na rua 2, logo após Eva."
+        },
+        {
+          "id": "a2",
+          "texto": "Ana está na rua 4, logo após Caio."
+        },
+        {
+          "id": "a3",
+          "texto": "Ana está na rua 5, a de maior número."
+        },
+        {
+          "id": "a4",
+          "texto": "Ana está na rua 1, junto de Eva."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Eva está na rua 1 e Caio na rua 3, sobrando as ruas 2, 4 e 5 para Ana, Bia e Davi. Davi está imediatamente depois de Bia, então Bia e Davi ocupam um par de ruas consecutivas entre as livres: o único par consecutivo possível é 4 e 5 (Bia na 4, Davi na 5), pois 2 e 4 não são consecutivas. Logo Ana fica na rua 2, e isso respeita Ana ter número menor que o de Bia (2 menor que 4).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Bia e Davi precisam de ruas consecutivas; entre 2, 4 e 5, o único par consecutivo é 4 e 5, então Ana fica na rua 2, menor que a de Bia."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Se Ana estivesse na 4, Bia e Davi não teriam um par consecutivo disponível e Ana não seria menor que Bia."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Ana na 5 deixaria Bia em rua maior impossível e romperia o par consecutivo de Bia e Davi."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A rua 1 é de Eva, portanto Ana não pode ocupá-la."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Tratar imediatamente depois como qualquer posição posterior, ignorando a necessidade de ruas consecutivas.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "Fixe os valores certos (Eva na 1, Caio na 3) e procure o único par consecutivo que sobra.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "ordenação",
+        "consecutivos",
+        "imediatamente depois",
+        "eliminação"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de raciocínio lógico (ordenação com posições fixas e relativas)"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Estruturas Lógicas e Relações Arbitrárias",
+      "subtema": "Dedução a partir de relações entre pessoas, lugares e objetos",
+      "dificuldade": "dificil",
+      "enunciado": "Quatro pessoas (Lia, Mia, Noel e Otto) têm, cada uma, uma profissão diferente (médico, guarda, professor e cozinheiro) e um animal diferente (gato, cão, peixe e ave). Sabe-se que: o médico tem o gato; quem tem o cão é professor; Lia é guarda; Noel tem o peixe; Otto não é médico. Qual é a profissão de Mia e qual animal ela tem?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Mia é médica e tem o gato."
+        },
+        {
+          "id": "a2",
+          "texto": "Mia é professora e tem o cão."
+        },
+        {
+          "id": "a3",
+          "texto": "Mia é cozinheira e tem a ave."
+        },
+        {
+          "id": "a4",
+          "texto": "Mia é guarda e tem o peixe."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Lia é guarda. O médico tem o gato e o professor tem o cão, então o guarda (Lia) e o cozinheiro ficam com peixe e ave. Noel tem o peixe e não é guarda (é Lia), logo Noel é o cozinheiro, e Lia, a guarda, fica com a ave. Restam médico e professor para Mia e Otto. Como Otto não é médico, Otto é o professor (com o cão) e Mia é a médica, que tem o gato.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Sobram médico e professor para Mia e Otto; como Otto não é médico, ele é o professor com o cão e Mia é a médica, que tem o gato."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O professor tem o cão, mas essa profissão cabe a Otto, que não é médico; Mia fica com o cargo de médica."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O cozinheiro é Noel, que tem o peixe; a ave é do guarda, Lia, então Mia não é cozinheira."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A guarda é Lia, e o peixe pertence a Noel, portanto Mia não é guarda nem tem o peixe."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Esquecer que cada pista liga profissão a animal e misturar os pares.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Monte uma tabela ligando profissão e animal; cada pista elimina uma célula de cada vez.",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "associação dupla",
+        "profissão",
+        "animal",
+        "eliminação"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de raciocínio lógico (associação de dois atributos com eliminação)"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Estruturas Lógicas e Relações Arbitrárias",
+      "subtema": "Dedução a partir de relações entre pessoas, lugares e objetos",
+      "dificuldade": "dificil",
+      "enunciado": "Cinco crachás de cores diferentes (vermelho, azul, verde, amarelo e branco) estão enfileirados da esquerda para a direita. Sabe-se que: o crachá verde está exatamente no meio da fila; o vermelho está à esquerda do azul, mas não precisa ser vizinho dele; o amarelo é o primeiro da fila; o branco está imediatamente à direita do verde. Qual é a cor do crachá que está na quinta posição (última à direita)?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O crachá azul está na quinta posição."
+        },
+        {
+          "id": "a2",
+          "texto": "O crachá branco está na quinta posição."
+        },
+        {
+          "id": "a3",
+          "texto": "O crachá vermelho está na quinta posição."
+        },
+        {
+          "id": "a4",
+          "texto": "O crachá verde está na quinta posição."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "São cinco posições. O amarelo é o primeiro (posição 1) e o verde está no meio (posição 3). O branco está imediatamente à direita do verde, logo na posição 4. Sobram vermelho e azul para as posições 2 e 5. Como o vermelho está à esquerda do azul, o vermelho fica na posição 2 e o azul na posição 5. Portanto a quinta posição é do crachá azul.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Amarelo na 1, verde na 3 e branco na 4 deixam vermelho e azul nas posições 2 e 5; como vermelho fica à esquerda do azul, o azul ocupa a quinta."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O branco está imediatamente à direita do verde (posição 3), portanto está na posição 4, não na quinta."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O vermelho está à esquerda do azul; com ambos nas posições 2 e 5, o vermelho fica na 2, não na quinta."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O verde está fixado no meio da fila, ou seja, na posição 3, e não na quinta posição."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Inverter a ordem de vermelho e azul ou colocar o branco antes do verde.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "Posições fixas primeiro (primeiro, meio, vizinho do verde); o par solto cai nas duas vagas restantes pela ordem dada.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "ordenação linear",
+        "meio da fila",
+        "imediatamente à direita",
+        "esquerda e direita"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado de raciocínio lógico (ordenação linear com posições fixas e relativas)"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "subtema": "Dedução a partir de relações entre pessoas, lugares e objetos",
+      "frente": "Em problemas de associação, o que significa a pista 'X está imediatamente à direita de Y'?",
+      "verso": "Significa que X e Y ocupam posições vizinhas, estando X na posição logo seguinte à de Y, sem nenhum elemento entre os dois. Não basta X estar à direita: tem de ser o vizinho imediato.",
+      "fundamento_legal": "não se aplica",
+      "lei_referencia": "não se aplica",
+      "palavras_chave": [
+        "imediatamente à direita",
+        "vizinhança",
+        "ordenação"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f02",
+      "subtema": "Dedução a partir de relações entre pessoas, lugares e objetos",
+      "frente": "Numa associação com duas pessoas e dois atributos distintos, qual é o efeito de uma pista negativa (por exemplo, 'A não tem o item 1')?",
+      "verso": "Uma negação, num par, equivale a uma afirmação: se A não tem o item 1, então A tem o item 2 e, por eliminação, a outra pessoa fica com o item 1. Com apenas dois elementos, negar uma possibilidade fecha toda a distribuição.",
+      "fundamento_legal": "não se aplica",
+      "lei_referencia": "não se aplica",
+      "palavras_chave": [
+        "negação",
+        "eliminação",
+        "associação binária"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f03",
+      "subtema": "Dedução a partir de relações entre pessoas, lugares e objetos",
+      "frente": "Como aproveitar uma pista que liga dois atributos ao mesmo elemento, como 'quem usa o colete azul porta o rádio'?",
+      "verso": "Trate os dois atributos como um bloco único: o colete azul e o rádio pertencem à mesma pessoa. Assim, ao descobrir quem usa o colete azul, você já sabe quem porta o rádio, e vice-versa, reduzindo as combinações a testar.",
+      "fundamento_legal": "não se aplica",
+      "lei_referencia": "não se aplica",
+      "palavras_chave": [
+        "ligação de atributos",
+        "bloco",
+        "associação múltipla"
+      ],
+      "cita_jurisprudencia": false
+    }
+  ]
+}

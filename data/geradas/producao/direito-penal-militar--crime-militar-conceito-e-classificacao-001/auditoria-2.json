@@ -1,0 +1,159 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvi pela parte final do art. 9º, I, do CPM (qualquer que seja o agente, salvo disposição especial): a a1 reproduz fielmente o texto. As demais importam requisitos dos incisos II e III (agente militar, lugar sujeito à administração militar ou condição específica), que o inciso I não traz. Fundamento e comentário conferem."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 9º, § 1º, do CPM atribui ao Tribunal do Júri os crimes dolosos contra a vida de militares contra civil; a a1 corresponde a essa regra geral. A Justiça Militar da União só surge no § 2º, em hipóteses específicas (a2 erra ao generalizar). As demais não encontram apoio no texto. Gabarito confere."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Classificação doutrinária consolidada: o crime propriamente militar só pode ser praticado por militar (dever da caserna) e o impropriamente militar admite autoria de civil, nas hipóteses do art. 9º. A a1 expressa corretamente a distinção; a a2 a inverte e as demais fundam o critério em pena, lugar ou tempo de guerra, que não é o adotado."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 9º, II, c, do CPM considera crime militar o fato do militar em serviço ou em razão da função, ainda que fora de lugar sujeito à administração militar, inclusive contra civil; logo o enquadramento é possível (a1). O caput do inciso II (Lei 13.491/2017) abrange também os crimes da legislação penal, afastando a a3. A observação temporal está correta."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reproduz o art. 9º, III, a, do CPM (fato contra o patrimônio sob administração militar ou contra a ordem administrativa militar). As demais criam exigências inexistentes (serviço obrigatório, patente da vítima, reincidência) ou generalizam o requisito de lugar, afastado pela própria alínea d. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 9º, II, a, do CPM (militar da ativa contra militar na mesma situação) não exige lugar sujeito à administração militar nem condição de serviço; com o caput dado pela Lei 13.491/2017 alcança também crimes da legislação penal. A a1 é a única correta; as demais acrescentam requisitos de outras alíneas ou do inciso III."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "conjunto",
+          "gravidade": "media",
+          "descricao": "A proposição correta (a1) cobra praticamente o mesmo ponto, do mesmo modo, da correta da q03 (propriamente militar só o militar pratica; impropriamente admite civil). As duas questões se sobrepõem no núcleo e quase repetem a redação da assertiva certa."
+        }
+      ],
+      "correcao_sugerida": "Antes de publicar junto com a q03, variar o ângulo desta questão (por exemplo, focar apenas na exigência ou não de definição também na lei comum, ou substituir por caso concreto) para não cobrar a mesma distinção, do mesmo jeito, duas vezes no lote.",
+      "justificativa": "Tecnicamente correta: a a1 expressa bem a distinção propriamente/impropriamente militar e os distratores erram por fundar o critério em pena, previsão exclusiva na lei comum, lugar ou dolo/culpa. Ressalva apenas pela sobreposição com a q03, que cobra o mesmo ponto quase com a mesma redação."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 9º, § 2º, III, do CPM desloca para a Justiça Militar da União os crimes dolosos contra a vida de militares das Forças Armadas contra civil praticados no contexto de garantia da lei e da ordem; a a1 corresponde a essa exceção à regra do júri (§ 1º). As demais (JM estadual, Justiça comum, STF) não têm apoio no texto."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A redação do art. 9º, II, caput, dada pela Lei 13.491/2017 passou a abranger os crimes do Código e os previstos na legislação penal, nas circunstâncias das alíneas; a a1 descreve corretamente essa ampliação. As demais negam a mudança, restringem a dolosos contra a vida, exigem autoria civil ou afirmam revogação, todas contrariadas pelo texto."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 9º, III, b, do CPM considera crime militar o fato do civil, em lugar sujeito à administração militar, contra militar da ativa no exercício de função inerente ao cargo; por admitir autoria de civil, é impropriamente militar (a1). Classificar como propriamente militar (a3, a5) contraria a definição, que exige autoria só de militar. Gabarito confere."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso resume com fidelidade as três hipóteses do art. 9º do CPM (incisos I, II e III), inclusive a ampliação do inciso II pela legislação penal. Frente objetiva, com resposta única, e dispositivo citado."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Distinção correta conforme doutrina consolidada e o art. 9º: propriamente militar só o militar pratica; impropriamente militar admite autoria de civil. Frente sem ambiguidade e verso com o dispositivo (art. 9º, inciso III como exemplo)."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Verso correto: regra do § 1º do art. 9º (Tribunal do Júri) e exceção do § 2º (Justiça Militar da União para militares das Forças Armadas em GLO, operação de paz etc.). Frente com resposta única e dispositivos citados."
+    }
+  ]
+}

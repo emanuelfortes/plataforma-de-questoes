@@ -1,0 +1,751 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Atos Administrativos",
+      "subtema": "Classificação e espécies",
+      "dificuldade": "facil",
+      "enunciado": "Segundo a Lei 9.784/1999, a competência administrativa, como requisito dos atos praticados pelos órgãos públicos, possui qual característica como regra geral?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "É irrenunciável e se exerce pelos órgãos a que foi atribuída, salvo delegação e avocação legalmente admitidas."
+        },
+        {
+          "id": "a2",
+          "texto": "É livremente renunciável pelo titular do órgão, que pode transferi-la em definitivo a quem considerar mais adequado ao serviço."
+        },
+        {
+          "id": "a3",
+          "texto": "É disponível, podendo ser negociada entre os órgãos conforme a conveniência de cada autoridade."
+        },
+        {
+          "id": "a4",
+          "texto": "É transferível apenas mediante autorização do interessado no processo administrativo em curso."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A regra está no art. 11 da Lei 9.784/1999: a competência é irrenunciável e se exerce pelos órgãos a que foi atribuída como própria, salvo os casos de delegação e avocação legalmente admitidos. A irrenunciabilidade é a regra; delegação e avocação são exceções expressas na lei, e não liberdade de dispor da competência.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 11: irrenunciabilidade como regra e delegação e avocação como exceções legalmente admitidas."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A competência não é renunciável nem transferível em definitivo ao arbítrio do titular; o art. 11 a declara irrenunciável."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A competência é indisponível, não objeto de negociação; a lei só admite delegação e avocação nos casos previstos."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A delegação e a avocação dependem dos requisitos legais dos arts. 12 a 15, e não da autorização do interessado no processo."
+        }
+      ],
+      "fundamento_legal": "Lei 9.784/1999, art. 11",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir a possibilidade excepcional de delegação com uma suposta renunciabilidade ou disponibilidade da competência.",
+      "lei_referencia": "Lei 9.784/1999, art. 11",
+      "macete_do_riccardo": null,
+      "fique_ligado": "A competência é irrenunciável: delegação e avocação não transferem a titularidade, apenas o exercício, nos limites da lei.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "competência",
+        "irrenunciável",
+        "delegação",
+        "avocação",
+        "requisito"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 9.784/1999 (arts. 11 a 17, 50 e 53 a 55) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Atos Administrativos",
+      "subtema": "Anulação, revogação, cassação e convalidação",
+      "dificuldade": "facil",
+      "enunciado": "De acordo com a Lei 9.784/1999, como a Administração deve tratar seus atos conforme o defeito que apresentem?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Deve anular os atos com vício de legalidade e pode revogá-los por conveniência ou oportunidade, respeitados os direitos adquiridos."
+        },
+        {
+          "id": "a2",
+          "texto": "Deve revogar os atos eivados de vício de legalidade e pode anulá-los por motivo de conveniência ou oportunidade, a seu exclusivo critério."
+        },
+        {
+          "id": "a3",
+          "texto": "Pode anular ou revogar livremente qualquer ato, independentemente da existência de direitos adquiridos pelos destinatários."
+        },
+        {
+          "id": "a4",
+          "texto": "Deve submeter ao Poder Judiciário tanto a anulação por ilegalidade quanto a revogação por conveniência de seus atos."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 53 da Lei 9.784/1999 distingue dois caminhos de desfazimento: a anulação, que atinge o ato com vício de legalidade (dever da Administração), e a revogação, fundada em conveniência ou oportunidade (faculdade), sempre com respeito aos direitos adquiridos. A ilegalidade leva à anulação; o juízo de mérito leva à revogação.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 53: dever de anular o ilegal, faculdade de revogar por mérito, respeitados os direitos adquiridos."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Inverte os institutos: o vício de legalidade enseja anulação, e a conveniência ou oportunidade enseja revogação."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 53 ressalva expressamente os direitos adquiridos, que limitam o desfazimento."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A anulação e a revogação são exercidas pela própria Administração (autotutela), sem necessidade de prévia decisão judicial."
+        }
+      ],
+      "fundamento_legal": "Lei 9.784/1999, art. 53",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar anulação por revogação, associando o vício de legalidade à conveniência e oportunidade.",
+      "lei_referencia": "Lei 9.784/1999, art. 53",
+      "macete_do_riccardo": "Ilegalidade anula (dever); inconveniência revoga (pode). Vício de legalidade nunca se revoga.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "anulação",
+        "revogação",
+        "vício de legalidade",
+        "conveniência",
+        "direitos adquiridos"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 9.784/1999 (arts. 11 a 17, 50 e 53 a 55) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Atos Administrativos",
+      "subtema": "Anulação, revogação, cassação e convalidação",
+      "dificuldade": "facil",
+      "enunciado": "Conforme a Lei 9.784/1999, atos administrativos que apresentem defeitos sanáveis poderão ser convalidados pela própria Administração em que condição?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Quando a decisão evidencie que o ato não acarreta lesão ao interesse público nem prejuízo a terceiros."
+        },
+        {
+          "id": "a2",
+          "texto": "Quando houver concordância expressa de todos os destinatários do ato administrativo viciado."
+        },
+        {
+          "id": "a3",
+          "texto": "Quando o defeito for insanável e já tiver produzido efeitos patrimoniais contínuos aos interessados."
+        },
+        {
+          "id": "a4",
+          "texto": "Quando o Poder Judiciário autorizar a manutenção do ato apesar do vício nele identificado."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 55 da Lei 9.784/1999 admite a convalidação dos atos com defeitos sanáveis, desde que a decisão evidencie que não há lesão ao interesse público nem prejuízo a terceiros. Convalidar é corrigir o vício sanável mantendo o ato; por isso só cabe quando o defeito é sanável e inexiste lesão ou prejuízo.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "É a redação do art. 55: defeitos sanáveis, sem lesão ao interesse público nem prejuízo a terceiros."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A lei não exige concordância dos destinatários; exige ausência de lesão ao interesse público e de prejuízo a terceiros."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A convalidação pressupõe defeito sanável; o defeito insanável conduz à anulação, não à convalidação."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A convalidação é feita pela própria Administração, no exercício da autotutela, sem autorização judicial."
+        }
+      ],
+      "fundamento_legal": "Lei 9.784/1999, art. 55",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Imaginar que defeito insanável pode ser convalidado ou que a convalidação depende da anuência dos destinatários.",
+      "lei_referencia": "Lei 9.784/1999, art. 55",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Só o defeito sanável se convalida; vício insanável não é objeto de convalidação.",
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "convalidação",
+        "defeito sanável",
+        "interesse público",
+        "prejuízo a terceiros",
+        "autotutela"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 9.784/1999 (arts. 11 a 17, 50 e 53 a 55) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Atos Administrativos",
+      "subtema": "Classificação e espécies",
+      "dificuldade": "media",
+      "enunciado": "Um titular de órgão administrativo pretende delegar parte de sua competência a outro titular. À luz da Lei 9.784/1999, qual afirmação está correta quanto a essa delegação?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "É cabível a órgão não subordinado hierarquicamente, por razões de índole técnica, social, econômica, jurídica ou territorial."
+        },
+        {
+          "id": "a2",
+          "texto": "Só é cabível a órgão hierarquicamente subordinado ao delegante, pois pressupõe relação de subordinação direta e permanente entre eles."
+        },
+        {
+          "id": "a3",
+          "texto": "Transfere ao delegado a titularidade da competência, que deixa de pertencer ao órgão delegante enquanto durar o ato."
+        },
+        {
+          "id": "a4",
+          "texto": "Independe de publicação, bastando a comunicação interna entre o delegante e o delegado para produzir efeitos."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 12 permite a delegação de parte da competência a outros órgãos ou titulares ainda que não hierarquicamente subordinados, quando conveniente por circunstâncias de índole técnica, social, econômica, jurídica ou territorial. A delegação transfere o exercício, não a titularidade (art. 11), e o ato de delegação deve ser publicado no meio oficial (art. 14).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reflete o art. 12: a delegação alcança órgãos não subordinados, pelos motivos ali indicados."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O art. 12 admite a delegação ainda que o destinatário não seja hierarquicamente subordinado ao delegante."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A competência é irrenunciável (art. 11); a delegação transfere o exercício, não a titularidade."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 14 exige a publicação do ato de delegação (e de sua revogação) no meio oficial."
+        }
+      ],
+      "fundamento_legal": "Lei 9.784/1999, arts. 11, 12 e 14",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Supor que a delegação exige subordinação hierárquica ou que transfere a titularidade da competência.",
+      "lei_referencia": "Lei 9.784/1999, art. 12",
+      "macete_do_riccardo": null,
+      "fique_ligado": "A delegação não exige hierarquia e não transfere titularidade; só o exercício, nos limites e com publicação.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "delegação",
+        "competência",
+        "hierarquia",
+        "publicação",
+        "índole técnica"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 9.784/1999 (arts. 11 a 17, 50 e 53 a 55) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Atos Administrativos",
+      "subtema": "Classificação e espécies",
+      "dificuldade": "media",
+      "enunciado": "A Lei 9.784/1999 veda que certas matérias sejam objeto de delegação de competência. Qual das situações a seguir NÃO pode ser delegada?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A decisão de recursos administrativos interpostos no âmbito do órgão."
+        },
+        {
+          "id": "a2",
+          "texto": "A prática de atos de instrução em processo administrativo de interesse de terceiros."
+        },
+        {
+          "id": "a3",
+          "texto": "A assinatura de expedientes de rotina relativos a matéria técnica de competência comum."
+        },
+        {
+          "id": "a4",
+          "texto": "A condução de diligências externas destinadas à coleta de documentos no processo."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 13 da Lei 9.784/1999 proíbe a delegação em três hipóteses: edição de atos de caráter normativo, decisão de recursos administrativos e matérias de competência exclusiva do órgão ou autoridade. A decisão de recurso administrativo é uma dessas vedações expressas; atos de instrução e diligências não constam do rol de proibições.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "A decisão de recursos administrativos é vedada à delegação pelo art. 13, II."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Atos de instrução não figuram entre as vedações do art. 13, podendo ser objeto de delegação."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A assinatura de expedientes de rotina não está no rol de vedações do art. 13."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A condução de diligências de coleta de documentos não consta das vedações do art. 13."
+        }
+      ],
+      "fundamento_legal": "Lei 9.784/1999, art. 13",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Tratar atos de instrução e diligências como se estivessem no rol fechado de vedações à delegação.",
+      "lei_referencia": "Lei 9.784/1999, art. 13",
+      "macete_do_riccardo": "Não se delega: ato Normativo, decisão de Recurso e competência Exclusiva (N-R-E).",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "excecao",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "delegação",
+        "vedações",
+        "recurso administrativo",
+        "ato normativo",
+        "competência exclusiva"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 9.784/1999 (arts. 11 a 17, 50 e 53 a 55) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Atos Administrativos",
+      "subtema": "Classificação e espécies",
+      "dificuldade": "media",
+      "enunciado": "Uma autoridade editou ato de delegação e, meses depois, pretende retomar a atribuição delegada. Conforme a Lei 9.784/1999, o que se aplica ao ato de delegação quanto ao seu conteúdo e à sua revogação?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O ato especifica as matérias, os limites, a duração e o recurso cabível, e é revogável a qualquer tempo pela autoridade delegante."
+        },
+        {
+          "id": "a2",
+          "texto": "O ato tem prazo mínimo de vigência e só pode ser revogado ao término da duração previamente fixada na delegação."
+        },
+        {
+          "id": "a3",
+          "texto": "O ato é irrevogável depois de publicado, pois gera direito adquirido do delegado ao exercício da atribuição."
+        },
+        {
+          "id": "a4",
+          "texto": "O ato dispensa a indicação dos limites da atuação do delegado, bastando a menção genérica à matéria delegada."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 14, § 1º, exige que o ato de delegação especifique as matérias e poderes transferidos, os limites da atuação do delegado, a duração, os objetivos e o recurso cabível. O § 2º torna a delegação revogável a qualquer tempo pela autoridade delegante. Não há, portanto, prazo mínimo, irrevogabilidade nem direito adquirido ao exercício da atribuição delegada.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Combina o art. 14, § 1º (conteúdo do ato) e o § 2º (revogabilidade a qualquer tempo pelo delegante)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O § 2º permite a revogação a qualquer tempo; a lei não impõe prazo mínimo de vigência."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A delegação é revogável a qualquer tempo (§ 2º); não gera irrevogabilidade nem direito adquirido do delegado."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O § 1º exige a indicação dos limites da atuação do delegado, não dispensada por menção genérica."
+        }
+      ],
+      "fundamento_legal": "Lei 9.784/1999, art. 14, §§ 1º e 2º",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Atribuir irrevogabilidade ou direito adquirido à delegação, que é revogável a qualquer tempo pelo delegante.",
+      "lei_referencia": "Lei 9.784/1999, art. 14, §§ 1º e 2º",
+      "macete_do_riccardo": null,
+      "fique_ligado": "A delegação é revogável a qualquer tempo pelo delegante: não cria direito adquirido ao exercício da competência.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "ato de delegação",
+        "limites",
+        "duração",
+        "revogável",
+        "delegante"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 9.784/1999 (arts. 11 a 17, 50 e 53 a 55) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Atos Administrativos",
+      "subtema": "Conceito, requisitos e atributos",
+      "dificuldade": "media",
+      "enunciado": "A Lei 9.784/1999 elenca situações em que os atos administrativos devem ser motivados, com indicação dos fatos e dos fundamentos jurídicos. Em qual das hipóteses abaixo a motivação é expressamente exigida?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Quando o ato importe anulação, revogação, suspensão ou convalidação de ato administrativo."
+        },
+        {
+          "id": "a2",
+          "texto": "Quando o ato defira pedido do interessado nos exatos termos em que foi formulado no processo."
+        },
+        {
+          "id": "a3",
+          "texto": "Quando o ato se limite a dar andamento rotineiro a expediente já instruído pelo órgão competente."
+        },
+        {
+          "id": "a4",
+          "texto": "Quando o ato apenas confirme situação já reconhecida por decisão anterior não impugnada."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 50 lista as hipóteses de motivação obrigatória, entre elas os atos que importem anulação, revogação, suspensão ou convalidação de ato administrativo (inciso VIII). As demais situações descritas não constam do rol do art. 50, de modo que, nelas, a lei não impõe a motivação nos termos desse dispositivo.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 50, VIII: anulação, revogação, suspensão ou convalidação de ato administrativo."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O deferimento de pedido nos termos formulados não figura entre as hipóteses de motivação obrigatória do art. 50."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O mero andamento rotineiro de expediente não está entre as hipóteses do art. 50."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A simples confirmação de situação já reconhecida não consta do rol do art. 50."
+        }
+      ],
+      "fundamento_legal": "Lei 9.784/1999, art. 50, VIII",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir hipóteses de motivação obrigatória do art. 50 com atos de simples andamento ou deferimento integral do pedido.",
+      "lei_referencia": "Lei 9.784/1999, art. 50, VIII",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Anulação, revogação, suspensão e convalidação de ato sempre exigem motivação (art. 50, VIII).",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "motivação",
+        "art. 50",
+        "anulação",
+        "revogação",
+        "convalidação"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 9.784/1999 (arts. 11 a 17, 50 e 53 a 55) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Atos Administrativos",
+      "subtema": "Classificação e espécies",
+      "dificuldade": "dificil",
+      "enunciado": "Um órgão superior pretende chamar para si, temporariamente, competência atribuída a órgão hierarquicamente inferior. Considerando a disciplina da avocação na Lei 9.784/1999, a medida será regular quando",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "for excepcional e temporária, por motivos relevantes devidamente justificados, e recair sobre competência de órgão hierarquicamente inferior."
+        },
+        {
+          "id": "a2",
+          "texto": "for conveniente à Administração, ainda que permanente, desde que recaia sobre competência de órgão hierarquicamente inferior."
+        },
+        {
+          "id": "a3",
+          "texto": "recair sobre competência de qualquer órgão, inclusive não subordinado, em razão da supremacia do interesse público."
+        },
+        {
+          "id": "a4",
+          "texto": "houver concordância do titular do órgão inferior cuja competência será exercida pelo órgão superior."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 15 admite a avocação em caráter excepcional e por motivos relevantes devidamente justificados, de forma temporária, e apenas de competência atribuída a órgão hierarquicamente inferior. A avocação não é permanente, não alcança órgãos não subordinados e não depende de concordância do titular do órgão inferior.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 15: avocação excepcional, temporária, motivada e restrita a órgão hierarquicamente inferior."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A avocação é temporária e excepcional; não pode ser permanente nem fundar-se em mera conveniência."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 15 restringe a avocação a órgão hierarquicamente inferior, não alcançando órgãos não subordinados."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A avocação decorre da hierarquia e dos requisitos do art. 15, não dependendo da concordância do titular do órgão inferior."
+        }
+      ],
+      "fundamento_legal": "Lei 9.784/1999, art. 15",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Tratar a avocação como medida permanente, de mera conveniência ou extensível a órgãos não subordinados.",
+      "lei_referencia": "Lei 9.784/1999, art. 15",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Avocação só do inferior hierárquico, em caráter excepcional, temporário e por motivos relevantes justificados.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "avocação",
+        "excepcional",
+        "temporária",
+        "hierarquia",
+        "motivos relevantes"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 9.784/1999 (arts. 11 a 17, 50 e 53 a 55) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Atos Administrativos",
+      "subtema": "Prescrição",
+      "dificuldade": "dificil",
+      "enunciado": "Um servidor recebeu, de boa-fé, vantagem concedida por ato administrativo com efeitos patrimoniais contínuos. Anos depois, a Administração verifica ilegalidade no ato. Segundo a Lei 9.784/1999, qual é o regime do direito de a Administração anular esse ato?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Decai em cinco anos, contados da percepção do primeiro pagamento, salvo comprovada má-fé do beneficiário."
+        },
+        {
+          "id": "a2",
+          "texto": "Decai em cinco anos, contados sempre da data da prática do ato, ainda que os efeitos sejam patrimoniais contínuos."
+        },
+        {
+          "id": "a3",
+          "texto": "Não se sujeita a prazo de decadência, pois o ato ilegal pode ser anulado pela Administração a qualquer tempo."
+        },
+        {
+          "id": "a4",
+          "texto": "Decai em dez anos, contados da percepção do primeiro pagamento, independentemente da boa-fé do beneficiário."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 54 fixa em cinco anos o prazo de decadência para anular atos de que decorram efeitos favoráveis, contados da data da prática, salvo comprovada má-fé. Quando os efeitos são patrimoniais contínuos, o § 1º determina que o prazo se conte da percepção do primeiro pagamento. Havendo má-fé, afasta-se a decadência.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reúne o art. 54, § 1º (termo inicial no primeiro pagamento) e a ressalva de má-fé do caput."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Nos efeitos patrimoniais contínuos, o § 1º desloca o termo inicial para a percepção do primeiro pagamento, não a data da prática."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 54 submete o direito de anular a prazo decadencial de cinco anos; a anulação não é sempre atemporal."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O prazo é de cinco anos, não de dez, e a má-fé afasta a decadência prevista no caput."
+        }
+      ],
+      "fundamento_legal": "Lei 9.784/1999, art. 54, caput e § 1º",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Ignorar o § 1º do art. 54 e contar o prazo da prática do ato nos casos de efeitos patrimoniais contínuos.",
+      "lei_referencia": "Lei 9.784/1999, art. 54, § 1º",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Efeito patrimonial contínuo: o prazo de cinco anos corre da percepção do primeiro pagamento, não da prática do ato.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "decadência",
+        "cinco anos",
+        "efeitos patrimoniais contínuos",
+        "primeiro pagamento",
+        "má-fé"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 9.784/1999 (arts. 11 a 17, 50 e 53 a 55) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Atos Administrativos",
+      "subtema": "Classificação e espécies",
+      "dificuldade": "dificil",
+      "enunciado": "Em processo administrativo decidido por delegação, o delegado proferiu decisão sem mencionar a delegação. Considerando a Lei 9.784/1999, qual afirmação sobre o regime das decisões adotadas por delegação está correta?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "As decisões por delegação devem mencionar explicitamente essa qualidade e consideram-se editadas pelo delegado."
+        },
+        {
+          "id": "a2",
+          "texto": "As decisões por delegação consideram-se editadas pelo delegante, a quem são imputados os seus efeitos jurídicos."
+        },
+        {
+          "id": "a3",
+          "texto": "As decisões por delegação dispensam qualquer referência à delegação, pois o ato delegatório já foi publicado."
+        },
+        {
+          "id": "a4",
+          "texto": "As decisões por delegação só produzem efeitos após ratificação expressa da autoridade delegante."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 14, § 3º, determina que as decisões adotadas por delegação devem mencionar explicitamente essa qualidade e consideram-se editadas pelo delegado. A imputação da decisão é ao delegado, não ao delegante, e a lei não exige ratificação posterior para que a decisão produza efeitos.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 14, § 3º: menção explícita à delegação e imputação ao delegado."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O § 3º imputa a decisão ao delegado, e não ao delegante."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O § 3º exige a menção explícita à qualidade de decisão por delegação, não dispensada pela publicação do ato delegatório."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A lei não condiciona a eficácia da decisão por delegação a ratificação da autoridade delegante."
+        }
+      ],
+      "fundamento_legal": "Lei 9.784/1999, art. 14, § 3º",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Imputar ao delegante a decisão tomada por delegação, quando a lei a considera editada pelo delegado.",
+      "lei_referencia": "Lei 9.784/1999, art. 14, § 3º",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Decisão por delegação: menção explícita e imputação ao delegado, não ao delegante.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "delegação",
+        "delegado",
+        "delegante",
+        "menção explícita",
+        "imputação"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 9.784/1999 (arts. 11 a 17, 50 e 53 a 55) fornecido no contexto"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "subtema": "Classificação e espécies",
+      "frente": "Pela Lei 9.784/1999, a avocação de competência pode ser permanente e alcança órgãos não subordinados?",
+      "verso": "Não. O art. 15 da Lei 9.784/1999 admite a avocação apenas em caráter excepcional e temporário, por motivos relevantes devidamente justificados, e somente de competência atribuída a órgão hierarquicamente inferior.",
+      "fundamento_legal": "Lei 9.784/1999, art. 15",
+      "lei_referencia": "Lei 9.784/1999, art. 15",
+      "palavras_chave": [
+        "avocação",
+        "temporária",
+        "excepcional",
+        "hierarquia"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f02",
+      "subtema": "Anulação, revogação, cassação e convalidação",
+      "frente": "Pela Lei 9.784/1999, qual a diferença entre anular e revogar um ato administrativo?",
+      "verso": "Pelo art. 53 da Lei 9.784/1999, a Administração deve anular seus atos quando eivados de vício de legalidade e pode revogá-los por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos.",
+      "fundamento_legal": "Lei 9.784/1999, art. 53",
+      "lei_referencia": "Lei 9.784/1999, art. 53",
+      "palavras_chave": [
+        "anulação",
+        "revogação",
+        "legalidade",
+        "conveniência"
+      ],
+      "cita_jurisprudencia": false
+    },
+    {
+      "id": "f03",
+      "subtema": "Prescrição",
+      "frente": "Pela Lei 9.784/1999, o que configura exercício do direito de anular e afasta a fluência do prazo de decadência?",
+      "verso": "Pelo art. 54, § 2º, considera-se exercício do direito de anular qualquer medida de autoridade administrativa que importe impugnação à validade do ato. O prazo de decadência é de cinco anos (caput), salvo comprovada má-fé.",
+      "fundamento_legal": "Lei 9.784/1999, art. 54",
+      "lei_referencia": "Lei 9.784/1999, art. 54",
+      "palavras_chave": [
+        "decadência",
+        "cinco anos",
+        "má-fé",
+        "primeiro pagamento"
+      ],
+      "cita_jurisprudencia": false
+    }
+  ]
+}

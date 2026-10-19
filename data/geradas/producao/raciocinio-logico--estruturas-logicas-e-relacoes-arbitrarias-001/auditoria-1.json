@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvi por conta própria: Bruno no mercado, Ana não na praça logo na rodoviária, e Célia na praça. Bate com a1. Os três distratores contrariam uma pista ou repetem o mercado. Questão fácil, dentro do foco e compatível com o cargo."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Rádio na prateleira 2 e lanterna imediatamente acima (prateleiras maiores acima) fixa a lanterna na 3, igual a a1. O enunciado define bem o sentido de acima, afastando ambiguidade. Distratores corretos."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Par de duas pessoas e duas cores: Diego não dirige a prata logo dirige a branca e Elisa a prata, como em a1. Negação em par equivale à afirmação da outra. Só uma correta."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Gisele (posição 2) leva o passaporte; o par carteira-título precisa ser consecutivo com o título à direita, e entre as posições livres 1, 3 e 4 só cabe em 3 e 4. Logo Heitor carteira, Iara título e Fábio certidão, exatamente a4, respeitando Iara sem certidão. Única solução."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Karla usa verde; Léo não usa cinza, logo usa azul e porta o rádio; João fica de cinza e, sem apito, leva a lanterna; Karla fica com o apito. Bate com a1. Todas as demais contrariam uma pista. Solução única."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Marcos em Fortaleza; Paulo torce pelo time X e quem mora em Sobral não torce pelo X, então Paulo mora em Juazeiro e Rui em Sobral, como em a1. A pista de Marcos não torcer pelo X é consistente e não altera a conclusão. Única compatível."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "P na vaga 1 obriga Q (vizinho imediato) à vaga 2; sobram 3 e 4 para R e S, e como R não fica na 4, S ocupa a 4 necessariamente. a1 é a única conclusão garantida. Distratores corretamente descartados."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Eva na 1 e Caio na 3 deixam 2, 4 e 5 para Ana, Bia e Davi; Davi imediatamente depois de Bia exige par consecutivo, e o único entre as livres é 4 e 5 (Bia 4, Davi 5). Ana fica na 2, menor que Bia, como em a1. Solução única e bem construída."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Médico tem gato e professor tem cão, então guarda (Lia) e cozinheiro ficam com peixe e ave; Noel tem peixe e não é guarda, logo é cozinheiro, e Lia fica com a ave; sobram médico e professor para Mia e Otto, e como Otto não é médico, Mia é a médica com o gato, igual a a1. Única solução."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Amarelo na 1, verde no meio (3) e branco imediatamente à direita do verde (4) deixam vermelho e azul nas posições 2 e 5; como o vermelho fica à esquerda do azul, o azul ocupa a quinta, como em a1. Solução única, sem ambiguidade."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A frente é pergunta única e o verso define corretamente imediatamente à direita como vizinho imediato logo após, sem elemento no meio. Conceito de raciocínio lógico incontroverso; não há dispositivo legal a citar. Não copia enunciado do lote."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Pergunta clara e verso correto: num par, negar um atributo de uma pessoa fecha toda a distribuição. Conceito pacífico de associação binária, sem lei aplicável. Redação própria."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Frente objetiva e verso correto: pista que liga dois atributos ao mesmo elemento deve ser tratada como bloco único. Conceito correto e sem ambiguidade, sem dispositivo legal exigível. Não repete enunciado de questão."
+    }
+  ]
+}

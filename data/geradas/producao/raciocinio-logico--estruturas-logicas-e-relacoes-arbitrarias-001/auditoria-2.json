@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Bruno no mercado fixa o posto; Ana não fica na praça, logo Ana na rodoviária e Célia na praça. a1 é a única conclusão possível; os distratores violam pistas. Dentro do foco e do nível fácil."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Rádio na prateleira 2 e lanterna imediatamente acima (prateleiras maiores acima) fixam a lanterna na 3. a1 correta; distratores confundem imediatamente acima ou mudam a posição do rádio."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Com duas pessoas e duas cores, Diego não dirige a prata implica Diego na branca e Elisa na prata. a1 é a única conclusão coerente. Nível fácil adequado."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Gisele (2ª) com passaporte deixa carteira, título e certidão nas posições 1, 3 e 4; o par carteira-título vizinho em ordem só cabe em 3 e 4 (Heitor carteira, Iara título), e Fábio fica com a certidão, respeitando Iara não ter certidão. a4 correta."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Karla verde; Léo não usa cinza, então Léo azul e rádio; João cinza e, por não portar apito, leva a lanterna. a1 é a conclusão forçada; os demais contrariam pistas. Dentro do foco."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Marcos em Fortaleza; Paulo torce pelo X e quem mora em Sobral não torce pelo X, logo Paulo em Juazeiro e Rui em Sobral. a1 é a única afirmação compatível com todos os dados."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "P na vaga 1 e Q vizinho imediato só na 2; sobram 3 e 4 para R e S, e R não fica na 4, então S na 4 é a única conclusão necessária. a1 correta; os distratores não são obrigatórios ou contrariam pista."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Eva na 1 e Caio na 3 deixam 2, 4 e 5 para Ana, Bia e Davi; Bia e Davi precisam de ruas consecutivas, único par possível 4 e 5, então Ana na 2, menor que Bia (4). a1 correta. Nível difícil coerente."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Lia guarda; médico tem gato e professor tem cão, logo guarda e cozinheiro ficam com peixe e ave; Noel (peixe) é cozinheiro e Lia tem a ave; Otto não é médico, então Otto professor (cão) e Mia médica (gato). a1 correta."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Amarelo na 1, verde no meio (3) e branco imediatamente à direita do verde (4) deixam vermelho e azul em 2 e 5; vermelho à esquerda do azul fixa azul na 5. a1 correta. Nível difícil adequado."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A definição de imediatamente à direita (posição vizinha logo seguinte, sem elemento entre os dois) está correta e responde exatamente à frente, sem ambiguidade. Conceito único."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Correto: num par de dois elementos, negar uma possibilidade afirma a outra e fecha a distribuição. Frente objetiva e verso preciso, sem ambiguidade."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Correto: pista que liga dois atributos ao mesmo elemento deve ser tratada como bloco único, reduzindo as combinações. Responde a frente com um conceito, sem ambiguidade."
+    }
+  ]
+}

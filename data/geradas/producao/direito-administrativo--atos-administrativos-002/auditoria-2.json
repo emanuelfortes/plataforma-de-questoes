@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reproduz fielmente o art. 11 da Lei 9.784/1999: competência irrenunciável, salvo delegação e avocação legalmente admitidas. Os distratores afirmam renunciabilidade, disponibilidade ou transferência dependente do interessado, todos contrários ao art. 11. Gabarito e fundamento conferem."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 corresponde ao art. 53: dever de anular o ato com vício de legalidade e faculdade de revogar por conveniência ou oportunidade, respeitados os direitos adquiridos. A a2 inverte os institutos, a a3 ignora os direitos adquiridos e a a4 erra ao exigir decisão judicial, contrariando a autotutela. Correta única."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reproduz o art. 55: convalidação de defeitos sanáveis quando a decisão evidencie ausência de lesão ao interesse público e de prejuízo a terceiros. Os demais distratores (concordância dos destinatários, defeito insanável, autorização judicial) não encontram amparo no dispositivo."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reflete o art. 12: a delegação alcança órgãos não subordinados hierarquicamente, por circunstâncias de índole técnica, social, econômica, jurídica ou territorial. A a2 contraria o art. 12, a a3 nega a irrenunciabilidade do art. 11 e a a4 contraria a publicação exigida pelo art. 14."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O comando pede o que NAO pode ser delegado. A a1 (decisão de recursos administrativos) é vedação expressa do art. 13, II. Atos de instrução, assinatura de expedientes de rotina e diligências não constam do rol de vedações, logo podem ser delegados. Correta única."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 combina o art. 14, § 1º (conteúdo do ato de delegação: matérias, limites, duração e recurso cabível) com o § 2º (revogável a qualquer tempo pelo delegante). A a2 (prazo mínimo), a a3 (irrevogabilidade e direito adquirido) e a a4 (dispensa dos limites) contrariam os §§ 1º e 2º."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 corresponde ao art. 50, VIII: motivação obrigatória para atos que importem anulação, revogação, suspensão ou convalidação de ato administrativo. As demais hipóteses (deferimento integral, andamento rotineiro, mera confirmação) não constam do rol do art. 50. A questão está no tema do edital (Atos Administrativos)."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reproduz o art. 15: avocação excepcional, temporária, por motivos relevantes devidamente justificados, restrita a órgão hierarquicamente inferior. A a2 (permanente, por conveniência), a a3 (qualquer órgão) e a a4 (concordância do inferior) contrariam o dispositivo. Correta única."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reúne o art. 54, § 1º (efeitos patrimoniais contínuos: prazo contado da percepção do primeiro pagamento) e a ressalva de má-fé do caput, com prazo de cinco anos. A a2 (data da prática), a a3 (atemporalidade) e a a4 (dez anos) contrariam o art. 54. Correta única."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reproduz o art. 14, § 3º: as decisões por delegação devem mencionar explicitamente essa qualidade e consideram-se editadas pelo delegado. A a2 (imputação ao delegante), a a3 (dispensa de referência) e a a4 (ratificação do delegante) contrariam o § 3º. Correta única."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso responde à frente conforme o art. 15: avocação apenas excepcional e temporária, por motivos relevantes justificados, restrita a órgão hierarquicamente inferior. Frente objetiva, resposta única e dispositivo correto."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso traduz corretamente o art. 53: dever de anular o ato com vício de legalidade e faculdade de revogar por conveniência ou oportunidade, respeitados os direitos adquiridos. Frente clara e sem ambiguidade."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso reproduz o art. 54, § 2º (qualquer medida de autoridade que importe impugnação à validade do ato configura exercício do direito de anular) e indica o prazo decadencial de cinco anos do caput, salvo má-fé. Frente objetiva e resposta única."
+    }
+  ]
+}
