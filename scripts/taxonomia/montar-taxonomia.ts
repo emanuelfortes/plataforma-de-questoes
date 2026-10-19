@@ -96,6 +96,16 @@ const TRECHOS: Record<string, Trecho[]> = {
   "Ordem Econômica": [T("cf88", 170, 181)],
   "Direitos Humanos na Constituição e Política Nacional": [T("cf88", 1, 5), T("cf88", 109)],
   "Princípios da Administração Pública": [T("cf88", 37), T("lei-9784-1999", 2)],
+  // Direito Administrativo: a Lei 9.784/1999 cobre competência, delegação e avocação (11 a 17),
+  // motivação (50) e anulação, revogação, convalidação e decadência (53 a 55).
+  "Atos Administrativos": [T("lei-9784-1999", 11, 17), T("lei-9784-1999", 50), T("lei-9784-1999", 53, 55)],
+  "Poderes Administrativos": [T("lei-9784-1999", 11, 17), T("cf88", 84)],
+  "Controle da Administração Pública": [T("lei-9784-1999", 53, 65), T("cf88", 70, 75)],
+  "Organização Administrativa": [T("cf88", 37), T("cf88", 173)],
+  "Estado, Governo e Administração Pública": [T("cf88", 1, 4), T("cf88", 37)],
+  "Serviços Públicos e Delegação": [T("cf88", 175), T("cf88", 241)],
+  "Aplicabilidade das Normas Constitucionais": [T("cf88", 5)],
+  "Teoria dos Direitos Humanos": [T("cf88", 1, 5)],
   "Responsabilidade Civil do Estado": [T("cf88", 37)],
   // Código Penal
   "Aplicação da Lei Penal": [T("cp", 1, 12), T("cf88", 5)],

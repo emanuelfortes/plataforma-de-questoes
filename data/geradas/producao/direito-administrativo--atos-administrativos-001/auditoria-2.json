@@ -2,21 +2,15 @@
   "auditorias": [
     {
       "id": "q01",
-      "status": "VALIDADA_COM_RESSALVA",
+      "status": "VALIDADA",
       "gabarito_confere": true,
       "id_correta_segundo_auditor": "a1",
       "mais_de_uma_correta": false,
       "ambiguidade": false,
       "fundamento_confere": true,
-      "problemas": [
-        {
-          "tipo": "pedagogico",
-          "gravidade": "baixa",
-          "descricao": "No comentario, a frase 'forma, motivo e objeto podem admitir margem conforme o ato' é imprecisa: a discricionariedade incide, em regra, sobre motivo e objeto; a forma é elemento vinculado, flexibilizado apenas pelo formalismo moderado. Convém ajustar a redação para não sugerir que a forma seja, de ordinário, discricionária."
-        }
-      ],
-      "correcao_sugerida": "No comentario, trocar 'forma, motivo e objeto podem admitir margem conforme o ato' por 'a discricionariedade, quando existente, recai sobre o motivo e o objeto; a forma é, em regra, vinculada, admitindo flexibilização pelo formalismo moderado'.",
-      "justificativa": "O gabarito a1 reproduz os cinco requisitos consagrados (competência, finalidade, forma, motivo e objeto) e os distratores estão corretamente errados. Único reparo: a explicação sobre a 'margem' da forma no comentario é imprecisa, mas não afeta o gabarito."
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Os cinco requisitos (competência, finalidade, forma, motivo e objeto) estão corretos (a1). Os distratores erram por conteúdo: a2 lista atributos, a3 reduz os elementos e a4 cita mérito e princípios. Resolvi sozinho e cheguei a a1. Sem pistas de tamanho ou tom."
     },
     {
       "id": "q02",
@@ -28,7 +22,7 @@
       "fundamento_confere": true,
       "problemas": [],
       "correcao_sugerida": null,
-      "justificativa": "A alternativa a1 define corretamente a presunção de legitimidade e veracidade (presunção relativa, com inversão do ônus da prova). Os distratores descrevem autoexecutoriedade, imperatividade e tipicidade, todos distintos. Resposta única."
+      "justificativa": "a1 conceitua corretamente a presunção de legitimidade e veracidade com inversão do ônus da prova; a2 descreve autoexecutoriedade, a3 imperatividade e a4 tipicidade. Cada distrator conceitua outro atributo. Gabarito a1 confirmado por mim."
     },
     {
       "id": "q03",
@@ -40,7 +34,7 @@
       "fundamento_confere": true,
       "problemas": [],
       "correcao_sugerida": null,
-      "justificativa": "O conceito em a1 (manifestação unilateral sob regime de direito público para produzir efeitos jurídicos) corresponde à doutrina majoritária. Os distratores descrevem atos de direito privado, lei em sentido formal e ato jurisdicional, todos excluídos do conceito. Resposta única."
+      "justificativa": "Conceito de ato administrativo correto em a1 (manifestação unilateral, regime de direito público, efeitos jurídicos, controle de legalidade). a2 alarga para o direito privado, a3 é lei e a4 é ato jurisdicional. Resolvi e confirmei a1."
     },
     {
       "id": "q04",
@@ -52,7 +46,7 @@
       "fundamento_confere": true,
       "problemas": [],
       "correcao_sugerida": null,
-      "justificativa": "O caso (interdição imediata sem prévia autorização judicial) é exemplo clássico de autoexecutoriedade, condicionada a previsão legal ou urgência, exatamente como em a1. Os distratores confundem com presunção de veracidade, tipicidade e imperatividade (esta com erro ao exigir chancela judicial prévia). Resposta única."
+      "justificativa": "A interdição imediata sem o Judiciário corresponde à autoexecutoriedade (a1), condicionada a previsão legal ou urgência. a4 erra por conteúdo ao exigir chancela judicial prévia; a2 e a3 descrevem outros atributos. Gabarito a1 confirmado."
     },
     {
       "id": "q05",
@@ -64,7 +58,7 @@
       "fundamento_confere": true,
       "problemas": [],
       "correcao_sugerida": null,
-      "justificativa": "A alternativa a1 descreve corretamente as notas da competência (legal, de exercício obrigatório, irrenunciável e improrrogável, com delegação e avocação apenas nos limites legais). Os distratores tratam a competência como livremente transferível, discricionária ou renunciável, todos incorretos. Resposta única."
+      "justificativa": "a1 reflete os arts. 11 (irrenunciável), 12 (delegação de parte a órgão ainda que não subordinado) e 15 (avocação excepcional) da Lei 9.784/1999, conferidos no texto fornecido. a2, a3 e a4 erram por conteúdo (transferência definitiva, discricionariedade e renúncia). Fundamento e gabarito corretos."
     },
     {
       "id": "q06",
@@ -76,7 +70,7 @@
       "fundamento_confere": true,
       "problemas": [],
       "correcao_sugerida": null,
-      "justificativa": "A alternativa a1 distingue corretamente finalidade (interesse público, elemento vinculado) de motivo (pressuposto de fato e de direito). Os distratores igualam os conceitos, invertem-nos (confundindo com objeto) ou tratam a finalidade como discricionária. Resposta única."
+      "justificativa": "a1 distingue finalidade (interesse público, vinculado) de motivo (pressuposto de fato e de direito). a2 iguala os dois, a3 inverte os conceitos e confunde com objeto, a4 trata a finalidade como discricionária. Resolvi e confirmei a1."
     },
     {
       "id": "q07",
@@ -88,7 +82,7 @@
       "fundamento_confere": true,
       "problemas": [],
       "correcao_sugerida": null,
-      "justificativa": "A alternativa a1 adota a distinção consolidada (Celso Antônio): imperatividade é a imposição unilateral de obrigações; exigibilidade é o poder de compelir por meios indiretos de coação. Os distratores universalizam a imperatividade, confundem exigibilidade com autoexecutoriedade e igualam imperatividade a autoexecutoriedade. Resposta única."
+      "justificativa": "a1 separa corretamente imperatividade (imposição unilateral) de exigibilidade (coação indireta, por multas e sanções). a2 generaliza a imperatividade, a3 confunde exigibilidade com autoexecutoriedade e a4 iguala imperatividade e autoexecutoriedade. Gabarito a1 confirmado."
     },
     {
       "id": "q08",
@@ -100,7 +94,7 @@
       "fundamento_confere": true,
       "problemas": [],
       "correcao_sugerida": null,
-      "justificativa": "Agente competente que usa o ato para perseguir desafeto incorre em desvio de finalidade (desvio de poder), vício no elemento finalidade, como em a1. Não há vício de competência (que subsiste) nem necessariamente de objeto. Resposta única."
+      "justificativa": "Perseguir fim pessoal com autoridade competente configura desvio de finalidade, vício no elemento finalidade, com anulação (a1). a2 nega o vício, a3 o localiza na competência e a4 no objeto. Resolvi e confirmei a1."
     },
     {
       "id": "q09",
@@ -112,7 +106,7 @@
       "fundamento_confere": true,
       "problemas": [],
       "correcao_sugerida": null,
-      "justificativa": "A alternativa a1 traduz o formalismo moderado: forma escrita como regra, com exceções quando a lei autoriza ou a situação exige. Os distratores tratam a forma como absolutamente livre, sempre escrita e solene, ou meramente acidental, todos incorretos. Resposta única."
+      "justificativa": "a1 expressa o formalismo moderado: forma escrita como regra, exceções admitidas e forma específica legal cujo descumprimento vicia o ato. a2 (forma livre), a3 (sempre escrita e solene) e a4 (forma acidental e dispensável) erram por conteúdo. Gabarito a1 confirmado."
     },
     {
       "id": "q10",
@@ -124,7 +118,7 @@
       "fundamento_confere": true,
       "problemas": [],
       "correcao_sugerida": null,
-      "justificativa": "A alternativa a1 define a tipicidade como correspondência do ato a figuras legais, desdobramento da legalidade. Os distratores a confundem com autoexecutoriedade, com exclusão da discricionariedade e com a presunção de legitimidade, todos errados. Resposta única."
+      "justificativa": "a1 define a tipicidade como correspondência a figuras legais, desdobramento da legalidade, vedando atos inominados impositivos. a2 confunde com autoexecutoriedade, a3 nega a discricionariedade e a4 iguala à presunção de legitimidade. Resolvi e confirmei a1."
     }
   ],
   "auditorias_flashcards": [
@@ -135,7 +129,7 @@
       "ambiguo": false,
       "problemas": [],
       "correcao_sugerida": null,
-      "justificativa": "Os quatro atributos clássicos (presunção de legitimidade e veracidade, imperatividade, autoexecutoriedade e tipicidade) estão corretos conforme a doutrina majoritária, e o verso ressalva que não se confundem com os requisitos de validade. Frente objetiva e de resposta única."
+      "justificativa": "Verso correto e conferido no texto: competência irrenunciável (art. 11) e delegação de parte dela, ainda que a órgão não subordinado (art. 12). A frente é objetiva e o card cita o dispositivo, sem copiar enunciado de questão."
     },
     {
       "id": "f02",
@@ -144,7 +138,7 @@
       "ambiguo": false,
       "problemas": [],
       "correcao_sugerida": null,
-      "justificativa": "Correto: a autoexecutoriedade não está presente em todo ato, exigindo previsão legal expressa ou urgência; fora disso, a Administração depende do Judiciário. Frente admite resposta única."
+      "justificativa": "O verso reproduz fielmente hipóteses do art. 50 da Lei 9.784/1999 (negar ou limitar direitos, impor deveres ou sanções, decidir recursos, anular, revogar, suspender ou convalidar), com a ressalva 'entre outras hipóteses'. Frente clara e sem ambiguidade."
     },
     {
       "id": "f03",
@@ -153,7 +147,7 @@
       "ambiguo": false,
       "problemas": [],
       "correcao_sugerida": null,
-      "justificativa": "A distinção entre finalidade (interesse público, elemento vinculado) e motivo (pressuposto de fato e de direito) está correta, assim como a nota sobre desvio de finalidade. Frente clara e de resposta única."
+      "justificativa": "Verso corresponde exatamente ao art. 13, I a III, da Lei 9.784/1999 (atos normativos, decisão de recursos administrativos e competência exclusiva). Pergunta objetiva, resposta única e dispositivo citado."
     }
   ]
 }

@@ -7,18 +7,46 @@
       "dificuldade": "facil",
       "enunciado": "Sobre os requisitos (elementos) de validade do ato administrativo, segundo a doutrina majoritária do Direito Administrativo, assinale a opção correta.",
       "alternativas": [
-        { "id": "a1", "texto": "São requisitos do ato administrativo a competência, a finalidade, a forma, o motivo e o objeto." },
-        { "id": "a2", "texto": "São requisitos do ato administrativo a competência, a presunção de legitimidade, a imperatividade e a autoexecutoriedade." },
-        { "id": "a3", "texto": "São requisitos do ato administrativo apenas a forma e o objeto, pois os demais são mera conveniência administrativa." },
-        { "id": "a4", "texto": "São requisitos do ato administrativo a oportunidade, a conveniência, a eficiência e a razoabilidade do administrador." }
+        {
+          "id": "a1",
+          "texto": "São requisitos do ato administrativo a competência, a finalidade, a forma, o motivo e o objeto, elementos cuja ausência compromete a validade do ato."
+        },
+        {
+          "id": "a2",
+          "texto": "São requisitos do ato administrativo a competência, a presunção de legitimidade, a imperatividade e a autoexecutoriedade, enquanto características de validade."
+        },
+        {
+          "id": "a3",
+          "texto": "São requisitos do ato administrativo apenas a forma e o objeto, pois os demais traduzem mera conveniência administrativa do agente."
+        },
+        {
+          "id": "a4",
+          "texto": "São requisitos do ato administrativo a oportunidade, a conveniência, a eficiência e a razoabilidade na escolha feita pelo administrador."
+        }
       ],
       "id_correta": "a1",
-      "comentario_geral": "A doutrina majoritária aponta cinco requisitos (ou elementos) de validade do ato administrativo: competência, finalidade, forma, motivo e objeto. Um recurso de memorização bastante usado é a sigla COM-FI-FOR-MO-OB (ou simplesmente lembrar de competência, finalidade, forma, motivo e objeto). Competência e finalidade são sempre vinculadas; forma, motivo e objeto podem admitir margem conforme o ato. Não confunda esses requisitos com os atributos do ato (presunção de legitimidade, imperatividade, autoexecutoriedade e tipicidade), que são características do ato já formado, e não condições de sua validade.",
+      "comentario_geral": "A doutrina majoritária aponta cinco requisitos (ou elementos) de validade do ato administrativo: competência, finalidade, forma, motivo e objeto. Um recurso de memorização bastante usado é a sigla COM-FI-FOR-MO-OB (competência, finalidade, forma, motivo e objeto). Competência e finalidade são sempre vinculados; forma, motivo e objeto podem admitir margem conforme o ato. Não confunda esses requisitos com os atributos do ato (presunção de legitimidade, imperatividade, autoexecutoriedade e tipicidade), que são características do ato já formado, e não condições de sua validade.",
       "analise_alternativas": [
-        { "id": "a1", "correta": true, "justificativa": "Reproduz corretamente os cinco requisitos consagrados pela doutrina: competência, finalidade, forma, motivo e objeto." },
-        { "id": "a2", "correta": false, "justificativa": "Mistura um requisito (competência) com atributos do ato (presunção de legitimidade, imperatividade e autoexecutoriedade), que são características e não requisitos de validade." },
-        { "id": "a3", "correta": false, "justificativa": "Reduz indevidamente os requisitos a dois; a ausência de qualquer dos cinco elementos compromete a validade do ato." },
-        { "id": "a4", "correta": false, "justificativa": "Lista juízo de mérito (oportunidade e conveniência) e princípios, que não constituem os requisitos de validade do ato." }
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz corretamente os cinco requisitos consagrados pela doutrina: competência, finalidade, forma, motivo e objeto, cuja falta vicia o ato."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Mistura um requisito (competência) com atributos do ato (presunção de legitimidade, imperatividade e autoexecutoriedade), que são características e não requisitos de validade."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Reduz indevidamente os requisitos a dois; a falta de qualquer dos cinco elementos compromete a validade do ato."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Lista juízo de mérito (oportunidade e conveniência) e princípios, que não constituem os requisitos de validade do ato."
+        }
       ],
       "fundamento_legal": "não se aplica",
       "fundamento_jurisprudencial": "não se aplica",
@@ -30,11 +58,21 @@
       "cuidado_na_prova": null,
       "tipo_cobranca": "conceito",
       "exigencia_cognitiva": "memorizacao",
-      "palavras_chave": ["requisitos", "elementos", "competência", "finalidade", "forma", "motivo", "objeto"],
+      "palavras_chave": [
+        "requisitos",
+        "elementos",
+        "competência",
+        "finalidade",
+        "forma",
+        "motivo",
+        "objeto"
+      ],
       "cita_jurisprudencia": false,
       "status_gerador": "VALIDADA",
       "ressalvas": null,
-      "fontes_consultadas": ["Conhecimento doutrinário consolidado de Direito Administrativo (requisitos do ato administrativo)"]
+      "fontes_consultadas": [
+        "Conhecimento doutrinário consolidado de Direito Administrativo (requisitos do ato administrativo)"
+      ]
     },
     {
       "id": "q02",
@@ -43,18 +81,46 @@
       "dificuldade": "facil",
       "enunciado": "Acerca dos atributos do ato administrativo, assinale a opção que apresenta o conceito correto de presunção de legitimidade.",
       "alternativas": [
-        { "id": "a1", "texto": "É a qualidade pela qual os atos presumem-se verdadeiros e conforme o direito até prova em contrário, invertendo o ônus da prova." },
-        { "id": "a2", "texto": "É a possibilidade de a Administração executar diretamente suas próprias decisões, por meios coercitivos, sem a necessidade de prévia autorização do Poder Judiciário, nos casos previstos em lei ou de urgência." },
-        { "id": "a3", "texto": "É a prerrogativa de impor obrigações a terceiros independentemente da concordância deles, criando unilateralmente deveres em razão da supremacia do interesse público sobre o particular." },
-        { "id": "a4", "texto": "É a correspondência do ato a figuras previamente definidas em lei como aptas a produzir determinados resultados jurídicos, em desdobramento do princípio da legalidade." }
+        {
+          "id": "a1",
+          "texto": "É a qualidade pela qual os atos se presumem verdadeiros nos fatos e conforme o direito até prova em contrário, de modo a inverter o ônus da prova para quem alega o vício."
+        },
+        {
+          "id": "a2",
+          "texto": "É a possibilidade de a Administração executar diretamente suas próprias decisões, por meios coercitivos, sem prévia autorização do Poder Judiciário, nos casos de lei ou de urgência."
+        },
+        {
+          "id": "a3",
+          "texto": "É a prerrogativa de impor obrigações a terceiros independentemente da concordância deles, criando unilateralmente deveres em razão da supremacia do interesse público."
+        },
+        {
+          "id": "a4",
+          "texto": "É a correspondência do ato a figuras previamente definidas em lei como aptas a produzir certos resultados jurídicos, em desdobramento do princípio da legalidade."
+        }
       ],
       "id_correta": "a1",
       "comentario_geral": "A presunção de legitimidade (e de veracidade) significa que os atos administrativos nascem presumidos como verdadeiros nos fatos e conforme o direito, até que se prove o contrário. É presunção relativa (juris tantum), e seu efeito prático é inverter o ônus da prova: cabe a quem alega o vício demonstrá-lo. Os demais conceitos descritos correspondem a outros atributos: a autoexecutoriedade (execução direta sem o Judiciário), a imperatividade (imposição unilateral de obrigações) e a tipicidade (correspondência a figuras previstas em lei).",
       "analise_alternativas": [
-        { "id": "a1", "correta": true, "justificativa": "Descreve com precisão a presunção de legitimidade e veracidade e seu efeito de inversão do ônus da prova." },
-        { "id": "a2", "correta": false, "justificativa": "Conceitua a autoexecutoriedade, e não a presunção de legitimidade." },
-        { "id": "a3", "correta": false, "justificativa": "Conceitua a imperatividade (coercibilidade), atributo distinto da presunção de legitimidade." },
-        { "id": "a4", "correta": false, "justificativa": "Conceitua a tipicidade do ato administrativo, outro atributo." }
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Descreve com precisão a presunção de legitimidade e veracidade e seu efeito de inversão do ônus da prova."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Conceitua a autoexecutoriedade, e não a presunção de legitimidade."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Conceitua a imperatividade (coercibilidade), atributo distinto da presunção de legitimidade."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Conceitua a tipicidade do ato administrativo, outro atributo."
+        }
       ],
       "fundamento_legal": "não se aplica",
       "fundamento_jurisprudencial": "não se aplica",
@@ -66,11 +132,18 @@
       "cuidado_na_prova": null,
       "tipo_cobranca": "conceito",
       "exigencia_cognitiva": "compreensao",
-      "palavras_chave": ["presunção de legitimidade", "presunção de veracidade", "ônus da prova", "atributos"],
+      "palavras_chave": [
+        "presunção de legitimidade",
+        "presunção de veracidade",
+        "ônus da prova",
+        "atributos"
+      ],
       "cita_jurisprudencia": false,
       "status_gerador": "VALIDADA",
       "ressalvas": null,
-      "fontes_consultadas": ["Conhecimento doutrinário consolidado de Direito Administrativo (atributos do ato administrativo)"]
+      "fontes_consultadas": [
+        "Conhecimento doutrinário consolidado de Direito Administrativo (atributos do ato administrativo)"
+      ]
     },
     {
       "id": "q03",
@@ -79,18 +152,46 @@
       "dificuldade": "facil",
       "enunciado": "Considerando o conceito de ato administrativo adotado pela doutrina majoritária, assinale a opção correta.",
       "alternativas": [
-        { "id": "a1", "texto": "É a manifestação unilateral de vontade da Administração que, sob regime de direito público, visa produzir efeitos jurídicos." },
-        { "id": "a2", "texto": "É todo e qualquer comportamento da Administração Pública, inclusive os atos regidos pelo direito privado e os atos materiais, desde que produza algum efeito de natureza econômica ou social." },
-        { "id": "a3", "texto": "É a lei em sentido formal editada pelo Poder Legislativo para disciplinar, em caráter geral e abstrato, a atuação dos órgãos e das entidades da Administração Pública." },
-        { "id": "a4", "texto": "É a decisão judicial, proferida em processo contencioso, que resolve com força de coisa julgada conflito de interesses do qual participe a Administração Pública." }
+        {
+          "id": "a1",
+          "texto": "É a manifestação unilateral de vontade da Administração que, sob regime de direito público, visa produzir efeitos jurídicos sujeitos a controle de legalidade."
+        },
+        {
+          "id": "a2",
+          "texto": "É o comportamento da Administração Pública, inclusive os atos regidos pelo direito privado e os atos materiais, desde que produza efeito econômico ou social."
+        },
+        {
+          "id": "a3",
+          "texto": "É a lei em sentido formal editada pelo Poder Legislativo para disciplinar, em caráter geral e abstrato, a atuação dos órgãos e entidades da Administração."
+        },
+        {
+          "id": "a4",
+          "texto": "É a decisão judicial, proferida em processo contencioso, que resolve com força de coisa julgada conflito de interesses de que participe a Administração."
+        }
       ],
       "id_correta": "a1",
       "comentario_geral": "O ato administrativo é a manifestação (ou declaração) unilateral de vontade do Estado, ou de quem lhe faça as vezes, que, no exercício de prerrogativas públicas e sob regime jurídico-administrativo, produz efeitos jurídicos e fica sujeita a controle de legalidade pelo Judiciário. Dois pontos definem o conceito: o regime de direito público e a finalidade de produzir efeitos jurídicos. Atos de direito privado da Administração não são atos administrativos em sentido próprio; a lei é ato normativo do Legislativo; e a sentença é ato jurisdicional.",
       "analise_alternativas": [
-        { "id": "a1", "correta": true, "justificativa": "Reúne os traços essenciais do conceito: manifestação unilateral, regime de direito público, produção de efeitos jurídicos e controle de legalidade." },
-        { "id": "a2", "correta": false, "justificativa": "Alarga indevidamente o conceito para abarcar atos de direito privado da Administração, que não são atos administrativos em sentido próprio." },
-        { "id": "a3", "correta": false, "justificativa": "Descreve a lei em sentido formal, ato típico do Poder Legislativo, e não ato administrativo." },
-        { "id": "a4", "correta": false, "justificativa": "Descreve ato jurisdicional (sentença), que não se confunde com o ato administrativo." }
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reúne os traços essenciais do conceito: manifestação unilateral, regime de direito público, produção de efeitos jurídicos e controle de legalidade."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Alarga indevidamente o conceito para abarcar atos de direito privado da Administração, que não são atos administrativos em sentido próprio."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Descreve a lei em sentido formal, ato típico do Poder Legislativo, e não ato administrativo."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Descreve ato jurisdicional (sentença), que não se confunde com o ato administrativo."
+        }
       ],
       "fundamento_legal": "não se aplica",
       "fundamento_jurisprudencial": "não se aplica",
@@ -102,11 +203,18 @@
       "cuidado_na_prova": null,
       "tipo_cobranca": "conceito",
       "exigencia_cognitiva": "compreensao",
-      "palavras_chave": ["conceito", "manifestação unilateral", "regime de direito público", "efeitos jurídicos"],
+      "palavras_chave": [
+        "conceito",
+        "manifestação unilateral",
+        "regime de direito público",
+        "efeitos jurídicos"
+      ],
       "cita_jurisprudencia": false,
       "status_gerador": "VALIDADA",
       "ressalvas": null,
-      "fontes_consultadas": ["Conhecimento doutrinário consolidado de Direito Administrativo (conceito de ato administrativo)"]
+      "fontes_consultadas": [
+        "Conhecimento doutrinário consolidado de Direito Administrativo (conceito de ato administrativo)"
+      ]
     },
     {
       "id": "q04",
@@ -115,18 +223,46 @@
       "dificuldade": "media",
       "enunciado": "Um delegado de polícia determina a interdição imediata de estabelecimento que funcionava em desacordo com as normas de segurança, sem recorrer previamente ao Poder Judiciário. Esse poder de executar diretamente a decisão administrativa corresponde a qual atributo do ato?",
       "alternativas": [
-        { "id": "a1", "texto": "À autoexecutoriedade, que permite a execução direta do ato pela Administração, sem autorização judicial prévia, nos casos de lei ou urgência." },
-        { "id": "a2", "texto": "À presunção de veracidade, atributo pelo qual os fatos narrados e afirmados pela autoridade pública se reputam verdadeiros até a produção de prova em sentido contrário pelo particular interessado." },
-        { "id": "a3", "texto": "À tipicidade, atributo que exige a correspondência do ato a figura previamente definida e nominada em lei como apta a produzir o específico resultado jurídico pretendido pela Administração no caso." },
-        { "id": "a4", "texto": "À imperatividade, atributo pelo qual o ato se impõe a terceiros criando obrigações de forma unilateral, mas que permanece sempre dependente de prévia chancela do Poder Judiciário para ser executado." }
+        {
+          "id": "a1",
+          "texto": "À autoexecutoriedade, que permite a execução direta do ato pela Administração, por meios próprios de coerção e sem autorização judicial prévia, quando há previsão legal ou urgência."
+        },
+        {
+          "id": "a2",
+          "texto": "À presunção de veracidade, atributo pelo qual os fatos narrados pela autoridade pública se reputam verdadeiros até prova em contrário pelo particular interessado."
+        },
+        {
+          "id": "a3",
+          "texto": "À tipicidade, atributo que exige a correspondência do ato a figura definida em lei como apta a produzir o específico resultado jurídico pretendido no caso."
+        },
+        {
+          "id": "a4",
+          "texto": "À imperatividade, atributo pelo qual o ato cria obrigações de forma unilateral a terceiros, mas que, para ser executado contra o particular, depende de prévia chancela do Poder Judiciário em cada caso."
+        }
       ],
       "id_correta": "a1",
-      "comentario_geral": "A autoexecutoriedade é o atributo que permite à Administração executar diretamente suas decisões, com meios coercitivos próprios, sem precisar de autorização prévia do Judiciário. Ela não está presente em todo ato: exige previsão legal expressa ou situação de urgência. No caso, a interdição imediata diante de risco à segurança é exemplo clássico. Cuidado para não confundir com a imperatividade, que é a imposição unilateral de obrigações; a imperatividade não depende de chancela judicial prévia, o que torna errada a parte final dessa alternativa.",
+      "comentario_geral": "A autoexecutoriedade é o atributo que permite à Administração executar diretamente suas decisões, com meios coercitivos próprios, sem precisar de autorização prévia do Judiciário. Ela não está presente em todo ato: exige previsão legal expressa ou situação de urgência. No caso, a interdição imediata diante de risco à segurança é exemplo clássico. Cuidado para não confundir com a imperatividade, que é a imposição unilateral de obrigações; a imperatividade não depende de chancela judicial prévia, o que torna errada a parte final daquela alternativa.",
       "analise_alternativas": [
-        { "id": "a1", "correta": true, "justificativa": "Descreve corretamente a autoexecutoriedade, inclusive seu condicionamento a previsão legal ou urgência, aplicável à interdição imediata." },
-        { "id": "a2", "correta": false, "justificativa": "A presunção de veracidade refere-se à verdade dos fatos, não ao poder de executar o ato por meios próprios." },
-        { "id": "a3", "correta": false, "justificativa": "A tipicidade trata da correspondência do ato a figura legal, e não da execução direta." },
-        { "id": "a4", "correta": false, "justificativa": "Erra ao afirmar que a imperatividade depende de prévia chancela judicial; além disso, o atributo que explica a execução direta é a autoexecutoriedade." }
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Descreve corretamente a autoexecutoriedade, inclusive seu condicionamento a previsão legal ou urgência, aplicável à interdição imediata."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A presunção de veracidade refere-se à verdade dos fatos, não ao poder de executar o ato por meios próprios."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A tipicidade trata da correspondência do ato a figura legal, e não da execução direta."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Erra ao afirmar que a imperatividade depende de prévia chancela judicial; além disso, o atributo que explica a execução direta é a autoexecutoriedade."
+        }
       ],
       "fundamento_legal": "não se aplica",
       "fundamento_jurisprudencial": "não se aplica",
@@ -138,47 +274,90 @@
       "cuidado_na_prova": null,
       "tipo_cobranca": "caso_concreto",
       "exigencia_cognitiva": "aplicacao",
-      "palavras_chave": ["autoexecutoriedade", "imperatividade", "execução direta", "urgência"],
+      "palavras_chave": [
+        "autoexecutoriedade",
+        "imperatividade",
+        "execução direta",
+        "urgência"
+      ],
       "cita_jurisprudencia": false,
       "status_gerador": "VALIDADA",
       "ressalvas": null,
-      "fontes_consultadas": ["Conhecimento doutrinário consolidado de Direito Administrativo (atributos do ato administrativo)"]
+      "fontes_consultadas": [
+        "Conhecimento doutrinário consolidado de Direito Administrativo (atributos do ato administrativo)"
+      ]
     },
     {
       "id": "q05",
       "tema": "Atos Administrativos",
       "subtema": "Conceito, requisitos e atributos",
       "dificuldade": "media",
-      "enunciado": "Em relação ao requisito competência do ato administrativo, assinale a opção correta.",
+      "enunciado": "Em relação ao requisito competência do ato administrativo, e considerando o regime da Lei 9.784/1999 sobre delegação e avocação, assinale a opção correta.",
       "alternativas": [
-        { "id": "a1", "texto": "A competência decorre de lei, é de exercício obrigatório, irrenunciável e improrrogável, admitindo delegação e avocação apenas nos limites legais." },
-        { "id": "a2", "texto": "A competência é fixada livremente pela autoridade superior no ato de nomeação, que pode transferi-la por inteiro e em caráter definitivo a qualquer servidor que considere mais apto ao bom andamento do serviço público." },
-        { "id": "a3", "texto": "A competência é elemento discricionário do ato administrativo, cabendo ao agente público escolher, segundo critérios de conveniência e oportunidade, se irá ou não exercê-la em cada caso concreto que lhe seja submetido." },
-        { "id": "a4", "texto": "A competência pode ser renunciada ou negociada pelo agente sempre que, a seu juízo, entender que outro órgão da estrutura administrativa reúne melhores condições técnicas para a prática do ato pretendido." }
+        {
+          "id": "a1",
+          "texto": "A competência decorre de lei e é irrenunciável; parte dela pode ser delegada a órgão ou titular, ainda que não subordinado, e pode ser avocada em caráter excepcional, nos limites legais."
+        },
+        {
+          "id": "a2",
+          "texto": "A competência é fixada livremente pela autoridade superior no ato de nomeação, que pode transferi-la por inteiro e em caráter definitivo ao servidor que considerar mais apto ao serviço."
+        },
+        {
+          "id": "a3",
+          "texto": "A competência é elemento discricionário do ato, cabendo ao agente escolher, por conveniência e oportunidade, se irá ou não exercê-la em cada caso concreto submetido a ele."
+        },
+        {
+          "id": "a4",
+          "texto": "A competência pode ser renunciada ou negociada pelo agente sempre que ele entender que outro órgão da estrutura administrativa reúne melhores condições técnicas para o ato."
+        }
       ],
       "id_correta": "a1",
-      "comentario_geral": "A competência é o requisito vinculado que indica o poder legal atribuído ao agente para praticar o ato. Suas características clássicas: origem na lei, exercício obrigatório, irrenunciabilidade e improrrogabilidade, além de ser, em regra, imprescritível e intransferível. A delegação e a avocação são possíveis, mas constituem exceções e só ocorrem nas hipóteses e nos limites que a lei admite, sem transferência definitiva da titularidade. Por isso são erradas as alternativas que tratam a competência como transferível em definitivo, discricionária ou renunciável.",
+      "comentario_geral": "A competência é o requisito vinculado que indica o poder legal atribuído ao agente para praticar o ato. Pela Lei 9.784/1999, ela é irrenunciável e se exerce pelos órgãos a que foi atribuída (art. 11); admite-se, porém, delegar parte dela a outro órgão ou titular, ainda que não subordinado, quando conveniente (art. 12), não cabendo delegar atos normativos, decisão de recursos e matérias de competência exclusiva (art. 13); e a avocação é permitida em caráter excepcional, por motivos relevantes, de competência de órgão inferior (art. 15). Não há transferência definitiva da titularidade, nem a competência é discricionária ou negociável.",
       "analise_alternativas": [
-        { "id": "a1", "correta": true, "justificativa": "Resume corretamente as notas da competência: legal, obrigatória, irrenunciável e improrrogável, com delegação e avocação só nos limites da lei." },
-        { "id": "a2", "correta": false, "justificativa": "A competência não é fixada livremente nem transferida por inteiro e em definitivo; decorre de lei e sua titularidade é intransferível." },
-        { "id": "a3", "correta": false, "justificativa": "A competência é requisito vinculado; seu exercício é obrigatório, não ficando ao juízo de conveniência do agente." },
-        { "id": "a4", "correta": false, "justificativa": "A competência é irrenunciável; o agente não pode abrir mão dela por considerar outro órgão mais apto." }
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Resume o regime dos arts. 11, 12 e 15 da Lei 9.784/1999: competência legal e irrenunciável, com delegação de parte dela e avocação excepcional, nos limites da lei."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A competência não é fixada livremente nem transferida por inteiro e em definitivo; decorre de lei (art. 11) e sua titularidade é intransferível."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A competência é requisito vinculado; seu exercício é obrigatório, não ficando ao juízo de conveniência do agente."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A competência é irrenunciável (art. 11); o agente não pode abrir mão dela por considerar outro órgão mais apto."
+        }
       ],
-      "fundamento_legal": "não se aplica",
+      "fundamento_legal": "Lei 9.784/1999, arts. 11, 12, 13 e 15.",
       "fundamento_jurisprudencial": "não se aplica",
       "observacao_temporal": "não se aplica",
       "pegadinha": "Tratar a competência como renunciável, discricionária ou transferível em definitivo.",
-      "lei_referencia": "não se aplica",
+      "lei_referencia": "Lei 9.784/1999, art. 11",
       "macete_do_riccardo": null,
-      "fique_ligado": "Delegar não transfere a titularidade da competência: é exceção, nos limites da lei, e a responsabilidade pelo ato delegado é de quem o praticou.",
+      "fique_ligado": "Delegar não transfere a titularidade da competência: é exceção, nos limites da lei, e a decisão por delegação considera-se editada pelo delegado (art. 14, § 3º).",
       "cuidado_na_prova": null,
-      "tipo_cobranca": "conceito",
+      "tipo_cobranca": "lei_seca",
       "exigencia_cognitiva": "compreensao",
-      "palavras_chave": ["competência", "irrenunciável", "improrrogável", "delegação", "avocação"],
+      "palavras_chave": [
+        "competência",
+        "irrenunciável",
+        "delegação",
+        "avocação",
+        "Lei 9.784/1999"
+      ],
       "cita_jurisprudencia": false,
       "status_gerador": "VALIDADA",
       "ressalvas": null,
-      "fontes_consultadas": ["Conhecimento doutrinário consolidado de Direito Administrativo (requisito competência)"]
+      "fontes_consultadas": [
+        "Texto compilado da Lei 9.784/1999 fornecido no contexto (arts. 11 a 17)"
+      ]
     },
     {
       "id": "q06",
@@ -187,18 +366,46 @@
       "dificuldade": "media",
       "enunciado": "Sobre os requisitos finalidade e motivo do ato administrativo, assinale a opção correta.",
       "alternativas": [
-        { "id": "a1", "texto": "A finalidade é o interesse público a ser alcançado, elemento sempre vinculado; o motivo é o pressuposto de fato e de direito do ato." },
-        { "id": "a2", "texto": "A finalidade e o motivo são expressões sinônimas, pois ambos designam o mesmo resultado prático que o ato administrativo pretende produzir concretamente no mundo dos fatos após a sua edição." },
-        { "id": "a3", "texto": "A finalidade é o pressuposto de fato e de direito que antecede o ato, ao passo que o motivo corresponde ao efeito jurídico imediato que dele decorre logo após a sua regular edição." },
-        { "id": "a4", "texto": "A finalidade é elemento discricionário em todo ato administrativo, podendo o agente competente perseguir qualquer interesse que, no caso concreto, repute conveniente aos objetivos da Administração." }
+        {
+          "id": "a1",
+          "texto": "A finalidade é o interesse público a ser alcançado, elemento vinculado; o motivo é o pressuposto de fato e de direito que autoriza ou impõe a prática do ato."
+        },
+        {
+          "id": "a2",
+          "texto": "A finalidade e o motivo são expressões sinônimas, pois os dois designam o mesmo resultado prático que o ato pretende produzir no mundo dos fatos após a edição."
+        },
+        {
+          "id": "a3",
+          "texto": "A finalidade é o pressuposto de fato e de direito que antecede o ato, ao passo que o motivo corresponde ao efeito jurídico imediato que dele decorre após a edição."
+        },
+        {
+          "id": "a4",
+          "texto": "A finalidade é elemento discricionário, podendo o agente competente perseguir qualquer interesse que, no caso, repute conveniente aos objetivos da Administração."
+        }
       ],
       "id_correta": "a1",
       "comentario_geral": "São elementos distintos. A finalidade é o bem jurídico a ser atingido, sempre o interesse público (e, de forma específica, aquele que a lei definiu para o ato); por isso é elemento vinculado. O motivo é o pressuposto de fato e de direito que autoriza ou impõe a prática do ato. Não se confundem: perseguir finalidade diversa do interesse público configura desvio de finalidade, enquanto a inexistência ou falsidade do motivo vicia o ato pelo elemento motivo. Também não se confunde finalidade com o objeto, que é o efeito jurídico imediato do ato.",
       "analise_alternativas": [
-        { "id": "a1", "correta": true, "justificativa": "Distingue corretamente a finalidade (interesse público, elemento vinculado) do motivo (pressuposto de fato e de direito)." },
-        { "id": "a2", "correta": false, "justificativa": "Finalidade e motivo não são sinônimos; descrevem, respectivamente, o fim de interesse público e o pressuposto fático-jurídico do ato." },
-        { "id": "a3", "correta": false, "justificativa": "Inverte os conceitos: o pressuposto de fato é o motivo, e o efeito jurídico imediato é o objeto, não a finalidade." },
-        { "id": "a4", "correta": false, "justificativa": "A finalidade é vinculada; o agente deve perseguir o interesse público, não qualquer interesse que repute conveniente." }
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Distingue corretamente a finalidade (interesse público, elemento vinculado) do motivo (pressuposto de fato e de direito)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Finalidade e motivo não são sinônimos; descrevem, respectivamente, o fim de interesse público e o pressuposto fático-jurídico do ato."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Inverte os conceitos: o pressuposto de fato é o motivo, e o efeito jurídico imediato é o objeto, não a finalidade."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A finalidade é vinculada; o agente deve perseguir o interesse público, não qualquer interesse que repute conveniente."
+        }
       ],
       "fundamento_legal": "não se aplica",
       "fundamento_jurisprudencial": "não se aplica",
@@ -210,11 +417,19 @@
       "cuidado_na_prova": null,
       "tipo_cobranca": "comparacao",
       "exigencia_cognitiva": "analise",
-      "palavras_chave": ["finalidade", "motivo", "interesse público", "pressuposto de fato", "desvio de finalidade"],
+      "palavras_chave": [
+        "finalidade",
+        "motivo",
+        "interesse público",
+        "pressuposto de fato",
+        "desvio de finalidade"
+      ],
       "cita_jurisprudencia": false,
       "status_gerador": "VALIDADA",
       "ressalvas": null,
-      "fontes_consultadas": ["Conhecimento doutrinário consolidado de Direito Administrativo (requisitos finalidade e motivo)"]
+      "fontes_consultadas": [
+        "Conhecimento doutrinário consolidado de Direito Administrativo (requisitos finalidade e motivo)"
+      ]
     },
     {
       "id": "q07",
@@ -223,18 +438,46 @@
       "dificuldade": "media",
       "enunciado": "A respeito da imperatividade e da exigibilidade como atributos do ato administrativo, assinale a opção correta.",
       "alternativas": [
-        { "id": "a1", "texto": "A imperatividade permite impor obrigações unilateralmente a terceiros; a exigibilidade permite compelir ao cumprimento por meios indiretos de coação." },
-        { "id": "a2", "texto": "A imperatividade está presente em todos os atos administrativos, inclusive nos atos meramente negociais e nos enunciativos, por decorrer diretamente da supremacia do interesse público sobre o interesse privado." },
-        { "id": "a3", "texto": "A exigibilidade autoriza a Administração a empregar a própria força material para executar o ato por si mesma, dispensando qualquer meio indireto de coação e qualquer autorização do Poder Judiciário." },
-        { "id": "a4", "texto": "A imperatividade e a autoexecutoriedade são expressões rigorosamente idênticas, pois ambas se referem à imposição coercitiva e à execução material direta das obrigações criadas unilateralmente para terceiros." }
+        {
+          "id": "a1",
+          "texto": "A imperatividade permite impor obrigações unilateralmente a terceiros; a exigibilidade permite compeli-los ao cumprimento por meios indiretos de coação, como multas e sanções."
+        },
+        {
+          "id": "a2",
+          "texto": "A imperatividade está presente em todos os atos, inclusive nos negociais e nos enunciativos, por decorrer da supremacia do interesse público sobre o interesse privado."
+        },
+        {
+          "id": "a3",
+          "texto": "A exigibilidade autoriza a Administração a empregar a própria força material para executar o ato por si mesma, dispensando qualquer meio indireto de coação."
+        },
+        {
+          "id": "a4",
+          "texto": "A imperatividade e a autoexecutoriedade são expressões idênticas, pois as duas se referem à imposição coercitiva e à execução material direta das obrigações criadas a terceiros."
+        }
       ],
       "id_correta": "a1",
       "comentario_geral": "A imperatividade (coercibilidade) é o poder de criar unilateralmente obrigações a terceiros, independentemente de sua concordância. A exigibilidade é o poder de compelir ao cumprimento por meios indiretos de coação (por exemplo, multas e sanções), ainda sem execução material direta. A execução material propriamente dita é a autoexecutoriedade. Por isso, imperatividade não se confunde com autoexecutoriedade, e nem todo ato é imperativo: os atos negociais e enunciativos, em regra, não ostentam esse atributo.",
       "analise_alternativas": [
-        { "id": "a1", "correta": true, "justificativa": "Distingue corretamente a imperatividade (imposição unilateral) da exigibilidade (coação indireta ao cumprimento)." },
-        { "id": "a2", "correta": false, "justificativa": "A imperatividade não está presente em todos os atos; atos negociais e enunciativos, em regra, não a possuem." },
-        { "id": "a3", "correta": false, "justificativa": "O emprego da força material para executar o ato é autoexecutoriedade, não exigibilidade." },
-        { "id": "a4", "correta": false, "justificativa": "Imperatividade e autoexecutoriedade são atributos distintos; a imposição da obrigação não se confunde com sua execução material direta." }
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Distingue corretamente a imperatividade (imposição unilateral) da exigibilidade (coação indireta ao cumprimento, por multas e sanções)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A imperatividade não está presente em todos os atos; atos negociais e enunciativos, em regra, não a possuem."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O emprego da força material para executar o ato é autoexecutoriedade, não exigibilidade."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Imperatividade e autoexecutoriedade são atributos distintos; a imposição da obrigação não se confunde com sua execução material direta."
+        }
       ],
       "fundamento_legal": "não se aplica",
       "fundamento_jurisprudencial": "não se aplica",
@@ -246,11 +489,18 @@
       "cuidado_na_prova": "Exigibilidade é coação indireta (multas); autoexecutoriedade é a execução material direta. Não troque uma pela outra.",
       "tipo_cobranca": "comparacao",
       "exigencia_cognitiva": "analise",
-      "palavras_chave": ["imperatividade", "exigibilidade", "autoexecutoriedade", "coerção indireta"],
+      "palavras_chave": [
+        "imperatividade",
+        "exigibilidade",
+        "autoexecutoriedade",
+        "coerção indireta"
+      ],
       "cita_jurisprudencia": false,
       "status_gerador": "VALIDADA",
       "ressalvas": null,
-      "fontes_consultadas": ["Conhecimento doutrinário consolidado de Direito Administrativo (atributos do ato administrativo)"]
+      "fontes_consultadas": [
+        "Conhecimento doutrinário consolidado de Direito Administrativo (atributos do ato administrativo)"
+      ]
     },
     {
       "id": "q08",
@@ -259,18 +509,46 @@
       "dificuldade": "dificil",
       "enunciado": "Uma autoridade pratica ato formalmente dentro de sua competência e com finalidade de interesse público, porém com o propósito real de prejudicar desafeto pessoal. Considerando os requisitos de validade do ato administrativo, assinale a opção correta.",
       "alternativas": [
-        { "id": "a1", "texto": "Há vício no elemento finalidade (desvio de finalidade), pois a autoridade, embora competente, afastou-se do interesse público." },
-        { "id": "a2", "texto": "Não há vício algum a ser reconhecido, pois o ato foi praticado por autoridade competente, revestido da forma legal exigida e com motivo existente, sendo irrelevante a intenção subjetiva do agente." },
-        { "id": "a3", "texto": "Há vício apenas no elemento competência, uma vez que a autoridade, ao agir movida por intenção escusa e pessoal, perde automaticamente a aptidão legal que detinha para a prática daquele ato." },
-        { "id": "a4", "texto": "Há vício no elemento objeto do ato, pois o seu conteúdo torna-se necessariamente ilícito, materialmente impossível ou juridicamente indeterminado em razão da motivação pessoal da autoridade." }
+        {
+          "id": "a1",
+          "texto": "Há vício no elemento finalidade (desvio de finalidade): a autoridade, embora competente, afastou-se do interesse público para alcançar fim pessoal, o que enseja a anulação do ato."
+        },
+        {
+          "id": "a2",
+          "texto": "Não há vício a reconhecer, pois o ato foi praticado por autoridade competente, com a forma legal e com motivo existente, sendo irrelevante a intenção do agente."
+        },
+        {
+          "id": "a3",
+          "texto": "Há vício apenas no elemento competência, pois a autoridade, ao agir movida por intenção escusa e pessoal, perde a aptidão legal que detinha para a prática do ato."
+        },
+        {
+          "id": "a4",
+          "texto": "Há vício no elemento objeto, pois o seu conteúdo torna-se ilícito, materialmente impossível ou juridicamente indeterminado em razão da motivação pessoal da autoridade."
+        }
       ],
       "id_correta": "a1",
       "comentario_geral": "O desvio de finalidade (ou desvio de poder) ocorre quando o agente, ainda que competente e observando a forma, utiliza o ato para alcançar fim diverso daquele previsto em lei ou do interesse público, como a perseguição a desafeto. O vício, portanto, situa-se no elemento finalidade. Não há defeito de competência (a autoridade continua competente), tampouco de objeto (o conteúdo do ato, em si, pode ser lícito e possível): o problema está no fim perseguido. O desvio de finalidade é vício de ilegalidade e enseja a anulação do ato.",
       "analise_alternativas": [
-        { "id": "a1", "correta": true, "justificativa": "Identifica corretamente o desvio de finalidade: competência presente, mas busca de fim estranho ao interesse público, viciando o elemento finalidade." },
-        { "id": "a2", "correta": false, "justificativa": "Há vício sim; a regularidade de competência e forma não sana o desvio de finalidade." },
-        { "id": "a3", "correta": false, "justificativa": "A competência subsiste; a autoridade não a perde por agir com intenção escusa, de modo que o vício não é de competência." },
-        { "id": "a4", "correta": false, "justificativa": "O objeto (conteúdo) pode permanecer lícito e possível; o defeito está no fim perseguido, e não no objeto." }
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Identifica corretamente o desvio de finalidade: competência presente, mas busca de fim estranho ao interesse público, viciando o elemento finalidade e levando à anulação."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Há vício sim; a regularidade de competência e forma não sana o desvio de finalidade."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A competência subsiste; a autoridade não a perde por agir com intenção escusa, de modo que o vício não é de competência."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O objeto (conteúdo) pode permanecer lícito e possível; o defeito está no fim perseguido, e não no objeto."
+        }
       ],
       "fundamento_legal": "não se aplica",
       "fundamento_jurisprudencial": "não se aplica",
@@ -282,11 +560,19 @@
       "cuidado_na_prova": null,
       "tipo_cobranca": "caso_concreto",
       "exigencia_cognitiva": "analise",
-      "palavras_chave": ["desvio de finalidade", "desvio de poder", "finalidade", "interesse público", "vício"],
+      "palavras_chave": [
+        "desvio de finalidade",
+        "desvio de poder",
+        "finalidade",
+        "interesse público",
+        "vício"
+      ],
       "cita_jurisprudencia": false,
       "status_gerador": "VALIDADA",
       "ressalvas": null,
-      "fontes_consultadas": ["Conhecimento doutrinário consolidado de Direito Administrativo (vício de finalidade)"]
+      "fontes_consultadas": [
+        "Conhecimento doutrinário consolidado de Direito Administrativo (vício de finalidade)"
+      ]
     },
     {
       "id": "q09",
@@ -295,18 +581,46 @@
       "dificuldade": "dificil",
       "enunciado": "Quanto ao requisito forma do ato administrativo e ao princípio do formalismo moderado, assinale a opção correta.",
       "alternativas": [
-        { "id": "a1", "texto": "Em regra a forma é escrita, mas admitem-se outras formas quando a lei autoriza ou a situação exige, preservados a segurança jurídica e o controle." },
-        { "id": "a2", "texto": "A forma do ato administrativo é absolutamente livre em qualquer hipótese, cabendo sempre ao agente escolher o meio de exteriorização que repute mais adequado, ainda que a lei imponha forma específica e solene para aquele ato." },
-        { "id": "a3", "texto": "Todo e qualquer ato administrativo exige, sob pena de inexistência jurídica, a adoção de forma escrita e solene, sendo absolutamente vedada qualquer manifestação verbal, gestual ou por sinais por parte da Administração." },
-        { "id": "a4", "texto": "A forma é elemento meramente acidental e dispensável do ato administrativo, de modo que a sua inobservância, ainda que a lei a exija de modo expresso, jamais acarreta qualquer vício de validade do ato." }
+        {
+          "id": "a1",
+          "texto": "Em regra a forma é escrita, mas admitem-se outras formas quando a lei autoriza ou a situação exige; se a lei impõe forma específica, seu descumprimento vicia o ato."
+        },
+        {
+          "id": "a2",
+          "texto": "A forma do ato é livre, cabendo ao agente escolher o meio de exteriorização que repute mais adequado, ainda que a lei imponha forma específica e solene para aquele ato."
+        },
+        {
+          "id": "a3",
+          "texto": "Todo ato administrativo exige, sob pena de inexistência jurídica, a adoção de forma escrita e solene, sendo vedada manifestação verbal, gestual ou por sinais pela Administração."
+        },
+        {
+          "id": "a4",
+          "texto": "A forma é elemento acidental e dispensável do ato, de modo que a sua inobservância, ainda que a lei a exija de modo expresso, não acarreta vício de validade do ato."
+        }
       ],
       "id_correta": "a1",
       "comentario_geral": "A forma é o modo de exteriorização do ato e, em regra, é escrita, por garantir certeza e permitir o controle. Contudo, prevalece o formalismo moderado: admitem-se formas diversas (verbal, gestual, por sinais) quando a lei permite ou a situação exige, como ordens de trânsito ou comandos de agentes de segurança em situação de urgência. Quando a lei exige forma específica, ela se torna essencial, e seu descumprimento vicia o ato. A forma, portanto, não é livre nem meramente acidental: é requisito de validade, ainda que flexibilizado.",
       "analise_alternativas": [
-        { "id": "a1", "correta": true, "justificativa": "Expressa a regra da forma escrita com as exceções do formalismo moderado, preservando segurança jurídica e controle." },
-        { "id": "a2", "correta": false, "justificativa": "A forma não é absolutamente livre; quando a lei impõe forma específica, ela deve ser observada." },
-        { "id": "a3", "correta": false, "justificativa": "Nem todo ato exige forma escrita e solene; admitem-se manifestações verbais ou gestuais em hipóteses reconhecidas." },
-        { "id": "a4", "correta": false, "justificativa": "A forma é requisito de validade, não elemento acidental; sua inobservância pode viciar o ato." }
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Expressa a regra da forma escrita com as exceções do formalismo moderado e ressalva que a forma específica exigida por lei, se descumprida, vicia o ato."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A forma não é livre; quando a lei impõe forma específica, ela deve ser observada."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Nem todo ato exige forma escrita e solene; admitem-se manifestações verbais ou gestuais em hipóteses reconhecidas."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A forma é requisito de validade, não elemento acidental; sua inobservância pode viciar o ato."
+        }
       ],
       "fundamento_legal": "não se aplica",
       "fundamento_jurisprudencial": "não se aplica",
@@ -318,11 +632,18 @@
       "cuidado_na_prova": null,
       "tipo_cobranca": "interpretacao",
       "exigencia_cognitiva": "analise",
-      "palavras_chave": ["forma", "formalismo moderado", "forma escrita", "requisito de validade"],
+      "palavras_chave": [
+        "forma",
+        "formalismo moderado",
+        "forma escrita",
+        "requisito de validade"
+      ],
       "cita_jurisprudencia": false,
       "status_gerador": "VALIDADA",
       "ressalvas": null,
-      "fontes_consultadas": ["Conhecimento doutrinário consolidado de Direito Administrativo (requisito forma e formalismo moderado)"]
+      "fontes_consultadas": [
+        "Conhecimento doutrinário consolidado de Direito Administrativo (requisito forma e formalismo moderado)"
+      ]
     },
     {
       "id": "q10",
@@ -331,18 +652,46 @@
       "dificuldade": "dificil",
       "enunciado": "Sobre o atributo da tipicidade e a relação entre os atributos do ato administrativo, assinale a opção correta.",
       "alternativas": [
-        { "id": "a1", "texto": "A tipicidade exige que o ato corresponda a figuras previstas em lei como aptas a produzir certos resultados, em aplicação da legalidade." },
-        { "id": "a2", "texto": "A tipicidade significa que todo ato administrativo é, por sua própria natureza, dotado de autoexecutoriedade, dispensando previsão legal específica para que a Administração promova a sua execução material direta." },
-        { "id": "a3", "texto": "A tipicidade impede em absoluto que a Administração pratique atos discricionários, pois exige que todos os elementos do ato estejam sempre integralmente predeterminados de modo exaustivo na lei de regência." },
-        { "id": "a4", "texto": "A tipicidade confunde-se inteiramente com a presunção de legitimidade, pois os dois atributos asseguram que o ato se reputa conforme o direito e verdadeiro até que se produza prova em sentido contrário." }
+        {
+          "id": "a1",
+          "texto": "A tipicidade exige que o ato corresponda a figuras previstas em lei como aptas a produzir certos resultados, em desdobramento da legalidade, vedando atos inominados impositivos."
+        },
+        {
+          "id": "a2",
+          "texto": "A tipicidade significa que todo ato administrativo é dotado de autoexecutoriedade, dispensando previsão legal específica para que a Administração promova a execução material direta."
+        },
+        {
+          "id": "a3",
+          "texto": "A tipicidade impede que a Administração pratique atos discricionários, pois exige que todos os elementos do ato estejam predeterminados de modo exaustivo na lei de regência."
+        },
+        {
+          "id": "a4",
+          "texto": "A tipicidade confunde-se com a presunção de legitimidade, pois os dois atributos asseguram que o ato se reputa conforme o direito e verdadeiro até prova em contrário."
+        }
       ],
       "id_correta": "a1",
       "comentario_geral": "A tipicidade é o atributo segundo o qual o ato administrativo deve corresponder a figuras já previstas em lei como aptas a produzir determinados efeitos, o que é desdobramento da legalidade e impede a prática de atos inominados com força impositiva. Ela não implica que todo ato seja autoexecutório (a autoexecutoriedade depende de lei ou urgência), nem elimina a discricionariedade (que atua sobre motivo e objeto de atos previstos em lei), nem se confunde com a presunção de legitimidade (que trata da conformidade presumida ao direito). Distinguir esses atributos é essencial para não misturar institutos.",
       "analise_alternativas": [
-        { "id": "a1", "correta": true, "justificativa": "Define corretamente a tipicidade como correspondência a figuras legais, ligada à legalidade e vedando atos inominados impositivos." },
-        { "id": "a2", "correta": false, "justificativa": "A tipicidade não torna todo ato autoexecutório; a execução direta depende de previsão legal ou de urgência." },
-        { "id": "a3", "correta": false, "justificativa": "A tipicidade não elimina a discricionariedade, que incide sobre motivo e objeto de atos legalmente previstos." },
-        { "id": "a4", "correta": false, "justificativa": "Tipicidade e presunção de legitimidade são atributos distintos: um trata da correspondência a figura legal, o outro da conformidade presumida ao direito." }
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Define corretamente a tipicidade como correspondência a figuras legais, ligada à legalidade e vedando atos inominados impositivos."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A tipicidade não torna todo ato autoexecutório; a execução direta depende de previsão legal ou de urgência."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A tipicidade não elimina a discricionariedade, que incide sobre motivo e objeto de atos legalmente previstos."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Tipicidade e presunção de legitimidade são atributos distintos: um trata da correspondência a figura legal, o outro da conformidade presumida ao direito."
+        }
       ],
       "fundamento_legal": "não se aplica",
       "fundamento_jurisprudencial": "não se aplica",
@@ -354,44 +703,68 @@
       "cuidado_na_prova": "Os quatro atributos clássicos são presunção de legitimidade, imperatividade, autoexecutoriedade e tipicidade: não misture suas definições.",
       "tipo_cobranca": "conceito",
       "exigencia_cognitiva": "analise",
-      "palavras_chave": ["tipicidade", "legalidade", "atos inominados", "discricionariedade", "atributos"],
+      "palavras_chave": [
+        "tipicidade",
+        "legalidade",
+        "atos inominados",
+        "discricionariedade",
+        "atributos"
+      ],
       "cita_jurisprudencia": false,
       "status_gerador": "VALIDADA",
       "ressalvas": null,
-      "fontes_consultadas": ["Conhecimento doutrinário consolidado de Direito Administrativo (atributo tipicidade)"]
+      "fontes_consultadas": [
+        "Conhecimento doutrinário consolidado de Direito Administrativo (atributo tipicidade)"
+      ]
     }
   ],
   "flashcards": [
     {
       "id": "f01",
       "subtema": "Conceito, requisitos e atributos",
-      "frente": "Quais são os quatro atributos clássicos do ato administrativo?",
-      "verso": "Presunção de legitimidade (e de veracidade), imperatividade (coercibilidade), autoexecutoriedade e tipicidade. São características do ato já formado, e não se confundem com os requisitos de validade.",
-      "fundamento_legal": "não se aplica",
-      "lei_referencia": "não se aplica",
-      "palavras_chave": ["atributos", "presunção de legitimidade", "imperatividade", "autoexecutoriedade", "tipicidade"],
+      "frente": "Pela Lei 9.784/1999, a competência administrativa é renunciável? Admite delegação?",
+      "verso": "A competência é irrenunciável e se exerce pelos órgãos a que foi atribuída (art. 11 da Lei 9.784/1999). Admite-se delegar parte dela a outro órgão ou titular, ainda que não subordinado, quando conveniente (art. 12), nos limites legais.",
+      "fundamento_legal": "Lei 9.784/1999, arts. 11 e 12.",
+      "lei_referencia": "Lei 9.784/1999, art. 11",
+      "palavras_chave": [
+        "competência",
+        "irrenunciável",
+        "delegação",
+        "requisito do ato"
+      ],
       "cita_jurisprudencia": false
     },
     {
       "id": "f02",
       "subtema": "Conceito, requisitos e atributos",
-      "frente": "A autoexecutoriedade está presente em todo ato administrativo?",
-      "verso": "Não. A execução material direta pela Administração, sem autorização judicial prévia, só existe quando há previsão legal expressa ou situação de urgência; fora dessas hipóteses, a Administração depende do Poder Judiciário para executar o ato.",
-      "fundamento_legal": "não se aplica",
-      "lei_referencia": "não se aplica",
-      "palavras_chave": ["autoexecutoriedade", "previsão legal", "urgência", "execução direta"],
+      "frente": "Pela Lei 9.784/1999, quando a Administração deve motivar seus atos?",
+      "verso": "Conforme o art. 50 da Lei 9.784/1999, os atos devem ser motivados, com indicação dos fatos e fundamentos jurídicos, quando, entre outras hipóteses, neguem, limitem ou afetem direitos; imponham deveres ou sanções; decidam recursos; ou importem anulação, revogação, suspensão ou convalidação de ato.",
+      "fundamento_legal": "Lei 9.784/1999, art. 50.",
+      "lei_referencia": "Lei 9.784/1999, art. 50",
+      "palavras_chave": [
+        "motivação",
+        "motivo",
+        "requisito do ato",
+        "fatos e fundamentos jurídicos"
+      ],
       "cita_jurisprudencia": false
     },
     {
       "id": "f03",
       "subtema": "Conceito, requisitos e atributos",
-      "frente": "No ato administrativo, qual a diferença entre finalidade e motivo?",
-      "verso": "Finalidade é o bem jurídico a ser atingido (o interesse público), elemento sempre vinculado; motivo é o pressuposto de fato e de direito que autoriza ou impõe a prática do ato. Buscar fim diverso do interesse público configura desvio de finalidade.",
-      "fundamento_legal": "não se aplica",
-      "lei_referencia": "não se aplica",
-      "palavras_chave": ["finalidade", "motivo", "interesse público", "desvio de finalidade"],
+      "frente": "Pela Lei 9.784/1999, quais matérias não podem ser objeto de delegação de competência?",
+      "verso": "Pelo art. 13 da Lei 9.784/1999, não podem ser delegadas: a edição de atos de caráter normativo; a decisão de recursos administrativos; e as matérias de competência exclusiva do órgão ou autoridade.",
+      "fundamento_legal": "Lei 9.784/1999, art. 13, I a III.",
+      "lei_referencia": "Lei 9.784/1999, art. 13",
+      "palavras_chave": [
+        "delegação",
+        "competência",
+        "atos normativos",
+        "recursos administrativos",
+        "competência exclusiva"
+      ],
       "cita_jurisprudencia": false
     }
   ],
-  "observacoes_do_lote": "Não há texto legal fornecido para o tema (Atos Administrativos). As questões e os flashcards baseiam-se em conhecimento doutrinário consolidado e incontroverso (conceito, requisitos de validade e atributos clássicos), sem citar artigos de lei específicos, súmulas, temas ou processos. Como a Polícia Civil do Estado do Ceará é estadual, não se afirmou aplicação de norma estadual específica, apenas conceitos pacíficos da teoria geral do ato administrativo."
+  "observacoes_do_lote": "Reescrita das 10 questões para corrigir as regras de tamanho e tom das alternativas: a correta foi completada com condições e consequências já presentes no raciocínio (sem alterar o ponto cobrado nem o gabarito) e os distratores foram enxugados e tiveram os termos absolutos substituídos por erros de conteúdo. As q05 e f03 passaram a citar expressamente a Lei 9.784/1999 (arts. 11 a 15), único texto legal fornecido; as demais são de conteúdo doutrinário consolidado, sem citar norma específica. Nenhum número de súmula, tema ou processo citado."
 }

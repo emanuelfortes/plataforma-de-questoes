@@ -1,0 +1,153 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O texto equipara explicitamente dirigir cansado a dirigir embriagado quanto ao risco; a1 sintetiza essa ideia central. As demais invertem a comparação, isolam a bebida ou culpam o veículo, pontos que o texto não sustenta. Resolvi sozinho e cheguei a a1. Sem erro gramatical ou de foco."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Informação explícita: a proibição a veículos pesados vale até a conclusão da reforma, prevista para março. a1 reproduz fielmente o texto; a2 antecipa a conclusão, a3 libera todos os veículos e a4 inverte o papel da avenida (rota alternativa, não interditada). Uma única correta."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O provérbio é conotativo: provocar algo ruim gera consequência maior, captado por a1. Os distratores presos ao sentido literal (lavoura, clima) estão corretamente errados. A correta é curta e os distratores literais é que são longos, sem pista pelo tamanho que favoreça o gabarito."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O próprio fragmento explica o barulho em sentido figurado: a curiosidade e os comentários dos vizinhos sobre a vida alheia (a1). a2 e a3 voltam ao ruído literal (trânsito, vento), que o texto afasta, e a4 nega o incômodo. Resposta única e bem fundamentada."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O conectivo porém e o fecho acabou impondo marcam a oposição entre a promessa de liberdade e a dependência gerada; a1 nomeia a relação de contradição e a descreve corretamente. Equivalência, exemplificação e indiferença são claramente incompatíveis com o texto. Uma só correta."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A primeira acepção é cautela para evitar erros ou perigos; conferir cada pista antes de acusar (a1) é exatamente isso. Gastos, palavras e tom (a2, a3, a4) remetem à moderação, a segunda acepção. Distinção entre as acepções bem construída, uma única correta."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O Talvez isolado modaliza e relativiza a afirmação anterior, sem negá-la nem confirmá-la (a1). a2 e a3 extremam a posição e a4 nega a continuidade temática, que de fato se mantém. Correta única, sem ambiguidade."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O desfecho desfaz a hipótese do cachorro: havia um homem que falava sozinho, o que apoia a inferência de a1 (causa diversa da suposta e indício de solidão). a2 mantém a hipótese descartada, a3 inventa advertência e a4 transforma a fala solitária em visitas reais. Inferência ancorada no texto."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Mesmo fato (a inauguração), tons opostos: o Texto I elogia e o Texto II, com a tal praça e o pena que sobre o posto de saúde, questiona com ironia; a1 sintetiza o contraste. a3 inverte os papéis, a2 uniformiza e a4 nega que tratem da praça. Comparação correta e única resposta."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O paralelismo Ninguém reclamou quando... e o fecho como chegamos até aqui dirigem a crítica à passividade diante de perdas sucessivas, percebidas tarde demais (a1). a2 e a3 adotam as justificativas que o texto ironiza e a4 inverte a crítica. Tese corretamente identificada, resposta única."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A distinção entre compreender (explícito) e interpretar (inferir implícitos com apoio no texto) está correta e consolidada. A frente admite resposta única e o verso não copia nenhum enunciado do lote."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Define inferência válida como conclusão ancorada em pistas do próprio texto, contrastando com a extrapolação indevida; conceito correto e pacífico. Frente objetiva e sem ambiguidade; redação própria."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Distingue corretamente denotação (sentido literal) de conotação (figurado, construído pelo contexto), com a ressalva de que tomar o figurado por literal é erro comum. Frente com resposta única e sem cópia de enunciado."
+    }
+  ]
+}

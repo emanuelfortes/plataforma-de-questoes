@@ -7,18 +7,46 @@
       "dificuldade": "facil",
       "enunciado": "Leia o texto a seguir, retirado de uma campanha de trânsito.\n\n\"Dirigir cansado é como dirigir embriagado: os reflexos falham, a atenção escapa e o perigo chega sem aviso. Antes de pegar a estrada, pergunte-se se você está realmente em condições de conduzir.\"\n\nDe acordo com o texto, a ideia central defendida pela campanha é a de que",
       "alternativas": [
-        { "id": "a1", "texto": "o cansaço ao volante compromete a segurança tanto quanto a embriaguez." },
-        { "id": "a2", "texto": "o motorista embriagado dirige com mais atenção do que o motorista cansado." },
-        { "id": "a3", "texto": "apenas o consumo de bebida alcoólica representa risco real na estrada." },
-        { "id": "a4", "texto": "o perigo nas estradas depende exclusivamente das condições do veículo." }
+        {
+          "id": "a1",
+          "texto": "o cansaço ao volante compromete a segurança tanto quanto a embriaguez."
+        },
+        {
+          "id": "a2",
+          "texto": "o motorista embriagado dirige com mais atenção do que o motorista cansado."
+        },
+        {
+          "id": "a3",
+          "texto": "apenas o consumo de bebida alcoólica representa risco real na estrada."
+        },
+        {
+          "id": "a4",
+          "texto": "o perigo nas estradas depende exclusivamente das condições do veículo."
+        }
       ],
       "id_correta": "a1",
       "comentario_geral": "A campanha equipara o cansaço à embriaguez ao afirmar que ambos prejudicam reflexos e atenção, concluindo com o alerta para que o motorista avalie suas condições. A ideia central, portanto, é que o cansaço compromete a segurança tanto quanto a bebida. As demais contrariam a comparação feita no texto ou inventam causas que ele não menciona.",
       "analise_alternativas": [
-        { "id": "a1", "correta": true, "justificativa": "Resume a comparação explícita do texto: dirigir cansado equivale a dirigir embriagado quanto ao risco." },
-        { "id": "a2", "correta": false, "justificativa": "Inverte o sentido: o texto não hierarquiza quem dirige melhor, apenas equipara os dois riscos." },
-        { "id": "a3", "correta": false, "justificativa": "Contraria o texto, que inclui o cansaço como risco, e não só a bebida." },
-        { "id": "a4", "correta": false, "justificativa": "O texto trata de condições do condutor (cansaço), não das condições do veículo." }
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Resume a comparação explícita do texto: dirigir cansado equivale a dirigir embriagado quanto ao risco."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Inverte o sentido: o texto não hierarquiza quem dirige melhor, apenas equipara os dois riscos."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Contraria o texto, que inclui o cansaço como risco, e não só a bebida."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O texto trata de condições do condutor (cansaço), não das condições do veículo."
+        }
       ],
       "fundamento_legal": "não se aplica",
       "fundamento_jurisprudencial": "não se aplica",
@@ -30,11 +58,19 @@
       "cuidado_na_prova": null,
       "tipo_cobranca": "interpretacao",
       "exigencia_cognitiva": "compreensao",
-      "palavras_chave": ["ideia central", "comparação", "cansaço", "trânsito", "gênero campanha"],
+      "palavras_chave": [
+        "ideia central",
+        "comparação",
+        "cansaço",
+        "trânsito",
+        "gênero campanha"
+      ],
       "cita_jurisprudencia": false,
       "status_gerador": "VALIDADA",
       "ressalvas": null,
-      "fontes_consultadas": ["Conhecimento consolidado de interpretação de texto da norma-padrão"]
+      "fontes_consultadas": [
+        "Conhecimento consolidado de interpretação de texto da norma-padrão"
+      ]
     },
     {
       "id": "q02",
@@ -43,18 +79,46 @@
       "dificuldade": "facil",
       "enunciado": "Leia o trecho de notícia a seguir.\n\n\"A prefeitura informou que a reforma da ponte será concluída em março. Até lá, o tráfego de veículos pesados permanece proibido no local, e os motoristas devem usar a rota alternativa pela avenida central.\"\n\nCom base no texto, é correto afirmar que",
       "alternativas": [
-        { "id": "a1", "texto": "veículos pesados estão impedidos de passar na ponte até o fim da reforma." },
-        { "id": "a2", "texto": "a reforma da ponte já foi concluída antes do mês de março deste ano." },
-        { "id": "a3", "texto": "todos os tipos de veículos estão liberados para circular normalmente na ponte." },
-        { "id": "a4", "texto": "a avenida central foi interditada por causa das obras realizadas na ponte." }
+        {
+          "id": "a1",
+          "texto": "veículos pesados estão impedidos de passar na ponte até o fim da reforma."
+        },
+        {
+          "id": "a2",
+          "texto": "a reforma da ponte já foi concluída antes do mês de março deste ano."
+        },
+        {
+          "id": "a3",
+          "texto": "todos os tipos de veículos estão liberados para circular normalmente na ponte."
+        },
+        {
+          "id": "a4",
+          "texto": "a avenida central foi interditada por causa das obras realizadas na ponte."
+        }
       ],
       "id_correta": "a1",
       "comentario_geral": "O texto afirma que o tráfego de veículos pesados permanece proibido até a conclusão da reforma, prevista para março. Logo, a leitura correta é a que mantém esse impedimento. As demais afirmam o contrário do que está escrito: antecipam a conclusão, liberam todos os veículos ou interditam a avenida, que na verdade é a rota alternativa.",
       "analise_alternativas": [
-        { "id": "a1", "correta": true, "justificativa": "Corresponde ao texto: a proibição a veículos pesados vale até o fim da reforma." },
-        { "id": "a2", "correta": false, "justificativa": "O texto prevê a conclusão para março, no futuro, e não a dá como já ocorrida." },
-        { "id": "a3", "correta": false, "justificativa": "Contraria o texto, que mantém a proibição ao tráfego de veículos pesados." },
-        { "id": "a4", "correta": false, "justificativa": "A avenida central é indicada como rota alternativa, não como via interditada." }
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde ao texto: a proibição a veículos pesados vale até o fim da reforma."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O texto prevê a conclusão para março, no futuro, e não a dá como já ocorrida."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Contraria o texto, que mantém a proibição ao tráfego de veículos pesados."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A avenida central é indicada como rota alternativa, não como via interditada."
+        }
       ],
       "fundamento_legal": "não se aplica",
       "fundamento_jurisprudencial": "não se aplica",
@@ -66,11 +130,19 @@
       "cuidado_na_prova": "Fique atento ao tempo verbal: \"será concluída\" indica previsão, não algo já acontecido.",
       "tipo_cobranca": "interpretacao",
       "exigencia_cognitiva": "compreensao",
-      "palavras_chave": ["notícia", "informação explícita", "tempo verbal", "proibição", "gênero jornalístico"],
+      "palavras_chave": [
+        "notícia",
+        "informação explícita",
+        "tempo verbal",
+        "proibição",
+        "gênero jornalístico"
+      ],
       "cita_jurisprudencia": false,
       "status_gerador": "VALIDADA",
       "ressalvas": null,
-      "fontes_consultadas": ["Conhecimento consolidado de interpretação de texto da norma-padrão"]
+      "fontes_consultadas": [
+        "Conhecimento consolidado de interpretação de texto da norma-padrão"
+      ]
     },
     {
       "id": "q03",
@@ -79,18 +151,46 @@
       "dificuldade": "facil",
       "enunciado": "Leia o provérbio popular a seguir.\n\n\"Quem semeia vento colhe tempestade.\"\n\nO sentido que melhor expressa a mensagem desse provérbio é o de que",
       "alternativas": [
-        { "id": "a1", "texto": "atitudes negativas tendem a gerar consequências ainda mais graves." },
-        { "id": "a2", "texto": "quem trabalha a terra com esforço e dedicação diária sempre obtém colheitas fartas ao fim de cada estação." },
-        { "id": "a3", "texto": "o vento e a tempestade são fenômenos que ocorrem apenas no campo." },
-        { "id": "a4", "texto": "é impossível prever o clima no momento de semear qualquer lavoura." }
+        {
+          "id": "a1",
+          "texto": "atitudes negativas tendem a gerar consequências ainda mais graves."
+        },
+        {
+          "id": "a2",
+          "texto": "quem trabalha a terra com esforço e dedicação diária sempre obtém colheitas fartas ao fim de cada estação."
+        },
+        {
+          "id": "a3",
+          "texto": "o vento e a tempestade são fenômenos que ocorrem apenas no campo."
+        },
+        {
+          "id": "a4",
+          "texto": "é impossível prever o clima no momento de semear qualquer lavoura."
+        }
       ],
       "id_correta": "a1",
       "comentario_geral": "O provérbio usa sentido figurado: \"semear vento\" representa provocar algo pequeno e ruim, e \"colher tempestade\" representa sofrer uma consequência maior. A leitura correta é a que capta esse sentido conotativo. As demais ficam presas ao sentido literal (agricultura e clima), que não é o pretendido pelo provérbio.",
       "analise_alternativas": [
-        { "id": "a1", "correta": true, "justificativa": "Capta o sentido figurado: provocar algo ruim leva a um resultado pior." },
-        { "id": "a2", "correta": false, "justificativa": "Toma o verbo semear em sentido literal e dá mensagem oposta à do provérbio." },
-        { "id": "a3", "correta": false, "justificativa": "Reduz o provérbio a fenômenos climáticos, ignorando a linguagem figurada." },
-        { "id": "a4", "correta": false, "justificativa": "Introduz a ideia de imprevisibilidade do clima, ausente no provérbio." }
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Capta o sentido figurado: provocar algo ruim leva a um resultado pior."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Toma o verbo semear em sentido literal e dá mensagem oposta à do provérbio."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Reduz o provérbio a fenômenos climáticos, ignorando a linguagem figurada."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Introduz a ideia de imprevisibilidade do clima, ausente no provérbio."
+        }
       ],
       "fundamento_legal": "não se aplica",
       "fundamento_jurisprudencial": "não se aplica",
@@ -102,11 +202,19 @@
       "cuidado_na_prova": null,
       "tipo_cobranca": "interpretacao",
       "exigencia_cognitiva": "compreensao",
-      "palavras_chave": ["provérbio", "sentido figurado", "conotação", "mensagem", "gênero popular"],
+      "palavras_chave": [
+        "provérbio",
+        "sentido figurado",
+        "conotação",
+        "mensagem",
+        "gênero popular"
+      ],
       "cita_jurisprudencia": false,
       "status_gerador": "VALIDADA",
       "ressalvas": null,
-      "fontes_consultadas": ["Conhecimento consolidado de interpretação de texto da norma-padrão"]
+      "fontes_consultadas": [
+        "Conhecimento consolidado de interpretação de texto da norma-padrão"
+      ]
     },
     {
       "id": "q04",
@@ -115,18 +223,46 @@
       "dificuldade": "media",
       "enunciado": "Leia o fragmento de crônica a seguir.\n\n\"Reclamamos do silêncio da cidade grande, mas é nas cidades pequenas que o silêncio existe de verdade. Ali, o barulho que incomoda não vem dos carros: vem das janelas abertas, de onde os vizinhos observam a vida alheia e a comentam ao fim da tarde.\"\n\nDepreende-se do texto que o \"barulho\" mencionado no fragmento refere-se, em sentido figurado, a",
       "alternativas": [
-        { "id": "a1", "texto": "o incômodo causado pela curiosidade e pelos comentários dos vizinhos sobre a vida dos outros." },
-        { "id": "a2", "texto": "o ruído intenso provocado pelo trânsito de veículos nas ruas estreitas das cidades pequenas." },
-        { "id": "a3", "texto": "o som das janelas que batem por causa do vento forte no fim da tarde." },
-        { "id": "a4", "texto": "a ausência completa de qualquer tipo de som nas cidades do interior." }
+        {
+          "id": "a1",
+          "texto": "o incômodo causado pela curiosidade com que os vizinhos observam e comentam a vida alheia."
+        },
+        {
+          "id": "a2",
+          "texto": "o ruído intenso que o trânsito de veículos provoca nas ruas estreitas das pequenas cidades do interior."
+        },
+        {
+          "id": "a3",
+          "texto": "o som das janelas que batem por causa do vento forte que sopra sobre a cidade no fim da tarde."
+        },
+        {
+          "id": "a4",
+          "texto": "a completa ausência de qualquer tipo de som nas tranquilas cidades do interior do país."
+        }
       ],
       "id_correta": "a1",
       "comentario_geral": "O texto contrasta o silêncio físico das cidades pequenas com um \"barulho\" que o próprio fragmento explica: vem das janelas de onde os vizinhos observam e comentam a vida alheia. O termo é usado em sentido figurado, referindo-se ao incômodo social da curiosidade. Os distratores retomam o sentido literal de ruído (trânsito, vento) ou afirmam ausência de som, contrariando a ideia de incômodo.",
       "analise_alternativas": [
-        { "id": "a1", "correta": true, "justificativa": "O próprio texto define o barulho como os comentários dos vizinhos sobre a vida alheia." },
-        { "id": "a2", "correta": false, "justificativa": "O texto nega que o incômodo venha dos carros, afastando o ruído do trânsito." },
-        { "id": "a3", "correta": false, "justificativa": "As janelas abertas são o ponto de observação dos vizinhos, não fonte de ruído por vento." },
-        { "id": "a4", "correta": false, "justificativa": "O texto fala em incômodo, e não em ausência total de som." }
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "O próprio texto define o barulho como a curiosidade dos vizinhos ao comentar a vida alheia."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O texto nega que o incômodo venha dos carros, afastando o ruído do trânsito."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "As janelas abertas são o ponto de observação dos vizinhos, não fonte de ruído por vento."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O texto fala em incômodo, e não em ausência total de som."
+        }
       ],
       "fundamento_legal": "não se aplica",
       "fundamento_jurisprudencial": "não se aplica",
@@ -134,15 +270,23 @@
       "pegadinha": "Prender-se ao sentido literal de barulho como ruído sonoro, em vez do figurado.",
       "lei_referencia": "não se aplica",
       "macete_do_riccardo": null,
-      "fique_ligado": "Quando o texto usa aspas ou retoma uma palavra para explicá-la, ele está sinalizando sentido figurado.",
+      "fique_ligado": "Quando o texto retoma uma palavra para explicá-la, ele está sinalizando sentido figurado.",
       "cuidado_na_prova": null,
       "tipo_cobranca": "interpretacao",
       "exigencia_cognitiva": "analise",
-      "palavras_chave": ["crônica", "sentido figurado", "inferência", "contraste", "vida alheia"],
+      "palavras_chave": [
+        "crônica",
+        "sentido figurado",
+        "inferência",
+        "contraste",
+        "vida alheia"
+      ],
       "cita_jurisprudencia": false,
       "status_gerador": "VALIDADA",
       "ressalvas": null,
-      "fontes_consultadas": ["Conhecimento consolidado de interpretação de texto da norma-padrão"]
+      "fontes_consultadas": [
+        "Conhecimento consolidado de interpretação de texto da norma-padrão"
+      ]
     },
     {
       "id": "q05",
@@ -151,18 +295,46 @@
       "dificuldade": "media",
       "enunciado": "Leia o texto a seguir.\n\n\"O aplicativo prometia organizar a vida do usuário: lembrava compromissos, media o sono e sugeria pausas. Em poucas semanas, porém, a pessoa já não conseguia decidir nada sem antes consultar a tela. A ferramenta criada para dar liberdade acabou impondo uma nova rotina de dependência.\"\n\nA relação de sentido estabelecida entre o propósito do aplicativo e o seu resultado é de",
       "alternativas": [
-        { "id": "a1", "texto": "contradição, pois o recurso pensado para libertar o usuário terminou por torná-lo dependente dele." },
-        { "id": "a2", "texto": "equivalência, já que o aplicativo cumpriu exatamente o objetivo de liberdade para o qual foi criado." },
-        { "id": "a3", "texto": "exemplificação, uma vez que o texto apenas lista funções técnicas oferecidas pelo aplicativo." },
-        { "id": "a4", "texto": "indiferença, visto que o resultado do uso em nada alterou a rotina diária do usuário." }
+        {
+          "id": "a1",
+          "texto": "contradição, pois o recurso pensado para libertar o usuário terminou por torná-lo dependente dele."
+        },
+        {
+          "id": "a2",
+          "texto": "equivalência, já que o aplicativo cumpriu exatamente o objetivo de liberdade para o qual foi criado."
+        },
+        {
+          "id": "a3",
+          "texto": "exemplificação, uma vez que o texto apenas lista funções técnicas oferecidas pelo aplicativo."
+        },
+        {
+          "id": "a4",
+          "texto": "indiferença, visto que o resultado do uso em nada alterou a rotina diária do usuário."
+        }
       ],
       "id_correta": "a1",
       "comentario_geral": "O texto marca a oposição com o conectivo \"porém\" e com o fecho \"acabou impondo\": a ferramenta prometia liberdade, mas gerou dependência. A relação, portanto, é de contradição entre propósito e resultado. Os demais ignoram essa inversão: supõem que o objetivo foi cumprido, reduzem o texto a uma lista de funções ou negam qualquer efeito sobre a rotina.",
       "analise_alternativas": [
-        { "id": "a1", "correta": true, "justificativa": "O conectivo porém e o fecho marcam a oposição entre a promessa de liberdade e a dependência gerada." },
-        { "id": "a2", "correta": false, "justificativa": "O texto mostra o oposto: o objetivo de liberdade não foi alcançado." },
-        { "id": "a3", "correta": false, "justificativa": "As funções são citadas apenas para contrastar com o resultado, não como simples exemplo." },
-        { "id": "a4", "correta": false, "justificativa": "O texto afirma que o uso impôs uma nova rotina, alterando o comportamento." }
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "O conectivo porém e o fecho marcam a oposição entre a promessa de liberdade e a dependência gerada."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O texto mostra o oposto: o objetivo de liberdade não foi alcançado."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "As funções são citadas apenas para contrastar com o resultado, não como simples exemplo."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O texto afirma que o uso impôs uma nova rotina, alterando o comportamento."
+        }
       ],
       "fundamento_legal": "não se aplica",
       "fundamento_jurisprudencial": "não se aplica",
@@ -174,11 +346,19 @@
       "cuidado_na_prova": null,
       "tipo_cobranca": "interpretacao",
       "exigencia_cognitiva": "analise",
-      "palavras_chave": ["relação de sentido", "contradição", "conectivo", "tecnologia", "inferência"],
+      "palavras_chave": [
+        "relação de sentido",
+        "contradição",
+        "conectivo",
+        "tecnologia",
+        "inferência"
+      ],
       "cita_jurisprudencia": false,
       "status_gerador": "VALIDADA",
       "ressalvas": null,
-      "fontes_consultadas": ["Conhecimento consolidado de interpretação de texto da norma-padrão"]
+      "fontes_consultadas": [
+        "Conhecimento consolidado de interpretação de texto da norma-padrão"
+      ]
     },
     {
       "id": "q06",
@@ -187,18 +367,46 @@
       "dificuldade": "media",
       "enunciado": "Leia o verbete de dicionário a seguir.\n\n\"prudência, s.f. 1. Cautela ao agir, atenção para evitar erros ou perigos. 2. Moderação, comedimento nas atitudes.\"\n\nEm qual das situações a seguir a palavra \"prudência\" é empregada conforme a primeira acepção registrada no verbete?",
       "alternativas": [
-        { "id": "a1", "texto": "O investigador agiu com prudência e conferiu cada pista antes de acusar alguém." },
-        { "id": "a2", "texto": "Com prudência nos gastos, o casal evitou dívidas e manteve o orçamento equilibrado." },
-        { "id": "a3", "texto": "A prudência nas palavras fez com que ele falasse pouco durante toda a reunião." },
-        { "id": "a4", "texto": "Por prudência, ela preferiu um tom moderado e discreto ao se dirigir ao público." }
+        {
+          "id": "a1",
+          "texto": "O investigador agiu com prudência e conferiu cada pista antes de acusar alguém."
+        },
+        {
+          "id": "a2",
+          "texto": "Com prudência nos gastos, o casal evitou dívidas e manteve o orçamento equilibrado."
+        },
+        {
+          "id": "a3",
+          "texto": "A prudência nas palavras fez com que ele falasse pouco durante toda a reunião."
+        },
+        {
+          "id": "a4",
+          "texto": "Por prudência, ela preferiu um tom moderado e discreto ao se dirigir ao público."
+        }
       ],
       "id_correta": "a1",
       "comentario_geral": "A primeira acepção define prudência como cautela para evitar erros ou perigos. A situação em que o investigador confere cada pista antes de acusar alguém corresponde exatamente a essa cautela diante de risco. As demais ilustram a segunda acepção, de moderação e comedimento: controle de gastos, de palavras e de tom.",
       "analise_alternativas": [
-        { "id": "a1", "correta": true, "justificativa": "Conferir pistas para evitar um erro grave é a cautela diante de perigo, a primeira acepção." },
-        { "id": "a2", "correta": false, "justificativa": "Prudência nos gastos remete à moderação, que é a segunda acepção." },
-        { "id": "a3", "correta": false, "justificativa": "Falar pouco por prudência indica comedimento, próprio da segunda acepção." },
-        { "id": "a4", "correta": false, "justificativa": "Tom moderado e discreto corresponde à moderação da segunda acepção." }
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Conferir pistas para evitar um erro grave é a cautela diante de perigo, a primeira acepção."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Prudência nos gastos remete à moderação, que é a segunda acepção."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Falar pouco por prudência indica comedimento, próprio da segunda acepção."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Tom moderado e discreto corresponde à moderação da segunda acepção."
+        }
       ],
       "fundamento_legal": "não se aplica",
       "fundamento_jurisprudencial": "não se aplica",
@@ -210,11 +418,19 @@
       "cuidado_na_prova": "Ao comparar acepções, teste a definição exata do verbete em cada frase antes de escolher.",
       "tipo_cobranca": "interpretacao",
       "exigencia_cognitiva": "aplicacao",
-      "palavras_chave": ["verbete", "acepção", "polissemia", "contexto", "dicionário"],
+      "palavras_chave": [
+        "verbete",
+        "acepção",
+        "polissemia",
+        "contexto",
+        "dicionário"
+      ],
       "cita_jurisprudencia": false,
       "status_gerador": "VALIDADA",
       "ressalvas": null,
-      "fontes_consultadas": ["Conhecimento consolidado de interpretação de texto da norma-padrão"]
+      "fontes_consultadas": [
+        "Conhecimento consolidado de interpretação de texto da norma-padrão"
+      ]
     },
     {
       "id": "q07",
@@ -223,18 +439,46 @@
       "dificuldade": "media",
       "enunciado": "Leia o texto a seguir.\n\n\"Dizem que ler forma cidadãos críticos. Talvez. Mas tenho visto gente que lê muito e pensa pouco, que acumula livros como quem acumula troféus, sem deixar que uma só página lhe mude uma ideia sequer.\"\n\nAo iniciar o segundo período com a palavra \"Talvez\", o autor",
       "alternativas": [
-        { "id": "a1", "texto": "relativiza a afirmação anterior, assumindo uma posição de dúvida diante da ideia de que ler forma cidadãos críticos." },
-        { "id": "a2", "texto": "confirma de modo categórico que toda leitura resulta, sem exceção, na formação de cidadãos críticos." },
-        { "id": "a3", "texto": "afirma com certeza absoluta que a leitura jamais contribui para o pensamento crítico de quem lê." },
-        { "id": "a4", "texto": "muda bruscamente de assunto, abandonando o tema da leitura introduzido na frase inicial do texto." }
+        {
+          "id": "a1",
+          "texto": "relativiza a afirmação anterior, assumindo uma posição de dúvida diante da ideia de que ler forma cidadãos críticos."
+        },
+        {
+          "id": "a2",
+          "texto": "confirma de modo categórico que toda a leitura que se faça resulta na formação de cidadãos críticos."
+        },
+        {
+          "id": "a3",
+          "texto": "afirma que a leitura jamais contribui para o pensamento crítico de quem se dedica a ela."
+        },
+        {
+          "id": "a4",
+          "texto": "muda bruscamente de assunto e abandona o tema da leitura que havia sido introduzido na frase inicial do texto."
+        }
       ],
       "id_correta": "a1",
       "comentario_geral": "O \"Talvez\" isolado funciona como uma ressalva: o autor não nega nem confirma a frase anterior, apenas a põe em dúvida. Em seguida, ele mostra o motivo da dúvida com o exemplo de quem lê muito e pensa pouco. A alternativa correta capta essa relativização. As demais extremam a posição (certeza total a favor ou contra) ou negam que haja continuidade de tema.",
       "analise_alternativas": [
-        { "id": "a1", "correta": true, "justificativa": "O Talvez expressa dúvida e relativiza a afirmação de que ler forma cidadãos críticos." },
-        { "id": "a2", "correta": false, "justificativa": "O texto não confirma de modo categórico; ao contrário, duvida da afirmação." },
-        { "id": "a3", "correta": false, "justificativa": "O autor não nega com certeza absoluta; o Talvez indica justamente a ausência de certeza." },
-        { "id": "a4", "correta": false, "justificativa": "O tema continua sendo a leitura, agora sob um olhar crítico, sem mudança de assunto." }
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "O Talvez expressa dúvida e relativiza a afirmação de que ler forma cidadãos críticos."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O texto não confirma de modo categórico; ao contrário, duvida da afirmação."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O autor não nega de todo; o Talvez indica justamente a ausência de certeza."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O tema continua sendo a leitura, agora sob um olhar crítico, sem mudança de assunto."
+        }
       ],
       "fundamento_legal": "não se aplica",
       "fundamento_jurisprudencial": "não se aplica",
@@ -246,11 +490,19 @@
       "cuidado_na_prova": null,
       "tipo_cobranca": "interpretacao",
       "exigencia_cognitiva": "analise",
-      "palavras_chave": ["modalização", "ressalva", "dúvida", "argumentação", "leitura"],
+      "palavras_chave": [
+        "modalização",
+        "ressalva",
+        "dúvida",
+        "argumentação",
+        "leitura"
+      ],
       "cita_jurisprudencia": false,
       "status_gerador": "VALIDADA",
       "ressalvas": null,
-      "fontes_consultadas": ["Conhecimento consolidado de interpretação de texto da norma-padrão"]
+      "fontes_consultadas": [
+        "Conhecimento consolidado de interpretação de texto da norma-padrão"
+      ]
     },
     {
       "id": "q08",
@@ -259,18 +511,46 @@
       "dificuldade": "dificil",
       "enunciado": "Leia o texto a seguir.\n\n\"O vizinho jurava que o cachorro do apartamento ao lado latia a noite inteira e o impedia de dormir. Curioso, o síndico foi verificar. Descobriu que, no apartamento ao lado, não morava cachorro nenhum: morava um homem sozinho, que, à noite, falava alto com alguém que não existia.\"\n\nConsiderando o texto como um todo, a inferência mais adequada é a de que",
       "alternativas": [
-        { "id": "a1", "texto": "o incômodo do vizinho tinha origem diversa da que ele imaginava, revelando a solidão do morador ao lado." },
-        { "id": "a2", "texto": "o cachorro do apartamento vizinho realmente latia a noite toda e tirava o sono do morador que reclamava." },
-        { "id": "a3", "texto": "o síndico confirmou a reclamação inicial e aplicou uma advertência ao dono do animal barulhento." },
-        { "id": "a4", "texto": "o morador ao lado conversava à noite com visitas frequentes que apareciam apenas depois do anoitecer." }
+        {
+          "id": "a1",
+          "texto": "o incômodo do vizinho tinha origem diversa da que ele imaginava, revelando a solidão do morador ao lado."
+        },
+        {
+          "id": "a2",
+          "texto": "o cachorro do apartamento vizinho de fato latia durante toda a noite e tirava o sono do morador que fizera a reclamação ao síndico."
+        },
+        {
+          "id": "a3",
+          "texto": "o síndico confirmou a reclamação inicial e aplicou uma advertência ao dono do animal barulhento."
+        },
+        {
+          "id": "a4",
+          "texto": "o morador ao lado conversava à noite com visitas que só apareciam depois do anoitecer."
+        }
       ],
       "id_correta": "a1",
       "comentario_geral": "O desfecho desfaz a hipótese inicial: não havia cachorro, mas um homem que falava sozinho com alguém inexistente. A inferência correta articula os dois dados do texto: o incômodo tinha causa diferente da suposta e o episódio revela a solidão do morador. Os distratores sustentam a hipótese já descartada (o cachorro), inventam uma advertência que o texto não menciona ou transformam a fala solitária em visitas reais.",
       "analise_alternativas": [
-        { "id": "a1", "correta": true, "justificativa": "Reúne as duas informações do fecho: não havia cachorro e o homem falava sozinho, sinal de solidão." },
-        { "id": "a2", "correta": false, "justificativa": "O texto nega a existência do cachorro, afastando essa causa do incômodo." },
-        { "id": "a3", "correta": false, "justificativa": "Não há no texto qualquer confirmação da reclamação nem menção a advertência." },
-        { "id": "a4", "correta": false, "justificativa": "O texto diz que ele falava com alguém que não existia, e não com visitas reais." }
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reúne as duas informações do fecho: não havia cachorro e o homem falava sozinho, sinal de solidão."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O texto nega a existência do cachorro, afastando essa causa do incômodo."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Não há no texto qualquer confirmação da reclamação nem menção a advertência."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O texto diz que ele falava com alguém que não existia, e não com visitas reais."
+        }
       ],
       "fundamento_legal": "não se aplica",
       "fundamento_jurisprudencial": "não se aplica",
@@ -282,11 +562,19 @@
       "cuidado_na_prova": null,
       "tipo_cobranca": "interpretacao",
       "exigencia_cognitiva": "analise",
-      "palavras_chave": ["inferência", "narrativa", "desfecho", "solidão", "hipótese descartada"],
+      "palavras_chave": [
+        "inferência",
+        "narrativa",
+        "desfecho",
+        "solidão",
+        "hipótese descartada"
+      ],
       "cita_jurisprudencia": false,
       "status_gerador": "VALIDADA",
       "ressalvas": null,
-      "fontes_consultadas": ["Conhecimento consolidado de interpretação de texto da norma-padrão"]
+      "fontes_consultadas": [
+        "Conhecimento consolidado de interpretação de texto da norma-padrão"
+      ]
     },
     {
       "id": "q09",
@@ -295,18 +583,46 @@
       "dificuldade": "dificil",
       "enunciado": "Leia os dois trechos a seguir, sobre o mesmo assunto, publicados em veículos diferentes.\n\nTexto I: \"A nova praça foi entregue à população após meses de obras. Famílias já aproveitam os bancos, o parque infantil e a área arborizada no fim de tarde.\"\n\nTexto II: \"Inauguraram a tal praça. Bonita na foto, sim. Pena que fica num bairro onde falta posto de saúde, e ninguém pergunta se era mesmo de uma praça que o lugar precisava.\"\n\nComparando os dois textos, é correto afirmar que",
       "alternativas": [
-        { "id": "a1", "texto": "ambos tratam da mesma inauguração, mas o primeiro a apresenta de forma elogiosa e o segundo a questiona com ironia." },
-        { "id": "a2", "texto": "os dois textos defendem abertamente que a construção da praça foi a prioridade mais acertada para aquele bairro." },
-        { "id": "a3", "texto": "o primeiro texto critica a obra enquanto o segundo a elogia por atender a uma antiga necessidade dos moradores." },
-        { "id": "a4", "texto": "nenhum dos textos faz referência à praça recém-inaugurada, tratando ambos de problemas gerais da saúde pública." }
+        {
+          "id": "a1",
+          "texto": "ambos tratam da mesma inauguração, mas o primeiro a apresenta de forma elogiosa e o segundo a questiona com ironia."
+        },
+        {
+          "id": "a2",
+          "texto": "os dois textos defendem que a construção da praça foi a prioridade mais acertada para aquele bairro."
+        },
+        {
+          "id": "a3",
+          "texto": "o primeiro texto critica duramente a obra, enquanto o segundo a elogia por atender a uma antiga e sentida necessidade dos moradores do local."
+        },
+        {
+          "id": "a4",
+          "texto": "nenhum dos dois textos se refere à praça recém-inaugurada, tratando ambos de problemas gerais da saúde pública."
+        }
       ],
       "id_correta": "a1",
       "comentario_geral": "Os dois textos partem do mesmo fato, a inauguração da praça, mas adotam posições opostas: o primeiro descreve o uso do espaço em tom positivo; o segundo, com a expressão \"a tal praça\" e a ressalva sobre a falta de posto de saúde, questiona a prioridade da obra com ironia. A alternativa correta sintetiza esse contraste de pontos de vista. As demais trocam os papéis dos textos, uniformizam a opinião ou negam que tratem da praça.",
       "analise_alternativas": [
-        { "id": "a1", "correta": true, "justificativa": "Identifica o fato comum e o contraste de tom: elogio no primeiro, questionamento irônico no segundo." },
-        { "id": "a2", "correta": false, "justificativa": "O segundo texto não defende a praça como prioridade; ao contrário, a põe em dúvida." },
-        { "id": "a3", "correta": false, "justificativa": "Inverte os papéis: o primeiro elogia e o segundo critica, não o oposto." },
-        { "id": "a4", "correta": false, "justificativa": "Ambos tratam da praça; o segundo apenas a relaciona à carência de posto de saúde." }
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Identifica o fato comum e o contraste de tom: elogio no primeiro, questionamento irônico no segundo."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O segundo texto não defende a praça como prioridade; ao contrário, a põe em dúvida."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Inverte os papéis: o primeiro elogia e o segundo critica, não o oposto."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Ambos tratam da praça; o segundo apenas a relaciona à carência de posto de saúde."
+        }
       ],
       "fundamento_legal": "não se aplica",
       "fundamento_jurisprudencial": "não se aplica",
@@ -318,11 +634,19 @@
       "cuidado_na_prova": null,
       "tipo_cobranca": "comparacao",
       "exigencia_cognitiva": "analise",
-      "palavras_chave": ["comparação de textos", "ponto de vista", "ironia", "tom", "inferência"],
+      "palavras_chave": [
+        "comparação de textos",
+        "ponto de vista",
+        "ironia",
+        "tom",
+        "inferência"
+      ],
       "cita_jurisprudencia": false,
       "status_gerador": "VALIDADA",
       "ressalvas": null,
-      "fontes_consultadas": ["Conhecimento consolidado de interpretação de texto da norma-padrão"]
+      "fontes_consultadas": [
+        "Conhecimento consolidado de interpretação de texto da norma-padrão"
+      ]
     },
     {
       "id": "q10",
@@ -331,18 +655,46 @@
       "dificuldade": "dificil",
       "enunciado": "Leia o texto a seguir.\n\n\"Ninguém reclamou quando cortaram as árvores da rua. Afinal, diziam, atrapalhavam a fiação. Ninguém reclamou quando fecharam a biblioteca do bairro. Afinal, diziam, quase ninguém a frequentava. Agora que o calor é insuportável e as crianças não têm onde ler, começam a perguntar como chegamos até aqui.\"\n\nA crítica que o texto constrói ao longo dos três períodos dirige-se, sobretudo, a",
       "alternativas": [
-        { "id": "a1", "texto": "aceitar sem reação perdas sucessivas e só perceber seus efeitos quando já é tarde para evitá-los." },
-        { "id": "a2", "texto": "plantar árvores inadequadas sob a fiação elétrica, o que obriga as prefeituras a removê-las com frequência." },
-        { "id": "a3", "texto": "frequentar pouco as bibliotecas públicas, atitude que justifica plenamente o fechamento desses espaços." },
-        { "id": "a4", "texto": "reclamar em excesso de decisões administrativas que, no fundo, trazem benefícios para toda a comunidade." }
+        {
+          "id": "a1",
+          "texto": "aceitar sem reação perdas sucessivas e só perceber seus efeitos quando já é tarde para evitá-los."
+        },
+        {
+          "id": "a2",
+          "texto": "plantar árvores inadequadas sob a fiação elétrica, o que obriga as prefeituras a removê-las com frequência."
+        },
+        {
+          "id": "a3",
+          "texto": "frequentar pouco as bibliotecas públicas, atitude que justifica plenamente o fechamento desses espaços."
+        },
+        {
+          "id": "a4",
+          "texto": "reclamar em excesso de decisões administrativas que, no fundo, trazem benefícios para toda a comunidade."
+        }
       ],
       "id_correta": "a1",
       "comentario_geral": "A estrutura repetida (\"Ninguém reclamou quando...\") e o fecho (\"começam a perguntar como chegamos até aqui\") mostram que a crítica recai sobre a passividade: perdas foram aceitas uma a uma, com justificativas aparentemente razoáveis, e só agora se percebem as consequências. A alternativa correta capta essa ideia. As demais adotam as próprias justificativas que o texto ironiza (a fiação, a baixa frequência) ou invertem a crítica, como se o problema fosse reclamar demais.",
       "analise_alternativas": [
-        { "id": "a1", "correta": true, "justificativa": "Resume a crítica central: aceitar perdas sucessivas sem reação e perceber tarde demais o resultado." },
-        { "id": "a2", "correta": false, "justificativa": "Repete a justificativa da fiação, que o texto apresenta ironicamente, não como sua tese." },
-        { "id": "a3", "correta": false, "justificativa": "Adota como válida a razão do fechamento da biblioteca, justamente o que o texto critica." },
-        { "id": "a4", "correta": false, "justificativa": "Inverte a crítica: o texto censura a falta de reação, não o excesso de reclamações." }
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Resume a crítica central: aceitar perdas sucessivas sem reação e perceber tarde demais o resultado."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Repete a justificativa da fiação, que o texto apresenta ironicamente, não como sua tese."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Adota como válida a razão do fechamento da biblioteca, justamente o que o texto critica."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Inverte a crítica: o texto censura a falta de reação, não o excesso de reclamações."
+        }
       ],
       "fundamento_legal": "não se aplica",
       "fundamento_jurisprudencial": "não se aplica",
@@ -354,11 +706,19 @@
       "cuidado_na_prova": null,
       "tipo_cobranca": "interpretacao",
       "exigencia_cognitiva": "analise",
-      "palavras_chave": ["tese", "crítica", "ironia", "paralelismo", "consequência"],
+      "palavras_chave": [
+        "tese",
+        "crítica",
+        "ironia",
+        "paralelismo",
+        "consequência"
+      ],
       "cita_jurisprudencia": false,
       "status_gerador": "VALIDADA",
       "ressalvas": null,
-      "fontes_consultadas": ["Conhecimento consolidado de interpretação de texto da norma-padrão"]
+      "fontes_consultadas": [
+        "Conhecimento consolidado de interpretação de texto da norma-padrão"
+      ]
     }
   ],
   "flashcards": [
@@ -366,32 +726,50 @@
       "id": "f01",
       "subtema": "Compreensão e interpretação de textos de gêneros variados",
       "frente": "Qual a diferença entre compreender e interpretar um texto?",
-      "verso": "Compreender é captar o que o texto diz de forma explícita (informações presentes na superfície); interpretar é ir além, inferir sentidos, intenções e implícitos a partir do que está escrito. Regra da norma-padrão: a interpretação deve apoiar-se em dados do próprio texto, sem extrapolar para o que ele não autoriza.",
+      "verso": "Compreender é captar o que o texto diz de forma explícita (informações presentes na superfície); interpretar é ir além, inferir sentidos, intenções e implícitos a partir do que está escrito. A interpretação deve apoiar-se em dados do próprio texto, sem extrapolar para o que ele não autoriza.",
       "fundamento_legal": "não se aplica",
       "lei_referencia": "não se aplica",
-      "palavras_chave": ["compreensão", "interpretação", "explícito", "implícito", "inferência"],
+      "palavras_chave": [
+        "compreensão",
+        "interpretação",
+        "explícito",
+        "implícito",
+        "inferência"
+      ],
       "cita_jurisprudencia": false
     },
     {
       "id": "f02",
       "subtema": "Compreensão e interpretação de textos de gêneros variados",
       "frente": "O que é uma inferência válida na interpretação de texto?",
-      "verso": "É a conclusão que se deduz logicamente a partir de informações do próprio texto, mesmo que não estejam ditas com todas as letras. Regra da norma-padrão: a inferência é válida quando ancorada em pistas textuais; extrapolar com dados externos ou suposições pessoais gera leitura indevida e costuma ser o distrator da questão.",
+      "verso": "É a conclusão que se deduz logicamente a partir de informações do próprio texto, mesmo que não estejam ditas com todas as letras. A inferência é válida quando ancorada em pistas textuais; extrapolar com dados externos ou suposições pessoais gera leitura indevida e costuma ser o distrator da questão.",
       "fundamento_legal": "não se aplica",
       "lei_referencia": "não se aplica",
-      "palavras_chave": ["inferência", "dedução", "pistas textuais", "extrapolação", "leitura indevida"],
+      "palavras_chave": [
+        "inferência",
+        "dedução",
+        "pistas textuais",
+        "extrapolação",
+        "leitura indevida"
+      ],
       "cita_jurisprudencia": false
     },
     {
       "id": "f03",
       "subtema": "Compreensão e interpretação de textos de gêneros variados",
       "frente": "Qual a diferença entre sentido denotativo e sentido conotativo de uma palavra?",
-      "verso": "Denotativo é o sentido literal, de dicionário; conotativo é o sentido figurado, construído pelo contexto (metáforas, ironia, provérbios). Regra da norma-padrão: em textos literários e provérbios predomina a conotação, e tomar a palavra em sentido literal quando o contexto pede o figurado é erro comum de interpretação.",
+      "verso": "Denotativo é o sentido literal, de dicionário; conotativo é o sentido figurado, construído pelo contexto (metáforas, ironia, provérbios). Em textos literários e provérbios predomina a conotação, e tomar a palavra em sentido literal quando o contexto pede o figurado é erro comum de interpretação.",
       "fundamento_legal": "não se aplica",
       "lei_referencia": "não se aplica",
-      "palavras_chave": ["denotação", "conotação", "sentido literal", "sentido figurado", "contexto"],
+      "palavras_chave": [
+        "denotação",
+        "conotação",
+        "sentido literal",
+        "sentido figurado",
+        "contexto"
+      ],
       "cita_jurisprudencia": false
     }
   ],
-  "observacoes_do_lote": "Tema de Língua Portuguesa sem texto legal: todas as questões e flashcards se baseiam em regras consolidadas da norma-padrão sobre compreensão e interpretação de textos, sem citar normas, autores ou jurisprudência. Os textos de apoio (campanha, notícia, provérbio, crônica, verbete, narrativas e textos de opinião) são originais e cobrem gêneros variados, conforme o foco do lote. Nenhum dispositivo sensível ou número de julgado foi citado."
+  "observacoes_do_lote": "Reescrita das alternativas de q04, q07, q08 e q09 para que a correta deixe de ser a mais longa: em cada uma delas, uma alternativa errada passou a ser a mais extensa, sem que isso denuncie a resposta, e as erradas continuam errando por conteúdo. Tema sem lei (Língua Portuguesa): fundamentos e referências não se aplicam; os versos dos flashcards foram ajustados para explicar o conceito diretamente, sem o rótulo \"Regra da norma-padrão:\"."
 }

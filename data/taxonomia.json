@@ -1385,7 +1385,13 @@
           "meta": 60,
           "subtopicos": [],
           "leis": [],
-          "trechos": [],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 5,
+              "ate": 5
+            }
+          ],
           "formatos": [
             {
               "banca": "IDECAN",
@@ -1876,7 +1882,13 @@
             "Dignidade da pessoa humana"
           ],
           "leis": [],
-          "trechos": [],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 1,
+              "ate": 5
+            }
+          ],
           "formatos": [
             {
               "banca": "IDECAN",
@@ -2076,7 +2088,18 @@
             "Natureza, fins e princípios"
           ],
           "leis": [],
-          "trechos": [],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 1,
+              "ate": 4
+            },
+            {
+              "lei": "cf88",
+              "de": 37,
+              "ate": 37
+            }
+          ],
           "formatos": [
             {
               "banca": "IDECAN",
@@ -2176,7 +2199,18 @@
             "Agências executivas e reguladoras"
           ],
           "leis": [],
-          "trechos": [],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 37,
+              "ate": 37
+            },
+            {
+              "lei": "cf88",
+              "de": 173,
+              "ate": 173
+            }
+          ],
           "formatos": [
             {
               "banca": "IDECAN",
@@ -2214,7 +2248,23 @@
             "Prescrição"
           ],
           "leis": [],
-          "trechos": [],
+          "trechos": [
+            {
+              "lei": "lei-9784-1999",
+              "de": 11,
+              "ate": 17
+            },
+            {
+              "lei": "lei-9784-1999",
+              "de": 50,
+              "ate": 50
+            },
+            {
+              "lei": "lei-9784-1999",
+              "de": 53,
+              "ate": 55
+            }
+          ],
           "formatos": [
             {
               "banca": "IDECAN",
@@ -2242,7 +2292,18 @@
             "Uso e abuso do poder"
           ],
           "leis": [],
-          "trechos": [],
+          "trechos": [
+            {
+              "lei": "lei-9784-1999",
+              "de": 11,
+              "ate": 17
+            },
+            {
+              "lei": "cf88",
+              "de": 84,
+              "ate": 84
+            }
+          ],
           "formatos": [
             {
               "banca": "IDECAN",
@@ -2298,7 +2359,18 @@
             "Convênios e consórcios"
           ],
           "leis": [],
-          "trechos": [],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 175,
+              "ate": 175
+            },
+            {
+              "lei": "cf88",
+              "de": 241,
+              "ate": 241
+            }
+          ],
           "formatos": [
             {
               "banca": "Vunesp",
@@ -2321,7 +2393,18 @@
             "Controle administrativo, judicial e legislativo"
           ],
           "leis": [],
-          "trechos": [],
+          "trechos": [
+            {
+              "lei": "lei-9784-1999",
+              "de": 53,
+              "ate": 65
+            },
+            {
+              "lei": "cf88",
+              "de": 70,
+              "ate": 75
+            }
+          ],
           "formatos": [
             {
               "banca": "IDECAN",

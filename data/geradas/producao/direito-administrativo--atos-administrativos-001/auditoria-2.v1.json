@@ -1,0 +1,159 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "pedagogico",
+          "gravidade": "baixa",
+          "descricao": "No comentario, a frase 'forma, motivo e objeto podem admitir margem conforme o ato' é imprecisa: a discricionariedade incide, em regra, sobre motivo e objeto; a forma é elemento vinculado, flexibilizado apenas pelo formalismo moderado. Convém ajustar a redação para não sugerir que a forma seja, de ordinário, discricionária."
+        }
+      ],
+      "correcao_sugerida": "No comentario, trocar 'forma, motivo e objeto podem admitir margem conforme o ato' por 'a discricionariedade, quando existente, recai sobre o motivo e o objeto; a forma é, em regra, vinculada, admitindo flexibilização pelo formalismo moderado'.",
+      "justificativa": "O gabarito a1 reproduz os cinco requisitos consagrados (competência, finalidade, forma, motivo e objeto) e os distratores estão corretamente errados. Único reparo: a explicação sobre a 'margem' da forma no comentario é imprecisa, mas não afeta o gabarito."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa a1 define corretamente a presunção de legitimidade e veracidade (presunção relativa, com inversão do ônus da prova). Os distratores descrevem autoexecutoriedade, imperatividade e tipicidade, todos distintos. Resposta única."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O conceito em a1 (manifestação unilateral sob regime de direito público para produzir efeitos jurídicos) corresponde à doutrina majoritária. Os distratores descrevem atos de direito privado, lei em sentido formal e ato jurisdicional, todos excluídos do conceito. Resposta única."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O caso (interdição imediata sem prévia autorização judicial) é exemplo clássico de autoexecutoriedade, condicionada a previsão legal ou urgência, exatamente como em a1. Os distratores confundem com presunção de veracidade, tipicidade e imperatividade (esta com erro ao exigir chancela judicial prévia). Resposta única."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa a1 descreve corretamente as notas da competência (legal, de exercício obrigatório, irrenunciável e improrrogável, com delegação e avocação apenas nos limites legais). Os distratores tratam a competência como livremente transferível, discricionária ou renunciável, todos incorretos. Resposta única."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa a1 distingue corretamente finalidade (interesse público, elemento vinculado) de motivo (pressuposto de fato e de direito). Os distratores igualam os conceitos, invertem-nos (confundindo com objeto) ou tratam a finalidade como discricionária. Resposta única."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa a1 adota a distinção consolidada (Celso Antônio): imperatividade é a imposição unilateral de obrigações; exigibilidade é o poder de compelir por meios indiretos de coação. Os distratores universalizam a imperatividade, confundem exigibilidade com autoexecutoriedade e igualam imperatividade a autoexecutoriedade. Resposta única."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Agente competente que usa o ato para perseguir desafeto incorre em desvio de finalidade (desvio de poder), vício no elemento finalidade, como em a1. Não há vício de competência (que subsiste) nem necessariamente de objeto. Resposta única."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa a1 traduz o formalismo moderado: forma escrita como regra, com exceções quando a lei autoriza ou a situação exige. Os distratores tratam a forma como absolutamente livre, sempre escrita e solene, ou meramente acidental, todos incorretos. Resposta única."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa a1 define a tipicidade como correspondência do ato a figuras legais, desdobramento da legalidade. Os distratores a confundem com autoexecutoriedade, com exclusão da discricionariedade e com a presunção de legitimidade, todos errados. Resposta única."
+    }
+  ],
+  "auditorias_flashcards": [
+    {
+      "id": "f01",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Os quatro atributos clássicos (presunção de legitimidade e veracidade, imperatividade, autoexecutoriedade e tipicidade) estão corretos conforme a doutrina majoritária, e o verso ressalva que não se confundem com os requisitos de validade. Frente objetiva e de resposta única."
+    },
+    {
+      "id": "f02",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Correto: a autoexecutoriedade não está presente em todo ato, exigindo previsão legal expressa ou urgência; fora disso, a Administração depende do Judiciário. Frente admite resposta única."
+    },
+    {
+      "id": "f03",
+      "status": "VALIDADA",
+      "correto_conforme_lei": true,
+      "ambiguo": false,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A distinção entre finalidade (interesse público, elemento vinculado) e motivo (pressuposto de fato e de direito) está correta, assim como a nota sobre desvio de finalidade. Frente clara e de resposta única."
+    }
+  ]
+}

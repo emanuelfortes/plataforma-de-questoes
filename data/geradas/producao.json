@@ -15,40 +15,7 @@
         "flashcards": []
       },
       "criadoEm": "2026-10-19T03:41:27.382Z",
-      "resultado": {
-        "questoes": {
-          "geradas": 10,
-          "aprovadas": 9,
-          "fila": 1,
-          "descartadas": 0,
-          "duplicadas": 0
-        },
-        "flashcards": {
-          "geradas": 3,
-          "aprovadas": 3,
-          "fila": 0,
-          "descartadas": 0,
-          "duplicadas": 0
-        },
-        "descartes": []
-      },
-      "concluidoEm": "2026-10-19T03:48:31.556Z"
-    },
-    {
-      "id": "lingua-portuguesa--interpretacao-de-texto-001",
-      "topico": "lingua-portuguesa--interpretacao-de-texto",
-      "banca": "IDECAN",
-      "alternativas": 4,
-      "concurso": "pcce-2021",
-      "foco": "Compreensão e interpretação de textos de gêneros variados",
-      "execucao": "exec-2026-10-19T03-41-23-355Z",
-      "etapa": "concluido",
-      "tentativas": {},
-      "reprovadas": {
-        "questoes": [],
-        "flashcards": []
-      },
-      "criadoEm": "2026-10-19T03:41:27.478Z",
+      "reaberto": 1,
       "resultado": {
         "questoes": {
           "geradas": 10,
@@ -66,7 +33,42 @@
         },
         "descartes": []
       },
-      "concluidoEm": "2026-10-19T03:48:33.445Z"
+      "concluidoEm": "2026-10-19T04:11:06.156Z"
+    },
+    {
+      "id": "lingua-portuguesa--interpretacao-de-texto-001",
+      "topico": "lingua-portuguesa--interpretacao-de-texto",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "pcce-2021",
+      "foco": "Compreensão e interpretação de textos de gêneros variados",
+      "execucao": "exec-2026-10-19T03-41-23-355Z",
+      "etapa": "concluido",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-19T03:41:27.478Z",
+      "reaberto": 1,
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 10,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 3,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-19T04:11:08.046Z"
     },
     {
       "id": "direito-constitucional--direitos-e-garantias-fundamentais-001",
@@ -83,24 +85,25 @@
         "flashcards": []
       },
       "criadoEm": "2026-10-19T03:41:27.573Z",
+      "reaberto": 1,
       "resultado": {
         "questoes": {
           "geradas": 10,
-          "aprovadas": 7,
+          "aprovadas": 8,
           "fila": 1,
           "descartadas": 0,
-          "duplicadas": 2
+          "duplicadas": 1
         },
         "flashcards": {
           "geradas": 3,
-          "aprovadas": 2,
-          "fila": 1,
+          "aprovadas": 3,
+          "fila": 0,
           "descartadas": 0,
           "duplicadas": 0
         },
         "descartes": []
       },
-      "concluidoEm": "2026-10-19T03:48:35.083Z"
+      "concluidoEm": "2026-10-19T04:11:10.163Z"
     }
   ],
   "execucoes": [
@@ -112,6 +115,13 @@
       "lotesIniciados": 3,
       "fim": "2026-10-19T03:48:35.083Z",
       "motivoFim": "teto atingido"
+    },
+    {
+      "id": "exec-2026-10-19T04-03-05-728Z",
+      "inicio": "2026-10-19T04:03:05.729Z",
+      "teto": 3,
+      "paralelo": 3,
+      "lotesIniciados": 3
     }
   ],
   "erros": []

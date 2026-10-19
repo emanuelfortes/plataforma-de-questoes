@@ -6,6 +6,7 @@
 //   npx tsx scripts/questoes/producao.ts proximo        avança o que ficou pronto e diz o que fazer agora (JSON)
 //   npx tsx scripts/questoes/producao.ts conferir <lote> <arquivo>   só confere um arquivo (para o subagente)
 //   npx tsx scripts/questoes/producao.ts status
+//   npx tsx scripts/questoes/producao.ts reabrir <lote>   reprocessa um lote concluído com as regras atuais
 //   npx tsx scripts/questoes/producao.ts relatorio [--data AAAA-MM-DD]   gera data/relatorios/AAAA-MM-DD.md
 //   npx tsx scripts/questoes/producao.ts notificar [--data AAAA-MM-DD] [--teste]   resumo curto no celular (ntfy)
 //
@@ -15,9 +16,9 @@
 //   (reprovado por qualquer auditor) regen_pendente -> regen-gerado.json -> regen_gerado -> regen-auditoria-1/2.json
 //   importa em questoes_revisao / flashcards_revisao; aprova sozinho o que passou em tudo -> concluido
 import { createHash } from "node:crypto";
-import { appendFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { appendFileSync, existsSync, mkdirSync, readFileSync, renameSync, rmSync, writeFileSync } from "node:fs";
 import { createClient } from "@libsql/client";
-import { and, eq, inArray, ne, sql } from "drizzle-orm";
+import { and, eq, inArray, like, ne, or, sql } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/libsql";
 import { aprovarFlashcards, aprovarQuestoes } from "../../src/db/aprovacao";
 import type { Db } from "../../src/db";
@@ -26,7 +27,10 @@ import type { AuditoriaFlashcard, ResultadoAuditoria } from "../../src/db/schema
 import { normalizar, semelhanca } from "../../src/lib/catalogo";
 import { acharTopico, lerJurisprudencia, lerTaxonomia, sensiveisDoTopico, textoLegal, type Taxonomia, type Topico } from "./contexto";
 import {
+  absolutoSoNasErradas,
   artigosSensiveisCitados,
+  PADRAO_ABSOLUTO,
+  tamanhoDaCorreta,
   citacoesFlashcardForaDaLista,
   citacoesForaDaLista,
   conferirFlashcard,
@@ -52,6 +56,9 @@ const FLASHCARDS_POR_LOTE = 3;
 const MAX_TENTATIVAS = 3; // arquivo inválido 3 vezes: o lote é abandonado com erro
 const LIMITE_DUPLICATA_QUESTAO = 0.775; // calibrado no piloto
 const LIMITE_DUPLICATA_FLASHCARD = 0.8;
+// Disciplinas que não dependem de lei: podem ser aprovadas sozinhas sem texto legal no pedido.
+// Nas demais (jurídicas), tópico sem lei vai sempre para a fila manual.
+const DISCIPLINAS_SEM_LEI = ["Língua Portuguesa", "Raciocínio Lógico", "Informática", "História e Geografia do Ceará"];
 
 // ---------- estado ----------
 
@@ -73,6 +80,8 @@ type Lote = {
   erro?: string;
   criadoEm: string;
   concluidoEm?: string;
+  /** Quantas vezes o lote foi reaberto para reescrita (os arquivos anteriores ficam como *.vN.json). */
+  reaberto?: number;
 };
 type Execucao = { id: string; inicio: string; fim?: string; motivoFim?: string; teto: number; paralelo: number; lotesIniciados: number };
 type Estado = { lotes: Lote[]; execucoes: Execucao[]; erros: { quando: string; lote?: string; msg: string }[] };
@@ -111,20 +120,38 @@ async function planejarLote(estado: Estado, exec: Execucao): Promise<Lote | null
   const tax = lerTaxonomia();
   const feitos = await produzidoPorTopico();
   const ativos = estado.lotes.filter((l) => !["concluido", "falhou"].includes(l.etapa));
-  const daExecucao = new Set(estado.lotes.filter((l) => l.execucao === exec.id).map((l) => l.topico));
-  const candidatos: { topico: Topico; formato: Topico["formatos"][number]; restante: number }[] = [];
+  const disciplinaDe = new Map(tax.disciplinas.flatMap((d) => d.topicos.map((t) => [t.id, d.nome] as const)));
+  // Revezamento: os lotes recentes dizem quais tópicos e disciplinas acabaram de ser usados.
+  const recentes = [...estado.lotes].sort((a, b) => b.criadoEm.localeCompare(a.criadoEm));
+  const topicosEvitar = new Set([...ativos, ...recentes.slice(0, 3)].map((l) => l.topico));
+  const disciplinasEvitar = new Set([...ativos, ...recentes.slice(0, 1)].map((l) => disciplinaDe.get(l.topico)));
+  const usoDisciplina = new Map<string, number>();
+  for (const l of recentes.slice(0, 2 * tax.disciplinas.length)) {
+    const d = disciplinaDe.get(l.topico) ?? "";
+    usoDisciplina.set(d, (usoDisciplina.get(d) ?? 0) + 1);
+  }
+  const candidatos: { topico: Topico; disciplina: string; formato: Topico["formatos"][number]; restante: number }[] = [];
   for (const d of tax.disciplinas)
     for (const t of d.topicos) {
       if (!topicoDisponivel(tax, t)) continue;
       for (const f of t.formatos) {
         const emAndamento = ativos.filter((l) => l.topico === t.id && l.banca === f.banca).length * QUESTOES_POR_LOTE;
         const restante = f.meta - (feitos.get(`${t.id}|${f.banca}`) ?? 0) - emAndamento;
-        if (restante > 0) candidatos.push({ topico: t, formato: f, restante });
+        if (restante > 0) candidatos.push({ topico: t, disciplina: d.nome, formato: f, restante });
       }
     }
   if (!candidatos.length) return null;
-  // Maior meta restante primeiro; na mesma execução, prefere tópicos diferentes (mistura o conteúdo da noite).
-  candidatos.sort((a, b) => Number(daExecucao.has(a.topico.id)) - Number(daExecucao.has(b.topico.id)) || b.restante - a.restante);
+  // Ordem: (1) tópico fora dos lotes em andamento e dos 3 últimos (nunca o mesmo tópico em lotes seguidos);
+  // (2) disciplina diferente das em andamento e da última; (3) disciplina menos usada recentemente;
+  // (4) maior meta restante dentro desse revezamento.
+  candidatos.sort(
+    (a, b) =>
+      Number(topicosEvitar.has(a.topico.id)) - Number(topicosEvitar.has(b.topico.id)) ||
+      Number(disciplinasEvitar.has(a.disciplina)) - Number(disciplinasEvitar.has(b.disciplina)) ||
+      (usoDisciplina.get(a.disciplina) ?? 0) - (usoDisciplina.get(b.disciplina) ?? 0) ||
+      b.restante - a.restante,
+  );
+
   const { topico, formato } = candidatos[0]!;
   const anteriores = estado.lotes.filter((l) => l.topico === topico.id);
   const numero = anteriores.length + 1;
@@ -191,7 +218,7 @@ async function entrada(tax: Taxonomia, lote: Lote, extra?: string) {
 - Data de corte jurisprudencial: ${DATA_CORTE}
 - Lista de jurisprudência fornecida (só estes podem ser citados pelo número): ${listaJurisprudencia()}
 - Perfil da banca: sem questões anteriores fornecidas; use apenas características gerais conhecidas da banca.
-- Tamanho das alternativas: a correta não pode ser mais de 25% mais longa que a média das erradas, e no lote ela deve ser a mais longa em no máximo 4 das 10 questões (verificado em código).
+- Tamanho e tom das alternativas (verificado em código): a correta tem entre 80% e 125% da média de caracteres das erradas; no lote, é a mais longa em no máximo 3 questões e a mais curta em no máximo 3; termos absolutos ("sempre", "jamais", "automaticamente"...) só nas erradas em no máximo 2 questões. As erradas erram por conteúdo, não por exagero.
 ${topico.nota ? `- Observação: ${topico.nota}\n` : ""}
 ## Já cobertos neste tema (não repita o mesmo ponto do mesmo jeito)
 - Subtemas recentes: ${cobertos.subtemas.join("; ") || "nenhum ainda"}
@@ -341,6 +368,8 @@ async function importarLote(lote: Lote, itensQ: ItemQ[], itensF: ItemF[], descar
   const { disciplina, topico } = acharTopico(tax, lote.topico);
   const sensiveis = sensiveisDoTopico(topico);
   const julgados = lerJurisprudencia();
+  // Tema jurídico sem nenhum texto legal no pedido: nada é aprovado sozinho (vai para a fila manual).
+  const juridicoSemLei = !textoLegal(tax, topico) && !DISCIPLINAS_SEM_LEI.includes(disciplina);
   const res: Resultado = { questoes: vazio(), flashcards: vazio(), descartes };
   res.questoes.geradas = itensQ.length + descartes.filter((d) => d.id.startsWith("q")).length;
   res.flashcards.geradas = itensF.length + descartes.filter((d) => d.id.startsWith("f")).length;
@@ -396,6 +425,7 @@ async function importarLote(lote: Lote, itensQ: ItemQ[], itensF: ItemF[], descar
     const outros = [
       ...sensiveisCitadosQuestao(q, sensiveis).map((d) => `cobra dispositivo sensível: ${d}`),
       ...(q.cita_jurisprudencia ? ["cita jurisprudência"] : []),
+      ...(juridicoSemLei ? ["tema jurídico sem texto legal fornecido"] : []),
     ];
     const v = veredito(it.a1.status, it.a2.status, alertas, outros);
     const troca = (t: string | null) => trocarIds(t, letraDe);
@@ -483,6 +513,7 @@ async function importarLote(lote: Lote, itensQ: ItemQ[], itensF: ItemF[], descar
     const outros = [
       ...artigosSensiveisCitados([f.frente, f.verso, f.fundamento_legal], sensiveis).map((d) => `cobra dispositivo sensível: ${d}`),
       ...(f.cita_jurisprudencia ? ["cita jurisprudência"] : []),
+      ...(juridicoSemLei ? ["tema jurídico sem texto legal fornecido"] : []),
     ];
     const v = veredito(it.a1.status, it.a2.status, alertas, outros);
     const auditoria: AuditoriaFlashcard = {
@@ -746,6 +777,106 @@ function status() {
   if (exec) console.log(`Última execução: ${exec.id} (${exec.fim ? `encerrada: ${exec.motivoFim}` : "aberta"}), ${exec.lotesIniciados}/${exec.teto} lotes.`);
 }
 
+// ---------- fila prevista e cancelamento ----------
+
+/** Mostra os próximos tópicos que o planejador escolheria (sem criar nada). */
+async function fila(n: number) {
+  const estado = lerEstado();
+  const ativos = estado.lotes.filter((l) => !["concluido", "falhou"].includes(l.etapa));
+  const simulado: Estado = JSON.parse(JSON.stringify(estado));
+  const exec: Execucao = { id: "simulacao", inicio: agoraIso(), teto: n, paralelo: n, lotesIniciados: 0 };
+  const previstos: Lote[] = [];
+  for (let i = 0; i < n; i++) {
+    const lote = await planejarLote(simulado, exec);
+    if (!lote) break;
+    lote.criadoEm = new Date(Date.now() + (i + 1) * 1000).toISOString();
+    simulado.lotes.push(lote);
+    previstos.push(lote);
+  }
+  const tax = lerTaxonomia();
+  const nome = (id: string) => {
+    const { disciplina, topico } = acharTopico(tax, id);
+    return `${disciplina} > ${topico.nome}`;
+  };
+  if (ativos.length) console.log(`Em andamento (seguem primeiro):\n${ativos.map((l) => `  ${l.id} (${l.etapa}): ${nome(l.topico)}`).join("\n")}`);
+  console.log(`Próximos lotes novos:\n${previstos.map((l, i) => `  ${i + 1}. ${nome(l.topico)} (${l.banca}, foco: ${l.foco})`).join("\n")}`);
+}
+
+/** Cancela um lote que ainda não produziu nada (só o pedido existe). */
+function cancelar(id: string) {
+  const estado = lerEstado();
+  const lote = estado.lotes.find((l) => l.id === id);
+  if (!lote) throw new Error(`lote ${id} não existe`);
+  if (lote.etapa !== "pendente" || existsSync(`${pasta(id)}/gerado.json`) || lote.reaberto)
+    throw new Error(`lote ${id} já produziu arquivos (ou foi reaberto); não dá para cancelar`);
+  estado.lotes = estado.lotes.filter((l) => l.id !== id);
+  salvarEstado(estado);
+  rmSync(pasta(id), { recursive: true, force: true });
+  console.log(`${id}: cancelado`);
+}
+
+// ---------- reabrir um lote concluído (reprocessar com regras novas) ----------
+
+/**
+ * Tira do local.db o que o lote importou (fila e, se aprovado, questoes/flashcards), guarda os arquivos
+ * como *.vN e devolve o lote para "pendente" com um pedido de reescrita das questões atuais.
+ * Recusa se algum aluno já respondeu ou revisou um item do lote.
+ */
+async function reabrir(id: string) {
+  const estado = lerEstado();
+  const lote = estado.lotes.find((l) => l.id === id);
+  if (!lote) throw new Error(`lote ${id} não existe`);
+  if (lote.etapa !== "concluido") throw new Error(`lote ${id} está em "${lote.etapa}"; só lote concluído pode ser reaberto`);
+  const dir = pasta(id);
+  const filtroQ = like(schema.questoesRevisao.lote, `producao/${id}/%`);
+  const filtroF = like(schema.flashcardsRevisao.lote, `producao/${id}/%`);
+  const codigosQ = (await banco.select({ c: schema.questoesRevisao.codigo }).from(schema.questoesRevisao).where(filtroQ)).map((r) => r.c);
+  const codigosF = (await banco.select({ c: schema.flashcardsRevisao.codigo }).from(schema.flashcardsRevisao).where(filtroF)).map((r) => r.c);
+  const idsQ = codigosQ.length ? (await banco.select({ id: schema.questoes.id }).from(schema.questoes).where(inArray(schema.questoes.codigo, codigosQ))).map((r) => r.id) : [];
+  const idsF = codigosF.length ? (await banco.select({ id: schema.flashcards.id }).from(schema.flashcards).where(inArray(schema.flashcards.codigo, codigosF))).map((r) => r.id) : [];
+  const usadas = idsQ.length ? await banco.select({ id: schema.respostas.id }).from(schema.respostas).where(inArray(schema.respostas.questaoId, idsQ)).limit(1) : [];
+  const revistos = idsF.length ? await banco.select({ id: schema.revisoesFlashcard.flashcardId }).from(schema.revisoesFlashcard).where(inArray(schema.revisoesFlashcard.flashcardId, idsF)).limit(1) : [];
+  if (usadas.length || revistos.length) throw new Error(`lote ${id} já tem respostas ou revisões de alunos; não dá para reabrir`);
+
+  // Versão atual dos itens (originais + regenerados que passaram), para o gerador reescrever.
+  const original = validarGerado(lote, `${dir}/gerado.json`).dados!;
+  const regen = existsSync(`${dir}/regen-gerado.json`) ? esquemaLoteProducao.parse(lerJson(`${dir}/regen-gerado.json`)) : null;
+  const descartados = new Set((lote.resultado?.descartes ?? []).map((d) => d.id));
+  const questoes = original.questoes.map((q) => regen?.questoes.find((r) => r.id === q.id) ?? q).filter((q) => !descartados.has(q.id));
+  const flashcards = original.flashcards.map((f) => regen?.flashcards.find((r) => r.id === f.id) ?? f).filter((f) => !descartados.has(f.id));
+  const problemas = [...questoes.flatMap((q) => conferirQuestao(q, lote.alternativas)), ...conferirLote(questoes)];
+
+  if (idsQ.length) await banco.delete(schema.questoes).where(inArray(schema.questoes.id, idsQ));
+  if (idsF.length) await banco.delete(schema.flashcards).where(inArray(schema.flashcards.id, idsF));
+  await banco.delete(schema.questoesRevisao).where(filtroQ);
+  await banco.delete(schema.flashcardsRevisao).where(filtroF);
+  const { recontar } = await import("../lib/recontar");
+  await recontar(banco);
+
+  const versao = (lote.reaberto ?? 0) + 1;
+  for (const nome of ["gerado.json", "auditoria-entrada.json", "auditoria-1.json", "auditoria-2.json", "regen-entrada.md", "regen-gerado.json", "regen-auditoria-entrada.json", "regen-auditoria-1.json", "regen-auditoria-2.json", "entrada.md"]) {
+    const caminho = `${dir}/${nome}`;
+    if (existsSync(caminho)) renameSync(caminho, caminho.replace(/\.(json|md)$/, `.v${versao}.$1`));
+  }
+  const tax = lerTaxonomia();
+  const extra = `## Reescrita do lote
+Este lote já foi gerado e auditado, mas não passa nas regras novas de tamanho e tom das alternativas. Reescreva as ${questoes.length} questões abaixo${questoes.length < QUESTOES_POR_LOTE ? ` e crie ${QUESTOES_POR_LOTE - questoes.length} novas até completar q01 a q10` : ""}, mantendo em cada uma: id, tema, subtema, dificuldade, o ponto cobrado e a alternativa correta (mesmo conteúdo). Mude principalmente as alternativas, para que nenhuma pista denuncie a resposta, e atualize a análise das alternativas e o comentário. Mantenha os flashcards (ajuste só se alguma regra pedir).
+Problemas encontrados na versão atual:
+${problemas.map((p) => `- ${p}`).join("\n") || "- nenhum apontado em código; equilibre mesmo assim"}
+
+## Versão atual (JSON)
+${JSON.stringify({ questoes, flashcards }, null, 2)}`;
+  writeFileSync(`${dir}/entrada.md`, await entrada(tax, lote, extra));
+  lote.etapa = "pendente";
+  lote.tentativas = {};
+  lote.reprovadas = { questoes: [], flashcards: [] };
+  lote.reaberto = versao;
+  delete lote.resultado;
+  delete lote.concluidoEm;
+  salvarEstado(estado);
+  console.log(`${id}: reaberto (versão ${versao}); ${idsQ.length} questões e ${idsF.length} flashcards tirados do banco; ${problemas.length} problemas para corrigir.`);
+}
+
 // ---------- relatório da noite e notificação ----------
 
 /** Noite D vai de D 12h até D+1 12h (horário do computador). Sem data: a noite que acabou de terminar. */
@@ -761,7 +892,44 @@ function janela(data?: string) {
   return { inicio: base, fim, rotulo };
 }
 
-function relatorio(data?: string) {
+/** Pistas involuntárias nas questões importadas dos lotes: correta mais curta, mais longa, termos absolutos. */
+async function metricasPistas(lotes: string[]) {
+  if (!lotes.length) return null;
+  const linhas = await banco
+    .select({ alternativas: schema.questoesRevisao.alternativas, gabarito: schema.questoesRevisao.gabarito })
+    .from(schema.questoesRevisao)
+    .where(or(...lotes.map((id) => like(schema.questoesRevisao.lote, `producao/${id}/%`))));
+  if (!linhas.length) return null;
+  let curta = 0;
+  let longa = 0;
+  let soErradas = 0;
+  let absErradas = 0;
+  let totalErradas = 0;
+  let absCorreta = 0;
+  for (const l of linhas) {
+    const q = { alternativas: l.alternativas.map((a) => ({ id: a.letra, texto: a.texto })), id_correta: l.gabarito } as QuestaoGerada;
+    const t = tamanhoDaCorreta(q);
+    if (t.maisCurta) curta++;
+    if (t.maisLonga) longa++;
+    if (absolutoSoNasErradas(q)) soErradas++;
+    const erradas = l.alternativas.filter((a) => a.letra !== l.gabarito);
+    totalErradas += erradas.length;
+    absErradas += erradas.filter((a) => PADRAO_ABSOLUTO.test(a.texto)).length;
+    if (PADRAO_ABSOLUTO.test(l.alternativas.find((a) => a.letra === l.gabarito)?.texto ?? "")) absCorreta++;
+  }
+  const pct = (n: number, d: number) => `${Math.round((100 * n) / Math.max(d, 1))}%`;
+  const n = linhas.length;
+  return {
+    n,
+    maisCurta: pct(curta, n),
+    maisLonga: pct(longa, n),
+    absolutosErradas: pct(absErradas, totalErradas),
+    absolutosCorreta: pct(absCorreta, n),
+    absolutoSoNasErradas: pct(soErradas, n),
+  };
+}
+
+async function relatorio(data?: string) {
   const { inicio, fim, rotulo } = janela(data);
   const estado = lerEstado();
   const dentro = (iso?: string) => Boolean(iso) && new Date(iso!) >= inicio && new Date(iso!) < fim;
@@ -775,6 +943,16 @@ function relatorio(data?: string) {
     `${c.geradas} geradas, ${c.aprovadas} aprovadas, ${c.fila} retidas${c.descartadas ? `, ${c.descartadas} descartadas` : ""}${c.duplicadas ? `, ${c.duplicadas} duplicadas` : ""}`;
   const porTopico = new Map<string, Lote[]>();
   for (const l of lotes) porTopico.set(l.topico, [...(porTopico.get(l.topico) ?? []), l]);
+  const m = await metricasPistas(lotes.filter((l) => l.etapa === "concluido").map((l) => l.id));
+  const pistas = m
+    ? `## Pistas involuntárias (${m.n} questões importadas)
+| Correta é a mais curta | Correta é a mais longa | Termo absoluto nas erradas | Termo absoluto na correta | Questões com absoluto só nas erradas |
+|---|---|---|---|---|
+| ${m.maisCurta} | ${m.maisLonga} | ${m.absolutosErradas} das alternativas | ${m.absolutosCorreta} | ${m.absolutoSoNasErradas} |
+
+Referência sem pista: mais curta e mais longa perto de 25% (4 alternativas) ou 20% (5); absolutos parecidos entre erradas e correta.
+`
+    : "";
   const md = `# Produção da noite ${rotulo.split("-").reverse().join("/")}
 
 | | Geradas | Aprovadas sozinhas | Retidas na fila | Descartadas | Duplicadas |
@@ -786,6 +964,7 @@ function relatorio(data?: string) {
 - Erros de formato corrigidos ou não: ${erros.length}; pausas por limite de uso: ${limites}
 - Revisar na fila: /admin/revisao (aba Questões e aba Flashcards)
 
+${pistas}
 ## Por tópico
 ${[...porTopico].map(([topico, ls]) => `- ${topico}: ${ls.map((l) => (l.resultado ? `${l.id.split("-").at(-1)} (q ${l.resultado.questoes.aprovadas}/${l.resultado.questoes.geradas}, f ${l.resultado.flashcards.aprovadas}/${l.resultado.flashcards.geradas})` : `${l.id.split("-").at(-1)} falhou`)).join(", ")}`).join("\n") || "- nenhum lote concluído"}
 
@@ -797,7 +976,7 @@ ${[...erros.map((e) => `- ${e.quando.slice(11, 16)} ${e.lote ?? ""}: ${e.msg}`),
 `;
   mkdirSync(PASTA_RELATORIOS, { recursive: true });
   writeFileSync(`${PASTA_RELATORIOS}/${rotulo}.md`, md);
-  const curto = `Questões: ${linha(t.questoes)}. Flashcards: ${linha(t.flashcards)}. Erros: ${erros.length + t.falharam}.`;
+  const curto = `Questões: ${linha(t.questoes)}. Flashcards: ${linha(t.flashcards)}. Erros: ${erros.length + t.falharam}.${m ? ` Pistas: correta mais curta ${m.maisCurta}, mais longa ${m.maisLonga}, absoluto só nas erradas ${m.absolutoSoNasErradas}.` : ""}`;
   return { rotulo, arquivo: `${PASTA_RELATORIOS}/${rotulo}.md`, curto };
 }
 
@@ -807,7 +986,7 @@ async function notificar(data?: string, teste = false) {
   const env: Record<string, string> = {};
   config({ path: ".env.local", processEnv: env, quiet: true });
   const topico = env.NTFY_TOPICO ?? process.env.NTFY_TOPICO;
-  const r = relatorio(data);
+  const r = await relatorio(data);
   const titulo = teste ? `Teste: produção ${r.rotulo.split("-").reverse().join("/")}` : `Produção da noite ${r.rotulo.split("-").reverse().join("/")}`;
   if (!topico) {
     console.log(`Sem NTFY_TOPICO no .env.local; notificação não enviada.\n${titulo}: ${r.curto}`);
@@ -829,8 +1008,11 @@ if (comando === "iniciar") iniciar();
 else if (comando === "proximo") await proximo();
 else if (comando === "conferir" && a1 && a2) conferir(a1, a2);
 else if (comando === "status") status();
+else if (comando === "reabrir" && a1) await reabrir(a1);
+else if (comando === "cancelar" && a1) cancelar(a1);
+else if (comando === "fila") await fila(Number(opcao("n") ?? 6));
 else if (comando === "relatorio") {
-  const r = relatorio(opcao("data"));
+  const r = await relatorio(opcao("data"));
   console.log(`${r.arquivo}\n${r.curto}`);
 } else if (comando === "notificar") await notificar(opcao("data"), argumentos.includes("--teste"));
 else if (comando === "log" && a1) {
@@ -838,7 +1020,7 @@ else if (comando === "log" && a1) {
   mkdirSync(PASTA_RELATORIOS, { recursive: true });
   appendFileSync(`${PASTA_RELATORIOS}/${janela().rotulo}.log`, `${new Date().toLocaleString("pt-BR")} ${argumentos.slice(1).join(" ")}\n`);
 } else if (comando) {
-  console.log("Comandos: iniciar [--teto N] [--paralelo N] | proximo | conferir <lote> <arquivo> | status | relatorio [--data D] | notificar [--data D] [--teste] | log <texto>");
+  console.log("Comandos: iniciar [--teto N] [--paralelo N] | proximo | conferir <lote> <arquivo> | status | reabrir <lote> | relatorio [--data D] | notificar [--data D] [--teste] | log <texto>");
   process.exitCode = 1;
 }
 // Evita aviso de importação sem uso quando o filtro "ne" não é usado em alguma versão.

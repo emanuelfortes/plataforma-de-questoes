@@ -219,19 +219,19 @@
       "alternativas": [
         {
           "id": "a1",
-          "texto": "o incômodo causado pela curiosidade e pelos comentários dos vizinhos sobre a vida dos outros."
+          "texto": "o incômodo causado pela curiosidade com que os vizinhos observam e comentam a vida alheia."
         },
         {
           "id": "a2",
-          "texto": "o ruído intenso provocado pelo trânsito de veículos nas ruas estreitas das cidades pequenas."
+          "texto": "o ruído intenso que o trânsito de veículos provoca nas ruas estreitas das pequenas cidades do interior."
         },
         {
           "id": "a3",
-          "texto": "o som das janelas que batem por causa do vento forte no fim da tarde."
+          "texto": "o som das janelas que batem por causa do vento forte que sopra sobre a cidade no fim da tarde."
         },
         {
           "id": "a4",
-          "texto": "a ausência completa de qualquer tipo de som nas cidades do interior."
+          "texto": "a completa ausência de qualquer tipo de som nas tranquilas cidades do interior do país."
         }
       ],
       "id_correta": "a1",
@@ -240,7 +240,7 @@
         {
           "id": "a1",
           "correta": true,
-          "justificativa": "O próprio texto define o barulho como os comentários dos vizinhos sobre a vida alheia."
+          "justificativa": "O próprio texto define o barulho como a curiosidade dos vizinhos ao comentar a vida alheia."
         },
         {
           "id": "a2",
@@ -264,7 +264,7 @@
       "pegadinha": "Prender-se ao sentido literal de barulho como ruído sonoro, em vez do figurado.",
       "lei_referencia": "não se aplica",
       "macete_do_riccardo": null,
-      "fique_ligado": "Quando o texto usa aspas ou retoma uma palavra para explicá-la, ele está sinalizando sentido figurado.",
+      "fique_ligado": "Quando o texto retoma uma palavra para explicá-la, ele está sinalizando sentido figurado.",
       "cuidado_na_prova": null,
       "tipo_cobranca": "interpretacao",
       "exigencia_cognitiva": "analise",
@@ -433,15 +433,15 @@
         },
         {
           "id": "a2",
-          "texto": "confirma de modo categórico que toda leitura resulta, sem exceção, na formação de cidadãos críticos."
+          "texto": "confirma de modo categórico que toda a leitura que se faça resulta na formação de cidadãos críticos."
         },
         {
           "id": "a3",
-          "texto": "afirma com certeza absoluta que a leitura jamais contribui para o pensamento crítico de quem lê."
+          "texto": "afirma que a leitura jamais contribui para o pensamento crítico de quem se dedica a ela."
         },
         {
           "id": "a4",
-          "texto": "muda bruscamente de assunto, abandonando o tema da leitura introduzido na frase inicial do texto."
+          "texto": "muda bruscamente de assunto e abandona o tema da leitura que havia sido introduzido na frase inicial do texto."
         }
       ],
       "id_correta": "a1",
@@ -460,7 +460,7 @@
         {
           "id": "a3",
           "correta": false,
-          "justificativa": "O autor não nega com certeza absoluta; o Talvez indica justamente a ausência de certeza."
+          "justificativa": "O autor não nega de todo; o Talvez indica justamente a ausência de certeza."
         },
         {
           "id": "a4",
@@ -503,7 +503,7 @@
         },
         {
           "id": "a2",
-          "texto": "o cachorro do apartamento vizinho realmente latia a noite toda e tirava o sono do morador que reclamava."
+          "texto": "o cachorro do apartamento vizinho de fato latia durante toda a noite e tirava o sono do morador que fizera a reclamação ao síndico."
         },
         {
           "id": "a3",
@@ -511,7 +511,7 @@
         },
         {
           "id": "a4",
-          "texto": "o morador ao lado conversava à noite com visitas frequentes que apareciam apenas depois do anoitecer."
+          "texto": "o morador ao lado conversava à noite com visitas que só apareciam depois do anoitecer."
         }
       ],
       "id_correta": "a1",
@@ -573,15 +573,15 @@
         },
         {
           "id": "a2",
-          "texto": "os dois textos defendem abertamente que a construção da praça foi a prioridade mais acertada para aquele bairro."
+          "texto": "os dois textos defendem que a construção da praça foi a prioridade mais acertada para aquele bairro."
         },
         {
           "id": "a3",
-          "texto": "o primeiro texto critica a obra enquanto o segundo a elogia por atender a uma antiga necessidade dos moradores."
+          "texto": "o primeiro texto critica duramente a obra, enquanto o segundo a elogia por atender a uma antiga e sentida necessidade dos moradores do local."
         },
         {
           "id": "a4",
-          "texto": "nenhum dos textos faz referência à praça recém-inaugurada, tratando ambos de problemas gerais da saúde pública."
+          "texto": "nenhum dos dois textos se refere à praça recém-inaugurada, tratando ambos de problemas gerais da saúde pública."
         }
       ],
       "id_correta": "a1",
@@ -706,7 +706,7 @@
       "id": "f01",
       "subtema": "Compreensão e interpretação de textos de gêneros variados",
       "frente": "Qual a diferença entre compreender e interpretar um texto?",
-      "verso": "Compreender é captar o que o texto diz de forma explícita (informações presentes na superfície); interpretar é ir além, inferir sentidos, intenções e implícitos a partir do que está escrito. Regra da norma-padrão: a interpretação deve apoiar-se em dados do próprio texto, sem extrapolar para o que ele não autoriza.",
+      "verso": "Compreender é captar o que o texto diz de forma explícita (informações presentes na superfície); interpretar é ir além, inferir sentidos, intenções e implícitos a partir do que está escrito. A interpretação deve apoiar-se em dados do próprio texto, sem extrapolar para o que ele não autoriza.",
       "fundamento_legal": "não se aplica",
       "lei_referencia": "não se aplica",
       "palavras_chave": [
@@ -722,7 +722,7 @@
       "id": "f02",
       "subtema": "Compreensão e interpretação de textos de gêneros variados",
       "frente": "O que é uma inferência válida na interpretação de texto?",
-      "verso": "É a conclusão que se deduz logicamente a partir de informações do próprio texto, mesmo que não estejam ditas com todas as letras. Regra da norma-padrão: a inferência é válida quando ancorada em pistas textuais; extrapolar com dados externos ou suposições pessoais gera leitura indevida e costuma ser o distrator da questão.",
+      "verso": "É a conclusão que se deduz logicamente a partir de informações do próprio texto, mesmo que não estejam ditas com todas as letras. A inferência é válida quando ancorada em pistas textuais; extrapolar com dados externos ou suposições pessoais gera leitura indevida e costuma ser o distrator da questão.",
       "fundamento_legal": "não se aplica",
       "lei_referencia": "não se aplica",
       "palavras_chave": [
@@ -738,7 +738,7 @@
       "id": "f03",
       "subtema": "Compreensão e interpretação de textos de gêneros variados",
       "frente": "Qual a diferença entre sentido denotativo e sentido conotativo de uma palavra?",
-      "verso": "Denotativo é o sentido literal, de dicionário; conotativo é o sentido figurado, construído pelo contexto (metáforas, ironia, provérbios). Regra da norma-padrão: em textos literários e provérbios predomina a conotação, e tomar a palavra em sentido literal quando o contexto pede o figurado é erro comum de interpretação.",
+      "verso": "Denotativo é o sentido literal, de dicionário; conotativo é o sentido figurado, construído pelo contexto (metáforas, ironia, provérbios). Em textos literários e provérbios predomina a conotação, e tomar a palavra em sentido literal quando o contexto pede o figurado é erro comum de interpretação.",
       "fundamento_legal": "não se aplica",
       "lei_referencia": "não se aplica",
       "palavras_chave": [

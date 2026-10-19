@@ -35,17 +35,17 @@
         {
           "id": "a2",
           "correta": false,
-          "justificativa": "A Constituição dispensa expressamente a autorização estatal; exigir autorização da polícia inverte a regra do inciso XVI."
+          "justificativa": "A Constituição dispensa a autorização estatal; exigir autorização da polícia troca o prévio aviso por um ato de permissão que o inciso XVI não prevê."
         },
         {
           "id": "a3",
           "correta": false,
-          "justificativa": "Não há licença do Executivo municipal; o constituinte afastou qualquer ato de permissão prévia para a reunião pacífica."
+          "justificativa": "Não há licença do Executivo municipal; o constituinte afastou ato de permissão prévia, de modo que a reunião pacífica não depende de concessão administrativa."
         },
         {
           "id": "a4",
           "correta": false,
-          "justificativa": "Não se exige alvará judicial; o controle sobre o caráter lícito e pacífico não condiciona a realização por prévia decisão do juiz."
+          "justificativa": "Não se exige alvará judicial; o controle sobre o caráter lícito e pacífico não condiciona a realização da reunião a uma decisão prévia do juiz."
         }
       ],
       "fundamento_legal": "CF/1988, art. 5º, XVI",
@@ -79,19 +79,19 @@
       "alternativas": [
         {
           "id": "a1",
-          "texto": "ingresso por determinação judicial."
+          "texto": "o ingresso fundado em determinação judicial de busca domiciliar no imóvel."
         },
         {
           "id": "a2",
-          "texto": "ingresso em caso de flagrante delito."
+          "texto": "o ingresso motivado por situação de flagrante delito praticado dentro da residência."
         },
         {
           "id": "a3",
-          "texto": "ingresso em caso de desastre que atinja o imóvel."
+          "texto": "o ingresso provocado por desastre que atinja diretamente o imóvel."
         },
         {
           "id": "a4",
-          "texto": "ingresso para prestar socorro a quem esteja em perigo."
+          "texto": "o ingresso voltado a prestar socorro a quem esteja em grave perigo."
         }
       ],
       "id_correta": "a1",
@@ -100,22 +100,22 @@
         {
           "id": "a1",
           "correta": true,
-          "justificativa": "A determinação judicial é a única hipótese do inciso XI limitada ao dia; à noite ela não autoriza o ingresso sem consentimento."
+          "justificativa": "A determinação judicial é a única hipótese do inciso XI limitada ao dia; à noite ela não autoriza o ingresso sem consentimento do morador."
         },
         {
           "id": "a2",
           "correta": false,
-          "justificativa": "O flagrante delito autoriza a entrada a qualquer hora, de dia ou de noite, não ficando restrito ao período diurno."
+          "justificativa": "O flagrante delito autoriza a entrada tanto de dia quanto de noite, pois o inciso XI não o submete à limitação do período diurno."
         },
         {
           "id": "a3",
           "correta": false,
-          "justificativa": "O desastre permite o ingresso em qualquer horário, pois a urgência não se submete à limitação temporal."
+          "justificativa": "O desastre permite o ingresso em qualquer horário, já que a urgência de conter o dano não aguarda o amanhecer para legitimar a entrada."
         },
         {
           "id": "a4",
           "correta": false,
-          "justificativa": "A prestação de socorro autoriza a entrada a qualquer momento; a vida e a integridade não aguardam o amanhecer."
+          "justificativa": "A prestação de socorro autoriza a entrada a qualquer momento, pois a vida e a integridade física do morador não se sujeitam à restrição temporal."
         }
       ],
       "fundamento_legal": "CF/1988, art. 5º, XI",
@@ -149,19 +149,19 @@
       "alternativas": [
         {
           "id": "a1",
-          "texto": "é livre a manifestação do pensamento, sendo vedado o anonimato."
+          "texto": "é livre a manifestação do pensamento, sendo vedado o anonimato de seu autor."
         },
         {
           "id": "a2",
-          "texto": "é livre a manifestação do pensamento, inclusive de forma anônima, por abranger o sigilo da fonte."
+          "texto": "é livre a manifestação do pensamento, admitido o anonimato em razão do sigilo da fonte."
         },
         {
           "id": "a3",
-          "texto": "o direito de resposta é assegurado de forma plena, independentemente de qualquer proporção ao agravo."
+          "texto": "o direito de resposta é assegurado de forma plena, sem relação de proporção com o agravo."
         },
         {
           "id": "a4",
-          "texto": "o direito de resposta exclui a possibilidade de cumulação com indenização por dano material ou moral."
+          "texto": "o direito de resposta afasta a cumulação com a indenização por dano material ou moral."
         }
       ],
       "id_correta": "a1",
@@ -170,22 +170,22 @@
         {
           "id": "a1",
           "correta": true,
-          "justificativa": "Reproduz fielmente o art. 5º, IV: liberdade de manifestação do pensamento com vedação do anonimato."
+          "justificativa": "Reproduz fielmente o art. 5º, IV: liberdade de manifestação do pensamento com vedação do anonimato de quem se manifesta."
         },
         {
           "id": "a2",
           "correta": false,
-          "justificativa": "O anonimato é expressamente vedado pelo inciso IV; o sigilo da fonte (inciso XIV) não autoriza manifestar-se de modo anônimo."
+          "justificativa": "O anonimato é vedado pelo inciso IV; o sigilo da fonte (inciso XIV) protege a fonte da informação, mas não autoriza manifestar-se de modo anônimo."
         },
         {
           "id": "a3",
           "correta": false,
-          "justificativa": "O inciso V exige que o direito de resposta seja proporcional ao agravo, não plena e ilimitada."
+          "justificativa": "O inciso V exige que o direito de resposta seja proporcional ao agravo, e não uma resposta plena e desvinculada da gravidade da ofensa."
         },
         {
           "id": "a4",
           "correta": false,
-          "justificativa": "O inciso V prevê o direito de resposta além da indenização por dano material, moral ou à imagem, ou seja, admite a cumulação."
+          "justificativa": "O inciso V prevê o direito de resposta além da indenização por dano material, moral ou à imagem, de modo que a cumulação é admitida, e não afastada."
         }
       ],
       "fundamento_legal": "CF/1988, art. 5º, IV e V",
@@ -223,15 +223,15 @@
         },
         {
           "id": "a2",
-          "texto": "pode ser determinada diretamente pelo delegado de polícia responsável pelo inquérito, por se tratar de ato próprio da fase investigativa que antecede a formação da culpa."
+          "texto": "pode ser determinada pelo próprio delegado de polícia que preside o inquérito, por ser ato interno da fase investigativa anterior à denúncia."
         },
         {
           "id": "a3",
-          "texto": "é absolutamente vedada em qualquer situação, pois o sigilo das comunicações telefônicas não admite nenhuma exceção no texto constitucional, nem mesmo mediante decisão judicial."
+          "texto": "é vedada pelo texto constitucional, pois o sigilo das comunicações telefônicas foi excluído das ressalvas admitidas no inciso XII."
         },
         {
           "id": "a4",
-          "texto": "independe de ordem judicial sempre que houver prévia autorização do Ministério Público, na condição de titular privativo da ação penal pública incondicionada."
+          "texto": "independe de ordem judicial quando autorizada pelo Ministério Público, titular privativo da ação penal pública incondicionada."
         }
       ],
       "id_correta": "a1",
@@ -245,12 +245,12 @@
         {
           "id": "a2",
           "correta": false,
-          "justificativa": "O delegado não pode determinar a quebra; a Constituição reserva a autorização ao Poder Judiciário (ordem judicial)."
+          "justificativa": "O delegado não pode determinar a quebra; a Constituição reserva a autorização ao Poder Judiciário, por ordem judicial, ainda que na fase de inquérito."
         },
         {
           "id": "a3",
           "correta": false,
-          "justificativa": "O sigilo das comunicações telefônicas não é absoluto: o próprio inciso XII admite a exceção por ordem judicial."
+          "justificativa": "As comunicações telefônicas são justamente a hipótese ressalvada pelo inciso XII (\"no último caso\"), que admite a quebra por ordem judicial."
         },
         {
           "id": "a4",
@@ -359,19 +359,19 @@
       "alternativas": [
         {
           "id": "a1",
-          "texto": "ninguém poderá ser compelido a associar-se ou a permanecer associado."
+          "texto": "ninguém poderá ser compelido a associar-se nem obrigado a permanecer associado."
         },
         {
           "id": "a2",
-          "texto": "é plena a liberdade de associação, inclusive para fins de caráter paramilitar, desde que sem armas."
+          "texto": "a liberdade de associação abrange também os fins de caráter paramilitar, desde que sem armas."
         },
         {
           "id": "a3",
-          "texto": "a criação de associações e de cooperativas depende de prévia autorização do poder público competente."
+          "texto": "a criação de associações e de cooperativas depende de autorização prévia do poder público."
         },
         {
           "id": "a4",
-          "texto": "as associações podem ser compulsoriamente dissolvidas por ato administrativo da autoridade competente, dispensada decisão judicial."
+          "texto": "a dissolução compulsória de associação pode decorrer de ato administrativo da autoridade."
         }
       ],
       "id_correta": "a1",
@@ -385,17 +385,17 @@
         {
           "id": "a2",
           "correta": false,
-          "justificativa": "O inciso XVII veda expressamente a associação de caráter paramilitar; a ausência de armas não a torna lícita."
+          "justificativa": "O inciso XVII veda a associação de caráter paramilitar; a ausência de armas não a torna lícita, pois o vedado é o próprio caráter paramilitar."
         },
         {
           "id": "a3",
           "correta": false,
-          "justificativa": "O inciso XVIII dispensa autorização para a criação de associações e, na forma da lei, de cooperativas, vedada a interferência estatal."
+          "justificativa": "O inciso XVIII dispensa autorização para a criação de associações e, na forma da lei, de cooperativas, vedando a interferência estatal no funcionamento."
         },
         {
           "id": "a4",
           "correta": false,
-          "justificativa": "O inciso XIX exige decisão judicial para a dissolução compulsória, com trânsito em julgado, não bastando ato administrativo."
+          "justificativa": "O inciso XIX exige decisão judicial para a dissolução compulsória, com trânsito em julgado, de modo que o ato administrativo não basta."
         }
       ],
       "fundamento_legal": "CF/1988, art. 5º, XVII a XX",
@@ -433,15 +433,15 @@
         },
         {
           "id": "a2",
-          "texto": "não poderá sofrer qualquer restrição de direitos em razão da conduta, pois a liberdade de convicção filosófica é garantia insuscetível de qualquer limitação, mesmo diante da recusa."
+          "texto": "não poderá sofrer restrição de direitos, pois a convicção filosófica é protegida pela liberdade de consciência."
         },
         {
           "id": "a3",
-          "texto": "somente poderá ser privada de direitos mediante autorização prévia e específica do Poder Judiciário, obtida em processo próprio que apure a legitimidade da recusa manifestada."
+          "texto": "só poderá ser privada de direitos mediante autorização prévia do Poder Judiciário, obtida em processo próprio que apure a legitimidade da recusa manifestada pela pessoa."
         },
         {
           "id": "a4",
-          "texto": "poderá ser privada de direitos apenas se a convicção invocada para a recusa tiver natureza religiosa, afastando-se a regra quando a motivação for meramente filosófica ou política."
+          "texto": "poderá ser privada de direitos apenas se a convicção invocada para a recusa tiver natureza religiosa, afastando-se a regra quando a motivação for filosófica ou política."
         }
       ],
       "id_correta": "a1",
@@ -455,17 +455,17 @@
         {
           "id": "a2",
           "correta": false,
-          "justificativa": "O inciso VIII admite a privação de direitos justamente na hipótese descrita; a liberdade de convicção não é imune à ressalva legal."
+          "justificativa": "O inciso VIII admite a privação de direitos justamente na hipótese descrita; a liberdade de convicção cede diante da dupla recusa prevista na ressalva legal."
         },
         {
           "id": "a3",
           "correta": false,
-          "justificativa": "O inciso VIII não condiciona a privação de direitos a autorização judicial prévia em processo específico."
+          "justificativa": "O inciso VIII não condiciona a privação de direitos a autorização judicial prévia obtida em processo específico de apuração da recusa."
         },
         {
           "id": "a4",
           "correta": false,
-          "justificativa": "O inciso VIII abrange crença religiosa e também convicção filosófica ou política; a natureza filosófica não afasta a regra."
+          "justificativa": "O inciso VIII abrange a crença religiosa e também a convicção filosófica ou política; a natureza filosófica da convicção não afasta a regra."
         }
       ],
       "fundamento_legal": "CF/1988, art. 5º, VIII",
@@ -499,19 +499,19 @@
       "alternativas": [
         {
           "id": "a1",
-          "texto": "alcança o estrangeiro não residente, pois as garantias do art. 5º projetam-se sobre quem esteja sujeito à ordem jurídica brasileira."
+          "texto": "alcança o estrangeiro não residente, pois as garantias do art. 5º projetam-se sobre toda pessoa sujeita à ordem jurídica brasileira."
         },
         {
           "id": "a2",
-          "texto": "não alcança o estrangeiro não residente, pois o caput do art. 5º restringe de modo literal os direitos ali previstos aos brasileiros e aos estrangeiros residentes no País."
+          "texto": "não alcança o estrangeiro não residente, pois o caput do art. 5º refere os direitos ali previstos aos brasileiros e aos estrangeiros residentes no País."
         },
         {
           "id": "a3",
-          "texto": "alcança o estrangeiro apenas na hipótese de existir tratado internacional de reciprocidade de direitos firmado entre o Brasil e o país de origem do turista visitante."
+          "texto": "alcança o estrangeiro apenas se houver tratado internacional de reciprocidade de direitos firmado entre o Brasil e o país de origem do turista."
         },
         {
           "id": "a4",
-          "texto": "não alcança o estrangeiro em nenhuma hipótese, pois a inviolabilidade do domicílio é direito reservado de modo exclusivo ao brasileiro nato ou ao naturalizado."
+          "texto": "não alcança o estrangeiro, pois a inviolabilidade do domicílio é direito reservado ao brasileiro nato ou naturalizado."
         }
       ],
       "id_correta": "a1",
@@ -525,12 +525,12 @@
         {
           "id": "a2",
           "correta": false,
-          "justificativa": "Prende-se à leitura literal do caput, ignorando que as garantias do art. 5º não se limitam ao estrangeiro residente."
+          "justificativa": "Prende-se à leitura literal do caput, ignorando que as garantias do art. 5º não se limitam ao estrangeiro residente, mas alcançam quem está sob a lei brasileira."
         },
         {
           "id": "a3",
           "correta": false,
-          "justificativa": "A proteção não depende de tratado de reciprocidade; a reciprocidade é exigida para situação diversa (portugueses equiparados, art. 12, § 1º)."
+          "justificativa": "A proteção não depende de tratado de reciprocidade; a reciprocidade é exigida para situação diversa, a dos portugueses equiparados (art. 12, § 1º)."
         },
         {
           "id": "a4",
@@ -573,15 +573,15 @@
         },
         {
           "id": "a2",
-          "texto": "nem o estado de defesa nem o estado de sítio podem atingir a liberdade de reunião, que é cláusula imune a qualquer restrição."
+          "texto": "a liberdade de reunião permanece intangível no estado de defesa e no estado de sítio, que não podem restringi-la nem suspendê-la."
         },
         {
           "id": "a3",
-          "texto": "apenas o estado de sítio, e nunca o estado de defesa, autoriza restrições à liberdade de reunião dos cidadãos."
+          "texto": "só o estado de sítio, e não o estado de defesa, autoriza medidas restritivas à liberdade de reunião dos cidadãos."
         },
         {
           "id": "a4",
-          "texto": "no estado de defesa é permitida a suspensão integral da liberdade de reunião, enquanto o estado de sítio apenas a restringe."
+          "texto": "no estado de defesa cabe a suspensão da liberdade de reunião, ao passo que o estado de sítio apenas a restringe."
         }
       ],
       "id_correta": "a1",
@@ -595,12 +595,12 @@
         {
           "id": "a2",
           "correta": false,
-          "justificativa": "A liberdade de reunião pode ser restringida no estado de defesa e até suspensa no estado de sítio (arts. 136 e 139); não é imune a restrições."
+          "justificativa": "A liberdade de reunião pode ser restringida no estado de defesa e suspensa no estado de sítio (arts. 136 e 139), de modo que não é intangível."
         },
         {
           "id": "a3",
           "correta": false,
-          "justificativa": "O estado de defesa também pode restringir a reunião (art. 136, § 1º, I, a); não é privilégio exclusivo do estado de sítio."
+          "justificativa": "O estado de defesa também pode restringir a reunião (art. 136, § 1º, I, a), não sendo essa medida exclusiva do estado de sítio."
         },
         {
           "id": "a4",
@@ -643,15 +643,15 @@
         },
         {
           "id": "a2",
-          "texto": "pode ser aprovada normalmente, desde que observado o quórum de três quintos, em dois turnos, em cada Casa do Congresso Nacional."
+          "texto": "pode ser aprovada se observado o quórum de três quintos, em dois turnos, em cada Casa do Congresso Nacional, como qualquer emenda."
         },
         {
           "id": "a3",
-          "texto": "pode ser objeto de deliberação, pois somente a forma federativa de Estado e a separação dos Poderes constituem cláusulas pétreas."
+          "texto": "pode ser objeto de deliberação, pois só a forma federativa e a separação dos Poderes figuram entre os limites materiais à reforma."
         },
         {
           "id": "a4",
-          "texto": "depende de aprovação por plebiscito, já que as garantias individuais só podem ser alteradas por manifestação direta do povo."
+          "texto": "depende de aprovação por plebiscito, já que garantias individuais só se alteram por manifestação direta do povo convocado para tanto."
         }
       ],
       "id_correta": "a1",

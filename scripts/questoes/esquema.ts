@@ -78,9 +78,26 @@ export type LoteGerado = z.infer<typeof esquemaLoteGerado>;
 export type Auditoria = z.infer<typeof esquemaAuditoria>;
 export type LoteAuditado = z.infer<typeof esquemaLoteAuditado>;
 
-// Pista pelo tamanho: a correta não pode ser muito mais longa que as outras.
+// Pista pelo tamanho, nos dois sentidos: a correta não pode se destacar nem por ser a mais longa
+// nem por ser a mais curta.
 export const LIMITE_TAMANHO = 1.25; // correta até 25% mais longa que a média das erradas
-export const MAX_CORRETA_MAIS_LONGA_NO_LOTE = 0.4; // em um lote, a correta é a mais longa em no máximo 40%
+export const LIMITE_TAMANHO_MINIMO = 0.8; // e no mínimo 80% da média das erradas
+export const MAX_POR_LOTE_MAIS_LONGA = 3; // num lote de 10, correta mais longa em no máximo 3
+export const MAX_POR_LOTE_MAIS_CURTA = 3; // e mais curta em no máximo 3
+export const MAX_POR_LOTE_ABSOLUTO_SO_NAS_ERRADAS = 2; // questões com termo absoluto só nas erradas
+
+/**
+ * Termos absolutos que denunciam o distrator quando só as erradas os usam ("sempre", "jamais"...).
+ * A correta pode tê-los quando a lei usa; a pista é a assimetria sistemática.
+ */
+export const PADRAO_ABSOLUTO =
+  /\b(sempre|nunca|jamais|absolutamente|em qualquer (hip[óo]tese|caso|circunst[âa]ncia|situa[çc][ãa]o)|em nenhuma hip[óo]tese|tod[oa] e qualquer|automaticamente|necessariamente|sem (qualquer )?exce[çc][ãa]o|incondicionalmente|independentemente de qualquer)\b/i;
+
+/** A questão tem termo absoluto em alguma errada e nenhum na correta. */
+export function absolutoSoNasErradas(q: { alternativas: { id: string; texto: string }[]; id_correta: string }) {
+  const correta = q.alternativas.find((a) => a.id === q.id_correta)?.texto ?? "";
+  return !PADRAO_ABSOLUTO.test(correta) && q.alternativas.some((a) => a.id !== q.id_correta && PADRAO_ABSOLUTO.test(a.texto));
+}
 
 /** Posição da correta no ranking de tamanho (1 = a mais longa) e quanto ela passa da média das outras. */
 export function tamanhoDaCorreta(q: QuestaoGerada) {
@@ -88,17 +105,25 @@ export function tamanhoDaCorreta(q: QuestaoGerada) {
   const outras = q.alternativas.filter((a) => a.id !== q.id_correta).map((a) => a.texto.length);
   const media = outras.reduce((s, n) => s + n, 0) / Math.max(outras.length, 1);
   const posicao = 1 + outras.filter((n) => n > correta).length;
-  return { correta, media: Math.round(media), posicao, razao: media ? correta / media : 1, maisLonga: posicao === 1 };
+  const maisCurta = outras.length > 0 && outras.every((n) => n > correta);
+  return { correta, media: Math.round(media), posicao, razao: media ? correta / media : 1, maisLonga: posicao === 1, maisCurta };
 }
 
-/** Regras do lote inteiro que uma questão sozinha não mostra. */
+/** Regras do lote inteiro que uma questão sozinha não mostra (limites para um lote de 10, proporcionais). */
 export function conferirLote(questoes: QuestaoGerada[]): string[] {
   if (questoes.length < 5) return [];
+  const proporcional = (max: number) => Math.round((max * questoes.length) / 10);
+  const erros: string[] = [];
   const longas = questoes.filter((q) => tamanhoDaCorreta(q).maisLonga).map((q) => q.id);
-  const limite = Math.floor(questoes.length * MAX_CORRETA_MAIS_LONGA_NO_LOTE);
-  return longas.length > limite
-    ? [`a correta é a alternativa mais longa em ${longas.length} de ${questoes.length} questões (${longas.join(", ")}); o máximo é ${limite}. Reescreva algumas para que uma errada seja a mais longa.`]
-    : [];
+  const curtas = questoes.filter((q) => tamanhoDaCorreta(q).maisCurta).map((q) => q.id);
+  const absolutos = questoes.filter(absolutoSoNasErradas).map((q) => q.id);
+  if (longas.length > proporcional(MAX_POR_LOTE_MAIS_LONGA))
+    erros.push(`a correta é a alternativa mais longa em ${longas.length} questões (${longas.join(", ")}); o máximo no lote é ${proporcional(MAX_POR_LOTE_MAIS_LONGA)}. Reescreva algumas para que uma errada seja a mais longa.`);
+  if (curtas.length > proporcional(MAX_POR_LOTE_MAIS_CURTA))
+    erros.push(`a correta é a alternativa mais curta em ${curtas.length} questões (${curtas.join(", ")}); o máximo no lote é ${proporcional(MAX_POR_LOTE_MAIS_CURTA)}. Deixe as erradas mais enxutas ou a correta mais completa, com o mesmo tom.`);
+  if (absolutos.length > MAX_POR_LOTE_ABSOLUTO_SO_NAS_ERRADAS)
+    erros.push(`termos absolutos ("sempre", "jamais", "automaticamente", "em qualquer hipótese"...) aparecem só nas erradas em ${absolutos.length} questões (${absolutos.join(", ")}); o máximo é ${MAX_POR_LOTE_ABSOLUTO_SO_NAS_ERRADAS}. Faça as erradas errarem por conteúdo (prazo, requisito, regra e exceção), não por exagero.`);
+  return erros;
 }
 
 /** Regras que o esquema sozinho não expressa (número de alternativas, ids coerentes, tamanho, notas). */
@@ -108,6 +133,10 @@ export function conferirQuestao(q: QuestaoGerada, alternativas: number, sensivei
   if (t.razao > LIMITE_TAMANHO)
     erros.push(
       `${q.id}: a correta tem ${t.correta} caracteres, ${Math.round((t.razao - 1) * 100)}% acima da média das erradas (${t.media}); o máximo é ${Math.round((LIMITE_TAMANHO - 1) * 100)}%. Deixe os distratores com tamanho e nível de detalhe parecidos`,
+    );
+  if (t.razao < LIMITE_TAMANHO_MINIMO)
+    erros.push(
+      `${q.id}: a correta tem ${t.correta} caracteres, ${Math.round((1 - t.razao) * 100)}% abaixo da média das erradas (${t.media}); o mínimo é ${Math.round(LIMITE_TAMANHO_MINIMO * 100)}% da média. A correta não pode se destacar por ser enxuta: iguale tamanho e tom`,
     );
   for (const d of dispositivosSemNota(q, sensiveis))
     erros.push(`${q.id}: cobra ${d} sem a nota obrigatória no comentario_geral (inconstitucionalidade, interpretação conforme ou não recepção; veja data/dispositivos-sensiveis.json)`);

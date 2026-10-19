@@ -10,7 +10,7 @@
       "fundamento_confere": true,
       "problemas": [],
       "correcao_sugerida": null,
-      "justificativa": "O art. 5º, XVI, dispensa autorização e exige apenas prévio aviso à autoridade competente, exatamente o que afirma a1. Os demais distratores (autorização policial, licença do Executivo, alvará judicial) contrariam o texto. Fundamento confere."
+      "justificativa": "Resolvi antes de ver o gabarito: o art. 5º, XVI, exige apenas prévio aviso à autoridade competente, independentemente de autorização. a1 reproduz a regra; a2 (autorização policial), a3 (licença do Executivo) e a4 (alvará judicial) exigem atos de permissão que o inciso afasta. Fundamento confere; só uma correta."
     },
     {
       "id": "q02",
@@ -22,7 +22,7 @@
       "fundamento_confere": true,
       "problemas": [],
       "correcao_sugerida": null,
-      "justificativa": "Pelo art. 5º, XI, flagrante, desastre e socorro autorizam o ingresso a qualquer hora; só a determinação judicial fica restrita ao dia. a1 é a única hipótese limitada ao período diurno. Gabarito e fundamento conferem."
+      "justificativa": "Pelo art. 5º, XI, flagrante, desastre e socorro autorizam o ingresso a qualquer hora; só a determinação judicial fica restrita ao dia. a1 (determinação judicial) é a única hipótese diurna; a2, a3 e a4 valem a qualquer hora. Gabarito correto."
     },
     {
       "id": "q03",
@@ -34,7 +34,7 @@
       "fundamento_confere": true,
       "problemas": [],
       "correcao_sugerida": null,
-      "justificativa": "a1 reproduz o art. 5º, IV (liberdade de manifestação com vedação do anonimato). a2 (anonimato), a3 (resposta plena sem proporção) e a4 (exclusão da cumulação com indenização) contrariam os incisos IV e V. Fundamento confere."
+      "justificativa": "Art. 5º, IV (livre manifestação, vedado o anonimato) e V (direito de resposta proporcional ao agravo, além da indenização). a1 é fiel ao inciso IV; a2 (anonimato pelo sigilo da fonte), a3 (resposta sem proporção) e a4 (afasta a cumulação com indenização) contrariam o texto. Só uma correta."
     },
     {
       "id": "q04",
@@ -46,7 +46,7 @@
       "fundamento_confere": true,
       "problemas": [],
       "correcao_sugerida": null,
-      "justificativa": "A ressalva do art. 5º, XII, alcança as comunicações telefônicas e exige ordem judicial, nas hipóteses e na forma da lei, para investigação criminal ou instrução processual penal, como diz a1. Delegado (a2), vedação absoluta (a3) e MP (a4) estão errados. Fundamento confere."
+      "justificativa": "Art. 5º, XII: a interceptação telefônica depende de ordem judicial, nas hipóteses e na forma da lei, para investigação criminal ou instrução processual penal. a1 reproduz a ressalva; a2 (delegado), a3 (vedação absoluta, ignorando a ressalva do último caso) e a4 (Ministério Público) estão erradas. Gabarito confere."
     },
     {
       "id": "q05",
@@ -56,9 +56,15 @@
       "mais_de_uma_correta": false,
       "ambiguidade": false,
       "fundamento_confere": true,
-      "problemas": [],
+      "problemas": [
+        {
+          "tipo": "alternativas",
+          "gravidade": "baixa",
+          "descricao": "A alternativa a3 acrescenta ao núcleo constitucional (sigilo das votações, XXXVIII, b) a glosa descritiva \"reunidos em sala especial\" e \"decidem sobre o fato\", que é detalhe de nível infraconstitucional. Não compromete o item: o comando pede a garantia NÃO prevista, a3 afirma uma garantia que existe (sigilo das votações) e o núcleo permanece verdadeiro, mantendo a3 como assertiva correta e, portanto, não sendo a resposta."
+        }
+      ],
       "correcao_sugerida": null,
-      "justificativa": "O comando pede a garantia que NÃO se inclui. A competência do júri (art. 5º, XXXVIII, d) limita-se aos crimes dolosos contra a vida, logo a1 (todos os crimes dolosos) é a assertiva incorreta e a resposta correta. Plenitude de defesa, sigilo das votações e soberania dos veredictos (a2, a3, a4) são garantias reais. Fundamento confere."
+      "justificativa": "Comando pede a garantia que o art. 5º, XXXVIII, NÃO assegura. a1 (competência para todos os crimes dolosos) é falsa, pois a competência constitucional do júri é restrita aos crimes dolosos contra a vida: é a resposta. a2 (plenitude de defesa), a3 (sigilo das votações) e a4 (soberania dos veredictos) são garantias expressas. Gabarito confere; glosa de a3 é só descritiva."
     },
     {
       "id": "q06",
@@ -70,7 +76,7 @@
       "fundamento_confere": true,
       "problemas": [],
       "correcao_sugerida": null,
-      "justificativa": "a1 reproduz o art. 5º, XX (liberdade negativa de associação). a2 contraria o XVII (paramilitar vedada), a3 contraria o XVIII (independem de autorização) e a4 contraria o XIX (dissolução exige decisão judicial com trânsito em julgado). Fundamento confere."
+      "justificativa": "a1 reproduz o art. 5º, XX (ninguém compelido a associar-se ou a permanecer associado). a2 contraria o XVII (vedada a associação de caráter paramilitar, independentemente de armas); a3 contraria o XVIII (criação independe de autorização); a4 contraria o XIX (dissolução compulsória só por decisão judicial). Só uma correta; fundamento confere."
     },
     {
       "id": "q07",
@@ -82,7 +88,7 @@
       "fundamento_confere": true,
       "problemas": [],
       "correcao_sugerida": null,
-      "justificativa": "O art. 5º, VIII, autoriza a privação de direitos quando a pessoa invoca a convicção para eximir-se de obrigação a todos imposta e recusa a prestação alternativa fixada em lei, dupla recusa descrita no enunciado. a1 aplica corretamente a ressalva; a2, a3 e a4 estão errados. Fundamento confere."
+      "justificativa": "Art. 5º, VIII: a privação de direitos exige a dupla recusa (eximir-se da obrigação a todos imposta e recusar a prestação alternativa fixada em lei), exatamente o caso narrado. a1 aplica a ressalva; a2 (imunidade absoluta), a3 (autorização judicial prévia) e a4 (só se religiosa) contrariam o inciso. Gabarito correto."
     },
     {
       "id": "q08",
@@ -96,11 +102,16 @@
         {
           "tipo": "normativo",
           "gravidade": "media",
-          "descricao": "O caput do art. 5º, literalmente, estende a proteção a brasileiros e estrangeiros residentes no País. O gabarito (a1) afirma que o estrangeiro não residente também é titular da inviolabilidade do domicílio, o que corresponde ao entendimento consolidado do STF e da doutrina majoritária, mas NÃO decorre do texto legal fornecido (fonte única do auditor), que literalmente sustentaria a2. Como nenhuma lista de jurisprudência foi fornecida, não é possível confirmar o gabarito apenas pelo texto."
+          "descricao": "O gabarito a1 (a inviolabilidade do domicílio alcança o estrangeiro não residente) depende de entendimento doutrinário e jurisprudencial do STF que estende os direitos fundamentais a toda pessoa sob a ordem jurídica brasileira. Esse entendimento não está confirmado pela fonte única deste lote (o texto legal), cujo caput do art. 5º refere-se literalmente a \"estrangeiros residentes no País\"."
+        },
+        {
+          "tipo": "alternativas",
+          "gravidade": "media",
+          "descricao": "A alternativa a2 reproduz a leitura literal do caput do art. 5º (direitos aos brasileiros e estrangeiros residentes). Em prova de lei seca é defensável, pois é a redação do próprio dispositivo. O gabarito só se sustenta na interpretação não literal, o que torna a2 um distrator defensável e abre risco de mais de uma resposta sustentável a depender do recorte (letra da lei x entendimento consolidado)."
         }
       ],
-      "correcao_sugerida": null,
-      "justificativa": "O gabarito segue a tese majoritária de que os direitos fundamentais alcançam o estrangeiro não residente, posição defensável, porém baseada em interpretação/jurisprudência que extrapola a literalidade do caput do art. 5º, única fonte autorizada, sem lista de julgados que a ampare. Um revisor humano deve confirmar antes de validar."
+      "correcao_sugerida": "Para VALIDADA sem conferência humana, o enunciado deveria deixar explícito que cobra o entendimento do STF/doutrina sobre o alcance dos direitos fundamentais (e não a literalidade do caput), e o comentário deveria registrar expressamente que a resposta se afasta da redação literal. Como a fonte única não confirma a extensão e o distrator literal é defensável, deixo para decisão humana.",
+      "justificativa": "Resolvi a questão: pela literalidade do caput (fonte única), a2 é sustentável; pelo entendimento consolidado do STF e da doutrina, a1 está correto. Como a extensão aos estrangeiros não residentes não se confirma pelo texto legal fornecido e o distrator literal é defensável, o fundamento não se confirma na fonte única e cabe a um humano decidir o recorte."
     },
     {
       "id": "q09",
@@ -112,7 +123,7 @@
       "fundamento_confere": true,
       "problemas": [],
       "correcao_sugerida": null,
-      "justificativa": "a1 corresponde ao art. 136, § 1º, I, a (o estado de defesa pode restringir o direito de reunião, ainda que exercida no seio das associações). a2 (imunidade), a3 (só o estado de sítio) e a4 (inverte restrição e suspensão) contrariam os arts. 136 e 139, IV. Fundamento confere."
+      "justificativa": "a1 corresponde ao art. 136, § 1º, I, a (no estado de defesa o decreto pode restringir o direito de reunião, ainda que exercida no seio das associações). a2 (intangibilidade) e a3 (só o estado de sítio) ignoram o art. 136; a4 inverte a intensidade, pois é o estado de sítio que admite a suspensão da reunião (art. 139, IV). Gabarito confere."
     },
     {
       "id": "q10",
@@ -124,7 +135,7 @@
       "fundamento_confere": true,
       "problemas": [],
       "correcao_sugerida": null,
-      "justificativa": "O art. 60, § 4º, IV, veda a deliberação de proposta tendente a abolir direitos e garantias individuais, categoria à qual pertence a inviolabilidade do domicílio (art. 5º, XI). a1 está correta; o quórum (a2), o rol reduzido de cláusulas pétreas (a3) e o plebiscito (a4) estão errados. Fundamento confere."
+      "justificativa": "Art. 60, § 4º, IV: proposta de emenda tendente a abolir direitos e garantias individuais não pode ser objeto de deliberação. A inviolabilidade do domicílio (art. 5º, XI) é direito individual, logo cláusula pétrea. a1 está correta; a2 (quórum supera o limite), a3 (rol reduzido a federação e separação dos Poderes) e a4 (plebiscito) contrariam o § 4º. Gabarito confere."
     }
   ],
   "auditorias_flashcards": [
@@ -135,22 +146,16 @@
       "ambiguo": false,
       "problemas": [],
       "correcao_sugerida": null,
-      "justificativa": "O verso reproduz corretamente o art. 5º, XI: flagrante, desastre e socorro a qualquer hora; determinação judicial só durante o dia. A frente admite resposta única e o verso cita o dispositivo."
+      "justificativa": "O verso reflete o art. 5º, XI: flagrante, desastre e socorro a qualquer hora; determinação judicial só durante o dia. A frente admite resposta única e cita o dispositivo correto. Correto conforme a lei."
     },
     {
       "id": "f02",
-      "status": "VALIDADA_COM_RESSALVA",
+      "status": "VALIDADA",
       "correto_conforme_lei": true,
       "ambiguo": false,
-      "problemas": [
-        {
-          "tipo": "pedagogico",
-          "gravidade": "baixa",
-          "descricao": "O verso responde corretamente à frente (dissolução compulsória exige decisão judicial com trânsito em julgado; suspensão das atividades exige decisão judicial sem trânsito em julgado, art. 5º, XIX), mas acrescenta, ao final, a vedação à associação paramilitar (art. 5º, XVII), tema estranho à pergunta, contrariando a diretriz de um conceito por card."
-        }
-      ],
-      "correcao_sugerida": "Remover a frase final sobre a associação de caráter paramilitar (art. 5º, XVII), mantendo o verso restrito à exigência de decisão judicial e trânsito em julgado respondida na frente.",
-      "justificativa": "O conteúdo está correto conforme o art. 5º, XIX, e a frente tem resposta única; apenas convém suprimir a informação adicional sobre associação paramilitar, alheia à pergunta, para manter um conceito por card."
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O verso corresponde ao art. 5º, XIX (dissolução compulsória e suspensão das atividades por decisão judicial, exigindo-se trânsito em julgado só no primeiro caso) e ao XVII (vedação da associação paramilitar). Frente objetiva e sem ambiguidade; dispositivo citado."
     },
     {
       "id": "f03",
@@ -159,7 +164,7 @@
       "ambiguo": false,
       "problemas": [],
       "correcao_sugerida": null,
-      "justificativa": "O verso está conforme o art. 5º, XII: a interceptação telefônica exige ordem judicial, nas hipóteses e na forma da lei, só para investigação criminal ou instrução processual penal. A frente admite resposta única e o verso cita o dispositivo."
+      "justificativa": "O verso reproduz a ressalva do art. 5º, XII: quebra do sigilo das comunicações telefônicas por ordem judicial, nas hipóteses e na forma da lei, só para investigação criminal ou instrução processual penal. Frente de resposta única; dispositivo citado."
     }
   ]
 }
