@@ -1,0 +1,136 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvida de forma independente: só \"chegou à delegacia\" tem preposição exigida por \"chegar\" e artigo feminino. Os distratores erram por crase antes de verbo, de pronome pessoal e de palavra masculina (\"a pé\"), como explicado. Dentro do foco e com dificuldade fácil adequada."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O único emprego incorreto é \"à lápis\" (palavra masculina; o correto é \"a lápis\"). Comparecer à audiência, referência à denúncia e obedecer à orientação estão corretos. Comando negativo destacado em maiúsculas."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Entre palavras repetidas não há crase; só \"uma a uma\" está sem acento grave. Cara a cara, de ponta a ponta e gota a gota foram acentuados indevidamente. Regra consolidada e dentro do foco."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "\"Dirigiu-se a Sua Excelência\" está correto (pronome de tratamento não admite artigo). Os distratores acentuam antes de Vossa Senhoria, do indefinido \"qualquer\" e do pronome pessoal \"ela\". A ressalva sobre \"senhora\" e \"dona\" no cuidado_na_prova está correta."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "conjunto",
+          "gravidade": "baixa",
+          "descricao": "A frase IV (\"A escrivã obedeceu à determinação do delegado titular\") é quase idêntica à alternativa a3 de q02 (\"A escrivã obedeceu à orientação da corregedoria\"): mesmo sujeito, mesmo verbo, mesma regra."
+        }
+      ],
+      "correcao_sugerida": "Variar a frase IV, por exemplo: \"O agente prestou assistência à vítima do assalto.\" (mantém a crase correta e o gabarito I e IV).",
+      "justificativa": "I (alusão à investigação) e IV (obedeceu à determinação) estão corretas; II (crase antes de verbo) e III (antes do indefinido \"todas\") estão erradas. Gabarito I e IV confere e as demais combinações estão efetivamente erradas. Única ressalva: repetição de frase com q02 no conjunto."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "\"Aspirava à promoção\" (aspirar no sentido de desejar, transitivo indireto) é o único uso correto. \"Examinou à arma\" (transitivo direto), \"saiu à procurar\" (antes de verbo) e \"à cada\" (indefinido) estão errados. Boa cobrança da dependência da regência."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "\"Conduzido à presença do delegado\" está correto. \"À juízo\", \"à setores\" e \"à trabalho\" acentuam antes de palavra masculina. Análise e dica sobre \"à\" seguido de plural estão corretas."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Preenchimento independente: à vítima, a partir, a Sua Excelência, à delegacia (à, a, a, à). Cada distrator erra em lacunas corretamente identificadas na análise. Uso de \"Sua Excelência\" em referência de terceira pessoa está adequado."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "gramatical",
+          "gravidade": "baixa",
+          "descricao": "Em a4, a frase narra em terceira pessoa (\"O inspetor entregou o relatório à corregedora\"); na norma-padrão, refere-se à autoridade de quem se fala com \"Sua Senhoria\", reservando \"Vossa Senhoria\" para quem se fala diretamente. A substituição por \"Vossa Senhoria\" fica inadequada ao contexto, embora não altere a regra da crase."
+        }
+      ],
+      "correcao_sugerida": "Em a4, trocar \"(corregedora → Vossa Senhoria)\" por \"(corregedora → Sua Senhoria)\" e ajustar o comentário_geral e a justificativa de a4 para \"a Sua Senhoria\".",
+      "justificativa": "Gabarito confere: mesma, própria e referida admitem artigo e mantêm a crase; o pronome de tratamento não admite artigo e a crase sai. Ressalva pontual: na narração em terceira pessoa o pronome adequado é \"Sua Senhoria\", não \"Vossa Senhoria\"."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "(1) chegou à residência e (5) prestou informações à equipe resultam de preposição mais artigo feminino. As demais afirmações estão erradas: (2) antecede verbo, (3) palavras repetidas masculinas, (4) crase antes de pronome pessoal é proibida, não facultativa."
+    }
+  ]
+}

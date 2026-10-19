@@ -1,0 +1,64 @@
+{
+  "auditorias": [
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvida de forma independente: a única alternativa que reúne inafiançável, imprescritível e reclusão é a correta, conforme o art. 5º, XLII. Os distratores erram, cada um, num elemento objetivo (prescrição e regime do XLIII, fiança e detenção, detenção). Tamanhos equilibrados, sem pista."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O uso do galpão na enchente se enquadra no iminente perigo público (XXV: indenização ulterior, se houver dano) e a desapropriação por utilidade pública no XXIV (justa e prévia indenização em dinheiro, ressalvados os casos da Constituição); a correta reproduz os dois regimes. Os distratores exigem indenização prévia no uso, invertem os regimes ou negam a ressalva e a indenização por dano, todos sem apoio no texto. A correta não é a mais longa."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, XLIII, alcança mandantes, executores e os que, podendo evitar, se omitirem, e declara a tortura inafiançável e insuscetível de graça ou anistia; só a correta reúne os dois pontos. Os distratores excluem mandante e omitente, excluem o omitente ou afirmam que a tortura é afiançável, erros objetivos. Tamanhos equilibrados."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Pelo art. 5º, XLV, a obrigação de reparar o dano pode ser estendida aos sucessores, nos termos da lei, até o limite do patrimônio transferido (R$ 50.000,00); a correta aplica exatamente isso. Os distratores ultrapassam o limite, negam a transmissão da reparação ou transferem a própria pena, todos contrários ao texto. A correta é a mais curta, sem pista."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Só o racismo (XLII) e a ação de grupos armados, civis ou militares, contra a ordem constitucional e o Estado Democrático (XLIV) são declarados inafiançáveis e imprescritíveis; a correta lista apenas os dois. Cada distrator inclui ao menos um crime do XLIII (tortura, terrorismo, tráfico, hediondos), que não é declarado imprescritível. Texto e macete conferem."
+    }
+  ]
+}

@@ -1,0 +1,701 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Crimes contra o Patrimônio",
+      "subtema": "Roubo impróprio",
+      "dificuldade": "facil",
+      "enunciado": "Durante a madrugada, Caio entrou em uma loja de conveniência e, sem que ninguém percebesse, colocou na mochila diversas garrafas de bebida. Já do lado de fora, logo depois da subtração, foi abordado pelo vigia e, para não perder os objetos e conseguir fugir, desferiu-lhe socos, saindo do local com as bebidas. De acordo com o Código Penal, a conduta de Caio configura",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "furto simples em concurso material com o crime de lesão corporal, pois a violência ocorreu depois de consumada a subtração."
+        },
+        {
+          "id": "a2",
+          "texto": "roubo, porque quem, logo depois de subtraída a coisa, emprega violência contra pessoa para assegurar a impunidade ou a detenção da coisa incorre na mesma pena do roubo."
+        },
+        {
+          "id": "a3",
+          "texto": "furto qualificado pela destreza, já que a subtração inicial foi feita sem que a vítima percebesse."
+        },
+        {
+          "id": "a4",
+          "texto": "extorsão, pois a violência foi empregada para constranger o vigia a tolerar que o agente deixasse o local com os bens."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O art. 157, § 1º, do Código Penal prevê o chamado roubo impróprio: incorre na mesma pena do roubo quem, logo depois de subtraída a coisa, emprega violência contra pessoa ou grave ameaça para assegurar a impunidade do crime ou a detenção da coisa. Caio subtraiu as bebidas sem violência, mas, logo em seguida, agrediu o vigia para ficar com os objetos e fugir. A subtração que começou como furto passa a ser punida como roubo.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Errada. A lei não trata a violência posterior como crime autônomo somado ao furto: o art. 157, § 1º, transforma o fato em roubo impróprio quando a violência ocorre logo depois da subtração para garantir a coisa ou a impunidade."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Correta. Reproduz a regra do art. 157, § 1º: violência empregada logo depois da subtração, com a finalidade de assegurar a detenção da coisa ou a impunidade, sujeita o agente à mesma pena do roubo."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Errada. A destreza (art. 155, § 4º, II) qualifica o furto, mas o emprego posterior de violência contra o vigia afasta o enquadramento como furto e leva ao roubo impróprio."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Errada. Na extorsão (art. 158) o agente constrange a vítima a fazer, tolerar ou deixar de fazer algo para obter vantagem econômica. Aqui houve subtração da coisa seguida de violência para mantê-la, situação expressamente descrita no art. 157, § 1º."
+        }
+      ],
+      "fundamento_legal": "Código Penal, art. 157, caput e § 1º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Achar que, como a subtração começou sem violência, o crime continua sendo furto (ou furto mais lesão corporal).",
+      "lei_referencia": "CP, art. 157, § 1º",
+      "macete_do_riccardo": "Roubo próprio: violência antes ou durante, para subtrair. Roubo impróprio: subtrai primeiro e usa a violência logo depois, para ficar com a coisa ou fugir.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "roubo impróprio",
+        "art. 157 § 1º",
+        "violência após a subtração",
+        "detenção da coisa"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (Decreto-Lei 2.848/1940), arts. 155 a 183, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Crimes contra o Patrimônio",
+      "subtema": "Extorsão indireta",
+      "dificuldade": "facil",
+      "enunciado": "Um agiota, aproveitando-se do desespero financeiro de um comerciante, condicionou a concessão de um empréstimo à entrega, como garantia da dívida, de um documento assinado pelo devedor que poderia dar causa a procedimento criminal contra ele. Segundo o Código Penal, a conduta do agiota corresponde ao crime de",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "extorsão, punida com reclusão de quatro a dez anos, e multa."
+        },
+        {
+          "id": "a2",
+          "texto": "estelionato, pois o agiota obteve vantagem ilícita mantendo a vítima em erro."
+        },
+        {
+          "id": "a3",
+          "texto": "extorsão indireta, punida com reclusão de um a três anos, e multa."
+        },
+        {
+          "id": "a4",
+          "texto": "extorsão indireta, que somente se configura se o agiota utilizar efetivamente o documento contra a vítima."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "O art. 160 do Código Penal tipifica a extorsão indireta: exigir ou receber, como garantia de dívida, abusando da situação de alguém, documento que pode dar causa a procedimento criminal contra a vítima ou contra terceiro. A pena é de reclusão, de um a três anos, e multa. O tipo se contenta com o ato de exigir ou receber o documento; não exige que ele seja usado depois.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Errada. A extorsão do art. 158 exige constrangimento mediante violência ou grave ameaça. No caso, o agiota abusou da situação da vítima para exigir documento como garantia de dívida, conduta prevista no art. 160."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Errada. O estelionato (art. 171) depende de induzir ou manter alguém em erro mediante fraude. O enunciado não descreve engano algum, e sim a exigência de documento comprometedor como garantia."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Correta. A conduta se amolda exatamente ao art. 160, cuja pena é de reclusão, de um a três anos, e multa."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Errada. Os verbos do tipo são exigir ou receber o documento como garantia. A lei não condiciona o crime ao uso posterior do documento contra a vítima."
+        }
+      ],
+      "fundamento_legal": "Código Penal, art. 160.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir a extorsão indireta com a extorsão do art. 158 (que exige violência ou grave ameaça) ou exigir o uso efetivo do documento.",
+      "lei_referencia": "CP, art. 160",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Extorsão indireta: verbos exigir ou receber, finalidade de garantia de dívida e abuso da situação da vítima. Não há violência nem grave ameaça no tipo.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "extorsão indireta",
+        "art. 160",
+        "garantia de dívida",
+        "documento",
+        "agiota"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (Decreto-Lei 2.848/1940), arts. 155 a 183, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Crimes contra o Patrimônio",
+      "subtema": "Extorsão mediante sequestro: forma qualificada",
+      "dificuldade": "facil",
+      "enunciado": "Nos termos do art. 159 do Código Penal, a extorsão mediante sequestro passa a ser punida com reclusão de doze a vinte anos quando",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "o sequestro dura mais de doze horas, ainda que a vítima seja libertada sem pagamento do resgate."
+        },
+        {
+          "id": "a2",
+          "texto": "o crime é praticado durante o repouso noturno."
+        },
+        {
+          "id": "a3",
+          "texto": "o agente emprega arma branca para dominar a vítima no momento da captura."
+        },
+        {
+          "id": "a4",
+          "texto": "o sequestrado é maior de sessenta anos."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "O art. 159, § 1º, eleva a pena da extorsão mediante sequestro para reclusão de doze a vinte anos em três situações: sequestro que dura mais de 24 horas; sequestrado menor de 18 ou maior de 60 anos; crime cometido por bando ou quadrilha. A vítima maior de sessenta anos está expressamente na lista.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Errada. O prazo legal é de mais de 24 horas, e não de doze horas."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Errada. O repouso noturno é causa de aumento do furto (art. 155, § 1º) e não consta do art. 159, § 1º."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Errada. O emprego de arma branca é causa de aumento do roubo (art. 157, § 2º, VII), mas não está entre as hipóteses do art. 159, § 1º."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Correta. O art. 159, § 1º, prevê a pena de doze a vinte anos quando o sequestrado é menor de 18 ou maior de 60 anos."
+        }
+      ],
+      "fundamento_legal": "Código Penal, art. 159, § 1º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar o prazo de 24 horas por outro e importar para a extorsão mediante sequestro circunstâncias próprias do furto e do roubo.",
+      "lei_referencia": "CP, art. 159, § 1º",
+      "macete_do_riccardo": "Qualificadoras do § 1º do art. 159: \"24, 18, 60 e bando\" (mais de 24 horas, menor de 18, maior de 60, bando ou quadrilha).",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "extorsão mediante sequestro",
+        "art. 159 § 1º",
+        "qualificadora",
+        "maior de 60 anos",
+        "24 horas"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (Decreto-Lei 2.848/1940), arts. 155 a 183, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Crimes contra o Patrimônio",
+      "subtema": "Roubo: causas de aumento pelo meio empregado",
+      "dificuldade": "media",
+      "enunciado": "Em uma praça de Fortaleza, um homem, agindo sozinho, ameaçou um pedestre com uma faca e dele subtraiu a carteira com dinheiro. Considerando apenas o meio empregado na grave ameaça, o Código Penal determina que a pena do roubo",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "aumenta-se de um terço até metade."
+        },
+        {
+          "id": "a2",
+          "texto": "aumenta-se de dois terços."
+        },
+        {
+          "id": "a3",
+          "texto": "é aplicada em dobro."
+        },
+        {
+          "id": "a4",
+          "texto": "não sofre aumento, pois somente o emprego de arma de fogo majora o roubo."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O Código Penal gradua o aumento conforme o instrumento. Arma branca (como a faca): aumento de 1/3 até metade (art. 157, § 2º, VII). Arma de fogo: aumento de 2/3 (art. 157, § 2º-A, I). Arma de fogo de uso restrito ou proibido: pena do caput em dobro (art. 157, § 2º-B). No caso, a grave ameaça foi exercida com faca, portanto o aumento é de um terço até metade.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Correta. O art. 157, § 2º, VII, prevê aumento de 1/3 até metade quando a violência ou grave ameaça é exercida com emprego de arma branca."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Errada. O aumento de 2/3 (art. 157, § 2º-A, I) é reservado ao emprego de arma de fogo."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Errada. A aplicação da pena em dobro (art. 157, § 2º-B) ocorre apenas com arma de fogo de uso restrito ou proibido."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Errada. A arma branca também majora o roubo, por expressa previsão do art. 157, § 2º, VII."
+        }
+      ],
+      "fundamento_legal": "Código Penal, art. 157, § 2º, VII; § 2º-A, I; § 2º-B.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Misturar as frações de aumento da arma branca, da arma de fogo e da arma de fogo de uso restrito ou proibido.",
+      "lei_referencia": "CP, art. 157, § 2º, VII",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Escada das armas no roubo: arma branca, 1/3 até metade; arma de fogo, 2/3; arma de fogo de uso restrito ou proibido, dobro da pena do caput.",
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "roubo majorado",
+        "arma branca",
+        "art. 157 § 2º VII",
+        "causa de aumento"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (Decreto-Lei 2.848/1940), arts. 155 a 183, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Crimes contra o Patrimônio",
+      "subtema": "Extorsão mediante sequestro: delação",
+      "dificuldade": "media",
+      "enunciado": "Três pessoas sequestraram um empresário para exigir resgate da família. Arrependido, um dos sequestradores procurou a polícia, revelou o cativeiro e, com isso, facilitou a libertação da vítima. Conforme o Código Penal, esse concorrente",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "terá extinta a punibilidade, desde que a vítima seja libertada antes do pagamento do resgate."
+        },
+        {
+          "id": "a2",
+          "texto": "terá a pena reduzida de um a dois terços."
+        },
+        {
+          "id": "a3",
+          "texto": "terá a pena reduzida de um sexto a um terço, por se tratar de atenuante genérica."
+        },
+        {
+          "id": "a4",
+          "texto": "não receberá benefício específico, porque a redução só é prevista quando o crime é cometido por bando ou quadrilha."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O art. 159, § 4º, do Código Penal dispõe que, se o crime é cometido em concurso, o concorrente que o denunciar à autoridade, facilitando a libertação do sequestrado, terá a pena reduzida de um a dois terços. Os requisitos são: crime em concurso, denúncia à autoridade e facilitação da libertação. Todos estão presentes no caso.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Errada. O art. 159, § 4º, prevê redução de pena, e não extinção da punibilidade; e não condiciona o benefício ao momento do pagamento do resgate."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Correta. É a consequência prevista no art. 159, § 4º, para o concorrente que denuncia o crime à autoridade e facilita a libertação do sequestrado."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Errada. A redução decorre de causa específica do art. 159, § 4º, com fração de um a dois terços, e não de um sexto a um terço."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Errada. O § 4º exige apenas que o crime seja cometido em concurso; não exige bando ou quadrilha, hipótese que, no § 1º, serve para qualificar o crime."
+        }
+      ],
+      "fundamento_legal": "Código Penal, art. 159, § 4º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir a redução de pena da delação com perdão ou extinção da punibilidade, ou alterar a fração legal.",
+      "lei_referencia": "CP, art. 159, § 4º",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Delação no art. 159: concurso de agentes, denúncia à autoridade e libertação facilitada. Resultado: redução de 1 a 2 terços, nunca isenção.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "extorsão mediante sequestro",
+        "delação",
+        "art. 159 § 4º",
+        "redução de pena"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (Decreto-Lei 2.848/1940), arts. 155 a 183, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Crimes contra o Patrimônio",
+      "subtema": "Extorsão: distinção com roubo e outros crimes",
+      "dificuldade": "media",
+      "enunciado": "Por meio de mensagens, Marcos ameaçou matar o filho de uma comerciante caso ela não depositasse R$ 10.000,00 na conta indicada por ele até o fim da semana. Com medo, a vítima fez o depósito. Não houve subtração de bens nem restrição da liberdade de ninguém. A conduta de Marcos amolda-se ao crime de",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "roubo, pois a vantagem econômica foi obtida mediante grave ameaça à pessoa."
+        },
+        {
+          "id": "a2",
+          "texto": "extorsão indireta, porque a vítima foi coagida a entregar valores ao agente."
+        },
+        {
+          "id": "a3",
+          "texto": "extorsão, pois a vítima foi constrangida, mediante grave ameaça, a fazer algo com o intuito de o agente obter indevida vantagem econômica."
+        },
+        {
+          "id": "a4",
+          "texto": "estelionato, já que a vítima entregou o dinheiro voluntariamente por meio de depósito bancário."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "O art. 158 do Código Penal pune quem constrange alguém, mediante violência ou grave ameaça, com o intuito de obter indevida vantagem econômica, a fazer, tolerar que se faça ou deixar de fazer alguma coisa. Marcos não subtraiu nada: ele obrigou a vítima, pela ameaça, a realizar o depósito. É a estrutura típica da extorsão, em que a vítima pratica o ato que gera a vantagem do agente.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Errada. O roubo (art. 157) tem como núcleo subtrair coisa móvel alheia. No caso não houve subtração: foi a própria vítima, constrangida, quem realizou o depósito."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Errada. A extorsão indireta (art. 160) consiste em exigir ou receber, como garantia de dívida, documento que pode dar causa a procedimento criminal. Nada disso aparece no enunciado."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Correta. Estão presentes todos os elementos do art. 158: constrangimento por grave ameaça, intuito de indevida vantagem econômica e imposição de um fazer à vítima (o depósito)."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Errada. O estelionato (art. 171) exige que a vítima seja induzida ou mantida em erro por fraude. Aqui a entrega decorreu do medo provocado pela ameaça, e não de engano."
+        }
+      ],
+      "fundamento_legal": "Código Penal, art. 158, caput.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Classificar como roubo qualquer obtenção de vantagem mediante grave ameaça, esquecendo que o roubo exige subtração.",
+      "lei_referencia": "CP, art. 158, caput",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Extorsão: a vítima é obrigada a fazer, tolerar ou deixar de fazer. Estelionato: a vítima entrega porque foi enganada. Roubo: o agente subtrai.",
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "extorsão",
+        "art. 158",
+        "grave ameaça",
+        "vantagem econômica",
+        "roubo x extorsão"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (Decreto-Lei 2.848/1940), arts. 155 a 183, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Crimes contra o Patrimônio",
+      "subtema": "Roubo e imunidades patrimoniais",
+      "dificuldade": "media",
+      "enunciado": "Pedro, de 30 anos, sob grave ameaça, subtraiu o automóvel de seu pai, de 55 anos, com quem não residia. Sobre a responsabilidade penal de Pedro, à luz das disposições gerais do Título dos crimes contra o patrimônio no Código Penal, é correto afirmar que",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "é isento de pena, pois o crime foi cometido em prejuízo de ascendente."
+        },
+        {
+          "id": "a2",
+          "texto": "somente se procede mediante representação do pai, por se tratar de crime entre parentes."
+        },
+        {
+          "id": "a3",
+          "texto": "é isento de pena, porque a exclusão do benefício só ocorre quando a vítima tem 60 anos ou mais."
+        },
+        {
+          "id": "a4",
+          "texto": "responde normalmente pelo crime, pois a isenção de pena não se aplica ao roubo nem aos casos de grave ameaça à pessoa."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "O art. 181, II, do Código Penal isenta de pena quem comete crime contra o patrimônio em prejuízo de ascendente ou descendente. O art. 183, I, porém, afasta essa isenção (e a representação do art. 182) quando o crime é de roubo ou de extorsão ou, em geral, quando há emprego de grave ameaça ou violência à pessoa. Pedro cometeu roubo, por isso responde normalmente, independentemente da idade do pai.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Errada. A isenção do art. 181, II, existe, mas é afastada pelo art. 183, I, nos crimes de roubo e quando há grave ameaça ou violência à pessoa."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Errada. A exigência de representação (art. 182) alcança outros parentes, como irmão, e também é afastada pelo art. 183, I, no caso de roubo."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Errada. A vítima com 60 anos ou mais (art. 183, III) é apenas uma das hipóteses de exclusão. A do inciso I (roubo, extorsão, grave ameaça ou violência) já basta para afastar o benefício."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Correta. O art. 183, I, determina que os arts. 181 e 182 não se aplicam ao roubo nem, em geral, aos casos com grave ameaça ou violência à pessoa."
+        }
+      ],
+      "fundamento_legal": "Código Penal, arts. 157, 181, II, e 183, I.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Aplicar a imunidade entre ascendente e descendente sem lembrar que ela não alcança o roubo, e achar que só a idade da vítima a afasta.",
+      "lei_referencia": "CP, art. 183, I",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Imunidade patrimonial (arts. 181 e 182) cai em três casos do art. 183: roubo, extorsão ou violência e grave ameaça; estranho que participa; vítima com 60 anos ou mais.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "excecao",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "escusa absolutória",
+        "art. 181",
+        "art. 183",
+        "roubo",
+        "ascendente"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (Decreto-Lei 2.848/1940), arts. 155 a 183, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Crimes contra o Patrimônio",
+      "subtema": "Extorsão com restrição da liberdade da vítima",
+      "dificuldade": "dificil",
+      "enunciado": "Dois agentes abordaram um motorista, mantiveram-no dentro do próprio carro por cerca de duas horas e o levaram a caixas eletrônicos, obrigando-o a sacar dinheiro com seu cartão. A restrição da liberdade era necessária para obter os saques. Durante o trajeto, agrediram a vítima, que sofreu lesão corporal de natureza grave. Segundo o texto do Código Penal, a pena aplicável a esse fato é de reclusão de",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "dezesseis a vinte e quatro anos, pois a lei manda aplicar, nesse caso, a pena prevista para a extorsão mediante sequestro com resultado lesão corporal grave."
+        },
+        {
+          "id": "a2",
+          "texto": "sete a dezoito anos, e multa, pois toda extorsão praticada mediante violência segue as penas do roubo qualificado pelo resultado."
+        },
+        {
+          "id": "a3",
+          "texto": "doze a vinte anos, por se tratar de extorsão mediante sequestro qualificada pelo concurso de pessoas."
+        },
+        {
+          "id": "a4",
+          "texto": "seis a doze anos, além da multa, pois o resultado lesão grave não altera a pena da extorsão com restrição da liberdade."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O fato é extorsão com restrição da liberdade da vítima (art. 158, § 3º): a vítima foi constrangida a sacar dinheiro e a restrição da liberdade era necessária para a obtenção da vantagem. A pena básica dessa figura é de 6 a 12 anos, além da multa. O próprio § 3º, porém, dispõe que, se resulta lesão corporal grave ou morte, aplicam-se as penas do art. 159, §§ 2º e 3º. Com lesão grave, a pena é a do art. 159, § 2º: reclusão de dezesseis a vinte e quatro anos. A regra específica do § 3º prevalece sobre a remissão genérica do § 2º do art. 158 ao roubo qualificado pelo resultado.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Correta. O art. 158, § 3º, parte final, remete ao art. 159, § 2º, cuja pena é de reclusão de dezesseis a vinte e quatro anos quando resulta lesão corporal grave."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Errada. A remissão do art. 158, § 2º, ao art. 157, § 3º (lesão grave: 7 a 18 anos) é a regra geral da extorsão com violência. Para a extorsão com restrição da liberdade, o § 3º do art. 158 traz regra própria, que remete às penas do art. 159."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Errada. Não houve sequestro com exigência de resgate como condição ou preço, e o concurso de duas pessoas não é bando ou quadrilha. A pena de doze a vinte anos é a do art. 159, § 1º, que não se aplica ao caso."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Errada. Seis a doze anos é a pena da forma simples do art. 158, § 3º. Havendo lesão corporal grave, a própria norma manda aplicar a pena do art. 159, § 2º."
+        }
+      ],
+      "fundamento_legal": "Código Penal, art. 158, §§ 2º e 3º; art. 159, § 2º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Aplicar a remissão genérica do art. 158, § 2º, ao roubo qualificado pelo resultado, sem perceber que o § 3º tem regra específica que remete ao art. 159.",
+      "lei_referencia": "CP, art. 158, § 3º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Extorsão com restrição da liberdade e resultado lesão grave ou morte: as penas vêm do art. 159 (§§ 2º e 3º), e não do roubo.",
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "sequestro relâmpago",
+        "art. 158 § 3º",
+        "lesão corporal grave",
+        "art. 159 § 2º",
+        "extorsão"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (Decreto-Lei 2.848/1940), arts. 155 a 183, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Crimes contra o Patrimônio",
+      "subtema": "Roubo qualificado pelo resultado e latrocínio",
+      "dificuldade": "dificil",
+      "enunciado": "Acerca do roubo qualificado pelo resultado, conforme a redação vigente do art. 157 do Código Penal, assinale a afirmativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A forma qualificada pelo resultado morte incide tanto quando a morte decorre da violência quanto quando decorre exclusivamente da grave ameaça."
+        },
+        {
+          "id": "a2",
+          "texto": "Se da violência resulta lesão corporal grave, a pena é de reclusão de sete a dezoito anos, sem previsão de multa."
+        },
+        {
+          "id": "a3",
+          "texto": "Se da violência resulta morte, a pena é de reclusão de vinte e quatro a trinta anos, e multa."
+        },
+        {
+          "id": "a4",
+          "texto": "Todo latrocínio praticado em concurso de duas ou mais pessoas é punido com reclusão de vinte a quarenta anos, e multa."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "O art. 157, § 3º, condiciona as formas qualificadas ao resultado que decorre da violência: lesão corporal grave, reclusão de 7 a 18 anos, e multa (inciso I); morte, reclusão de 24 a 30 anos, e multa (inciso II, com a redação dada pela Lei nº 15.397/2026). A pena de 20 a 40 anos do § 5º é exclusiva do latrocínio cometido por integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada, no contexto da atuação descrita na lei.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Errada. O § 3º do art. 157 fala em resultado que decorre da violência (\"Se da violência resulta\"). A lei não estende a qualificadora ao resultado causado exclusivamente pela grave ameaça."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Errada. A pena de sete a dezoito anos está correta, mas o inciso I do § 3º prevê também a multa."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Correta. É o texto do art. 157, § 3º, II, na redação dada pela Lei nº 15.397/2026: reclusão de 24 a 30 anos, e multa."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Errada. A pena de vinte a quarenta anos (§ 5º) vale apenas quando o latrocínio é cometido por integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada, no contexto previsto na lei. O simples concurso de pessoas não basta."
+        }
+      ],
+      "fundamento_legal": "Código Penal, art. 157, § 3º, I e II, e § 5º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "A pena do latrocínio (art. 157, § 3º, II) tem redação dada pela Lei nº 15.397/2026, considerada vigente na data de corte (18/10/2026). Os §§ 4º e 5º foram incluídos pela Lei nº 15.358/2026.",
+      "pegadinha": "Estender a qualificadora ao resultado da grave ameaça, esquecer a multa e confundir o latrocínio comum com a forma do § 5º.",
+      "lei_referencia": "CP, art. 157, § 3º, II",
+      "macete_do_riccardo": null,
+      "fique_ligado": "No § 3º do art. 157 a lei fala em resultado da violência. Grave ameaça sozinha não qualifica o roubo pelo resultado.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "latrocínio",
+        "roubo qualificado pelo resultado",
+        "art. 157 § 3º",
+        "lesão corporal grave",
+        "morte"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (Decreto-Lei 2.848/1940), arts. 155 a 183, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Crimes contra o Patrimônio",
+      "subtema": "Roubo cometido por integrante de organização criminosa ultraviolenta ou milícia",
+      "dificuldade": "dificil",
+      "enunciado": "Integrante de milícia privada, agindo no contexto da atuação do grupo, para a consecução das condutas previstas no art. 2º da lei que institui o marco legal do combate ao crime organizado, praticou roubo mediante grave ameaça exercida com arma de fogo, em concurso com outro comparsa. Não houve lesão corporal grave nem morte. De acordo com o art. 157 do Código Penal, a pena aplicável é",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "a do caput aumentada de dois terços pela arma de fogo e, em seguida, aplicada em triplo, com acréscimo do aumento pelo concurso de pessoas."
+        },
+        {
+          "id": "a2",
+          "texto": "a do caput aplicada em triplo, desprezadas as demais causas de aumento."
+        },
+        {
+          "id": "a3",
+          "texto": "a do caput aumentada de dois terços, mesma fração prevista para a extorsão mediante sequestro cometida por esses grupos."
+        },
+        {
+          "id": "a4",
+          "texto": "a de reclusão de vinte a quarenta anos, e multa, por se tratar de roubo praticado por milícia privada."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O art. 157, § 4º, incluído pela Lei nº 15.358/2026, determina que, se a violência ou grave ameaça é cometida por integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada, no contexto da atuação ou para a consecução das condutas do art. 2º da lei do marco legal do combate ao crime organizado, aplica-se em triplo a pena do caput, desprezadas as demais causas de aumento. Assim, o emprego de arma de fogo e o concurso de pessoas não geram aumentos adicionais: a pena é a do caput (6 a 10 anos) em triplo.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Errada. O § 4º manda desprezar as demais causas de aumento. Não se somam ao triplo o aumento da arma de fogo (§ 2º-A, I) nem o do concurso de pessoas (§ 2º, II)."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Correta. É o comando literal do art. 157, § 4º: pena do caput em triplo, desprezadas as demais causas de aumento."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Errada. O aumento de dois terços para crimes cometidos por esses grupos está previsto na extorsão mediante sequestro (art. 159, § 5º) e na receptação (art. 180, § 8º). No roubo, a consequência é a aplicação da pena do caput em triplo."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Errada. A pena de vinte a quarenta anos (art. 157, § 5º) é reservada ao latrocínio cometido por integrante desses grupos. No caso não houve morte."
+        }
+      ],
+      "fundamento_legal": "Código Penal, art. 157, caput, § 2º, II, § 2º-A, I, § 4º e § 5º; art. 159, § 5º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "Os §§ 4º e 5º do art. 157 foram incluídos pela Lei nº 15.358/2026, e a pena do caput tem redação dada pela Lei nº 15.397/2026; ambos são considerados vigentes na data de corte (18/10/2026).",
+      "pegadinha": "Somar ao triplo as majorantes da arma de fogo e do concurso de pessoas, ou confundir o § 4º com a fração de 2/3 da extorsão mediante sequestro e com a pena do § 5º.",
+      "lei_referencia": "CP, art. 157, § 4º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "No roubo por organização criminosa ultraviolenta, grupo paramilitar ou milícia: triplo da pena do caput, e as outras majorantes ficam de fora.",
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "roubo",
+        "milícia privada",
+        "organização criminosa ultraviolenta",
+        "art. 157 § 4º",
+        "pena em triplo"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (Decreto-Lei 2.848/1940), arts. 155 a 183, fornecido no contexto"
+      ]
+    }
+  ]
+}

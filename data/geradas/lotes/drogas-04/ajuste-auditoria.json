@@ -1,0 +1,76 @@
+{
+  "auditorias": [
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa a2 reproduz o art. 32, caput (destruição imediata pelo delegado, recolhimento de quantidade suficiente para perícia e auto de levantamento). Os distratores contrariam o caput (comandante da guarnição, autorização judicial prévia), o § 3º (dispensa de autorização do Sisnama) e o § 4º (expropriação da gleba). Tamanhos equilibrados, sem pista."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 50, § 1º, torna suficiente o laudo de constatação firmado por perito oficial ou, na falta deste, por pessoa idônea, para a lavratura do auto e a materialidade. A a3 nega justamente a materialidade e a a5 erra o prazo e o momento da vista ao MP (art. 50, caput). Única correta: a4."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a5",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a5 aplica corretamente o art. 50, §§ 3º e 4º, ao flagrante (juiz em 10 dias certifica o laudo e determina a destruição; delegado executa em 15 dias) e o art. 50-A à apreensão sem prisão (incineração em até 30 dias). A a4 dispensa a decisão judicial no flagrante, a a1 estende o rito do flagrante ao caso sem prisão, a a2 e a a3 erram prazos e a guarda de amostra. A omissão da amostra na a5 não a torna errada."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 39 exige só exposição a dano potencial; sendo transporte coletivo, o parágrafo único fixa 4 a 6 anos e 400 a 600 dias-multa, cumulados com as demais sanções do caput (apreensão e cassação pelo mesmo prazo da pena). O art. 40 alcança apenas os arts. 33 a 37, o que torna a2 e a5 erradas, e a a3 erra ao dizer que a cassação é definitiva. Única correta: a4."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a4 reúne os requisitos do art. 53, II e parágrafo único (autorização judicial, oitiva do MP, itinerário provável e identificação dos agentes ou colaboradores) e a majorante do art. 40, V. A a2 erra ao falar em transnacionalidade (inciso I), a a1 dispensa a autorização, a a3 limita a medida à instrução e a a5 contraria a cláusula 'sem prejuízo da ação penal cabível'. O condicional 'se a droga chegar' é condição suficiente e não torna a a4 incorreta."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Quem, sem integrar o grupo, repassa informações a associação de tráfico pratica o art. 37; o art. 40, II, alcança os arts. 33 a 37 e incide por ele se prevalecer da função pública; o art. 56, § 1º, faculta ('poderá') o afastamento cautelar ao receber a denúncia. Os distratores trocam o tipo (arts. 35 e 36), negam a majorante ou tornam o afastamento obrigatório ou posterior ao trânsito em julgado. Única correta: a3."
+    }
+  ]
+}

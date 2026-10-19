@@ -1,0 +1,355 @@
+{
+  "questoes": [
+    {
+      "id": "q03",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Racismo",
+      "dificuldade": "facil",
+      "enunciado": "Segundo o art. 5º, inciso XLII, da Constituição Federal, a prática do racismo constitui crime:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "inafiançável e insuscetível de graça ou anistia, mas sujeito à prescrição, nos termos da lei."
+        },
+        {
+          "id": "a2",
+          "texto": "afiançável e imprescritível, sujeito à pena de detenção, nos termos da lei."
+        },
+        {
+          "id": "a3",
+          "texto": "inafiançável e imprescritível, sujeito à pena de detenção, conforme a lei."
+        },
+        {
+          "id": "a4",
+          "texto": "inafiançável e imprescritível, sujeito à pena de reclusão, nos termos da lei."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "O inciso XLII estabelece que a prática do racismo constitui crime inafiançável e imprescritível, sujeito à pena de reclusão, nos termos da lei. Os três elementos (inafiançável, imprescritível e reclusão) precisam aparecer juntos.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Mistura o regime do inciso XLIII (insuscetível de graça ou anistia) e nega a imprescritibilidade, que o inciso XLII prevê expressamente para o racismo."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O racismo é inafiançável, e a pena prevista é de reclusão, não de detenção."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Acerta a inafiançabilidade e a imprescritibilidade, mas troca a pena de reclusão por detenção."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Reproduz fielmente o inciso XLII: inafiançável, imprescritível e sujeito à pena de reclusão, nos termos da lei."
+        }
+      ],
+      "fundamento_legal": "CF/88, art. 5º, XLII.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar reclusão por detenção e confundir o regime do racismo com o dos crimes do inciso XLIII.",
+      "lei_referencia": "CF/88, art. 5º, XLII",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "racismo",
+        "inafiançável",
+        "imprescritível",
+        "reclusão"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, art. 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Propriedade: desapropriação e requisição administrativa",
+      "dificuldade": "media",
+      "enunciado": "Durante uma enchente que ameaçava bairros inteiros, a autoridade competente ocupou temporariamente um galpão particular para abrigar famílias desalojadas. Meses depois, o Município decidiu desapropriar outro imóvel, por utilidade pública, para construir uma escola. À luz do art. 5º da Constituição Federal, assinale a afirmativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "No uso do galpão, a indenização ao proprietário será ulterior e somente se houver dano; na desapropriação, a regra é a justa e prévia indenização em dinheiro, ressalvados os casos previstos na Constituição."
+        },
+        {
+          "id": "a2",
+          "texto": "Em ambas as situações, o proprietário tem direito a justa e prévia indenização em dinheiro, que deve ser paga antes da ocupação do galpão ou da transferência do imóvel, sob pena de nulidade do ato."
+        },
+        {
+          "id": "a3",
+          "texto": "No uso do galpão, a indenização é sempre devida e deve ser prévia, ainda que não haja dano; na desapropriação por utilidade pública, a indenização será ulterior e só se houver dano ao proprietário."
+        },
+        {
+          "id": "a4",
+          "texto": "Na desapropriação por utilidade pública, a indenização prévia em dinheiro é obrigatória sem qualquer exceção constitucional, e no uso temporário do galpão não cabe indenização alguma ao proprietário, ainda que haja dano, por se tratar de perigo público."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "São dois institutos diferentes. No iminente perigo público (inciso XXV), a autoridade pode usar a propriedade particular, assegurada indenização ulterior, se houver dano. Na desapropriação por necessidade ou utilidade pública ou por interesse social (inciso XXIV), a regra é a justa e prévia indenização em dinheiro, ressalvados os casos previstos na própria Constituição.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Descreve corretamente o inciso XXV (indenização ulterior, se houver dano) e o inciso XXIV (justa e prévia indenização em dinheiro, com as ressalvas constitucionais)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "No uso da propriedade em iminente perigo público, a indenização é ulterior e condicionada à existência de dano, não prévia; a ocupação do galpão não depende de pagamento antecipado."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Inverte os regimes: a indenização ulterior, se houver dano, é a do uso em perigo público, e a prévia é a da desapropriação. Além disso, no uso do galpão a indenização só cabe se houver dano."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O inciso XXIV ressalva os casos previstos na Constituição, e o inciso XXV assegura indenização ulterior se houver dano, de modo que nenhuma das duas afirmações procede."
+        }
+      ],
+      "fundamento_legal": "CF/88, art. 5º, XXIV e XXV.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Inverter o momento da indenização entre o uso em perigo público e a desapropriação.",
+      "lei_referencia": "CF/88, art. 5º, XXIV e XXV",
+      "macete_do_riccardo": "Perigo público: primeiro USA, depois PAGA (se houver dano). Desapropriação: primeiro PAGA (justa, prévia, em dinheiro), depois toma.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "desapropriação",
+        "iminente perigo público",
+        "indenização prévia",
+        "indenização ulterior",
+        "propriedade"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, art. 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Crimes inafiançáveis e insuscetíveis de graça ou anistia",
+      "dificuldade": "media",
+      "enunciado": "Em uma operação, apurou-se que um chefe de facção ordenou a tortura de um rival, dois comparsas executaram a agressão e um terceiro integrante, que tinha condições de impedir o ato, permaneceu inerte. Considerando apenas o art. 5º, inciso XLIII, da Constituição Federal, é correto afirmar que:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "somente os dois executores respondem pelo crime, pois a Constituição pune apenas quem pratica diretamente a tortura contra a vítima."
+        },
+        {
+          "id": "a2",
+          "texto": "o mandante e os executores respondem pelo crime, inafiançável e insuscetível de graça ou anistia, mas quem se omitiu fica isento, já que não praticou nenhum ato."
+        },
+        {
+          "id": "a3",
+          "texto": "respondem o mandante, os executores e aquele que, podendo evitar o crime, se omitiu, sendo a tortura crime inafiançável e insuscetível de graça ou anistia."
+        },
+        {
+          "id": "a4",
+          "texto": "respondem o mandante, os executores e o integrante que, podendo evitar o crime, se omitiu, mas a tortura é crime afiançável, embora insuscetível de graça ou anistia."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "O inciso XLIII determina que a lei considere crimes inafiançáveis e insuscetíveis de graça ou anistia a tortura, o tráfico ilícito de entorpecentes, o terrorismo e os crimes hediondos, por eles respondendo os mandantes, os executores e os que, podendo evitá-los, se omitirem. Os três perfis do caso estão abrangidos.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O texto inclui expressamente os mandantes e os omitentes, além dos executores."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Acerta o regime da tortura, mas a Constituição alcança também quem, podendo evitar o crime, se omite."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Corresponde ao inciso XLIII: mandantes, executores e omitentes respondem, e a tortura é inafiançável e insuscetível de graça ou anistia."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Acerta quanto aos responsáveis, mas erra ao dizer que a tortura é afiançável; o inciso XLIII a declara inafiançável."
+        }
+      ],
+      "fundamento_legal": "CF/88, art. 5º, XLIII.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Excluir o omitente da responsabilização ou negar a inafiançabilidade da tortura.",
+      "lei_referencia": "CF/88, art. 5º, XLIII",
+      "macete_do_riccardo": "TTTH (tortura, tráfico, terrorismo e hediondos): inafiançáveis e sem graça ou anistia; respondem mandante, executor e omitente.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "tortura",
+        "inafiançável",
+        "graça",
+        "anistia",
+        "omissão",
+        "mandante"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, art. 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Pessoalidade da pena",
+      "dificuldade": "dificil",
+      "enunciado": "Pedro foi condenado definitivamente por crime que causou à vítima prejuízo de R$ 80.000,00, sendo também condenado à reparação do dano. Antes de qualquer pagamento, Pedro faleceu, deixando a seus dois filhos patrimônio total de R$ 50.000,00. Considerando o art. 5º, inciso XLV, da Constituição Federal, é correto afirmar que:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "a obrigação de reparar o dano pode, nos termos da lei, ser estendida aos filhos e contra eles executada, até o limite de R$ 50.000,00."
+        },
+        {
+          "id": "a2",
+          "texto": "os filhos respondem pela reparação integral de R$ 80.000,00, ainda que tenham de usar patrimônio próprio para quitar a diferença de R$ 30.000,00."
+        },
+        {
+          "id": "a3",
+          "texto": "a morte de Pedro extingue a obrigação de reparar o dano, pois nenhuma consequência da condenação pode passar da pessoa do condenado, nem mesmo aos sucessores."
+        },
+        {
+          "id": "a4",
+          "texto": "os filhos passam a cumprir a pena imposta a Pedro, na proporção da herança recebida por cada um, até o limite de R$ 25.000,00 para cada herdeiro."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O inciso XLV consagra a pessoalidade da pena: nenhuma pena passa da pessoa do condenado. Porém, a obrigação de reparar o dano e a decretação do perdimento de bens podem, nos termos da lei, ser estendidas aos sucessores e contra eles executadas, até o limite do valor do patrimônio transferido. No caso, esse limite é de R$ 50.000,00.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Aplica corretamente o inciso XLV: a reparação do dano pode alcançar os sucessores, limitada ao patrimônio transferido (R$ 50.000,00)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A extensão aos sucessores tem como teto o valor do patrimônio transferido; o patrimônio próprio dos filhos não responde pelo excedente de R$ 30.000,00."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A intransmissibilidade atinge a pena, mas a própria Constituição permite estender aos sucessores a obrigação de reparar o dano, até o limite do patrimônio transferido."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A pena nunca passa da pessoa do condenado, qualquer que seja o valor da herança; o que pode ser estendido é a reparação do dano e o perdimento de bens, não a pena."
+        }
+      ],
+      "fundamento_legal": "CF/88, art. 5º, XLV.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir a intransmissibilidade da pena com a transmissibilidade limitada da obrigação de reparar o dano.",
+      "lei_referencia": "CF/88, art. 5º, XLV",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "A PENA não passa; a REPARAÇÃO DO DANO e o PERDIMENTO DE BENS passam aos sucessores, mas só até o valor da herança.",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "pessoalidade da pena",
+        "reparação do dano",
+        "sucessores",
+        "perdimento de bens",
+        "patrimônio transferido"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, art. 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Crimes inafiançáveis e imprescritíveis",
+      "dificuldade": "dificil",
+      "enunciado": "Considerando exclusivamente o texto do art. 5º, incisos XLII, XLIII e XLIV, da Constituição Federal, assinale a alternativa que apresenta apenas condutas que a Constituição declara, ao mesmo tempo, inafiançáveis e imprescritíveis.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Racismo, prática da tortura e terrorismo, ao lado da ação de grupos armados contra o Estado Democrático."
+        },
+        {
+          "id": "a2",
+          "texto": "Tráfico ilícito de entorpecentes e ação de grupos armados, civis ou militares, contra o Estado Democrático."
+        },
+        {
+          "id": "a3",
+          "texto": "Racismo e ação de grupos armados, civis ou militares, contra a ordem constitucional e o Estado Democrático."
+        },
+        {
+          "id": "a4",
+          "texto": "Tortura, tráfico ilícito de entorpecentes e drogas afins, terrorismo e os crimes definidos como hediondos."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "Pelo texto constitucional, são inafiançáveis e imprescritíveis somente o racismo (inciso XLII) e a ação de grupos armados, civis ou militares, contra a ordem constitucional e o Estado Democrático (inciso XLIV). Tortura, tráfico ilícito de entorpecentes, terrorismo e crimes hediondos (inciso XLIII) são inafiançáveis e insuscetíveis de graça ou anistia, mas a Constituição não os declara imprescritíveis.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Racismo e ação de grupos armados são imprescritíveis, mas tortura e terrorismo estão no inciso XLIII, que trata de inafiançabilidade e vedação de graça ou anistia, sem declarar imprescritibilidade."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A ação de grupos armados é imprescritível, mas o tráfico ilícito de entorpecentes não é declarado imprescritível pelo inciso XLIII."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Reúne exatamente as duas hipóteses que a Constituição declara inafiançáveis e imprescritíveis: incisos XLII e XLIV."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Lista os crimes do inciso XLIII, que são inafiançáveis e insuscetíveis de graça ou anistia, mas não imprescritíveis pelo texto constitucional."
+        }
+      ],
+      "fundamento_legal": "CF/88, art. 5º, XLII, XLIII e XLIV.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Estender a imprescritibilidade aos crimes do inciso XLIII (tortura, tráfico, terrorismo e hediondos).",
+      "lei_referencia": "CF/88, art. 5º, XLII e XLIV",
+      "macete_do_riccardo": "Imprescritíveis na CF são só dois: RAÇÃO (RAcismo e AÇÃO de grupos armados).",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "imprescritível",
+        "inafiançável",
+        "racismo",
+        "grupos armados",
+        "tortura",
+        "crimes hediondos"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, art. 5º, fornecido no contexto"
+      ]
+    }
+  ]
+}

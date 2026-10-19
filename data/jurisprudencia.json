@@ -1,0 +1,12 @@
+{
+  "_instrucoes": "Lista de julgados que o gerador PODE citar pelo número. Preencha com o professor; o que não estiver aqui não pode ser citado (a questão vai para NECESSITA_DE_CONFERENCIA). tipo: Súmula, Súmula Vinculante, Tema, HC, RHC, RE, REsp, ADI, ADC, ADPF, etc. numero: só o número, como aparece no julgado (ex.: \"11\", \"635659\", \"6.298\"). dispositivo_afetado: lei e artigo (ex.: \"Lei 11.343/2006, art. 44\"). fonte_url: página oficial do tribunal.",
+  "_modelo": {
+    "tribunal": "STF",
+    "tipo": "Súmula Vinculante",
+    "numero": "11",
+    "tese": "Texto da tese ou do enunciado, conferido na fonte oficial.",
+    "dispositivo_afetado": "CF, art. 5º, XLIX",
+    "fonte_url": "https://portal.stf.jus.br/"
+  },
+  "itens": []
+}

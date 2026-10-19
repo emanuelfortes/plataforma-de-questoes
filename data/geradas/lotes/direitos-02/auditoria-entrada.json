@@ -1,0 +1,701 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Instituição do júri",
+      "dificuldade": "facil",
+      "enunciado": "A Constituição Federal de 1988 reconhece a instituição do júri, com a organização que lhe der a lei. Entre as garantias asseguradas expressamente ao júri pelo art. 5º, inciso XXXVIII, está:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "a publicidade das votações, para permitir o controle social dos jurados."
+        },
+        {
+          "id": "a2",
+          "texto": "a competência para o julgamento dos crimes dolosos contra a vida."
+        },
+        {
+          "id": "a3",
+          "texto": "a competência para o julgamento de todos os crimes contra a vida, dolosos ou culposos."
+        },
+        {
+          "id": "a4",
+          "texto": "a ampla defesa, em substituição à plenitude de defesa prevista para os demais processos."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O art. 5º, XXXVIII, assegura ao júri quatro garantias: plenitude de defesa, sigilo das votações, soberania dos veredictos e competência para o julgamento dos crimes dolosos contra a vida. Só a competência para os crimes dolosos contra a vida aparece corretamente entre as opções.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "A Constituição assegura o sigilo das votações, e não a publicidade."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Reproduz a alínea d do inciso XXXVIII: competência para o julgamento dos crimes dolosos contra a vida."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A competência constitucional alcança apenas os crimes dolosos contra a vida, não os culposos."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O inciso XXXVIII fala em plenitude de defesa como garantia do júri; não há substituição pela ampla defesa."
+        }
+      ],
+      "fundamento_legal": "CF/88, art. 5º, XXXVIII, alíneas a a d.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar sigilo por publicidade das votações e estender a competência aos crimes culposos.",
+      "lei_referencia": "CF/88, art. 5º, XXXVIII",
+      "macete_do_riccardo": "Júri tem 4 garantias: PLENITUDE, SIGILO, SOBERANIA e COMPETÊNCIA (dolosos contra a vida).",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "júri",
+        "sigilo das votações",
+        "soberania dos veredictos",
+        "crimes dolosos contra a vida"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, art. 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Direito de petição e obtenção de certidões",
+      "dificuldade": "facil",
+      "enunciado": "Um cidadão de Fortaleza precisa de uma certidão emitida por repartição pública municipal para esclarecer situação de seu interesse pessoal. De acordo com o art. 5º da Constituição Federal, a obtenção dessa certidão:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "depende do pagamento de taxa, por se tratar de serviço público específico e divisível."
+        },
+        {
+          "id": "a2",
+          "texto": "só é assegurada se o interessado demonstrar que pretende ajuizar ação judicial."
+        },
+        {
+          "id": "a3",
+          "texto": "é assegurada independentemente do pagamento de taxas."
+        },
+        {
+          "id": "a4",
+          "texto": "é gratuita apenas para os reconhecidamente pobres, na forma da lei."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "O art. 5º, XXXIV, b, assegura a todos, independentemente do pagamento de taxas, a obtenção de certidões em repartições públicas, para defesa de direitos e esclarecimento de situações de interesse pessoal. O caso narrado se encaixa exatamente nessa hipótese.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "A Constituição afasta expressamente a cobrança de taxas para a obtenção de certidões nessas finalidades."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O texto não exige intenção de ajuizar ação: basta a defesa de direitos ou o esclarecimento de situação de interesse pessoal."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 5º, XXXIV, b, que garante a obtenção de certidões independentemente do pagamento de taxas."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A gratuidade restrita aos reconhecidamente pobres é a do inciso LXXVI (registro civil de nascimento e certidão de óbito), não a do inciso XXXIV, que vale para todos."
+        }
+      ],
+      "fundamento_legal": "CF/88, art. 5º, XXXIV, alínea b.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir a gratuidade universal das certidões do inciso XXXIV com a gratuidade restrita aos pobres do inciso LXXVI.",
+      "lei_referencia": "CF/88, art. 5º, XXXIV, b",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Certidão para defesa de direitos ou interesse pessoal é para TODOS, sem taxa. Já registro de nascimento e certidão de óbito gratuitos são só para os reconhecidamente pobres.",
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "certidões",
+        "direito de petição",
+        "taxas",
+        "repartições públicas"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, art. 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Racismo",
+      "dificuldade": "facil",
+      "enunciado": "Segundo o art. 5º, inciso XLII, da Constituição Federal, a prática do racismo constitui crime:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "inafiançável e insuscetível de graça ou anistia, mas sujeito à prescrição."
+        },
+        {
+          "id": "a2",
+          "texto": "afiançável e imprescritível, sujeito à pena de detenção."
+        },
+        {
+          "id": "a3",
+          "texto": "inafiançável e imprescritível, sujeito à pena de detenção, nos termos da lei."
+        },
+        {
+          "id": "a4",
+          "texto": "inafiançável e imprescritível, sujeito à pena de reclusão, nos termos da lei."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "O inciso XLII estabelece que a prática do racismo constitui crime inafiançável e imprescritível, sujeito à pena de reclusão, nos termos da lei. Os três elementos (inafiançável, imprescritível e reclusão) precisam aparecer juntos.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Mistura o regime do inciso XLIII (insuscetível de graça ou anistia) e nega a imprescritibilidade, que o inciso XLII prevê expressamente para o racismo."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O racismo é inafiançável, e a pena prevista é de reclusão, não de detenção."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Acerta a inafiançabilidade e a imprescritibilidade, mas troca a pena de reclusão por detenção."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Reproduz fielmente o inciso XLII: inafiançável, imprescritível e sujeito à pena de reclusão, nos termos da lei."
+        }
+      ],
+      "fundamento_legal": "CF/88, art. 5º, XLII.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar reclusão por detenção e confundir o regime do racismo com o dos crimes do inciso XLIII.",
+      "lei_referencia": "CF/88, art. 5º, XLII",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "racismo",
+        "inafiançável",
+        "imprescritível",
+        "reclusão"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, art. 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Propriedade: desapropriação e requisição administrativa",
+      "dificuldade": "media",
+      "enunciado": "Durante uma enchente que ameaçava bairros inteiros, a autoridade competente ocupou temporariamente um galpão particular para abrigar famílias desalojadas. Meses depois, o Município decidiu desapropriar outro imóvel, por utilidade pública, para construir uma escola. À luz do art. 5º da Constituição Federal, assinale a afirmativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "No uso do galpão, a indenização ao proprietário será ulterior e somente se houver dano; na desapropriação, a regra é a justa e prévia indenização em dinheiro, ressalvados os casos previstos na Constituição."
+        },
+        {
+          "id": "a2",
+          "texto": "Em ambas as situações, o proprietário tem direito a indenização prévia em dinheiro, sob pena de nulidade do ato."
+        },
+        {
+          "id": "a3",
+          "texto": "No uso do galpão, a indenização é sempre devida e prévia; na desapropriação, a indenização será ulterior, se houver dano."
+        },
+        {
+          "id": "a4",
+          "texto": "Na desapropriação por utilidade pública, a indenização em dinheiro é obrigatória sem qualquer exceção, e no uso do galpão não cabe indenização alguma, por se tratar de perigo público."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "São dois institutos diferentes. No iminente perigo público (inciso XXV), a autoridade pode usar a propriedade particular, assegurada indenização ulterior, se houver dano. Na desapropriação por necessidade ou utilidade pública ou por interesse social (inciso XXIV), a regra é a justa e prévia indenização em dinheiro, ressalvados os casos previstos na própria Constituição.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Descreve corretamente o inciso XXV (indenização ulterior, se houver dano) e o inciso XXIV (justa e prévia indenização em dinheiro, com as ressalvas constitucionais)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "No uso da propriedade em iminente perigo público, a indenização é ulterior e condicionada à existência de dano, não prévia."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Inverte os regimes: a indenização ulterior, se houver dano, é a do uso em perigo público, e a prévia é a da desapropriação."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O inciso XXIV ressalva os casos previstos na Constituição, e o inciso XXV assegura indenização ulterior se houver dano, de modo que nenhuma das duas afirmações procede."
+        }
+      ],
+      "fundamento_legal": "CF/88, art. 5º, XXIV e XXV.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Inverter o momento da indenização entre o uso em perigo público e a desapropriação.",
+      "lei_referencia": "CF/88, art. 5º, XXIV e XXV",
+      "macete_do_riccardo": "Perigo público: primeiro USA, depois PAGA (se houver dano). Desapropriação: primeiro PAGA (justa, prévia, em dinheiro), depois toma.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "desapropriação",
+        "iminente perigo público",
+        "indenização prévia",
+        "indenização ulterior",
+        "propriedade"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, art. 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Representação dos filiados por entidades associativas",
+      "dificuldade": "media",
+      "enunciado": "Uma associação de guardas municipais pretende representar seus filiados em um pedido administrativo perante a Prefeitura e, depois, em uma ação judicial. Conforme o art. 5º, inciso XXI, da Constituição Federal, as entidades associativas têm legitimidade para representar seus filiados:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "apenas judicialmente, e desde que estejam em funcionamento há pelo menos um ano."
+        },
+        {
+          "id": "a2",
+          "texto": "judicial ou extrajudicialmente, quando expressamente autorizadas."
+        },
+        {
+          "id": "a3",
+          "texto": "judicial ou extrajudicialmente, independentemente de autorização, por força da própria filiação."
+        },
+        {
+          "id": "a4",
+          "texto": "apenas extrajudicialmente, pois a representação judicial é exclusiva das organizações sindicais."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O inciso XXI dispõe que as entidades associativas, quando expressamente autorizadas, têm legitimidade para representar seus filiados judicial ou extrajudicialmente. A representação alcança os dois campos (administrativo e judicial), mas depende de autorização expressa.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O inciso XXI abrange também a representação extrajudicial, e o requisito de funcionamento há pelo menos um ano é do mandado de segurança coletivo (inciso LXX, b), não da representação do inciso XXI."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Reproduz o inciso XXI: representação judicial ou extrajudicial, quando a entidade estiver expressamente autorizada."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O texto constitucional exige autorização expressa; a simples filiação não basta para a representação prevista no inciso XXI."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O inciso XXI admite expressamente a representação judicial pelas entidades associativas, não a restringindo aos sindicatos."
+        }
+      ],
+      "fundamento_legal": "CF/88, art. 5º, XXI (com contraste ao inciso LXX, b).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Dispensar a autorização expressa ou importar o requisito de um ano de funcionamento do mandado de segurança coletivo.",
+      "lei_referencia": "CF/88, art. 5º, XXI",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Representação do inciso XXI: precisa de autorização EXPRESSA. O prazo de um ano de funcionamento aparece no mandado de segurança coletivo, outro dispositivo.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "entidades associativas",
+        "representação",
+        "autorização expressa",
+        "filiados"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, art. 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Crimes inafiançáveis e insuscetíveis de graça ou anistia",
+      "dificuldade": "media",
+      "enunciado": "Em uma operação, apurou-se que um chefe de facção ordenou a tortura de um rival, dois comparsas executaram a agressão e um terceiro integrante, que tinha condições de impedir o ato, permaneceu inerte. Considerando apenas o art. 5º, inciso XLIII, da Constituição Federal, é correto afirmar que:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "somente os executores respondem pelo crime, pois a Constituição pune apenas quem pratica diretamente a tortura."
+        },
+        {
+          "id": "a2",
+          "texto": "o mandante e os executores respondem, mas quem se omitiu fica isento, já que não praticou nenhum ato."
+        },
+        {
+          "id": "a3",
+          "texto": "respondem o mandante, os executores e aquele que, podendo evitar o crime, se omitiu, sendo a tortura crime inafiançável e insuscetível de graça ou anistia."
+        },
+        {
+          "id": "a4",
+          "texto": "respondem o mandante, os executores e o omitente, mas a tortura é crime afiançável, embora insuscetível de graça ou anistia."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "O inciso XLIII determina que a lei considere crimes inafiançáveis e insuscetíveis de graça ou anistia a tortura, o tráfico ilícito de entorpecentes, o terrorismo e os crimes hediondos, por eles respondendo os mandantes, os executores e os que, podendo evitá-los, se omitirem. Os três perfis do caso estão abrangidos.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O texto inclui expressamente os mandantes e os omitentes, além dos executores."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A Constituição alcança também quem, podendo evitar o crime, se omite."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Corresponde ao inciso XLIII: mandantes, executores e omitentes respondem, e a tortura é inafiançável e insuscetível de graça ou anistia."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Acerta quanto aos responsáveis, mas erra ao dizer que a tortura é afiançável; o inciso XLIII a declara inafiançável."
+        }
+      ],
+      "fundamento_legal": "CF/88, art. 5º, XLIII.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Excluir o omitente da responsabilização ou negar a inafiançabilidade da tortura.",
+      "lei_referencia": "CF/88, art. 5º, XLIII",
+      "macete_do_riccardo": "TTTH (tortura, tráfico, terrorismo e hediondos): inafiançáveis e sem graça ou anistia; respondem mandante, executor e omitente.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "tortura",
+        "inafiançável",
+        "graça",
+        "anistia",
+        "omissão",
+        "mandante"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, art. 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Segurança jurídica e inafastabilidade da jurisdição",
+      "dificuldade": "media",
+      "enunciado": "Sobre as garantias previstas no art. 5º, incisos XXXV a XXXVII, da Constituição Federal, assinale a afirmativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A lei não excluirá da apreciação do Poder Judiciário lesão a direito, mas pode excluir a mera ameaça, que deve ser resolvida na via administrativa."
+        },
+        {
+          "id": "a2",
+          "texto": "A lei não prejudicará o direito adquirido e a coisa julgada, salvo quando houver relevante interesse público declarado em lei complementar."
+        },
+        {
+          "id": "a3",
+          "texto": "Não haverá juízo ou tribunal de exceção, salvo em caso de guerra declarada ou de grave comoção nacional."
+        },
+        {
+          "id": "a4",
+          "texto": "A lei não prejudicará o direito adquirido, o ato jurídico perfeito e a coisa julgada."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "O inciso XXXVI protege o direito adquirido, o ato jurídico perfeito e a coisa julgada, sem ressalvas no texto. O inciso XXXV protege contra lesão ou ameaça a direito, e o inciso XXXVII veda o juízo ou tribunal de exceção sem prever exceções.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O inciso XXXV protege tanto a lesão quanto a ameaça a direito; a lei não pode excluir nenhuma delas da apreciação judicial."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O inciso XXXVI não traz ressalva de interesse público nem autoriza lei complementar a prejudicar essas situações, e ainda omite o ato jurídico perfeito."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O inciso XXXVII veda o juízo ou tribunal de exceção sem prever exceção por guerra ou comoção."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Reproduz integralmente o inciso XXXVI."
+        }
+      ],
+      "fundamento_legal": "CF/88, art. 5º, XXXV, XXXVI e XXXVII.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Inserir exceções inexistentes em garantias que o texto constitucional enuncia sem ressalva.",
+      "lei_referencia": "CF/88, art. 5º, XXXVI",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Inafastabilidade cobre LESÃO e AMEAÇA. A tríade protegida é direito adquirido, ato jurídico perfeito e coisa julgada.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "direito adquirido",
+        "ato jurídico perfeito",
+        "coisa julgada",
+        "inafastabilidade",
+        "tribunal de exceção"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, art. 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Pessoalidade da pena",
+      "dificuldade": "dificil",
+      "enunciado": "Pedro foi condenado definitivamente por crime que causou à vítima prejuízo de R$ 80.000,00, sendo também condenado à reparação do dano. Antes de qualquer pagamento, Pedro faleceu, deixando a seus dois filhos patrimônio total de R$ 50.000,00. Considerando o art. 5º, inciso XLV, da Constituição Federal, é correto afirmar que:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "a obrigação de reparar o dano pode, nos termos da lei, ser estendida aos filhos e contra eles executada, até o limite de R$ 50.000,00."
+        },
+        {
+          "id": "a2",
+          "texto": "os filhos respondem pela reparação integral de R$ 80.000,00, ainda que tenham de usar patrimônio próprio."
+        },
+        {
+          "id": "a3",
+          "texto": "a morte de Pedro extingue a obrigação de reparar o dano, pois nenhuma consequência da condenação pode passar da pessoa do condenado."
+        },
+        {
+          "id": "a4",
+          "texto": "os filhos passam a cumprir a pena imposta a Pedro, na proporção da herança recebida por cada um."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O inciso XLV consagra a pessoalidade da pena: nenhuma pena passa da pessoa do condenado. Porém, a obrigação de reparar o dano e a decretação do perdimento de bens podem, nos termos da lei, ser estendidas aos sucessores e contra eles executadas, até o limite do valor do patrimônio transferido. No caso, esse limite é de R$ 50.000,00.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Aplica corretamente o inciso XLV: a reparação do dano pode alcançar os sucessores, limitada ao patrimônio transferido (R$ 50.000,00)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A extensão aos sucessores tem como teto o valor do patrimônio transferido; o patrimônio próprio dos filhos não responde pelo excedente."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A intransmissibilidade atinge a pena, mas a própria Constituição permite estender aos sucessores a obrigação de reparar o dano."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A pena nunca passa da pessoa do condenado; o que pode ser estendido é a reparação do dano e o perdimento de bens, não a pena."
+        }
+      ],
+      "fundamento_legal": "CF/88, art. 5º, XLV.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir a intransmissibilidade da pena com a transmissibilidade limitada da obrigação de reparar o dano.",
+      "lei_referencia": "CF/88, art. 5º, XLV",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "A PENA não passa; a REPARAÇÃO DO DANO e o PERDIMENTO DE BENS passam aos sucessores, mas só até o valor da herança.",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "pessoalidade da pena",
+        "reparação do dano",
+        "sucessores",
+        "perdimento de bens",
+        "patrimônio transferido"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, art. 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Legalidade e irretroatividade da lei penal",
+      "dificuldade": "dificil",
+      "enunciado": "João praticou determinada conduta quando ela era punida com pena de 1 a 3 anos. Antes da sentença, entrou em vigor lei que elevou a pena da mesma conduta para 2 a 6 anos. Já Maria praticou outra conduta que, na data do fato, era crime, mas, antes do julgamento, lei nova deixou de considerá-la crime. Com base no art. 5º, incisos XXXIX e XL, da Constituição Federal, assinale a afirmativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "João deve ser julgado pela lei nova, pois a lei penal aplicável é sempre a vigente na data da sentença, e Maria deve ser condenada, pois a conduta era crime quando praticada."
+        },
+        {
+          "id": "a2",
+          "texto": "João não pode ser prejudicado pela lei nova mais gravosa, e a lei que deixou de considerar crime a conduta de Maria retroage em seu benefício."
+        },
+        {
+          "id": "a3",
+          "texto": "João deve ser julgado pela lei nova, por ser mais recente, e a lei nova também beneficia Maria, pois toda lei penal posterior retroage."
+        },
+        {
+          "id": "a4",
+          "texto": "João não pode ser prejudicado pela lei nova, mas Maria deve ser condenada, pois a retroatividade benéfica só alcança a redução de pena, não a extinção do crime."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "Pelo inciso XL, a lei penal não retroagirá, salvo para beneficiar o réu. Assim, a lei que agravou a pena não alcança o fato anterior de João, e a lei que deixou de considerar crime a conduta de Maria, por ser benéfica, retroage. O inciso XXXIX reforça a exigência de lei anterior que defina o crime e comine a pena.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "A lei mais gravosa não retroage, e a lei benéfica retroage; a afirmação ignora as duas regras do inciso XL."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Aplica o inciso XL: irretroatividade da lei mais gravosa para João e retroatividade da lei benéfica para Maria."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Não é toda lei penal posterior que retroage, mas apenas a que beneficia o réu; a lei que agravou a pena não alcança João."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O inciso XL não limita a retroatividade benéfica à redução de pena: deixar de considerar a conduta crime é o benefício máximo ao réu."
+        }
+      ],
+      "fundamento_legal": "CF/88, art. 5º, XXXIX e XL.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "A solução depende da comparação entre a lei vigente na data do fato e a lei posterior, conforme o inciso XL.",
+      "pegadinha": "Achar que vale sempre a lei da data da sentença ou que a retroatividade benéfica se limita à redução de pena.",
+      "lei_referencia": "CF/88, art. 5º, XL",
+      "macete_do_riccardo": "Lei penal: piorou, não volta; melhorou, volta.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "irretroatividade",
+        "retroatividade benéfica",
+        "legalidade penal",
+        "anterioridade"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, art. 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Crimes inafiançáveis e imprescritíveis",
+      "dificuldade": "dificil",
+      "enunciado": "Considerando exclusivamente o texto do art. 5º, incisos XLII, XLIII e XLIV, da Constituição Federal, assinale a alternativa que apresenta apenas condutas que a Constituição declara, ao mesmo tempo, inafiançáveis e imprescritíveis.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Racismo, tortura e terrorismo."
+        },
+        {
+          "id": "a2",
+          "texto": "Tráfico ilícito de entorpecentes e ação de grupos armados contra o Estado Democrático."
+        },
+        {
+          "id": "a3",
+          "texto": "Racismo e ação de grupos armados, civis ou militares, contra a ordem constitucional e o Estado Democrático."
+        },
+        {
+          "id": "a4",
+          "texto": "Tortura, tráfico ilícito de entorpecentes, terrorismo e crimes hediondos."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "Pelo texto constitucional, são inafiançáveis e imprescritíveis somente o racismo (inciso XLII) e a ação de grupos armados, civis ou militares, contra a ordem constitucional e o Estado Democrático (inciso XLIV). Tortura, tráfico ilícito de entorpecentes, terrorismo e crimes hediondos (inciso XLIII) são inafiançáveis e insuscetíveis de graça ou anistia, mas a Constituição não os declara imprescritíveis.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Tortura e terrorismo estão no inciso XLIII, que trata de inafiançabilidade e vedação de graça ou anistia, sem declarar imprescritibilidade."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A ação de grupos armados é imprescritível, mas o tráfico ilícito de entorpecentes não é declarado imprescritível pelo inciso XLIII."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Reúne exatamente as duas hipóteses que a Constituição declara inafiançáveis e imprescritíveis: incisos XLII e XLIV."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Lista os crimes do inciso XLIII, que são inafiançáveis e insuscetíveis de graça ou anistia, mas não imprescritíveis pelo texto constitucional."
+        }
+      ],
+      "fundamento_legal": "CF/88, art. 5º, XLII, XLIII e XLIV.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Estender a imprescritibilidade aos crimes do inciso XLIII (tortura, tráfico, terrorismo e hediondos).",
+      "lei_referencia": "CF/88, art. 5º, XLII e XLIV",
+      "macete_do_riccardo": "Imprescritíveis na CF são só dois: RAÇÃO (RAcismo e AÇÃO de grupos armados).",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "imprescritível",
+        "inafiançável",
+        "racismo",
+        "grupos armados",
+        "tortura",
+        "crimes hediondos"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, art. 5º, fornecido no contexto"
+      ]
+    }
+  ]
+}

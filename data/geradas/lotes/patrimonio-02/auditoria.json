@@ -1,0 +1,130 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Caso típico de roubo impróprio (art. 157, § 1º): violência logo depois da subtração para assegurar a detenção da coisa e a fuga. Distratores (furto mais lesão, furto qualificado pela destreza, extorsão) estão corretamente afastados."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A conduta (exigir, como garantia de dívida, abusando da situação da vítima, documento que pode dar causa a procedimento criminal) corresponde ao art. 160, pena de reclusão de um a três anos e multa. O tipo não exige uso posterior do documento; demais distratores claramente errados."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 159, § 1º, prevê pena de doze a vinte anos quando o sequestrado é maior de 60 anos. Prazo de doze horas, repouso noturno e arma branca não constam do dispositivo."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Grave ameaça com faca (arma branca) gera aumento de 1/3 até metade (art. 157, § 2º, VII). O enunciado isola o meio empregado e afasta o concurso ('agindo sozinho'); frações de arma de fogo e de uso restrito estão corretas nos distratores."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Crime em concurso, concorrente que denuncia à autoridade e facilita a libertação: redução de um a dois terços (art. 159, § 4º). Distratores de extinção da punibilidade, atenuante genérica e exigência de bando estão errados."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Constranger a vítima, mediante grave ameaça, a fazer depósito para obter vantagem econômica indevida é extorsão (art. 158). O enunciado exclui subtração e restrição de liberdade, afastando roubo e a forma do § 3º; extorsão indireta e estelionato estão claramente errados."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 183, I, afasta a isenção do art. 181, II, e a representação do art. 182 no roubo e em casos de grave ameaça ou violência. A idade do pai (55) torna irrelevante o inciso III e confirma que o inciso I basta. Gabarito único."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "alternativas",
+          "gravidade": "baixa",
+          "descricao": "O enunciado descreve dois agentes, o que pode levar o aluno a cogitar a majorante do art. 158, § 1º (duas ou mais pessoas) sobre a pena; a pergunta pede a faixa de pena aplicável, e nenhuma alternativa traz aumento, de modo que o gabarito se mantém, mas o ponto pode gerar dúvida."
+        }
+      ],
+      "correcao_sugerida": "No comando, trocar 'a pena aplicável a esse fato é de reclusão de' por 'a pena cominada para esse fato, sem considerar eventuais causas de aumento, é de reclusão de'.",
+      "justificativa": "Extorsão com restrição da liberdade necessária à vantagem e resultado lesão grave: o art. 158, § 3º, remete ao art. 159, § 2º (dezesseis a vinte e quatro anos). A regra específica prevalece sobre a remissão geral do § 2º ao roubo. Ressalva menor sobre o concurso de dois agentes no enunciado."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Pelo texto vigente fornecido, art. 157, § 3º, II: morte, reclusão de 24 a 30 anos e multa (Lei 15.397/2026). Lesão grave tem multa; o texto fala em resultado 'da violência'; a pena de 20 a 40 anos do § 5º exige integrante de organização criminosa ultraviolenta, paramilitar ou milícia."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 157, § 4º, manda aplicar em triplo a pena do caput, desprezadas as demais causas de aumento, quando a violência ou grave ameaça é cometida por integrante de milícia no contexto descrito. A fração de 2/3 é a do art. 159, § 5º, e a pena de 20 a 40 anos é a do latrocínio do § 5º, sem morte no caso."
+    }
+  ]
+}

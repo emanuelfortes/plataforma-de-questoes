@@ -1,0 +1,222 @@
+{
+  "questoes": [
+    {
+      "id": "q04",
+      "tema": "Crase",
+      "subtema": "Crase proibida antes de pronomes de tratamento, pessoais e indefinidos",
+      "dificuldade": "media",
+      "enunciado": "Assinale a frase em que o emprego ou a ausência do acento grave está de acordo com a norma-padrão.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O comissário dirigiu-se a Sua Excelência, o secretário da Segurança Pública, com o devido respeito."
+        },
+        {
+          "id": "a2",
+          "texto": "O relatório final da operação será entregue à Vossa Senhoria na próxima segunda-feira."
+        },
+        {
+          "id": "a3",
+          "texto": "O delegado recomendou atenção à qualquer testemunha que se apresentasse espontaneamente."
+        },
+        {
+          "id": "a4",
+          "texto": "A inspetora pediu explicações à ela sobre o horário exato em que deixou o local do crime."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Pronomes de tratamento como Vossa Senhoria, Vossa Excelência e Sua Excelência não admitem artigo; por isso, mesmo depois de um termo que exige a preposição \"a\", não há crase. O mesmo vale para pronomes pessoais (ela) e para pronomes indefinidos como \"qualquer\". A única frase correta é a que traz \"dirigiu-se a Sua Excelência\", sem acento grave.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Correta: \"dirigir-se\" exige a preposição \"a\", mas \"Sua Excelência\" é pronome de tratamento e não aceita artigo; logo, apenas preposição, sem crase."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Incorreta: \"Vossa Senhoria\" é pronome de tratamento e não admite artigo. O correto é \"entregue a Vossa Senhoria\"."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Incorreta: \"qualquer\" é pronome indefinido e não é precedido de artigo. O correto é \"atenção a qualquer testemunha\"."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Incorreta: \"ela\" é pronome pessoal e não admite artigo. O correto é \"pediu explicações a ela\"."
+        }
+      ],
+      "fundamento_legal": "Não se aplica: disciplina sem lei de referência. Regra da norma-padrão: não ocorre crase antes de pronomes de tratamento iniciados por Vossa ou Sua, de pronomes pessoais e de pronomes indefinidos como \"qualquer\".",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Supor que o caráter formal do pronome de tratamento ou o fato de se referir a uma mulher autoriza o acento grave.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "A regra vale para os pronomes de tratamento com Vossa e Sua. Não estenda essa proibição automaticamente a palavras como \"senhora\" ou \"dona\", que seguem outro tratamento na gramática.",
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "crase",
+        "pronome de tratamento",
+        "pronome pessoal",
+        "pronome indefinido",
+        "Vossa Senhoria"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal fornecido no contexto)"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Crase",
+      "subtema": "Regra geral combinada com crase proibida antes de verbo e de pronome de tratamento",
+      "dificuldade": "dificil",
+      "enunciado": "Leia o trecho a seguir.\n\n\"O inspetor dirigiu-se ___ vítima e comunicou-lhe que, ___ partir daquele momento, as diligências seriam reforçadas; em seguida, entregou o termo de declarações ___ Sua Excelência, o juiz plantonista, e voltou ___ delegacia.\"\n\nDe acordo com a norma-padrão, devem ser preenchidas com \"à\" (com acento grave) as lacunas indicadas em:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Somente a primeira e a quarta lacunas."
+        },
+        {
+          "id": "a2",
+          "texto": "Somente a primeira, a segunda e a quarta lacunas."
+        },
+        {
+          "id": "a3",
+          "texto": "Somente a primeira, a terceira e a quarta lacunas."
+        },
+        {
+          "id": "a4",
+          "texto": "A primeira, a segunda, a terceira e a quarta lacunas."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Primeira lacuna: \"dirigir-se\" exige a preposição \"a\" e \"vítima\" é feminino com artigo, logo \"à vítima\". Segunda: \"partir\" é verbo, e antes de verbo não há crase (\"a partir de\"). Terceira: \"Sua Excelência\" é pronome de tratamento e não admite artigo, então \"a Sua Excelência\". Quarta: \"voltar\" pede a preposição \"a\" e \"delegacia\" é feminino com artigo (voltou ao distrito, voltou à delegacia). Só a primeira e a quarta lacunas recebem o acento grave.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Correta: há crase em \"à vítima\" e \"à delegacia\" (preposição mais artigo feminino); não há crase antes do verbo \"partir\" nem antes do pronome de tratamento \"Sua Excelência\"."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Incorreta: inclui a segunda lacuna, mas na locução \"a partir de\" o \"a\" antecede verbo e não pode receber acento grave."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Incorreta: inclui a terceira lacuna, mas \"Sua Excelência\" é pronome de tratamento, não admite artigo e, por isso, não aceita crase."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Incorreta: acentua todas as lacunas, errando a segunda (antes do verbo \"partir\") e a terceira (antes do pronome de tratamento \"Sua Excelência\")."
+        }
+      ],
+      "fundamento_legal": "Não se aplica: disciplina sem lei de referência. Regra da norma-padrão: crase como fusão de preposição e artigo feminino; proibição antes de verbo e de pronome de tratamento.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Acentuar o \"a\" da locução \"a partir de\" e o \"a\" diante de \"Sua Excelência\" por proximidade com palavras femininas.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "\"A partir de\" nunca tem acento grave: o \"a\" está diante do verbo \"partir\".",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "crase",
+        "a partir de",
+        "pronome de tratamento",
+        "regra geral",
+        "preenchimento de lacunas"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal fornecido no contexto)"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Crase",
+      "subtema": "Regra geral e casos de crase proibida em texto",
+      "dificuldade": "dificil",
+      "enunciado": "Leia o texto a seguir.\n\n\"Logo ao amanhecer, a equipe chegou (1) à residência indicada na denúncia. Os agentes começaram (2) a vasculhar o quintal, palmo (3) a palmo, até que um vizinho se dirigiu (4) a eles e prestou informações (5) à equipe.\"\n\nSobre o emprego do sinal indicativo de crase nas ocorrências numeradas, é correto afirmar que:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "em (2), o acento grave seria obrigatório, pois o verbo \"começar\" exige a preposição \"a\" antes do complemento."
+        },
+        {
+          "id": "a2",
+          "texto": "em (1) e (5), o acento grave resulta da fusão da preposição exigida pelo termo regente com o artigo feminino."
+        },
+        {
+          "id": "a3",
+          "texto": "em (3), deveria haver acento grave, pois a expressão indica modo e é formada por substantivos repetidos."
+        },
+        {
+          "id": "a4",
+          "texto": "em (4), o acento grave seria facultativo, já que o pronome \"eles\" retoma um substantivo citado no texto."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "Em (1), \"chegar\" exige a preposição \"a\" e \"residência\" é feminino com artigo: à residência. Em (5), \"prestar informações\" pede complemento introduzido por \"a\" e \"equipe\" é feminino com artigo: à equipe. Nos demais pontos não pode haver crase: em (2), o \"a\" antecede verbo; em (3), a expressão é formada por palavras repetidas e masculinas; em (4), o \"a\" antecede pronome pessoal, que não admite artigo.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Embora \"começar\" peça a preposição, o termo seguinte é o verbo \"vasculhar\", que não admite artigo; portanto não há crase."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Correta: nas duas ocorrências há preposição exigida pelo termo regente (chegar a; prestar informações a) e artigo feminino diante de \"residência\" e \"equipe\"."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "\"Palmo a palmo\" é expressão com palavras repetidas e masculinas; justamente por isso o \"a\" é só preposição e não recebe acento grave."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Antes de pronome pessoal a crase é proibida, não facultativa; \"eles\", além disso, é masculino."
+        }
+      ],
+      "fundamento_legal": "Não se aplica: disciplina sem lei de referência. Regra da norma-padrão: crase como fusão de preposição e artigo feminino; proibição antes de verbo, de pronome pessoal, de palavra masculina e entre palavras repetidas.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir a exigência de preposição pelo verbo (começar a) com a ocorrência de crase, que também depende do artigo feminino.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "crase",
+        "regra geral",
+        "crase antes de verbo",
+        "pronome pessoal",
+        "palavras repetidas",
+        "análise de texto"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal fornecido no contexto)"
+      ]
+    }
+  ],
+  "observacoes_do_lote": "Ajuste de tamanho das alternativas em q04, q08 e q10. Na q08, as alternativas passaram a indicar quais lacunas recebem acento grave (em vez da sequência de sinais), para que o tamanho não denuncie a resposta; os distratores continuam testando a crase indevida em \"a partir de\" e diante de \"Sua Excelência\"."
+}

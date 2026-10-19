@@ -1,0 +1,141 @@
+{
+  "questoes": [
+    {
+      "id": "q03",
+      "tema": "Crimes contra o Patrimônio",
+      "subtema": "Furto de coisa comum: pena e ação penal",
+      "dificuldade": "facil",
+      "enunciado": "Sobre o crime de furto de coisa comum, previsto no art. 156 do Código Penal, assinale a afirmativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "É punido com detenção, de seis meses a dois anos, ou multa, e somente se procede mediante representação."
+        },
+        {
+          "id": "a2",
+          "texto": "É punido com reclusão, de um a seis anos, e multa, e a ação penal é pública incondicionada, dispensando a representação."
+        },
+        {
+          "id": "a3",
+          "texto": "É punido com detenção, de seis meses a dois anos, ou multa, e somente se procede mediante queixa do ofendido."
+        },
+        {
+          "id": "a4",
+          "texto": "Pode ser praticado por qualquer pessoa que subtraia coisa pertencente a mais de um proprietário."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 156 pune o condômino, co-herdeiro ou sócio que subtrai a coisa comum de quem legitimamente a detém, com pena de detenção, de seis meses a dois anos, ou multa. Pelo § 1º, somente se procede mediante representação, ou seja, a ação penal é pública condicionada.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reúne corretamente a pena do caput do art. 156 e a regra do § 1º, segundo a qual somente se procede mediante representação."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Reclusão de um a seis anos e multa é a pena do furto simples (art. 155, caput). Além disso, o furto de coisa comum não dispensa a representação: o § 1º a exige."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A pena está correta, mas a ação penal não é privada: o § 1º exige representação, e não queixa do ofendido."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O crime é próprio: só o condômino, o co-herdeiro ou o sócio pode praticá-lo. O estranho que subtrai coisa de vários proprietários comete furto do art. 155."
+        }
+      ],
+      "fundamento_legal": "Código Penal, art. 156, caput e § 1º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir representação (ação pública condicionada) com queixa (ação privada) e tratar o crime como comum.",
+      "lei_referencia": "CP, art. 156, § 1º",
+      "macete_do_riccardo": "Furto de coisa comum: só entre condômino, co-herdeiro ou sócio, e sempre com representação.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "furto de coisa comum",
+        "representação",
+        "crime próprio"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (arts. 155 a 183) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Crimes contra o Patrimônio",
+      "subtema": "Furto de fios e cabos e privilégio",
+      "dificuldade": "dificil",
+      "enunciado": "Carlos, primário, subtraiu, durante o dia, alguns metros de cabos utilizados para a transmissão de telefonia, de pequeno valor, de um poste em via pública, agindo sozinho e sem romper obstáculo. Considerando o Código Penal, assinale a afirmativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Carlos responde pelo furto da subtração de fios e cabos, com pena de reclusão, de 2 (dois) a 8 (oito) anos, e multa, sendo vedada a aplicação do privilégio por se tratar de forma qualificada, ainda que primário o agente."
+        },
+        {
+          "id": "a2",
+          "texto": "Carlos responde pelo furto da subtração de fios e cabos, com pena de reclusão, de 2 (dois) a 8 (oito) anos, e multa, sendo aplicável, por expressa previsão legal, o benefício do furto privilegiado."
+        },
+        {
+          "id": "a3",
+          "texto": "Carlos responde por furto simples com pena aumentada de metade, porque os cabos de telefonia se equiparam à energia elétrica."
+        },
+        {
+          "id": "a4",
+          "texto": "Carlos responde pelo furto de dispositivo eletrônico ou informático, com pena de reclusão, de 4 (quatro) a 10 (dez) anos, e multa, pois os cabos servem à transferência de dados."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O art. 155, § 8º, com a redação dada pela Lei 15.397/2026, pune com reclusão, de 2 a 8 anos, e multa a subtração de fios, cabos ou equipamentos utilizados para fornecimento ou transmissão de energia elétrica ou de telefonia, e determina expressamente a aplicação, em qualquer caso, do § 2º. Sendo Carlos primário e a coisa de pequeno valor, o juiz pode aplicar os benefícios do furto privilegiado.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "A pena está correta, mas o § 8º afasta a vedação ao prever que se aplica, em qualquer caso, o disposto no § 2º (furto privilegiado), de modo que a primariedade de Carlos é relevante."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Reproduz o § 8º: pena de 2 a 8 anos e multa, com aplicação expressa do § 2º, cujos requisitos (primariedade e pequeno valor) estão presentes."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O § 3º equipara à coisa móvel a energia, não os cabos; e o aumento de metade é do repouso noturno, que não ocorreu. A subtração de cabos de telefonia tem forma própria no § 8º."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O § 6º, II, trata de aparelho de telefonia celular, computador ou dispositivo eletrônico ou informático semelhante. Cabos de telefonia e de transferência de dados estão especificamente previstos no § 8º."
+        }
+      ],
+      "fundamento_legal": "Código Penal, art. 155, §§ 2º e 8º (§ 8º com redação dada pela Lei 15.397/2026).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "A pena de 2 a 8 anos e a remissão expressa ao § 2º constam da redação dada ao § 8º pela Lei 15.397/2026, presente no texto compilado fornecido.",
+      "pegadinha": "Supor que o privilégio nunca se aplica a formas qualificadas, quando o § 8º manda aplicá-lo expressamente.",
+      "lei_referencia": "CP, art. 155, § 8º",
+      "macete_do_riccardo": null,
+      "fique_ligado": "No furto de fios e cabos (§ 8º), a lei manda aplicar o § 2º em qualquer caso: primário e pequeno valor garantem o privilégio.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "excecao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "furto de fios e cabos",
+        "telefonia",
+        "furto privilegiado",
+        "qualificadora"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (arts. 155 a 183) fornecido no contexto"
+      ]
+    }
+  ]
+}

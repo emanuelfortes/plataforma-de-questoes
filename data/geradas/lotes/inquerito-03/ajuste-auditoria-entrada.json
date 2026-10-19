@@ -1,0 +1,419 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Inquérito Policial",
+      "subtema": "Conclusão e prazos",
+      "dificuldade": "facil",
+      "enunciado": "De acordo com o Código de Processo Penal, os prazos para a conclusão do inquérito policial são de:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "10 dias, se o indiciado estiver preso, e 20 dias, se estiver solto, apenas quando não tiver prestado fiança, contados da data da instauração do inquérito policial."
+        },
+        {
+          "id": "a2",
+          "texto": "10 dias, se o indiciado tiver sido preso em flagrante ou estiver preso preventivamente, e 30 dias, quando estiver solto, mediante fiança ou sem ela."
+        },
+        {
+          "id": "a3",
+          "texto": "15 dias, se o indiciado tiver sido preso em flagrante ou estiver preso preventivamente, e 30 dias, quando estiver solto, contados sempre da data da instauração do inquérito."
+        },
+        {
+          "id": "a4",
+          "texto": "30 dias, se o indiciado estiver preso em flagrante ou preventivamente, e 90 dias, se estiver solto, mediante fiança ou sem ela."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O art. 10 do CPP fixa dois prazos: 10 dias para o indiciado preso (em flagrante ou preventivamente) e 30 dias para o indiciado solto, tenha ou não prestado fiança. Na prisão preventiva, o prazo conta-se do dia em que se executar a ordem de prisão. É a regra geral do CPP, cobrada pela literalidade.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O prazo do indiciado solto é de 30 dias, e não de 20; a lei aplica o mesmo prazo ao solto com ou sem fiança; e, para o preso preventivamente, o prazo conta-se da execução da ordem de prisão, não da instauração."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Reproduz o art. 10, caput, do CPP: 10 dias para o preso em flagrante ou preventivamente e 30 dias para o solto, mediante fiança ou sem ela."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O prazo do preso no art. 10 é de 10 dias, e não de 15; além disso, na prisão preventiva, conta-se da execução da ordem de prisão, não necessariamente da instauração."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Os números não constam do art. 10 do CPP, que prevê 10 dias para o preso e 30 dias para o solto."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 10, caput: o inquérito deverá terminar no prazo de 10 dias, se o indiciado tiver sido preso em flagrante ou estiver preso preventivamente, contado o prazo, nesta hipótese, a partir do dia em que se executar a ordem de prisão, ou no prazo de 30 dias, quando estiver solto, mediante fiança ou sem ela.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar os números dos prazos, condicionar o prazo do solto à ausência de fiança e alterar o termo inicial da contagem.",
+      "lei_referencia": "CPP, art. 10, caput",
+      "macete_do_riccardo": "Preso tem pressa: 10. Solto pode esperar: 30. A fiança não muda nada.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "prazo do inquérito",
+        "indiciado preso",
+        "indiciado solto",
+        "fiança"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4 a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Inquérito Policial",
+      "subtema": "Arquivamento",
+      "dificuldade": "facil",
+      "enunciado": "Ao final das investigações de um furto, o delegado de polícia concluiu que não havia nenhum elemento capaz de indicar quem foi o autor do fato. Diante dessa situação, segundo o Código de Processo Penal, a autoridade policial:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "poderá mandar arquivar os autos do inquérito, desde que fundamente a decisão no relatório final e comunique o arquivamento ao juiz competente."
+        },
+        {
+          "id": "a2",
+          "texto": "poderá mandar arquivar os autos do inquérito, desde que comunique o arquivamento ao ofendido."
+        },
+        {
+          "id": "a3",
+          "texto": "deverá mandar arquivar os autos, pois a falta de autoria conhecida impede a remessa do inquérito ao juiz."
+        },
+        {
+          "id": "a4",
+          "texto": "não poderá mandar arquivar os autos do inquérito, devendo concluí-lo com relatório e remetê-lo ao juiz competente."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "O art. 17 do CPP é taxativo: a autoridade policial não poderá mandar arquivar autos de inquérito. Mesmo sem autoria definida, o delegado faz o relatório do que foi apurado e envia os autos ao juiz competente (art. 10, § 1º). Arquivar não é atribuição da polícia.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Nem a fundamentação no relatório nem a comunicação ao juiz suprem a falta de atribuição: o art. 17 proíbe o arquivamento pela autoridade policial em qualquer caso."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A comunicação ao ofendido não autoriza o delegado a arquivar; a vedação do art. 17 não tem exceção."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Inverte a lógica do CPP: a autoria desconhecida não impede a remessa; o art. 10, § 1º, manda enviar os autos ao juiz com o relatório do que foi apurado."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Combina o art. 17 (vedação de arquivamento pela autoridade policial) com o art. 10, § 1º (relatório minucioso e remessa ao juiz competente)."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 17 (a autoridade policial não poderá mandar arquivar autos de inquérito) e art. 10, § 1º (relatório e envio dos autos ao juiz competente).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Criar condições (fundamentação, comunicação ao juiz ou à vítima) que supostamente permitiriam ao delegado arquivar.",
+      "lei_referencia": "CPP, art. 17",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Delegado instaura, investiga e relata. Arquivar, nunca: art. 17 sem exceção.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "arquivamento",
+        "autoridade policial",
+        "relatório",
+        "remessa ao juiz"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4 a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Inquérito Policial",
+      "subtema": "Relatório e remessa",
+      "dificuldade": "facil",
+      "enunciado": "Sobre o relatório que encerra o inquérito policial, nos termos do Código de Processo Penal, é correto afirmar que a autoridade policial:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "poderá indicar no relatório testemunhas que não tiverem sido inquiridas, mencionando o lugar onde possam ser encontradas."
+        },
+        {
+          "id": "a2",
+          "texto": "deverá limitar o relatório a um resumo dos depoimentos, sendo vedada a indicação de testemunhas não ouvidas."
+        },
+        {
+          "id": "a3",
+          "texto": "fará minucioso relatório do que tiver sido apurado e enviará os autos diretamente ao ofendido."
+        },
+        {
+          "id": "a4",
+          "texto": "somente elaborará relatório quando o indiciado estiver preso, bastando, nos demais casos, a simples remessa dos autos ao juiz competente."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Pelo art. 10, § 1º, a autoridade fará minucioso relatório do que tiver sido apurado e enviará os autos ao juiz competente. O § 2º permite que, no relatório, ela indique testemunhas que não foram inquiridas, mencionando onde podem ser encontradas.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "É a literalidade do art. 10, § 2º, do CPP."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O relatório deve ser minucioso sobre tudo o que foi apurado (§ 1º), e a indicação de testemunhas não inquiridas é expressamente admitida (§ 2º)."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O destinatário da remessa prevista no art. 10, § 1º, é o juiz competente, e não o ofendido."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 10, § 1º, não distingue preso e solto: em qualquer caso a autoridade faz o relatório e envia os autos ao juiz; a remessa sem relatório não é admitida."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 10, §§ 1º e 2º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Achar que o relatório não pode trazer testemunhas não ouvidas, que só é exigido com indiciado preso ou trocar o destinatário dos autos.",
+      "lei_referencia": "CPP, art. 10, § 2º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "relatório",
+        "testemunhas não inquiridas",
+        "remessa",
+        "juiz competente"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4 a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Inquérito Policial",
+      "subtema": "Remessa nos crimes de ação privada",
+      "dificuldade": "media",
+      "enunciado": "Concluído inquérito policial instaurado a requerimento do ofendido para apurar crime que só se processa mediante queixa, isto é, em que não cabe ação pública, o Código de Processo Penal determina que os autos:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "sejam remetidos ao Ministério Público, que, mesmo sem provocação do ofendido, decidirá se oferece denúncia ou se promove o arquivamento do inquérito perante o juízo."
+        },
+        {
+          "id": "a2",
+          "texto": "permaneçam na delegacia até que o ofendido ofereça a queixa, quando então serão enviados ao juízo competente com o relatório final."
+        },
+        {
+          "id": "a3",
+          "texto": "sejam entregues no original ao ofendido, que passa a ser o responsável por sua guarda até o fim do processo."
+        },
+        {
+          "id": "a4",
+          "texto": "sejam remetidos ao juízo competente, onde aguardarão a iniciativa do ofendido, podendo ser entregues ao requerente, se o pedir, mediante traslado."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "Nos crimes em que não cabe ação pública, o art. 19 do CPP manda remeter os autos ao juízo competente, onde aguardam a iniciativa do ofendido ou de seu representante legal. Se o requerente pedir, os autos lhe são entregues mediante traslado.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Sem ação pública, o Ministério Público não oferece denúncia; o art. 19 manda os autos ao juízo, aguardando a iniciativa do ofendido."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Os autos não ficam na delegacia à espera da queixa: o art. 19 manda remetê-los ao juízo competente, onde aguardam a iniciativa do ofendido."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A entrega ao requerente só ocorre se ele pedir e mediante traslado; não há entrega do original como regra."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Reproduz o art. 19 do CPP: remessa ao juízo competente, onde se aguarda a iniciativa do ofendido (ou de seu representante legal), ou entrega ao requerente, se o pedir, mediante traslado."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 19.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Aplicar ao crime de ação privada o caminho do crime de ação pública (envio ao Ministério Público) ou dispensar o traslado.",
+      "lei_referencia": "CPP, art. 19",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Ação privada: os autos vão ao juízo e esperam a vítima. Se ela pedir, leva, mas mediante traslado.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "ação privada",
+        "remessa ao juízo",
+        "traslado",
+        "ofendido"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4 a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Inquérito Policial",
+      "subtema": "Arquivamento e novas provas",
+      "dificuldade": "dificil",
+      "enunciado": "Um inquérito sobre uma tentativa de homicídio teve o arquivamento ordenado pela autoridade judiciária por falta de base para a denúncia. Meses depois, o delegado recebe a notícia de que uma pessoa, até então desconhecida, presenciou o crime e pode identificar o autor. À luz da letra dos arts. 17 e 18 do Código de Processo Penal, assinale a alternativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O arquivamento impede definitivamente qualquer nova investigação sobre o fato, ainda que surjam outras provas."
+        },
+        {
+          "id": "a2",
+          "texto": "O delegado poderá retomar as pesquisas e, se a testemunha nada acrescentar, ele próprio mandará arquivar novamente os autos."
+        },
+        {
+          "id": "a3",
+          "texto": "O delegado só poderá retomar as pesquisas se o ofendido requerer, pois o arquivamento transfere a iniciativa à vítima."
+        },
+        {
+          "id": "a4",
+          "texto": "O delegado poderá proceder a novas pesquisas, porque teve notícia de outras provas, mas não poderá, ele mesmo, mandar arquivar os autos."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "O art. 18 do CPP permite que, depois de ordenado o arquivamento por falta de base para a denúncia, a autoridade policial proceda a novas pesquisas se tiver notícia de outras provas. A notícia de testemunha presencial antes desconhecida é exatamente isso. Mas o art. 17 continua valendo: em nenhum momento a autoridade policial pode mandar arquivar autos de inquérito. A questão cobra a letra dos arts. 17 e 18 do CPP. Com a Lei 13.964/2019, o art. 28 passou a prever que o arquivamento é ordenado pelo Ministério Público; o STF (2023) decidiu que esse arquivamento é submetido ao juiz, que pode levar o caso à instância de revisão do MP. Em qualquer modelo, o delegado pode fazer novas pesquisas diante de outras provas e nunca pode arquivar.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Contraria o art. 18, que admite novas pesquisas quando há notícia de outras provas."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A primeira parte está de acordo com o art. 18, mas a segunda viola o art. 17: o delegado não pode mandar arquivar autos de inquérito."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 18 não condiciona as novas pesquisas a requerimento do ofendido, e o crime do caso é de ação pública."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Combina corretamente o art. 18 (novas pesquisas diante de notícia de outras provas) com o art. 17 (vedação de arquivamento pela autoridade policial)."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 18 (novas pesquisas após o arquivamento por falta de base para a denúncia, se houver notícia de outras provas) e art. 17 (a autoridade policial não poderá mandar arquivar autos de inquérito); art. 28 (arquivamento ordenado pelo Ministério Público, na redação da Lei 13.964/2019), mencionado apenas como contexto.",
+      "fundamento_jurisprudencial": "O STF (2023) decidiu que o arquivamento do art. 28 é submetido ao juiz, que pode levar o caso à instância de revisão do Ministério Público (sem número de julgado, por não constar da lista fornecida). O ponto não altera o gabarito.",
+      "observacao_temporal": "A redação do art. 28 foi dada pela Lei 13.964/2019; o art. 18 manteve a referência ao arquivamento ordenado pela autoridade judiciária. O gabarito é o mesmo em qualquer modelo de arquivamento.",
+      "pegadinha": "Alternativa com primeira parte correta e final errado (delegado arquivando de novo), além da ideia de que o arquivamento encerra para sempre a investigação.",
+      "lei_referencia": "CPP, art. 18",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Leia a alternativa até o fim: o art. 18 deixa o delegado pesquisar de novo, mas o art. 17 nunca deixa ele arquivar.",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "arquivamento",
+        "novas provas",
+        "novas pesquisas",
+        "autoridade policial"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4 a 23 e 28, fornecido no contexto",
+        "Nota sobre o art. 28 na seção de dispositivos com ressalva obrigatória do pedido"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Inquérito Policial",
+      "subtema": "Requisições da autoridade policial",
+      "dificuldade": "dificil",
+      "enunciado": "Durante a apuração de um crime de tráfico de pessoas em curso, o delegado de polícia precisa localizar a vítima e pede ao juiz autorização para requisitar a uma operadora de telefonia os sinais que permitam essa localização. Considerando o art. 13-B do Código de Processo Penal, assinale a alternativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Autorizada a medida, o sinal fornecido pela operadora permitirá também o acesso ao conteúdo das comunicações da vítima e dos suspeitos durante todo o período, dispensada nova ordem judicial."
+        },
+        {
+          "id": "a2",
+          "texto": "Não havendo manifestação judicial no prazo de 12 horas, o delegado requisitará diretamente à operadora os meios técnicos adequados, com imediata comunicação ao juiz."
+        },
+        {
+          "id": "a3",
+          "texto": "O sinal deverá ser fornecido pela prestadora de telefonia móvel por até 60 dias, renovável sucessivamente por iguais períodos, sem necessidade de apresentação de nova ordem judicial."
+        },
+        {
+          "id": "a4",
+          "texto": "O inquérito policial deverá ser instaurado no prazo máximo de 24 horas, contado da expedição da autorização judicial."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O art. 13-B do CPP permite ao delegado ou ao membro do Ministério Público requisitar, mediante autorização judicial, os meios técnicos que permitam localizar a vítima ou os suspeitos de crime relacionado ao tráfico de pessoas em curso. Se o juiz não se manifestar em 12 horas, a autoridade requisita diretamente, com imediata comunicação ao juiz (§ 4º). O sinal não dá acesso ao conteúdo das comunicações, dura até 30 dias renováveis uma única vez, e o inquérito deve ser instaurado em até 72 horas do registro da ocorrência.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O § 2º, I, do art. 13-B diz que o sinal não permitirá acesso ao conteúdo da comunicação de qualquer natureza, que depende de autorização judicial conforme a lei."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Reproduz o art. 13-B, § 4º, do CPP."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Pelo § 2º, II e III, o período é de até 30 dias, renovável uma única vez por igual período; para prazos maiores, é necessária ordem judicial."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O § 3º fixa prazo máximo de 72 horas para a instauração do inquérito, contado do registro da ocorrência policial."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 13-B, caput e §§ 2º, 3º e 4º (incluídos pela Lei nº 13.344/2016).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "Dispositivo incluído no CPP pela Lei nº 13.344/2016, conforme indicado no texto fornecido.",
+      "pegadinha": "Trocar os prazos do art. 13-B (12 horas, 30 dias, 72 horas) e confundir localização por sinal com acesso ao conteúdo das comunicações.",
+      "lei_referencia": "CPP, art. 13-B, § 4º",
+      "macete_do_riccardo": "Art. 13-B em números: juiz calado por 12 horas, sinal por 30 dias (renova uma vez), inquérito em 72 horas.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "tráfico de pessoas",
+        "requisição",
+        "sinais de telefonia",
+        "localização da vítima"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4 a 23, fornecido no contexto"
+      ]
+    }
+  ]
+}

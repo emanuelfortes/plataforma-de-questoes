@@ -1,0 +1,292 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Crimes contra o Patrimônio",
+      "subtema": "Roubo impróprio",
+      "dificuldade": "facil",
+      "enunciado": "Durante a madrugada, Caio entrou em uma loja de conveniência e, sem que ninguém percebesse, colocou na mochila diversas garrafas de bebida. Já do lado de fora, logo depois da subtração, foi abordado pelo vigia e, para não perder os objetos e conseguir fugir, desferiu-lhe socos, saindo do local com as bebidas. De acordo com o Código Penal, a conduta de Caio configura",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "furto simples em concurso material com o crime de lesão corporal, pois a violência contra o vigia ocorreu depois de consumada a subtração e deve ser punida de forma autônoma."
+        },
+        {
+          "id": "a2",
+          "texto": "roubo, porque quem, logo depois de subtraída a coisa, emprega violência contra pessoa para assegurar a impunidade ou a detenção da coisa incorre na mesma pena do roubo."
+        },
+        {
+          "id": "a3",
+          "texto": "furto qualificado pela destreza (art. 155, § 4º, II), já que a subtração inicial foi feita sem que ninguém percebesse e a violência posterior não muda o crime."
+        },
+        {
+          "id": "a4",
+          "texto": "extorsão, pois a violência foi empregada para constranger o vigia a tolerar que o agente deixasse o local levando os bens de que já tinha se apoderado."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O art. 157, § 1º, do Código Penal prevê o chamado roubo impróprio: incorre na mesma pena do roubo quem, logo depois de subtraída a coisa, emprega violência contra pessoa ou grave ameaça para assegurar a impunidade do crime ou a detenção da coisa. Caio subtraiu as bebidas sem violência, mas, logo em seguida, agrediu o vigia para ficar com os objetos e fugir. A subtração que começou como furto passa a ser punida como roubo.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Errada. A lei não trata a violência posterior como crime autônomo somado ao furto: o art. 157, § 1º, transforma o fato em roubo impróprio quando a violência ocorre logo depois da subtração para garantir a coisa ou a impunidade."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Correta. Reproduz a regra do art. 157, § 1º: violência empregada logo depois da subtração, com a finalidade de assegurar a detenção da coisa ou a impunidade, sujeita o agente à mesma pena do roubo."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Errada. A destreza (art. 155, § 4º, II) qualifica o furto, mas não é verdade que a violência posterior seja irrelevante: o emprego de violência contra o vigia, logo depois da subtração, afasta o enquadramento como furto e leva ao roubo impróprio."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Errada. Na extorsão (art. 158) o agente constrange a vítima a fazer, tolerar ou deixar de fazer algo para obter vantagem econômica. Aqui houve subtração da coisa seguida de violência para mantê-la, situação expressamente descrita no art. 157, § 1º."
+        }
+      ],
+      "fundamento_legal": "Código Penal, art. 157, caput e § 1º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Achar que, como a subtração começou sem violência, o crime continua sendo furto (ou furto mais lesão corporal).",
+      "lei_referencia": "CP, art. 157, § 1º",
+      "macete_do_riccardo": "Roubo próprio: violência antes ou durante, para subtrair. Roubo impróprio: subtrai primeiro e usa a violência logo depois, para ficar com a coisa ou fugir.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "roubo impróprio",
+        "art. 157 § 1º",
+        "violência após a subtração",
+        "detenção da coisa"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (Decreto-Lei 2.848/1940), arts. 155 a 183, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Crimes contra o Patrimônio",
+      "subtema": "Extorsão: distinção com roubo e outros crimes",
+      "dificuldade": "media",
+      "enunciado": "Por meio de mensagens, Marcos ameaçou matar o filho de uma comerciante caso ela não depositasse R$ 10.000,00 na conta indicada por ele até o fim da semana. Com medo, a vítima fez o depósito. Não houve subtração de bens nem restrição da liberdade de ninguém. A conduta de Marcos amolda-se ao crime de",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "roubo, pois a vantagem econômica foi obtida mediante grave ameaça à pessoa, ainda que o dinheiro não tenha sido tomado das mãos da vítima."
+        },
+        {
+          "id": "a2",
+          "texto": "extorsão indireta, porque a vítima foi coagida, por ameaça contra um familiar, a entregar valores ao agente em prazo determinado."
+        },
+        {
+          "id": "a3",
+          "texto": "extorsão, pois a vítima foi constrangida, mediante grave ameaça, a fazer algo com o intuito de o agente obter indevida vantagem econômica."
+        },
+        {
+          "id": "a4",
+          "texto": "estelionato, já que a vítima entregou o dinheiro voluntariamente, por depósito bancário, sem contato físico com o agente."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "O art. 158 do Código Penal pune quem constrange alguém, mediante violência ou grave ameaça, com o intuito de obter indevida vantagem econômica, a fazer, tolerar que se faça ou deixar de fazer alguma coisa. Marcos não subtraiu nada: ele obrigou a vítima, pela ameaça, a realizar o depósito. É a estrutura típica da extorsão, em que a vítima pratica o ato que gera a vantagem do agente.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Errada. O roubo (art. 157) tem como núcleo subtrair coisa móvel alheia. No caso não houve subtração: foi a própria vítima, constrangida, quem realizou o depósito. A grave ameaça, sozinha, não transforma o fato em roubo."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Errada. A extorsão indireta (art. 160) consiste em exigir ou receber, como garantia de dívida, documento que pode dar causa a procedimento criminal. A ameaça a familiar e o prazo para pagamento não caracterizam essa figura, e nada sobre dívida ou documento aparece no enunciado."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Correta. Estão presentes todos os elementos do art. 158: constrangimento por grave ameaça, intuito de indevida vantagem econômica e imposição de um fazer à vítima (o depósito)."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Errada. O estelionato (art. 171) exige que a vítima seja induzida ou mantida em erro por fraude. Aqui a entrega decorreu do medo provocado pela ameaça, e não de engano; a falta de contato físico é irrelevante."
+        }
+      ],
+      "fundamento_legal": "Código Penal, art. 158, caput.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Classificar como roubo qualquer obtenção de vantagem mediante grave ameaça, esquecendo que o roubo exige subtração.",
+      "lei_referencia": "CP, art. 158, caput",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Extorsão: a vítima é obrigada a fazer, tolerar ou deixar de fazer. Estelionato: a vítima entrega porque foi enganada. Roubo: o agente subtrai.",
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "extorsão",
+        "art. 158",
+        "grave ameaça",
+        "vantagem econômica",
+        "roubo x extorsão"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (Decreto-Lei 2.848/1940), arts. 155 a 183, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Crimes contra o Patrimônio",
+      "subtema": "Roubo e imunidades patrimoniais",
+      "dificuldade": "media",
+      "enunciado": "Pedro, de 30 anos, sob grave ameaça, subtraiu o automóvel de seu pai, de 55 anos, com quem não residia. Sobre a responsabilidade penal de Pedro, à luz das disposições gerais do Título dos crimes contra o patrimônio no Código Penal, é correto afirmar que",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "é isento de pena, pois o crime foi cometido em prejuízo de ascendente, seja o parentesco civil ou natural, conforme o art. 181, II."
+        },
+        {
+          "id": "a2",
+          "texto": "somente se procede mediante representação do pai, por se tratar de crime contra o patrimônio praticado entre parentes que não residem juntos."
+        },
+        {
+          "id": "a3",
+          "texto": "é isento de pena, porque a exclusão do benefício só ocorre quando a vítima tem 60 anos ou mais."
+        },
+        {
+          "id": "a4",
+          "texto": "responde normalmente pelo crime, pois a isenção de pena não se aplica ao roubo nem aos casos de grave ameaça à pessoa."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "O art. 181, II, do Código Penal isenta de pena quem comete crime contra o patrimônio em prejuízo de ascendente ou descendente. O art. 183, I, porém, afasta essa isenção (e a representação do art. 182) quando o crime é de roubo ou de extorsão ou, em geral, quando há emprego de grave ameaça ou violência à pessoa. Pedro cometeu roubo, por isso responde normalmente, independentemente da idade do pai e de morar ou não com ele.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Errada. A isenção do art. 181, II, existe para ascendente, seja o parentesco civil ou natural, mas é afastada pelo art. 183, I, nos crimes de roubo e quando há grave ameaça ou violência à pessoa."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Errada. A exigência de representação (art. 182) alcança outros parentes, como irmão, e não depende de o agente morar ou não com o ascendente; além disso, é afastada pelo art. 183, I, no caso de roubo."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Errada. A vítima com 60 anos ou mais (art. 183, III) é apenas uma das hipóteses de exclusão. A do inciso I (roubo, extorsão, grave ameaça ou violência) já basta para afastar o benefício."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Correta. O art. 183, I, determina que os arts. 181 e 182 não se aplicam ao roubo nem, em geral, aos casos com grave ameaça ou violência à pessoa."
+        }
+      ],
+      "fundamento_legal": "Código Penal, arts. 157, 181, II, e 183, I.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Aplicar a imunidade entre ascendente e descendente sem lembrar que ela não alcança o roubo, e achar que só a idade da vítima a afasta.",
+      "lei_referencia": "CP, art. 183, I",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Imunidade patrimonial (arts. 181 e 182) cai em três casos do art. 183: roubo, extorsão ou violência e grave ameaça; estranho que participa; vítima com 60 anos ou mais.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "excecao",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "escusa absolutória",
+        "art. 181",
+        "art. 183",
+        "roubo",
+        "ascendente"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (Decreto-Lei 2.848/1940), arts. 155 a 183, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Crimes contra o Patrimônio",
+      "subtema": "Extorsão com restrição da liberdade da vítima",
+      "dificuldade": "dificil",
+      "enunciado": "Dois agentes abordaram um motorista, mantiveram-no dentro do próprio carro por cerca de duas horas e o levaram a caixas eletrônicos, obrigando-o a sacar dinheiro com seu cartão. A restrição da liberdade era necessária para obter os saques. Durante o trajeto, agrediram a vítima, que sofreu lesão corporal de natureza grave. Segundo o texto do Código Penal, a pena cominada para esse fato, sem considerar eventuais causas de aumento, é de reclusão de",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "dezesseis a vinte e quatro anos, pois a lei manda aplicar, nesse caso, a pena prevista para a extorsão mediante sequestro com resultado lesão corporal grave."
+        },
+        {
+          "id": "a2",
+          "texto": "sete a dezoito anos, e multa, pois toda extorsão praticada mediante violência segue as penas do roubo qualificado pelo resultado lesão grave, por remissão do art. 158, § 2º."
+        },
+        {
+          "id": "a3",
+          "texto": "doze a vinte anos, por se tratar de extorsão mediante sequestro qualificada pelo concurso de pessoas, já que dois agentes mantiveram a vítima em seu poder no trajeto."
+        },
+        {
+          "id": "a4",
+          "texto": "seis a doze anos, além da multa, pois o resultado lesão grave não altera a pena da extorsão com restrição da liberdade."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O fato é extorsão com restrição da liberdade da vítima (art. 158, § 3º): a vítima foi constrangida a sacar dinheiro e a restrição da liberdade era necessária para a obtenção da vantagem. A pena básica dessa figura é de 6 a 12 anos, além da multa. O próprio § 3º, porém, dispõe que, se resulta lesão corporal grave ou morte, aplicam-se as penas do art. 159, §§ 2º e 3º. Com lesão grave, a pena é a do art. 159, § 2º: reclusão de dezesseis a vinte e quatro anos. A regra específica do § 3º prevalece sobre a remissão genérica do § 2º do art. 158 ao roubo qualificado pelo resultado. O comando pede a pena cominada sem considerar causas de aumento, por isso não entra no cálculo o aumento pelo concurso de duas ou mais pessoas (art. 158, § 1º).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Correta. O art. 158, § 3º, parte final, remete ao art. 159, § 2º, cuja pena é de reclusão de dezesseis a vinte e quatro anos quando resulta lesão corporal grave."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Errada. A remissão do art. 158, § 2º, ao art. 157, § 3º (lesão grave: 7 a 18 anos) é a regra geral da extorsão com violência. Para a extorsão com restrição da liberdade, o § 3º do art. 158 traz regra própria, que remete às penas do art. 159."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Errada. Não houve sequestro com exigência de resgate como condição ou preço, e o concurso de duas pessoas não é bando ou quadrilha. A pena de doze a vinte anos é a do art. 159, § 1º, que não se aplica ao caso; o concurso de pessoas, na extorsão, é causa de aumento (art. 158, § 1º), excluída pelo comando."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Errada. Seis a doze anos é a pena da forma simples do art. 158, § 3º. Havendo lesão corporal grave, a própria norma manda aplicar a pena do art. 159, § 2º."
+        }
+      ],
+      "fundamento_legal": "Código Penal, art. 158, §§ 1º, 2º e 3º; art. 159, §§ 1º e 2º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Aplicar a remissão genérica do art. 158, § 2º, ao roubo qualificado pelo resultado, sem perceber que o § 3º tem regra específica que remete ao art. 159.",
+      "lei_referencia": "CP, art. 158, § 3º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Extorsão com restrição da liberdade e resultado lesão grave ou morte: as penas vêm do art. 159 (§§ 2º e 3º), e não do roubo.",
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "sequestro relâmpago",
+        "art. 158 § 3º",
+        "lesão corporal grave",
+        "art. 159 § 2º",
+        "extorsão"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado do Código Penal (Decreto-Lei 2.848/1940), arts. 155 a 183, fornecido no contexto"
+      ]
+    }
+  ],
+  "observacoes_do_lote": null
+}

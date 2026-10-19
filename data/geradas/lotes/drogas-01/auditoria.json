@@ -1,0 +1,147 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa a3 reproduz os incisos I a III do caput do art. 28. Os distratores estão errados: a multa só existe como meio de garantia (§ 6º), a detenção de 6 meses a 1 ano é do art. 33, § 3º, e a internação não é pena (§ 7º). Comentário e macete corretos."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Com o juízo em funcionamento, o art. 48, § 2º, impõe exatamente o que diz a2: sem prisão em flagrante, encaminhamento imediato ao juízo, termo circunstanciado e requisição de exames. Os distratores aplicam ao usuário as regras do flagrante e do inquérito (arts. 50 e 51), corretamente refutadas."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a4 é a transcrição do art. 4º, I. Os distratores contrariam o art. 7º (execução descentralizada), o art. 4º, X (equilíbrio entre prevenção e repressão) e o art. 4º, V (responsabilidade compartilhada). Sem ambiguidade."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 28, § 4º, fixa em 10 meses o prazo máximo das penas dos incisos II e III para o reincidente. O enunciado limita a análise ao texto da lei, o que afasta discussão sobre a espécie de reincidência. Distratores claramente errados."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a3 reproduz todos os critérios do art. 28, § 2º. a1 é cuidadosamente redigida (limite numérico no próprio texto da lei, que não existe), a2 contraria a menção expressa à conduta e aos antecedentes e a4 cria critério inexistente e vinculante."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a2 combina corretamente o art. 28, § 6º (admoestação verbal e multa, sucessivamente) com o art. 29 (40 a 100 dias-multa, valores ao Fundo Nacional Antidrogas). a3 erra a ordem sucessiva e o teto do dia-multa (3 vezes no art. 29; 5 vezes é do art. 43), a1 e a4 não têm base legal."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "alternativas",
+          "gravidade": "baixa",
+          "descricao": "A alternativa correta (a1) é bem mais longa e detalhada que os distratores, o que funciona como pista involuntária de tamanho."
+        }
+      ],
+      "correcao_sugerida": "Encurtar a1 (por exemplo: \"pode ser pedida por familiar ou responsável legal e dura apenas o necessário à desintoxicação, no máximo 90 dias.\") ou acrescentar detalhes aos distratores para equilibrar o tamanho.",
+      "justificativa": "Gabarito correto: a1 reflete o art. 23-A, § 3º, II, e § 5º, III. a2 (delegado e 72 horas), a3 (comunidade terapêutica, vedada pelo § 9º, e 180 dias) e a4 (contraria o § 5º, IV) estão errados. Única ressalva é a diferença de tamanho da correta."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O enunciado fixa a finalidade de consumo próprio e a pequena quantidade, o que leva ao art. 28, § 1º, e afasta o art. 33, § 1º, II. Sem concurso com os arts. 33 a 37, aplica-se o rito da Lei nº 9.099/1995 sem flagrante (art. 48, §§ 1º e 2º), como diz a4. Distratores refutados corretamente."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "alternativas",
+          "gravidade": "baixa",
+          "descricao": "A correta (a2) é a única alternativa composta por duas afirmações e é visivelmente a mais longa, o que pode servir de pista involuntária."
+        }
+      ],
+      "correcao_sugerida": "Equilibrar o tamanho: encurtar a2 (por exemplo, retirar \"especificada na proposta\") ou tornar os distratores também compostos, mantendo um erro em cada.",
+      "justificativa": "a2 está correta pelo art. 27 e pelo art. 48, § 5º. a1 contraria o art. 30 (aplicam-se as regras de interrupção do Código Penal), a3 contraria o \"a qualquer tempo\" e a oitiva de MP e defensor do art. 27, e a4 contraria o art. 48, § 5º. Ressalva apenas quanto ao tamanho da correta."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "alternativas",
+          "gravidade": "baixa",
+          "descricao": "A correta (a3) tem cerca do dobro do tamanho dos distratores e reproduz quase literalmente o art. 48, §§ 3º e 4º, o que facilita o acerto por eliminação visual."
+        },
+        {
+          "tipo": "conjunto",
+          "gravidade": "baixa",
+          "descricao": "Sobreposição parcial com q02 (ambas cobram o art. 48, § 2º), embora q10 acrescente os §§ 3º e 4º e tenha foco distinto."
+        }
+      ],
+      "correcao_sugerida": "Encurtar a3 (por exemplo: \"lavrar de imediato o termo circunstanciado, colher o compromisso de comparecimento e requisitar os exames, vedada a detenção, liberando-a em seguida.\") ou alongar os distratores.",
+      "justificativa": "Gabarito correto: ausente a autoridade judicial, as providências do § 2º cabem de imediato à autoridade policial, vedada a detenção (§ 3º), com exame de corpo de delito facultativo e liberação em seguida (§ 4º). Distratores errados pelos motivos indicados. Ressalva de tamanho da correta."
+    }
+  ]
+}

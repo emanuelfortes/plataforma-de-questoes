@@ -1,0 +1,213 @@
+{
+  "questoes": [
+    {
+      "id": "q04",
+      "tema": "Crase",
+      "subtema": "Paralelismo nas expressões de intervalo",
+      "dificuldade": "media",
+      "enunciado": "A delegacia vai afixar um aviso informando os dias e o horário de atendimento ao público. Assinale a redação do aviso que respeita a norma-padrão quanto ao emprego do sinal indicativo de crase e ao paralelismo.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Atendimento ao público: de segunda à sexta-feira, das 8h às 17h."
+        },
+        {
+          "id": "a2",
+          "texto": "Atendimento ao público: de segunda a sexta, das 8h às 17h."
+        },
+        {
+          "id": "a3",
+          "texto": "Atendimento ao público: da segunda a sexta-feira, de 8h às 17h."
+        },
+        {
+          "id": "a4",
+          "texto": "Atendimento ao público: de segunda a sexta, de 8h às 17h."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "Nas expressões de intervalo, a construção deve ser paralela: se o início vem sem artigo (\"de\"), o fim também vem sem artigo (\"a\"); se o início vem com artigo (\"da\", \"das\"), o fim também leva artigo e, por isso, crase (\"à\", \"às\"). Assim: \"de segunda a sexta\" e \"das 8h às 17h\". O acréscimo de \"-feira\" não muda essa lógica.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "\"De segunda\" está sem artigo, então o fim do intervalo também deve ficar sem artigo: \"a sexta-feira\", sem crase. O horário está correto, mas o intervalo de dias quebra o paralelismo."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Os dois intervalos estão paralelos: \"de... a\" (sem artigo) nos dias e \"das... às\" (com artigo) nas horas."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Quebra o paralelismo nos dois intervalos: \"da segunda\" pede \"à sexta-feira\", e \"de 8h\" pede \"a 17h\", sem crase."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O intervalo de dias está correto, mas \"de 8h às 17h\" quebra o paralelismo; seria \"de 8h a 17h\" ou \"das 8h às 17h\"."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Misturar \"de\" com \"à\" (ou \"de\" com \"às\"), quebrando o paralelismo entre o início e o fim do intervalo.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "\"De\" combina com \"a\"; \"da\" combina com \"à\"; \"das\" combina com \"às\".",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "crase",
+        "paralelismo",
+        "intervalo",
+        "horas",
+        "dias da semana"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal para este tema)"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Crase",
+      "subtema": "Mudança de sentido com e sem crase",
+      "dificuldade": "media",
+      "enunciado": "Leia as frases a seguir.\nI. \"Os sequestradores mataram a fome dos reféns.\"\nII. \"Os sequestradores mataram à fome os reféns.\"\nSobre o emprego do acento grave e o sentido das frases, é correto afirmar que",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "as duas frases têm o mesmo sentido, e o acento grave em II é facultativo, como ocorre antes de nomes próprios femininos."
+        },
+        {
+          "id": "a2",
+          "texto": "em II, o acento grave está incorreto, pois \"matar\" é verbo transitivo direto, não exige preposição e tem como objeto direto a expressão \"a fome\"."
+        },
+        {
+          "id": "a3",
+          "texto": "em I, \"a fome\" é objeto direto e indica que os reféns foram alimentados; em II, \"à fome\" indica o meio pelo qual os reféns foram mortos."
+        },
+        {
+          "id": "a4",
+          "texto": "em I, deveria haver acento grave, já que \"fome\" é palavra feminina antecedida de artigo e o verbo \"matar\" pede a preposição \"a\"."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "Em I, \"a fome\" é objeto direto de \"mataram\" (só artigo, sem preposição): os sequestradores saciaram a fome dos reféns. Em II, o objeto direto é \"os reféns\", e \"à fome\" é adjunto adverbial de meio, formado por preposição mais artigo: os reféns foram mortos por falta de alimento. O acento grave, portanto, muda a função sintática e o sentido.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Os sentidos são opostos (alimentar os reféns e matá-los de fome), e o acento em II não é facultativo, pois marca a locução adverbial; a facultatividade diante de nomes próprios femininos não tem relação com o caso."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A preposição de \"à fome\" não vem da regência de \"matar\", mas do adjunto adverbial de meio; em II, o objeto direto é \"os reféns\", e não \"a fome\"."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Descreve corretamente as duas funções: objeto direto em I e adjunto adverbial de meio em II, com a consequente mudança de sentido."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Em I, \"a fome\" é objeto direto de verbo transitivo direto: \"matar\" não pede preposição, há só o artigo, logo não há crase."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Achar que o acento grave depende só da regência do verbo, sem perceber que ele pode marcar um adjunto adverbial e alterar o sentido.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Antes de analisar a crase, pergunte qual é o objeto direto da frase: se ele já existe, o \"à\" pode estar formando um adjunto adverbial.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "crase",
+        "mudança de sentido",
+        "objeto direto",
+        "adjunto adverbial"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal para este tema)"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Crase",
+      "subtema": "Horas, tempo decorrido e tempo futuro",
+      "dificuldade": "media",
+      "enunciado": "Considere o trecho: \"O mandado foi cumprido ___ uma hora da madrugada; o inquérito foi instaurado ___ cerca de dez dias, e o relatório deverá ficar pronto daqui ___ duas semanas.\" Assinale a sequência que preenche corretamente as lacunas.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "a – há – à"
+        },
+        {
+          "id": "a2",
+          "texto": "à – há – há"
+        },
+        {
+          "id": "a3",
+          "texto": "há – há – a"
+        },
+        {
+          "id": "a4",
+          "texto": "à – há – a"
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "Na indicação de hora exata, \"uma hora\" leva crase (\"à uma hora\"), pois \"uma\" é numeral e a hora determinada admite artigo. Para tempo já decorrido usa-se o verbo \"haver\" (\"há cerca de dez dias\"). Para tempo futuro, com \"daqui\", usa-se apenas a preposição \"a\", sem artigo e sem o verbo \"haver\" (\"daqui a duas semanas\").",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Erra a primeira lacuna (hora exata pede \"à uma hora\") e a última (\"daqui a duas semanas\" não tem artigo, logo não tem crase)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Acerta as duas primeiras lacunas, mas erra a última: tempo futuro com \"daqui\" pede a preposição \"a\" (\"daqui a duas semanas\"); \"há\" indica tempo passado."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Erra a primeira lacuna: \"há\" indica tempo decorrido, não hora do relógio; a hora exata pede \"à uma hora\"."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "\"À uma hora\" (hora exata), \"há cerca de dez dias\" (tempo decorrido) e \"daqui a duas semanas\" (tempo futuro)."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir \"à\" (hora exata), \"há\" (tempo passado) e \"a\" (tempo futuro ou distância), em especial escrever \"daqui há\".",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "Tempo que já passou: \"há\" (dá para trocar por \"faz\"). Tempo que vai chegar: \"daqui a\". Hora do relógio: \"à\" ou \"às\".",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "crase",
+        "à uma hora",
+        "há",
+        "daqui a",
+        "tempo decorrido"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal para este tema)"
+      ]
+    }
+  ]
+}

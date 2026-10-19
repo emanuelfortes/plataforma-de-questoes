@@ -1,0 +1,291 @@
+{
+  "questoes": [
+    {
+      "id": "q03",
+      "tema": "Inquérito Policial",
+      "subtema": "Forma escrita do inquérito",
+      "dificuldade": "facil",
+      "enunciado": "Conforme o Código de Processo Penal, quanto à forma das peças do inquérito policial, é correto afirmar que todas elas serão:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "num só processado, reduzidas a escrito ou datilografadas e, neste caso, rubricadas pela autoridade."
+        },
+        {
+          "id": "a2",
+          "texto": "produzidas oralmente e registradas apenas em resumo no relatório final elaborado pela autoridade."
+        },
+        {
+          "id": "a3",
+          "texto": "autuadas em processados separados, conforme a natureza de cada diligência que for realizada."
+        },
+        {
+          "id": "a4",
+          "texto": "reduzidas a escrito, reunidas num só processado e obrigatoriamente assinadas pelo juiz que será competente para a ação penal."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 9º do CPP consagra o caráter escrito do inquérito: todas as peças serão, num só processado, reduzidas a escrito ou datilografadas e, neste caso, rubricadas pela autoridade. Não há inquérito oral, nem fragmentação em processados distintos, nem assinatura do juiz nas peças.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 9º do CPP."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O inquérito é procedimento escrito: todas as peças são reduzidas a escrito, e não apenas resumidas no relatório."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A lei exige um só processado, e não autos separados por diligência."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Embora as peças sejam escritas e reunidas num só processado, quem rubrica as peças datilografadas é a autoridade policial, e não o juiz."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 9º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Atribuir ao juiz a rubrica das peças ou admitir inquérito oral ou fragmentado.",
+      "lei_referencia": "CPP, art. 9º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "inquérito policial",
+        "procedimento escrito",
+        "um só processado",
+        "rubrica"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (Decreto-Lei 3.689/1941), arts. 4º a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Inquérito Policial",
+      "subtema": "Requerimento de diligências pelo ofendido e pelo indiciado",
+      "dificuldade": "media",
+      "enunciado": "Durante inquérito policial que apura um furto, a vítima requer à autoridade policial a oitiva de um vizinho que teria visto a fuga do autor. O indiciado, por sua vez, requer uma perícia complementar em um objeto apreendido, perícia que não se confunde com o exame de corpo de delito. À luz do Código de Processo Penal, a autoridade policial:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "está obrigada a realizar as duas diligências, pois o requerimento das partes vincula a investigação."
+        },
+        {
+          "id": "a2",
+          "texto": "deve realizar apenas a diligência pedida pela vítima, pois o indiciado não pode requerer diligências."
+        },
+        {
+          "id": "a3",
+          "texto": "decidirá, a seu juízo, se realiza ou não cada uma das diligências requeridas pela vítima e pelo indiciado."
+        },
+        {
+          "id": "a4",
+          "texto": "deve remeter os dois requerimentos ao juiz, a quem cabe decidir sobre a realização das diligências."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "Pelo art. 14 do CPP, o ofendido, ou seu representante legal, e o indiciado podem requerer qualquer diligência, que será realizada, ou não, a juízo da autoridade. Os dois têm legitimidade para pedir, mas o pedido não vincula a autoridade policial, que avalia a utilidade de cada diligência. Situação diferente é a das diligências requisitadas pelo juiz ou pelo Ministério Público, que a autoridade deve realizar (art. 13, II). Atenção ao art. 184 do CPP: salvo o caso de exame de corpo de delito, a autoridade policial negará a perícia requerida pelas partes quando não for necessária ao esclarecimento da verdade; o exame de corpo de delito requerido não pode ser negado. Por isso o enunciado deixa claro que a perícia pedida pelo indiciado não é exame de corpo de delito.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O requerimento do ofendido ou do indiciado não obriga a autoridade: a diligência será realizada, ou não, a juízo dela (art. 14). A única perícia que não pode ser negada é o exame de corpo de delito (art. 184), que não é o caso descrito."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O art. 14 confere expressamente ao indiciado a possibilidade de requerer qualquer diligência."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 14 do CPP: ambos podem requerer, e a realização fica a juízo da autoridade. Como a perícia pedida não é exame de corpo de delito, a exceção do art. 184 não se aplica, e a autoridade pode negá-la se não for necessária ao esclarecimento da verdade."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A lei atribui a decisão à própria autoridade policial (arts. 14 e 184), sem remessa obrigatória ao juiz."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 14; art. 184 (exceção do exame de corpo de delito); em comparação, art. 13, II.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir o requerimento das partes (discricionário para a autoridade) com a requisição do juiz ou do Ministério Público (de cumprimento obrigatório).",
+      "lei_referencia": "CPP, art. 14",
+      "macete_do_riccardo": "Partes requerem, autoridade decide. Juiz e MP requisitam, autoridade cumpre. Exceção: exame de corpo de delito requerido não pode ser negado.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "diligências",
+        "requerimento do ofendido",
+        "indiciado",
+        "discricionariedade",
+        "exame de corpo de delito"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (Decreto-Lei 3.689/1941), arts. 4º a 23 e 184, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Inquérito Policial",
+      "subtema": "Incomunicabilidade do indiciado",
+      "dificuldade": "media",
+      "enunciado": "Considerando exclusivamente a redação literal do Código de Processo Penal sobre a incomunicabilidade do indiciado (letra da lei, sem considerar a discussão sobre sua recepção pela Constituição), é correto afirmar que ela:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "pode ser decretada pela própria autoridade policial, por despacho fundamentado nos autos, quando a conveniência da investigação o exigir, pelo prazo máximo de cinco dias."
+        },
+        {
+          "id": "a2",
+          "texto": "dispensa despacho nos autos quando a conveniência da investigação a exigir com urgência, devendo ser comunicada ao juiz em até três dias."
+        },
+        {
+          "id": "a3",
+          "texto": "pode ser decretada de ofício pelo juiz, por despacho fundamentado, quando o interesse da sociedade o exigir, e não tem prazo máximo, durando enquanto persistir a necessidade."
+        },
+        {
+          "id": "a4",
+          "texto": "será decretada por despacho fundamentado do juiz, a requerimento da autoridade policial ou do Ministério Público, e não excederá três dias."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "O art. 21 do CPP prevê que a incomunicabilidade depende sempre de despacho nos autos e só é permitida quando o interesse da sociedade ou a conveniência da investigação o exigir. O parágrafo único completa: não excederá três dias e será decretada por despacho fundamentado do juiz, a requerimento da autoridade policial ou do Ministério Público, respeitadas as prerrogativas do advogado previstas no Estatuto da OAB. Atenção: a maior parte da doutrina entende que o art. 21 do CPP não foi recepcionado pela Constituição de 1988, que veda a incomunicabilidade do preso até no estado de defesa (art. 136, § 3º, IV) e assegura ao preso a assistência da família e de advogado (art. 5º, LXIII). Por isso o enunciado pede a redação literal do CPP: esta questão cobra a letra da lei, e não o entendimento atual sobre sua aplicação.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Quem decreta é o juiz, a requerimento da autoridade policial ou do MP, e não a própria autoridade policial; além disso, o prazo máximo é de três dias, não cinco."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O caput do art. 21 diz que a incomunicabilidade dependerá sempre de despacho nos autos, sem exceção por urgência; o prazo de três dias é o limite da medida, não de comunicação ao juiz."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O parágrafo único exige requerimento da autoridade policial ou do Ministério Público, o que afasta a decretação de ofício, e fixa o limite de três dias."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Reúne os requisitos do art. 21, parágrafo único, na letra do CPP: decisão judicial fundamentada, provocação da autoridade policial ou do MP e limite de três dias."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 21, caput e parágrafo único (redação dada pela Lei 5.010/1966).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Atribuir a decretação à autoridade policial ou ao juiz de ofício e alterar o prazo máximo de três dias.",
+      "lei_referencia": "CPP, art. 21, parágrafo único",
+      "macete_do_riccardo": null,
+      "fique_ligado": "No texto do CPP: incomunicabilidade = juiz + requerimento (delegado ou MP) + no máximo 3 dias + respeito às prerrogativas do advogado. Mas grande parte da doutrina entende que o art. 21 não foi recepcionado pela Constituição de 1988.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "incomunicabilidade",
+        "indiciado",
+        "três dias",
+        "despacho fundamentado",
+        "não recepção"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA_COM_RESSALVA",
+      "ressalvas": "A maior parte da doutrina entende que o art. 21 não foi recepcionado pela Constituição de 1988. Por isso o enunciado restringe a cobrança à redação literal do CPP, o que mantém o gabarito único, e o comentário traz a nota de não recepção.",
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (Decreto-Lei 3.689/1941), arts. 4º a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Inquérito Policial",
+      "subtema": "Diligências da autoridade policial: oitiva do indiciado e informações sobre filhos",
+      "dificuldade": "media",
+      "enunciado": "Ao lavrar os atos relativos a um indiciado preso, a autoridade policial deve observar as providências expressamente previstas no art. 6º do Código de Processo Penal. Entre essas providências, está a de:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "colher informações sobre a existência de filhos, suas idades e se possuem alguma deficiência, além do nome e do contato de eventual responsável pelos cuidados deles, indicado pela pessoa presa."
+        },
+        {
+          "id": "a2",
+          "texto": "fazer o termo de oitiva do indiciado ser assinado por duas testemunhas que tenham presenciado o fato investigado, ainda que não tenham ouvido a leitura do termo."
+        },
+        {
+          "id": "a3",
+          "texto": "ordenar a identificação do indiciado exclusivamente por fotografia, sendo vedado o processo datiloscópico na fase de inquérito, e juntar aos autos a sua folha de antecedentes."
+        },
+        {
+          "id": "a4",
+          "texto": "nomear, ela própria, um responsável pelos cuidados dos filhos do preso, independentemente de qualquer indicação feita pela pessoa presa, e comunicar a nomeação ao juiz."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O inciso X do art. 6º, incluído pela Lei 13.257/2016, determina que a autoridade policial colha informações sobre a existência de filhos, suas idades, eventual deficiência e o nome e contato de eventual responsável pelos cuidados deles, indicado pela pessoa presa. Já o inciso V exige que o termo de oitiva do indiciado seja assinado por duas testemunhas que lhe tenham ouvido a leitura, e o inciso VIII manda identificar o indiciado pelo processo datiloscópico, se possível, e juntar aos autos sua folha de antecedentes.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 6º, X, do CPP."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O inciso V exige testemunhas que tenham ouvido a leitura do termo, e não testemunhas do fato."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A juntada da folha de antecedentes está no inciso VIII, mas esse mesmo inciso determina justamente a identificação pelo processo datiloscópico, se possível, e não a veda."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A lei manda apenas colher o nome e o contato do responsável indicado pela pessoa presa; não atribui à autoridade a nomeação desse responsável nem prevê comunicação dessa nomeação ao juiz."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 6º, V, VIII e X (inciso X incluído pela Lei 13.257/2016).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "O inciso X do art. 6º foi incluído pela Lei 13.257/2016, conforme o texto fornecido.",
+      "pegadinha": "Confundir as testemunhas da leitura do termo com testemunhas do fato e inverter a regra da identificação datiloscópica.",
+      "lei_referencia": "CPP, art. 6º, X",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "As duas testemunhas do inciso V são de leitura do termo, não do crime.",
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "art. 6º",
+        "oitiva do indiciado",
+        "identificação datiloscópica",
+        "filhos da pessoa presa"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (Decreto-Lei 3.689/1941), arts. 4º a 23, fornecido no contexto"
+      ]
+    }
+  ],
+  "observacoes_do_lote": null
+}

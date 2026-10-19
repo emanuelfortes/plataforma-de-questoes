@@ -1,0 +1,211 @@
+{
+  "questoes": [
+    {
+      "id": "q05",
+      "tema": "Inquérito Policial",
+      "subtema": "Instauração na ação penal privada",
+      "dificuldade": "media",
+      "enunciado": "Em investigação de crime de ação penal privada, instaurado o inquérito policial a requerimento da vítima e concluídas as diligências, a autoridade policial deverá, segundo o Código de Processo Penal,",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "encaminhar os autos ao Ministério Público, a quem caberá oferecer a queixa em nome do ofendido ou de seu representante legal."
+        },
+        {
+          "id": "a2",
+          "texto": "entregar os autos diretamente ao ofendido, sendo vedada a remessa ao juízo competente."
+        },
+        {
+          "id": "a3",
+          "texto": "remeter os autos ao juízo competente, onde aguardarão a iniciativa do ofendido ou de seu representante legal."
+        },
+        {
+          "id": "a4",
+          "texto": "mandar arquivar os autos caso o ofendido ou seu representante legal não ofereça a queixa no prazo de 30 dias da conclusão."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "Nos crimes de ação privada, o inquérito só é instaurado a requerimento de quem tenha qualidade para intentá-la (art. 5º, § 5º). Concluído, o art. 19 determina a remessa dos autos ao juízo competente, onde aguardarão a iniciativa do ofendido ou de seu representante legal; os autos poderão ainda ser entregues ao requerente, se o pedir, mediante traslado.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Na ação privada a iniciativa é do próprio ofendido ou de seu representante legal, por meio de queixa; o art. 19 não prevê remessa ao Ministério Público para oferecê-la em nome deles."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O art. 19 determina a remessa ao juízo competente; a entrega ao requerente é possível apenas se ele o pedir, mediante traslado, e não substitui a regra."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Reproduz o art. 19 do CPP: os autos são remetidos ao juízo competente e aguardam a iniciativa do ofendido ou de seu representante legal."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A autoridade policial não pode mandar arquivar autos de inquérito (art. 17), e o prazo de 30 dias da conclusão não consta dos dispositivos aplicáveis; pelo art. 19, os autos aguardam no juízo a iniciativa do ofendido."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 5º, § 5º; art. 19; art. 17.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Imaginar que, na ação privada, o Ministério Público assume a iniciativa ou que a autoridade policial pode arquivar diante da inércia do ofendido.",
+      "lei_referencia": "CPP, art. 19",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Na ação privada o inquérito começa a requerimento de quem pode intentar a ação (art. 5º, § 5º) e termina no juízo, aguardando o ofendido (art. 19).",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "ação penal privada",
+        "requerimento do ofendido",
+        "remessa ao juízo",
+        "traslado"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (arts. 4º a 23) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Inquérito Policial",
+      "subtema": "Características: sigilo",
+      "dificuldade": "dificil",
+      "enunciado": "Durante inquérito policial instaurado para apurar crime de ação pública, o investigado, que não possui condenações anteriores, solicitou à autoridade policial um atestado de antecedentes para apresentar a um futuro empregador. Considerando a letra do Código de Processo Penal, assinale a afirmativa correta sobre o sigilo do inquérito e o atestado solicitado.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O sigilo é inerente a todo inquérito, de modo que a autoridade deve decretá-lo integralmente em qualquer investigação, independentemente das circunstâncias do caso."
+        },
+        {
+          "id": "a2",
+          "texto": "A autoridade deverá mencionar no atestado de antecedentes a existência do inquérito em curso, pois a informação interessa à sociedade e ao futuro empregador do requerente."
+        },
+        {
+          "id": "a3",
+          "texto": "A autoridade policial poderá, por despacho próprio e sem participação do juiz, decretar a incomunicabilidade do indiciado como forma de preservar o sigilo da investigação."
+        },
+        {
+          "id": "a4",
+          "texto": "A autoridade assegurará o sigilo necessário à elucidação do fato ou exigido pelo interesse da sociedade, e não poderá mencionar no atestado anotações referentes à instauração do inquérito."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "O art. 20 do CPP não impõe sigilo absoluto e automático: a autoridade assegura o sigilo necessário à elucidação do fato ou exigido pelo interesse da sociedade. O parágrafo único, com redação da Lei 12.681/2012, proíbe a autoridade policial de mencionar, nos atestados de antecedentes solicitados, quaisquer anotações referentes à instauração de inquérito contra os requerentes. Assim, o investigado recebe o atestado sem referência ao inquérito. Quanto à alternativa sobre incomunicabilidade, a questão cobra a letra do CPP: pelo art. 21, parágrafo único, ela dependeria de decisão do juiz. A maior parte da doutrina, porém, entende que o art. 21 não foi recepcionado pela Constituição de 1988, que veda a incomunicabilidade do preso até no estado de defesa (art. 136, § 3º, IV) e assegura ao preso a assistência da família e de advogado (art. 5º, LXIII).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O art. 20 fala em sigilo necessário à elucidação do fato ou exigido pelo interesse da sociedade, ou seja, o sigilo é medido pela necessidade do caso, e não imposto integralmente em toda investigação."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Contraria o parágrafo único do art. 20, que veda mencionar no atestado de antecedentes quaisquer anotações referentes à instauração de inquérito, qualquer que seja o interesse de terceiros."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Pela redação literal do parágrafo único do art. 21 (de recepção rejeitada pela maior parte da doutrina), a incomunicabilidade é decretada por despacho fundamentado do juiz, a requerimento da autoridade policial ou do Ministério Público; a autoridade policial não a decreta por despacho próprio. Registre-se que a doutrina majoritária entende que a incomunicabilidade do art. 21 não foi recepcionada pela Constituição de 1988. A alternativa está errada nas duas leituras."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Combina corretamente o caput do art. 20 (sigilo necessário ou exigido pelo interesse da sociedade) com o seu parágrafo único (vedação de anotações sobre inquérito no atestado de antecedentes)."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 20, caput e parágrafo único (redação da Lei 12.681/2012); art. 21, parágrafo único.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "O parágrafo único do art. 20 tem a redação dada pela Lei 12.681/2012, vigente na data de corte.",
+      "pegadinha": "Tratar o sigilo como absoluto e automático e supor que o inquérito em curso deve constar do atestado de antecedentes.",
+      "lei_referencia": "CPP, art. 20, parágrafo único",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Inquérito em andamento não aparece no atestado de antecedentes expedido pela autoridade policial: a vedação está no parágrafo único do art. 20.",
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "sigilo",
+        "atestado de antecedentes",
+        "interesse da sociedade",
+        "incomunicabilidade"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (arts. 4º a 23) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Inquérito Policial",
+      "subtema": "Características: inquisitivo e discricionariedade das diligências",
+      "dificuldade": "dificil",
+      "enunciado": "No curso de inquérito policial, o indiciado, por meio de seu advogado, requereu à autoridade policial a oitiva de uma testemunha que, segundo ele, confirmaria seu álibi. A autoridade, considerando a diligência inútil para a elucidação do fato, deixou de realizá-la. Com base no Código de Processo Penal, assinale a afirmativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A autoridade estava obrigada a realizar a diligência, pois o requerimento do indiciado vincula a investigação em respeito ao contraditório."
+        },
+        {
+          "id": "a2",
+          "texto": "Contra a recusa caberá recurso para o chefe de Polícia, na forma prevista para o indeferimento de requerimentos no inquérito."
+        },
+        {
+          "id": "a3",
+          "texto": "A recusa foi legítima, pois as diligências requeridas pelo indiciado serão realizadas, ou não, a juízo da autoridade."
+        },
+        {
+          "id": "a4",
+          "texto": "A autoridade deveria ter submetido o requerimento ao juiz, a quem cabe decidir sobre diligências pedidas pelo indiciado."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "O art. 14 do CPP permite que o ofendido, seu representante legal e o indiciado requeiram qualquer diligência, que será realizada, ou não, a juízo da autoridade. Essa regra expressa o caráter inquisitivo do inquérito e a discricionariedade da autoridade policial na condução da investigação. O recurso ao chefe de Polícia do art. 5º, § 2º, refere-se ao indeferimento do requerimento de abertura de inquérito, e não a diligências no seu curso. Atenção à exceção do art. 184 do CPP: a autoridade policial pode negar a perícia requerida pelas partes quando desnecessária, salvo o exame de corpo de delito, que não pode ser negado. No caso, a diligência negada é a oitiva de testemunha, fora dessa exceção.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O art. 14 deixa a realização da diligência a juízo da autoridade; não há vinculação ao pedido do indiciado no texto do CPP."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Aplica dispositivo inadequado: o recurso ao chefe de Polícia (art. 5º, § 2º) é contra o despacho que indefere o requerimento de abertura de inquérito, não contra a recusa de diligência no curso dele."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 14 do CPP: a diligência requerida pelo indiciado será realizada, ou não, a juízo da autoridade."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 14 atribui a decisão à própria autoridade policial, sem exigir submissão do requerimento ao juiz."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 14; art. 5º, § 2º; art. 184.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Estender ao pedido de diligência o recurso ao chefe de Polícia, que a lei prevê apenas para o indeferimento do requerimento de abertura do inquérito.",
+      "lei_referencia": "CPP, art. 14",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Dois indeferimentos diferentes: o da abertura do inquérito tem recurso ao chefe de Polícia (art. 5º, § 2º); o de diligência no curso do inquérito fica a juízo da autoridade (art. 14).",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "procedimento inquisitivo",
+        "diligências",
+        "discricionariedade",
+        "requerimento do indiciado"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (arts. 4º a 23 e art. 184) fornecido no contexto"
+      ]
+    }
+  ]
+}

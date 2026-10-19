@@ -1,0 +1,219 @@
+{
+  "questoes": [
+    {
+      "id": "q04",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Inviolabilidade do domicílio",
+      "dificuldade": "media",
+      "enunciado": "Policiais civis receberam, às 15h, mandado judicial de busca e apreensão a ser cumprido na residência de um investigado. Decidiram cumpri-lo somente às 2h da madrugada seguinte, quando o morador estaria dormindo. Ao chegarem, o morador recusou a entrada, e não havia situação de flagrante delito, desastre ou necessidade de prestar socorro. À luz do art. 5º, XI, da Constituição Federal, a entrada forçada naquele horário:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "não é permitida, pois a entrada por determinação judicial, sem consentimento do morador, só pode ocorrer durante o dia."
+        },
+        {
+          "id": "a2",
+          "texto": "é permitida, pois a existência de mandado judicial expedido por autoridade competente autoriza o ingresso a qualquer hora do dia ou da noite, como ocorre no flagrante."
+        },
+        {
+          "id": "a3",
+          "texto": "é permitida, desde que a autoridade policial justifique por escrito a urgência da diligência e comunique o ingresso noturno ao juiz que expediu o mandado."
+        },
+        {
+          "id": "a4",
+          "texto": "não é permitida, pois o domicílio só pode ser violado, sem consentimento do morador, em caso de flagrante delito, qualquer que seja o horário da diligência."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 5º, XI, prevê que a casa é asilo inviolável e que ninguém nela pode penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro (a qualquer hora), ou, durante o dia, por determinação judicial. Como o mandado foi cumprido de madrugada, sem consentimento e sem flagrante, desastre ou socorro, a entrada forçada não encontra amparo constitucional.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "A ordem judicial só autoriza o ingresso sem consentimento durante o dia, conforme a parte final do inciso XI."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Ignora a restrição temporal e equipara indevidamente o mandado ao flagrante: a determinação judicial vale apenas durante o dia; o ingresso a qualquer hora é reservado ao flagrante, ao desastre e ao socorro."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A Constituição não prevê justificativa de urgência pela autoridade policial, nem comunicação posterior ao juiz, como hipótese autônoma de ingresso noturno."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Chega à conclusão certa com fundamento errado: além do flagrante, também desastre, socorro e, de dia, ordem judicial autorizam a entrada sem consentimento."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 5º, XI.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Achar que o mandado judicial libera o ingresso a qualquer hora.",
+      "lei_referencia": "CF/1988, art. 5º, XI",
+      "macete_do_riccardo": "Flagrante, Desastre e Socorro: qualquer hora. Juiz: só de dia.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "inviolabilidade do domicílio",
+        "mandado judicial",
+        "durante o dia",
+        "art. 5º XI"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, art. 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Sigilo das comunicações",
+      "dificuldade": "media",
+      "enunciado": "Durante um inquérito policial que apura tráfico de drogas, o delegado responsável entende necessária a interceptação das comunicações telefônicas de um suspeito. Considerando a literalidade do art. 5º, XII, da Constituição Federal, essa medida:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "pode ser determinada diretamente pelo delegado de polícia, por se tratar de investigação criminal, bastando que a decisão seja fundamentada e comunicada ao juiz em seguida."
+        },
+        {
+          "id": "a2",
+          "texto": "depende de ordem judicial, nas hipóteses e na forma que a lei estabelecer, para fins de investigação criminal ou instrução processual penal."
+        },
+        {
+          "id": "a3",
+          "texto": "depende de requisição do Ministério Público, titular da ação penal, dispensada a ordem judicial na fase de investigação e exigida apenas na instrução processual penal."
+        },
+        {
+          "id": "a4",
+          "texto": "é vedada, pois o sigilo das comunicações telefônicas é absoluto no texto constitucional, que não admite nenhuma exceção a ele."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O art. 5º, XII, declara inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo, no último caso (comunicações telefônicas), por ordem judicial, nas hipóteses e na forma que a lei estabelecer, para fins de investigação criminal ou instrução processual penal. Há, portanto, reserva de jurisdição: a autoridade policial deve representar ao juiz, mas não pode decretar a interceptação por conta própria.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "A Constituição exige ordem judicial prévia; o delegado não tem competência para determinar a interceptação diretamente, e a comunicação posterior ao juiz não supre essa exigência."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Reproduz os três requisitos do inciso XII: ordem judicial, hipóteses e forma previstas em lei e finalidade penal (investigação criminal ou instrução processual penal)."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Não há previsão de requisição ministerial como substituta da ordem judicial; a exigência de ordem judicial vale tanto na investigação criminal quanto na instrução processual penal."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O próprio inciso XII ressalva as comunicações telefônicas, admitindo a quebra por ordem judicial para fins penais."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 5º, XII.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Atribuir à autoridade policial ou ao Ministério Público poder que a Constituição reserva ao juiz.",
+      "lei_referencia": "CF/1988, art. 5º, XII",
+      "macete_do_riccardo": null,
+      "fique_ligado": "A exceção textual do inciso XII é só para o último caso (comunicações telefônicas) e só para fins penais.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "interceptação telefônica",
+        "reserva de jurisdição",
+        "sigilo das comunicações",
+        "art. 5º XII"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, art. 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Dissolução e suspensão de associações",
+      "dificuldade": "dificil",
+      "enunciado": "Uma associação civil regularmente constituída passou a ser investigada por desvio de finalidade. O Município editou ato administrativo suspendendo suas atividades, e o Ministério Público ajuizou ação pedindo sua dissolução. Em primeira instância, o juiz julgou procedente o pedido de dissolução, e a associação recorreu. Considerando o art. 5º da Constituição Federal, é correto afirmar que:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "o ato do Município é inválido, pois a suspensão compulsória exige decisão judicial, e a dissolução só poderá ocorrer após o trânsito em julgado da sentença."
+        },
+        {
+          "id": "a2",
+          "texto": "o ato do Município é válido, pois a suspensão das atividades pode ser determinada pela via administrativa, mas a dissolução compulsória exige decisão judicial transitada em julgado."
+        },
+        {
+          "id": "a3",
+          "texto": "o ato do Município é inválido, mas a dissolução compulsória já pode ser efetivada, pois basta a decisão judicial de primeira instância, sem necessidade de trânsito em julgado."
+        },
+        {
+          "id": "a4",
+          "texto": "o ato do Município é inválido, pois tanto a suspensão quanto a dissolução compulsórias exigem decisão judicial transitada em julgado."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 5º, XIX, determina que as associações só poderão ser compulsoriamente dissolvidas ou ter suas atividades suspensas por decisão judicial, exigindo-se, no primeiro caso (dissolução), o trânsito em julgado. Assim, a suspensão por ato administrativo do Município é inválida (reserva de jurisdição), e a dissolução não pode ser efetivada enquanto pende o recurso. Para a suspensão, basta decisão judicial, sem exigência de trânsito em julgado.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Aplica corretamente o inciso XIX: suspensão e dissolução exigem decisão judicial, e somente a dissolução exige trânsito em julgado."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A suspensão compulsória também depende de decisão judicial; não há suspensão de atividades por via administrativa."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Inverte a regra: é a dissolução que exige trânsito em julgado, de modo que a decisão de primeira instância, pendente de recurso, não permite efetivá-la."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Generaliza indevidamente o trânsito em julgado, que o inciso XIX exige apenas para a dissolução, e não para a suspensão."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 5º, XIX (e XVIII, quanto à vedação de interferência estatal no funcionamento).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Estender o trânsito em julgado à suspensão ou admitir suspensão por via administrativa.",
+      "lei_referencia": "CF/1988, art. 5º, XIX",
+      "macete_do_riccardo": "Suspender: basta o juiz. Dissolver (acabar de vez): juiz e trânsito em julgado.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "associações",
+        "dissolução compulsória",
+        "suspensão de atividades",
+        "trânsito em julgado",
+        "art. 5º XIX"
+      ],
+      "cita_jurisprudencia": false,
+      "status_gerador": "VALIDADA",
+      "ressalvas": null,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, art. 5º, fornecido no contexto"
+      ]
+    }
+  ],
+  "observacoes_do_lote": null
+}

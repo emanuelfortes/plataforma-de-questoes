@@ -1,0 +1,141 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Somente \"terá início às 16h\" está correta; \"para as\", \"desde as\" e \"após as\" dispensam a preposição \"a\". Distratores claramente errados e comentário adequado."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "\"À moda dos anos 1980\" é a única correta; \"a pé\", \"a chorar\" e \"a partir de\" não admitem crase (palavra masculina e verbos)."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Distância determinada (\"de vinte metros\") pede \"à distância\"; os demais casos (quilômetros, todos, cavalo) não admitem crase."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "\"De segunda a sexta, das 8h às 17h\" respeita o paralelismo nos dois intervalos; as demais misturam \"de\" com \"à/às\" ou \"da\" com \"a\"."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Exemplo clássico de mudança de sentido: \"matar a fome\" (objeto direto, saciar) x \"matar à fome\" (adjunto adverbial de meio). Só a3 descreve corretamente as duas frases."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "gramatical",
+          "gravidade": "media",
+          "descricao": "Com o mais-que-perfeito \"havia sido instaurado\", a norma-padrão (correlação de tempos) recomenda \"havia cerca de dez dias\", e não \"há\". O trecho induz como correta uma construção criticada pelas gramáticas normativas, embora \"há\" seja a melhor opção entre as oferecidas."
+        }
+      ],
+      "correcao_sugerida": "Trocar \"o inquérito havia sido instaurado ___ cerca de dez dias\" por \"o inquérito foi instaurado ___ cerca de dez dias\", mantendo alternativas e gabarito.",
+      "justificativa": "Gabarito correto (à uma hora, há cerca de, daqui a), mas o tempo verbal do trecho torna \"há\" questionável pela correlação temporal; ajuste pontual no verbo resolve."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Só \"obedeceu à norma interna\" passa a exigir crase; \"a casa\" (lar, sem determinante), \"visitou a penitenciária\" (VTD) e \"a Brasília\" (sem artigo) não têm crase."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "I (das... às), II (distância determinada) e IV (entre as... e as...) estão corretas; III erra ao acentuar antes de \"domingo\" após \"de\". Gabarito I, II e IV confere."
+    },
+    {
+      "id": "q09",
+      "status": "REPROVADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": true,
+      "ambiguidade": true,
+      "fundamento_confere": false,
+      "problemas": [
+        {
+          "tipo": "gramatical",
+          "gravidade": "alta",
+          "descricao": "O comentário afirma que, sem o acento, \"a francesa\" passaria a ser sujeito (uma mulher francesa saiu). Na frase dada o sujeito já é \"o depoente\", e \"sair\" é intransitivo; a retirada do acento não cria essa leitura, apenas produz uma construção incorreta. A explicação está errada para a frase apresentada."
+        },
+        {
+          "tipo": "alternativas",
+          "gravidade": "alta",
+          "descricao": "Como não surge nova leitura sem o acento, é defensável sustentar que a afirmação II é verdadeira (o sentido não muda, só a correção gramatical), o que tornaria defensável a alternativa \"I, II e IV\" ao lado do gabarito \"I e IV\"."
+        }
+      ],
+      "correcao_sugerida": "Retirar o sujeito explícito da frase II para que a leitura alternativa exista de fato (por exemplo: \"Incomodada com as perguntas, saiu à francesa\", em que \"a francesa\" sem acento passaria a sujeito), e ajustar o comentário geral e a justificativa de a3 a essa frase.",
+      "justificativa": "I, III e IV estão corretamente avaliadas, mas a afirmação II, com o sujeito \"o depoente\" explícito, não sustenta a mudança de sentido alegada; o comentário contém análise sintática errada e o distrator \"I, II e IV\" fica defensável."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "\"Às 22h\", \"à distância de trinta metros\", \"de 22h a 4h\" e \"a uma padaria\" estão corretas; a sequência às, à, a, a é a única possível. Cobre pontos já vistos em q03, q04 e q08, mas em formato de trecho, o que é aceitável."
+    }
+  ]
+}

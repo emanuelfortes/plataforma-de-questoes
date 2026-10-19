@@ -1,0 +1,58 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvida de forma independente: violência logo depois da subtração para assegurar a detenção da coisa e a fuga é roubo impróprio (art. 157, § 1º). Os distratores reescritos (furto mais lesão, furto qualificado pela destreza, extorsão) seguem claramente errados e a correta manteve os elementos essenciais do § 1º."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Constrangimento por grave ameaça (a familiar) para a vítima fazer o depósito, com intuito de vantagem econômica: extorsão (art. 158, caput). Roubo exige subtração, extorsão indireta exige garantia de dívida com documento (art. 160) e estelionato exige fraude; nenhum distrator ficou defensável."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "pedagogico",
+          "gravidade": "baixa",
+          "descricao": "O fique_ligado diz \"roubo, extorsão ou violência e grave ameaça\", sugerindo que violência e grave ameaça seriam cumulativas; o art. 183, I, usa \"grave ameaça ou violência à pessoa\" (alternativas)."
+        }
+      ],
+      "correcao_sugerida": "No fique_ligado, trocar \"roubo, extorsão ou violência e grave ameaça\" por \"roubo, extorsão ou emprego de grave ameaça ou violência à pessoa\".",
+      "justificativa": "Roubo contra ascendente não goza da isenção do art. 181, II, nem da representação do art. 182, por força do art. 183, I; a idade do pai e a falta de coabitação são irrelevantes. Gabarito e alternativas corretos; só o destaque do professor tem imprecisão pontual."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Extorsão com restrição da liberdade necessária à vantagem (art. 158, § 3º) com resultado lesão grave: aplica-se a pena do art. 159, § 2º (16 a 24 anos). O comando exclui as causas de aumento (concurso de pessoas, art. 158, § 1º), e os distratores (remissão do § 2º ao roubo, art. 159, § 1º, forma simples do § 3º) estão todos errados pelo texto fornecido."
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvida de forma independente: a3 reproduz a única exceção do art. 5º, XLVII, a (guerra declarada, nos termos do art. 84, XIX). Os distratores criam exceções inexistentes para penas vedadas sem ressalva. Fundamento, comentário e macete conferem com o texto fornecido."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 é a reprodução literal do art. 5º, LVII. O enunciado delimita a cobrança ao texto constitucional, o que afasta discussão sobre a condenação em segundo grau (a4). Sem citação de jurisprudência."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a2 reproduz o art. 5º, LXII. O enunciado pede o que dispõe a Constituição, então a menção a prazo e ao Ministério Público em a1 (matéria de lei processual) está corretamente errada no recorte. Caso prático adequado ao cargo."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "alternativas",
+          "gravidade": "baixa",
+          "descricao": "O tráfico ilícito de entorpecentes também é crime comum, e para ele o art. 5º, LI, não exige que o fato seja anterior à naturalização. Um candidato exigente poderia sustentar que a3 (crime comum praticado depois da naturalização) é possível se o crime for tráfico. A leitura usual separa as duas hipóteses, por isso o gabarito se mantém, mas a justificativa de a3 afirma de modo absoluto que, para crime comum, só cabe extradição se anterior à naturalização."
+        }
+      ],
+      "correcao_sugerida": "Em a3, escrever: \"Brasileiro naturalizado acusado de crime comum, sem relação com tráfico ilícito de entorpecentes, praticado depois da naturalização.\" Na justificativa de a3, acrescentar que a ressalva do tráfico não depende do momento do fato, mas a alternativa não trata dela.",
+      "justificativa": "Gabarito a4 confere com o art. 5º, LI. a1 e a2 estão claramente erradas (nato nunca é extraditado; crime político veda a extradição de estrangeiro, art. 5º, LII). Ajuste pontual em a3 elimina a única brecha interpretativa."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A expressão \"entre outras\" do art. 5º, XLVI, sustenta o rol exemplificativo de a2, que cita corretamente as alíneas d e e. a1, a3 e a4 contrariam o texto (perda de bens está na alínea b; não há exigência de cumulação da multa)."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a3 reproduz o art. 5º, LVIII. Os distratores trocam a reserva legal por discricionariedade policial, por vedação absoluta ou por condição inexistente (trânsito em julgado). Caso concreto pertinente ao cargo."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 é o texto do art. 5º, LXIV. Os distratores alteram o critério do inciso XLVIII (renda em vez de idade), o período do inciso L e restringem o silêncio do inciso LXIII. Macete N.I.S. correto."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a2 corresponde ao art. 5º, LXI, com as ressalvas militares. O delegado não é autoridade judiciária (a1), não há ordem verbal (a3) e o relaxamento é imediato pela autoridade judiciária, sem condição (art. 5º, LXV; a4). Comentário e alerta sobre crime propriamente militar corretos."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O enunciado restringe a análise ao texto do art. 5º e descreve inadimplemento involuntário e escusável comprovado; logo a ressalva do inciso LXVII não se aplica e a3 é a única defensável. A questão não depende da discussão sobre o depositário infiel e não cita jurisprudência."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a4 reproduz o art. 5º, LV. Os distratores distorcem os incisos LVI (sem exceção textual para prova ilícita), LIX (exige inércia no prazo legal) e LX (restrição só por intimidade ou interesse social, fixada pela lei). Sem conflito com as demais questões do lote."
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Habeas corpus",
+      "dificuldade": "facil",
+      "enunciado": "Durante uma abordagem, um cidadão é informado por agente público de que será conduzido e mantido detido sem que haja flagrante delito ou ordem judicial, por mera desconfiança pessoal do agente. Para proteger a liberdade de locomoção ameaçada por ilegalidade ou abuso de poder, a Constituição Federal prevê, como remédio constitucional específico,",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "o mandado de segurança individual, por se tratar de direito líquido e certo violado por autoridade pública no exercício de suas funções de policiamento ostensivo."
+        },
+        {
+          "id": "a2",
+          "texto": "o habeas data, destinado a assegurar o conhecimento dos motivos da detenção constantes de registros públicos."
+        },
+        {
+          "id": "a3",
+          "texto": "o habeas corpus, cabível sempre que alguém sofrer ou se achar ameaçado de sofrer violência ou coação em sua liberdade de locomoção."
+        },
+        {
+          "id": "a4",
+          "texto": "o mandado de injunção, uma vez que a conduta do agente revela a ausência de norma regulamentadora sobre prisões."
+        },
+        {
+          "id": "a5",
+          "texto": "a ação popular, pois o ato do agente, praticado sem flagrante nem ordem judicial, é lesivo à moralidade administrativa."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "O habeas corpus protege a liberdade de locomoção contra violência ou coação, atual ou ameaçada, decorrente de ilegalidade ou abuso de poder (CF, art. 5º, LXVIII). Basta a ameaça: não é preciso esperar a prisão se concretizar. No caso, a condução e a detenção sem flagrante nem ordem judicial ameaçam diretamente o direito de ir e vir.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O mandado de segurança é residual: protege direito líquido e certo não amparado por habeas corpus ou habeas data (art. 5º, LXIX). Ainda que o ato parta de autoridade pública em atividade de policiamento, a liberdade de locomoção é tutelada pelo habeas corpus."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O habeas data serve para conhecer ou retificar informações relativas à pessoa do impetrante em registros ou bancos de dados de entidades governamentais ou de caráter público (art. 5º, LXXII), e não para afastar ameaça à liberdade de locomoção."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Reproduz a hipótese do art. 5º, LXVIII: violência ou coação, sofrida ou ameaçada, na liberdade de locomoção, por ilegalidade ou abuso de poder."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O mandado de injunção pressupõe falta de norma regulamentadora que torne inviável o exercício de direitos constitucionais (art. 5º, LXXI). O problema do caso é uma conduta ilegal do agente, e não a ausência de norma."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "A ação popular visa anular ato lesivo ao patrimônio público, à moralidade administrativa, ao meio ambiente ou ao patrimônio histórico e cultural (art. 5º, LXXIII). Mesmo que a detenção sem flagrante nem ordem judicial seja ilegal, esse não é o instrumento destinado a tutelar a liberdade de locomoção do próprio interessado."
+        }
+      ],
+      "fundamento_legal": "Constituição Federal de 1988, art. 5º, LXVIII (habeas corpus); de forma complementar, art. 5º, LXIX, LXXI, LXXII e LXXIII para os demais remédios.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir o habeas corpus com o mandado de segurança, esquecendo que este é residual e não alcança a liberdade de locomoção.",
+      "lei_referencia": "CF/88, art. 5º, LXVIII",
+      "macete_do_riccardo": "Corpo em risco de ir e vir? Habeas corpus. Dado sobre mim? Habeas data. O resto que for líquido e certo vai para o mandado de segurança.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "habeas corpus",
+        "liberdade de locomoção",
+        "remédios constitucionais",
+        "abuso de poder"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do art. 5º da Constituição Federal de 1988 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Habeas data",
+      "dificuldade": "media",
+      "enunciado": "Ana descobriu que o cadastro mantido por uma entidade governamental contém informação inexata a seu respeito e não deseja corrigi-la por processo sigiloso, judicial ou administrativo. Considerando apenas o texto do art. 5º da Constituição Federal, o remédio constitucional previsto para essa finalidade é o",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "mandado de injunção, pois a correção de cadastros mantidos por entidades governamentais depende da prévia edição de norma regulamentadora específica sobre o tema."
+        },
+        {
+          "id": "a2",
+          "texto": "habeas data, que se concede para a retificação de dados, quando não se prefira fazê-lo por processo sigiloso, judicial ou administrativo."
+        },
+        {
+          "id": "a3",
+          "texto": "habeas corpus, uma vez que a informação inexata mantida no cadastro governamental pode, no futuro, levar a restrição indevida de sua liberdade de locomoção."
+        },
+        {
+          "id": "a4",
+          "texto": "habeas data, que, contudo, só alcança informações de terceiros constantes de bancos de dados privados, devendo a correção de dados próprios ser buscada por outra via."
+        },
+        {
+          "id": "a5",
+          "texto": "mandado de segurança coletivo, por envolver banco de dados de interesse geral."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O habeas data tem duas hipóteses no art. 5º, LXXII: assegurar o conhecimento de informações relativas à pessoa do impetrante constantes de registros ou bancos de dados de entidades governamentais ou de caráter público (alínea a) e permitir a retificação de dados, quando não se prefira fazê-lo por processo sigiloso, judicial ou administrativo (alínea b). O caso de Ana se encaixa na segunda hipótese.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O mandado de injunção pressupõe falta de norma regulamentadora que inviabilize o exercício de direito constitucional (art. 5º, LXXI). A retificação de dados já tem remédio próprio no texto constitucional, e o caso não descreve omissão normativa."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Reproduz o art. 5º, LXXII, b: habeas data para a retificação de dados, quando não se prefira fazê-lo por processo sigiloso, judicial ou administrativo."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Não há violência ou coação, atual ou ameaçada, à liberdade de locomoção (art. 5º, LXVIII). Um risco remoto e futuro não transforma o problema, que é a inexatidão de dados pessoais, em caso de habeas corpus."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Inverte o alcance do remédio: o habeas data protege justamente informações relativas à pessoa do impetrante, constantes de registros de entidades governamentais ou de caráter público, e a retificação desses dados próprios é hipótese expressa do inciso LXXII, b."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "O mandado de segurança é residual e não cabe quando o direito é amparado por habeas data (art. 5º, LXIX). Além disso, Ana defende interesse próprio, e não interesses de membros ou associados de entidade legitimada (art. 5º, LXX)."
+        }
+      ],
+      "fundamento_legal": "Constituição Federal de 1988, art. 5º, LXXII, a e b; de forma complementar, art. 5º, LXVIII, LXIX, LXX e LXXI.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Achar que o habeas data serve para dados de terceiros ou de bancos puramente privados, quando o texto fala em informações relativas à pessoa do impetrante em entidades governamentais ou de caráter público.",
+      "lei_referencia": "CF/88, art. 5º, LXXII, b",
+      "macete_do_riccardo": null,
+      "fique_ligado": "O habeas data tem dois verbos: conhecer (alínea a) e retificar (alínea b).",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "habeas data",
+        "retificação de dados",
+        "entidade governamental",
+        "remédios constitucionais"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do art. 5º da Constituição Federal de 1988 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Mandado de injunção",
+      "dificuldade": "media",
+      "enunciado": "Um direito previsto na Constituição Federal depende, para ser exercido, de norma regulamentadora que até hoje não foi editada, o que torna inviável o seu exercício pelos titulares. Nessa situação, conforme o art. 5º da Constituição, é cabível",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "a ação popular, porque a omissão legislativa que impede o exercício de direito constitucional é ato lesivo ao patrimônio público, ficando o autor isento de custas, salvo comprovada má-fé."
+        },
+        {
+          "id": "a2",
+          "texto": "o habeas data, para que o titular tenha conhecimento das razões da omissão do legislador constantes de registros públicos e possa, em seguida, exigir a edição da norma que falta."
+        },
+        {
+          "id": "a3",
+          "texto": "o mandado de segurança, pois a falta de norma regulamentadora sempre gera direito líquido e certo à sua edição, oponível à autoridade pública responsável pela omissão."
+        },
+        {
+          "id": "a4",
+          "texto": "o mandado de injunção, restrito, porém, às prerrogativas inerentes à nacionalidade, à soberania e à cidadania, sem alcançar o exercício dos direitos e liberdades constitucionais."
+        },
+        {
+          "id": "a5",
+          "texto": "o mandado de injunção, cabível sempre que a falta de norma regulamentadora torne inviável o exercício dos direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania."
+        }
+      ],
+      "id_correta": "a5",
+      "comentario_geral": "O mandado de injunção é o remédio contra a omissão normativa: concede-se sempre que a falta de norma regulamentadora torne inviável o exercício dos direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania (art. 5º, LXXI). Os dois pressupostos são a ausência da norma e a inviabilidade do exercício do direito, ambos presentes no caso.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "A ação popular busca anular ato lesivo ao patrimônio público, à moralidade administrativa, ao meio ambiente ou ao patrimônio histórico e cultural (art. 5º, LXXIII); a isenção de custas é dela, mas ela não é o instrumento previsto para suprir falta de norma regulamentadora."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O habeas data se refere a informações relativas à pessoa do impetrante em registros ou bancos de dados (art. 5º, LXXII), e não a razões de omissões do legislador nem à exigência de edição de norma."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A Constituição reservou o mandado de injunção para a falta de norma regulamentadora (art. 5º, LXXI); o mandado de segurança protege direito líquido e certo contra ilegalidade ou abuso de poder (art. 5º, LXIX)."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Restringe indevidamente o objeto: o inciso LXXI abrange tanto os direitos e liberdades constitucionais quanto as prerrogativas inerentes à nacionalidade, à soberania e à cidadania."
+        },
+        {
+          "id": "a5",
+          "correta": true,
+          "justificativa": "Reproduz fielmente o art. 5º, LXXI, e se aplica ao caso, em que a ausência de norma regulamentadora inviabiliza o exercício do direito."
+        }
+      ],
+      "fundamento_legal": "Constituição Federal de 1988, art. 5º, LXXI; para os distratores, art. 5º, LXIX, LXXII e LXXIII.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Restringir o mandado de injunção a apenas uma das categorias de direitos do inciso LXXI ou confundi-lo com o mandado de segurança.",
+      "lei_referencia": "CF/88, art. 5º, LXXI",
+      "macete_do_riccardo": "Injunção lembra omissão: faltou a norma e o direito travou, é mandado de injunção.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "mandado de injunção",
+        "omissão normativa",
+        "norma regulamentadora",
+        "nacionalidade, soberania e cidadania"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do art. 5º da Constituição Federal de 1988 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Remédios constitucionais: cabimento",
+      "dificuldade": "dificil",
+      "enunciado": "Acerca dos remédios constitucionais previstos no art. 5º da Constituição Federal, assinale a afirmação correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O mandado de segurança pode ser impetrado contra ato de agente de pessoa jurídica no exercício de atribuições do Poder Público, desde que o direito líquido e certo violado não seja amparado por habeas corpus ou habeas data."
+        },
+        {
+          "id": "a2",
+          "texto": "O mandado de segurança é o meio adequado para proteger a liberdade de locomoção sempre que o direito de ir e vir for líquido e certo e a coação partir de autoridade pública, dispensando-se o habeas corpus."
+        },
+        {
+          "id": "a3",
+          "texto": "O habeas data destina-se à retificação de dados constantes de registros públicos, mas apenas quando o impetrante comprovar que optou, previamente, pela via do processo sigiloso, judicial ou administrativo."
+        },
+        {
+          "id": "a4",
+          "texto": "O mandado de injunção é cabível sempre que existir norma regulamentadora considerada insuficiente ou injusta pelo titular do direito, ainda que o exercício deste seja viável com base na norma já editada."
+        },
+        {
+          "id": "a5",
+          "texto": "A ação popular pode ser proposta por qualquer pessoa, física ou jurídica, para anular ato lesivo ao patrimônio público ou à moralidade administrativa, ficando o autor isento de custas, salvo comprovada má-fé."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O mandado de segurança tem caráter residual e alcança não só autoridades públicas, mas também agentes de pessoa jurídica no exercício de atribuições do Poder Público (art. 5º, LXIX). Os demais itens distorcem pressupostos dos outros remédios: liberdade de locomoção é campo do habeas corpus; a retificação por habeas data cabe quando não se prefira o processo sigiloso; o mandado de injunção exige falta de norma que inviabilize o direito; e a ação popular é ajuizada por cidadão.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Conforme o art. 5º, LXIX, o responsável pela ilegalidade ou abuso de poder pode ser autoridade pública ou agente de pessoa jurídica no exercício de atribuições do Poder Público, e o direito líquido e certo não pode ser amparado por habeas corpus ou habeas data."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A liberdade de locomoção é protegida por habeas corpus (art. 5º, LXVIII), e o mandado de segurança só cabe para direito não amparado por habeas corpus ou habeas data (art. 5º, LXIX); não há dispensa do habeas corpus."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Inverte o inciso LXXII, b: o habeas data serve à retificação quando não se prefira fazê-la por processo sigiloso, judicial ou administrativo; não há exigência de opção prévia por essa via."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O pressuposto do mandado de injunção é a falta de norma regulamentadora que torne inviável o exercício do direito (art. 5º, LXXI). A existência de norma e a viabilidade do exercício afastam o cabimento segundo o texto."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "O inciso LXXIII confere legitimidade a qualquer cidadão, e não a qualquer pessoa física ou jurídica. A isenção de custas, salvo comprovada má-fé, está no texto, mas não corrige o erro sobre o legitimado."
+        }
+      ],
+      "fundamento_legal": "Constituição Federal de 1988, art. 5º, LXIX (resposta); art. 5º, LXVIII, LXXI, LXXII, b, e LXXIII (distratores).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Esquecer que o mandado de segurança alcança agentes de pessoa jurídica no exercício de atribuições do Poder Público e trocar o legitimado da ação popular (cidadão) por qualquer pessoa.",
+      "lei_referencia": "CF/88, art. 5º, LXIX",
+      "macete_do_riccardo": null,
+      "fique_ligado": "No mandado de segurança, o polo passivo não é só a autoridade pública: entra também o agente de pessoa jurídica no exercício de atribuições do Poder Público.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "mandado de segurança",
+        "caráter residual",
+        "habeas data",
+        "mandado de injunção",
+        "ação popular",
+        "cidadão"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do art. 5º da Constituição Federal de 1988 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Aplicação imediata, cláusula de abertura, TPI e novos direitos",
+      "dificuldade": "dificil",
+      "enunciado": "Considerando o texto do art. 5º da Constituição Federal, incluídos seus parágrafos, assinale a afirmação correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "As normas definidoras dos direitos e garantias fundamentais têm aplicação imediata, mas somente quanto aos direitos individuais, dependendo os direitos coletivos e sociais da prévia edição de lei regulamentadora."
+        },
+        {
+          "id": "a2",
+          "texto": "O Brasil se submete à jurisdição de qualquer Tribunal Penal Internacional que venha a ser criado, independentemente de ter manifestado adesão à sua criação ou de aprovação pelo Congresso Nacional."
+        },
+        {
+          "id": "a3",
+          "texto": "A razoável duração do processo e os meios que garantam a celeridade de sua tramitação são assegurados apenas no âmbito judicial, não se estendendo aos processos administrativos."
+        },
+        {
+          "id": "a4",
+          "texto": "Os direitos e garantias expressos na Constituição não excluem outros decorrentes do regime e dos princípios por ela adotados, ou dos tratados internacionais em que a República Federativa do Brasil seja parte."
+        },
+        {
+          "id": "a5",
+          "texto": "O direito à proteção dos dados pessoais é assegurado, nos termos da lei, exclusivamente nos meios digitais, ficando os registros físicos sujeitos apenas à proteção geral da intimidade."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "O § 2º do art. 5º contém a chamada cláusula de abertura: o rol de direitos e garantias expressos não exclui outros decorrentes do regime e dos princípios constitucionais ou dos tratados internacionais em que o Brasil seja parte. Os demais itens alteram o § 1º (aplicação imediata sem distinção), o § 4º (adesão ao TPI), o inciso LXXVIII (âmbito judicial e administrativo) e o inciso LXXIX (inclusive nos meios digitais).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O § 1º não faz distinção: as normas definidoras dos direitos e garantias fundamentais têm aplicação imediata, sem restrição aos direitos individuais e sem condicionar os demais à prévia edição de lei."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O § 4º condiciona a submissão à jurisdição de Tribunal Penal Internacional a cuja criação o Brasil tenha manifestado adesão; não há submissão a qualquer tribunal, independentemente dessa adesão."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O inciso LXXVIII assegura a razoável duração do processo e os meios de celeridade no âmbito judicial e administrativo, alcançando, portanto, também os processos administrativos."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Reproduz o art. 5º, § 2º, que torna o rol de direitos e garantias fundamentais não exaustivo."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "O inciso LXXIX assegura a proteção dos dados pessoais inclusive nos meios digitais; o termo indica abrangência, e não exclusividade, de modo que dados em registros físicos também estão protegidos por esse inciso."
+        }
+      ],
+      "fundamento_legal": "Constituição Federal de 1988, art. 5º, § 2º (resposta); art. 5º, § 1º, § 4º, LXXVIII e LXXIX (distratores).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "O inciso LXXVIII e o § 4º foram incluídos pela Emenda Constitucional nº 45, de 2004, e o inciso LXXIX pela Emenda Constitucional nº 115, de 2022; todos constam do texto compilado vigente na data de corte.",
+      "pegadinha": "Trocar palavras que mudam o sentido: inclusive por exclusivamente, judicial e administrativo por apenas judicial, e omitir a exigência de adesão ao Tribunal Penal Internacional.",
+      "lei_referencia": "CF/88, art. 5º, § 2º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Palavras restritivas como apenas, somente e exclusivamente costumam ser o erro plantado em itens de lei seca do art. 5º.",
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "aplicação imediata",
+        "cláusula de abertura",
+        "Tribunal Penal Internacional",
+        "razoável duração do processo",
+        "proteção de dados pessoais"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do art. 5º da Constituição Federal de 1988 fornecido no contexto"
+      ]
+    }
+  ]
+}

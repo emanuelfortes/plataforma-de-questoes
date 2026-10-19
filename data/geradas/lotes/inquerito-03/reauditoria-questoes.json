@@ -1,0 +1,694 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Inquérito Policial",
+      "subtema": "Conclusão e prazos",
+      "dificuldade": "facil",
+      "enunciado": "De acordo com o Código de Processo Penal, os prazos para a conclusão do inquérito policial são de:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "10 dias, se o indiciado estiver preso, e 20 dias, se estiver solto, apenas quando não tiver prestado fiança."
+        },
+        {
+          "id": "a2",
+          "texto": "10 dias, se o indiciado tiver sido preso em flagrante ou estiver preso preventivamente, e 30 dias, quando estiver solto, mediante fiança ou sem ela."
+        },
+        {
+          "id": "a3",
+          "texto": "15 dias, se o indiciado estiver preso, e 30 dias, se estiver solto, contados sempre da instauração do inquérito."
+        },
+        {
+          "id": "a4",
+          "texto": "30 dias, se o indiciado estiver preso, e 90 dias, se estiver solto, mediante fiança ou sem ela."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O art. 10 do CPP fixa dois prazos: 10 dias para o indiciado preso (em flagrante ou preventivamente) e 30 dias para o indiciado solto, tenha ou não prestado fiança. É a regra geral do CPP, cobrada com frequência pela literalidade.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O prazo do indiciado solto é de 30 dias, e não de 20; além disso, a lei aplica o mesmo prazo ao solto com ou sem fiança."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Reproduz o art. 10, caput, do CPP: 10 dias para o preso em flagrante ou preventivamente e 30 dias para o solto, mediante fiança ou sem ela."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O prazo do preso no art. 10 é de 10 dias, e, na prisão preventiva, conta-se da execução da ordem de prisão, não necessariamente da instauração."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Os números não constam do art. 10 do CPP, que prevê 10 dias para o preso e 30 dias para o solto."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 10, caput: o inquérito deverá terminar no prazo de 10 dias, se o indiciado tiver sido preso em flagrante ou estiver preso preventivamente, ou no prazo de 30 dias, quando estiver solto, mediante fiança ou sem ela.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar os números dos prazos e condicionar o prazo do solto à ausência de fiança.",
+      "lei_referencia": "CPP, art. 10, caput",
+      "macete_do_riccardo": "Preso tem pressa: 10. Solto pode esperar: 30. A fiança não muda nada.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "prazo do inquérito",
+        "indiciado preso",
+        "indiciado solto",
+        "fiança"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4 a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Inquérito Policial",
+      "subtema": "Arquivamento",
+      "dificuldade": "facil",
+      "enunciado": "Ao final das investigações de um furto, o delegado de polícia concluiu que não havia nenhum elemento capaz de indicar quem foi o autor do fato. Diante dessa situação, segundo o Código de Processo Penal, a autoridade policial:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "poderá mandar arquivar os autos do inquérito, desde que fundamente a decisão no relatório final."
+        },
+        {
+          "id": "a2",
+          "texto": "poderá mandar arquivar os autos do inquérito, desde que comunique o arquivamento ao ofendido."
+        },
+        {
+          "id": "a3",
+          "texto": "deverá mandar arquivar os autos, pois a falta de autoria conhecida impede a remessa do inquérito ao juiz."
+        },
+        {
+          "id": "a4",
+          "texto": "não poderá mandar arquivar os autos do inquérito, devendo concluí-lo com relatório e remetê-lo ao juiz competente."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "O art. 17 do CPP é taxativo: a autoridade policial não poderá mandar arquivar autos de inquérito. Mesmo sem autoria definida, o delegado faz o relatório do que foi apurado e envia os autos ao juiz competente (art. 10, § 1º). Arquivar não é atribuição da polícia.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "A fundamentação no relatório não supre a falta de atribuição: o art. 17 proíbe o arquivamento pela autoridade policial em qualquer caso."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A comunicação ao ofendido não autoriza o delegado a arquivar; a vedação do art. 17 não tem exceção."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Inverte a lógica do CPP: a autoria desconhecida não impede a remessa; o art. 10, § 1º, manda enviar os autos ao juiz com o relatório do que foi apurado."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Combina o art. 17 (vedação de arquivamento pela autoridade policial) com o art. 10, § 1º (relatório minucioso e remessa ao juiz competente)."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 17 (a autoridade policial não poderá mandar arquivar autos de inquérito) e art. 10, § 1º (relatório e envio dos autos ao juiz competente).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Criar condições (fundamentação, comunicação à vítima) que supostamente permitiriam ao delegado arquivar.",
+      "lei_referencia": "CPP, art. 17",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Delegado instaura, investiga e relata. Arquivar, nunca: art. 17 sem exceção.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "arquivamento",
+        "autoridade policial",
+        "relatório",
+        "remessa ao juiz"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4 a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Inquérito Policial",
+      "subtema": "Relatório e remessa",
+      "dificuldade": "facil",
+      "enunciado": "Sobre o relatório que encerra o inquérito policial, nos termos do Código de Processo Penal, é correto afirmar que a autoridade policial:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "poderá indicar no relatório testemunhas que não tiverem sido inquiridas, mencionando o lugar onde possam ser encontradas."
+        },
+        {
+          "id": "a2",
+          "texto": "deverá limitar o relatório a um resumo dos depoimentos, sendo vedada a indicação de testemunhas não ouvidas."
+        },
+        {
+          "id": "a3",
+          "texto": "fará minucioso relatório do que tiver sido apurado e enviará os autos diretamente ao ofendido."
+        },
+        {
+          "id": "a4",
+          "texto": "somente elaborará relatório quando o indiciado estiver preso, bastando a remessa dos autos nos demais casos."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Pelo art. 10, § 1º, a autoridade fará minucioso relatório do que tiver sido apurado e enviará os autos ao juiz competente. O § 2º permite que, no relatório, ela indique testemunhas que não foram inquiridas, mencionando onde podem ser encontradas.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "É a literalidade do art. 10, § 2º, do CPP."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O relatório deve ser minucioso sobre tudo o que foi apurado (§ 1º), e a indicação de testemunhas não inquiridas é expressamente admitida (§ 2º)."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O destinatário da remessa prevista no art. 10, § 1º, é o juiz competente, e não o ofendido."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 10, § 1º, não distingue preso e solto: em qualquer caso a autoridade faz o relatório e envia os autos ao juiz."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 10, §§ 1º e 2º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Achar que o relatório não pode trazer testemunhas não ouvidas ou trocar o destinatário dos autos.",
+      "lei_referencia": "CPP, art. 10, § 2º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "relatório",
+        "testemunhas não inquiridas",
+        "remessa",
+        "juiz competente"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4 a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Inquérito Policial",
+      "subtema": "Devolução dos autos para diligências",
+      "dificuldade": "media",
+      "enunciado": "Em inquérito que apura um estelionato praticado por meio de várias empresas de fachada, o indiciado responde em liberdade. Faltando poucos dias para o fim do prazo, o delegado percebe que o fato é de difícil elucidação e que ainda faltam perícias contábeis importantes. Conforme o Código de Processo Penal, a autoridade policial:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "poderá prorrogar, por despacho próprio, o prazo do inquérito por mais 30 dias, comunicando a decisão ao juiz."
+        },
+        {
+          "id": "a2",
+          "texto": "deverá encerrar o inquérito no prazo legal, pois a devolução dos autos para diligências só é admitida quando o indiciado estiver preso."
+        },
+        {
+          "id": "a3",
+          "texto": "poderá requerer ao juiz a devolução dos autos para ulteriores diligências, que serão realizadas no prazo marcado pelo juiz."
+        },
+        {
+          "id": "a4",
+          "texto": "poderá requerer ao juiz a devolução dos autos, mas as diligências deverão ser concluídas no prazo fixo de 10 dias previsto em lei."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "O art. 10, § 3º, do CPP exige dois requisitos para a devolução dos autos: fato de difícil elucidação e indiciado solto. Presentes ambos, a autoridade requer ao juiz a devolução, e as diligências são feitas no prazo que o juiz marcar. Não há prorrogação por ato do próprio delegado nem prazo fixo na lei.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O delegado não prorroga o prazo por conta própria: ele requer ao juiz a devolução, e o prazo das diligências é o marcado pelo juiz."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Inverte o requisito: o art. 10, § 3º, admite a devolução justamente quando o indiciado está solto."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Reproduz o art. 10, § 3º: fato de difícil elucidação, indiciado solto, requerimento ao juiz e prazo marcado pelo juiz."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A lei não fixa prazo para as ulteriores diligências; ele é marcado pelo juiz. O prazo de 10 dias é o de conclusão do inquérito com indiciado preso."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 10, § 3º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Atribuir ao delegado o poder de prorrogar sozinho, inverter o requisito do indiciado solto ou inventar prazo fixo para as diligências.",
+      "lei_referencia": "CPP, art. 10, § 3º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Dois requisitos cumulativos no § 3º: difícil elucidação e indiciado solto. E quem marca o prazo é o juiz.",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "devolução dos autos",
+        "ulteriores diligências",
+        "difícil elucidação",
+        "indiciado solto"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4 a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Inquérito Policial",
+      "subtema": "Devolução do inquérito pelo Ministério Público",
+      "dificuldade": "media",
+      "enunciado": "Recebidos os autos de um inquérito policial relatado, o promotor de justiça entende que ainda falta a oitiva de uma testemunha sem a qual não é possível oferecer a denúncia. Segundo o Código de Processo Penal, a devolução do inquérito à autoridade policial a pedido do Ministério Público:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "pode ser requerida livremente, por qualquer motivo, enquanto não oferecida a denúncia."
+        },
+        {
+          "id": "a2",
+          "texto": "só pode ser requerida para novas diligências imprescindíveis ao oferecimento da denúncia."
+        },
+        {
+          "id": "a3",
+          "texto": "é vedada, pois, relatado o inquérito, cabe ao Ministério Público realizar pessoalmente as diligências que faltarem."
+        },
+        {
+          "id": "a4",
+          "texto": "depende de o indiciado estar solto e de o fato ser de difícil elucidação."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O art. 16 do CPP limita o pedido do Ministério Público: ele não poderá requerer a devolução do inquérito à autoridade policial, senão para novas diligências imprescindíveis ao oferecimento da denúncia. A oitiva de testemunha sem a qual não há base para denunciar se encaixa nessa hipótese.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O art. 16 restringe a devolução: não é por qualquer motivo, mas apenas para diligências imprescindíveis à denúncia."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Reproduz o art. 16 do CPP."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 16 admite a devolução, desde que para novas diligências imprescindíveis; não há a vedação afirmada."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Confunde o art. 16 com o art. 10, § 3º: esses requisitos (indiciado solto e difícil elucidação) se referem ao pedido de devolução feito pela autoridade policial ao juiz."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 16.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir a devolução requerida pelo Ministério Público (art. 16) com a requerida pela autoridade policial (art. 10, § 3º).",
+      "lei_referencia": "CPP, art. 16",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "Ministério Público",
+        "devolução do inquérito",
+        "diligências imprescindíveis",
+        "denúncia"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4 a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Inquérito Policial",
+      "subtema": "Remessa nos crimes de ação privada",
+      "dificuldade": "media",
+      "enunciado": "Concluído inquérito policial instaurado a requerimento do ofendido para apurar crime que só se processa mediante queixa, isto é, em que não cabe ação pública, o Código de Processo Penal determina que os autos:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "sejam remetidos ao Ministério Público, que decidirá se oferece denúncia ou promove o arquivamento."
+        },
+        {
+          "id": "a2",
+          "texto": "permaneçam na delegacia até que o ofendido ofereça a queixa, quando então serão enviados ao juízo."
+        },
+        {
+          "id": "a3",
+          "texto": "sejam entregues no original ao ofendido, que passa a ser o responsável por sua guarda até o fim do processo."
+        },
+        {
+          "id": "a4",
+          "texto": "sejam remetidos ao juízo competente, onde aguardarão a iniciativa do ofendido ou de seu representante legal, ou entregues ao requerente, se o pedir, mediante traslado."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "Nos crimes em que não cabe ação pública, o art. 19 do CPP manda remeter os autos ao juízo competente, onde aguardam a iniciativa do ofendido ou de seu representante legal. Se o requerente pedir, os autos lhe são entregues mediante traslado.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Sem ação pública, o Ministério Público não oferece denúncia; o art. 19 manda os autos ao juízo, aguardando a iniciativa do ofendido."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Os autos não ficam na delegacia: são remetidos ao juízo competente."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A entrega ao requerente só ocorre se ele pedir e mediante traslado; não há entrega do original como regra."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Reproduz o art. 19 do CPP."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 19.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Aplicar ao crime de ação privada o caminho do crime de ação pública (envio ao Ministério Público) ou dispensar o traslado.",
+      "lei_referencia": "CPP, art. 19",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Ação privada: os autos vão ao juízo e esperam a vítima. Se ela pedir, leva, mas mediante traslado.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "ação privada",
+        "remessa ao juízo",
+        "traslado",
+        "ofendido"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4 a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Inquérito Policial",
+      "subtema": "Diligências em outra circunscrição",
+      "dificuldade": "media",
+      "enunciado": "Em uma comarca dividida em várias circunscrições policiais, o delegado do 1º Distrito preside inquérito e precisa ouvir uma testemunha que mora na área do 5º Distrito, da mesma comarca. De acordo com o Código de Processo Penal, o delegado:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "poderá ordenar a diligência na circunscrição do 5º Distrito, independentemente de precatórias ou requisições."
+        },
+        {
+          "id": "a2",
+          "texto": "deverá expedir carta precatória ao delegado do 5º Distrito, que ouvirá a testemunha e devolverá o termo."
+        },
+        {
+          "id": "a3",
+          "texto": "dependerá de autorização do juiz para realizar qualquer ato fora de sua circunscrição."
+        },
+        {
+          "id": "a4",
+          "texto": "deverá requisitar a oitiva ao delegado do 5º Distrito, pois cada autoridade só atua em sua circunscrição."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 22 do CPP permite que, no Distrito Federal e nas comarcas com mais de uma circunscrição policial, a autoridade de uma delas ordene diligências em circunscrição de outra, nos inquéritos que preside, independentemente de precatórias ou requisições.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "É a regra do art. 22 do CPP para comarcas com mais de uma circunscrição policial."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O art. 22 dispensa expressamente a precatória nesse caso."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 22 não exige autorização judicial para que a autoridade ordene diligências em outra circunscrição da mesma comarca."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 22 dispensa também a requisição; a limitação à própria circunscrição (art. 4º) é excepcionada nessa hipótese."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 22.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Aplicar a lógica da carta precatória dentro da mesma comarca.",
+      "lei_referencia": "CPP, art. 22",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "circunscrição policial",
+        "diligências",
+        "precatória",
+        "requisição"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4 a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Inquérito Policial",
+      "subtema": "Conclusão e prazos",
+      "dificuldade": "dificil",
+      "enunciado": "Um inquérito policial foi instaurado de ofício em 2 de maio, e o investigado permaneceu em liberdade durante as primeiras semanas. Em 18 de maio, o juiz decretou a prisão preventiva dele, mas a ordem só foi cumprida em 25 de maio. Considerando apenas o art. 10 do Código de Processo Penal, a partir de quando e por quanto tempo corre o prazo para a conclusão do inquérito?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Prazo de 30 dias contado de 2 de maio, pois o investigado estava solto quando o inquérito foi instaurado."
+        },
+        {
+          "id": "a2",
+          "texto": "Prazo de 10 dias contado de 18 de maio, data da decisão que decretou a prisão preventiva."
+        },
+        {
+          "id": "a3",
+          "texto": "Prazo de 10 dias contado a partir de 25 de maio, dia em que se executou a ordem de prisão."
+        },
+        {
+          "id": "a4",
+          "texto": "Prazo de 10 dias contado de 2 de maio, pois a prisão posterior faz o prazo menor retroagir à instauração."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "Estando o indiciado preso preventivamente, o inquérito deve terminar em 10 dias, e o art. 10 do CPP diz que, nessa hipótese, o prazo é contado a partir do dia em que se executar a ordem de prisão. O que importa é o cumprimento do mandado (25 de maio), e não a data da decisão nem a da instauração.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Com a prisão preventiva, passa a valer o prazo do indiciado preso; manter os 30 dias do solto ignora a mudança de situação prevista no art. 10."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O art. 10 conta o prazo da execução da ordem de prisão, não da data em que ela foi decretada."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Aplica o art. 10: preso preventivamente, prazo de 10 dias contado do dia em que se executou a ordem de prisão."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Não há retroação à instauração: o art. 10 fixa como termo inicial, para a preventiva, o dia da execução da ordem."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 10, caput: prazo de 10 dias se o indiciado estiver preso preventivamente, contado a partir do dia em que se executar a ordem de prisão.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Contar o prazo da decisão que decretou a prisão ou da instauração, em vez da execução da ordem.",
+      "lei_referencia": "CPP, art. 10, caput",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Na preventiva, o relógio só começa quando a algema fecha: conta-se da execução da ordem de prisão.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "prazo do inquérito",
+        "prisão preventiva",
+        "execução da ordem de prisão",
+        "termo inicial"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4 a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Inquérito Policial",
+      "subtema": "Arquivamento e novas provas",
+      "dificuldade": "dificil",
+      "enunciado": "Um inquérito sobre uma tentativa de homicídio teve o arquivamento ordenado pela autoridade judiciária por falta de base para a denúncia. Meses depois, o delegado recebe a notícia de que uma pessoa, até então desconhecida, presenciou o crime e pode identificar o autor. À luz dos arts. 17 e 18 do Código de Processo Penal, assinale a alternativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O arquivamento impede definitivamente qualquer nova investigação sobre o fato, ainda que surjam outras provas."
+        },
+        {
+          "id": "a2",
+          "texto": "O delegado poderá retomar as pesquisas e, se a testemunha nada acrescentar, ele próprio mandará arquivar novamente os autos."
+        },
+        {
+          "id": "a3",
+          "texto": "O delegado só poderá retomar as pesquisas se o ofendido requerer, pois o arquivamento transfere a iniciativa à vítima."
+        },
+        {
+          "id": "a4",
+          "texto": "O delegado poderá proceder a novas pesquisas, porque teve notícia de outras provas, mas não poderá, ele mesmo, mandar arquivar os autos."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "O art. 18 do CPP permite que, depois de ordenado o arquivamento por falta de base para a denúncia, a autoridade policial proceda a novas pesquisas se tiver notícia de outras provas. A notícia de testemunha presencial antes desconhecida é exatamente isso. Mas o art. 17 continua valendo: em nenhum momento a autoridade policial pode mandar arquivar autos de inquérito.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Contraria o art. 18, que admite novas pesquisas quando há notícia de outras provas."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A primeira parte está de acordo com o art. 18, mas a segunda viola o art. 17: o delegado não pode mandar arquivar autos de inquérito."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 18 não condiciona as novas pesquisas a requerimento do ofendido, e o crime do caso é de ação pública."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Combina corretamente o art. 18 (novas pesquisas diante de notícia de outras provas) com o art. 17 (vedação de arquivamento pela autoridade policial)."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 18 (novas pesquisas após o arquivamento por falta de base para a denúncia, se houver notícia de outras provas) e art. 17 (a autoridade policial não poderá mandar arquivar autos de inquérito).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Alternativa com primeira parte correta e final errado (delegado arquivando de novo), além da ideia de que o arquivamento encerra para sempre a investigação.",
+      "lei_referencia": "CPP, art. 18",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Leia a alternativa até o fim: o art. 18 deixa o delegado pesquisar de novo, mas o art. 17 nunca deixa ele arquivar.",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "arquivamento",
+        "novas provas",
+        "novas pesquisas",
+        "autoridade policial"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4 a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Inquérito Policial",
+      "subtema": "Requisições da autoridade policial",
+      "dificuldade": "dificil",
+      "enunciado": "Durante a apuração de um crime de tráfico de pessoas em curso, o delegado de polícia precisa localizar a vítima e pede ao juiz autorização para requisitar a uma operadora de telefonia os sinais que permitam essa localização. Considerando o art. 13-B do Código de Processo Penal, assinale a alternativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Autorizada a medida, o sinal fornecido permitirá também o acesso ao conteúdo das comunicações da vítima e dos suspeitos."
+        },
+        {
+          "id": "a2",
+          "texto": "Não havendo manifestação judicial no prazo de 12 horas, o delegado requisitará diretamente à operadora os meios técnicos adequados, com imediata comunicação ao juiz."
+        },
+        {
+          "id": "a3",
+          "texto": "O sinal deverá ser fornecido pela operadora por até 60 dias, renovável sucessivamente sem necessidade de nova ordem judicial."
+        },
+        {
+          "id": "a4",
+          "texto": "O inquérito policial deverá ser instaurado no prazo máximo de 24 horas, contado da expedição da autorização judicial."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O art. 13-B do CPP permite ao delegado ou ao membro do Ministério Público requisitar, mediante autorização judicial, os meios técnicos que permitam localizar a vítima ou os suspeitos de crime relacionado ao tráfico de pessoas em curso. Se o juiz não se manifestar em 12 horas, a autoridade requisita diretamente, com imediata comunicação ao juiz (§ 4º). O sinal não dá acesso ao conteúdo das comunicações, dura até 30 dias renováveis uma única vez, e o inquérito deve ser instaurado em até 72 horas do registro da ocorrência.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O § 2º, I, do art. 13-B diz que o sinal não permitirá acesso ao conteúdo da comunicação, que depende de autorização judicial conforme a lei."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Reproduz o art. 13-B, § 4º, do CPP."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Pelo § 2º, II e III, o período é de até 30 dias, renovável uma única vez por igual período; para prazos maiores, é necessária ordem judicial."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O § 3º fixa prazo máximo de 72 horas para a instauração do inquérito, contado do registro da ocorrência policial."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 13-B, caput e §§ 2º, 3º e 4º (incluídos pela Lei nº 13.344/2016).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "Dispositivo incluído no CPP pela Lei nº 13.344/2016, conforme indicado no texto fornecido.",
+      "pegadinha": "Trocar os prazos do art. 13-B (12 horas, 30 dias, 72 horas) e confundir localização por sinal com acesso ao conteúdo das comunicações.",
+      "lei_referencia": "CPP, art. 13-B, § 4º",
+      "macete_do_riccardo": "Art. 13-B em números: juiz calado por 12 horas, sinal por 30 dias (renova uma vez), inquérito em 72 horas.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "tráfico de pessoas",
+        "requisição",
+        "sinais de telefonia",
+        "localização da vítima"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4 a 23, fornecido no contexto"
+      ]
+    }
+  ]
+}

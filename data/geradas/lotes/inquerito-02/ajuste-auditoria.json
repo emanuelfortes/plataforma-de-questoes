@@ -1,0 +1,58 @@
+{
+  "auditorias": [
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa a1 reproduz o art. 9º do CPP. Os distratores estão errados: inquérito oral (a2), processados separados (a3) e rubrica ou assinatura do juiz (a4, já que quem rubrica é a autoridade). A correta não é a mais longa, e a reescrita não deixou nenhum distrator defensável."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Pelo art. 14 do CPP, o ofendido e o indiciado podem requerer diligências, que serão realizadas ou não a juízo da autoridade. O enunciado afasta a exceção do exame de corpo de delito (art. 184). As alternativas a1, a2 e a4 contrariam os arts. 14 e 184, e a resposta é única."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa a4 corresponde ao art. 21, parágrafo único, do CPP: despacho fundamentado do juiz, a requerimento da autoridade policial ou do MP, por no máximo três dias. O enunciado deixa claro que cobra a letra da lei, e o comentário traz a nota obrigatória sobre a não recepção. Os distratores estão errados (autoridade policial e cinco dias; dispensa do despacho; decretação de ofício e sem prazo), e a correta é a mais curta."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "alternativas",
+          "gravidade": "baixa",
+          "descricao": "A correta (a1) é a alternativa mais longa, mas a diferença é pequena e fica dentro do limite de tamanho. Não chega a ser uma pista decisiva."
+        }
+      ],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa a1 reproduz o art. 6º, X, do CPP. A a2 erra o papel das testemunhas (inciso V), a a3 inverte a identificação datiloscópica (inciso VIII), e a a4 atribui à autoridade uma nomeação que a lei não prevê. A resposta é única e o fundamento confere."
+    }
+  ]
+}

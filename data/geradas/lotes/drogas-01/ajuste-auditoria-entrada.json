@@ -1,0 +1,634 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Lei de Drogas",
+      "subtema": "Crime do art. 28 (posse para consumo pessoal): penas",
+      "dificuldade": "facil",
+      "enunciado": "De acordo com a Lei nº 11.343/2006, quem adquire, guarda, tem em depósito, transporta ou traz consigo, para consumo pessoal, drogas sem autorização ou em desacordo com determinação legal ou regulamentar será submetido às seguintes penas:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "advertência sobre os efeitos das drogas, prestação de serviços à comunidade pelo prazo máximo de 5 meses e multa de 40 a 100 dias-multa, aplicadas cumulativamente."
+        },
+        {
+          "id": "a2",
+          "texto": "detenção de 6 meses a 1 ano, substituível por prestação de serviços à comunidade, e advertência sobre os efeitos das drogas, conforme a reprovabilidade da conduta."
+        },
+        {
+          "id": "a3",
+          "texto": "advertência sobre os efeitos das drogas, prestação de serviços à comunidade e medida educativa de comparecimento a programa ou curso educativo."
+        },
+        {
+          "id": "a4",
+          "texto": "advertência sobre os efeitos das drogas, prestação de serviços à comunidade e internação para tratamento em unidade de saúde."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "O art. 28 da Lei de Drogas não prevê pena privativa de liberdade. O caput lista três penas: advertência sobre os efeitos das drogas, prestação de serviços à comunidade e medida educativa de comparecimento a programa ou curso educativo. A multa e a admoestação verbal existem, mas só como meios de garantir o cumprimento dessas medidas quando o agente se recusa injustificadamente (art. 28, § 6º).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "A multa não é pena principal do art. 28. Ela só aparece no § 6º, como medida sucessiva para garantir o cumprimento das penas quando há recusa injustificada do agente. O prazo de 5 meses da prestação de serviços (§ 3º) não salva a alternativa."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O art. 28 não comina detenção. A pena de detenção de 6 meses a 1 ano pertence ao art. 33, § 3º (oferecer droga eventualmente, sem objetivo de lucro, a pessoa de seu relacionamento)."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Reproduz exatamente os incisos I, II e III do caput do art. 28 da Lei nº 11.343/2006."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Internação não é pena do art. 28. O § 7º apenas determina que o juiz faça o Poder Público disponibilizar, gratuitamente, estabelecimento de saúde, preferencialmente ambulatorial, para tratamento especializado."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 28, caput, incisos I a III; § 6º; § 7º; art. 33, § 3º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Incluir multa, detenção ou internação entre as penas principais do usuário.",
+      "lei_referencia": "Lei 11.343/2006, art. 28, caput",
+      "macete_do_riccardo": "Usuário é \"A-P-M\": Advertência, Prestação de serviços e Medida educativa. Prisão não entra na lista.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "art. 28",
+        "consumo pessoal",
+        "advertência",
+        "prestação de serviços à comunidade",
+        "medida educativa"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Lei de Drogas",
+      "subtema": "Procedimento aplicável ao usuário",
+      "dificuldade": "facil",
+      "enunciado": "Durante patrulhamento, um inspetor de Polícia Civil aborda um homem que traz consigo pequena porção de cocaína. As circunstâncias indicam, com segurança, que a droga se destinava exclusivamente ao consumo pessoal, e não há indício de qualquer outro crime. Nos termos da Lei nº 11.343/2006, com o juízo competente em funcionamento, a providência correta é:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "lavrar auto de prisão em flagrante, cabendo ao delegado de polícia arbitrar fiança para a soltura do autor, e remeter os autos ao juízo competente em 24 horas, com os exames e perícias requisitados."
+        },
+        {
+          "id": "a2",
+          "texto": "não impor prisão em flagrante, encaminhando o autor imediatamente ao juízo competente, lavrando termo circunstanciado e requisitando os exames e perícias necessários."
+        },
+        {
+          "id": "a3",
+          "texto": "lavrar auto de prisão em flagrante e comunicá-lo imediatamente ao juiz competente, que dará vista ao Ministério Público em 24 horas, mantido o autor preso."
+        },
+        {
+          "id": "a4",
+          "texto": "instaurar inquérito policial, a ser concluído no prazo de 90 dias por estar o investigado solto, com relatório sumário das circunstâncias do fato."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "Para a conduta do art. 28, o art. 48, § 2º, é categórico: não se impõe prisão em flagrante. O autor do fato deve ser imediatamente encaminhado ao juízo competente (ou, na falta deste, assumir o compromisso de comparecer), lavrando-se termo circunstanciado e providenciando-se as requisições dos exames e perícias necessários.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Não há auto de prisão em flagrante para a conduta do art. 28, por vedação expressa do art. 48, § 2º. Logo, também não se fala em fiança, ainda que a alternativa mencione a requisição de exames e perícias."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 48, § 2º: sem prisão em flagrante, encaminhamento imediato ao juízo, termo circunstanciado e requisição de exames e perícias."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A comunicação do auto de prisão em flagrante ao juiz, com vista ao Ministério Público em 24 horas, é regra do art. 50 para os casos em que há prisão em flagrante, o que não ocorre na conduta do art. 28."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O prazo de 90 dias para investigado solto (art. 51) é do inquérito dos crimes de repressão ao tráfico. O usuário, sem concurso com os arts. 33 a 37, segue o rito da Lei nº 9.099/1995, com termo circunstanciado (art. 48, §§ 1º e 2º)."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 48, §§ 1º e 2º; arts. 50 e 51 (para os distratores).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Aplicar ao usuário as regras de prisão em flagrante e de inquérito previstas para o tráfico.",
+      "lei_referencia": "Lei 11.343/2006, art. 48, § 2º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Usuário não é preso em flagrante: o documento é o termo circunstanciado, nunca o auto de prisão.",
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "art. 48",
+        "termo circunstanciado",
+        "prisão em flagrante",
+        "usuário",
+        "Juizado Especial Criminal"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Lei de Drogas",
+      "subtema": "Sisnad: princípios",
+      "dificuldade": "facil",
+      "enunciado": "Entre os princípios do Sistema Nacional de Políticas Públicas sobre Drogas (Sisnad), expressamente previstos na Lei nº 11.343/2006, encontra-se:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "a centralização da execução das atividades do sistema na União, vedada a execução direta pelos Estados, pelo Distrito Federal e pelos Municípios."
+        },
+        {
+          "id": "a2",
+          "texto": "a prevalência das atividades de repressão ao tráfico ilícito de drogas sobre as atividades de prevenção do uso indevido e de reinserção social."
+        },
+        {
+          "id": "a3",
+          "texto": "a responsabilidade exclusiva do Estado pelas atividades do sistema, afastada a participação da sociedade civil e das organizações não governamentais."
+        },
+        {
+          "id": "a4",
+          "texto": "o respeito aos direitos fundamentais da pessoa humana, especialmente quanto à sua autonomia e à sua liberdade."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "O art. 4º, inciso I, da Lei de Drogas traz como primeiro princípio do Sisnad o respeito aos direitos fundamentais da pessoa humana, especialmente quanto à sua autonomia e à sua liberdade. Os demais itens contrariam princípios e regras expressas: equilíbrio entre prevenção e repressão, responsabilidade compartilhada entre Estado e sociedade e execução descentralizada.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O art. 7º assegura orientação central, mas execução descentralizada das atividades do Sisnad nas esferas federal, distrital, estadual e municipal."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O art. 4º, inciso X, impõe a observância do equilíbrio entre as atividades de prevenção do uso indevido, atenção e reinserção social e as de repressão, e não a prevalência da repressão."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 4º, inciso V, prevê a responsabilidade compartilhada entre Estado e Sociedade, reconhecendo a importância da participação social, e não a responsabilidade exclusiva do Estado."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Reproduz o art. 4º, inciso I, da Lei nº 11.343/2006."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 4º, incisos I, V e X; art. 7º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Achar que a política sobre drogas privilegia a repressão ou é tarefa exclusiva do Estado.",
+      "lei_referencia": "Lei 11.343/2006, art. 4º, I",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Sisnad: orientação central, execução descentralizada e responsabilidade compartilhada com a sociedade.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "Sisnad",
+        "princípios",
+        "autonomia",
+        "liberdade",
+        "responsabilidade compartilhada"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Lei de Drogas",
+      "subtema": "Crime do art. 28: prazo das penas e reincidência",
+      "dificuldade": "media",
+      "enunciado": "Paulo, reincidente, foi condenado pela conduta de trazer consigo droga para consumo pessoal (art. 28 da Lei nº 11.343/2006), e o juiz lhe aplicou a pena de prestação de serviços à comunidade. Considerando apenas o texto da Lei de Drogas, essa pena poderá ser aplicada pelo prazo máximo de:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "10 meses, limite previsto para as penas de prestação de serviços e de medida educativa em caso de reincidência."
+        },
+        {
+          "id": "a2",
+          "texto": "5 meses, pois o limite legal das penas de prestação de serviços e de medida educativa não se altera em razão da reincidência."
+        },
+        {
+          "id": "a3",
+          "texto": "20 meses, pois a reincidência faz incidir em quádruplo o limite de 5 meses previsto para o agente primário nessas penas."
+        },
+        {
+          "id": "a4",
+          "texto": "1 ano, prazo máximo de cumprimento de qualquer das penas do art. 28, inclusive da advertência, haja ou não reincidência."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "As penas de prestação de serviços à comunidade e de medida educativa (incisos II e III do art. 28) têm prazo máximo de 5 meses (§ 3º). Em caso de reincidência, esse limite sobe para 10 meses (§ 4º). Como Paulo é reincidente, o teto é de 10 meses.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "O art. 28, § 4º, fixa o prazo máximo de 10 meses para as penas dos incisos II e III em caso de reincidência."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Os 5 meses valem para quem não é reincidente (§ 3º). A lei altera expressamente o limite na reincidência (§ 4º)."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Na reincidência o limite passa de 5 para 10 meses (o dobro, não o quádruplo); não há previsão de 20 meses."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A lei não prevê prazo de 1 ano para as penas do art. 28; os limites são de 5 meses ou, na reincidência, 10 meses, e só para as penas dos incisos II e III, sem prazo para a advertência."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 28, incisos II e III, §§ 3º e 4º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir o limite do primário (5 meses) com o do reincidente (10 meses) ou supor que o prazo vale também para a advertência.",
+      "lei_referencia": "Lei 11.343/2006, art. 28, § 4º",
+      "macete_do_riccardo": "Usuário: 5 meses na primeira vez, 10 meses se reincidente. A advertência não tem prazo.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "art. 28",
+        "reincidência",
+        "prestação de serviços à comunidade",
+        "prazo máximo",
+        "medida educativa"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Lei de Drogas",
+      "subtema": "Critérios para distinguir consumo pessoal de tráfico",
+      "dificuldade": "media",
+      "enunciado": "Segundo a Lei nº 11.343/2006, para determinar se a droga apreendida se destinava a consumo pessoal, o juiz deverá considerar:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "exclusivamente a quantidade da substância apreendida, comparada com o limite numérico fixado no próprio texto da Lei de Drogas."
+        },
+        {
+          "id": "a2",
+          "texto": "a natureza e a quantidade da substância e o local da ação, sendo vedado levar em conta a conduta e os antecedentes do agente, sob pena de direito penal do autor."
+        },
+        {
+          "id": "a3",
+          "texto": "a natureza e a quantidade da substância, o local e as condições da ação, as circunstâncias sociais e pessoais, a conduta e os antecedentes do agente."
+        },
+        {
+          "id": "a4",
+          "texto": "prioritariamente a declaração do agente sobre a destinação da droga, que vincula o juiz quando não houver prova em sentido contrário."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "O art. 28, § 2º, adota um conjunto de critérios, a serem avaliados em conjunto: natureza e quantidade da substância apreendida, local e condições em que se desenvolveu a ação, circunstâncias sociais e pessoais, além da conduta e dos antecedentes do agente. O texto da lei não traz quantidade numérica para separar usuário de traficante.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O texto da Lei de Drogas não fixa limite numérico de quantidade, e a quantidade é apenas um dos critérios do § 2º, ao lado de vários outros."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Natureza, quantidade e local da ação são critérios do § 2º, mas o mesmo dispositivo manda o juiz atender expressamente à conduta e aos antecedentes do agente; não há vedação a esse critério."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Reproduz todos os critérios do art. 28, § 2º, da Lei nº 11.343/2006."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A declaração do agente não está entre os critérios legais e não vincula o juiz; a lei manda analisar dados objetivos e circunstanciais do caso."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 28, § 2º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Reduzir a distinção entre usuário e traficante a um único critério, como a quantidade ou a palavra do agente.",
+      "lei_referencia": "Lei 11.343/2006, art. 28, § 2º",
+      "macete_do_riccardo": null,
+      "fique_ligado": "O § 2º do art. 28 tem quatro blocos: substância (natureza e quantidade), fato (local e condições), pessoa (circunstâncias sociais e pessoais) e histórico (conduta e antecedentes).",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "consumo pessoal",
+        "tráfico",
+        "critérios",
+        "art. 28, § 2º",
+        "quantidade"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Lei de Drogas",
+      "subtema": "Crime do art. 28: recusa ao cumprimento das medidas e multa",
+      "dificuldade": "media",
+      "enunciado": "Condenada pela conduta do art. 28 da Lei nº 11.343/2006 à medida educativa de comparecimento a curso educativo, Ana recusa-se, sem justificativa, a cumpri-la. Conforme a Lei de Drogas, para garantir o cumprimento da medida, o juiz poderá:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "converter a medida educativa em pena de detenção pelo tempo restante, observado o limite de 5 meses, após ouvir o Ministério Público e o defensor."
+        },
+        {
+          "id": "a2",
+          "texto": "submetê-la, sucessivamente, a admoestação verbal e a multa, esta fixada entre 40 e 100 dias-multa, com valores creditados ao Fundo Nacional Antidrogas."
+        },
+        {
+          "id": "a3",
+          "texto": "aplicar diretamente multa de 40 a 100 dias-multa, sem necessidade de prévia admoestação verbal, cada dia-multa valendo até 5 vezes o maior salário mínimo vigente."
+        },
+        {
+          "id": "a4",
+          "texto": "submetê-la a multa de 10 a 360 dias-multa, cujo valor será destinado ao fundo penitenciário, nos termos do Código Penal."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "Diante da recusa injustificada ao cumprimento das medidas do art. 28, o juiz pode submeter o agente, sucessivamente, a admoestação verbal e a multa (§ 6º). A multa é fixada entre 40 e 100 dias-multa, conforme a reprovabilidade da conduta, e cada dia-multa vale de um trinta avos até 3 vezes o maior salário mínimo, segundo a capacidade econômica do agente (art. 29). Os valores vão para o Fundo Nacional Antidrogas (art. 29, parágrafo único).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "A lei não admite conversão das medidas do art. 28 em pena privativa de liberdade, nem mesmo com oitiva do Ministério Público e do defensor; os instrumentos de garantia são apenas a admoestação verbal e a multa."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 28, § 6º (admoestação e multa, sucessivamente), e ao art. 29 (40 a 100 dias-multa, valores creditados ao Fundo Nacional Antidrogas)."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A aplicação é sucessiva (primeiro a admoestação, depois a multa), e o valor do dia-multa do art. 29 vai até 3 vezes o maior salário mínimo; o teto de 5 vezes é do art. 43, aplicável às multas dos arts. 33 a 39."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A Lei de Drogas tem regra própria: 40 a 100 dias-multa, com valores creditados ao Fundo Nacional Antidrogas, e não ao fundo penitenciário."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 28, § 6º; art. 29, caput e parágrafo único; art. 43 (para o distrator).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar o valor máximo do dia-multa do usuário (3 vezes) pelo dos crimes de tráfico (5 vezes) e ignorar a ordem sucessiva admoestação e multa.",
+      "lei_referencia": "Lei 11.343/2006, art. 28, § 6º, e art. 29",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Primeiro bronca, depois bolso: admoestação verbal e só então multa, de 40 a 100 dias-multa.",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "admoestação verbal",
+        "multa",
+        "dias-multa",
+        "Fundo Nacional Antidrogas",
+        "recusa injustificada"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Lei de Drogas",
+      "subtema": "Atenção ao usuário: internação involuntária",
+      "dificuldade": "media",
+      "enunciado": "Sobre a internação involuntária de dependentes de drogas, disciplinada na Lei nº 11.343/2006, é correto afirmar que ela:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "pode ser pedida por familiar ou responsável legal ou, na falta deste, por servidor da saúde, da assistência social ou de órgão do Sisnad, exceto da segurança pública, e dura no máximo 90 dias."
+        },
+        {
+          "id": "a2",
+          "texto": "pode ser requerida pelo delegado de polícia que constate a dependência ao lavrar o termo circunstanciado, desde que haja posterior homologação judicial em 72 horas."
+        },
+        {
+          "id": "a3",
+          "texto": "pode ser realizada em comunidade terapêutica acolhedora, desde que autorizada por médico registrado no Conselho Regional de Medicina, pelo prazo máximo de 180 dias."
+        },
+        {
+          "id": "a4",
+          "texto": "só pode ser encerrada por decisão do médico responsável, não podendo a família ou o representante legal requerer sua interrupção antes do fim da desintoxicação."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A internação involuntária ocorre sem o consentimento do dependente, a pedido de familiar ou do responsável legal ou, na absoluta falta deste, de servidor público da saúde, da assistência social ou de órgãos do Sisnad, com exceção dos servidores da segurança pública (art. 23-A, § 3º, II). Ela perdura apenas pelo tempo necessário à desintoxicação, no prazo máximo de 90 dias (§ 5º, III), e a família pode, a qualquer tempo, requerer ao médico a interrupção (§ 5º, IV).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reúne corretamente o art. 23-A, § 3º, II (legitimados, na absoluta falta do responsável legal, e exclusão dos servidores da segurança pública) e o § 5º, III (tempo necessário à desintoxicação, no máximo 90 dias)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Servidores da área de segurança pública estão expressamente excluídos do rol de quem pode pedir a internação involuntária. Além disso, o prazo de 72 horas refere-se à comunicação de internações e altas ao Ministério Público, à Defensoria e a outros órgãos (§ 7º)."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "É vedada qualquer modalidade de internação nas comunidades terapêuticas acolhedoras (§ 9º), e o prazo máximo da involuntária é de 90 dias, não 180."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O § 5º, IV, permite que a família ou o representante legal requeira ao médico, a qualquer tempo, a interrupção do tratamento."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 23-A, § 3º, II; § 5º, III e IV; §§ 7º e 9º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "Dispositivos incluídos pela Lei nº 13.840/2019, conforme indicado no texto compilado fornecido.",
+      "pegadinha": "Incluir a autoridade policial entre os legitimados a pedir a internação involuntária e admitir internação em comunidade terapêutica.",
+      "lei_referencia": "Lei 11.343/2006, art. 23-A, §§ 3º e 5º",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Na internação involuntária a polícia fica de fora do pedido, o prazo máximo é de 90 dias e a comunicação de internações e altas é feita em até 72 horas.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "internação involuntária",
+        "dependente de drogas",
+        "90 dias",
+        "comunidade terapêutica",
+        "segurança pública"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Lei de Drogas",
+      "subtema": "Crime do art. 28: aplicação, substituição, prescrição e transação",
+      "dificuldade": "dificil",
+      "enunciado": "Acerca das penas aplicáveis à posse de drogas para consumo pessoal e de sua imposição, considerando o texto da Lei nº 11.343/2006, assinale a afirmativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A imposição e a execução dessas penas prescrevem em 2 anos, não se aplicando à hipótese as causas de interrupção do prazo previstas no Código Penal, por se tratar de regra especial da Lei de Drogas."
+        },
+        {
+          "id": "a2",
+          "texto": "As penas podem ser aplicadas isolada ou cumulativamente e substituídas a qualquer tempo, ouvidos o Ministério Público e o defensor, e admitem proposta ministerial de aplicação imediata."
+        },
+        {
+          "id": "a3",
+          "texto": "A substituição de uma pena por outra só é possível depois do trânsito em julgado da condenação e depende exclusivamente de requerimento do Ministério Público, dispensada a oitiva do defensor."
+        },
+        {
+          "id": "a4",
+          "texto": "Por já constituírem medidas alternativas, as penas do art. 28 não podem ser objeto de proposta de aplicação imediata de pena pelo Ministério Público, devendo o caso seguir direto para a instrução."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O art. 27 permite que as penas do capítulo sejam aplicadas isolada ou cumulativamente e substituídas a qualquer tempo, ouvidos o Ministério Público e o defensor. O art. 48, § 5º, autoriza o Ministério Público, para os fins do art. 76 da Lei nº 9.099/1995 (transação penal), a propor a aplicação imediata de pena do art. 28, especificada na proposta. Já a prescrição, de 2 anos, observa as regras de interrupção do Código Penal (art. 30).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O prazo de 2 anos está correto, mas o art. 30 manda observar, quanto à interrupção do prazo, o disposto nos arts. 107 e seguintes do Código Penal."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Reúne corretamente o art. 27 (aplicação isolada ou cumulativa e substituição a qualquer tempo, ouvidos Ministério Público e defensor) e o art. 48, § 5º (proposta do Ministério Público de aplicação imediata de pena do art. 28, para os fins da transação penal)."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 27 autoriza a substituição a qualquer tempo, sem exigir trânsito em julgado, e exige a oitiva do Ministério Público e do defensor, não apenas requerimento ministerial."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 48, § 5º, prevê expressamente que o Ministério Público pode propor a aplicação imediata de pena prevista no art. 28, para os fins do art. 76 da Lei nº 9.099/1995."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, arts. 27 e 30; art. 48, § 5º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Acertar o prazo prescricional de 2 anos, mas esquecer que as causas interruptivas do Código Penal continuam valendo.",
+      "lei_referencia": "Lei 11.343/2006, art. 27 e art. 48, § 5º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Prescrição do usuário: 2 anos para impor e para executar, mas com as interrupções do Código Penal.",
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "art. 27",
+        "substituição de penas",
+        "prescrição",
+        "transação penal",
+        "art. 48, § 5º"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Lei de Drogas",
+      "subtema": "Procedimento aplicável ao usuário na ausência da autoridade judicial",
+      "dificuldade": "dificil",
+      "enunciado": "Na madrugada de um domingo, em comarca sem plantão judicial disponível naquele momento, Lúcia é conduzida à delegacia por trazer consigo pequena quantidade de cocaína, comprovadamente destinada ao seu consumo pessoal, sem concurso com qualquer outro crime da Lei de Drogas. Nos termos da Lei nº 11.343/2006, a autoridade policial deverá:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "manter Lúcia detida na delegacia até a abertura do expediente forense, quando deverá apresentá-la ao juízo competente com o termo circunstanciado e a requisição dos exames e perícias."
+        },
+        {
+          "id": "a2",
+          "texto": "lavrar auto de prisão em flagrante, pois a ausência do juiz impede o encaminhamento imediato, e conceder em seguida liberdade provisória sem fiança, mediante compromisso de comparecer ao juízo."
+        },
+        {
+          "id": "a3",
+          "texto": "lavrar de imediato o termo circunstanciado, colher o compromisso de comparecimento e requisitar os exames, vedada a detenção, submetendo-a a exame de corpo de delito se ela o requerer ou se entender conveniente, e liberá-la."
+        },
+        {
+          "id": "a4",
+          "texto": "lavrar o termo circunstanciado e submeter Lúcia, obrigatoriamente, a exame de corpo de delito, liberando-a somente após a juntada do laudo definitivo de constatação da natureza e quantidade da droga."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "Na ausência da autoridade judicial, as providências do art. 48, § 2º (termo circunstanciado, compromisso de comparecer ao juízo e requisição de exames e perícias) são tomadas de imediato pela autoridade policial, no local em que se encontrar, vedada a detenção do agente (§ 3º). Concluídos esses procedimentos, o agente é submetido a exame de corpo de delito se o requerer ou se a autoridade de polícia judiciária entender conveniente, e em seguida liberado (§ 4º).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O art. 48, § 3º, veda expressamente a detenção do agente quando ausente a autoridade judicial; as providências (termo, compromisso e requisições) devem ser tomadas de imediato pela própria autoridade policial, sem aguardar o expediente forense."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A ausência do juiz não autoriza prisão em flagrante: o § 2º afasta a prisão em flagrante para a conduta do art. 28, e o § 3º transfere as providências à autoridade policial, vedada a detenção."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 48, §§ 2º, 3º e 4º: providências imediatas pela autoridade policial, vedação da detenção, exame de corpo de delito facultativo e liberação em seguida."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O exame de corpo de delito não é obrigatório: ocorre se o agente requerer ou se a autoridade entender conveniente (§ 4º). E a liberação não depende do laudo definitivo, devendo ocorrer logo após os procedimentos."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 48, §§ 2º, 3º e 4º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Supor que a falta de juiz autoriza manter o usuário preso ou tornar obrigatório o exame de corpo de delito.",
+      "lei_referencia": "Lei 11.343/2006, art. 48, §§ 3º e 4º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "art. 48",
+        "autoridade policial",
+        "vedada a detenção",
+        "exame de corpo de delito",
+        "termo circunstanciado"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    }
+  ]
+}

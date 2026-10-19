@@ -1,0 +1,130 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvida de forma independente pelo art. 10, caput, do CPP: 10 dias para o preso em flagrante ou preventivamente e 30 dias para o solto, com ou sem fiança. Os três distratores alteram números ou condições de modo inequívoco."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 17 veda o arquivamento pela autoridade policial e o art. 10, § 1º, manda relatar e remeter os autos ao juiz competente. Distratores claramente errados; caso concreto adequado ao cargo."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa correta reproduz o art. 10, § 2º. Os distratores contrariam os §§ 1º e 2º (vedação inexistente, destinatário errado e distinção inexistente entre preso e solto)."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O caso preenche os dois requisitos do art. 10, § 3º (fato de difícil elucidação e indiciado solto), e o prazo das diligências é o marcado pelo juiz. Distratores bem construídos e todos errados."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Reproduz o art. 16 do CPP. O distrator que traz os requisitos do art. 10, § 3º, é uma comparação legítima; os demais contrariam a literalidade do art. 16."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "alternativas",
+          "gravidade": "baixa",
+          "descricao": "A alternativa correta é bem mais longa que as demais e reproduz o art. 19 por inteiro, o que pode servir de pista involuntária por tamanho."
+        }
+      ],
+      "correcao_sugerida": "Equilibrar o tamanho das alternativas, por exemplo encurtando a correta para \"sejam remetidos ao juízo competente, onde aguardarão a iniciativa do ofendido, podendo ser entregues ao requerente mediante traslado\" ou alongando levemente os distratores.",
+      "justificativa": "Gabarito correto pelo art. 19 do CPP e distratores todos errados. Única ressalva é a pista de tamanho da alternativa correta, ajustável pontualmente."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 22 permite à autoridade, em comarca com mais de uma circunscrição, ordenar diligências em outra independentemente de precatórias ou requisições. Os distratores exigem precatória, requisição ou autorização judicial, todos sem amparo."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O enunciado delimita a análise ao art. 10, que, para o preso preventivamente, conta os 10 dias do dia em que se executar a ordem de prisão (25 de maio). Os distratores usam a data da decisão, a da instauração ou o prazo do solto, todos incorretos."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 18 autoriza novas pesquisas diante da notícia de outras provas após o arquivamento judicial por falta de base, e o art. 17 continua vedando o arquivamento pela autoridade policial. O enunciado restringe a análise aos arts. 17 e 18, o que afasta discussão sobre a nova sistemática do arquivamento, não fornecida."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa correta reproduz o art. 13-B, § 4º. Os distratores contrariam o § 2º, I (sem acesso ao conteúdo), o § 2º, II e III (30 dias, renovável uma única vez) e o § 3º (72 horas do registro da ocorrência)."
+    }
+  ]
+}

@@ -1,0 +1,478 @@
+{
+  "questoes": [
+    {
+      "id": "q02",
+      "tema": "Lei de Drogas",
+      "subtema": "Plantação ilícita: destruição e expropriação (art. 32)",
+      "dificuldade": "facil",
+      "enunciado": "Durante patrulhamento rural, uma guarnição da Polícia Militar localizou, em um sítio, extensa plantação de maconha, sem ninguém no local. Segundo a Lei nº 11.343/2006, quanto às providências relativas à plantação, é correto afirmar que ela:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "será imediatamente destruída pelo comandante da guarnição que a encontrou, que recolherá amostra para exame pericial e lavrará boletim de ocorrência circunstanciado, com a delimitação do local."
+        },
+        {
+          "id": "a2",
+          "texto": "será imediatamente destruída pelo delegado de polícia, que recolherá quantidade suficiente para exame pericial e lavrará auto de levantamento das condições encontradas."
+        },
+        {
+          "id": "a3",
+          "texto": "só poderá ser destruída após autorização judicial, ouvido o Ministério Público no prazo de 10 dias, preservando-se toda a plantação no local até a decisão do juiz."
+        },
+        {
+          "id": "a4",
+          "texto": "poderá ser destruída por queimada, desde que obtida autorização prévia do órgão próprio do Sistema Nacional do Meio Ambiente (Sisnama), com as cautelas devidas."
+        },
+        {
+          "id": "a5",
+          "texto": "será destruída pelo delegado de polícia, mas a gleba cultivada não fica sujeita a expropriação, que só alcança imóveis usados para depósito de drogas."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O art. 32 manda que as plantações ilícitas sejam imediatamente destruídas pelo delegado de polícia, que recolhe quantidade suficiente para exame pericial e lavra auto de levantamento das condições encontradas, com a delimitação do local. Se a destruição for por queimada, observam-se as cautelas ambientais, mas fica dispensada a autorização prévia do Sisnama (§ 3º). As glebas cultivadas são expropriadas, nos termos do art. 243 da Constituição (§ 4º).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Errada. A lei atribui a destruição ao delegado de polícia, e o documento exigido é o auto de levantamento das condições encontradas, não um boletim de ocorrência lavrado pelo comandante da guarnição."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Correta. É a redação do art. 32, caput: destruição imediata pelo delegado, recolhimento de amostra suficiente para perícia e auto de levantamento."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Errada. A destruição da plantação é imediata e não depende de prévia autorização judicial; o prazo de 10 dias para o juiz se refere às drogas apreendidas em flagrante (art. 50, § 3º)."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Errada. O art. 32, § 3º, manda observar as cautelas ambientais na queimada, mas dispensa expressamente a autorização prévia do órgão do Sisnama."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Errada. O art. 32, § 4º, prevê a expropriação das glebas cultivadas com plantações ilícitas, conforme o art. 243 da Constituição Federal."
+        }
+      ],
+      "fundamento_legal": "Lei nº 11.343/2006, art. 32, caput, §§ 3º e 4º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "O caput do art. 32 tem redação dada pela Lei nº 12.961/2014, que atribuiu a destruição imediata ao delegado de polícia.",
+      "pegadinha": "Exigir autorização judicial prévia ou autorização ambiental para a queimada, e negar a expropriação da gleba.",
+      "lei_referencia": "Lei 11.343/2006, art. 32",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Na queimada da plantação, a lei pede cuidado com o meio ambiente, mas dispensa a autorização prévia do Sisnama.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "plantação ilícita",
+        "destruição imediata",
+        "delegado de polícia",
+        "auto de levantamento",
+        "expropriação"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Lei de Drogas",
+      "subtema": "Prisão em flagrante por tráfico e laudo de constatação (art. 50)",
+      "dificuldade": "facil",
+      "enunciado": "Em um pequeno município do interior, Bruno foi preso em flagrante quando guardava, para venda, 40 papelotes de cocaína. Não havia perito oficial disponível, e o laudo de constatação da natureza e da quantidade da droga foi firmado por pessoa idônea. De acordo com a Lei nº 11.343/2006:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "o auto de prisão em flagrante só poderia ser lavrado depois do laudo definitivo, pois a materialidade do delito exige exame químico completo da substância apreendida."
+        },
+        {
+          "id": "a2",
+          "texto": "o laudo de constatação é nulo, porque somente perito oficial pode firmá-lo para a lavratura do auto de prisão em flagrante, ainda que não haja perito na comarca."
+        },
+        {
+          "id": "a3",
+          "texto": "o laudo de constatação firmado por pessoa idônea é válido, mas não serve para estabelecer a materialidade do delito na lavratura do auto, que depende de exame realizado por perito oficial."
+        },
+        {
+          "id": "a4",
+          "texto": "o laudo de constatação firmado por pessoa idônea, na falta de perito oficial, basta para a lavratura do auto e é suficiente para estabelecer a materialidade do delito nessa fase."
+        },
+        {
+          "id": "a5",
+          "texto": "a autoridade de polícia judiciária deve comunicar a prisão ao juiz em até 72 horas, com vista do auto ao Ministério Público apenas depois do oferecimento da denúncia."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "Pelo art. 50, § 1º, para lavrar o auto de prisão em flagrante e estabelecer a materialidade do delito basta o laudo de constatação da natureza e da quantidade da droga, firmado por perito oficial ou, na falta deste, por pessoa idônea. O laudo definitivo vem depois e não é condição para a lavratura do auto. Já a comunicação da prisão ao juiz é imediata, com vista ao Ministério Público em 24 horas (caput).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Errada. O laudo de constatação é suficiente para lavrar o auto e firmar a materialidade nessa fase (art. 50, § 1º); o laudo definitivo vem depois."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Errada. Na falta de perito oficial, o art. 50, § 1º, admite que o laudo de constatação seja firmado por pessoa idônea."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Errada. O art. 50, § 1º, diz justamente que o laudo de constatação é suficiente para estabelecer a materialidade do delito na lavratura do auto de prisão em flagrante."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Correta. É o art. 50, § 1º: na falta de perito oficial, o laudo firmado por pessoa idônea basta para lavrar o auto e estabelecer a materialidade nessa fase."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Errada. A comunicação ao juiz é imediata, e o auto é remetido ao juiz com vista ao Ministério Público em 24 horas (art. 50, caput)."
+        }
+      ],
+      "fundamento_legal": "Lei nº 11.343/2006, art. 33, caput, e art. 50, caput e § 1º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Supor que o laudo de constatação exige perito oficial ou que não basta para estabelecer a materialidade na lavratura do auto.",
+      "lei_referencia": "Lei 11.343/2006, art. 50, § 1º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "prisão em flagrante",
+        "laudo de constatação",
+        "pessoa idônea",
+        "laudo definitivo",
+        "materialidade"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Lei de Drogas",
+      "subtema": "Destruição de drogas apreendidas com e sem prisão em flagrante (arts. 50 e 50-A)",
+      "dificuldade": "media",
+      "enunciado": "No mesmo dia, duas ocorrências chegaram à delegacia. Na primeira, Davi foi preso em flagrante transportando 3 kg de maconha para revenda. Na segunda, policiais encontraram 2 kg de cocaína escondidos em terreno baldio, sem que ninguém fosse preso. Sobre a destruição das drogas, conforme a Lei nº 11.343/2006, é correto afirmar:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Em ambos os casos, a destruição depende de decisão judicial proferida em 10 dias e é executada pelo delegado em 15 dias, na presença do Ministério Público e da autoridade sanitária, guardando-se amostra para o laudo definitivo."
+        },
+        {
+          "id": "a2",
+          "texto": "No caso de Davi, a destruição aguarda o trânsito em julgado da sentença condenatória; no do terreno, a droga é incinerada pelo delegado em até 30 dias da apreensão, sem necessidade de guardar amostra."
+        },
+        {
+          "id": "a3",
+          "texto": "No caso de Davi, o juiz determina a destruição em 30 dias do recebimento do auto; no do terreno, o delegado incinera a droga em 15 dias, na presença do Ministério Público e da autoridade sanitária."
+        },
+        {
+          "id": "a4",
+          "texto": "Em ambos os casos, a droga é incinerada pelo delegado em até 30 dias da apreensão, independentemente de decisão judicial, guardando-se apenas a amostra necessária à preservação da prova."
+        },
+        {
+          "id": "a5",
+          "texto": "No caso de Davi, o juiz, em 10 dias, certifica a regularidade formal do laudo de constatação e determina a destruição, executada pelo delegado em 15 dias; no do terreno, a droga é incinerada em até 30 dias da apreensão."
+        }
+      ],
+      "id_correta": "a5",
+      "comentario_geral": "A lei separa duas situações. Com prisão em flagrante (art. 50, §§ 3º a 5º), o juiz, em 10 dias do recebimento da cópia do auto, certifica a regularidade formal do laudo de constatação e determina a destruição, guardando amostra para o laudo definitivo; o delegado executa em 15 dias, na presença do Ministério Público e da autoridade sanitária, com vistoria do local e auto circunstanciado. Sem prisão em flagrante (art. 50-A), a destruição é feita por incineração em até 30 dias contados da apreensão, também guardando amostra.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Errada. O rito do juiz em 10 dias e do delegado em 15 dias vale para a apreensão com prisão em flagrante; sem flagrante aplica-se o art. 50-A (incineração em até 30 dias)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Errada. A destruição não aguarda o trânsito em julgado, e nos dois casos deve ser guardada amostra necessária ao laudo definitivo."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Errada. Os prazos foram trocados: o juiz tem 10 dias (não 30) no flagrante, e a incineração sem flagrante ocorre em até 30 dias (não 15), sem o rito de presença do Ministério Público e da autoridade sanitária."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Errada. Havendo prisão em flagrante, a destruição depende de determinação do juiz, que antes certifica a regularidade do laudo de constatação (art. 50, § 3º)."
+        },
+        {
+          "id": "a5",
+          "correta": true,
+          "justificativa": "Correta. Aplica o art. 50, §§ 3º e 4º, ao flagrante de Davi (certificação da regularidade formal do laudo e destruição pelo delegado em 15 dias) e o art. 50-A à droga apreendida no terreno sem prisão."
+        }
+      ],
+      "fundamento_legal": "Lei nº 11.343/2006, art. 50, §§ 3º, 4º e 5º, e art. 50-A.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "Os §§ 3º a 5º do art. 50 foram incluídos pela Lei nº 12.961/2014, e o art. 50-A tem redação dada pela Lei nº 13.840/2019.",
+      "pegadinha": "Misturar os prazos de 10, 15 e 30 dias e aplicar o rito do flagrante à droga apreendida sem prisão.",
+      "lei_referencia": "Lei 11.343/2006, art. 50, §§ 3º e 4º, e art. 50-A",
+      "macete_do_riccardo": "Com flagrante: 10 (juiz) + 15 (delegado). Sem flagrante: 30 (incineração). Nos dois, guarda-se amostra.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "destruição de drogas",
+        "incineração",
+        "prisão em flagrante",
+        "amostra",
+        "prazos"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Lei de Drogas",
+      "subtema": "Condução de embarcação de transporte coletivo após consumo de drogas (art. 39) e alcance do art. 40",
+      "dificuldade": "dificil",
+      "enunciado": "Após consumir cocaína, Ivo assumiu o comando de uma lancha de transporte coletivo de passageiros, fazendo a travessia de um rio com 40 pessoas a bordo. Durante o percurso, realizou manobras bruscas que expuseram os passageiros a perigo, sem que ninguém se ferisse. Considerando apenas a Lei nº 11.343/2006, é correto afirmar que Ivo:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "não cometeu crime previsto na Lei de Drogas, pois o tipo de conduzir embarcação após o consumo de drogas exige dano efetivo à integridade física de alguém, o que não ocorreu."
+        },
+        {
+          "id": "a2",
+          "texto": "responde pelo crime de conduzir embarcação após o consumo de drogas, com detenção de 6 meses a 3 anos e 200 a 400 dias-multa, aumentada de um sexto a dois terços por ter ocorrido em transporte público de passageiros."
+        },
+        {
+          "id": "a3",
+          "texto": "responde pelo crime de conduzir embarcação após o consumo de drogas, com pena de 4 a 6 anos e 400 a 600 dias-multa, além da apreensão do veículo e da cassação definitiva da habilitação, sem possibilidade de obtê-la novamente."
+        },
+        {
+          "id": "a4",
+          "texto": "responde pelo crime de conduzir embarcação após o consumo de drogas, com pena de 4 a 6 anos e 400 a 600 dias-multa, cumulada com a apreensão do veículo e a cassação da habilitação pelo mesmo prazo da pena privativa."
+        },
+        {
+          "id": "a5",
+          "texto": "responde pelo crime de conduzir embarcação após o consumo de drogas, com pena de 4 a 6 anos e 400 a 600 dias-multa, aumentada ainda de um sexto a dois terços por ter sido praticado em transporte público de passageiros."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "O art. 39 pune quem conduz embarcação ou aeronave após o consumo de drogas, expondo a dano potencial a incolumidade de outrem: basta o perigo, sem lesão. Pelo caput, a pena é de detenção de 6 meses a 3 anos, além da apreensão do veículo, cassação da habilitação ou proibição de obtê-la pelo mesmo prazo da pena privativa, e 200 a 400 dias-multa. Sendo o veículo de transporte coletivo de passageiros, o parágrafo único eleva a prisão para 4 a 6 anos e a multa para 400 a 600 dias-multa, aplicadas cumulativamente com as demais. O art. 40, III (transportes públicos), não incide, porque se aplica apenas aos crimes dos arts. 33 a 37.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Errada. O art. 39 se contenta com a exposição a dano potencial da incolumidade de outrem; não exige lesão efetiva à integridade física de ninguém."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Errada. Por se tratar de transporte coletivo de passageiros, aplica-se o parágrafo único do art. 39 (4 a 6 anos), e o art. 40 não alcança o art. 39."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Errada. A cassação da habilitação não é definitiva: vigora pelo mesmo prazo da pena privativa de liberdade aplicada, e não impede para sempre a obtenção de nova habilitação."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Correta. Aplica o art. 39, parágrafo único, com as penas acessórias do caput (apreensão do veículo e cassação pelo mesmo prazo da pena)."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Errada. O art. 40 aumenta somente as penas dos arts. 33 a 37; além disso, o transporte coletivo já é a circunstância que eleva a pena no parágrafo único do art. 39."
+        }
+      ],
+      "fundamento_legal": "Lei nº 11.343/2006, art. 39, caput e parágrafo único, e art. 40, caput e inciso III.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Aplicar a causa de aumento do art. 40, III, a um crime fora do intervalo dos arts. 33 a 37, ou tratar a cassação como definitiva.",
+      "lei_referencia": "Lei 11.343/2006, art. 39, parágrafo único",
+      "macete_do_riccardo": null,
+      "fique_ligado": "O art. 40 tem alcance fechado: arts. 33 a 37. Os arts. 38 e 39 ficam de fora.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "art. 39",
+        "embarcação",
+        "transporte coletivo",
+        "dano potencial",
+        "alcance do art. 40"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Lei de Drogas",
+      "subtema": "Não atuação policial (art. 53, II) em tráfico interestadual (art. 40, V)",
+      "dificuldade": "dificil",
+      "enunciado": "Investigação sobre um grupo de traficantes revelou que um caminhão sairá de Juazeiro do Norte (CE) levando cocaína para distribuição em Recife (PE). A polícia já conhece o itinerário provável e a identidade do motorista e de dois colaboradores. Em vez de abordar o veículo logo na saída, a autoridade pretende acompanhá-lo até o destino para identificar e responsabilizar mais integrantes da operação. À luz da Lei nº 11.343/2006, é correto afirmar:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A medida dispensa autorização judicial, bastando comunicação prévia ao juiz competente e ao Ministério Público; se a droga chegar a Pernambuco, incidirá o aumento de um sexto a dois terços pelo tráfico entre Estados da Federação."
+        },
+        {
+          "id": "a2",
+          "texto": "A medida depende de autorização judicial, ouvido o Ministério Público, e do conhecimento do itinerário provável; se a droga chegar a Pernambuco, incidirá o aumento de um sexto a dois terços pela transnacionalidade do delito."
+        },
+        {
+          "id": "a3",
+          "texto": "A medida depende de autorização judicial, ouvido o Ministério Público, e só é admitida depois de recebida a denúncia, na fase de instrução criminal, sendo vedada durante o inquérito policial."
+        },
+        {
+          "id": "a4",
+          "texto": "A medida depende de autorização judicial, ouvido o Ministério Público, e de conhecimento do itinerário provável e da identificação dos agentes; se a droga chegar a Pernambuco, incidirá o aumento pelo tráfico entre Estados."
+        },
+        {
+          "id": "a5",
+          "texto": "A medida depende de autorização judicial, ouvido o Ministério Público, mas, uma vez adotada, impede a ação penal contra o motorista, cuja abordagem foi deliberadamente adiada pela polícia."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "O art. 53, II, permite, em qualquer fase da persecução, mediante autorização judicial e ouvido o Ministério Público, a não atuação policial sobre os portadores de drogas que se encontrem no território brasileiro, para identificar e responsabilizar maior número de integrantes, sem prejuízo da ação penal cabível. O parágrafo único condiciona a autorização ao conhecimento do itinerário provável e da identificação dos agentes ou de colaboradores, requisitos presentes no caso. Quanto ao crime, o transporte do Ceará a Pernambuco caracteriza tráfico entre Estados, com aumento de um sexto a dois terços (art. 40, V).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Errada. Na Lei de Drogas, a não atuação policial exige autorização judicial, ouvido o Ministério Público; mera comunicação prévia ao juiz e ao Ministério Público não basta."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Errada. Os requisitos da medida estão corretos, mas o transporte entre Ceará e Pernambuco é tráfico interestadual (art. 40, V), e não transnacional (art. 40, I)."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Errada. O art. 53 admite os procedimentos investigatórios em qualquer fase da persecução criminal, inclusive durante o inquérito policial."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Correta. Reúne os requisitos do art. 53, II e parágrafo único, e a majorante do art. 40, V."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Errada. O art. 53, II, prevê a não atuação sem prejuízo da ação penal cabível; o adiamento da abordagem não impede a responsabilização do motorista."
+        }
+      ],
+      "fundamento_legal": "Lei nº 11.343/2006, art. 53, caput, inciso II e parágrafo único; art. 40, caput e incisos I e V.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Dispensar a autorização judicial para a não atuação policial ou limitá-la à fase judicial, e confundir tráfico interestadual com transnacional.",
+      "lei_referencia": "Lei 11.343/2006, art. 53, II e parágrafo único",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Na Lei de Drogas, infiltração e não atuação policial exigem autorização judicial e oitiva do MP. Para a não atuação, é preciso ainda conhecer o itinerário provável e a identificação dos agentes ou colaboradores.",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "não atuação policial",
+        "art. 53, II",
+        "autorização judicial",
+        "itinerário provável",
+        "tráfico entre Estados"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Lei de Drogas",
+      "subtema": "Informante servidor público: art. 37, art. 40, II, e afastamento cautelar (art. 56, § 1º)",
+      "dificuldade": "dificil",
+      "enunciado": "Hélio, servidor público estadual civil lotado no setor administrativo de uma delegacia, aproveitava o acesso que o cargo lhe dava às escalas de operações para avisar, por mensagens, uma associação dedicada ao tráfico sobre as datas das buscas planejadas. Hélio não integrava a associação nem participava das vendas. Denunciado com base na Lei nº 11.343/2006, é correto afirmar que Hélio responde pelo crime de:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "colaborar, como informante, com associação destinada ao tráfico, sem causa de aumento, pois as majorantes do art. 40 se aplicam somente ao tráfico do art. 33 e às condutas a ele equiparadas."
+        },
+        {
+          "id": "a2",
+          "texto": "associação para o tráfico, com aumento por se prevalecer da função pública, devendo o juiz, ao receber a denúncia, afastá-lo obrigatoriamente de suas atividades, comunicando a medida ao órgão respectivo."
+        },
+        {
+          "id": "a3",
+          "texto": "colaborar, como informante, com associação destinada ao tráfico, com aumento por se prevalecer da função pública, podendo o juiz, ao receber a denúncia, decretar seu afastamento cautelar das atividades."
+        },
+        {
+          "id": "a4",
+          "texto": "colaborar, como informante, com associação destinada ao tráfico, com aumento por se prevalecer da função pública, admitindo-se o afastamento das atividades somente após o trânsito em julgado da sentença condenatória."
+        },
+        {
+          "id": "a5",
+          "texto": "financiar ou custear o tráfico, com aumento por se prevalecer da função pública, podendo o juiz, ao receber a denúncia, decretar seu afastamento cautelar das atividades."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "Quem, sem integrar o grupo, repassa informações a associação destinada ao tráfico pratica o crime do art. 37 (colaborar como informante). O art. 40 aumenta de um sexto a dois terços as penas dos arts. 33 a 37, e o inciso II alcança quem pratica o crime prevalecendo-se de função pública, exatamente o caso de Hélio, que usava o acesso do cargo às escalas. No procedimento, o art. 56, § 1º, permite ao juiz, ao receber a denúncia pelos crimes dos arts. 33, caput e § 1º, e 34 a 37, decretar o afastamento cautelar do denunciado que for funcionário público, comunicando ao órgão respectivo.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Errada. O art. 40 se aplica aos crimes dos arts. 33 a 37, o que inclui o art. 37, e não apenas ao art. 33 e às figuras equiparadas."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Errada. Hélio não se associou ao grupo, o que afasta o art. 35; além disso, o afastamento cautelar é uma faculdade do juiz (poderá), e não uma obrigação."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Correta. Combina o art. 37, a majorante do art. 40, II, e a faculdade de afastamento cautelar do art. 56, § 1º."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Errada. O afastamento previsto no art. 56, § 1º, é cautelar e pode ser decretado já no recebimento da denúncia, sem aguardar o trânsito em julgado da condenação."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Errada. Financiar ou custear (art. 36) pressupõe fornecer recursos; Hélio fornecia informações, conduta descrita no art. 37."
+        }
+      ],
+      "fundamento_legal": "Lei nº 11.343/2006, art. 37; art. 40, caput e inciso II; art. 56, § 1º; arts. 35 e 36 (usados nos distratores).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Achar que o art. 40 não alcança o informante e tratar o afastamento cautelar como obrigatório ou posterior à condenação.",
+      "lei_referencia": "Lei 11.343/2006, art. 37 c/c art. 40, II, e art. 56, § 1º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "informante",
+        "art. 37",
+        "função pública",
+        "art. 40, II",
+        "afastamento cautelar"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    }
+  ]
+}

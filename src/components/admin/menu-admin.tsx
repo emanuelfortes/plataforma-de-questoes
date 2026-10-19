@@ -1,6 +1,6 @@
 "use client";
 
-import { BookOpenCheck, LayoutDashboard, Users, Wallet } from "lucide-react";
+import { BookOpenCheck, ClipboardCheck, LayoutDashboard, Users, Wallet } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
@@ -10,6 +10,7 @@ const ITENS = [
   { href: "/admin/financeiro", rotulo: "Financeiro", Icone: Wallet },
   { href: "/admin/pessoas", rotulo: "Pessoas", Icone: Users },
   { href: "/admin/questoes", rotulo: "Questões", Icone: BookOpenCheck },
+  { href: "/admin/revisao", rotulo: "Revisão", Icone: ClipboardCheck },
 ];
 
 /** Menu da área do dono: lateral no computador, abas roláveis no celular. */

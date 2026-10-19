@@ -1,0 +1,74 @@
+{
+  "questoes": [
+    {
+      "id": "q09",
+      "tema": "Crase",
+      "subtema": "Crase em indicação de horas, intervalos (paralelismo) e distância determinada",
+      "dificuldade": "dificil",
+      "enunciado": "Considere o trecho a seguir, extraído de um relatório policial hipotético:\n\n\"O plantão da delegacia funciona de segunda a sexta, das 8h às 18h. Na data do fato, a viatura permaneceu estacionada a cinquenta metros do imóvel, e a equipe chegou ao local por volta das 14h.\"\n\nAssinale a reescrita de parte do trecho em que o emprego ou a ausência do sinal indicativo de crase está integralmente de acordo com a norma-padrão da língua portuguesa.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O plantão da delegacia funciona de segunda a sexta, de 8h às 18h, inclusive nos feriados municipais."
+        },
+        {
+          "id": "a2",
+          "texto": "Na data do fato, a viatura permaneceu à distância de cinquenta metros do imóvel, e a equipe chegou à residência às 14h."
+        },
+        {
+          "id": "a3",
+          "texto": "Na data do fato, a oitiva da equipe que chegou ao imóvel foi remarcada para às 14h do dia seguinte."
+        },
+        {
+          "id": "a4",
+          "texto": "Na data do fato, a equipe vigiou o imóvel entre às 14h e às 18h, sem registrar movimentação."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "A questão cobra três aplicações da crase em reescrita. Primeiro, a distância determinada: quando a distância vem especificada (\"de cinquenta metros\"), a expressão \"à distância de\" leva acento grave. Segundo, a regência: \"chegar\" pede a preposição \"a\", que se funde ao artigo de \"a residência\", gerando \"à residência\". Terceiro, as horas: \"às 14h\" indica momento exato e leva acento, mas só quando não há outra preposição antes; depois de \"para\" e de \"entre\" não há crase, e nos intervalos o paralelismo exige \"das ... às\" ou \"de ... a\". Por isso a única reescrita totalmente correta é a que traz \"à distância de cinquenta metros\", \"à residência\" e \"às 14h\".",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Quebra o paralelismo do intervalo de horas. Se o início vem sem artigo (\"de 8h\"), o fim também vem sem artigo (\"a 18h\"); se vem com artigo (\"das 8h\"), o fim leva crase (\"às 18h\"). A combinação \"de 8h às 18h\" mistura as duas estruturas e não é aceita pela norma-padrão. O trecho \"de segunda a sexta\" está correto."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Todos os acentos estão corretos: \"à distância de cinquenta metros\" (distância determinada, com crase), \"chegou à residência\" (chegar a + a residência) e \"às 14h\" (indicação de hora exata, sem outra preposição antes)."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Depois da preposição \"para\" não cabe outra preposição \"a\"; existe apenas o artigo. O correto é \"remarcada para as 14h\". A crase não ocorre após preposição."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A preposição \"entre\" já exprime o intervalo e se liga a \"e\", não a \"a\". Assim, as horas recebem apenas o artigo: \"entre as 14h e as 18h\". Usar \"às\" depois de \"entre\" acumula preposições indevidamente."
+        }
+      ],
+      "fundamento_legal": "Norma-padrão da língua portuguesa: crase como fusão da preposição \"a\" com o artigo feminino \"a\"; uso obrigatório na indicação de horas exatas e na locução \"à distância de\" com distância determinada; inexistência de crase após outra preposição (\"para\", \"entre\"); paralelismo nos intervalos (\"das ... às\" / \"de ... a\").",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Achar que toda indicação de horas leva crase, sem perceber que \"para\" e \"entre\" afastam a preposição \"a\", e não notar a quebra de paralelismo em \"de 8h às 18h\".",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Hora com crase só quando o \"a\" é a própria preposição: \"às 14h\". Se já há outra preposição antes (para, entre, desde, após), fica só o artigo: \"para as 14h\", \"entre as 14h e as 18h\".",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "crase",
+        "indicação de horas",
+        "distância determinada",
+        "paralelismo",
+        "reescrita"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal para o tema)"
+      ]
+    }
+  ]
+}

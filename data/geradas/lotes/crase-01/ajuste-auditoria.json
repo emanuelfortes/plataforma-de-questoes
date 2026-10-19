@@ -1,0 +1,40 @@
+{
+  "auditorias": [
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvida de forma independente: só \"dirigiu-se a Sua Excelência\" está de acordo com a norma-padrão. Os distratores trazem crase proibida antes de pronome de tratamento (Vossa Senhoria), de indefinido (qualquer) e de pronome pessoal (ela), e nenhum ficou defensável depois da reescrita. Os tamanhos estão equilibrados e o cuidado_na_prova sobre \"senhora\" e \"dona\" está correto."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Lacunas conferidas: \"à vítima\" (dirigir-se a + a), \"a partir\" (antes de verbo), \"a Sua Excelência\" (pronome de tratamento) e \"à delegacia\" (voltar a + a). Só a primeira e a quarta levam acento, como diz a1. As outras combinações incluem a segunda ou a terceira lacuna, por isso estão erradas. As alternativas têm tamanho parecido e não dão pista."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Em (1) e (5) há preposição exigida (chegar a; prestar informações a) somada ao artigo feminino, por isso a2 está correta. a1 está errada (antes do verbo \"vasculhar\" não há crase), a3 também (palmo a palmo: palavras repetidas e masculinas) e a4 também (antes de pronome pessoal a crase é proibida, não facultativa). Depois da reescrita, nenhum distrator ficou defensável e a correta não perdeu nada essencial."
+    }
+  ]
+}

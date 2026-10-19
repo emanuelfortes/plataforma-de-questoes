@@ -1,0 +1,130 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvida de forma independente: a3, pelo art. 5º, § 4º, do CPP. Nenhum artigo conexo (juiz das garantias, arts. 28, 107, 155, 184, Lei 12.830/2013) cria exceção à exigência de representação. Distratores corretamente afastados."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Gabarito a1 sustentado pelos arts. 10, § 1º, e 17 do CPP. O art. 28 (arquivamento pelo Ministério Público, com a leitura do STF) não muda a resposta, pois em nenhuma leitura o delegado arquiva; a questão não cobra o art. 28, logo não exige a nota de ressalva."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Gabarito a4 reproduz o art. 6º, I e II, do CPP. Os artigos conexos (184, Lei 12.830/2013) não alteram a sequência preservar, periciar e apreender."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Gabarito a2 conforme o art. 10, caput. A prorrogação do art. 3º-B, VIII e § 2º, não afeta o prazo inicial nem o termo de contagem cobrados, e o enunciado se limita expressamente à regra geral do art. 10; não cobra dispositivo com ressalva."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a5",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Gabarito a5 reproduz o art. 5º, § 2º, do CPP. Nenhum artigo conexo transfere ao juiz das garantias o recurso contra o indeferimento do requerimento de abertura do inquérito."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Gabarito a3 conforme os arts. 13, II, e 14 do CPP. O art. 184 (perícia requerida pelas partes, salvo corpo de delito) não interfere: a defesa pediu acareação, e a perícia foi requisitada pelo Ministério Público, não requerida por parte."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Gabarito a1 conforme o art. 13-A, caput e parágrafo único. O art. 3º-B, XI, reserva ao juiz das garantias os sigilos e o acesso a comunicações, o que reforça (e não contradiz) o erro de a5; dados cadastrais seguem com requisição direta."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Gabarito a4 conforme o art. 13-B, §§ 3º e 4º. A competência do juiz das garantias (art. 3º-B, XI) não afasta a regra especial do § 4º do art. 13-B; distratores corretamente afastados."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Gabarito a2 conforme o art. 14-A, §§ 2º e 3º. Policial militar integra instituição do art. 144 da CF; nenhum artigo conexo altera o procedimento de indicação de defensor."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a5",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "normativo",
+          "gravidade": "media",
+          "descricao": "O distrator a3 (devolução para diligências com indiciado preso) só é falso pela letra do art. 10, § 3º; o texto conexo prevê a prorrogação do inquérito de investigado preso pelo juiz das garantias (art. 3º-B, VIII e § 2º), dispositivo com ressalva obrigatória (STF admite mais de uma prorrogação). O comentário não menciona esse dispositivo nem traz a nota; o enunciado, porém, limita a análise aos arts. 10, 16 e 22, o que preserva o gabarito."
+        }
+      ],
+      "correcao_sugerida": "Acrescentar ao comentario_geral e à justificativa de a3: 'Com investigado preso, o mecanismo não é a devolução do art. 10, § 3º, mas a prorrogação pelo juiz das garantias (art. 3º-B, VIII e § 2º); pela letra da lei, uma única vez por até 15 dias, mas o STF entendeu que pode ocorrer mais de uma vez, por decisão fundamentada, e que o fim do prazo não revoga a prisão automaticamente. A questão cobra a letra dos arts. 10, 16 e 22.'",
+      "justificativa": "Gabarito a5 correto pelos arts. 10, § 3º, e 22. Resta acrescentar a nota sobre a prorrogação do investigado preso (art. 3º-B, § 2º, e entendimento do STF) para que o distrator a3 não pareça negar uma possibilidade que existe em artigo conexo."
+    }
+  ]
+}

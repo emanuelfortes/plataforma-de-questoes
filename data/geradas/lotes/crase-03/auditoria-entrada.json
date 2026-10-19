@@ -1,0 +1,697 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Crase",
+      "subtema": "Crase com os pronomes demonstrativos aquele, aquela e aquilo",
+      "dificuldade": "facil",
+      "enunciado": "Assinale a frase em que o sinal indicativo de crase foi empregado de acordo com a norma-padrão da língua portuguesa.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O inspetor encontrou àquele suspeito na praça do bairro."
+        },
+        {
+          "id": "a2",
+          "texto": "O agente entregou o relatório àquele delegado recém-chegado."
+        },
+        {
+          "id": "a3",
+          "texto": "A testemunha descreveu àquela mulher com riqueza de detalhes."
+        },
+        {
+          "id": "a4",
+          "texto": "O escrivão leu àquilo em voz alta durante a audiência."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "Os demonstrativos aquele, aquela e aquilo começam pela vogal “a”. Quando o termo regente exige a preposição “a”, ela se funde com essa vogal inicial e surge o acento grave (àquele, àquela, àquilo), mesmo diante de palavra masculina. Se o verbo não pede preposição, não há o que fundir e o acento é proibido. “Entregar” é transitivo direto e indireto: entrega-se algo a alguém. Por isso, “entregou o relatório àquele delegado” está correto.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "“Encontrar” é transitivo direto (encontrar alguém), sem preposição. O correto é “encontrou aquele suspeito”."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "“Entregar algo a alguém”: a preposição “a” exigida pelo verbo se funde com o “a” inicial de “aquele”, formando “àquele”."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "“Descrever” é transitivo direto (descrever alguém ou algo). Sem preposição, não há crase: “descreveu aquela mulher”."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "“Ler” é transitivo direto (ler algo). O correto é “leu aquilo em voz alta”, sem acento grave."
+        }
+      ],
+      "fundamento_legal": "Não se aplica: disciplina sem lei de referência. Regra da norma-padrão: há crase antes de aquele, aquela e aquilo quando o termo regente exige a preposição “a”.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Acentuar o demonstrativo por hábito, sem verificar se o verbo exige a preposição “a”.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "Troque “aquele” por “este”: se aparecer “a este” (entregou a este delegado), use “àquele”; se ficar só “este” (encontrou este suspeito), não há crase.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "crase",
+        "pronome demonstrativo",
+        "aquele",
+        "regência verbal"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal no contexto)"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Crase",
+      "subtema": "Crase antes de nomes de lugar",
+      "dificuldade": "facil",
+      "enunciado": "Assinale a frase em que o acento indicativo de crase está empregado corretamente.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A equipe viajou à Fortaleza para cumprir os mandados."
+        },
+        {
+          "id": "a2",
+          "texto": "O delegado foi à Roma para um curso de especialização."
+        },
+        {
+          "id": "a3",
+          "texto": "Os agentes chegaram à Paraíba durante a madrugada."
+        },
+        {
+          "id": "a4",
+          "texto": "O preso será transferido à Curitiba na próxima semana."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "Diante de nome de lugar, a crase depende de o nome admitir artigo. O teste prático é trocar o verbo por “voltar”: se o resultado for “volto da”, o nome aceita artigo e há crase (vou à Paraíba, volto da Paraíba); se for “volto de”, não há artigo e não há crase (vou a Fortaleza, volto de Fortaleza). Paraíba aceita artigo; Fortaleza, Roma e Curitiba, sem qualquer especificador, não.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Diz-se “volto de Fortaleza”, sem artigo. Logo, o correto é “viajou a Fortaleza”."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Diz-se “volto de Roma”. Sem artigo, não há crase: “foi a Roma”."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Diz-se “volto da Paraíba”: o nome aceita artigo. Com a preposição exigida por “chegar”, forma-se “à Paraíba”."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Diz-se “volto de Curitiba”. O nome não admite artigo e, portanto, o correto é “transferido a Curitiba”."
+        }
+      ],
+      "fundamento_legal": "Não se aplica: disciplina sem lei de referência. Regra da norma-padrão: antes de topônimo, há crase apenas se o nome admitir artigo feminino.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Achar que todo nome de cidade terminado em “a” é feminino com artigo e, por isso, leva crase.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "Vou a, volto da, crase há; vou a, volto de, crase para quê?",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "crase",
+        "nome de lugar",
+        "topônimo",
+        "teste do voltar"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal no contexto)"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Crase",
+      "subtema": "Crase antes dos pronomes relativos a qual e as quais",
+      "dificuldade": "facil",
+      "enunciado": "Assinale a frase em que o emprego do acento grave antes do pronome relativo está correto.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A investigação à qual o inspetor se dedicou foi encerrada ontem."
+        },
+        {
+          "id": "a2",
+          "texto": "A prova à qual a perícia analisou foi anexada ao inquérito."
+        },
+        {
+          "id": "a3",
+          "texto": "As testemunhas às quais o delegado ouviu moram no mesmo bairro."
+        },
+        {
+          "id": "a4",
+          "texto": "A viatura à qual o agente dirigia apresentou defeito no freio."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Antes de “a qual” e “as quais”, a crase depende do verbo ou nome da oração adjetiva, e não da palavra anterior ao pronome. Se esse termo exigir a preposição “a”, ela se funde com o artigo que integra o relativo. “Dedicar-se” pede a preposição “a” (o inspetor se dedicou a ela), logo “à qual” está correto. Nas demais frases os verbos são transitivos diretos.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Quem se dedica, dedica-se a algo: o inspetor se dedicou à investigação. A preposição se funde com o artigo de “a qual”."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "“Analisar” é transitivo direto (a perícia analisou a prova). O correto é “a qual a perícia analisou”."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "“Ouvir” é transitivo direto (o delegado ouviu as testemunhas). O correto é “as quais o delegado ouviu”."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "“Dirigir”, no sentido de conduzir veículo, é transitivo direto (o agente dirigia a viatura). O correto é “a qual o agente dirigia”."
+        }
+      ],
+      "fundamento_legal": "Não se aplica: disciplina sem lei de referência. Regra da norma-padrão: há crase antes de “a qual” e “as quais” quando o termo regente da oração adjetiva exige a preposição “a”.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Buscar a regência na palavra antes do pronome, e não no verbo da oração que o relativo introduz.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Troque o relativo pelo antecedente e monte a oração na ordem direta: “o inspetor se dedicou à investigação” mostra a preposição; “a perícia analisou a prova” mostra que ela não existe.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "crase",
+        "pronome relativo",
+        "a qual",
+        "regência verbal"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal no contexto)"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Crase",
+      "subtema": "Crase antes do pronome demonstrativo “a” (equivalente a “aquela”)",
+      "dificuldade": "media",
+      "enunciado": "Em qual das frases o acento grave antes de “que” está empregado de acordo com a norma-padrão?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A versão que o réu apresentou era exatamente à que a vítima contou."
+        },
+        {
+          "id": "a2",
+          "texto": "O delegado ouviu a primeira testemunha e, depois, à que chegou atrasada."
+        },
+        {
+          "id": "a3",
+          "texto": "Esta não é a sala à que o inspetor reformou no ano passado."
+        },
+        {
+          "id": "a4",
+          "texto": "A versão do réu era idêntica à que a vítima apresentou em juízo."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "Antes de “que”, o “a” pode ser pronome demonstrativo, equivalente a “aquela”. Haverá crase se o termo regente exigir a preposição “a”: troque por “aquela” e veja se aparece “àquela”. “Idêntica” rege a preposição “a” (idêntica àquela que a vítima apresentou), por isso “idêntica à que” está correto. Nas outras frases não há preposição antes do demonstrativo.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "“Ser” é verbo de ligação e não rege preposição: “era exatamente aquela que a vítima contou”. O correto é “era exatamente a que”."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "“Ouvir” é transitivo direto: “ouviu aquela que chegou atrasada”. Sem preposição, o correto é “a que chegou atrasada”."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Aqui “a” é artigo de “sala” e “que” é relativo objeto de “reformou”, verbo transitivo direto (reformou a sala). Não há preposição: “a sala que o inspetor reformou”."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "“Idêntica a”: a preposição exigida pelo adjetivo se funde com o demonstrativo “a” (aquela), formando “à que”."
+        }
+      ],
+      "fundamento_legal": "Não se aplica: disciplina sem lei de referência. Regra da norma-padrão: há crase antes do demonstrativo “a” (aquela) quando o termo regente exige a preposição “a”.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Ver crase em todo “a que” sem testar a substituição por “aquela que”.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "“À que” só existe se a troca por “àquela que” funcionar. Se a troca der “aquela que”, sem acento, o “a” fica sem crase.",
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "crase",
+        "pronome demonstrativo a",
+        "à que",
+        "regência nominal"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal no contexto)"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Crase",
+      "subtema": "Crase antes de nome de lugar determinado por especificador",
+      "dificuldade": "media",
+      "enunciado": "Assinale a frase escrita de acordo com a norma-padrão quanto ao emprego do sinal indicativo de crase.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O delegado retornou à Brasília na última sexta-feira."
+        },
+        {
+          "id": "a2",
+          "texto": "O inspetor voltou à Fortaleza de sua juventude e mal reconheceu as ruas."
+        },
+        {
+          "id": "a3",
+          "texto": "A equipe chegou à Sobral a tempo de acompanhar a operação."
+        },
+        {
+          "id": "a4",
+          "texto": "Os agentes foram à Curitiba para ouvir a testemunha."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "Nomes de cidade como Brasília, Fortaleza, Sobral e Curitiba não admitem artigo (volto de Brasília, volto de Fortaleza). Porém, quando o nome vem determinado por um especificador, passa a aceitar artigo: “volto da Fortaleza de sua juventude”. Nesse caso, com a preposição exigida pelo verbo, ocorre a crase. Por isso só “voltou à Fortaleza de sua juventude” está correto.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Sem especificador, diz-se “volto de Brasília”. O correto é “retornou a Brasília”."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "O especificador “de sua juventude” faz o topônimo aceitar artigo (volto da Fortaleza de sua juventude). Com a preposição de “voltar a”, há crase."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Diz-se “volto de Sobral”: o nome não aceita artigo. O correto é “chegou a Sobral”."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Diz-se “volto de Curitiba”. Sem artigo, não há crase: “foram a Curitiba”."
+        }
+      ],
+      "fundamento_legal": "Não se aplica: disciplina sem lei de referência. Regra da norma-padrão: topônimo que não admite artigo passa a admiti-lo quando determinado por especificador, o que permite a crase.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Aplicar a regra geral do topônimo sem artigo e esquecer que o especificador muda o resultado.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "O teste do “voltar” também funciona com especificador: “volto da Fortaleza de sua juventude”. Apareceu “da”, tem crase.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "excecao",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "crase",
+        "nome de lugar",
+        "especificador",
+        "teste do voltar"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal no contexto)"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Crase",
+      "subtema": "Crase com nomes de lugar e com o demonstrativo aquela",
+      "dificuldade": "media",
+      "enunciado": "Considere a frase a seguir, com lacunas.\n\n“Na mesma semana, o inspetor foi ___ Bahia, seguiu ___ Natal e, ao retornar, apresentou-se ___ delegacia em que havia sido lotado.”\n\nAssinale a opção que preenche corretamente as lacunas, na ordem, de acordo com a norma-padrão.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "à / a / àquela"
+        },
+        {
+          "id": "a2",
+          "texto": "a / à / àquela"
+        },
+        {
+          "id": "a3",
+          "texto": "à / à / aquela"
+        },
+        {
+          "id": "a4",
+          "texto": "a / a / a aquela"
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Primeira lacuna: diz-se “volto da Bahia”, então o nome aceita artigo e há crase (foi à Bahia). Segunda lacuna: diz-se “volto de Natal”, sem artigo, logo só cabe a preposição (seguiu a Natal). Terceira lacuna: “apresentar-se” pede a preposição “a” (apresentar-se a algum lugar ou a alguém), que se funde com o “a” inicial de “aquela”, formando “àquela”.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Bahia aceita artigo (volto da Bahia), Natal não (volto de Natal) e “apresentar-se a” se funde com “aquela”, gerando “àquela”."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Inverte os topônimos: Bahia aceita artigo e pede crase; Natal não aceita artigo e não admite crase."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Erra em Natal, que não aceita artigo, e na terceira lacuna, que exige a preposição de “apresentar-se a” fundida ao demonstrativo."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Omite a crase diante de Bahia e escreve “a aquela”: a preposição e a vogal inicial do demonstrativo devem fundir-se em “àquela”."
+        }
+      ],
+      "fundamento_legal": "Não se aplica: disciplina sem lei de referência. Regras da norma-padrão: crase antes de topônimo que admite artigo e crase antes de “aquela” quando o termo regente exige a preposição “a”.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Tratar todos os nomes de lugar da mesma forma e não perceber a fusão da preposição com o demonstrativo.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "crase",
+        "nome de lugar",
+        "aquela",
+        "lacunas"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal no contexto)"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Crase",
+      "subtema": "Crase antes de a qual e as quais precedidos de outra preposição",
+      "dificuldade": "media",
+      "enunciado": "Assinale a frase em que o acento grave foi empregado INCORRETAMENTE.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A equipe à qual pertenço foi elogiada pelo comando."
+        },
+        {
+          "id": "a2",
+          "texto": "A conclusão à qual chegamos foi aceita por todos os peritos."
+        },
+        {
+          "id": "a3",
+          "texto": "A ocorrência sobre à qual o escrivão comentou foi arquivada."
+        },
+        {
+          "id": "a4",
+          "texto": "As vítimas às quais o delegado prestou assistência foram ouvidas."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "A crase antes de “a qual” e “as quais” exige que a preposição seja “a”, pedida pelo termo regente da oração adjetiva. Quando já há outra preposição antes do relativo (sobre, para, contra, entre), o “a” que sobra é apenas artigo e não pode receber acento grave. Em “sobre à qual”, a regência de “comentar” é satisfeita por “sobre” (comentou sobre a ocorrência), então o correto é “sobre a qual”.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Uso correto: “pertencer a” (pertenço à equipe). A preposição se funde com o artigo do relativo."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Uso correto: “chegar a” uma conclusão (chegamos à conclusão), o que justifica “à qual”."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Uso incorreto, e por isso é a resposta: a preposição é “sobre”, e não “a”. Depois de outra preposição, o “a” é só artigo: “sobre a qual”."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Uso correto: “prestar assistência a alguém” (prestou assistência às vítimas), daí “às quais”."
+        }
+      ],
+      "fundamento_legal": "Não se aplica: disciplina sem lei de referência. Regra da norma-padrão: não há crase depois de outra preposição, pois o “a” restante é apenas artigo.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Acentuar o “a” do relativo mesmo quando a preposição exigida pelo verbo já aparece em outra forma.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Preposição não se acumula com outra preposição: “sobre à”, “para à”, “contra à” e “entre à” estão sempre errados.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "excecao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "crase",
+        "pronome relativo",
+        "a qual",
+        "preposição sobre"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal no contexto)"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Crase",
+      "subtema": "Crase com demonstrativos e com nomes de lugar no mesmo período",
+      "dificuldade": "dificil",
+      "enunciado": "Assinale a frase em que todos os empregos do sinal indicativo de crase, ou a ausência dele, estão de acordo com a norma-padrão.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Não deu atenção àquilo que disseram e foi à Paris no dia seguinte."
+        },
+        {
+          "id": "a2",
+          "texto": "Assistiu àquele depoimento e, em seguida, voltou à Fortaleza."
+        },
+        {
+          "id": "a3",
+          "texto": "O gerente visou àquele cheque e, depois, viajou a Holanda."
+        },
+        {
+          "id": "a4",
+          "texto": "O agente obedeceu àquela ordem e foi à Itália com a família."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "Cada frase tem dois pontos a conferir: o demonstrativo e o nome de lugar. “Obedecer” rege a preposição “a” (obedecer a uma ordem), o que gera “àquela”; e diz-se “volto da Itália”, então há crase em “à Itália”. Nas demais, há ao menos um erro: Paris e Fortaleza não aceitam artigo; “visar”, no sentido de pôr visto, é transitivo direto; e Holanda aceita artigo (volto da Holanda), exigindo crase.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "“Dar atenção àquilo” está correto, mas diz-se “volto de Paris”: o correto é “foi a Paris”."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "“Assistir”, no sentido de presenciar, rege “a”, logo “àquele depoimento” está correto; porém diz-se “volto de Fortaleza”, e o correto é “voltou a Fortaleza”."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Dois erros: “visar”, com o sentido de pôr visto, é transitivo direto (visou aquele cheque), e Holanda aceita artigo (volto da Holanda), devendo ser “viajou à Holanda”."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "“Obedecer a” se funde com “aquela” (àquela ordem) e Itália aceita artigo (volto da Itália), justificando “à Itália”."
+        }
+      ],
+      "fundamento_legal": "Não se aplica: disciplina sem lei de referência. Regras da norma-padrão: crase antes de demonstrativo quando o regente exige “a”; crase antes de topônimo apenas se ele admitir artigo.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Conferir só o primeiro acento da frase e não verificar o segundo, ou ignorar a mudança de regência de “visar” conforme o sentido.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Em frases com dois acentos, um acerto não salva a alternativa: confira cada ocorrência separadamente.",
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "crase",
+        "aquele",
+        "aquela",
+        "nome de lugar",
+        "regência verbal"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal no contexto)"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Crase",
+      "subtema": "Crase antes do demonstrativo “a” seguido de “de” e de “que”",
+      "dificuldade": "dificil",
+      "enunciado": "Assinale a frase em que o sinal indicativo de crase foi empregado corretamente.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Entre a versão da defesa e à do acusado há contradições evidentes."
+        },
+        {
+          "id": "a2",
+          "texto": "A assinatura do contrato é idêntica à do documento apreendido."
+        },
+        {
+          "id": "a3",
+          "texto": "O laudo confirmou a primeira hipótese, e não à que o advogado sustentava."
+        },
+        {
+          "id": "a4",
+          "texto": "A pena aplicada foi superior a que o promotor havia pedido."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O “a” antes de “de” ou de “que” pode ser demonstrativo, equivalente a “aquela”, e substitui um substantivo já mencionado. Haverá crase se o termo regente exigir a preposição “a”. “Idêntica” rege “a” (idêntica àquela do documento), daí “idêntica à do documento”. O mesmo raciocínio mostra que falta crase em “superior a que” e que ela sobra nas frases com “entre” e com “confirmou”.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "A preposição é “entre”, e não “a”: “entre a versão da defesa e aquela do acusado”. O correto é “e a do acusado”."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "“Idêntica a”: a preposição se funde com o demonstrativo “a” (aquela), resultando em “à do documento”."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "“Confirmar” é transitivo direto: “confirmou aquela que o advogado sustentava”. O correto é “e não a que”."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "“Superior” rege a preposição “a” (superior àquela que o promotor pedira). Faltou o acento: o correto é “superior à que”."
+        }
+      ],
+      "fundamento_legal": "Não se aplica: disciplina sem lei de referência. Regra da norma-padrão: há crase antes do demonstrativo “a” (aquela) quando o termo regente exige a preposição “a”.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Não reconhecer o “a” demonstrativo antes de “de” e “que”, ora omitindo a crase obrigatória, ora acentuando sem preposição.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "Antes de “de” ou “que”, troque o “a” por “aquela”: se virar “àquela”, use “à”; se virar “aquela”, deixe “a”.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "crase",
+        "pronome demonstrativo a",
+        "à do",
+        "à que",
+        "regência nominal"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal no contexto)"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Crase",
+      "subtema": "Crase antes de nomes de lugar: cidades, países e especificadores",
+      "dificuldade": "dificil",
+      "enunciado": "Considere as frases a seguir.\n\nI. A comitiva chegou à Lisboa de Fernando Pessoa no fim da tarde.\nII. O delegado viajou à Brasília na sexta-feira para uma reunião.\nIII. Os detentos foram levados à Itaitinga sob forte escolta.\nIV. Os agentes foram à Espanha e, depois, à França.\n\nEstá correto o emprego do sinal indicativo de crase somente no que se afirma em",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "I e IV."
+        },
+        {
+          "id": "a2",
+          "texto": "II e III."
+        },
+        {
+          "id": "a3",
+          "texto": "I, II e IV."
+        },
+        {
+          "id": "a4",
+          "texto": "IV."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Pelo teste do “voltar”: “volto da Lisboa de Fernando Pessoa” (o especificador faz o nome aceitar artigo), “volto de Brasília”, “volto de Itaitinga”, “volto da Espanha” e “volto da França”. Há crase apenas onde aparece “da”: nas frases I e IV. Nas frases II e III, as cidades não aceitam artigo e o correto seria “viajou a Brasília” e “levados a Itaitinga”.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "A frase I tem topônimo com especificador (volto da Lisboa de Fernando Pessoa) e a frase IV traz países que aceitam artigo (volto da Espanha, volto da França)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Justamente as frases II e III estão erradas: Brasília e Itaitinga, sem especificador, não aceitam artigo (volto de Brasília, volto de Itaitinga)."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Inclui a frase II, mas “volto de Brasília” mostra que não há artigo; o correto é “viajou a Brasília”."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Deixa de fora a frase I, que está correta porque o especificador “de Fernando Pessoa” faz Lisboa admitir artigo."
+        }
+      ],
+      "fundamento_legal": "Não se aplica: disciplina sem lei de referência. Regra da norma-padrão: há crase antes de topônimo que admite artigo, inclusive quando a admissão decorre de especificador.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Rejeitar a frase I por saber que Lisboa, isoladamente, não aceita artigo, sem notar o especificador.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "crase",
+        "nome de lugar",
+        "especificador",
+        "teste do voltar",
+        "países"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal no contexto)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "auditorias": [
+    {
+      "id": "q01", "status": "VALIDADA", "gabarito_confere": true, "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false, "ambiguidade": false, "fundamento_confere": true, "problemas": [], "correcao_sugerida": null,
+      "justificativa": "a3 reproduz o parágrafo único do art. 4º do CPP. A Lei 12.830/2013 (art. 2º) trata a função como exclusiva de Estado, sem afastar o parágrafo único do art. 4º, de modo que nenhum artigo conexo muda a resposta. Distratores contrariam o próprio art. 4º."
+    },
+    {
+      "id": "q02", "status": "VALIDADA", "gabarito_confere": true, "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false, "ambiguidade": false, "fundamento_confere": true, "problemas": [], "correcao_sugerida": null,
+      "justificativa": "O art. 17 do CPP veda o arquivamento pela autoridade policial sem exceção. O art. 28 (arquivamento) não é cobrado nem citado, e só reforça que o arquivamento não cabe ao delegado. O comentário remete corretamente ao art. 10, § 1º."
+    },
+    {
+      "id": "q03", "status": "VALIDADA", "gabarito_confere": true, "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false, "ambiguidade": false, "fundamento_confere": true, "problemas": [], "correcao_sugerida": null,
+      "justificativa": "O art. 9º do CPP fundamenta a característica de procedimento escrito. Os distratores associam a regra a características com outra base (arts. 17, 20 e 5º, I). Nenhum artigo conexo altera a resposta."
+    },
+    {
+      "id": "q04", "status": "VALIDADA", "gabarito_confere": true, "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false, "ambiguidade": false, "fundamento_confere": true, "problemas": [], "correcao_sugerida": null,
+      "justificativa": "O art. 5º, § 4º, do CPP condiciona o início do inquérito à representação, prevalecendo sobre a instauração de ofício e a delatio criminis do § 3º. Nenhum artigo conexo cria exceção; a1, a2 e a3 estão errados pelos motivos indicados."
+    },
+    {
+      "id": "q05", "status": "VALIDADA", "gabarito_confere": true, "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false, "ambiguidade": false, "fundamento_confere": true, "problemas": [], "correcao_sugerida": null,
+      "justificativa": "a3 reproduz o art. 19 do CPP. a2 é falsa por vedar a remessa ao juízo, a4 contraria o art. 17, a1 contraria a iniciativa privada. Os artigos conexos (28, 107, 155, 184 e Lei 12.830) não mudam a resposta."
+    },
+    {
+      "id": "q06", "status": "VALIDADA", "gabarito_confere": true, "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false, "ambiguidade": false, "fundamento_confere": true, "problemas": [], "correcao_sugerida": null,
+      "justificativa": "Literalidade do art. 5º, § 2º, do CPP. As competências do juiz das garantias (art. 3º-B) não incluem julgar recurso contra o indeferimento da abertura de inquérito (o inciso IX trata de trancamento), logo a2 continua errada."
+    },
+    {
+      "id": "q07", "status": "VALIDADA", "gabarito_confere": true, "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false, "ambiguidade": false, "fundamento_confere": true, "problemas": [], "correcao_sugerida": null,
+      "justificativa": "a2 reproduz a parte final do art. 5º, § 3º, do CPP, em crime de ação pública incondicionada. Os distratores contrariam a forma verbal, a legitimidade de qualquer pessoa do povo e a verificação de procedência. Nenhum artigo conexo interfere."
+    },
+    {
+      "id": "q08", "status": "VALIDADA_COM_RESSALVA", "gabarito_confere": true, "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false, "ambiguidade": false, "fundamento_confere": true,
+      "problemas": [
+        { "tipo": "normativo", "gravidade": "media", "descricao": "O distrator a3 e o fundamento_legal usam o art. 21 do CPP (incomunicabilidade), dispositivo com ressalva obrigatória, mas o comentario_geral não traz a nota sobre a não recepção pela Constituição de 1988, e a justificativa de a3 apresenta o parágrafo único do art. 21 como regra em vigor sem avisar que é a redação literal." }
+      ],
+      "correcao_sugerida": "Acrescentar ao comentario_geral: 'Quanto à alternativa sobre incomunicabilidade, a questão cobra a letra do CPP: pelo art. 21, parágrafo único, ela dependeria de decisão do juiz. A maior parte da doutrina, porém, entende que o art. 21 não foi recepcionado pela Constituição de 1988, que veda a incomunicabilidade do preso até no estado de defesa (art. 136, § 3º, IV) e assegura ao preso a assistência da família e de advogado (art. 5º, LXIII).' Na justificativa de a3, trocar o início por 'Pela redação literal do parágrafo único do art. 21 (de recepção rejeitada pela maior parte da doutrina)'. A alternativa a3 continua errada nas duas leituras.",
+      "justificativa": "Gabarito a4 correto (art. 20, caput e parágrafo único) e a3 errada tanto pela letra do art. 21 quanto pelo entendimento doutrinário. Falta a nota obrigatória do art. 21, ajuste pontual no comentário."
+    },
+    {
+      "id": "q09", "status": "VALIDADA", "gabarito_confere": true, "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false, "ambiguidade": false, "fundamento_confere": true, "problemas": [], "correcao_sugerida": null,
+      "justificativa": "a2 resume fielmente o art. 5º, § 1º, com a ressalva 'sempre que possível'. O recurso do § 2º restringe-se ao indeferimento do requerimento, a representação não se exige na incondicionada, e a falta de testemunhas não impõe indeferimento. Nenhum artigo conexo muda a resposta."
+    },
+    {
+      "id": "q10", "status": "VALIDADA_COM_RESSALVA", "gabarito_confere": true, "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false, "ambiguidade": false, "fundamento_confere": true,
+      "problemas": [
+        { "tipo": "pedagogico", "gravidade": "media", "descricao": "O comentário apresenta a regra do art. 14 como discricionariedade plena, sem mencionar a exceção do art. 184 do CPP: o exame de corpo de delito requerido pelas partes não pode ser negado. O caso (oitiva de testemunha) não é afetado, mas o aluno pode generalizar a regra de forma errada." }
+      ],
+      "correcao_sugerida": "Acrescentar ao comentario_geral (ou ao fique_ligado): 'Atenção à exceção do art. 184 do CPP: a autoridade policial pode negar a perícia requerida pelas partes quando desnecessária, salvo o exame de corpo de delito, que não pode ser negado.'",
+      "justificativa": "Gabarito a3 correto pelo art. 14 do CPP, e a diligência negada é oitiva de testemunha, fora da exceção do art. 184. Falta, porém, registrar no comentário essa exceção conexa, para não ensinar discricionariedade absoluta."
+    }
+  ]
+}

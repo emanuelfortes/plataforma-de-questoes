@@ -1,0 +1,356 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Penas proibidas (art. 5º, XLVII)",
+      "dificuldade": "facil",
+      "enunciado": "De acordo com a Constituição Federal de 1988, no que se refere às penas que não podem ser adotadas no ordenamento brasileiro, é correto afirmar que",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "a pena de caráter perpétuo é admitida nos crimes definidos em lei como hediondos, por força do art. 5º, XLIII."
+        },
+        {
+          "id": "a2",
+          "texto": "a pena de banimento é admitida só para estrangeiros condenados por crime grave."
+        },
+        {
+          "id": "a3",
+          "texto": "a pena de morte é admitida em caso de guerra declarada, nos termos do art. 84, XIX."
+        },
+        {
+          "id": "a4",
+          "texto": "a pena de trabalhos forçados é admitida quando cumprida em estabelecimento militar."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "O art. 5º, XLVII, proíbe as penas de morte, de caráter perpétuo, de trabalhos forçados, de banimento e cruéis. A única ressalva expressa está na pena de morte, admitida em caso de guerra declarada, nos termos do art. 84, XIX. As demais vedações não têm exceção no texto constitucional.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "A vedação à pena de caráter perpétuo (art. 5º, XLVII, b) não tem exceção. O inciso XLIII dá aos crimes hediondos tratamento mais rigoroso (inafiançáveis e insuscetíveis de graça ou anistia), mas não autoriza prisão perpétua."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O banimento é vedado sem qualquer ressalva (art. 5º, XLVII, d). A alternativa cria uma exceção para estrangeiros que a Constituição não prevê."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Reproduz a única exceção expressa do art. 5º, XLVII, a: pena de morte em caso de guerra declarada, nos termos do art. 84, XIX."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A pena de trabalhos forçados é vedada sem exceção (art. 5º, XLVII, c), independentemente do local de cumprimento."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 5º, XLVII, alíneas a a e.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Estender a exceção da guerra declarada, que só vale para a pena de morte, a outras penas proibidas.",
+      "lei_referencia": "CF/1988, art. 5º, XLVII",
+      "macete_do_riccardo": "Penas proibidas: MOrte, PErpétua, TRAbalhos forçados, BAnimento e CRUéis. Só a morte tem exceção: guerra declarada.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "penas proibidas",
+        "pena de morte",
+        "guerra declarada",
+        "banimento",
+        "prisão perpétua"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, art. 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Individualização da pena e penas adotadas (art. 5º, XLVI)",
+      "dificuldade": "media",
+      "enunciado": "O art. 5º, XLVI, da Constituição Federal de 1988 dispõe que a lei regulará a individualização da pena. Sobre as penas mencionadas nesse dispositivo, é correto afirmar que",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "o rol é taxativo, de modo que o legislador ordinário não pode criar espécie de pena diversa das cinco ali enumeradas nas alíneas."
+        },
+        {
+          "id": "a2",
+          "texto": "o rol é exemplificativo e inclui, entre outras, a suspensão ou interdição de direitos e a prestação social alternativa."
+        },
+        {
+          "id": "a3",
+          "texto": "a perda de bens não figura entre as penas previstas no dispositivo, sendo admitida apenas como efeito extrapenal da reparação do dano."
+        },
+        {
+          "id": "a4",
+          "texto": "a multa só pode ser aplicada cumulativamente com a privação ou restrição da liberdade, vedada a sua imposição isolada como pena principal."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O inciso XLVI diz que a lei adotará, \"entre outras\", as penas de privação ou restrição da liberdade, perda de bens, multa, prestação social alternativa, além de suspensão ou interdição de direitos. A expressão \"entre outras\" revela rol exemplificativo, sempre respeitadas as vedações do inciso XLVII.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "A expressão \"entre outras\" mostra que o rol não é taxativo; o limite ao legislador está nas penas proibidas do inciso XLVII, e não no número de alíneas do inciso XLVI."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Corresponde ao texto do inciso XLVI: rol aberto (\"entre outras\") que menciona expressamente a suspensão ou interdição de direitos e a prestação social alternativa."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A perda de bens está expressamente prevista como pena na alínea b do inciso XLVI; não é tratada pelo dispositivo como mero efeito da reparação do dano."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O dispositivo apenas enumera a multa como espécie de pena, sem exigir que seja aplicada em conjunto com a privação ou restrição da liberdade nem vedar sua aplicação isolada."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 5º, XLVI, alíneas a a e.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Tratar como taxativo um rol que a Constituição apresenta com a expressão \"entre outras\".",
+      "lei_referencia": "CF/1988, art. 5º, XLVI",
+      "macete_do_riccardo": null,
+      "fique_ligado": "\"Entre outras\": as penas do inciso XLVI são exemplos. Já as penas proibidas do inciso XLVII funcionam como limite.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "individualização da pena",
+        "espécies de pena",
+        "rol exemplificativo",
+        "prestação social alternativa",
+        "perda de bens"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, art. 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Hipóteses constitucionais de prisão (art. 5º, LXI e LXV)",
+      "dificuldade": "dificil",
+      "enunciado": "Um delegado de polícia civil, ao concluir que há fortes indícios de autoria de um homicídio, cogita determinar diretamente a prisão do investigado, que não se encontra em situação de flagrante. À luz do art. 5º da Constituição Federal de 1988, assinale a alternativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A prisão é válida se a ordem do delegado for escrita e fundamentada, pois a Constituição exige apenas forma escrita e motivação da autoridade competente, sem restringi-la ao Poder Judiciário."
+        },
+        {
+          "id": "a2",
+          "texto": "Fora do flagrante, a prisão exige ordem escrita e fundamentada de autoridade judiciária competente, salvo transgressão militar ou crime propriamente militar, definidos em lei."
+        },
+        {
+          "id": "a3",
+          "texto": "Em caso de urgência, admite-se ordem verbal do juiz competente, desde que reduzida a termo pela autoridade policial em até vinte e quatro horas e comunicada imediatamente à família do preso."
+        },
+        {
+          "id": "a4",
+          "texto": "A prisão ilegal decretada nessas condições só pode ser relaxada pela autoridade judiciária após manifestação prévia do Ministério Público, no prazo de vinte e quatro horas da comunicação."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O art. 5º, LXI, admite prisão apenas em flagrante delito ou por ordem escrita e fundamentada de autoridade judiciária competente, salvo nos casos de transgressão militar ou crime propriamente militar, definidos em lei. A autoridade policial, portanto, não pode decretar prisão fora do flagrante. Se a prisão for ilegal, o inciso LXV manda que seja imediatamente relaxada pela autoridade judiciária.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "A Constituição exige que a ordem escrita e fundamentada venha de autoridade judiciária competente; o delegado não é autoridade judiciária, e a forma escrita e a motivação não bastam."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 5º, LXI, inclusive quanto às ressalvas da transgressão militar e do crime propriamente militar."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O texto constitucional exige ordem escrita; não há previsão de ordem judicial verbal posteriormente reduzida a termo. A comunicação à família (inciso LXII) é dever posterior à prisão e não supre a falta de ordem escrita."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 5º, LXV, determina o relaxamento imediato da prisão ilegal pela autoridade judiciária, sem condicioná-lo à manifestação prévia do Ministério Público nem a prazo de vinte e quatro horas."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 5º, LXI e LXV; art. 5º, LXII (para afastar distrator).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir autoridade competente com autoridade judiciária e flexibilizar a exigência de ordem escrita.",
+      "lei_referencia": "CF/1988, art. 5º, LXI",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "A ressalva é para crime PROPRIAMENTE militar e transgressão militar. Se a prova trocar por crime impropriamente militar ou por crime comum, está errada.",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "prisão",
+        "flagrante delito",
+        "ordem escrita e fundamentada",
+        "autoridade judiciária",
+        "crime propriamente militar",
+        "relaxamento da prisão"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, art. 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Prisão civil por dívida e liberdade provisória (art. 5º, LXVI e LXVII)",
+      "dificuldade": "dificil",
+      "enunciado": "Pedro, condenado judicialmente a pagar pensão alimentícia ao filho, deixou de pagar três parcelas porque sofreu grave doença que o incapacitou totalmente para o trabalho, sem possuir qualquer outra fonte de renda ou patrimônio, situação comprovada nos autos. Considerando apenas o texto do art. 5º da Constituição Federal de 1988, é correto afirmar que",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "a prisão civil de Pedro é autorizada, pois a Constituição a admite em qualquer inadimplemento de obrigação alimentícia reconhecida judicialmente, seja qual for a sua causa."
+        },
+        {
+          "id": "a2",
+          "texto": "a prisão civil de Pedro é autorizada, pois a Constituição admite a prisão civil por qualquer dívida reconhecida em sentença transitada em julgado, inclusive a alimentar."
+        },
+        {
+          "id": "a3",
+          "texto": "a prisão civil de Pedro não tem amparo constitucional, pois a ressalva exige inadimplemento voluntário e inescusável da obrigação alimentícia."
+        },
+        {
+          "id": "a4",
+          "texto": "a prisão civil de Pedro só é possível se não for admitida, no caso, a liberdade provisória com ou sem fiança, cabendo ao juiz examinar esse ponto antes de decretá-la."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "O art. 5º, LXVII, proíbe a prisão civil por dívida, ressalvando a do responsável pelo inadimplemento voluntário e inescusável de obrigação alimentícia (e o texto também menciona o depositário infiel). No caso, o inadimplemento decorreu de incapacidade comprovada, sem renda nem patrimônio: não é voluntário nem inescusável. Logo, a ressalva constitucional não alcança Pedro.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "A ressalva não alcança qualquer inadimplemento alimentar: exige que ele seja voluntário e inescusável, de modo que a causa do inadimplemento importa, e no caso ele decorreu de incapacidade comprovada."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A regra é justamente a proibição da prisão civil por dívida; a existência de sentença transitada em julgado não cria nova exceção, e a exceção alimentar depende de inadimplemento voluntário e inescusável."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Aplica corretamente os requisitos do art. 5º, LXVII: sem inadimplemento voluntário e inescusável, não há a exceção alimentar."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Mistura institutos: a liberdade provisória com ou sem fiança (art. 5º, LXVI) diz respeito à prisão de natureza penal, não à prisão civil por dívida."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 5º, LXVII; art. 5º, LXVI (para afastar o distrator).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Ignorar os qualificativos voluntário e inescusável e confundir prisão civil com prisão penal sujeita à liberdade provisória.",
+      "lei_referencia": "CF/1988, art. 5º, LXVII",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Na exceção alimentar, os dois adjetivos decidem a questão: o inadimplemento precisa ser VOLUNTÁRIO e INESCUSÁVEL.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "prisão civil",
+        "pensão alimentícia",
+        "inadimplemento voluntário e inescusável",
+        "liberdade provisória",
+        "fiança"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, art. 5º, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Direitos e Garantias Fundamentais",
+      "subtema": "Garantias processuais (art. 5º, LIII a LVI, LIX e LX)",
+      "dificuldade": "dificil",
+      "enunciado": "Em relação às garantias processuais previstas no art. 5º da Constituição Federal de 1988, assinale a alternativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "As provas obtidas por meios ilícitos são admissíveis no processo quando forem a única forma de demonstrar a autoria de crime hediondo."
+        },
+        {
+          "id": "a2",
+          "texto": "A ação privada nos crimes de ação pública é admitida a qualquer tempo, bastando que o ofendido discorde da condução da investigação."
+        },
+        {
+          "id": "a3",
+          "texto": "A publicidade dos atos processuais pode ser restringida pela lei sempre que a autoridade responsável pelo caso considerar conveniente à apuração, ainda que não haja risco à intimidade de ninguém."
+        },
+        {
+          "id": "a4",
+          "texto": "O contraditório e a ampla defesa, com os meios e recursos a ela inerentes, são assegurados aos litigantes tanto em processo judicial quanto em processo administrativo."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "O art. 5º, LV, assegura aos litigantes, em processo judicial ou administrativo, e aos acusados em geral, o contraditório e a ampla defesa, com os meios e recursos a ela inerentes. Os demais itens distorcem outros incisos: o LVI declara inadmissíveis as provas ilícitas, sem exceção no texto; o LIX só admite a ação privada se a ação pública não for intentada no prazo legal; e o LX só permite restringir a publicidade quando a defesa da intimidade ou o interesse social o exigirem.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O art. 5º, LVI, declara inadmissíveis, no processo, as provas obtidas por meios ilícitos, sem prever exceção para crimes hediondos ou falta de outras provas."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O art. 5º, LIX, condiciona a ação privada à inércia do titular da ação pública, que não a intentou no prazo legal; não é cabível a qualquer tempo nem por mera discordância do ofendido."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 5º, LX, só autoriza a lei a restringir a publicidade quando a defesa da intimidade ou o interesse social o exigirem, e não por conveniência da autoridade, desvinculada desses fundamentos."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Reproduz o art. 5º, LV, que estende o contraditório e a ampla defesa também ao processo administrativo."
+        }
+      ],
+      "fundamento_legal": "CF/1988, art. 5º, LV; para os distratores, art. 5º, LVI, LIX e LX.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Criar exceções à inadmissibilidade da prova ilícita, ignorar o requisito do prazo legal na ação privada subsidiária e trocar os fundamentos da restrição à publicidade.",
+      "lei_referencia": "CF/1988, art. 5º, LV",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "contraditório",
+        "ampla defesa",
+        "processo administrativo",
+        "provas ilícitas",
+        "ação privada subsidiária",
+        "publicidade dos atos processuais"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Constituição Federal de 1988, art. 5º, fornecido no contexto"
+      ]
+    }
+  ]
+}

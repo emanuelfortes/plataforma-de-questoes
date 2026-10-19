@@ -1,0 +1,46 @@
+{
+  "auditorias": [
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvida de forma independente: o art. 19 do CPP manda remeter os autos ao juízo competente, onde aguardam a iniciativa do ofendido ou de seu representante legal (a3). A2 erra ao vedar a remessa ao juízo (a entrega ao requerente é faculdade, mediante traslado), a1 atribui a queixa ao MP e a4 contraria o art. 17. As alternativas reescritas têm tamanho equilibrado e nenhum distrator ficou defensável."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "alternativas",
+          "gravidade": "baixa",
+          "descricao": "A correta é a mais longa e a única que combina dois elementos (caput e parágrafo único do art. 20), mas fica dentro do limite de 25% e os distratores são bem construídos."
+        }
+      ],
+      "correcao_sugerida": null,
+      "justificativa": "A4 reproduz o art. 20, caput e parágrafo único (redação da Lei 12.681/2012). A1 erra ao impor sigilo integral e automático, a2 contraria a vedação do parágrafo único e a3 está errada pela letra do art. 21, parágrafo único (decretação pelo juiz). O enunciado declara que cobra a letra do CPP e o comentário traz a nota de não recepção do art. 21, como exige a ressalva obrigatória."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Pelo art. 14 do CPP, a diligência requerida pelo indiciado será realizada, ou não, a juízo da autoridade (a3). O recurso ao chefe de Polícia (a2) é só contra o indeferimento da abertura do inquérito (art. 5º, § 2º); a1 e a4 não têm base no texto. A exceção do art. 184 (exame de corpo de delito) não alcança a oitiva de testemunha, e o comentário a trata corretamente."
+    }
+  ]
+}

@@ -1,0 +1,934 @@
+{
+  "criadoEm": "2026-10-18T20:43:06.083Z",
+  "lotes": [
+    {
+      "id": "crase-01",
+      "etapa": "concluido",
+      "questoes": [
+        {
+          "id": "q04",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (99 caracteres; média das erradas 79). Reescreva as alternativas para que a correta fique na posição 1 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 1,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q08",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (10 caracteres; média das erradas 10). Reescreva as alternativas para que a correta fique na posição 4 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 4,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q10",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (137 caracteres; média das erradas 92). Reescreva as alternativas para que a correta fique na posição 1 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 1,
+          "permiteTrocarGabarito": false
+        }
+      ],
+      "reprovadas": [],
+      "atualizadoEm": "2026-10-18T20:46:12.616Z"
+    },
+    {
+      "id": "crase-02",
+      "etapa": "concluido",
+      "questoes": [
+        {
+          "id": "q03",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (91 caracteres; média das erradas 79). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q06",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (101 caracteres; média das erradas 78). Reescreva as alternativas para que a correta fique na posição 3 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 3,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q07",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (63 caracteres; média das erradas 50). Reescreva as alternativas para que a correta fique na posição 1 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 1,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q09",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (61 caracteres; média das erradas 54). Reescreva as alternativas para que a correta fique na posição 4 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 4,
+          "permiteTrocarGabarito": false
+        }
+      ],
+      "reprovadas": [],
+      "atualizadoEm": "2026-10-18T20:45:59.950Z"
+    },
+    {
+      "id": "crase-03",
+      "etapa": "concluido",
+      "questoes": [
+        {
+          "id": "q05",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (72 caracteres; média das erradas 54). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        }
+      ],
+      "reprovadas": [],
+      "atualizadoEm": "2026-10-18T20:45:05.790Z"
+    },
+    {
+      "id": "crase-04",
+      "etapa": "concluido",
+      "questoes": [
+        {
+          "id": "q04",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (33 caracteres; média das erradas 32). Reescreva as alternativas para que a correta fique na posição 3 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 3,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q05",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (136 caracteres; média das erradas 87). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q06",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (10 caracteres; média das erradas 10). Reescreva as alternativas para que a correta fique na posição 3 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada.",
+            "Aproveite também a correção sugerida pelo auditor: Trocar \"o inquérito havia sido instaurado ___ cerca de dez dias\" por \"o inquérito foi instaurado ___ cerca de dez dias\", mantendo alternativas e gabarito."
+          ],
+          "posicaoAlvo": 3,
+          "permiteTrocarGabarito": false
+        }
+      ],
+      "reprovadas": [],
+      "atualizadoEm": "2026-10-18T20:46:39.439Z"
+    },
+    {
+      "id": "direitos-01",
+      "etapa": "concluido",
+      "questoes": [
+        {
+          "id": "q04",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (119 caracteres; média das erradas 100). Reescreva as alternativas para que a correta fique na posição 4 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 4,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q05",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (140 caracteres; média das erradas 94). Reescreva as alternativas para que a correta fique na posição 3 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 3,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q08",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (156 caracteres; média das erradas 135). Reescreva as alternativas para que a correta fique na posição 3 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 3,
+          "permiteTrocarGabarito": false
+        }
+      ],
+      "reprovadas": [],
+      "atualizadoEm": "2026-10-18T20:46:34.035Z"
+    },
+    {
+      "id": "direitos-02",
+      "etapa": "concluido",
+      "questoes": [
+        {
+          "id": "q03",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (77 caracteres; média das erradas 69). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q04",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (206 caracteres; média das erradas 139). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q06",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (155 caracteres; média das erradas 112). Reescreva as alternativas para que a correta fique na posição 3 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 3,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q08",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (134 caracteres; média das erradas 111). Reescreva as alternativas para que a correta fique na posição 4 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 4,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q10",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (107 caracteres; média das erradas 63). Reescreva as alternativas para que a correta fique na posição 1 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 1,
+          "permiteTrocarGabarito": false
+        }
+      ],
+      "reprovadas": [],
+      "atualizadoEm": "2026-10-18T20:47:44.994Z"
+    },
+    {
+      "id": "direitos-03",
+      "etapa": "concluido",
+      "questoes": [
+        {
+          "id": "q01",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (83 caracteres; média das erradas 82). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q05",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (119 caracteres; média das erradas 98). Reescreva as alternativas para que a correta fique na posição 4 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 4,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q08",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (189 caracteres; média das erradas 136). Reescreva as alternativas para que a correta fique na posição 4 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 4,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q09",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (147 caracteres; média das erradas 131). Reescreva as alternativas para que a correta fique na posição 4 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 4,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q10",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (167 caracteres; média das erradas 137). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        }
+      ],
+      "reprovadas": [],
+      "atualizadoEm": "2026-10-18T20:47:47.639Z"
+    },
+    {
+      "id": "direitos-04",
+      "etapa": "concluido",
+      "questoes": [
+        {
+          "id": "q01",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (131 caracteres; média das erradas 101). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q05",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (137 caracteres; média das erradas 93). Reescreva as alternativas para que a correta fique na posição 4 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 4,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q06",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (224 caracteres; média das erradas 104). Reescreva as alternativas para que a correta fique na posição 1 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 1,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q08",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (223 caracteres; média das erradas 167). Reescreva as alternativas para que a correta fique na posição 1 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 1,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q09",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (208 caracteres; média das erradas 140). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        }
+      ],
+      "reprovadas": [],
+      "atualizadoEm": "2026-10-18T20:47:45.912Z"
+    },
+    {
+      "id": "patrimonio-01",
+      "etapa": "concluido",
+      "questoes": [
+        {
+          "id": "q03",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (104 caracteres; média das erradas 95). Reescreva as alternativas para que a correta fique na posição 3 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 3,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q10",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (197 caracteres; média das erradas 164). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        }
+      ],
+      "reprovadas": [],
+      "atualizadoEm": "2026-10-18T20:48:32.361Z"
+    },
+    {
+      "id": "patrimonio-02",
+      "etapa": "concluido",
+      "questoes": [
+        {
+          "id": "q01",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (168 caracteres; média das erradas 113). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q06",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (138 caracteres; média das erradas 82). Reescreva as alternativas para que a correta fique na posição 1 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 1,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q07",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (118 caracteres; média das erradas 84). Reescreva as alternativas para que a correta fique na posição 3 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 3,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q08",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (157 caracteres; média das erradas 116). Reescreva as alternativas para que a correta fique na posição 3 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada.",
+            "Aproveite também a correção sugerida pelo auditor: No comando, trocar 'a pena aplicável a esse fato é de reclusão de' por 'a pena cominada para esse fato, sem considerar eventuais causas de aumento, é de reclusão de'."
+          ],
+          "posicaoAlvo": 3,
+          "permiteTrocarGabarito": false
+        }
+      ],
+      "reprovadas": [],
+      "atualizadoEm": "2026-10-18T20:47:48.503Z"
+    },
+    {
+      "id": "patrimonio-03",
+      "etapa": "concluido",
+      "questoes": [
+        {
+          "id": "q03",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (107 caracteres; média das erradas 73). Reescreva as alternativas para que a correta fique na posição 1 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 1,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q04",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (103 caracteres; média das erradas 84). Reescreva as alternativas para que a correta fique na posição 3 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 3,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q07",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (119 caracteres; média das erradas 108). Reescreva as alternativas para que a correta fique na posição 4 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 4,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q08",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (138 caracteres; média das erradas 118). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q09",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (210 caracteres; média das erradas 159). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q10",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (168 caracteres; média das erradas 126). Reescreva as alternativas para que a correta fique na posição 3 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 3,
+          "permiteTrocarGabarito": false
+        }
+      ],
+      "reprovadas": [],
+      "atualizadoEm": "2026-10-18T20:46:46.982Z"
+    },
+    {
+      "id": "patrimonio-04",
+      "etapa": "concluido",
+      "questoes": [
+        {
+          "id": "q01",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (153 caracteres; média das erradas 121). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q06",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (165 caracteres; média das erradas 112). Reescreva as alternativas para que a correta fique na posição 1 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 1,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q07",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (165 caracteres; média das erradas 117). Reescreva as alternativas para que a correta fique na posição 4 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 4,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q08",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (186 caracteres; média das erradas 127). Reescreva as alternativas para que a correta fique na posição 1 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 1,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q09",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (179 caracteres; média das erradas 125). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        }
+      ],
+      "reprovadas": [],
+      "atualizadoEm": "2026-10-18T20:47:49.365Z"
+    },
+    {
+      "id": "inquerito-01",
+      "etapa": "concluido",
+      "questoes": [
+        {
+          "id": "q05",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (109 caracteres; média das erradas 89). Reescreva as alternativas para que a correta fique na posição 3 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 3,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q08",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (188 caracteres; média das erradas 147). Reescreva as alternativas para que a correta fique na posição 1 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada.",
+            "Nota obrigatória: a questão cobra art. 21 (cpp). Acrescente ao comentario_geral a nota da seção \"Dispositivos com ressalva obrigatória\", adaptada ao caso, e deixe claro no enunciado se a questão cobra a letra da lei.",
+            "Reauditoria com os artigos conexos (VALIDADA_COM_RESSALVA): Gabarito a4 correto (art. 20, caput e parágrafo único) e a3 errada tanto pela letra do art. 21 quanto pelo entendimento doutrinário. Falta a nota obrigatória do art. 21, ajuste pontual no comentário. Correção sugerida: Acrescentar ao comentario_geral: 'Quanto à alternativa sobre incomunicabilidade, a questão cobra a letra do CPP: pelo art. 21, parágrafo único, ela dependeria de decisão do juiz. A maior parte da doutrina, porém, entende que o art. 21 não foi recepcionado pela Constituição de 1988, que veda a incomunicabilidade do preso até no estado de defesa (art. 136, § 3º, IV) e assegura ao preso a assistência da família e de advogado (art. 5º, LXIII).' Na justificativa de a3, trocar o início por 'Pela redação literal do parágrafo único do art. 21 (de recepção rejeitada pela maior parte da doutrina)'. A alternativa a3 continua errada nas duas leituras.",
+            "Aproveite também a correção sugerida pelo auditor: Acrescentar à justificativa de a3 uma frase curta: 'Registre-se que a doutrina majoritária entende que a incomunicabilidade do art. 21 não foi recepcionada pela Constituição de 1988.'"
+          ],
+          "posicaoAlvo": 1,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q10",
+          "motivos": [
+            "Reauditoria com os artigos conexos (VALIDADA_COM_RESSALVA): Gabarito a3 correto pelo art. 14 do CPP, e a diligência negada é oitiva de testemunha, fora da exceção do art. 184. Falta, porém, registrar no comentário essa exceção conexa, para não ensinar discricionariedade absoluta. Correção sugerida: Acrescentar ao comentario_geral (ou ao fique_ligado): 'Atenção à exceção do art. 184 do CPP: a autoridade policial pode negar a perícia requerida pelas partes quando desnecessária, salvo o exame de corpo de delito, que não pode ser negado.'"
+          ],
+          "posicaoAlvo": null,
+          "permiteTrocarGabarito": false
+        }
+      ],
+      "reprovadas": [],
+      "atualizadoEm": "2026-10-18T20:46:07.427Z"
+    },
+    {
+      "id": "inquerito-02",
+      "etapa": "concluido",
+      "questoes": [
+        {
+          "id": "q03",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (99 caracteres; média das erradas 95). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q04",
+          "motivos": [
+            "Revisão do professor: Art. 184 do CPP: a autoridade pode negar perícia requerida pelas partes quando desnecessária, SALVO o exame de corpo de delito, que não pode ser negado. Do jeito que está, a \"perícia em objeto apreendido\" pode ser lida como exame de corpo de delito, e então a correta deixaria de estar certa. Reescreva o caso para que a perícia pedida não seja exame de corpo de delito (diga isso no enunciado) e acrescente a ressalva do art. 184 no comentário e na análise; ou, se preferir, transforme a questão para cobrar justamente essa exceção.",
+            "Reauditoria com os artigos conexos (VALIDADA_COM_RESSALVA): O gabarito (art. 14) é o melhor para o caso, mas o art. 184 cria exceção para o exame de corpo de delito que o enunciado não afasta. Ajuste pontual no enunciado e no comentário resolve. Correção sugerida: No enunciado, deixar claro que a perícia pedida pelo indiciado não é exame de corpo de delito (por exemplo, 'perícia complementar, que não se confunde com o exame de corpo de delito, em um objeto apreendido'). No comentario_geral, acrescentar: 'Atenção ao art. 184 do CPP: salvo o caso de exame de corpo de delito, a autoridade policial negará a perícia requerida pelas partes quando não for necessária ao esclarecimento da verdade; o exame de corpo de delito requerido não pode ser negado.'"
+          ],
+          "posicaoAlvo": null,
+          "permiteTrocarGabarito": true
+        },
+        {
+          "id": "q06",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (139 caracteres; média das erradas 96). Reescreva as alternativas para que a correta fique na posição 3 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada.",
+            "Nota obrigatória: a questão cobra art. 21 (cpp). Acrescente ao comentario_geral a nota da seção \"Dispositivos com ressalva obrigatória\", adaptada ao caso, e deixe claro no enunciado se a questão cobra a letra da lei.",
+            "Reauditoria com os artigos conexos (VALIDADA_COM_RESSALVA): Gabarito correto pela letra do art. 21 e o enunciado avisa que cobra a redação literal, mas falta a nota obrigatória de não recepção no comentário. Com a nota acrescentada, fica utilizável. Correção sugerida: Acrescentar ao comentario_geral: 'Atenção: a maior parte da doutrina entende que o art. 21 do CPP não foi recepcionado pela Constituição de 1988, que veda a incomunicabilidade do preso até no estado de defesa (art. 136, § 3º, IV) e assegura ao preso a assistência da família e de advogado (art. 5º, LXIII). Esta questão cobra a redação literal do CPP.'",
+            "Aproveite também a correção sugerida pelo auditor: Acrescentar ao comentário (ou ao fique_ligado) uma frase: 'Atenção: grande parte da doutrina entende que o art. 21 não foi recepcionado pela Constituição de 1988, que veda a incomunicabilidade do preso até no estado de defesa (art. 136, § 3º, IV); por isso o enunciado pede a redação literal do CPP.'"
+          ],
+          "posicaoAlvo": 3,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q07",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (193 caracteres; média das erradas 147). Reescreva as alternativas para que a correta fique na posição 1 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 1,
+          "permiteTrocarGabarito": false
+        }
+      ],
+      "reprovadas": [],
+      "atualizadoEm": "2026-10-18T20:46:28.231Z"
+    },
+    {
+      "id": "inquerito-03",
+      "etapa": "concluido",
+      "questoes": [
+        {
+          "id": "q01",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (148 caracteres; média das erradas 105). Reescreva as alternativas para que a correta fique na posição 3 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 3,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q02",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (114 caracteres; média das erradas 98). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q03",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (121 caracteres; média das erradas 103). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q06",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (167 caracteres; média das erradas 101). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada.",
+            "Aproveite também a correção sugerida pelo auditor: Equilibrar o tamanho das alternativas, por exemplo encurtando a correta para \"sejam remetidos ao juízo competente, onde aguardarão a iniciativa do ofendido, podendo ser entregues ao requerente mediante traslado\" ou alongando levemente os distratores."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q09",
+          "motivos": [
+            "Reauditoria com os artigos conexos (VALIDADA_COM_RESSALVA): Gabarito correto pelos arts. 17 e 18. Falta a nota sobre o art. 28 (dispositivo com ressalva obrigatória), já que a premissa do enunciado descreve o arquivamento pelo juiz; ajuste pontual no comentário resolve. Correção sugerida: Acrescentar ao comentario_geral: 'A questão cobra a letra dos arts. 17 e 18 do CPP. Com a Lei 13.964/2019, o art. 28 passou a prever que o arquivamento é ordenado pelo Ministério Público; o STF (2023) decidiu que esse arquivamento é submetido ao juiz, que pode levar o caso à instância de revisão do MP. Em qualquer modelo, o delegado pode fazer novas pesquisas diante de outras provas e nunca pode arquivar.'"
+          ],
+          "posicaoAlvo": null,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q10",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (165 caracteres; média das erradas 121). Reescreva as alternativas para que a correta fique na posição 3 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 3,
+          "permiteTrocarGabarito": false
+        }
+      ],
+      "reprovadas": [],
+      "atualizadoEm": "2026-10-18T20:47:46.768Z"
+    },
+    {
+      "id": "inquerito-04",
+      "etapa": "concluido",
+      "questoes": [
+        {
+          "id": "q02",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (140 caracteres; média das erradas 107). Reescreva as alternativas para que a correta fique na posição 1 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 1,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q03",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (146 caracteres; média das erradas 114). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q07",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (228 caracteres; média das erradas 121). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q08",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (193 caracteres; média das erradas 140). Reescreva as alternativas para que a correta fique na posição 5 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 5,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q09",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (170 caracteres; média das erradas 115). Reescreva as alternativas para que a correta fique na posição 1 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 1,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q10",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (218 caracteres; média das erradas 148). Reescreva as alternativas para que a correta fique na posição 5 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada.",
+            "Reauditoria com os artigos conexos (VALIDADA_COM_RESSALVA): Gabarito a5 correto pelos arts. 10, § 3º, e 22. Resta acrescentar a nota sobre a prorrogação do investigado preso (art. 3º-B, § 2º, e entendimento do STF) para que o distrator a3 não pareça negar uma possibilidade que existe em artigo conexo. Correção sugerida: Acrescentar ao comentario_geral e à justificativa de a3: 'Com investigado preso, o mecanismo não é a devolução do art. 10, § 3º, mas a prorrogação pelo juiz das garantias (art. 3º-B, VIII e § 2º); pela letra da lei, uma única vez por até 15 dias, mas o STF entendeu que pode ocorrer mais de uma vez, por decisão fundamentada, e que o fim do prazo não revoga a prisão automaticamente. A questão cobra a letra dos arts. 10, 16 e 22.'"
+          ],
+          "posicaoAlvo": 5,
+          "permiteTrocarGabarito": false
+        }
+      ],
+      "reprovadas": [],
+      "atualizadoEm": "2026-10-18T20:47:53.609Z"
+    },
+    {
+      "id": "drogas-01",
+      "etapa": "concluido",
+      "questoes": [
+        {
+          "id": "q01",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (143 caracteres; média das erradas 119). Reescreva as alternativas para que a correta fique na posição 3 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 3,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q02",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (166 caracteres; média das erradas 108). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q03",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (110 caracteres; média das erradas 104). Reescreva as alternativas para que a correta fique na posição 4 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 4,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q04",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (111 caracteres; média das erradas 74). Reescreva as alternativas para que a correta fique na posição 4 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 4,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q05",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (149 caracteres; média das erradas 134). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q06",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (151 caracteres; média das erradas 122). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q07",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (260 caracteres; média das erradas 159). Reescreva as alternativas para que a correta fique na posição 1 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada.",
+            "Aproveite também a correção sugerida pelo auditor: Encurtar a1 (por exemplo: \"pode ser pedida por familiar ou responsável legal e dura apenas o necessário à desintoxicação, no máximo 90 dias.\") ou acrescentar detalhes aos distratores para equilibrar o tamanho."
+          ],
+          "posicaoAlvo": 1,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q09",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (266 caracteres; média das erradas 161). Reescreva as alternativas para que a correta fique na posição 4 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada.",
+            "Aproveite também a correção sugerida pelo auditor: Equilibrar o tamanho: encurtar a2 (por exemplo, retirar \"especificada na proposta\") ou tornar os distratores também compostos, mantendo um erro em cada."
+          ],
+          "posicaoAlvo": 4,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q10",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (291 caracteres; média das erradas 147). Reescreva as alternativas para que a correta fique na posição 1 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada.",
+            "Aproveite também a correção sugerida pelo auditor: Encurtar a3 (por exemplo: \"lavrar de imediato o termo circunstanciado, colher o compromisso de comparecimento e requisitar os exames, vedada a detenção, liberando-a em seguida.\") ou alongar os distratores."
+          ],
+          "posicaoAlvo": 1,
+          "permiteTrocarGabarito": false
+        }
+      ],
+      "reprovadas": [],
+      "atualizadoEm": "2026-10-18T20:47:52.663Z"
+    },
+    {
+      "id": "drogas-02",
+      "etapa": "concluido",
+      "questoes": [
+        {
+          "id": "q01",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (206 caracteres; média das erradas 121). Reescreva as alternativas para que a correta fique na posição 1 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 1,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q03",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (215 caracteres; média das erradas 106). Reescreva as alternativas para que a correta fique na posição 3 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 3,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q04",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (157 caracteres; média das erradas 123). Reescreva as alternativas para que a correta fique na posição 4 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 4,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q06",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (165 caracteres; média das erradas 128). Reescreva as alternativas para que a correta fique na posição 3 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 3,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q07",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (140 caracteres; média das erradas 105). Reescreva as alternativas para que a correta fique na posição 1 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 1,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q08",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (210 caracteres; média das erradas 161). Reescreva as alternativas para que a correta fique na posição 3 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 3,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q09",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (238 caracteres; média das erradas 159). Reescreva as alternativas para que a correta fique na posição 4 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 4,
+          "permiteTrocarGabarito": false
+        }
+      ],
+      "reprovadas": [],
+      "atualizadoEm": "2026-10-18T20:48:33.282Z"
+    },
+    {
+      "id": "drogas-03",
+      "etapa": "concluido",
+      "questoes": [
+        {
+          "id": "q02",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (204 caracteres; média das erradas 177). Reescreva as alternativas para que a correta fique na posição 4 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 4,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q04",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (201 caracteres; média das erradas 164). Reescreva as alternativas para que a correta fique na posição 4 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 4,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q06",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (217 caracteres; média das erradas 147). Reescreva as alternativas para que a correta fique na posição 1 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 1,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q07",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (188 caracteres; média das erradas 135). Reescreva as alternativas para que a correta fique na posição 1 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 1,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q08",
+          "motivos": [
+            "Nota obrigatória: a questão cobra art. 44 (lei-11343-2006). Acrescente ao comentario_geral a nota da seção \"Dispositivos com ressalva obrigatória\", adaptada ao caso, e deixe claro no enunciado se a questão cobra a letra da lei."
+          ],
+          "posicaoAlvo": null,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q09",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (312 caracteres; média das erradas 184). Reescreva as alternativas para que a correta fique na posição 1 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada.",
+            "Aproveite também a correção sugerida pelo auditor: Enxugar a4 (por exemplo, retirar \"na presença do Ministério Público e da autoridade sanitária\") ou acrescentar detalhes plausíveis aos distratores para equilibrar o tamanho das alternativas."
+          ],
+          "posicaoAlvo": 1,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q10",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (271 caracteres; média das erradas 185). Reescreva as alternativas para que a correta fique na posição 3 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 3,
+          "permiteTrocarGabarito": false
+        }
+      ],
+      "reprovadas": [],
+      "atualizadoEm": "2026-10-18T20:48:34.141Z"
+    },
+    {
+      "id": "drogas-04",
+      "etapa": "concluido",
+      "questoes": [
+        {
+          "id": "q02",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (168 caracteres; média das erradas 140). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q03",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (163 caracteres; média das erradas 132). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada.",
+            "Aproveite também a correção sugerida pelo auditor: Retirar do enunciado o trecho 'que depois também participou da elaboração do laudo definitivo' e trocar o fim da alternativa a4 por 'e é suficiente para estabelecer a materialidade do delito nessa fase'. Na a3, manter o erro com a redação 'o laudo de constatação é válido, mas não serve para estabelecer a materialidade do delito na lavratura do auto'. Ajustar as justificativas."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q04",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (196 caracteres; média das erradas 158). Reescreva as alternativas para que a correta fique na posição 2 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada.",
+            "Aproveite também a correção sugerida pelo auditor: Na alternativa a5, trocar 'certifica o laudo de constatação' por 'certifica a regularidade formal do laudo de constatação'."
+          ],
+          "posicaoAlvo": 2,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q08",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (215 caracteres; média das erradas 172). Reescreva as alternativas para que a correta fique na posição 4 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 4,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q09",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (222 caracteres; média das erradas 170). Reescreva as alternativas para que a correta fique na posição 3 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 3,
+          "permiteTrocarGabarito": false
+        },
+        {
+          "id": "q10",
+          "motivos": [
+            "Tamanho: hoje a correta é a 1ª mais longa (202 caracteres; média das erradas 168). Reescreva as alternativas para que a correta fique na posição 3 do ranking de tamanho (1 = a mais longa) e no máximo 25% acima da média das erradas. Prefira enriquecer os distratores com detalhes plausíveis do mesmo nível (prazos, condições, remissões) a cortar informação da correta, e não mude o que torna cada alternativa certa ou errada."
+          ],
+          "posicaoAlvo": 3,
+          "permiteTrocarGabarito": false
+        }
+      ],
+      "reprovadas": [],
+      "atualizadoEm": "2026-10-18T20:47:51.787Z"
+    }
+  ]
+}

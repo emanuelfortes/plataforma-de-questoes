@@ -1,0 +1,58 @@
+{
+  "auditorias": [
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Depois de 'até' indicando limite, 'até a esquina' e 'até à esquina' são aceitas pela norma-padrão; a crase é facultativa. Os distratores reescritos continuam errados: a1 e a4 dão crase obrigatória (a4 por suposta locução adverbial, que não existe) e a2 a declara proibida. Tamanhos equilibrados, sem pista."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "'À proporção que' é locução conjuntiva proporcional de núcleo feminino e leva acento grave. a1 atribui a crase à regência de 'avançar', que não se liga a 'proporção'; a2 inventa crase facultativa por início de período; a4 confunde crase com posição da oração. Única correta, comentário adequado."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Só em a1 ('até à sala') o acento pode ser mantido ou retirado. Em a2 ('obedeceu à ordem') e a3 ('à que' = àquela que; 'à outra' com artigo) a crase é obrigatória; em a4 ('frente à frente') o acento é erro, pois só a forma sem acento é correta. Nenhum distrator defensável."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "pedagogico",
+          "gravidade": "media",
+          "descricao": "O macete 'Troque até por inclusive: se a frase continuar fazendo sentido, não há crase' generaliza demais. Com 'até' de inclusão, ainda haverá crase se o termo regente exigir a preposição 'a' (ex.: 'Ele se referiu até à estagiária', em que a crase é obrigatória por causa de 'referir-se a')."
+        }
+      ],
+      "correcao_sugerida": "Reescrever o macete: \"Troque 'até' por 'inclusive': se a frase continuar fazendo sentido, 'até' não é preposição e não gera crase facultativa; o acento só aparecerá se o verbo ou nome anterior exigir a preposição 'a'.\"",
+      "justificativa": "Gabarito correto: em a3, 'até' equivale a 'inclusive' e 'elogiar' é transitivo direto, então o acento seria erro; em a1, a2 e a4, 'até' é preposição de limite e a crase é facultativa. A única ressalva é o macete, que pode levar o aluno a negar crase obrigatória em casos com regência de 'a'."
+    }
+  ]
+}

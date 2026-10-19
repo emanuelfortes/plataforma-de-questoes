@@ -1,0 +1,64 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Ameaça à liberdade de locomoção por ilegalidade ou abuso de poder: habeas corpus (art. 5º, LXVIII). Após o reequilíbrio, a1 (mandado de segurança) e a5 (ação popular) continuam indefensáveis, pois o MS é residual (LXIX) e a ação popular não tutela a locomoção do interessado (LXXIII); a correta manteve o núcleo do inciso."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Retificação de dados próprios em cadastro de entidade governamental, sem preferência por processo sigiloso: habeas data (art. 5º, LXXII, b). O distrator a4, embora cite habeas data, restringe o alcance a dados de terceiros em bancos privados, o que contraria o texto; os demais remédios não se aplicam."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a5",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Falta de norma regulamentadora que inviabiliza o exercício de direito: mandado de injunção (art. 5º, LXXI), reproduzido integralmente em a5. O distrator a4 restringe indevidamente o objeto e a3 afirma que a omissão sempre gera direito líquido e certo, ambos errados; a1 e a2 usam remédios com pressupostos diversos."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 reflete o art. 5º, LXIX (agente de pessoa jurídica no exercício de atribuições do Poder Público e caráter residual). a5 erra o legitimado (qualquer cidadão, não pessoa jurídica), a4 nega o pressuposto da inviabilidade do exercício, a3 inverte a alínea b do LXXII e a2 desloca a locomoção para o MS."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a4 reproduz literalmente o art. 5º, § 2º. Os distratores alteram o § 1º (distinção inexistente), o § 4º (dispensa da adesão), o LXXVIII (exclui o âmbito administrativo) e o LXXIX (troca inclusive por exclusivamente), todos claramente errados à luz do texto fornecido."
+    }
+  ]
+}

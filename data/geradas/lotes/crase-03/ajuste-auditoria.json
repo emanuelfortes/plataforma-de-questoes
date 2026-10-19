@@ -1,0 +1,16 @@
+{
+  "auditorias": [
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvida de forma independente: só em a2 o topônimo vem determinado por especificador (\"a Fortaleza de sua juventude\"), o que admite artigo e gera crase com a preposição de \"voltar a\". Em a1, a3 e a4 os nomes Brasília, Sobral e Curitiba aparecem sem especificador e não admitem artigo (volto de), logo a crase é indevida. Após o equilíbrio de tamanho, nenhum distrator ficou defensável, a correta não é a mais longa e o texto está na norma-padrão."
+    }
+  ]
+}

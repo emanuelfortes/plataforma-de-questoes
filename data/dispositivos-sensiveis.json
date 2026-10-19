@@ -1,0 +1,48 @@
+{
+  "_instrucoes": "Dispositivos com inconstitucionalidade declarada, interpretação conforme ou não recepção. Questões que os cobram são permitidas só com nota obrigatória no comentario_geral (a checagem em código procura menção ao STF, a inconstitucionalidade, a interpretação conforme ou a não recepção). lei: id em data/leis. artigos: números como no texto (\"44\", \"21\", \"3-B\"). nota: texto que o gerador usa como base, sem número de julgado (números só se estiverem em data/jurisprudencia.json). conferido_professor: mude para true depois de revisar a nota. Trechos entre \"[CONFIRMAR: ...]\" ainda não foram conferidos na fonte oficial: não vão para o gerador, e questão que os use vai para NECESSITA_DE_CONFERENCIA (lista \"confirmar\", com o padrão procurado no texto da questão). Depois de conferir, tire os colchetes ou apague o trecho e o item de \"confirmar\".",
+  "itens": [
+    {
+      "lei": "lei-11343-2006",
+      "artigos": [
+        "44"
+      ],
+      "situacao": "inconstitucionalidade parcial declarada pelo STF",
+      "nota": "O STF declarou inconstitucionais, em controle difuso, a vedação de liberdade provisória do art. 44 da Lei 11.343/2006 e a proibição de conversão da pena em restritivas de direitos (proibição que também constava do art. 33, § 4º, e teve a execução suspensa pelo Senado). Na prática, essas duas vedações não se aplicam de forma automática; continuam valendo a inafiançabilidade e a vedação de graça, indulto e anistia, que decorrem do art. 5º, XLIII, da CF. Questões de letra da lei devem avisar que cobram a redação literal.",
+      "conferido_professor": false
+    },
+    {
+      "lei": "cpp",
+      "artigos": [
+        "21"
+      ],
+      "situacao": "não recepção (entendimento majoritário da doutrina)",
+      "nota": "A maior parte da doutrina entende que o art. 21 do CPP (incomunicabilidade do indiciado) não foi recepcionado pela Constituição de 1988, que veda a incomunicabilidade do preso até no estado de defesa (art. 136, § 3º, IV) e assegura ao preso a assistência da família e de advogado (art. 5º, LXIII). Questões de letra da lei devem avisar que cobram a redação literal.",
+      "conferido_professor": false
+    },
+    {
+      "lei": "cpp",
+      "artigos": [
+        "3-A",
+        "3-B",
+        "3-C",
+        "3-D",
+        "3-E",
+        "3-F",
+        "28"
+      ],
+      "situacao": "juiz das garantias e arquivamento: julgados pelo STF em 2023 (interpretação conforme e inconstitucionalidades parciais)",
+      "nota": "O STF julgou constitucional o juiz das garantias, com implantação obrigatória em prazo fixado, mas deu interpretação conforme ou declarou inconstitucionais vários trechos: por exemplo, [CONFIRMAR: o impedimento do art. 3º-D foi afastado;] a competência do juiz das garantias vai até o oferecimento (e não o recebimento) da denúncia; [CONFIRMAR: a prorrogação do inquérito de investigado preso (art. 3º-B, § 2º) pode ocorrer mais de uma vez, por decisão fundamentada, e o fim do prazo não revoga a prisão automaticamente;] e o arquivamento do art. 28 é submetido ao juiz, que pode levar o caso à instância de revisão do Ministério Público. Questões sobre esses artigos devem dizer se cobram a letra da lei ou o entendimento do STF.",
+      "conferido_professor": false,
+      "confirmar": [
+        {
+          "trecho": "Impedimento do art. 3º-D afastado pelo STF",
+          "padrao": "3\\s*[º°o]?\\s*-\\s*D\\b|impedimento do juiz"
+        },
+        {
+          "trecho": "Prorrogação do inquérito de preso (art. 3º-B, § 2º) mais de uma vez",
+          "padrao": "mais de uma vez|novas prorroga|sucessivas prorroga|prorroga[çc][ãa]o.{0,40}n[ãa]o (é|seria) [úu]nica"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 167 exige queixa no dano simples, no inciso IV do parágrafo único do art. 163 e no art. 164. Só a alternativa do motivo egoístico ou prejuízo considerável está entre essas hipóteses; as demais qualificadoras ficam fora do art. 167."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Coisa alheia perdida, achada e não restituída nem entregue à autoridade em quinze dias: art. 169, parágrafo único, II. Furto (sem subtração), apropriação indébita (sem posse prévia recebida do dono) e o caput do art. 169 (erro, caso fortuito ou força da natureza) estão corretamente afastados."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Introduzir animais em propriedade alheia sem consentimento, com prejuízo, é o art. 164, e o art. 167 exige queixa. Esbulho exige violência, grave ameaça ou mais de duas pessoas e fim de esbulho; não há qualificadora de dano descrita."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Posse lícita anterior e dolo superveniente caracterizam apropriação indébita (art. 168), com aumento de um terço por recebimento em razão de profissão (§ 1º, III). Estelionato, furto e a forma simples estão corretamente afastados."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Coisa vinda ao poder da agente por erro espontâneo da loja, seguida de apropriação: art. 169, caput, pena de detenção de um mês a um ano, ou multa, conforme o texto. O enunciado afasta expressamente qualquer ato de Carla para provocar o erro, eliminando o estelionato."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O enunciado afasta perigo comum, logo não há crime mais grave e incide o art. 163, parágrafo único, II, com detenção de seis meses a três anos, e multa. A alternativa com reclusão de um a quatro anos traz pena errada; as demais erram a qualificadora."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 170 estende à apropriação indébita o art. 155, § 2º: substituir a reclusão por detenção, diminuir de um a dois terços ou aplicar só multa. Os distratores (exclusividade do furto, isenção, fração de um sexto a um terço) estão errados pelo texto."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Os meios do art. 161, § 1º, II, são alternativos: com violência a pessoa, bastam dois agentes. O § 2º manda somar a pena da violência, e o § 3º só exige queixa sem violência. A alternativa correta restringe com precisão a afirmação sobre a ação penal ao esbulho, evitando discussão sobre a lesão."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 168-A, § 5º, afasta a extinção do § 2º para o agente declarado devedor contumaz em decisão administrativa definitiva e inscrito no Cadin, e o § 6º impede que a perda posterior dessa condição beneficie os atos do período. O enunciado situa os fatos na vigência da LC 225/2026, eliminando a questão intertemporal; o § 3º é faculdade e trata de pagamento após a ação fiscal."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Alterar indevidamente marca de propriedade em rebanho alheio é o art. 162, com detenção de seis meses a três anos, e multa. Não houve subtração, o tipo específico prevalece sobre o dano, e nem o art. 161, § 3º (restrito às figuras do art. 161), nem o art. 167 alcançam o art. 162."
+    }
+  ]
+}

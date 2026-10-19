@@ -1,0 +1,697 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Inquérito Policial",
+      "subtema": "Diligências da autoridade policial: preservação do local",
+      "dificuldade": "facil",
+      "enunciado": "Segundo o Código de Processo Penal, logo que tiver conhecimento da prática da infração penal, a autoridade policial deverá dirigir-se ao local, providenciando para que não se alterem o estado e a conservação das coisas até:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "a lavratura do boletim de ocorrência pelo agente que atendeu ao chamado."
+        },
+        {
+          "id": "a2",
+          "texto": "a chegada dos peritos criminais."
+        },
+        {
+          "id": "a3",
+          "texto": "a autorização do juiz competente para a apreensão dos objetos."
+        },
+        {
+          "id": "a4",
+          "texto": "a manifestação do Ministério Público sobre a instauração do inquérito."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O art. 6º, I, do CPP manda a autoridade policial dirigir-se ao local e preservar o estado e a conservação das coisas até a chegada dos peritos criminais. A ideia é proteger os vestígios para a perícia. Não há exigência de autorização judicial nem de manifestação do Ministério Público para essa providência.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O marco legal da preservação não é o registro da ocorrência, e sim a chegada dos peritos criminais, que precisam examinar o local intacto."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Reproduz o art. 6º, I, do CPP: a preservação dura até a chegada dos peritos criminais."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A lei não condiciona a preservação do local nem a apreensão a autorização judicial; a apreensão ocorre após a liberação pelos peritos (art. 6º, II)."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A providência é imediata e própria da autoridade policial, sem depender de manifestação do Ministério Público."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 6º, I (redação dada pela Lei 8.862/1994).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar o marco temporal da preservação (chegada dos peritos) por atos de outras autoridades.",
+      "lei_referencia": "CPP, art. 6º, I",
+      "macete_do_riccardo": "Local do crime: ninguém mexe até o perito chegar. Primeiro o perito, depois a apreensão.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "inquérito policial",
+        "local do crime",
+        "peritos criminais",
+        "art. 6º"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (Decreto-Lei 3.689/1941), arts. 4º a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Inquérito Policial",
+      "subtema": "Reprodução simulada dos fatos",
+      "dificuldade": "facil",
+      "enunciado": "De acordo com o Código de Processo Penal, a reprodução simulada dos fatos, realizada pela autoridade policial para verificar a possibilidade de a infração ter sido praticada de determinado modo:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "depende de prévia autorização judicial, por envolver a participação do indiciado."
+        },
+        {
+          "id": "a2",
+          "texto": "somente pode ser realizada a requerimento do ofendido ou do próprio indiciado."
+        },
+        {
+          "id": "a3",
+          "texto": "é obrigatória em todos os inquéritos que apurem crimes dolosos contra a vida."
+        },
+        {
+          "id": "a4",
+          "texto": "é permitida, desde que não contrarie a moralidade ou a ordem pública."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "O art. 7º do CPP faculta à autoridade policial a reprodução simulada dos fatos (a chamada reconstituição) para verificar se a infração pode ter sido praticada de determinado modo. O único limite expresso é não contrariar a moralidade ou a ordem pública. É providência facultativa, de iniciativa da própria autoridade, sem necessidade de autorização judicial.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O art. 7º não exige autorização judicial: a própria autoridade policial pode proceder à reprodução simulada."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A lei não condiciona a reprodução a requerimento das partes; ela pode ser realizada por iniciativa da autoridade policial."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O verbo da lei é poderá: trata-se de faculdade, não de diligência obrigatória para certa espécie de crime."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 7º do CPP, cujo limite expresso é a moralidade e a ordem pública."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 7º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Transformar uma faculdade da autoridade policial em ato obrigatório ou dependente de autorização judicial.",
+      "lei_referencia": "CPP, art. 7º",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Reprodução simulada tem dois limites no CPP: moralidade e ordem pública. Qualquer outro requisito na alternativa é invenção.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "reprodução simulada",
+        "reconstituição",
+        "moralidade",
+        "ordem pública"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (Decreto-Lei 3.689/1941), arts. 4º a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Inquérito Policial",
+      "subtema": "Forma escrita do inquérito",
+      "dificuldade": "facil",
+      "enunciado": "Conforme o Código de Processo Penal, quanto à forma das peças do inquérito policial, é correto afirmar que todas elas serão:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "num só processado, reduzidas a escrito ou datilografadas e, neste caso, rubricadas pela autoridade."
+        },
+        {
+          "id": "a2",
+          "texto": "produzidas oralmente e registradas apenas em resumo no relatório final elaborado pela autoridade."
+        },
+        {
+          "id": "a3",
+          "texto": "autuadas em processados separados, conforme a natureza de cada diligência que for realizada."
+        },
+        {
+          "id": "a4",
+          "texto": "reduzidas a escrito e obrigatoriamente assinadas pelo juiz que será competente para a ação penal."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 9º do CPP consagra o caráter escrito do inquérito: todas as peças serão, num só processado, reduzidas a escrito ou datilografadas e, neste caso, rubricadas pela autoridade. Não há inquérito oral, nem fragmentação em processados distintos, nem assinatura do juiz nas peças.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 9º do CPP."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O inquérito é procedimento escrito: todas as peças são reduzidas a escrito, e não apenas resumidas no relatório."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A lei exige um só processado, e não autos separados por diligência."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Quem rubrica as peças datilografadas é a autoridade policial, não o juiz."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 9º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Atribuir ao juiz a rubrica das peças ou admitir inquérito oral ou fragmentado.",
+      "lei_referencia": "CPP, art. 9º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "inquérito policial",
+        "procedimento escrito",
+        "um só processado",
+        "rubrica"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (Decreto-Lei 3.689/1941), arts. 4º a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Inquérito Policial",
+      "subtema": "Requerimento de diligências pelo ofendido e pelo indiciado",
+      "dificuldade": "media",
+      "enunciado": "Durante inquérito policial que apura um furto, a vítima requer à autoridade policial a oitiva de um vizinho que teria visto a fuga do autor. O indiciado, por sua vez, requer a realização de perícia em um objeto apreendido. À luz do Código de Processo Penal, a autoridade policial:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "está obrigada a realizar as duas diligências, pois o requerimento das partes vincula a investigação."
+        },
+        {
+          "id": "a2",
+          "texto": "deve realizar apenas a diligência pedida pela vítima, pois o indiciado não pode requerer diligências."
+        },
+        {
+          "id": "a3",
+          "texto": "decidirá, a seu juízo, se realiza ou não cada uma das diligências requeridas."
+        },
+        {
+          "id": "a4",
+          "texto": "deve remeter os dois requerimentos ao juiz, a quem cabe decidir sobre a realização das diligências."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "Pelo art. 14 do CPP, o ofendido, ou seu representante legal, e o indiciado podem requerer qualquer diligência, que será realizada, ou não, a juízo da autoridade. Os dois têm legitimidade para pedir, mas o pedido não vincula a autoridade policial, que avalia a utilidade de cada diligência. Situação diferente é a das diligências requisitadas pelo juiz ou pelo Ministério Público, que a autoridade deve realizar (art. 13, II).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O requerimento do ofendido ou do indiciado não obriga a autoridade: a diligência será realizada, ou não, a juízo dela (art. 14)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O art. 14 confere expressamente ao indiciado a possibilidade de requerer qualquer diligência."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 14 do CPP: ambos podem requerer, e a realização fica a juízo da autoridade."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A lei atribui a decisão à própria autoridade policial, sem remessa obrigatória ao juiz."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 14; em comparação, art. 13, II.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir o requerimento das partes (discricionário para a autoridade) com a requisição do juiz ou do Ministério Público (de cumprimento obrigatório).",
+      "lei_referencia": "CPP, art. 14",
+      "macete_do_riccardo": "Partes requerem, autoridade decide. Juiz e MP requisitam, autoridade cumpre.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "diligências",
+        "requerimento do ofendido",
+        "indiciado",
+        "discricionariedade"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (Decreto-Lei 3.689/1941), arts. 4º a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Inquérito Policial",
+      "subtema": "Sigilo e atestado de antecedentes",
+      "dificuldade": "media",
+      "enunciado": "João figura como investigado em inquérito policial ainda em andamento e solicita à autoridade policial um atestado de antecedentes para apresentar em processo seletivo de emprego. Segundo o Código de Processo Penal, nesse atestado a autoridade policial:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "deverá mencionar a instauração do inquérito, em atenção ao interesse da sociedade."
+        },
+        {
+          "id": "a2",
+          "texto": "não poderá mencionar quaisquer anotações referentes à instauração de inquérito contra o requerente."
+        },
+        {
+          "id": "a3",
+          "texto": "poderá mencionar o inquérito somente se o crime investigado tiver pena máxima superior a quatro anos."
+        },
+        {
+          "id": "a4",
+          "texto": "somente poderá omitir o inquérito se houver autorização judicial expressa nesse sentido."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O parágrafo único do art. 20 do CPP, com a redação dada pela Lei 12.681/2012, proíbe a autoridade policial de mencionar, nos atestados de antecedentes que lhe forem solicitados, quaisquer anotações referentes à instauração de inquérito contra os requerentes. A vedação é absoluta no texto legal e não depende da gravidade do crime nem de ordem judicial.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O interesse da sociedade aparece no caput do art. 20 como fundamento do sigilo, não como autorização para registrar o inquérito no atestado; o parágrafo único proíbe essa menção."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Reproduz o art. 20, parágrafo único, do CPP."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A lei não cria exceção ligada à pena do crime: a vedação abrange quaisquer anotações sobre instauração de inquérito."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A omissão decorre diretamente da lei, sem necessidade de autorização judicial."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 20, parágrafo único (redação dada pela Lei 12.681/2012).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "A redação vigente do parágrafo único do art. 20 foi dada pela Lei 12.681/2012, conforme o texto fornecido.",
+      "pegadinha": "Usar o interesse da sociedade, previsto no caput, para justificar a menção do inquérito no atestado.",
+      "lei_referencia": "CPP, art. 20, parágrafo único",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "A vedação fala em quaisquer anotações: não há exceção por tipo de crime, pena ou autorização do juiz.",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "sigilo",
+        "atestado de antecedentes",
+        "art. 20",
+        "Lei 12.681/2012"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (Decreto-Lei 3.689/1941), arts. 4º a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Inquérito Policial",
+      "subtema": "Incomunicabilidade do indiciado",
+      "dificuldade": "media",
+      "enunciado": "Considerando exclusivamente a redação do Código de Processo Penal sobre a incomunicabilidade do indiciado, é correto afirmar que ela:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "pode ser decretada pela própria autoridade policial, por despacho nos autos, pelo prazo máximo de cinco dias."
+        },
+        {
+          "id": "a2",
+          "texto": "dispensa despacho nos autos quando a conveniência da investigação a exigir com urgência."
+        },
+        {
+          "id": "a3",
+          "texto": "pode ser decretada de ofício pelo juiz e não tem prazo máximo, desde que haja fundamentação."
+        },
+        {
+          "id": "a4",
+          "texto": "será decretada por despacho fundamentado do juiz, a requerimento da autoridade policial ou do Ministério Público, e não excederá três dias."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "O art. 21 do CPP prevê que a incomunicabilidade depende sempre de despacho nos autos e só é permitida quando o interesse da sociedade ou a conveniência da investigação o exigir. O parágrafo único completa: não excederá três dias e será decretada por despacho fundamentado do juiz, a requerimento da autoridade policial ou do Ministério Público, respeitadas as prerrogativas do advogado previstas no Estatuto da OAB.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Quem decreta é o juiz, e não a autoridade policial; além disso, o prazo máximo é de três dias, não cinco."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O caput do art. 21 diz que a incomunicabilidade dependerá sempre de despacho nos autos, sem exceção por urgência."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O parágrafo único exige requerimento da autoridade policial ou do Ministério Público e fixa o limite de três dias."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Reúne os requisitos do art. 21, parágrafo único: decisão judicial fundamentada, provocação da autoridade policial ou do MP e limite de três dias."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 21, caput e parágrafo único (redação dada pela Lei 5.010/1966).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Atribuir a decretação à autoridade policial e alterar o prazo máximo de três dias.",
+      "lei_referencia": "CPP, art. 21, parágrafo único",
+      "macete_do_riccardo": null,
+      "fique_ligado": "No texto do CPP: incomunicabilidade = juiz + requerimento (delegado ou MP) + no máximo 3 dias + respeito às prerrogativas do advogado.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "incomunicabilidade",
+        "indiciado",
+        "três dias",
+        "despacho fundamentado"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (Decreto-Lei 3.689/1941), arts. 4º a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Inquérito Policial",
+      "subtema": "Diligências da autoridade policial: oitiva do indiciado e informações sobre filhos",
+      "dificuldade": "media",
+      "enunciado": "Ao lavrar os atos relativos a um indiciado preso, a autoridade policial deve observar as providências expressamente previstas no art. 6º do Código de Processo Penal. Entre essas providências, está a de:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "colher informações sobre a existência de filhos, suas idades e se possuem alguma deficiência, além do nome e do contato de eventual responsável pelos cuidados deles, indicado pela pessoa presa."
+        },
+        {
+          "id": "a2",
+          "texto": "fazer o termo de oitiva do indiciado ser assinado por duas testemunhas que tenham presenciado o fato investigado, ainda que não tenham ouvido a leitura do termo."
+        },
+        {
+          "id": "a3",
+          "texto": "ordenar a identificação do indiciado exclusivamente por fotografia, sendo vedado o processo datiloscópico durante a fase de inquérito policial."
+        },
+        {
+          "id": "a4",
+          "texto": "nomear, ela própria, um responsável pelos cuidados dos filhos do preso, independentemente de qualquer indicação feita pela pessoa presa."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O inciso X do art. 6º, incluído pela Lei 13.257/2016, determina que a autoridade policial colha informações sobre a existência de filhos, suas idades, eventual deficiência e o nome e contato de eventual responsável pelos cuidados deles, indicado pela pessoa presa. Já o inciso V exige que o termo de oitiva do indiciado seja assinado por duas testemunhas que lhe tenham ouvido a leitura, e o inciso VIII manda identificar o indiciado pelo processo datiloscópico, se possível.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reproduz o art. 6º, X, do CPP."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O inciso V exige testemunhas que tenham ouvido a leitura do termo, e não testemunhas do fato."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O inciso VIII determina justamente a identificação pelo processo datiloscópico, se possível."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A lei manda apenas colher o nome e o contato do responsável indicado pela pessoa presa; não atribui à autoridade a nomeação desse responsável."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 6º, V, VIII e X (inciso X incluído pela Lei 13.257/2016).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "O inciso X do art. 6º foi incluído pela Lei 13.257/2016, conforme o texto fornecido.",
+      "pegadinha": "Confundir as testemunhas da leitura do termo com testemunhas do fato e inverter a regra da identificação datiloscópica.",
+      "lei_referencia": "CPP, art. 6º, X",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "As duas testemunhas do inciso V são de leitura do termo, não do crime.",
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "art. 6º",
+        "oitiva do indiciado",
+        "identificação datiloscópica",
+        "filhos da pessoa presa"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (Decreto-Lei 3.689/1941), arts. 4º a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Inquérito Policial",
+      "subtema": "Defensor do servidor de segurança investigado por uso da força letal",
+      "dificuldade": "dificil",
+      "enunciado": "Um policial militar passa a figurar como investigado em inquérito policial que apura fato relacionado ao uso da força letal no exercício profissional, em situação que ele alega ter sido de legítima defesa. Citado da instauração do procedimento, ele deixa esgotar o prazo legal sem nomear defensor. Pouco depois dos fatos, ele havia sido transferido para outra corporação. Nos termos do art. 14-A do Código de Processo Penal, a autoridade responsável pela investigação deverá:",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "nomear de imediato defensor dativo de sua confiança, pois o investigado, já citado, perdeu o direito de ter defensor indicado por outro órgão."
+        },
+        {
+          "id": "a2",
+          "texto": "prosseguir na investigação sem defensor, pois a constituição de defensor nesse procedimento é mera faculdade do investigado."
+        },
+        {
+          "id": "a3",
+          "texto": "intimar a instituição a que o investigado estava vinculado à época dos fatos para que, em 48 horas, indique defensor para representá-lo."
+        },
+        {
+          "id": "a4",
+          "texto": "intimar a corporação em que o investigado estiver lotado na data da intimação para que indique defensor no prazo de dez dias."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "O art. 14-A, incluído pela Lei 13.964/2019, aplica-se a servidores das instituições do art. 144 da Constituição investigados por fatos relacionados ao uso da força letal no exercício profissional, inclusive nas situações do art. 23 do Código Penal, como a legítima defesa. O investigado é citado e tem até 48 horas para constituir defensor (§ 1º). Esgotado esse prazo sem nomeação, a autoridade deve intimar a instituição a que ele estava vinculado à época da ocorrência dos fatos para que, em 48 horas, indique defensor (§ 2º). A transferência posterior não muda a instituição responsável.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "A lei não autoriza a autoridade a nomear defensor de sua escolha; ela deve intimar a instituição de vínculo à época dos fatos (§ 2º)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O § 2º impõe à autoridade o dever de intimar a instituição para indicar defensor quando o investigado não o nomeia; não há previsão de seguir sem defensor."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 14-A, § 2º: intimação da instituição de vínculo à época dos fatos, com prazo de 48 horas."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O critério legal é a instituição a que o investigado estava vinculado à época da ocorrência dos fatos, e o prazo é de 48 horas, não de dez dias."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 14-A, caput, §§ 1º e 2º (incluídos pela Lei 13.964/2019).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "O art. 14-A foi incluído pela Lei 13.964/2019, conforme o texto fornecido.",
+      "pegadinha": "Trocar a instituição de vínculo à época dos fatos pela de lotação atual e alterar o prazo de 48 horas.",
+      "lei_referencia": "CPP, art. 14-A, § 2º",
+      "macete_do_riccardo": "Art. 14-A: 48 horas para o investigado, mais 48 horas para a instituição da época dos fatos.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "art. 14-A",
+        "força letal",
+        "defensor",
+        "Lei 13.964/2019",
+        "48 horas"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (Decreto-Lei 3.689/1941), arts. 4º a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Inquérito Policial",
+      "subtema": "Defesa do investigado no art. 14-A: Defensoria, custos e militares",
+      "dificuldade": "dificil",
+      "enunciado": "Sobre a defesa dos servidores investigados por fatos relacionados ao uso da força letal no exercício profissional, nos termos do art. 14-A do Código de Processo Penal, assinale a afirmativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Havendo necessidade de indicação de defensor pela instituição, a defesa caberá preferencialmente a advogado contratado pela corporação, e só subsidiariamente à Defensoria Pública."
+        },
+        {
+          "id": "a2",
+          "texto": "Na hipótese de não atuação da Defensoria Pública, os custos com o patrocínio dos interesses do investigado correrão por conta do orçamento do Poder Judiciário local."
+        },
+        {
+          "id": "a3",
+          "texto": "As regras do artigo aplicam-se aos militares das Forças Armadas em qualquer investigação sobre uso da força letal, independentemente da missão em que ocorreram os fatos."
+        },
+        {
+          "id": "a4",
+          "texto": "As regras do artigo aplicam-se aos militares das Forças Armadas desde que os fatos investigados digam respeito a missões para a Garantia da Lei e da Ordem."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "O § 3º do art. 14-A dá preferência à Defensoria Pública; onde ela não estiver instalada, a União ou a unidade da Federação deve disponibilizar profissional. Se a Defensoria não atuar, os custos correm pelo orçamento próprio da instituição a que o investigado estava vinculado à época dos fatos (§ 5º). Por fim, o § 6º estende as regras aos militares das instituições do art. 142 da Constituição (Forças Armadas), mas apenas quando os fatos disserem respeito a missões para a Garantia da Lei e da Ordem.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Inverte a regra do § 3º: a preferência é da Defensoria Pública, e só onde ela não estiver instalada outro profissional é disponibilizado."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O § 5º atribui os custos ao orçamento próprio da instituição a que o investigado estava vinculado à época dos fatos, e não ao Judiciário."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Generalização indevida: o § 6º condiciona a aplicação aos militares das Forças Armadas a fatos ligados a missões de Garantia da Lei e da Ordem."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Reproduz o art. 14-A, § 6º, do CPP."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 14-A, §§ 3º, 5º e 6º (incluídos pela Lei 13.964/2019).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "O art. 14-A foi incluído pela Lei 13.964/2019, conforme o texto fornecido.",
+      "pegadinha": "Inverter a preferência da Defensoria Pública, deslocar o custeio para outro Poder e ampliar a aplicação às Forças Armadas sem a condição da GLO.",
+      "lei_referencia": "CPP, art. 14-A, § 6º",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Forças Armadas só entram no art. 14-A se o fato envolver missão de Garantia da Lei e da Ordem.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "excecao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "art. 14-A",
+        "Defensoria Pública",
+        "Forças Armadas",
+        "Garantia da Lei e da Ordem",
+        "custeio da defesa"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (Decreto-Lei 3.689/1941), arts. 4º a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Inquérito Policial",
+      "subtema": "Diligências da autoridade policial: apreensão, perícias, acareação e vida pregressa",
+      "dificuldade": "dificil",
+      "enunciado": "Após um homicídio em via pública, o delegado de polícia que preside o inquérito adota diversas providências. Considerando o art. 6º do Código de Processo Penal, qual das providências abaixo está em conformidade com a lei?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Apreender a arma encontrada ao lado da vítima antes da chegada dos peritos, para garantir sua guarda, e liberar o local em seguida."
+        },
+        {
+          "id": "a2",
+          "texto": "Averiguar a vida pregressa do indiciado, inclusive sua atitude e seu estado de ânimo antes e depois do crime e durante ele."
+        },
+        {
+          "id": "a3",
+          "texto": "Pedir ao juiz autorização para determinar o exame de corpo de delito na vítima, por não poder ordená-lo por conta própria."
+        },
+        {
+          "id": "a4",
+          "texto": "Deixar de fazer acareação entre testemunhas com versões contraditórias, por ser esse ato exclusivo da fase judicial."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O art. 6º do CPP lista providências que a própria autoridade policial adota. O inciso IX manda averiguar a vida pregressa do indiciado, sob os pontos de vista individual, familiar e social, sua condição econômica e sua atitude e estado de ânimo antes e depois do crime e durante ele. A apreensão de objetos ocorre após a liberação pelos peritos (inciso II), a determinação de exame de corpo de delito cabe à própria autoridade (inciso VII) e a acareação também é diligência do inquérito (inciso VI).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O inciso II manda apreender os objetos após liberados pelos peritos criminais, e o inciso I exige preservar o local até a chegada deles."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 6º, IX, do CPP."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O inciso VII atribui à autoridade policial determinar, se for o caso, o exame de corpo de delito e outras perícias, sem autorização judicial."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O inciso VI prevê que a autoridade policial proceda a reconhecimento de pessoas e coisas e a acareações já no inquérito."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 6º, I, II, VI, VII e IX.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Inverter a ordem entre perícia e apreensão e supor que perícias e acareações dependem do juiz ou só ocorrem em juízo.",
+      "lei_referencia": "CPP, art. 6º, IX",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "art. 6º",
+        "vida pregressa",
+        "exame de corpo de delito",
+        "acareação",
+        "apreensão de objetos"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (Decreto-Lei 3.689/1941), arts. 4º a 23, fornecido no contexto"
+      ]
+    }
+  ]
+}

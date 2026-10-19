@@ -1,0 +1,94 @@
+{
+  "auditorias": [
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reproduz o art. 51, caput e parágrafo único (30 dias preso, 90 solto, duplicação pelo juiz, ouvido o MP, a pedido justificado do delegado). Os distratores reescritos erram prazos, quem amplia ou a exigência de oitiva do MP; nenhum ficou defensável."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Embarcação de transporte coletivo de passageiros atrai o parágrafo único do art. 39 (4 a 6 anos e 400 a 600 dias-multa, cumulativamente com as demais). O art. 40 só alcança os arts. 33 a 37, o que afasta a a4; a1 e a3 ignoram o parágrafo único e o próprio tipo."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a4 reproduz o art. 50, §§ 1º e 2º. A a2 inverte o § 2º, a a1 exige laudo definitivo e a a3 cria exigência de dois peritos oficiais; todas claramente erradas."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a1 reúne o art. 53, caput, II e parágrafo único (autorização judicial, oitiva do MP, itinerário provável e identificação dos agentes ou colaboradores). Os distratores contrariam a exigência de autorização judicial, a regra de qualquer fase da persecução e a ressalva da ação penal cabível."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Enunciado avisa que cobra a letra da lei e o comentário traz a nota obrigatória do art. 44. Arts. 35 e 36 estão no rol; o parágrafo único fixa dois terços, vedado ao reincidente específico (a2). Art. 33, § 2º, e art. 38 estão fora do rol (a1, a3) e não há fração de metade (a4)."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a4 aplica o art. 50, §§ 3º e 4º, ao flagrante (juiz certifica em 10 dias, delegado executa em 15) e o art. 50-A à apreensão sem flagrante (incineração em até 30 dias da apreensão, com amostra). Os distratores trocam regimes, agentes e termo inicial do prazo."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "alternativas",
+          "gravidade": "baixa",
+          "descricao": "Na reescrita, a correta (a3) perdeu o motivo legal do aumento até o décuplo (\"em virtude da situação econômica do acusado\", art. 43, parágrafo único), ficando mais ampla que a lei; curiosamente o distrator a4 conserva essa condição. Não chega a tornar a a3 errada nem outra alternativa correta, mas convém restaurar a precisão."
+        }
+      ],
+      "correcao_sugerida": "Na a3, trocar \"podem ser aumentadas até o décuplo se o juiz as considerar ineficazes, ainda que aplicadas no máximo\" por \"podem ser aumentadas até o décuplo se, pela situação econômica do acusado, o juiz as considerar ineficazes, ainda que aplicadas no máximo\".",
+      "justificativa": "Gabarito conferido nos arts. 42 e 43, parágrafo único: preponderância da natureza e quantidade da droga, personalidade e conduta social sobre o art. 59 do CP; multas cumulativas e aumento até o décuplo. Distratores claramente errados (teto de 5 salários, cumulação, décuplo). Só falta restaurar na correta a condição da situação econômica."
+    }
+  ]
+}

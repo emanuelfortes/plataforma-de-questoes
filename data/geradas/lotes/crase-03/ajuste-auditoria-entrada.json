@@ -1,0 +1,73 @@
+{
+  "questoes": [
+    {
+      "id": "q05",
+      "tema": "Crase",
+      "subtema": "Crase antes de nome de lugar determinado por especificador",
+      "dificuldade": "media",
+      "enunciado": "Assinale a frase escrita de acordo com a norma-padrão quanto ao emprego do sinal indicativo de crase.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O delegado retornou à Brasília na última sexta-feira, logo depois do fim da audiência."
+        },
+        {
+          "id": "a2",
+          "texto": "O inspetor voltou à Fortaleza de sua juventude e mal reconheceu as ruas."
+        },
+        {
+          "id": "a3",
+          "texto": "A equipe chegou à Sobral a tempo de acompanhar o início da operação."
+        },
+        {
+          "id": "a4",
+          "texto": "Os agentes foram à Curitiba para ouvir a testemunha do caso."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "Nomes de cidade como Brasília, Fortaleza, Sobral e Curitiba não admitem artigo (volto de Brasília, volto de Fortaleza). Porém, quando o nome vem determinado por um especificador, passa a aceitar artigo: “volto da Fortaleza de sua juventude”. Nesse caso, com a preposição exigida pelo verbo, ocorre a crase. Por isso só “voltou à Fortaleza de sua juventude” está correto.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Sem especificador, diz-se “volto de Brasília”. O correto é “retornou a Brasília”."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "O especificador “de sua juventude” faz o topônimo aceitar artigo (volto da Fortaleza de sua juventude). Com a preposição de “voltar a”, há crase."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Diz-se “volto de Sobral”: o nome não aceita artigo. O correto é “chegou a Sobral”."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Diz-se “volto de Curitiba”. Sem artigo, não há crase: “foram a Curitiba”."
+        }
+      ],
+      "fundamento_legal": "Não se aplica: disciplina sem lei de referência. Regra da norma-padrão: topônimo que não admite artigo passa a admiti-lo quando determinado por especificador, o que permite a crase.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Aplicar a regra geral do topônimo sem artigo e esquecer que o especificador muda o resultado.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "O teste do “voltar” também funciona com especificador: “volto da Fortaleza de sua juventude”. Apareceu “da”, tem crase.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "excecao",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "crase",
+        "nome de lugar",
+        "especificador",
+        "teste do voltar"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal no contexto)"
+      ]
+    }
+  ]
+}

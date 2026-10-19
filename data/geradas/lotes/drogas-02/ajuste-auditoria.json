@@ -1,0 +1,88 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a2 reproduz o art. 33, caput (\"ainda que gratuitamente\", reclusão de 5 a 15 anos e 500 a 1.500 dias-multa). Os distratores reescritos seguem errados: lucro como elemento do tipo, pena do art. 35 e rol restrito de verbos. A correta não ficou desproporcional (cerca de 14% acima da média das erradas)."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Possuir e guardar estão entre os onze verbos do art. 34, com pena de 3 a 10 anos e 1.200 a 2.000 dias-multa. Os distratores trazem rol restrito de verbos, pena do art. 33 e pena do art. 37, todos contrariados pelo texto. O alerta sobre a multa maior no mínimo confere."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A a3 é a letra do art. 33, § 4º, conforme o texto fornecido (que não contém a vedação de conversão, por isso a ressalva do art. 44 não é acionada). Os distratores trocam a fração pela do art. 41, tornam os requisitos alternativos ou inventam requisito e fração. A correta é a mais curta, sem pista de tamanho."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Consentir que outrem use, gratuitamente, bem próprio para guardar droga destinada à revenda se enquadra no art. 33, § 1º, III, com as penas do caput. O art. 34 (instrumentos de produção) e o art. 37 (informante) não descrevem a conduta, e a atipicidade contraria o texto expresso."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Repassar avisos a grupo destinado ao tráfico, sem integrá-lo, é a conduta do art. 37 (2 a 6 anos e 300 a 700 dias-multa). O enunciado afasta a associação ao dizer que Marcos não a integrava; financiamento e auxílio ao uso não se encaixam. Penas dos distratores conferem com os arts. 35, 36 e 33, § 2º, mas os enquadramentos estão errados."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 33, § 1º, IV, alcança produto químico destinado à preparação vendido a agente disfarçado, presentes elementos probatórios razoáveis de conduta criminal preexistente, todos descritos no caso. A a4 tem o enquadramento certo, mas afirma ser irrelevante o requisito expresso, o que a torna errada; a a2 confunde insumo com o maquinário do art. 34."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O parágrafo único do art. 35 exige prática reiterada e remete às penas do caput do art. 35; o art. 36 tem pena própria de 8 a 20 anos e 1.500 a 4.000 dias-multa. Os distratores estendem o \"reiteradamente ou não\" ao parágrafo único, atribuem a pena do art. 36 à associação ou ampliam o art. 36 a todos os crimes da lei. A correta não é a mais longa."
+    }
+  ]
+}

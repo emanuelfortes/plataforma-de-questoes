@@ -1,0 +1,136 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Venda de droga nas imediações de escola atrai o art. 40, III, com aumento de um sexto a dois terços; o inciso se refere ao local, sem exigir que os compradores sejam estudantes. Os distratores erram a fração, inventam pena em dobro (o art. 40-A trata de outra hipótese) ou confundem com o inciso VI."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa correta reproduz o art. 32, caput (destruição imediata pelo delegado, amostra para perícia e auto de levantamento). Os distratores contrariam o próprio art. 32: autoridade errada, autorização judicial prévia, exigência de autorização do Sisnama para queimada (dispensada pelo § 3º) e negação da expropriação (§ 4º)."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "normativo",
+          "gravidade": "media",
+          "descricao": "O art. 50, § 2º, diz que 'o perito que subscrever o laudo' não fica impedido de participar do laudo definitivo. O enunciado e a alternativa correta aplicam a regra à pessoa idônea que firmou o laudo de constatação na falta de perito oficial, o que é uma extensão interpretativa, não a letra da lei. A participação de pessoa não oficial no laudo definitivo também depende de regras do CPP que não estão no texto fornecido."
+        }
+      ],
+      "correcao_sugerida": "Retirar do enunciado o trecho 'que depois também participou da elaboração do laudo definitivo' e trocar o fim da alternativa a4 por 'e é suficiente para estabelecer a materialidade do delito nessa fase'. Na a3, manter o erro com a redação 'o laudo de constatação é válido, mas não serve para estabelecer a materialidade do delito na lavratura do auto'. Ajustar as justificativas.",
+      "justificativa": "O núcleo do gabarito está certo (art. 50, § 1º: pessoa idônea na falta de perito oficial, laudo de constatação suficiente para o auto). O ponto frágil é estender o § 2º, que fala em 'perito', à pessoa idônea. Corrigindo isso, a questão fica segura."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a5",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "normativo",
+          "gravidade": "baixa",
+          "descricao": "A alternativa correta diz que o juiz 'certifica o laudo de constatação'; o art. 50, § 3º, fala em certificar 'a regularidade formal' do laudo de constatação. A imprecisão não altera o gabarito, mas convém seguir a letra da lei."
+        }
+      ],
+      "correcao_sugerida": "Na alternativa a5, trocar 'certifica o laudo de constatação' por 'certifica a regularidade formal do laudo de constatação'.",
+      "justificativa": "O gabarito aplica corretamente o art. 50, §§ 3º e 4º (juiz em 10 dias, delegado em 15) ao flagrante e o art. 50-A (incineração em até 30 dias) à apreensão sem prisão. Os distratores trocam prazos, autoridades ou dispensam a amostra. Há só um ajuste de redação na correta."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O transporte do Ceará ao Piauí, já com a divisa cruzada, caracteriza o tráfico entre Estados (art. 40, V), e o uso do adolescente no transporte é prática que o envolve (art. 40, VI); a fração é de um sexto a dois terços. Os distratores confundem com transnacionalidade, restringem o inciso VI ou trocam a fração."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Fábio colaborou voluntariamente e atingiu os dois resultados do art. 41 (identificação dos coautores e recuperação do produto do crime), o que gera redução de um terço a dois terços. Os distratores trazem a fração e os requisitos do art. 33, § 4º, um perdão judicial inexistente, um acordo prévio não exigido e uma fração fixa."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 51 fixa 30 dias para indiciado preso, prazo que o juiz pode duplicar, ouvido o MP, mediante pedido justificado da autoridade policial. Cada distrator erra o prazo, quem duplica ou a possibilidade de duplicação."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Na lancha de transporte coletivo aplica-se o art. 39, parágrafo único: prisão de 4 a 6 anos e 400 a 600 dias-multa, cumulados com as demais penas do caput (apreensão do veículo e cassação pelo mesmo prazo da pena). O crime é de perigo, e o art. 40 só alcança os arts. 33 a 37, o que afasta os distratores."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A não atuação policial do art. 53, II, cabe em qualquer fase, com autorização judicial e oitiva do MP, sem prejuízo da ação penal, e o parágrafo único exige que se conheçam o itinerário provável e a identificação dos agentes ou colaboradores. O transporte do Ceará a Pernambuco atrai o art. 40, V. Os distratores contrariam algum desses pontos."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Repassar informações a associação de traficantes sem integrá-la configura o art. 37. O art. 40, II (função pública), alcança os arts. 33 a 37, e o art. 56, § 1º, faculta ao juiz o afastamento cautelar do funcionário público já no recebimento da denúncia. Os distratores erram o tipo penal, o alcance do art. 40 ou a natureza e o momento do afastamento."
+    }
+  ]
+}

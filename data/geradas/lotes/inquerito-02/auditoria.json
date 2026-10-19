@@ -1,0 +1,130 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvida de forma independente: a2, conforme o art. 6º, I, do CPP (preservação até a chegada dos peritos criminais). Distratores claramente errados e analisados corretamente, inclusive a remissão ao inciso II em a3."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Gabarito a4 confere com o art. 7º do CPP, cujo único limite expresso é a moralidade e a ordem pública. Os distratores inventam requisitos (autorização judicial, requerimento das partes, obrigatoriedade) ausentes do texto."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Gabarito a1 reproduz o art. 9º do CPP. Questão de lei seca adequada ao nível fácil e ao foco do lote; distratores sem defensabilidade."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Pelo art. 14 do CPP, ofendido e indiciado podem requerer diligências, realizadas ou não a juízo da autoridade: a3. O contraste com a requisição do art. 13, II, no comentário está correto."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Gabarito a2 reproduz o art. 20, parágrafo único, do CPP (redação da Lei 12.681/2012). Caso concreto bem construído e distratores claramente sem base legal."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "pedagogico",
+          "gravidade": "baixa",
+          "descricao": "O enunciado acertadamente restringe a cobrança à redação do CPP, mas o comentário não avisa que a doutrina majoritária considera a incomunicabilidade do art. 21 incompatível com a Constituição de 1988 (art. 136, § 3º, IV, veda a incomunicabilidade do preso até no estado de defesa). Sem esse alerta, o aluno pode sair com a impressão de que o instituto é aplicável sem controvérsia."
+        }
+      ],
+      "correcao_sugerida": "Acrescentar ao comentário (ou ao fique_ligado) uma frase: 'Atenção: grande parte da doutrina entende que o art. 21 não foi recepcionado pela Constituição de 1988, que veda a incomunicabilidade do preso até no estado de defesa (art. 136, § 3º, IV); por isso o enunciado pede a redação literal do CPP.'",
+      "justificativa": "Gabarito a4 confere com o art. 21, caput e parágrafo único, e o recorte 'exclusivamente a redação do CPP' afasta a ambiguidade. Ressalva apenas pedagógica, para registrar a controvérsia constitucional no comentário."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Gabarito a1 reproduz o art. 6º, X, do CPP. Os distratores deturpam corretamente os incisos V (testemunhas da leitura), VIII (processo datiloscópico) e X (responsável indicado pelo preso)."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Policial militar integra instituição do art. 144 da CF e a legítima defesa está no art. 23 do CP, logo incide o art. 14-A. Esgotado o prazo do § 1º, a autoridade intima a instituição de vínculo à época dos fatos para indicar defensor em 48 horas (§ 2º): a3. O dado da transferência funciona como pegadinha legítima para a4."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Gabarito a4 reproduz o art. 14-A, § 6º. Os distratores invertem a preferência da Defensoria (§ 3º), deslocam o custeio (§ 5º) e suprimem a condição da GLO (§ 6º); nenhum é defensável."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Gabarito a2 corresponde ao art. 6º, IX, do CPP. a1 contraria os incisos I e II, a3 o inciso VII e a4 o inciso VI. Cobra o art. 6º por ângulo distinto de q01 e q07, sem duplicidade."
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvida de forma independente: a3, pelo art. 5º, § 4º, do CPP. Os distratores misturam a instauração de ofício (incondicionada), a requisição do MP, o art. 19 e o art. 5º, § 5º (ação privada), e todos estão errados pelos motivos indicados."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Gabarito a1 conferido nos arts. 10, § 1º, e 17 do CPP. Os distratores atribuem ao delegado ou ao chefe de Polícia um arquivamento que a lei veda ou não prevê. A questão é direta e adequada ao nível fácil."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A resposta a4 reproduz o art. 6º, I e II, do CPP (preservar o local até a chegada dos peritos e apreender depois de liberado). Os distratores estão claramente errados (inversão da ordem, condição inexistente de flagrante, uso indevido do art. 7º, dependência de requisição)."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Pelo art. 10, caput, preso preventivamente: 10 dias contados da execução da ordem de prisão, ou seja, a2. Os distratores variam o prazo e o termo inicial de forma inequívoca. A observação temporal delimita corretamente o recorte à regra geral do art. 10."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a5",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "pedagogico",
+          "gravidade": "baixa",
+          "descricao": "O enunciado afirma que o estelionato é de ação pública incondicionada \"na situação descrita\", mas não descreve nenhuma circunstância que justifique isso. Como em regra o estelionato depende de representação, a ressalva soa artificial e pode confundir o aluno, embora não altere o gabarito (o art. 5º, § 2º, vale para qualquer requerimento de abertura de inquérito)."
+        }
+      ],
+      "correcao_sugerida": "Trocar o crime do enunciado por um de ação pública incondicionada sem discussão (por exemplo, \"Carlos, vítima de um furto\") e retirar a expressão \"crime de ação penal pública incondicionada na situação descrita\", ou então descrever no caso a circunstância que torna a ação incondicionada.",
+      "justificativa": "O gabarito a5 é a transcrição do art. 5º, § 2º, do CPP, e os distratores estão errados pelos motivos indicados (§ 2º, art. 5º, II e § 1º). A única limitação é a qualificação do estelionato no enunciado, que pode ser resolvida com um ajuste pontual."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A resposta a3 combina corretamente o art. 14 (requerimento do indiciado realizado, ou não, a juízo da autoridade) com o art. 13, II (a autoridade realiza as diligências requisitadas pelo MP). Os distratores invertem, generalizam ou restringem essas regras de forma inequívoca."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 148 do CP está no rol do art. 13-A, e a1 reproduz o caput e o parágrafo único (empresa privada, 24 horas, três requisitos). Os distratores trazem exigência judicial inexistente, prazo errado, restrição a órgãos públicos, exclusividade do MP e acesso ao conteúdo das comunicações, todos incorretos."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvida de forma independente pelo art. 13-B, §§ 3º e 4º: requisição direta após 12 horas sem manifestação judicial, com imediata comunicação ao juiz, e instauração em até 72 horas do registro, ou seja, a4. Os distratores erram o acesso ao conteúdo, o prazo do sinal (30 dias, renovável uma vez) e a titularidade, conforme o § 2º e o caput."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A Polícia Militar integra o art. 144 da CF, e o caso se enquadra no art. 14-A. Esgotado o prazo do § 1º, a autoridade intima a instituição para indicar defensor em 48 horas, com preferência pela Defensoria Pública (§§ 2º e 3º), o que dá a2. Os distratores contrariam os §§ 2º e 5º e não têm base no texto. A questão é muito pertinente ao cargo."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a5",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A resposta a5 combina o art. 10, § 3º (fato de difícil elucidação, indiciado solto, prazo marcado pelo juiz) com o art. 22 (diligência em outra circunscrição da mesma comarca sem precatória). Os demais itens contrariam o art. 22, o § 3º do art. 10 (sem prorrogação automática e só para indiciado solto) e o art. 16. Não repete o recorte da q04."
+    }
+  ]
+}

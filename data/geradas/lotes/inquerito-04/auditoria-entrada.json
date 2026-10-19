@@ -1,0 +1,789 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Inquérito Policial",
+      "subtema": "Instauração, notitia e delatio criminis",
+      "dificuldade": "facil",
+      "enunciado": "Joana compareceu a uma delegacia de polícia e relatou ao delegado um fato que, em tese, configura crime cuja ação penal é pública, mas depende de representação da vítima. Ao final do relato, Joana declarou expressamente que não desejava ver o autor processado e que não autorizava nenhuma providência contra ele. Diante dessa situação, e de acordo com o Código de Processo Penal, o delegado de polícia",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "deverá instaurar o inquérito de ofício, pois todo crime de ação pública admite investigação independentemente da vontade da vítima."
+        },
+        {
+          "id": "a2",
+          "texto": "poderá instaurar o inquérito somente se houver requisição do Ministério Público, que supre a falta de representação."
+        },
+        {
+          "id": "a3",
+          "texto": "não poderá iniciar o inquérito policial enquanto não houver a representação da vítima ou de quem tenha qualidade para representá-la."
+        },
+        {
+          "id": "a4",
+          "texto": "deverá instaurar o inquérito e, ao final, remeter os autos ao juízo, onde aguardarão a iniciativa da vítima."
+        },
+        {
+          "id": "a5",
+          "texto": "poderá instaurar o inquérito apenas mediante requerimento escrito da vítima, como ocorre nos crimes de ação penal privada."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "Nos crimes de ação penal pública condicionada, a representação é condição para o próprio início da investigação: o art. 5º, § 4º, do CPP diz que o inquérito não poderá sem ela ser iniciado. Como Joana declarou que não representa, o delegado não pode instaurar o inquérito, nem de ofício nem por requisição de outra autoridade que tente suprir a vontade da vítima.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "A instauração de ofício (art. 5º, I) vale para a ação pública incondicionada. Na condicionada, o § 4º do art. 5º impede o início do inquérito sem representação."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A requisição do Ministério Público não substitui a representação. O § 4º do art. 5º é taxativo: sem representação, o inquérito não pode ser iniciado."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Reproduz a regra do art. 5º, § 4º, do CPP: nos crimes de ação pública dependente de representação, o inquérito não pode ser iniciado sem ela."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Mistura regimes: a remessa dos autos ao juízo para aguardar a iniciativa do ofendido é a regra do art. 19, própria dos crimes em que não cabe ação pública, e ainda pressupõe inquérito já instaurado validamente."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "O requerimento de quem tem qualidade para intentar a ação é a exigência do art. 5º, § 5º, para os crimes de ação privada. O caso trata de ação pública condicionada, cuja exigência é a representação."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 5º, § 4º (inquérito nos crimes de ação pública condicionada); contraste com art. 5º, I e II, art. 5º, § 5º, e art. 19.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir ação pública condicionada com incondicionada (instauração de ofício) ou com ação privada (requerimento do ofendido).",
+      "lei_referencia": "CPP, art. 5º, § 4º",
+      "macete_do_riccardo": "Condicionada sem representação: nem começa. Privada sem requerimento: nem começa. De ofício, só na incondicionada.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "inquérito policial",
+        "representação",
+        "ação penal pública condicionada",
+        "instauração"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4º a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Inquérito Policial",
+      "subtema": "Conclusão e prazos",
+      "dificuldade": "facil",
+      "enunciado": "Após realizar todas as diligências possíveis em um inquérito policial instaurado para apurar um furto, o delegado de polícia concluiu que não havia nenhum elemento que indicasse a autoria do fato. Nessa situação, segundo o Código de Processo Penal, cabe à autoridade policial",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "elaborar minucioso relatório do que foi apurado e enviar os autos ao juiz competente, já que não pode mandar arquivar os autos do inquérito."
+        },
+        {
+          "id": "a2",
+          "texto": "determinar o arquivamento dos autos por despacho fundamentado, comunicando a decisão à vítima e ao Ministério Público."
+        },
+        {
+          "id": "a3",
+          "texto": "arquivar os autos na própria delegacia, podendo desarquivá-los a qualquer tempo se surgirem novas provas."
+        },
+        {
+          "id": "a4",
+          "texto": "manter os autos na delegacia até o prazo prescricional do crime, quando deverá declarar extinta a investigação."
+        },
+        {
+          "id": "a5",
+          "texto": "remeter os autos ao chefe de Polícia, a quem compete decidir sobre o arquivamento do inquérito."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "A autoridade policial não tem poder de arquivar o inquérito (art. 17 do CPP). Concluídas as investigações, mesmo sem descobrir o autor, ela faz minucioso relatório do que foi apurado e envia os autos ao juiz competente (art. 10, § 1º). A decisão sobre o destino do inquérito não é do delegado.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Combina o art. 10, § 1º (relatório e remessa ao juiz competente) com o art. 17 (a autoridade policial não pode mandar arquivar autos de inquérito)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Despacho de arquivamento pelo delegado é vedado pelo art. 17, ainda que fundamentado e comunicado a terceiros."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O delegado não pode arquivar o inquérito (art. 17). A possibilidade de novas pesquisas do art. 18 pressupõe arquivamento ordenado por outra autoridade, e não pela polícia."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Não existe previsão de o delegado reter os autos até a prescrição nem de declarar extinta a investigação. O art. 10, § 1º, manda enviar os autos ao juiz."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "O chefe de Polícia aparece no art. 5º, § 2º, como instância de recurso contra o indeferimento da abertura do inquérito, e não como autoridade que decide o arquivamento."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 17 (vedação de arquivamento pela autoridade policial) e art. 10, § 1º (relatório e remessa ao juiz competente).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Achar que o delegado, por presidir a investigação, pode encerrá-la por arquivamento quando não encontra o autor.",
+      "lei_referencia": "CPP, art. 17",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Delegado não arquiva inquérito em nenhuma hipótese: ele relata e remete.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "arquivamento",
+        "relatório",
+        "autoridade policial",
+        "conclusão do inquérito"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4º a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Inquérito Policial",
+      "subtema": "Atribuições da autoridade policial (art. 6º do CPP)",
+      "dificuldade": "facil",
+      "enunciado": "Informado de que um homicídio acabara de ocorrer no interior de uma residência, o delegado de polícia dirigiu-se ao local. Ali encontrou, ao lado do corpo, uma faca com manchas de sangue. Os peritos criminais ainda não haviam chegado. De acordo com o Código de Processo Penal, a conduta correta da autoridade policial é",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "recolher imediatamente a faca, para evitar que se perca, e entregá-la aos peritos quando chegarem à delegacia."
+        },
+        {
+          "id": "a2",
+          "texto": "liberar o local depois de fotografá-lo, pois a preservação da cena só é obrigatória quando houver prisão em flagrante."
+        },
+        {
+          "id": "a3",
+          "texto": "determinar a reprodução simulada dos fatos antes da chegada dos peritos, para registrar a dinâmica do crime."
+        },
+        {
+          "id": "a4",
+          "texto": "providenciar para que não se alterem o estado e a conservação das coisas até a chegada dos peritos e apreender a faca depois de liberada por eles."
+        },
+        {
+          "id": "a5",
+          "texto": "aguardar requisição do Ministério Público para apreender a faca, pois a apreensão de objetos depende de ordem externa."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "O art. 6º do CPP manda a autoridade policial, logo que souber da infração, dirigir-se ao local e preservar o estado e a conservação das coisas até a chegada dos peritos (inciso I) e apreender os objetos relacionados ao fato depois de liberados pelos peritos (inciso II). A ordem é: preserva, a perícia examina, depois a polícia apreende.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Inverte a ordem do art. 6º, II: a apreensão ocorre após a liberação pelos peritos, e não antes da chegada deles."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O dever de preservar o local (art. 6º, I) surge logo que a autoridade tem conhecimento da infração, sem depender de prisão em flagrante."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A reprodução simulada (art. 7º) é faculdade para verificar se a infração foi praticada de determinado modo e não substitui nem antecede a preservação do local para os peritos."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Reflete exatamente o art. 6º, I e II: preservar o local até a chegada dos peritos e apreender os objetos depois de liberados por eles."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "A apreensão é dever próprio da autoridade policial previsto no art. 6º, II, e não depende de requisição do Ministério Público."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 6º, I e II (redação dada pela Lei 8.862/1994); contraste com art. 7º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Apreender o objeto antes da perícia, invertendo a sequência legal.",
+      "lei_referencia": "CPP, art. 6º, I e II",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "A banca costuma trocar a ordem: o objeto é apreendido depois de liberado pelos peritos, nunca antes.",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "local do crime",
+        "peritos criminais",
+        "apreensão de objetos",
+        "art. 6º do CPP"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4º a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Inquérito Policial",
+      "subtema": "Conclusão e prazos",
+      "dificuldade": "media",
+      "enunciado": "Um inquérito policial foi instaurado para apurar um roubo, e o investigado respondia à investigação em liberdade. Passados alguns dias, a autoridade policial representou pela prisão preventiva, que foi decretada pelo juiz; o mandado, porém, só foi cumprido uma semana depois da decisão. Considerando a regra geral do art. 10 do Código de Processo Penal, a partir da prisão o inquérito deverá terminar no prazo de",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "30 dias, contados da instauração do inquérito, pois o investigado estava solto quando a investigação começou."
+        },
+        {
+          "id": "a2",
+          "texto": "10 dias, contados a partir do dia em que se executou a ordem de prisão."
+        },
+        {
+          "id": "a3",
+          "texto": "10 dias, contados a partir da data em que o juiz decretou a prisão preventiva."
+        },
+        {
+          "id": "a4",
+          "texto": "30 dias, contados a partir do dia em que se executou a ordem de prisão."
+        },
+        {
+          "id": "a5",
+          "texto": "10 dias, contados da instauração do inquérito, descontado o período em que o investigado esteve solto."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "Pelo art. 10 do CPP, o inquérito termina em 10 dias se o indiciado estiver preso em flagrante ou preventivamente, e em 30 dias se estiver solto. No caso de prisão preventiva, o prazo é contado a partir do dia em que se executar a ordem de prisão, e não da data da decisão judicial. Como o mandado foi cumprido uma semana depois, é desse cumprimento que corre o prazo de 10 dias.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Com a prisão preventiva, passa a valer o prazo de 10 dias do indiciado preso. O de 30 dias é para o indiciado solto."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "É a regra literal do art. 10: preso preventivamente, prazo de 10 dias contado a partir do dia em que se executar a ordem de prisão."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O marco inicial não é a decisão que decreta a prisão, mas o cumprimento do mandado (execução da ordem de prisão)."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Acerta o marco inicial, mas erra o prazo: para o indiciado preso, são 10 dias, não 30."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Não há previsão de contagem desde a instauração com desconto do período em liberdade. O art. 10 fixa como termo inicial a execução da ordem de prisão."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 10, caput.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "A questão cobra a regra geral do art. 10 do CPP conforme o texto fornecido; não trata de prazos previstos em leis especiais nem de eventual prorrogação.",
+      "pegadinha": "Contar o prazo da decisão que decretou a prisão, e não do cumprimento do mandado.",
+      "lei_referencia": "CPP, art. 10, caput",
+      "macete_do_riccardo": "Preso: 10. Solto: 30. Na preventiva, o relógio começa quando a algema fecha, não quando o juiz assina.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "prazo do inquérito",
+        "prisão preventiva",
+        "indiciado preso",
+        "termo inicial"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4º a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Inquérito Policial",
+      "subtema": "Instauração, notitia e delatio criminis",
+      "dificuldade": "media",
+      "enunciado": "Carlos, vítima de um estelionato, crime de ação penal pública incondicionada na situação descrita, apresentou à autoridade policial requerimento de abertura de inquérito, narrando o fato e indicando testemunhas. O delegado indeferiu o requerimento. Inconformado, Carlos procurou orientação sobre o que poderia fazer. À luz do Código de Processo Penal, é correto afirmar que",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "o indeferimento é irrecorrível, pois a instauração do inquérito é ato discricionário da autoridade policial."
+        },
+        {
+          "id": "a2",
+          "texto": "Carlos poderá interpor recurso diretamente ao juiz competente, que determinará a instauração do inquérito."
+        },
+        {
+          "id": "a3",
+          "texto": "o requerimento era nulo, pois nos crimes de ação pública o inquérito só pode ser iniciado de ofício ou por requisição."
+        },
+        {
+          "id": "a4",
+          "texto": "o requerimento só seria válido se contivesse obrigatoriamente a individualização do autor, sob pena de indeferimento."
+        },
+        {
+          "id": "a5",
+          "texto": "do despacho que indeferiu o requerimento de abertura do inquérito caberá recurso para o chefe de Polícia."
+        }
+      ],
+      "id_correta": "a5",
+      "comentario_geral": "Nos crimes de ação pública, o inquérito pode ser iniciado a requerimento do ofendido (art. 5º, II). Se o delegado indefere esse requerimento, o próprio CPP prevê recurso administrativo para o chefe de Polícia (art. 5º, § 2º). O requerimento deve conter, sempre que possível, os elementos do § 1º, o que não torna obrigatória a identificação do autor.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O art. 5º, § 2º, prevê expressamente recurso contra o despacho que indefere o requerimento de abertura de inquérito."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O recurso previsto no art. 5º, § 2º, é dirigido ao chefe de Polícia, e não ao juiz competente."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 5º, II, admite expressamente o início do inquérito, nos crimes de ação pública, a requerimento do ofendido ou de quem tiver qualidade para representá-lo."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O § 1º do art. 5º exige os elementos sempre que possível e admite que se indiquem os motivos da impossibilidade de individualizar o autor; a individualização não é requisito absoluto."
+        },
+        {
+          "id": "a5",
+          "correta": true,
+          "justificativa": "Reproduz o art. 5º, § 2º, do CPP: do despacho que indeferir o requerimento de abertura de inquérito caberá recurso para o chefe de Polícia."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 5º, II, § 1º e § 2º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Indicar o juiz como destinatário do recurso contra o indeferimento, em vez do chefe de Polícia.",
+      "lei_referencia": "CPP, art. 5º, § 2º",
+      "macete_do_riccardo": null,
+      "fique_ligado": "O recurso contra o indeferimento da abertura do inquérito é administrativo e vai para o chefe de Polícia.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "requerimento do ofendido",
+        "indeferimento",
+        "recurso",
+        "chefe de Polícia"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4º a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Inquérito Policial",
+      "subtema": "Diligências: requerimentos e requisições",
+      "dificuldade": "media",
+      "enunciado": "No curso de um inquérito policial, o advogado do indiciado requereu ao delegado a realização de uma acareação entre duas testemunhas. No mesmo dia, chegou à delegacia ofício do Ministério Público requisitando a realização de exame pericial em documentos apreendidos. Considerando o Código de Processo Penal, assinale a alternativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O delegado está obrigado a realizar a acareação requerida pela defesa, sob pena de nulidade do inquérito, mas pode deixar de cumprir a requisição ministerial se a considerar desnecessária."
+        },
+        {
+          "id": "a2",
+          "texto": "O delegado está obrigado a realizar ambas as diligências, porque toda diligência pedida por qualquer interessado vincula a autoridade policial."
+        },
+        {
+          "id": "a3",
+          "texto": "A acareação requerida pela defesa será realizada, ou não, a juízo da autoridade, mas incumbe à autoridade policial realizar a perícia requisitada pelo Ministério Público."
+        },
+        {
+          "id": "a4",
+          "texto": "O indiciado não tem legitimidade para requerer diligências no inquérito, faculdade reservada ao ofendido e ao seu representante legal."
+        },
+        {
+          "id": "a5",
+          "texto": "O delegado pode indeferir ambas as diligências, pois na fase de inquérito apenas o juiz pode requisitar providências à autoridade policial."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "O CPP trata de forma diferente o pedido das partes e a ordem das autoridades. O ofendido e o indiciado podem requerer diligências, que serão realizadas, ou não, a juízo da autoridade (art. 14). Já as diligências requisitadas pelo juiz ou pelo Ministério Público devem ser realizadas pela autoridade policial (art. 13, II). Requerimento é pedido; requisição é exigência legal de cumprimento.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Inverte as regras: o requerimento da defesa fica a juízo da autoridade (art. 14), e a requisição do Ministério Público deve ser cumprida (art. 13, II)."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Generaliza indevidamente: o requerimento do indiciado não vincula o delegado, que decide se o realiza (art. 14)."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Combina corretamente o art. 14 (diligência requerida pelo indiciado realizada, ou não, a juízo da autoridade) e o art. 13, II (incumbe à autoridade realizar as diligências requisitadas pelo Ministério Público)."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 14 confere a faculdade de requerer diligências tanto ao ofendido ou seu representante quanto ao indiciado."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "O art. 13, II, inclui o Ministério Público, ao lado do juiz, entre as autoridades cujas requisições de diligência a polícia deve realizar."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 13, II, e art. 14.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir requerimento (das partes, sujeito ao juízo da autoridade) com requisição (do juiz ou do Ministério Público, de cumprimento obrigatório).",
+      "lei_referencia": "CPP, arts. 13, II, e 14",
+      "macete_do_riccardo": "Requerimento a polícia avalia; requisição a polícia cumpre.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "diligências",
+        "requerimento do indiciado",
+        "requisição do Ministério Público",
+        "acareação",
+        "perícia"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4º a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Inquérito Policial",
+      "subtema": "Requisição de dados cadastrais (art. 13-A do CPP)",
+      "dificuldade": "media",
+      "enunciado": "Durante investigação de um crime de sequestro e cárcere privado (art. 148 do Código Penal), o delegado de polícia precisou obter, com urgência, os dados cadastrais de um suspeito mantidos por uma empresa privada de comércio eletrônico. Segundo o art. 13-A do Código de Processo Penal, o delegado",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "poderá requisitar diretamente à empresa os dados cadastrais do suspeito, devendo a requisição, que será atendida em 24 horas, conter seu nome, o número do inquérito e a identificação da unidade de polícia judiciária responsável."
+        },
+        {
+          "id": "a2",
+          "texto": "dependerá de prévia autorização judicial para requisitar os dados, que deverão ser fornecidos no prazo de 72 horas."
+        },
+        {
+          "id": "a3",
+          "texto": "poderá requisitar os dados apenas de órgãos do poder público, pois empresas privadas só podem ser compelidas por ordem judicial."
+        },
+        {
+          "id": "a4",
+          "texto": "deverá solicitar ao Ministério Público que faça a requisição, pois esse poder é exclusivo do membro do Ministério Público."
+        },
+        {
+          "id": "a5",
+          "texto": "poderá requisitar dados cadastrais e o conteúdo das comunicações do suspeito, independentemente de autorização judicial."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 13-A do CPP permite ao membro do Ministério Público ou ao delegado de polícia, nos crimes que enumera (entre eles o do art. 148 do CP), requisitar diretamente de órgãos públicos ou de empresas privadas dados e informações cadastrais da vítima ou de suspeitos. A requisição deve ser atendida em 24 horas e conter o nome da autoridade requisitante, o número do inquérito e a identificação da unidade de polícia judiciária.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Corresponde ao caput e ao parágrafo único do art. 13-A: requisição direta, inclusive a empresas privadas, atendida em 24 horas, com os três elementos obrigatórios."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O art. 13-A não exige autorização judicial para dados cadastrais, e o prazo de atendimento é de 24 horas, não de 72."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 13-A abrange expressamente órgãos do poder público e empresas da iniciativa privada."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O poder de requisição é atribuído tanto ao membro do Ministério Público quanto ao delegado de polícia."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "O art. 13-A trata apenas de dados e informações cadastrais. O acesso ao conteúdo de comunicações depende de autorização judicial, como reforça o art. 13-B, § 2º, I."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 13-A, caput e parágrafo único, I a III (incluídos pela Lei 13.344/2016); art. 13-B, § 2º, I.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "Dispositivo incluído pela Lei 13.344/2016, vigente na data de corte conforme o texto fornecido.",
+      "pegadinha": "Exigir autorização judicial para dados cadastrais ou confundir o prazo de 24 horas com outros prazos do art. 13-B.",
+      "lei_referencia": "CPP, art. 13-A",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Dado cadastral não é conteúdo de comunicação: o primeiro se requisita direto; o segundo exige juiz.",
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "art. 13-A",
+        "dados cadastrais",
+        "requisição",
+        "sequestro e cárcere privado",
+        "24 horas"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4º a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Inquérito Policial",
+      "subtema": "Localização de vítima e suspeitos no tráfico de pessoas (art. 13-B do CPP)",
+      "dificuldade": "dificil",
+      "enunciado": "Em investigação de crime relacionado ao tráfico de pessoas ainda em curso, o delegado de polícia pediu ao juiz autorização para requisitar a uma operadora de telefonia celular os sinais que permitissem localizar a vítima. Passadas 12 horas sem qualquer manifestação judicial, e com a ocorrência já registrada, o delegado avaliou as medidas cabíveis. De acordo com o art. 13-B do Código de Processo Penal, é correto afirmar que",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "o delegado deverá aguardar a decisão judicial, pois sem ela a operadora não pode ser obrigada a fornecer nenhum dado de localização."
+        },
+        {
+          "id": "a2",
+          "texto": "o delegado poderá requisitar diretamente os sinais e, com eles, o acesso ao conteúdo das comunicações da vítima e dos suspeitos, comunicando o juiz em até 72 horas."
+        },
+        {
+          "id": "a3",
+          "texto": "o sinal poderá ser fornecido pela operadora por até 60 dias, renovável por igual período, independentemente de nova ordem judicial."
+        },
+        {
+          "id": "a4",
+          "texto": "o delegado requisitará diretamente à operadora os meios técnicos de localização, com imediata comunicação ao juiz, e o inquérito deverá ser instaurado em até 72 horas do registro da ocorrência."
+        },
+        {
+          "id": "a5",
+          "texto": "a falta de manifestação judicial transfere ao Ministério Público, com exclusividade, a atribuição de requisitar os sinais à operadora."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "O art. 13-B exige, como regra, autorização judicial para requisitar às operadoras os meios técnicos de localização. Mas, se não houver manifestação judicial em 12 horas, a autoridade competente requisita diretamente, com imediata comunicação ao juiz (§ 4º). Nessa hipótese, o inquérito deve ser instaurado em no máximo 72 horas do registro da ocorrência (§ 3º). O sinal não dá acesso ao conteúdo das comunicações e é fornecido por até 30 dias, renovável uma vez por igual período; acima disso, só com ordem judicial (§ 2º).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O § 4º do art. 13-B autoriza a requisição direta quando não há manifestação judicial no prazo de 12 horas."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O sinal não permite acesso ao conteúdo de comunicações, que depende de autorização judicial (§ 2º, I), e a comunicação ao juiz é imediata, não em 72 horas."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O § 2º, II e III, limita o fornecimento a 30 dias, renovável uma única vez por igual período; períodos superiores exigem ordem judicial."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Combina o § 4º (requisição direta após 12 horas sem manifestação judicial, com imediata comunicação ao juiz) e o § 3º (instauração do inquérito em até 72 horas do registro da ocorrência)."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "O § 4º fala em autoridade competente, e o caput atribui a requisição tanto ao membro do Ministério Público quanto ao delegado; não há transferência exclusiva ao Ministério Público."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 13-B, caput e §§ 2º, 3º e 4º (incluídos pela Lei 13.344/2016).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "Dispositivo incluído pela Lei 13.344/2016, vigente na data de corte conforme o texto fornecido.",
+      "pegadinha": "Misturar os prazos do art. 13-B (12 horas, 72 horas, 30 dias) e estender o sinal ao conteúdo das comunicações.",
+      "lei_referencia": "CPP, art. 13-B, §§ 3º e 4º",
+      "macete_do_riccardo": "No 13-B: 12 horas de silêncio do juiz, 72 horas para instaurar o inquérito, 30 dias de sinal (mais 30, uma vez).",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "art. 13-B",
+        "tráfico de pessoas",
+        "sinais de telefonia",
+        "localização da vítima",
+        "prazos"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4º a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Inquérito Policial",
+      "subtema": "Investigado integrante das forças de segurança (art. 14-A do CPP)",
+      "dificuldade": "dificil",
+      "enunciado": "Um soldado da Polícia Militar, durante patrulhamento, efetuou disparos que causaram a morte de um suspeito. Foi instaurado procedimento investigatório para apurar o uso da força letal no exercício profissional. O militar foi citado da instauração, mas, decorrido o prazo legal, não nomeou defensor. Conforme o art. 14-A do Código de Processo Penal, a autoridade responsável pela investigação deverá",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "prosseguir com a investigação sem defensor, pois na fase de inquérito a constituição de advogado é mera faculdade do investigado."
+        },
+        {
+          "id": "a2",
+          "texto": "intimar a instituição a que o militar estava vinculado à época dos fatos para que, em 48 horas, indique defensor, cabendo a defesa preferencialmente à Defensoria Pública."
+        },
+        {
+          "id": "a3",
+          "texto": "nomear ela própria um advogado dativo, cujos honorários serão pagos pelo investigado ao final do procedimento."
+        },
+        {
+          "id": "a4",
+          "texto": "solicitar ao juiz a nomeação de defensor, suspendendo o procedimento até que o investigado seja interrogado em juízo."
+        },
+        {
+          "id": "a5",
+          "texto": "intimar o próprio investigado para, em novo prazo de 10 dias, constituir defensor, sob pena de revelia."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O art. 14-A do CPP alcança servidores das instituições do art. 144 da CF, como a Polícia Militar, investigados por uso da força letal no exercício profissional. O investigado é citado da instauração e tem até 48 horas para constituir defensor (§ 1º). Esgotado esse prazo sem nomeação, a autoridade intima a instituição a que ele estava vinculado à época dos fatos para indicar defensor em 48 horas (§ 2º), cabendo a defesa preferencialmente à Defensoria Pública (§ 3º).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Nesta hipótese específica, o § 2º do art. 14-A impõe à autoridade providência para que o investigado tenha defensor indicado; não basta prosseguir sem ele."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Reproduz os §§ 2º e 3º do art. 14-A: intimação da instituição de vínculo à época dos fatos, indicação de defensor em 48 horas e preferência pela Defensoria Pública."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A lei não manda a autoridade nomear advogado dativo pago pelo investigado; quando a Defensoria não atua, os custos correm pelo orçamento da instituição de vínculo (§ 5º)."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 14-A não prevê pedido ao juiz nem suspensão do procedimento; a providência é a intimação da instituição de vínculo (§ 2º)."
+        },
+        {
+          "id": "a5",
+          "correta": false,
+          "justificativa": "Não há novo prazo de 10 dias ao investigado nem revelia; esgotadas as 48 horas do § 1º, a autoridade intima a instituição (§ 2º)."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 14-A, caput e §§ 1º, 2º, 3º e 5º (incluídos pela Lei 13.964/2019).",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "Dispositivo incluído pela Lei 13.964/2019, vigente na data de corte conforme o texto fornecido.",
+      "pegadinha": "Tratar a falta de defensor como simples faculdade do investigado ou atribuir à autoridade a nomeação direta de advogado.",
+      "lei_referencia": "CPP, art. 14-A, § 2º",
+      "macete_do_riccardo": null,
+      "fique_ligado": "São dois prazos de 48 horas: o primeiro para o próprio investigado constituir defensor; o segundo para a instituição indicá-lo.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "art. 14-A",
+        "força letal",
+        "policial militar",
+        "defensor",
+        "Defensoria Pública"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4º a 23, fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Inquérito Policial",
+      "subtema": "Conclusão e prazos; diligências em outra circunscrição",
+      "dificuldade": "dificil",
+      "enunciado": "Em uma comarca dividida em várias circunscrições policiais, um delegado preside inquérito sobre fato de difícil elucidação, com indiciado solto. Às vésperas do fim do prazo legal, ainda falta ouvir uma testemunha que reside em outra circunscrição da mesma comarca. Considerando os arts. 10, 16 e 22 do Código de Processo Penal, assinale a alternativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Por se tratar de outra circunscrição, a oitiva da testemunha dependerá de carta precatória ou de requisição à autoridade policial local."
+        },
+        {
+          "id": "a2",
+          "texto": "Vencido o prazo de 30 dias, o inquérito fica automaticamente prorrogado por igual período, independentemente de qualquer requerimento."
+        },
+        {
+          "id": "a3",
+          "texto": "A devolução dos autos para ulteriores diligências seria igualmente cabível se o indiciado estivesse preso, desde que o fato fosse de difícil elucidação."
+        },
+        {
+          "id": "a4",
+          "texto": "Recebidos os autos, o Ministério Público poderá requerer sua devolução à autoridade policial para qualquer diligência que considere útil, ainda que dispensável à denúncia."
+        },
+        {
+          "id": "a5",
+          "texto": "O delegado poderá requerer ao juiz a devolução dos autos para ulteriores diligências, a serem realizadas no prazo que o juiz marcar, e poderá ordenar a diligência na outra circunscrição independentemente de precatória."
+        }
+      ],
+      "id_correta": "a5",
+      "comentario_geral": "Com fato de difícil elucidação e indiciado solto, a autoridade pode requerer ao juiz a devolução dos autos para ulteriores diligências, realizadas no prazo marcado pelo juiz (art. 10, § 3º). Na comarca com mais de uma circunscrição, o delegado pode ordenar diligências em outra circunscrição independentemente de precatórias ou requisições (art. 22). Já o Ministério Público só pode requerer a devolução do inquérito para novas diligências imprescindíveis ao oferecimento da denúncia (art. 16).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O art. 22 permite ordenar diligências em outra circunscrição da mesma comarca independentemente de precatórias ou requisições."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Não há prorrogação automática: o art. 10, § 3º, exige requerimento da autoridade ao juiz, que marca o prazo das novas diligências."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 10, § 3º, restringe a devolução para ulteriores diligências à hipótese de indiciado solto."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 16 limita o pedido de devolução pelo Ministério Público a novas diligências imprescindíveis ao oferecimento da denúncia."
+        },
+        {
+          "id": "a5",
+          "correta": true,
+          "justificativa": "Combina o art. 10, § 3º (devolução dos autos ao delegado, a requerimento, com prazo fixado pelo juiz, para indiciado solto e fato de difícil elucidação) e o art. 22 (diligências em outra circunscrição sem precatória)."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 10, § 3º; art. 16; art. 22.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "A questão se limita aos arts. 10, 16 e 22 do CPP, conforme o texto fornecido; não trata da prorrogação do prazo do investigado preso prevista em outro dispositivo do CPP.",
+      "pegadinha": "Estender ao indiciado preso a devolução do art. 10, § 3º, exigir precatória entre circunscrições da mesma comarca ou ampliar o pedido de devolução do Ministério Público.",
+      "lei_referencia": "CPP, art. 10, § 3º, e art. 22",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "A devolução para ulteriores diligências do art. 10, § 3º, exige dois requisitos juntos: fato de difícil elucidação e indiciado solto.",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "prazo do inquérito",
+        "devolução dos autos",
+        "difícil elucidação",
+        "circunscrição policial",
+        "precatória"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do CPP (Decreto-Lei 3.689/1941), arts. 4º a 23, fornecido no contexto"
+      ]
+    }
+  ]
+}

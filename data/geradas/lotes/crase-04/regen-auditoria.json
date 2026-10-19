@@ -1,0 +1,22 @@
+{
+  "auditorias": [
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "pedagogico",
+          "gravidade": "baixa",
+          "descricao": "Uma minoria de gramáticos admite \"a distância de\" sem acento mesmo com distância determinada; a posição majoritária, adotada pelas bancas, exige a crase, o que sustenta o gabarito. Não compromete a questão, pois os distratores têm erros incontroversos (\"de 8h às 18h\", \"para às 14h\", \"entre às 14h\")."
+        }
+      ],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvida de forma independente: a2 é a única reescrita correta (\"à distância de cinquenta metros\", \"chegou à residência\", \"às 14h\"). a1 quebra o paralelismo do intervalo, a3 e a4 usam crase após outra preposição (\"para\", \"entre\"). Gabarito, comentários e foco do lote conferem."
+    }
+  ]
+}

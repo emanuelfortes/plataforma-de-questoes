@@ -1,0 +1,5518 @@
+{
+  "versao": 1,
+  "fontes": [
+    "docs/1622156158EDITAL_VERTICALIZADO_POLICIACIVIL_CE_2021.pdf",
+    "docs/EDITAL-VERTICALIZADO-GMF.pdf",
+    "docs/EDITAL_VERTICALIZADO_CFO_PMCE_LEXCURSOS.pdf"
+  ],
+  "concursos": [
+    {
+      "id": "pcce-2021",
+      "nome": "PCCE Inspetor e Escrivão 2021",
+      "orgao": "Polícia Civil do Estado do Ceará",
+      "cargo": "Inspetor e Escrivão de Polícia Civil",
+      "banca": "IDECAN",
+      "alternativas": 4
+    },
+    {
+      "id": "gm-fortaleza",
+      "nome": "Guarda Municipal de Fortaleza",
+      "orgao": "Prefeitura Municipal de Fortaleza",
+      "cargo": "Guarda Municipal",
+      "banca": "IDECAN",
+      "edicao": "edital 2023",
+      "alternativas": 4
+    },
+    {
+      "id": "cfo-pmce",
+      "nome": "CFO PMCE",
+      "orgao": "Polícia Militar do Ceará",
+      "cargo": "Cadete do Curso de Formação de Oficiais (CFO)",
+      "banca": "Vunesp",
+      "edicao": "2021/2022",
+      "alternativas": 5
+    }
+  ],
+  "meta_total": 19980,
+  "disciplinas": [
+    {
+      "nome": "Língua Portuguesa",
+      "meta": 3010,
+      "concursos": [
+        "pcce-2021",
+        "gm-fortaleza",
+        "cfo-pmce"
+      ],
+      "topicos": [
+        {
+          "id": "lingua-portuguesa--interpretacao-de-texto",
+          "nome": "Interpretação de Texto",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 430,
+          "subtopicos": [
+            "Compreensão e interpretação de textos de gêneros variados",
+            "Estruturação do texto e dos parágrafos",
+            "Inferência e ideia central"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 290
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 140
+            }
+          ]
+        },
+        {
+          "id": "lingua-portuguesa--tipologia-e-generos-textuais",
+          "nome": "Tipologia e Gêneros Textuais",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 90,
+          "subtopicos": [
+            "Tipos textuais",
+            "Gêneros textuais"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 90
+            }
+          ]
+        },
+        {
+          "id": "lingua-portuguesa--coesao-e-coerencia",
+          "nome": "Coesão e Coerência",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 260,
+          "subtopicos": [
+            "Referenciação: pronomes e expressões referenciais",
+            "Substituição e repetição",
+            "Conectores, nexos e operadores sequenciais"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 170
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 90
+            }
+          ]
+        },
+        {
+          "id": "lingua-portuguesa--significacao-de-palavras-e-expressoes",
+          "nome": "Significação de Palavras e Expressões",
+          "concursos": [
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 110,
+          "subtopicos": [
+            "Significação contextual",
+            "Sinônimos, antônimos e polissemia"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "gm-fortaleza"
+              ],
+              "meta": 60
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 50
+            }
+          ]
+        },
+        {
+          "id": "lingua-portuguesa--reescrita-de-frases-e-equivalencia-de-estruturas",
+          "nome": "Reescrita de Frases e Equivalência de Estruturas",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 260,
+          "subtopicos": [
+            "Substituição de palavras e trechos",
+            "Retextualização e níveis de formalidade",
+            "Equivalência e transformação de estruturas"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 170
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 90
+            }
+          ]
+        },
+        {
+          "id": "lingua-portuguesa--ortografia",
+          "nome": "Ortografia",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 130,
+          "subtopicos": [
+            "Emprego das letras",
+            "Hífen"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 90
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 40
+            }
+          ]
+        },
+        {
+          "id": "lingua-portuguesa--acentuacao-grafica",
+          "nome": "Acentuação Gráfica",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 130,
+          "subtopicos": [],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 90
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 40
+            }
+          ]
+        },
+        {
+          "id": "lingua-portuguesa--estrutura-e-formacao-de-palavras",
+          "nome": "Estrutura e Formação de Palavras",
+          "concursos": [
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 70,
+          "subtopicos": [],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "gm-fortaleza"
+              ],
+              "meta": 40
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 30
+            }
+          ]
+        },
+        {
+          "id": "lingua-portuguesa--classes-de-palavras",
+          "nome": "Classes de Palavras",
+          "concursos": [
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 180,
+          "subtopicos": [
+            "Funções das classes de palavras",
+            "Flexão nominal",
+            "Flexão verbal"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "gm-fortaleza"
+              ],
+              "meta": 90
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 90
+            }
+          ]
+        },
+        {
+          "id": "lingua-portuguesa--tempos-e-modos-verbais",
+          "nome": "Tempos e Modos Verbais",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 170,
+          "subtopicos": [
+            "Emprego dos tempos e modos",
+            "Correlação verbal"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 110
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 60
+            }
+          ]
+        },
+        {
+          "id": "lingua-portuguesa--pronomes-emprego-tratamento-e-colocacao",
+          "nome": "Pronomes: Emprego, Tratamento e Colocação",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 220,
+          "subtopicos": [
+            "Emprego dos pronomes",
+            "Formas de tratamento",
+            "Colocação dos pronomes átonos"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 150
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 70
+            }
+          ]
+        },
+        {
+          "id": "lingua-portuguesa--sintaxe-coordenacao-e-subordinacao",
+          "nome": "Sintaxe: Coordenação e Subordinação",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 260,
+          "subtopicos": [
+            "Termos da oração",
+            "Orações coordenadas",
+            "Orações subordinadas"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 170
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 90
+            }
+          ]
+        },
+        {
+          "id": "lingua-portuguesa--pontuacao",
+          "nome": "Pontuação",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 220,
+          "subtopicos": [],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 150
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 70
+            }
+          ]
+        },
+        {
+          "id": "lingua-portuguesa--concordancia-verbal",
+          "nome": "Concordância Verbal",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 130,
+          "subtopicos": [],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 90
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 40
+            }
+          ]
+        },
+        {
+          "id": "lingua-portuguesa--concordancia-nominal",
+          "nome": "Concordância Nominal",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 90,
+          "subtopicos": [],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 60
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 30
+            }
+          ]
+        },
+        {
+          "id": "lingua-portuguesa--regencia-verbal",
+          "nome": "Regência Verbal",
+          "concursos": [
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 90,
+          "subtopicos": [],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "gm-fortaleza"
+              ],
+              "meta": 50
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 40
+            }
+          ]
+        },
+        {
+          "id": "lingua-portuguesa--regencia-nominal",
+          "nome": "Regência Nominal",
+          "concursos": [
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 60,
+          "subtopicos": [],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "gm-fortaleza"
+              ],
+              "meta": 30
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 30
+            }
+          ]
+        },
+        {
+          "id": "lingua-portuguesa--crase",
+          "nome": "Crase",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 110,
+          "subtopicos": [],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 110
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Raciocínio Lógico",
+      "meta": 790,
+      "concursos": [
+        "gm-fortaleza",
+        "cfo-pmce"
+      ],
+      "nota": "No CFO aparece como 'Matemática e Raciocínio Lógico', com o mesmo conteúdo.",
+      "topicos": [
+        {
+          "id": "raciocinio-logico--estruturas-logicas-e-relacoes-arbitrarias",
+          "nome": "Estruturas Lógicas e Relações Arbitrárias",
+          "concursos": [
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 200,
+          "subtopicos": [
+            "Dedução a partir de relações entre pessoas, lugares e objetos",
+            "Avaliação das condições de uma estrutura"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "gm-fortaleza"
+              ],
+              "meta": 100
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 100
+            }
+          ]
+        },
+        {
+          "id": "raciocinio-logico--logica-de-argumentacao-e-raciocinio-verbal",
+          "nome": "Lógica de Argumentação e Raciocínio Verbal",
+          "concursos": [
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 130,
+          "subtopicos": [],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "gm-fortaleza"
+              ],
+              "meta": 70
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 60
+            }
+          ]
+        },
+        {
+          "id": "raciocinio-logico--raciocinio-sequencial-espacial-e-temporal",
+          "nome": "Raciocínio Sequencial, Espacial e Temporal",
+          "concursos": [
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 130,
+          "subtopicos": [
+            "Sequências lógicas",
+            "Orientação espacial e temporal",
+            "Formação de conceitos e discriminação de elementos"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "gm-fortaleza"
+              ],
+              "meta": 70
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 60
+            }
+          ]
+        },
+        {
+          "id": "raciocinio-logico--conjuntos",
+          "nome": "Conjuntos",
+          "concursos": [
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 130,
+          "subtopicos": [],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "gm-fortaleza"
+              ],
+              "meta": 70
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 60
+            }
+          ]
+        },
+        {
+          "id": "raciocinio-logico--problemas-aritmeticos-geometricos-e-matriciais",
+          "nome": "Problemas Aritméticos, Geométricos e Matriciais",
+          "concursos": [
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 200,
+          "subtopicos": [],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "gm-fortaleza"
+              ],
+              "meta": 100
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Informática",
+      "meta": 1190,
+      "concursos": [
+        "gm-fortaleza",
+        "pcce-2021"
+      ],
+      "topicos": [
+        {
+          "id": "informatica--hardware",
+          "nome": "Hardware",
+          "concursos": [
+            "gm-fortaleza"
+          ],
+          "meta": 90,
+          "subtopicos": [
+            "Dispositivos de armazenamento",
+            "Memórias",
+            "Periféricos"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "gm-fortaleza"
+              ],
+              "meta": 90
+            }
+          ]
+        },
+        {
+          "id": "informatica--sistemas-operacionais-windows-e-linux",
+          "nome": "Sistemas Operacionais Windows e Linux",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza"
+          ],
+          "meta": 210,
+          "subtopicos": [
+            "Pastas, diretórios, arquivos e atalhos",
+            "Área de trabalho e área de transferência",
+            "Manipulação de arquivos e pastas"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 210
+            }
+          ]
+        },
+        {
+          "id": "informatica--editor-de-textos-writer",
+          "nome": "Editor de Textos (Writer)",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza"
+          ],
+          "meta": 140,
+          "subtopicos": [
+            "Edição e formatação",
+            "Tabelas, índices e numeração de páginas"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 140
+            }
+          ]
+        },
+        {
+          "id": "informatica--planilhas-eletronicas-calc",
+          "nome": "Planilhas Eletrônicas (Calc)",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza"
+          ],
+          "meta": 170,
+          "subtopicos": [
+            "Células, linhas e colunas",
+            "Fórmulas e funções",
+            "Gráficos e classificação de dados"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 170
+            }
+          ]
+        },
+        {
+          "id": "informatica--editor-de-apresentacoes-impress",
+          "nome": "Editor de Apresentações (Impress)",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 60,
+          "subtopicos": [],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 60
+            }
+          ]
+        },
+        {
+          "id": "informatica--correio-eletronico",
+          "nome": "Correio Eletrônico",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza"
+          ],
+          "meta": 70,
+          "subtopicos": [],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 70
+            }
+          ]
+        },
+        {
+          "id": "informatica--internet-e-navegadores",
+          "nome": "Internet e Navegadores",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza"
+          ],
+          "meta": 140,
+          "subtopicos": [
+            "URL, links e sites",
+            "Intranet e extranet",
+            "Protocolos e serviços",
+            "Busca, nuvem e redes sociais"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 140
+            }
+          ]
+        },
+        {
+          "id": "informatica--ferramentas-de-reuniao-on-line",
+          "nome": "Ferramentas de Reunião On-line",
+          "concursos": [
+            "gm-fortaleza"
+          ],
+          "meta": 40,
+          "subtopicos": [],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "gm-fortaleza"
+              ],
+              "meta": 40
+            }
+          ]
+        },
+        {
+          "id": "informatica--seguranca-da-informacao",
+          "nome": "Segurança da Informação",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza"
+          ],
+          "meta": 210,
+          "subtopicos": [
+            "Princípios de segurança",
+            "Assinatura digital",
+            "Backup",
+            "Antivírus e firewall",
+            "Malwares e ataques"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 210
+            }
+          ]
+        },
+        {
+          "id": "informatica--extensoes-de-arquivos",
+          "nome": "Extensões de Arquivos",
+          "concursos": [
+            "gm-fortaleza"
+          ],
+          "meta": 30,
+          "subtopicos": [],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "gm-fortaleza"
+              ],
+              "meta": 30
+            }
+          ]
+        },
+        {
+          "id": "informatica--criptomoedas",
+          "nome": "Criptomoedas",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 30,
+          "subtopicos": [],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Direito Constitucional",
+      "meta": 2360,
+      "concursos": [
+        "pcce-2021",
+        "gm-fortaleza",
+        "cfo-pmce"
+      ],
+      "topicos": [
+        {
+          "id": "direito-constitucional--teoria-da-constituicao",
+          "nome": "Teoria da Constituição",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 90,
+          "subtopicos": [
+            "Conceito, conteúdo, objeto e classificação",
+            "Poder constituinte",
+            "Supremacia e hermenêutica"
+          ],
+          "leis": [
+            "cf88"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 1,
+              "ate": 4
+            },
+            {
+              "lei": "cf88",
+              "de": 60,
+              "ate": 60
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 90
+            }
+          ]
+        },
+        {
+          "id": "direito-constitucional--principios-fundamentais",
+          "nome": "Princípios Fundamentais",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza"
+          ],
+          "meta": 150,
+          "subtopicos": [
+            "Preâmbulo",
+            "Arts. 1º a 4º"
+          ],
+          "leis": [
+            "cf88"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 1,
+              "ate": 4
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 150
+            }
+          ]
+        },
+        {
+          "id": "direito-constitucional--direitos-e-garantias-fundamentais",
+          "nome": "Direitos e Garantias Fundamentais",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 390,
+          "subtopicos": [
+            "Direitos e deveres individuais e coletivos (art. 5º)"
+          ],
+          "leis": [
+            "cf88"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 5,
+              "ate": 17
+            },
+            {
+              "lei": "cf88",
+              "de": 60,
+              "ate": 60
+            },
+            {
+              "lei": "cf88",
+              "de": 136,
+              "ate": 139
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 260
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 130
+            }
+          ]
+        },
+        {
+          "id": "direito-constitucional--direitos-sociais",
+          "nome": "Direitos Sociais",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 130,
+          "subtopicos": [
+            "Arts. 6º a 11"
+          ],
+          "leis": [
+            "cf88"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 6,
+              "ate": 11
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 90
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 40
+            }
+          ]
+        },
+        {
+          "id": "direito-constitucional--nacionalidade",
+          "nome": "Nacionalidade",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza"
+          ],
+          "meta": 70,
+          "subtopicos": [],
+          "leis": [
+            "cf88"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 12,
+              "ate": 13
+            },
+            {
+              "lei": "cf88",
+              "de": 5,
+              "ate": 5
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 70
+            }
+          ]
+        },
+        {
+          "id": "direito-constitucional--direitos-politicos-e-partidos-politicos",
+          "nome": "Direitos Políticos e Partidos Políticos",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 130,
+          "subtopicos": [
+            "Arts. 14 a 17"
+          ],
+          "leis": [
+            "cf88"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 14,
+              "ate": 17
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 90
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 40
+            }
+          ]
+        },
+        {
+          "id": "direito-constitucional--remedios-constitucionais",
+          "nome": "Remédios Constitucionais",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 120,
+          "subtopicos": [
+            "Habeas corpus",
+            "Habeas data",
+            "Mandado de segurança",
+            "Mandado de injunção",
+            "Ação popular"
+          ],
+          "leis": [
+            "cf88"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 5,
+              "ate": 5
+            },
+            {
+              "lei": "cf88",
+              "de": 102,
+              "ate": 105
+            },
+            {
+              "lei": "cf88",
+              "de": 108,
+              "ate": 109
+            },
+            {
+              "lei": "cpp",
+              "de": 647,
+              "ate": 667
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 120
+            }
+          ]
+        },
+        {
+          "id": "direito-constitucional--aplicabilidade-das-normas-constitucionais",
+          "nome": "Aplicabilidade das Normas Constitucionais",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 60,
+          "subtopicos": [],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 60
+            }
+          ]
+        },
+        {
+          "id": "direito-constitucional--controle-de-constitucionalidade",
+          "nome": "Controle de Constitucionalidade",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 90,
+          "subtopicos": [
+            "Controle difuso e concentrado",
+            "ADI, ADC, ADPF e reclamação"
+          ],
+          "leis": [
+            "cf88"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 97,
+              "ate": 103
+            },
+            {
+              "lei": "cf88",
+              "de": 52,
+              "ate": 52
+            },
+            {
+              "lei": "cf88",
+              "de": 125,
+              "ate": 125
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 90
+            }
+          ]
+        },
+        {
+          "id": "direito-constitucional--organizacao-do-estado",
+          "nome": "Organização do Estado",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 170,
+          "subtopicos": [
+            "União, Estados, DF, Municípios e Territórios (arts. 18 a 36)"
+          ],
+          "leis": [
+            "cf88"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 18,
+              "ate": 36
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 110
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 60
+            }
+          ]
+        },
+        {
+          "id": "direito-constitucional--administracao-publica-na-constituicao",
+          "nome": "Administração Pública na Constituição",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza"
+          ],
+          "meta": 150,
+          "subtopicos": [
+            "Disposições gerais (art. 37)",
+            "Servidores públicos (arts. 39 a 41)"
+          ],
+          "leis": [
+            "cf88"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 37,
+              "ate": 41
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 150
+            }
+          ]
+        },
+        {
+          "id": "direito-constitucional--poder-legislativo-e-processo-legislativo",
+          "nome": "Poder Legislativo e Processo Legislativo",
+          "concursos": [
+            "pcce-2021",
+            "cfo-pmce"
+          ],
+          "meta": 110,
+          "subtopicos": [],
+          "leis": [
+            "cf88"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 44,
+              "ate": 75
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 60
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 50
+            }
+          ]
+        },
+        {
+          "id": "direito-constitucional--poder-executivo",
+          "nome": "Poder Executivo",
+          "concursos": [
+            "pcce-2021",
+            "cfo-pmce"
+          ],
+          "meta": 70,
+          "subtopicos": [
+            "Atribuições do Presidente e dos Ministros"
+          ],
+          "leis": [
+            "cf88"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 76,
+              "ate": 91
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 40
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 30
+            }
+          ]
+        },
+        {
+          "id": "direito-constitucional--poder-judiciario",
+          "nome": "Poder Judiciário",
+          "concursos": [
+            "pcce-2021",
+            "cfo-pmce"
+          ],
+          "meta": 110,
+          "subtopicos": [
+            "STF",
+            "STJ",
+            "CNJ",
+            "Súmulas vinculantes e repercussão geral"
+          ],
+          "leis": [
+            "cf88"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 92,
+              "ate": 126
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 60
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 50
+            }
+          ]
+        },
+        {
+          "id": "direito-constitucional--funcoes-essenciais-a-justica",
+          "nome": "Funções Essenciais à Justiça",
+          "concursos": [
+            "pcce-2021",
+            "cfo-pmce"
+          ],
+          "meta": 70,
+          "subtopicos": [],
+          "leis": [
+            "cf88"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 127,
+              "ate": 135
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 40
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 30
+            }
+          ]
+        },
+        {
+          "id": "direito-constitucional--seguranca-publica-na-constituicao",
+          "nome": "Segurança Pública na Constituição",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 260,
+          "subtopicos": [
+            "Art. 144",
+            "Defesa do Estado e das instituições democráticas"
+          ],
+          "leis": [
+            "cf88"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 136,
+              "ate": 144
+            },
+            {
+              "lei": "cf88",
+              "de": 42,
+              "ate": 42
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 170
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 90
+            }
+          ]
+        },
+        {
+          "id": "direito-constitucional--forcas-armadas",
+          "nome": "Forças Armadas",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 40,
+          "subtopicos": [],
+          "leis": [
+            "cf88"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 142,
+              "ate": 143
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 40
+            }
+          ]
+        },
+        {
+          "id": "direito-constitucional--politica-urbana",
+          "nome": "Política Urbana",
+          "concursos": [
+            "gm-fortaleza"
+          ],
+          "meta": 30,
+          "subtopicos": [
+            "Arts. 182 e 183"
+          ],
+          "leis": [
+            "cf88"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 182,
+              "ate": 183
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "gm-fortaleza"
+              ],
+              "meta": 30
+            }
+          ]
+        },
+        {
+          "id": "direito-constitucional--ordem-social",
+          "nome": "Ordem Social",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza"
+          ],
+          "meta": 90,
+          "subtopicos": [
+            "Família, criança, adolescente, jovem e idoso (arts. 226 a 230)",
+            "Seguridade social",
+            "Meio ambiente",
+            "Índios"
+          ],
+          "leis": [
+            "cf88"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 193,
+              "ate": 232
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 90
+            }
+          ]
+        },
+        {
+          "id": "direito-constitucional--ordem-economica",
+          "nome": "Ordem Econômica",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 30,
+          "subtopicos": [
+            "Princípios gerais da atividade econômica"
+          ],
+          "leis": [
+            "cf88"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 170,
+              "ate": 181
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Direitos Humanos",
+      "meta": 780,
+      "concursos": [
+        "pcce-2021",
+        "gm-fortaleza",
+        "cfo-pmce"
+      ],
+      "topicos": [
+        {
+          "id": "direitos-humanos--teoria-dos-direitos-humanos",
+          "nome": "Teoria dos Direitos Humanos",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 310,
+          "subtopicos": [
+            "Conceito e fundamentação",
+            "Características",
+            "Gerações ou dimensões",
+            "Dignidade da pessoa humana"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 210
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 100
+            }
+          ]
+        },
+        {
+          "id": "direitos-humanos--direitos-humanos-na-constituicao-e-politica-nacional",
+          "nome": "Direitos Humanos na Constituição e Política Nacional",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 110,
+          "subtopicos": [
+            "Direitos humanos na CF/88",
+            "Programa Nacional de Direitos Humanos",
+            "Responsabilidade do Estado"
+          ],
+          "leis": [
+            "cf88"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 1,
+              "ate": 5
+            },
+            {
+              "lei": "cf88",
+              "de": 109,
+              "ate": 109
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 110
+            }
+          ]
+        },
+        {
+          "id": "direitos-humanos--violencia-de-genero-e-domestica",
+          "nome": "Violência de Gênero e Doméstica",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 70,
+          "subtopicos": [],
+          "leis": [
+            "lei-11340-2006"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 70
+            }
+          ]
+        },
+        {
+          "id": "direitos-humanos--igualdade-racial-e-combate-a-discriminacao",
+          "nome": "Igualdade Racial e Combate à Discriminação",
+          "concursos": [
+            "pcce-2021",
+            "cfo-pmce"
+          ],
+          "meta": 130,
+          "subtopicos": [
+            "Estatuto da Igualdade Racial",
+            "Homofobia equiparada ao crime de racismo (ADO 26)"
+          ],
+          "leis": [
+            "lei-12288-2010",
+            "lei-7716-1989"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 70
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 60
+            }
+          ]
+        },
+        {
+          "id": "direitos-humanos--pessoa-com-deficiencia",
+          "nome": "Pessoa com Deficiência",
+          "concursos": [
+            "pcce-2021",
+            "cfo-pmce"
+          ],
+          "meta": 90,
+          "subtopicos": [],
+          "leis": [
+            "lei-13146-2015"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 50
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 40
+            }
+          ]
+        },
+        {
+          "id": "direitos-humanos--tortura-e-violencia-de-estado",
+          "nome": "Tortura e Violência de Estado",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 70,
+          "subtopicos": [
+            "Direito das vítimas de violência de Estado",
+            "Tortura"
+          ],
+          "leis": [
+            "lei-9455-1997"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 70
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Direito Administrativo",
+      "meta": 1500,
+      "concursos": [
+        "pcce-2021",
+        "gm-fortaleza",
+        "cfo-pmce"
+      ],
+      "topicos": [
+        {
+          "id": "direito-administrativo--estado-governo-e-administracao-publica",
+          "nome": "Estado, Governo e Administração Pública",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza"
+          ],
+          "meta": 110,
+          "subtopicos": [
+            "Conceitos, elementos e poderes",
+            "Natureza, fins e princípios"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 110
+            }
+          ]
+        },
+        {
+          "id": "direito-administrativo--principios-da-administracao-publica",
+          "nome": "Princípios da Administração Pública",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 220,
+          "subtopicos": [
+            "Legalidade, impessoalidade, moralidade, publicidade e eficiência",
+            "Conceito e fontes do Direito Administrativo"
+          ],
+          "leis": [
+            "cf88"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 37,
+              "ate": 37
+            },
+            {
+              "lei": "lei-9784-1999",
+              "de": 2,
+              "ate": 2
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 150
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 70
+            }
+          ]
+        },
+        {
+          "id": "direito-administrativo--modelos-de-administracao-e-governanca",
+          "nome": "Modelos de Administração e Governança",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 40,
+          "subtopicos": [
+            "Patrimonialista, burocrático e gerencial",
+            "Eficiência, eficácia e efetividade",
+            "Governança e accountability"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 40
+            }
+          ]
+        },
+        {
+          "id": "direito-administrativo--organizacao-administrativa",
+          "nome": "Organização Administrativa",
+          "concursos": [
+            "pcce-2021",
+            "cfo-pmce"
+          ],
+          "meta": 150,
+          "subtopicos": [
+            "Administração direta e indireta",
+            "Centralização, descentralização, concentração e desconcentração",
+            "Agências executivas e reguladoras"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 80
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 70
+            }
+          ]
+        },
+        {
+          "id": "direito-administrativo--atos-administrativos",
+          "nome": "Atos Administrativos",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza"
+          ],
+          "meta": 300,
+          "subtopicos": [
+            "Conceito, requisitos e atributos",
+            "Classificação e espécies",
+            "Anulação, revogação, cassação e convalidação",
+            "Vícios e teoria das nulidades",
+            "Teoria dos motivos determinantes",
+            "Mérito e discricionariedade",
+            "Prescrição"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 300
+            }
+          ]
+        },
+        {
+          "id": "direito-administrativo--poderes-administrativos",
+          "nome": "Poderes Administrativos",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 130,
+          "subtopicos": [
+            "Hierárquico",
+            "Disciplinar",
+            "Regulamentar",
+            "De polícia",
+            "Uso e abuso do poder"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 130
+            }
+          ]
+        },
+        {
+          "id": "direito-administrativo--licitacoes-e-contratos-administrativos",
+          "nome": "Licitações e Contratos Administrativos",
+          "concursos": [
+            "pcce-2021",
+            "cfo-pmce"
+          ],
+          "meta": 110,
+          "subtopicos": [],
+          "leis": [
+            "lei-14133-2021"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 60
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 50
+            }
+          ]
+        },
+        {
+          "id": "direito-administrativo--servicos-publicos-e-delegacao",
+          "nome": "Serviços Públicos e Delegação",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 40,
+          "subtopicos": [
+            "Concessão e permissão",
+            "Convênios e consórcios"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 40
+            }
+          ]
+        },
+        {
+          "id": "direito-administrativo--controle-da-administracao-publica",
+          "nome": "Controle da Administração Pública",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 60,
+          "subtopicos": [
+            "Controle administrativo, judicial e legislativo"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 60
+            }
+          ]
+        },
+        {
+          "id": "direito-administrativo--responsabilidade-civil-do-estado",
+          "nome": "Responsabilidade Civil do Estado",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 90,
+          "subtopicos": [
+            "Evolução doutrinária",
+            "Atos comissivos e omissivos",
+            "Excludentes e nexo de causalidade"
+          ],
+          "leis": [
+            "cf88"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 37,
+              "ate": 37
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 90
+            }
+          ]
+        },
+        {
+          "id": "direito-administrativo--improbidade-administrativa",
+          "nome": "Improbidade Administrativa",
+          "concursos": [
+            "pcce-2021",
+            "cfo-pmce"
+          ],
+          "meta": 150,
+          "subtopicos": [],
+          "leis": [
+            "lei-8429-1992"
+          ],
+          "trechos": [],
+          "nota": "Usar a redação dada pela Lei 14.230/2021 (dolo obrigatório, novas regras de prescrição).",
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 80
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 70
+            }
+          ]
+        },
+        {
+          "id": "direito-administrativo--processo-administrativo",
+          "nome": "Processo Administrativo",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 40,
+          "subtopicos": [],
+          "leis": [
+            "lei-9784-1999"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 40
+            }
+          ]
+        },
+        {
+          "id": "direito-administrativo--lei-geral-de-protecao-de-dados",
+          "nome": "Lei Geral de Proteção de Dados",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 60,
+          "subtopicos": [],
+          "leis": [
+            "lei-13709-2018"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Administração Pública e Ética",
+      "meta": 410,
+      "concursos": [
+        "cfo-pmce"
+      ],
+      "nota": "Só no CFO PMCE.",
+      "topicos": [
+        {
+          "id": "administracao-publica-e-etica--organizacoes-formais-e-estrutura-organizacional",
+          "nome": "Organizações Formais e Estrutura Organizacional",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 80,
+          "subtopicos": [
+            "Tipos de estrutura",
+            "Critérios de departamentalização"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 80
+            }
+          ]
+        },
+        {
+          "id": "administracao-publica-e-etica--processo-organizacional",
+          "nome": "Processo Organizacional",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 80,
+          "subtopicos": [
+            "Planejamento, direção, comunicação, controle e avaliação"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 80
+            }
+          ]
+        },
+        {
+          "id": "administracao-publica-e-etica--gestao-de-processos-e-de-contratos",
+          "nome": "Gestão de Processos e de Contratos",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 60,
+          "subtopicos": [],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 60
+            }
+          ]
+        },
+        {
+          "id": "administracao-publica-e-etica--planejamento-estrategico",
+          "nome": "Planejamento Estratégico",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 60,
+          "subtopicos": [],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 60
+            }
+          ]
+        },
+        {
+          "id": "administracao-publica-e-etica--relacoes-humanas-no-trabalho",
+          "nome": "Relações Humanas no Trabalho",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 50,
+          "subtopicos": [],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 50
+            }
+          ]
+        },
+        {
+          "id": "administracao-publica-e-etica--etica-e-cidadania-no-servico-publico",
+          "nome": "Ética e Cidadania no Serviço Público",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 80,
+          "subtopicos": [],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Direito Penal",
+      "meta": 2790,
+      "concursos": [
+        "pcce-2021",
+        "cfo-pmce",
+        "gm-fortaleza"
+      ],
+      "topicos": [
+        {
+          "id": "direito-penal--aplicacao-da-lei-penal",
+          "nome": "Aplicação da Lei Penal",
+          "concursos": [
+            "pcce-2021",
+            "cfo-pmce"
+          ],
+          "meta": 220,
+          "subtopicos": [
+            "Legalidade e anterioridade",
+            "Lei penal no tempo e no espaço",
+            "Tempo e lugar do crime",
+            "Territorialidade e extraterritorialidade",
+            "Contagem de prazo e frações não computáveis",
+            "Interpretação, analogia e conflito aparente de normas"
+          ],
+          "leis": [
+            "cp"
+          ],
+          "trechos": [
+            {
+              "lei": "cp",
+              "de": 1,
+              "ate": 12
+            },
+            {
+              "lei": "cf88",
+              "de": 5,
+              "ate": 5
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 110
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 110
+            }
+          ]
+        },
+        {
+          "id": "direito-penal--teoria-do-crime-e-fato-tipico",
+          "nome": "Teoria do Crime e Fato Típico",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 300,
+          "subtopicos": [
+            "Conduta, resultado e nexo causal",
+            "Tipicidade",
+            "Dolo e culpa",
+            "Crimes omissivos",
+            "Imputação objetiva",
+            "Arts. 13 a 25 do CP"
+          ],
+          "leis": [
+            "cp"
+          ],
+          "trechos": [
+            {
+              "lei": "cp",
+              "de": 13,
+              "ate": 25
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 200
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 100
+            }
+          ]
+        },
+        {
+          "id": "direito-penal--consumacao-tentativa-e-desistencia",
+          "nome": "Consumação, Tentativa e Desistência",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 150,
+          "subtopicos": [
+            "Crime consumado e tentado",
+            "Desistência voluntária e arrependimento eficaz",
+            "Arrependimento posterior",
+            "Crime impossível"
+          ],
+          "leis": [
+            "cp"
+          ],
+          "trechos": [
+            {
+              "lei": "cp",
+              "de": 14,
+              "ate": 17
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 100
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 50
+            }
+          ]
+        },
+        {
+          "id": "direito-penal--ilicitude-e-excludentes",
+          "nome": "Ilicitude e Excludentes",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 200,
+          "subtopicos": [
+            "Legítima defesa",
+            "Estado de necessidade",
+            "Estrito cumprimento do dever legal e exercício regular de direito",
+            "Excesso punível"
+          ],
+          "leis": [
+            "cp"
+          ],
+          "trechos": [
+            {
+              "lei": "cp",
+              "de": 23,
+              "ate": 25
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 130
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 70
+            }
+          ]
+        },
+        {
+          "id": "direito-penal--culpabilidade-e-imputabilidade",
+          "nome": "Culpabilidade e Imputabilidade",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 150,
+          "subtopicos": [],
+          "leis": [
+            "cp"
+          ],
+          "trechos": [
+            {
+              "lei": "cp",
+              "de": 20,
+              "ate": 28
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 100
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 50
+            }
+          ]
+        },
+        {
+          "id": "direito-penal--concurso-de-pessoas",
+          "nome": "Concurso de Pessoas",
+          "concursos": [
+            "pcce-2021",
+            "cfo-pmce"
+          ],
+          "meta": 100,
+          "subtopicos": [],
+          "leis": [
+            "cp"
+          ],
+          "trechos": [
+            {
+              "lei": "cp",
+              "de": 29,
+              "ate": 31
+            },
+            {
+              "lei": "cp",
+              "de": 62,
+              "ate": 62
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 50
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 50
+            }
+          ]
+        },
+        {
+          "id": "direito-penal--concurso-de-crimes",
+          "nome": "Concurso de Crimes",
+          "concursos": [
+            "pcce-2021",
+            "cfo-pmce"
+          ],
+          "meta": 90,
+          "subtopicos": [],
+          "leis": [
+            "cp"
+          ],
+          "trechos": [
+            {
+              "lei": "cp",
+              "de": 69,
+              "ate": 76
+            },
+            {
+              "lei": "cp",
+              "de": 119,
+              "ate": 119
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 50
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 40
+            }
+          ]
+        },
+        {
+          "id": "direito-penal--penas-e-medidas-de-seguranca",
+          "nome": "Penas e Medidas de Segurança",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 110,
+          "subtopicos": [
+            "Espécies e aplicação da pena",
+            "Sursis e livramento condicional",
+            "Efeitos da condenação e reabilitação"
+          ],
+          "leis": [
+            "cp"
+          ],
+          "trechos": [
+            {
+              "lei": "cp",
+              "de": 32,
+              "ate": 99
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 110
+            }
+          ]
+        },
+        {
+          "id": "direito-penal--acao-penal-punibilidade-e-prescricao",
+          "nome": "Ação Penal, Punibilidade e Prescrição",
+          "concursos": [
+            "pcce-2021",
+            "cfo-pmce"
+          ],
+          "meta": 130,
+          "subtopicos": [],
+          "leis": [
+            "cp"
+          ],
+          "trechos": [
+            {
+              "lei": "cp",
+              "de": 100,
+              "ate": 120
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 70
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 60
+            }
+          ]
+        },
+        {
+          "id": "direito-penal--crimes-contra-a-pessoa",
+          "nome": "Crimes contra a Pessoa",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 300,
+          "subtopicos": [],
+          "leis": [
+            "cp"
+          ],
+          "trechos": [
+            {
+              "lei": "cp",
+              "de": 121,
+              "ate": 154
+            },
+            {
+              "lei": "lei-8072-1990",
+              "de": 1,
+              "ate": 1
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 200
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 100
+            }
+          ]
+        },
+        {
+          "id": "direito-penal--crimes-contra-o-patrimonio",
+          "nome": "Crimes contra o Patrimônio",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 300,
+          "subtopicos": [],
+          "leis": [
+            "cp"
+          ],
+          "trechos": [
+            {
+              "lei": "cp",
+              "de": 155,
+              "ate": 183
+            },
+            {
+              "lei": "cp",
+              "de": 16,
+              "ate": 16
+            },
+            {
+              "lei": "lei-8072-1990",
+              "de": 1,
+              "ate": 1
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 200
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 100
+            }
+          ]
+        },
+        {
+          "id": "direito-penal--crimes-contra-a-dignidade-sexual",
+          "nome": "Crimes contra a Dignidade Sexual",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 180,
+          "subtopicos": [
+            "Arts. 213 a 218-C"
+          ],
+          "leis": [
+            "cp"
+          ],
+          "trechos": [
+            {
+              "lei": "cp",
+              "de": 213,
+              "ate": 234
+            },
+            {
+              "lei": "lei-8072-1990",
+              "de": 1,
+              "ate": 1
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 120
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 60
+            }
+          ]
+        },
+        {
+          "id": "direito-penal--crimes-contra-a-incolumidade-publica",
+          "nome": "Crimes contra a Incolumidade Pública",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 40,
+          "subtopicos": [],
+          "leis": [
+            "cp"
+          ],
+          "trechos": [
+            {
+              "lei": "cp",
+              "de": 250,
+              "ate": 285
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 40
+            }
+          ]
+        },
+        {
+          "id": "direito-penal--crimes-contra-a-paz-publica",
+          "nome": "Crimes contra a Paz Pública",
+          "concursos": [
+            "pcce-2021",
+            "cfo-pmce"
+          ],
+          "meta": 70,
+          "subtopicos": [],
+          "leis": [
+            "cp"
+          ],
+          "trechos": [
+            {
+              "lei": "cp",
+              "de": 286,
+              "ate": 288
+            },
+            {
+              "lei": "lei-12850-2013",
+              "de": 1,
+              "ate": 2
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 40
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 30
+            }
+          ]
+        },
+        {
+          "id": "direito-penal--crimes-contra-a-fe-publica",
+          "nome": "Crimes contra a Fé Pública",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 120,
+          "subtopicos": [],
+          "leis": [
+            "cp"
+          ],
+          "trechos": [
+            {
+              "lei": "cp",
+              "de": 289,
+              "ate": 311
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 80
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 40
+            }
+          ]
+        },
+        {
+          "id": "direito-penal--crimes-contra-a-administracao-publica",
+          "nome": "Crimes contra a Administração Pública",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 250,
+          "subtopicos": [
+            "Arts. 312 a 337-A"
+          ],
+          "leis": [
+            "cp"
+          ],
+          "trechos": [
+            {
+              "lei": "cp",
+              "de": 312,
+              "ate": 359
+            },
+            {
+              "lei": "cp",
+              "de": 92,
+              "ate": 92
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 170
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 80
+            }
+          ]
+        },
+        {
+          "id": "direito-penal--uso-da-forca-e-funcoes-da-policia",
+          "nome": "Uso da Força e Funções da Polícia",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 40,
+          "subtopicos": [
+            "Política criminal e ordem pública"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 40
+            }
+          ]
+        },
+        {
+          "id": "direito-penal--jurisprudencia-dos-tribunais-superiores-em-materia-penal",
+          "nome": "Jurisprudência dos Tribunais Superiores em Matéria Penal",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 40,
+          "subtopicos": [],
+          "leis": [],
+          "trechos": [],
+          "nota": "Só súmulas e teses consolidadas e citadas pelo número; na dúvida, não gerar.",
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Direito Processual Penal",
+      "meta": 2000,
+      "concursos": [
+        "pcce-2021",
+        "cfo-pmce",
+        "gm-fortaleza"
+      ],
+      "topicos": [
+        {
+          "id": "direito-processual-penal--principios-e-lei-processual-penal",
+          "nome": "Princípios e Lei Processual Penal",
+          "concursos": [
+            "pcce-2021",
+            "cfo-pmce"
+          ],
+          "meta": 120,
+          "subtopicos": [
+            "Princípios, sistemas processuais",
+            "Lei processual no tempo, no espaço e em relação às pessoas",
+            "Disposições constitucionais aplicáveis"
+          ],
+          "leis": [
+            "cpp",
+            "cf88"
+          ],
+          "trechos": [
+            {
+              "lei": "cpp",
+              "de": 1,
+              "ate": 3
+            },
+            {
+              "lei": "cf88",
+              "de": 5,
+              "ate": 5
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 60
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 60
+            }
+          ]
+        },
+        {
+          "id": "direito-processual-penal--inquerito-policial",
+          "nome": "Inquérito Policial",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 370,
+          "subtopicos": [
+            "Natureza, características e finalidade",
+            "Instauração, notitia e delatio criminis",
+            "Indiciamento",
+            "Conclusão e prazos",
+            "Arts. 4º a 23 do CPP",
+            "Juiz das garantias (arts. 3º-A a 3º-F)",
+            "Exame de corpo de delito (art. 184)"
+          ],
+          "leis": [
+            "cpp",
+            "lei-12830-2013"
+          ],
+          "trechos": [
+            {
+              "lei": "cpp",
+              "de": 3,
+              "ate": 3
+            },
+            {
+              "lei": "cpp",
+              "de": 4,
+              "ate": 23
+            },
+            {
+              "lei": "cpp",
+              "de": 28,
+              "ate": 28
+            },
+            {
+              "lei": "cpp",
+              "de": 107,
+              "ate": 107
+            },
+            {
+              "lei": "cpp",
+              "de": 155,
+              "ate": 155
+            },
+            {
+              "lei": "cpp",
+              "de": 184,
+              "ate": 184
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 250
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 120
+            }
+          ]
+        },
+        {
+          "id": "direito-processual-penal--acao-penal",
+          "nome": "Ação Penal",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 70,
+          "subtopicos": [],
+          "leis": [
+            "cpp"
+          ],
+          "trechos": [
+            {
+              "lei": "cpp",
+              "de": 24,
+              "ate": 62
+            },
+            {
+              "lei": "cp",
+              "de": 100,
+              "ate": 106
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 70
+            }
+          ]
+        },
+        {
+          "id": "direito-processual-penal--provas-disposicoes-gerais-e-provas-ilicitas",
+          "nome": "Provas: Disposições Gerais e Provas Ilícitas",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza"
+          ],
+          "meta": 120,
+          "subtopicos": [
+            "Arts. 155 a 157 do CPP"
+          ],
+          "leis": [
+            "cpp"
+          ],
+          "trechos": [
+            {
+              "lei": "cpp",
+              "de": 155,
+              "ate": 157
+            },
+            {
+              "lei": "cf88",
+              "de": 5,
+              "ate": 5
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 120
+            }
+          ]
+        },
+        {
+          "id": "direito-processual-penal--corpo-de-delito-cadeia-de-custodia-e-pericias",
+          "nome": "Corpo de Delito, Cadeia de Custódia e Perícias",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza"
+          ],
+          "meta": 140,
+          "subtopicos": [
+            "Arts. 158 a 184 do CPP"
+          ],
+          "leis": [
+            "cpp"
+          ],
+          "trechos": [
+            {
+              "lei": "cpp",
+              "de": 158,
+              "ate": 184
+            },
+            {
+              "lei": "cpp",
+              "de": 6,
+              "ate": 6
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 140
+            }
+          ]
+        },
+        {
+          "id": "direito-processual-penal--interrogatorio-confissao-ofendido-e-testemunhas",
+          "nome": "Interrogatório, Confissão, Ofendido e Testemunhas",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 120,
+          "subtopicos": [
+            "Reconhecimento de pessoas e coisas",
+            "Acareação",
+            "Documentos e indícios"
+          ],
+          "leis": [
+            "cpp"
+          ],
+          "trechos": [
+            {
+              "lei": "cpp",
+              "de": 185,
+              "ate": 239
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 120
+            }
+          ]
+        },
+        {
+          "id": "direito-processual-penal--busca-e-apreensao",
+          "nome": "Busca e Apreensão",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza"
+          ],
+          "meta": 100,
+          "subtopicos": [
+            "Arts. 240 a 250 do CPP"
+          ],
+          "leis": [
+            "cpp"
+          ],
+          "trechos": [
+            {
+              "lei": "cpp",
+              "de": 240,
+              "ate": 250
+            },
+            {
+              "lei": "cf88",
+              "de": 5,
+              "ate": 5
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 100
+            }
+          ]
+        },
+        {
+          "id": "direito-processual-penal--prisao-em-flagrante",
+          "nome": "Prisão em Flagrante",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 230,
+          "subtopicos": [
+            "Arts. 282 a 310 do CPP"
+          ],
+          "leis": [
+            "cpp"
+          ],
+          "trechos": [
+            {
+              "lei": "cpp",
+              "de": 282,
+              "ate": 310
+            },
+            {
+              "lei": "cf88",
+              "de": 5,
+              "ate": 5
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 150
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 80
+            }
+          ]
+        },
+        {
+          "id": "direito-processual-penal--prisao-preventiva-e-medidas-cautelares",
+          "nome": "Prisão Preventiva e Medidas Cautelares",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 170,
+          "subtopicos": [],
+          "leis": [
+            "cpp"
+          ],
+          "trechos": [
+            {
+              "lei": "cpp",
+              "de": 282,
+              "ate": 320
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 110
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 60
+            }
+          ]
+        },
+        {
+          "id": "direito-processual-penal--prisao-temporaria",
+          "nome": "Prisão Temporária",
+          "concursos": [
+            "pcce-2021",
+            "cfo-pmce"
+          ],
+          "meta": 80,
+          "subtopicos": [],
+          "leis": [
+            "lei-7960-1989"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 40
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 40
+            }
+          ]
+        },
+        {
+          "id": "direito-processual-penal--liberdade-provisoria-e-fianca",
+          "nome": "Liberdade Provisória e Fiança",
+          "concursos": [
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 80,
+          "subtopicos": [],
+          "leis": [
+            "cpp"
+          ],
+          "trechos": [
+            {
+              "lei": "cpp",
+              "de": 310,
+              "ate": 350
+            },
+            {
+              "lei": "cf88",
+              "de": 5,
+              "ate": 5
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "gm-fortaleza"
+              ],
+              "meta": 40
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 40
+            }
+          ]
+        },
+        {
+          "id": "direito-processual-penal--habeas-corpus",
+          "nome": "Habeas Corpus",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 50,
+          "subtopicos": [],
+          "leis": [
+            "cpp",
+            "cf88"
+          ],
+          "trechos": [
+            {
+              "lei": "cpp",
+              "de": 647,
+              "ate": 667
+            },
+            {
+              "lei": "cf88",
+              "de": 5,
+              "ate": 5
+            },
+            {
+              "lei": "cf88",
+              "de": 102,
+              "ate": 105
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 50
+            }
+          ]
+        },
+        {
+          "id": "direito-processual-penal--crimes-de-responsabilidade-dos-funcionarios-publicos",
+          "nome": "Crimes de Responsabilidade dos Funcionários Públicos",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 30,
+          "subtopicos": [
+            "Processo e julgamento"
+          ],
+          "leis": [
+            "cpp"
+          ],
+          "trechos": [
+            {
+              "lei": "cpp",
+              "de": 513,
+              "ate": 518
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 30
+            }
+          ]
+        },
+        {
+          "id": "direito-processual-penal--revisao-criminal-e-execucao-penal",
+          "nome": "Revisão Criminal e Execução Penal",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 70,
+          "subtopicos": [],
+          "leis": [
+            "cpp",
+            "lei-7210-1984"
+          ],
+          "trechos": [
+            {
+              "lei": "cpp",
+              "de": 621,
+              "ate": 631
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 70
+            }
+          ]
+        },
+        {
+          "id": "direito-processual-penal--interceptacao-telefonica",
+          "nome": "Interceptação Telefônica",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 70,
+          "subtopicos": [],
+          "leis": [
+            "lei-9296-1996"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 70
+            }
+          ]
+        },
+        {
+          "id": "direito-processual-penal--organizacao-criminosa",
+          "nome": "Organização Criminosa",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 80,
+          "subtopicos": [
+            "Colaboração premiada e acordo de leniência"
+          ],
+          "leis": [
+            "lei-12850-2013"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 80
+            }
+          ]
+        },
+        {
+          "id": "direito-processual-penal--investigacao-pelo-delegado-e-pelo-ministerio-publico",
+          "nome": "Investigação pelo Delegado e pelo Ministério Público",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 40,
+          "subtopicos": [],
+          "leis": [
+            "lei-12830-2013"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 40
+            }
+          ]
+        },
+        {
+          "id": "direito-processual-penal--identificacao-criminal",
+          "nome": "Identificação Criminal",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 30,
+          "subtopicos": [],
+          "leis": [
+            "lei-12037-2009"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 30
+            }
+          ]
+        },
+        {
+          "id": "direito-processual-penal--jurisprudencia-dos-tribunais-superiores-em-processo-penal",
+          "nome": "Jurisprudência dos Tribunais Superiores em Processo Penal",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 30,
+          "subtopicos": [],
+          "leis": [],
+          "trechos": [],
+          "nota": "Só súmulas e teses consolidadas e citadas pelo número; na dúvida, não gerar.",
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Legislação Penal Especial",
+      "meta": 2720,
+      "concursos": [
+        "pcce-2021",
+        "gm-fortaleza",
+        "cfo-pmce"
+      ],
+      "topicos": [
+        {
+          "id": "legislacao-penal-especial--lei-de-drogas",
+          "nome": "Lei de Drogas",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 370,
+          "subtopicos": [],
+          "leis": [
+            "lei-11343-2006"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 5,
+              "ate": 5
+            },
+            {
+              "lei": "cf88",
+              "de": 243,
+              "ate": 243
+            },
+            {
+              "lei": "lei-8072-1990",
+              "de": 2,
+              "ate": 2
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 250
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 120
+            }
+          ]
+        },
+        {
+          "id": "legislacao-penal-especial--estatuto-do-desarmamento",
+          "nome": "Estatuto do Desarmamento",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 310,
+          "subtopicos": [],
+          "leis": [
+            "lei-10826-2003"
+          ],
+          "trechos": [
+            {
+              "lei": "lei-8072-1990",
+              "de": 1,
+              "ate": 1
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 210
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 100
+            }
+          ]
+        },
+        {
+          "id": "legislacao-penal-especial--lei-maria-da-penha",
+          "nome": "Lei Maria da Penha",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 310,
+          "subtopicos": [],
+          "leis": [
+            "lei-11340-2006"
+          ],
+          "trechos": [
+            {
+              "lei": "cp",
+              "de": 121,
+              "ate": 121
+            },
+            {
+              "lei": "cp",
+              "de": 129,
+              "ate": 129
+            },
+            {
+              "lei": "cp",
+              "de": 147,
+              "ate": 147
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 210
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 100
+            }
+          ]
+        },
+        {
+          "id": "legislacao-penal-especial--abuso-de-autoridade",
+          "nome": "Abuso de Autoridade",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 310,
+          "subtopicos": [],
+          "leis": [
+            "lei-13869-2019"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 210
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 100
+            }
+          ]
+        },
+        {
+          "id": "legislacao-penal-especial--crimes-hediondos",
+          "nome": "Crimes Hediondos",
+          "concursos": [
+            "pcce-2021",
+            "cfo-pmce"
+          ],
+          "meta": 160,
+          "subtopicos": [],
+          "leis": [
+            "lei-8072-1990"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 5,
+              "ate": 5
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 80
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 80
+            }
+          ]
+        },
+        {
+          "id": "legislacao-penal-especial--lei-de-tortura",
+          "nome": "Lei de Tortura",
+          "concursos": [
+            "pcce-2021",
+            "cfo-pmce"
+          ],
+          "meta": 130,
+          "subtopicos": [],
+          "leis": [
+            "lei-9455-1997"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 5,
+              "ate": 5
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 70
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 60
+            }
+          ]
+        },
+        {
+          "id": "legislacao-penal-especial--crimes-ambientais",
+          "nome": "Crimes Ambientais",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza",
+            "cfo-pmce"
+          ],
+          "meta": 150,
+          "subtopicos": [],
+          "leis": [
+            "lei-9605-1998"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 100
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 50
+            }
+          ]
+        },
+        {
+          "id": "legislacao-penal-especial--crimes-de-racismo",
+          "nome": "Crimes de Racismo",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza"
+          ],
+          "meta": 110,
+          "subtopicos": [],
+          "leis": [
+            "lei-7716-1989"
+          ],
+          "trechos": [
+            {
+              "lei": "cf88",
+              "de": 5,
+              "ate": 5
+            }
+          ],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 110
+            }
+          ]
+        },
+        {
+          "id": "legislacao-penal-especial--estatuto-da-crianca-e-do-adolescente",
+          "nome": "Estatuto da Criança e do Adolescente",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza"
+          ],
+          "meta": 160,
+          "subtopicos": [],
+          "leis": [
+            "lei-8069-1990"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 160
+            }
+          ]
+        },
+        {
+          "id": "legislacao-penal-especial--codigo-de-transito-brasileiro",
+          "nome": "Código de Trânsito Brasileiro",
+          "concursos": [
+            "pcce-2021",
+            "gm-fortaleza"
+          ],
+          "meta": 160,
+          "subtopicos": [
+            "Crimes de trânsito",
+            "Infrações e medidas administrativas"
+          ],
+          "leis": [
+            "lei-9503-1997"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021",
+                "gm-fortaleza"
+              ],
+              "meta": 160
+            }
+          ]
+        },
+        {
+          "id": "legislacao-penal-especial--estatuto-da-pessoa-idosa",
+          "nome": "Estatuto da Pessoa Idosa",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 60,
+          "subtopicos": [],
+          "leis": [
+            "lei-10741-2003"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 60
+            }
+          ]
+        },
+        {
+          "id": "legislacao-penal-especial--juizados-especiais-criminais",
+          "nome": "Juizados Especiais Criminais",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 90,
+          "subtopicos": [],
+          "leis": [
+            "lei-9099-1995"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 90
+            }
+          ]
+        },
+        {
+          "id": "legislacao-penal-especial--pacote-anticrime",
+          "nome": "Pacote Anticrime",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 70,
+          "subtopicos": [],
+          "leis": [
+            "lei-13964-2019"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 70
+            }
+          ]
+        },
+        {
+          "id": "legislacao-penal-especial--lavagem-de-dinheiro",
+          "nome": "Lavagem de Dinheiro",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 50,
+          "subtopicos": [],
+          "leis": [
+            "lei-9613-1998"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 50
+            }
+          ]
+        },
+        {
+          "id": "legislacao-penal-especial--contravencoes-penais",
+          "nome": "Contravenções Penais",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 50,
+          "subtopicos": [],
+          "leis": [
+            "dl-3688-1941"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 50
+            }
+          ]
+        },
+        {
+          "id": "legislacao-penal-especial--lei-antiterrorismo",
+          "nome": "Lei Antiterrorismo",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 40,
+          "subtopicos": [],
+          "leis": [
+            "lei-13260-2016"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 40
+            }
+          ]
+        },
+        {
+          "id": "legislacao-penal-especial--crimes-contra-a-economia-popular-e-a-ordem-tributaria",
+          "nome": "Crimes contra a Economia Popular e a Ordem Tributária",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 40,
+          "subtopicos": [],
+          "leis": [
+            "lei-1521-1951",
+            "lei-8137-1990"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 40
+            }
+          ]
+        },
+        {
+          "id": "legislacao-penal-especial--crimes-contra-as-relacoes-de-consumo",
+          "nome": "Crimes contra as Relações de Consumo",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 40,
+          "subtopicos": [],
+          "leis": [
+            "lei-8078-1990",
+            "lei-8137-1990"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 40
+            }
+          ]
+        },
+        {
+          "id": "legislacao-penal-especial--crimes-eleitorais",
+          "nome": "Crimes Eleitorais",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 40,
+          "subtopicos": [],
+          "leis": [
+            "lei-4737-1965"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 40
+            }
+          ]
+        },
+        {
+          "id": "legislacao-penal-especial--protecao-a-vitimas-e-testemunhas",
+          "nome": "Proteção a Vítimas e Testemunhas",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 40,
+          "subtopicos": [],
+          "leis": [
+            "lei-9807-1999"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 40
+            }
+          ]
+        },
+        {
+          "id": "legislacao-penal-especial--crimes-no-esporte-lei-geral-do-esporte",
+          "nome": "Crimes no Esporte (Lei Geral do Esporte)",
+          "concursos": [
+            "pcce-2021",
+            "cfo-pmce"
+          ],
+          "meta": 30,
+          "subtopicos": [],
+          "leis": [
+            "lei-14597-2023"
+          ],
+          "trechos": [],
+          "nota": "O Estatuto do Torcedor citado nos editais foi revogado pela Lei 14.597/2023.",
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 20
+            },
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Direito Penal Militar",
+      "meta": 690,
+      "concursos": [
+        "cfo-pmce"
+      ],
+      "nota": "Só no CFO PMCE (Direito Penal Militar e Processo Penal Militar).",
+      "topicos": [
+        {
+          "id": "direito-penal-militar--aplicacao-da-lei-penal-militar",
+          "nome": "Aplicação da Lei Penal Militar",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 120,
+          "subtopicos": [],
+          "leis": [
+            "cpm"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 120
+            }
+          ]
+        },
+        {
+          "id": "direito-penal-militar--crime-militar-conceito-e-classificacao",
+          "nome": "Crime Militar: Conceito e Classificação",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 160,
+          "subtopicos": [
+            "Crimes militares em tempo de paz",
+            "Propriamente e impropriamente militares"
+          ],
+          "leis": [
+            "cpm"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 160
+            }
+          ]
+        },
+        {
+          "id": "direito-penal-militar--imputabilidade-e-concurso-de-agentes-no-cpm",
+          "nome": "Imputabilidade e Concurso de Agentes no CPM",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 70,
+          "subtopicos": [],
+          "leis": [
+            "cpm"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 70
+            }
+          ]
+        },
+        {
+          "id": "direito-penal-militar--penas-e-medidas-de-seguranca-no-cpm",
+          "nome": "Penas e Medidas de Segurança no CPM",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 80,
+          "subtopicos": [
+            "Aplicação da pena",
+            "Suspensão condicional e livramento",
+            "Penas acessórias e efeitos da condenação"
+          ],
+          "leis": [
+            "cpm"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 80
+            }
+          ]
+        },
+        {
+          "id": "direito-penal-militar--acao-penal-militar-e-extincao-da-punibilidade",
+          "nome": "Ação Penal Militar e Extinção da Punibilidade",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 70,
+          "subtopicos": [],
+          "leis": [
+            "cpm",
+            "cppm"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 70
+            }
+          ]
+        },
+        {
+          "id": "direito-penal-militar--crimes-militares-contra-a-pessoa-e-o-patrimonio",
+          "nome": "Crimes Militares contra a Pessoa e o Patrimônio",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 80,
+          "subtopicos": [],
+          "leis": [
+            "cpm"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 80
+            }
+          ]
+        },
+        {
+          "id": "direito-penal-militar--crimes-contra-a-administracao-militar",
+          "nome": "Crimes contra a Administração Militar",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 80,
+          "subtopicos": [],
+          "leis": [
+            "cpm"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 80
+            }
+          ]
+        },
+        {
+          "id": "direito-penal-militar--crimes-em-tempo-de-guerra",
+          "nome": "Crimes em Tempo de Guerra",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 30,
+          "subtopicos": [],
+          "leis": [
+            "cpm"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Legislação Estadual e Municipal",
+      "meta": 1020,
+      "concursos": [
+        "pcce-2021",
+        "gm-fortaleza"
+      ],
+      "topicos": [
+        {
+          "id": "legislacao-estadual-e-municipal--constituicao-do-ceara-seguranca-publica-e-defesa-civil",
+          "nome": "Constituição do Ceará: Segurança Pública e Defesa Civil",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 130,
+          "subtopicos": [],
+          "leis": [
+            "ce-constituicao"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 130
+            }
+          ]
+        },
+        {
+          "id": "legislacao-estadual-e-municipal--estatuto-dos-servidores-civis-do-ceara",
+          "nome": "Estatuto dos Servidores Civis do Ceará",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 150,
+          "subtopicos": [],
+          "leis": [
+            "ce-lei-9826-1974"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 150
+            }
+          ]
+        },
+        {
+          "id": "legislacao-estadual-e-municipal--estatuto-da-policia-civil-do-ceara",
+          "nome": "Estatuto da Polícia Civil do Ceará",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 190,
+          "subtopicos": [],
+          "leis": [
+            "ce-lei-12124-1993"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 190
+            }
+          ]
+        },
+        {
+          "id": "legislacao-estadual-e-municipal--controladoria-geral-de-disciplina-do-ceara",
+          "nome": "Controladoria Geral de Disciplina do Ceará",
+          "concursos": [
+            "pcce-2021"
+          ],
+          "meta": 100,
+          "subtopicos": [],
+          "leis": [
+            "ce-lc-98-2011"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "pcce-2021"
+              ],
+              "meta": 100
+            }
+          ]
+        },
+        {
+          "id": "legislacao-estadual-e-municipal--estatuto-geral-das-guardas-municipais",
+          "nome": "Estatuto Geral das Guardas Municipais",
+          "concursos": [
+            "gm-fortaleza"
+          ],
+          "meta": 190,
+          "subtopicos": [],
+          "leis": [
+            "lei-13022-2014"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "gm-fortaleza"
+              ],
+              "meta": 190
+            }
+          ]
+        },
+        {
+          "id": "legislacao-estadual-e-municipal--lei-organica-de-fortaleza",
+          "nome": "Lei Orgânica de Fortaleza",
+          "concursos": [
+            "gm-fortaleza"
+          ],
+          "meta": 130,
+          "subtopicos": [
+            "Arts. 1º a 9º",
+            "Arts. 98 a 123"
+          ],
+          "leis": [
+            "fortaleza-lei-organica"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "gm-fortaleza"
+              ],
+              "meta": 130
+            }
+          ]
+        },
+        {
+          "id": "legislacao-estadual-e-municipal--estatuto-dos-servidores-de-fortaleza",
+          "nome": "Estatuto dos Servidores de Fortaleza",
+          "concursos": [
+            "gm-fortaleza"
+          ],
+          "meta": 130,
+          "subtopicos": [],
+          "leis": [
+            "fortaleza-lei-6794-1990"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "gm-fortaleza"
+              ],
+              "meta": 130
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Segurança Pública",
+      "meta": 320,
+      "concursos": [
+        "cfo-pmce"
+      ],
+      "nota": "Só no CFO PMCE.",
+      "topicos": [
+        {
+          "id": "seguranca-publica--seguranca-publica-e-direitos-humanos",
+          "nome": "Segurança Pública e Direitos Humanos",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 80,
+          "subtopicos": [
+            "Desarmamento",
+            "Combate a preconceitos de gênero, étnico, racial, geracional e de orientação sexual"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 80
+            }
+          ]
+        },
+        {
+          "id": "seguranca-publica--instituicoes-de-seguranca-publica-e-sistema-prisional",
+          "nome": "Instituições de Segurança Pública e Sistema Prisional",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 80,
+          "subtopicos": [],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 80
+            }
+          ]
+        },
+        {
+          "id": "seguranca-publica--crime-organizado-e-corrupcao-policial",
+          "nome": "Crime Organizado e Corrupção Policial",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 60,
+          "subtopicos": [],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 60
+            }
+          ]
+        },
+        {
+          "id": "seguranca-publica--participacao-social-e-acesso-a-justica",
+          "nome": "Participação Social e Acesso à Justiça",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 50,
+          "subtopicos": [
+            "Redes sociais e comunitárias",
+            "Valorização dos espaços públicos",
+            "Participação da sociedade civil"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 50
+            }
+          ]
+        },
+        {
+          "id": "seguranca-publica--pronasci",
+          "nome": "PRONASCI",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 50,
+          "subtopicos": [],
+          "leis": [
+            "lei-11530-2007"
+          ],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "História e Geografia do Ceará",
+      "meta": 400,
+      "concursos": [
+        "cfo-pmce",
+        "gm-fortaleza"
+      ],
+      "topicos": [
+        {
+          "id": "historia-e-geografia-do-ceara--ceara-colonial",
+          "nome": "Ceará Colonial",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 70,
+          "subtopicos": [
+            "Ocupação do território e disputas com nativos",
+            "Sesmarias e economia pecuária"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 70
+            }
+          ]
+        },
+        {
+          "id": "historia-e-geografia-do-ceara--ceara-imperial",
+          "nome": "Ceará Imperial",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 70,
+          "subtopicos": [
+            "Confederação do Equador",
+            "Economia do algodão",
+            "Escravidão e abolição no Ceará"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 70
+            }
+          ]
+        },
+        {
+          "id": "historia-e-geografia-do-ceara--ceara-na-republica",
+          "nome": "Ceará na República",
+          "concursos": [
+            "cfo-pmce"
+          ],
+          "meta": 110,
+          "subtopicos": [
+            "República Velha: coronelismo, movimentos religiosos e banditismo",
+            "1930 a 1964: Estado Novo, indústria da seca, DNOCS e SUDENE",
+            "Governos militares e Nova República"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "Vunesp",
+              "alternativas": 5,
+              "concursos": [
+                "cfo-pmce"
+              ],
+              "meta": 110
+            }
+          ]
+        },
+        {
+          "id": "historia-e-geografia-do-ceara--fortaleza-geografia",
+          "nome": "Fortaleza: Geografia",
+          "concursos": [
+            "gm-fortaleza"
+          ],
+          "meta": 70,
+          "subtopicos": [
+            "Localização e limites",
+            "Hidrografia",
+            "Clima e vegetação",
+            "Ocupação geográfica"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "gm-fortaleza"
+              ],
+              "meta": 70
+            }
+          ]
+        },
+        {
+          "id": "historia-e-geografia-do-ceara--fortaleza-historia-populacao-e-cultura",
+          "nome": "Fortaleza: História, População e Cultura",
+          "concursos": [
+            "gm-fortaleza"
+          ],
+          "meta": 80,
+          "subtopicos": [
+            "História da cidade",
+            "População",
+            "Aspectos políticos, administrativos e econômicos",
+            "Pontos turísticos e patrimônio cultural"
+          ],
+          "leis": [],
+          "trechos": [],
+          "formatos": [
+            {
+              "banca": "IDECAN",
+              "alternativas": 4,
+              "concursos": [
+                "gm-fortaleza"
+              ],
+              "meta": 80
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "excluidas": [
+    {
+      "nome": "Atualidades",
+      "concursos": [
+        "gm-fortaleza",
+        "cfo-pmce"
+      ],
+      "motivo": "O edital cobra fatos dos últimos 6 meses antes da prova: a IA não tem esses fatos e a questão envelhece. Melhor feito à mão perto da prova."
+    }
+  ],
+  "leis": {
+    "cf88": {
+      "nome": "Constituição Federal de 1988",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+    },
+    "cp": {
+      "nome": "Código Penal (Decreto-Lei 2.848/1940)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+    },
+    "cpp": {
+      "nome": "Código de Processo Penal (Decreto-Lei 3.689/1941)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+    },
+    "cpm": {
+      "nome": "Código Penal Militar (Decreto-Lei 1.001/1969)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del1001.htm"
+    },
+    "cppm": {
+      "nome": "Código de Processo Penal Militar (Decreto-Lei 1.002/1969)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del1002.htm"
+    },
+    "lei-8429-1992": {
+      "nome": "Lei de Improbidade Administrativa (Lei 8.429/1992, com a Lei 14.230/2021)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
+    },
+    "lei-13709-2018": {
+      "nome": "LGPD (Lei 13.709/2018)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
+    },
+    "lei-14133-2021": {
+      "nome": "Licitações e Contratos (Lei 14.133/2021)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
+      "observacao": "O edital de 2021 fala em licitações sem citar a lei; a Lei 8.666/1993 foi revogada em 30/12/2023."
+    },
+    "lei-9784-1999": {
+      "nome": "Processo Administrativo Federal (Lei 9.784/1999)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"
+    },
+    "lei-8072-1990": {
+      "nome": "Crimes Hediondos (Lei 8.072/1990)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8072.htm"
+    },
+    "lei-9455-1997": {
+      "nome": "Lei de Tortura (Lei 9.455/1997)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l9455.htm"
+    },
+    "lei-11343-2006": {
+      "nome": "Lei de Drogas (Lei 11.343/2006)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11343.htm",
+      "observacao": "O edital da GMF cita como 11.343/2016 (erro de digitação)."
+    },
+    "lei-13869-2019": {
+      "nome": "Abuso de Autoridade (Lei 13.869/2019)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13869.htm"
+    },
+    "lei-9296-1996": {
+      "nome": "Interceptação Telefônica (Lei 9.296/1996)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l9296.htm"
+    },
+    "lei-7960-1989": {
+      "nome": "Prisão Temporária (Lei 7.960/1989)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l7960.htm"
+    },
+    "lei-12850-2013": {
+      "nome": "Organização Criminosa (Lei 12.850/2013)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm"
+    },
+    "lei-7210-1984": {
+      "nome": "Lei de Execução Penal (Lei 7.210/1984)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l7210.htm"
+    },
+    "lei-12830-2013": {
+      "nome": "Investigação pelo Delegado de Polícia (Lei 12.830/2013)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12830.htm"
+    },
+    "lei-12037-2009": {
+      "nome": "Identificação Criminal (Lei 12.037/2009)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12037.htm"
+    },
+    "lei-10826-2003": {
+      "nome": "Estatuto do Desarmamento (Lei 10.826/2003)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826.htm"
+    },
+    "lei-7716-1989": {
+      "nome": "Crimes de Racismo (Lei 7.716/1989)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l7716.htm"
+    },
+    "lei-9099-1995": {
+      "nome": "Juizados Especiais (Lei 9.099/1995)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm"
+    },
+    "lei-11340-2006": {
+      "nome": "Lei Maria da Penha (Lei 11.340/2006)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm",
+      "observacao": "Os editais da GMF e do CFO citam como 11.340/16 (erro de digitação)."
+    },
+    "lei-8069-1990": {
+      "nome": "Estatuto da Criança e do Adolescente (Lei 8.069/1990)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8069.htm"
+    },
+    "lei-10741-2003": {
+      "nome": "Estatuto da Pessoa Idosa (Lei 10.741/2003)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.741.htm",
+      "observacao": "Renomeado de Estatuto do Idoso pela Lei 14.423/2022."
+    },
+    "lei-9503-1997": {
+      "nome": "Código de Trânsito Brasileiro (Lei 9.503/1997)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm"
+    },
+    "lei-1521-1951": {
+      "nome": "Crimes contra a Economia Popular (Lei 1.521/1951)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l1521.htm"
+    },
+    "lei-8137-1990": {
+      "nome": "Crimes contra a Ordem Tributária e Econômica (Lei 8.137/1990)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8137.htm"
+    },
+    "lei-4737-1965": {
+      "nome": "Código Eleitoral (Lei 4.737/1965)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l4737compilado.htm"
+    },
+    "lei-8078-1990": {
+      "nome": "Código de Defesa do Consumidor (Lei 8.078/1990)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm"
+    },
+    "dl-3688-1941": {
+      "nome": "Lei das Contravenções Penais (Decreto-Lei 3.688/1941)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3688.htm"
+    },
+    "lei-9605-1998": {
+      "nome": "Crimes Ambientais (Lei 9.605/1998)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l9605.htm"
+    },
+    "lei-9613-1998": {
+      "nome": "Lavagem de Dinheiro (Lei 9.613/1998)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l9613.htm"
+    },
+    "lei-9807-1999": {
+      "nome": "Proteção a Vítimas e Testemunhas (Lei 9.807/1999)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l9807.htm"
+    },
+    "lei-12288-2010": {
+      "nome": "Estatuto da Igualdade Racial (Lei 12.288/2010)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12288.htm"
+    },
+    "lei-13146-2015": {
+      "nome": "Estatuto da Pessoa com Deficiência (Lei 13.146/2015)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm"
+    },
+    "lei-14597-2023": {
+      "nome": "Lei Geral do Esporte (Lei 14.597/2023)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14597.htm",
+      "observacao": "Revogou o Estatuto do Torcedor (Lei 10.671/2003) citado no edital da PCCE. O edital do CFO cita 'Lei 12.984/2014', que é outra lei (discriminação de pessoas com HIV)."
+    },
+    "lei-13964-2019": {
+      "nome": "Pacote Anticrime (Lei 13.964/2019)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13964.htm"
+    },
+    "lei-13260-2016": {
+      "nome": "Lei Antiterrorismo (Lei 13.260/2016)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13260.htm",
+      "observacao": "O edital da PCCE cita como 13.620/2016 (erro de digitação)."
+    },
+    "lei-13022-2014": {
+      "nome": "Estatuto Geral das Guardas Municipais (Lei 13.022/2014)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l13022.htm"
+    },
+    "lei-11530-2007": {
+      "nome": "PRONASCI (Lei 11.530/2007)",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/lei/l11530.htm"
+    },
+    "ce-constituicao": {
+      "nome": "Constituição do Estado do Ceará",
+      "fonte": "https://www.al.ce.gov.br/legislativo/constituicao-do-estado-do-ceara",
+      "observacao": "Fonte estadual: baixar da Assembleia Legislativa do Ceará."
+    },
+    "ce-lei-9826-1974": {
+      "nome": "Estatuto dos Servidores Públicos Civis do Ceará (Lei 9.826/1974)",
+      "fonte": "https://belt.al.ce.gov.br",
+      "observacao": "Fonte estadual: baixar da Assembleia Legislativa do Ceará."
+    },
+    "ce-lei-12124-1993": {
+      "nome": "Estatuto da Polícia Civil de Carreira do Ceará (Lei 12.124/1993)",
+      "fonte": "https://belt.al.ce.gov.br",
+      "observacao": "Fonte estadual: baixar da Assembleia Legislativa do Ceará."
+    },
+    "ce-lc-98-2011": {
+      "nome": "Controladoria Geral de Disciplina do Ceará (LC 98/2011)",
+      "fonte": "https://belt.al.ce.gov.br",
+      "observacao": "Fonte estadual: baixar da Assembleia Legislativa do Ceará."
+    },
+    "fortaleza-lei-organica": {
+      "nome": "Lei Orgânica do Município de Fortaleza (arts. 1º a 9º e 98 a 123)",
+      "fonte": "https://www.cmfor.ce.gov.br",
+      "observacao": "Fonte municipal: baixar da Câmara Municipal de Fortaleza."
+    },
+    "fortaleza-lei-6794-1990": {
+      "nome": "Estatuto dos Servidores do Município de Fortaleza (Lei 6.794/1990)",
+      "fonte": "https://www.cmfor.ce.gov.br",
+      "observacao": "Fonte municipal: baixar da Câmara Municipal de Fortaleza."
+    }
+  }
+}

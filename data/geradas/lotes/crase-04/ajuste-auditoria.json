@@ -1,0 +1,40 @@
+{
+  "auditorias": [
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvida de forma independente: só a2 mantém o paralelismo nos dois intervalos (\"de segunda a sexta\" e \"das 8h às 17h\"). a1 erra em \"de segunda à sexta-feira\", a3 em \"da segunda a\" e \"de 8h às\", a4 em \"de 8h às 17h\". As alternativas reescritas têm tamanho equilibrado e nenhum distrator ficou defensável."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Par clássico \"matar a fome\" (objeto direto, saciar) e \"matar à fome\" (adjunto adverbial, por privação de alimento). a3 descreve corretamente as duas funções e a mudança de sentido; a1 (mesmo sentido, crase facultativa), a2 (crase incorreta em II) e a4 (crase em I) estão claramente errados. A classificação \"meio\" é a usual nas gramáticas para esse adjunto."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Sequência correta: \"à uma hora\" (hora exata), \"há cerca de dez dias\" (tempo decorrido) e \"daqui a duas semanas\" (tempo futuro), que é a4. Cada distrator erra ao menos uma lacuna, conforme a análise. Comentário e macete corretos."
+    }
+  ]
+}

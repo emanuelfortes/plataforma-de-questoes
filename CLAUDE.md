@@ -54,11 +54,12 @@ src/
     (app)/admin                           área do dono (ADMIN_EMAILS), com menu lateral: visão geral, financeiro,
                                           pessoas (cadastrados x assinantes) e questões (prompt de IA e importação)
     (app)/assinatura                      assinatura mensal (Mercado Pago), cancelar, limite grátis do dia
+    (app)/admin/revisao                   fila de questões geradas por IA (questoes_revisao): aprovar copia para questoes
     api/mercadopago/webhook               avisos do Mercado Pago (assinatura e cobranças), opcional
     api/cron/assinaturas                  conferência diária no Mercado Pago (vercel.json, CRON_SECRET)
     api/auth/[...all]                     rotas do Better Auth
   components/                             UI (ui/ são primitivos genéricos; admin/kit.tsx são os blocos do painel do dono)
-  db/schema/                              auth.ts, conteudo.ts, estudo.ts
+  db/schema/                              auth.ts, conteudo.ts, estudo.ts, revisao.ts (questoes_revisao)
   db/importacao.ts                        núcleo da importação (script e /admin usam o mesmo)
   lib/                                    código compartilhado (pode ir para o cliente)
   server/                                 consultas e server actions (só servidor)
@@ -67,6 +68,11 @@ public/sw.js, public/offline.html         PWA: service worker só mostra a tela 
 docs/FORMATO-QUESTOES.md                  contrato do arquivo .jsonl
 docs/PROMPT-GERAR-QUESTOES.md             prompt para gerar questões de um PDF com IA
 data/catalogo.json                        nomes preferidos de matérias e áreas e apelidos (não é lista fechada)
+data/taxonomia.json                       tópicos, metas, formatos por banca e recortes de lei (scripts/taxonomia/montar-taxonomia.ts)
+data/leis/                                textos legais vigentes (scripts/leis/baixar-leis.ts)
+data/jurisprudencia.json                  julgados que a IA pode citar pelo número (o professor preenche)
+data/dispositivos-sensiveis.json          artigos com inconstitucionalidade, interpretação conforme ou não recepção: só com nota
+prompts/gerador.md, prompts/auditor.md    instruções da geração por IA; scripts/questoes/ (piloto, ajustes, finalizar, api-lotes)
 ```
 
 ## Modelo de dados (resumo)
@@ -82,6 +88,7 @@ data/catalogo.json                        nomes preferidos de matérias e áreas
 - `status_questao`: último estado por aluno e questão. Fonte dos filtros e ícones.
   Sem linha = não resolvida. `ultima_correta` = acertou ou errou.
 - `revisoes_flashcard`: estado FSRS por aluno e card.
+- `questoes_revisao`: questões geradas por IA aguardando revisão (status pendente_revisao, aprovada, rejeitada). Fora de `questoes` até a aprovação em /admin/revisao.
 - `assinaturas`, `pagamentos`: assinatura mensal e cada cobrança do Mercado Pago (fonte do faturamento). Só de quem tem `external_reference` com o prefixo `nobrega-questoes:` (`src/lib/planos.ts`), para separar de outros produtos na mesma conta.
 - `user`, `session`, `account`, `verification`: Better Auth. Não renomeie colunas.
 

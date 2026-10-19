@@ -1,0 +1,70 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Hospedar-se e tomar refeições sabendo não dispor de recursos é o art. 176 do CP. A correta reproduz o parágrafo único (representação e possibilidade de deixar de aplicar a pena). Os distratores erram de forma clara: queixa em vez de representação, reclusão, estelionato do caput e atipicidade."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Receber, desmontar e vender, em comércio clandestino exercido na residência, coisa que deve saber ser produto de crime é a receptação qualificada do art. 180, § 1º, com a equiparação do § 2º (reclusão de 3 a 8 anos, e multa). O § 7º não alcança peças de veículos, e o § 3º não cabe porque o enunciado traz o 'deve saber' no exercício de atividade comercial."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a5",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 171, § 2º, VII, no texto fornecido, pune com as penas do caput quem cede, gratuita ou onerosamente, conta bancária para trânsito de recursos fruto de atividade criminosa. O distrator com pena de 4 a 8 anos está errado (essa é a pena do § 2º-A e do art. 171-A), e os demais também se excluem com segurança."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Vítima com 64 anos: o art. 183, III, afasta as imunidades dos arts. 181 e 182, e o inciso II as nega ao estranho. A correta aponta os dois fundamentos. Nenhum distrator é defensável: o art. 183 afasta as duas imunidades, e o ascendente não está no art. 182."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "normativo",
+          "gravidade": "baixa",
+          "descricao": "O texto fornecido só informa que o § 5º do art. 180 foi revogado pela Lei nº 15.358/2026, sem a redação anterior. O que o comentário e a análise da a1 dizem sobre o conteúdo antigo (perdão judicial na receptação culposa e privilégio) vem de fora da fonte. O gabarito não depende disso: ele se sustenta na falta de previsão vigente."
+        }
+      ],
+      "correcao_sugerida": "Antes de publicar, confirmar com um revisor a menção à redação anterior do § 5º no comentario_geral e na observacao_temporal, ou dizer apenas que o dispositivo que previa essa possibilidade foi revogado.",
+      "justificativa": "Comprar por um décimo do preço de um desconhecido, devendo presumir a origem criminosa, é o art. 180, § 3º, punível mesmo com o autor desconhecido (§ 4º). Como o § 5º está revogado no texto vigente, não há base para deixar de aplicar a pena, e por isso a a1 fica errada e a a4 certa. A única limitação é a referência à redação revogada, que não consta da fonte."
+    }
+  ]
+}

@@ -1,0 +1,693 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Inquérito Policial",
+      "subtema": "Polícia judiciária e finalidade",
+      "dificuldade": "facil",
+      "enunciado": "De acordo com o Código de Processo Penal, a polícia judiciária será exercida pelas autoridades policiais no território de suas respectivas circunscrições e terá por fim a apuração das infrações penais e da sua autoria. Sobre essa atribuição, é correto afirmar que",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "ela é exclusiva das autoridades policiais, sendo vedado que lei atribua a mesma função a qualquer outra autoridade."
+        },
+        {
+          "id": "a2",
+          "texto": "ela tem por finalidade o julgamento das infrações penais de menor gravidade ocorridas na circunscrição."
+        },
+        {
+          "id": "a3",
+          "texto": "ela não exclui a competência de autoridades administrativas a quem, por lei, seja cometida a mesma função."
+        },
+        {
+          "id": "a4",
+          "texto": "ela pode ser exercida pela autoridade policial em qualquer ponto do território nacional, independentemente de circunscrição."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "O art. 4º do CPP atribui às autoridades policiais o exercício da polícia judiciária, dentro de suas circunscrições, com a finalidade de apurar a infração penal e sua autoria. O parágrafo único deixa claro que essa competência não exclui a de autoridades administrativas a quem a lei atribua a mesma função. Por isso o inquérito policial não é o único instrumento de investigação previsto no ordenamento.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Contraria o parágrafo único do art. 4º, que expressamente admite que a lei cometa a mesma função a autoridades administrativas."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A finalidade da polícia judiciária é apurar a infração e a autoria, não julgar. Julgamento é função do Poder Judiciário."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Reproduz o sentido do parágrafo único do art. 4º do CPP: a competência da polícia judiciária não exclui a de autoridades administrativas com a mesma função atribuída por lei."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 4º limita o exercício ao território das respectivas circunscrições das autoridades policiais."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 4º, caput e parágrafo único.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Afirmar que a investigação de infrações penais é monopólio das autoridades policiais.",
+      "lei_referencia": "CPP, art. 4º, parágrafo único",
+      "macete_do_riccardo": null,
+      "fique_ligado": "O parágrafo único do art. 4º é a base legal para lembrar que existem outras investigações além do inquérito policial, desde que previstas em lei.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "polícia judiciária",
+        "circunscrição",
+        "autoridades administrativas",
+        "finalidade do inquérito"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (arts. 4º a 23) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Inquérito Policial",
+      "subtema": "Características: indisponibilidade",
+      "dificuldade": "facil",
+      "enunciado": "Concluídas as diligências de um inquérito policial, o delegado de polícia convenceu-se de que o fato investigado não constituía crime. Diante disso, segundo o Código de Processo Penal, o delegado",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "não poderá mandar arquivar os autos do inquérito, ainda que esteja convencido da atipicidade do fato."
+        },
+        {
+          "id": "a2",
+          "texto": "poderá mandar arquivar os autos, desde que comunique a decisão ao Ministério Público no prazo legal."
+        },
+        {
+          "id": "a3",
+          "texto": "deverá arquivar os autos de ofício, por se tratar de procedimento dispensável à ação penal."
+        },
+        {
+          "id": "a4",
+          "texto": "poderá arquivar os autos somente se o indiciado estiver solto, mediante fiança ou sem ela."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 17 do CPP é categórico: a autoridade policial não poderá mandar arquivar autos de inquérito. Essa regra traduz a indisponibilidade do inquérito para a autoridade policial. Mesmo convencida da atipicidade, ela deve concluir o procedimento com relatório e remeter os autos ao juiz competente (art. 10, § 1º).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "É a literalidade do art. 17 do CPP, que proíbe a autoridade policial de mandar arquivar autos de inquérito."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Não existe arquivamento pela autoridade policial com posterior comunicação: o art. 17 veda o arquivamento por ela em qualquer hipótese."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Confunde dispensabilidade com disponibilidade. O inquérito pode ser dispensável para a ação penal, mas, uma vez instaurado, a autoridade policial não pode arquivá-lo (art. 17)."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A situação prisional do indiciado interfere apenas no prazo de conclusão (art. 10), e não autoriza o arquivamento pela autoridade policial."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 17; art. 10, § 1º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir a dispensabilidade do inquérito com a possibilidade de a própria autoridade policial dispor dele.",
+      "lei_referencia": "CPP, art. 17",
+      "macete_do_riccardo": "Delegado instaura, investiga e relata, mas não arquiva.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "indisponibilidade",
+        "arquivamento",
+        "autoridade policial",
+        "relatório"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (arts. 4º a 23) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Inquérito Policial",
+      "subtema": "Características: procedimento escrito",
+      "dificuldade": "facil",
+      "enunciado": "O Código de Processo Penal dispõe que todas as peças do inquérito policial serão, num só processado, reduzidas a escrito ou datilografadas e, neste caso, rubricadas pela autoridade. Essa regra corresponde à característica do inquérito policial conhecida como",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "indisponibilidade, pois impede que a autoridade policial abandone a investigação."
+        },
+        {
+          "id": "a2",
+          "texto": "procedimento escrito, pois os atos devem ser documentados nos autos."
+        },
+        {
+          "id": "a3",
+          "texto": "sigilo, pois somente a autoridade policial pode ter acesso às peças rubricadas."
+        },
+        {
+          "id": "a4",
+          "texto": "oficialidade, pois o inquérito somente pode ser iniciado mediante requisição judicial."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O art. 9º do CPP exige que todas as peças do inquérito sejam reduzidas a escrito ou datilografadas, num só processado, com rubrica da autoridade no caso das datilografadas. É a base legal da característica do inquérito como procedimento escrito: o que é feito oralmente (depoimentos, declarações) precisa ser documentado nos autos.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "A indisponibilidade decorre do art. 17 (a autoridade policial não pode arquivar), e não da exigência de forma escrita."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "O art. 9º do CPP fundamenta a característica de procedimento escrito, ao exigir que todas as peças sejam reduzidas a escrito ou datilografadas."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O sigilo tem base no art. 20 e é o necessário à elucidação do fato ou exigido pelo interesse da sociedade; não decorre da rubrica das peças."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Além de não guardar relação com o art. 9º, a afirmação é falsa: nos crimes de ação pública o inquérito pode ser iniciado de ofício (art. 5º, I)."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 9º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Associar cada característica do inquérito ao dispositivo errado.",
+      "lei_referencia": "CPP, art. 9º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "procedimento escrito",
+        "características do inquérito",
+        "art. 9º"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (arts. 4º a 23) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Inquérito Policial",
+      "subtema": "Instauração na ação penal pública condicionada",
+      "dificuldade": "media",
+      "enunciado": "Um policial civil recebeu, por meio de um terceiro que presenciou o fato, a notícia da prática de crime cuja ação penal é pública, mas depende de representação da vítima. A vítima, procurada, ainda não manifestou interesse em representar. Nessa situação, conforme o Código de Processo Penal, o inquérito policial",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "poderá ser instaurado de ofício, pois todo crime de ação pública admite a instauração pela própria autoridade policial."
+        },
+        {
+          "id": "a2",
+          "texto": "poderá ser instaurado a partir da comunicação do terceiro, desde que verificada a procedência das informações."
+        },
+        {
+          "id": "a3",
+          "texto": "somente poderá ser instaurado a requerimento da vítima, sendo dispensada a representação nessa hipótese."
+        },
+        {
+          "id": "a4",
+          "texto": "não poderá ser iniciado sem a representação, ainda que a autoridade policial tenha conhecimento do fato."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "Nos crimes de ação pública condicionada, a representação é condição para o início do inquérito. O art. 5º, § 4º, do CPP é expresso: o inquérito, nos crimes em que a ação pública depender de representação, não poderá sem ela ser iniciado. A instauração de ofício (art. 5º, I) e a delatio criminis do § 3º não superam essa exigência.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Generalização indevida: a instauração de ofício não alcança os crimes de ação pública condicionada, por força do art. 5º, § 4º."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A comunicação de qualquer pessoa do povo (art. 5º, § 3º) não substitui a representação exigida pelo § 4º do mesmo artigo."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Confunde a ação condicionada com a ação privada, em que o inquérito depende de requerimento de quem pode intentá-la (§ 5º). Na condicionada, a representação não é dispensada."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 5º, § 4º, do CPP: sem representação, o inquérito não pode ser iniciado nos crimes de ação pública condicionada."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 5º, § 4º; art. 5º, I e § 3º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Tratar a ação pública condicionada como se admitisse instauração de ofício ou por delatio criminis.",
+      "lei_referencia": "CPP, art. 5º, § 4º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Ação pública não significa sempre instauração de ofício: se depender de representação, sem ela o inquérito não começa.",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "representação",
+        "ação penal pública condicionada",
+        "instauração",
+        "art. 5º, § 4º"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (arts. 4º a 23) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Inquérito Policial",
+      "subtema": "Instauração na ação penal privada",
+      "dificuldade": "media",
+      "enunciado": "Em investigação de crime de ação penal privada, instaurado o inquérito policial a requerimento da vítima e concluídas as diligências, a autoridade policial deverá, segundo o Código de Processo Penal,",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "encaminhar os autos ao Ministério Público, a quem cabe oferecer a queixa em nome do ofendido."
+        },
+        {
+          "id": "a2",
+          "texto": "entregar os autos diretamente ao ofendido, sendo vedada a remessa ao juízo competente."
+        },
+        {
+          "id": "a3",
+          "texto": "remeter os autos ao juízo competente, onde aguardarão a iniciativa do ofendido ou de seu representante legal."
+        },
+        {
+          "id": "a4",
+          "texto": "arquivar os autos caso o ofendido não ofereça a queixa no prazo de 30 dias da conclusão."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "Nos crimes de ação privada, o inquérito só é instaurado a requerimento de quem tenha qualidade para intentá-la (art. 5º, § 5º). Concluído, o art. 19 determina a remessa dos autos ao juízo competente, onde aguardarão a iniciativa do ofendido ou de seu representante legal; os autos poderão ainda ser entregues ao requerente, se o pedir, mediante traslado.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Na ação privada a iniciativa é do ofendido ou de seu representante legal, por meio de queixa; o art. 19 não prevê remessa ao Ministério Público para oferecê-la."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O art. 19 determina a remessa ao juízo competente; a entrega ao requerente é possível apenas se ele o pedir, mediante traslado, e não substitui a regra."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Reproduz o art. 19 do CPP: os autos são remetidos ao juízo competente e aguardam a iniciativa do ofendido ou de seu representante legal."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A autoridade policial não pode mandar arquivar autos de inquérito (art. 17), e o prazo indicado não consta dos dispositivos aplicáveis."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 5º, § 5º; art. 19; art. 17.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Imaginar que, na ação privada, o Ministério Público assume a iniciativa ou que a autoridade policial pode arquivar diante da inércia do ofendido.",
+      "lei_referencia": "CPP, art. 19",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Na ação privada o inquérito começa a requerimento de quem pode intentar a ação (art. 5º, § 5º) e termina no juízo, aguardando o ofendido (art. 19).",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "ação penal privada",
+        "requerimento do ofendido",
+        "remessa ao juízo",
+        "traslado"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (arts. 4º a 23) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Inquérito Policial",
+      "subtema": "Requerimento do ofendido e recurso contra o indeferimento",
+      "dificuldade": "media",
+      "enunciado": "Vítima de crime de ação penal pública incondicionada apresentou requerimento de abertura de inquérito policial, que foi indeferido por despacho do delegado de polícia. Conforme o Código de Processo Penal, contra esse despacho",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "caberá recurso para o chefe de Polícia."
+        },
+        {
+          "id": "a2",
+          "texto": "caberá recurso para o juiz competente, que poderá determinar a instauração."
+        },
+        {
+          "id": "a3",
+          "texto": "caberá recurso para o Ministério Público, que decidirá em caráter definitivo."
+        },
+        {
+          "id": "a4",
+          "texto": "não caberá recurso, por se tratar de ato discricionário da autoridade policial."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 5º, § 2º, do CPP prevê que do despacho que indeferir o requerimento de abertura de inquérito caberá recurso para o chefe de Polícia. É um recurso administrativo, dentro da própria estrutura policial. Isso não impede, por outros caminhos, que o ofendido leve a notícia diretamente ao Ministério Público ou ao juiz, mas o recurso previsto no dispositivo é dirigido ao chefe de Polícia.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "É a literalidade do art. 5º, § 2º, do CPP."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O dispositivo não indica o juiz como destinatário do recurso; o juiz aparece no art. 5º, II, como autoridade que pode requisitar a instauração, o que é diferente de julgar recurso."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O Ministério Público pode requisitar a instauração (art. 5º, II), mas o recurso contra o indeferimento do requerimento é dirigido ao chefe de Polícia."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Contraria o art. 5º, § 2º, que prevê expressamente o recurso contra o despacho de indeferimento."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 5º, II e § 2º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar o destinatário do recurso (chefe de Polícia) pelo juiz ou pelo Ministério Público.",
+      "lei_referencia": "CPP, art. 5º, § 2º",
+      "macete_do_riccardo": "Indeferiu o requerimento de abertura? Recorre ao chefe: chefe de Polícia.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "requerimento do ofendido",
+        "indeferimento",
+        "recurso",
+        "chefe de Polícia"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (arts. 4º a 23) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Inquérito Policial",
+      "subtema": "Delatio criminis",
+      "dificuldade": "media",
+      "enunciado": "Um comerciante compareceu à delegacia e relatou verbalmente que presenciou um vizinho praticar crime de ação penal pública incondicionada contra terceiro. Considerando o que dispõe o Código de Processo Penal sobre essa comunicação, assinale a afirmativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A comunicação somente produz efeitos se for feita por escrito e assinada pelo comunicante."
+        },
+        {
+          "id": "a2",
+          "texto": "A autoridade policial, verificada a procedência das informações, mandará instaurar inquérito."
+        },
+        {
+          "id": "a3",
+          "texto": "Por não ser o ofendido, o comerciante não tem legitimidade para comunicar o fato à autoridade policial."
+        },
+        {
+          "id": "a4",
+          "texto": "A autoridade policial deverá instaurar o inquérito imediatamente, sem qualquer verificação prévia das informações."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O art. 5º, § 3º, do CPP trata da delatio criminis: qualquer pessoa do povo que tiver conhecimento de infração penal em que caiba ação pública pode comunicá-la, verbalmente ou por escrito, à autoridade policial. Esta, verificada a procedência das informações, mandará instaurar inquérito. A verificação prévia é parte do próprio dispositivo.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O § 3º admite expressamente a comunicação verbal ou por escrito."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Reproduz a parte final do art. 5º, § 3º, do CPP: verificada a procedência das informações, a autoridade mandará instaurar inquérito."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O § 3º confere a faculdade a qualquer pessoa do povo, não apenas ao ofendido, quando a infração for de ação pública."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O dispositivo condiciona a instauração à verificação da procedência das informações; não há determinação de instauração automática."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 5º, § 3º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Exigir forma escrita, restringir a comunicação ao ofendido ou suprimir a verificação de procedência prevista na lei.",
+      "lei_referencia": "CPP, art. 5º, § 3º",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Delatio criminis: qualquer pessoa do povo, verbal ou escrita, só para crime de ação pública, e a autoridade verifica a procedência antes de instaurar.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "delatio criminis",
+        "qualquer pessoa do povo",
+        "verificação de procedência",
+        "notitia criminis"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (arts. 4º a 23) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Inquérito Policial",
+      "subtema": "Características: sigilo",
+      "dificuldade": "dificil",
+      "enunciado": "Durante inquérito policial instaurado para apurar crime de ação pública, o investigado, que não possui condenações anteriores, solicitou à autoridade policial um atestado de antecedentes para apresentar a um futuro empregador. À luz do Código de Processo Penal, assinale a afirmativa correta sobre o sigilo do inquérito e o atestado solicitado.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O sigilo é inerente a todo inquérito, de modo que a autoridade deve decretá-lo integralmente em qualquer investigação, independentemente das circunstâncias do caso."
+        },
+        {
+          "id": "a2",
+          "texto": "A autoridade deverá mencionar no atestado a existência do inquérito em curso, pois a informação interessa à sociedade e ao empregador."
+        },
+        {
+          "id": "a3",
+          "texto": "A autoridade policial poderá, por despacho próprio, decretar a incomunicabilidade do indiciado como forma de preservar o sigilo da investigação."
+        },
+        {
+          "id": "a4",
+          "texto": "A autoridade assegurará o sigilo necessário à elucidação do fato ou exigido pelo interesse da sociedade, e não poderá mencionar no atestado anotações referentes à instauração do inquérito."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "O art. 20 do CPP não impõe sigilo absoluto e automático: a autoridade assegura o sigilo necessário à elucidação do fato ou exigido pelo interesse da sociedade. O parágrafo único, com redação da Lei 12.681/2012, proíbe a autoridade policial de mencionar, nos atestados de antecedentes solicitados, quaisquer anotações referentes à instauração de inquérito contra os requerentes. Assim, o investigado recebe o atestado sem referência ao inquérito.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O art. 20 fala em sigilo necessário à elucidação do fato ou exigido pelo interesse da sociedade, ou seja, o sigilo é medido pela necessidade do caso, e não imposto integralmente em toda investigação."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Contraria o parágrafo único do art. 20, que veda mencionar no atestado quaisquer anotações referentes à instauração de inquérito."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Pelo parágrafo único do art. 21, a incomunicabilidade é decretada por despacho fundamentado do juiz, a requerimento da autoridade policial ou do Ministério Público; a autoridade policial não a decreta por despacho próprio."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Combina corretamente o caput do art. 20 (sigilo necessário ou exigido pelo interesse da sociedade) com o seu parágrafo único (vedação de anotações sobre inquérito no atestado de antecedentes)."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 20, caput e parágrafo único (redação da Lei 12.681/2012); art. 21, parágrafo único.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "O parágrafo único do art. 20 tem a redação dada pela Lei 12.681/2012, vigente na data de corte.",
+      "pegadinha": "Tratar o sigilo como absoluto e automático e supor que o inquérito em curso deve constar do atestado de antecedentes.",
+      "lei_referencia": "CPP, art. 20, parágrafo único",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Inquérito em andamento não aparece no atestado de antecedentes expedido pela autoridade policial: a vedação está no parágrafo único do art. 20.",
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "sigilo",
+        "atestado de antecedentes",
+        "interesse da sociedade",
+        "incomunicabilidade"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (arts. 4º a 23) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Inquérito Policial",
+      "subtema": "Instauração: requisição e requerimento",
+      "dificuldade": "dificil",
+      "enunciado": "Sobre as formas de instauração do inquérito policial nos crimes de ação penal pública incondicionada, previstas no art. 5º do Código de Processo Penal, assinale a afirmativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O despacho da autoridade policial que deixar de atender à requisição do Ministério Público desafia recurso ao chefe de Polícia, nos mesmos moldes do indeferimento do requerimento do ofendido."
+        },
+        {
+          "id": "a2",
+          "texto": "O requerimento do ofendido conterá, sempre que possível, a narração do fato, a individualização do indiciado ou os motivos da impossibilidade de fazê-lo e a nomeação das testemunhas."
+        },
+        {
+          "id": "a3",
+          "texto": "A requisição da autoridade judiciária somente autoriza a instauração se acompanhada de representação do ofendido, por se tratar de ato externo à polícia."
+        },
+        {
+          "id": "a4",
+          "texto": "O requerimento do ofendido que não indicar testemunhas, com profissão e residência, deve ser indeferido, por ausência de requisito essencial."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O art. 5º, II, do CPP diferencia a requisição (da autoridade judiciária ou do Ministério Público) do requerimento (do ofendido ou de quem tiver qualidade para representá-lo). O § 1º lista o conteúdo do requerimento, mas com a expressão 'sempre que possível', de modo que os dados não são requisitos absolutos. O § 2º prevê recurso ao chefe de Polícia apenas contra o despacho que indeferir o requerimento de abertura, e não trata de requisição.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O § 2º do art. 5º prevê recurso ao chefe de Polícia contra o indeferimento do requerimento; o dispositivo não estende esse recurso à requisição do Ministério Público, que é forma distinta de instauração."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Reproduz o art. 5º, § 1º, alíneas a, b e c, do CPP, inclusive a ressalva 'sempre que possível'."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Nos crimes de ação pública incondicionada não se exige representação; ela só é condição nos crimes em que a ação pública depender dela (art. 5º, § 4º)."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O § 1º diz que o requerimento conterá os dados 'sempre que possível', o que afasta a ideia de requisito essencial cuja falta impõe o indeferimento."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 5º, II, §§ 1º, 2º e 4º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir requisição com requerimento e transformar o conteúdo 'sempre que possível' do requerimento em requisito obrigatório.",
+      "lei_referencia": "CPP, art. 5º, § 1º",
+      "macete_do_riccardo": "Requisição vem de autoridade (juiz ou MP); requerimento vem do ofendido. O recurso ao chefe de Polícia é do requerimento indeferido.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "requisição",
+        "requerimento",
+        "conteúdo do requerimento",
+        "ação penal pública incondicionada"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (arts. 4º a 23) fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Inquérito Policial",
+      "subtema": "Características: inquisitivo e discricionariedade das diligências",
+      "dificuldade": "dificil",
+      "enunciado": "No curso de inquérito policial, o indiciado, por meio de seu advogado, requereu à autoridade policial a oitiva de uma testemunha que, segundo ele, confirmaria seu álibi. A autoridade, considerando a diligência inútil para a elucidação do fato, deixou de realizá-la. Com base no Código de Processo Penal, assinale a afirmativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A autoridade estava obrigada a realizar a diligência, pois o requerimento do indiciado vincula a investigação em respeito ao contraditório."
+        },
+        {
+          "id": "a2",
+          "texto": "Contra a recusa caberá recurso para o chefe de Polícia, na forma prevista para o indeferimento de requerimentos no inquérito."
+        },
+        {
+          "id": "a3",
+          "texto": "A recusa foi legítima, pois as diligências requeridas pelo indiciado serão realizadas, ou não, a juízo da autoridade."
+        },
+        {
+          "id": "a4",
+          "texto": "A autoridade deveria ter submetido o requerimento ao juiz, a quem cabe decidir sobre diligências pedidas pelo indiciado."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "O art. 14 do CPP permite que o ofendido, seu representante legal e o indiciado requeiram qualquer diligência, que será realizada, ou não, a juízo da autoridade. Essa regra expressa o caráter inquisitivo do inquérito e a discricionariedade da autoridade policial na condução da investigação. O recurso ao chefe de Polícia do art. 5º, § 2º, refere-se ao indeferimento do requerimento de abertura de inquérito, e não a diligências no seu curso.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O art. 14 deixa a realização da diligência a juízo da autoridade; não há vinculação ao pedido do indiciado no texto do CPP."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Aplica dispositivo inadequado: o recurso ao chefe de Polícia (art. 5º, § 2º) é contra o despacho que indefere o requerimento de abertura de inquérito, não contra a recusa de diligência no curso dele."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 14 do CPP: a diligência requerida pelo indiciado será realizada, ou não, a juízo da autoridade."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O art. 14 atribui a decisão à própria autoridade policial, sem exigir submissão do requerimento ao juiz."
+        }
+      ],
+      "fundamento_legal": "CPP, art. 14; art. 5º, § 2º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Estender ao pedido de diligência o recurso ao chefe de Polícia, que a lei prevê apenas para o indeferimento do requerimento de abertura do inquérito.",
+      "lei_referencia": "CPP, art. 14",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Dois indeferimentos diferentes: o da abertura do inquérito tem recurso ao chefe de Polícia (art. 5º, § 2º); o de diligência no curso do inquérito fica a juízo da autoridade (art. 14).",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "procedimento inquisitivo",
+        "diligências",
+        "discricionariedade",
+        "requerimento do indiciado"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado do Código de Processo Penal (arts. 4º a 23) fornecido no contexto"
+      ]
+    }
+  ]
+}

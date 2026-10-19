@@ -1,0 +1,82 @@
+{
+  "auditorias": [
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvida de forma independente: a1 reproduz o art. 10, § 1º, e o art. 17 do CPP. Os distratores atribuem ao delegado arquivamento (vedado pelo art. 17), retenção até a prescrição ou decisão ao chefe de Polícia (que o art. 5º, § 2º, só prevê como instância de recurso contra o indeferimento). Nenhum ficou defensável após a reescrita."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a4 corresponde ao art. 6º, I e II: preservar o local até a chegada dos peritos e apreender os objetos depois de liberados por eles. a1 inverte a ordem, a2 cria condição (flagrante) inexistente, a3 confunde com o art. 7º e a5 exige ordem externa que a lei não prevê."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 148 do CP está no rol do art. 13-A; a1 traz requisição direta a empresa privada, atendimento em 24 horas e os três elementos do parágrafo único. Os distratores exigem autorização judicial, excluem empresas privadas, dão exclusividade ao MP ou estendem a requisição ao conteúdo das comunicações, todos contrários ao texto."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Passadas 12 horas sem manifestação judicial, o § 4º do art. 13-B autoriza a requisição direta com imediata comunicação ao juiz, e o § 3º fixa 72 horas do registro da ocorrência para instaurar o inquérito: é a4. a2 estende ao conteúdo das comunicações e desloca o prazo de comunicação; a3 erra o prazo (30 dias, renovável uma vez, acima disso ordem judicial); a1 e a5 contrariam o § 4º e o caput."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A Polícia Militar integra o art. 144 da CF e o caso é de força letal no exercício profissional, logo incide o art. 14-A. Esgotado o prazo do § 1º, a autoridade intima a instituição de vínculo à época dos fatos para indicar defensor em 48 horas, com preferência pela Defensoria (§§ 2º e 3º): a2. a1 ignora o dever do § 2º; a3, a4 e a5 criam providências e custos que a lei não prevê (o § 5º atribui os custos à instituição)."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a5",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "pedagogico",
+          "gravidade": "baixa",
+          "descricao": "A justificativa de a3 repete literalmente o trecho do comentario_geral sobre o art. 3º-B e a frase 'A questão cobra a letra dos arts. 10, 16 e 22', o que é redundante, embora correto."
+        }
+      ],
+      "correcao_sugerida": null,
+      "justificativa": "Fato de difícil elucidação e indiciado solto permitem pedir ao juiz a devolução dos autos com prazo por ele marcado (art. 10, § 3º), e na comarca com várias circunscrições a diligência em outra dispensa precatória (art. 22): a5. a3 é falsa porque o § 3º exige indiciado solto; a4 contraria o art. 16; a1 e a2 contrariam o art. 22 e o art. 10, § 3º. O comentário traz a nota sobre o art. 3º-B, § 2º, e deixa claro que cobra a letra da lei."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "gramatical",
+          "gravidade": "baixa",
+          "descricao": "No enunciado, o particípio \"Condenado pelo crime do art. 38...\" fica solto: refere-se ao médico, mas o sujeito da oração principal é \"a Lei\" (anacoluto)."
+        }
+      ],
+      "correcao_sugerida": "Trocar \"Condenado pelo crime do art. 38 da Lei nº 11.343/2006, além da pena aplicada, a Lei determina que o juiz\" por \"Condenado o médico pelo crime do art. 38 da Lei nº 11.343/2006, além da pena aplicada, a Lei determina que o juiz\".",
+      "justificativa": "Gabarito conferido no art. 38, parágrafo único: o juiz comunica a condenação ao Conselho Federal da categoria profissional. Distratores claramente errados. Apenas ajuste gramatical pontual no enunciado."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa a1 reproduz o art. 51 e seu parágrafo único (30 dias preso, 90 solto, duplicação pelo juiz, ouvido o MP, a pedido justificado da autoridade policial). Os distratores alteram prazos, a autoridade que amplia ou a oitiva do MP."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 41 prevê redução de um terço a dois terços no caso de condenação. Não há extinção da punibilidade, perdão judicial nem requisitos de primariedade, de modo que só a4 está correta."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Embarcação de transporte coletivo de passageiros atrai o parágrafo único do art. 39 (4 a 6 anos e 400 a 600 dias-multa, cumulativamente com as demais penas). O art. 40 só incide sobre os arts. 33 a 37, o que afasta a4."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Tráfico nas imediações de estabelecimento de ensino (faculdade incluída) aumenta a pena de um sexto a dois terços (art. 40, III). O enunciado afasta expressamente o art. 40-A e a hipótese do inciso VI, eliminando os distratores."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa a4 reproduz o art. 50, §§ 1º e 2º: basta o laudo de constatação, firmado por perito oficial ou, na falta, por pessoa idônea, e o subscritor não fica impedido de participar do laudo definitivo. Os demais itens contrariam esses dispositivos."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 53, II e parágrafo único, exige autorização judicial, oitiva do MP, conhecimento do itinerário provável e identificação dos agentes ou colaboradores, em qualquer fase da persecução e sem prejuízo da ação penal. Só a1 está correta."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Os arts. 35 e 36 estão no rol do art. 44 (arts. 33, caput e § 1º, e 34 a 37), e o parágrafo único fixa dois terços para o livramento, vedado ao reincidente específico. O art. 33, § 2º, e o art. 38 ficam fora do rol, e não há fração de metade. O enunciado delimita bem a cobrança à redação literal."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "alternativas",
+          "gravidade": "baixa",
+          "descricao": "A alternativa correta é bem mais longa e detalhada que os distratores, o que funciona como pista involuntária de tamanho."
+        }
+      ],
+      "correcao_sugerida": "Enxugar a4 (por exemplo, retirar \"na presença do Ministério Público e da autoridade sanitária\") ou acrescentar detalhes plausíveis aos distratores para equilibrar o tamanho das alternativas.",
+      "justificativa": "Gabarito conferido no art. 50, §§ 3º e 4º (flagrante: juiz certifica em 10 dias, delegado destrói em 15 dias na presença do MP e da autoridade sanitária) e no art. 50-A (sem flagrante: incineração em até 30 dias da apreensão, guardada amostra). Distratores errados pelos motivos indicados. Ressalva só quanto à pista de tamanho."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 42 dá preponderância, sobre o art. 59 do CP, à natureza e quantidade da substância, à personalidade e à conduta social; o art. 43, parágrafo único, impõe multas cumulativas em concurso, que podem ser aumentadas até o décuplo. Teto do dia-multa é 5 vezes o maior salário-mínimo, o que derruba a2; a1 e a4 invertem a preponderância ou o limite de aumento."
+    }
+  ]
+}

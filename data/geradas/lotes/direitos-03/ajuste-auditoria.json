@@ -1,0 +1,70 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvida de forma independente: a única exceção do art. 5º, XLVII, é a pena de morte em guerra declarada (art. 84, XIX). Os distratores criam exceções inexistentes para pena perpétua, banimento e trabalhos forçados. Alternativas reescritas com tamanho equilibrado, sem distrator defensável; macete correto."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A expressão \"entre outras\" do art. 5º, XLVI, torna o rol exemplificativo, e as alíneas d e e trazem a prestação social alternativa e a suspensão ou interdição de direitos. A perda de bens consta da alínea b e o texto não restringe a multa a aplicação cumulativa. Única correta, sem perda de conteúdo essencial na reescrita."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Fora do flagrante, o art. 5º, LXI, exige ordem escrita e fundamentada de autoridade judiciária competente, com as ressalvas militares, o que afasta a ordem do delegado e a ordem verbal. O inciso LXV manda relaxar imediatamente a prisão ilegal, sem condicionar a parecer do MP. Distratores claramente errados; a correta não é a mais longa."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "pedagogico",
+          "gravidade": "baixa",
+          "descricao": "O comentário menciona de passagem o depositário infiel previsto no texto; como a questão não o cobra e o enunciado restringe ao texto do art. 5º, não compromete o gabarito."
+        }
+      ],
+      "correcao_sugerida": null,
+      "justificativa": "O caso descreve inadimplemento involuntário e escusável (incapacidade comprovada, sem renda nem patrimônio), fora da ressalva do art. 5º, LXVII. Os distratores ignoram os qualificativos ou confundem prisão civil com liberdade provisória (LXVI). Enunciado limitado ao texto constitucional, sem jurisprudência citada."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa a4 reproduz o art. 5º, LV. Os distratores contrariam o LVI (prova ilícita sem exceção no texto), o LIX (ação privada só se a pública não for intentada no prazo legal) e o LX (restrição apenas por intimidade ou interesse social). Única correta; a reescrita não tornou nenhum distrator defensável."
+    }
+  ]
+}

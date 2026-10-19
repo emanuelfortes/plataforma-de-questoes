@@ -1,0 +1,693 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Crase",
+      "subtema": "Crase facultativa antes de pronome possessivo feminino",
+      "dificuldade": "facil",
+      "enunciado": "Assinale a frase em que o acento indicativo de crase poderia ser suprimido sem que houvesse desvio da norma-padrão da língua portuguesa.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O escrivão entregou o relatório à delegada titular."
+        },
+        {
+          "id": "a2",
+          "texto": "O inspetor dirigiu-se à sua sala após o plantão."
+        },
+        {
+          "id": "a3",
+          "texto": "A equipe chegou ao local às oito horas."
+        },
+        {
+          "id": "a4",
+          "texto": "O depoente fez referência à testemunha ausente."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "Antes de pronome possessivo adjetivo feminino no singular, o artigo é opcional; por isso, havendo preposição 'a', a crase é facultativa: 'dirigiu-se a sua sala' e 'dirigiu-se à sua sala' estão corretas. Nas demais frases, o artigo é necessário e a crase é obrigatória.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "'Entregar' pede a preposição 'a' (entregar algo a alguém) e 'delegada' exige o artigo 'a'; a fusão é obrigatória, e retirar o acento seria erro."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Antes do possessivo 'sua' seguido de substantivo feminino, o artigo é facultativo; logo, a crase também é: 'dirigiu-se a sua sala' é igualmente correto."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Na indicação de horas determinadas ('às oito horas'), a crase é obrigatória; sem o acento, a construção fica em desacordo com a norma-padrão."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "'Fazer referência' pede a preposição 'a' e 'testemunha' vem determinada pelo artigo; a crase é obrigatória."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir o caso facultativo (antes de possessivo feminino) com casos obrigatórios em que também há palavra feminina depois do 'a'.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "Possessivo feminino colado ao substantivo? Crase opcional: 'a sua sala' ou 'à sua sala'.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "crase facultativa",
+        "pronome possessivo",
+        "acento grave"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal fornecido no contexto)"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Crase",
+      "subtema": "Locuções adverbiais femininas",
+      "dificuldade": "facil",
+      "enunciado": "Assinale a alternativa em que o acento indicativo de crase foi empregado de acordo com a norma-padrão.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A equipe começou à investigar o furto na madrugada."
+        },
+        {
+          "id": "a2",
+          "texto": "O depoimento será colhido à partir das nove horas."
+        },
+        {
+          "id": "a3",
+          "texto": "O agente fez referência à um documento extraviado."
+        },
+        {
+          "id": "a4",
+          "texto": "O suspeito deixou o prédio às pressas."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "'Às pressas' é locução adverbial formada por palavra feminina, e as locuções adverbiais femininas recebem o acento grave. Nas demais frases, o 'a' antecede verbo ou artigo indefinido, contextos que não admitem crase.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Não há crase antes de verbo ('investigar'), pois verbo não recebe artigo; o correto é 'começou a investigar'."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Em 'a partir de', o 'a' antecede o verbo 'partir'; não há artigo e, portanto, não há crase."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Antes do artigo indefinido 'um' (palavra masculina) não há artigo 'a' para se fundir com a preposição; o correto é 'a um documento'."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "'Às pressas' é locução adverbial de modo com núcleo feminino, que leva o acento grave."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Acentuar o 'a' antes de verbo, de 'a partir de' ou de artigo indefinido.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "'A partir de' nunca tem crase: o 'a' está antes de um verbo.",
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "crase",
+        "locução adverbial",
+        "às pressas",
+        "a partir de"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal fornecido no contexto)"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Crase",
+      "subtema": "Crase facultativa depois da preposição 'até'",
+      "dificuldade": "facil",
+      "enunciado": "Na frase \"Os policiais caminharam até a esquina onde o veículo foi abandonado\", sobre o emprego do acento grave no 'a' que antecede 'esquina', é correto afirmar que ele é",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "obrigatório, porque o substantivo 'esquina' é feminino e vem determinado."
+        },
+        {
+          "id": "a2",
+          "texto": "proibido, porque 'até' é preposição e impede qualquer outra preposição depois dela."
+        },
+        {
+          "id": "a3",
+          "texto": "facultativo, porque depois de 'até' a preposição 'a' pode ou não ser usada antes do artigo."
+        },
+        {
+          "id": "a4",
+          "texto": "obrigatório, porque 'até a esquina' constitui locução adverbial feminina de lugar."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "Depois da preposição 'até', a norma-padrão admite tanto 'até a esquina' (só o artigo) quanto 'até à esquina' (preposição 'a' + artigo, como em 'até a a esquina'). Por isso, o acento grave é facultativo.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Ser feminino e determinado não basta: é preciso haver a preposição 'a', que depois de 'até' é opcional; logo, a crase não é obrigatória."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A norma-padrão admite a sequência 'até a' + artigo ('até à esquina'); a crase não é proibida nesse contexto."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Como a preposição 'a' é opcional após 'até', as duas formas são corretas: 'até a esquina' e 'até à esquina'."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "'Até a esquina' não é locução adverbial fixa de núcleo feminino como 'à noite' ou 'às pressas'; trata-se de expressão livre regida por 'até', em que a crase é facultativa."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Pensar que 'até' impede a crase ou, ao contrário, que palavra feminina determinada sempre exige crase.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Com 'até' indicando limite, as duas formas valem: 'até a' e 'até à'.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "conceito",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "crase facultativa",
+        "até",
+        "preposição"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal fornecido no contexto)"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Crase",
+      "subtema": "Distinção entre crase facultativa e obrigatória",
+      "dificuldade": "media",
+      "enunciado": "Em qual das frases a retirada do acento indicativo de crase tornaria a construção incorreta segundo a norma-padrão?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O plantão da delegacia foi encerrado à meia-noite."
+        },
+        {
+          "id": "a2",
+          "texto": "O delegado entregou a intimação à Juliana, do cartório."
+        },
+        {
+          "id": "a3",
+          "texto": "A corregedoria fez um elogio à sua dedicação."
+        },
+        {
+          "id": "a4",
+          "texto": "Os agentes acompanharam a vítima até à viatura."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "'À meia-noite' é locução adverbial de tempo com núcleo feminino (indicação de hora), e nela a crase é obrigatória. Nas outras frases, a crase é facultativa: antes de nome próprio feminino, antes de possessivo feminino e depois de 'até'.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Na indicação de horário ('à meia-noite'), a crase é obrigatória; 'encerrado a meia-noite' contraria a norma-padrão."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Antes de prenome feminino, o artigo é opcional; por isso, 'entregou a intimação a Juliana' também é correto."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Antes do possessivo feminino 'sua', o artigo é facultativo; 'fez um elogio a sua dedicação' também está correto."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Depois de 'até', a preposição 'a' é opcional; 'acompanharam a vítima até a viatura' também está correto."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Reconhecer, no meio de três casos facultativos, o único em que a crase não pode ser retirada.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "Os três facultativos clássicos: nome de mulher, possessivo feminino e depois de 'até'.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "crase facultativa",
+        "crase obrigatória",
+        "nome próprio feminino",
+        "hora"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal fornecido no contexto)"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Crase",
+      "subtema": "Locuções prepositivas e conjuntivas femininas",
+      "dificuldade": "media",
+      "enunciado": "Assinale a alternativa em que todas as ocorrências do acento indicativo de crase estão de acordo com a norma-padrão.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "À custa de muito esforço, o inspetor chegou à uma conclusão segura."
+        },
+        {
+          "id": "a2",
+          "texto": "À medida que as provas surgiam, a equipe agia à luz da legislação."
+        },
+        {
+          "id": "a3",
+          "texto": "À partir de hoje, os depoimentos serão tomados somente à tarde."
+        },
+        {
+          "id": "a4",
+          "texto": "Às vezes, o escrivão se dirige à Vossa Senhoria por meio de ofício."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "'À medida que' é locução conjuntiva feminina e 'à luz de' é locução prepositiva feminina; ambas levam acento grave. Nas demais frases, há um acento indevido: antes de artigo indefinido, antes de verbo e antes de pronome de tratamento.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "'À custa de' está correta, mas 'à uma conclusão' não: antes do artigo indefinido 'uma' não há artigo definido para formar a crase."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "'À medida que' (locução conjuntiva) e 'à luz de' (locução prepositiva) são locuções femininas que recebem acento grave."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "'À tarde' está correta, mas 'à partir' não: o 'a' antecede o verbo 'partir', que não admite artigo."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "'Às vezes' está correta, mas pronomes de tratamento como 'Vossa Senhoria' não admitem artigo; o correto é 'a Vossa Senhoria'."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Cada frase errada começa com uma locução corretamente acentuada, o que distrai do erro no restante do período.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Em itens com 'todas as ocorrências', confira cada acento: um acerto no início não salva o erro do final.",
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "à medida que",
+        "à luz de",
+        "locução conjuntiva",
+        "locução prepositiva",
+        "pronome de tratamento"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal fornecido no contexto)"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Crase",
+      "subtema": "Locuções conjuntivas femininas",
+      "dificuldade": "media",
+      "enunciado": "No período \"À proporção que as diligências avançavam, crescia a pressão sobre os investigadores\", o emprego do acento grave justifica-se porque",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "o verbo 'avançar' exige a preposição 'a', que se funde com o artigo de 'proporção'."
+        },
+        {
+          "id": "a2",
+          "texto": "o acento é facultativo antes de palavra feminina que inicia período."
+        },
+        {
+          "id": "a3",
+          "texto": "a expressão é locução conjuntiva formada por palavra feminina, na qual a norma-padrão exige o acento."
+        },
+        {
+          "id": "a4",
+          "texto": "o acento grave marca, obrigatoriamente, a oração subordinada anteposta à principal."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "'À proporção que', assim como 'à medida que', é locução conjuntiva proporcional de núcleo feminino. Nessas locuções, a norma-padrão consagra o acento grave, independentemente da regência de qualquer verbo da frase.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O acento não decorre da regência de 'avançar'; esse verbo, na frase, nem se liga a 'proporção'. A justificativa está na própria locução conjuntiva."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Não existe regra de crase facultativa por iniciar período; além disso, nas locuções femininas o acento é obrigatório, e não opcional."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "'À proporção que' é locução conjuntiva com núcleo feminino, e essas locuções recebem acento grave."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O acento grave indica a fusão da preposição 'a' com o artigo 'a' (ou o seu uso em locuções femininas), e não a posição da oração subordinada."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Buscar a justificativa na regência de um verbo da frase, quando o acento decorre da locução conjuntiva feminina.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "'À medida que' e 'à proporção que' levam crase; 'na medida em que' não tem 'a' para acentuar.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "interpretacao",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "à proporção que",
+        "locução conjuntiva",
+        "crase"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal fornecido no contexto)"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Crase",
+      "subtema": "Crase facultativa depois de 'até' em contraste com casos obrigatórios e proibidos",
+      "dificuldade": "media",
+      "enunciado": "Assinale a frase em que o acento indicativo de crase pode ser mantido ou retirado, ficando a construção correta nas duas formas.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Os documentos apreendidos foram levados até à sala do delegado."
+        },
+        {
+          "id": "a2",
+          "texto": "O agente obedeceu à ordem dada pelo superior."
+        },
+        {
+          "id": "a3",
+          "texto": "Refiro-me à que prestou depoimento ontem, e não à outra."
+        },
+        {
+          "id": "a4",
+          "texto": "O inspetor ficou frente à frente com o suspeito."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "Depois da preposição 'até', a preposição 'a' é opcional, por isso 'até à sala' e 'até a sala' são corretas. Nas demais, ou a crase é obrigatória (regência + artigo ou pronome demonstrativo 'a'), ou é proibida (expressão com palavras repetidas).",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Após 'até', a crase é facultativa: 'levados até a sala' e 'levados até à sala' estão corretas."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "'Obedecer' pede a preposição 'a' e 'ordem' vem com artigo; a crase é obrigatória."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "'Referir-se' pede 'a', que se funde com o pronome demonstrativo 'a' (= aquela) em 'à que'; a crase é obrigatória."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Em expressões formadas por palavras repetidas ('frente a frente'), não há crase; o acento deve ser retirado, não é opcional."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Tomar como facultativo um caso em que o acento é proibido (palavras repetidas) ou obrigatório (pronome demonstrativo 'a').",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Palavras repetidas ('cara a cara', 'frente a frente') nunca levam crase.",
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "até",
+        "crase facultativa",
+        "pronome demonstrativo",
+        "palavras repetidas"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal fornecido no contexto)"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Crase",
+      "subtema": "Possessivo feminino com substantivo elíptico",
+      "dificuldade": "dificil",
+      "enunciado": "A crase antes de pronome possessivo feminino costuma ser facultativa. Em qual das frases, contudo, o acento grave é obrigatório?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A comissão fez uma crítica à sua conduta no plantão."
+        },
+        {
+          "id": "a2",
+          "texto": "O escrivão entregou as chaves do cartório à minha substituta."
+        },
+        {
+          "id": "a3",
+          "texto": "O delegado dedicou o resultado da operação à nossa equipe."
+        },
+        {
+          "id": "a4",
+          "texto": "A versão apresentada pelo réu é semelhante à sua, inspetor."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "A facultatividade vale quando o possessivo acompanha o substantivo ('à sua conduta'). Quando o substantivo fica subentendido ('semelhante à sua' = 'semelhante à sua versão'), o possessivo passa a ter valor substantivo e exige o artigo; com a preposição pedida por 'semelhante', a crase torna-se obrigatória.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O possessivo 'sua' acompanha o substantivo 'conduta'; o artigo é opcional e 'fez uma crítica a sua conduta' também é correto."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "'Minha' acompanha 'substituta'; a crase é facultativa e 'entregou as chaves a minha substituta' também é aceito."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "'Nossa' acompanha 'equipe'; o artigo é opcional e 'dedicou o resultado a nossa equipe' também está correto."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Com o substantivo 'versão' subentendido, o possessivo exige artigo; somado à preposição regida por 'semelhante', a crase é obrigatória."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Aplicar mecanicamente a regra da crase facultativa antes de possessivo, sem notar que o substantivo está elíptico.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Possessivo sozinho, com o substantivo subentendido ('igual à minha', 'semelhante à sua'), a crase deixa de ser opcional.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "excecao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "pronome possessivo",
+        "substantivo elíptico",
+        "crase obrigatória",
+        "crase facultativa"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal fornecido no contexto)"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Crase",
+      "subtema": "'Até' preposição e 'até' palavra de inclusão",
+      "dificuldade": "dificil",
+      "enunciado": "Depois de 'até', a crase costuma ser facultativa. Em qual das frases, porém, seria incorreto acentuar o 'a' que sucede essa palavra?",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "A equipe percorreu o bairro até a praça central."
+        },
+        {
+          "id": "a2",
+          "texto": "O prazo para a entrega do inquérito vai até a sexta-feira."
+        },
+        {
+          "id": "a3",
+          "texto": "O delegado elogiou até a estagiária pelo empenho na operação."
+        },
+        {
+          "id": "a4",
+          "texto": "Os agentes acompanharam o advogado até a porta da cela."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "A crase facultativa depois de 'até' ocorre quando essa palavra é preposição de limite (lugar ou tempo). Quando 'até' significa 'inclusive', 'mesmo', ela não é preposição, e o 'a' seguinte é só artigo, regido por verbo que não pede preposição; não há, então, crase possível.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "'Até' indica limite espacial (preposição); 'até à praça' também é correto, pois a crase é facultativa."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "'Até' indica limite temporal (preposição); 'até à sexta-feira' é igualmente aceito."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Aqui 'até' equivale a 'inclusive': o delegado elogiou inclusive a estagiária. 'Elogiar' é transitivo direto, não há preposição 'a' e, por isso, o acento grave seria erro."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "'Até' indica limite espacial; 'até à porta' também está correto, pois a crase é facultativa."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Aplicar a crase facultativa a todo 'até', sem verificar se ele é preposição de limite ou palavra de inclusão.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": "Troque 'até' por 'inclusive': se a frase continuar fazendo sentido, não há crase.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "excecao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "até",
+        "palavra de inclusão",
+        "preposição",
+        "verbo transitivo direto"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal fornecido no contexto)"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Crase",
+      "subtema": "Locuções femininas e casos facultativos combinados",
+      "dificuldade": "dificil",
+      "enunciado": "Assinale a alternativa em que todos os empregos e todas as ausências do acento indicativo de crase estão de acordo com a norma-padrão.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "Às vezes, o escrivão chega a delegacia às pressas, antes do turno."
+        },
+        {
+          "id": "a2",
+          "texto": "À medida que o caso avançava, o inspetor recorria a esta testemunha e à sua defensora."
+        },
+        {
+          "id": "a3",
+          "texto": "Na medida em que os fatos se esclareciam, a equipe passou à agir à luz das provas."
+        },
+        {
+          "id": "a4",
+          "texto": "A investigação seguiu à risca o protocolo, à partir das instruções vigentes até à véspera."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "'À medida que' é locução conjuntiva feminina (crase obrigatória); 'a esta testemunha' não tem crase porque o demonstrativo 'esta' não admite artigo; 'à sua defensora' tem crase facultativa, antes de possessivo feminino. Nas demais, há omissão ou emprego indevido do acento.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "'Às vezes' e 'às pressas' estão corretas, mas 'chega a delegacia' deveria ter crase: 'chegar' pede 'a' e 'delegacia' vem com artigo ('chega à delegacia')."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Locução conjuntiva acentuada, ausência de crase antes do demonstrativo 'esta' e crase facultativa, aqui usada, antes do possessivo 'sua': tudo conforme a norma-padrão."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "'Na medida em que' e 'à luz das provas' estão corretas, mas 'à agir' é erro: não há crase antes de verbo."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "'À risca' e 'até à véspera' estão corretas, mas 'à partir' é erro, pois o 'a' antecede o verbo 'partir'."
+        }
+      ],
+      "fundamento_legal": "não se aplica",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Avaliar só os acentos presentes e esquecer de conferir as ausências, como em 'chega a delegacia'.",
+      "lei_referencia": "não se aplica",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Comando com 'empregos e ausências' cobra também onde a crase faltou.",
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "locução conjuntiva",
+        "pronome demonstrativo",
+        "pronome possessivo",
+        "regência",
+        "a partir de"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Conhecimento consolidado da norma-padrão da língua portuguesa (não há texto legal fornecido no contexto)"
+      ]
+    }
+  ]
+}

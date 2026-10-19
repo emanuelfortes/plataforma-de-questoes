@@ -1,0 +1,130 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvida de forma independente: a3 reproduz o parágrafo único do art. 4º do CPP. Os distratores contrariam o próprio art. 4º (exclusividade, julgamento, atuação fora da circunscrição). Fundamento e lei_referencia corretos."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A vedação do art. 17 do CPP sustenta a1 sem exceção; a2, a3 e a4 criam hipóteses de arquivamento pela autoridade policial que o texto não admite. Comentário explica bem a diferença entre dispensabilidade e indisponibilidade."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 9º do CPP fundamenta a característica de procedimento escrito. Os distratores associam características a fundamentos errados e trazem afirmações falsas (sigilo restrito à autoridade, instauração só por requisição judicial)."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 5º, § 4º, do CPP impede o início do inquérito sem representação na ação pública condicionada; a1 e a2 ignoram essa condição e a3 confunde com a ação privada. Caso concreto claro e dentro do foco."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a3 reproduz o art. 19 do CPP. a2 fica errada pela vedação de remessa ao juízo, a1 atribui a queixa ao MP e a4 contraria o art. 17. Fundamento conferido."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Literalidade do art. 5º, § 2º, do CPP (recurso ao chefe de Polícia). Os distratores trocam o destinatário ou negam o recurso expressamente previsto. Nível fácil a médio, compatível com o cargo."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a2 reproduz a parte final do art. 5º, § 3º, do CPP. Os distratores exigem forma escrita, restringem a legitimidade ao ofendido ou suprimem a verificação de procedência, todos contrários ao texto."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "pedagogico",
+          "gravidade": "baixa",
+          "descricao": "O distrator a3 e a justificativa tratam o art. 21 (incomunicabilidade) como plenamente aplicável, sem registrar que boa parte da doutrina o considera não recepcionado pela Constituição de 1988. O distrator continua errado pelo texto do CPP, mas o comentário pode passar a ideia de que a incomunicabilidade judicial é prática corrente."
+        }
+      ],
+      "correcao_sugerida": "Acrescentar à justificativa de a3 uma frase curta: 'Registre-se que a doutrina majoritária entende que a incomunicabilidade do art. 21 não foi recepcionada pela Constituição de 1988.'",
+      "justificativa": "a4 combina corretamente o caput e o parágrafo único do art. 20 do CPP; a1, a2 e a3 estão erradas pelo texto fornecido. Ressalva apenas pedagógica sobre a menção ao art. 21 sem nota sobre sua recepção constitucional."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a2 resume com fidelidade o art. 5º, § 1º, inclusive o 'sempre que possível'. a1 estende o recurso do § 2º à requisição, sem base no texto; a3 exige representação na ação incondicionada; a4 transforma o conteúdo facultativo em requisito essencial. Dificuldade alta adequada."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 14 do CPP deixa a diligência requerida pelo indiciado a juízo da autoridade, o que sustenta a3. a2 aplica indevidamente o recurso do art. 5º, § 2º; a1 e a4 não têm base no texto. Testa bem o caráter inquisitivo, dentro do foco."
+    }
+  ]
+}

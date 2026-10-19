@@ -1,0 +1,130 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Caso de ameaça à liberdade de locomoção por abuso de poder: habeas corpus (art. 5º, LXVIII). Os distratores apontam remédios com pressupostos distintos (LXIX, LXXI, LXXII, LXXIII) e estão claramente errados."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a5",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa correta reproduz o art. 5º, LXXVII. Os distratores trocam os remédios ou importam condições dos incisos LXXIII, LXXIV e LXXVI, todos sem respaldo no texto."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Reprodução literal do art. 5º, LXXIV. Distratores confundem com os incisos LXXV e LXXVI ou criam restrições inexistentes; só uma correta."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "alternativas",
+          "gravidade": "baixa",
+          "descricao": "A alternativa correta é a única sem justificativa anexa (\"pois...\"), enquanto todos os distratores trazem uma explicação, o que cria pista involuntária de forma."
+        }
+      ],
+      "correcao_sugerida": "Acrescentar à alternativa correta uma justificativa curta, por exemplo: \"apenas as entidades III e IV, pois atendem, respectivamente, ao requisito de representação no Congresso Nacional e ao de funcionamento há pelo menos um ano.\"",
+      "justificativa": "Gabarito correto pelo art. 5º, LXX, a e b: partido com representação no Congresso e associação com mais de um ano de funcionamento. Única ressalva é a pista de forma na alternativa correta, corrigível pontualmente."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Retificação de dados quando não se prefere processo sigiloso: habeas data (art. 5º, LXXII, b). A outra alternativa de habeas data (restrita a dados de terceiros em bancos privados) contraria o texto; demais distratores claramente errados."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a5",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Falta de norma regulamentadora que inviabiliza direito constitucional: mandado de injunção, com o objeto completo do art. 5º, LXXI. A alternativa que restringe o objeto à nacionalidade está errada; os demais remédios não se aplicam."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Rito do art. 5º, § 3º (cada Casa, dois turnos, três quintos) reproduzido corretamente. Cada distrator altera um elemento identificável (quórum, turnos, local ou Casa)."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa correta está conforme o art. 5º, LXIX (agente de pessoa jurídica no exercício de atribuições do Poder Público e caráter residual). Os distratores distorcem LXVIII, LXXI, LXXII, b, e LXXIII (legitimidade do cidadão), sem item defensável."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa correta reproduz o § 2º do art. 5º. Os distratores alteram o § 1º, o § 4º (adesão ao TPI), o inciso LXXVIII (judicial e administrativo) e o LXXIX (inclusive nos meios digitais)."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Pelo art. 5º, LXXIII, o autor popular fica isento de custas e do ônus da sucumbência salvo comprovada má-fé, independentemente do resultado e da condição econômica; o meio ambiente é bem tutelado. Só uma alternativa correta."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvida de forma independente: só “entregar algo a alguém” exige a preposição “a”; encontrar, descrever e ler são transitivos diretos. Gabarito, comentário e macete corretos."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Teste do “voltar”: volto da Paraíba, mas volto de Fortaleza, de Roma e de Curitiba. Única correta é “à Paraíba”; distratores sem defesa razoável."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Só “dedicar-se a” exige preposição; analisar, ouvir e dirigir (veículo) são transitivos diretos. Gabarito e análise conferem."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "pedagogico",
+          "gravidade": "baixa",
+          "descricao": "A justificativa de a3 diz que “a” é artigo de “sala”, mas o acento em análise está no “à” posposto a “sala”, antes de “que”; esse “a” não corresponde a nada (nem preposição, nem demonstrativo), pois “que” é objeto direto de “reformou”. A explicação pode confundir o aluno."
+        }
+      ],
+      "correcao_sugerida": "Reescrever a justificativa de a3: “O antecedente é ‘a sala’ e ‘que’ é relativo objeto direto de ‘reformou’ (o inspetor reformou a sala). Não há preposição nem demonstrativo antes de ‘que’: o correto é ‘a sala que o inspetor reformou’.”",
+      "justificativa": "Gabarito correto: “idêntica à que” (idêntica àquela que); nas demais não há preposição exigida. A justificativa do distrator a3 é imprecisa e merece ajuste pontual."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Só o topônimo com especificador (“a Fortaleza de sua juventude”) admite artigo; Brasília, Sobral e Curitiba isolados não. Gabarito e comentário corretos."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Bahia admite artigo (à Bahia), Natal não (a Natal) e “apresentar-se a” se funde com “aquela” (àquela). Única sequência correta é a1; demais análises conferem."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Item negativo bem sinalizado (INCORRETAMENTE). Só “sobre à qual” é erro, pois a preposição regida é “sobre”; pertencer a, chegar a e prestar assistência a justificam a crase nas demais."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Obedecer a + aquela = àquela; volto da Itália = à Itália. Nas demais há ao menos um erro (à Paris, à Fortaleza, visar como pôr visto é transitivo direto, e falta crase em “a Holanda”). Gabarito correto."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "conjunto",
+          "gravidade": "baixa",
+          "descricao": "A alternativa correta usa o mesmo regente “idêntica a” do gabarito da q04 (“idêntica à que”), o que torna as duas questões parecidas no mesmo lote."
+        }
+      ],
+      "correcao_sugerida": "Trocar, em a2, “idêntica” por “semelhante” (“A assinatura do contrato é semelhante à do documento apreendido.”) e ajustar o comentário e a justificativa de a2 para “semelhante a”.",
+      "justificativa": "Gabarito correto: “idêntica à do documento”; a1 (preposição “entre”), a3 (confirmar é transitivo direto) e a4 (falta crase em “superior à que”) estão errados. Ressalva apenas de conjunto: repete o regente “idêntica” usado no gabarito da q04."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "I (Lisboa com especificador) e IV (Espanha e França) estão corretas; II (volto de Brasília) e III (volto de Itaitinga) não. Gabarito a1 confere; Itaitinga é topônimo cearense adequado ao cargo."
+    }
+  ]
+}

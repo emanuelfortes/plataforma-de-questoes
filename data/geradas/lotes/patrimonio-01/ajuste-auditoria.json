@@ -1,0 +1,34 @@
+{
+  "auditorias": [
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvida de forma independente: a1 reproduz a pena do caput do art. 156 (detenção, de seis meses a dois anos, ou multa) e o § 1º (somente se procede mediante representação). a2 traz a pena do art. 155, caput, e nega a representação; a3 troca representação por queixa; a4 trata como crime comum, quando o tipo exige condômino, co-herdeiro ou sócio. Alternativas reescritas com tamanhos equilibrados, sem distrator defensável e sem perda de conteúdo essencial na correta."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "pedagogico",
+          "gravidade": "baixa",
+          "descricao": "O fique_ligado diz que primariedade e pequeno valor \"garantem\" o privilégio, mas o § 2º diz que o juiz \"pode\" substituir, diminuir ou aplicar só multa; o próprio comentário usa \"pode\". O destaque fica mais forte que a letra da lei."
+        }
+      ],
+      "correcao_sugerida": "No fique_ligado, trocar \"primário e pequeno valor garantem o privilégio\" por \"sendo o agente primário e de pequeno valor a coisa, o juiz pode aplicar o privilégio\".",
+      "justificativa": "Resolvida de forma independente: a subtração de cabos de transmissão de telefonia se enquadra no art. 155, § 8º (reclusão, de 2 a 8 anos, e multa), que manda aplicar em qualquer caso o § 2º; com Carlos primário e coisa de pequeno valor, a2 é a única correta. a1 nega o privilégio contra a letra do § 8º, a3 confunde o § 3º e o repouso noturno (o fato foi de dia), e a4 aplica o § 6º, II, a cabos, que têm previsão específica no § 8º. Única ressalva é o tom do destaque fique_ligado."
+    }
+  ]
+}

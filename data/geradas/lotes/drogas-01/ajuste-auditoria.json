@@ -1,0 +1,118 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alternativa correta reproduz os três incisos do caput do art. 28. Os distratores estão errados de forma clara: multa como pena principal cumulativa (é medida de garantia do § 6º), detenção (art. 33, § 3º) e internação (o § 7º só trata de disponibilizar tratamento). A correta não é a mais longa."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Com o juízo em funcionamento, aplica-se o art. 48, § 2º: sem prisão em flagrante, encaminhamento imediato ao juízo, termo circunstanciado e requisição de exames e perícias. Os distratores usam regras do flagrante (art. 50), fiança e inquérito (art. 51), inaplicáveis ao usuário sem concurso com os arts. 33 a 37."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A correta é a transcrição do art. 4º, I. Os distratores contrariam o art. 7º (execução descentralizada), o art. 4º, X (equilíbrio entre prevenção e repressão) e o art. 4º, V (responsabilidade compartilhada com a sociedade). Nenhum é defensável."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O enunciado restringe ao texto da lei, o que afasta a discussão doutrinária sobre reincidência específica. O art. 28, § 4º, fixa 10 meses para as penas dos incisos II e III na reincidência. Os distratores (5 meses, 20 meses, 1 ano inclusive para advertência) estão errados pelo texto."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A correta lista todos os critérios do art. 28, § 2º, sem perder nenhum elemento. O distrator a2 fica errado por afirmar vedação à análise da conduta e dos antecedentes, que a lei manda considerar; a1 e a4 (limite numérico, declaração vinculante) não têm base legal."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Art. 28, § 6º (admoestação verbal e multa, sucessivamente) e art. 29 (40 a 100 dias-multa, valores ao Fundo Nacional Antidrogas) sustentam a correta. O a3 erra na aplicação direta da multa e no teto de 5 vezes o salário mínimo (art. 43); a1 e a4 não têm base na lei."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA_COM_RESSALVA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "alternativas",
+          "gravidade": "baixa",
+          "descricao": "Ao encurtar a alternativa correta, sumiu o adjetivo 'absoluta' de 'na absoluta falta deste' (art. 23-A, § 3º, II). A alternativa continua verdadeira, mas perdeu justamente a nuance que as bancas costumam cobrar: o servidor só pode pedir quando falta por completo o familiar ou responsável legal."
+        }
+      ],
+      "correcao_sugerida": "Na alternativa a1, trocar 'ou, na falta deste,' por 'ou, na absoluta falta deste,'.",
+      "justificativa": "O gabarito confere com o art. 23-A, § 3º, II, e § 5º, III. Os distratores estão errados: exclusão da segurança pública e prazo de 72 horas do § 7º, vedação de internação em comunidade terapêutica (§ 9º) e direito da família de pedir a interrupção (§ 5º, IV). Ressalva só pela omissão de 'absoluta' na correta."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A correta junta o art. 27 (aplicação isolada ou cumulativa, substituição a qualquer tempo, ouvidos MP e defensor) e o art. 48, § 5º (proposta de aplicação imediata para os fins do art. 76 da Lei 9.099/1995). O a1 erra ao afastar a interrupção do Código Penal (art. 30); a3 e a4 contrariam os arts. 27 e 48, § 5º."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Sem autoridade judicial, aplica-se o art. 48, § 3º (providências imediatas pela autoridade policial, vedada a detenção) e o § 4º (exame de corpo de delito se requerido ou conveniente, depois liberação). A correta resume isso sem perder nada essencial; os distratores contrariam a vedação da detenção, a proibição do flagrante e o caráter facultativo do exame."
+    }
+  ]
+}

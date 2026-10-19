@@ -1,0 +1,124 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Gabarito confere com o art. 5º, XXXVIII, d. Distratores trocam sigilo por publicidade, estendem a competência aos culposos e substituem plenitude por ampla defesa, todos claramente errados."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Gabarito confere com o art. 5º, XXXIV, b. O distrator da gratuidade restrita aos pobres remete corretamente ao inciso LXXVI e não é defensável no caso."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Gabarito reproduz o art. 5º, XLII (inafiançável, imprescritível, reclusão). Distratores alteram um elemento cada, sem ambiguidade."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Caso distingue o uso em iminente perigo público (XXV) da desapropriação (XXIV); a alternativa correta descreve ambos com as ressalvas do texto. Demais alternativas invertem ou eliminam os regimes."
+    },
+    {
+      "id": "q05",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Gabarito reproduz o art. 5º, XXI. O distrator do requisito de um ano remete corretamente ao inciso LXX, b; nenhum distrator é defensável."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Gabarito confere com o art. 5º, XLIII: respondem mandantes, executores e omitentes, e a tortura é inafiançável e insuscetível de graça ou anistia. Distratores excluem responsáveis ou negam a inafiançabilidade."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Gabarito reproduz o art. 5º, XXXVI. Os distratores inserem exceções inexistentes nos incisos XXXV a XXXVII."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Aplicação correta do art. 5º, XLV: a reparação do dano alcança os sucessores até o limite do patrimônio transferido (R$ 50.000,00). Distratores violam o teto ou confundem pena com reparação."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Aplicação correta do art. 5º, XL: a lei mais gravosa não alcança João e a lei que deixa de considerar a conduta crime retroage em favor de Maria. Distratores contrariam a regra de modo inequívoco."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Pelo texto fornecido, só o racismo (XLII) e a ação de grupos armados (XLIV) são declarados inafiançáveis e imprescritíveis; os crimes do XLIII não são imprescritíveis. Gabarito único e correto."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "auditorias": [
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Introdução de animais em propriedade alheia sem consentimento, com prejuízo, amolda-se ao art. 164, e o art. 167 exige queixa. Os distratores falham claramente: a tipicidade independe de o estrago ser feito pelos animais, o esbulho exige violência, grave ameaça ou mais de duas pessoas, e não há qualificadora do dano nem ação pública. Alternativas reescritas com tamanhos equilibrados, sem pista."
+    },
+    {
+      "id": "q04",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Posse lícita anterior e dolo superveniente caracterizam a apropriação indébita do art. 168, com aumento de um terço pelo recebimento em razão de profissão (§ 1º, III). Estelionato (sem fraude anterior), furto (sem subtração) e a forma simples (contraria o § 1º, III) estão corretamente afastados."
+    },
+    {
+      "id": "q07",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O art. 170 estende à apropriação indébita o art. 155, § 2º, cujas três opções a correta reproduz fielmente. Os distratores (exclusividade do furto, isenção de pena, fração de um sexto a um terço) são inequivocamente errados pelo texto legal."
+    },
+    {
+      "id": "q08",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Os meios do art. 161, § 1º, II, são alternativos: com violência à pessoa, bastam dois agentes. O § 2º manda somar a pena da violência e o § 3º só exige queixa quando não há violência. A correta delimita a ação penal ao esbulho, evitando discussão sobre a ação da lesão corporal; os demais distratores contrariam expressamente os §§ 2º e 3º."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "O § 5º do art. 168-A (LC 225/2026) afasta a extinção do § 2º para o devedor contumaz declarado em decisão definitiva e inscrito no Cadin, e o § 6º mantém a restrição para os atos do período mesmo após a perda da condição. O enunciado situa os fatos na vigência da LC e restringe a análise ao art. 168-A, neutralizando a irretroatividade e as leis extravagantes de extinção pelo pagamento. O distrator do § 3º falha por afirmar obrigação onde a lei dá faculdade."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a3",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "A alteração indevida de marca em rebanho alheio, sem retirada dos animais, é o art. 162 (detenção de seis meses a três anos, e multa). A queixa do art. 161, § 3º, refere-se às figuras do art. 161, e o art. 167 não menciona o art. 162. O furto do § 6º (pena corretamente citada) é afastado pela ausência de subtração e o dano genérico cede ao tipo específico."
+    }
+  ]
+}

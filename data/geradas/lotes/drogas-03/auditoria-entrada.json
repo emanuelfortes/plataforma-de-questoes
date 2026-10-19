@@ -1,0 +1,694 @@
+{
+  "questoes": [
+    {
+      "id": "q01",
+      "tema": "Lei de Drogas",
+      "subtema": "Prescrição ou ministração culposa de drogas (art. 38)",
+      "dificuldade": "facil",
+      "enunciado": "Um médico, por desatenção, prescreve a um paciente medicamento à base de substância considerada droga em dose muito superior à necessária, sem intenção de causar dano. Condenado pelo crime do art. 38 da Lei nº 11.343/2006, além da pena aplicada, a Lei determina que o juiz",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "decrete, como efeito automático da condenação, a cassação do registro profissional do agente pelo mesmo prazo da pena."
+        },
+        {
+          "id": "a2",
+          "texto": "comunique a condenação ao Conselho Regional de Medicina do domicílio do paciente, para eventual suspensão do exercício profissional."
+        },
+        {
+          "id": "a3",
+          "texto": "comunique a condenação ao Conselho Federal da categoria profissional a que pertença o agente."
+        },
+        {
+          "id": "a4",
+          "texto": "encaminhe cópia da sentença à autoridade sanitária, que aplicará ao agente a pena de interdição do estabelecimento."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "O art. 38 pune quem prescreve ou ministra drogas culposamente, sem que o paciente delas necessite, em doses excessivas ou em desacordo com determinação legal ou regulamentar, com detenção de 6 meses a 2 anos e 50 a 200 dias-multa. O parágrafo único traz uma providência específica: o juiz comunicará a condenação ao Conselho Federal da categoria profissional a que pertença o agente. A lei não prevê cassação automática de registro nem interdição de estabelecimento.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O art. 38 não prevê cassação de registro profissional como efeito automático. A cassação de habilitação pelo prazo da pena aparece no art. 39, para quem conduz embarcação ou aeronave."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A comunicação é dirigida ao Conselho Federal da categoria, e não ao Conselho Regional ligado ao domicílio do paciente."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Reproduz o parágrafo único do art. 38: o juiz comunicará a condenação ao Conselho Federal da categoria profissional do agente."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Não há, no art. 38, previsão de comunicação à autoridade sanitária nem de interdição de estabelecimento como consequência da condenação."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 38, caput e parágrafo único.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar o Conselho Federal pelo Conselho Regional e confundir a comunicação ao conselho com a cassação de habilitação prevista no art. 39.",
+      "lei_referencia": "Lei 11.343/2006, art. 38, parágrafo único",
+      "macete_do_riccardo": "Art. 38 é o único crime culposo da Lei de Drogas, e quem recebe o aviso é o Conselho FEDERAL da profissão.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "art. 38",
+        "crime culposo",
+        "prescrição culposa",
+        "Conselho Federal"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q02",
+      "tema": "Lei de Drogas",
+      "subtema": "Prazos do inquérito policial (art. 51)",
+      "dificuldade": "facil",
+      "enunciado": "Em investigação de tráfico de drogas, conforme a Lei nº 11.343/2006, o inquérito policial deve ser concluído no prazo de",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "30 dias, se o indiciado estiver preso, e de 90 dias, quando solto, podendo os prazos ser duplicados pelo juiz, ouvido o Ministério Público, mediante pedido justificado da autoridade de polícia judiciária."
+        },
+        {
+          "id": "a2",
+          "texto": "10 dias, se o indiciado estiver preso, e de 30 dias, quando solto, podendo os prazos ser prorrogados uma única vez pelo próprio delegado de polícia, mediante despacho fundamentado."
+        },
+        {
+          "id": "a3",
+          "texto": "30 dias, se o indiciado estiver preso, e de 90 dias, quando solto, podendo os prazos ser triplicados pelo Ministério Público, a pedido justificado da autoridade de polícia judiciária."
+        },
+        {
+          "id": "a4",
+          "texto": "15 dias, se o indiciado estiver preso, e de 60 dias, quando solto, podendo os prazos ser duplicados pelo juiz, independentemente de manifestação do Ministério Público."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 51 da Lei de Drogas fixa prazos próprios para o inquérito: 30 dias com o indiciado preso e 90 dias com ele solto. O parágrafo único permite que esses prazos sejam duplicados pelo juiz, ouvido o Ministério Público, mediante pedido justificado da autoridade de polícia judiciária.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reúne corretamente os prazos (30 dias preso, 90 dias solto) e a forma de duplicação prevista no parágrafo único do art. 51."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Os prazos de 10 e 30 dias são os da regra geral do Código de Processo Penal, não os da Lei de Drogas, e a ampliação não é feita pelo delegado."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "Os prazos iniciais estão certos, mas a lei fala em duplicação, decidida pelo juiz, e não em triplicação feita pelo Ministério Público."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "Os prazos de 15 e 60 dias não constam do art. 51, e a duplicação exige que o Ministério Público seja ouvido."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 51, caput e parágrafo único.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Confundir os prazos da Lei de Drogas com os da regra geral do CPP e atribuir a duplicação ao delegado ou ao Ministério Público.",
+      "lei_referencia": "Lei 11.343/2006, art. 51",
+      "macete_do_riccardo": null,
+      "fique_ligado": "Na Lei de Drogas é 30 preso e 90 solto, e quem duplica é o juiz, ouvido o MP, a pedido justificado do delegado.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "inquérito policial",
+        "prazo",
+        "indiciado preso",
+        "duplicação"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q03",
+      "tema": "Lei de Drogas",
+      "subtema": "Colaboração voluntária (art. 41)",
+      "dificuldade": "facil",
+      "enunciado": "Segundo o art. 41 da Lei nº 11.343/2006, o indiciado ou acusado que colaborar voluntariamente com a investigação policial e o processo criminal na identificação dos demais coautores ou partícipes do crime e na recuperação total ou parcial do produto do crime, no caso de condenação,",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "terá extinta a punibilidade, desde que a colaboração ocorra antes do recebimento da denúncia."
+        },
+        {
+          "id": "a2",
+          "texto": "terá a pena reduzida de um sexto a dois terços, desde que seja primário e de bons antecedentes."
+        },
+        {
+          "id": "a3",
+          "texto": "terá direito ao perdão judicial, se a colaboração resultar na recuperação integral do produto do crime."
+        },
+        {
+          "id": "a4",
+          "texto": "terá a pena reduzida de um terço a dois terços."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "O art. 41 prevê a colaboração voluntária do indiciado ou acusado com a investigação e o processo, na identificação dos demais coautores ou partícipes e na recuperação total ou parcial do produto do crime. A consequência, no caso de condenação, é a redução da pena de um terço a dois terços. O dispositivo não prevê perdão judicial nem extinção da punibilidade.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O art. 41 trata de redução de pena em caso de condenação, e não de extinção da punibilidade, nem fixa como marco o recebimento da denúncia."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A fração de um sexto a dois terços e os requisitos de primariedade e bons antecedentes são do tráfico privilegiado (art. 33, § 4º), não da colaboração do art. 41."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 41 não prevê perdão judicial; basta a recuperação total ou parcial do produto para a redução de pena."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "É a consequência expressa do art. 41: redução da pena de um terço a dois terços, no caso de condenação."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 41.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar a fração do art. 41 (um terço a dois terços) pela do tráfico privilegiado (um sexto a dois terços).",
+      "lei_referencia": "Lei 11.343/2006, art. 41",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Privilegiado do art. 33, § 4º reduz de 1/6 a 2/3; colaboração do art. 41 reduz de 1/3 a 2/3. Não misture.",
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "memorizacao",
+      "palavras_chave": [
+        "colaboração premiada",
+        "delação",
+        "redução de pena",
+        "art. 41"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q04",
+      "tema": "Lei de Drogas",
+      "subtema": "Condução de embarcação ou aeronave após consumo de drogas (art. 39)",
+      "dificuldade": "media",
+      "enunciado": "Durante fiscalização no litoral cearense, constatou-se que o condutor de uma embarcação de transporte coletivo de passageiros, que fazia a travessia entre duas praias, havia consumido droga pouco antes de assumir o comando, expondo a dano potencial a incolumidade dos passageiros. Considerando apenas a Lei nº 11.343/2006, a conduta",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "configura o crime do art. 39, com pena de detenção de 6 meses a 3 anos, sem alteração pelo fato de a embarcação transportar passageiros, circunstância que só influi na dosimetria."
+        },
+        {
+          "id": "a2",
+          "texto": "configura o crime do art. 39, e, por se tratar de transporte coletivo de passageiros, as penas de prisão e multa, aplicadas cumulativamente com as demais, serão de 4 a 6 anos e de 400 a 600 dias-multa."
+        },
+        {
+          "id": "a3",
+          "texto": "não configura crime da Lei de Drogas, pois a condução de veículo após o consumo de substância psicoativa é tratada exclusivamente pela legislação de trânsito."
+        },
+        {
+          "id": "a4",
+          "texto": "configura o crime do art. 39, cuja pena, por se tratar de transporte coletivo, é aumentada de um sexto a dois terços nos termos do art. 40 da Lei de Drogas."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O art. 39 pune quem conduz embarcação ou aeronave após o consumo de drogas, expondo a dano potencial a incolumidade de outrem, com detenção de 6 meses a 3 anos, apreensão do veículo, cassação da habilitação ou proibição de obtê-la pelo prazo da pena e 200 a 400 dias-multa. Se o veículo for de transporte coletivo de passageiros, o parágrafo único eleva as penas de prisão e multa para 4 a 6 anos e 400 a 600 dias-multa, aplicadas cumulativamente com as demais.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Ignora o parágrafo único do art. 39, que prevê penas próprias e mais graves quando o veículo é de transporte coletivo de passageiros."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Aplica corretamente o parágrafo único do art. 39 ao caso de embarcação de transporte coletivo de passageiros."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A Lei de Drogas tipifica expressamente, no art. 39, a condução de embarcação ou aeronave após o consumo de drogas."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "As causas de aumento do art. 40 incidem sobre os crimes dos arts. 33 a 37, não sobre o art. 39, que tem previsão própria para o transporte coletivo."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 39, caput e parágrafo único; art. 40, caput.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Achar que o art. 39 não cuida de embarcação ou que o transporte coletivo atrai a causa de aumento do art. 40, em vez das penas próprias do parágrafo único.",
+      "lei_referencia": "Lei 11.343/2006, art. 39, parágrafo único",
+      "macete_do_riccardo": null,
+      "fique_ligado": "O art. 39 só fala em embarcação e aeronave. Transporte coletivo de passageiros leva a pena de prisão para 4 a 6 anos.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "art. 39",
+        "embarcação",
+        "aeronave",
+        "transporte coletivo"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q05",
+      "tema": "Lei de Drogas",
+      "subtema": "Causas de aumento de pena (art. 40)",
+      "dificuldade": "media",
+      "enunciado": "Policiais civis prenderam em flagrante um homem que vendia cocaína a estudantes na calçada em frente a uma faculdade particular de Fortaleza. Não houve emprego de arma, violência ou ameaça, nem envolvimento de criança ou adolescente, e o agente não integrava organização criminosa, grupo paramilitar ou milícia. À luz da Lei nº 11.343/2006, em caso de condenação por tráfico,",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "não incidirá causa de aumento, pois a majorante relativa a estabelecimentos de ensino exige que o crime ocorra no interior da instituição."
+        },
+        {
+          "id": "a2",
+          "texto": "a pena será aplicada em dobro, por se tratar de tráfico praticado nas imediações de estabelecimento de ensino."
+        },
+        {
+          "id": "a3",
+          "texto": "a pena será aumentada de um sexto a dois terços, por ter sido a infração cometida nas imediações de estabelecimento de ensino."
+        },
+        {
+          "id": "a4",
+          "texto": "a pena será aumentada de um sexto a dois terços apenas se ficar demonstrado que os compradores eram menores de 18 anos."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "O art. 40, III, aumenta de um sexto a dois terços as penas dos arts. 33 a 37 quando a infração é cometida nas dependências ou imediações de estabelecimentos de ensino, entre outros locais. A lei não restringe a majorante ao interior do estabelecimento nem exige que os compradores sejam crianças ou adolescentes (hipótese distinta, do inciso VI). A aplicação em dobro do art. 40-A depende de o crime ser praticado por integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada, o que o enunciado afasta.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "O inciso III do art. 40 abrange expressamente as dependências e também as imediações dos estabelecimentos de ensino."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "A pena em dobro é a do art. 40-A, reservada a integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada, situação excluída pelo enunciado."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Aplica o art. 40, III: tráfico nas imediações de estabelecimento de ensino aumenta a pena de um sexto a dois terços."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O envolvimento de criança ou adolescente é a hipótese do inciso VI; a majorante do inciso III basta pela proximidade do estabelecimento de ensino, que não se limita a escolas de menores."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 40, caput e incisos III e VI; art. 40-A, caput.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "O art. 40-A foi incluído pela Lei nº 15.358, de 2026, e é mencionado apenas para afastar a pena em dobro no caso.",
+      "pegadinha": "Restringir a majorante ao interior da instituição ou condicioná-la à idade dos compradores, e confundir o aumento do art. 40 com a pena em dobro do art. 40-A.",
+      "lei_referencia": "Lei 11.343/2006, art. 40, III",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "O art. 40, III fala em dependências OU imediações. Vender na porta da escola ou da faculdade já basta.",
+      "tipo_cobranca": "caso_concreto",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "causa de aumento",
+        "imediações",
+        "estabelecimento de ensino",
+        "art. 40"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q06",
+      "tema": "Lei de Drogas",
+      "subtema": "Laudo de constatação na prisão em flagrante (art. 50, §§ 1º e 2º)",
+      "dificuldade": "media",
+      "enunciado": "Em plantão de delegacia no interior do Ceará, foi apresentado preso em flagrante um suspeito de tráfico. Não havia perito oficial disponível na localidade. Sobre a lavratura do auto e a prova da materialidade, a Lei nº 11.343/2006 estabelece que",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "o auto de prisão em flagrante só pode ser lavrado após a juntada do laudo toxicológico definitivo, firmado obrigatoriamente por perito oficial."
+        },
+        {
+          "id": "a2",
+          "texto": "na falta de perito oficial, o laudo de constatação pode ser firmado por pessoa idônea, mas esta fica impedida de participar da elaboração do laudo definitivo."
+        },
+        {
+          "id": "a3",
+          "texto": "na falta de perito oficial, o preso deve ser liberado, pois a materialidade só se estabelece com laudo subscrito por dois peritos oficiais."
+        },
+        {
+          "id": "a4",
+          "texto": "é suficiente o laudo de constatação da natureza e quantidade da droga, firmado por perito oficial ou, na falta deste, por pessoa idônea, e o perito que o subscrever não fica impedido de participar do laudo definitivo."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "Pelo art. 50, § 1º, para a lavratura do auto de prisão em flagrante e o estabelecimento da materialidade, basta o laudo de constatação da natureza e quantidade da droga, firmado por perito oficial ou, na falta deste, por pessoa idônea. O § 2º acrescenta que o perito que subscrever esse laudo não ficará impedido de participar da elaboração do laudo definitivo.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "A lei dispensa o laudo definitivo para a lavratura do auto: basta o laudo de constatação."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Inverte o § 2º do art. 50, que afirma expressamente que o subscritor do laudo de constatação não fica impedido de participar do laudo definitivo."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A falta de perito oficial é suprida por pessoa idônea, e a lei não exige dois peritos para o laudo de constatação."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Reproduz fielmente os §§ 1º e 2º do art. 50 da Lei de Drogas."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 50, §§ 1º e 2º.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Achar que o perito do laudo de constatação fica impedido de fazer o laudo definitivo ou que o flagrante exige o laudo definitivo.",
+      "lei_referencia": "Lei 11.343/2006, art. 50, § 1º",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "compreensao",
+      "palavras_chave": [
+        "laudo de constatação",
+        "pessoa idônea",
+        "perito oficial",
+        "laudo definitivo"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q07",
+      "tema": "Lei de Drogas",
+      "subtema": "Procedimentos investigatórios especiais (art. 53)",
+      "dificuldade": "media",
+      "enunciado": "A Polícia Civil monitora um carregamento de droga que atravessa o território cearense e pretende retardar a abordagem dos portadores para identificar e responsabilizar maior número de integrantes da rede de distribuição. De acordo com o art. 53 da Lei nº 11.343/2006, essa não atuação policial",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "depende de autorização judicial, ouvido o Ministério Público, e será concedida desde que sejam conhecidos o itinerário provável e a identificação dos agentes do delito ou de colaboradores."
+        },
+        {
+          "id": "a2",
+          "texto": "independe de autorização judicial, bastando comunicação prévia ao Ministério Público, que poderá fixar limites à atuação policial."
+        },
+        {
+          "id": "a3",
+          "texto": "depende de autorização judicial, mas só é admitida na fase processual, após o recebimento da denúncia contra ao menos um dos investigados."
+        },
+        {
+          "id": "a4",
+          "texto": "depende de autorização do delegado-geral de polícia e implica a renúncia à ação penal em relação aos portadores que não forem abordados."
+        }
+      ],
+      "id_correta": "a1",
+      "comentario_geral": "O art. 53 permite, em qualquer fase da persecução criminal, mediante autorização judicial e ouvido o Ministério Público, a não atuação policial sobre os portadores de drogas, precursores ou outros produtos que se encontrem no território brasileiro, para identificar e responsabilizar maior número de integrantes do tráfico, sem prejuízo da ação penal cabível. O parágrafo único exige que sejam conhecidos o itinerário provável e a identificação dos agentes do delito ou de colaboradores.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": true,
+          "justificativa": "Reúne os requisitos do art. 53, II e parágrafo único: autorização judicial, oitiva do MP, itinerário provável e identificação dos agentes ou colaboradores."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Na Lei de Drogas a não atuação policial exige autorização judicial; mera comunicação ao Ministério Público não basta."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 53 admite os procedimentos em qualquer fase da persecução criminal, inclusive na investigação."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "A autorização é judicial, e a lei ressalva expressamente que a medida ocorre sem prejuízo da ação penal cabível."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 53, caput, inciso II e parágrafo único.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Achar que a ação controlada na Lei de Drogas dispensa autorização judicial ou que só cabe na fase processual.",
+      "lei_referencia": "Lei 11.343/2006, art. 53, II e parágrafo único",
+      "macete_do_riccardo": "Ação controlada na Lei de Drogas: juiz autoriza, MP é ouvido, e a polícia precisa conhecer o itinerário e quem são os agentes ou colaboradores.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "aplicacao_pratica",
+      "exigencia_cognitiva": "aplicacao",
+      "palavras_chave": [
+        "ação controlada",
+        "não atuação policial",
+        "autorização judicial",
+        "itinerário provável"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q08",
+      "tema": "Lei de Drogas",
+      "subtema": "Vedações e livramento condicional (art. 44)",
+      "dificuldade": "dificil",
+      "enunciado": "Considere a redação literal do art. 44 da Lei nº 11.343/2006, sem considerar entendimentos jurisprudenciais sobre sua aplicação. Assinale a afirmativa correta.",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "O crime de induzir, instigar ou auxiliar alguém ao uso indevido de droga está entre os crimes declarados inafiançáveis e insuscetíveis de sursis pelo art. 44."
+        },
+        {
+          "id": "a2",
+          "texto": "Nos crimes de associação para o tráfico e de financiamento do tráfico, o livramento condicional dar-se-á após o cumprimento de dois terços da pena, vedada sua concessão ao reincidente específico."
+        },
+        {
+          "id": "a3",
+          "texto": "O crime de prescrever ou ministrar drogas culposamente é inafiançável e insuscetível de graça, indulto e anistia, por expressa previsão do art. 44."
+        },
+        {
+          "id": "a4",
+          "texto": "Nos crimes alcançados pelo art. 44, o livramento condicional exige o cumprimento de metade da pena, se o condenado for primário, e de dois terços, se reincidente específico."
+        }
+      ],
+      "id_correta": "a2",
+      "comentario_geral": "O art. 44 declara inafiançáveis e insuscetíveis de sursis, graça, indulto, anistia e liberdade provisória, vedada a conversão em restritivas de direitos, os crimes dos arts. 33, caput e § 1º, e 34 a 37. A associação para o tráfico (art. 35) e o financiamento (art. 36) estão nessa lista. O parágrafo único determina que, nesses crimes, o livramento condicional ocorrerá após o cumprimento de dois terços da pena, vedado ao reincidente específico. Ficam fora do art. 44 o art. 33, § 2º, e o art. 38, entre outros.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "A conduta de induzir, instigar ou auxiliar ao uso é a do art. 33, § 2º, que não consta do art. 44, que só menciona o art. 33, caput e § 1º."
+        },
+        {
+          "id": "a2",
+          "correta": true,
+          "justificativa": "Os arts. 35 e 36 estão no intervalo dos arts. 34 a 37 citados pelo art. 44, e o parágrafo único fixa dois terços para o livramento, vedado ao reincidente específico."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "O art. 38 (crime culposo) está fora do rol do art. 44, que vai do art. 33, caput e § 1º, ao art. 37."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O parágrafo único do art. 44 não distingue primário de reincidente para fixar metade da pena: exige dois terços e veda o benefício ao reincidente específico."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 44, caput e parágrafo único; arts. 33, § 2º, 35, 36 e 38.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Incluir no art. 44 crimes que estão fora do rol (art. 33, § 2º, e art. 38) e criar uma fração de metade da pena para o livramento do primário.",
+      "lei_referencia": "Lei 11.343/2006, art. 44, parágrafo único",
+      "macete_do_riccardo": null,
+      "fique_ligado": "O rol do art. 44 é 33 caput e § 1º, mais 34 a 37. Ficam de fora os §§ 2º e 3º do art. 33 e os arts. 38 e 39.",
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "art. 44",
+        "inafiançável",
+        "livramento condicional",
+        "reincidente específico"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q09",
+      "tema": "Lei de Drogas",
+      "subtema": "Destruição das drogas apreendidas (arts. 50, §§ 3º a 5º, e 50-A)",
+      "dificuldade": "dificil",
+      "enunciado": "Em uma mesma semana, uma delegacia apreendeu droga em duas ocorrências: na primeira houve prisão em flagrante do portador; na segunda, a droga foi encontrada em imóvel abandonado, sem prisão de ninguém. Conforme a Lei nº 11.343/2006, quanto à destruição das drogas,",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "nas duas ocorrências a destruição depende de prévia certificação judicial da regularidade do laudo de constatação, a ser feita em 10 dias, e será executada pelo delegado em 15 dias."
+        },
+        {
+          "id": "a2",
+          "texto": "na primeira ocorrência, o próprio delegado certifica a regularidade do laudo e destrói a droga em 30 dias; na segunda, a destruição aguarda o laudo definitivo, sem guarda de amostra."
+        },
+        {
+          "id": "a3",
+          "texto": "na primeira ocorrência, a destruição é executada pelo Ministério Público em 15 dias, na presença do delegado; na segunda, a droga é incinerada em 30 dias contados da conclusão do inquérito."
+        },
+        {
+          "id": "a4",
+          "texto": "na primeira ocorrência, o juiz certifica em 10 dias a regularidade do laudo de constatação e determina a destruição, executada pelo delegado em 15 dias na presença do Ministério Público e da autoridade sanitária; na segunda, a destruição é feita por incineração em até 30 dias da apreensão, guardando-se amostra."
+        }
+      ],
+      "id_correta": "a4",
+      "comentario_geral": "Havendo prisão em flagrante, o juiz, ao receber cópia do auto, certifica em 10 dias a regularidade formal do laudo de constatação e determina a destruição, guardada amostra para o laudo definitivo (art. 50, § 3º). A destruição é executada pelo delegado de polícia em 15 dias, na presença do Ministério Público e da autoridade sanitária (§ 4º), com vistoria do local antes e depois e auto circunstanciado (§ 5º). Sem prisão em flagrante, aplica-se o art. 50-A: incineração em no máximo 30 dias contados da apreensão, também guardando-se amostra.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "A certificação judicial em 10 dias e a execução em 15 dias são do regime do flagrante; sem flagrante vale o art. 50-A, com incineração em até 30 dias da apreensão."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "Quem certifica a regularidade do laudo no flagrante é o juiz, e o art. 50-A não manda aguardar o laudo definitivo, mas sim guardar amostra para ele."
+        },
+        {
+          "id": "a3",
+          "correta": false,
+          "justificativa": "A destruição é executada pelo delegado, na presença do MP e da autoridade sanitária, e o prazo do art. 50-A conta da apreensão, não da conclusão do inquérito."
+        },
+        {
+          "id": "a4",
+          "correta": true,
+          "justificativa": "Aplica corretamente o art. 50, §§ 3º e 4º, à ocorrência com flagrante e o art. 50-A à apreensão sem flagrante."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 50, §§ 3º, 4º e 5º, e art. 50-A.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "Os §§ 3º a 5º do art. 50 foram incluídos pela Lei nº 12.961/2014, e o art. 50-A tem redação dada pela Lei nº 13.840/2019, conforme o texto fornecido.",
+      "pegadinha": "Misturar os regimes de destruição com e sem prisão em flagrante, trocando quem certifica, quem executa e de quando se contam os prazos.",
+      "lei_referencia": "Lei 11.343/2006, art. 50, §§ 3º e 4º, e art. 50-A",
+      "macete_do_riccardo": "Com flagrante: 10 dias para o juiz, 15 para o delegado destruir. Sem flagrante: incinera em até 30 dias da apreensão.",
+      "fique_ligado": null,
+      "cuidado_na_prova": null,
+      "tipo_cobranca": "comparacao",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "destruição de drogas",
+        "incineração",
+        "laudo de constatação",
+        "amostra"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    },
+    {
+      "id": "q10",
+      "tema": "Lei de Drogas",
+      "subtema": "Fixação da pena e da multa (arts. 42 e 43)",
+      "dificuldade": "dificil",
+      "enunciado": "Ao sentenciar réu condenado por tráfico de drogas e por associação para o tráfico, em concurso de crimes, o juiz deve observar as regras próprias da Lei nº 11.343/2006 sobre fixação das penas e da multa. Nesse contexto, é correto afirmar que",
+      "alternativas": [
+        {
+          "id": "a1",
+          "texto": "a natureza e a quantidade da droga são consideradas apenas de forma subsidiária às circunstâncias do art. 59 do Código Penal, e as multas dos dois crimes devem ser unificadas pela maior delas."
+        },
+        {
+          "id": "a2",
+          "texto": "o valor de cada dia-multa será de, no mínimo, um trigésimo e, no máximo, dez vezes o maior salário-mínimo, sendo as multas aplicadas de forma alternativa em caso de concurso de crimes."
+        },
+        {
+          "id": "a3",
+          "texto": "a natureza e a quantidade da substância, a personalidade e a conduta social do agente preponderam sobre o art. 59 do Código Penal, e as multas, impostas cumulativamente, podem ser aumentadas até o décuplo se o juiz as considerar ineficazes, ainda que aplicadas no máximo."
+        },
+        {
+          "id": "a4",
+          "texto": "as multas podem ser aumentadas até o triplo se ineficazes, em razão da situação econômica do acusado, e a culpabilidade e os antecedentes preponderam sobre a quantidade da droga."
+        }
+      ],
+      "id_correta": "a3",
+      "comentario_geral": "O art. 42 manda o juiz considerar, com preponderância sobre o art. 59 do Código Penal, a natureza e a quantidade da substância ou do produto, a personalidade e a conduta social do agente. O art. 43 fixa o valor do dia-multa entre um trinta avos e 5 vezes o maior salário-mínimo, conforme as condições econômicas do acusado. Pelo parágrafo único, em concurso de crimes as multas são impostas sempre cumulativamente e podem ser aumentadas até o décuplo se o juiz as considerar ineficazes, ainda que aplicadas no máximo, em virtude da situação econômica do acusado.",
+      "analise_alternativas": [
+        {
+          "id": "a1",
+          "correta": false,
+          "justificativa": "Inverte o art. 42: as circunstâncias da Lei de Drogas preponderam sobre o art. 59 do CP. Além disso, as multas em concurso são cumulativas, não unificadas."
+        },
+        {
+          "id": "a2",
+          "correta": false,
+          "justificativa": "O teto do dia-multa é 5 vezes o maior salário-mínimo, e não dez; e as multas em concurso de crimes são sempre cumulativas, não alternativas."
+        },
+        {
+          "id": "a3",
+          "correta": true,
+          "justificativa": "Reúne corretamente a preponderância do art. 42 e as regras do parágrafo único do art. 43 (cumulação e aumento até o décuplo)."
+        },
+        {
+          "id": "a4",
+          "correta": false,
+          "justificativa": "O aumento é até o décuplo, não até o triplo, e o art. 42 dá preponderância à natureza e quantidade da droga, à personalidade e à conduta social, não à culpabilidade e aos antecedentes."
+        }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, arts. 42 e 43, caput e parágrafo único.",
+      "fundamento_jurisprudencial": "não se aplica",
+      "observacao_temporal": "não se aplica",
+      "pegadinha": "Trocar o limite do dia-multa (5 vezes o maior salário-mínimo) pelo limite de aumento (décuplo) e inverter a preponderância do art. 42 sobre o art. 59 do CP.",
+      "lei_referencia": "Lei 11.343/2006, art. 42 e art. 43, parágrafo único",
+      "macete_do_riccardo": null,
+      "fique_ligado": null,
+      "cuidado_na_prova": "Dia-multa vai até 5 vezes o maior salário-mínimo; o aumento por ineficácia é que vai até o décuplo.",
+      "tipo_cobranca": "lei_seca",
+      "exigencia_cognitiva": "analise",
+      "palavras_chave": [
+        "fixação da pena",
+        "preponderância",
+        "dia-multa",
+        "décuplo"
+      ],
+      "cita_jurisprudencia": false,
+      "fontes_consultadas": [
+        "Texto compilado da Lei 11.343/2006 fornecido no contexto"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "auditorias": [
+    {
+      "id": "q01",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "Resolvida de forma independente: a2 reproduz o art. 10, caput, do CPP (10 dias preso, 30 dias solto, com ou sem fiança). Os distratores reescritos continuam errados por elemento objetivo (20 dias e condição de fiança; 15 dias; 30 e 90 dias). A correta não perdeu nada essencial e não é a mais longa."
+    },
+    {
+      "id": "q02",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a4 combina o art. 17 (vedação de arquivamento pela autoridade policial) com o art. 10, § 1º (relatório e remessa ao juiz). Os distratores que criam condições para o arquivamento (fundamentação, comunicação ao juiz ou ao ofendido) e a3 (autoria desconhecida impede remessa) são indefensáveis diante do texto legal."
+    },
+    {
+      "id": "q03",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a1",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a1 é a literalidade do art. 10, § 2º. a2 contraria os §§ 1º e 2º, a3 troca o destinatário (juiz competente) pelo ofendido e a4 inventa relatório só para preso. Nenhum distrator ficou defensável após a reescrita."
+    },
+    {
+      "id": "q06",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a4 reproduz o art. 19 do CPP (remessa ao juízo, aguardando a iniciativa do ofendido, ou entrega ao requerente, se o pedir, mediante traslado). a1 (MP denuncia sem ação pública), a2 (autos retidos na delegacia) e a3 (entrega do original como regra) estão errados. Correta preserva todos os elementos do artigo."
+    },
+    {
+      "id": "q09",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a4",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [
+        {
+          "tipo": "pedagogico",
+          "gravidade": "baixa",
+          "descricao": "O campo fundamento_jurisprudencial menciona o julgamento do STF de 2023 (sem número) enquanto cita_jurisprudencia está false; o conteúdo vem da nota obrigatória fornecida e não altera o gabarito."
+        }
+      ],
+      "correcao_sugerida": null,
+      "justificativa": "a4 combina o art. 18 (novas pesquisas diante de notícia de outras provas) com o art. 17 (vedação de arquivamento). O enunciado declara que cobra a letra dos arts. 17 e 18 e o comentário traz a nota sobre o art. 28 e o entendimento do STF, como exige a ressalva. Nenhum número de julgado é citado; a2 (delegado arquiva de novo), a1 e a3 são claramente errados."
+    },
+    {
+      "id": "q10",
+      "status": "VALIDADA",
+      "gabarito_confere": true,
+      "id_correta_segundo_auditor": "a2",
+      "mais_de_uma_correta": false,
+      "ambiguidade": false,
+      "fundamento_confere": true,
+      "problemas": [],
+      "correcao_sugerida": null,
+      "justificativa": "a2 reproduz o art. 13-B, § 4º (sem manifestação judicial em 12 horas, a autoridade requisita, com imediata comunicação ao juiz). a1 contraria o § 2º, I; a3 contraria o § 2º, II e III (30 dias, uma renovação); a4 contraria o § 3º (72 horas do registro da ocorrência). A reescrita não tornou nenhum distrator defensável."
+    }
+  ]
+}
