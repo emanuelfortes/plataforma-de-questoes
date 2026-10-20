@@ -72,7 +72,8 @@ Níveis (todos com UMA resposta indiscutível):
 
 Qualidade:
 4. Exatamente uma alternativa correta; as outras inequivocamente erradas segundo o PDF.
-5. Alternativas com tamanho e estilo parecidos: a correta não pode ser a mais longa nem a mais detalhada.
+5. Alternativas com tamanho, tom e nível de detalhe parecidos: a correta não pode ser a mais longa nem a mais curta, e as erradas erram por conteúdo (prazo, requisito, regra trocada pela exceção), não por exagero ("sempre", "jamais", "em qualquer hipótese" só nas erradas denunciam a resposta).
+5a. Pena é exceção: no máximo 1 em cada 10 questões pode girar em torno de quantidade de pena ("reclusão de 2 a 4 anos", "aumentada de um terço"). Nas demais, cobre o crime: qual crime se configura, elementares, consumação e tentativa, hipóteses de qualificadora ou aumento (sem a fração), exceções, ação penal, diferença entre crimes parecidos. Quando a pergunta é "qual crime", as alternativas trazem só o crime, sem a pena.
 6. Proibido: "todas as anteriores", "nenhuma das anteriores", "A e B estão corretas".
 7. Varie a letra correta: distribuição parecida entre as letras e nunca 3 seguidas com a mesma letra.
 8. Enunciado autossuficiente: não escreva "segundo o PDF", "conforme o texto acima" nem "na página X".

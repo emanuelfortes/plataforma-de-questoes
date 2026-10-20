@@ -171,6 +171,14 @@ function Conferencia({ dados }: { dados: Conferido }) {
   const { totais } = dados;
   return (
     <div className="space-y-5">
+      {dados.avisos.length > 0 && (
+        <div className="space-y-1.5 rounded-xl border border-destaque bg-destaque-suave px-4 py-3 text-sm">
+          <p className="font-extrabold text-destaque">Atenção à qualidade deste arquivo</p>
+          {dados.avisos.map((a) => (
+            <p key={a}>{a}</p>
+          ))}
+        </div>
+      )}
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
         {[
           { rotulo: "Questões novas", n: totais.questoes, cor: "" },

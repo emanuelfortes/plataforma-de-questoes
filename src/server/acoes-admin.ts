@@ -9,6 +9,7 @@ import { criarGravador, lerArquivo, prepararItem, type ExtrasArquivo, type ItemP
 import { aprovarFlashcards, aprovarQuestoes, rejeitar, resolverReporte } from "@/db/aprovacao";
 import { assuntos, disciplinas, flashcards, questoes } from "@/db/schema";
 import { chaveNome, semelhanca } from "@/lib/catalogo";
+import { avisosDoLote } from "@/lib/qualidade";
 import type { Dificuldade } from "@/lib/dificuldade";
 import { exigirAdmin } from "@/lib/sessao";
 
@@ -83,6 +84,8 @@ export type ResultadoConferencia =
   | { ok: false; erro: string }
   | {
       ok: true;
+      /** Problemas de qualidade do lote (pena demais, correta sempre a mais longa). */
+      avisos: string[];
       disciplinas: string[];
       totais: { questoes: number; flashcards: number; jaExistem: number; invalidos: number };
       porArea: LinhaResumo[];
@@ -123,6 +126,7 @@ export async function conferirConteudo(texto: string): Promise<ResultadoConferen
   const questoesNovas = novos.filter((i) => i.tipo === "multipla");
   return {
     ok: true,
+    avisos: avisosDoLote(questoesNovas),
     disciplinas: [...new Set(validos.map((i) => i.disciplina))],
     totais: {
       questoes: questoesNovas.length,

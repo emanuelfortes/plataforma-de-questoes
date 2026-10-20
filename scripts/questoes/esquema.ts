@@ -93,16 +93,10 @@ export const MAX_POR_LOTE_ABSOLUTO_SO_NAS_ERRADAS = 2; // questões com termo ab
 export const PADRAO_ABSOLUTO =
   /\b(sempre|nunca|jamais|absolutamente|em qualquer (hip[óo]tese|caso|circunst[âa]ncia|situa[çc][ãa]o)|em nenhuma hip[óo]tese|tod[oa] e qualquer|automaticamente|necessariamente|sem (qualquer )?exce[çc][ãa]o|incondicionalmente|independentemente de qualquer)\b/i;
 
-/**
- * Alternativa que fala de quantidade de pena ("reclusão de 2 a 4 anos", "aumentada de um terço", "em dobro").
- * Questão que cobra pena é exceção: ninguém decora pena, e a banca cobra mais o crime, os elementos e as exceções.
- */
-export const PADRAO_PENA =
-  /\b(reclus[ãa]o|deten[çc][ãa]o)\b|\bpena (de|aumentad|reduzid|diminu)|aumentada (de|at[ée]|em)|em dobro|\bde (um|dois|tr[êe]s|quatro|seis|1|2|3|4|6) (a|meses)|um ter[çc]o|dois ter[çc]os|metade/i;
+// Regra de pena compartilhada com o importador do /admin (src/lib/qualidade.ts).
+export { cobraPena, PADRAO_PENA } from "../../src/lib/qualidade";
 export const MAX_POR_LOTE_COBRA_PENA = 1; // num lote de 10, no máximo 1 questão sobre quantidade de pena
-
-/** A questão gira em torno de pena: 2 ou mais alternativas falam de quantidade de pena. */
-export const cobraPena = (q: { alternativas: { texto: string }[] }) => q.alternativas.filter((a) => PADRAO_PENA.test(a.texto)).length >= 2;
+import { cobraPena } from "../../src/lib/qualidade";
 
 /** A questão tem termo absoluto em alguma errada e nenhum na correta. */
 export function absolutoSoNasErradas(q: { alternativas: { id: string; texto: string }[]; id_correta: string }) {

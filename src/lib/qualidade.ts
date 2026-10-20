@@ -1,0 +1,38 @@
+// Sinais de qualidade de um lote de questões (usados pela geração automática e pelo importador do /admin).
+
+/**
+ * Alternativa que fala de quantidade de pena ("reclusão de 2 a 4 anos", "aumentada de um terço", "em dobro").
+ * Questão que cobra pena é exceção: ninguém decora pena, e a banca cobra mais o crime, os elementos e as exceções.
+ */
+export const PADRAO_PENA =
+  /\b(reclus[ãa]o|deten[çc][ãa]o)\b|\bpena (de|aumentad|reduzid|diminu)|aumentada (de|at[ée]|em)|em dobro|\bde (um|dois|tr[êe]s|quatro|seis|1|2|3|4|6) (a|meses)|um ter[çc]o|dois ter[çc]os|metade/i;
+
+/** A questão gira em torno de pena: 2 ou mais alternativas falam de quantidade de pena. */
+export const cobraPena = (q: { alternativas: { texto: string }[] }) => q.alternativas.filter((a) => PADRAO_PENA.test(a.texto)).length >= 2;
+
+/** Proporção máxima aceitável de questões sobre pena num lote. */
+export const LIMITE_PENA_NO_LOTE = 0.1;
+
+/** A correta é a alternativa mais longa (pista de tamanho). */
+export function corretaMaisLonga(q: { alternativas: { letra: string; texto: string }[]; gabarito: string }) {
+  const c = q.alternativas.find((a) => a.letra === q.gabarito)?.texto.length ?? 0;
+  return q.alternativas.filter((a) => a.letra !== q.gabarito).every((a) => a.texto.length < c);
+}
+
+/** Avisos sobre o lote, para o dono decidir antes de importar. */
+export function avisosDoLote(questoes: { disciplina: string; alternativas: { letra: string; texto: string }[]; gabarito: string }[]) {
+  const avisos: string[] = [];
+  const penais = questoes.filter((q) => /Penal/i.test(q.disciplina) && !/Processual/i.test(q.disciplina));
+  const pena = penais.filter(cobraPena).length;
+  if (penais.length >= 10 && pena / penais.length > LIMITE_PENA_NO_LOTE)
+    avisos.push(
+      `${pena} de ${penais.length} questões penais (${Math.round((100 * pena) / penais.length)}%) giram em torno de quantidade de pena. O ideal é até ${Math.round(LIMITE_PENA_NO_LOTE * 100)}%: peça à IA para cobrar o crime em vez da pena.`,
+    );
+  const multiplas = questoes.filter((q) => q.alternativas.length >= 4);
+  const longas = multiplas.filter(corretaMaisLonga).length;
+  if (multiplas.length >= 10 && longas / multiplas.length > 0.35)
+    avisos.push(
+      `Em ${Math.round((100 * longas) / multiplas.length)}% das questões a correta é a alternativa mais longa (o normal é perto de 20% a 25%). O aluno acerta pelo tamanho: peça à IA para igualar o tamanho das alternativas.`,
+    );
+  return avisos;
+}
