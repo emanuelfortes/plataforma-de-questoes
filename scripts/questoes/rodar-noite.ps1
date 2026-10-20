@@ -37,9 +37,23 @@ while ((Get-Date) -lt $fim) {
   $cauda = ($saida -split "`n" | Select-Object -Last 15) -join "`n"
   Add-Content -Encoding utf8 (Join-Path $pastaLog "saida-claude.log") "===== $(Get-Date -Format 'yyyy-MM-dd HH:mm') rodada $rodada =====`n$cauda"
 
-  if ($saida -match "(?i)usage limit|limit reached|hit your limit|limite de uso|rate.?limit|resets? (at|in)") {
-    Anotar "LIMITE de uso do plano na rodada ${rodada}: aguardando 30 min"
-    Start-Sleep -Seconds 1800
+  # Limite do plano. A mensagem varia ("You've hit your session limit · resets 10:10am", "usage limit"...).
+  if ($saida -match "(?i)usage limit|session limit|weekly limit|limit reached|hit your (\w+ )?limit|limite de uso|rate.?limit|resets\s+\d") {
+    $espera = 1800
+    # Se a mensagem diz a hora em que o limite renova, espera até ela (e para de vez se for depois do fim da janela).
+    if ($saida -match "(?i)resets\s+(\d{1,2})(?::(\d{2}))?\s*(am|pm)") {
+      $h = [int]$Matches[1] % 12; if ($Matches[3] -ieq "pm") { $h += 12 }
+      $min = if ($Matches[2]) { [int]$Matches[2] } else { 0 }
+      $renova = (Get-Date).Date.AddHours($h).AddMinutes($min)
+      if ($renova -le (Get-Date)) { $renova = $renova.AddDays(1) }
+      if ($renova -ge $fim) {
+        Anotar "LIMITE de uso do plano na rodada ${rodada}: renova as $($renova.ToString('HH:mm')), depois do fim da janela; encerrando a noite"
+        break
+      }
+      $espera = [int]($renova - (Get-Date)).TotalSeconds + 120
+    }
+    Anotar "LIMITE de uso do plano na rodada ${rodada}: aguardando $([int]($espera / 60)) min"
+    Start-Sleep -Seconds $espera
     continue
   }
   if ($saida -match "FIM: nada pendente") { Anotar "FIM: nada pendente"; break }
