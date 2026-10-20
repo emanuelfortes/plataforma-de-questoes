@@ -1,0 +1,176 @@
+{
+  "itens": [
+    {
+      "id": 2741,
+      "enunciado": "Segundo o art. 253 do Código Penal, quem possui, sem licença da autoridade, material destinado à fabricação de substância explosiva:",
+      "alternativas": [
+        { "letra": "A", "texto": "só responde se ficar demonstrado perigo concreto à vida, à integridade física ou ao patrimônio de outrem." },
+        { "letra": "B", "texto": "não comete crime, pois o tipo alcança apenas a substância já pronta, e não o material para fabricá-la." },
+        { "letra": "C", "texto": "comete o crime do art. 253, que abrange o material de fabricação e dispensa a exposição concreta a perigo." },
+        { "letra": "D", "texto": "comete o crime de explosão do art. 251, pois a posse do material equivale à colocação de engenho explosivo." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 253 do CP pune quem fabrica, fornece, adquire, possui ou transporta, sem licença da autoridade, substância ou engenho explosivo, gás tóxico ou asfixiante, ou material destinado à sua fabricação. Diferentemente dos arts. 250 a 252, o tipo não traz a elementar 'expondo a perigo a vida, a integridade física ou o patrimônio de outrem': basta a conduta sem licença. Por isso, possuir o material sem autorização já configura o crime. Fundamento: art. 253 do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 253 não contém a elementar de exposição a perigo, presente nos arts. 250 a 252." },
+        { "letra": "B", "correta": false, "justificativa": "O tipo inclui expressamente o 'material destinado à sua fabricação'." },
+        { "letra": "C", "correta": true, "justificativa": "Possuir, sem licença, material destinado à fabricação de explosivo é conduta descrita no art. 253, sem exigência de perigo concreto." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 251 exige expor a perigo mediante explosão, arremesso ou colocação de engenho; a mera posse do material está no art. 253." }
+      ],
+      "fundamento_legal": "Código Penal (Decreto-Lei 2.848/1940), art. 253.",
+      "pegadinha": "Achar que todo crime de perigo comum exige perigo concreto ou que o material de fabricação fica fora do tipo.",
+      "o_que_mudou": "As alternativas deixaram de comparar penas (detenção x reclusão) e passaram a cobrar o alcance do tipo e a distinção com o crime de explosão."
+    },
+    {
+      "id": 2742,
+      "enunciado": "Sobre o crime de inundação, previsto no art. 254 do Código Penal, assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "Não admite forma culposa, sendo punido apenas quando o agente provoca a inundação com dolo." },
+        { "letra": "B", "texto": "Admite forma culposa, prevista no próprio art. 254, e exige a exposição de vida ou bens alheios a perigo." },
+        { "letra": "C", "texto": "Consuma-se com a mera remoção de obra destinada a impedir inundação, ainda que a água não transborde." },
+        { "letra": "D", "texto": "Dispensa a exposição a perigo, bastando que o agente provoque o alagamento de qualquer área alheia." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 254 do CP pune quem causa inundação expondo a perigo a vida, a integridade física ou o patrimônio de outrem, e o próprio preceito secundário prevê a punição no caso de dolo e no caso de culpa. Já a remoção, destruição ou inutilização de obra destinada a impedir inundação, sem que ela ocorra, é o crime autônomo de perigo de inundação (art. 255). Fundamento: arts. 254 e 255 do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 254 prevê expressamente a punição 'no caso de culpa'." },
+        { "letra": "B", "correta": true, "justificativa": "A culpa está no próprio art. 254, e o tipo exige que a inundação exponha a perigo a vida, a integridade física ou o patrimônio de outrem." },
+        { "letra": "C", "correta": false, "justificativa": "Remover obra destinada a impedir inundação, sem causá-la, é o crime de perigo de inundação do art. 255." },
+        { "letra": "D", "correta": false, "justificativa": "A exposição a perigo da vida, da integridade física ou do patrimônio de outrem é elementar do art. 254." }
+      ],
+      "fundamento_legal": "Código Penal (Decreto-Lei 2.848/1940), arts. 254 e 255.",
+      "pegadinha": "Confundir inundação (art. 254) com perigo de inundação (art. 255) e esquecer que a culpa está no próprio art. 254.",
+      "o_que_mudou": "Saíram as alternativas com faixas de pena; a questão passou a cobrar a forma culposa, a elementar do perigo e a diferença para o art. 255."
+    },
+    {
+      "id": 2743,
+      "enunciado": "Um fazendeiro destrói, em seu próprio terreno, um dique construído para impedir inundação, expondo a perigo as casas vizinhas, embora nenhuma inundação chegue a ocorrer. Nos termos do Código Penal, ele:",
+      "alternativas": [
+        { "letra": "A", "texto": "não comete crime, pois o dique estava em prédio próprio, e não em prédio alheio." },
+        { "letra": "B", "texto": "comete inundação, pois destruiu a obra que protegia as casas vizinhas da água." },
+        { "letra": "C", "texto": "responde apenas por crime de dano, pois não houve inundação efetiva no local." },
+        { "letra": "D", "texto": "comete perigo de inundação, que se consuma com a exposição a perigo, sem alagamento." }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 255 do CP pune quem remove, destrói ou inutiliza, em prédio próprio ou alheio, obstáculo natural ou obra destinada a impedir inundação, expondo a perigo a vida, a integridade física ou o patrimônio de outrem. Não é preciso que a inundação ocorra: se ela for causada, o crime passa a ser o de inundação (art. 254). Fundamento: arts. 254 e 255 do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 255 abrange expressamente a conduta praticada em prédio próprio." },
+        { "letra": "B", "correta": false, "justificativa": "O crime de inundação (art. 254) exige que a inundação seja efetivamente causada, o que não aconteceu." },
+        { "letra": "C", "correta": false, "justificativa": "Destruir a obra expondo a perigo terceiros configura crime de perigo comum próprio (art. 255), não mero dano." },
+        { "letra": "D", "correta": true, "justificativa": "A destruição do dique em prédio próprio, com exposição a perigo e sem inundação, é exatamente o tipo do art. 255." }
+      ],
+      "fundamento_legal": "Código Penal (Decreto-Lei 2.848/1940), arts. 254 e 255.",
+      "pegadinha": "Achar que o prédio próprio afasta o crime ou que sem inundação não há crime de perigo comum.",
+      "o_que_mudou": "As alternativas de inundação e de perigo de inundação deixaram de trazer a pena; ficou só a tipificação."
+    },
+    {
+      "id": 2745,
+      "enunciado": "Durante um incêndio em um mercado público, um indivíduo esconde as mangueiras e os extintores do prédio, dificultando o trabalho dos bombeiros. Segundo o Código Penal, ele comete:",
+      "alternativas": [
+        { "letra": "A", "texto": "furto simples, já que a conduta atinge só o patrimônio do estabelecimento." },
+        { "letra": "B", "texto": "incêndio com aumento de pena, por ter contribuído para a propagação do fogo." },
+        { "letra": "C", "texto": "subtração, ocultação ou inutilização de material de salvamento (art. 257)." },
+        { "letra": "D", "texto": "atentado contra a segurança de serviço de utilidade pública (art. 265)." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 257 do CP pune quem subtrai, oculta ou inutiliza, por ocasião de incêndio, inundação, naufrágio ou outro desastre ou calamidade, aparelho, material ou qualquer meio destinado a serviço de combate ao perigo, de socorro ou salvamento, ou impede ou dificulta serviço de tal natureza. Esconder extintores e mangueiras durante o incêndio é ocultar material de combate ao perigo. Fundamento: art. 257 do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Há tipo específico de perigo comum para a conduta, e esconder o material não é subtraí-lo para si." },
+        { "letra": "B", "correta": false, "justificativa": "O agente não causou o incêndio, e as hipóteses de aumento do art. 250, § 1º, pressupõem que o incêndio seja obra dele." },
+        { "letra": "C", "correta": true, "justificativa": "Ocultar, por ocasião de incêndio, material destinado ao combate ao perigo é a conduta do art. 257." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 265 trata de atentado contra serviço de água, luz, força, calor ou outro de utilidade pública, e não do material de salvamento em desastre." }
+      ],
+      "fundamento_legal": "Código Penal (Decreto-Lei 2.848/1940), art. 257.",
+      "pegadinha": "Tratar a ocultação do material de salvamento como crime patrimonial ou como participação no incêndio.",
+      "o_que_mudou": "As duas alternativas que só diferiam na pena do art. 257 foram trocadas por crimes parecidos; a questão agora cobra qual crime se configura."
+    },
+    {
+      "id": 2746,
+      "enunciado": "Nos crimes dolosos de perigo comum, o art. 258 do Código Penal prevê forma qualificada pelo resultado quando do fato resulta:",
+      "alternativas": [
+        { "letra": "A", "texto": "lesão corporal de qualquer natureza, inclusive leve, ou morte, pois o artigo não distingue a lesão." },
+        { "letra": "B", "texto": "lesão corporal de natureza grave ou morte, sem que a lesão leve qualifique a forma dolosa do crime." },
+        { "letra": "C", "texto": "apenas a morte, já que a lesão corporal grave fica absorvida pelo próprio crime de perigo comum." },
+        { "letra": "D", "texto": "lesão grave ou morte, mas somente nos crimes de incêndio e explosão, e não nos demais do capítulo." },
+        { "letra": "E", "texto": "lesão corporal grave, apenas, pois a morte é tratada exclusivamente pela pena do homicídio culposo." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 258 do CP traz as formas qualificadas dos crimes de perigo comum. Na forma dolosa, a qualificação ocorre se resulta lesão corporal de natureza grave ou morte. Só na forma culposa a lei fala em lesão corporal sem exigir que seja grave, e só na forma culposa com morte há remissão à pena do homicídio culposo. A regra vale para os crimes de perigo comum do capítulo, não só para incêndio e explosão. Fundamento: art. 258 do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Na forma dolosa, o art. 258 exige lesão de natureza grave; a lesão de qualquer natureza qualifica apenas a forma culposa." },
+        { "letra": "B", "correta": true, "justificativa": "É a hipótese da primeira parte do art. 258: lesão corporal grave ou morte no crime doloso de perigo comum." },
+        { "letra": "C", "correta": false, "justificativa": "A lesão corporal de natureza grave está expressamente prevista como resultado qualificador." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 258 alcança os crimes de perigo comum em geral, não só incêndio e explosão." },
+        { "letra": "E", "correta": false, "justificativa": "A remissão ao homicídio culposo é só para a forma culposa com morte; no doloso, a morte também qualifica o crime." }
+      ],
+      "fundamento_legal": "Código Penal (Decreto-Lei 2.848/1940), art. 258, primeira parte.",
+      "pegadinha": "Misturar as hipóteses da forma dolosa (lesão grave ou morte) com as da forma culposa (qualquer lesão ou morte).",
+      "o_que_mudou": "A questão deixou de cobrar as frações de aumento e passou a cobrar quais resultados qualificam a forma dolosa."
+    },
+    {
+      "id": 2747,
+      "enunciado": "Em crime de perigo comum praticado na forma culposa, o art. 258 do Código Penal estabelece que:",
+      "alternativas": [
+        { "letra": "A", "texto": "só a lesão corporal grave ou a morte qualificam o crime, exatamente como ocorre na forma dolosa." },
+        { "letra": "B", "texto": "o resultado morte não altera a resposta penal, pois o art. 258 se limita aos crimes dolosos." },
+        { "letra": "C", "texto": "a lesão corporal, mesmo leve, qualifica o crime, e a morte leva à pena do homicídio culposo com aumento." },
+        { "letra": "D", "texto": "se resulta morte, o agente responde por homicídio doloso, afastado o crime culposo de perigo comum." }
+      ],
+      "gabarito": "C",
+      "comentario": "A parte final do art. 258 do CP trata da culpa: se do fato resulta lesão corporal (a lei não exige que seja grave), a pena aumenta; se resulta morte, aplica-se a pena cominada ao homicídio culposo, também aumentada. Na forma dolosa, ao contrário, só a lesão grave ou a morte qualificam. Fundamento: art. 258 do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A exigência de lesão grave é da forma dolosa; na culpa, basta a lesão corporal." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 258 trata expressamente do 'caso de culpa', inclusive com resultado morte." },
+        { "letra": "C", "correta": true, "justificativa": "Reproduz a parte final do art. 258: lesão corporal qualifica, e a morte remete à pena do homicídio culposo, aumentada." },
+        { "letra": "D", "correta": false, "justificativa": "No crime culposo não há dolo de matar; a lei manda aplicar a pena do homicídio culposo, aumentada." }
+      ],
+      "fundamento_legal": "Código Penal (Decreto-Lei 2.848/1940), art. 258, parte final.",
+      "pegadinha": "Aplicar à forma culposa a exigência de lesão grave, que é própria da forma dolosa.",
+      "o_que_mudou": "Saíram as frações (um terço, metade, dobro); a questão cobra quais resultados qualificam a forma culposa e a remissão ao homicídio culposo."
+    },
+    {
+      "id": 2748,
+      "enunciado": "Um grupo furta cabos essenciais ao funcionamento da rede de energia elétrica de um bairro, atentando contra a segurança e o funcionamento do serviço. Segundo o Código Penal, a conduta se enquadra em:",
+      "alternativas": [
+        { "letra": "A", "texto": "furto qualificado, apenas, pois os cabos são coisa alheia móvel subtraída pelo grupo." },
+        { "letra": "B", "texto": "atentado contra serviço de utilidade pública, com aumento pela subtração de material essencial." },
+        { "letra": "C", "texto": "interrupção de serviço telefônico ou telemático, na forma agravada por subtração de equipamento." },
+        { "letra": "D", "texto": "atentado contra a segurança de outro meio de transporte público, por afetar serviço coletivo." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 265 do CP pune quem atenta contra a segurança ou o funcionamento de serviço de água, luz, força ou calor, ou qualquer outro de utilidade pública. O parágrafo único prevê aumento de pena se o dano ocorrer em virtude de subtração de material essencial ao funcionamento dos serviços, que é o caso do furto de cabos da rede elétrica. Fundamento: art. 265, caput e parágrafo único, do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A subtração de material essencial ao serviço de luz é hipótese expressa da causa de aumento do art. 265, parágrafo único." },
+        { "letra": "B", "correta": true, "justificativa": "O serviço de energia é de utilidade pública, e a subtração de material essencial gera o aumento do parágrafo único do art. 265." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 266 protege serviços telegráficos, telefônicos, telemáticos e de informação, e não a rede de energia elétrica." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 262 trata de meio de transporte público, o que não se confunde com a rede de energia." }
+      ],
+      "fundamento_legal": "Código Penal (Decreto-Lei 2.848/1940), art. 265, caput e parágrafo único.",
+      "pegadinha": "Confundir o atentado contra serviço de luz (art. 265) com a interrupção de serviço de telecomunicações (art. 266).",
+      "o_que_mudou": "A questão deixou de pedir a pena e a fração de aumento e passou a pedir o enquadramento da conduta e a hipótese de aumento."
+    },
+    {
+      "id": 2749,
+      "enunciado": "Sobre o crime de epidemia, previsto no art. 267 do Código Penal, assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "Não há modalidade culposa, sendo a conduta punida somente quando praticada com dolo." },
+        { "letra": "B", "texto": "Aplica-se a ele o art. 258, por remissão do art. 285, como aos demais crimes do capítulo." },
+        { "letra": "C", "texto": "Admite forma culposa, e o resultado morte agrava tanto a forma dolosa quanto a culposa." },
+        { "letra": "D", "texto": "Consuma-se com a mera infração de determinação do poder público contra doença contagiosa." },
+        { "letra": "E", "texto": "O resultado morte só tem relevância na forma dolosa, sem reflexo na modalidade culposa." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 267 do CP pune quem causa epidemia mediante a propagação de germes patogênicos. O § 1º agrava a forma dolosa se do fato resulta morte, e o § 2º prevê a modalidade culposa, também com tratamento mais grave se resulta morte. Por isso o art. 285 manda aplicar o art. 258 aos crimes contra a saúde pública, salvo à epidemia, que já tem regra própria. Infringir determinação sanitária é outro crime (art. 268). Fundamento: art. 267, caput, §§ 1º e 2º, e art. 285 do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O § 2º do art. 267 prevê expressamente a modalidade culposa." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 285 aplica o art. 258 aos crimes do capítulo 'salvo quanto ao definido no art. 267'." },
+        { "letra": "C", "correta": true, "justificativa": "O § 1º agrava a forma dolosa com morte, e o § 2º prevê a culpa, com resposta mais grave se resulta morte." },
+        { "letra": "D", "correta": false, "justificativa": "Infringir determinação do poder público destinada a impedir doença contagiosa é o crime do art. 268." },
+        { "letra": "E", "correta": false, "justificativa": "O § 2º também dá tratamento mais grave à forma culposa quando resulta morte." }
+      ],
+      "fundamento_legal": "Código Penal (Decreto-Lei 2.848/1940), art. 267, caput, §§ 1º e 2º, e art. 285.",
+      "pegadinha": "Esquecer que a epidemia é a exceção do art. 285, porque o próprio art. 267 já regula o resultado morte.",
+      "o_que_mudou": "As alternativas deixaram de trazer faixas de pena e passaram a cobrar a forma culposa, o resultado morte, a exceção do art. 285 e a diferença para o art. 268."
+    }
+  ]
+}

@@ -1,0 +1,444 @@
+{
+  "itens": [
+    {
+      "id": 187,
+      "banca": "IDECAN",
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra o Patrimônio",
+      "subtopico": "Furto de coisa comum: pena e ação penal",
+      "lei": "data/publicacao/pena/leis/direito-penal--crimes-contra-o-patrimonio.md",
+      "atual": {
+        "enunciado": "Sobre o crime de furto de coisa comum, previsto no art. 156 do Código Penal, assinale a afirmativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "É punido com reclusão, de um a seis anos, e multa, e a ação penal é pública incondicionada, dispensando a representação."
+          },
+          {
+            "letra": "B",
+            "texto": "Pode ser praticado por qualquer pessoa que subtraia coisa pertencente a mais de um proprietário."
+          },
+          {
+            "letra": "C",
+            "texto": "É punido com detenção, de seis meses a dois anos, ou multa, e somente se procede mediante queixa do ofendido."
+          },
+          {
+            "letra": "D",
+            "texto": "É punido com detenção, de seis meses a dois anos, ou multa, e somente se procede mediante representação."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 156 pune o condômino, co-herdeiro ou sócio que subtrai a coisa comum de quem legitimamente a detém, com pena de detenção, de seis meses a dois anos, ou multa. Pelo § 1º, somente se procede mediante representação, ou seja, a ação penal é pública condicionada.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "Reclusão de um a seis anos e multa é a pena do furto simples (art. 155, caput). Além disso, o furto de coisa comum não dispensa a representação: o § 1º a exige."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "O crime é próprio: só o condômino, o co-herdeiro ou o sócio pode praticá-lo. O estranho que subtrai coisa de vários proprietários comete furto do art. 155."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "A pena está correta, mas a ação penal não é privada: o § 1º exige representação, e não queixa do ofendido."
+          },
+          {
+            "letra": "D",
+            "correta": true,
+            "justificativa": "Reúne corretamente a pena do caput do art. 156 e a regra do § 1º, segundo a qual somente se procede mediante representação."
+          }
+        ],
+        "fundamento_legal": "Código Penal, art. 156, caput e § 1º.",
+        "pegadinha": "Confundir representação (ação pública condicionada) com queixa (ação privada) e tratar o crime como comum."
+      }
+    },
+    {
+      "id": 189,
+      "banca": "IDECAN",
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra o Patrimônio",
+      "subtopico": "Furto de veículo automotor",
+      "lei": "data/publicacao/pena/leis/direito-penal--crimes-contra-o-patrimonio.md",
+      "atual": {
+        "enunciado": "Em uma tarde, Rafael, agindo sozinho, aproveitou que um motorista deixou o automóvel estacionado e destrancado, com a chave original na ignição, e o levou de Fortaleza para Sobral, ambas no Ceará, onde pretendia usá-lo como seu. Não houve violência ou grave ameaça, rompimento de obstáculo, fraude, nem qualquer outra circunstância além das narradas. Considerando o art. 155 do Código Penal, Rafael responde por:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "furto qualificado pela destreza, com pena de reclusão, de 2 (dois) a 8 (oito) anos, e multa, porque se aproveitou da distração do motorista."
+          },
+          {
+            "letra": "B",
+            "texto": "furto qualificado pela subtração de veículo automotor, com pena de reclusão, de 4 (quatro) a 10 (dez) anos, e multa, porque o veículo foi levado para outro município."
+          },
+          {
+            "letra": "C",
+            "texto": "furto simples, com pena de reclusão, de 1 (um) a 6 (seis) anos, e multa, porque a forma qualificada do veículo exige transporte para outro Estado ou para o exterior."
+          },
+          {
+            "letra": "D",
+            "texto": "furto qualificado pelo emprego de chave falsa, com pena de reclusão, de 2 (dois) a 8 (oito) anos, e multa, porque usou chave que não lhe pertencia."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O art. 155, § 5º, só qualifica o furto de veículo automotor que venha a ser transportado para outro Estado ou para o exterior. O transporte entre municípios do mesmo Estado não basta. Como a chave era a original e não houve outra circunstância, a conduta é furto simples (art. 155, caput), com pena de reclusão, de 1 a 6 anos, e multa.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "O enunciado não descreve habilidade especial para subtrair a coisa sem que a vítima perceba; houve apenas aproveitamento de um veículo deixado destrancado, situação que não caracteriza destreza."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "O § 5º exige transporte para outro Estado ou para o exterior. Fortaleza e Sobral ficam no mesmo Estado, então a qualificadora não incide."
+          },
+          {
+            "letra": "C",
+            "correta": true,
+            "justificativa": "Sem transporte interestadual ou internacional e sem outra qualificadora, aplica-se o caput do art. 155: reclusão, de 1 a 6 anos, e multa."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "Chave falsa é a que imita ou substitui a verdadeira. Rafael usou a chave original deixada na ignição, o que não se amolda ao § 4º, III."
+          }
+        ],
+        "fundamento_legal": "Código Penal, art. 155, caput e § 5º (ambos com redação dada pela Lei 15.397/2026).",
+        "pegadinha": "Achar que basta o deslocamento do veículo para outro município para qualificar o furto."
+      }
+    },
+    {
+      "id": 190,
+      "banca": "IDECAN",
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra o Patrimônio",
+      "subtopico": "Furto de coisa comum: coisa fungível dentro da quota",
+      "lei": "data/publicacao/pena/leis/direito-penal--crimes-contra-o-patrimonio.md",
+      "atual": {
+        "enunciado": "Antônio e Bruno são sócios de uma pequena sociedade agrícola, que armazena sacas de milho sob a guarda de Bruno, que as detém legitimamente. Sem avisar o sócio, Antônio retirou do depósito algumas sacas de milho, cujo valor total não excede a quota a que ele tem direito na sociedade. Nos termos do Código Penal, a conduta de Antônio:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "não é punível, porque se trata de subtração de coisa comum fungível cujo valor não excede a quota a que tem direito o agente."
+          },
+          {
+            "letra": "B",
+            "texto": "configura furto simples, pois o milho pertencia à sociedade, e não a Antônio."
+          },
+          {
+            "letra": "C",
+            "texto": "configura furto de coisa comum, punível com detenção ou multa, procedendo-se mediante ação penal pública incondicionada."
+          },
+          {
+            "letra": "D",
+            "texto": "configura furto de coisa comum, mas o juiz pode apenas reduzir a pena de um a dois terços em razão do pequeno valor."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O art. 156, § 2º, do Código Penal dispõe que não é punível a subtração de coisa comum fungível cujo valor não excede a quota a que tem direito o agente. Sacas de milho são bens fungíveis, e o valor retirado está dentro da quota de Antônio, logo a conduta não é punível.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": true,
+            "justificativa": "Reproduz o art. 156, § 2º, cujos requisitos (coisa comum, fungível e valor dentro da quota do agente) estão todos presentes."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "A subtração de coisa comum por sócio tem tipo próprio, o art. 156, que afasta o furto do art. 155. E, no caso, incide a regra de não punibilidade do § 2º."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "Além de o fato não ser punível pelo § 2º, o furto de coisa comum, quando punível, somente se procede mediante representação (§ 1º), e não por ação pública incondicionada."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "A situação não é de diminuição de pena: o § 2º do art. 156 afasta a punibilidade quando a coisa fungível não excede a quota do agente."
+          }
+        ],
+        "fundamento_legal": "Código Penal, art. 156, caput, §§ 1º e 2º.",
+        "pegadinha": "Ignorar a regra especial de não punibilidade da coisa comum fungível dentro da quota e tratar o caso como furto comum ou privilegiado."
+      }
+    },
+    {
+      "id": 191,
+      "banca": "IDECAN",
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra o Patrimônio",
+      "subtopico": "Furto mediante fraude eletrônica",
+      "lei": "data/publicacao/pena/leis/direito-penal--crimes-contra-o-patrimonio.md",
+      "atual": {
+        "enunciado": "Marcos instalou, de forma oculta, um programa malicioso no telefone celular de Helena, de 72 anos. Com o programa, acessou o aplicativo bancário dela e transferiu valores para a conta de um comparsa, sem que Helena percebesse ou participasse da operação. Toda a ação ocorreu por servidores mantidos no território nacional. Considere que a conduta configura furto mediante fraude cometido por meio de dispositivo eletrônico ou informático. De acordo com o Código Penal, é correto afirmar que:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "aplica-se a pena de reclusão, de 4 (quatro) a 10 (dez) anos, e multa, aumentada sempre no dobro, por ser a vítima idosa, independentemente do resultado."
+          },
+          {
+            "letra": "B",
+            "texto": "aplica-se a pena de reclusão, de 4 (quatro) a 10 (dez) anos, e multa, aumentada de 1/3 (um terço) ao dobro, considerada a relevância do resultado gravoso, por ser a vítima idosa."
+          },
+          {
+            "letra": "C",
+            "texto": "aplica-se a pena de reclusão, de 4 (quatro) a 10 (dez) anos, e multa, aumentada de 1/3 (um terço) a 2/3 (dois terços) por ser a vítima idosa."
+          },
+          {
+            "letra": "D",
+            "texto": "aplica-se a pena de reclusão, de 2 (dois) a 8 (oito) anos, e multa, do furto qualificado pela fraude, sem aumento pela idade da vítima, que só é previsto para o estelionato."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O furto mediante fraude cometido por meio de dispositivo eletrônico ou informático, com ou sem programa malicioso, tem pena de reclusão, de 4 a 10 anos, e multa (art. 155, § 4º-B). Pelo § 4º-C, II, essa pena aumenta-se de 1/3 ao dobro se o crime é praticado contra idoso ou vulnerável, considerada a relevância do resultado gravoso. O aumento de 1/3 a 2/3 do § 4º-C, I, exige servidor mantido fora do território nacional, o que não ocorreu.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "O aumento é variável, de 1/3 ao dobro, e a lei manda considerar a relevância do resultado gravoso; não há aumento fixo no dobro."
+          },
+          {
+            "letra": "B",
+            "correta": true,
+            "justificativa": "Combina corretamente a pena do § 4º-B (4 a 10 anos e multa) com o aumento de 1/3 ao dobro do § 4º-C, II, considerada a relevância do resultado gravoso."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "A fração de 1/3 a 2/3 é a do § 4º-C, I (servidor mantido fora do território nacional). Contra idoso, o aumento é de 1/3 ao dobro (§ 4º-C, II)."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "A fraude por meio de dispositivo eletrônico ou informático tem forma própria e mais grave (§ 4º-B), e o próprio art. 155, § 4º-C, II, prevê aumento quando a vítima é idosa."
+          }
+        ],
+        "fundamento_legal": "Código Penal, art. 155, § 4º-B (redação dada pela Lei 15.397/2026) e § 4º-C, I e II (incluídos pela Lei 14.155/2021).",
+        "pegadinha": "Trocar as frações do § 4º-C: 1/3 a 2/3 para servidor no exterior e 1/3 ao dobro para vítima idosa ou vulnerável."
+      }
+    },
+    {
+      "id": 192,
+      "banca": "IDECAN",
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra o Patrimônio",
+      "subtopico": "Furto com emprego de explosivo",
+      "lei": "data/publicacao/pena/leis/direito-penal--crimes-contra-o-patrimonio.md",
+      "atual": {
+        "enunciado": "Em uma tarde de domingo, com a loja fechada e sem ninguém no interior, três agentes detonaram um artefato explosivo para abrir o cofre de uma joalheria e subtraíram as joias que ali estavam. A explosão expôs a perigo os moradores dos prédios vizinhos. Não houve violência ou grave ameaça contra qualquer pessoa. À luz do Código Penal, a conduta se amolda a:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "dano qualificado pelo emprego de substância explosiva, que absorve a subtração das joias por ser o crime-meio."
+          },
+          {
+            "letra": "B",
+            "texto": "furto qualificado pelo emprego de explosivo ou artefato análogo que cause perigo comum, com pena de reclusão, de 4 (quatro) a 10 (dez) anos, e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "furto qualificado pelo rompimento de obstáculo e pelo concurso de pessoas, com pena de reclusão, de 2 (dois) a 8 (oito) anos, e multa, já que o explosivo foi apenas o meio para romper o cofre."
+          },
+          {
+            "letra": "D",
+            "texto": "roubo com pena aumentada de 2/3 (dois terços), pois houve destruição de obstáculo mediante o emprego de explosivo que causou perigo comum."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O art. 155, § 4º-A, prevê pena de reclusão, de 4 a 10 anos, e multa, se houver emprego de explosivo ou de artefato análogo que cause perigo comum. Como não houve violência ou grave ameaça a pessoa, não há roubo. A subtração mediante explosão com perigo comum tem qualificadora própria, mais grave que a do § 4º.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "O próprio art. 163, parágrafo único, II, ressalva sua aplicação 'se o fato não constitui crime mais grave'. A finalidade foi a subtração, punida no art. 155, § 4º-A."
+          },
+          {
+            "letra": "B",
+            "correta": true,
+            "justificativa": "Corresponde ao art. 155, § 4º-A: emprego de explosivo que causou perigo comum, sem violência a pessoa, com pena de reclusão, de 4 a 10 anos, e multa."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "Existe qualificadora específica e mais grave para o emprego de explosivo que cause perigo comum (§ 4º-A); enquadrar o fato só no § 4º, I e IV, desconsidera essa previsão."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "O aumento do art. 157, § 2º-A, II, pressupõe roubo, que exige violência ou grave ameaça a pessoa (ou redução da vítima à impossibilidade de resistência), ausentes no caso."
+          }
+        ],
+        "fundamento_legal": "Código Penal, art. 155, § 4º-A (incluído pela Lei 13.654/2018); art. 157, caput e § 2º-A, II; art. 163, parágrafo único, II.",
+        "pegadinha": "Confundir furto com explosivo (sem violência a pessoa) com roubo majorado pelo explosivo, ou reduzir o explosivo a mero rompimento de obstáculo."
+      }
+    },
+    {
+      "id": 194,
+      "banca": "IDECAN",
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra o Patrimônio",
+      "subtopico": "Extorsão indireta",
+      "lei": "data/publicacao/pena/leis/direito-penal--crimes-contra-o-patrimonio.md",
+      "atual": {
+        "enunciado": "Um agiota, aproveitando-se do desespero financeiro de um comerciante, condicionou a concessão de um empréstimo à entrega, como garantia da dívida, de um documento assinado pelo devedor que poderia dar causa a procedimento criminal contra ele. Segundo o Código Penal, a conduta do agiota corresponde ao crime de",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "extorsão indireta, que somente se configura se o agiota utilizar efetivamente o documento contra a vítima."
+          },
+          {
+            "letra": "B",
+            "texto": "estelionato, pois o agiota obteve vantagem ilícita mantendo a vítima em erro."
+          },
+          {
+            "letra": "C",
+            "texto": "extorsão indireta, punida com reclusão de um a três anos, e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "extorsão, punida com reclusão de quatro a dez anos, e multa."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O art. 160 do Código Penal tipifica a extorsão indireta: exigir ou receber, como garantia de dívida, abusando da situação de alguém, documento que pode dar causa a procedimento criminal contra a vítima ou contra terceiro. A pena é de reclusão, de um a três anos, e multa. O tipo se contenta com o ato de exigir ou receber o documento; não exige que ele seja usado depois.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "Errada. Os verbos do tipo são exigir ou receber o documento como garantia. A lei não condiciona o crime ao uso posterior do documento contra a vítima."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "Errada. O estelionato (art. 171) depende de induzir ou manter alguém em erro mediante fraude. O enunciado não descreve engano algum, e sim a exigência de documento comprometedor como garantia."
+          },
+          {
+            "letra": "C",
+            "correta": true,
+            "justificativa": "Correta. A conduta se amolda exatamente ao art. 160, cuja pena é de reclusão, de um a três anos, e multa."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "Errada. A extorsão do art. 158 exige constrangimento mediante violência ou grave ameaça. No caso, o agiota abusou da situação da vítima para exigir documento como garantia de dívida, conduta prevista no art. 160."
+          }
+        ],
+        "fundamento_legal": "Código Penal, art. 160.",
+        "pegadinha": "Confundir a extorsão indireta com a extorsão do art. 158 (que exige violência ou grave ameaça) ou exigir o uso efetivo do documento."
+      }
+    },
+    {
+      "id": 195,
+      "banca": "IDECAN",
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra o Patrimônio",
+      "subtopico": "Roubo: causas de aumento pelo meio empregado",
+      "lei": "data/publicacao/pena/leis/direito-penal--crimes-contra-o-patrimonio.md",
+      "atual": {
+        "enunciado": "Em uma praça de Fortaleza, um homem, agindo sozinho, ameaçou um pedestre com uma faca e dele subtraiu a carteira com dinheiro. Considerando apenas o meio empregado na grave ameaça, o Código Penal determina que a pena do roubo",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "não sofre aumento, pois somente o emprego de arma de fogo majora o roubo."
+          },
+          {
+            "letra": "B",
+            "texto": "é aplicada em dobro."
+          },
+          {
+            "letra": "C",
+            "texto": "aumenta-se de dois terços."
+          },
+          {
+            "letra": "D",
+            "texto": "aumenta-se de um terço até metade."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O Código Penal gradua o aumento conforme o instrumento. Arma branca (como a faca): aumento de 1/3 até metade (art. 157, § 2º, VII). Arma de fogo: aumento de 2/3 (art. 157, § 2º-A, I). Arma de fogo de uso restrito ou proibido: pena do caput em dobro (art. 157, § 2º-B). No caso, a grave ameaça foi exercida com faca, portanto o aumento é de um terço até metade.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "Errada. A arma branca também majora o roubo, por expressa previsão do art. 157, § 2º, VII."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "Errada. A aplicação da pena em dobro (art. 157, § 2º-B) ocorre apenas com arma de fogo de uso restrito ou proibido."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "Errada. O aumento de 2/3 (art. 157, § 2º-A, I) é reservado ao emprego de arma de fogo."
+          },
+          {
+            "letra": "D",
+            "correta": true,
+            "justificativa": "Correta. O art. 157, § 2º, VII, prevê aumento de 1/3 até metade quando a violência ou grave ameaça é exercida com emprego de arma branca."
+          }
+        ],
+        "fundamento_legal": "Código Penal, art. 157, § 2º, VII; § 2º-A, I; § 2º-B.",
+        "pegadinha": "Misturar as frações de aumento da arma branca, da arma de fogo e da arma de fogo de uso restrito ou proibido."
+      }
+    },
+    {
+      "id": 203,
+      "banca": "IDECAN",
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra o Patrimônio",
+      "subtopico": "Dano qualificado",
+      "lei": "data/publicacao/pena/leis/direito-penal--crimes-contra-o-patrimonio.md",
+      "atual": {
+        "enunciado": "Por vingança, Túlio jogou gasolina e ateou fogo no carro de um desafeto, estacionado sozinho num terreno baldio afastado de qualquer construção, pessoa ou outro bem, de modo que o fogo não expôs ninguém a perigo. O veículo ficou destruído. Considerando apenas os fatos narrados e o Código Penal, assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Túlio responde por dano qualificado pelo emprego de substância inflamável, com pena de reclusão de um a quatro anos, e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "Túlio responde por dano qualificado pela violência à pessoa, já que o carro pertencia a pessoa determinada."
+          },
+          {
+            "letra": "C",
+            "texto": "Túlio responde por dano simples, pois a qualificadora exige que a substância inflamável seja usada contra pessoa."
+          },
+          {
+            "letra": "D",
+            "texto": "Túlio responde por dano qualificado pelo emprego de substância inflamável, com pena de detenção de seis meses a três anos, e multa."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 163, parágrafo único, II, do CP qualifica o dano cometido com emprego de substância inflamável ou explosiva, se o fato não constitui crime mais grave. O enunciado afasta qualquer perigo a pessoas ou a outros bens, de modo que permanece o dano qualificado, com pena de detenção de seis meses a três anos, e multa, além da pena correspondente à violência, se houver.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "A pena do dano qualificado é de detenção de seis meses a três anos, e multa; reclusão de um a quatro anos, e multa, é a pena da apropriação indébita (art. 168)."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "A qualificadora do inciso I exige violência à pessoa ou grave ameaça, o que não ocorreu; a violência foi contra a coisa."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "O inciso II do parágrafo único do art. 163 não exige que a substância seja usada contra pessoa; basta o emprego de substância inflamável ou explosiva para destruir, inutilizar ou deteriorar a coisa."
+          },
+          {
+            "letra": "D",
+            "correta": true,
+            "justificativa": "Gasolina é substância inflamável e o fato, como narrado, não configura crime mais grave; aplica-se o art. 163, parágrafo único, II, com a pena ali cominada."
+          }
+        ],
+        "fundamento_legal": "Código Penal, art. 163, parágrafo único, II, e preceito secundário do parágrafo único.",
+        "pegadinha": "Achar que a qualificadora do fogo depende de atingir pessoa, ou trocar a pena do dano qualificado pela de outro crime patrimonial."
+      }
+    }
+  ]
+}

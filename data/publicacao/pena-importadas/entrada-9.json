@@ -1,0 +1,268 @@
+{
+  "itens": [
+    {
+      "id": 1765,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Juizados Especiais Criminais",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--juizados-especiais-criminais.md",
+      "atual": {
+        "enunciado": "João é autor de crime de menor potencial ofensivo de ação penal pública incondicionada, e não é caso de arquivamento. Assinale a situação que, comprovada, IMPEDE a proposta de transação penal, nos termos da Lei nº 9.099/1995.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "João foi condenado, por sentença definitiva, pela prática de crime anterior, apenas à pena de multa."
+          },
+          {
+            "letra": "B",
+            "texto": "João foi beneficiado com transação penal há três anos, por outra infração de menor potencial ofensivo."
+          },
+          {
+            "letra": "C",
+            "texto": "João foi beneficiado com transação penal há seis anos, por outra infração de menor potencial ofensivo."
+          },
+          {
+            "letra": "D",
+            "texto": "João responde a outro processo criminal, ainda sem sentença, por crime de menor potencial ofensivo."
+          },
+          {
+            "letra": "E",
+            "texto": "João foi condenado, por sentença definitiva, à pena de prisão simples pela prática de contravenção penal."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O art. 76, § 2º, veda a transação quando o autor já foi condenado definitivamente, pela prática de crime, a pena privativa de liberdade; quando foi beneficiado por transação nos cinco anos anteriores; ou quando antecedentes, conduta social, personalidade, motivos e circunstâncias não a indicarem. Análise das alternativas: A) Errada: o impedimento exige condenação a pena privativa de liberdade, não apenas multa. B) Correta: o benefício anterior há menos de cinco anos impede nova transação. C) Errada: passados mais de cinco anos, o benefício anterior não impede a proposta. D) Errada: estar sendo processado é impedimento da suspensão condicional do processo (art. 89), não da transação. E) Errada: o inciso I exige condenação pela prática de crime; condenação por contravenção não se enquadra. MACETE DO RICCARDO: transação barra por PPL por crime, transação em 5 anos ou perfil desfavorável. Fundamento: art. 76, § 2º, da Lei nº 9.099/1995.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1800,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Crimes de Racismo",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--crimes-de-racismo.md",
+      "atual": {
+        "enunciado": "O gerente de uma empresa privada, por motivo de discriminação de cor, deixa de conceder a um empregado os equipamentos necessários ao trabalho em igualdade de condições com os demais trabalhadores. À luz da Lei 7.716/1989, essa conduta:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "não é tipificada pela Lei 7.716/1989, que pune apenas a negativa de emprego, configurando mero ilícito trabalhista."
+          },
+          {
+            "letra": "B",
+            "texto": "sujeita o agente às penas de multa e de prestação de serviços à comunidade, incluindo promoção da igualdade racial."
+          },
+          {
+            "letra": "C",
+            "texto": "sujeita o agente à pena de reclusão de um a três anos e multa, prevista para a prática de discriminação."
+          },
+          {
+            "letra": "D",
+            "texto": "sujeita o agente à mesma pena de quem nega emprego em empresa privada, isto é, reclusão de dois a cinco anos."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 4º pune quem nega ou obsta emprego em empresa privada, com reclusão de dois a cinco anos. O § 1º, incluído pela Lei 12.288/2010, determina que incorre na mesma pena quem, por discriminação de raça ou cor, deixa de conceder os equipamentos necessários ao empregado em igualdade de condições com os demais. Análise das alternativas: A) Errada, a conduta está expressamente prevista no art. 4º, § 1º, I. B) Errada, multa e prestação de serviços são as penas do § 2º, referente a anúncios de recrutamento. C) Errada, há tipo específico com pena própria, não se aplicando o art. 20, caput. D) Correta, o § 1º remete à mesma pena do caput do art. 4º. Fundamento: Lei 7.716/1989, art. 4º, caput e § 1º, I.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1801,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Crimes de Racismo",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--crimes-de-racismo.md",
+      "atual": {
+        "enunciado": "Uma empresa publica anúncio de vaga para atendente exigindo aspectos de aparência próprios de determinada etnia, embora as atividades do cargo não justifiquem tal exigência. Segundo a Lei 7.716/1989, o responsável fica sujeito a:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "multa e prestação de serviços à comunidade, incluindo atividades de promoção da igualdade racial."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão de dois a cinco anos, por equiparação legal à negativa de emprego em empresa privada."
+          },
+          {
+            "letra": "C",
+            "texto": "reclusão de um a três anos e multa, por configurar a prática de discriminação descrita no art. 20."
+          },
+          {
+            "letra": "D",
+            "texto": "multa e proibição de frequência, por três anos, a locais destinados ao recrutamento de trabalhadores."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O art. 4º, § 2º, incluído pela Lei 12.288/2010, prevê penas de multa e de prestação de serviços à comunidade, incluindo atividades de promoção da igualdade racial, para quem, em anúncios ou outra forma de recrutamento, exige aspectos de aparência próprios de raça ou etnia para emprego cujas atividades não justifiquem essas exigências. Análise das alternativas: A) Correta, reproduz as penas do § 2º. B) Errada, a reclusão de dois a cinco anos é a do caput e do § 1º do art. 4º, não a do § 2º. C) Errada, há previsão específica no art. 4º, § 2º, afastando o art. 20, caput. D) Errada, a proibição de frequência por três anos é pena do art. 20, § 2º-A, ligada a atividades esportivas, artísticas ou culturais. Fundamento: Lei 7.716/1989, art. 4º, § 2º.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1804,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Crimes de Racismo",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--crimes-de-racismo.md",
+      "atual": {
+        "enunciado": "O porteiro de um edifício residencial, por motivo de cor, impede que um visitante utilize o elevador social, indicando-lhe o elevador de serviço. Conforme a Lei 7.716/1989, a conduta:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "não configura crime previsto na lei, pois o edifício residencial não é local aberto ao público."
+          },
+          {
+            "letra": "B",
+            "texto": "configura o crime do art. 5º, por equiparação do edifício a estabelecimento comercial."
+          },
+          {
+            "letra": "C",
+            "texto": "configura o crime do art. 11, punido com reclusão de dois a cinco anos."
+          },
+          {
+            "letra": "D",
+            "texto": "configura o crime do art. 11, punido com reclusão de um a três anos."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 11 pune quem impede o acesso às entradas sociais em edifícios públicos ou residenciais e elevadores ou escada de acesso aos mesmos, com reclusão de um a três anos. A lei menciona expressamente os edifícios residenciais. Análise das alternativas: A) Errada, o art. 11 alcança expressamente edifícios residenciais. B) Errada, o art. 5º trata de estabelecimento comercial; há tipo específico no art. 11. C) Errada, a pena do art. 11 é de um a três anos. D) Correta, enquadramento e pena conferem com o art. 11. Fundamento: Lei 7.716/1989, art. 11.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1806,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Crimes de Racismo",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--crimes-de-racismo.md",
+      "atual": {
+        "enunciado": "Em reunião presencial de uma associação de bairro, sem qualquer gravação ou divulgação posterior, um participante incita a discriminação contra pessoas de determinada procedência nacional. Conforme a Lei 7.716/1989, a pena cominada é de:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "reclusão de um a três anos e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão de dois a cinco anos e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "reclusão de três a cinco anos e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "reclusão de um a três anos, sem multa."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O art. 20, caput, pune quem pratica, induz ou incita a discriminação ou preconceito de raça, cor, etnia, religião ou procedência nacional, com reclusão de um a três anos e multa. Como a conduta não foi praticada por meios de comunicação nem em contexto esportivo, religioso, artístico ou cultural destinado ao público, aplica-se o preceito do caput. Análise das alternativas: A) Correta, corresponde à pena do art. 20, caput. B) Errada, dois a cinco anos e multa é a pena dos §§ 1º e 2º, não incidentes no caso. C) Errada, três a cinco anos não é pena prevista no art. 20. D) Errada, a multa é cumulativa com a reclusão no caput. Fundamento: Lei 7.716/1989, art. 20, caput.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1807,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Crimes de Racismo",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--crimes-de-racismo.md",
+      "atual": {
+        "enunciado": "Durante patrulhamento, uma guarnição da Guarda Municipal constata que um comerciante vende braçadeiras com a cruz suástica, para fins de divulgação do nazismo. Nos termos da Lei 7.716/1989, a conduta:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "é atípica, pois o tipo penal alcança apenas quem fabrica os símbolos, e não quem os comercializa."
+          },
+          {
+            "letra": "B",
+            "texto": "configura o crime do art. 20, caput, punido com reclusão de um a três anos e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "configura o crime do art. 20, § 1º, punido com reclusão de dois a cinco anos e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "configura o crime do art. 20, § 1º, punido com reclusão de dois a quatro anos, sem multa."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O art. 20, § 1º, pune quem fabrica, comercializa, distribui ou veicula símbolos, emblemas, ornamentos, distintivos ou propaganda que utilizem a cruz suástica ou gamada, para fins de divulgação do nazismo, com reclusão de dois a cinco anos e multa. Análise das alternativas: A) Errada, comercializar é um dos verbos nucleares do § 1º. B) Errada, há tipo específico no § 1º, com pena mais grave que a do caput. C) Correta, enquadramento e pena conferem com o § 1º. D) Errada, a pena é de dois a cinco anos e a multa é cumulativa. Fundamento: Lei 7.716/1989, art. 20, § 1º.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1808,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Crimes de Racismo",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--crimes-de-racismo.md",
+      "atual": {
+        "enunciado": "Em relação ao crime de discriminação cometido por meio de publicação em redes sociais (art. 20, § 2º, da Lei 7.716/1989), assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Aplica-se a pena do caput, de um a três anos e multa, pois as redes sociais não são mencionadas no § 2º."
+          },
+          {
+            "letra": "B",
+            "texto": "O juiz pode determinar a interdição das páginas na internet, mas somente após a instauração do inquérito policial."
+          },
+          {
+            "letra": "C",
+            "texto": "A destruição do material apreendido constitui efeito da condenação, independentemente do trânsito em julgado."
+          },
+          {
+            "letra": "D",
+            "texto": "Ouvido o Ministério Público ou a seu pedido, o juiz pode determinar, ainda antes do inquérito, a cessação da publicação."
+          },
+          {
+            "letra": "E",
+            "texto": "As medidas do § 3º podem ser determinadas pela autoridade policial, de ofício, sob pena de desobediência."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "Com a redação da Lei 14.532/2023, o § 2º do art. 20 alcança expressamente a publicação em redes sociais, com pena de dois a cinco anos e multa. O § 3º autoriza o juiz, ouvido o Ministério Público ou a pedido deste, ainda antes do inquérito policial e sob pena de desobediência, a determinar recolhimento ou busca e apreensão do material, cessação de transmissões ou publicações e interdição de páginas na internet; o § 4º prevê a destruição do material após o trânsito em julgado. Análise das alternativas: A) Errada, o § 2º menciona expressamente a publicação em redes sociais. B) Errada, as medidas podem ser determinadas ainda antes do inquérito policial. C) Errada, a destruição ocorre após o trânsito em julgado da decisão. D) Correta, reproduz o § 3º, II. E) Errada, a atribuição é do juiz, não da autoridade policial. Fundamento: Lei 7.716/1989, art. 20, §§ 2º, 3º e 4º.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1811,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Crimes de Racismo",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--crimes-de-racismo.md",
+      "atual": {
+        "enunciado": "O art. 20-A da Lei 7.716/1989, incluído pela Lei 14.532/2023, prevê aumento de pena quando os crimes ocorrerem em contexto ou com intuito de descontração, diversão ou recreação. Esse aumento é de:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "metade, restrito à injúria do art. 2º-A."
+          },
+          {
+            "letra": "B",
+            "texto": "um sexto até um terço, para os crimes da Lei."
+          },
+          {
+            "letra": "C",
+            "texto": "um terço até a metade, restrito aos crimes do art. 20."
+          },
+          {
+            "letra": "D",
+            "texto": "um terço até a metade, para os crimes previstos na Lei."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 20-A determina que os crimes previstos na Lei 7.716/1989 terão as penas aumentadas de um terço até a metade quando ocorrerem em contexto ou com intuito de descontração, diversão ou recreação. O dispositivo alcança os crimes da lei, sem restrição a artigos específicos. Análise das alternativas: A) Errada, a fração é variável e o aumento não se limita ao art. 2º-A. B) Errada, a fração legal é de um terço até a metade. C) Errada, o art. 20-A não se restringe ao art. 20; a restrição aos arts. 2º-A e 20 é do art. 20-B. D) Correta, reproduz o art. 20-A. MACETE DO RICCARDO: piada racista não é desculpa, é causa de aumento: 1/3 até a metade (20-A). Fundamento: Lei 7.716/1989, art. 20-A.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    }
+  ]
+}

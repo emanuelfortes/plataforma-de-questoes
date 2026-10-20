@@ -1,0 +1,22 @@
+{
+  "auditorias": [
+    {
+      "id": 592,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: guarda de arma de uso permitido, sem registro, no local de trabalho de que o agente é titular é o art. 12 da Lei nº 10.826/2003, que inclui expressamente o local de trabalho do titular ou responsável legal. A (art. 14) erra ao tratar o local de trabalho como fora do art. 12; B (art. 13) exige menor de 18 anos ou pessoa com deficiência mental se apoderando da arma, o que o enunciado afasta; D (art. 16) depende da classificação da arma como de uso restrito, e a falta de registro não a altera. Uma única correta, gabarito C conferido no texto legal. Não gira em torno de quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 595,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: o art. 20 alcança os arts. 14, 15, 16, 17 e 18, nas hipóteses de integrante dos órgãos e empresas dos arts. 6º, 7º e 8º (inciso I) ou de reincidente específico (inciso II). C reproduz o dispositivo. A descreve o art. 21-A (Lei nº 15.358/2026, presente no texto fornecido), que alcança os arts. 12, 14 e 16; B inclui arts. 12 e 13 e reincidência genérica, ambos errados; D descreve o art. 19 (arts. 17 e 18, uso proibido ou restrito). Uma única correta, gabarito C. As alternativas tratam de crimes alcançados e hipóteses, sem frações ou quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 597,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: (I) manter em casa fuzil de uso restrito sem autorização é o art. 16, caput, que abrange posse e porte; (II) montar, remontar e vender armas em oficina clandestina na residência é comércio ilegal, pelo art. 17, caput e § 1º (comércio clandestino, inclusive em residência); (III) trazer armas do exterior sem autorização é importação, art. 18. Só C classifica as três corretamente. A erra I e III; B erra II; D erra III. Gabarito C conferido no texto legal. Não cobra quantidade de pena.",
+      "correcao_sugerida": null
+    }
+  ]
+}

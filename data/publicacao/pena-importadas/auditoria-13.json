@@ -1,0 +1,52 @@
+{
+  "auditorias": [
+    {
+      "id": 2081,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C. O art. 303, caput, abrange bem móvel público ou particular de que o agente tem a posse ou detenção em razão do cargo, e o § 1º aumenta a pena quando o objeto supera vinte vezes o salário mínimo. A contraria o caput (público ou particular); B omite o núcleo desviar; D cria restrição ao oficial que a lei não faz; E troca vinte por dez e acrescenta exigência inexistente. As alternativas não giram em torno de quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2082,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C. Art. 303, § 2º: sem posse ou detenção, subtrai valendo-se da facilidade que lhe proporciona a qualidade de militar. A (art. 304) exige recebimento por erro de outrem; B (§ 3º) é contribuição culposa para subtração por outrem; D contraria o caput, que exige posse ou detenção; E (art. 305) exige a conduta de exigir. Gabarito único, sem foco em pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2083,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C. Art. 303, § 3º (contribuir culposamente para que outrem subtraia) e § 4º: a reparação que precede a sentença irrecorrível extingue a punibilidade; se posterior, reduz a pena imposta. A ignora o marco temporal; B troca o marco e nega efeito; D inventa marco na revisão criminal; E inventa desclassificação. A correta cobra o efeito da reparação, não a fração.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2084,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: B. Art. 304: apropriar-se de dinheiro que, no exercício do cargo, recebeu por erro de outrem. A (§ 2º do art. 303) pressupõe subtração; C (art. 305) exige exigir; D (art. 307) descreve desvio do que recebeu indevidamente para recolher aos cofres, conduta diversa da apropriação descrita; E confunde o erro do terceiro com culpa do agente. Gabarito único.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2086,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: B. Art. 306, segunda modalidade: quando devido o tributo, empregar na cobrança meio vexatório ou gravoso que a lei não autoriza. A nega essa modalidade; C contraria o texto (imposto, taxa ou emolumento); D descreve o desvio (art. 307); E descreve a concussão (art. 305). Sem foco em pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2088,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: B. Art. 308, § 1º (redação vigente conferida, caput dado pela Lei 14.688/2023): aumento se, em consequência da vantagem ou promessa, o agente retarda ou deixa de praticar ato de ofício. A omite o núcleo aceitar promessa; C contraria o § 2º; D descreve hipótese do § 1º, não prevaricação (art. 319 exige interesse ou sentimento pessoal); E contraria o caput (ainda que fora da função ou antes de assumi-la). A causa de aumento é cobrada pela hipótese, não pela fração.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2089,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: E. Art. 308, § 2º: deixar de praticar ato de ofício com infração de dever funcional, cedendo a pedido de outrem, forma de pena menor (rubrica Diminuição de pena), chamada pela doutrina de corrupção passiva privilegiada. O enunciado afasta expressamente vantagem e interesse ou sentimento pessoal, eliminando o caput, o § 1º e a prevaricação (art. 319); C (art. 322) trata de não responsabilizar subordinado; D contraria o § 2º. Gabarito único.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2090,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: A. Art. 309: dar, oferecer ou prometer vantagem indevida; a oferta ou promessa basta para o tipo, sem depender de aceitação ou da prática do ato. B cria exigência de aceitação; C contraria o parágrafo único (ato retardado ou omitido também aumenta); D contraria o núcleo prometer; E descreve a concussão (art. 305). Observação sem impacto no status: o enunciado já lista os núcleos, o que torna D fácil de descartar.",
+      "correcao_sugerida": null
+    }
+  ]
+}

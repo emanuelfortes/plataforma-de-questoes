@@ -1,0 +1,489 @@
+{
+  "itens": [
+    {
+      "id": 251,
+      "banca": "IDECAN",
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Lei de Drogas",
+      "subtopico": "Causas de aumento de pena (art. 40)",
+      "lei": "data/publicacao/pena/leis/legislacao-penal-especial--lei-de-drogas.md",
+      "atual": {
+        "enunciado": "Policiais civis prenderam em flagrante um homem que vendia cocaína a estudantes na calçada em frente a uma faculdade particular de Fortaleza. Não houve emprego de arma, violência ou ameaça, nem envolvimento de criança ou adolescente, e o agente não integrava organização criminosa, grupo paramilitar ou milícia. À luz da Lei nº 11.343/2006, em caso de condenação por tráfico,",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "não incidirá causa de aumento, pois a majorante relativa a estabelecimentos de ensino exige que o crime ocorra no interior da instituição."
+          },
+          {
+            "letra": "B",
+            "texto": "a pena será aplicada em dobro, por se tratar de tráfico praticado nas imediações de estabelecimento de ensino."
+          },
+          {
+            "letra": "C",
+            "texto": "a pena será aumentada de um sexto a dois terços apenas se ficar demonstrado que os compradores eram menores de 18 anos."
+          },
+          {
+            "letra": "D",
+            "texto": "a pena será aumentada de um sexto a dois terços, por ter sido a infração cometida nas imediações de estabelecimento de ensino."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 40, III, aumenta de um sexto a dois terços as penas dos arts. 33 a 37 quando a infração é cometida nas dependências ou imediações de estabelecimentos de ensino, entre outros locais. A lei não restringe a majorante ao interior do estabelecimento nem exige que os compradores sejam crianças ou adolescentes (hipótese distinta, do inciso VI). A aplicação em dobro do art. 40-A depende de o crime ser praticado por integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada, o que o enunciado afasta.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "O inciso III do art. 40 abrange expressamente as dependências e também as imediações dos estabelecimentos de ensino."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "A pena em dobro é a do art. 40-A, reservada a integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada, situação excluída pelo enunciado."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "O envolvimento de criança ou adolescente é a hipótese do inciso VI; a majorante do inciso III basta pela proximidade do estabelecimento de ensino, que não se limita a escolas de menores."
+          },
+          {
+            "letra": "D",
+            "correta": true,
+            "justificativa": "Aplica o art. 40, III: tráfico nas imediações de estabelecimento de ensino aumenta a pena de um sexto a dois terços."
+          }
+        ],
+        "fundamento_legal": "Lei 11.343/2006, art. 40, caput e incisos III e VI; art. 40-A, caput.",
+        "pegadinha": "Restringir a majorante ao interior da instituição ou condicioná-la à idade dos compradores, e confundir o aumento do art. 40 com a pena em dobro do art. 40-A."
+      }
+    },
+    {
+      "id": 254,
+      "banca": "IDECAN",
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Lei de Drogas",
+      "subtopico": "Vedações e livramento condicional (art. 44)",
+      "lei": "data/publicacao/pena/leis/legislacao-penal-especial--lei-de-drogas.md",
+      "atual": {
+        "enunciado": "Considere apenas a redação literal do art. 44 da Lei nº 11.343/2006, sem considerar o entendimento do STF sobre sua aplicação. Segundo a letra da lei, assinale a afirmativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "O crime de prescrever ou ministrar drogas culposamente é inafiançável e insuscetível de graça, indulto e anistia, por expressa previsão do art. 44."
+          },
+          {
+            "letra": "B",
+            "texto": "Nos crimes de associação para o tráfico e de financiamento do tráfico, o livramento condicional dar-se-á após o cumprimento de dois terços da pena, vedada sua concessão ao reincidente específico."
+          },
+          {
+            "letra": "C",
+            "texto": "O crime de induzir, instigar ou auxiliar alguém ao uso indevido de droga está entre os crimes declarados inafiançáveis e insuscetíveis de sursis pelo art. 44."
+          },
+          {
+            "letra": "D",
+            "texto": "Nos crimes alcançados pelo art. 44, o livramento condicional exige o cumprimento de metade da pena, se o condenado for primário, e de dois terços, se reincidente específico."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O art. 44 declara inafiançáveis e insuscetíveis de sursis, graça, indulto, anistia e liberdade provisória, vedada a conversão em restritivas de direitos, os crimes dos arts. 33, caput e § 1º, e 34 a 37. A associação para o tráfico (art. 35) e o financiamento (art. 36) estão nessa lista. O parágrafo único determina que, nesses crimes, o livramento condicional ocorrerá após o cumprimento de dois terços da pena, vedado ao reincidente específico. Ficam fora do art. 44 o art. 33, § 2º, e o art. 38, entre outros. Atenção ao entendimento atual: o STF declarou inconstitucionais, em controle difuso, a vedação de liberdade provisória do art. 44 e a proibição de conversão da pena em restritivas de direitos (proibição que também constava do art. 33, § 4º, e teve a execução suspensa pelo Senado). Na prática, essas duas vedações não se aplicam de forma automática; continuam valendo a inafiançabilidade e a vedação de graça, indulto e anistia, que decorrem do art. 5º, XLIII, da CF. Por isso o enunciado avisa que cobra a redação literal; a resposta não depende das vedações afastadas pelo STF.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "O art. 38 (crime culposo) está fora do rol do art. 44, que vai do art. 33, caput e § 1º, ao art. 37."
+          },
+          {
+            "letra": "B",
+            "correta": true,
+            "justificativa": "Os arts. 35 e 36 estão no intervalo dos arts. 34 a 37 citados pelo art. 44, e o parágrafo único fixa dois terços para o livramento, vedado ao reincidente específico."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "A conduta de induzir, instigar ou auxiliar ao uso é a do art. 33, § 2º, que não consta do art. 44, que só menciona o art. 33, caput e § 1º."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "O parágrafo único do art. 44 não distingue primário de reincidente para fixar metade da pena: exige dois terços e veda o benefício ao reincidente específico."
+          }
+        ],
+        "fundamento_legal": "Lei 11.343/2006, art. 44, caput e parágrafo único; arts. 33, § 2º, 35, 36 e 38.",
+        "pegadinha": "Incluir no art. 44 crimes que estão fora do rol (art. 33, § 2º, e art. 38) e criar uma fração de metade da pena para o livramento do primário."
+      }
+    },
+    {
+      "id": 264,
+      "banca": "IDECAN",
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra o Patrimônio",
+      "subtopico": "Furto de fios e cabos e privilégio",
+      "lei": "data/publicacao/pena/leis/direito-penal--crimes-contra-o-patrimonio.md",
+      "atual": {
+        "enunciado": "Carlos, primário, subtraiu, durante o dia, alguns metros de cabos utilizados para a transmissão de telefonia, de pequeno valor, de um poste em via pública, agindo sozinho e sem romper obstáculo. Considerando o Código Penal, assinale a afirmativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Carlos responde por furto simples com pena aumentada de metade, porque os cabos de telefonia se equiparam à energia elétrica."
+          },
+          {
+            "letra": "B",
+            "texto": "Carlos responde pelo furto da subtração de fios e cabos, com pena de reclusão, de 2 (dois) a 8 (oito) anos, e multa, sendo vedada a aplicação do privilégio por se tratar de forma qualificada, ainda que primário o agente."
+          },
+          {
+            "letra": "C",
+            "texto": "Carlos responde pelo furto de dispositivo eletrônico ou informático, com pena de reclusão, de 4 (quatro) a 10 (dez) anos, e multa, pois os cabos servem à transferência de dados."
+          },
+          {
+            "letra": "D",
+            "texto": "Carlos responde pelo furto da subtração de fios e cabos, com pena de reclusão, de 2 (dois) a 8 (oito) anos, e multa, sendo aplicável, por expressa previsão legal, o benefício do furto privilegiado."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 155, § 8º, com a redação dada pela Lei 15.397/2026, pune com reclusão, de 2 a 8 anos, e multa a subtração de fios, cabos ou equipamentos utilizados para fornecimento ou transmissão de energia elétrica ou de telefonia, e determina expressamente a aplicação, em qualquer caso, do § 2º. Sendo Carlos primário e a coisa de pequeno valor, o juiz pode aplicar os benefícios do furto privilegiado.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "O § 3º equipara à coisa móvel a energia, não os cabos; e o aumento de metade é do repouso noturno, que não ocorreu. A subtração de cabos de telefonia tem forma própria no § 8º."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "A pena está correta, mas o § 8º afasta a vedação ao prever que se aplica, em qualquer caso, o disposto no § 2º (furto privilegiado), de modo que a primariedade de Carlos é relevante."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "O § 6º, II, trata de aparelho de telefonia celular, computador ou dispositivo eletrônico ou informático semelhante. Cabos de telefonia e de transferência de dados estão especificamente previstos no § 8º."
+          },
+          {
+            "letra": "D",
+            "correta": true,
+            "justificativa": "Reproduz o § 8º: pena de 2 a 8 anos e multa, com aplicação expressa do § 2º, cujos requisitos (primariedade e pequeno valor) estão presentes."
+          }
+        ],
+        "fundamento_legal": "Código Penal, art. 155, §§ 2º e 8º (§ 8º com redação dada pela Lei 15.397/2026).",
+        "pegadinha": "Supor que o privilégio nunca se aplica a formas qualificadas, quando o § 8º manda aplicá-lo expressamente."
+      }
+    },
+    {
+      "id": 274,
+      "banca": "Vunesp",
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra o Patrimônio",
+      "subtopico": "Outras fraudes (art. 176)",
+      "lei": "data/publicacao/pena/leis/direito-penal--crimes-contra-o-patrimonio.md",
+      "atual": {
+        "enunciado": "Ricardo hospedou-se por três noites em um hotel, consumindo também as refeições oferecidas, ciente desde o início de que não dispunha de recursos para pagar as despesas. Na saída, sem empregar violência ou grave ameaça, informou ao gerente que não tinha como pagar. Considerando o Código Penal, é correto afirmar que a conduta de Ricardo",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "configura o crime de outras fraudes, punido com reclusão, sendo vedado ao juiz deixar de aplicar a pena se houver prejuízo efetivo ao hotel."
+          },
+          {
+            "letra": "B",
+            "texto": "configura o crime de outras fraudes, que somente se procede mediante representação, podendo o juiz, conforme as circunstâncias, deixar de aplicar a pena."
+          },
+          {
+            "letra": "C",
+            "texto": "é atípica, pois o simples inadimplemento de despesas de hospedagem, sem violência ou grave ameaça, constitui ilícito exclusivamente civil."
+          },
+          {
+            "letra": "D",
+            "texto": "configura o crime de outras fraudes, punido com detenção de quinze dias a dois meses, ou multa, cuja ação penal somente se procede mediante queixa."
+          },
+          {
+            "letra": "E",
+            "texto": "configura estelionato em sua forma básica, punido com reclusão de 1 a 5 anos, e multa, sendo a ação penal pública incondicionada, independente de qualquer manifestação do hotel."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "Alojar-se em hotel ou tomar refeição em restaurante sem dispor de recursos para pagar é o crime do art. 176 do CP (outras fraudes), punido com detenção de quinze dias a dois meses, ou multa. O parágrafo único traz duas particularidades que a prova adora: a ação penal depende de representação e o juiz pode, conforme as circunstâncias, deixar de aplicar a pena. Como Ricardo já sabia que não teria como pagar, não se trata de mero inadimplemento.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "A pena do art. 176 é de detenção (ou multa), não de reclusão, e a lei autoriza expressamente o juiz a deixar de aplicá-la conforme as circunstâncias."
+          },
+          {
+            "letra": "B",
+            "correta": true,
+            "justificativa": "Reproduz o art. 176, parágrafo único: somente se procede mediante representação e o juiz pode, conforme as circunstâncias, deixar de aplicar a pena."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "A ausência de violência ou grave ameaça não torna o fato atípico: a conduta de quem se aloja em hotel ou toma refeição sem dispor de recursos para pagar é expressamente tipificada no art. 176 do CP."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "A pena indicada está certa, mas o parágrafo único do art. 176 fala em representação, e não em queixa. A ação é pública condicionada, não privada."
+          },
+          {
+            "letra": "E",
+            "correta": false,
+            "justificativa": "Há tipo específico para a conduta (art. 176), que prevalece sobre o estelionato do caput do art. 171; além disso, a ação penal do art. 176 não é incondicionada, pois depende de representação."
+          }
+        ],
+        "fundamento_legal": "Código Penal, art. 176, caput e parágrafo único.",
+        "pegadinha": "Trocar representação por queixa e esquecer a possibilidade de o juiz deixar de aplicar a pena."
+      }
+    },
+    {
+      "id": 276,
+      "banca": "Vunesp",
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra o Patrimônio",
+      "subtopico": "Fraude à execução (art. 179)",
+      "lei": "data/publicacao/pena/leis/direito-penal--crimes-contra-o-patrimonio.md",
+      "atual": {
+        "enunciado": "Executado em processo de cobrança, Osvaldo, para impedir que seus bens fossem penhorados, doou-os ao irmão e, em seguida, simulou dívidas com terceiros. A respeito do crime de fraude à execução previsto no Código Penal, é correto afirmar que",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "somente se procede mediante queixa, e a pena é de detenção, de seis meses a dois anos, ou multa."
+          },
+          {
+            "letra": "B",
+            "texto": "a pena é de reclusão, de um a cinco anos, e multa, a mesma prevista para o estelionato."
+          },
+          {
+            "letra": "C",
+            "texto": "a conduta é atípica, pois a doação de bens próprios constitui ato lícito de disposição do patrimônio."
+          },
+          {
+            "letra": "D",
+            "texto": "somente se procede mediante representação do credor prejudicado."
+          },
+          {
+            "letra": "E",
+            "texto": "a ação penal é pública incondicionada, por se tratar de crime que atenta contra a administração da justiça."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O art. 179 do CP pune quem frauda execução, alienando, desviando, destruindo ou danificando bens, ou simulando dívidas. A pena é de detenção, de seis meses a dois anos, ou multa, e o parágrafo único estabelece que somente se procede mediante queixa: é crime de ação penal privada.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": true,
+            "justificativa": "Corresponde ao art. 179: pena de detenção, de seis meses a dois anos, ou multa, e ação mediante queixa (parágrafo único)."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "A pena do art. 179 é de detenção, de seis meses a dois anos, ou multa; reclusão de um a cinco anos é a pena do estelionato (art. 171, caput)."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "Alienar bens e simular dívidas para fraudar execução são condutas expressamente previstas no art. 179."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "A lei não fala em representação, e sim em queixa; a representação é exigida, por exemplo, no art. 176."
+          },
+          {
+            "letra": "E",
+            "correta": false,
+            "justificativa": "O parágrafo único do art. 179 exige queixa, o que torna a ação penal privada."
+          }
+        ],
+        "fundamento_legal": "Código Penal, art. 179, caput e parágrafo único.",
+        "pegadinha": "Trocar a queixa (ação privada) pela representação, que aparece em outros crimes do mesmo capítulo."
+      }
+    },
+    {
+      "id": 279,
+      "banca": "Vunesp",
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra o Patrimônio",
+      "subtopico": "Receptação qualificada (art. 180, §§ 1º e 2º)",
+      "lei": "data/publicacao/pena/leis/direito-penal--crimes-contra-o-patrimonio.md",
+      "atual": {
+        "enunciado": "Carlos mantém, nos fundos da própria casa, uma oficina clandestina, sem qualquer registro, onde desmonta veículos e vende as peças a clientes. As circunstâncias em que recebe os carros indicam que ele deve saber que são produto de crime. Com base no Código Penal, Carlos pratica",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "receptação culposa, punida com detenção de um mês a um ano, ou multa, ou ambas, pois não há prova de que soubesse da origem ilícita dos veículos desmontados."
+          },
+          {
+            "letra": "B",
+            "texto": "receptação qualificada, punida com reclusão de 3 a 8 anos, e multa, pois o comércio clandestino, inclusive exercido em residência, equipara-se à atividade comercial."
+          },
+          {
+            "letra": "C",
+            "texto": "fato atípico quanto à receptação, pois quem apenas desmonta e vende peças a clientes não adquire, não recebe nem oculta a coisa produto de crime."
+          },
+          {
+            "letra": "D",
+            "texto": "receptação simples, punida com reclusão de 2 a 6 anos, e multa, pois a atividade não é formalmente registrada e, por isso, não se equipara à atividade comercial."
+          },
+          {
+            "letra": "E",
+            "texto": "receptação qualificada, com a pena do § 1º aplicada em dobro, por se tratar de peças de veículos automotores desmontados em oficina clandestina."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O art. 180, § 1º, do CP pune com reclusão de três a oito anos, e multa, quem, no exercício de atividade comercial ou industrial, desmonta, vende ou de qualquer forma utiliza coisa que deve saber ser produto de crime. O § 2º equipara à atividade comercial qualquer forma de comércio irregular ou clandestino, inclusive o exercido em residência. A oficina de Carlos se enquadra nos dois parágrafos.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "A receptação culposa (§ 3º) restringe-se a adquirir ou receber coisa que deve presumir-se obtida por meio criminoso; a expressão \"deve saber\", no exercício de atividade comercial, está no tipo qualificado do § 1º."
+          },
+          {
+            "letra": "B",
+            "correta": true,
+            "justificativa": "Reúne o § 1º (desmontar e vender, no exercício de atividade comercial, coisa que deve saber ser produto de crime) e o § 2º (comércio clandestino em residência)."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "Desmontar e vender estão entre os núcleos do § 1º, ao lado de adquirir, receber e ocultar; não é preciso praticar estes últimos para que o tipo se configure."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "A falta de registro não afasta a qualificadora: o § 2º equipara o comércio irregular ou clandestino à atividade comercial."
+          },
+          {
+            "letra": "E",
+            "correta": false,
+            "justificativa": "A pena em dobro do § 7º alcança fios, cabos ou equipamentos de energia, telefonia ou dados e cargas em modais ferroviários ou metroviários, não peças de veículos; a do § 6º alcança bens públicos."
+          }
+        ],
+        "fundamento_legal": "Código Penal, art. 180, §§ 1º e 2º.",
+        "pegadinha": "Achar que a falta de registro formal ou o funcionamento em residência afastam a receptação qualificada."
+      }
+    },
+    {
+      "id": 282,
+      "banca": "Vunesp",
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra o Patrimônio",
+      "subtopico": "Fraude eletrônica e servidor no exterior (art. 171, §§ 2º-A e 2º-B)",
+      "lei": "data/publicacao/pena/leis/direito-penal--crimes-contra-o-patrimonio.md",
+      "atual": {
+        "enunciado": "Rafael enviou mensagens por aplicativo e e-mails fraudulentos a Bianca, de 35 anos, passando-se por funcionário do banco dela. Induzida a erro, Bianca forneceu informações que permitiram a Rafael obter vantagem ilícita em prejuízo dela. Apurou-se que a página falsa utilizada no golpe estava hospedada em servidor mantido fora do território nacional. Considerando que a conduta configura estelionato na modalidade fraude eletrônica, a pena aplicável é de",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "reclusão, de 4 a 8 anos, e multa, sem aumento, pois o aumento pelo uso de servidor no exterior só incide quando a vítima é idosa ou vulnerável."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão, de 4 a 8 anos, e multa, aumentada de um terço, pela utilização de servidor mantido fora do território nacional."
+          },
+          {
+            "letra": "C",
+            "texto": "reclusão, de 4 a 8 anos, e multa, aumentada de 1/3 ao dobro, considerada a relevância do resultado gravoso, pela utilização de servidor mantido fora do território nacional."
+          },
+          {
+            "letra": "D",
+            "texto": "reclusão, de 1 a 5 anos, e multa, aumentada de 1/3 a 2/3, pela utilização de servidor mantido fora do território nacional."
+          },
+          {
+            "letra": "E",
+            "texto": "reclusão, de 4 a 8 anos, e multa, aumentada de 1/3 a 2/3, considerada a relevância do resultado gravoso, pela utilização de servidor mantido fora do território nacional."
+          }
+        ],
+        "gabarito": "E",
+        "comentario": "A fraude eletrônica (art. 171, § 2º-A) tem pena de reclusão, de 4 a 8 anos, e multa, na redação dada pela Lei nº 15.397/2026. O § 2º-B manda aumentar essa pena de 1/3 a 2/3, considerada a relevância do resultado gravoso, se o crime é praticado mediante a utilização de servidor mantido fora do território nacional. A vítima tem 35 anos, de modo que o aumento do § 4º (idoso ou vulnerável) não entra no cálculo.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "O § 2º-B não depende da condição da vítima; basta a utilização de servidor mantido fora do território nacional."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "O aumento fixo de um terço é o do § 3º (entidade de direito público ou instituto de economia popular, assistência social ou beneficência)."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "O aumento de 1/3 ao dobro é o do § 4º (vítima idosa ou vulnerável); para o servidor no exterior, o aumento é de 1/3 a 2/3."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "A pena de 1 a 5 anos é a do caput; o § 2º-B incide sobre a pena do § 2º-A, que é de 4 a 8 anos."
+          },
+          {
+            "letra": "E",
+            "correta": true,
+            "justificativa": "Combina corretamente a pena do § 2º-A (4 a 8 anos, e multa) com o aumento de 1/3 a 2/3 do § 2º-B."
+          }
+        ],
+        "fundamento_legal": "Código Penal, art. 171, § 2º-A (redação dada pela Lei nº 15.397/2026) e § 2º-B (incluído pela Lei nº 14.155/2021).",
+        "pegadinha": "Misturar as três frações de aumento do art. 171: um terço fixo (§ 3º), 1/3 a 2/3 (§ 2º-B) e 1/3 ao dobro (§ 4º)."
+      }
+    },
+    {
+      "id": 290,
+      "banca": "Vunesp",
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Lei de Drogas",
+      "subtopico": "Tráfico interestadual com envolvimento de adolescente (art. 40, V e VI)",
+      "lei": "data/publicacao/pena/leis/legislacao-penal-especial--lei-de-drogas.md",
+      "atual": {
+        "enunciado": "Carlos, de 30 anos, contratou um adolescente de 16 anos para levar, de ônibus, 5 kg de cocaína de Fortaleza (CE) a Teresina (PI), onde a droga seria vendida. O adolescente foi abordado já em território piauiense, logo depois de cruzar a divisa. Considerando apenas a Lei nº 11.343/2006, Carlos responde por tráfico de drogas:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "com as causas de aumento da transnacionalidade e do envolvimento de adolescente, com aumento de um sexto a dois terços."
+          },
+          {
+            "letra": "B",
+            "texto": "com as causas de aumento do tráfico entre Estados e do envolvimento de adolescente, com aumento de um sexto a dois terços."
+          },
+          {
+            "letra": "C",
+            "texto": "sem causas de aumento, porque as majorantes da Lei de Drogas exigem que o próprio agente transporte a substância."
+          },
+          {
+            "letra": "D",
+            "texto": "apenas com a causa de aumento do tráfico entre Estados, pois o envolvimento de adolescente só agrava a pena se a droga for destinada a ele."
+          },
+          {
+            "letra": "E",
+            "texto": "com as causas de aumento do tráfico entre Estados e do envolvimento de adolescente, com aumento de um terço a dois terços."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O art. 40 aumenta de um sexto a dois terços as penas dos arts. 33 a 37 quando caracterizado o tráfico entre Estados da Federação (inciso V) e quando a prática envolver ou visar a atingir criança ou adolescente (inciso VI). No caso, a droga saiu do Ceará e chegou ao Piauí, e Carlos usou um adolescente no transporte: incidem as duas majorantes. Transnacionalidade (inciso I) é outra coisa: exige elementos que indiquem ligação com outro país.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "Errada. Transporte entre Ceará e Piauí é tráfico interestadual (inciso V), não transnacional (inciso I), que pressupõe ligação com o exterior."
+          },
+          {
+            "letra": "B",
+            "correta": true,
+            "justificativa": "Correta. Incidem o inciso V (entre Estados) e o inciso VI (prática que envolve adolescente), com aumento de um sexto a dois terços."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "Errada. O art. 40 não exige que o próprio agente transporte a droga; Carlos é autor do tráfico e as majorantes decorrem das circunstâncias do fato."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "Errada. O inciso VI usa a fórmula envolver ou visar a atingir: basta que o adolescente seja envolvido na prática, como no transporte, sem que a droga seja destinada a ele."
+          },
+          {
+            "letra": "E",
+            "correta": false,
+            "justificativa": "Errada. A fração de um terço a dois terços é a da colaboração do art. 41; a do art. 40 é de um sexto a dois terços."
+          }
+        ],
+        "fundamento_legal": "Lei nº 11.343/2006, art. 33, caput, e art. 40, caput e incisos I, V e VI.",
+        "pegadinha": "Confundir tráfico interestadual com transnacional e restringir o inciso VI aos casos em que a droga se destina ao adolescente."
+      }
+    }
+  ]
+}

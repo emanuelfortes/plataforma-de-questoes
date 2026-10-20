@@ -1,0 +1,52 @@
+{
+  "auditorias": [
+    {
+      "id": 1449,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C. O art. 305 do CTB pune o afastamento do local do sinistro para fugir à responsabilidade penal ou civil, sem exigir vítima; o dano ao veículo estacionado gera responsabilidade civil. A é errada (art. 304 pressupõe vítima a socorrer), B é errada (o art. 305 não exige vítima), D é errada (art. 312 exige inovação artificiosa em sinistro com vítima). Nenhuma alternativa gira em torno de pena. Comentário e fundamento conferidos no texto legal.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1452,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C. Reproduz o art. 306, § 1º, I e II (6 dg/L de sangue ou 0,3 mg/L de ar alveolar, ou sinais de alteração). A contraria o § 2º (vídeo e prova testemunhal admitidos), B inventa exigência de sinistro e qualquer concentração, D traz índice errado (0,6 mg/L) e perigo concreto não exigido. Sem quantidade de pena nas alternativas.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1453,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: D. O art. 308, § 2º, trata da morte resultante do racha quando o agente não quis nem assumiu o risco do resultado, figura específica que afasta o art. 302 (A). B contraria o enunciado, que afasta o dolo eventual; C confunde os parágrafos (o § 1º é lesão grave e o § 2º não exige assunção do risco). A observação sobre o art. 302, § 1º, II (faixa de pedestres ou calçada) confere com o texto. Alternativas cobram enquadramento típico, não pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1455,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: B. O art. 310 do CTB tipifica de forma autônoma a entrega da direção a quem, por embriaguez, não esteja em condições de conduzir com segurança; as hipóteses são alternativas (C errada), há tipo próprio para quem entrega (A e D erradas). Sem referência a pena nas alternativas.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1718,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: A, transcrição do art. 20, § 1º, do CP, com a ressalva do erro derivado de culpa. B confunde com o erro sobre a ilicitude (art. 21), C aplica indevidamente a inescusabilidade do desconhecimento da lei, D contraria a exigência de previsão da forma culposa. Nenhuma alternativa trata de fração ou quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1725,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C. Art. 22 do CP: sob coação irresistível só é punível o autor da coação. A grave ameaça de morte à família com armas configura coação moral irresistível. A trata como atenuante, B restringe à coação física, D confunde com obediência hierárquica. Sem quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1728,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: D. O art. 26, parágrafo único, do CP prevê que a pena pode ser reduzida quando o agente, por perturbação de saúde mental, não era inteiramente capaz de determinar-se; responde pelo crime (semi-imputabilidade). A exige incapacidade inteira (caput), B trata de outro instituto (art. 21), C nega o efeito do parágrafo único. As alternativas não citam fração de redução.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1757,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: E, transcrição do art. 60, parágrafo único, da Lei 9.099/1995. A contraria o art. 61 (todas as contravenções são de menor potencial ofensivo), B contraria o art. 63 (lugar da infração), C contraria o art. 60 (conciliação, julgamento e execução), D contraria o art. 90-A. A menção a prisão simples no distrator A diz respeito à espécie de pena, não à quantidade, e o distrator se resolve pelo art. 61.",
+      "correcao_sugerida": null
+    }
+  ]
+}

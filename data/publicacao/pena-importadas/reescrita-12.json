@@ -1,0 +1,182 @@
+{
+  "itens": [
+    {
+      "id": 2042,
+      "enunciado": "Em relação aos requisitos do crime continuado previstos no art. 71 do Código Penal, assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "Exige crimes idênticos, não bastando que sejam da mesma espécie, além de condições semelhantes de tempo e lugar." },
+        { "letra": "B", "texto": "Exige uma só ação ou omissão, desdobrada em vários atos, que produza dois ou mais crimes da mesma espécie." },
+        { "letra": "C", "texto": "Exige mais de uma ação ou omissão e crimes da mesma espécie, em condições semelhantes de tempo, lugar e execução." },
+        { "letra": "D", "texto": "Exige crimes da mesma espécie, mas só se admite quando praticados contra a mesma vítima e sem violência à pessoa." }
+      ],
+      "gabarito": "C",
+      "comentario": "O crime continuado (CP, art. 71) é uma ficção jurídica: o agente, mediante mais de uma ação ou omissão, pratica dois ou mais crimes da mesma espécie e, pelas condições de tempo, lugar, maneira de execução e outras semelhantes, os subsequentes são havidos como continuação do primeiro. A lei fala em crimes da mesma espécie, e não idênticos. Uma só ação ou omissão é o concurso formal (art. 70). E o parágrafo único do art. 71 admite expressamente a continuidade em crimes dolosos contra vítimas diferentes, cometidos com violência ou grave ameaça à pessoa. Fundamento: CP, art. 71, caput e parágrafo único.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 71 exige crimes da mesma espécie, não necessariamente idênticos; a própria lei prevê penas diversas entre os crimes em continuidade." },
+        { "letra": "B", "correta": false, "justificativa": "Uma só ação ou omissão caracteriza o concurso formal (art. 70); o crime continuado exige mais de uma ação ou omissão." },
+        { "letra": "C", "correta": true, "justificativa": "Reúne os requisitos do art. 71: pluralidade de condutas, crimes da mesma espécie e semelhança de tempo, lugar e maneira de execução." },
+        { "letra": "D", "correta": false, "justificativa": "O parágrafo único do art. 71 admite a continuidade em crimes dolosos contra vítimas diferentes, cometidos com violência ou grave ameaça." }
+      ],
+      "fundamento_legal": "Código Penal, art. 71, caput e parágrafo único; art. 70 (concurso formal).",
+      "pegadinha": "Confundir crimes da mesma espécie com crimes idênticos, e o crime continuado com o concurso formal.",
+      "o_que_mudou": "As alternativas deixaram de citar as frações de aumento e passaram a cobrar só os requisitos do crime continuado e a diferença para o concurso formal."
+    },
+    {
+      "id": 2043,
+      "enunciado": "Um agente praticou, em semanas consecutivas, três furtos simples em lojas do mesmo bairro, sem violência ou grave ameaça, com idêntico modo de execução, sendo reconhecida a continuidade delitiva. Segundo o Código Penal, é correto afirmar que",
+      "alternativas": [
+        { "letra": "A", "texto": "somam-se as penas privativas de liberdade, como no concurso material, porque houve mais de uma ação." },
+        { "letra": "B", "texto": "aplica-se uma só das penas, com acréscimo, e a extinção da punibilidade incide sobre cada crime isoladamente." },
+        { "letra": "C", "texto": "aplica-se uma só das penas, com acréscimo, e a extinção da punibilidade é examinada sobre o total exasperado." },
+        { "letra": "D", "texto": "cabe o acréscimo especial do parágrafo único do art. 71, porque cada furto atingiu uma vítima diferente." }
+      ],
+      "gabarito": "B",
+      "comentario": "No crime continuado, o Código adota a exasperação: aplica-se a pena de um só dos crimes, se idênticas, ou a mais grave, se diversas, com o acréscimo previsto no art. 71, caput. Não há soma, que é a técnica do concurso material (art. 69). Pelo art. 119, no concurso de crimes a extinção da punibilidade incide sobre a pena de cada um, isoladamente, e não sobre o total exasperado. O regime especial do parágrafo único do art. 71 exige crimes dolosos, contra vítimas diferentes, cometidos com violência ou grave ameaça à pessoa, o que não ocorre no furto simples. Fundamento: CP, arts. 69, 71 e 119.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A soma das penas é a regra do concurso material (art. 69); no crime continuado, aplica-se uma só pena com acréscimo." },
+        { "letra": "B", "correta": true, "justificativa": "Reflete o art. 71, caput (uma só pena com acréscimo) e o art. 119 (extinção da punibilidade sobre cada crime, isoladamente)." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 119 manda que a extinção da punibilidade incida sobre a pena de cada crime, isoladamente, e não sobre o total exasperado." },
+        { "letra": "D", "correta": false, "justificativa": "Vítimas diferentes não bastam: o parágrafo único do art. 71 exige também violência ou grave ameaça à pessoa, ausentes no furto simples." }
+      ],
+      "fundamento_legal": "Código Penal, arts. 69, 71 e 119.",
+      "pegadinha": "Achar que a extinção da punibilidade se calcula sobre o total exasperado, ou que basta a pluralidade de vítimas para a continuidade específica.",
+      "o_que_mudou": "Saiu o cálculo da pena com a fração máxima; a questão agora cobra a técnica do crime continuado, o art. 119 e os requisitos da continuidade específica."
+    },
+    {
+      "id": 2045,
+      "enunciado": "Em uma mesma noite, um homem roubou, mediante grave ameaça, dois motoristas de aplicativo, sendo reconhecido o crime continuado. Sobre o regime do art. 71, parágrafo único, do Código Penal, aplicável ao caso, é correto afirmar que",
+      "alternativas": [
+        { "letra": "A", "texto": "o aumento especial deve observar a regra do concurso material benéfico e o limite de cumprimento do art. 75." },
+        { "letra": "B", "texto": "o aumento especial dispensa o exame da culpabilidade, dos antecedentes e dos motivos, bastando haver vítimas distintas." },
+        { "letra": "C", "texto": "o aumento especial só se aplica se os roubos atingirem a mesma vítima, em ocasiões distintas e próximas no tempo." },
+        { "letra": "D", "texto": "o aumento especial afasta o limite do concurso material, pois a grave ameaça autoriza resultado superior à soma." }
+      ],
+      "gabarito": "A",
+      "comentario": "O parágrafo único do art. 71 trata do crime continuado específico: crimes dolosos, contra vítimas diferentes, cometidos com violência ou grave ameaça à pessoa. Nesses casos, o juiz pode aumentar a pena considerando a culpabilidade, os antecedentes, a conduta social, a personalidade, os motivos e as circunstâncias, mas sempre observadas as regras do parágrafo único do art. 70 (a pena não pode exceder a que resultaria da soma, o chamado concurso material benéfico) e do art. 75 (limite de cumprimento). Fundamento: CP, art. 71, parágrafo único, c/c art. 70, parágrafo único, e art. 75.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "O próprio parágrafo único do art. 71 manda observar o parágrafo único do art. 70 (concurso material benéfico) e o art. 75." },
+        { "letra": "B", "correta": false, "justificativa": "A lei condiciona o aumento ao exame da culpabilidade, dos antecedentes, da conduta social, da personalidade, dos motivos e das circunstâncias." },
+        { "letra": "C", "correta": false, "justificativa": "Ocorre o contrário: a continuidade específica exige vítimas diferentes." },
+        { "letra": "D", "correta": false, "justificativa": "A lei manda observar o parágrafo único do art. 70: o resultado não pode superar a soma das penas do concurso material." }
+      ],
+      "fundamento_legal": "Código Penal, art. 71, parágrafo único; art. 70, parágrafo único; art. 75.",
+      "pegadinha": "Esquecer que o aumento do continuado específico tem como teto a soma das penas (concurso material benéfico).",
+      "o_que_mudou": "Saiu o cálculo da pena definitiva; a questão agora cobra os requisitos e os limites do crime continuado específico, sem citar quantidade de pena."
+    },
+    {
+      "id": 2052,
+      "enunciado": "Condenado por vários crimes cujas penas somadas ultrapassavam o limite legal de cumprimento, um preso teve-as unificadas. Já em cumprimento, praticou novo crime dentro do presídio e foi condenado por ele. Segundo o art. 75, § 2º, do Código Penal,",
+      "alternativas": [
+        { "letra": "A", "texto": "a nova condenação é cumprida só depois de esgotado o tempo já unificado, sem nova unificação." },
+        { "letra": "B", "texto": "a nova condenação deixa de ser executada, pois o limite máximo já foi alcançado na unificação anterior." },
+        { "letra": "C", "texto": "far-se-á nova unificação, computando-se no novo limite o período de pena já cumprido." },
+        { "letra": "D", "texto": "somente haverá nova unificação se o novo fato tiver sido praticado antes do início do cumprimento." },
+        { "letra": "E", "texto": "far-se-á nova unificação, desprezando-se, para esse fim, o período de pena já cumprido." }
+      ],
+      "gabarito": "E",
+      "comentario": "Pelo art. 75 do CP, o tempo de cumprimento das penas privativas de liberdade tem limite máximo, e as penas que o ultrapassam são unificadas (§ 1º). Sobrevindo condenação por fato posterior ao início do cumprimento da pena, faz-se nova unificação, desprezando-se, para esse fim, o período de pena já cumprido (§ 2º). Assim, o tempo já cumprido não é abatido do novo limite. Fundamento: CP, art. 75, §§ 1º e 2º.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A lei impõe nova unificação, e não o cumprimento da nova pena depois de esgotado o tempo já unificado." },
+        { "letra": "B", "correta": false, "justificativa": "A nova condenação não é ignorada: ela entra em nova unificação, nos termos do § 2º." },
+        { "letra": "C", "correta": false, "justificativa": "O § 2º manda desprezar o período de pena já cumprido, e não computá-lo no novo limite." },
+        { "letra": "D", "correta": false, "justificativa": "O § 2º trata justamente do fato posterior ao início do cumprimento da pena." },
+        { "letra": "E", "correta": true, "justificativa": "Reproduz o art. 75, § 2º: nova unificação, desprezando-se o período de pena já cumprido." }
+      ],
+      "fundamento_legal": "Código Penal, art. 75, §§ 1º e 2º.",
+      "pegadinha": "Achar que o tempo já cumprido é computado no novo limite, quando a lei manda desprezá-lo.",
+      "o_que_mudou": "Saíram os números de anos do enunciado e das alternativas; a questão cobra só a regra da nova unificação."
+    },
+    {
+      "id": 2076,
+      "enunciado": "Durante uma formatura, um soldado dirige palavras ofensivas ao coronel comandante da unidade a que ele próprio pertence, procurando deprimir-lhe a autoridade diante da tropa. O fato não constitui crime mais grave. Segundo o Código Penal Militar, o soldado responde por",
+      "alternativas": [
+        { "letra": "A", "texto": "desacato a militar (art. 299), pois a ofensa foi dirigida a militar no exercício de função de natureza militar." },
+        { "letra": "B", "texto": "desacato a superior (art. 298), com agravação, por ser a vítima o comandante da unidade a que pertence o agente." },
+        { "letra": "C", "texto": "desacato a superior (art. 298), sem agravação, pois esta só incide quando a vítima é oficial general." },
+        { "letra": "D", "texto": "desacato a servidor público (art. 300), pois o fato ocorreu em lugar sujeito à administração militar." },
+        { "letra": "E", "texto": "desobediência (art. 301), pois o soldado desrespeitou a autoridade militar a que estava subordinado." }
+      ],
+      "gabarito": "B",
+      "comentario": "Desacatar superior, ofendendo-lhe a dignidade ou o decoro, ou procurando deprimir-lhe a autoridade, é o crime do art. 298 do CPM, se o fato não constitui crime mais grave. O parágrafo único prevê agravação quando o superior é oficial general ou comandante da unidade a que pertence o agente: as hipóteses são alternativas, e o comandante da própria unidade já basta. Como a vítima é superior do agente, não se aplica o art. 299 (desacato a militar), nem o art. 300 (servidor público). Também não há desobediência, que exige descumprimento de ordem legal. Fundamento: art. 298, caput e parágrafo único, do CPM.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Quando a vítima é superior do agente, incide o tipo específico do art. 298 (desacato a superior), e não o art. 299." },
+        { "letra": "B", "correta": true, "justificativa": "O art. 298 tipifica o desacato a superior, e o parágrafo único prevê agravação se o superior é comandante da unidade a que pertence o agente." },
+        { "letra": "C", "correta": false, "justificativa": "A agravação também incide quando o superior é comandante da unidade a que pertence o agente, e não só quando é oficial general." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 300 protege o servidor público no exercício de função; a vítima aqui é militar superior do agente." },
+        { "letra": "E", "correta": false, "justificativa": "A desobediência (art. 301) exige descumprimento de ordem legal; a conduta descrita é ofensa à autoridade do superior." }
+      ],
+      "fundamento_legal": "Código Penal Militar, art. 298, caput e parágrafo único; arts. 299, 300 e 301.",
+      "pegadinha": "Confundir desacato a superior com desacato a militar e esquecer que a agravação alcança também o comandante da unidade do agente.",
+      "o_que_mudou": "A questão deixou de perguntar a pena do desacato a superior e passou a cobrar a tipificação e a hipótese de agravação, distinguindo os crimes vizinhos."
+    },
+    {
+      "id": 2077,
+      "enunciado": "Segundo o Código Penal Militar, configura o crime de desacato a militar (art. 299) a conduta de desacatar militar:",
+      "alternativas": [
+        { "letra": "A", "texto": "de qualquer posto ou graduação, independentemente de estar no exercício de função ou de agir em razão dela." },
+        { "letra": "B", "texto": "superior hierárquico do agente, desde que o fato ocorra no interior de quartel ou estabelecimento militar." },
+        { "letra": "C", "texto": "em lugar sujeito à administração militar, ainda que a vítima seja servidor civil sem função de natureza militar." },
+        { "letra": "D", "texto": "no exercício de função de natureza militar ou em razão dela, se o fato não constitui outro crime." },
+        { "letra": "E", "texto": "somente no exercício de função de natureza militar, não bastando que a ofensa ocorra em razão dela." }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 299 do CPM pune quem desacata militar no exercício de função de natureza militar ou em razão dela, se o fato não constitui outro crime. Se a vítima for superior do agente, incide o art. 298 (desacato a superior). O desacato a servidor público em lugar sujeito à administração militar é o crime do art. 300. Fundamento: art. 299 do CPM.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O tipo exige que o militar esteja no exercício de função de natureza militar ou que o desacato ocorra em razão dela." },
+        { "letra": "B", "correta": false, "justificativa": "Desacatar superior é o crime do art. 298, e o art. 299 não exige que o fato ocorra no interior de quartel." },
+        { "letra": "C", "correta": false, "justificativa": "O desacato a servidor público em lugar sujeito à administração militar é o crime do art. 300, e não o do art. 299." },
+        { "letra": "D", "correta": true, "justificativa": "Reproduz o elemento do tipo do art. 299 e a cláusula de subsidiariedade (se o fato não constitui outro crime)." },
+        { "letra": "E", "correta": false, "justificativa": "O art. 299 também abrange o desacato em razão da função, e não só o praticado durante o seu exercício." }
+      ],
+      "fundamento_legal": "Código Penal Militar, art. 299; arts. 298 e 300.",
+      "pegadinha": "Esquecer que o desacato em razão da função também configura o crime, e confundir o art. 299 com os arts. 298 e 300.",
+      "o_que_mudou": "As alternativas deixaram de trazer as penas dos arts. 298, 299 e 301 e passaram a cobrar só os elementos do tipo e a diferença entre os desacatos."
+    },
+    {
+      "id": 2079,
+      "enunciado": "Nos termos do art. 301 do Código Penal Militar, o crime de desobediência se caracteriza quando o agente:",
+      "alternativas": [
+        { "letra": "A", "texto": "desobedece a ordem de autoridade militar, ainda que manifestamente ilegal, por força do dever de obediência." },
+        { "letra": "B", "texto": "desobedece a ordem legal de autoridade militar, sem que o tipo exija ofensa à dignidade ou ao decoro dela." },
+        { "letra": "C", "texto": "desobedece a ordem legal de qualquer servidor civil, desde que em lugar sujeito à administração militar." },
+        { "letra": "D", "texto": "ofende a dignidade ou o decoro de autoridade militar ao recusar-se a cumprir a ordem que dela recebeu." },
+        { "letra": "E", "texto": "desobedece a ordem legal de autoridade militar, mas apenas se for militar da ativa subordinado a ela." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 301 do CPM descreve a desobediência como desobedecer a ordem legal de autoridade militar. Dois pontos decidem a questão: a ordem precisa ser legal (ordem ilegal não gera o crime) e precisa emanar de autoridade militar. O tipo não exige ofensa à dignidade ou ao decoro, que é elemento do desacato (arts. 298 a 300), nem restringe o sujeito ativo ao militar da ativa subordinado. Fundamento: art. 301 do CPM.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O tipo exige ordem legal; a ordem manifestamente ilegal não configura a desobediência do art. 301." },
+        { "letra": "B", "correta": true, "justificativa": "Reproduz o núcleo do art. 301 (ordem legal de autoridade militar) e o distingue do desacato, que exige ofensa." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 301 exige ordem de autoridade militar; o lugar sujeito à administração militar é elemento do art. 300 (desacato a servidor)." },
+        { "letra": "D", "correta": false, "justificativa": "Ofender a dignidade ou o decoro é conduta típica de desacato, e não da desobediência." },
+        { "letra": "E", "correta": false, "justificativa": "O art. 301 não restringe o sujeito ativo ao militar da ativa subordinado à autoridade que deu a ordem." }
+      ],
+      "fundamento_legal": "Código Penal Militar, art. 301; arts. 298 a 300.",
+      "pegadinha": "Esquecer que a ordem precisa ser legal e confundir a desobediência com o desacato.",
+      "o_que_mudou": "A questão deixou de perguntar a pena da desobediência e passou a cobrar os elementos do tipo e a diferença para o desacato."
+    },
+    {
+      "id": 2080,
+      "enunciado": "Durante a madrugada, um soldado de folga escala o muro dos fundos do quartel de outra unidade, local por onde não há passagem regular, e é detido no pátio interno sem portar nenhum objeto ilícito e sem ter praticado qualquer outra conduta. Segundo o CPM, é correto afirmar que:",
+      "alternativas": [
+        { "letra": "A", "texto": "não há crime militar, pois o tipo exige que o agente tenha iludido a vigilância da sentinela, o que não ocorreu." },
+        { "letra": "B", "texto": "há desobediência, por violar a ordem geral de não ingressar na área sem autorização da autoridade militar." },
+        { "letra": "C", "texto": "há ingresso clandestino apenas se o agente pertencesse à própria unidade cujo quartel invadiu durante a noite." },
+        { "letra": "D", "texto": "há ingresso clandestino somente se o agente portava arma ou pretendia praticar crime dentro do quartel." },
+        { "letra": "E", "texto": "há ingresso clandestino, pois penetrou em quartel por onde não há passagem regular, se o fato não é crime mais grave." }
+      ],
+      "gabarito": "E",
+      "comentario": "O art. 302 do CPM pune quem penetra em fortaleza, quartel, estabelecimento militar ou outro lugar sujeito à administração militar por onde seja defeso ou não haja passagem regular, ou iludindo a vigilância da sentinela ou de vigia, se o fato não constitui crime mais grave. As formas são alternativas: entrar por onde não há passagem regular já basta. O tipo não exige porte de arma, finalidade de praticar outro crime nem vínculo do agente com a unidade. Fundamento: art. 302 do CPM.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Iludir a sentinela é apenas uma das formas do tipo; ingressar por onde não há passagem regular já basta." },
+        { "letra": "B", "correta": false, "justificativa": "Não houve descumprimento de ordem legal dirigida ao agente; a conduta se ajusta ao tipo específico do art. 302." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 302 não exige que o agente pertença à unidade; basta penetrar no lugar sujeito à administração militar da forma descrita." },
+        { "letra": "D", "correta": false, "justificativa": "O tipo não exige porte de arma nem finalidade de praticar outro crime." },
+        { "letra": "E", "correta": true, "justificativa": "Reproduz o tipo do art. 302 (ingresso por onde não há passagem regular) e sua cláusula de subsidiariedade." }
+      ],
+      "fundamento_legal": "Código Penal Militar, art. 302.",
+      "pegadinha": "Achar que o ingresso clandestino exige iludir a sentinela, quando as formas do tipo são alternativas.",
+      "o_que_mudou": "As alternativas deixaram de discutir a espécie e a quantidade de pena e passaram a cobrar só os elementos do ingresso clandestino."
+    }
+  ]
+}

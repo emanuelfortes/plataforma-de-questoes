@@ -1,0 +1,52 @@
+{
+  "auditorias": [
+    {
+      "id": 730,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: médico que, no exercício da profissão, dá atestado falso pratica o art. 302 do CP, e o fim de lucro (pagamento) atrai a multa do parágrafo único. O art. 301, caput, exige função pública (consultório particular afasta), o art. 299 cede pela especialidade e o art. 301, § 1º, exige falsificação ou alteração material, que não houve. Gabarito C confere com o texto legal, única correta, distratores errados pelos motivos indicados. Alternativas não giram em torno de quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 731,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: o caput e o § 1º do art. 301 exigem que o fato ou circunstância habilite alguém a obter cargo público, isenção de ônus ou de serviço de caráter público, ou qualquer outra vantagem (D correta). A erra ao dispensar a função pública; B descreve a conduta do § 1º, não a do caput; C contraria o § 2º (multa além da pena privativa de liberdade); E ignora 'qualquer outra vantagem'. Única correta, sem quantidade de pena nas alternativas.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 732,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: destruir, em benefício próprio e prejuízo alheio, documento particular verdadeiro de que não podia dispor é supressão de documento (art. 305 do CP), que abrange documento público ou particular. Não houve falsificação (art. 298), uso de papel falso (art. 304) nem inserção ou omissão de declaração (art. 299). Gabarito C confere; única correta; sem quantidade de pena nas alternativas.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 733,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: expor à venda veículo com placa que devesse saber adulterada é conduta do art. 311, § 2º, III, e, no exercício de atividade comercial (loja de usados), configura a forma do § 3º (D correta). A erra (falta de autorização é elementar); B contraria o § 1º; C contraria o caput na redação da Lei 14.562/2023 (reboque e semirreboque); E contraria o § 4º (comércio em residência equipara-se). Alternativas tratam de elementares e hipóteses, não de quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 734,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: reconhecer como verdadeira, no exercício de função pública, firma que não o seja é o art. 300 do CP, aplicável a documento público ou particular (E correta). O art. 300 é especial em relação aos arts. 299 e 301; não houve falsificação do sinal (art. 296) nem alteração do contrato (art. 298). Única correta; sem quantidade de pena nas alternativas.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 735,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: uso indevido de siglas e símbolos identificadores de órgão da Administração Pública é a figura equiparada do art. 296, § 1º, III, do CP (C correta), que qualquer pessoa pode praticar; a condição de funcionário público é só causa de aumento (§ 2º). A, B (art. 307 exige atribuir falsa identidade), D (brasão não é papel público do art. 293) e E estão errados. Sem quantidade de pena nas alternativas.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 876,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: o art. 213 usa 'alguém' e abrange conjunção carnal e outro ato libidinoso (B correta). A erra (ato libidinoso com violência ou grave ameaça é estupro; o art. 215-A é subsidiário); C descreve o art. 215; D contraria o art. 225 (ação pública incondicionada, redação da Lei 13.718/2018). Única correta; sem quantidade de pena nas alternativas.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 877,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: grave ameaça contra vítima de 16 anos para ato libidinoso atrai a qualificadora do art. 213, § 1º (vítima menor de 18 e maior de 14 anos), independentemente de lesão grave (E correta). O art. 217-A exige vítima menor de 14; o art. 215 exige fraude; o § 2º exige resultado morte; a falta de lesão não afasta a qualificadora etária. Única correta; alternativas tratam só do enquadramento, sem quantidade de pena.",
+      "correcao_sugerida": null
+    }
+  ]
+}

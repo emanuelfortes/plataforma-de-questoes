@@ -1,0 +1,188 @@
+{
+  "itens": [
+    {
+      "id": 2081,
+      "enunciado": "Sobre o crime de peculato previsto no art. 303 do Código Penal Militar, assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "O objeto material restringe-se a dinheiro, valor ou bem móvel público, não abrangendo o bem particular." },
+        { "letra": "B", "texto": "A conduta de desviar o bem em proveito alheio não integra o tipo, que se limita à apropriação pelo próprio agente." },
+        { "letra": "C", "texto": "Abrange o bem móvel particular que o agente tem em seu poder em razão do cargo, e o valor elevado do objeto agrava a resposta penal." },
+        { "letra": "D", "texto": "Exige que o agente seja oficial, pois o praça que se apropria de bem sob sua guarda responde por furto qualificado." },
+        { "letra": "E", "texto": "A causa de aumento incide quando o objeto supera dez vezes o salário mínimo, desde que o bem seja público." }
+      ],
+      "gabarito": "C",
+      "comentario": "O peculato militar (art. 303 do CPM) consiste em apropriar-se de dinheiro, valor ou qualquer outro bem móvel, público ou particular, de que o agente tem a posse ou detenção em razão do cargo ou comissão, ou desviá-lo em proveito próprio ou alheio. O § 1º traz causa de aumento quando o objeto da apropriação ou do desvio vale mais de vinte vezes o salário mínimo. Por isso, o bem particular entra no tipo e o valor elevado aumenta a pena. Fundamento: art. 303, caput e § 1º, do CPM.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O caput fala expressamente em bem móvel, público ou particular." },
+        { "letra": "B", "correta": false, "justificativa": "O verbo desviar, em proveito próprio ou alheio, é núcleo do tipo ao lado de apropriar-se." },
+        { "letra": "C", "correta": true, "justificativa": "O tipo alcança o bem particular sob a posse ou detenção do agente em razão do cargo, e o § 1º aumenta a pena quando o objeto supera vinte salários mínimos." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 303 não restringe o sujeito ativo ao oficial: basta ter a posse ou detenção do bem em razão do cargo ou comissão." },
+        { "letra": "E", "correta": false, "justificativa": "O parâmetro do § 1º é vinte vezes o salário mínimo, e a lei não exige que o bem seja público." }
+      ],
+      "fundamento_legal": "Código Penal Militar (Decreto-Lei 1.001/1969), art. 303, caput e § 1º",
+      "pegadinha": "Achar que o peculato só protege bem público ou que o desvio não está no tipo; trocar o parâmetro de vinte por dez salários mínimos.",
+      "o_que_mudou": "As alternativas deixaram de comparar faixas de pena e frações; agora cobram o objeto material, os núcleos do tipo, o sujeito ativo e a hipótese da causa de aumento."
+    },
+    {
+      "id": 2082,
+      "enunciado": "Um sargento PM, sem ter a posse ou a detenção das armas guardadas na reserva de armamento, aproveita-se do livre trânsito que sua condição de militar lhe proporciona no quartel, subtrai uma pistola e a vende em seguida. Pelo CPM, ele responde por:",
+      "alternativas": [
+        { "letra": "A", "texto": "peculato mediante aproveitamento do erro de outrem, pois a arma chegou às suas mãos por falha da guarda." },
+        { "letra": "B", "texto": "peculato culposo, porque, sem a posse da arma, a lei só pune sua contribuição para a subtração." },
+        { "letra": "C", "texto": "peculato-furto, pois subtraiu o bem valendo-se da facilidade que a qualidade de militar lhe proporciona." },
+        { "letra": "D", "texto": "peculato-apropriação, pois o caput do art. 303 dispensa que o agente tenha a posse do bem apropriado." },
+        { "letra": "E", "texto": "concussão, pois obteve vantagem indevida em razão da função ao vender a arma que retirou da reserva." }
+      ],
+      "gabarito": "C",
+      "comentario": "O peculato-furto (art. 303, § 2º, do CPM) alcança quem, embora não tendo a posse ou detenção do dinheiro, valor ou bem, o subtrai ou contribui para que seja subtraído, em proveito próprio ou alheio, valendo-se da facilidade que lhe proporciona a qualidade de militar ou de servidor público. O sargento não tinha a posse das armas, subtraiu a pistola e usou o livre acesso que a condição de militar lhe dava. Fundamento: art. 303, § 2º, do CPM.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 304 exige que o agente receba o bem por erro de outrem no exercício do cargo; aqui ele subtraiu a arma." },
+        { "letra": "B", "correta": false, "justificativa": "A conduta foi dolosa e ele mesmo subtraiu; o peculato culposo (§ 3º) é contribuir culposamente para que outrem subtraia." },
+        { "letra": "C", "correta": true, "justificativa": "Estão presentes todos os elementos do § 2º: ausência de posse, subtração e uso da facilidade da qualidade de militar." },
+        { "letra": "D", "correta": false, "justificativa": "O caput exige justamente a posse ou detenção do bem em razão do cargo ou comissão." },
+        { "letra": "E", "correta": false, "justificativa": "A concussão (art. 305) exige a conduta de exigir vantagem indevida, o que não ocorreu." }
+      ],
+      "fundamento_legal": "Código Penal Militar (Decreto-Lei 1.001/1969), art. 303, § 2º",
+      "pegadinha": "Confundir peculato-furto com peculato-apropriação, que exige a posse prévia do bem.",
+      "o_que_mudou": "As alternativas não trazem mais a pena de cada crime; cada uma traz só o crime e a razão do enquadramento."
+    },
+    {
+      "id": 2083,
+      "enunciado": "O soldado Lima, responsável pela guarda do almoxarifado, deixa por descuido o cadeado aberto, o que permite que um terceiro subtraia materiais da unidade. Condenado por peculato culposo, Lima repara integralmente o dano depois do trânsito em julgado da sentença. Conforme o CPM, essa reparação:",
+      "alternativas": [
+        { "letra": "A", "texto": "extingue a punibilidade, pois o dano foi reparado de forma integral e voluntária pelo próprio agente." },
+        { "letra": "B", "texto": "não produz efeito penal, pois só beneficia o agente se feita antes do recebimento da denúncia." },
+        { "letra": "C", "texto": "apenas diminui a pena imposta, pois só a reparação anterior à sentença irrecorrível extingue a punibilidade." },
+        { "letra": "D", "texto": "extingue a punibilidade, desde que ocorra até o julgamento de eventual revisão criminal ajuizada." },
+        { "letra": "E", "texto": "transforma o peculato culposo em infração disciplinar, a ser apurada só na esfera administrativa." }
+      ],
+      "gabarito": "C",
+      "comentario": "No peculato culposo (art. 303, § 3º, do CPM), o efeito da reparação do dano depende do momento: se precede a sentença irrecorrível, extingue a punibilidade; se lhe é posterior, apenas reduz a pena imposta (§ 4º). Como Lima reparou depois do trânsito em julgado, não há extinção da punibilidade, só redução da pena. Fundamento: art. 303, §§ 3º e 4º, do CPM.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A extinção da punibilidade só ocorre se a reparação preceder a sentença irrecorrível." },
+        { "letra": "B", "correta": false, "justificativa": "O marco legal é a sentença irrecorrível, não o recebimento da denúncia, e a reparação posterior ainda produz efeito." },
+        { "letra": "C", "correta": true, "justificativa": "Pelo § 4º, a reparação posterior à sentença irrecorrível reduz a pena imposta, sem extinguir a punibilidade." },
+        { "letra": "D", "correta": false, "justificativa": "A lei não menciona revisão criminal; depois da sentença irrecorrível o efeito é apenas redutor." },
+        { "letra": "E", "correta": false, "justificativa": "A reparação não desclassifica o crime; ele continua sendo o peculato culposo do § 3º." }
+      ],
+      "fundamento_legal": "Código Penal Militar (Decreto-Lei 1.001/1969), art. 303, §§ 3º e 4º",
+      "pegadinha": "Achar que a reparação integral sempre extingue a punibilidade, sem olhar o momento em que ocorreu.",
+      "o_que_mudou": "Saíram as alternativas que comparavam frações de redução; a questão cobra o efeito da reparação conforme o momento (antes ou depois da sentença irrecorrível)."
+    },
+    {
+      "id": 2084,
+      "enunciado": "O militar que, no exercício do cargo, recebe por erro de terceiro determinada quantia em dinheiro e dela se apropria comete, segundo o Código Penal Militar, o crime de:",
+      "alternativas": [
+        { "letra": "A", "texto": "peculato-furto, pois se apropriou de quantia que não estava sob sua posse antes do recebimento." },
+        { "letra": "B", "texto": "peculato mediante aproveitamento do erro de outrem, por se apropriar do que recebeu por engano." },
+        { "letra": "C", "texto": "concussão, pois obteve vantagem indevida em razão da função, ainda que sem exigir nada do terceiro." },
+        { "letra": "D", "texto": "desvio, pois desviou em proveito próprio o que recebeu indevidamente para recolher aos cofres públicos." },
+        { "letra": "E", "texto": "peculato culposo, pois o recebimento decorreu de erro, o que afasta o dolo exigido no peculato próprio." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 304 do CPM pune quem se apropria de dinheiro ou qualquer utilidade que, no exercício do cargo ou comissão, recebeu por erro de outrem. O erro é do terceiro que entrega; a apropriação do militar é dolosa. Fundamento: art. 304 do CPM.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "No peculato-furto (art. 303, § 2º) o agente subtrai o bem; aqui ele o recebeu por erro de terceiro." },
+        { "letra": "B", "correta": true, "justificativa": "É exatamente o tipo do art. 304: apropriar-se do que recebeu por erro de outrem no exercício do cargo." },
+        { "letra": "C", "correta": false, "justificativa": "A concussão (art. 305) exige a conduta de exigir vantagem indevida." },
+        { "letra": "D", "correta": false, "justificativa": "O desvio (art. 307) pressupõe que o agente recebeu indevidamente, em razão do cargo, para recolher aos cofres públicos, o que o enunciado não descreve." },
+        { "letra": "E", "correta": false, "justificativa": "O erro é de quem entrega o dinheiro; o militar se apropria dolosamente. O peculato culposo (§ 3º) é contribuir culposamente para que outrem subtraia ou desvie." }
+      ],
+      "fundamento_legal": "Código Penal Militar (Decreto-Lei 1.001/1969), art. 304",
+      "pegadinha": "Confundir o erro de terceiro com culpa do agente ou com subtração.",
+      "o_que_mudou": "As alternativas não informam mais a pena de cada crime; trazem só o crime e o motivo do enquadramento."
+    },
+    {
+      "id": 2086,
+      "enunciado": "Sobre o crime de excesso de exação previsto no art. 306 do Código Penal Militar, é correto afirmar que:",
+      "alternativas": [
+        { "letra": "A", "texto": "restringe-se à exigência de tributo que o agente sabe indevido, sendo atípica a cobrança de tributo devido." },
+        { "letra": "B", "texto": "abrange a cobrança de tributo devido quando o agente emprega meio vexatório ou gravoso que a lei não autoriza." },
+        { "letra": "C", "texto": "pune apenas a exigência indevida de imposto, não alcançando a taxa nem o emolumento cobrados pelo agente." },
+        { "letra": "D", "texto": "exige que o agente desvie em proveito próprio o que recebeu indevidamente para recolher aos cofres públicos." },
+        { "letra": "E", "texto": "configura-se quando o agente exige vantagem indevida para si, ainda que antes de assumir a função pública." }
+      ],
+      "gabarito": "B",
+      "comentario": "O excesso de exação (art. 306 do CPM) tem duas modalidades: exigir imposto, taxa ou emolumento que sabe indevido; ou, quando devido, empregar na cobrança meio vexatório ou gravoso que a lei não autoriza. A segunda modalidade mostra que até a cobrança de tributo devido pode ser crime, pelo meio empregado. Fundamento: art. 306 do CPM.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A segunda modalidade pune justamente a cobrança de tributo devido por meio vexatório ou gravoso." },
+        { "letra": "B", "correta": true, "justificativa": "Descreve a segunda modalidade do art. 306." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 306 menciona imposto, taxa ou emolumento." },
+        { "letra": "D", "correta": false, "justificativa": "Essa é a descrição do crime de desvio (art. 307)." },
+        { "letra": "E", "correta": false, "justificativa": "Essa é a descrição da concussão (art. 305)." }
+      ],
+      "fundamento_legal": "Código Penal Militar (Decreto-Lei 1.001/1969), art. 306",
+      "pegadinha": "Achar que o excesso de exação só existe quando o tributo é indevido.",
+      "o_que_mudou": "Saiu a alternativa que comparava a pena com a da concussão e a menção à natureza da pena na correta; entrou um distrator sobre as espécies de tributo do tipo."
+    },
+    {
+      "id": 2088,
+      "enunciado": "Considerando a redação atual do art. 308 do Código Penal Militar, dada pela Lei nº 14.688/2023, assinale a alternativa correta acerca da corrupção passiva.",
+      "alternativas": [
+        { "letra": "A", "texto": "Os núcleos são solicitar e receber, sendo atípica, no CPM, a simples aceitação de promessa de vantagem." },
+        { "letra": "B", "texto": "Se o agente retarda ato de ofício em consequência da vantagem, incide causa de aumento prevista no próprio artigo." },
+        { "letra": "C", "texto": "Se o agente cede a pedido de outrem, sem receber vantagem, a conduta é atípica por falta de vantagem indevida." },
+        { "letra": "D", "texto": "Se, em razão da vantagem, o agente pratica o ato com infração de dever, responde por prevaricação." },
+        { "letra": "E", "texto": "O tipo exige que o agente esteja no exercício da função, não alcançando quem ainda não a assumiu." }
+      ],
+      "gabarito": "B",
+      "comentario": "A corrupção passiva militar (art. 308 do CPM) consiste em solicitar ou receber, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida, ou aceitar promessa de tal vantagem. O § 1º aumenta a pena se, em consequência da vantagem ou promessa, o agente retarda ou deixa de praticar ato de ofício ou o pratica infringindo dever funcional. O § 2º pune, de forma mais branda, quem pratica, deixa de praticar ou retarda o ato com infração de dever cedendo a pedido ou influência de outrem. Fundamento: art. 308, caput, §§ 1º e 2º, do CPM.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Aceitar promessa de vantagem também é núcleo do tipo." },
+        { "letra": "B", "correta": true, "justificativa": "O retardamento do ato de ofício em consequência da vantagem é hipótese da causa de aumento do § 1º." },
+        { "letra": "C", "correta": false, "justificativa": "O § 2º pune quem infringe dever funcional cedendo a pedido ou influência de outrem, mesmo sem vantagem." },
+        { "letra": "D", "correta": false, "justificativa": "Movido pela vantagem, o agente responde por corrupção passiva com a causa de aumento do § 1º; a prevaricação (art. 319) exige interesse ou sentimento pessoal." },
+        { "letra": "E", "correta": false, "justificativa": "O tipo alcança expressamente quem está fora da função ou ainda não a assumiu, desde que em razão dela." }
+      ],
+      "fundamento_legal": "Código Penal Militar (Decreto-Lei 1.001/1969), art. 308, caput, §§ 1º e 2º",
+      "pegadinha": "Esquecer o núcleo aceitar promessa e confundir a causa de aumento com a prevaricação.",
+      "o_que_mudou": "As alternativas não comparam mais faixas de pena nem frações; cobram os núcleos, a hipótese da causa de aumento, a forma do § 2º e a distinção com a prevaricação."
+    },
+    {
+      "id": 2089,
+      "enunciado": "Um soldado de serviço na guarda do quartel deixa de registrar a entrada irregular de um veículo, com infração de dever funcional, unicamente por ter cedido ao pedido insistente de um colega, sem receber nem aceitar promessa de vantagem e sem visar a interesse ou sentimento pessoal próprio. À luz do CPM, a conduta enquadra-se em:",
+      "alternativas": [
+        { "letra": "A", "texto": "prevaricação, por ter deixado de praticar ato de ofício indevidamente para atender ao colega." },
+        { "letra": "B", "texto": "corrupção passiva do caput, com a causa de aumento por ter deixado de praticar ato de ofício." },
+        { "letra": "C", "texto": "condescendência criminosa, por ter agido por indulgência ao atender ao pedido do colega." },
+        { "letra": "D", "texto": "fato atípico, pois a ausência de vantagem indevida afasta toda modalidade de corrupção passiva no CPM." },
+        { "letra": "E", "texto": "forma privilegiada da corrupção passiva, por ter infringido dever funcional cedendo a pedido de outrem." }
+      ],
+      "gabarito": "E",
+      "comentario": "O art. 308, § 2º, do CPM pune, de forma mais branda que o caput, o agente que pratica, deixa de praticar ou retarda o ato de ofício com infração de dever funcional, cedendo a pedido ou influência de outrem. Não há vantagem envolvida; o que move o agente é o pedido alheio. Fundamento: art. 308, § 2º, do CPM.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A prevaricação (art. 319) exige a finalidade de satisfazer interesse ou sentimento pessoal, expressamente afastada no caso." },
+        { "letra": "B", "correta": false, "justificativa": "O caput exige solicitar, receber ou aceitar promessa de vantagem indevida, o que não houve." },
+        { "letra": "C", "correta": false, "justificativa": "A condescendência criminosa (art. 322) consiste em deixar de responsabilizar subordinado infrator, situação diversa." },
+        { "letra": "D", "correta": false, "justificativa": "O § 2º pune justamente quem cede a pedido ou influência, sem vantagem." },
+        { "letra": "E", "correta": true, "justificativa": "É a hipótese do art. 308, § 2º: infração de dever funcional cedendo a pedido de outrem." }
+      ],
+      "fundamento_legal": "Código Penal Militar (Decreto-Lei 1.001/1969), art. 308, § 2º",
+      "pegadinha": "Confundir quem cede a pedido de colega (art. 308, § 2º) com a prevaricação, que exige interesse ou sentimento pessoal.",
+      "o_que_mudou": "As alternativas não trazem mais a pena de cada crime; cobram só o enquadramento e o elemento que o define."
+    },
+    {
+      "id": 2090,
+      "enunciado": "No Código Penal Militar, o crime de corrupção ativa consiste em dar, oferecer ou prometer dinheiro ou vantagem indevida para a prática, omissão ou retardamento de ato funcional. Sobre esse crime, assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "A simples oferta ou promessa da vantagem já realiza o tipo, ainda que o militar a recuse e não pratique o ato." },
+        { "letra": "B", "texto": "Exige que o funcionário aceite a vantagem, pois sem aceitação há só tentativa de corrupção passiva." },
+        { "letra": "C", "texto": "Só tem causa de aumento quando o ato é praticado com infração de dever, e não quando é apenas retardado." },
+        { "letra": "D", "texto": "Não abrange a conduta de prometer vantagem, que fica restrita à forma tentada da conduta de dar." },
+        { "letra": "E", "texto": "Pune quem exige a vantagem do particular para praticar o ato, sendo o funcionário o sujeito ativo." }
+      ],
+      "gabarito": "A",
+      "comentario": "A corrupção ativa militar (art. 309 do CPM) tem três núcleos: dar, oferecer ou prometer dinheiro ou vantagem indevida. Basta a oferta ou a promessa para o tipo se realizar; a aceitação pelo funcionário e a prática do ato não são exigidas. Se, em razão da vantagem, dádiva ou promessa, o ato é retardado ou omitido, ou praticado com infração de dever funcional, incide a causa de aumento do parágrafo único. Fundamento: art. 309, caput e parágrafo único, do CPM.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Oferecer e prometer são núcleos do art. 309; o tipo não exige aceitação nem a prática do ato." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 309 descreve a conduta de quem dá, oferece ou promete, sem exigir a aceitação do funcionário." },
+        { "letra": "C", "correta": false, "justificativa": "O parágrafo único também alcança o ato retardado ou omitido." },
+        { "letra": "D", "correta": false, "justificativa": "Prometer é núcleo expresso do tipo." },
+        { "letra": "E", "correta": false, "justificativa": "Exigir vantagem é a concussão (art. 305), crime do funcionário; na corrupção ativa o agente é quem dá, oferece ou promete." }
+      ],
+      "fundamento_legal": "Código Penal Militar (Decreto-Lei 1.001/1969), art. 309, caput e parágrafo único",
+      "pegadinha": "Achar que a corrupção ativa depende da aceitação do funcionário ou confundi-la com a concussão.",
+      "o_que_mudou": "A questão perguntava a pena; agora cobra os núcleos, a consumação, as hipóteses da causa de aumento e a diferença para a concussão."
+    }
+  ]
+}

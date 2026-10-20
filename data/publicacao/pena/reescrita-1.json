@@ -1,0 +1,396 @@
+{
+  "itens": [
+    {
+      "id": 187,
+      "enunciado": "Sobre o crime de furto de coisa comum, previsto no art. 156 do Código Penal, assinale a afirmativa correta.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "É crime comum, praticado por qualquer pessoa que subtraia coisa pertencente a mais de um proprietário, e se processa por ação penal pública incondicionada."
+        },
+        {
+          "letra": "B",
+          "texto": "É crime próprio do condômino, co-herdeiro ou sócio, mas a ação penal é privada, de modo que somente se procede mediante queixa do ofendido."
+        },
+        {
+          "letra": "C",
+          "texto": "É crime próprio do condômino, co-herdeiro ou sócio que subtrai a coisa comum de quem legitimamente a detém, e somente se procede mediante representação."
+        },
+        {
+          "letra": "D",
+          "texto": "É crime próprio do condômino, co-herdeiro ou sócio, e é punível mesmo quando a coisa comum fungível subtraída não excede a quota do agente."
+        }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 156 do Código Penal descreve a conduta de subtrair o condômino, co-herdeiro ou sócio, para si ou para outrem, a quem legitimamente a detém, a coisa comum. Só essas pessoas podem praticá-lo (crime próprio). Pelo § 1º, somente se procede mediante representação, ou seja, a ação penal é pública condicionada. E o § 2º afasta a punibilidade quando a coisa comum é fungível e seu valor não excede a quota a que o agente tem direito.",
+      "analise_alternativas": [
+        {
+          "letra": "A",
+          "correta": false,
+          "justificativa": "O crime é próprio: só o condômino, o co-herdeiro ou o sócio pode praticá-lo. Além disso, o § 1º exige representação, então a ação não é incondicionada. O estranho que subtrai coisa de vários donos comete o furto do art. 155."
+        },
+        {
+          "letra": "B",
+          "correta": false,
+          "justificativa": "O sujeito ativo está certo, mas a ação penal não é privada: o § 1º do art. 156 exige representação, e não queixa do ofendido."
+        },
+        {
+          "letra": "C",
+          "correta": true,
+          "justificativa": "Reúne o sujeito ativo e a conduta do caput do art. 156 com a regra do § 1º, segundo a qual somente se procede mediante representação."
+        },
+        {
+          "letra": "D",
+          "correta": false,
+          "justificativa": "Inverte o § 2º do art. 156: não é punível a subtração de coisa comum fungível cujo valor não excede a quota a que tem direito o agente."
+        }
+      ],
+      "fundamento_legal": "Código Penal, art. 156, caput, §§ 1º e 2º.",
+      "pegadinha": "Tratar o furto de coisa comum como crime comum, confundir representação (ação pública condicionada) com queixa (ação privada) ou esquecer a não punibilidade da coisa fungível dentro da quota.",
+      "o_que_mudou": "As alternativas deixaram de comparar penas (detenção ou reclusão e seus limites) e passaram a cobrar o sujeito ativo, a ação penal e a regra de não punibilidade do § 2º."
+    },
+    {
+      "id": 189,
+      "enunciado": "Em uma tarde, Rafael, agindo sozinho, aproveitou que um motorista deixou o automóvel estacionado e destrancado, com a chave original na ignição, e o levou de Fortaleza para Sobral, ambas no Ceará, onde pretendia usá-lo como seu. Não houve violência ou grave ameaça, rompimento de obstáculo, fraude, nem qualquer outra circunstância além das narradas. Considerando o art. 155 do Código Penal, Rafael responde por:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "furto qualificado pela destreza, porque se aproveitou da distração do motorista para levar o veículo sem ser percebido."
+        },
+        {
+          "letra": "B",
+          "texto": "furto qualificado pela subtração de veículo automotor, porque o veículo acabou sendo levado para outro município."
+        },
+        {
+          "letra": "C",
+          "texto": "furto simples, porque a qualificadora do veículo automotor exige o transporte para outro Estado ou para o exterior."
+        },
+        {
+          "letra": "D",
+          "texto": "furto qualificado pelo emprego de chave falsa, porque usou para ligar o carro uma chave que não lhe pertencia."
+        }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 155, § 5º, só qualifica o furto de veículo automotor que venha a ser transportado para outro Estado ou para o exterior. O transporte entre municípios do mesmo Estado não basta. Como a chave era a original e não houve destreza, fraude, rompimento de obstáculo nem concurso de pessoas, a conduta é furto simples (art. 155, caput).",
+      "analise_alternativas": [
+        {
+          "letra": "A",
+          "correta": false,
+          "justificativa": "Destreza é a habilidade especial para subtrair sem que a vítima perceba. O enunciado narra apenas o aproveitamento de um carro deixado destrancado, o que não caracteriza o § 4º, II."
+        },
+        {
+          "letra": "B",
+          "correta": false,
+          "justificativa": "O § 5º exige transporte para outro Estado ou para o exterior. Fortaleza e Sobral ficam no mesmo Estado, então a qualificadora não incide."
+        },
+        {
+          "letra": "C",
+          "correta": true,
+          "justificativa": "Sem transporte interestadual ou internacional e sem outra qualificadora, aplica-se o caput do art. 155: furto simples."
+        },
+        {
+          "letra": "D",
+          "correta": false,
+          "justificativa": "Chave falsa é a que imita ou substitui a verdadeira. Rafael usou a chave original deixada na ignição, o que não se amolda ao § 4º, III."
+        }
+      ],
+      "fundamento_legal": "Código Penal, art. 155, caput, § 4º, II e III, e § 5º (caput e § 5º com redação dada pela Lei 15.397/2026).",
+      "pegadinha": "Achar que basta o deslocamento do veículo para outro município para qualificar o furto, ou confundir a chave original com chave falsa.",
+      "o_que_mudou": "As alternativas deixaram de trazer a pena de cada forma de furto e passaram a cobrar só a tipificação e o motivo dela."
+    },
+    {
+      "id": 190,
+      "enunciado": "Antônio e Bruno são coproprietários, em partes iguais, de uma colheita de milho ensacada, que fica sob a guarda de Bruno, que a detém legitimamente. Sem avisar Bruno, Antônio retirou do depósito algumas sacas, cujo valor total não excede a quota a que ele tem direito no milho comum. Nos termos do Código Penal, a conduta de Antônio:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "não é punível, porque se trata de subtração de coisa comum fungível cujo valor não excede a quota a que tem direito o agente."
+        },
+        {
+          "letra": "B",
+          "texto": "configura furto simples, pois o milho estava na posse legítima de Bruno, e Antônio não podia retirá-lo sozinho."
+        },
+        {
+          "letra": "C",
+          "texto": "configura furto de coisa comum, que se processa por ação penal pública incondicionada, por ser Bruno o detentor."
+        },
+        {
+          "letra": "D",
+          "texto": "configura furto de coisa comum, e o valor dentro da quota apenas permite ao juiz abrandar a punição, sem afastá-la."
+        }
+      ],
+      "gabarito": "A",
+      "comentario": "O art. 156, § 2º, do Código Penal dispõe que não é punível a subtração de coisa comum fungível cujo valor não excede a quota a que tem direito o agente. Sacas de milho são bens fungíveis, Antônio é coproprietário e o valor retirado está dentro da quota dele, logo a conduta não é punível.",
+      "analise_alternativas": [
+        {
+          "letra": "A",
+          "correta": true,
+          "justificativa": "Reproduz o art. 156, § 2º, cujos requisitos (coisa comum, fungível e valor dentro da quota do agente) estão todos presentes."
+        },
+        {
+          "letra": "B",
+          "correta": false,
+          "justificativa": "A subtração de coisa comum por condômino tem tipo próprio, o art. 156, que afasta o furto do art. 155, ainda que a coisa esteja na posse legítima do outro. E, no caso, incide a regra de não punibilidade do § 2º."
+        },
+        {
+          "letra": "C",
+          "correta": false,
+          "justificativa": "Além de o fato não ser punível pelo § 2º, o furto de coisa comum, quando punível, somente se procede mediante representação (§ 1º), e não por ação pública incondicionada."
+        },
+        {
+          "letra": "D",
+          "correta": false,
+          "justificativa": "O § 2º do art. 156 não trata de abrandamento: afasta a própria punibilidade quando a coisa fungível não excede a quota do agente."
+        }
+      ],
+      "fundamento_legal": "Código Penal, art. 156, caput, §§ 1º e 2º.",
+      "pegadinha": "Ignorar a regra especial de não punibilidade da coisa comum fungível dentro da quota e tratar o caso como furto comum ou como hipótese de punição atenuada.",
+      "o_que_mudou": "Saíram a pena do furto de coisa comum e a fração de redução; as alternativas agora cobram a tipificação, a ação penal e a não punibilidade do § 2º. Ajuste do auditor: o enunciado agora diz que o milho é coisa comum dos dois (copropriedade), e não bem de uma sociedade."
+    },
+    {
+      "id": 191,
+      "enunciado": "Marcos instalou, de forma oculta, um programa malicioso no telefone celular de Helena, de 72 anos. Com o programa, acessou o aplicativo bancário dela e transferiu valores para a conta de um comparsa, sem que Helena percebesse ou participasse da operação. Toda a ação ocorreu por servidores mantidos no território nacional. De acordo com o Código Penal, Marcos responde por:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "estelionato, porque empregou meio fraudulento para obter vantagem ilícita em prejuízo de Helena, mantida em erro durante a operação."
+        },
+        {
+          "letra": "B",
+          "texto": "furto mediante fraude cometido por dispositivo eletrônico ou informático, com a causa de aumento do crime praticado contra idoso."
+        },
+        {
+          "letra": "C",
+          "texto": "furto mediante fraude cometido por dispositivo eletrônico ou informático, com a causa de aumento do uso de servidor no exterior."
+        },
+        {
+          "letra": "D",
+          "texto": "furto qualificado pela fraude do § 4º, II, sem aumento pela idade de Helena, que só está previsto para o crime de estelionato."
+        }
+      ],
+      "gabarito": "B",
+      "comentario": "Marcos subtraiu os valores: Helena não foi enganada para entregá-los, nem participou da operação. A fraude (o programa oculto) serviu para burlar a vigilância da vítima, e não para obter dela a entrega do bem, por isso é furto mediante fraude, e não estelionato (art. 171). Como foi cometido por meio de dispositivo eletrônico, com programa malicioso, incide a forma do art. 155, § 4º-B. O § 4º-C, II, prevê aumento se o crime é praticado contra idoso ou vulnerável, considerada a relevância do resultado gravoso. O aumento do § 4º-C, I, exige servidor mantido fora do território nacional, o que não ocorreu.",
+      "analise_alternativas": [
+        {
+          "letra": "A",
+          "correta": false,
+          "justificativa": "No estelionato a vítima, enganada, entrega a vantagem. Aqui Helena não percebeu nem participou de nada: os valores foram subtraídos com o uso do programa, o que é furto mediante fraude."
+        },
+        {
+          "letra": "B",
+          "correta": true,
+          "justificativa": "A conduta se amolda ao art. 155, § 4º-B (fraude por dispositivo eletrônico, com programa malicioso), e Helena tem 72 anos, o que atrai a causa de aumento do § 4º-C, II."
+        },
+        {
+          "letra": "C",
+          "correta": false,
+          "justificativa": "A causa de aumento do § 4º-C, I, exige servidor mantido fora do território nacional; o enunciado diz que todos os servidores estavam no Brasil."
+        },
+        {
+          "letra": "D",
+          "correta": false,
+          "justificativa": "A fraude por dispositivo eletrônico ou informático tem forma própria (§ 4º-B), e o próprio art. 155, § 4º-C, II, prevê aumento quando a vítima é idosa."
+        }
+      ],
+      "fundamento_legal": "Código Penal, art. 155, § 4º, II, § 4º-B (redação dada pela Lei 15.397/2026) e § 4º-C, I e II (incluídos pela Lei 14.155/2021); art. 171.",
+      "pegadinha": "Confundir furto mediante fraude eletrônica com estelionato e trocar as hipóteses de aumento do § 4º-C (servidor no exterior e vítima idosa ou vulnerável).",
+      "o_que_mudou": "O enunciado deixou de dar a tipificação pronta e as alternativas não comparam mais penas e frações: cobram a distinção entre furto mediante fraude e estelionato e qual hipótese de aumento se aplica."
+    },
+    {
+      "id": 192,
+      "enunciado": "Em uma tarde de domingo, com a loja fechada e sem ninguém no interior, três agentes detonaram um artefato explosivo para abrir o cofre de uma joalheria e subtraíram as joias que ali estavam. A explosão expôs a perigo os moradores dos prédios vizinhos. Não houve violência ou grave ameaça contra qualquer pessoa. À luz do Código Penal, a conduta se amolda a:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "dano qualificado pelo emprego de substância explosiva, que absorve a subtração das joias por ser o crime-meio."
+        },
+        {
+          "letra": "B",
+          "texto": "furto qualificado pelo emprego de explosivo ou de artefato análogo que cause perigo comum, hipótese de parágrafo próprio do art. 155."
+        },
+        {
+          "letra": "C",
+          "texto": "furto qualificado só pelo rompimento de obstáculo e pelo concurso de pessoas, já que o explosivo foi apenas o meio para abrir o cofre."
+        },
+        {
+          "letra": "D",
+          "texto": "roubo majorado pela destruição de obstáculo com explosivo que causou perigo comum, ainda que sem violência ou grave ameaça a pessoa."
+        }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 155, § 4º-A, prevê forma qualificada própria do furto quando há emprego de explosivo ou de artefato análogo que cause perigo comum. Como não houve violência ou grave ameaça a pessoa, não há roubo. A subtração mediante explosão com perigo comum tem qualificadora específica e mais grave que a do § 4º, que não se limita ao rompimento de obstáculo.",
+      "analise_alternativas": [
+        {
+          "letra": "A",
+          "correta": false,
+          "justificativa": "O próprio art. 163, parágrafo único, II, ressalva sua aplicação 'se o fato não constitui crime mais grave'. A finalidade foi a subtração, punida no art. 155, § 4º-A."
+        },
+        {
+          "letra": "B",
+          "correta": true,
+          "justificativa": "Corresponde ao art. 155, § 4º-A: emprego de explosivo que causou perigo comum, sem violência a pessoa."
+        },
+        {
+          "letra": "C",
+          "correta": false,
+          "justificativa": "Existe qualificadora específica e mais grave para o emprego de explosivo que cause perigo comum (§ 4º-A); enquadrar o fato só no § 4º, I e IV, desconsidera essa previsão."
+        },
+        {
+          "letra": "D",
+          "correta": false,
+          "justificativa": "A majorante do art. 157, § 2º-A, II, pressupõe roubo, que exige violência ou grave ameaça a pessoa (ou redução da vítima à impossibilidade de resistência), ausentes no caso."
+        }
+      ],
+      "fundamento_legal": "Código Penal, art. 155, § 4º, I e IV, e § 4º-A (incluído pela Lei 13.654/2018); art. 157, caput e § 2º-A, II; art. 163, parágrafo único, II.",
+      "pegadinha": "Confundir furto com explosivo (sem violência a pessoa) com roubo majorado pelo explosivo, ou reduzir o explosivo a mero rompimento de obstáculo.",
+      "o_que_mudou": "As alternativas deixaram de trazer a pena das qualificadoras e a fração de aumento do roubo; cobram só o enquadramento correto."
+    },
+    {
+      "id": 194,
+      "enunciado": "Um agiota, aproveitando-se do desespero financeiro de um comerciante, condicionou a concessão de um empréstimo à entrega, como garantia da dívida, de um documento assinado pelo devedor que poderia dar causa a procedimento criminal contra ele. Segundo o Código Penal, a conduta do agiota corresponde ao crime de",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "extorsão indireta, que somente se configura se o agiota utilizar efetivamente o documento contra a vítima."
+        },
+        {
+          "letra": "B",
+          "texto": "estelionato, pois o agiota obteve vantagem ilícita mantendo a vítima em erro quanto à garantia."
+        },
+        {
+          "letra": "C",
+          "texto": "extorsão indireta, que se configura com a exigência ou o recebimento do documento como garantia."
+        },
+        {
+          "letra": "D",
+          "texto": "extorsão, pois o agiota constrangeu o devedor a entregar o documento para obter vantagem econômica."
+        }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 160 do Código Penal tipifica a extorsão indireta: exigir ou receber, como garantia de dívida, abusando da situação de alguém, documento que pode dar causa a procedimento criminal contra a vítima ou contra terceiro. O tipo se contenta com o ato de exigir ou receber o documento; não exige que ele seja usado depois. Também não exige violência ou grave ameaça, que é o que distingue a extorsão do art. 158.",
+      "analise_alternativas": [
+        {
+          "letra": "A",
+          "correta": false,
+          "justificativa": "Os verbos do tipo são exigir ou receber o documento como garantia. A lei não condiciona o crime ao uso posterior do documento contra a vítima."
+        },
+        {
+          "letra": "B",
+          "correta": false,
+          "justificativa": "O estelionato (art. 171) depende de induzir ou manter alguém em erro mediante fraude. O enunciado não descreve engano algum, e sim a exigência de documento comprometedor como garantia."
+        },
+        {
+          "letra": "C",
+          "correta": true,
+          "justificativa": "A conduta se amolda ao art. 160, e o crime se perfaz com a exigência ou o recebimento do documento, abusando da situação da vítima."
+        },
+        {
+          "letra": "D",
+          "correta": false,
+          "justificativa": "A extorsão do art. 158 exige constrangimento mediante violência ou grave ameaça. No caso, o agiota abusou da situação da vítima para exigir documento como garantia de dívida, conduta prevista no art. 160."
+        }
+      ],
+      "fundamento_legal": "Código Penal, arts. 158, 160 e 171.",
+      "pegadinha": "Confundir a extorsão indireta com a extorsão do art. 158 (que exige violência ou grave ameaça) ou exigir o uso efetivo do documento.",
+      "o_que_mudou": "As alternativas deixaram de distinguir os crimes pela pena; a correta agora cobra o momento em que a extorsão indireta se configura."
+    },
+    {
+      "id": 195,
+      "enunciado": "Em uma praça de Fortaleza, um homem, agindo sozinho, ameaçou um pedestre com uma faca e dele subtraiu a carteira com dinheiro, sem chegar a feri-lo. Nos termos do art. 157 do Código Penal, a conduta configura",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "furto, pois a faca não chegou a ferir a vítima e não houve violência física contra ela."
+        },
+        {
+          "letra": "B",
+          "texto": "roubo simples, pois o emprego de arma só majora o roubo quando se trata de arma de fogo."
+        },
+        {
+          "letra": "C",
+          "texto": "roubo majorado pelo emprego de arma de fogo, já que a lei equipara a faca a essa arma."
+        },
+        {
+          "letra": "D",
+          "texto": "roubo majorado, pois a lei prevê aumento próprio para a ameaça exercida com arma branca."
+        }
+      ],
+      "gabarito": "D",
+      "comentario": "Roubo é subtrair coisa móvel alheia mediante grave ameaça ou violência a pessoa (art. 157, caput): a grave ameaça basta, sem necessidade de ferimento. Quanto ao meio, o Código Penal tem hipóteses distintas de aumento: arma branca, como a faca (art. 157, § 2º, VII); arma de fogo (§ 2º-A, I); e arma de fogo de uso restrito ou proibido (§ 2º-B). No caso, a ameaça foi feita com faca, então incide a causa de aumento da arma branca.",
+      "analise_alternativas": [
+        {
+          "letra": "A",
+          "correta": false,
+          "justificativa": "O art. 157 se contenta com a grave ameaça; não exige violência física nem lesão. A ameaça com faca para tomar a carteira já é roubo."
+        },
+        {
+          "letra": "B",
+          "correta": false,
+          "justificativa": "A arma branca também majora o roubo, por expressa previsão do art. 157, § 2º, VII."
+        },
+        {
+          "letra": "C",
+          "correta": false,
+          "justificativa": "Não há equiparação: a arma de fogo tem majorante própria (§ 2º-A, I), distinta da prevista para a arma branca (§ 2º, VII)."
+        },
+        {
+          "letra": "D",
+          "correta": true,
+          "justificativa": "O art. 157, § 2º, VII, prevê aumento quando a violência ou grave ameaça é exercida com emprego de arma branca."
+        }
+      ],
+      "fundamento_legal": "Código Penal, art. 157, caput, § 2º, VII, § 2º-A, I, e § 2º-B.",
+      "pegadinha": "Achar que o roubo exige ferimento ou que só a arma de fogo majora o roubo, confundindo as hipóteses de aumento da arma branca e da arma de fogo.",
+      "o_que_mudou": "A questão deixou de perguntar a fração de aumento: agora cobra a tipificação (roubo e não furto) e qual hipótese de aumento incide pelo meio empregado."
+    },
+    {
+      "id": 203,
+      "enunciado": "Por vingança, Túlio jogou gasolina e ateou fogo no carro de um desafeto, estacionado sozinho num terreno baldio afastado de qualquer construção, pessoa ou outro bem, de modo que o fogo não expôs ninguém a perigo. O veículo ficou destruído. Considerando apenas os fatos narrados e o Código Penal, assinale a alternativa correta.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Túlio responde por dano simples, porque a qualificadora da substância inflamável só incide se o fogo expuser terceiros a perigo."
+        },
+        {
+          "letra": "B",
+          "texto": "Túlio responde por dano qualificado pela violência à pessoa, já que o carro destruído pertencia a pessoa determinada."
+        },
+        {
+          "letra": "C",
+          "texto": "Túlio responde por dano qualificado pelo emprego de substância inflamável, mas só se procede mediante queixa do ofendido."
+        },
+        {
+          "letra": "D",
+          "texto": "Túlio responde por dano qualificado pelo emprego de substância inflamável, e a ação penal não depende de queixa do ofendido."
+        }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 163, parágrafo único, II, do CP qualifica o dano cometido com emprego de substância inflamável ou explosiva, se o fato não constitui crime mais grave. Gasolina é substância inflamável, e o enunciado afasta qualquer perigo a pessoas ou a outros bens, de modo que permanece o dano qualificado. Pelo art. 167, só se procede mediante queixa no dano simples (caput do art. 163) e no qualificado do inciso IV; o dano qualificado pelo inciso II não depende de queixa.",
+      "analise_alternativas": [
+        {
+          "letra": "A",
+          "correta": false,
+          "justificativa": "O inciso II do parágrafo único do art. 163 não exige perigo a terceiros; basta o emprego de substância inflamável ou explosiva para destruir, inutilizar ou deteriorar a coisa."
+        },
+        {
+          "letra": "B",
+          "correta": false,
+          "justificativa": "A qualificadora do inciso I exige violência à pessoa ou grave ameaça, o que não ocorreu; a violência foi contra a coisa."
+        },
+        {
+          "letra": "C",
+          "correta": false,
+          "justificativa": "O art. 167 exige queixa apenas no dano simples e no qualificado do inciso IV (motivo egoístico ou prejuízo considerável), e não no qualificado pelo inciso II."
+        },
+        {
+          "letra": "D",
+          "correta": true,
+          "justificativa": "Gasolina é substância inflamável e o fato, como narrado, não configura crime mais grave; aplica-se o art. 163, parágrafo único, II, que não está entre os casos de queixa do art. 167."
+        }
+      ],
+      "fundamento_legal": "Código Penal, art. 163, parágrafo único, I e II, e art. 167.",
+      "pegadinha": "Achar que a qualificadora do fogo depende de perigo a pessoas ou estender a todo dano qualificado a exigência de queixa do art. 167.",
+      "o_que_mudou": "As alternativas deixaram de comparar penas (detenção e reclusão) e passaram a cobrar a qualificadora aplicável e a ação penal do dano (art. 167)."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "itens": [
+    {
+      "id": 717,
+      "enunciado": "Um comerciante recebeu de boa-fé, como troco, uma cédula de R$ 100,00 que acreditava ser verdadeira. Dias depois, já sabendo que a nota era falsa, usou-a para pagar uma compra em outro estabelecimento. Sobre a conduta, é correto afirmar que ele",
+      "alternativas": [
+        { "letra": "A", "texto": "responde pela forma privilegiada do art. 289, § 2º, pois restituiu a nota à circulação após conhecer a falsidade." },
+        { "letra": "B", "texto": "responde pela figura do art. 289, § 1º, equiparada à falsificação, pois introduziu moeda falsa na circulação." },
+        { "letra": "C", "texto": "não comete crime, porque recebeu a cédula de boa-fé e como verdadeira, o que afasta o dolo em toda a conduta." },
+        { "letra": "D", "texto": "responde por crime assimilado ao de moeda falsa, previsto no art. 290, por restituir cédula à circulação." }
+      ],
+      "gabarito": "A",
+      "comentario": "Quem recebe moeda falsa de boa-fé, como verdadeira, e a restitui à circulação depois de conhecer a falsidade pratica a figura privilegiada do art. 289, § 2º, do CP. A lei trata essa conduta de forma mais branda porque o agente também foi vítima do falsário. O ponto decisivo é o momento do conhecimento: a boa-fé existia no recebimento, mas não na restituição. Fundamento: art. 289, § 2º, do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "O agente recebeu a nota de boa-fé e só a repassou depois de saber da falsidade: é exatamente a figura privilegiada do art. 289, § 2º." },
+        { "letra": "B", "correta": false, "justificativa": "O § 1º alcança quem introduz moeda falsa na circulação sem ter sido enganado. Quando o recebimento foi de boa-fé, incide a regra específica do § 2º." },
+        { "letra": "C", "correta": false, "justificativa": "A boa-fé no recebimento não afasta o crime, porque a restituição à circulação ocorreu quando ele já conhecia a falsidade; há dolo nesse momento." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 290 trata de cédulas formadas com fragmentos de notas verdadeiras ou recolhidas para inutilização, e não de moeda falsa recebida de boa-fé." }
+      ],
+      "fundamento_legal": "Código Penal, art. 289, § 2º",
+      "pegadinha": "Achar que a boa-fé no recebimento torna atípica a restituição feita depois de conhecer a falsidade, ou confundir o § 2º com a introdução de moeda falsa do § 1º.",
+      "o_que_mudou": "As alternativas deixaram de comparar penas e passaram a cobrar o enquadramento: forma privilegiada do § 2º, figura do § 1º, atipicidade e crime assimilado do art. 290."
+    },
+    {
+      "id": 718,
+      "enunciado": "O diretor de um banco de emissão que autoriza a emissão de papel-moeda em quantidade superior à autorizada pratica, segundo o Código Penal,",
+      "alternativas": [
+        { "letra": "A", "texto": "o crime de moeda falsa do caput do art. 289, por equiparação à falsificação comum de moeda." },
+        { "letra": "B", "texto": "crime assimilado ao de moeda falsa, previsto no art. 290, por envolver papel-moeda verdadeiro." },
+        { "letra": "C", "texto": "mero ilícito administrativo de gestão, pois o papel-moeda emitido é materialmente autêntico." },
+        { "letra": "D", "texto": "figura própria do art. 289, § 3º, II, que alcança o diretor de banco de emissão nessa conduta." }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 289, § 3º, do CP prevê figura própria para o funcionário público ou diretor, gerente ou fiscal de banco de emissão que fabrica, emite ou autoriza a fabricação ou emissão de moeda com título ou peso inferior ao legal (inciso I) ou de papel-moeda em quantidade superior à autorizada (inciso II). Aqui a moeda não é falsificada no sentido comum: o crime está no abuso de quem tem o poder de emitir. Fundamento: art. 289, § 3º, II, do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O caput pune quem falsifica moeda, fabricando-a ou alterando-a. A emissão em excesso por diretor de banco de emissão tem tipo próprio no § 3º." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 290 trata de cédulas formadas com fragmentos de notas verdadeiras e de notas recolhidas para inutilização, hipóteses diferentes da emissão em excesso." },
+        { "letra": "C", "correta": false, "justificativa": "A conduta não é mera irregularidade de gestão: está expressamente tipificada como crime no art. 289, § 3º, II." },
+        { "letra": "D", "correta": true, "justificativa": "O § 3º, II, do art. 289 descreve exatamente a autorização de emissão de papel-moeda em quantidade superior à autorizada por diretor de banco de emissão." }
+      ],
+      "fundamento_legal": "Código Penal, art. 289, § 3º, II",
+      "pegadinha": "Pensar que, por ser o papel-moeda autêntico, a emissão em excesso seria fato atípico ou mera falta administrativa.",
+      "o_que_mudou": "O enunciado deixou de perguntar a pena e passou a perguntar qual figura penal se configura; as alternativas trazem só o enquadramento, sem quantidade de pena."
+    },
+    {
+      "id": 719,
+      "enunciado": "Policiais civis cumprem mandado de busca e encontram, na casa de um investigado, uma máquina especialmente destinada à falsificação de moeda, sem nenhuma cédula ainda produzida. Em tese, a posse desse equipamento configura",
+      "alternativas": [
+        { "letra": "A", "texto": "ato preparatório impunível, já que nenhuma cédula chegou a ser efetivamente falsificada." },
+        { "letra": "B", "texto": "crime autônomo de petrechos para falsificação de moeda, previsto no art. 291 do Código Penal." },
+        { "letra": "C", "texto": "tentativa de moeda falsa, por ser a posse da máquina o início da execução do crime do art. 289." },
+        { "letra": "D", "texto": "crime de petrechos de falsificação de papéis públicos, previsto no art. 294 do Código Penal." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 291 do CP tipifica de forma autônoma as condutas de fabricar, adquirir, fornecer, possuir ou guardar maquinismo, aparelho, instrumento ou qualquer objeto especialmente destinado à falsificação de moeda. Assim, o que seria mero ato preparatório da moeda falsa passa a ser crime próprio, consumado com a simples posse do petrecho. Fundamento: art. 291 do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Em regra, atos preparatórios não são puníveis, mas aqui o legislador transformou a posse do petrecho em crime autônomo (art. 291)." },
+        { "letra": "B", "correta": true, "justificativa": "Possuir ou guardar máquina especialmente destinada à falsificação de moeda é o tipo do art. 291, que se consuma sem que nenhuma cédula seja produzida." },
+        { "letra": "C", "correta": false, "justificativa": "Não houve início da fabricação ou alteração de moeda; a posse do equipamento é punida por tipo próprio, e não como tentativa do art. 289." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 294 trata de objetos destinados à falsificação dos papéis públicos do art. 293, que não são moeda de curso legal." }
+      ],
+      "fundamento_legal": "Código Penal, art. 291",
+      "pegadinha": "Tratar a posse do petrecho como ato preparatório impune ou como tentativa de moeda falsa, esquecendo que o art. 291 é crime autônomo.",
+      "o_que_mudou": "As alternativas deixaram de trazer a pena de cada crime e passaram a cobrar a natureza da conduta: ato preparatório, crime autônomo, tentativa e petrechos de papéis públicos."
+    },
+    {
+      "id": 720,
+      "enunciado": "Quem forma cédula representativa de moeda juntando fragmentos de cédulas verdadeiras pratica, segundo o Código Penal,",
+      "alternativas": [
+        { "letra": "A", "texto": "moeda falsa, na modalidade de fabricação prevista no caput do art. 289 do Código Penal." },
+        { "letra": "B", "texto": "falsificação de papéis públicos, prevista no art. 293, por envolver papel de emissão legal." },
+        { "letra": "C", "texto": "crime assimilado ao de moeda falsa, previsto no art. 290 do Código Penal." },
+        { "letra": "D", "texto": "supressão de documento, por destruir cédulas verdadeiras de que não podia dispor." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 290 do CP prevê os chamados crimes assimilados ao de moeda falsa: formar cédula, nota ou bilhete representativo de moeda com fragmentos de cédulas verdadeiras; suprimir, em notas recolhidas, sinal indicativo de inutilização para restituí-las à circulação; ou restituir à circulação notas nessas condições ou já recolhidas para inutilização. A montagem com fragmentos tem, portanto, tipo específico. Fundamento: art. 290, caput, do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A formação de cédula com fragmentos de notas verdadeiras tem tipo específico no art. 290, distinto da falsificação do art. 289." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 293 trata de papéis públicos que não sejam moeda de curso legal, como selos e vales postais; a cédula representativa de moeda está no art. 290." },
+        { "letra": "C", "correta": true, "justificativa": "É a primeira conduta descrita no art. 290, caput: formar cédula representativa de moeda com fragmentos de cédulas verdadeiras." },
+        { "letra": "D", "correta": false, "justificativa": "A supressão de documento (art. 305) consiste em destruir, suprimir ou ocultar documento verdadeiro, e não em montar cédula com fragmentos." }
+      ],
+      "fundamento_legal": "Código Penal, art. 290, caput",
+      "pegadinha": "Enquadrar a montagem de cédula com fragmentos verdadeiros na moeda falsa do art. 289, ignorando o tipo específico dos crimes assimilados.",
+      "o_que_mudou": "As alternativas deixaram de citar a pena de cada crime e passaram a trazer só o enquadramento legal da conduta."
+    },
+    {
+      "id": 721,
+      "enunciado": "Sobre o crime de emissão de título ao portador sem permissão legal (art. 292 do CP), assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "Quem recebe ou utiliza como dinheiro o documento emitido sem permissão legal também comete crime, previsto no parágrafo único." },
+        { "letra": "B", "texto": "O crime só se configura se o título for materialmente falsificado, pois o tipo protege a autenticidade do documento emitido." },
+        { "letra": "C", "texto": "Só o emitente é punido, pois quem recebe ou utiliza o documento como dinheiro pratica fato atípico, já que não o emitiu." },
+        { "letra": "D", "texto": "O tipo exige que o título indique o nome da pessoa a quem deva ser pago, sob pena de atipicidade da conduta do emitente." }
+      ],
+      "gabarito": "A",
+      "comentario": "O art. 292 do CP pune quem emite, sem permissão legal, nota, bilhete, ficha, vale ou título que contenha promessa de pagamento em dinheiro ao portador ou a que falte a indicação do nome da pessoa a quem deva ser pago. O parágrafo único também pune, de forma mais branda, quem recebe ou utiliza esses documentos como dinheiro. O crime não depende de falsificação: o documento pode ser autêntico, o problema é a emissão sem permissão legal. Fundamento: art. 292, caput e parágrafo único, do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "O parágrafo único do art. 292 tipifica a conduta de quem recebe ou utiliza como dinheiro qualquer dos documentos referidos no caput." },
+        { "letra": "B", "correta": false, "justificativa": "O núcleo do tipo é emitir sem permissão legal; não se exige falsificação, e o documento pode ser verdadeiro." },
+        { "letra": "C", "correta": false, "justificativa": "Quem recebe ou utiliza o documento como dinheiro também é punido, conforme o parágrafo único do art. 292." },
+        { "letra": "D", "correta": false, "justificativa": "O tipo abrange justamente o título ao portador ou aquele a que falte a indicação do nome do beneficiário; a indicação do nome não é exigida." }
+      ],
+      "fundamento_legal": "Código Penal, art. 292, caput e parágrafo único",
+      "pegadinha": "Achar que só o emitente responde ou que o crime exige documento falsificado.",
+      "o_que_mudou": "As alternativas deixaram de comparar as penas do emitente e de quem recebe e passaram a cobrar quem é punido, o objeto do tipo e a desnecessidade de falsificação."
+    },
+    {
+      "id": 723,
+      "enunciado": "Um indivíduo é preso por clonar cartões de débito de clientes de um banco. Quanto à falsificação dos cartões, o Código Penal",
+      "alternativas": [
+        { "letra": "A", "texto": "equipara o cartão a documento público, enquadrando a conduta na falsificação do art. 297." },
+        { "letra": "B", "texto": "equipara o cartão a documento particular, enquadrando a conduta na falsificação do art. 298." },
+        { "letra": "C", "texto": "não prevê equiparação, de modo que a falsificação do cartão é tratada como falsidade ideológica." },
+        { "letra": "D", "texto": "equipara o cartão a papel público, enquadrando a conduta na falsificação prevista no art. 293." }
+      ],
+      "gabarito": "B",
+      "comentario": "O parágrafo único do art. 298 do CP, incluído pela Lei 12.737/2012, equipara a documento particular o cartão de crédito ou débito. Assim, clonar cartão configura falsificação de documento particular. Trata-se de falsidade material (o suporte é forjado), e não ideológica. Fundamento: art. 298, caput e parágrafo único, do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A equiparação expressa é a documento particular. O art. 297, § 2º, equipara a documento público outros itens (título ao portador, ações, livros mercantis, testamento particular), não o cartão." },
+        { "letra": "B", "correta": true, "justificativa": "O art. 298, parágrafo único, equipara a documento particular o cartão de crédito ou débito, e a clonagem se enquadra no caput." },
+        { "letra": "C", "correta": false, "justificativa": "Há equiparação expressa, e clonar cartão é falsificação material; a falsidade ideológica (art. 299) recai sobre o conteúdo de documento formalmente verdadeiro." },
+        { "letra": "D", "correta": false, "justificativa": "O cartão não está entre os papéis públicos do art. 293, que trata de selos, vales postais, papéis de crédito público e outros documentos de arrecadação." }
+      ],
+      "fundamento_legal": "Código Penal, art. 298, caput e parágrafo único",
+      "pegadinha": "Confundir a equiparação do cartão (documento particular) com as equiparações a documento público do art. 297, § 2º.",
+      "o_que_mudou": "As alternativas deixaram de citar penas e passaram a cobrar só a equiparação legal e o tipo penal correspondente."
+    },
+    {
+      "id": 728,
+      "enunciado": "Abordado por guardas municipais em uma blitz, um homem com mandado de prisão em aberto informa verbalmente o nome e os dados do irmão para não ser conduzido à delegacia, sem apresentar nenhum documento. A conduta amolda-se, em tese, ao crime de",
+      "alternativas": [
+        { "letra": "A", "texto": "uso de documento falso, previsto no art. 304, por ter usado dados de identificação alheios." },
+        { "letra": "B", "texto": "uso de documento de identidade alheia, previsto no art. 308, por ter usado os dados do irmão." },
+        { "letra": "C", "texto": "falsa identidade, previsto no art. 307, crime subsidiário que dispensa a exibição de documento." },
+        { "letra": "D", "texto": "falsidade ideológica, prevista no art. 299, por envolver dado constante de registro público." }
+      ],
+      "gabarito": "C",
+      "comentario": "Atribuir-se falsa identidade para obter vantagem, em proveito próprio ou alheio, ou para causar dano a outrem configura o crime do art. 307 do CP, que é subsidiário: só incide se o fato não constitui elemento de crime mais grave. Basta a atribuição verbal, sem exibição de documento. MACETE DO RICCARDO: falou o nome do outro, art. 307; mostrou o documento do outro, art. 308. Fundamento: art. 307 do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 304 exige o uso de papel falsificado ou alterado (arts. 297 a 302); aqui nenhum documento foi apresentado." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 308 exige usar, como próprio, documento de identidade alheio; ele apenas informou verbalmente os dados do irmão." },
+        { "letra": "C", "correta": true, "justificativa": "Atribuir-se verbalmente identidade alheia para escapar da prisão é obter vantagem com falsa identidade, conduta do art. 307." },
+        { "letra": "D", "correta": false, "justificativa": "Não houve omissão ou inserção de declaração falsa em documento, núcleo do art. 299." }
+      ],
+      "fundamento_legal": "Código Penal, art. 307",
+      "pegadinha": "Confundir a falsa identidade verbal (art. 307) com o uso de documento de identidade alheio (art. 308) ou com o uso de documento falso (art. 304).",
+      "o_que_mudou": "As alternativas deixaram de trazer a pena de cada crime e passaram a explicar o enquadramento, com os elementos que distinguem os arts. 304, 307, 308 e 299."
+    },
+    {
+      "id": 729,
+      "enunciado": "Pessoa que empresta o próprio título de eleitor a um amigo, para que este dele se utilize, comete, segundo o Código Penal,",
+      "alternativas": [
+        { "letra": "A", "texto": "o crime do art. 308, que pune também quem cede a outrem documento de identidade próprio." },
+        { "letra": "B", "texto": "fato atípico, pois só é punido quem usa, como próprio, o documento de identidade alheio." },
+        { "letra": "C", "texto": "o crime de falsa identidade, por atribuir ao amigo uma identidade que não é a dele." },
+        { "letra": "D", "texto": "o crime de uso de documento falso do art. 304, por permitir que o amigo use o título." }
+      ],
+      "gabarito": "A",
+      "comentario": "O art. 308 do CP pune tanto quem usa, como próprio, passaporte, título de eleitor, caderneta de reservista ou documento de identidade alheio quanto quem cede a outrem, para que dele se utilize, documento dessa natureza, próprio ou de terceiro, se o fato não constitui elemento de crime mais grave. Quem empresta o próprio título pratica a modalidade ceder. Fundamento: art. 308 do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "A cessão do próprio documento de identidade para que outro o utilize está expressamente tipificada no art. 308." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 308 não pune só quem usa: a conduta de ceder documento, próprio ou de terceiro, também é crime." },
+        { "letra": "C", "correta": false, "justificativa": "Quem empresta o documento não se atribui nem atribui a terceiro falsa identidade pela palavra (art. 307); a cessão tem tipo próprio no art. 308." },
+        { "letra": "D", "correta": false, "justificativa": "O título é verdadeiro, logo não há papel falsificado ou alterado para o art. 304." }
+      ],
+      "fundamento_legal": "Código Penal, art. 308",
+      "pegadinha": "Achar que o art. 308 só alcança quem usa o documento alheio, esquecendo a modalidade de ceder o próprio documento.",
+      "o_que_mudou": "As alternativas deixaram de citar a pena dos crimes e passaram a cobrar o enquadramento e as modalidades de conduta do art. 308."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "auditorias": [
+    {
+      "id": 2741,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C. O art. 253 do CP inclui 'material destinado à sua fabricação' e não traz a elementar 'expondo a perigo', presente nos arts. 250 a 252. A (perigo concreto), B (material fora do tipo) e D (art. 251 exige expor a perigo mediante explosão, arremesso ou colocação de engenho) estão erradas. Alternativas não giram em torno de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2742,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: B. O art. 254 prevê no próprio preceito secundário a pena 'no caso de culpa' e o tipo exige expor a perigo a vida, a integridade física ou o patrimônio de outrem. A nega a culpa; C descreve o art. 255 (perigo de inundação), não a inundação; D nega a elementar do perigo. Única correta, sem foco em pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2743,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: D. O art. 255 pune destruir, em prédio próprio ou alheio, obra destinada a impedir inundação, expondo a perigo a vida, a integridade física ou o patrimônio de outrem, sem exigir a inundação. A contraria a expressão 'prédio próprio'; B exige inundação efetiva (art. 254), que não houve; C ignora o tipo específico de perigo comum. Sem foco em pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2745,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C. Ocultar, por ocasião de incêndio, material destinado a serviço de combate ao perigo (e dificultar esse serviço) é o art. 257. A (furto) não se aplica, pois não há subtração para si e há tipo específico; B pressupõe que o agente causou o incêndio (art. 250); D (art. 265) trata de serviço de água, luz, força, calor ou outro de utilidade pública. Única correta.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2746,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: B. A primeira parte do art. 258 qualifica o crime doloso de perigo comum quando resulta lesão corporal de natureza grave ou morte. A mistura com a forma culposa (qualquer lesão); C exclui a lesão grave, prevista expressamente; D restringe indevidamente a incêndio e explosão (o artigo fala em crime doloso de perigo comum em geral, e os arts. 263 e 285 ainda o estendem); E exclui a morte, que na forma dolosa dobra a pena. A questão cobra os resultados qualificadores, não a quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2747,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C. A parte final do art. 258 diz que, no caso de culpa, se resulta lesão corporal (sem exigir que seja grave) a pena aumenta, e se resulta morte aplica-se a pena do homicídio culposo aumentada de um terço. A aplica a exigência da forma dolosa; B nega a previsão expressa do caso de culpa; D converte em homicídio doloso sem base legal. Não cobra frações nem faixas de pena. Complementa a 2746 sem contradição.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2748,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: B. Energia elétrica é serviço de luz/força (art. 265, caput), e o parágrafo único prevê aumento se o dano ocorre em virtude de subtração de material essencial ao funcionamento dos serviços. A erra ao dizer 'apenas' furto, ignorando a hipótese expressa do art. 265; C (art. 266) protege serviços telegráficos, telefônicos, telemáticos e de informação, e seu § 2º, II, fala em equipamento de telecomunicações, não da rede elétrica; D (art. 262) trata de meio de transporte público. Única correta, sem cobrar fração de aumento.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2749,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C. O art. 267, § 1º, dobra a pena da forma dolosa se resulta morte, e o § 2º prevê a culpa com pena maior se resulta morte. A nega a culpa; B contraria a ressalva do art. 285 ('salvo quanto ao definido no art. 267'); D descreve o art. 268; E nega o efeito da morte na culpa, previsto no § 2º. Única correta, sem foco em quantidade de pena.",
+      "correcao_sugerida": null
+    }
+  ]
+}

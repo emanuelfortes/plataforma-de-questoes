@@ -1,0 +1,52 @@
+{
+  "auditorias": [
+    {
+      "id": 2091,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: a única correta é a equiparação do art. 311, § 2º (fita ou fio de aparelho eletromagnético com declaração destinada à prova de fato juridicamente relevante). A está errada (o caput abrange documento público ou particular); C está errada (o § 1º agrava para oficial ou quem exerce função em repartição militar); D está errada (alterar documento verdadeiro é núcleo do art. 311; o art. 312 é a falsidade ideológica); E está errada (o caput exige que o fato atente contra a administração ou o serviço militar). Nenhuma alternativa gira em torno de quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2093,
+      "status": "VALIDADA",
+      "justificativa": "Omitir indevidamente ato de ofício para satisfazer sentimento pessoal é prevaricação (art. 319). O enunciado afasta pedido e vantagem, o que exclui a corrupção passiva privilegiada (art. 308, § 2º, exige pedido ou influência de outrem) e o art. 320 (negócio incumbido pela administração e vantagem especulativa). O art. 322 pressupõe subordinado infrator, e o art. 324 exige inobservância de lei que dê causa direta a ato prejudicial, sem a motivação pessoal descrita. Alternativas cobram elementos dos tipos, não pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2095,
+      "status": "VALIDADA",
+      "justificativa": "O art. 321 pune quem inutiliza, total ou parcialmente, livro oficial de que tem a guarda em razão do cargo, exatamente o caso do sargento. O art. 338 trata de edital afixado e selo ou sinal oficial; o art. 316 exige destruir, suprimir ou ocultar em benefício próprio ou alheio ou em prejuízo alheio, elemento ausente no enunciado; o art. 337 é a figura geral, afastada pela especialidade do art. 321 (que não cede a crime mais grave, já que o art. 337 não é mais grave); o art. 322 é deixar de responsabilizar subordinado. Gabarito único e sustentado no texto.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2269,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C. O art. 48, parágrafo único, do CPM (redação da Lei 14.688/2023) mantém a imputabilidade quando a doença mental não suprime, mas diminui consideravelmente a capacidade de entendimento, e diz que a pena 'pode ser reduzida', sem prejuízo do art. 113, que permite substituir a pena privativa de liberdade por internação ou tratamento ambulatorial se o condenado necessitar de especial tratamento curativo. A e D tratam o semi-imputável como inimputável (A ainda usa a regra do menor, art. 50); B nega a facultatividade e a substituição; E nega a redução expressa. Única correta, sem foco em quantidade de pena. A ressalva antiga foi resolvida: o enunciado agora é uma só frase cujo sujeito as alternativas completam.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2296,
+      "status": "VALIDADA",
+      "justificativa": "Prevalecer-se o agente da situação de serviço é a qualificadora do art. 205, § 2º, VI. O relevante valor social ou moral e a violenta emoção logo após injusta provocação são minoração facultativa (§ 1º); a inobservância de regra técnica é aumento do homicídio culposo (art. 206, § 1º, I); lugar sujeito à administração militar e vítima militar da reserva não constam do § 2º. Única correta, sem foco em quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2298,
+      "status": "VALIDADA",
+      "justificativa": "A correta reproduz o art. 206, § 3º (incluído pela Lei 14.688/2023). A fuga para evitar flagrante e a omissão de socorro são causas de aumento do § 1º, II (A e D erradas); a multiplicidade de vítimas é aumento do § 2º, não concurso material (B errada); o aumento por regra técnica (§ 1º, I) independe do número de vítimas (C errada). Alternativas sem frações nem quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2299,
+      "status": "VALIDADA",
+      "justificativa": "O art. 209, § 6º, diz que, no caso de lesões levíssimas, o juiz pode considerar a infração como disciplinar. Nenhum dos demais institutos (serviços à comunidade, substituição por multa, extinção da punibilidade, perdão judicial por reparação) é previsto no dispositivo. Gabarito único; alternativas não giram em torno de quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2303,
+      "status": "VALIDADA",
+      "justificativa": "O art. 218, IV (redação da Lei 14.688/2023), prevê o aumento quando o crime é cometido na presença de inferior hierárquico do ofendido ou por meio que facilite a divulgação. A ofensa contra inferior não está no rol (o inciso II é contra superior); o inciso III exige ofensa em razão das funções; não há aumento por militar da reserva ou lugar sujeito à administração militar; carta lida só pelo ofendido não se enquadra no inciso IV. As alternativas cobram as hipóteses de aumento, não a fração.",
+      "correcao_sugerida": null
+    }
+  ]
+}

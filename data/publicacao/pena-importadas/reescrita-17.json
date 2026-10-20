@@ -1,0 +1,182 @@
+{
+  "itens": [
+    {
+      "id": 2490,
+      "enunciado": "Um cabo convoca colegas para uma reunião no alojamento, a fim de discutirem a punição disciplinar aplicada pelo comandante a um soldado. Outro soldado apenas comparece e participa da discussão. Não havendo crime mais grave, segundo o CPM:",
+      "alternativas": [
+        { "letra": "A", "texto": "só o cabo comete crime, pois quem apenas toma parte na reunião responde somente na esfera disciplinar." },
+        { "letra": "B", "texto": "ambos cometem reunião ilícita, pois o tipo alcança tanto quem promove a reunião quanto quem dela toma parte." },
+        { "letra": "C", "texto": "ambos cometem motim, pois basta a reunião de militares para discutir ato de superior para configurá-lo." },
+        { "letra": "D", "texto": "não há crime, pois o tipo exige que a reunião ocorra diante da tropa formada ou em local público." },
+        { "letra": "E", "texto": "ambos cometem conspiração, pois houve concerto entre militares para discutir o ato do comandante." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 165 do CPM pune quem promove a reunião de militares e também quem nela toma parte, quando o objetivo é discutir ato de superior ou assunto atinente à disciplina militar. O cabo promoveu e o soldado participou: os dois praticam reunião ilícita (a lei apenas trata com mais rigor quem promove). Não há motim, que exige reunião para agir contra ordem, recusar obediência ou praticar violência (art. 149), nem conspiração, que é o concerto para o motim (art. 152). Fundamento: art. 165 do CPM.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 165 tipifica expressamente a conduta de tomar parte na reunião; o participante também comete crime." },
+        { "letra": "B", "correta": true, "justificativa": "O tipo tem dois núcleos (promover e tomar parte), e a finalidade de discutir ato de superior está presente." },
+        { "letra": "C", "correta": false, "justificativa": "O motim do art. 149 exige reunião para agir contra ordem, negar-se a cumpri-la, praticar violência ou ocupar quartel; discutir o ato não basta." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 165 não exige que a reunião ocorra diante da tropa nem em local público; o alojamento basta." },
+        { "letra": "E", "correta": false, "justificativa": "A conspiração (art. 152) é o concerto para praticar motim, o que não houve; a reunião para discutir ato de superior tem tipo próprio." }
+      ],
+      "fundamento_legal": "Código Penal Militar (Decreto-Lei 1.001/1969), art. 165",
+      "pegadinha": "Achar que só o organizador responde ou confundir a reunião para discussão com motim e conspiração.",
+      "o_que_mudou": "Deixou de comparar as penas de quem promove e de quem participa; agora cobra o alcance do tipo e a diferença para motim e conspiração."
+    },
+    {
+      "id": 2491,
+      "enunciado": "Um tenente publica em rede social, sem licença, cópia de portaria do comando e critica publicamente ato de seu comandante. Não havendo crime mais grave, o CPM tipifica a conduta como:",
+      "alternativas": [
+        { "letra": "A", "texto": "incitamento, porque a crítica pública ao comandante estimula a indisciplina entre os demais militares." },
+        { "letra": "B", "texto": "desrespeito a superior, porque a crítica atinge diretamente a autoridade do comandante da unidade." },
+        { "letra": "C", "texto": "publicação ou crítica indevida, porque o tipo abrange divulgar documento oficial e criticar ato de superior." },
+        { "letra": "D", "texto": "recusa de obediência, porque o oficial deixa de acatar a determinação contida na portaria do comando." },
+        { "letra": "E", "texto": "fato atípico, porque a crítica em rede social é livre manifestação e só gera punição disciplinar." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 166 do CPM pune o militar ou assemelhado que publica, sem licença, ato ou documento oficial, ou critica publicamente ato de seu superior, assunto atinente à disciplina militar ou resolução do Governo, se o fato não constitui crime mais grave. O tenente fez as duas coisas, e a conduta se encaixa nesse tipo. Fundamento: art. 166 do CPM.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O incitamento (art. 155) exige incitar à desobediência, à indisciplina ou à prática de crime militar, o que o enunciado não descreve." },
+        { "letra": "B", "correta": false, "justificativa": "O desrespeito (art. 160) exige que o fato ocorra diante de outro militar; a crítica pública a ato de superior tem tipo próprio." },
+        { "letra": "C", "correta": true, "justificativa": "O art. 166 abrange publicar documento oficial sem licença e criticar publicamente ato de superior." },
+        { "letra": "D", "correta": false, "justificativa": "A recusa de obediência (art. 163) pressupõe deixar de cumprir ordem de serviço, e o tenente não descumpriu ordem alguma." },
+        { "letra": "E", "correta": false, "justificativa": "O CPM tipifica expressamente a crítica pública a ato de superior; o meio usado (rede social) não afasta o crime." }
+      ],
+      "fundamento_legal": "Código Penal Militar (Decreto-Lei 1.001/1969), art. 166",
+      "pegadinha": "Confundir a crítica pública com desrespeito a superior ou incitamento.",
+      "o_que_mudou": "As alternativas deixaram de trazer a pena de cada crime; agora cobram só a tipificação e o motivo."
+    },
+    {
+      "id": 2492,
+      "enunciado": "Nos termos do art. 187 do CPM, comete deserção o militar que se ausenta, sem licença, da unidade em que serve ou do lugar em que deve permanecer:",
+      "alternativas": [
+        { "letra": "A", "texto": "por mais de oito dias, de modo que o crime só se consuma depois de esgotado esse prazo de ausência." },
+        { "letra": "B", "texto": "por mais de cinco dias, prazo depois do qual a ausência deixa de ser mera transgressão disciplinar." },
+        { "letra": "C", "texto": "por mais de vinte e quatro horas, desde que não se apresente à autoridade militar do lugar." },
+        { "letra": "D", "texto": "por mais de trinta dias, prazo que a lei estabelece para a consumação do crime de deserção." },
+        { "letra": "E", "texto": "por qualquer tempo, pois a simples ausência sem licença já consuma o crime no primeiro dia." }
+      ],
+      "gabarito": "A",
+      "comentario": "A deserção do art. 187 do CPM exige ausência sem licença da unidade ou do lugar em que o militar deve permanecer por mais de oito dias. Antes de vencido esse prazo, não há deserção consumada. Os prazos de vinte e quatro horas e de cinco dias aparecem na deserção especial (art. 190), que tem outra estrutura. Fundamento: art. 187 do CPM.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Reproduz o prazo do art. 187: a deserção se consuma com a ausência por mais de oito dias." },
+        { "letra": "B", "correta": false, "justificativa": "Cinco dias é marco da deserção especial (art. 190, §§ 1º e 2º), não da deserção do art. 187." },
+        { "letra": "C", "correta": false, "justificativa": "Vinte e quatro horas e a apresentação à autoridade do lugar são elementos do art. 190, não do art. 187." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 187 fixa mais de oito dias; não existe prazo de trinta dias para a consumação." },
+        { "letra": "E", "correta": false, "justificativa": "A lei exige ausência por mais de oito dias; a ausência inferior não consuma a deserção." }
+      ],
+      "fundamento_legal": "Código Penal Militar (Decreto-Lei 1.001/1969), art. 187",
+      "pegadinha": "Trocar o prazo de oito dias do art. 187 pelos prazos de vinte e quatro horas e de cinco dias da deserção especial.",
+      "o_que_mudou": "Saiu a pena de cada alternativa; a questão agora cobra só o prazo e o momento de consumação da deserção."
+    },
+    {
+      "id": 2494,
+      "enunciado": "Sobre a atenuante especial e a agravante especial previstas no art. 189 do CPM para a deserção, é correto afirmar que:",
+      "alternativas": [
+        { "letra": "A", "texto": "a atenuante alcança a apresentação voluntária até sessenta dias após a consumação, com benefício maior se ocorrer em até oito dias." },
+        { "letra": "B", "texto": "a atenuante vale para todos os casos assimilados do art. 188, inclusive para quem simula incapacidade para obter a inatividade." },
+        { "letra": "C", "texto": "a atenuante exige que o desertor seja capturado e confesse a ausência, não bastando que se apresente voluntariamente à unidade." },
+        { "letra": "D", "texto": "a agravante incide quando a deserção ocorre em tempo de guerra, ainda que a unidade esteja estacionada no interior do país." },
+        { "letra": "E", "texto": "a apresentação voluntária dentro de oito dias extingue a punibilidade, de modo que o desertor não recebe pena nenhuma." }
+      ],
+      "gabarito": "A",
+      "comentario": "O art. 189 do CPM se aplica aos crimes dos arts. 187 e 188, I, II e III. O inciso I prevê atenuante especial para quem se apresenta voluntariamente: a redução é maior se a apresentação ocorre dentro de oito dias após a consumação e menor se ocorre depois de oito e até sessenta dias. O inciso II agrava a pena quando a deserção ocorre em unidade estacionada em fronteira ou país estrangeiro. Fundamento: art. 189, I e II, do CPM.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "O inciso I beneficia a apresentação voluntária em até sessenta dias, com redução maior se ocorrer dentro de oito dias." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 189 alcança só os incisos I, II e III do art. 188; o inciso IV (simular incapacidade) fica de fora." },
+        { "letra": "C", "correta": false, "justificativa": "A lei exige apresentação voluntária; a captura não dá direito à atenuante." },
+        { "letra": "D", "correta": false, "justificativa": "A agravante do inciso II depende de a unidade estar estacionada em fronteira ou país estrangeiro, não do tempo de guerra." },
+        { "letra": "E", "correta": false, "justificativa": "A apresentação em até oito dias diminui a pena, mas não extingue a punibilidade." }
+      ],
+      "fundamento_legal": "Código Penal Militar (Decreto-Lei 1.001/1969), art. 189, I e II",
+      "pegadinha": "Achar que a apresentação voluntária isenta de pena ou que a atenuante vale para todos os casos do art. 188.",
+      "o_que_mudou": "Deixou de pedir a fração de redução; agora cobra as hipóteses da atenuante e da agravante e os crimes a que se aplicam."
+    },
+    {
+      "id": 2495,
+      "enunciado": "Um sargento, tripulante de aeronave militar, deixa de se apresentar no momento da partida e só se apresenta à autoridade militar do lugar três dias depois. À luz do CPM, é correto afirmar que ele:",
+      "alternativas": [
+        { "letra": "A", "texto": "comete deserção especial, e a graduação de sargento é causa de aumento prevista para esse crime." },
+        { "letra": "B", "texto": "comete a deserção do art. 187, pois faltar à partida da aeronave dispensa o prazo de oito dias." },
+        { "letra": "C", "texto": "não comete crime, pois se apresentou antes de oito dias, restando apenas a transgressão disciplinar." },
+        { "letra": "D", "texto": "comete deserção especial, mas o aumento ligado ao posto ou à graduação se aplica só ao oficial." },
+        { "letra": "E", "texto": "comete abandono de posto, pois deixou o serviço que lhe fora designado antes de terminá-lo." }
+      ],
+      "gabarito": "A",
+      "comentario": "O art. 190 do CPM (deserção especial) pune o militar que deixa de se apresentar no momento da partida do navio ou aeronave de que é tripulante, ou do deslocamento da unidade. O crime existe mesmo que ele se apresente depois, e o tempo até a apresentação define a faixa de pena (caput e §§ 1º a 2º-A). O § 3º prevê aumento para sargento, subtenente ou suboficial e um aumento maior para oficial. Fundamento: art. 190, § 1º e § 3º, do CPM.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "A conduta é a do art. 190, e o § 3º aumenta a pena do sargento." },
+        { "letra": "B", "correta": false, "justificativa": "Faltar à partida de aeronave de que é tripulante tem tipo específico, o art. 190, e não se confunde com o art. 187." },
+        { "letra": "C", "correta": false, "justificativa": "Na deserção especial o crime existe ainda que o militar se apresente em vinte e quatro horas; o prazo de oito dias é do art. 187." },
+        { "letra": "D", "correta": false, "justificativa": "O § 3º prevê aumento também para sargento, subtenente ou suboficial, e não só para oficial." },
+        { "letra": "E", "correta": false, "justificativa": "O abandono de posto (art. 195) é deixar o serviço em curso; faltar à partida da aeronave é deserção especial." }
+      ],
+      "fundamento_legal": "Código Penal Militar (Decreto-Lei 1.001/1969), art. 190, § 1º e § 3º",
+      "pegadinha": "Achar que a apresentação antes de oito dias afasta o crime ou que o aumento do § 3º vale só para oficial.",
+      "o_que_mudou": "Saíram as faixas de pena e as frações; a questão agora cobra a tipificação da deserção especial e quem sofre a causa de aumento."
+    },
+    {
+      "id": 2736,
+      "enunciado": "De acordo com o Código Penal, quem causa incêndio em casa habitada, expondo a perigo a vida, a integridade física ou o patrimônio de outrem, comete:",
+      "alternativas": [
+        { "letra": "A", "texto": "incêndio com causa de aumento, pois a casa habitada está entre os locais que elevam a pena do crime." },
+        { "letra": "B", "texto": "incêndio na forma simples, pois a casa habitada só gera aumento se o fogo resultar em morte de morador." },
+        { "letra": "C", "texto": "dano qualificado, pois o fogo atinge patrimônio alheio e o perigo comum é mero exaurimento da conduta." },
+        { "letra": "D", "texto": "incêndio com causa de aumento, desde que se prove que o agente buscava obter vantagem pecuniária." }
+      ],
+      "gabarito": "A",
+      "comentario": "O incêndio (art. 250 do CP) é crime de perigo comum: causar incêndio expondo a perigo a vida, a integridade física ou o patrimônio de outrem. O § 1º, II, a, prevê causa de aumento quando o incêndio é em casa habitada ou destinada a habitação. A finalidade de vantagem pecuniária (inciso I) é outra hipótese, independente. Fundamento: art. 250, caput e § 1º, II, a, do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "A casa habitada consta do § 1º, II, a, do art. 250 como hipótese de aumento." },
+        { "letra": "B", "correta": false, "justificativa": "O aumento do § 1º incide pelo local atingido; o resultado morte é tratado no art. 258, que é outra regra." },
+        { "letra": "C", "correta": false, "justificativa": "Quando há exposição de vida, integridade ou patrimônio de outrem a perigo, o fato é incêndio, crime de perigo comum, e não dano." },
+        { "letra": "D", "correta": false, "justificativa": "A vantagem pecuniária (inciso I) e o local atingido (inciso II) são hipóteses autônomas; basta uma delas." }
+      ],
+      "fundamento_legal": "Código Penal (Decreto-Lei 2.848/1940), art. 250, caput e § 1º, II, a",
+      "pegadinha": "Exigir vantagem pecuniária para o aumento ou confundir incêndio com dano.",
+      "o_que_mudou": "Deixou de comparar penas e frações; agora cobra a tipificação e a hipótese da causa de aumento."
+    },
+    {
+      "id": 2739,
+      "enunciado": "Acerca da modalidade culposa do crime de explosão (art. 251, § 3º, do CP), é correto afirmar que:",
+      "alternativas": [
+        { "letra": "A", "texto": "a lei a prevê e distingue o tratamento conforme a explosão seja ou não de dinamite ou substância análoga." },
+        { "letra": "B", "texto": "não há forma culposa para a explosão, que só admite punição a título de dolo, ao contrário do incêndio." },
+        { "letra": "C", "texto": "a lei a prevê só para a explosão de dinamite, sendo atípica a explosão culposa de outras substâncias." },
+        { "letra": "D", "texto": "a lei a prevê, mas exige que da explosão resulte lesão corporal, pois o perigo culposo não é punido." }
+      ],
+      "gabarito": "A",
+      "comentario": "O § 3º do art. 251 do CP pune a explosão culposa e separa duas situações: a explosão de dinamite ou substância de efeitos análogos e os demais casos, com tratamento mais brando. Como crime de perigo comum, basta a exposição a perigo; o resultado lesão ou morte é tratado no art. 258. Fundamento: art. 251, § 3º, do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "O § 3º prevê a forma culposa e diferencia a dinamite ou análoga dos demais casos." },
+        { "letra": "B", "correta": false, "justificativa": "O § 3º prevê expressamente a modalidade culposa da explosão." },
+        { "letra": "C", "correta": false, "justificativa": "O § 3º também pune a explosão culposa de outras substâncias (\"nos demais casos\")." },
+        { "letra": "D", "correta": false, "justificativa": "A explosão culposa é crime de perigo: basta expor a perigo; a lesão é tratada no art. 258 como resultado mais grave." }
+      ],
+      "fundamento_legal": "Código Penal (Decreto-Lei 2.848/1940), art. 251, § 3º",
+      "pegadinha": "Achar que a explosão não tem forma culposa ou que só a dinamite a admite.",
+      "o_que_mudou": "Saíram as faixas de pena; a questão agora cobra a existência e a estrutura da forma culposa."
+    },
+    {
+      "id": 2740,
+      "enunciado": "Quem expõe a perigo a vida, a integridade física ou o patrimônio de outrem, usando de gás tóxico ou asfixiante, comete:",
+      "alternativas": [
+        { "letra": "A", "texto": "o crime de explosão, pois o gás tóxico é tratado como substância de efeitos análogos à dinamite." },
+        { "letra": "B", "texto": "o crime de uso de gás tóxico ou asfixiante, que também admite a modalidade culposa na lei." },
+        { "letra": "C", "texto": "o crime do art. 253, que pune possuir ou transportar gás tóxico sem licença da autoridade." },
+        { "letra": "D", "texto": "o crime de uso de gás tóxico ou asfixiante, punido só na forma dolosa, sem previsão culposa." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 252 do CP tipifica o uso de gás tóxico ou asfixiante: expor a perigo a vida, a integridade física ou o patrimônio de outrem usando esse meio. O parágrafo único prevê a modalidade culposa. O art. 253 é outro crime: fabricar, fornecer, adquirir, possuir ou transportar o gás sem licença, sem exigir o uso. Fundamento: art. 252, caput e parágrafo único, do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A explosão (art. 251) envolve explosão ou engenho explosivo; o gás tóxico tem tipo próprio no art. 252." },
+        { "letra": "B", "correta": true, "justificativa": "É o crime do art. 252, cujo parágrafo único prevê a forma culposa." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 253 pune fabricar, possuir ou transportar sem licença; quem usa o gás expondo pessoas a perigo responde pelo art. 252." },
+        { "letra": "D", "correta": false, "justificativa": "O parágrafo único do art. 252 prevê expressamente a modalidade culposa." }
+      ],
+      "fundamento_legal": "Código Penal (Decreto-Lei 2.848/1940), art. 252, caput e parágrafo único",
+      "pegadinha": "Confundir o uso do gás (art. 252) com a posse ou o transporte sem licença (art. 253).",
+      "o_que_mudou": "As alternativas deixaram de ser faixas de pena; agora cobram a tipificação, a forma culposa e a diferença para o art. 253."
+    }
+  ]
+}

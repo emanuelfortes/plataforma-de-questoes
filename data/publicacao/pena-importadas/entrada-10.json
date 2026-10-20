@@ -1,0 +1,260 @@
+{
+  "itens": [
+    {
+      "id": 1812,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Crimes de Racismo",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--crimes-de-racismo.md",
+      "atual": {
+        "enunciado": "Durante abordagem com viatura, um agente de segurança pública ofende a dignidade do abordado em razão da cor deste. Considerando o art. 20-B da Lei 7.716/1989, assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "A pena da injúria racial será aumentada de metade, pois o aumento por ser funcionário público tem fração fixa."
+          },
+          {
+            "letra": "B",
+            "texto": "A pena da injúria racial será aumentada de um terço até a metade, pois o agente estava no exercício das funções."
+          },
+          {
+            "letra": "C",
+            "texto": "Não incide aumento, pois o art. 20-B alcança apenas os crimes de impedimento de acesso previstos nos arts. 3º a 14."
+          },
+          {
+            "letra": "D",
+            "texto": "Não incide aumento, pois o art. 20-B só se aplica a quem age a pretexto de exercer funções, e não no seu exercício."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O art. 20-B, incluído pela Lei 14.532/2023, prevê que os crimes dos arts. 2º-A e 20 terão as penas aumentadas de um terço até a metade quando praticados por funcionário público, conforme definição do Código Penal, no exercício de suas funções ou a pretexto de exercê-las. A injúria racial cometida em abordagem policial enquadra-se na hipótese. Análise das alternativas: A) Errada, a fração é variável, de um terço até a metade. B) Correta, conjuga o art. 2º-A com o art. 20-B. C) Errada, o art. 20-B alcança os crimes dos arts. 2º-A e 20, e não os dos arts. 3º a 14. D) Errada, o dispositivo abrange tanto o exercício das funções quanto o pretexto de exercê-las. Fundamento: Lei 7.716/1989, arts. 2º-A e 20-B.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1814,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Crimes de Racismo",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--crimes-de-racismo.md",
+      "atual": {
+        "enunciado": "De acordo com o art. 5º, XLII, da Constituição Federal, a prática do racismo constitui crime:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "afiançável e imprescritível, sujeito à pena de reclusão."
+          },
+          {
+            "letra": "B",
+            "texto": "inafiançável e prescritível, sujeito à pena de detenção."
+          },
+          {
+            "letra": "C",
+            "texto": "inafiançável e imprescritível, sujeito à pena de reclusão."
+          },
+          {
+            "letra": "D",
+            "texto": "inafiançável e insuscetível de graça, sujeito à pena de detenção."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "A Constituição Federal, no art. 5º, XLII, estabelece que a prática do racismo constitui crime inafiançável e imprescritível, sujeito à pena de reclusão, nos termos da lei. Os tipos da Lei 7.716/1989 que cominam pena privativa de liberdade preveem reclusão. Análise das alternativas: A) Errada, o crime é inafiançável. B) Errada, o crime é imprescritível e a pena é de reclusão. C) Correta, reproduz o mandamento constitucional. D) Errada, a Constituição menciona imprescritibilidade, não insuscetibilidade de graça, e a pena é de reclusão. MACETE DO RICCARDO: RAcismo = Reclusão, inAfiançável e imprescritível. Fundamento: CF, art. 5º, XLII.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1824,
+      "disciplina": "Direito Penal",
+      "assunto": "Consumação, Tentativa e Desistência",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--consumacao-tentativa-e-desistencia.md",
+      "atual": {
+        "enunciado": "Salvo disposição em contrário, o Código Penal pune a tentativa com:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "a pena correspondente ao crime consumado, diminuída de um a dois terços."
+          },
+          {
+            "letra": "B",
+            "texto": "a pena correspondente ao crime consumado, diminuída de um sexto a um terço."
+          },
+          {
+            "letra": "C",
+            "texto": "a mesma pena do crime consumado, sem diminuição, cabendo ao juiz dosá-la."
+          },
+          {
+            "letra": "D",
+            "texto": "a pena do crime consumado diminuída pela metade, em fração fixa."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O parágrafo único do art. 14 estabelece que, salvo disposição em contrário, a tentativa é punida com a pena do crime consumado diminuída de um a dois terços. A ressalva inicial indica que lei especial pode trazer regra diversa. Análise das alternativas: A) Correta, reproduz a regra legal. B) Errada, a fração de um sexto a um terço não é a prevista para a tentativa. C) Errada, como regra a tentativa tem pena diminuída; a punição igual ao consumado depende de disposição em contrário. D) Errada, a lei prevê uma faixa (um a dois terços), e não fração fixa da metade. Fundamento: art. 14, parágrafo único, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1885,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Estatuto da Pessoa Idosa",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--estatuto-da-pessoa-idosa.md",
+      "atual": {
+        "enunciado": "Cuidadora contratada para acompanhar uma senhora de 84 anos passa a humilhá-la e menosprezá-la diariamente, inclusive diante de visitas. Considerando o art. 96 do Estatuto da Pessoa Idosa, a cuidadora:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "não pratica crime do Estatuto, pois humilhar a pessoa idosa só é típico quando a motivação é a idade da vítima."
+          },
+          {
+            "letra": "B",
+            "texto": "responde pelo crime do art. 96, § 1º, com pena aumentada de metade, por ser a vítima maior de 80 anos."
+          },
+          {
+            "letra": "C",
+            "texto": "responde pelo crime do art. 96, § 1º, sem causa de aumento, pois o vínculo de cuidado não altera a pena."
+          },
+          {
+            "letra": "D",
+            "texto": "responde pelo crime do art. 96, § 1º, com pena aumentada de 1/3, por estar a vítima sob sua responsabilidade."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "Incorre na pena do art. 96 quem desdenhar, humilhar, menosprezar ou discriminar pessoa idosa, por qualquer motivo. A pena é aumentada de 1/3 se a vítima estiver sob os cuidados ou responsabilidade do agente, como ocorre com a cuidadora. Análise das alternativas: A) Errada: o § 1º diz por qualquer motivo. B) Errada: o aumento é de 1/3 e decorre do vínculo de cuidado, não da idade acima de 80 anos. C) Errada: o vínculo de cuidado é justamente a causa de aumento do § 2º. D) Correta: § 1º combinado com § 2º. Fundamento: art. 96, §§ 1º e 2º, da Lei nº 10.741/2003. MACETE DO RICCARDO: no art. 96, quem cuida e humilha leva mais um terço.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1888,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Estatuto da Pessoa Idosa",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--estatuto-da-pessoa-idosa.md",
+      "atual": {
+        "enunciado": "Filha que, obrigada por lei a prover as necessidades básicas da mãe idosa, interna-a em hospital e, após a alta, deixa de buscá-la e não dá mais notícias, pratica, em tese, o crime do art. 98 do Estatuto, punido com:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "detenção de 6 meses a 3 anos, sem multa."
+          },
+          {
+            "letra": "B",
+            "texto": "detenção de 6 meses a 1 ano e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "reclusão de 2 a 5 anos."
+          },
+          {
+            "letra": "D",
+            "texto": "detenção de 6 meses a 3 anos e multa."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "Abandonar a pessoa idosa em hospitais, casas de saúde ou entidades de longa permanência, ou não prover suas necessidades básicas quando obrigado por lei ou mandado, configura o crime do art. 98, punido com detenção de 6 meses a 3 anos e multa. Análise das alternativas: A) Errada: o prazo coincide, mas a lei comina também multa. B) Errada: é a pena do art. 97. C) Errada: é a pena do art. 99, caput. D) Correta. Fundamento: art. 98 da Lei nº 10.741/2003.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1890,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Estatuto da Pessoa Idosa",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--estatuto-da-pessoa-idosa.md",
+      "atual": {
+        "enunciado": "Responsável legal por idoso de 77 anos mantém-no em cômodo insalubre, privando-o de alimentos e cuidados indispensáveis. Em razão dessas condições, o idoso morre. Considerando o art. 99 do Estatuto da Pessoa Idosa, a pena cominada é de:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "reclusão de 3 a 7 anos."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão de 2 a 5 anos, triplicada."
+          },
+          {
+            "letra": "C",
+            "texto": "reclusão de 8 a 14 anos."
+          },
+          {
+            "letra": "D",
+            "texto": "detenção de 4 a 12 anos."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O art. 99 tem forma simples (reclusão de 2 a 5 anos) e duas formas qualificadas pelo resultado: lesão corporal grave (reclusão de 3 a 7 anos) e morte (reclusão de 8 a 14 anos). Análise das alternativas: A) Errada: é a pena do resultado lesão grave. B) Errada: a triplicação é a majorante do art. 97, não do art. 99. C) Correta: resultado morte, § 2º. D) Errada: a pena é de reclusão, com limites de 8 a 14 anos. Fundamento: art. 99, caput, §§ 1º e 2º, da Lei nº 10.741/2003. MACETE DO RICCARDO: no art. 99, a escada é 2-5, 3-7, 8-14.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1891,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Estatuto da Pessoa Idosa",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--estatuto-da-pessoa-idosa.md",
+      "atual": {
+        "enunciado": "O crime de apropriar-se de ou desviar bens, proventos, pensão ou qualquer outro rendimento da pessoa idosa, dando-lhes aplicação diversa da de sua finalidade (art. 102 do Estatuto), é punido com:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "detenção de 6 meses a 2 anos e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão de 1 a 4 anos e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "reclusão de 2 a 4 anos."
+          },
+          {
+            "letra": "D",
+            "texto": "detenção de 1 a 3 anos e multa."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "A apropriação ou o desvio de bens e rendimentos da pessoa idosa é punido com reclusão de 1 a 4 anos e multa. Análise das alternativas: A) Errada: é a pena da retenção de cartão (art. 104). B) Correta. C) Errada: é a pena dos arts. 106 e 108. D) Errada: é a pena do art. 105. Fundamento: art. 102 da Lei nº 10.741/2003.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1892,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Estatuto da Pessoa Idosa",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--estatuto-da-pessoa-idosa.md",
+      "atual": {
+        "enunciado": "Dono de mercearia exige que cliente de 66 anos lhe entregue o cartão magnético da conta em que recebe aposentadoria e o retém para garantir o pagamento de compras fiadas. A conduta:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "configura o crime do art. 104 do Estatuto, punido com detenção de 6 meses a 2 anos e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "configura o crime do art. 102 do Estatuto, punido com reclusão de 1 a 4 anos e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "é atípica perante o Estatuto, pois a retenção visou assegurar o recebimento de dívida legítima do comerciante."
+          },
+          {
+            "letra": "D",
+            "texto": "configura o crime do art. 107 do Estatuto, punido com reclusão de 2 a 5 anos."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "Reter o cartão magnético de conta relativa a benefícios, proventos ou pensão da pessoa idosa, com o objetivo de assegurar recebimento ou ressarcimento de dívida, é exatamente o crime do art. 104. A existência da dívida não afasta o crime; ela é a própria finalidade descrita no tipo. Análise das alternativas: A) Correta. B) Errada: não houve apropriação ou desvio de rendimentos, mas retenção do cartão. C) Errada: o objetivo de garantir dívida integra o tipo do art. 104. D) Errada: não houve coação para doar, contratar, testar ou outorgar procuração. Fundamento: art. 104 da Lei nº 10.741/2003.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    }
+  ]
+}

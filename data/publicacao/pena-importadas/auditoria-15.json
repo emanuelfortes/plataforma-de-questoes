@@ -1,0 +1,52 @@
+{
+  "auditorias": [
+    {
+      "id": 2304,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: B reproduz o art. 216, § 1º, I, do CPM (incluído pela Lei 14.688/2023). A está errada (art. 217: 'além da pena correspondente à violência'); C está errada (a injúria qualificada do § 2º usa elementos de raça, cor, etnia, religião, origem, orientação sexual, idade ou deficiência; a condição funcional é aumento do art. 218, III); D está errada (retorsão imediata permite deixar de aplicar a pena, § 1º, II); E está errada (art. 218, IV, traz hipóteses alternativas). Uma só correta, alternativas sem quantidade de pena, comentário fiel ao texto.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2307,
+      "status": "VALIDADA",
+      "justificativa": "D corresponde ao art. 240, § 1º, do CPM (o juiz pode considerar a infração como disciplinar), e o caso do enunciado preenche os requisitos (primário, valor até um décimo do mais alto salário mínimo). A está errada (o § 1º não exige reparação); B está errada (o § 2º exige restituição antes de instaurada a ação penal); C está errada (o § 7º manda aplicar a atenuação do § 2º aos casos do § 6º, que inclui o rompimento de obstáculo); E está errada (o pequeno valor é um décimo, não um salário mínimo). Não cobra frações de diminuição.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2309,
+      "status": "VALIDADA",
+      "justificativa": "A subtração para uso momentâneo com restituição imediata ao lugar onde se achava é o furto de uso do art. 241 do CPM, e o parágrafo único (Lei 14.688/2023) prevê aumento quando a coisa é veículo motorizado, embarcação, aeronave ou arma. A é a única correta. B (furto qualificado do § 5º) não se aplica sem ânimo de assenhoramento; C erra o rol; D erra (furto de uso é crime, a restituição é elementar); E erra (não havia posse ou detenção anterior, art. 248). As alternativas cobram tipificação, não quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2310,
+      "status": "VALIDADA",
+      "justificativa": "O art. 242, § 3º, do CPM configura o latrocínio quando o agente ocasiona dolosamente a morte para praticar o roubo, assegurar a impunidade ou a detenção da coisa, 'sendo irrelevante se a lesão patrimonial deixa de consumar-se'. E é a única correta. A erra (há tipo específico); B erra (o § 2º, VI, pressupõe morte não querida nem assumida); C erra (o próprio § 3º afasta a tentativa pela falta da subtração); D erra (o roubo impróprio do § 1º não abrange a morte dolosa, que leva ao § 3º). Não pergunta a pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2312,
+      "status": "VALIDADA",
+      "justificativa": "Quem acha coisa alheia perdida e dela se apropria, deixando de restituí-la ou entregá-la à autoridade dentro de quinze dias, comete apropriação de coisa achada (art. 249, parágrafo único, do CPM). Vinte dias excedem o prazo: C é a única correta. A (não houve subtração), B (não havia posse ou detenção anterior, art. 248), D (não houve fraude) e E (o prazo é de quinze dias) estão erradas. Alternativas sem quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2313,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: B. Vender coisa alheia como própria é a disposição de coisa alheia como própria do art. 251, § 1º, I, do CPM, que incorre nas mesmas penas do estelionato. A exige posse ou detenção que o enunciado não dá; C não há subtração; D a receptação (art. 254) exige coisa proveniente de crime; E o CPM prevê a figura, e o § 2º a trata como crime militar nos casos do art. 9º, II, 'a' e 'e'. Única correta, sem foco em quantidade de pena. A ressalva antiga foi resolvida: o comentário deixou de afirmar como certo o enquadramento no art. 9º, II, 'a', e registra que, com comprador civil, ele depende de se considerar o dono militar como vítima; a alternativa correta não depende desse ponto.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2314,
+      "status": "VALIDADA",
+      "justificativa": "E reproduz a receptação qualificada do art. 254, § 2º, do CPM (Lei 14.688/2023). A erra (o caput abrange adquirir, receber ou ocultar, em proveito próprio ou alheio); B erra (art. 256); C erra (na culposa basta que a coisa deva presumir-se obtida por meio criminoso, art. 255); D erra (o perdão do art. 255, parágrafo único, exige primariedade e valor até um décimo do salário mínimo, não restituição; o § 1º do art. 254, que remete ao art. 240, §§ 1º e 2º, é da dolosa). Uma só correta, sem quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2315,
+      "status": "VALIDADA",
+      "justificativa": "A corresponde ao art. 261, III, do CPM (dano por motivo egoístico ou com prejuízo considerável). B erra (art. 260, parágrafo único: reparação antes de instaurada a ação penal); C erra (o art. 259 traz 'fazer desaparecer'); D erra (o art. 262 diz 'pertencentes ou não às fôrças armadas'); E erra (o limite é um décimo do salário mínimo). Uma só correta, alternativas sobre condutas e requisitos, não sobre quantidade de pena.",
+      "correcao_sugerida": null
+    }
+  ]
+}

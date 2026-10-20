@@ -1,0 +1,280 @@
+{
+  "itens": [
+    {
+      "id": 2490,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Autoridade, a Disciplina e o Serviço Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "Quanto ao crime de reunião ilícita (art. 165 do CPM), que consiste em promover reunião de militares, ou dela participar, para discussão de ato de superior ou assunto atinente à disciplina militar, as penas são:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "detenção de seis meses a um ano, tanto para quem promove quanto para quem participa."
+          },
+          {
+            "letra": "B",
+            "texto": "detenção de dois a seis meses para quem promove; de seis meses a um ano para quem participa."
+          },
+          {
+            "letra": "C",
+            "texto": "detenção de seis meses a um ano para quem promove; de dois a seis meses para quem participa."
+          },
+          {
+            "letra": "D",
+            "texto": "reclusão de dois a quatro anos para quem promove; detenção de seis meses a um ano a quem participa."
+          },
+          {
+            "letra": "E",
+            "texto": "detenção de um a dois anos para quem promove; o participante responde só na esfera disciplinar."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O art. 165 diferencia as penas conforme a conduta: quem promove a reunião recebe detenção de seis meses a um ano; quem dela participa, detenção de dois a seis meses, se o fato não constitui crime mais grave. A diferença se justifica pela maior reprovabilidade de quem organiza. Análise das alternativas: A) Errada: as penas são distintas para promotor e participante. B) Errada: as penas estão invertidas. C) Correta: reproduz as duas penas do art. 165. D) Errada: as penas são de detenção, e as faixas estão incorretas. E) Errada: o participante também comete crime, com pena de dois a seis meses. Fundamento: art. 165 do CPM. MACETE DO RICCARDO: quem PROMOVE leva mais (6m a 1a); quem só PARTICIPA leva menos (2 a 6m).",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2491,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Autoridade, a Disciplina e o Serviço Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "Um tenente publica em rede social, sem licença, cópia de portaria do comando e critica publicamente ato de seu comandante. Não havendo crime mais grave, o CPM tipifica a conduta como:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "incitamento, punido com reclusão de dois a quatro anos."
+          },
+          {
+            "letra": "B",
+            "texto": "desrespeito a superior, com detenção de três meses a um ano, aumentada da metade."
+          },
+          {
+            "letra": "C",
+            "texto": "publicação ou crítica indevida, com detenção de seis meses a dois anos."
+          },
+          {
+            "letra": "D",
+            "texto": "publicação ou crítica indevida, com reclusão de dois a quatro anos."
+          },
+          {
+            "letra": "E",
+            "texto": "publicação ou crítica indevida, com detenção de dois meses a um ano."
+          }
+        ],
+        "gabarito": "E",
+        "comentario": "O art. 166 pune o militar ou assemelhado que publica, sem licença, ato ou documento oficial, ou critica publicamente ato de seu superior, assunto atinente à disciplina militar ou qualquer resolução do Governo. A pena é de detenção, de dois meses a um ano, se o fato não constitui crime mais grave. Análise das alternativas: A) Errada: não houve incitação à desobediência ou à prática de crime, mas publicação e crítica. B) Errada: o desrespeito exige que o fato ocorra diante de outro militar; a crítica pública tem tipo próprio. C) Errada: a pena é de dois meses a um ano. D) Errada: a pena é de detenção, não de reclusão. E) Correta: tipo e pena do art. 166. Fundamento: art. 166 do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2492,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Autoridade, a Disciplina e o Serviço Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "Nos termos do art. 187 do CPM, comete deserção o militar que se ausenta, sem licença, da unidade em que serve ou do lugar em que deve permanecer:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "por mais de oito dias, com pena de detenção de seis meses a dois anos."
+          },
+          {
+            "letra": "B",
+            "texto": "por mais de oito dias, com pena de reclusão de dois a quatro anos."
+          },
+          {
+            "letra": "C",
+            "texto": "por mais de cinco dias, com pena de detenção de seis meses a dois anos."
+          },
+          {
+            "letra": "D",
+            "texto": "por mais de vinte e quatro horas, com pena de detenção de até três meses."
+          },
+          {
+            "letra": "E",
+            "texto": "por mais de trinta dias, com pena de detenção de três meses a um ano."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "A deserção exige ausência sem licença por mais de oito dias (o chamado prazo de graça). A pena é de detenção, de seis meses a dois anos; se o agente for oficial, a pena é agravada. Antes de completar oito dias, não há deserção. Análise das alternativas: A) Correta: reproduz o prazo e a pena do art. 187. B) Errada: reclusão de dois a quatro anos é a pena do concerto para deserção consumada. C) Errada: o prazo é de mais de oito dias. D) Errada: vinte e quatro horas e até três meses aparecem na deserção especial (art. 190). E) Errada: o prazo legal é de mais de oito dias, e a pena está incorreta. Fundamento: art. 187 do CPM. MACETE DO RICCARDO: deserção = OITO dias de graça; no nono, o crime está consumado.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2494,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Autoridade, a Disciplina e o Serviço Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "Um soldado consuma o crime de deserção do art. 187 do CPM e se apresenta voluntariamente vinte dias após a consumação. A unidade não está estacionada em fronteira. Pela atenuante especial do art. 189, a pena:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "é diminuída de metade, porque a apresentação ocorreu dentro de sessenta dias."
+          },
+          {
+            "letra": "B",
+            "texto": "é diminuída de um terço, porque a apresentação ocorreu após oito e até sessenta dias."
+          },
+          {
+            "letra": "C",
+            "texto": "é diminuída de um sexto, porque a apresentação ocorreu depois de oito dias da consumação."
+          },
+          {
+            "letra": "D",
+            "texto": "não sofre redução, porque a atenuante se limita à apresentação dentro de oito dias."
+          },
+          {
+            "letra": "E",
+            "texto": "deixa de ser aplicada, porque houve apresentação voluntária antes de sessenta dias."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "Nos crimes dos arts. 187 e 188, I, II e III, o art. 189, I, prevê atenuante especial para a apresentação voluntária: se ocorrer dentro de oito dias após a consumação, a pena é diminuída de metade; se depois de oito dias e até sessenta, de um terço. O inciso II agrava a pena de um terço se a deserção ocorre em unidade estacionada em fronteira ou país estrangeiro. Análise das alternativas: A) Errada: a redução de metade exige apresentação em até oito dias. B) Correta: vinte dias está na faixa de mais de oito até sessenta dias. C) Errada: a fração legal é de um terço. D) Errada: a lei também beneficia a apresentação entre oito e sessenta dias. E) Errada: a lei prevê diminuição de pena, não isenção. Fundamento: art. 189, I, do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2495,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Autoridade, a Disciplina e o Serviço Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "Um sargento, tripulante de aeronave militar, deixa de se apresentar no momento da partida e só se apresenta à autoridade militar do lugar três dias depois. Segundo o art. 190 do CPM (deserção especial), a pena é de:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "detenção, de seis meses a dois anos, agravada por se tratar de praça graduada."
+          },
+          {
+            "letra": "B",
+            "texto": "detenção, de até três meses, aumentada de metade."
+          },
+          {
+            "letra": "C",
+            "texto": "detenção, de três meses a um ano, aumentada de um terço."
+          },
+          {
+            "letra": "D",
+            "texto": "detenção, de dois a oito meses, aumentada de um terço."
+          },
+          {
+            "letra": "E",
+            "texto": "detenção, de dois a oito meses, aumentada de metade."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "Na deserção especial, a pena varia conforme o tempo até a apresentação: até vinte e quatro horas, detenção de até três meses; mais de vinte e quatro horas e até cinco dias, de dois a oito meses (§ 1º); mais de cinco e até oito dias, de três meses a um ano (§ 2º); mais de oito dias, de seis meses a dois anos (§ 2º-A). O § 3º aumenta a pena de um terço para sargento, subtenente ou suboficial, e de metade para oficial. Análise das alternativas: A) Errada: essa faixa é para apresentação após mais de oito dias. B) Errada: até três meses vale para apresentação em vinte e quatro horas, e o aumento de metade é para oficial. C) Errada: três meses a um ano corresponde a mais de cinco até oito dias. D) Correta: três dias está no § 1º, com aumento de um terço por ser sargento. E) Errada: o aumento de metade é para oficial. Fundamento: art. 190, §§ 1º e 3º, do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2736,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Incolumidade Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-incolumidade-publica.md",
+      "atual": {
+        "enunciado": "De acordo com o Código Penal, o crime de incêndio (art. 250) praticado em casa habitada sujeita o agente à:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "pena de reclusão, de três a seis anos, e multa, aumentada de um terço."
+          },
+          {
+            "letra": "B",
+            "texto": "pena de reclusão, de três a seis anos, e multa, aumentada de metade."
+          },
+          {
+            "letra": "C",
+            "texto": "pena de detenção, de seis meses a dois anos, e multa, aumentada de um terço."
+          },
+          {
+            "letra": "D",
+            "texto": "pena de reclusão, de três a seis anos, e multa, aplicada em dobro."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O incêndio doloso é punido com reclusão de três a seis anos, e multa. O § 1º prevê aumento de um terço quando o fogo atinge, entre outros locais, casa habitada ou destinada a habitação. Análise das alternativas: A) Correta: pena-base do caput com o aumento de um terço do § 1º, II, a. B) Errada: o aumento do § 1º é de um terço, não de metade (metade aparece no art. 258 para lesão grave). C) Errada: detenção de seis meses a dois anos, sem multa, é a pena do incêndio culposo (§ 2º). D) Errada: a aplicação em dobro é a do art. 258 quando do crime doloso resulta morte. Fundamento: art. 250, caput e § 1º, II, a, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2739,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Incolumidade Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-incolumidade-publica.md",
+      "atual": {
+        "enunciado": "Acerca da modalidade culposa do crime de explosão (art. 251, § 3º, do CP), é correto afirmar que:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "a pena é de detenção, de seis meses a dois anos, qualquer que seja a substância usada."
+          },
+          {
+            "letra": "B",
+            "texto": "a pena é de detenção, de três meses a um ano, se a explosão for de dinamite ou análoga."
+          },
+          {
+            "letra": "C",
+            "texto": "não há forma culposa para a explosão, que só admite punição a título de dolo."
+          },
+          {
+            "letra": "D",
+            "texto": "a pena é de detenção, de seis meses a dois anos, se a explosão for de dinamite ou análoga."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "A explosão culposa tem pena escalonada conforme a substância: se é de dinamite ou de efeitos análogos, detenção de seis meses a dois anos; nos demais casos, detenção de três meses a um ano. Análise das alternativas: A) Errada: a lei distingue a substância; a pena de seis meses a dois anos vale só para dinamite ou análoga. B) Errada: inverte as penas; três meses a um ano corresponde aos demais casos. C) Errada: o § 3º prevê expressamente a modalidade culposa. D) Correta: reproduz a primeira parte do § 3º. Fundamento: art. 251, § 3º, do CP. MACETE DO RICCARDO: explosivo forte, pena forte; dinamite culposa = 6m a 2a; o resto = 3m a 1a.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2740,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Incolumidade Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-incolumidade-publica.md",
+      "atual": {
+        "enunciado": "Quem expõe a perigo a vida, a integridade física ou o patrimônio de outrem, usando de gás tóxico ou asfixiante, comete crime que, na forma dolosa, é punido com:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "reclusão, de um a quatro anos, e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão, de três a seis anos, e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "detenção, de três meses a um ano."
+          },
+          {
+            "letra": "D",
+            "texto": "detenção, de seis meses a dois anos, e multa."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O uso de gás tóxico ou asfixiante é crime de perigo comum do art. 252, com pena de reclusão de um a quatro anos, e multa; a forma culposa tem detenção de três meses a um ano. Análise das alternativas: A) Correta: pena do caput do art. 252. B) Errada: três a seis anos, e multa, é a pena do incêndio e da explosão com dinamite. C) Errada: é a pena da modalidade culposa (parágrafo único). D) Errada: é a pena do art. 253, que pune fabricar, possuir ou transportar gás tóxico sem licença. Fundamento: art. 252 do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    }
+  ]
+}

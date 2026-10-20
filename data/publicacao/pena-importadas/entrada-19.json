@@ -1,0 +1,272 @@
+{
+  "itens": [
+    {
+      "id": 2751,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Incolumidade Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-incolumidade-publica.md",
+      "atual": {
+        "enunciado": "O dono de uma distribuidora mantém em depósito, para o fim de distribuí-los, galões de água potável que sabe terem sido envenenados por terceiro. Segundo o Código Penal, ele:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "não responde por crime, pois não foi ele quem envenenou a água."
+          },
+          {
+            "letra": "B",
+            "texto": "responde por corrupção de água potável, com reclusão de dois a cinco anos."
+          },
+          {
+            "letra": "C",
+            "texto": "responde por envenenamento culposo, com detenção de seis meses a dois anos."
+          },
+          {
+            "letra": "D",
+            "texto": "responde por substância nociva, com detenção de um a três anos, e multa."
+          },
+          {
+            "letra": "E",
+            "texto": "fica sujeito à mesma pena do envenenamento: reclusão de dez a quinze anos."
+          }
+        ],
+        "gabarito": "E",
+        "comentario": "O art. 270 pune envenenar água potável ou substância alimentícia ou medicinal destinada a consumo, com reclusão de dez a quinze anos. O § 1º sujeita à mesma pena quem entrega a consumo ou tem em depósito, para distribuição, a água ou substância envenenada. Análise das alternativas: A) Errada: o § 1º alcança quem não envenenou, mas guarda para distribuir. B) Errada: corrupção ou poluição (art. 271) é outra conduta e não envolve veneno. C) Errada: o agente sabe do envenenamento, logo age com dolo. D) Errada: há tipo específico (art. 270, § 1º), que afasta o art. 278. E) Correta: equiparação do § 1º do art. 270. Fundamento: art. 270, caput e § 1º, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2753,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Incolumidade Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-incolumidade-publica.md",
+      "atual": {
+        "enunciado": "Um balconista de farmácia, por negligência na conferência do estoque, entrega a consumo um medicamento adulterado. Considerando a modalidade culposa do art. 273 do CP, a pena prevista é de:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "detenção, de um a dois anos, e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "detenção, de seis meses a dois anos."
+          },
+          {
+            "letra": "C",
+            "texto": "detenção, de dois meses a um ano."
+          },
+          {
+            "letra": "D",
+            "texto": "detenção, de um a três anos, e multa."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "Entregar a consumo produto terapêutico adulterado é conduta do art. 273, § 1º, punida, na forma dolosa, com as mesmas penas do caput. Se o crime é culposo, o § 2º comina detenção de um a três anos, e multa. Análise das alternativas: A) Errada: um a dois anos, e multa, é a culpa no art. 272 (produto alimentício). B) Errada: seis meses a dois anos é o envenenamento culposo (art. 270, § 2º). C) Errada: dois meses a um ano é a culpa nos arts. 271, 278 e 280. D) Correta: pena do art. 273, § 2º. Fundamento: art. 273, §§ 1º e 2º, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2754,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Incolumidade Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-incolumidade-publica.md",
+      "atual": {
+        "enunciado": "Um médico com o registro profissional suspenso continua atendendo pacientes, de forma gratuita, durante o período da suspensão. Conforme o art. 282 do CP, com a redação dada pela Lei nº 15.425/2026, ele:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "não comete crime, porque é habilitado e atua sem fim de lucro."
+          },
+          {
+            "letra": "B",
+            "texto": "incorre na conduta do caput, punida com detenção, de seis meses a dois anos."
+          },
+          {
+            "letra": "C",
+            "texto": "incorre na conduta do caput, punida com detenção e multa, mesmo sem lucro."
+          },
+          {
+            "letra": "D",
+            "texto": "responde por curandeirismo, pois exerce atividade de cura sem autorização."
+          },
+          {
+            "letra": "E",
+            "texto": "comete só infração administrativa, pois a suspensão não retira a habilitação."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O art. 282 pune exercer, ainda que a título gratuito, a profissão de médico, médico veterinário, dentista ou farmacêutico sem autorização legal ou excedendo-lhe os limites, com detenção de seis meses a dois anos. O § 5º equipara quem exerce a profissão durante a suspensão ou após o cancelamento da habilitação ou do registro. Análise das alternativas: A) Errada: a gratuidade não afasta o crime, e o § 5º alcança o profissional suspenso. B) Correta: § 5º c/c caput. C) Errada: a multa só se soma se houver fim de lucro (§ 1º). D) Errada: curandeirismo é praticado por quem não é profissional de saúde, com as condutas do art. 284. E) Errada: o § 5º tipifica expressamente a atuação durante a suspensão. Fundamento: art. 282, caput, §§ 1º e 5º, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2755,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Incolumidade Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-incolumidade-publica.md",
+      "atual": {
+        "enunciado": "Um indivíduo anuncia em redes sociais a cura garantida de doenças graves por meio de um 'método secreto e infalível'. A conduta corresponde, no Código Penal, ao crime de:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "curandeirismo, punido com detenção, de seis meses a dois anos."
+          },
+          {
+            "letra": "B",
+            "texto": "exercício ilegal da medicina, com detenção, de seis meses a dois anos."
+          },
+          {
+            "letra": "C",
+            "texto": "charlatanismo, punido com detenção, de seis meses a dois anos, e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "curandeirismo, punido com detenção, de três meses a um ano, e multa."
+          },
+          {
+            "letra": "E",
+            "texto": "charlatanismo, punido com detenção, de três meses a um ano, e multa."
+          }
+        ],
+        "gabarito": "E",
+        "comentario": "Charlatanismo é inculcar ou anunciar cura por meio secreto ou infalível, com detenção de três meses a um ano, e multa. O curandeirismo exige condutas como prescrever substâncias habitualmente, usar gestos ou palavras, ou fazer diagnósticos. Análise das alternativas: A) Errada: o agente apenas anuncia cura por meio secreto, conduta típica do art. 283. B) Errada: não há exercício da profissão de médico, mas anúncio de cura. C) Errada: o tipo é o correto, mas a pena é de três meses a um ano, e multa. D) Errada: a pena indicada é a do charlatanismo, e o tipo não é curandeirismo. E) Correta: tipo e pena do art. 283. Fundamento: art. 283 do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2821,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Lei Antiterrorismo",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--lei-antiterrorismo.md",
+      "atual": {
+        "enunciado": "Quanto ao crime relacionado à organização terrorista, previsto no art. 3º da Lei nº 13.260/2016, é correto afirmar que:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "pune apenas quem constitui ou integra a organização terrorista, sendo atípica a conduta de quem lhe presta auxílio material por meio de interposta pessoa."
+          },
+          {
+            "letra": "B",
+            "texto": "pune quem promove, constitui, integra ou presta auxílio a organização terrorista, com reclusão de doze a trinta anos, sem previsão de pena de multa."
+          },
+          {
+            "letra": "C",
+            "texto": "pune quem promove, constitui ou integra organização terrorista, com reclusão de quinze a trinta anos, equiparando-o ao financiador."
+          },
+          {
+            "letra": "D",
+            "texto": "pune promover, constituir, integrar ou prestar auxílio a organização terrorista, inclusive por interposta pessoa, com reclusão de cinco a oito anos e multa."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 3º tipifica quatro núcleos ligados à organização terrorista: promover, constituir, integrar ou prestar auxílio, pessoalmente ou por interposta pessoa. A pena é de reclusão de cinco a oito anos, e multa. Análise das alternativas: A) Errada. 'Prestar auxílio, pessoalmente ou por interposta pessoa' é núcleo expresso do art. 3º. B) Errada. Doze a trinta anos é a pena do terrorismo (art. 2º); o art. 3º prevê cinco a oito anos e multa. C) Errada. A pena de quinze a trinta anos pertence ao financiamento (art. 6º), não ao art. 3º. D) Correta. Reproduz o núcleo do tipo e a pena do art. 3º. Fundamento: art. 3º da Lei nº 13.260/2016.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2824,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Lei Antiterrorismo",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--lei-antiterrorismo.md",
+      "atual": {
+        "enunciado": "Quem recebe, provê, oferece ou investe recursos, ativos ou valores para o planejamento, a preparação ou a execução dos crimes da Lei nº 13.260/2016 fica sujeito à pena de:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "reclusão, de doze a trinta anos."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão, de cinco a oito anos, e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "reclusão, de oito a quinze anos, e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "reclusão, de quinze a trinta anos."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 6º pune com severidade o financiamento do terrorismo, abrangendo diversas condutas (receber, prover, oferecer, obter, guardar, manter em depósito, solicitar, investir) relativas a recursos destinados ao planejamento, preparação ou execução dos crimes da lei. A pena mínima (15 anos) é superior à do próprio terrorismo (12 anos). Análise das alternativas: A) Errada. Doze a trinta anos é a pena do terrorismo propriamente dito (art. 2º). B) Errada. Essa é a pena do art. 3º (organização terrorista). C) Errada. Não há essa pena na lei; o art. 6º prevê quinze a trinta anos. D) Correta. É a pena do financiamento do terrorismo (art. 6º). Fundamento: art. 6º, caput, da Lei nº 13.260/2016.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2825,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Lei Antiterrorismo",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--lei-antiterrorismo.md",
+      "atual": {
+        "enunciado": "Nos crimes da Lei nº 13.260/2016, quanto às consequências do resultado lesão corporal grave ou morte, o art. 7º estabelece que, salvo quando elementar do crime:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "se resultar lesão corporal grave, a pena aumenta de um terço; se resultar morte, aumenta da metade."
+          },
+          {
+            "letra": "B",
+            "texto": "se resultar lesão corporal grave, a pena aumenta da metade; se resultar morte, aumenta de dois terços."
+          },
+          {
+            "letra": "C",
+            "texto": "se resultar lesão corporal grave ou morte, a pena aumenta de um terço até a metade, conforme o caso."
+          },
+          {
+            "letra": "D",
+            "texto": "se resultar lesão corporal grave, a pena aumenta de um sexto; se resultar morte, aumenta de um terço."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O art. 7º prevê causas de aumento para os crimes da lei: um terço, se resultar lesão corporal grave, e metade, se resultar morte. A majorante não incide quando o resultado já for elementar do crime praticado, para evitar dupla punição. Análise das alternativas: A) Correta. Reproduz o art. 7º. B) Errada. As frações estão trocadas e majoradas; o art. 7º prevê um terço para lesão grave e metade para morte. C) Errada. A lei não prevê intervalo; fixa um terço para lesão grave e metade para morte. D) Errada. As frações não correspondem ao texto legal, que estabelece um terço e metade. Fundamento: art. 7º da Lei nº 13.260/2016.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2828,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Crimes Eleitorais",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--crimes-eleitorais.md",
+      "atual": {
+        "enunciado": "Em período eleitoral, um candidato oferece cestas básicas a moradores de um bairro em troca de votos. Um dos moradores recusa a oferta e comunica o fato à Guarda Municipal. Segundo o Código Eleitoral, a conduta do candidato:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "configura corrupção eleitoral (art. 299) apenas se o morador aceitar as cestas básicas, pois antes disso há mera tentativa, com pena reduzida de um a dois terços."
+          },
+          {
+            "letra": "B",
+            "texto": "configura coação eleitoral (art. 301), punida com reclusão até quatro anos e pagamento de cinco a quinze dias-multa, por pressionar o eleitor carente."
+          },
+          {
+            "letra": "C",
+            "texto": "configura corrupção eleitoral (art. 299), punida com detenção até seis meses e pagamento de 60 a 100 dias-multa, ainda que a oferta não seja aceita."
+          },
+          {
+            "letra": "D",
+            "texto": "configura corrupção eleitoral (art. 299), punida com reclusão até quatro anos e pagamento de cinco a quinze dias-multa, ainda que a oferta não seja aceita."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "A corrupção eleitoral do art. 299 pune quem dá, oferece, promete, solicita ou recebe dinheiro, dádiva ou qualquer outra vantagem para obter ou dar voto ou para conseguir ou prometer abstenção. O crime se configura ainda que a oferta não seja aceita. Análise das alternativas: A) Errada. O art. 299 diz expressamente 'ainda que a oferta não seja aceita'. B) Errada. O art. 301 exige violência ou grave ameaça; oferecer vantagem é corrupção eleitoral. C) Errada. Essa é a pena do art. 300; o art. 299 prevê reclusão até quatro anos e cinco a quinze dias-multa. D) Correta. O art. 299 inclui o núcleo 'oferecer' e dispensa a aceitação da oferta. Fundamento: art. 299 da Lei nº 4.737/1965 (Código Eleitoral). MACETE DO RICCARDO: no art. 299 basta oferecer — a recusa do eleitor não salva o candidato.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    }
+  ]
+}

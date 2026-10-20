@@ -1,0 +1,52 @@
+{
+  "auditorias": [
+    {
+      "id": 717,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: recebimento de boa-fé, como verdadeira, e restituição à circulação depois de conhecer a falsidade é a figura do art. 289, § 2º, do CP. O § 1º é a regra geral de introdução na circulação, afastada pela figura específica do § 2º; a atipicidade (C) contraria o próprio § 2º; o art. 290 (D) trata de cédulas com fragmentos ou recolhidas. Gabarito A correto, única defensável. Alternativas cobram enquadramento, não quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 718,
+      "status": "VALIDADA",
+      "justificativa": "Art. 289, § 3º, II, do CP pune o diretor de banco de emissão que autoriza a emissão de papel-moeda em quantidade superior à autorizada. Caput (A) é falsificação comum; art. 290 (B) trata de fragmentos e notas recolhidas; a conduta é crime tipificado, não ilícito meramente administrativo (C). Gabarito D correto e único. Sem quantidade de pena nas alternativas.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 719,
+      "status": "VALIDADA",
+      "justificativa": "Possuir ou guardar maquinismo especialmente destinado à falsificação de moeda é o tipo autônomo do art. 291 do CP, consumado sem produção de cédula. A (ato preparatório impune) e C (tentativa do art. 289) ignoram o tipo autônomo; D (art. 294) refere-se aos papéis do art. 293, que não são moeda. Gabarito B correto e único. Sem quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 720,
+      "status": "VALIDADA",
+      "justificativa": "Formar cédula representativa de moeda com fragmentos de cédulas verdadeiras é a primeira conduta do art. 290, caput, do CP (crimes assimilados ao de moeda falsa). A (art. 289) é afastada pelo tipo específico; B (art. 293) cuida de papéis que não são moeda de curso legal; D (art. 305) não descreve a conduta. Gabarito C correto e único. Sem quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 721,
+      "status": "VALIDADA",
+      "justificativa": "Art. 292, parágrafo único, do CP pune quem recebe ou utiliza como dinheiro os documentos do caput (A correta). O tipo é emitir sem permissão legal, sem exigir falsificação (B errada); quem recebe ou utiliza também é punido (C errada); o caput abrange justamente o título ao portador ou sem indicação do beneficiário (D errada). Única correta. A menção a punição 'mais branda' no comentário não transforma a questão em cobrança de quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 723,
+      "status": "VALIDADA",
+      "justificativa": "Art. 298, parágrafo único, do CP (incluído pela Lei 12.737/2012, conforme o texto fornecido) equipara a documento particular o cartão de crédito ou débito. O art. 297, § 2º, não inclui o cartão (A errada); há equiparação expressa e a clonagem é falsidade material (C errada); o cartão não está entre os papéis do art. 293 (D errada). Gabarito B correto e único. Sem quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 728,
+      "status": "VALIDADA",
+      "justificativa": "Atribuir-se verbalmente identidade alheia para escapar da prisão é obter vantagem com falsa identidade (art. 307 do CP), tipo subsidiário que não exige documento. Sem papel falsificado não há art. 304 (A); sem uso de documento alheio não há art. 308 (B); sem inserção ou omissão em documento não há art. 299 (D). Gabarito C correto e único. Não cita julgado. Sem quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 729,
+      "status": "VALIDADA",
+      "justificativa": "Art. 308 do CP pune também quem cede a outrem, para que dele se utilize, documento de identidade (inclui título de eleitor), próprio ou de terceiro. B contraria a modalidade ceder; C (art. 307) não se aplica, pois não há atribuição de falsa identidade pelo cedente; D (art. 304) exige papel falsificado, e o título é verdadeiro. Gabarito A correto e único. Sem quantidade de pena.",
+      "correcao_sugerida": null
+    }
+  ]
+}

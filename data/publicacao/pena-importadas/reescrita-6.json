@@ -1,0 +1,174 @@
+{
+  "itens": [
+    {
+      "id": 1029,
+      "enunciado": "Um homem constrange, com emprego de grave ameaça, sua vizinha de 62 anos, causando-lhe intenso sofrimento mental, com o fim de obter dela a confissão de que teria furtado o celular dele. Quanto à idade da vítima, segundo a Lei nº 9.455/1997, é correto afirmar que:",
+      "alternativas": [
+        { "letra": "A", "texto": "a idade da vítima é causa de aumento do § 4º, pois a lei protege de modo especial o maior de 60 anos." },
+        { "letra": "B", "texto": "a idade da vítima não tem efeito, pois a lei só protege de modo especial a pessoa maior de 65 anos." },
+        { "letra": "C", "texto": "a idade da vítima não tem efeito, pois a lei só protege de modo especial criança, gestante e adolescente." },
+        { "letra": "D", "texto": "a idade da vítima é qualificadora do § 3º, que abrange a tortura praticada contra pessoa idosa ou vulnerável." }
+      ],
+      "gabarito": "A",
+      "comentario": "A conduta é tortura-prova (art. 1º, I, a): constranger alguém com grave ameaça, causando sofrimento mental, para obter confissão. O § 4º, II, prevê causa de aumento quando o crime é cometido contra criança, gestante, portador de deficiência, adolescente ou maior de 60 anos. Como a vítima tem 62 anos, incide a causa de aumento. A idade não é qualificadora: o § 3º trata apenas dos resultados lesão corporal grave ou gravíssima e morte. Fundamento: Lei nº 9.455/1997, art. 1º, I, a, e § 4º, II.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "O art. 1º, § 4º, II, prevê causa de aumento para o crime cometido contra maior de 60 anos, e a vítima tem 62." },
+        { "letra": "B", "correta": false, "justificativa": "O marco legal é 60 anos (redação dada pela Lei nº 10.741/2003), não 65." },
+        { "letra": "C", "correta": false, "justificativa": "O § 4º, II, também inclui o portador de deficiência e o maior de 60 anos, e não apenas criança, gestante e adolescente." },
+        { "letra": "D", "correta": false, "justificativa": "O § 3º qualifica a tortura pelos resultados lesão grave ou gravíssima e morte; a idade da vítima é causa de aumento do § 4º." }
+      ],
+      "fundamento_legal": "Lei nº 9.455/1997, art. 1º, I, a, e § 4º, II",
+      "pegadinha": "Confundir a causa de aumento pela condição da vítima (§ 4º) com a qualificadora pelo resultado (§ 3º) e trocar o marco etário de 60 anos.",
+      "o_que_mudou": "As alternativas deixaram de trazer frações e quantidade de pena; agora cobram se a idade é causa de aumento ou qualificadora e qual é o marco etário. O caso passou a descrever tortura-prova sem margem para discussão com crimes patrimoniais."
+    },
+    {
+      "id": 1079,
+      "enunciado": "Caio e Breno combinaram subtrair, sem violência, mercadorias de um depósito que acreditavam estar sem vigilância. Caio ficou do lado de fora vigiando a rua; Breno, ao entrar, encontrou inesperadamente um vigia e o agrediu para garantir a subtração. A investigação demonstrou que, nas circunstâncias, o emprego de violência não era previsível para Caio. Considerando o art. 29, § 2º, do Código Penal, Caio:",
+      "alternativas": [
+        { "letra": "A", "texto": "responde pelo crime mais grave praticado por Breno, com o benefício da participação de menor importância." },
+        { "letra": "B", "texto": "responde pelo crime mais grave praticado por Breno, pois a teoria monista exige crime único para todos." },
+        { "letra": "C", "texto": "responde pelo crime menos grave que quis praticar, com o aumento previsto para o resultado mais grave." },
+        { "letra": "D", "texto": "não responde por crime algum, pois houve desvio do plano previamente ajustado entre ambos." },
+        { "letra": "E", "texto": "responde pelo crime menos grave que quis praticar, sem o aumento previsto no dispositivo." }
+      ],
+      "gabarito": "E",
+      "comentario": "É caso de cooperação dolosamente distinta (art. 29, § 2º, do CP). Caio quis participar de furto, crime menos grave, e Breno, por conta própria, empregou violência para garantir a subtração. A Caio aplica-se a pena do crime que quis praticar; o aumento previsto na parte final do § 2º só incide se o resultado mais grave lhe fosse previsível, o que o enunciado afasta. Fundamento: art. 29, § 2º, do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Caio não responde pelo crime mais grave, e a participação de menor importância é instituto do § 1º, que não resolve o desvio subjetivo entre os concorrentes." },
+        { "letra": "B", "correta": false, "justificativa": "O § 2º é justamente a exceção à teoria monista que permite responsabilizar Caio só pelo crime menos grave que quis praticar." },
+        { "letra": "C", "correta": false, "justificativa": "O aumento do § 2º exige que o resultado mais grave fosse previsível para o concorrente, e o enunciado diz que não era." },
+        { "letra": "D", "correta": false, "justificativa": "Caio concorreu dolosamente para a subtração e responde pelo crime de que quis participar; o desvio de Breno não o torna impune." },
+        { "letra": "E", "correta": true, "justificativa": "Aplica-se a Caio a pena do crime menos grave, sem o aumento, porque o resultado mais grave não lhe era previsível." }
+      ],
+      "fundamento_legal": "Código Penal, art. 29, § 2º",
+      "pegadinha": "Achar que a teoria monista obriga todos a responder pelo crime mais grave, ou aplicar o aumento sem previsibilidade do resultado.",
+      "o_que_mudou": "As alternativas deixaram de citar frações (um sexto a um terço, até a metade); agora cobram por qual crime Caio responde e se incide o aumento, conforme a previsibilidade."
+    },
+    {
+      "id": 1080,
+      "enunciado": "Segundo o Código Penal, quando um dos concorrentes quis participar de crime menos grave, mas o resultado mais grave efetivamente produzido lhe era previsível, esse concorrente:",
+      "alternativas": [
+        { "letra": "A", "texto": "responde pelo crime mais grave, com o benefício da participação de menor importância." },
+        { "letra": "B", "texto": "responde pelo crime mais grave, pois a previsibilidade o equipara ao autor do excesso." },
+        { "letra": "C", "texto": "responde pelo crime menos grave, sem nenhuma consequência ligada ao resultado mais grave." },
+        { "letra": "D", "texto": "responde pelo crime menos grave, com o aumento previsto em razão da previsibilidade." }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 29, § 2º, do CP manda aplicar ao concorrente a pena do crime menos grave do qual quis participar. A previsibilidade do resultado mais grave não o faz responder pelo crime mais grave: ela apenas faz incidir o aumento previsto na parte final do dispositivo. Fundamento: art. 29, § 2º, do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O concorrente não responde pelo crime mais grave, e a participação de menor importância é outro instituto (§ 1º)." },
+        { "letra": "B", "correta": false, "justificativa": "A lei não equipara ao autor do excesso quem quis crime menos grave; a previsibilidade só gera o aumento." },
+        { "letra": "C", "correta": false, "justificativa": "Havendo previsibilidade do resultado mais grave, a parte final do § 2º manda aumentar a pena do crime menos grave." },
+        { "letra": "D", "correta": true, "justificativa": "Reproduz o § 2º: pena do crime menos grave, com o aumento quando o resultado mais grave era previsível." }
+      ],
+      "fundamento_legal": "Código Penal, art. 29, § 2º",
+      "pegadinha": "Confundir previsibilidade com dolo: o resultado previsível não leva o concorrente a responder pelo crime mais grave.",
+      "o_que_mudou": "As alternativas deixaram de girar em torno de frações de aumento e diminuição; agora cobram por qual crime o concorrente responde e qual o efeito da previsibilidade."
+    },
+    {
+      "id": 1081,
+      "enunciado": "Assinale a alternativa que distingue corretamente os institutos previstos nos §§ 1º e 2º do art. 29 do Código Penal.",
+      "alternativas": [
+        { "letra": "A", "texto": "No § 1º, há redução pela pequena relevância da contribuição; no § 2º, o agente responde pelo crime que quis praticar." },
+        { "letra": "B", "texto": "No § 1º, o agente responde pelo crime que quis praticar; no § 2º, há redução pela pequena relevância da contribuição." },
+        { "letra": "C", "texto": "Ambos preveem redução pela pequena relevância da contribuição, diferindo só quanto à previsibilidade do resultado." },
+        { "letra": "D", "texto": "No § 1º, a redução é obrigatória; no § 2º, o aumento incide mesmo sem previsibilidade do resultado mais grave." }
+      ],
+      "gabarito": "A",
+      "comentario": "O § 1º trata da participação de menor importância: a pena pode ser diminuída porque a contribuição do partícipe foi pouco relevante. O § 2º trata da cooperação dolosamente distinta: o concorrente que quis crime menos grave recebe a pena deste, com aumento apenas se o resultado mais grave era previsível. Fundamento: art. 29, §§ 1º e 2º, do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Sintetiza corretamente a participação de menor importância (§ 1º) e a cooperação dolosamente distinta (§ 2º)." },
+        { "letra": "B", "correta": false, "justificativa": "Inverte os institutos: a redução pela pequena relevância é do § 1º, e a responsabilização pelo crime pretendido é do § 2º." },
+        { "letra": "C", "correta": false, "justificativa": "Só o § 1º prevê redução; o § 2º manda aplicar a pena do crime menos grave, com eventual aumento." },
+        { "letra": "D", "correta": false, "justificativa": "O aumento do § 2º só incide se o resultado mais grave era previsível." }
+      ],
+      "fundamento_legal": "Código Penal, art. 29, §§ 1º e 2º",
+      "pegadinha": "Inverter os parágrafos e esquecer que o aumento do § 2º depende da previsibilidade.",
+      "o_que_mudou": "As alternativas deixaram de citar a fração de redução; agora distinguem os institutos pelo fundamento (pequena relevância da contribuição x desvio subjetivo) e pela previsibilidade exigida para o aumento do § 2º. A justificativa da letra D e a pegadinha deixaram de afirmar que a redução do § 1º é facultativa, ponto controvertido, e passaram a se apoiar só na previsibilidade do § 2º."
+    },
+    {
+      "id": 1152,
+      "enunciado": "Delegado de polícia apreende adolescente em flagrante de ato infracional, mas deliberadamente deixa de comunicar de imediato a apreensão à autoridade judiciária competente e à família do apreendido. Em tese, segundo o ECA, a conduta configura:",
+      "alternativas": [
+        { "letra": "A", "texto": "crime específico do ECA, próprio da autoridade policial responsável pela apreensão que omite a comunicação imediata." },
+        { "letra": "B", "texto": "crime de privação ilegal da liberdade, pois a apreensão ocorreu sem ordem escrita da autoridade judiciária competente." },
+        { "letra": "C", "texto": "crime específico do ECA, de menor potencial ofensivo, admitida a transação penal prevista na Lei nº 9.099/1995." },
+        { "letra": "D", "texto": "crime de descumprimento de prazo fixado em benefício do adolescente, que absorve a falta de comunicação imediata." }
+      ],
+      "gabarito": "A",
+      "comentario": "O art. 231 do ECA tipifica a conduta da autoridade policial responsável pela apreensão de criança ou adolescente que deixa de fazer imediata comunicação à autoridade judiciária competente e à família do apreendido ou à pessoa por ele indicada. É crime próprio, de ação pública incondicionada (art. 227). Aos crimes cometidos contra criança e adolescente não se aplica a Lei 9.099/1995, independentemente da pena (art. 226, § 1º). Fundamento: arts. 226, § 1º, 227, 230, 231 e 235 da Lei 8.069/1990.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Corresponde ao art. 231: a omissão da comunicação imediata pela autoridade policial responsável pela apreensão é crime específico." },
+        { "letra": "B", "correta": false, "justificativa": "A apreensão em flagrante de ato infracional dispensa ordem escrita (art. 230); o que se omitiu foi a comunicação, conduta do art. 231." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 226, § 1º, afasta a Lei 9.099/1995 dos crimes cometidos contra criança e adolescente, independentemente da pena." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 235 pune o descumprimento de prazo em benefício de adolescente privado de liberdade; a falta de comunicação tem tipo próprio no art. 231." }
+      ],
+      "fundamento_legal": "Lei 8.069/1990, arts. 226, § 1º, 227, 230, 231 e 235",
+      "pegadinha": "Confundir o crime de omissão da comunicação (art. 231) com a privação ilegal de liberdade (art. 230) e supor cabível a transação penal.",
+      "o_que_mudou": "A pergunta deixou de ser qual a pena e passou a ser qual crime se configura; as alternativas trazem só os crimes e o regime da Lei 9.099/1995, sem quantidade de pena."
+    },
+    {
+      "id": 1153,
+      "enunciado": "Acerca do crime de adquirir, possuir, armazenar ou solicitar registro que contenha violência sexual contra criança ou adolescente (art. 241-B do ECA), conforme a redação do texto legal, é correto afirmar que:",
+      "alternativas": [
+        { "letra": "A", "texto": "a pequena quantidade de material é causa de aumento, e a posse para comunicar às autoridades também é crime." },
+        { "letra": "B", "texto": "não há crime na posse por agente público para comunicar às autoridades, dispensado o sigilo sobre o material." },
+        { "letra": "C", "texto": "a quantidade de material não tem previsão legal específica, e a mera solicitação do registro não é crime." },
+        { "letra": "D", "texto": "a pequena quantidade de material é causa de diminuição, e a mera solicitação do registro já configura o crime." }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 241-B pune quem adquire, possui, armazena ou solicita, por qualquer meio, registro que contenha violência sexual contra criança ou adolescente: a simples solicitação já integra o tipo. O § 1º prevê causa de diminuição se for pequena a quantidade de material. O § 2º afasta o crime quando a posse ou o armazenamento visa comunicar o fato às autoridades, nas hipóteses ali listadas, e o § 3º impõe a essas pessoas o dever de sigilo. Fundamento: art. 241-B, caput e §§ 1º a 3º, da Lei 8.069/1990.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A pequena quantidade diminui, e não aumenta, a pena (§ 1º), e a posse para comunicar às autoridades, nas hipóteses do § 2º, não é crime." },
+        { "letra": "B", "correta": false, "justificativa": "O § 3º impõe às pessoas do § 2º o dever de manter o material sob sigilo." },
+        { "letra": "C", "correta": false, "justificativa": "O § 1º prevê expressamente a causa de diminuição pela pequena quantidade, e o caput inclui o verbo solicitar." },
+        { "letra": "D", "correta": true, "justificativa": "Conjuga o caput, que inclui o verbo solicitar, e o § 1º, que prevê a causa de diminuição pela pequena quantidade." }
+      ],
+      "fundamento_legal": "Lei 8.069/1990, art. 241-B, caput e §§ 1º a 3º",
+      "pegadinha": "Tratar a pequena quantidade como causa de aumento e esquecer que o verbo solicitar já consuma o crime.",
+      "o_que_mudou": "As alternativas deixaram de trazer a quantidade de pena e as frações; agora cobram os verbos do tipo, a natureza da causa ligada à quantidade de material, a excludente do § 2º e o dever de sigilo."
+    },
+    {
+      "id": 1154,
+      "enunciado": "Comerciante vende bebida alcoólica a adolescente de dezesseis anos, que a consome em seguida. Segundo o ECA, se o fato não constituir crime mais grave, é correto afirmar que a conduta configura:",
+      "alternativas": [
+        { "letra": "A", "texto": "crime do art. 243 do ECA, e o consumo da bebida pelo adolescente é causa de aumento expressamente prevista." },
+        { "letra": "B", "texto": "mera infração administrativa, pois a venda de bebida alcoólica a adolescente não está tipificada como crime." },
+        { "letra": "C", "texto": "crime do art. 243 do ECA, que só se consuma se o adolescente efetivamente consumir a bebida fornecida." },
+        { "letra": "D", "texto": "crime do art. 243 do ECA, que exige venda onerosa, de modo que a entrega gratuita da bebida seria atípica." }
+      ],
+      "gabarito": "A",
+      "comentario": "O art. 243 pune quem vende, fornece, serve, ministra ou entrega, ainda que gratuitamente, de qualquer forma, bebida alcoólica a criança ou adolescente, se o fato não constitui crime mais grave. O crime se consuma com a venda ou a entrega, e o consumo do produto pelo adolescente é causa de aumento prevista no parágrafo único. Fundamento: art. 243, caput e parágrafo único, da Lei 8.069/1990.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Conjuga o caput do art. 243 com o parágrafo único, que prevê aumento se a criança ou o adolescente utilizar ou consumir o produto." },
+        { "letra": "B", "correta": false, "justificativa": "A venda de bebida alcoólica a criança ou adolescente é crime, tipificado no art. 243 do ECA." },
+        { "letra": "C", "correta": false, "justificativa": "O crime se consuma com a venda, o fornecimento ou a entrega; o consumo é apenas causa de aumento (parágrafo único)." },
+        { "letra": "D", "correta": false, "justificativa": "O tipo abrange expressamente a conduta praticada \"ainda que gratuitamente\"." }
+      ],
+      "fundamento_legal": "Lei 8.069/1990, art. 243, caput e parágrafo único",
+      "pegadinha": "Achar que o consumo é necessário para consumar o crime, quando ele só aumenta a pena.",
+      "o_que_mudou": "A pergunta deixou de ser a pena e a fração de aumento; agora cobra a tipicidade, a consumação, a conduta gratuita e o consumo como causa de aumento."
+    },
+    {
+      "id": 1155,
+      "enunciado": "Sobre o crime de corrupção de menores previsto no art. 244-B do ECA, é correto afirmar que:",
+      "alternativas": [
+        { "letra": "A", "texto": "configura-se apenas quando praticado presencialmente, não abrangendo condutas por meios eletrônicos." },
+        { "letra": "B", "texto": "tem causa de aumento quando a infração cometida ou induzida integra o rol dos crimes hediondos." },
+        { "letra": "C", "texto": "é crime de ação penal pública condicionada à representação do responsável legal pelo menor." },
+        { "letra": "D", "texto": "protege apenas o menor de catorze anos que é induzido a praticar infração penal com o agente." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 244-B pune quem corrompe ou facilita a corrupção de menor de dezoito anos, com ele praticando infração penal ou induzindo-o a praticá-la. O § 1º estende o tipo ao uso de meios eletrônicos, inclusive salas de bate-papo, e o § 2º prevê aumento se a infração cometida ou induzida estiver no rol do art. 1º da Lei 8.072/1990 (crimes hediondos). Os crimes do ECA são de ação pública incondicionada (art. 227). Fundamento: arts. 227 e 244-B da Lei 8.069/1990.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O § 1º estende o tipo às condutas praticadas por quaisquer meios eletrônicos, inclusive salas de bate-papo da internet." },
+        { "letra": "B", "correta": true, "justificativa": "Reproduz o § 2º: há aumento quando a infração cometida ou induzida está no rol do art. 1º da Lei 8.072/1990." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 227 do ECA estabelece que os crimes nele definidos são de ação pública incondicionada." },
+        { "letra": "D", "correta": false, "justificativa": "O tipo protege o menor de dezoito anos, e não só o menor de catorze." }
+      ],
+      "fundamento_legal": "Lei 8.069/1990, arts. 227 e 244-B",
+      "pegadinha": "Restringir o tipo ao meio presencial ou ao menor de catorze anos e esquecer que os crimes do ECA são de ação pública incondicionada.",
+      "o_que_mudou": "As alternativas deixaram de trazer quantidade de pena e frações; agora cobram o meio de execução, a hipótese de aumento, a ação penal e a idade da vítima."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "auditorias": [
+    {
+      "id": 292,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: B. O art. 53, II, da Lei 11.343/2006 admite a não atuação policial em qualquer fase da persecução, mediante autorização judicial e ouvido o MP, sem prejuízo da ação penal; o parágrafo único exige itinerário provável e identificação dos agentes ou colaboradores, presentes no caso. Ceará a Pernambuco é tráfico entre Estados (art. 40, V), não transnacionalidade (art. 40, I). A erra a causa de aumento; C contraria o 'qualquer fase'; D contraria o 'sem prejuízo da ação penal'; E dispensa a autorização exigida. Nenhuma alternativa gira em torno de quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 295,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C. A conduta (dever de presumir a origem criminosa pela desproporção entre valor e preço e pela condição de quem oferece) é a receptação culposa do art. 180, § 3º; o § 4º torna a receptação punível ainda que desconhecido o autor do crime antecedente; o § 5º (que permitia deixar de aplicar a pena) consta como revogado pela Lei 15.358/2026 no texto fornecido. A cobra o perdão judicial revogado; B contraria o § 4º; D confunde caput (sabe) com § 3º (deve presumir); E contraria os arts. 182 e 183 (representação só nas hipóteses de parentesco). Alternativas não giram em torno de quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 338,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C. O art. 46 da Lei 11.343/2006 prevê que as penas podem ser reduzidas quando o agente não possuía a plena capacidade de entender ou de se determinar; a isenção de pena e a absolvição com encaminhamento a tratamento (art. 45 e parágrafo único) exigem incapacidade total. A e D aplicam o regime do art. 45; B nega o efeito do art. 46. A fração da redução não é cobrada.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 482,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: B. O art. 28, § 1º, submete às mesmas medidas do caput (advertência, prestação de serviços à comunidade, medida educativa) quem, para consumo pessoal, cultiva plantas destinadas à preparação de pequena quantidade de droga. A ignora a finalidade que separa o art. 28, § 1º, do art. 33, § 1º, II; C nega a tipicidade expressa do § 1º; D exige induzir, instigar ou auxiliar alguém (art. 33, § 2º), ausente no caso. O enunciado não especifica a planta, de modo que não cobra entendimento jurisprudencial fora do texto. Nenhuma alternativa gira em torno de quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 485,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: B. Estão presentes todos os elementos do art. 33, § 3º (oferta eventual, sem objetivo de lucro, a pessoa do relacionamento, para consumo conjunto), figura própria apenada de forma mais branda, sem prejuízo das penas do art. 28. A ignora a figura especial; C aplica o § 2º quando há tipo específico; D exige associação para os crimes do art. 33, caput e § 1º, ou 34 (art. 35). A menção a 'mais branda' é descritiva e não torna a questão dependente de quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 515,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: D. O art. 137, parágrafo único, do CP aplica a forma qualificada, pelo fato da participação na rixa, se ocorre morte ou lesão corporal de natureza grave, sem exigir identificação do autor do resultado. A exige identificação; B atribui a cada um a lesão corporal; C exclui a lesão grave, expressamente prevista. O comando pergunta pelos 'demais participantes', evitando a discussão sobre o rixoso ferido. A afirmação do comentário de que o autor identificado responde também pela lesão é doutrinária e não altera o gabarito. Nenhuma alternativa cita quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 517,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: B. O art. 148, § 1º, III, do CP qualifica o sequestro ou cárcere privado se a privação da liberdade dura mais de quinze dias; dezoito dias bastam, independentemente de sofrimento. A usa prazo inexistente (trinta dias); C confunde com o § 2º (grave sofrimento por maus-tratos ou natureza da detenção); D ignora que a extorsão mediante sequestro (art. 159, conferido no arquivo de crimes contra o patrimônio) exige o fim de obter vantagem como condição ou preço do resgate, não um tempo de privação. Alternativas não giram em torno de quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 518,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: D. O art. 122, § 1º, do CP prevê a forma em que da automutilação ou da tentativa de suicídio resulta lesão corporal grave ou gravíssima; com vítima maior e capaz não incide o § 6º (deslocamento para o art. 129, § 2º, só com lesão gravíssima contra menor de 14 anos ou quem não tem discernimento ou não pode resistir). A ignora o resultado; B aplica o art. 129 fora do § 6º; C confunde com o § 2º (suicídio consumado ou morte). Nenhuma alternativa cita quantidade de pena.",
+      "correcao_sugerida": null
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "auditorias": [
+    {
+      "id": 187,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C. O art. 156, caput, descreve o sujeito ativo (condômino, co-herdeiro ou sócio) e a conduta de subtrair a coisa comum de quem legitimamente a detém, e o § 1º exige representação. A erra o sujeito ativo e a ação penal; B troca representação por queixa; D inverte o § 2º. Uma única correta, sem distrator defensável e sem alternativa sobre quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 189,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C. O § 5º do art. 155 exige transporte do veículo para outro Estado ou para o exterior; Fortaleza e Sobral ficam no Ceará. Chave original não é chave falsa (§ 4º, III), e aproveitar carro destrancado não é destreza (§ 4º, II). O fato ocorreu à tarde (sem repouso noturno) e o enunciado afasta as demais circunstâncias. Alternativas tratam só de tipificação.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 190,
+      "status": "VALIDADA_COM_RESSALVA",
+      "justificativa": "Gabarito A confere com o art. 156, § 2º (coisa comum fungível, valor dentro da quota). Ressalva: o enunciado diz que as sacas são armazenadas pela 'sociedade agrícola' e não afirma que são coisa comum dos sócios; a alternativa B usa justamente o argumento de que o milho pertence à sociedade, e há corrente doutrinária que, em sociedade com personalidade jurídica, vê furto do art. 155 por pertencer o bem à pessoa jurídica. Isso torna B defensável por interpretação razoável, o que se resolve com ajuste pontual.",
+      "correcao_sugerida": "No enunciado, deixar explícito que se trata de coisa comum, por exemplo: 'Antônio e Bruno são sócios em uma sociedade de fato e possuem em comum sacas de milho, guardadas por Bruno, que as detém legitimamente.' Em B, trocar a justificativa por 'pois Antônio não podia dispor sozinho das sacas', sem afirmar que pertenciam a terceiro."
+    },
+    {
+      "id": 191,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: B. A vítima não foi induzida a entregar nada nem forneceu informações (o que afasta o art. 171 e seu § 2º-A); houve subtração mediante fraude por dispositivo eletrônico com programa malicioso (art. 155, § 4º-B). Helena tem 72 anos, idosa, o que atrai o § 4º-C, II; o § 4º-C, I, exige servidor fora do território nacional, ausente. D erra ao negar o aumento por idade no furto. As alternativas cobram qual hipótese de aumento incide, não sua quantidade.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 192,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: B. Subtração sem violência ou grave ameaça, com explosivo que causou perigo comum: art. 155, § 4º-A. D exige roubo (art. 157), ausente; A contraria a subsidiariedade expressa do art. 163, parágrafo único, II; C ignora a qualificadora específica do § 4º-A. Uma única correta; alternativas sem quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 194,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C. O art. 160 tipifica exigir ou receber, como garantia de dívida, abusando da situação de alguém, documento que pode dar causa a procedimento criminal; o agiota condicionou o empréstimo à entrega do documento. O tipo não exige uso posterior (A errada), não há erro induzido (B errada) nem violência ou grave ameaça do art. 158 (D errada).",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 195,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: D. Grave ameaça com faca para subtrair a carteira é roubo (art. 157, caput), sem necessidade de lesão; a arma branca tem majorante própria no § 2º, VII, distinta da arma de fogo (§ 2º-A, I). A, B e C estão erradas pelos motivos apontados. A questão não pede fração de aumento.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 203,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: D. Uso de gasolina para destruir o carro, sem perigo a ninguém (afastando crime mais grave), é dano qualificado do art. 163, parágrafo único, II. O art. 167 exige queixa só no caput do art. 163, no inciso IV e no art. 164, logo a ação pelo inciso II não depende de queixa (C errada). A erra ao exigir perigo a terceiros; B erra porque não houve violência à pessoa. Alternativas sem quantidade de pena.",
+      "correcao_sugerida": null
+    }
+  ]
+}

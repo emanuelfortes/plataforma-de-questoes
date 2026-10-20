@@ -1,0 +1,284 @@
+{
+  "itens": [
+    {
+      "id": 730,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Fé Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-fe-publica.md",
+      "atual": {
+        "enunciado": "O médico que, no exercício da profissão, fornece atestado falso a um paciente, com o fim de lucro, sujeita-se a",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "detenção, de dois meses a um ano, sem previsão de multa."
+          },
+          {
+            "letra": "B",
+            "texto": "detenção, de um mês a um ano, e também multa."
+          },
+          {
+            "letra": "C",
+            "texto": "reclusão, de um a cinco anos, e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "detenção, de três meses a dois anos, e multa."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "A falsidade de atestado médico é crime próprio do médico no exercício da profissão, punido com detenção, de um mês a um ano. Se cometido com o fim de lucro, aplica-se também multa. Análise das alternativas: A) Errada: dois meses a um ano é a pena da certidão ideologicamente falsa (art. 301, caput), e o fim de lucro atrai multa. B) Correta: pena do art. 302, caput, somada à multa do parágrafo único. C) Errada: um a cinco anos é pena de falsificação de documento particular (art. 298). D) Errada: três meses a dois anos é a pena da falsidade material de atestado ou certidão (art. 301, § 1º). Fundamento: art. 302, caput e parágrafo único, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 731,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Fé Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-fe-publica.md",
+      "atual": {
+        "enunciado": "Sobre os crimes de certidão ou atestado ideologicamente falso e de falsidade material de atestado ou certidão (art. 301 do CP), assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "A figura do caput pode ser praticada por qualquer pessoa, sendo dispensável o exercício de função pública."
+          },
+          {
+            "letra": "B",
+            "texto": "A falsidade material do § 1º é punida com detenção, de dois meses a um ano, igual ao caput."
+          },
+          {
+            "letra": "C",
+            "texto": "Se o crime é praticado com o fim de lucro, a pena privativa de liberdade é substituída pela de multa."
+          },
+          {
+            "letra": "D",
+            "texto": "O atestado ideologicamente falso é punido com reclusão, de um a cinco anos, e multa, se for público."
+          },
+          {
+            "letra": "E",
+            "texto": "A falsidade material do § 1º é punida com detenção, de três meses a dois anos."
+          }
+        ],
+        "gabarito": "E",
+        "comentario": "O caput do art. 301 pune quem atesta ou certifica falsamente, em razão de função pública, fato ou circunstância que habilite alguém a obter cargo público, isenção de ônus ou de serviço público ou outra vantagem, com detenção de dois meses a um ano. O § 1º trata da falsidade material (falsificar ou alterar atestado ou certidão para o mesmo fim), com detenção de três meses a dois anos, e o § 2º manda aplicar também multa se houver fim de lucro. Análise das alternativas: A) Errada: o caput exige que o falso seja praticado em razão de função pública. B) Errada: as penas são diferentes; a do § 1º é maior. C) Errada: no fim de lucro a multa é aplicada além da pena privativa de liberdade, não em substituição. D) Errada: um a cinco anos é pena da falsidade ideológica comum de documento público (art. 299). E) Correta: reproduz a pena do § 1º. Fundamento: art. 301, caput, §§ 1º e 2º, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 732,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Fé Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-fe-publica.md",
+      "atual": {
+        "enunciado": "Um devedor, durante visita ao escritório do credor, apodera-se do único original de um contrato particular de confissão de dívida, do qual não podia dispor, e o destrói para se livrar da cobrança. Em tese, ele pratica",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "falsificação de documento particular, com reclusão de um a cinco anos, e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "supressão de documento, com reclusão de um a cinco anos, e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "supressão de documento, com reclusão de dois a seis anos, e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "uso de documento falso, com a pena cominada à falsificação de documento particular."
+          },
+          {
+            "letra": "E",
+            "texto": "falsidade ideológica, com reclusão de um a três anos, e multa."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "Destruir, suprimir ou ocultar documento público ou particular verdadeiro, de que não podia dispor, em benefício próprio ou de outrem, ou em prejuízo alheio, configura supressão de documento. A pena depende da natureza do documento: dois a seis anos se público e um a cinco anos se particular, ambas com multa. Análise das alternativas: A) Errada: o documento era verdadeiro e não foi falsificado nem alterado. B) Correta: documento particular, logo reclusão de um a cinco anos, e multa. C) Errada: dois a seis anos é a pena para documento público. D) Errada: não houve uso de papel falsificado. E) Errada: não houve inserção ou omissão de declaração no documento. Fundamento: art. 305 do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 733,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Fé Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-fe-publica.md",
+      "atual": {
+        "enunciado": "Sobre o crime de adulteração de sinal identificador de veículo (art. 311 do CP), assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "A pena do caput é de reclusão, de dois a seis anos, e multa, igual à da falsificação de documento público."
+          },
+          {
+            "letra": "B",
+            "texto": "Se o agente comete o crime no exercício da função pública ou em razão dela, a pena é aumentada de sexta parte."
+          },
+          {
+            "letra": "C",
+            "texto": "A remarcação do número do chassi é típica ainda que realizada com autorização do órgão competente."
+          },
+          {
+            "letra": "D",
+            "texto": "Expor à venda, em loja de usados, veículo com placa que devesse saber adulterada sujeita a reclusão, de quatro a oito anos, e multa."
+          },
+          {
+            "letra": "E",
+            "texto": "O comércio irregular exercido em residência não se equipara à atividade comercial para fins do § 3º do artigo."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 311 pune com reclusão, de três a seis anos, e multa quem adultera, remarca ou suprime sinal identificador de veículo sem autorização do órgão competente. As condutas dos incisos II e III do § 2º (como expor à venda veículo com sinal que devesse saber adulterado), quando praticadas no exercício de atividade comercial ou industrial, recebem a pena de quatro a oito anos do § 3º. Análise das alternativas: A) Errada: a pena do caput é de três a seis anos. B) Errada: o aumento do § 1º é de um terço. C) Errada: a ausência de autorização do órgão competente é elementar do tipo. D) Correta: combinação do § 2º, III, com o § 3º. E) Errada: o § 4º equipara expressamente o comércio irregular ou clandestino exercido em residência. MACETE DO RICCARDO: no art. 311, funcionário aumenta 1/3, e loja ou garagem de fundo de quintal sobe para 4 a 8. Fundamento: art. 311, caput, §§ 1º a 4º, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 734,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Fé Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-fe-publica.md",
+      "atual": {
+        "enunciado": "O tabelião que, no exercício da função pública, reconhece como verdadeira firma falsa lançada em documento particular sujeita-se a",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "reclusão, de um a três anos, e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão, de um a cinco anos, e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "detenção, de dois meses a um ano."
+          },
+          {
+            "letra": "D",
+            "texto": "reclusão, de dois a seis anos, e multa."
+          },
+          {
+            "letra": "E",
+            "texto": "detenção, de seis meses a dois anos, e multa."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O falso reconhecimento de firma ou letra é crime de quem, no exercício de função pública, reconhece como verdadeira firma ou letra que não o seja. A pena varia conforme o documento: reclusão de um a cinco anos, e multa, se público, e de um a três anos, e multa, se particular. Análise das alternativas: A) Correta: o documento é particular. B) Errada: um a cinco anos é a pena quando o documento é público. C) Errada: dois meses a um ano é a pena da certidão ideologicamente falsa (art. 301, caput). D) Errada: dois a seis anos é a pena da falsificação de documento público (art. 297). E) Errada: seis meses a dois anos, e multa, é a pena da restituição de moeda falsa recebida de boa-fé (art. 289, § 2º). Fundamento: art. 300 do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 735,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Fé Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-fe-publica.md",
+      "atual": {
+        "enunciado": "O sócio-administrador de uma empresa de segurança privada manda estampar nas viaturas da empresa, sem autorização, o brasão e a sigla oficiais da Guarda Municipal, para transmitir ao público a ideia de vínculo com o órgão. À luz do art. 296 do CP, essa conduta",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "é atípica, pois o art. 296 protege apenas selos destinados a autenticar atos oficiais."
+          },
+          {
+            "letra": "B",
+            "texto": "configura falsa identidade, punida com detenção de três meses a um ano, ou multa."
+          },
+          {
+            "letra": "C",
+            "texto": "sujeita o agente às mesmas penas do caput: reclusão, de dois a seis anos, e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "configura falsificação de papel público, com reclusão de dois a oito anos, e multa."
+          },
+          {
+            "letra": "E",
+            "texto": "sujeita o agente a reclusão, de um a três anos, e multa, por ser figura equiparada."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O art. 296, § 1º, III, estende as penas da falsificação de selo ou sinal público a quem altera, falsifica ou faz uso indevido de marcas, logotipos, siglas ou outros símbolos identificadores de órgãos ou entidades da Administração Pública. A pena é a do caput: reclusão, de dois a seis anos, e multa. Análise das alternativas: A) Errada: o § 1º, III, protege também marcas, logotipos e siglas de órgãos públicos. B) Errada: o agente não se atribui identidade de pessoa determinada, mas usa símbolo de órgão público. C) Correta: o § 1º manda aplicar as mesmas penas do caput. D) Errada: brasão e sigla não são papéis públicos do art. 293. E) Errada: um a três anos não é a pena prevista para as figuras do § 1º do art. 296. Fundamento: art. 296, caput e § 1º, III, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 876,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Dignidade Sexual",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-dignidade-sexual.md",
+      "atual": {
+        "enunciado": "De acordo com o Código Penal, o crime de estupro em sua forma simples (art. 213, caput), praticado contra vítima adulta e sem resultado de lesão grave ou morte, é punido com:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "reclusão, de 6 (seis) a 10 (dez) anos."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão, de 8 (oito) a 12 (doze) anos."
+          },
+          {
+            "letra": "C",
+            "texto": "reclusão, de 2 (dois) a 6 (seis) anos."
+          },
+          {
+            "letra": "D",
+            "texto": "reclusão, de 10 (dez) a 18 (dezoito) anos."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O estupro consiste em constranger alguém, mediante violência ou grave ameaça, a ter conjunção carnal ou a praticar ou permitir que com ele se pratique outro ato libidinoso. Na forma simples, a pena é de reclusão de 6 a 10 anos; as formas qualificadas estão nos §§ 1º e 2º. Análise das alternativas: A) Correta: é a pena do caput do art. 213. B) Errada: 8 a 12 anos é a pena da forma qualificada do § 1º (lesão grave ou vítima maior de 14 e menor de 18 anos). C) Errada: 2 a 6 anos é a pena da violação sexual mediante fraude (art. 215). D) Errada: 10 a 18 anos é a pena do estupro de vulnerável (art. 217-A, caput). Fundamento: CP, art. 213, caput.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 877,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Dignidade Sexual",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-dignidade-sexual.md",
+      "atual": {
+        "enunciado": "Em plantão na delegacia, o inspetor registra ocorrência na qual o autor, mediante grave ameaça exercida com uma faca, constrangeu uma adolescente de 16 anos a praticar ato libidinoso. A vítima não sofreu lesão corporal. Com base exclusivamente no Código Penal, a conduta corresponde a:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "estupro de vulnerável (art. 217-A, caput), com pena de reclusão de 10 a 18 anos e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "estupro simples (art. 213, caput), com reclusão de 6 a 10 anos, por não ter havido lesão grave."
+          },
+          {
+            "letra": "C",
+            "texto": "violação sexual mediante fraude (art. 215), com pena de reclusão de 2 a 6 anos."
+          },
+          {
+            "letra": "D",
+            "texto": "estupro qualificado pelo resultado (art. 213, § 2º), com pena de reclusão de 12 a 30 anos."
+          },
+          {
+            "letra": "E",
+            "texto": "estupro qualificado pela idade da vítima (art. 213, § 1º), com pena de reclusão de 8 a 12 anos."
+          }
+        ],
+        "gabarito": "E",
+        "comentario": "O § 1º do art. 213 prevê duas hipóteses alternativas de qualificadora: resultar lesão corporal de natureza grave ou ser a vítima menor de 18 e maior de 14 anos. Basta uma delas para a pena passar a 8 a 12 anos de reclusão. Como a vítima tinha 16 anos e houve grave ameaça, configura-se o estupro qualificado pela idade. Análise das alternativas: A) Errada: o estupro de vulnerável por idade exige vítima menor de 14 anos. B) Errada: a ausência de lesão grave não afasta a qualificadora, que também incide pela idade da vítima. C) Errada: houve grave ameaça, e não fraude ou meio que dificulte a manifestação de vontade. D) Errada: o § 2º exige resultado morte. E) Correta: vítima entre 14 e 18 anos atrai o § 1º, com pena de 8 a 12 anos. Fundamento: CP, art. 213, § 1º.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    }
+  ]
+}

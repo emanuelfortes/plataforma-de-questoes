@@ -1,0 +1,36 @@
+{
+  "itens": [
+    {
+      "id": 2921,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Lei de Drogas",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--lei-de-drogas.md",
+      "atual": {
+        "enunciado": "Um policial civil, valendo-se das prerrogativas do cargo para evitar abordagens de outras guarnições, transporta cocaína destinada à revenda. Condenado por tráfico, a circunstância de ter-se prevalecido da função pública constitui, segundo a Lei nº 11.343/2006,",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "agravante genérica, sem previsão específica na Lei de Drogas, considerada apenas na fixação da pena-base."
+          },
+          {
+            "letra": "B",
+            "texto": "causa de aumento do art. 40, II, que eleva a pena de um sexto a dois terços."
+          },
+          {
+            "letra": "C",
+            "texto": "causa de aplicação da pena em dobro, prevista no art. 40-A, por envolver agente do Estado."
+          },
+          {
+            "letra": "D",
+            "texto": "causa de aumento do art. 40, III, que eleva a pena de um terço até a metade."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O art. 40, II, aumenta as penas dos arts. 33 a 37 de um sexto a dois terços quando o agente pratica o crime prevalecendo-se de função pública ou no desempenho de missão de educação, poder familiar, guarda ou vigilância. Análise das alternativas: A) Errada: há previsão específica na Lei de Drogas (art. 40, II), como causa de aumento. B) Correta: prevalecer-se da função pública é causa de aumento de 1/6 a 2/3. C) Errada: o art. 40-A (pena em dobro) refere-se a integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada, não a agente público. D) Errada: o inciso III trata de locais (prisões, escolas, hospitais etc.), e a fração de todo o art. 40 é de 1/6 a 2/3. Fundamento: art. 40, caput e II, da Lei nº 11.343/2006.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    }
+  ]
+}

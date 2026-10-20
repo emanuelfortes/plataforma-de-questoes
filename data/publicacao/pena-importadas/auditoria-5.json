@@ -1,0 +1,52 @@
+{
+  "auditorias": [
+    {
+      "id": 879,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: B reproduz o tipo do art. 215 do CP (fraude ou outro meio que impeça ou dificulte a livre manifestação de vontade). A é elementar do estupro (art. 213); C ignora 'outro ato libidinoso'; D está errada porque o parágrafo único do art. 215 apenas manda aplicar também multa, sem mudar o crime, e o art. 230 trata de tirar proveito da prostituição alheia. Uma só correta, alternativas sem quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 883,
+      "status": "VALIDADA",
+      "justificativa": "Filmar sem autorização cena de nudez de caráter íntimo e privado é a conduta do art. 216-B do CP, que se consuma com o registro. A (218-C) exige divulgar, publicar ou conduta semelhante; B é falsa porque o 216-B pune o registro; C (215-A) exige praticar ato libidinoso contra alguém. Gabarito D correto, sem menção a pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 887,
+      "status": "VALIDADA",
+      "justificativa": "Vítima de 13 anos: art. 217-A do CP. Presunção absoluta de vulnerabilidade (§ 4º-A) e irrelevância do consentimento e de relações anteriores (§ 5º), conferidos no texto vigente. Resultado lesão grave: § 3º. Hediondo pela Lei 8.072/1990, art. 1º, VI (caput e §§ 1º a 4º). B, C e D contrariam esses dispositivos. Gabarito A correto, alternativas sem quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 888,
+      "status": "VALIDADA",
+      "justificativa": "Publicar em rede social, sem consentimento, vídeo com cena de nudez da vítima é o art. 218-C do CP. O aumento do § 1º depende de relação íntima de afeto (atual ou passada) ou de fim de vingança ou humilhação, hipóteses que o enunciado afasta expressamente; a falta de consentimento é elementar do caput (B errada). A (216-B) trata do registro, não da publicação; D (215-A) exige ato libidinoso contra a vítima. Gabarito C correto; as alternativas citam a causa de aumento sem fração.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 894,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C reproduz o art. 234-A, IV, do CP (transmissão de doença sexualmente transmissível de que o agente sabe ou deveria saber ser portador). A e B são causas de aumento do art. 226, I e II (e IV, a), não do art. 234-A; D exige ciência efetiva, que a lei não exige. O comentário descreve corretamente os incisos III e IV. Única correta, sem cobrar frações. A ressalva antiga foi resolvida: a justificativa da letra D não traz mais a leitura doutrinária '(dolo direto ou eventual)'.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 925,
+      "status": "VALIDADA",
+      "justificativa": "Lei 8.072/1990, art. 8º, parágrafo único: o participante e o associado que denunciar à autoridade o bando ou quadrilha, possibilitando seu desmantelamento, tem a pena reduzida (causa de diminuição). Não há extinção da punibilidade (A), perdão judicial (B) nem exigência de primariedade ou confissão (D). Gabarito C correto; alternativas sem fração de redução.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1023,
+      "status": "VALIDADA",
+      "justificativa": "Lei 9.455/1997, art. 1º, § 2º: pune quem se omite em face das condutas de tortura quando tinha o dever de evitá-las ou apurá-las. O corregedor que deixa de apurar se enquadra no § 2º (D). A ignora o dever de apurar; B e C equiparam a omissão à tortura comissiva, contrariando a figura autônoma do § 2º. A menção ao § 7º no comentário está correta (exceção ao regime inicial fechado). Alternativas sem pena ou fração.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1027,
+      "status": "VALIDADA",
+      "justificativa": "Lei 9.455/1997, art. 1º, § 4º: aumento se cometido por agente público (I), contra criança, gestante, portador de deficiência, adolescente ou maior de 60 anos (II) ou mediante sequestro (III). D reúne hipóteses dos incisos II e III. A troca 60 por 70 e sequestro por emboscada; B inverte o inciso I; C traz concurso de pessoas (não previsto) e pessoa presa (figura do § 1º). Gabarito correto, sem fração de aumento.",
+      "correcao_sugerida": null
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "auditorias": [
+    {
+      "id": 204,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: posse lícita anterior (empréstimo) e posterior inversão do ânimo configuram o art. 168 do CP; o art. 170 manda aplicar aos crimes do capítulo o art. 155, § 2º. Gabarito C confere. A (furto) falha por não haver subtração; B (estelionato) falha por não haver fraude para obter a coisa e por condicionar o privilégio à reparação do dano (instituto do art. 16); D contraria o art. 170. Nenhuma alternativa gira em torno de quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 207,
+      "status": "VALIDADA",
+      "justificativa": "A conduta corresponde ao art. 162 do CP (suprimir ou alterar, indevidamente, marca em gado ou rebanho alheio). A regra da queixa do art. 161, § 3º, está no art. 161, e o art. 167 só menciona o art. 163, o inciso IV do seu parágrafo e o art. 164; não há previsão de queixa para o art. 162. Gabarito D confere. A falha por ausência de subtração; B estende indevidamente o art. 161, § 3º; C ignora o tipo específico e erra a ação penal. Sem alternativas sobre quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 242,
+      "status": "VALIDADA",
+      "justificativa": "O art. 33, caput, da Lei 11.343/2006 traz o verbo fornecer e a expressão \"ainda que gratuitamente\". Gabarito A confere. B contraria a expressão legal; C omite verbos expressos do caput (guardar, transportar, trazer consigo); D erra, pois prescrever e ministrar dolosamente estão no caput, e o art. 38 é a forma culposa. Única correta, sem foco em pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 243,
+      "status": "VALIDADA",
+      "justificativa": "Art. 35, caput: duas ou mais pessoas, \"reiteradamente ou não\", crimes dos arts. 33, caput e § 1º, e 34. Gabarito B reproduz o texto. A erra o número de pessoas e inclui o § 3º do art. 33; C exige reiteração e exclui o art. 34; D erra o número e cria requisitos inexistentes. Sem foco em pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 244,
+      "status": "VALIDADA",
+      "justificativa": "O art. 34 inclui os verbos possuir e guardar, a expressão \"ainda que gratuitamente\" e objetos destinados à preparação ou transformação de drogas. Gabarito D confere. A omite verbos expressos; B contraria a gratuidade e o verbo fornecer; C descreve o informante do art. 37. A contagem de onze verbos no comentário confere com o texto. Sem foco em pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 245,
+      "status": "VALIDADA",
+      "justificativa": "Art. 33, § 4º: redução desde que o agente seja primário, de bons antecedentes, não se dedique às atividades criminosas nem integre organização criminosa (requisitos cumulativos). Gabarito C confere. A os trata como alternativos; B inclui a quantidade de droga, que é critério do art. 42, e omite requisitos; D descreve a colaboração do art. 41. As alternativas cobram requisitos, não frações de redução. O dispositivo sensível da lista (art. 44 e vedação de conversão) não é cobrado.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 246,
+      "status": "VALIDADA",
+      "justificativa": "Art. 33, § 1º, III: incorre nas penas do caput quem consente que outrem utilize, ainda que gratuitamente, bem de sua propriedade para o tráfico. Gabarito C confere. A confunde local com maquinário ou objeto do art. 34; B descreve o informante do art. 37, sem relação com o fato; D contraria a figura equiparada. Sem foco em pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 248,
+      "status": "VALIDADA",
+      "justificativa": "Art. 35, parágrafo único: associação \"para a prática reiterada\" do crime do art. 36. Gabarito D confere. A transporta o \"reiteradamente ou não\" do caput; B nega o tipo autônomo do art. 36 (o art. 40, VII, é causa de aumento que coexiste); C amplia o objeto do art. 36, limitado aos arts. 33, caput e § 1º, e 34. Sem foco em pena.",
+      "correcao_sugerida": null
+    }
+  ]
+}

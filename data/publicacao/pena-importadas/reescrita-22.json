@@ -1,0 +1,178 @@
+{
+  "itens": [
+    {
+      "id": 2864,
+      "enunciado": "Por vingança, Ana, sabendo que o vizinho é inocente, envia denúncia anônima à delegacia imputando-lhe a prática de um crime, o que dá causa à instauração de inquérito policial contra ele. A conduta de Ana configura",
+      "alternativas": [
+        { "letra": "A", "texto": "comunicação falsa de crime, pois a notícia anônima não chega a atribuir a autoria a pessoa identificada." },
+        { "letra": "B", "texto": "denunciação caluniosa, sendo o anonimato causa de diminuição, por não haver exposição pública do nome do vizinho." },
+        { "letra": "C", "texto": "denunciação caluniosa, e o uso do anonimato é causa de aumento de pena expressamente prevista no próprio tipo." },
+        { "letra": "D", "texto": "calúnia apenas, pois a denunciação caluniosa exige que tenha sido instaurado processo judicial contra o vizinho." },
+        { "letra": "E", "texto": "denunciação caluniosa, mas o crime só se consuma se o Ministério Público oferecer denúncia contra o vizinho." }
+      ],
+      "gabarito": "C",
+      "comentario": "Dar causa à instauração de inquérito policial contra alguém, imputando-lhe crime de que o sabe inocente, é denunciação caluniosa (art. 339, caput, do CP). O crime se consuma com a instauração do inquérito: não é preciso processo judicial nem denúncia do Ministério Público. Como Ana se serviu do anonimato, incide a causa de aumento do § 1º. A causa de diminuição do § 2º é outra hipótese: quando a imputação é de contravenção. E não é comunicação falsa de crime (art. 340), porque Ana apontou pessoa determinada como autora.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Na comunicação falsa de crime (art. 340) não se atribui o fato a pessoa determinada. Ana imputou o crime ao vizinho, ainda que de forma anônima, o que leva à denunciação caluniosa." },
+        { "letra": "B", "correta": false, "justificativa": "O anonimato aumenta a pena (art. 339, § 1º). A diminuição do § 2º é para a imputação de contravenção, que não é o caso." },
+        { "letra": "C", "correta": true, "justificativa": "Art. 339, caput e § 1º: houve instauração de inquérito contra inocente, e o agente se serviu de anonimato, hipótese de aumento prevista no tipo." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 339 inclui expressamente o inquérito policial entre os procedimentos cuja instauração configura o crime; não se exige processo judicial." },
+        { "letra": "E", "correta": false, "justificativa": "A consumação ocorre com a instauração do inquérito policial (ou de outro procedimento do art. 339), sem depender de denúncia do Ministério Público." }
+      ],
+      "fundamento_legal": "Código Penal, art. 339, caput, §§ 1º e 2º, e art. 340.",
+      "pegadinha": "Achar que o anonimato afasta a denunciação caluniosa ou reduz a pena, quando na verdade é causa de aumento, e confundir o crime com a comunicação falsa de crime.",
+      "o_que_mudou": "Antes as alternativas comparavam frações de aumento e diminuição da pena. Agora cobra qual crime se configura, o momento da consumação e a hipótese do anonimato como causa de aumento, sem citar quantidade de pena."
+    },
+    {
+      "id": 2867,
+      "enunciado": "Sobre o falso testemunho e a corrupção de testemunha ou perito, previstos nos arts. 342 e 343 do Código Penal, assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "Quem oferece dinheiro a testemunha para que minta só comete crime se ela de fato prestar o depoimento falso." },
+        { "letra": "B", "texto": "O falso testemunho exige afirmação falsa, não alcançando a testemunha que apenas nega ou cala a verdade sobre os fatos." },
+        { "letra": "C", "texto": "O falso testemunho prestado em inquérito policial é atípico, pois o tipo penal exige depoimento em processo judicial." },
+        { "letra": "D", "texto": "O fato deixa de ser punível se, antes da sentença no processo em que ocorreu o ilícito, o agente se retrata ou declara a verdade." },
+        { "letra": "E", "texto": "Perito, contador e tradutor não respondem por falso testemunho ou falsa perícia, pois o tipo alcança somente a testemunha." }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 342 do CP pune quem faz afirmação falsa, nega ou cala a verdade como testemunha, perito, contador, tradutor ou intérprete em processo judicial ou administrativo, inquérito policial ou juízo arbitral. O § 2º traz a retratação: o fato deixa de ser punível se, antes da sentença no processo em que ocorreu o ilícito, o agente se retrata ou declara a verdade. Já o art. 343 pune quem dá, oferece ou promete vantagem a essas pessoas para que faltem com a verdade: basta oferecer ou prometer, sem depender do depoimento falso.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 343 se perfaz com o simples ato de dar, oferecer ou prometer a vantagem para que a testemunha falte com a verdade; não exige que o depoimento falso seja prestado." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 342 abrange três condutas: fazer afirmação falsa, negar ou calar a verdade." },
+        { "letra": "C", "correta": false, "justificativa": "O inquérito policial consta expressamente do art. 342, ao lado do processo judicial, do administrativo e do juízo arbitral." },
+        { "letra": "D", "correta": true, "justificativa": "Reproduz o art. 342, § 2º: a retratação ou a declaração da verdade antes da sentença no processo em que ocorreu o ilícito torna o fato não punível." },
+        { "letra": "E", "correta": false, "justificativa": "Perito, contador, tradutor e intérprete estão expressamente no art. 342 como possíveis autores." }
+      ],
+      "fundamento_legal": "Código Penal, arts. 342, caput e § 2º, e 343.",
+      "pegadinha": "Achar que a corrupção de testemunha depende do depoimento falso efetivamente prestado e esquecer que a retratação antes da sentença afasta a punição do falso testemunho.",
+      "o_que_mudou": "Antes a correta era a quantidade de pena do art. 343 e uma errada trocava a fração de aumento do suborno. Agora cobra a consumação do art. 343 e a retratação do art. 342, § 2º, sem citar pena."
+    },
+    {
+      "id": 2868,
+      "enunciado": "Réu em processo por crime de estupro faz grave ameaça à vítima para que ela não compareça à audiência de instrução, com o fim de favorecer interesse próprio. Segundo o Código Penal, a conduta configura",
+      "alternativas": [
+        { "letra": "A", "texto": "coação no curso do processo, com causa de aumento por se tratar de processo que envolve crime contra a dignidade sexual." },
+        { "letra": "B", "texto": "coação no curso do processo, sem causa de aumento, que só incide quando a grave ameaça é dirigida ao juiz da causa." },
+        { "letra": "C", "texto": "ameaça, apenas, pois a coação no curso do processo exige que a vítima seja autoridade ou funcionário." },
+        { "letra": "D", "texto": "favorecimento pessoal, pois o réu buscou subtrair-se à ação da autoridade pública que conduz o processo." }
+      ],
+      "gabarito": "A",
+      "comentario": "Usar violência ou grave ameaça, para favorecer interesse próprio ou alheio, contra autoridade, parte ou qualquer outra pessoa que funciona ou é chamada a intervir em processo judicial, policial ou administrativo, ou em juízo arbitral, configura coação no curso do processo (art. 344 do CP). A vítima, chamada a depor, está protegida pelo tipo. O parágrafo único prevê aumento de pena quando o processo envolve crime contra a dignidade sexual, como o estupro.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Art. 344, caput e parágrafo único: grave ameaça contra pessoa chamada a intervir no processo, que envolve crime contra a dignidade sexual." },
+        { "letra": "B", "correta": false, "justificativa": "O aumento do parágrafo único depende da natureza do crime do processo (contra a dignidade sexual), e não de quem sofre a ameaça." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 344 protege também a parte e qualquer pessoa que funciona ou é chamada a intervir no processo, como a vítima." },
+        { "letra": "D", "correta": false, "justificativa": "O favorecimento pessoal (art. 348) é auxiliar terceiro, autor de crime, a se subtrair à ação da autoridade. O réu ameaçou quem iria depor, conduta do art. 344." }
+      ],
+      "fundamento_legal": "Código Penal, art. 344, caput e parágrafo único.",
+      "pegadinha": "Achar que a coação no curso do processo só protege autoridades e funcionários, ou que o aumento depende da pessoa ameaçada, e não da natureza do crime do processo.",
+      "o_que_mudou": "Antes três alternativas comparavam a fração de aumento da coação. Agora cobra quem o tipo protege, a hipótese do aumento (crime contra a dignidade sexual) e a diferença para o favorecimento pessoal, sem citar pena."
+    },
+    {
+      "id": 2870,
+      "enunciado": "Após matar a vítima a tiros dentro de casa, o autor limpa os vestígios de sangue e coloca a arma na mão do morto, simulando suicídio para enganar o perito, antes mesmo da chegada da polícia e da instauração de inquérito. Quanto à fraude processual, é correto afirmar que",
+      "alternativas": [
+        { "letra": "A", "texto": "não há esse crime, pois a fraude processual exige processo já em curso no momento da conduta." },
+        { "letra": "B", "texto": "há fraude processual na forma agravada, pois a lei alcança o processo penal ainda não iniciado." },
+        { "letra": "C", "texto": "há favorecimento real, pois o autor buscou tornar seguro o proveito do crime de homicídio." },
+        { "letra": "D", "texto": "há fraude processual simples, pois a forma agravada exige inquérito policial já instaurado." }
+      ],
+      "gabarito": "B",
+      "comentario": "Inovar artificiosamente o estado de lugar, coisa ou pessoa, com o fim de induzir a erro o juiz ou o perito, configura fraude processual (art. 347 do CP). O caput fala em processo civil ou administrativo pendente, mas o parágrafo único trata da inovação destinada a produzir efeito em processo penal, ainda que não iniciado, e agrava a punição. Por isso, alterar a cena do crime antes do inquérito já configura a forma agravada.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A exigência de processo pendente está no caput (civil ou administrativo). Para o processo penal, o parágrafo único dispensa que ele já tenha sido iniciado." },
+        { "letra": "B", "correta": true, "justificativa": "Art. 347, parágrafo único: a inovação destinada a produzir efeito em processo penal, ainda que não iniciado, configura a forma agravada." },
+        { "letra": "C", "correta": false, "justificativa": "O favorecimento real (art. 349) é auxílio prestado a criminoso por terceiro, fora da coautoria, para tornar seguro o proveito do crime. Aqui o próprio autor alterou a cena para enganar o perito." },
+        { "letra": "D", "correta": false, "justificativa": "O parágrafo único não exige inquérito instaurado: basta que a inovação se destine a produzir efeito em processo penal, ainda que não iniciado." }
+      ],
+      "fundamento_legal": "Código Penal, art. 347, caput e parágrafo único.",
+      "pegadinha": "Aplicar ao processo penal a exigência de processo pendente do caput, quando o parágrafo único alcança o processo penal ainda não iniciado.",
+      "o_que_mudou": "Antes as alternativas comparavam pena-base, aplicação em dobro e aumento de um terço. Agora cobra a hipótese da forma agravada (processo penal ainda não iniciado) e a diferença para o favorecimento real, sem citar pena."
+    },
+    {
+      "id": 2872,
+      "enunciado": "Após um furto de joias, um amigo do autor, que não participou do crime nem obteve qualquer proveito para si, guarda as joias em seu cofre para garantir que o autor possa reavê-las depois. O amigo responde por",
+      "alternativas": [
+        { "letra": "A", "texto": "favorecimento pessoal, pois ajudou o autor do furto a se subtrair à ação da autoridade." },
+        { "letra": "B", "texto": "receptação, pois ocultou coisa que sabia ser produto de crime praticado pelo amigo." },
+        { "letra": "C", "texto": "favorecimento real, pois prestou auxílio destinado a tornar seguro o proveito do crime." },
+        { "letra": "D", "texto": "coautoria no furto, pois aderiu à conduta do autor depois de consumada a subtração." }
+      ],
+      "gabarito": "C",
+      "comentario": "O favorecimento real consiste em prestar a criminoso, fora dos casos de coautoria ou de receptação, auxílio destinado a tornar seguro o proveito do crime (art. 349 do CP). O auxílio recai sobre o proveito, e não sobre a pessoa do autor, o que o distingue do favorecimento pessoal (art. 348). O amigo guardou as joias em favor do próprio autor do furto, sem proveito próprio.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O favorecimento pessoal (art. 348) é ajudar o autor a fugir da ação da autoridade. Aqui o auxílio protegeu o produto do crime, e não a pessoa do autor." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 349 ressalva a receptação, que pressupõe proveito próprio ou de terceiro. O amigo agiu apenas em favor do autor do furto, sem proveito para si." },
+        { "letra": "C", "correta": true, "justificativa": "Art. 349: auxílio prestado ao criminoso, fora da coautoria e da receptação, para tornar seguro o proveito do crime." },
+        { "letra": "D", "correta": false, "justificativa": "O auxílio prestado depois da consumação, sem ajuste prévio, não gera coautoria; o próprio art. 349 trata dele como crime autônomo." }
+      ],
+      "fundamento_legal": "Código Penal, arts. 348 e 349.",
+      "pegadinha": "Confundir favorecimento real (protege o proveito do crime) com favorecimento pessoal (protege a pessoa do autor) e com receptação (proveito próprio ou de terceiro).",
+      "o_que_mudou": "Antes duas alternativas traziam a quantidade de pena dos favorecimentos. Agora todas trazem só o crime e a razão, cobrando a diferença entre favorecimento real, favorecimento pessoal, receptação e coautoria."
+    },
+    {
+      "id": 2874,
+      "enunciado": "Um grupo invade a delegacia e retira um preso do poder dos policiais que o tinham sob custódia, com o objetivo de espancá-lo. Segundo o Código Penal, os integrantes do grupo cometem",
+      "alternativas": [
+        { "letra": "A", "texto": "fuga de pessoa presa na forma qualificada, por ter sido praticada por mais de uma pessoa." },
+        { "letra": "B", "texto": "motim de presos, pois houve perturbação da ordem e da disciplina do estabelecimento." },
+        { "letra": "C", "texto": "arrebatamento de preso, crime marcado pelo fim de maltratar quem é tirado da custódia." },
+        { "letra": "D", "texto": "exercício arbitrário das próprias razões, pois o grupo fez justiça pelas próprias mãos." }
+      ],
+      "gabarito": "C",
+      "comentario": "Arrebatar preso, a fim de maltratá-lo, do poder de quem o tenha sob custódia ou guarda configura arrebatamento de preso (art. 353 do CP). O que distingue o tipo é a finalidade de maltratar o preso. Na fuga de pessoa presa (art. 351) o fim é libertá-lo; o motim (art. 354) é praticado pelos próprios presos; e o exercício arbitrário (art. 345) busca satisfazer uma pretensão.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A fuga de pessoa presa (art. 351) consiste em promover ou facilitar a fuga, com o fim de libertar o preso. Aqui o objetivo era maltratá-lo." },
+        { "letra": "B", "correta": false, "justificativa": "O motim (art. 354) é praticado pelos próprios presos, amotinados, perturbando a ordem ou disciplina da prisão. Os agentes não eram presos." },
+        { "letra": "C", "correta": true, "justificativa": "Art. 353: retirar o preso do poder de quem o tem sob custódia, a fim de maltratá-lo." },
+        { "letra": "D", "correta": false, "justificativa": "O exercício arbitrário (art. 345) busca satisfazer pretensão, embora legítima. Há tipo específico para quem arrebata preso a fim de maltratá-lo." }
+      ],
+      "fundamento_legal": "Código Penal, arts. 345, 351, 353 e 354.",
+      "pegadinha": "Confundir o arrebatamento de preso (fim de maltratar) com a fuga de pessoa presa (fim de libertar) e com o motim (praticado pelos próprios presos).",
+      "o_que_mudou": "Antes todas as alternativas traziam a pena de cada crime. Agora trazem só o crime e o elemento que o caracteriza, cobrando a finalidade de maltratar como marca do arrebatamento."
+    },
+    {
+      "id": 2875,
+      "enunciado": "Um advogado patrocinou o autor de uma ação judicial e, após renunciar ao mandato, passou a defender o réu na mesma causa. De acordo com o Código Penal, o advogado",
+      "alternativas": [
+        { "letra": "A", "texto": "não comete crime, pois a defesa das partes contrárias foi sucessiva, e não simultânea." },
+        { "letra": "B", "texto": "comete patrocínio simultâneo ou tergiversação, que alcança também a defesa sucessiva de partes contrárias." },
+        { "letra": "C", "texto": "comete patrocínio infiel, mas somente se houver prova de traição ao dever profissional diversa da mera mudança de lado." },
+        { "letra": "D", "texto": "comete sonegação de papel ou objeto de valor probatório, por ter passado a atuar contra o antigo cliente." },
+        { "letra": "E", "texto": "comete exploração de prestígio, por usar na nova defesa a confiança que obteve junto à parte contrária." }
+      ],
+      "gabarito": "B",
+      "comentario": "O patrocínio infiel (art. 355 do CP) pune o advogado ou procurador que trai o dever profissional, prejudicando interesse cujo patrocínio em juízo lhe é confiado. O parágrafo único traz figura própria: o advogado ou procurador judicial que defende na mesma causa, simultânea ou sucessivamente, partes contrárias (patrocínio simultâneo ou tergiversação). A renúncia ao mandato não afasta o crime, porque a defesa sucessiva está prevista expressamente.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O parágrafo único do art. 355 alcança a defesa simultânea ou sucessiva de partes contrárias na mesma causa." },
+        { "letra": "B", "correta": true, "justificativa": "Art. 355, parágrafo único: defender, na mesma causa, sucessivamente, partes contrárias configura tergiversação." },
+        { "letra": "C", "correta": false, "justificativa": "A defesa de partes contrárias na mesma causa já é figura típica própria (parágrafo único), sem exigir outra forma de traição." },
+        { "letra": "D", "correta": false, "justificativa": "A sonegação (art. 356) é inutilizar ou deixar de restituir autos, documento ou objeto de valor probatório recebido como advogado, o que não ocorreu." },
+        { "letra": "E", "correta": false, "justificativa": "A exploração de prestígio (art. 357) é solicitar ou receber vantagem a pretexto de influir em juiz, jurado, promotor, perito ou testemunha, conduta diversa." }
+      ],
+      "fundamento_legal": "Código Penal, arts. 355, caput e parágrafo único, 356 e 357.",
+      "pegadinha": "Achar que a tergiversação exige atuação simultânea, quando a lei pune também a defesa sucessiva de partes contrárias na mesma causa.",
+      "o_que_mudou": "Antes três alternativas traziam a pena de cada crime. Agora trazem só o crime e a razão, cobrando a defesa sucessiva como hipótese da tergiversação e a diferença para a sonegação e a exploração de prestígio."
+    },
+    {
+      "id": 2919,
+      "enunciado": "Em fiscalização rodoviária no Ceará, policiais encontram no caminhão de Rui galões de produto químico que, conforme se apurou, ele transportava para entregar a um laboratório clandestino, onde seria usado na preparação de cocaína. Rui não levava droga pronta nem equipamentos. Com base na Lei nº 11.343/2006, a conduta de Rui",
+      "alternativas": [
+        { "letra": "A", "texto": "configura o crime do art. 34, por se tratar de objeto destinado à preparação de drogas transportado pelo agente." },
+        { "letra": "B", "texto": "é atípica, pois a lei pune o transporte de produto químico apenas quando houver droga pronta apreendida com o agente." },
+        { "letra": "C", "texto": "configura colaboração como informante (art. 37), por prestar auxílio ao laboratório clandestino que produz a droga." },
+        { "letra": "D", "texto": "configura figura equiparada ao tráfico (art. 33, § 1º, I), que pune o transporte de produto químico destinado à preparação de drogas." }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 33, § 1º, I, da Lei nº 11.343/2006 pune, nas mesmas penas do tráfico, quem transporta, entre outras condutas, matéria-prima, insumo ou produto químico destinado à preparação de drogas. Não se exige apreensão de droga pronta. O art. 34 cuida de outro objeto (maquinário, aparelho, instrumento ou objeto destinado à fabricação), e o art. 37 pune quem colabora como informante.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 34 trata de maquinário, aparelho, instrumento ou objeto destinado à fabricação de drogas. Insumo e produto químico têm previsão específica no art. 33, § 1º, I." },
+        { "letra": "B", "correta": false, "justificativa": "O tipo do art. 33, § 1º, I, incide sobre o próprio produto químico destinado à preparação de drogas, sem exigir droga pronta." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 37 pune quem colabora como informante com grupo ou organização voltada ao tráfico. Rui transportava o insumo, conduta prevista no art. 33, § 1º, I." },
+        { "letra": "D", "correta": true, "justificativa": "Transportar produto químico destinado à preparação de drogas é figura equiparada ao tráfico (art. 33, § 1º, I)." }
+      ],
+      "fundamento_legal": "Lei nº 11.343/2006, art. 33, caput e § 1º, I, art. 34 e art. 37.",
+      "pegadinha": "Enquadrar o transporte de produto químico no art. 34 (maquinário e objetos) ou exigir droga pronta para haver crime.",
+      "o_que_mudou": "Antes três alternativas traziam a quantidade de pena de cada artigo. Agora trazem só o enquadramento e a razão, cobrando a diferença entre insumo químico (art. 33, § 1º, I), maquinário (art. 34) e informante (art. 37)."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "itens": [
+    {
+      "id": 592,
+      "enunciado": "Carlos, dono de uma pequena oficina mecânica, mantém guardado no escritório do próprio estabelecimento um revólver de uso permitido, sem o registro exigido em lei. Não há notícia de que ele tenha levado a arma para fora do local nem de que terceiros tenham tido acesso a ela. À luz da Lei nº 10.826/2003, a conduta de Carlos configura:",
+      "alternativas": [
+        { "letra": "A", "texto": "Porte ilegal de arma de fogo de uso permitido (art. 14), porque a arma estava guardada fora da residência do agente." },
+        { "letra": "B", "texto": "Omissão de cautela (art. 13), porque a arma sem registro ficou guardada em local de trabalho frequentado por terceiros." },
+        { "letra": "C", "texto": "Posse irregular de arma de fogo de uso permitido (art. 12), porque a guarda ocorreu no local de trabalho do qual ele é titular." },
+        { "letra": "D", "texto": "Posse ilegal de arma de fogo de uso restrito (art. 16), porque a falta de registro equipara a arma às de uso restrito." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 12 da Lei nº 10.826/2003 pune quem possui ou mantém sob sua guarda arma de fogo de uso permitido, em desacordo com determinação legal ou regulamentar, no interior da residência (ou dependência) ou no local de trabalho, desde que seja o titular ou o responsável legal do estabelecimento. Carlos é o dono da oficina e guardava ali um revólver de uso permitido sem registro: é posse irregular, e não porte. O porte (art. 14) envolve a arma fora desses locais ou condutas como portar, transportar e ceder. O local de trabalho do titular é tratado pela lei do mesmo modo que a residência.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 12 inclui expressamente o local de trabalho do titular ou responsável legal. Guardar a arma ali é posse, não porte do art. 14." },
+        { "letra": "B", "correta": false, "justificativa": "A omissão de cautela (art. 13) exige que o agente deixe de impedir que menor de 18 anos ou pessoa com deficiência mental se apodere da arma, o que não ocorreu." },
+        { "letra": "C", "correta": true, "justificativa": "Descreve o art. 12: guarda de arma de uso permitido, em desacordo com a lei, no local de trabalho de que o agente é titular." },
+        { "letra": "D", "correta": false, "justificativa": "O que define o art. 16 é a arma ser de uso restrito. A falta de registro não muda a classificação da arma, que segue sendo de uso permitido." }
+      ],
+      "fundamento_legal": "Art. 12 da Lei nº 10.826/2003 (com os arts. 13, 14 e 16 para os distratores).",
+      "pegadinha": "Achar que, por não estar em casa, a arma guardada no próprio local de trabalho já configura porte ilegal (art. 14).",
+      "o_que_mudou": "Antes cobrava a pena do art. 12. Agora cobra a tipificação: diferença entre posse irregular (residência ou local de trabalho do titular) e porte, omissão de cautela e posse de uso restrito."
+    },
+    {
+      "id": 595,
+      "enunciado": "O art. 20 da Lei nº 10.826/2003 prevê causa de aumento de pena para alguns crimes do Estatuto do Desarmamento. Sobre os crimes alcançados e as hipóteses dessa majorante, assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "Alcança os crimes dos arts. 12, 14 e 16 quando o crime for praticado em concurso com tráfico de drogas ou estiver diretamente ligado ao comércio ilícito de entorpecentes." },
+        { "letra": "B", "texto": "Alcança todos os crimes do Estatuto, inclusive a posse irregular e a omissão de cautela, quando o agente for reincidente, ainda que a condenação anterior seja por crime de outra natureza." },
+        { "letra": "C", "texto": "Alcança os crimes dos arts. 14 a 18 quando praticados por integrante dos órgãos e empresas referidos nos arts. 6º, 7º e 8º ou quando o agente for reincidente específico em crimes dessa natureza." },
+        { "letra": "D", "texto": "Alcança somente o comércio ilegal e o tráfico internacional de arma de fogo, e incide quando a arma de fogo, o acessório ou a munição envolvidos forem de uso proibido ou restrito." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 20 aplica a causa de aumento aos crimes dos arts. 14, 15, 16, 17 e 18 (porte de uso permitido, disparo, posse ou porte de uso restrito, comércio ilegal e tráfico internacional) em duas hipóteses: I, quando praticados por integrante dos órgãos e empresas dos arts. 6º, 7º e 8º; II, quando o agente for reincidente específico em crimes dessa natureza. A posse irregular (art. 12) e a omissão de cautela (art. 13) ficam de fora. Não confunda com dois dispositivos vizinhos: o art. 19 (arma de uso proibido ou restrito, só nos arts. 17 e 18) e o art. 21-A (ligação com o tráfico de drogas, nos arts. 12, 14 e 16).",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Essa hipótese (concurso com crime da Lei nº 11.343/2006 ou ligação com o comércio ilícito de entorpecentes, nos arts. 12, 14 e 16) é a do art. 21-A, e não a do art. 20." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 20 não alcança os arts. 12 e 13 e exige reincidência específica em crimes dessa natureza, não reincidência por crime diverso." },
+        { "letra": "C", "correta": true, "justificativa": "Reproduz o art. 20, caput e incisos I e II: crimes dos arts. 14 a 18, por integrante dos órgãos e empresas dos arts. 6º, 7º e 8º ou por reincidente específico." },
+        { "letra": "D", "correta": false, "justificativa": "A majorante limitada aos arts. 17 e 18 pelo uso proibido ou restrito do artefato é a do art. 19, dispositivo diverso do art. 20." }
+      ],
+      "fundamento_legal": "Art. 20, caput e incisos I e II, da Lei nº 10.826/2003 (com os arts. 19 e 21-A para os distratores).",
+      "pegadinha": "Confundir as hipóteses do art. 20 (agente dos arts. 6º, 7º e 8º ou reincidente específico) com as do art. 19 (uso proibido ou restrito nos arts. 17 e 18) e do art. 21-A (ligação com o tráfico de drogas).",
+      "o_que_mudou": "Saíram as frações de aumento das alternativas. A questão agora cobra só quais crimes o art. 20 alcança e em quais hipóteses, distinguindo dos arts. 19 e 21-A."
+    },
+    {
+      "id": 597,
+      "enunciado": "Em três investigações distintas, apurou-se que: (I) Ana mantinha em casa, sem autorização, um fuzil de uso restrito; (II) Bruno montava, remontava e vendia armas de fogo a terceiros numa oficina clandestina instalada na própria residência, sem autorização; (III) Caio atravessou a fronteira trazendo do exterior pistolas que entregaria a um comprador no Brasil, sem autorização da autoridade competente. Segundo a Lei nº 10.826/2003, as condutas configuram, respectivamente:",
+      "alternativas": [
+        { "letra": "A", "texto": "I: posse irregular de uso permitido, por estar em casa; II: comércio ilegal de arma de fogo; III: comércio ilegal de arma de fogo." },
+        { "letra": "B", "texto": "I: posse ou porte ilegal de uso restrito; II: porte ilegal de uso permitido, pois era residência; III: tráfico internacional." },
+        { "letra": "C", "texto": "I: posse ou porte ilegal de uso restrito; II: comércio ilegal de arma de fogo; III: tráfico internacional de arma de fogo." },
+        { "letra": "D", "texto": "I: posse ou porte ilegal de uso restrito; II: comércio ilegal de arma de fogo; III: porte ilegal de arma de uso permitido." }
+      ],
+      "gabarito": "C",
+      "comentario": "(I) Manter sob guarda arma de uso restrito, sem autorização, é o crime do art. 16, caput: o que importa é a classificação da arma, e a lei não faz para ela a distinção entre residência e rua que existe entre os arts. 12 e 14. (II) O art. 17 pune quem monta, remonta, vende ou de qualquer forma utiliza arma de fogo no exercício de atividade comercial ou industrial, e o § 1º equipara a essa atividade o comércio irregular ou clandestino, inclusive o exercido em residência. (III) Importar ou favorecer a entrada de arma de fogo no território nacional sem autorização da autoridade competente é tráfico internacional (art. 18), ainda que a arma depois fosse vendida aqui.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O fuzil é de uso restrito, o que leva ao art. 16, e não ao art. 12. Trazer a arma do exterior é importação (art. 18), não comércio do art. 17." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 17, § 1º, equipara à atividade comercial o comércio clandestino, inclusive o exercido em residência. A oficina de Bruno é comércio ilegal, não porte." },
+        { "letra": "C", "correta": true, "justificativa": "Classifica corretamente: art. 16 (uso restrito), art. 17 com seu § 1º (comércio clandestino em residência) e art. 18 (importação sem autorização)." },
+        { "letra": "D", "correta": false, "justificativa": "Trazer pistolas do exterior sem autorização da autoridade competente é importar, conduta do art. 18. Não se trata de mero porte do art. 14." }
+      ],
+      "fundamento_legal": "Arts. 16, caput, 17, caput e § 1º, e 18 da Lei nº 10.826/2003.",
+      "pegadinha": "Achar que o comércio feito dentro de casa deixa de ser atividade comercial (o art. 17, § 1º, diz o contrário) e confundir a importação do art. 18 com o comércio do art. 17.",
+      "o_que_mudou": "Antes pedia a ordem das penas dos arts. 16, 17 e 18. Agora cobra a tipificação de cada conduta e a diferença entre posse de uso restrito, comércio ilegal (inclusive em residência) e tráfico internacional."
+    }
+  ]
+}

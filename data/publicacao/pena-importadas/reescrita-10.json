@@ -1,0 +1,172 @@
+{
+  "itens": [
+    {
+      "id": 1812,
+      "enunciado": "Durante abordagem com viatura, um agente de segurança pública, no exercício da função, ofende a dignidade do abordado, dirigindo-lhe termos depreciativos em razão da cor de sua pele. À luz da Lei 7.716/1989, assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "Pratica injúria simples do Código Penal, pois a Lei 7.716/1989 só pune condutas de impedimento de acesso a locais e serviços." },
+        { "letra": "B", "texto": "Pratica injúria racial do art. 2º-A, com a causa de aumento do art. 20-B, por ser funcionário público no exercício das funções." },
+        { "letra": "C", "texto": "Pratica injúria racial do art. 2º-A, mas sem a causa de aumento, porque o art. 20-B só alcança os crimes dos arts. 3º a 14." },
+        { "letra": "D", "texto": "Pratica injúria racial do art. 2º-A, mas sem a causa de aumento, que só vale para quem age a pretexto de exercer a função." }
+      ],
+      "gabarito": "B",
+      "comentario": "Ofender a dignidade ou o decoro de alguém em razão de raça, cor, etnia ou procedência nacional é injúria racial, crime do art. 2º-A da Lei 7.716/1989 (incluído pela Lei 14.532/2023). O art. 20-B manda aumentar a pena dos crimes dos arts. 2º-A e 20 quando praticados por funcionário público, no exercício das funções ou a pretexto de exercê-las. O policial em abordagem está no exercício da função, então incide a causa de aumento. Fundamento: Lei 7.716/1989, arts. 2º-A e 20-B.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Desde a Lei 14.532/2023, a injúria em razão de raça ou cor está no art. 2º-A da Lei 7.716/1989; a lei não se limita aos crimes de impedimento de acesso." },
+        { "letra": "B", "correta": true, "justificativa": "A conduta é injúria racial (art. 2º-A) e, praticada por funcionário público no exercício das funções, atrai a causa de aumento do art. 20-B." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 20-B alcança justamente os crimes dos arts. 2º-A e 20, e não os dos arts. 3º a 14." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 20-B abrange tanto quem age no exercício das funções quanto quem age a pretexto de exercê-las." }
+      ],
+      "fundamento_legal": "Lei 7.716/1989, arts. 2º-A e 20-B (incluídos pela Lei 14.532/2023).",
+      "pegadinha": "Achar que a causa de aumento do funcionário público vale só para o 'pretexto' de exercer a função, ou só para os crimes de impedimento de acesso.",
+      "o_que_mudou": "Deixou de perguntar a fração do aumento; agora cobra a tipificação (injúria racial do art. 2º-A) e a hipótese de incidência do art. 20-B."
+    },
+    {
+      "id": 1814,
+      "enunciado": "Sobre o tratamento que a Constituição Federal (art. 5º, XLII e XLIII) dá à prática do racismo, comparada à tortura e aos crimes hediondos, é correto afirmar que o racismo é crime:",
+      "alternativas": [
+        { "letra": "A", "texto": "inafiançável e insuscetível de graça ou anistia, mesmo regime previsto para a tortura e os crimes hediondos." },
+        { "letra": "B", "texto": "afiançável, mas imprescritível, ao contrário da tortura, que a Constituição torna inafiançável e insuscetível de graça." },
+        { "letra": "C", "texto": "inafiançável e imprescritível, enquanto a tortura é inafiançável e insuscetível de graça ou anistia." },
+        { "letra": "D", "texto": "inafiançável e imprescritível, assim como a tortura e os crimes hediondos, que também não prescrevem." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 5º, XLII, da CF diz que a prática do racismo constitui crime inafiançável e imprescritível, nos termos da lei. Já o inciso XLIII trata a tortura, o tráfico de drogas, o terrorismo e os crimes hediondos como inafiançáveis e insuscetíveis de graça ou anistia, sem falar em imprescritibilidade. Imprescritíveis, na Constituição, são só o racismo (XLII) e a ação de grupos armados contra a ordem constitucional e o Estado Democrático (XLIV). Fundamento: CF, art. 5º, XLII, XLIII e XLIV.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Insuscetibilidade de graça ou anistia é o regime do inciso XLIII (tortura, tráfico, terrorismo e hediondos); para o racismo, o inciso XLII fala em imprescritibilidade." },
+        { "letra": "B", "correta": false, "justificativa": "O racismo é inafiançável, e não afiançável (art. 5º, XLII)." },
+        { "letra": "C", "correta": true, "justificativa": "Reproduz a distinção entre os incisos XLII (racismo: inafiançável e imprescritível) e XLIII (tortura: inafiançável e insuscetível de graça ou anistia)." },
+        { "letra": "D", "correta": false, "justificativa": "A tortura e os crimes hediondos não são imprescritíveis pela Constituição; o inciso XLIII não lhes atribui essa característica." }
+      ],
+      "fundamento_legal": "CF, art. 5º, XLII, XLIII e XLIV.",
+      "pegadinha": "Misturar os regimes dos incisos XLII e XLIII: imprescritibilidade é do racismo (e da ação de grupos armados), graça e anistia vedadas são da tortura, do tráfico, do terrorismo e dos hediondos.",
+      "o_que_mudou": "Saiu a espécie de pena (reclusão ou detenção) das alternativas; agora cobra a comparação entre os regimes constitucionais do racismo e da tortura e dos hediondos."
+    },
+    {
+      "id": 1824,
+      "enunciado": "Caio, querendo matar Tício, efetua um disparo de arma de fogo contra ele, mas erra o alvo porque a vítima se abaixa a tempo. Antes que Caio pudesse atirar de novo, é contido por policiais que passavam pelo local. À luz dos arts. 14 a 17 do Código Penal, Caio responde por:",
+      "alternativas": [
+        { "letra": "A", "texto": "tentativa de homicídio, pois iniciou a execução e o resultado não ocorreu por circunstâncias alheias à sua vontade." },
+        { "letra": "B", "texto": "desistência voluntária, pois não chegou a repetir os disparos, respondendo apenas pelos atos já praticados até ali." },
+        { "letra": "C", "texto": "crime impossível, pois o meio empregado se mostrou ineficaz para atingir a vítima naquela situação concreta." },
+        { "letra": "D", "texto": "homicídio consumado, pois praticou todos os atos de execução que estavam ao seu alcance, ainda que sem o resultado." }
+      ],
+      "gabarito": "A",
+      "comentario": "Pelo art. 14, II, do CP, o crime é tentado quando, iniciada a execução, não se consuma por circunstâncias alheias à vontade do agente. Caio iniciou a execução (efetuou o disparo) e só não matou porque a vítima se abaixou e porque foi contido pelos policiais: fatores alheios à sua vontade. Não há desistência voluntária (art. 15), que exige que o próprio agente, por vontade sua, pare a execução; nem crime impossível (art. 17), que exige ineficácia absoluta do meio ou absoluta impropriedade do objeto. Fundamento: CP, arts. 14, II, 15 e 17.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Houve início da execução e a consumação foi impedida por circunstâncias alheias à vontade do agente (art. 14, II, do CP)." },
+        { "letra": "B", "correta": false, "justificativa": "A desistência voluntária (art. 15) exige que o agente pare por vontade própria; Caio só parou porque foi contido pelos policiais." },
+        { "letra": "C", "correta": false, "justificativa": "O crime impossível (art. 17) exige ineficácia absoluta do meio; uma arma que dispara é meio idôneo, e o erro de pontaria não torna o meio absolutamente ineficaz." },
+        { "letra": "D", "correta": false, "justificativa": "O crime só é consumado quando se reúnem todos os elementos da definição legal (art. 14, I); sem a morte da vítima, não há homicídio consumado." }
+      ],
+      "fundamento_legal": "Código Penal, arts. 14, I e II, 15 e 17.",
+      "pegadinha": "Confundir a interrupção forçada da execução (tentativa) com a desistência voluntária, que depende da vontade do próprio agente.",
+      "o_que_mudou": "Deixou de perguntar a fração de redução da tentativa; agora cobra, num caso concreto, a diferença entre tentativa, desistência voluntária, crime impossível e consumação."
+    },
+    {
+      "id": 1885,
+      "enunciado": "Cuidadora contratada para acompanhar uma senhora de 84 anos passa a humilhá-la e menosprezá-la diariamente, inclusive diante de visitas. Considerando o art. 96 do Estatuto da Pessoa Idosa, a cuidadora:",
+      "alternativas": [
+        { "letra": "A", "texto": "não pratica crime do Estatuto, pois humilhar a pessoa idosa só é típico quando a motivação é a idade da vítima." },
+        { "letra": "B", "texto": "responde pelo crime do art. 96, § 1º, com causa de aumento própria do Estatuto por ser a vítima maior de oitenta anos." },
+        { "letra": "C", "texto": "responde pelo crime do art. 96, § 1º, sem causa de aumento, pois o vínculo de cuidado não altera a punição do crime." },
+        { "letra": "D", "texto": "responde pelo crime do art. 96, § 1º, com causa de aumento, por estar a vítima sob seus cuidados ou responsabilidade." }
+      ],
+      "gabarito": "D",
+      "comentario": "O § 1º do art. 96 do Estatuto pune quem desdenhar, humilhar, menosprezar ou discriminar pessoa idosa, por qualquer motivo; não se exige que a motivação seja a idade. O § 2º prevê causa de aumento quando a vítima se encontra sob os cuidados ou responsabilidade do agente, exatamente a situação da cuidadora contratada. O art. 96 não traz aumento ligado à idade acima de 80 anos. Fundamento: Lei 10.741/2003, art. 96, §§ 1º e 2º.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O § 1º do art. 96 diz expressamente 'por qualquer motivo'; a motivação etária é exigida no caput, não na conduta de humilhar ou menosprezar." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 96 não prevê aumento pela idade acima de 80 anos; a causa de aumento do § 2º decorre do vínculo de cuidado ou responsabilidade." },
+        { "letra": "C", "correta": false, "justificativa": "O vínculo de cuidado é justamente a causa de aumento do § 2º do art. 96." },
+        { "letra": "D", "correta": true, "justificativa": "A conduta se enquadra no § 1º e, como a vítima estava sob os cuidados da agente, incide a causa de aumento do § 2º." }
+      ],
+      "fundamento_legal": "Lei 10.741/2003 (Estatuto da Pessoa Idosa), art. 96, §§ 1º e 2º.",
+      "pegadinha": "Exigir motivação etária na conduta de humilhar (o § 1º diz 'por qualquer motivo') e atribuir o aumento à idade da vítima, e não ao vínculo de cuidado.",
+      "o_que_mudou": "Tirou a fração do aumento das alternativas; agora cobra a tipificação do § 1º e a hipótese da causa de aumento do § 2º."
+    },
+    {
+      "id": 1888,
+      "enunciado": "Filha que, obrigada por lei a prover as necessidades básicas da mãe idosa, interna-a em hospital e, após a alta, deixa de buscá-la e não dá mais notícias, pratica, em tese:",
+      "alternativas": [
+        { "letra": "A", "texto": "omissão de assistência do art. 97 do Estatuto, pois deixou de prestar assistência à pessoa idosa em situação de iminente perigo." },
+        { "letra": "B", "texto": "exposição a perigo do art. 99 do Estatuto, pois privou a mãe de cuidados indispensáveis, submetendo-a a condições degradantes." },
+        { "letra": "C", "texto": "abandono de incapaz do Código Penal, pois o Estatuto da Pessoa Idosa não tipifica o abandono da pessoa idosa em hospitais." },
+        { "letra": "D", "texto": "o crime do art. 98 do Estatuto, pois, obrigada por lei, abandonou a mãe em hospital e deixou de prover suas necessidades." }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 98 do Estatuto pune quem abandona a pessoa idosa em hospitais, casas de saúde, entidades de longa permanência ou congêneres, ou não provê suas necessidades básicas, quando obrigado por lei ou mandado. A filha, obrigada por lei, deixou a mãe no hospital após a alta e sumiu: é o abandono do art. 98, tipo específico que prevalece sobre figuras genéricas. Fundamento: Lei 10.741/2003, art. 98.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 97 trata de deixar de prestar assistência em situação de iminente perigo ou de dificultar a assistência à saúde; o caso descreve abandono em hospital, previsto especificamente no art. 98." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 99 exige expor a perigo a integridade e a saúde da pessoa idosa, por condições desumanas ou privação de alimentos e cuidados; o abandono em hospital tem tipo próprio no art. 98." },
+        { "letra": "C", "correta": false, "justificativa": "O Estatuto tipifica expressamente o abandono da pessoa idosa em hospitais no art. 98." },
+        { "letra": "D", "correta": true, "justificativa": "A conduta corresponde ao art. 98: abandono em hospital por quem é obrigado por lei a prover as necessidades básicas da pessoa idosa." }
+      ],
+      "fundamento_legal": "Lei 10.741/2003 (Estatuto da Pessoa Idosa), art. 98.",
+      "pegadinha": "Confundir o abandono do art. 98 com a omissão de assistência do art. 97 e com a exposição a perigo do art. 99.",
+      "o_que_mudou": "Deixou de perguntar a pena do art. 98; agora cobra qual crime se configura e a diferença entre os arts. 97, 98 e 99."
+    },
+    {
+      "id": 1890,
+      "enunciado": "Responsável legal por idoso de 77 anos mantém-no em cômodo insalubre, privando-o de alimentos e cuidados indispensáveis. Em razão dessas condições, o idoso morre. Considerando o Estatuto da Pessoa Idosa, o responsável responde por:",
+      "alternativas": [
+        { "letra": "A", "texto": "abandono do art. 98, pois deixou de prover as necessidades básicas do idoso, sendo a morte mero exaurimento do crime." },
+        { "letra": "B", "texto": "omissão de assistência do art. 97, com a causa de aumento pelo resultado morte prevista no parágrafo único do artigo." },
+        { "letra": "C", "texto": "exposição a perigo do art. 99, na forma qualificada pelo resultado morte, prevista no § 2º do mesmo artigo." },
+        { "letra": "D", "texto": "exposição a perigo do art. 99 na forma simples, pois o Estatuto não prevê forma qualificada pelo resultado morte." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 99 do Estatuto pune quem expõe a perigo a integridade e a saúde da pessoa idosa, submetendo-a a condições desumanas ou degradantes ou privando-a de alimentos e cuidados indispensáveis, quando obrigado a fazê-lo. O artigo tem duas formas qualificadas pelo resultado: lesão corporal grave (§ 1º) e morte (§ 2º). Como o idoso morreu em razão das condições impostas, aplica-se o § 2º. Fundamento: Lei 10.741/2003, art. 99, caput e § 2º.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A conduta de submeter a condições degradantes e privar de alimentos e cuidados é a do art. 99, e a morte não é exaurimento: é resultado que qualifica o crime (§ 2º)." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 97 trata da omissão de assistência em situação de perigo; manter o idoso em condições degradantes e privá-lo de alimentos, sendo obrigado a cuidar, é o art. 99." },
+        { "letra": "C", "correta": true, "justificativa": "A conduta é a do art. 99, e o resultado morte leva à forma qualificada do § 2º." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 99 prevê, sim, forma qualificada pelo resultado morte, no § 2º." }
+      ],
+      "fundamento_legal": "Lei 10.741/2003 (Estatuto da Pessoa Idosa), art. 99, caput, §§ 1º e 2º.",
+      "pegadinha": "Confundir a exposição a perigo do art. 99 (com formas qualificadas pelo resultado) com a omissão de assistência do art. 97, que tem aumento pelo resultado no parágrafo único.",
+      "o_que_mudou": "Deixou de perguntar a pena da forma qualificada; agora cobra a tipificação no art. 99 e a existência da forma qualificada pelo resultado morte."
+    },
+    {
+      "id": 1891,
+      "enunciado": "Neto que, autorizado pela avó de 75 anos a sacar a aposentadoria dela para pagar as despesas da casa, passa a usar os valores para quitar as próprias dívidas, pratica, segundo o Estatuto da Pessoa Idosa:",
+      "alternativas": [
+        { "letra": "A", "texto": "o crime do art. 102, mas fica isento de punição pela imunidade do art. 181 do Código Penal, por ser descendente da vítima." },
+        { "letra": "B", "texto": "o crime do art. 102, de ação penal pública incondicionada, sem a aplicação das imunidades dos arts. 181 e 182 do CP." },
+        { "letra": "C", "texto": "o crime do art. 102, de ação penal pública condicionada à representação da avó, por aplicação do art. 182 do CP." },
+        { "letra": "D", "texto": "o crime do art. 104, pois reteve documento da avó com o objetivo de assegurar o pagamento de dívida, ainda que própria." }
+      ],
+      "gabarito": "B",
+      "comentario": "Desviar proventos ou pensão da pessoa idosa, dando-lhes aplicação diversa da sua finalidade, é o crime do art. 102 do Estatuto. Pelo art. 95, os crimes do Estatuto são de ação penal pública incondicionada e não se lhes aplicam os arts. 181 e 182 do Código Penal: o parentesco com a vítima não isenta de pena nem torna a ação condicionada. Fundamento: Lei 10.741/2003, arts. 95 e 102.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 95 do Estatuto afasta expressamente a imunidade do art. 181 do CP para os crimes nele definidos." },
+        { "letra": "B", "correta": true, "justificativa": "O desvio da aposentadoria é o crime do art. 102, e o art. 95 prevê ação pública incondicionada, sem as imunidades dos arts. 181 e 182 do CP." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 95 afasta também o art. 182 do CP: a ação é pública incondicionada, sem depender de representação." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 104 pune reter cartão ou documento da pessoa idosa para garantir dívida; o neto não reteve documento, desviou os valores, o que é o art. 102." }
+      ],
+      "fundamento_legal": "Lei 10.741/2003 (Estatuto da Pessoa Idosa), arts. 95 e 102.",
+      "pegadinha": "Aplicar aos crimes do Estatuto as imunidades patrimoniais dos arts. 181 e 182 do CP, expressamente afastadas pelo art. 95.",
+      "o_que_mudou": "Deixou de perguntar a pena do art. 102; agora cobra a tipificação num caso concreto, a ação penal e o afastamento das imunidades (art. 95)."
+    },
+    {
+      "id": 1892,
+      "enunciado": "Dono de mercearia exige que cliente de 66 anos lhe entregue o cartão magnético da conta em que recebe aposentadoria e o retém para garantir o pagamento de compras fiadas. A conduta:",
+      "alternativas": [
+        { "letra": "A", "texto": "configura o crime do art. 104 do Estatuto, pois o comerciante reteve o cartão para assegurar o recebimento de dívida." },
+        { "letra": "B", "texto": "configura o crime do art. 102 do Estatuto, pois o comerciante se apropriou dos proventos de aposentadoria da cliente." },
+        { "letra": "C", "texto": "é atípica perante o Estatuto, pois a retenção visou assegurar o recebimento de dívida legítima do comerciante." },
+        { "letra": "D", "texto": "configura o crime do art. 107 do Estatuto, pois o comerciante coagiu a cliente idosa a contratar com ele a venda fiada." }
+      ],
+      "gabarito": "A",
+      "comentario": "Reter o cartão magnético de conta relativa a benefícios, proventos ou pensão da pessoa idosa, com o objetivo de assegurar recebimento ou ressarcimento de dívida, é exatamente o crime do art. 104 do Estatuto. A existência da dívida não afasta o crime: ela é a própria finalidade descrita no tipo. Fundamento: Lei 10.741/2003, art. 104.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "A retenção do cartão para garantir o pagamento de dívida corresponde ao tipo do art. 104." },
+        { "letra": "B", "correta": false, "justificativa": "Não houve apropriação ou desvio dos proventos (art. 102), mas retenção do cartão, que tem tipo próprio no art. 104." },
+        { "letra": "C", "correta": false, "justificativa": "O objetivo de assegurar o recebimento de dívida integra o tipo do art. 104; a legitimidade da dívida não torna a conduta atípica." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 107 pune coagir a pessoa idosa a doar, contratar, testar ou outorgar procuração; a venda fiada foi anterior e a conduta descrita é a retenção do cartão." }
+      ],
+      "fundamento_legal": "Lei 10.741/2003 (Estatuto da Pessoa Idosa), art. 104.",
+      "pegadinha": "Achar que a existência de dívida legítima torna atípica a retenção do cartão, quando ela é justamente a finalidade descrita no art. 104.",
+      "o_que_mudou": "Tirou as penas que acompanhavam cada crime nas alternativas; a questão continua cobrando qual crime se configura e a diferença entre os arts. 102, 104 e 107."
+    }
+  ]
+}

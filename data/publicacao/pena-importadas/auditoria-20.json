@@ -1,0 +1,52 @@
+{
+  "auditorias": [
+    {
+      "id": 2829,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C. Art. 289 (inscrever-se fraudulentamente eleitor) e art. 291 (efetuar o juiz, fraudulentamente, a inscrição de alistando) conferidos no texto. Distratores errados: A (o art. 290 é tipo autônomo de induzir), B (o art. 292 exige recusa sem fundamento legal), D (reter título é o art. 295, não o art. 293). Uma única correta; nenhuma alternativa gira em torno de quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2832,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: B. Art. 300 alcança o servidor público que se vale da autoridade para coagir ao voto; parágrafo único agrava a pena se membro ou funcionário da Justiça Eleitoral prevalecendo-se do cargo. A erra (art. 301 exige violência ou grave ameaça), C erra (o caput alcança qualquer servidor), D erra (art. 355: ação pública). A menção ao agravamento não cobra quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2833,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: D. Art. 301 pune a coação ao voto mediante violência ou grave ameaça 'ainda que os fins visados não sejam conseguidos', logo o crime está consumado. A erra (não é tentativa), B erra (art. 300 é próprio do servidor que usa sua autoridade), C erra (há tipo próprio no art. 301). Uma única correta; sem foco em pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2835,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C. Art. 236, § 1º: fiscais de partido, durante o exercício das funções, só podem ser presos em flagrante; art. 298 pune prender ou deter fiscal com violação do art. 236. A erra (a garantia alcança fiscais e mesários), B erra (art. 298 protege também eleitor, mesário, fiscal e delegado), D erra (os 15 dias são a garantia do candidato; o fiscal tem garantia própria). Sem foco em pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2836,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: A. Art. 9º, parágrafo único, I, da Lei 13.869/2019 pune a autoridade judiciária que, em prazo razoável, deixa de relaxar prisão manifestamente ilegal; o enunciado traz o 'mero capricho', atendendo ao art. 1º, § 1º. B erra (art. 12 trata de não comunicar o flagrante), C erra (há modalidade omissiva expressa), D erra (o habeas corpus é só o inciso III). Sem foco em pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2843,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C. O caput do art. 19 da Lei 13.869/2019 (impedir ou retardar, injustificadamente, o envio de pleito de preso) alcança o carcereiro, e o parágrafo único alcança o magistrado que, não sendo competente para decidir sobre a prisão, deixa de enviar o pedido à autoridade judiciária competente. A, B e D negam um dos tipos expressos; E ignora que o tipo abrange a legalidade da prisão. Única correta, sem foco em quantidade de pena. A ressalva antiga foi resolvida: o enunciado agora traz a finalidade específica dos dois agentes (mero capricho e satisfação pessoal), e o comentário cita o art. 1º, § 1º.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2851,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: D. Art. 37 pune a demora demasiada e injustificada no exame de processo com vista em órgão colegiado, com o intuito de procrastinar ou retardar o julgamento; o enunciado traz todos os elementos, inclusive o intuito específico do tipo. A erra (não exige resultado como prescrição), B erra (a prerrogativa não afasta o tipo), C erra (não exige processo criminal nem réu preso). Sem foco em pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2855,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: A. O art. 41 da Lei 13.869/2019 deu ao art. 10 da Lei 9.296/1996 a redação que inclui 'promover escuta ambiental' sem autorização judicial ou com objetivos não autorizados em lei. B erra (objetivo não autorizado também é crime), C erra (o parágrafo único pune a autoridade judicial), D erra (o tipo abrange informática, telemática e escuta ambiental). Sem foco em pena.",
+      "correcao_sugerida": null
+    }
+  ]
+}

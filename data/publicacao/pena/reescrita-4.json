@@ -1,0 +1,176 @@
+{
+  "itens": [
+    {
+      "id": 292,
+      "enunciado": "Investigação sobre um grupo de traficantes revelou que um caminhão sairá de Juazeiro do Norte (CE) levando cocaína para distribuição em Recife (PE). A polícia já conhece o itinerário provável e a identidade do motorista e de dois colaboradores. Em vez de abordar o veículo logo na saída, a autoridade pretende acompanhá-lo até o destino para identificar e responsabilizar mais integrantes da operação. À luz da Lei nº 11.343/2006, é correto afirmar:",
+      "alternativas": [
+        { "letra": "A", "texto": "A medida depende de autorização judicial, ouvido o Ministério Público, e do conhecimento do itinerário provável e dos agentes; se a droga chegar a Pernambuco, incidirá a causa de aumento da transnacionalidade do delito." },
+        { "letra": "B", "texto": "A medida depende de autorização judicial, ouvido o Ministério Público, e do conhecimento do itinerário provável e dos agentes; se a droga chegar a Pernambuco, incidirá a causa de aumento do tráfico entre Estados." },
+        { "letra": "C", "texto": "A medida depende de autorização judicial, ouvido o Ministério Público, mas só é admitida depois de recebida a denúncia, na fase de instrução criminal, sendo vedada durante o inquérito policial." },
+        { "letra": "D", "texto": "A medida depende de autorização judicial, ouvido o Ministério Público, mas, uma vez adotada, impede a ação penal contra o motorista, cuja abordagem foi deliberadamente adiada pela polícia." },
+        { "letra": "E", "texto": "A medida dispensa autorização judicial, bastando comunicação prévia ao juiz e ao Ministério Público; se a droga chegar a Pernambuco, incidirá a causa de aumento do tráfico entre Estados." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 53, II, da Lei nº 11.343/2006 permite, em qualquer fase da persecução, mediante autorização judicial e ouvido o Ministério Público, a não atuação policial sobre os portadores de drogas que se encontrem no território brasileiro, para identificar e responsabilizar maior número de integrantes da operação, sem prejuízo da ação penal cabível. O parágrafo único condiciona a autorização ao conhecimento do itinerário provável e da identificação dos agentes ou de colaboradores, requisitos presentes no caso. Quanto ao crime, levar a droga do Ceará a Pernambuco caracteriza o tráfico entre Estados da Federação, causa de aumento do art. 40, V. A transnacionalidade (art. 40, I) exige que a droga cruze a fronteira do país, o que não ocorre aqui.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Os requisitos da medida estão certos, mas o transporte entre Ceará e Pernambuco é tráfico entre Estados (art. 40, V), e não transnacional (art. 40, I), que pressupõe ligação com o exterior." },
+        { "letra": "B", "correta": true, "justificativa": "Reúne os requisitos do art. 53, II e parágrafo único (autorização judicial, oitiva do Ministério Público, itinerário e agentes conhecidos) e a causa de aumento do art. 40, V." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 53 admite os procedimentos investigatórios em qualquer fase da persecução criminal, inclusive durante o inquérito policial." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 53, II, prevê a não atuação sem prejuízo da ação penal cabível; adiar a abordagem não impede a responsabilização do motorista." },
+        { "letra": "E", "correta": false, "justificativa": "Na Lei de Drogas, a não atuação policial exige autorização judicial, ouvido o Ministério Público; mera comunicação prévia não basta." }
+      ],
+      "fundamento_legal": "Lei nº 11.343/2006, art. 53, caput, inciso II e parágrafo único; art. 40, incisos I e V.",
+      "pegadinha": "Dispensar a autorização judicial para a não atuação policial ou limitá-la à fase judicial, e confundir tráfico entre Estados com tráfico transnacional.",
+      "o_que_mudou": "As alternativas deixaram de citar a fração da causa de aumento; agora a questão cobra os requisitos da ação controlada do art. 53, II, e a distinção entre tráfico entre Estados (art. 40, V) e transnacionalidade (art. 40, I). Gabarito passou para B."
+    },
+    {
+      "id": 295,
+      "enunciado": "Joana, primária, comprou de um desconhecido, na rua, um celular de última geração por um décimo do preço de mercado, sem nota fiscal. Ela não sabia que o aparelho era furtado, mas, pela desproporção entre o valor e o preço e pela condição de quem o oferecia, deveria presumir sua origem criminosa. O autor do furto nunca foi identificado. Considerando a redação vigente do Código Penal, é correto afirmar que Joana",
+      "alternativas": [
+        { "letra": "A", "texto": "responde por receptação culposa, punível ainda que desconhecido o autor do furto, mas o juiz pode, tendo em conta as circunstâncias e a primariedade da agente, deixar de aplicar a pena." },
+        { "letra": "B", "texto": "não pode ser punida por receptação enquanto não for identificado, processado e condenado o autor do furto do qual proveio o celular, pois a receptação depende do crime anterior." },
+        { "letra": "C", "texto": "responde por receptação culposa, punível ainda que desconhecido o autor do furto, sem que a lei vigente preveja, para essa modalidade, a possibilidade de deixar de aplicar a pena." },
+        { "letra": "D", "texto": "responde por receptação dolosa do caput, pois quem deve presumir a origem ilícita do bem pela desproporção entre o valor e o preço é equiparado a quem sabe dela." },
+        { "letra": "E", "texto": "responde por receptação culposa, mas a ação penal depende de representação da vítima do furto, por se tratar de crime contra o patrimônio cometido sem violência." }
+      ],
+      "gabarito": "C",
+      "comentario": "Adquirir coisa que, pela desproporção entre o valor e o preço ou pela condição de quem a oferece, deve presumir-se obtida por meio criminoso é a receptação culposa do art. 180, § 3º, do Código Penal. A receptação dolosa do caput exige que o agente saiba que a coisa é produto de crime, o que não ocorreu. O § 4º diz que a receptação é punível ainda que desconhecido ou isento de pena o autor do crime de que proveio a coisa. O dispositivo que permitia ao juiz deixar de aplicar a pena na receptação culposa (§ 5º) foi revogado pela Lei nº 15.358/2026, de modo que não há base legal para isso no texto vigente. A ação penal é pública incondicionada: a representação só é exigida nas hipóteses de parentesco do art. 182, ausentes no caso.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O enquadramento no § 3º e a punibilidade pelo § 4º estão certos, mas a possibilidade de deixar de aplicar a pena constava do § 5º do art. 180, hoje revogado." },
+        { "letra": "B", "correta": false, "justificativa": "Contraria o § 4º do art. 180: a receptação é punível ainda que desconhecido ou isento de pena o autor do crime antecedente." },
+        { "letra": "C", "correta": true, "justificativa": "Enquadramento no § 3º, punibilidade garantida pelo § 4º e ausência de previsão vigente de perdão judicial, já que o § 5º foi revogado." },
+        { "letra": "D", "correta": false, "justificativa": "A lei não equipara as duas situações: o caput exige que o agente saiba da origem criminosa; o dever de presumi-la pela desproporção do preço caracteriza a forma culposa do § 3º." },
+        { "letra": "E", "correta": false, "justificativa": "O art. 180 não condiciona a ação penal à representação; nos crimes contra o patrimônio, ela só é exigida nas hipóteses de parentesco do art. 182, que não existem no caso." }
+      ],
+      "fundamento_legal": "Código Penal, art. 180, caput, § 3º e § 4º; § 5º revogado pela Lei nº 15.358/2026; art. 182.",
+      "pegadinha": "Aplicar o perdão judicial da receptação culposa, previsto em dispositivo já revogado (§ 5º), ou tratar o dever de presumir a origem ilícita como receptação dolosa.",
+      "o_que_mudou": "Saíram das alternativas a pena da receptação dolosa e o argumento da pena máxima; os distratores agora erram por confundir receptação dolosa e culposa e por exigir representação fora das hipóteses do art. 182."
+    },
+    {
+      "id": 338,
+      "enunciado": "Em um crime previsto na Lei nº 11.343/2006, a perícia concluiu que o agente, em razão da dependência de droga, não possuía, ao tempo do fato, a plena capacidade de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento, embora não fosse inteiramente incapaz. De acordo com a Lei de Drogas, o agente",
+      "alternativas": [
+        { "letra": "A", "texto": "é isento de pena, porque a Lei de Drogas dá à capacidade apenas parcial de entendimento o mesmo tratamento da incapacidade total." },
+        { "letra": "B", "texto": "responde pelo crime sem nenhum abrandamento, pois a dependência de droga só tem efeito penal quando o agente é inteiramente incapaz." },
+        { "letra": "C", "texto": "responde pelo crime, mas suas penas podem ser reduzidas, por possuir apenas parcialmente a capacidade de entender ou de se determinar." },
+        { "letra": "D", "texto": "deve ser absolvido, e o juiz, na sentença, pode determinar seu encaminhamento para tratamento médico adequado, reconhecida a dependência." }
+      ],
+      "gabarito": "C",
+      "comentario": "A Lei de Drogas separa duas situações. No art. 45, o agente que, em razão da dependência ou sob o efeito de droga proveniente de caso fortuito ou força maior, era inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se é isento de pena, e o juiz, ao absolvê-lo, pode encaminhá-lo para tratamento (parágrafo único). No art. 46, quando pelas mesmas circunstâncias o agente não possuía a plena capacidade (capacidade apenas parcial, a chamada semi-imputabilidade), ele continua respondendo pelo crime, mas as penas podem ser reduzidas. Como a perícia apontou capacidade parcial, aplica-se o art. 46: há condenação com possibilidade de redução, e não absolvição. Na sentença condenatória, o juiz ainda pode determinar o tratamento com base em avaliação de profissional de saúde (art. 47).",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A isenção de pena é do art. 45 e exige incapacidade total; a capacidade parcial do art. 46 mantém a responsabilidade penal." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 46 dá efeito à capacidade parcial: as penas podem ser reduzidas, e não aplicadas sem abrandamento." },
+        { "letra": "C", "correta": true, "justificativa": "Corresponde ao art. 46: com capacidade apenas parcial, o agente responde pelo crime, mas as penas podem ser reduzidas." },
+        { "letra": "D", "correta": false, "justificativa": "A absolvição com encaminhamento para tratamento é a do art. 45, parágrafo único, para o inteiramente incapaz; no caso de capacidade parcial há condenação, e o tratamento segue o art. 47." }
+      ],
+      "fundamento_legal": "Lei nº 11.343/2006, arts. 45, 46 e 47.",
+      "pegadinha": "Tratar a capacidade parcial (art. 46) como isenção de pena e absolvição, que o art. 45 reserva a quem era inteiramente incapaz.",
+      "o_que_mudou": "A questão deixou de cobrar a fração da redução do art. 46; agora cobra a diferença entre a isenção de pena do art. 45 (incapacidade total, absolvição) e a redução do art. 46 (capacidade parcial, condenação). Gabarito passou para C."
+    },
+    {
+      "id": 482,
+      "enunciado": "Pedro, sem autorização, cultiva em casa alguns pés de uma planta destinada à preparação de pequena quantidade de droga, exclusivamente para o seu próprio consumo, sem fornecê-la a ninguém. À luz da Lei nº 11.343/2006, essa conduta",
+      "alternativas": [
+        { "letra": "A", "texto": "configura o crime equiparado ao tráfico do art. 33, § 1º, II, pois cultivar plantas que sejam matéria-prima de drogas é punido qualquer que seja a finalidade." },
+        { "letra": "B", "texto": "sujeita Pedro às mesmas medidas do porte para consumo pessoal, como advertência sobre os efeitos das drogas, prestação de serviços à comunidade ou curso educativo." },
+        { "letra": "C", "texto": "é atípica, porque a Lei de Drogas só pune quem adquire, guarda ou traz consigo droga já pronta para o consumo pessoal, e não quem cultiva a planta." },
+        { "letra": "D", "texto": "configura o crime de induzir ou instigar alguém ao uso indevido de droga, pois o cultivo doméstico estimula o consumo por quem convive com o agente." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 28, § 1º, da Lei nº 11.343/2006 submete às mesmas medidas do caput quem, para seu consumo pessoal, semeia, cultiva ou colhe plantas destinadas à preparação de pequena quantidade de substância capaz de causar dependência. Essas medidas são a advertência sobre os efeitos das drogas, a prestação de serviços à comunidade e a medida educativa de comparecimento a programa ou curso educativo (incisos I a III). O cultivo só se enquadra no art. 33, § 1º, II, quando não se destina ao consumo pessoal; para separar as duas figuras, o juiz observa a natureza e a quantidade da substância, o local e as condições da ação, as circunstâncias sociais e pessoais, a conduta e os antecedentes do agente (art. 28, § 2º).",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A finalidade importa: o cultivo para consumo pessoal de pequena quantidade tem previsão própria no art. 28, § 1º, e não se confunde com a figura equiparada ao tráfico do art. 33, § 1º, II." },
+        { "letra": "B", "correta": true, "justificativa": "Reproduz o art. 28, § 1º: quem cultiva para consumo pessoal submete-se às mesmas medidas do caput (advertência, prestação de serviços à comunidade e medida educativa)." },
+        { "letra": "C", "correta": false, "justificativa": "A conduta é típica: o art. 28, § 1º, alcança expressamente quem semeia, cultiva ou colhe plantas para consumo pessoal." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 33, § 2º, exige induzir, instigar ou auxiliar alguém ao uso indevido; o enunciado diz que Pedro cultiva só para si, sem envolver terceiros." }
+      ],
+      "fundamento_legal": "Lei nº 11.343/2006, art. 28, caput, incisos I a III, §§ 1º e 2º; art. 33, § 1º, II, e § 2º.",
+      "pegadinha": "Enquadrar como tráfico equiparado o cultivo de pequena quantidade para consumo pessoal, que o art. 28, § 1º, trata como o porte do usuário.",
+      "o_que_mudou": "A questão deixou de pedir a espécie de pena do usuário (alternativas com reclusão e detenção); agora cobra a tipificação do cultivo para consumo pessoal (art. 28, § 1º) e a diferença para o tráfico equiparado e para o induzimento ao uso. Gabarito passou para B."
+    },
+    {
+      "id": 485,
+      "enunciado": "João, sem qualquer objetivo de lucro, oferece de forma eventual uma pequena porção de droga a um amigo, pessoa de seu relacionamento, para que a consumam juntos naquele momento. À luz da Lei nº 11.343/2006, essa conduta configura:",
+      "alternativas": [
+        { "letra": "A", "texto": "O tráfico de drogas do caput do art. 33, já que a lei pune o fornecimento de droga a terceiro ainda que feito gratuitamente." },
+        { "letra": "B", "texto": "O uso compartilhado do art. 33, § 3º, figura autônoma e mais branda que o tráfico, sem prejuízo das medidas do art. 28." },
+        { "letra": "C", "texto": "O crime de induzir ou instigar alguém ao uso indevido de droga (art. 33, § 2º), por ter partido de João a oferta." },
+        { "letra": "D", "texto": "A associação para o tráfico do art. 35, já que duas pessoas se uniram para o consumo conjunto da substância." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 33, § 3º, da Lei nº 11.343/2006 descreve o chamado uso compartilhado: oferecer droga, eventualmente e sem objetivo de lucro, a pessoa de seu relacionamento, para juntos a consumirem. É crime autônomo, punido de forma bem mais branda que o tráfico do caput, sem prejuízo das penas do art. 28. Os requisitos são cumulativos: eventualidade, ausência de lucro, destinatário do relacionamento do agente e consumo conjunto. Faltando qualquer um deles (por exemplo, oferta habitual ou a um desconhecido), volta-se ao tráfico do caput, que pune o fornecimento ainda que gratuito.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O caput pune o fornecimento gratuito, mas, presentes todos os requisitos do § 3º (oferta eventual, sem lucro, a pessoa do relacionamento, para consumo conjunto), aplica-se a figura especial do uso compartilhado." },
+        { "letra": "B", "correta": true, "justificativa": "Estão presentes os elementos do § 3º do art. 33, que prevê crime próprio, mais brando que o tráfico, sem prejuízo das penas do art. 28." },
+        { "letra": "C", "correta": false, "justificativa": "O § 2º trata de induzir, instigar ou auxiliar alguém ao uso indevido; a oferta eventual e sem lucro a pessoa do relacionamento, para consumo conjunto, tem tipo específico no § 3º." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 35 exige associação voltada à prática dos crimes de tráfico; a reunião pontual de dois amigos para consumir não forma essa associação." }
+      ],
+      "fundamento_legal": "Lei nº 11.343/2006, art. 33, caput, §§ 2º e 3º; art. 35.",
+      "pegadinha": "Enquadrar como tráfico do caput, ou como induzimento ao uso, a oferta eventual e sem lucro de droga a amigo para consumo conjunto.",
+      "o_que_mudou": "As alternativas deixaram de citar a pena do tráfico e a do uso compartilhado; a conduta atípica foi trocada pelo induzimento ao uso (art. 33, § 2º), e a questão cobra só a tipificação. Gabarito passou para B."
+    },
+    {
+      "id": 515,
+      "enunciado": "Vários indivíduos se envolvem em uma rixa generalizada e, em razão do tumulto, um dos participantes sofre lesão corporal de natureza grave. Não foi possível identificar quem desferiu o golpe que causou a lesão. Conforme o art. 137 do Código Penal, qual é a situação dos demais participantes?",
+      "alternativas": [
+        { "letra": "A", "texto": "Respondem apenas pela rixa simples, pois a forma qualificada exige que se identifique quem causou a lesão grave." },
+        { "letra": "B", "texto": "Respondem, cada um deles, diretamente pelo crime de lesão corporal grave sofrida pela vítima no tumulto." },
+        { "letra": "C", "texto": "Respondem pela rixa qualificada apenas se o resultado for morte, pois a lesão grave não qualifica a rixa." },
+        { "letra": "D", "texto": "Respondem pela rixa qualificada, pelo só fato da participação, ainda que não se saiba quem causou a lesão." }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 137 do Código Penal pune quem participa de rixa, salvo para separar os contendores. O parágrafo único prevê a rixa qualificada: se ocorre morte ou lesão corporal de natureza grave, a pena mais grave se aplica pelo só fato da participação na rixa. Por isso, todos os rixosos respondem pela forma qualificada, ainda que não se identifique quem causou o resultado. A qualificadora não os faz responder pelo crime de lesão corporal ou de homicídio em si; quem for identificado como autor da lesão responde também por ela.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O parágrafo único aplica a forma qualificada pelo só fato da participação; não exige identificar o autor do resultado." },
+        { "letra": "B", "correta": false, "justificativa": "O parágrafo único faz responder pela rixa qualificada, não pela lesão corporal grave em si; a punição deriva do fato de participar." },
+        { "letra": "C", "correta": false, "justificativa": "O parágrafo único inclui expressamente a lesão corporal de natureza grave, ao lado da morte, como resultado que qualifica a rixa." },
+        { "letra": "D", "correta": true, "justificativa": "Corresponde ao art. 137, parágrafo único: ocorrendo lesão grave ou morte, a rixa é qualificada para todos, pelo só fato da participação." }
+      ],
+      "fundamento_legal": "Código Penal, art. 137, caput e parágrafo único.",
+      "pegadinha": "Exigir a identificação do autor do resultado para qualificar a rixa, ou fazer cada participante responder pela lesão corporal grave.",
+      "o_que_mudou": "As alternativas deixaram de comparar as penas da rixa simples e da qualificada; agora cobram as hipóteses da qualificadora (morte ou lesão grave), a desnecessidade de identificar o autor e a diferença para a lesão corporal. Gabarito passou para D."
+    },
+    {
+      "id": 517,
+      "enunciado": "Considere que o agente priva a vítima de sua liberdade mediante cárcere privado e a mantém presa por dezoito dias, sem lhe causar sofrimento físico ou moral além da própria privação. Segundo o art. 148 do Código Penal, essa circunstância produz qual efeito sobre a figura do crime?",
+      "alternativas": [
+        { "letra": "A", "texto": "Mantém a figura simples, pois a qualificadora pelo tempo de privação só incide quando o cárcere dura mais de trinta dias." },
+        { "letra": "B", "texto": "Qualifica o crime, pois a privação da liberdade durou mais de quinze dias, independentemente de grave sofrimento da vítima." },
+        { "letra": "C", "texto": "Qualifica o crime apenas se, por maus-tratos ou pela natureza do cativeiro, resultar à vítima grave sofrimento físico ou moral." },
+        { "letra": "D", "texto": "Transforma o crime em extorsão mediante sequestro, pois a privação da liberdade se prolongou por mais de duas semanas." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 148 do Código Penal pune quem priva alguém de sua liberdade mediante sequestro ou cárcere privado. O § 1º traz formas qualificadas, entre elas a de a privação da liberdade durar mais de quinze dias (inciso III). Como a vítima ficou presa por dezoito dias, incide essa qualificadora pelo só decurso do prazo, independentemente de grave sofrimento. A hipótese de grave sofrimento físico ou moral, decorrente de maus-tratos ou da natureza da detenção, é outra qualificadora, a do § 2º. O tempo de privação, por si só, não converte o crime em extorsão mediante sequestro, que exige o fim de obter vantagem como condição ou preço do resgate.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O prazo do art. 148, § 1º, III, é de mais de quinze dias, e não de trinta; com dezoito dias, a qualificadora já incide." },
+        { "letra": "B", "correta": true, "justificativa": "A duração superior a quinze dias é a qualificadora do art. 148, § 1º, III, que não depende de sofrimento da vítima." },
+        { "letra": "C", "correta": false, "justificativa": "A qualificadora pela duração independe de grave sofrimento; o sofrimento físico ou moral é hipótese distinta, do § 2º." },
+        { "letra": "D", "correta": false, "justificativa": "O que caracteriza a extorsão mediante sequestro é o fim de obter vantagem como condição ou preço do resgate, e não a duração da privação; no caso, incide a qualificadora do art. 148, § 1º, III." }
+      ],
+      "fundamento_legal": "Código Penal, art. 148, caput, § 1º, III, e § 2º.",
+      "pegadinha": "Exigir grave sofrimento da vítima ou um prazo maior, quando a qualificadora decorre apenas de a privação durar mais de quinze dias.",
+      "o_que_mudou": "As alternativas deixaram de citar as penas do caput e do § 1º; agora cobram só a hipótese da qualificadora (mais de quinze dias), a diferença para o § 2º e para a extorsão mediante sequestro. Gabarito passou para B."
+    },
+    {
+      "id": 518,
+      "enunciado": "O agente instiga pessoa maior e capaz a praticar automutilação e lhe presta auxílio material para o ato. Da automutilação resulta lesão corporal de natureza grave. Nessa hipótese, segundo o Código Penal, o agente",
+      "alternativas": [
+        { "letra": "A", "texto": "responde pela forma simples do art. 122, pois o resultado lesão grave da automutilação não altera o enquadramento da conduta." },
+        { "letra": "B", "texto": "responde diretamente pelo crime de lesão corporal grave do art. 129, por ter contribuído materialmente para o ferimento da vítima." },
+        { "letra": "C", "texto": "responde pela forma do art. 122, § 2º, porque a lesão grave decorrente da automutilação se equipara, na lei, ao resultado morte." },
+        { "letra": "D", "texto": "responde pela forma do art. 122, § 1º, prevista para o caso em que da automutilação resulta lesão corporal grave ou gravíssima." }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 122 do Código Penal pune quem induz ou instiga alguém a suicidar-se ou a praticar automutilação, ou lhe presta auxílio material para que o faça. O § 1º prevê forma mais grave quando da automutilação ou da tentativa de suicídio resulta lesão corporal de natureza grave ou gravíssima, nos termos dos §§ 1º e 2º do art. 129; o § 2º, quando o suicídio se consuma ou da automutilação resulta morte. Como houve lesão grave e a vítima é maior e capaz, o agente responde pelo art. 122, § 1º. Só haveria deslocamento para a lesão corporal gravíssima do art. 129, § 2º, se a lesão fosse gravíssima e a vítima fosse menor de 14 anos ou sem discernimento ou capacidade de resistência (art. 122, § 6º).",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O resultado importa: havendo lesão grave ou gravíssima, incide a forma do § 1º do art. 122, e não a do caput." },
+        { "letra": "B", "correta": false, "justificativa": "Com vítima maior e capaz, o agente responde pelo próprio art. 122; o deslocamento para o art. 129, § 2º, só ocorre nas hipóteses do § 6º (lesão gravíssima contra menor de 14 anos ou vulnerável)." },
+        { "letra": "C", "correta": false, "justificativa": "O § 2º é reservado ao suicídio consumado ou à morte decorrente da automutilação, o que não ocorreu; a lesão grave está no § 1º." },
+        { "letra": "D", "correta": true, "justificativa": "O art. 122, § 1º, alcança a hipótese em que da automutilação resulta lesão corporal grave ou gravíssima." }
+      ],
+      "fundamento_legal": "Código Penal, art. 122, caput, §§ 1º, 2º e 6º.",
+      "pegadinha": "Ignorar a forma do § 1º do art. 122, ou punir o agente pela lesão corporal como crime autônomo fora das hipóteses do § 6º.",
+      "o_que_mudou": "As alternativas deixaram de citar as penas do caput e dos §§ 1º e 2º; agora a questão cobra em qual forma do art. 122 o fato se enquadra e quando ele se desloca para o art. 129 (§ 6º). Gabarito passou para D."
+    }
+  ]
+}

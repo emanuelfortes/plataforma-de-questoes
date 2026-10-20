@@ -1,0 +1,264 @@
+{
+  "itens": [
+    {
+      "id": 1893,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Estatuto da Pessoa Idosa",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--estatuto-da-pessoa-idosa.md",
+      "atual": {
+        "enunciado": "Entidade de longa permanência recusa o acolhimento de uma senhora de 74 anos, como abrigada, porque ela não aceitou outorgar procuração à própria entidade. Essa conduta corresponde, no Estatuto da Pessoa Idosa, ao crime de:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "indução de pessoa idosa a outorgar procuração (art. 106), punido com reclusão de 2 a 4 anos."
+          },
+          {
+            "letra": "B",
+            "texto": "coação de pessoa idosa a outorgar procuração (art. 107), punido com reclusão de 2 a 5 anos."
+          },
+          {
+            "letra": "C",
+            "texto": "abandono de pessoa idosa em entidade de longa permanência (art. 98), punido com detenção de 6 meses a 3 anos e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "recusa de acolhimento por negativa de procuração (art. 103), punida com detenção de 6 meses a 1 ano e multa."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 103 pune quem nega o acolhimento ou a permanência da pessoa idosa, como abrigada, por recusa desta em outorgar procuração à entidade de atendimento. É tipo específico, que prevalece sobre os demais crimes ligados à procuração. Análise das alternativas: A) Errada: o art. 106 exige vítima sem discernimento induzida a outorgar procuração. B) Errada: não houve coação para outorgar, mas recusa de acolhimento diante da negativa da idosa. C) Errada: a idosa não foi abandonada na entidade; o acolhimento foi negado. D) Correta. Fundamento: art. 103 da Lei nº 10.741/2003.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1894,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Estatuto da Pessoa Idosa",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--estatuto-da-pessoa-idosa.md",
+      "atual": {
+        "enunciado": "Sobre os crimes do Estatuto da Pessoa Idosa relacionados à outorga de procuração e a atos de disposição patrimonial, assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Induzir pessoa idosa, ainda que plenamente capaz, a outorgar procuração para administração de bens é crime punido com reclusão de 2 a 4 anos."
+          },
+          {
+            "letra": "B",
+            "texto": "Negar o acolhimento da pessoa idosa como abrigada, por recusa desta em outorgar procuração, é crime punido com reclusão de 2 a 5 anos."
+          },
+          {
+            "letra": "C",
+            "texto": "Induzir pessoa idosa sem discernimento de seus atos a outorgar procuração para administração de bens é crime punido com reclusão de 2 a 4 anos."
+          },
+          {
+            "letra": "D",
+            "texto": "Lavrar ato notarial que envolva pessoa idosa sem discernimento, sem a devida representação legal, é crime punido com detenção de 1 a 3 anos e multa."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O art. 106 exige que a vítima seja pessoa idosa sem discernimento de seus atos, induzida a outorgar procuração para administração de bens ou para deles dispor livremente, com pena de reclusão de 2 a 4 anos. Análise das alternativas: A) Errada: a falta de discernimento é elementar do tipo. B) Errada: o art. 103 é punido com detenção de 6 meses a 1 ano e multa. C) Correta: reproduz o art. 106. D) Errada: o art. 108 prevê reclusão de 2 a 4 anos. Fundamento: arts. 103, 106 e 108 da Lei nº 10.741/2003.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1895,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Estatuto da Pessoa Idosa",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--estatuto-da-pessoa-idosa.md",
+      "atual": {
+        "enunciado": "Filho que, mediante ameaças, obriga a mãe, de 79 anos, a fazer testamento em seu favor pratica, em tese, o crime do art. 107 do Estatuto da Pessoa Idosa, cuja pena é de:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "reclusão de 2 a 4 anos."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão de 2 a 5 anos, sem multa."
+          },
+          {
+            "letra": "C",
+            "texto": "detenção de 1 a 3 anos e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "reclusão de 1 a 4 anos, mais multa."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "Coagir, de qualquer modo, a pessoa idosa a doar, contratar, testar ou outorgar procuração configura o crime do art. 107, punido com reclusão de 2 a 5 anos, sem multa. Análise das alternativas: A) Errada: 2 a 4 anos é a pena dos arts. 106 e 108. B) Correta. C) Errada: é a pena do art. 105. D) Errada: é a pena do art. 102. Fundamento: art. 107 da Lei nº 10.741/2003.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1921,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Lavagem de Dinheiro",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--lavagem-de-dinheiro.md",
+      "atual": {
+        "enunciado": "Acerca da colaboração espontânea prevista no art. 1º, § 5º, da Lei 9.613/1998, é correto afirmar que:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "a pena pode ser reduzida de um a dois terços e cumprida em regime aberto ou semiaberto, ou até deixar de ser aplicada."
+          },
+          {
+            "letra": "B",
+            "texto": "o benefício alcança somente o autor do crime, excluídos o coautor e o partícipe que colaborem com as autoridades."
+          },
+          {
+            "letra": "C",
+            "texto": "a substituição por pena restritiva de direitos só é admitida até a sentença, sendo vedada após o trânsito em julgado."
+          },
+          {
+            "letra": "D",
+            "texto": "a redução é fixa em dois terços e fica condicionada à localização integral dos bens, direitos ou valores do crime."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O § 5º permite reduzir a pena de um a dois terços, com cumprimento em regime aberto ou semiaberto, facultando ao juiz deixar de aplicá-la ou substituí-la, a qualquer tempo, por restritiva de direitos. O benefício alcança autor, coautor ou partícipe que colabore espontaneamente com esclarecimentos que conduzam à apuração das infrações, à identificação dos envolvidos ou à localização dos bens. Análise das alternativas: A) Correta. Resume as consequências previstas no § 5º. B) Errada. A lei abrange expressamente o coautor e o partícipe. C) Errada. A substituição pode ocorrer 'a qualquer tempo'. D) Errada. A redução é variável (um a dois terços) e os resultados são alternativos, sem exigência de localização integral dos bens. Fundamento: art. 1º, § 5º, da Lei 9.613/1998.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1948,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Paz Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-paz-publica.md",
+      "atual": {
+        "enunciado": "O crime de constituição de milícia privada (art. 288-A do CP) é punido com:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "reclusão, de 1 (um) a 3 (três) anos."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão, de 2 (dois) a 6 (seis) anos."
+          },
+          {
+            "letra": "C",
+            "texto": "detenção, de 3 (três) a 6 (seis) meses, ou multa."
+          },
+          {
+            "letra": "D",
+            "texto": "reclusão, de 4 (quatro) a 8 (oito) anos."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 288-A, incluído pela Lei 12.720/2012, comina pena de reclusão, de 4 (quatro) a 8 (oito) anos, a mais grave entre os crimes contra a paz pública dos arts. 286 a 288-A. Análise das alternativas: A) Errada: é a pena da associação criminosa (art. 288). B) Errada: não corresponde a nenhum dos tipos estudados. C) Errada: é a pena da incitação e da apologia. D) Correta: reproduz a pena do art. 288-A. Fundamento: art. 288-A do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1953,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Paz Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-paz-publica.md",
+      "atual": {
+        "enunciado": "Quanto à espécie de pena privativa de liberdade cominada aos crimes contra a paz pública dos arts. 286 a 288-A do CP, é correto afirmar:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Todos são punidos com reclusão, variando apenas os limites mínimo e máximo da pena."
+          },
+          {
+            "letra": "B",
+            "texto": "Incitação e apologia são punidas com detenção; associação criminosa e milícia, com reclusão."
+          },
+          {
+            "letra": "C",
+            "texto": "Incitação e associação criminosa são punidas com detenção; apologia e milícia, com reclusão."
+          },
+          {
+            "letra": "D",
+            "texto": "Apenas a constituição de milícia privada é punida com reclusão; os demais, com detenção."
+          },
+          {
+            "letra": "E",
+            "texto": "Incitação e apologia são punidas com reclusão, admitida a substituição por multa."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "Incitação ao crime (art. 286) e apologia (art. 287) têm pena de detenção, de três a seis meses, ou multa. Associação criminosa (art. 288) é punida com reclusão de 1 a 3 anos e constituição de milícia privada (art. 288-A), com reclusão de 4 a 8 anos. Análise das alternativas: A) Errada: incitação e apologia são punidas com detenção. B) Correta: separa corretamente detenção e reclusão. C) Errada: a associação criminosa é punida com reclusão, e a apologia, com detenção. D) Errada: a associação criminosa também é punida com reclusão. E) Errada: incitação e apologia são punidas com detenção, e a multa é pena alternativa prevista no próprio tipo. Fundamento: arts. 286, 287, 288 e 288-A do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2036,
+      "disciplina": "Direito Penal",
+      "assunto": "Concurso de Crimes",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--concurso-de-crimes.md",
+      "atual": {
+        "enunciado": "De acordo com o Código Penal, quando o agente, mediante mais de uma ação ou omissão, pratica dois ou mais crimes, idênticos ou não, configura-se",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "concurso material, aplicando-se cumulativamente as penas privativas de liberdade."
+          },
+          {
+            "letra": "B",
+            "texto": "concurso formal, aplicando-se a mais grave das penas cabíveis, aumentada de um sexto até metade."
+          },
+          {
+            "letra": "C",
+            "texto": "crime continuado, aplicando-se a pena de um só dos crimes, aumentada de um sexto a dois terços."
+          },
+          {
+            "letra": "D",
+            "texto": "concurso formal impróprio, somando-se as penas em razão da existência de desígnios autônomos."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O concurso material (ou real) exige pluralidade de condutas (mais de uma ação ou omissão) e pluralidade de crimes, idênticos ou não. A consequência é o cúmulo material: as penas privativas de liberdade são aplicadas cumulativamente. Análise das alternativas: A) Correta, reproduz o art. 69, caput. B) Errada, o concurso formal pressupõe uma só ação ou omissão, e não mais de uma. C) Errada, o crime continuado exige, além da pluralidade de condutas, crimes da mesma espécie e condições semelhantes de tempo, lugar e maneira de execução, o que o enunciado não menciona. D) Errada, o concurso formal impróprio também pressupõe uma só ação ou omissão, embora dolosa e com desígnios autônomos. Fundamento: CP, art. 69, caput.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2038,
+      "disciplina": "Direito Penal",
+      "assunto": "Concurso de Crimes",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--concurso-de-crimes.md",
+      "atual": {
+        "enunciado": "No concurso formal próprio, em que o agente, mediante uma só ação ou omissão, pratica dois ou mais crimes sem desígnios autônomos, aplica-se a mais grave das penas cabíveis ou, se iguais, somente uma delas, aumentada, em qualquer caso, de",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "um sexto a dois terços."
+          },
+          {
+            "letra": "B",
+            "texto": "um sexto até metade."
+          },
+          {
+            "letra": "C",
+            "texto": "um terço até metade."
+          },
+          {
+            "letra": "D",
+            "texto": "um sexto até o triplo."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O concurso formal próprio adota o sistema da exasperação: aplica-se uma só pena (a mais grave ou, se iguais, uma delas) aumentada de um sexto até metade. Análise das alternativas: A) Errada, um sexto a dois terços é a fração do crime continuado comum (art. 71, caput). B) Correta, é a fração do art. 70, caput. C) Errada, o mínimo legal é um sexto, e não um terço. D) Errada, o aumento até o triplo é próprio do crime continuado específico (art. 71, parágrafo único). Fundamento: CP, art. 70, caput. MACETE DO RICCARDO: Formal vai até a Metade; Continuado vai até os dois terços; continuado com violência vai até o Triplo.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    }
+  ]
+}

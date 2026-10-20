@@ -1,0 +1,292 @@
+{
+  "itens": [
+    {
+      "id": 2081,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Administração Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "Sobre o crime de peculato previsto no art. 303 do Código Penal Militar, assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "A pena é de reclusão, de três a quinze anos, aumentada de um terço se o objeto supera vinte vezes o salário mínimo."
+          },
+          {
+            "letra": "B",
+            "texto": "A pena é de reclusão, de dois a doze anos, aumentada de metade se o objeto supera vinte vezes o salário mínimo."
+          },
+          {
+            "letra": "C",
+            "texto": "O objeto material restringe-se a dinheiro, valor ou bem móvel público, não abrangendo o bem particular."
+          },
+          {
+            "letra": "D",
+            "texto": "A pena é de reclusão, de três a quinze anos, aumentada de um terço se o objeto supera dez vezes o salário mínimo."
+          },
+          {
+            "letra": "E",
+            "texto": "A conduta de desviar o bem em proveito alheio não integra o tipo, que se limita à apropriação pelo próprio agente."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O peculato militar consiste em apropriar-se de dinheiro, valor ou bem móvel, público ou particular, de que o agente tem a posse ou detenção em razão do cargo ou comissão, ou desviá-lo em proveito próprio ou alheio. A pena é de reclusão, de três a quinze anos, com aumento de um terço quando o objeto vale mais de vinte vezes o salário mínimo. Análise das alternativas: A) Correta, pena e causa de aumento conforme o art. 303, caput e § 1º. B) Errada, dois a doze anos é a pena da corrupção passiva e do desvio, e o aumento é de um terço, não de metade. C) Errada, o tipo abrange expressamente o bem público ou particular. D) Errada, o parâmetro do aumento é de vinte vezes o salário mínimo, não dez. E) Errada, o verbo desviar, em proveito próprio ou alheio, integra o tipo. Fundamento: art. 303, caput e § 1º, do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2082,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Administração Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "Um sargento PM, sem ter a posse ou a detenção das armas guardadas na reserva de armamento, aproveita-se do livre trânsito que sua condição de militar lhe proporciona no quartel, subtrai uma pistola e a vende em seguida. Pelo CPM, ele responde por:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "peculato mediante aproveitamento do erro de outrem, punido com reclusão, de dois a sete anos."
+          },
+          {
+            "letra": "B",
+            "texto": "peculato culposo, punido com detenção, de três meses a um ano, por não deter a posse da arma."
+          },
+          {
+            "letra": "C",
+            "texto": "peculato-furto, sujeito à mesma pena do peculato, por valer-se da facilidade da qualidade de militar."
+          },
+          {
+            "letra": "D",
+            "texto": "peculato-apropriação, pois o caput do art. 303 dispensa que o agente tenha a posse ou detenção do bem."
+          },
+          {
+            "letra": "E",
+            "texto": "concussão, pois obteve vantagem indevida em razão da função, punida com reclusão, de dois a oito anos."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O peculato-furto (art. 303, § 2º) alcança quem, embora não tendo a posse ou detenção do bem, o subtrai ou contribui para sua subtração, em proveito próprio ou alheio, valendo-se da facilidade que lhe proporciona a qualidade de militar ou de servidor público. A pena é a mesma do peculato (reclusão, de três a quinze anos). Análise das alternativas: A) Errada, não houve recebimento de bem por erro de terceiro (art. 304). B) Errada, a conduta foi dolosa; o peculato culposo pressupõe contribuição culposa para a ação de outrem. C) Correta, todos os elementos do § 2º estão presentes. D) Errada, o caput exige justamente a posse ou detenção em razão do cargo. E) Errada, concussão exige a conduta de exigir vantagem indevida, o que não ocorreu. Fundamento: art. 303, § 2º, do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2083,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Administração Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "O soldado Lima, responsável pela guarda do almoxarifado, deixa por descuido o cadeado aberto, o que permite que um terceiro subtraia materiais da unidade. Condenado por peculato culposo, Lima repara integralmente o dano depois do trânsito em julgado da sentença. Conforme o CPM:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "a reparação extingue a punibilidade, pois o dano foi reparado de forma integral e voluntária."
+          },
+          {
+            "letra": "B",
+            "texto": "a reparação não produz efeito penal, pois só beneficia o agente se feita antes do recebimento da denúncia."
+          },
+          {
+            "letra": "C",
+            "texto": "a reparação reduz de um terço a pena imposta, por ter sido posterior à sentença irrecorrível."
+          },
+          {
+            "letra": "D",
+            "texto": "a reparação reduz de metade a pena imposta, por ter sido posterior à sentença irrecorrível."
+          },
+          {
+            "letra": "E",
+            "texto": "a reparação extingue a punibilidade, desde que ocorra até o julgamento de eventual revisão criminal."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "No peculato culposo (art. 303, § 3º), a reparação do dano tem efeito diferente conforme o momento: se precede a sentença irrecorrível, extingue a punibilidade; se lhe é posterior, reduz de metade a pena imposta. Como Lima reparou após o trânsito em julgado, a pena cai pela metade. Análise das alternativas: A) Errada, a extinção da punibilidade só ocorre se a reparação preceder a sentença irrecorrível. B) Errada, o marco legal é a sentença irrecorrível, não o recebimento da denúncia, e a reparação posterior ainda reduz a pena. C) Errada, a fração é de metade, não de um terço. D) Correta, conforme o art. 303, § 4º. E) Errada, a lei não menciona revisão criminal; após a sentença irrecorrível o efeito é apenas redutor. MACETE DO RICCARDO: pagou antes do trânsito, 'zera'; pagou depois, 'metade'. Fundamento: art. 303, §§ 3º e 4º, do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2084,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Administração Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "O militar que, no exercício do cargo, recebe por erro de terceiro determinada quantia em dinheiro e dela se apropria comete, segundo o Código Penal Militar, o crime de:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "peculato-furto, punido com a mesma pena do peculato, de três a quinze anos de reclusão."
+          },
+          {
+            "letra": "B",
+            "texto": "peculato mediante aproveitamento do erro de outrem, punido com reclusão, de dois a sete anos."
+          },
+          {
+            "letra": "C",
+            "texto": "concussão, punida com reclusão, de dois a oito anos, por obter vantagem indevida pela função."
+          },
+          {
+            "letra": "D",
+            "texto": "desvio, punido com reclusão, de dois a doze anos, por desviar o que recebeu indevidamente."
+          },
+          {
+            "letra": "E",
+            "texto": "peculato mediante aproveitamento do erro de outrem, punido com detenção, de seis meses a dois anos."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O art. 304 do CPM pune quem se apropria de dinheiro ou qualquer utilidade que, no exercício do cargo ou comissão, recebeu por erro de outrem. A pena é de reclusão, de dois a sete anos, menor que a do peculato próprio. Análise das alternativas: A) Errada, no peculato-furto o agente subtrai o bem, não o recebe por erro. B) Correta, nome e pena do art. 304. C) Errada, concussão exige a conduta de exigir vantagem indevida. D) Errada, o desvio do art. 307 refere-se ao que o agente recebeu indevidamente para recolher aos cofres públicos e o desvia. E) Errada, o nome do crime está certo, mas a pena é de reclusão, de dois a sete anos. Fundamento: art. 304 do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2086,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Administração Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "Sobre o crime de excesso de exação previsto no art. 306 do Código Penal Militar, é correto afirmar que:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "restringe-se à exigência de tributo que o agente sabe indevido, sendo atípica a cobrança de tributo devido."
+          },
+          {
+            "letra": "B",
+            "texto": "abrange a cobrança de tributo devido por meio vexatório ou gravoso que a lei não autoriza, punida com detenção."
+          },
+          {
+            "letra": "C",
+            "texto": "é punido com reclusão, de dois a oito anos, pena idêntica à da concussão prevista no art. 305 do CPM."
+          },
+          {
+            "letra": "D",
+            "texto": "exige que o agente desvie em proveito próprio o que recebeu indevidamente para recolher aos cofres públicos."
+          },
+          {
+            "letra": "E",
+            "texto": "configura-se quando o agente exige vantagem indevida para si, ainda que antes de assumir a função pública."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O excesso de exação tem duas modalidades: exigir imposto, taxa ou emolumento que sabe indevido; ou, quando devido, empregar na cobrança meio vexatório ou gravoso que a lei não autoriza. A pena é de detenção, de seis meses a dois anos. Análise das alternativas: A) Errada, a segunda modalidade pune justamente a cobrança de tributo devido por meio vexatório ou gravoso. B) Correta, descreve a segunda modalidade e a natureza da pena (detenção). C) Errada, a pena é de detenção, de seis meses a dois anos, inferior à da concussão. D) Errada, essa é a descrição do crime de desvio (art. 307). E) Errada, essa é a descrição da concussão (art. 305). Fundamento: art. 306 do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2088,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Administração Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "Considerando a redação atual do art. 308 do Código Penal Militar, dada pela Lei nº 14.688/2023, assinale a alternativa correta acerca da corrupção passiva.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Os núcleos são solicitar e receber, sendo atípica, no CPM, a simples aceitação de promessa de vantagem."
+          },
+          {
+            "letra": "B",
+            "texto": "A pena é de reclusão, até oito anos, idêntica à cominada para a corrupção ativa no art. 309 do CPM."
+          },
+          {
+            "letra": "C",
+            "texto": "A pena é aumentada de metade se, em consequência da vantagem, o agente deixa de praticar ato de ofício."
+          },
+          {
+            "letra": "D",
+            "texto": "A pena é de reclusão, de dois a doze anos, aumentada de um terço se o agente retarda ato de ofício."
+          },
+          {
+            "letra": "E",
+            "texto": "O tipo exige que o agente esteja no exercício da função, não alcançando quem ainda não a assumiu."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "A corrupção passiva militar consiste em solicitar ou receber, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida, ou aceitar promessa de tal vantagem. A pena é de reclusão, de dois a doze anos, aumentada de um terço se o agente retarda, deixa de praticar ou pratica com infração de dever o ato de ofício. Análise das alternativas: A) Errada, aceitar promessa de vantagem também é núcleo do tipo. B) Errada, reclusão até oito anos é a pena da corrupção ativa; a passiva é de dois a doze anos. C) Errada, o aumento é de um terço, não de metade. D) Correta, pena e causa de aumento do art. 308, caput e § 1º. E) Errada, o tipo alcança expressamente quem está fora da função ou ainda não a assumiu. Fundamento: art. 308, caput e § 1º, do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2089,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Administração Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "Um soldado de serviço na guarda do quartel deixa de registrar a entrada irregular de um veículo, com infração de dever funcional, unicamente por ter cedido ao pedido insistente de um colega, sem receber nem aceitar promessa de vantagem e sem visar a interesse ou sentimento pessoal próprio. À luz do CPM, a conduta enquadra-se em:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "prevaricação, com detenção, de seis meses a dois anos, por deixar de praticar ato de ofício indevidamente."
+          },
+          {
+            "letra": "B",
+            "texto": "corrupção passiva do caput, com pena aumentada de um terço por ter deixado de praticar ato de ofício."
+          },
+          {
+            "letra": "C",
+            "texto": "condescendência criminosa, com detenção, até seis meses, por ter agido por indulgência com o colega."
+          },
+          {
+            "letra": "D",
+            "texto": "fato atípico, pois a ausência de vantagem indevida afasta toda modalidade de corrupção passiva no CPM."
+          },
+          {
+            "letra": "E",
+            "texto": "forma privilegiada da corrupção passiva, com detenção, de três meses a um ano, por ceder a pedido de outrem."
+          }
+        ],
+        "gabarito": "E",
+        "comentario": "O art. 308, § 2º, do CPM prevê pena de detenção, de três meses a um ano, quando o agente pratica, deixa de praticar ou retarda o ato de ofício com infração de dever funcional, cedendo a pedido ou influência de outrem. Não há vantagem envolvida; o que move o agente é o pedido alheio. Análise das alternativas: A) Errada, a prevaricação exige a finalidade de satisfazer interesse ou sentimento pessoal, expressamente afastada no caso. B) Errada, o caput exige solicitar, receber ou aceitar promessa de vantagem indevida, o que não houve. C) Errada, a condescendência criminosa consiste em deixar de responsabilizar subordinado infrator, situação diversa. D) Errada, o § 2º pune justamente a conduta de quem cede a pedido ou influência, sem vantagem. E) Correta, conforme o art. 308, § 2º. MACETE DO RICCARDO: vantagem, caput; 'pedido de colega', parágrafo 2º; sentimento pessoal, prevaricação. Fundamento: art. 308, § 2º, do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2090,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Administração Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "No Código Penal Militar, o crime de corrupção ativa, que consiste em dar, oferecer ou prometer dinheiro ou vantagem indevida para a prática, omissão ou retardamento de ato funcional, é punido com:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "reclusão, de dois a doze anos, aumentada de metade se o ato é omitido."
+          },
+          {
+            "letra": "B",
+            "texto": "detenção, de seis meses a dois anos, aumentada de um terço se o ato é retardado."
+          },
+          {
+            "letra": "C",
+            "texto": "reclusão, até oito anos, aumentada de um terço se o ato é retardado ou omitido."
+          },
+          {
+            "letra": "D",
+            "texto": "reclusão, de dois a oito anos, sem previsão de causa de aumento no próprio artigo."
+          },
+          {
+            "letra": "E",
+            "texto": "reclusão, até oito anos, aumentada de metade se o ato é praticado com infração de dever."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "A corrupção ativa militar (art. 309) é punida com reclusão, até oito anos. O parágrafo único aumenta a pena de um terço se, em razão da vantagem, dádiva ou promessa, o ato é retardado ou omitido, ou praticado com infração de dever funcional. Análise das alternativas: A) Errada, dois a doze anos é a pena da corrupção passiva, e o aumento é de um terço. B) Errada, a pena é de reclusão, não de detenção. C) Correta, pena e causa de aumento do art. 309. D) Errada, a pena é de reclusão até oito anos (sem mínimo de dois) e há causa de aumento no parágrafo único. E) Errada, a pena está certa, mas a fração de aumento é de um terço, não de metade. Fundamento: art. 309, caput e parágrafo único, do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    }
+  ]
+}

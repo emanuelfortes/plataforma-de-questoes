@@ -1,0 +1,52 @@
+{
+  "auditorias": [
+    {
+      "id": 2490,
+      "status": "VALIDADA",
+      "justificativa": "O art. 165 do CPM tem dois núcleos (promover a reunião ou nela tomar parte) para discussão de ato de superior ou assunto atinente à disciplina militar; discutir punição disciplinar aplicada pelo comandante se encaixa. Gabarito B confirmado. A erra (o participante também responde); C erra (motim, art. 149, exige agir contra ordem, recusar obediência, violência ou ocupação); D inventa requisito de local; E erra (conspiração, art. 152, é concerto para o crime do art. 149). Alternativas não giram em torno de quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2491,
+      "status": "VALIDADA",
+      "justificativa": "O art. 166 do CPM pune publicar, sem licença, ato ou documento oficial, ou criticar publicamente ato de superior, se o fato não constitui crime mais grave. Gabarito C confirmado. Incitamento (art. 155) exige incitar à desobediência ou indisciplina; desrespeito (art. 160) e recusa de obediência (art. 163) não correspondem à conduta descrita, que tem tipo específico; E erra porque a conduta é típica. Sem foco em pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2492,
+      "status": "VALIDADA",
+      "justificativa": "Art. 187 do CPM: ausência sem licença por mais de oito dias. Gabarito A confirmado. Os prazos de vinte e quatro horas e cinco dias são do art. 190 (deserção especial), como dizem as justificativas; trinta dias e qualquer tempo não têm base. Cobra prazo de consumação, não quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2494,
+      "status": "VALIDADA",
+      "justificativa": "Art. 189 do CPM, aplicável aos arts. 187 e 188, I, II e III: atenuante para apresentação voluntária em até oito dias (redução maior) ou de mais de oito até sessenta dias (redução menor); agravante quando a unidade está estacionada em fronteira ou país estrangeiro. Gabarito A confirmado. B erra (o inciso IV do art. 188 fica fora); C erra (exige apresentação voluntária); D erra (o critério é o local, não o tempo de guerra); E erra (diminui a pena, não extingue a punibilidade). As alternativas não cobram frações nem faixas de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2495,
+      "status": "VALIDADA",
+      "justificativa": "Tripulante que não se apresenta na partida da aeronave pratica deserção especial (art. 190 do CPM); apresentação após três dias cai no § 1º; o § 3º aumenta a pena para sargento, subtenente ou suboficial e, em maior medida, para oficial. Gabarito A confirmado. B, C, D e E erram pelos motivos indicados (tipo específico, crime mesmo com apresentação em vinte e quatro horas, aumento também para graduados, abandono de posto é outro tipo). O foco é tipificação e quem sofre o aumento, não a quantidade da pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2736,
+      "status": "VALIDADA",
+      "justificativa": "Art. 250, § 1º, II, a, do CP: o incêndio em casa habitada ou destinada a habitação é causa de aumento, independente da vantagem pecuniária (inciso I). Gabarito A confirmado. B erra (o resultado morte é do art. 258); C erra (exposição a perigo comum configura incêndio); D erra (hipóteses autônomas). Sem foco em quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2739,
+      "status": "VALIDADA",
+      "justificativa": "Art. 251, § 3º, do CP prevê a explosão culposa e distingue a de dinamite ou substância de efeitos análogos dos demais casos. Gabarito A confirmado. B, C e D contrariam o texto (há forma culposa, abrange os demais casos e não exige lesão; o resultado lesão ou morte é do art. 258). Não pede as faixas de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2740,
+      "status": "VALIDADA",
+      "justificativa": "Art. 252 do CP tipifica expor a perigo usando gás tóxico ou asfixiante, e o parágrafo único prevê a forma culposa. Gabarito B confirmado. A erra (explosão é tipo diverso, art. 251); C erra (art. 253 pune fabricar, possuir ou transportar sem licença, não o uso que expõe a perigo); D contraria o parágrafo único. Sem foco em quantidade de pena.",
+      "correcao_sugerida": null
+    }
+  ]
+}

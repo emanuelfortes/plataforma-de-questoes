@@ -1,0 +1,25 @@
+{
+  "itens": [
+    {
+      "id": 2921,
+      "enunciado": "Um policial civil, valendo-se das prerrogativas do cargo para evitar abordagens de outras guarnições, transporta cocaína destinada à revenda. Condenado por tráfico, a circunstância de ter-se prevalecido da função pública constitui, segundo a Lei nº 11.343/2006,",
+      "alternativas": [
+        { "letra": "A", "texto": "agravante genérica do Código Penal, sem previsão específica na Lei de Drogas, valorada só na pena-base." },
+        { "letra": "B", "texto": "causa de aumento do art. 40-A, reservada aos crimes de tráfico cometidos por agente do Estado." },
+        { "letra": "C", "texto": "causa de aumento do art. 40, II, por ter o agente praticado o crime prevalecendo-se de função pública." },
+        { "letra": "D", "texto": "causa de aumento do art. 40, III, por envolver a atuação de integrante de unidade policial." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 40, II, da Lei nº 11.343/2006 prevê causa de aumento para os crimes dos arts. 33 a 37 quando o agente pratica o crime prevalecendo-se de função pública ou no desempenho de missão de educação, poder familiar, guarda ou vigilância. O policial que usa as prerrogativas do cargo para transportar a droga se enquadra exatamente nessa hipótese. Não se confunde com o inciso III, que trata do local do crime (inclusive imediações de unidades policiais), nem com o art. 40-A, que se refere a integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Há previsão específica na própria Lei de Drogas: o art. 40, II, trata o prevalecimento da função pública como causa de aumento, e não como mera agravante genérica." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 40-A não trata de agente do Estado: aplica-se ao crime praticado por integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada." },
+        { "letra": "C", "correta": true, "justificativa": "Praticar o crime prevalecendo-se de função pública é exatamente a hipótese do art. 40, II, da Lei nº 11.343/2006." },
+        { "letra": "D", "correta": false, "justificativa": "O inciso III trata do lugar do crime (dependências ou imediações de estabelecimentos, unidades militares ou policiais, transportes públicos), não da condição funcional do agente." }
+      ],
+      "fundamento_legal": "Lei nº 11.343/2006, art. 40, caput e inciso II.",
+      "pegadinha": "Confundir a hipótese ligada à função pública (inciso II) com a ligada ao local, como unidades policiais (inciso III), ou com o art. 40-A, que é de organização criminosa ultraviolenta e milícia.",
+      "o_que_mudou": "As alternativas deixaram de citar frações de aumento e passaram a cobrar qual hipótese legal se aplica (função pública, local do crime ou art. 40-A). O gabarito mudou de letra."
+    }
+  ]
+}

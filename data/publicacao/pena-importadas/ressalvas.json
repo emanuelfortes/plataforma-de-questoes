@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1953,
+    "lote": 11,
+    "status": "VALIDADA_COM_RESSALVA",
+    "justificativa": "Gabarito A confere com o parágrafo único do art. 286 do CP (Lei 14.197/2021). B contraria o art. 287 (apologia de fato criminoso ou de autor de crime); C confunde com a organização criminosa (Lei 12.850/2013, art. 1º, § 1º); D contraria a natureza do art. 288 (associação para o fim de cometer crimes); E contraria o § 2º do art. 288 (Lei 15.245/2025, presente no texto fornecido). Única correta e sem foco em quantidade de pena. Ressalva gramatical na alternativa E: 'e não pela do art. 288' não tem antecedente feminino (o termo anterior é 'crime contratado'), o que deixa a frase truncada.",
+    "correcao_sugerida": "Na alternativa E, trocar 'e não pela do art. 288' por 'e não pelo crime do art. 288'."
+  },
+  {
+    "id": 2269,
+    "lote": 14,
+    "status": "VALIDADA_COM_RESSALVA",
+    "justificativa": "Gabarito correto: pelo art. 48, parágrafo único, a imputabilidade não é excluída e a pena pode ser reduzida (redução facultativa), sem prejuízo do art. 113, que permite substituir a pena privativa de liberdade por internação ou tratamento ambulatorial se o condenado necessitar de especial tratamento curativo. Os distratores estão errados pelos motivos indicados. As alternativas tratam da consequência jurídica (imputabilidade, redução facultativa, substituição), não de quantidade de pena. Ressalva gramatical: o enunciado separa por ponto o sujeito ('Militar que... tinha consideravelmente diminuída...') do predicado que as alternativas completam ('é inimputável', 'continua imputável'), deixando a frase truncada.",
+    "correcao_sugerida": "Reescrever o enunciado como: 'De acordo com o CPM, o militar que, ao tempo do fato, em virtude de doença mental, tinha consideravelmente diminuída, mas não suprimida, a capacidade de entender a ilicitude do fato:'"
+  },
+  {
+    "id": 2313,
+    "lote": 15,
+    "status": "VALIDADA_COM_RESSALVA",
+    "justificativa": "O gabarito B está correto: vender coisa alheia como própria é a figura do art. 251, § 1º, I, do CPM, sujeita às mesmas penas do estelionato, e nenhum distrator é defensável (A acrescenta posse que o enunciado não dá; C, D e E erram a tipificação ou negam a previsão no CPM). A ressalva está no comentário: ele afirma que o caso se enquadra no art. 9º, II, 'a', por ser o crime de militar da ativa contra militar da ativa. Na disposição de coisa alheia como própria o enganado (e, em regra, o prejudicado) é o comprador, que aqui é civil; o enquadramento como crime militar pelo § 2º é, no mínimo, discutível. A alternativa correta não depende desse ponto, mas o comentário ensina como certo algo controverso.",
+    "correcao_sugerida": "No comentário, trocar 'a alínea 'a' abrange o crime praticado por militar da ativa contra militar na mesma situação, como no caso' por 'a alínea 'a' abrange o crime praticado por militar da ativa contra militar na mesma situação; quando o comprador enganado é civil, o enquadramento como crime militar depende de se considerar o dono militar como vítima'. Alternativa: tornar o comprador também militar da ativa no enunciado."
+  },
+  {
+    "id": 2487,
+    "lote": 16,
+    "status": "VALIDADA_COM_RESSALVA",
+    "justificativa": "Pela letra do art. 159, quando da violência resulta morte ou lesão não queridas nem assumidas, a pena do crime contra a pessoa é diminuída, de modo que a alternativa correta se sustenta e os distratores são errados (o resultado não fica atípico, não há presunção de dolo, o artigo fala em morte ou lesão e fica no capítulo que abrange os arts. 157 e 158). Limitação: na violência contra superior com resultado morte, o art. 157, § 4º, traz pena própria, e o comentário não explica como o art. 159 convive com essa forma qualificada (qual é o 'crime contra a pessoa' cuja pena se reduz no resultado morte). Um aluno atento pode ficar em dúvida, e o ponto é discutido na doutrina.",
+    "correcao_sugerida": "Acrescentar ao comentário uma frase sobre a relação entre o art. 159 e o art. 157, § 4º (resultado morte na violência contra superior), deixando claro que a questão cobra a letra do art. 159, que menciona expressamente o resultado morte."
+  },
+  {
+    "id": 2843,
+    "lote": 20,
+    "status": "VALIDADA_COM_RESSALVA",
+    "justificativa": "Resolvida de forma independente: C. Art. 19, caput (impedir ou retardar injustificadamente o envio do pleito do preso) alcança o carcereiro, e o parágrafo único alcança o magistrado que, não sendo competente, deixa de enviar o pedido à autoridade competente. Distratores A, B, D e E errados pelo texto. Ressalva: o enunciado não menciona a finalidade específica exigida pelo art. 1º, § 1º (prejudicar outrem, beneficiar a si ou a terceiro, mero capricho ou satisfação pessoal), sem a qual não há crime de abuso de autoridade; a afirmação de que ambos 'incorrem no art. 19' fica incompleta sem esse elemento (diferente da questão 2836, que o traz).",
+    "correcao_sugerida": "Acrescentar ao enunciado a finalidade específica para os dois agentes, por exemplo: 'O carcereiro, por mero capricho, retém o documento por semanas. Depois, o pedido chega a um juiz que, não sendo competente para decidir sobre a prisão e por satisfação pessoal, deixa de enviá-lo...'; e citar o art. 1º, § 1º, no comentário."
+  },
+  {
+    "id": 894,
+    "lote": 5,
+    "status": "VALIDADA_COM_RESSALVA",
+    "justificativa": "Gabarito C correto: art. 234-A, IV, do CP (doença sexualmente transmissível de que o agente sabe ou deveria saber ser portador). A e B são causas de aumento do art. 226, I e II; D exige ciência efetiva, o que a lei não exige. Ressalva: a justificativa da alternativa D afirma que 'sabe ou deveria saber' corresponde a 'dolo direto ou eventual'. Isso é leitura doutrinária, não está no texto legal e é controvertida (parte da doutrina vê culpa em 'deveria saber'), podendo ensinar como certo um ponto discutido.",
+    "correcao_sugerida": "Na analise_alternativas da letra D, retirar o trecho '(dolo direto ou eventual)', mantendo apenas: 'A lei não exige ciência efetiva: basta que o agente saiba ou deveria saber ser portador.'"
+  },
+  {
+    "id": 1081,
+    "lote": 6,
+    "status": "VALIDADA_COM_RESSALVA",
+    "justificativa": "Gabarito A confere com o art. 29, §§ 1º e 2º, do CP, e B, C e D estão errados. A ressalva está no comentário: a justificativa da alternativa D e a pegadinha afirmam como certo que a redução do § 1º é facultativa por causa do verbo \"pode\". Esse ponto é controvertido (parte relevante da doutrina e da jurisprudência trata a redução como direito subjetivo do réu, uma vez reconhecida a menor importância, ficando ao juiz só a escolha da fração), e o próprio gabarito A diz \"há redução\", o que soa contraditório com a pegadinha. A alternativa D continua errada pela segunda parte (o aumento do § 2º depende da previsibilidade), então o gabarito não muda.",
+    "correcao_sugerida": "Na justificativa da alternativa D, apoiar o erro apenas na segunda parte: \"O aumento do § 2º só incide se o resultado mais grave era previsível.\" Retirar da pegadinha e da justificativa a afirmação de que a redução do § 1º é facultativa, ou trocar a pegadinha por: \"Inverter os parágrafos e esquecer que o aumento do § 2º depende da previsibilidade.\" Ajustar \"o_que_mudou\" no mesmo sentido."
+  },
+  {
+    "id": 1327,
+    "lote": 7,
+    "status": "VALIDADA_COM_RESSALVA",
+    "justificativa": "Conferida no texto vigente da Lei nº 12.850/2013. Gabarito C correto: art. 18 (revelar a identidade, fotografar ou filmar o colaborador sem prévia autorização por escrito), crime comum. A erra: o art. 19 trata de imputação falsa a inocente ou de informações inverídicas sobre a estrutura da organização; B erra: o art. 18 não exige qualidade especial do agente; D erra: o art. 20 trata do sigilo de ação controlada e infiltração. Arts. 5º, V, 19 e 20 conferidos. Ressalva: a 'pegadinha' descreve a Seção V como 'arts. 18 a 21', mas a Lei nº 15.245/2025 incluiu nessa seção os arts. 21-A e 21-B, de modo que a delimitação ficou incompleta na redação vigente.",
+    "correcao_sugerida": "Na 'pegadinha', trocar 'Confundir os crimes da Seção V da lei (arts. 18 a 21)' por 'Confundir os crimes dos arts. 18, 19 e 20 da lei'."
+  }
+]

@@ -1,0 +1,280 @@
+{
+  "itens": [
+    {
+      "id": 2042,
+      "disciplina": "Direito Penal",
+      "assunto": "Concurso de Crimes",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--concurso-de-crimes.md",
+      "atual": {
+        "enunciado": "Em relação aos requisitos do crime continuado previstos no art. 71, caput, do Código Penal, assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Exige crimes idênticos, não bastando que sejam da mesma espécie, e o aumento varia de um sexto até metade."
+          },
+          {
+            "letra": "B",
+            "texto": "Exige uma só ação ou omissão, desdobrada em vários atos, e o aumento varia de um sexto a dois terços."
+          },
+          {
+            "letra": "C",
+            "texto": "Exige mais de uma ação ou omissão e crimes da mesma espécie, em condições semelhantes de tempo, lugar e execução."
+          },
+          {
+            "letra": "D",
+            "texto": "Exige crimes da mesma espécie, mas as penas são somadas, desde que o total não ultrapasse 40 anos."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O crime continuado é uma ficção jurídica: várias condutas e vários crimes da mesma espécie que, pelas condições de tempo, lugar, maneira de execução e outras semelhantes, são tratados como continuação do primeiro. Aplica-se a pena de um só dos crimes, aumentada de um sexto a dois terços. Análise das alternativas: A) Errada, a lei exige crimes da mesma espécie (não necessariamente idênticos) e a fração é de um sexto a dois terços. B) Errada, uma só ação ou omissão caracteriza concurso formal; o continuado exige mais de uma. C) Correta, reúne pluralidade de condutas, mesma espécie e semelhança de circunstâncias. D) Errada, no continuado não há soma, mas exasperação de uma só pena. Fundamento: CP, art. 71, caput.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2043,
+      "disciplina": "Direito Penal",
+      "assunto": "Concurso de Crimes",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--concurso-de-crimes.md",
+      "atual": {
+        "enunciado": "Um agente praticou, em semanas consecutivas, três furtos em lojas do mesmo bairro, com idêntico modo de execução, sendo reconhecida a continuidade delitiva. A pena de cada furto foi fixada em 2 anos de reclusão. Se o juiz aplicar o aumento máximo previsto no art. 71, caput, do CP, a pena será de",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "3 anos de reclusão."
+          },
+          {
+            "letra": "B",
+            "texto": "3 anos e 4 meses de reclusão."
+          },
+          {
+            "letra": "C",
+            "texto": "6 anos de reclusão."
+          },
+          {
+            "letra": "D",
+            "texto": "2 anos e 4 meses de reclusão."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "No crime continuado comum, aplica-se a pena de um só dos crimes (se idênticas) aumentada de um sexto a dois terços. Com o aumento máximo: 2 anos (24 meses) + 2/3 (16 meses) = 40 meses, ou seja, 3 anos e 4 meses. Análise das alternativas: A) Errada, 3 anos corresponde ao aumento de metade, teto do concurso formal. B) Correta, 24 meses acrescidos de dois terços resultam em 40 meses. C) Errada, 6 anos é a soma das penas, técnica do concurso material. D) Errada, 2 anos e 4 meses corresponde ao aumento mínimo de um sexto. Fundamento: CP, art. 71, caput. MACETE DO RICCARDO: transforme a pena em meses antes de aplicar a fração; 24 x 2/3 = 16 meses.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2045,
+      "disciplina": "Direito Penal",
+      "assunto": "Concurso de Crimes",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--concurso-de-crimes.md",
+      "atual": {
+        "enunciado": "Em uma mesma noite, um homem roubou, mediante grave ameaça, dois motoristas de aplicativo, sendo reconhecido o crime continuado específico. A pena de cada roubo foi fixada em 6 anos de reclusão, e o juiz entendeu, pelas circunstâncias judiciais, cabível o aumento máximo do art. 71, parágrafo único, do CP. A pena definitiva será de",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "12 anos, pois a pena não pode exceder a que seria cabível pelo concurso material."
+          },
+          {
+            "letra": "B",
+            "texto": "18 anos, correspondente ao triplo da pena de um só dos crimes praticados."
+          },
+          {
+            "letra": "C",
+            "texto": "10 anos, correspondente ao aumento máximo de dois terços sobre uma só pena."
+          },
+          {
+            "letra": "D",
+            "texto": "9 anos, correspondente ao aumento máximo de metade sobre uma só das penas."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O continuado específico permite aumento até o triplo, mas o próprio dispositivo manda observar o parágrafo único do art. 70: a pena não pode exceder a que resultaria da soma. O triplo de 6 anos seria 18 anos, superior à soma (6 + 6 = 12 anos), de modo que a pena fica em 12 anos. Análise das alternativas: A) Correta, prevalece o limite do concurso material benéfico. B) Errada, o triplo ultrapassaria a soma das penas, o que a lei veda. C) Errada, dois terços é o teto do continuado comum, e não do específico. D) Errada, metade é o teto do concurso formal próprio. Fundamento: CP, art. 71, parágrafo único, c/c art. 70, parágrafo único.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2052,
+      "disciplina": "Direito Penal",
+      "assunto": "Concurso de Crimes",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--concurso-de-crimes.md",
+      "atual": {
+        "enunciado": "Condenado a penas que somavam 52 anos, um preso teve-as unificadas em 40 anos. Após cumprir 15 anos, foi condenado por crime cometido no presídio, depois do início do cumprimento da pena. Segundo o art. 75, § 2º, do Código Penal,",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "a nova pena deve ser cumprida após o término dos 40 anos já unificados, sem nova unificação."
+          },
+          {
+            "letra": "B",
+            "texto": "a nova pena deixa de ser executada, pois o limite de 40 anos já foi alcançado na unificação anterior."
+          },
+          {
+            "letra": "C",
+            "texto": "far-se-á nova unificação, computando-se no novo limite o período de pena já cumprido."
+          },
+          {
+            "letra": "D",
+            "texto": "somente haverá nova unificação se o novo fato tiver sido praticado antes do início do cumprimento."
+          },
+          {
+            "letra": "E",
+            "texto": "far-se-á nova unificação, desprezando-se, para esse fim, o período de pena já cumprido."
+          }
+        ],
+        "gabarito": "E",
+        "comentario": "Sobrevindo condenação por fato posterior ao início do cumprimento da pena, o Código determina nova unificação, desprezando-se o período de pena já cumprido. Assim, o tempo já cumprido não é abatido do novo limite de 40 anos. Análise das alternativas: A) Errada, a lei impõe nova unificação, e não o cumprimento da nova pena após os 40 anos. B) Errada, a nova condenação não é ignorada; ela entra em nova unificação. C) Errada, o período já cumprido é desprezado, e não computado no novo limite. D) Errada, o § 2º trata justamente do fato posterior ao início do cumprimento. E) Correta, reproduz o art. 75, § 2º. Fundamento: CP, art. 75, § 2º.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2076,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Administração Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "De acordo com o Código Penal Militar, o crime de desacato a superior (art. 298), consistente em desacatar superior, ofendendo-lhe a dignidade ou o decoro, ou procurando deprimir-lhe a autoridade, é punido com:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "detenção, de seis meses a dois anos, agravada se o superior for oficial superior ou comandante de subunidade."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão, até quatro anos, agravada se o superior for oficial general ou comandante da unidade do agente."
+          },
+          {
+            "letra": "C",
+            "texto": "reclusão, de dois a oito anos, aumentada de um terço se o superior for oficial general ou comandante."
+          },
+          {
+            "letra": "D",
+            "texto": "detenção, até seis meses, agravada se o fato for cometido em lugar sujeito à administração militar."
+          },
+          {
+            "letra": "E",
+            "texto": "reclusão, até quatro anos, agravada se o superior estiver no exercício de função de natureza militar."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O desacato a superior é a forma mais grave de desacato no CPM: pena de reclusão, até quatro anos, se o fato não constitui crime mais grave. O parágrafo único prevê agravação quando o superior é oficial general ou comandante da unidade a que pertence o agente. Análise das alternativas: A) Errada, a pena é de reclusão (não detenção) e a agravante fala em oficial general ou comandante da unidade, não em oficial superior ou comandante de subunidade. B) Correta, reproduz a pena e a agravante do art. 298. C) Errada, a pena não é de dois a oito anos e o texto fala em pena agravada, não em aumento de um terço. D) Errada, detenção até seis meses é a pena da desobediência, e lugar sujeito à administração militar é elemento do art. 300. E) Errada, a pena está certa, mas o exercício de função de natureza militar é elemento do desacato a militar (art. 299), não hipótese de agravação do art. 298. Fundamento: art. 298, caput e parágrafo único, do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2077,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Administração Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "Segundo o Código Penal Militar, configura o crime de desacato a militar (art. 299) a conduta de desacatar militar:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "de qualquer posto ou graduação, independentemente de estar no exercício de função ou de agir em razão dela."
+          },
+          {
+            "letra": "B",
+            "texto": "superior hierárquico do agente, desde que o fato ocorra no interior de quartel ou estabelecimento militar."
+          },
+          {
+            "letra": "C",
+            "texto": "em lugar sujeito à administração militar, com pena de reclusão, até quatro anos, se o fato não é mais grave."
+          },
+          {
+            "letra": "D",
+            "texto": "no exercício de função de natureza militar ou em razão dela, com pena de detenção, de seis meses a dois anos."
+          },
+          {
+            "letra": "E",
+            "texto": "no exercício de função de natureza militar, com pena de detenção, até seis meses, se o fato não é outro crime."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 299 do CPM protege o militar no exercício de função de natureza militar ou em razão dela, cominando detenção, de seis meses a dois anos, se o fato não constitui outro crime. Se a vítima for superior do agente, incide o art. 298, que é mais grave. Análise das alternativas: A) Errada, o tipo exige que o militar esteja no exercício de função de natureza militar ou que o desacato ocorra em razão dela. B) Errada, desacatar superior é o crime do art. 298, e o art. 299 não exige que o fato ocorra no interior de quartel. C) Errada, lugar sujeito à administração militar é elemento do art. 300, e reclusão até quatro anos é a pena do art. 298. D) Correta, traz o elemento do tipo e a pena do art. 299. E) Errada, a pena não é de detenção até seis meses (pena da desobediência), e sim de seis meses a dois anos. Fundamento: art. 299 do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2079,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Administração Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "Nos termos do Código Penal Militar, o crime de desobediência, que consiste em desobedecer a ordem legal de autoridade militar, é punido com:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "reclusão, até dois anos."
+          },
+          {
+            "letra": "B",
+            "texto": "detenção, de seis meses a dois anos."
+          },
+          {
+            "letra": "C",
+            "texto": "detenção, até seis meses."
+          },
+          {
+            "letra": "D",
+            "texto": "detenção, de três meses a um ano."
+          },
+          {
+            "letra": "E",
+            "texto": "reclusão, de dois a cinco anos."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "A desobediência no CPM (art. 301) exige ordem legal emanada de autoridade militar e tem a pena mais branda do capítulo: detenção, até seis meses. Análise das alternativas: A) Errada, não há pena de reclusão para a desobediência. B) Errada, detenção de seis meses a dois anos é a pena do desacato a militar, do desacato a servidor e do ingresso clandestino. C) Correta, é a pena do art. 301. D) Errada, detenção de três meses a um ano é, por exemplo, a pena do peculato culposo. E) Errada, reclusão de dois a cinco anos é a pena de outros tipos, como a usurpação de função com vantagem. MACETE DO RICCARDO: desobedeceu, 'seis mesinhos' de detenção. Fundamento: art. 301 do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2080,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Administração Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "Durante a madrugada, um soldado de folga escala o muro dos fundos do quartel de outra unidade, local por onde não há passagem regular, e é detido no pátio interno sem portar nenhum objeto ilícito e sem ter praticado qualquer outra conduta. Segundo o CPM, é correto afirmar que:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "não há crime militar, pois o tipo exige que o agente tenha iludido a vigilância da sentinela, o que não ocorreu."
+          },
+          {
+            "letra": "B",
+            "texto": "há desobediência, punida com detenção, até seis meses, por violar a ordem de não ingressar na área."
+          },
+          {
+            "letra": "C",
+            "texto": "há ingresso clandestino, punido com reclusão, até quatro anos, por se tratar de quartel ou fortaleza."
+          },
+          {
+            "letra": "D",
+            "texto": "há ingresso clandestino somente se o agente portava arma ou pretendia praticar crime dentro do quartel."
+          },
+          {
+            "letra": "E",
+            "texto": "há ingresso clandestino, punido com detenção, de seis meses a dois anos, se o fato não é crime mais grave."
+          }
+        ],
+        "gabarito": "E",
+        "comentario": "O art. 302 do CPM pune quem penetra em quartel ou outro lugar sujeito à administração militar por onde seja defeso ou não haja passagem regular, ou iludindo a vigilância da sentinela ou de vigia. As hipóteses são alternativas, e a pena é de detenção, de seis meses a dois anos, se o fato não constitui crime mais grave. Análise das alternativas: A) Errada, iludir a sentinela é apenas uma das formas; ingressar por onde não há passagem regular já basta. B) Errada, não houve descumprimento de ordem legal dirigida ao agente; a conduta se ajusta ao tipo específico do art. 302. C) Errada, a pena é de detenção, de seis meses a dois anos, e não de reclusão. D) Errada, o tipo não exige porte de arma nem finalidade de praticar outro crime. E) Correta, reproduz o tipo e a pena do art. 302. Fundamento: art. 302 do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "itens": [
+    {
+      "id": 1249,
+      "enunciado": "A respeito do crime contra espécimes da fauna silvestre previsto no art. 29 da Lei nº 9.605/1998, assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "Os atos de pesca de espécies nativas ou em rota migratória enquadram-se no art. 29, que abrange qualquer espécime aquático." },
+        { "letra": "B", "texto": "Quem adquire ovos de espécie silvestre vindos de criadouro não autorizado não comete o crime, pois o tipo exige matar ou caçar." },
+        { "letra": "C", "texto": "Na guarda doméstica de espécie silvestre não ameaçada de extinção, o juiz pode, conforme as circunstâncias, deixar de aplicar a pena." },
+        { "letra": "D", "texto": "A caça durante a noite ou em período proibido não altera a punição, pois o art. 29 só prevê aumento para a caça profissional." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 29 da Lei nº 9.605/1998 traz várias regras próprias: o § 2º permite ao juiz deixar de aplicar a pena (perdão judicial) na guarda doméstica de espécie silvestre não ameaçada de extinção, considerando as circunstâncias; o § 1º, III, pune também quem adquire, guarda ou transporta ovos, larvas ou espécimes vindos de criadouro não autorizado; o § 4º traz causas de aumento (noite, período proibido à caça, unidade de conservação, espécie ameaçada, entre outras) e o § 5º outra para a caça profissional; e o § 6º afasta o artigo dos atos de pesca, que têm tipos próprios.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O § 6º do art. 29 diz expressamente que suas disposições não se aplicam aos atos de pesca, que têm tipos próprios na lei." },
+        { "letra": "B", "correta": false, "justificativa": "O § 1º, III, equipara ao caput quem adquire, guarda ou transporta ovos, larvas ou espécimes provenientes de criadouros não autorizados." },
+        { "letra": "C", "correta": true, "justificativa": "É o perdão judicial do § 2º do art. 29, que depende de a espécie não ser ameaçada de extinção e das circunstâncias do caso." },
+        { "letra": "D", "correta": false, "justificativa": "O § 4º, II e III, prevê aumento quando o crime é praticado em período proibido à caça ou durante a noite; a caça profissional é outra hipótese (§ 5º)." }
+      ],
+      "fundamento_legal": "Lei nº 9.605/1998, art. 29, §§ 1º, III, 2º, 4º, 5º e 6º.",
+      "pegadinha": "Confundir o alcance do tipo (que inclui quem adquire ou guarda ovos e espécimes) e esquecer que a pesca fica fora do art. 29.",
+      "o_que_mudou": "As alternativas deixaram de comparar frações de aumento (metade, triplo) e passaram a cobrar o alcance do tipo, a exclusão da pesca, o perdão judicial e as hipóteses de aumento sem a fração."
+    },
+    {
+      "id": 1251,
+      "enunciado": "Acerca do crime de provocar incêndio em floresta ou em demais formas de vegetação, previsto no art. 41 da Lei nº 9.605/1998, assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "O tipo admite a forma culposa, de modo que responde pelo crime quem provoca o incêndio na vegetação por imprudência ou negligência." },
+        { "letra": "B", "texto": "O tipo alcança só as florestas de preservação permanente, ficando fora do art. 41 o incêndio em outras formas de vegetação." },
+        { "letra": "C", "texto": "Fabricar ou soltar balões que possam provocar incêndio na vegetação configura o próprio art. 41, ainda que nenhum fogo comece." },
+        { "letra": "D", "texto": "A ação penal depende de representação do órgão ambiental atingido, por se tratar de crime contra bem de interesse difuso." }
+      ],
+      "gabarito": "A",
+      "comentario": "O art. 41, com redação da Lei nº 14.944/2024, tipifica a conduta de provocar incêndio em floresta ou em demais formas de vegetação, e o parágrafo único prevê expressamente a forma culposa. A conduta ligada a balões é crime autônomo, de perigo, no art. 42. Nos crimes da Lei nº 9.605/1998, a ação penal é pública incondicionada (art. 26).",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "O parágrafo único do art. 41 prevê a modalidade culposa do incêndio em floresta ou demais formas de vegetação." },
+        { "letra": "B", "correta": false, "justificativa": "O tipo protege a floresta e também as demais formas de vegetação, sem restringir às áreas de preservação permanente." },
+        { "letra": "C", "correta": false, "justificativa": "Fabricar, vender, transportar ou soltar balões que possam provocar incêndios é crime próprio do art. 42, distinto do art. 41." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 26 estabelece que, nas infrações penais da Lei nº 9.605/1998, a ação penal é pública incondicionada." }
+      ],
+      "fundamento_legal": "Lei nº 9.605/1998, arts. 26, 41 e 42.",
+      "pegadinha": "Confundir o incêndio do art. 41 com o crime dos balões do art. 42 e supor que crime ambiental depende de representação.",
+      "o_que_mudou": "A questão deixou de pedir as penas do crime doloso e culposo e passou a cobrar a existência da forma culposa, o objeto material, a distinção com o art. 42 e a ação penal."
+    },
+    {
+      "id": 1253,
+      "enunciado": "Acerca do crime de poluição e das causas de aumento da Seção III do Capítulo V da Lei nº 9.605/1998, assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "A poluição hídrica que torne necessária a interrupção do abastecimento público de água de uma comunidade é forma qualificada do crime." },
+        { "letra": "B", "texto": "A poluição só é punida na forma dolosa, pois a Seção III não prevê modalidade culposa para o crime do art. 54." },
+        { "letra": "C", "texto": "Quem deixa de adotar medidas de precaução exigidas pela autoridade, em caso de risco de dano grave, comete só infração administrativa." },
+        { "letra": "D", "texto": "O crime exige dano efetivo à saúde humana, não bastando a poluição em níveis que possam resultar nesse dano." },
+        { "letra": "E", "texto": "As causas de aumento do art. 58 valem para os crimes culposos da Seção e ainda quando o fato configurar crime mais grave." }
+      ],
+      "gabarito": "A",
+      "comentario": "O art. 54 pune quem causa poluição em níveis que resultem ou possam resultar em danos à saúde humana, ou que provoquem mortandade de animais ou destruição significativa da flora. O § 1º prevê a forma culposa, e o § 2º traz as formas qualificadas, entre elas a poluição hídrica que torne necessária a interrupção do abastecimento público de água (inciso III). O § 3º sujeita às penas do § 2º quem deixa de adotar medidas de precaução exigidas pela autoridade. As causas de aumento do art. 58 valem só para os crimes dolosos da Seção e só se do fato não resultar crime mais grave.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "É a hipótese do art. 54, § 2º, III, que qualifica o crime de poluição." },
+        { "letra": "B", "correta": false, "justificativa": "O § 1º do art. 54 prevê expressamente a forma culposa da poluição." },
+        { "letra": "C", "correta": false, "justificativa": "O § 3º do art. 54 faz dessa omissão crime, sujeito às mesmas penas do § 2º, e não mera infração administrativa." },
+        { "letra": "D", "correta": false, "justificativa": "O tipo se satisfaz com níveis que resultem ou possam resultar em danos à saúde humana, sem exigir dano efetivo." },
+        { "letra": "E", "correta": false, "justificativa": "O art. 58 incide só nos crimes dolosos da Seção, e seu parágrafo único afasta o aumento se do fato resultar crime mais grave." }
+      ],
+      "fundamento_legal": "Lei nº 9.605/1998, arts. 54, caput e §§ 1º a 3º, e 58.",
+      "pegadinha": "Achar que o crime de poluição exige dano efetivo ou que as causas de aumento do art. 58 valem também para os crimes culposos.",
+      "o_que_mudou": "As alternativas deixaram de trazer penas e frações e passaram a cobrar a forma qualificada como hipótese, a forma culposa, a omissão do § 3º, o perigo de dano e os limites do art. 58."
+    },
+    {
+      "id": 1254,
+      "enunciado": "Sobre os crimes contra o ordenamento urbano e o patrimônio cultural previstos na Lei nº 9.605/1998, assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "Pichar edificação urbana só é crime se o bem for tombado; fora disso, a conduta é mera infração administrativa." },
+        { "letra": "B", "texto": "A prática de grafite para valorizar bem privado é crime, ainda que consentida pelo proprietário do imóvel." },
+        { "letra": "C", "texto": "Promover construção em solo não edificável por seu valor histórico é crime, ainda que haja autorização regular." },
+        { "letra": "D", "texto": "Destruir, por culpa, bem especialmente protegido por decisão judicial é fato atípico na lei ambiental." },
+        { "letra": "E", "texto": "Pichar monumento ou coisa tombada em razão de seu valor histórico configura a forma qualificada da pichação." }
+      ],
+      "gabarito": "E",
+      "comentario": "O art. 65 tipifica pichar ou por outro meio conspurcar edificação ou monumento urbano, e o § 1º qualifica o crime quando o ato atinge monumento ou coisa tombada em virtude de seu valor artístico, arqueológico ou histórico. O § 2º exclui o crime no grafite feito para valorizar o patrimônio, desde que consentido pelo proprietário (e, quando couber, pelo locatário ou arrendatário) ou autorizado pelo órgão competente no caso de bem público. O art. 64 só pune a construção em solo não edificável feita sem autorização ou em desacordo com a concedida, e o art. 62, parágrafo único, prevê a forma culposa da destruição de bem especialmente protegido.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O caput do art. 65 já pune a pichação de qualquer edificação ou monumento urbano; o tombamento só qualifica o crime (§ 1º)." },
+        { "letra": "B", "correta": false, "justificativa": "O § 2º do art. 65 diz que não constitui crime o grafite consentido pelo proprietário, feito para valorizar o patrimônio." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 64 exige que a construção ocorra sem autorização da autoridade competente ou em desacordo com a concedida." },
+        { "letra": "D", "correta": false, "justificativa": "O parágrafo único do art. 62 pune a forma culposa da destruição de bem especialmente protegido por decisão judicial." },
+        { "letra": "E", "correta": true, "justificativa": "É a hipótese do § 1º do art. 65: o ato em monumento ou coisa tombada por valor artístico, arqueológico ou histórico qualifica a pichação." }
+      ],
+      "fundamento_legal": "Lei nº 9.605/1998, arts. 62, 64 e 65.",
+      "pegadinha": "Confundir a pichação simples (já crime) com a qualificada e esquecer que o grafite consentido não é crime.",
+      "o_que_mudou": "As alternativas deixaram de comparar penas de reclusão e detenção e passaram a cobrar a tipicidade da pichação, a qualificadora do bem tombado, a exclusão do grafite, a falta de autorização no art. 64 e a forma culposa do art. 62."
+    },
+    {
+      "id": 1255,
+      "enunciado": "Durante investigação conduzida pela Delegacia de Meio Ambiente, apurou-se que um consultor privado elaborou e apresentou, em procedimento de licenciamento ambiental, laudo parcialmente falso. À luz da Lei nº 9.605/1998, o consultor:",
+      "alternativas": [
+        { "letra": "A", "texto": "responde pelo art. 66, crime que pode ser praticado por qualquer particular que preste informação falsa no licenciamento." },
+        { "letra": "B", "texto": "responde pelo art. 69-A, que alcança o laudo total ou parcialmente falso, com aumento se houver dano ambiental significativo." },
+        { "letra": "C", "texto": "não responde por crime, pois o tipo penal só alcança o laudo totalmente falso, ficando excluída a falsidade parcial." },
+        { "letra": "D", "texto": "responde pelo art. 69, por obstar ou dificultar a ação fiscalizadora do Poder Público no trato de questões ambientais." },
+        { "letra": "E", "texto": "responde pelo art. 69-A só se agiu com dolo, pois o tipo não admite forma culposa para quem elabora o laudo ambiental." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 69-A pune quem elabora ou apresenta, no licenciamento, concessão florestal ou outro procedimento administrativo, estudo, laudo ou relatório ambiental total ou parcialmente falso ou enganoso, inclusive por omissão. O § 1º prevê a forma culposa, e o § 2º traz causa de aumento quando há dano significativo ao meio ambiente em decorrência do uso da informação falsa. O art. 66 é crime próprio de funcionário público, e o art. 69 (obstar a fiscalização) descreve conduta diversa.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 66 é crime próprio: o sujeito ativo é o funcionário público; o laudo falso do consultor amolda-se ao art. 69-A." },
+        { "letra": "B", "correta": true, "justificativa": "O art. 69-A abrange o laudo total ou parcialmente falso, e o § 2º prevê aumento se houver dano significativo ao meio ambiente." },
+        { "letra": "C", "correta": false, "justificativa": "O tipo do art. 69-A menciona expressamente o laudo total ou parcialmente falso ou enganoso, inclusive por omissão." },
+        { "letra": "D", "correta": false, "justificativa": "Obstar ou dificultar a fiscalização (art. 69) é conduta diferente de elaborar ou apresentar laudo falso no licenciamento." },
+        { "letra": "E", "correta": false, "justificativa": "O § 1º do art. 69-A prevê a forma culposa do crime." }
+      ],
+      "fundamento_legal": "Lei nº 9.605/1998, arts. 66, 69 e 69-A, caput e §§ 1º e 2º.",
+      "pegadinha": "Confundir o crime do particular que apresenta laudo falso (art. 69-A) com o crime próprio do funcionário público (art. 66).",
+      "o_que_mudou": "As alternativas deixaram de girar em torno de reclusão, detenção e frações e passaram a cobrar o tipo aplicável, o sujeito ativo, a falsidade parcial, a forma culposa e a hipótese de aumento sem a fração."
+    },
+    {
+      "id": 1318,
+      "enunciado": "Sobre o crime de promover, constituir, financiar ou integrar, pessoalmente ou por interposta pessoa, organização criminosa (art. 2º da Lei nº 12.850/2013), assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "Quem integra a organização responde por esse crime sem prejuízo das penas das demais infrações penais praticadas." },
+        { "letra": "B", "texto": "Quem integra a organização responde só pelas infrações praticadas pelo grupo, que absorvem o crime do art. 2º." },
+        { "letra": "C", "texto": "O crime exige atuação pessoal, não alcançando quem integra a organização por meio de interposta pessoa." },
+        { "letra": "D", "texto": "Basta a associação estável de três pessoas para a prática de crimes para que se configure organização criminosa." }
+      ],
+      "gabarito": "A",
+      "comentario": "O art. 2º da Lei nº 12.850/2013 pune quem promove, constitui, financia ou integra, pessoalmente ou por interposta pessoa, organização criminosa, e ressalva que isso ocorre sem prejuízo das penas correspondentes às demais infrações penais praticadas: há cúmulo, e não absorção. O conceito está no art. 1º, § 1º: associação de 4 ou mais pessoas, estruturalmente ordenada e com divisão de tarefas, ainda que informalmente, com objetivo de obter vantagem de qualquer natureza mediante infrações penais com pena máxima superior a 4 anos ou de caráter transnacional.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Reproduz a ressalva do art. 2º, caput: o crime de organização criminosa se soma às demais infrações praticadas." },
+        { "letra": "B", "correta": false, "justificativa": "Não há absorção: o art. 2º determina o cúmulo com as penas das demais infrações penais praticadas." },
+        { "letra": "C", "correta": false, "justificativa": "O caput do art. 2º alcança expressamente quem atua pessoalmente ou por interposta pessoa." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 1º, § 1º, exige 4 ou mais pessoas, estrutura ordenada e divisão de tarefas; três pessoas não bastam." }
+      ],
+      "fundamento_legal": "Lei nº 12.850/2013, arts. 1º, § 1º, e 2º, caput.",
+      "pegadinha": "Achar que as infrações praticadas pelo grupo absorvem o crime de organização criminosa e confundir o número mínimo de integrantes.",
+      "o_que_mudou": "A questão deixou de pedir a pena do art. 2º e passou a cobrar a regra de cúmulo, a atuação por interposta pessoa e o número mínimo de integrantes do conceito legal."
+    },
+    {
+      "id": 1327,
+      "enunciado": "Um jornalista divulga a identidade e fotografias de um colaborador da Justiça, sem a prévia autorização por escrito deste. Segundo a Lei nº 12.850/2013, essa conduta:",
+      "alternativas": [
+        { "letra": "A", "texto": "configura o crime de colaboração caluniosa, previsto para quem revela informações sobre o colaborador." },
+        { "letra": "B", "texto": "é atípica, pois o crime só pode ser praticado por funcionário público com acesso ao acordo de colaboração." },
+        { "letra": "C", "texto": "configura o crime de revelar a identidade ou fotografar o colaborador sem sua prévia autorização por escrito." },
+        { "letra": "D", "texto": "configura o crime de descumprir o sigilo das investigações que envolvam ação controlada e infiltração." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 18 da Lei nº 12.850/2013 tipifica a conduta de revelar a identidade, fotografar ou filmar o colaborador sem sua prévia autorização por escrito. O tipo não exige qualidade especial do agente, por isso alcança o jornalista. A colaboração caluniosa (art. 19) é imputar falsamente, sob pretexto de colaboração, infração a pessoa que se sabe inocente, ou revelar informações inverídicas sobre a estrutura da organização. O art. 20 pune o descumprimento do sigilo da ação controlada e da infiltração, e o art. 5º, V, garante ao colaborador não ter a identidade revelada pelos meios de comunicação.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A colaboração caluniosa (art. 19) é a falsa imputação de crime a inocente sob pretexto de colaborar, e não a exposição do colaborador." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 18 não restringe o sujeito ativo: qualquer pessoa, inclusive o jornalista, pode praticá-lo." },
+        { "letra": "C", "correta": true, "justificativa": "É exatamente a conduta do art. 18: revelar a identidade, fotografar ou filmar o colaborador sem sua autorização prévia e escrita." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 20 trata do sigilo das investigações de ação controlada e infiltração de agentes, hipótese diferente da narrada." }
+      ],
+      "fundamento_legal": "Lei nº 12.850/2013, arts. 5º, V, 18, 19 e 20.",
+      "pegadinha": "Confundir os crimes dos arts. 18, 19 e 20 da lei e supor que o art. 18 é crime próprio de funcionário público.",
+      "o_que_mudou": "A questão deixou de pedir a pena do art. 18 e passou a cobrar qual crime se configura, o sujeito ativo e a diferença entre os crimes dos arts. 18, 19 e 20. A pegadinha deixou de delimitar a Seção V como \"arts. 18 a 21\", já que a Lei nº 15.245/2025 incluiu nela os arts. 21-A e 21-B."
+    },
+    {
+      "id": 1445,
+      "enunciado": "Motorista habilitado e sóbrio, dirigindo com imprudência, perde o controle do carro, sobe na calçada e atinge um pedestre, que morre no local. Nos termos do CTB, ele responde por homicídio culposo na direção de veículo automotor:",
+      "alternativas": [
+        { "letra": "A", "texto": "com causa de aumento, porque o fato foi praticado na calçada, hipótese expressa no CTB." },
+        { "letra": "B", "texto": "na forma qualificada do § 3º, reservada aos fatos ocorridos fora da pista de rolamento." },
+        { "letra": "C", "texto": "sem causa de aumento, pois esta se limita aos fatos ocorridos na faixa de pedestres." },
+        { "letra": "D", "texto": "sem causa de aumento, pois esta exige que o condutor não possua permissão ou habilitação." }
+      ],
+      "gabarito": "A",
+      "comentario": "O § 1º do art. 302 do CTB prevê causa de aumento no homicídio culposo de trânsito quando o agente o pratica em faixa de pedestres ou na calçada (inciso II), entre outras hipóteses autônomas, como não ter permissão ou habilitação (inciso I). Cada inciso basta sozinho. A forma qualificada do § 3º é outra coisa: aplica-se a quem conduz sob influência de álcool ou de outra substância psicoativa que determine dependência, o que não ocorre com o motorista sóbrio.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "A calçada está expressamente no art. 302, § 1º, II, do CTB como hipótese de aumento." },
+        { "letra": "B", "correta": false, "justificativa": "O § 3º do art. 302 qualifica o crime pela condução sob influência de álcool ou substância psicoativa, e não pelo local do fato." },
+        { "letra": "C", "correta": false, "justificativa": "O inciso II do § 1º abrange a faixa de pedestres e também a calçada." },
+        { "letra": "D", "correta": false, "justificativa": "A falta de permissão ou habilitação é só uma das hipóteses (inciso I); as do § 1º são autônomas, e a calçada basta." }
+      ],
+      "fundamento_legal": "Lei nº 9.503/1997 (CTB), art. 302, §§ 1º, I e II, e 3º.",
+      "pegadinha": "Achar que o aumento vale só para a faixa de pedestres ou confundir a causa de aumento do § 1º com a qualificadora do § 3º.",
+      "o_que_mudou": "As alternativas deixaram de comparar frações de aumento e passaram a cobrar se há causa de aumento, qual hipótese a justifica e a diferença para a qualificadora do § 3º."
+    }
+  ]
+}

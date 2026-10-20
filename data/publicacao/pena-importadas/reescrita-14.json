@@ -1,0 +1,188 @@
+{
+  "itens": [
+    {
+      "id": 2091,
+      "enunciado": "Acerca do crime de falsificação de documento previsto no art. 311 do Código Penal Militar, assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "O tipo alcança apenas o documento público, de modo que a falsificação de documento particular fica fora do art. 311." },
+        { "letra": "B", "texto": "Equipara-se a documento a fita de aparelho eletromagnético que incorpore declaração destinada a provar fato relevante." },
+        { "letra": "C", "texto": "A agravação prevista no tipo alcança o agente que é praça com mais de dez anos de serviço ou que exerce comando na unidade." },
+        { "letra": "D", "texto": "Alterar documento verdadeiro não se enquadra no art. 311, configurando apenas a falsidade ideológica do art. 312." },
+        { "letra": "E", "texto": "O tipo dispensa que o fato atente contra a administração ou o serviço militar, bastando a alteração material do documento." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 311 do CPM pune quem falsifica, no todo ou em parte, documento público ou particular, ou altera documento verdadeiro, desde que o fato atente contra a administração ou o serviço militar. O § 1º prevê agravação se o agente é oficial ou exerce função em repartição militar, e o § 2º equipara a documento o disco fonográfico ou a fita ou fio de aparelho eletromagnético a que se incorpore declaração destinada à prova de fato juridicamente relevante. Por isso, está correta a afirmação sobre a fita de aparelho eletromagnético.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O caput abrange expressamente documento público ou particular; a natureza do documento só influi na punição, não na tipicidade." },
+        { "letra": "B", "correta": true, "justificativa": "É a equiparação do art. 311, § 2º: fita ou fio de aparelho eletromagnético com declaração destinada à prova de fato juridicamente relevante." },
+        { "letra": "C", "correta": false, "justificativa": "O § 1º agrava a punição quando o agente é oficial ou exerce função em repartição militar; não menciona praça nem tempo de serviço." },
+        { "letra": "D", "correta": false, "justificativa": "Alterar documento verdadeiro é núcleo do próprio art. 311 (falsidade material); o art. 312 trata de omitir ou inserir declaração falsa (falsidade ideológica)." },
+        { "letra": "E", "correta": false, "justificativa": "O caput exige que o fato atente contra a administração ou o serviço militar; sem isso, não há o crime militar do art. 311." }
+      ],
+      "fundamento_legal": "CPM (Decreto-Lei 1.001/1969), art. 311, caput e §§ 1º e 2º; art. 312.",
+      "pegadinha": "Trocar a condição de oficial ou de quem exerce função em repartição militar (agravação do § 1º) por outras condições do agente, e confundir falsidade material com ideológica.",
+      "o_que_mudou": "As alternativas que traziam a quantidade de pena para documento público e particular foram trocadas por afirmações sobre o alcance do tipo (documento público ou particular) e sobre a diferença entre falsidade material (art. 311) e ideológica (art. 312)."
+    },
+    {
+      "id": 2093,
+      "enunciado": "Um cabo PM deixa de lavrar, indevidamente, o registro de uma ocorrência que envolve um amigo de infância, apenas para poupá-lo de constrangimento, sem que o amigo tenha feito pedido algum ou oferecido qualquer vantagem. Conforme o CPM, trata-se de:",
+      "alternativas": [
+        { "letra": "A", "texto": "prevaricação, pois deixou de praticar ato de ofício para satisfazer sentimento pessoal." },
+        { "letra": "B", "texto": "corrupção passiva privilegiada, pois deixou de praticar o ato cedendo a influência de outrem." },
+        { "letra": "C", "texto": "condescendência criminosa, pois deixou de responsabilizar o autor de infração no cargo." },
+        { "letra": "D", "texto": "violação do dever funcional com o fim de lucro, pois buscou vantagem para outrem." },
+        { "letra": "E", "texto": "inobservância de lei ou regulamento, pois deu causa direta a ato prejudicial à administração." }
+      ],
+      "gabarito": "A",
+      "comentario": "A prevaricação (art. 319 do CPM) consiste em retardar ou deixar de praticar, indevidamente, ato de ofício, ou praticá-lo contra expressa disposição de lei, para satisfazer interesse ou sentimento pessoal. O cabo deixou de lavrar o registro, que é ato de ofício, movido pela amizade (sentimento pessoal), sem pedido nem vantagem. Não há a influência de outrem exigida pela corrupção passiva privilegiada (art. 308, § 2º), nem subordinado a responsabilizar (art. 322), nem negócio incumbido pela administração com intuito especulativo (art. 320).",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Estão presentes todos os elementos do art. 319: omissão indevida de ato de ofício para satisfazer sentimento pessoal." },
+        { "letra": "B", "correta": false, "justificativa": "A forma privilegiada do art. 308, § 2º, exige que o agente ceda a pedido ou influência de outrem, o que o enunciado afasta." },
+        { "letra": "C", "correta": false, "justificativa": "A condescendência criminosa (art. 322) pressupõe deixar de responsabilizar subordinado que cometeu infração no exercício do cargo; o amigo não é subordinado." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 320 exige violação de dever em negócio de que o agente foi incumbido pela administração militar, para obter especulativamente vantagem; não há negócio nem vantagem." },
+        { "letra": "E", "correta": false, "justificativa": "O art. 324 exige que a inobservância de lei ou regulamento dê causa direta a ato prejudicial à administração militar; a motivação pessoal leva ao tipo específico da prevaricação." }
+      ],
+      "fundamento_legal": "CPM, arts. 308, § 2º, 319, 320, 322 e 324.",
+      "pegadinha": "Confundir a motivação por sentimento pessoal (prevaricação) com ceder a pedido ou influência de outrem (corrupção passiva privilegiada).",
+      "o_que_mudou": "Cada alternativa deixou de trazer a pena do crime e passou a trazer o elemento que caracteriza cada tipo, para o aluno distinguir os crimes contra o dever funcional pelos elementos."
+    },
+    {
+      "id": 2095,
+      "enunciado": "Um sargento responsável pelo arquivo da companhia inutiliza parcialmente um livro oficial de que tem a guarda em razão do cargo. Segundo o CPM, a conduta configura o crime de:",
+      "alternativas": [
+        { "letra": "A", "texto": "inutilização de edital ou de sinal oficial, pois conspurcou documento afixado por ordem da autoridade." },
+        { "letra": "B", "texto": "supressão de documento, pois destruiu documento verdadeiro de que não podia dispor, em benefício próprio." },
+        { "letra": "C", "texto": "extravio, sonegação ou inutilização de livro, pois tinha a guarda do livro oficial em razão do cargo." },
+        { "letra": "D", "texto": "subtração ou inutilização de livro, pois esse tipo alcança qualquer agente, tenha ou não a guarda do livro." },
+        { "letra": "E", "texto": "condescendência criminosa, pois a inutilização decorreu de negligência na guarda do livro oficial." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 321 do CPM pune quem extravia livro oficial ou qualquer documento de que tem a guarda em razão do cargo, ou o sonega ou inutiliza, total ou parcialmente. O sargento tinha a guarda do livro em razão do cargo e o inutilizou parcialmente, o que se amolda ao art. 321, tipo específico para quem tem a guarda. O art. 337 (subtração ou inutilização de livro ou documento) é a figura geral, para quem não tem essa relação funcional com o livro, e o art. 338 trata de edital afixado e de selo ou sinal oficial.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 338 trata de edital afixado por ordem da autoridade militar e de selo ou sinal oficial, não de livro oficial guardado no arquivo." },
+        { "letra": "B", "correta": false, "justificativa": "A supressão de documento (art. 316) exige o fim de benefício próprio ou alheio ou de prejuízo alheio, e não é o tipo específico de quem guarda o livro em razão do cargo." },
+        { "letra": "C", "correta": true, "justificativa": "É o art. 321: inutilizar, total ou parcialmente, livro oficial de que tem a guarda em razão do cargo." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 337 é a figura geral; quando o agente tem a guarda do livro em razão do cargo, prevalece o tipo específico do art. 321." },
+        { "letra": "E", "correta": false, "justificativa": "A condescendência criminosa (art. 322) é deixar de responsabilizar subordinado infrator; além disso, a inutilização descrita foi dolosa." }
+      ],
+      "fundamento_legal": "CPM, arts. 316, 321, 322, 337 e 338.",
+      "pegadinha": "Confundir o art. 321 (quem tem a guarda do livro em razão do cargo) com o art. 337 (figura geral de subtração ou inutilização).",
+      "o_que_mudou": "As alternativas deixaram de distinguir os crimes pela pena e passaram a distingui-los pelos elementos (guarda em razão do cargo, edital afixado, benefício próprio), incluindo a diferença entre os arts. 321 e 337."
+    },
+    {
+      "id": 2269,
+      "enunciado": "De acordo com o CPM, o militar que, ao tempo do fato, em virtude de doença mental, tinha consideravelmente diminuída, mas não suprimida, a capacidade de entender a ilicitude do fato:",
+      "alternativas": [
+        { "letra": "A", "texto": "é inimputável, ficando isento de pena e sujeito apenas às normas estabelecidas na legislação especial." },
+        { "letra": "B", "texto": "continua imputável, com redução obrigatória da pena, vedada a substituição por internação ou tratamento." },
+        { "letra": "C", "texto": "continua imputável, com redução facultativa da pena, que pode ser substituída por internação se necessário." },
+        { "letra": "D", "texto": "é inimputável, mas o juiz pode aplicar a pena do crime com redução, por ter havido doença mental." },
+        { "letra": "E", "texto": "continua imputável, sem direito a redução da pena, restando apenas a incidência de atenuante genérica." }
+      ],
+      "gabarito": "C",
+      "comentario": "A inimputabilidade do art. 48 do CPM exige que a doença mental ou o desenvolvimento mental incompleto ou retardado retire a capacidade de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento. Se a capacidade apenas é diminuída consideravelmente, o parágrafo único mantém a imputabilidade e permite a redução facultativa da pena, sem prejuízo do art. 113, que autoriza substituir a pena privativa de liberdade por internação ou tratamento ambulatorial quando o condenado necessitar de especial tratamento curativo.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A capacidade não foi suprimida, logo não há inimputabilidade; a sujeição à legislação especial é a regra dos menores de 18 anos (art. 50)." },
+        { "letra": "B", "correta": false, "justificativa": "A redução é facultativa (\"a pena pode ser reduzida\") e o art. 113 admite a substituição por internação ou tratamento ambulatorial." },
+        { "letra": "C", "correta": true, "justificativa": "Art. 48, parágrafo único, e art. 113: o semi-imputável é imputável, a redução é facultativa e cabe substituição por internação se necessitar de tratamento curativo." },
+        { "letra": "D", "correta": false, "justificativa": "O semi-imputável não é inimputável; a redução da pena pressupõe justamente que a imputabilidade foi mantida." },
+        { "letra": "E", "correta": false, "justificativa": "A lei prevê expressamente a redução facultativa da pena para o semi-imputável no parágrafo único do art. 48." }
+      ],
+      "fundamento_legal": "CPM, art. 48, caput e parágrafo único; arts. 50 e 113.",
+      "pegadinha": "Tratar o semi-imputável como inimputável, ou a redução facultativa como obrigatória.",
+      "o_que_mudou": "As alternativas deixaram de comparar frações de redução e passaram a cobrar a consequência jurídica da semi-imputabilidade: imputabilidade mantida, redução facultativa e possibilidade de substituição por internação (art. 113). O enunciado foi reescrito numa só frase, para que as alternativas completem o sujeito sem deixar a oração truncada."
+    },
+    {
+      "id": 2296,
+      "enunciado": "Segundo o Código Penal Militar, qualifica o homicídio (art. 205, § 2º) a circunstância de o agente:",
+      "alternativas": [
+        { "letra": "A", "texto": "agir impelido por motivo de relevante valor social ou moral contra a vítima." },
+        { "letra": "B", "texto": "causar a morte por inobservância de regra técnica de profissão, arte ou ofício." },
+        { "letra": "C", "texto": "cometer o crime prevalecendo-se da situação de serviço em que se encontrava." },
+        { "letra": "D", "texto": "praticar o crime em lugar sujeito à administração militar, contra militar da reserva." },
+        { "letra": "E", "texto": "agir sob o domínio de violenta emoção, logo em seguida a injusta provocação da vítima." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 205, § 2º, do CPM lista as qualificadoras do homicídio: motivo fútil; paga ou promessa de recompensa, cupidez ou outro motivo torpe; meio cruel ou de perigo comum; recurso que dificulte a defesa da vítima; assegurar outro crime; prevalecer-se o agente da situação de serviço (inciso VI); e o crime contra agentes dos arts. 142 e 144 da Constituição (inciso VII). O relevante valor social ou moral e a violenta emoção após injusta provocação são hipóteses de minoração facultativa (§ 1º), e a inobservância de regra técnica é causa de aumento do homicídio culposo (art. 206, § 1º, I).",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O relevante valor social ou moral é hipótese de minoração facultativa da pena (art. 205, § 1º), e não de qualificadora." },
+        { "letra": "B", "correta": false, "justificativa": "A inobservância de regra técnica é causa de aumento do homicídio culposo (art. 206, § 1º, I), não qualificadora do homicídio doloso." },
+        { "letra": "C", "correta": true, "justificativa": "Prevalecer-se o agente da situação de serviço é a qualificadora do art. 205, § 2º, VI, própria do CPM." },
+        { "letra": "D", "correta": false, "justificativa": "O lugar sujeito à administração militar e a condição da vítima servem para definir o crime como militar (art. 9º), não para qualificar o homicídio." },
+        { "letra": "E", "correta": false, "justificativa": "A violenta emoção logo em seguida a injusta provocação da vítima é hipótese de minoração facultativa (art. 205, § 1º)." }
+      ],
+      "fundamento_legal": "CPM, art. 205, §§ 1º e 2º; art. 206, § 1º.",
+      "pegadinha": "Confundir as hipóteses de minoração do § 1º com as qualificadoras do § 2º, e esquecer a qualificadora própria do CPM (situação de serviço).",
+      "o_que_mudou": "A questão perguntava a pena do homicídio qualificado; agora cobra quais circunstâncias qualificam o homicídio no CPM, diferenciando-as da minoração e do aumento do homicídio culposo."
+    },
+    {
+      "id": 2298,
+      "enunciado": "Sobre o homicídio culposo no Código Penal Militar (art. 206), assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "A fuga do agente para evitar a prisão em flagrante não altera a punição, por ser fato posterior à consumação do crime." },
+        { "letra": "B", "texto": "Se uma só ação culposa causa a morte de mais de uma pessoa, aplicam-se as regras do concurso material de crimes." },
+        { "letra": "C", "texto": "O aumento pela inobservância de regra técnica de profissão aplica-se apenas quando o crime atinge mais de uma vítima." },
+        { "letra": "D", "texto": "Deixar de prestar imediato socorro à vítima configura crime autônomo de omissão de socorro, e não causa de aumento." },
+        { "letra": "E", "texto": "O juízo poderá deixar de aplicar a pena se as consequências atingirem tão gravemente o agente que a sanção se torne desnecessária." }
+      ],
+      "gabarito": "E",
+      "comentario": "O art. 206 do CPM pune o homicídio culposo e prevê, no § 1º, causa de aumento se o crime resulta da inobservância de regra técnica de profissão, arte ou ofício (inciso I) ou se o agente deixa de prestar imediato socorro, não procura diminuir as consequências do ato ou foge para evitar a prisão em flagrante (inciso II). O § 2º trata da multiplicidade de vítimas como causa de aumento, e o § 3º, incluído pela Lei 14.688/2023, permite ao juízo deixar de aplicar a pena quando as consequências atingirem o próprio agente de forma tão grave que a sanção se torne desnecessária.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A fuga para evitar a prisão em flagrante é causa de aumento expressa no art. 206, § 1º, II." },
+        { "letra": "B", "correta": false, "justificativa": "A morte de mais de uma pessoa por uma só ação culposa é causa de aumento do próprio art. 206 (§ 2º), e não concurso material." },
+        { "letra": "C", "correta": false, "justificativa": "O aumento por inobservância de regra técnica (§ 1º, I) independe do número de vítimas; a multiplicidade de vítimas é hipótese separada (§ 2º)." },
+        { "letra": "D", "correta": false, "justificativa": "Deixar de prestar imediato socorro à vítima é causa de aumento do homicídio culposo (art. 206, § 1º, II), não crime autônomo." },
+        { "letra": "E", "correta": true, "justificativa": "É a previsão do art. 206, § 3º, incluído pela Lei 14.688/2023 (perdão judicial)." }
+      ],
+      "fundamento_legal": "CPM, art. 206, caput e §§ 1º a 3º (redação da Lei 14.688/2023).",
+      "pegadinha": "Tratar as circunstâncias do § 1º (fuga, omissão de socorro) como irrelevantes ou como crimes autônomos.",
+      "o_que_mudou": "As alternativas deixaram de discutir a quantidade da pena e as frações de aumento e passaram a cobrar as hipóteses de aumento como fatos (fuga, omissão de socorro, regra técnica, multiplicidade de vítimas)."
+    },
+    {
+      "id": 2299,
+      "enunciado": "No Código Penal Militar, em caso de lesões corporais levíssimas, a lei prevê que o juiz pode:",
+      "alternativas": [
+        { "letra": "A", "texto": "converter a pena em serviços à comunidade." },
+        { "letra": "B", "texto": "considerar a infração como disciplinar." },
+        { "letra": "C", "texto": "substituir a prisão pela multa criminal." },
+        { "letra": "D", "texto": "declarar extinta a punibilidade do fato." },
+        { "letra": "E", "texto": "conceder perdão judicial pela reparação." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 209, § 6º, do CPM permite que, nas lesões levíssimas, o juiz considere a infração como disciplinar, deslocando o fato para a esfera administrativa militar. O dispositivo não prevê conversão em serviços à comunidade, substituição por multa, extinção da punibilidade nem perdão judicial condicionado à reparação.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O § 6º não prevê conversão da pena em prestação de serviços à comunidade." },
+        { "letra": "B", "correta": true, "justificativa": "É exatamente a faculdade do art. 209, § 6º: considerar a infração como disciplinar." },
+        { "letra": "C", "correta": false, "justificativa": "Não há previsão de substituição por multa para a lesão levíssima no CPM." },
+        { "letra": "D", "correta": false, "justificativa": "A lei não trata a lesão levíssima como causa de extinção da punibilidade; ela permite tratá-la como infração disciplinar." },
+        { "letra": "E", "correta": false, "justificativa": "O § 6º não fala em perdão judicial nem condiciona nada à reparação do dano." }
+      ],
+      "fundamento_legal": "CPM, art. 209, § 6º.",
+      "pegadinha": "Atribuir à lesão levíssima institutos de outros diplomas (serviços à comunidade, multa substitutiva, perdão por reparação).",
+      "o_que_mudou": "Duas alternativas citavam espécies de pena privativa de liberdade (substituição da detenção e da reclusão); foram trocadas por outros institutos inexistentes no § 6º, mantendo a resposta."
+    },
+    {
+      "id": 2303,
+      "enunciado": "Segundo as disposições comuns aos crimes contra a honra do CPM (art. 218), a punição é aumentada quando o crime é cometido:",
+      "alternativas": [
+        { "letra": "A", "texto": "contra inferior hierárquico, em razão da autoridade que o agente exerce sobre ele." },
+        { "letra": "B", "texto": "contra militar ou servidor público, ainda que a ofensa não se relacione às funções." },
+        { "letra": "C", "texto": "na presença de inferior hierárquico do ofendido ou por meio que facilite a divulgação." },
+        { "letra": "D", "texto": "contra militar da reserva, desde que em lugar sujeito à administração militar." },
+        { "letra": "E", "texto": "por meio de carta anônima, ainda que lida somente pelo próprio ofendido." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 218 do CPM aumenta as penas dos crimes contra a honra quando cometidos contra o Presidente da República ou chefe de governo estrangeiro, contra superior, contra militar ou servidor público em razão das suas funções, ou na presença de duas ou mais pessoas ou de inferior hierárquico do ofendido, ou por meio que facilite a divulgação da calúnia, da difamação ou da injúria (inciso IV). O parágrafo único prevê aumento específico para a ofensa cometida mediante paga ou promessa de recompensa, se o fato não constitui crime mais grave.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O inciso II alcança o crime contra superior; contra inferior hierárquico não há aumento (o inciso IV fala da presença de inferior do ofendido)." },
+        { "letra": "B", "correta": false, "justificativa": "O inciso III exige que a ofensa a militar ou servidor público seja em razão das suas funções." },
+        { "letra": "C", "correta": true, "justificativa": "É a hipótese do art. 218, IV, na redação da Lei 14.688/2023." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 218 não prevê aumento pela condição de militar da reserva nem pelo lugar sujeito à administração militar." },
+        { "letra": "E", "correta": false, "justificativa": "Carta lida apenas pelo ofendido não facilita a divulgação nem envolve a presença de outras pessoas, logo não se enquadra no inciso IV." }
+      ],
+      "fundamento_legal": "CPM, art. 218, I a IV e parágrafo único.",
+      "pegadinha": "Inverter a hierarquia (ofensa contra superior, não contra inferior) e esquecer que a ofensa a militar ou servidor precisa ser em razão das funções.",
+      "o_que_mudou": "A questão comparava frações de aumento para a ofensa mercenária; agora cobra as hipóteses que aumentam a punição nos crimes contra a honra do CPM, sem citar frações."
+    }
+  ]
+}

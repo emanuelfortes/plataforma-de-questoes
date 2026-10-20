@@ -1,0 +1,272 @@
+{
+  "itens": [
+    {
+      "id": 2864,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Administração Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-administracao-publica.md",
+      "atual": {
+        "enunciado": "Por vingança, Ana, sabendo que o vizinho é inocente, envia denúncia anônima à delegacia imputando-lhe a prática de um crime, o que dá causa à instauração de inquérito policial contra ele. A conduta de Ana configura",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "comunicação falsa de crime, punida com detenção, de um a seis meses, ou multa."
+          },
+          {
+            "letra": "B",
+            "texto": "denunciação caluniosa, com reclusão de dois a oito anos, e multa, diminuída de metade pelo anonimato."
+          },
+          {
+            "letra": "C",
+            "texto": "calúnia apenas, uma vez que não chegou a ser instaurado processo judicial contra o vizinho."
+          },
+          {
+            "letra": "D",
+            "texto": "denunciação caluniosa, com reclusão de dois a oito anos, e multa, aumentada de sexta parte."
+          },
+          {
+            "letra": "E",
+            "texto": "denunciação caluniosa, com reclusão de dois a oito anos, e multa, aumentada de um terço até a metade."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "Dar causa à instauração de inquérito policial contra alguém, imputando-lhe crime de que o sabe inocente, configura denunciação caluniosa, com reclusão de dois a oito anos, e multa. Se o agente se serve de anonimato ou de nome suposto, a pena é aumentada de sexta parte; se a imputação é de contravenção, é diminuída de metade. Análise das alternativas: A) Errada: na comunicação falsa não se imputa o fato a pessoa determinada; Ana acusou o vizinho. B) Errada: o anonimato aumenta a pena; a diminuição de metade é para imputação de contravenção. C) Errada: o tipo se perfaz com a instauração de inquérito policial, sem exigir processo judicial. D) Correta: art. 339, caput e § 1º. E) Errada: o aumento é de sexta parte, e não de um terço até a metade. Fundamento: art. 339, caput, §§ 1º e 2º, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2867,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Administração Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-administracao-publica.md",
+      "atual": {
+        "enunciado": "Sobre o falso testemunho e a corrupção de testemunha ou perito, previstos nos arts. 342 e 343 do Código Penal, assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Quem oferece dinheiro a testemunha para que minta em depoimento comete crime punido com reclusão, de três a quatro anos, e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "O falso testemunho exige afirmação falsa, não alcançando a testemunha que apenas nega ou cala a verdade sobre os fatos."
+          },
+          {
+            "letra": "C",
+            "texto": "O falso testemunho prestado em inquérito policial é atípico, pois o tipo penal exige depoimento em processo judicial."
+          },
+          {
+            "letra": "D",
+            "texto": "A pena do falso testemunho é aumentada da metade quando o crime é praticado mediante suborno."
+          },
+          {
+            "letra": "E",
+            "texto": "Perito, contador e tradutor não respondem por falso testemunho ou falsa perícia, pois o tipo alcança somente a testemunha."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O art. 342 pune quem faz afirmação falsa, nega ou cala a verdade como testemunha, perito, contador, tradutor ou intérprete em processo judicial ou administrativo, inquérito policial ou juízo arbitral, com reclusão de 2 a 4 anos, e multa. Quem dá, oferece ou promete vantagem a essas pessoas para que faltem com a verdade responde pelo art. 343, com reclusão de três a quatro anos, e multa. Análise das alternativas: A) Correta: reproduz o art. 343. B) Errada: o tipo também abrange negar ou calar a verdade. C) Errada: o inquérito policial consta expressamente do art. 342. D) Errada: o suborno aumenta a pena de um sexto a um terço (§ 1º). E) Errada: perito, contador, tradutor e intérprete estão expressamente no art. 342. Fundamento: arts. 342 e 343 do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2868,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Administração Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-administracao-publica.md",
+      "atual": {
+        "enunciado": "Réu em processo por crime de estupro faz grave ameaça à vítima para que ela não compareça à audiência de instrução, com o fim de favorecer interesse próprio. Segundo o Código Penal, a conduta configura",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "coação no curso do processo, com reclusão de um a quatro anos, e multa, aumentada de um sexto a um terço."
+          },
+          {
+            "letra": "B",
+            "texto": "coação no curso do processo, com reclusão de um a quatro anos, e multa, aumentada de um terço até a metade."
+          },
+          {
+            "letra": "C",
+            "texto": "ameaça, apenas, pois a coação no curso do processo exige que a vítima seja autoridade ou funcionário."
+          },
+          {
+            "letra": "D",
+            "texto": "coação no curso do processo, com reclusão de um a quatro anos, e multa, aplicada em dobro."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "Usar violência ou grave ameaça, para favorecer interesse próprio ou alheio, contra autoridade, parte ou qualquer outra pessoa que funciona ou é chamada a intervir em processo judicial, policial ou administrativo, ou em juízo arbitral, configura coação no curso do processo, com reclusão de um a quatro anos, e multa, além da pena da violência. Se o processo envolver crime contra a dignidade sexual, a pena aumenta-se de um terço até a metade. Análise das alternativas: A) Errada: a fração de um sexto a um terço é do falso testemunho (art. 342, § 1º). B) Correta: art. 344, parágrafo único. C) Errada: o tipo protege também a parte e qualquer pessoa chamada a intervir no processo. D) Errada: a lei não prevê aplicação em dobro para essa hipótese. Fundamento: art. 344, caput e parágrafo único, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2870,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Administração Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-administracao-publica.md",
+      "atual": {
+        "enunciado": "Após matar a vítima a tiros dentro de casa, o autor limpa os vestígios de sangue e coloca a arma na mão do morto, simulando suicídio para enganar o perito, antes mesmo da chegada da polícia e da instauração de inquérito. Quanto à fraude processual, é correto afirmar que",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "não há esse crime, pois a fraude processual exige processo já em curso no momento da conduta."
+          },
+          {
+            "letra": "B",
+            "texto": "há fraude processual, com pena de detenção de três meses a dois anos, e multa, sem aumento."
+          },
+          {
+            "letra": "C",
+            "texto": "há fraude processual, com as penas aplicadas em dobro, por se destinar a produzir efeito em processo penal."
+          },
+          {
+            "letra": "D",
+            "texto": "há fraude processual, com pena aumentada de um terço, por se tratar de processo penal ainda não iniciado."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "Inovar artificiosamente o estado de lugar, coisa ou pessoa, com o fim de induzir a erro o juiz ou o perito, configura fraude processual, com detenção de três meses a dois anos, e multa. Se a inovação se destina a produzir efeito em processo penal, ainda que não iniciado, as penas aplicam-se em dobro. Análise das alternativas: A) Errada: para o processo penal, a lei dispensa que ele já tenha sido iniciado. B) Errada: essa é a pena-base; a finalidade de afetar processo penal dobra as penas. C) Correta: art. 347, parágrafo único. D) Errada: a consequência legal é a aplicação em dobro, e não aumento de um terço. Fundamento: art. 347, caput e parágrafo único, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2872,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Administração Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-administracao-publica.md",
+      "atual": {
+        "enunciado": "Após um furto de joias, um amigo do autor, que não participou do crime nem obteve qualquer proveito para si, guarda as joias em seu cofre para garantir que o autor possa reavê-las depois. O amigo responde por",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "favorecimento real, punido com detenção, de um a seis meses, e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "receptação, pois ocultou coisa que sabia ser produto de crime."
+          },
+          {
+            "letra": "C",
+            "texto": "favorecimento pessoal, punido com detenção, de um a seis meses, e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "coautoria no furto, pois aderiu à conduta do autor após a subtração."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O favorecimento real consiste em prestar a criminoso, fora dos casos de coautoria ou de receptação, auxílio destinado a tornar seguro o proveito do crime, com detenção de um a seis meses, e multa. O auxílio recai sobre o proveito, e não sobre a pessoa do autor. Análise das alternativas: A) Correta: o amigo protegeu o produto do crime em favor do autor, sem proveito próprio. B) Errada: o próprio art. 349 ressalva a receptação, que pressupõe proveito próprio ou de terceiro, e o amigo agiu em favor do autor do crime. C) Errada: o favorecimento pessoal ajuda o autor a fugir da autoridade, e não a garantir o proveito. D) Errada: o auxílio prestado depois da consumação, sem ajuste prévio, não gera coautoria. Fundamento: arts. 348 e 349 do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2874,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Administração Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-administracao-publica.md",
+      "atual": {
+        "enunciado": "Um grupo invade a delegacia e retira um preso do poder dos policiais que o tinham sob custódia, com o objetivo de espancá-lo. Segundo o Código Penal, os integrantes do grupo cometem",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "fuga de pessoa presa praticada por mais de uma pessoa, punida com reclusão de dois a seis anos."
+          },
+          {
+            "letra": "B",
+            "texto": "motim de presos, punido com detenção de seis meses a dois anos, além da pena da violência."
+          },
+          {
+            "letra": "C",
+            "texto": "arrebatamento de preso, punido com reclusão de um a quatro anos, além da pena da violência."
+          },
+          {
+            "letra": "D",
+            "texto": "exercício arbitrário das próprias razões, punido com detenção de quinze dias a um mês, ou multa."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "Arrebatar preso, a fim de maltratá-lo, do poder de quem o tenha sob custódia ou guarda configura arrebatamento de preso, com reclusão de um a quatro anos, além da pena da violência. O que distingue o tipo é a finalidade de maltratar o preso. Análise das alternativas: A) Errada: na fuga de pessoa presa o fim é libertar o preso, e não maltratá-lo. B) Errada: o motim é praticado pelos próprios presos, perturbando a ordem da prisão. C) Correta: art. 353. D) Errada: não se busca satisfazer pretensão por meio de autotutela, mas maltratar o preso arrebatado. Fundamento: arts. 351, 353 e 354 do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2875,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Administração Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-administracao-publica.md",
+      "atual": {
+        "enunciado": "Um advogado patrocinou o autor de uma ação judicial e, após renunciar ao mandato, passou a defender o réu na mesma causa. De acordo com o Código Penal, o advogado",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "não comete crime, pois a defesa das partes contrárias foi sucessiva, e não simultânea."
+          },
+          {
+            "letra": "B",
+            "texto": "comete patrocínio simultâneo ou tergiversação, com pena de detenção de seis meses a três anos, e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "comete patrocínio infiel, mas somente se houver prova de traição ao dever profissional diversa da mera mudança de lado."
+          },
+          {
+            "letra": "D",
+            "texto": "comete sonegação de papel ou objeto de valor probatório, com pena de detenção de seis meses a três anos, e multa."
+          },
+          {
+            "letra": "E",
+            "texto": "comete exploração de prestígio, com pena de reclusão de um a cinco anos, e multa, aumentada de um terço."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O patrocínio infiel pune o advogado ou procurador que trai o dever profissional, prejudicando interesse cujo patrocínio em juízo lhe é confiado. Na mesma pena incorre quem defende na mesma causa, simultânea ou sucessivamente, partes contrárias (patrocínio simultâneo ou tergiversação), com detenção de seis meses a três anos, e multa. Análise das alternativas: A) Errada: o parágrafo único alcança a defesa sucessiva de partes contrárias. B) Correta: art. 355, parágrafo único. C) Errada: a defesa de partes contrárias na mesma causa já é figura típica autônoma, sem exigir outra traição. D) Errada: a sonegação (art. 356) é inutilizar ou deixar de restituir autos ou documentos recebidos como advogado. E) Errada: a exploração de prestígio (art. 357) é receber vantagem a pretexto de influir em juiz ou outros sujeitos do processo. Fundamento: art. 355 do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2919,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Lei de Drogas",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--lei-de-drogas.md",
+      "atual": {
+        "enunciado": "Em fiscalização rodoviária no Ceará, policiais encontram no caminhão de Rui galões de produto químico que, conforme se apurou, ele transportava para entregar a um laboratório clandestino, onde seria usado na preparação de cocaína. Rui não levava droga pronta nem equipamentos. Com base na Lei nº 11.343/2006, a conduta de Rui",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "configura o crime do art. 34, punido com reclusão de 3 a 10 anos, por se tratar de objeto destinado à preparação de drogas."
+          },
+          {
+            "letra": "B",
+            "texto": "é atípica, pois a lei pune o transporte de produto químico apenas quando houver droga pronta apreendida com o agente."
+          },
+          {
+            "letra": "C",
+            "texto": "configura colaboração como informante (art. 37), punida com reclusão de 2 a 6 anos, por auxiliar o laboratório clandestino."
+          },
+          {
+            "letra": "D",
+            "texto": "configura figura equiparada ao tráfico (art. 33, § 1º, I), sujeita às mesmas penas do caput, de 5 a 15 anos de reclusão."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 33, § 1º, I, pune com as mesmas penas do caput (reclusão de 5 a 15 anos e 500 a 1.500 dias-multa) quem transporta, entre outras condutas, matéria-prima, insumo ou produto químico destinado à preparação de drogas. Não se exige apreensão de droga pronta. Análise das alternativas: A) Errada: o art. 34 trata de maquinário, aparelho, instrumento ou objeto destinado à fabricação, e não de insumo ou produto químico, que tem previsão específica no § 1º, I, do art. 33. B) Errada: o tipo do § 1º, I, incide sobre o próprio produto químico, sem exigir droga pronta. C) Errada: o art. 37 pune quem colabora como informante; Rui transportava o insumo, conduta prevista no art. 33, § 1º, I. D) Correta: transporte de produto químico destinado à preparação de drogas, com as penas do caput. Fundamento: art. 33, caput e § 1º, I, da Lei nº 11.343/2006.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    }
+  ]
+}

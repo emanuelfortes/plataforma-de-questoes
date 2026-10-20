@@ -1,0 +1,260 @@
+{
+  "itens": [
+    {
+      "id": 717,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Fé Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-fe-publica.md",
+      "atual": {
+        "enunciado": "Um comerciante recebeu de boa-fé, como troco, uma cédula de R$ 100,00 que acreditava ser verdadeira. Dias depois, já sabendo que a nota era falsa, usou-a para pagar uma compra em outro estabelecimento. Sobre a conduta, é correto afirmar que ele",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "responde pela forma privilegiada: detenção, de seis meses a dois anos, e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "responde pela pena do caput, pois introduziu moeda falsa na circulação."
+          },
+          {
+            "letra": "C",
+            "texto": "não comete crime, porque recebeu a cédula de boa-fé e como verdadeira."
+          },
+          {
+            "letra": "D",
+            "texto": "responde por crime assimilado ao de moeda falsa: reclusão, de dois a oito anos, e multa."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "Quem recebe moeda falsa de boa-fé, como verdadeira, e a restitui à circulação depois de conhecer a falsidade pratica a figura privilegiada do art. 289, § 2º. A lei trata essa conduta com pena bem menor, pois o agente também foi vítima do falsário. Análise das alternativas: A) Correta: é exatamente a pena de detenção, de seis meses a dois anos, e multa, do § 2º. B) Errada: a pena do caput (via § 1º) alcança quem introduz moeda falsa sem ter sido enganado; aqui houve recebimento de boa-fé. C) Errada: a boa-fé no recebimento não afasta o crime, pois a restituição ocorreu após conhecer a falsidade. D) Errada: os crimes assimilados (art. 290) envolvem cédulas formadas com fragmentos ou recolhidas para inutilização. Fundamento: art. 289, § 2º, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 718,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Fé Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-fe-publica.md",
+      "atual": {
+        "enunciado": "O diretor de um banco de emissão que autoriza a emissão de papel-moeda em quantidade superior à autorizada pratica conduta punida, segundo o Código Penal, com",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "reclusão, de três a doze anos, e multa, a mesma pena da falsificação de moeda."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão, de dois a oito anos, e multa, como crime assimilado ao de moeda falsa do art. 290."
+          },
+          {
+            "letra": "C",
+            "texto": "detenção, de seis meses a dois anos, e multa, por ser irregularidade de gestão."
+          },
+          {
+            "letra": "D",
+            "texto": "reclusão, de três a quinze anos, e multa, em figura própria prevista no art. 289."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 289, § 3º, pune com pena mais severa o funcionário público ou diretor, gerente ou fiscal de banco de emissão que fabrica, emite ou autoriza a fabricação ou emissão de moeda com título ou peso inferior ao legal ou de papel-moeda em quantidade superior à autorizada. A pena é de reclusão, de três a quinze anos, e multa. Análise das alternativas: A) Errada: três a doze anos é a pena do caput, para o falsificador comum. B) Errada: dois a oito anos é a pena do art. 290, que trata de cédulas formadas com fragmentos ou recolhidas. C) Errada: seis meses a dois anos é a pena do § 2º (restituição de moeda recebida de boa-fé), e a conduta não é mera irregularidade. D) Correta: corresponde ao § 3º, II, do art. 289. Fundamento: art. 289, § 3º, II, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 719,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Fé Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-fe-publica.md",
+      "atual": {
+        "enunciado": "Policiais civis cumprem mandado de busca e encontram, na casa de um investigado, uma máquina especialmente destinada à falsificação de moeda, sem nenhuma cédula ainda produzida. Em tese, a posse desse equipamento configura",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "ato preparatório impunível, já que nenhuma cédula chegou a ser efetivamente falsificada."
+          },
+          {
+            "letra": "B",
+            "texto": "crime de petrechos para falsificação de moeda: reclusão, de dois a seis anos, e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "crime de moeda falsa consumado, com reclusão de três a doze anos, e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "crime de petrechos de falsificação de papéis públicos, com reclusão de um a três anos."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O legislador tipificou de forma autônoma a conduta de fabricar, adquirir, fornecer, possuir ou guardar maquinismo ou objeto especialmente destinado à falsificação de moeda. Assim, o que seria mero ato preparatório da moeda falsa passa a ser crime próprio, com pena de reclusão, de dois a seis anos, e multa. Análise das alternativas: A) Errada: a posse do petrecho é crime autônomo (art. 291), não ato preparatório impune. B) Correta: reproduz o tipo e a pena do art. 291. C) Errada: não houve fabricação nem alteração de moeda, o que impede o enquadramento no art. 289. D) Errada: o art. 294 (um a três anos) trata de petrechos para falsificar papéis públicos do art. 293, não moeda. Fundamento: art. 291 do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 720,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Fé Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-fe-publica.md",
+      "atual": {
+        "enunciado": "Quem forma cédula representativa de moeda juntando fragmentos de cédulas verdadeiras pratica, segundo o Código Penal,",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "moeda falsa, sujeito à reclusão de três a doze anos, e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "falsificação de papéis públicos, com reclusão de dois a oito anos, e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "crime assimilado ao de moeda falsa, com reclusão de dois a oito anos, e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "supressão de documento, com reclusão de dois a seis anos, e multa, por ser documento público."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O art. 290 prevê os chamados crimes assimilados ao de moeda falsa: formar cédula, nota ou bilhete com fragmentos de cédulas verdadeiras, suprimir sinal de inutilização de cédulas recolhidas ou restituí-las à circulação. A pena é de reclusão, de dois a oito anos, e multa. Análise das alternativas: A) Errada: a conduta tem tipo específico no art. 290, com pena menor que a do art. 289. B) Errada: embora a pena coincida, o art. 293 trata de papéis públicos que não sejam moeda de curso legal. C) Correta: conduta e pena do art. 290, caput. D) Errada: supressão de documento (art. 305) consiste em destruir, suprimir ou ocultar documento verdadeiro. Fundamento: art. 290, caput, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 721,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Fé Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-fe-publica.md",
+      "atual": {
+        "enunciado": "Sobre o crime de emissão de título ao portador sem permissão legal (art. 292 do CP), assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Quem recebe ou utiliza como dinheiro o documento irregular sujeita-se a detenção, de quinze dias a três meses, ou multa."
+          },
+          {
+            "letra": "B",
+            "texto": "O emitente sujeita-se a reclusão, de um a quatro anos, e multa, penas que o juiz aplica de forma cumulativa."
+          },
+          {
+            "letra": "C",
+            "texto": "Quem recebe ou utiliza o documento como dinheiro incorre na mesma pena do emitente: detenção, de um a seis meses."
+          },
+          {
+            "letra": "D",
+            "texto": "O tipo exige que o título indique o nome da pessoa a quem deva ser pago, sob pena de atipicidade da conduta."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O art. 292 pune quem emite, sem permissão legal, nota, bilhete, ficha, vale ou título com promessa de pagamento em dinheiro ao portador ou sem indicação do beneficiário, com detenção de um a seis meses, ou multa. O parágrafo único prevê pena menor para quem recebe ou utiliza esses documentos como dinheiro. Análise das alternativas: A) Correta: é a pena do parágrafo único (quinze dias a três meses, ou multa). B) Errada: a pena do emitente é de detenção, de um a seis meses, ou multa, de forma alternativa. C) Errada: quem recebe ou utiliza tem pena própria e menor que a do emitente. D) Errada: o tipo abrange justamente o título a que falte a indicação do nome do beneficiário. Fundamento: art. 292, caput e parágrafo único, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 723,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Fé Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-fe-publica.md",
+      "atual": {
+        "enunciado": "Um indivíduo é preso por clonar cartões de débito de clientes de um banco. Quanto à falsificação dos cartões, o Código Penal",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "equipara o cartão a documento público, punindo a conduta com reclusão de dois a seis anos, e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "equipara o cartão a documento particular, punindo a conduta com reclusão de um a cinco anos, e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "não prevê equiparação, de modo que a falsificação do cartão é tratada como falsidade ideológica."
+          },
+          {
+            "letra": "D",
+            "texto": "equipara o cartão a papel público, punindo a conduta com reclusão de dois a oito anos, e multa."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O parágrafo único do art. 298 equipara a documento particular o cartão de crédito ou débito. Assim, sua falsificação é punida como falsificação de documento particular: reclusão, de um a cinco anos, e multa. Análise das alternativas: A) Errada: a equiparação é a documento particular; dois a seis anos é a pena do documento público (art. 297). B) Correta: conjuga o art. 298, parágrafo único, com a pena do caput. C) Errada: há equiparação expressa, e clonar cartão é falsificação material, não ideológica. D) Errada: o cartão não está entre os papéis públicos do art. 293, cuja pena é de dois a oito anos. Fundamento: art. 298, caput e parágrafo único, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 728,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Fé Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-fe-publica.md",
+      "atual": {
+        "enunciado": "Abordado por guardas municipais em uma blitz, um homem com mandado de prisão em aberto informa verbalmente o nome e os dados do irmão para não ser conduzido à delegacia, sem apresentar nenhum documento. A conduta amolda-se, em tese, ao crime de",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "uso de documento falso, com a pena cominada à falsificação de documento público."
+          },
+          {
+            "letra": "B",
+            "texto": "uso de documento de identidade alheia, com detenção de quatro meses a dois anos, e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "falsa identidade, com detenção de três meses a um ano, ou multa, se não houver crime mais grave."
+          },
+          {
+            "letra": "D",
+            "texto": "falsidade ideológica, com reclusão de um a cinco anos, e multa, por envolver dado de registro público."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "Atribuir-se falsa identidade para obter vantagem, em proveito próprio ou alheio, ou para causar dano a outrem configura o crime do art. 307, que é subsidiário: só incide se o fato não constitui elemento de crime mais grave. Basta a atribuição verbal, sem exibição de documento. Análise das alternativas: A) Errada: não houve uso de papel falsificado, requisito do art. 304. B) Errada: o art. 308 exige usar, como próprio, documento de identidade alheio, o que não ocorreu. C) Correta: tipo e pena do art. 307. D) Errada: não houve inserção de declaração falsa em documento, núcleo do art. 299. MACETE DO RICCARDO: falou o nome do outro = art. 307; mostrou o documento do outro = art. 308. Fundamento: art. 307 do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 729,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Fé Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-fe-publica.md",
+      "atual": {
+        "enunciado": "Pessoa que empresta o próprio título de eleitor a um amigo, para que este dele se utilize, comete, segundo o Código Penal,",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "o crime do art. 308, sujeito a detenção, de quatro meses a dois anos, e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "fato atípico, pois só é punido quem usa, como próprio, o documento de identidade alheio."
+          },
+          {
+            "letra": "C",
+            "texto": "o crime de falsa identidade, com detenção de três meses a um ano, ou multa."
+          },
+          {
+            "letra": "D",
+            "texto": "o crime de uso de documento falso, com a pena cominada à falsificação."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O art. 308 pune tanto quem usa, como próprio, passaporte, título de eleitor, caderneta de reservista ou documento de identidade alheio quanto quem cede a outrem, para que dele se utilize, documento dessa natureza, próprio ou de terceiro. A pena é de detenção, de quatro meses a dois anos, e multa, se o fato não constitui elemento de crime mais grave. Análise das alternativas: A) Correta: a cessão do próprio documento está expressamente tipificada. B) Errada: a conduta de ceder também é punida pelo art. 308. C) Errada: quem empresta não se atribui identidade falsa (art. 307). D) Errada: o título é verdadeiro, logo não há papel falsificado para o art. 304. Fundamento: art. 308 do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    }
+  ]
+}

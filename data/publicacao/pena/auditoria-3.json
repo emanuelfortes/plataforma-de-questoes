@@ -1,0 +1,52 @@
+{
+  "auditorias": [
+    {
+      "id": 251,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: venda em frente a faculdade atrai o art. 40, III (dependências ou imediações de estabelecimentos de ensino), sem exigir que ocorra no interior nem que os compradores sejam crianças ou adolescentes (inciso VI). O art. 40-A depende de integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada, afastado pelo enunciado. Gabarito D confere; distratores A, B e C estão errados pelos motivos indicados. Alternativas não giram em torno de quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 254,
+      "status": "VALIDADA",
+      "justificativa": "Art. 44 abrange arts. 33, caput e § 1º, e 34 a 37; os arts. 35 (associação) e 36 (financiamento) estão no rol, e o parágrafo único veda o livramento ao reincidente específico. Gabarito B confere. A (art. 38) e C (art. 33, § 2º) estão fora do rol; D contraria o parágrafo único. Dispositivo com ressalva obrigatória: o enunciado avisa que cobra a letra da lei e o comentário traz a nota do STF. A resposta não depende das vedações afastadas. Não há cobrança de quantidade de pena nem da fração do livramento.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 264,
+      "status": "VALIDADA",
+      "justificativa": "Art. 155, § 8º (redação da Lei 15.397/2026): subtração de cabos de telefonia é forma qualificada, aplicável em qualquer caso o § 2º. Carlos é primário e a coisa é de pequeno valor. Gabarito D confere. A (fato diurno; § 3º trata de energia), B (vedação contrariada pelo próprio § 8º) e C (§ 6º, II, trata de aparelhos e dispositivos, não de cabos) estão errados. Alternativas não cobram quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 274,
+      "status": "VALIDADA",
+      "justificativa": "Alojar-se em hotel e tomar refeições sem dispor de recursos para pagar é o art. 176 do CP; o parágrafo único exige representação e permite ao juiz deixar de aplicar a pena. Gabarito B confere. A (incondicionada), C (atipicidade), D (queixa) e E (estelionato do caput, afastado pelo tipo específico) estão errados. Alternativas não giram em torno de quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 276,
+      "status": "VALIDADA",
+      "justificativa": "Art. 179 do CP: fraudar execução alienando bens ou simulando dívidas; parágrafo único: somente se procede mediante queixa. Gabarito A confere. B (bens continuam do executado), C (conduta típica), D (representação em vez de queixa) e E (ação incondicionada) estão errados. Enunciado não indica credor público, então não há discussão sobre ação pública por interesse de ente federativo. Sem cobrança de quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 279,
+      "status": "VALIDADA",
+      "justificativa": "Art. 180, § 1º (desmontar e vender, no exercício de atividade comercial, coisa que deve saber ser produto de crime) e § 2º (equipara comércio irregular ou clandestino, inclusive em residência). Gabarito B confere. A (culposa do § 3º restrita a adquirir ou receber com presunção), C (desmontar e vender são núcleos do § 1º), D (falta de registro não afasta, § 2º) e E (o § 1º usa \"deve saber\") estão errados. Sem cobrança de quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 282,
+      "status": "VALIDADA",
+      "justificativa": "Vantagem obtida com informações fornecidas pela vítima induzida a erro por mensagens e e-mail fraudulento: art. 171, § 2º-A. Uso de servidor fora do território nacional: causa de aumento do § 2º-B, que não depende da condição da vítima. Vítima de 35 anos afasta o § 4º. Gabarito E confere. A, B (furto do art. 155, § 4º-B pressupõe subtração, não entrega pela vítima enganada), C e D estão errados. Alternativas cobram tipificação e hipótese de aumento, não frações.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 290,
+      "status": "VALIDADA",
+      "justificativa": "Transporte do Ceará ao Piauí, com a droga já em território piauiense, caracteriza tráfico entre Estados (art. 40, V); uso de adolescente no transporte configura prática que envolve adolescente (art. 40, VI). Gabarito B confere. A (transnacionalidade do inciso I exige ligação com o exterior), C, D e E estão errados pelos motivos indicados. Alternativas não cobram a fração do aumento.",
+      "correcao_sugerida": null
+    }
+  ]
+}

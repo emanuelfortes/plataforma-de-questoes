@@ -1,0 +1,292 @@
+{
+  "itens": [
+    {
+      "id": 2091,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Administração Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "Acerca do crime de falsificação de documento previsto no art. 311 do Código Penal Militar, assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Sendo o documento particular, a pena é de detenção, até dois anos, por se tratar da forma menos grave do crime."
+          },
+          {
+            "letra": "B",
+            "texto": "Equipara-se a documento a fita de aparelho eletromagnético que incorpore declaração destinada a provar fato relevante."
+          },
+          {
+            "letra": "C",
+            "texto": "A pena é agravada se o agente é praça com mais de dez anos de serviço ou se exerce função de comando na unidade."
+          },
+          {
+            "letra": "D",
+            "texto": "Sendo o documento público, a pena é de reclusão, de dois a doze anos, sem distinção quanto à condição do agente."
+          },
+          {
+            "letra": "E",
+            "texto": "O tipo dispensa que o fato atente contra a administração ou o serviço militar, bastando a alteração do documento."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O art. 311 pune quem falsifica, no todo ou em parte, documento público ou particular, ou altera documento verdadeiro, desde que o fato atente contra a administração ou o serviço militar. A pena é de reclusão, de dois a seis anos, se público, e até cinco anos, se particular; é agravada se o agente é oficial ou exerce função em repartição militar. O § 2º equipara a documento o disco fonográfico ou a fita ou fio de aparelho eletromagnético com declaração destinada à prova de fato juridicamente relevante. Análise das alternativas: A) Errada, para documento particular a pena é de reclusão, até cinco anos. B) Correta, conforme o § 2º do art. 311. C) Errada, a agravação alcança o agente oficial ou que exerce função em repartição militar. D) Errada, a pena para documento público é de dois a seis anos, e há agravação conforme a condição do agente. E) Errada, o tipo exige que o fato atente contra a administração ou o serviço militar. Fundamento: art. 311, caput e §§ 1º e 2º, do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2093,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Administração Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "Um cabo PM deixa de lavrar, indevidamente, o registro de uma ocorrência que envolve um amigo de infância, apenas para poupá-lo de constrangimento, sem que o amigo tenha feito pedido algum ou oferecido qualquer vantagem. Conforme o CPM, trata-se de:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "prevaricação, punida com detenção, de seis meses a dois anos."
+          },
+          {
+            "letra": "B",
+            "texto": "corrupção passiva privilegiada, com detenção, de três meses a um ano."
+          },
+          {
+            "letra": "C",
+            "texto": "condescendência criminosa, punida com detenção, até seis meses."
+          },
+          {
+            "letra": "D",
+            "texto": "violação do dever funcional com o fim de lucro, com reclusão de dois a oito anos."
+          },
+          {
+            "letra": "E",
+            "texto": "inobservância de lei ou regulamento, com detenção, de um a três anos."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "A prevaricação (art. 319) consiste em retardar ou deixar de praticar, indevidamente, ato de ofício, ou praticá-lo contra expressa disposição de lei, para satisfazer interesse ou sentimento pessoal. A amizade que motivou o cabo é sentimento pessoal. Pena: detenção, de seis meses a dois anos. Análise das alternativas: A) Correta, todos os elementos do art. 319 estão presentes. B) Errada, a forma privilegiada da corrupção passiva exige que o agente ceda a pedido ou influência de outrem, o que não ocorreu. C) Errada, a condescendência criminosa pressupõe deixar de responsabilizar subordinado infrator. D) Errada, o art. 320 exige violação de dever em negócio incumbido pela administração para obter vantagem especulativa. E) Errada, o art. 324 exige que a inobservância dê causa direta a ato prejudicial à administração militar, hipótese diversa. Fundamento: art. 319 do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2095,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Administração Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "Um sargento responsável pelo arquivo da companhia inutiliza parcialmente um livro oficial de que tem a guarda em razão do cargo. Segundo o CPM, a conduta configura o crime de:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "inutilização de edital ou de sinal oficial, punido com detenção, até um ano, por conspurcar o livro."
+          },
+          {
+            "letra": "B",
+            "texto": "supressão de documento, punido com reclusão, até cinco anos, por se tratar de livro particular."
+          },
+          {
+            "letra": "C",
+            "texto": "extravio, sonegação ou inutilização de livro, punido com reclusão, de dois a seis anos."
+          },
+          {
+            "letra": "D",
+            "texto": "extravio, sonegação ou inutilização de livro, punido com detenção, de seis meses a dois anos."
+          },
+          {
+            "letra": "E",
+            "texto": "condescendência criminosa, punida com detenção, até três meses, pela negligência na guarda do livro."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O art. 321 do CPM pune quem extravia livro oficial ou qualquer documento de que tem a guarda em razão do cargo, ou o sonega ou inutiliza, total ou parcialmente. A pena é de reclusão, de dois a seis anos, se o fato não constitui crime mais grave. Análise das alternativas: A) Errada, o art. 338 trata de edital afixado por ordem de autoridade e de selo ou sinal oficial, não de livro oficial. B) Errada, o livro é oficial, e o tipo específico para quem tem a guarda em razão do cargo é o art. 321. C) Correta, nome e pena do art. 321. D) Errada, a pena é de reclusão, de dois a seis anos, e não de detenção. E) Errada, a condescendência criminosa refere-se a deixar de responsabilizar subordinado, e a conduta aqui foi dolosa. Fundamento: art. 321 do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2269,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Imputabilidade e Concurso de Agentes no CPM",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--imputabilidade-e-concurso-de-agentes-no-cpm.md",
+      "atual": {
+        "enunciado": "Militar que, ao tempo do fato, em virtude de doença mental, tinha consideravelmente diminuída, mas não suprimida, a capacidade de entender a ilicitude do fato. De acordo com o CPM:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "é inimputável, ficando isento de pena e sujeito apenas às normas estabelecidas na legislação especial."
+          },
+          {
+            "letra": "B",
+            "texto": "não fica excluída a imputabilidade, e a pena pode ser reduzida de um sexto a um terço."
+          },
+          {
+            "letra": "C",
+            "texto": "não fica excluída a imputabilidade, e a pena pode ser reduzida de um terço a dois terços."
+          },
+          {
+            "letra": "D",
+            "texto": "é inimputável, mas o juiz pode aplicar a pena do crime reduzida de um a dois terços."
+          },
+          {
+            "letra": "E",
+            "texto": "não fica excluída a imputabilidade, nem cabe redução, restando apenas a atenuante genérica."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "A inimputabilidade do art. 48 exige que a doença mental ou o desenvolvimento mental incompleto ou retardado retire a capacidade de entender o caráter ilícito do fato ou de autodeterminação. Se a capacidade apenas é diminuída consideravelmente, o agente continua imputável, mas a pena pode ser reduzida de 1/3 a 2/3, sem prejuízo do art. 113. Análise das alternativas: A) Errada: a capacidade não foi suprimida, logo não há inimputabilidade; e a sujeição à legislação especial é regra dos menores (art. 50). B) Errada: a fração prevista é de um terço a dois terços (art. 48, parágrafo único). C) Correta: art. 48, parágrafo único. D) Errada: o semi-imputável é imputável; a redução de pena pressupõe imputabilidade. E) Errada: a lei prevê expressamente a redução facultativa de 1/3 a 2/3. Fundamento: CPM, art. 48, caput e parágrafo único.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2296,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes Militares contra a Pessoa e o Patrimônio",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-militares-contra-a-pessoa-e-o-patrimonio.md",
+      "atual": {
+        "enunciado": "Segundo o Código Penal Militar, o homicídio qualificado (art. 205, § 2º) é punido com:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "reclusão, de seis a vinte anos."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão, de quinze a trinta anos."
+          },
+          {
+            "letra": "C",
+            "texto": "reclusão, de doze a trinta anos."
+          },
+          {
+            "letra": "D",
+            "texto": "reclusão, de oito a vinte anos."
+          },
+          {
+            "letra": "E",
+            "texto": "reclusão, de doze a vinte anos."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "No CPM, o homicídio simples tem pena de reclusão de seis a vinte anos, e qualquer das qualificadoras do § 2º eleva a pena para reclusão de doze a trinta anos. Análise das alternativas: A) Errada: seis a vinte anos é a pena do homicídio simples (caput). B) Errada: quinze a trinta anos é a pena do latrocínio (art. 242, § 3º) e do genocídio, não do homicídio qualificado. C) Correta: é a pena cominada no art. 205, § 2º. D) Errada: oito a vinte anos é a pena da extorsão mediante sequestro qualificada (art. 244, § 1º). E) Errada: o mínimo está certo, mas o máximo do homicídio qualificado é trinta anos. Fundamento: CPM, art. 205, caput e § 2º.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2298,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes Militares contra a Pessoa e o Patrimônio",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-militares-contra-a-pessoa-e-o-patrimonio.md",
+      "atual": {
+        "enunciado": "Sobre o homicídio culposo no Código Penal Militar (art. 206), assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "A pena é de detenção, de um a três anos, aumentada de metade se o agente foge para evitar a prisão em flagrante."
+          },
+          {
+            "letra": "B",
+            "texto": "A pena é de reclusão, de um a quatro anos, por se tratar de crime contra a vida praticado em lugar sujeito à administração militar."
+          },
+          {
+            "letra": "C",
+            "texto": "Se uma só ação culposa causa a morte de mais de uma pessoa, a pena é aumentada de um terço até o dobro."
+          },
+          {
+            "letra": "D",
+            "texto": "O aumento pela inobservância de regra técnica de profissão aplica-se apenas quando há mais de uma vítima."
+          },
+          {
+            "letra": "E",
+            "texto": "O juízo poderá deixar de aplicar a pena se as consequências atingirem tão gravemente o agente que a sanção se torne desnecessária."
+          }
+        ],
+        "gabarito": "E",
+        "comentario": "O homicídio culposo do CPM é punido com detenção de um a quatro anos; há aumento de 1/3 por inobservância de regra técnica ou por omissão de socorro/fuga, aumento de 1/6 até metade na multiplicidade de vítimas e possibilidade de o juízo deixar de aplicar a pena. Análise das alternativas: A) Errada: a pena é de um a quatro anos e o aumento pela fuga é de 1/3, não de metade. B) Errada: a pena é de detenção, não de reclusão. C) Errada: na multiplicidade de vítimas, o aumento é de um sexto até metade. D) Errada: o aumento por inobservância de regra técnica (§ 1º, I) independe do número de vítimas. E) Correta: é a previsão do § 3º, incluído pela Lei nº 14.688/2023. Fundamento: CPM, art. 206, caput e §§ 1º a 3º.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2299,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes Militares contra a Pessoa e o Patrimônio",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-militares-contra-a-pessoa-e-o-patrimonio.md",
+      "atual": {
+        "enunciado": "No Código Penal Militar, em caso de lesões corporais levíssimas, a lei prevê que o juiz pode:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "converter a pena em prestação de serviços à comunidade."
+          },
+          {
+            "letra": "B",
+            "texto": "considerar a infração como disciplinar."
+          },
+          {
+            "letra": "C",
+            "texto": "substituir a detenção pela pena de multa."
+          },
+          {
+            "letra": "D",
+            "texto": "substituir a pena de reclusão pela de detenção."
+          },
+          {
+            "letra": "E",
+            "texto": "conceder perdão judicial mediante reparação."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O art. 209, § 6º, do CPM permite que, nas lesões levíssimas, o juiz trate o fato como infração disciplinar, remetendo-o à esfera administrativa militar. Análise das alternativas: A) Errada: o dispositivo não prevê conversão em prestação de serviços. B) Correta: é exatamente a faculdade prevista no § 6º. C) Errada: não há previsão de substituição por multa para a lesão levíssima. D) Errada: a lesão leve já é punida com detenção, e a substituição de reclusão por detenção é benefício do furto atenuado (art. 240, § 1º). E) Errada: o § 6º não condiciona nada à reparação nem fala em perdão judicial. Fundamento: CPM, art. 209, § 6º.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2303,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes Militares contra a Pessoa e o Patrimônio",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-militares-contra-a-pessoa-e-o-patrimonio.md",
+      "atual": {
+        "enunciado": "Nos crimes contra a honra do CPM, se o crime é cometido mediante paga ou promessa de recompensa, e o fato não constitui crime mais grave:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "aplica-se a pena em dobro."
+          },
+          {
+            "letra": "B",
+            "texto": "a pena aumenta-se de um terço."
+          },
+          {
+            "letra": "C",
+            "texto": "a pena aumenta-se de metade."
+          },
+          {
+            "letra": "D",
+            "texto": "a pena aumenta-se de um terço até metade."
+          },
+          {
+            "letra": "E",
+            "texto": "a pena é agravada, sem quantum fixo."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O art. 218 do CPM traz aumentos de um terço para várias hipóteses (contra superior, contra militar em razão das funções, na presença de duas ou mais pessoas etc.), mas reserva a pena em dobro para a ofensa mercenária, cometida mediante paga ou promessa de recompensa. Análise das alternativas: A) Correta: art. 218, parágrafo único. B) Errada: um terço é o aumento das hipóteses dos incisos do art. 218. C) Errada: a lei não prevê aumento de metade aqui. D) Errada: a fração de um terço até metade é a do roubo (art. 242, § 2º). E) Errada: a lei fixa expressamente a pena em dobro. Fundamento: CPM, art. 218, parágrafo único.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    }
+  ]
+}

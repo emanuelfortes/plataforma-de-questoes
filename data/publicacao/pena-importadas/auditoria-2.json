@@ -1,0 +1,52 @@
+{
+  "auditorias": [
+    {
+      "id": 670,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: o caso descreve facilitação, com infração de dever funcional, de descaminho (iludir o imposto pela entrada de mercadoria, art. 334), o que se amolda ao art. 318 do CP, tipo próprio do funcionário. Gabarito D confere. A erra porque o art. 317, § 2º, exige ceder a pedido ou influência de outrem; B erra porque concussão (art. 316) exige exigir vantagem, afastada no enunciado; C erra porque há tipo específico; E erra porque o excesso de exação (art. 316, § 1º) é exigir tributo indevido ou usar meio vexatório. Nenhuma alternativa gira em torno de quantidade de pena. Comentário e análise corretos.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 671,
+      "status": "VALIDADA",
+      "justificativa": "O art. 319-A do CP pune o 'Diretor de Penitenciária e/ou agente público' que deixa de cumprir o dever de vedar ao preso o acesso a aparelho telefônico que permita comunicação com o ambiente externo. Gabarito D confere. A erra pelo sujeito ativo; B erra porque o art. 325 trata de revelar segredo ou facilitar acesso a sistemas; C erra porque o art. 320 pressupõe subordinado do funcionário. Única correta, sem referência a pena nas alternativas.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 672,
+      "status": "VALIDADA",
+      "justificativa": "Deixar, por indulgência, de responsabilizar subordinado que cometeu infração no exercício do cargo é a condescendência criminosa do art. 320 do CP. Gabarito B confere. A (art. 325), C (art. 321, exige patrocinar interesse privado) e D (art. 317, § 2º, exige pedido ou influência de outrem) estão erradas pelos motivos indicados. Sem alternativas sobre quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 673,
+      "status": "VALIDADA",
+      "justificativa": "O art. 321 do CP pune patrocinar interesse privado perante a administração pública valendo-se da qualidade de funcionário, sem limitar à repartição do agente nem exigir vantagem; o parágrafo único prevê a forma qualificada quando o interesse é ilegítimo. Gabarito C confere. A erra (o tipo fala em administração pública em geral), B erra (corrupção passiva exige vantagem, afastada no enunciado), D erra (a ilegitimidade atrai o parágrafo único). A distinção simples x qualificada é cobrada pela hipótese legal, não pela quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 674,
+      "status": "VALIDADA",
+      "justificativa": "Emprestar senha a pessoa não autorizada para acesso a banco de dados da Administração está no art. 325, § 1º, I, do CP; resultando dano à Administração, incide o § 2º. Gabarito B confere. A erra (o § 1º, I, dispensa revelação pessoal), C erra (art. 313-A exige inserção de dados falsos ou alteração/exclusão de dados corretos pelo funcionário autorizado), D erra (o dano atrai o § 2º), E erra (art. 313-B exige modificar sistema ou programa). Alternativas cobram a hipótese legal, não a pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 675,
+      "status": "VALIDADA",
+      "justificativa": "O art. 323 do CP tem duas formas qualificadas autônomas: prejuízo público (§ 1º) e fato ocorrido em lugar compreendido na faixa de fronteira (§ 2º). O enunciado afasta o prejuízo e situa o fato na faixa de fronteira, logo incide o § 2º. Gabarito A confere. B erra (o § 2º independe de prejuízo), C erra (o abandono é crime do art. 323), D erra (art. 324 trata de exercício antecipado ou prolongado). Sem alternativas sobre quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 699,
+      "status": "VALIDADA",
+      "justificativa": "O art. 24, § 2º, do CP dispõe que, embora seja razoável exigir-se o sacrifício do direito ameaçado, a pena poderá ser reduzida: não há excludente (falta requisito do caput), o crime subsiste e há causa de diminuição facultativa. Gabarito C confere. A erra (falta o requisito da inexigibilidade do sacrifício), B e E erram (o Código não prevê isenção de pena nem exclusão da culpabilidade nesse caso, e o enunciado pede a solução segundo o § 2º), D erra (o dever legal de enfrentar o perigo é o § 1º e impede a alegação, não condiciona a redução). As alternativas não comparam frações de redução.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 711,
+      "status": "VALIDADA",
+      "justificativa": "O arquivo indicado em 'lei' (arts. 23 a 25) não traz o art. 21; o dispositivo foi conferido no texto vigente do CP em data/publicacao/pena-importadas/leis/direito-penal--culpabilidade-e-imputabilidade.md: o desconhecimento da lei é inescusável; o erro sobre a ilicitude, se inevitável, isenta de pena, e, se evitável, permite diminuí-la; o parágrafo único define o erro evitável como aquele em que era possível ao agente ter ou atingir a consciência da ilicitude. Gabarito A confere. B descreve o erro de tipo (art. 20), C erra a natureza e a consequência, D inverte o parágrafo único, E contraria o caput. As alternativas não giram em torno das frações. Observação apenas de classificação: o tema é erro de proibição (culpabilidade), embora cadastrado em Ilicitude e Excludentes; não afeta o gabarito.",
+      "correcao_sugerida": null
+    }
+  ]
+}

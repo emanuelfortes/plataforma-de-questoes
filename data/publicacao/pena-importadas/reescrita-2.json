@@ -1,0 +1,180 @@
+{
+  "itens": [
+    {
+      "id": 670,
+      "enunciado": "Um policial lotado em posto de fiscalização rodoviária, por iniciativa própria e com infração de dever funcional, deixa passar deliberadamente caminhão com mercadorias estrangeiras introduzidas no país sem o pagamento dos tributos devidos, sem solicitar nem receber vantagem. Segundo o Código Penal, a conduta do policial configura",
+      "alternativas": [
+        { "letra": "A", "texto": "corrupção passiva privilegiada, pois deixou de praticar ato de ofício com infração de dever funcional." },
+        { "letra": "B", "texto": "concussão, pois obteve proveito indevido ao liberar a mercadoria em razão da função que exercia." },
+        { "letra": "C", "texto": "participação no descaminho praticado pelo particular, por não haver tipo específico para o funcionário." },
+        { "letra": "D", "texto": "facilitação de contrabando ou descaminho, crime funcional próprio previsto no art. 318 do Código Penal." },
+        { "letra": "E", "texto": "excesso de exação, pois dispensou indevidamente o tributo que deveria ser cobrado do particular." }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 318 do Código Penal pune quem facilita, com infração de dever funcional, a prática de contrabando ou descaminho (art. 334). Iludir o pagamento do imposto devido pela entrada de mercadoria é descaminho, e o funcionário que, por dever do cargo, deixa a mercadoria passar responde por esse crime próprio, e não como partícipe do crime do particular. O tipo não exige vantagem: basta facilitar com infração de dever funcional.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A corrupção passiva privilegiada (art. 317, § 2º) exige que o funcionário ceda a pedido ou influência de outrem. O policial agiu por iniciativa própria, e há tipo específico para a facilitação de descaminho." },
+        { "letra": "B", "correta": false, "justificativa": "Concussão (art. 316) é exigir vantagem indevida em razão da função. O enunciado diz que o policial não solicitou nem recebeu vantagem." },
+        { "letra": "C", "correta": false, "justificativa": "Há tipo específico para o funcionário: o art. 318. É uma exceção à teoria monista, e o policial não responde como partícipe do art. 334." },
+        { "letra": "D", "correta": true, "justificativa": "A conduta de facilitar, com infração de dever funcional, a entrada de mercadoria sem pagamento do imposto se amolda ao art. 318." },
+        { "letra": "E", "correta": false, "justificativa": "Excesso de exação (art. 316, § 1º) é exigir tributo indevido ou usar meio vexatório ou gravoso na cobrança do devido. Não é deixar de fiscalizar a entrada irregular de mercadoria." }
+      ],
+      "fundamento_legal": "Código Penal, art. 318 (com remissão ao art. 334).",
+      "pegadinha": "Tratar o funcionário como partícipe do descaminho do particular, quando a lei criou para ele um crime próprio.",
+      "o_que_mudou": "As alternativas deixaram de trazer a pena de cada crime e passaram a explicar, só pelo conteúdo, por que cada tipo se aplica ou não; o comentário foi refeito sem a quantidade de pena."
+    },
+    {
+      "id": 671,
+      "enunciado": "Um agente penitenciário percebe que um preso mantém um aparelho de telefone celular na cela, usado para se comunicar com o ambiente externo, mas deixa de cumprir seu dever de vedar esse acesso. Segundo o Código Penal, a omissão do agente",
+      "alternativas": [
+        { "letra": "A", "texto": "é atípica, pois o tipo penal aplicável alcança apenas o Diretor de Penitenciária, e não os demais agentes." },
+        { "letra": "B", "texto": "configura violação de sigilo funcional, por facilitar ao preso a comunicação com o ambiente externo." },
+        { "letra": "C", "texto": "configura condescendência criminosa, por deixar de responsabilizar o preso que cometeu a infração." },
+        { "letra": "D", "texto": "configura o crime do art. 319-A, que pune o Diretor de Penitenciária e também o agente público omisso." }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 319-A do Código Penal pune o Diretor de Penitenciária e/ou agente público que deixa de cumprir seu dever de vedar ao preso o acesso a aparelho telefônico, de rádio ou similar que permita a comunicação com outros presos ou com o ambiente externo. É crime omissivo próprio, e o agente penitenciário está expressamente incluído no tipo.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O tipo fala em \"Diretor de Penitenciária e/ou agente público\": o agente penitenciário também pode cometê-lo." },
+        { "letra": "B", "correta": false, "justificativa": "Violação de sigilo funcional (art. 325) é revelar fato que deve permanecer em segredo ou facilitar o acesso indevido a sistemas da Administração. A omissão descrita tem tipo específico." },
+        { "letra": "C", "correta": false, "justificativa": "Condescendência criminosa (art. 320) é deixar de responsabilizar subordinado que cometeu infração no exercício do cargo. O preso não é subordinado do agente." },
+        { "letra": "D", "correta": true, "justificativa": "A omissão do dever de vedar ao preso o acesso ao celular se amolda ao art. 319-A, que alcança também o agente público." }
+      ],
+      "fundamento_legal": "Código Penal, art. 319-A.",
+      "pegadinha": "Achar que o art. 319-A só alcança o Diretor de Penitenciária.",
+      "o_que_mudou": "Saiu a pena das alternativas B, C e D; os distratores agora erram pelo tipo penal (sujeito ativo, sigilo funcional, condescendência)."
+    },
+    {
+      "id": 672,
+      "enunciado": "O chefe de um setor da Guarda Municipal toma conhecimento de que um subordinado cometeu infração no exercício do cargo, mas, por indulgência, deixa de responsabilizá-lo. A conduta do chefe configura",
+      "alternativas": [
+        { "letra": "A", "texto": "violação de sigilo funcional, por ter mantido em segredo a infração cometida pelo subordinado." },
+        { "letra": "B", "texto": "condescendência criminosa, por ter deixado, por indulgência, de responsabilizar o subordinado." },
+        { "letra": "C", "texto": "advocacia administrativa, por ter patrocinado o interesse do subordinado perante a administração." },
+        { "letra": "D", "texto": "corrupção passiva privilegiada, por ter deixado de praticar ato de ofício cedendo à indulgência." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 320 do Código Penal (condescendência criminosa) pune o funcionário que, por indulgência, deixa de responsabilizar subordinado que cometeu infração no exercício do cargo. Também a comete quem, faltando-lhe competência para punir, não leva o fato ao conhecimento da autoridade competente.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Violação de sigilo funcional (art. 325) é revelar fato que deve permanecer em segredo. Calar-se sobre a infração do subordinado por indulgência tem tipo próprio." },
+        { "letra": "B", "correta": true, "justificativa": "Deixar, por indulgência, de responsabilizar subordinado infrator é exatamente o art. 320." },
+        { "letra": "C", "correta": false, "justificativa": "Advocacia administrativa (art. 321) é patrocinar interesse privado perante a administração, valendo-se da qualidade de funcionário. O chefe apenas se omitiu." },
+        { "letra": "D", "correta": false, "justificativa": "A corrupção passiva privilegiada (art. 317, § 2º) exige que o funcionário ceda a pedido ou influência de outrem. A indulgência, sozinha, não é pedido de ninguém." }
+      ],
+      "fundamento_legal": "Código Penal, art. 320.",
+      "pegadinha": "Confundir a indulgência com o subordinado (condescendência) com ceder a pedido de outrem (corrupção passiva privilegiada).",
+      "o_que_mudou": "As alternativas deixaram de trazer a pena de cada crime; cada distrator agora traz o motivo jurídico (errado) que levaria àquele tipo. O macete sobre a pena mínima saiu do comentário."
+    },
+    {
+      "id": 673,
+      "enunciado": "Um inspetor de polícia, valendo-se da qualidade de funcionário, procura servidores de outra repartição e patrocina, perante eles, interesse privado ilegítimo de um empresário conhecido, sem exigir nem receber vantagem. À luz do art. 321 do Código Penal, é correto afirmar que",
+      "alternativas": [
+        { "letra": "A", "texto": "não há crime, pois o patrocínio ocorreu perante repartição diversa daquela em que o inspetor está lotado." },
+        { "letra": "B", "texto": "há corrupção passiva, pois patrocinar interesse privado ilegítimo equivale a aceitar vantagem indevida." },
+        { "letra": "C", "texto": "há advocacia administrativa na forma qualificada, pois a ilegitimidade do interesse está no parágrafo único." },
+        { "letra": "D", "texto": "há advocacia administrativa na forma simples, pois a ilegitimidade do interesse não altera a figura típica." }
+      ],
+      "gabarito": "C",
+      "comentario": "A advocacia administrativa (art. 321 do Código Penal) consiste em patrocinar, direta ou indiretamente, interesse privado perante a administração pública, valendo-se da qualidade de funcionário. A lei não exige que o patrocínio ocorra na repartição do agente nem que haja vantagem. Se o interesse é ilegítimo, incide a forma qualificada do parágrafo único.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O tipo fala em patrocinar interesse privado \"perante a administração pública\", sem limitar à repartição do funcionário. Basta valer-se da qualidade de funcionário." },
+        { "letra": "B", "correta": false, "justificativa": "Corrupção passiva (art. 317) exige solicitar, receber ou aceitar promessa de vantagem indevida, o que o enunciado afasta." },
+        { "letra": "C", "correta": true, "justificativa": "O inspetor patrocinou interesse privado valendo-se do cargo, e o interesse era ilegítimo: incide o parágrafo único do art. 321." },
+        { "letra": "D", "correta": false, "justificativa": "A ilegitimidade do interesse muda a figura: o parágrafo único do art. 321 prevê a forma qualificada para esse caso." }
+      ],
+      "fundamento_legal": "Código Penal, art. 321, caput e parágrafo único.",
+      "pegadinha": "Ignorar que o interesse ilegítimo qualifica a advocacia administrativa, ou exigir vantagem como se fosse corrupção.",
+      "o_que_mudou": "O enunciado deixou de pedir a pena; agora pergunta qual crime e qual forma (simples ou qualificada) se configura, e as alternativas não citam pena."
+    },
+    {
+      "id": 674,
+      "enunciado": "Um servidor empresta sua senha pessoal a um amigo, pessoa não autorizada, permitindo-lhe acessar banco de dados da Administração Pública. Do acesso resulta dano à Administração. Segundo o art. 325 do Código Penal, a conduta do servidor",
+      "alternativas": [
+        { "letra": "A", "texto": "é atípica, pois o servidor não revelou pessoalmente fato que deveria permanecer em segredo." },
+        { "letra": "B", "texto": "configura violação de sigilo funcional na forma qualificada, pois do acesso resultou dano à Administração." },
+        { "letra": "C", "texto": "configura inserção de dados falsos em sistema, pois o amigo acessou banco de dados da Administração." },
+        { "letra": "D", "texto": "configura violação de sigilo funcional na forma simples, pois o dano não altera a figura típica do crime." },
+        { "letra": "E", "texto": "configura modificação não autorizada de sistema de informações, agravada pelo dano à Administração." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 325, § 1º, I, do Código Penal equipara à violação de sigilo funcional a conduta de quem permite ou facilita, mediante atribuição, fornecimento e empréstimo de senha ou qualquer outra forma, o acesso de pessoas não autorizadas a sistemas de informações ou banco de dados da Administração Pública. Se da ação ou omissão resulta dano à Administração Pública ou a outrem, incide a forma qualificada do § 2º.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O § 1º, I, do art. 325 tipifica expressamente o empréstimo de senha a pessoa não autorizada, sem exigir que o servidor revele pessoalmente o fato." },
+        { "letra": "B", "correta": true, "justificativa": "Houve empréstimo de senha (§ 1º, I) e do acesso resultou dano à Administração, o que atrai o § 2º." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 313-A exige que o funcionário autorizado insira dados falsos ou altere ou exclua dados corretos, o que não ocorreu." },
+        { "letra": "D", "correta": false, "justificativa": "O dano à Administração afasta a forma simples: o § 2º prevê a forma qualificada justamente para esse resultado." },
+        { "letra": "E", "correta": false, "justificativa": "O art. 313-B pune quem modifica ou altera sistema ou programa sem autorização. O servidor apenas permitiu o acesso, sem alterar o sistema." }
+      ],
+      "fundamento_legal": "Código Penal, art. 325, § 1º, I, e § 2º.",
+      "pegadinha": "Achar que só há violação de sigilo quando o servidor revela pessoalmente o segredo, ou confundir o empréstimo de senha com os crimes dos arts. 313-A e 313-B.",
+      "o_que_mudou": "As alternativas deixaram de trazer penas e frações; a diferença entre a forma simples e a qualificada passou a ser cobrada pela hipótese (resultado dano)."
+    },
+    {
+      "id": 675,
+      "enunciado": "Um servidor público lotado em município situado na faixa de fronteira abandona o cargo, fora dos casos permitidos em lei, sem que do fato resulte prejuízo público. Segundo o art. 323 do Código Penal, a conduta configura",
+      "alternativas": [
+        { "letra": "A", "texto": "abandono de função na forma qualificada, pois o fato ocorreu em lugar compreendido na faixa de fronteira." },
+        { "letra": "B", "texto": "abandono de função na forma simples, pois a forma qualificada depende sempre de prejuízo público efetivo." },
+        { "letra": "C", "texto": "fato atípico na esfera penal, pois o abandono de cargo gera apenas responsabilidade administrativa." },
+        { "letra": "D", "texto": "exercício funcional ilegalmente prolongado, pois o servidor deixou o posto sem autorização superior." }
+      ],
+      "gabarito": "A",
+      "comentario": "O art. 323 do Código Penal pune quem abandona cargo público fora dos casos permitidos em lei. Há duas formas qualificadas, independentes entre si: quando do fato resulta prejuízo público (§ 1º) e quando o fato ocorre em lugar compreendido na faixa de fronteira (§ 2º). Para o § 2º basta o local; não é preciso haver prejuízo.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "O abandono ocorreu na faixa de fronteira, hipótese autônoma de qualificadora do § 2º do art. 323." },
+        { "letra": "B", "correta": false, "justificativa": "O prejuízo público é só uma das qualificadoras (§ 1º). A faixa de fronteira (§ 2º) qualifica o crime mesmo sem prejuízo." },
+        { "letra": "C", "correta": false, "justificativa": "O abandono de cargo fora dos casos permitidos em lei é crime previsto no art. 323, sem prejuízo da responsabilidade administrativa." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 324 pune quem entra no exercício antes das exigências legais ou continua a exercê-lo depois de saber que foi exonerado, removido, substituído ou suspenso. Quem deixa o cargo comete abandono." }
+      ],
+      "fundamento_legal": "Código Penal, art. 323, caput, §§ 1º e 2º.",
+      "pegadinha": "Achar que a qualificadora exige prejuízo público, quando a faixa de fronteira é hipótese autônoma.",
+      "o_que_mudou": "O enunciado deixou de pedir a pena; agora pergunta qual forma do crime incide, e o caso passou a dizer que não houve prejuízo público para separar as duas qualificadoras."
+    },
+    {
+      "id": 699,
+      "enunciado": "Considere que, nas circunstâncias do caso concreto, era razoável exigir-se do agente o sacrifício do direito ameaçado. Nessa hipótese, segundo o art. 24, § 2º, do Código Penal:",
+      "alternativas": [
+        { "letra": "A", "texto": "fica excluída a ilicitude do fato, pois o perigo atual não foi provocado pela vontade do agente." },
+        { "letra": "B", "texto": "o agente fica isento de pena, por se tratar de causa legal de exclusão da culpabilidade do fato." },
+        { "letra": "C", "texto": "subsiste o crime, mas o juiz poderá reduzir a pena, pois a lei prevê causa de diminuição." },
+        { "letra": "D", "texto": "subsiste o crime, e a redução só cabe se o agente tinha o dever legal de enfrentar o perigo." },
+        { "letra": "E", "texto": "fica excluída a culpabilidade por inexigibilidade de conduta diversa, e o fato não é punível." }
+      ],
+      "gabarito": "C",
+      "comentario": "Um dos requisitos do estado de necessidade (art. 24, caput) é que o sacrifício do direito ameaçado não fosse razoável de exigir. Quando era razoável exigi-lo, a excludente não se configura e o crime permanece, mas o § 2º permite ao juiz reduzir a pena (\"a pena poderá ser reduzida\"). É causa de diminuição, e não de exclusão da ilicitude ou da culpabilidade.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Não ter provocado o perigo é só um dos requisitos. Sendo razoável exigir o sacrifício, falta outro requisito do caput e a ilicitude permanece." },
+        { "letra": "B", "correta": false, "justificativa": "O § 2º não prevê isenção de pena nem exclusão da culpabilidade: o crime subsiste e a pena pode ser reduzida." },
+        { "letra": "C", "correta": true, "justificativa": "Corresponde ao § 2º do art. 24: não há excludente, mas a lei autoriza a redução da pena." },
+        { "letra": "D", "correta": false, "justificativa": "O dever legal de enfrentar o perigo é tratado no § 1º e impede alegar o estado de necessidade; não é condição para a redução do § 2º." },
+        { "letra": "E", "correta": false, "justificativa": "O Código não dá a esse caso efeito de exclusão da culpabilidade: o fato continua punível, apenas com possibilidade de redução da pena." }
+      ],
+      "fundamento_legal": "Código Penal, art. 24, caput, §§ 1º e 2º.",
+      "pegadinha": "Tratar o sacrifício razoavelmente exigível como excludente, quando a lei o trata apenas como causa de diminuição.",
+      "o_que_mudou": "As alternativas deixaram de comparar frações de redução; agora cobram a natureza jurídica do § 2º (causa de diminuição, crime subsiste) e a diferença para o § 1º."
+    },
+    {
+      "id": 711,
+      "enunciado": "Quanto ao erro sobre a ilicitude do fato, nos termos do art. 21 do Código Penal:",
+      "alternativas": [
+        { "letra": "A", "texto": "se inevitável, isenta de pena; se evitável, não afasta a punição, mas permite a diminuição da pena." },
+        { "letra": "B", "texto": "se inevitável, exclui o dolo; se evitável, permite a punição por crime culposo, se previsto em lei." },
+        { "letra": "C", "texto": "se inevitável, exclui a ilicitude; se evitável, o agente responde pelo crime sem nenhuma redução." },
+        { "letra": "D", "texto": "é evitável quando o agente, nas circunstâncias, não tinha como atingir a consciência da ilicitude." },
+        { "letra": "E", "texto": "se inevitável ou evitável, isenta de pena, pois o desconhecimento da lei é escusável ao agente." }
+      ],
+      "gabarito": "A",
+      "comentario": "No erro de proibição, o agente sabe o que faz, mas não tem consciência de que aquilo é ilícito. O art. 21 do Código Penal dá duas consequências: se o erro era inevitável, há isenção de pena; se evitável, a pena poderá ser diminuída. O parágrafo único considera evitável o erro quando era possível ao agente, nas circunstâncias, ter ou atingir a consciência da ilicitude. O caput também lembra que o desconhecimento da lei é inescusável. MACETE DO RICCARDO: erro de tipo mexe no dolo; erro de proibição mexe na culpabilidade e na pena.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Reproduz o art. 21, caput: o erro inevitável isenta de pena e o evitável apenas permite diminuí-la." },
+        { "letra": "B", "correta": false, "justificativa": "Excluir o dolo e permitir a punição culposa é a consequência do erro sobre elemento do tipo (art. 20), e não do erro de proibição." },
+        { "letra": "C", "correta": false, "justificativa": "O erro de proibição inevitável isenta de pena (afeta a culpabilidade), não exclui a ilicitude; e o evitável permite a diminuição da pena." },
+        { "letra": "D", "correta": false, "justificativa": "Inverte o parágrafo único: o erro é evitável quando era possível ao agente ter ou atingir a consciência da ilicitude." },
+        { "letra": "E", "correta": false, "justificativa": "A lei diz que o desconhecimento da lei é inescusável, e o erro evitável não isenta de pena, só permite reduzi-la." }
+      ],
+      "fundamento_legal": "Código Penal, art. 21, caput e parágrafo único.",
+      "pegadinha": "Confundir as consequências do erro de proibição (art. 21) com as do erro de tipo (art. 20).",
+      "o_que_mudou": "As alternativas deixaram de comparar frações (um sexto a um terço com um a dois terços); agora cobram as consequências do erro inevitável e evitável, a diferença para o erro de tipo e o conceito de erro evitável."
+    }
+  ]
+}

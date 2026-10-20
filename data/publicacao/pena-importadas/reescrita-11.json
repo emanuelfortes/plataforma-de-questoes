@@ -1,0 +1,174 @@
+{
+  "itens": [
+    {
+      "id": 1893,
+      "enunciado": "Entidade de longa permanência recusa o acolhimento de uma senhora de 74 anos, como abrigada, porque ela não aceitou outorgar procuração à própria entidade. Essa conduta corresponde, no Estatuto da Pessoa Idosa, ao crime de:",
+      "alternativas": [
+        { "letra": "A", "texto": "indução de pessoa idosa a outorgar procuração para administrar bens (art. 106)." },
+        { "letra": "B", "texto": "coação de pessoa idosa a outorgar procuração à entidade de atendimento (art. 107)." },
+        { "letra": "C", "texto": "abandono de pessoa idosa em entidade de longa permanência ou congênere (art. 98)." },
+        { "letra": "D", "texto": "negativa de acolhimento por recusa da idosa em outorgar procuração (art. 103)." }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 103 do Estatuto da Pessoa Idosa pune quem nega o acolhimento ou a permanência da pessoa idosa, como abrigada, por recusa desta em outorgar procuração à entidade de atendimento. É exatamente o caso narrado: a entidade condicionou o acolhimento à procuração e, diante da recusa, negou o abrigo. Fundamento: art. 103 da Lei nº 10.741/2003.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 106 exige vítima sem discernimento de seus atos que é induzida a outorgar procuração; aqui a idosa recusou a procuração e o que houve foi a negativa de acolhimento." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 107 pune quem coage a pessoa idosa a outorgar procuração; no caso não houve coação para outorgar, mas recusa de abrigo diante da negativa da idosa." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 98 pune o abandono da pessoa idosa em entidade de longa permanência; a idosa não foi abandonada lá, ela teve o acolhimento negado." },
+        { "letra": "D", "correta": true, "justificativa": "Reproduz o tipo do art. 103: negar o acolhimento ou a permanência da pessoa idosa, como abrigada, por recusa desta em outorgar procuração à entidade." }
+      ],
+      "fundamento_legal": "Lei nº 10.741/2003 (Estatuto da Pessoa Idosa), art. 103.",
+      "pegadinha": "Confundir o crime específico da negativa de acolhimento (art. 103) com os outros crimes ligados à procuração (arts. 106 e 107) ou com o abandono em entidade (art. 98).",
+      "o_que_mudou": "As alternativas deixaram de trazer a quantidade de pena de cada crime; a questão cobra só a tipificação, comparando crimes parecidos do Estatuto."
+    },
+    {
+      "id": 1894,
+      "enunciado": "Sobre os crimes do Estatuto da Pessoa Idosa relacionados à outorga de procuração e a atos de disposição patrimonial, assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "Induzir pessoa idosa, ainda que plenamente capaz, a outorgar procuração para administração de bens configura o crime do art. 106 do Estatuto." },
+        { "letra": "B", "texto": "Negar o acolhimento da pessoa idosa como abrigada, por recusa desta em outorgar procuração, só é crime se houver violência ou grave ameaça." },
+        { "letra": "C", "texto": "Induzir pessoa idosa sem discernimento de seus atos a outorgar procuração para administração de bens configura o crime do art. 106 do Estatuto." },
+        { "letra": "D", "texto": "Lavrar ato notarial que envolva pessoa idosa sem discernimento, sem a devida representação legal, só é crime se o tabelião obtiver vantagem." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 106 do Estatuto pune quem induz pessoa idosa sem discernimento de seus atos a outorgar procuração para fins de administração de bens ou deles dispor livremente. A falta de discernimento da vítima é elementar do tipo: sem ela, a indução, por si só, não configura esse crime. Fundamento: arts. 103, 106 e 108 da Lei nº 10.741/2003.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A falta de discernimento da vítima é elementar do art. 106; induzir pessoa idosa plenamente capaz não se amolda a esse tipo." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 103 não exige violência nem grave ameaça: basta negar o acolhimento ou a permanência por recusa da idosa em outorgar procuração à entidade." },
+        { "letra": "C", "correta": true, "justificativa": "Reproduz o art. 106: induzir pessoa idosa sem discernimento de seus atos a outorgar procuração para administração de bens ou para deles dispor livremente." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 108 pune quem lavra ato notarial que envolva pessoa idosa sem discernimento, sem a devida representação legal, sem exigir que o agente obtenha vantagem." }
+      ],
+      "fundamento_legal": "Lei nº 10.741/2003 (Estatuto da Pessoa Idosa), arts. 103, 106 e 108.",
+      "pegadinha": "Retirar a elementar \"sem discernimento de seus atos\" do art. 106 ou acrescentar requisitos que os arts. 103 e 108 não exigem.",
+      "o_que_mudou": "As alternativas deixaram de comparar penas; agora cobram as elementares de cada tipo (falta de discernimento, ausência de exigência de violência ou de vantagem)."
+    },
+    {
+      "id": 1895,
+      "enunciado": "Filho que, mediante ameaças, obriga a mãe, de 79 anos, a fazer testamento em seu favor pratica, em tese, qual crime, e como se processa a ação penal?",
+      "alternativas": [
+        { "letra": "A", "texto": "Indução de pessoa idosa a outorgar procuração (art. 106), de ação penal pública condicionada à representação da vítima." },
+        { "letra": "B", "texto": "Coação de pessoa idosa a testar (art. 107), de ação penal pública incondicionada, sem a imunidade dos arts. 181 e 182 do CP." },
+        { "letra": "C", "texto": "Coação de pessoa idosa a testar (art. 107), mas o filho fica isento de punição pela imunidade do art. 181 do Código Penal." },
+        { "letra": "D", "texto": "Constrangimento ilegal do Código Penal, pois o Estatuto só pune a coação para doar ou outorgar procuração, e não para testar." }
+      ],
+      "gabarito": "B",
+      "comentario": "Coagir, de qualquer modo, a pessoa idosa a doar, contratar, testar ou outorgar procuração configura o crime do art. 107 do Estatuto. Os crimes do Estatuto são de ação penal pública incondicionada e a eles não se aplicam os arts. 181 e 182 do Código Penal (art. 95), de modo que o parentesco com a vítima não isenta o filho nem torna a ação condicionada. Fundamento: arts. 95 e 107 da Lei nº 10.741/2003.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Não houve indução de pessoa sem discernimento a outorgar procuração (art. 106), mas coação para testar; além disso, a ação penal é incondicionada (art. 95)." },
+        { "letra": "B", "correta": true, "justificativa": "O art. 107 inclui o verbo testar, e o art. 95 fixa a ação penal pública incondicionada e afasta os arts. 181 e 182 do CP." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 95 do Estatuto afasta expressamente a imunidade do art. 181 do CP, que isentaria o descendente nos crimes patrimoniais." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 107 abrange expressamente a coação para doar, contratar, testar ou outorgar procuração; o tipo específico do Estatuto prevalece." }
+      ],
+      "fundamento_legal": "Lei nº 10.741/2003 (Estatuto da Pessoa Idosa), arts. 95 e 107.",
+      "pegadinha": "Achar que o parentesco com a vítima atrai a imunidade dos arts. 181 e 182 do CP ou torna a ação condicionada, quando o art. 95 do Estatuto afasta as duas coisas.",
+      "o_que_mudou": "A pergunta deixou de ser sobre a pena do art. 107 e passou a cobrar a tipificação (coação para testar) e a ação penal dos crimes do Estatuto (art. 95)."
+    },
+    {
+      "id": 1921,
+      "enunciado": "Acerca da colaboração espontânea prevista no art. 1º, § 5º, da Lei 9.613/1998, é correto afirmar que:",
+      "alternativas": [
+        { "letra": "A", "texto": "alcança o autor, o coautor ou o partícipe e permite ao juiz deixar de aplicar a sanção ou substituí-la, a qualquer tempo, por restritiva de direitos." },
+        { "letra": "B", "texto": "o benefício alcança somente o autor do crime, excluídos o coautor e o partícipe que colaborem espontaneamente com as autoridades." },
+        { "letra": "C", "texto": "a substituição por restritiva de direitos só é admitida até a sentença, sendo vedada depois do trânsito em julgado da condenação." },
+        { "letra": "D", "texto": "depende de que os esclarecimentos levem, cumulativamente, à identificação de todos os autores e à localização integral dos bens." }
+      ],
+      "gabarito": "A",
+      "comentario": "O § 5º do art. 1º da Lei 9.613/1998 beneficia o autor, o coautor ou o partícipe que colaborar espontaneamente com as autoridades, prestando esclarecimentos que conduzam à apuração das infrações penais, à identificação dos autores, coautores e partícipes, ou à localização dos bens, direitos ou valores objeto do crime. Entre os efeitos, o juiz pode deixar de aplicar a sanção ou substituí-la, a qualquer tempo, por restritiva de direitos. Fundamento: art. 1º, § 5º, da Lei 9.613/1998.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Reproduz o § 5º: o benefício alcança autor, coautor ou partícipe, e o juiz pode deixar de aplicar a sanção ou substituí-la, a qualquer tempo, por restritiva de direitos." },
+        { "letra": "B", "correta": false, "justificativa": "A lei abrange expressamente o coautor e o partícipe, e não só o autor." },
+        { "letra": "C", "correta": false, "justificativa": "A substituição pode ocorrer \"a qualquer tempo\", o que inclui o momento posterior à sentença." },
+        { "letra": "D", "correta": false, "justificativa": "Os resultados são alternativos (\"ou\"): basta que os esclarecimentos conduzam à apuração, à identificação dos envolvidos ou à localização dos bens." }
+      ],
+      "fundamento_legal": "Lei nº 9.613/1998, art. 1º, § 5º.",
+      "pegadinha": "Transformar em cumulativos os resultados alternativos da colaboração e restringir quem pode ser beneficiado ou até quando cabe a substituição.",
+      "o_que_mudou": "A correta deixou de citar as frações de redução; a questão cobra quem pode ser beneficiado, os resultados exigidos e o momento da substituição."
+    },
+    {
+      "id": 1948,
+      "enunciado": "Sobre o crime de constituição de milícia privada (art. 288-A do CP), é correto afirmar que:",
+      "alternativas": [
+        { "letra": "A", "texto": "pune apenas quem constitui ou organiza o grupo, de modo que quem só o custeia responde como partícipe de associação criminosa." },
+        { "letra": "B", "texto": "pune quem constitui, organiza, integra, mantém ou custeia o grupo, com a finalidade de praticar crimes previstos no Código Penal." },
+        { "letra": "C", "texto": "só se configura quando o grupo pratica efetivamente algum dos crimes visados, não bastando constituí-lo ou integrá-lo." },
+        { "letra": "D", "texto": "abrange o grupo formado para praticar contravenções penais, além dos crimes previstos no Código Penal e em leis especiais." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 288-A do CP pune quem constituir, organizar, integrar, manter ou custear organização paramilitar, milícia particular, grupo ou esquadrão com a finalidade de praticar qualquer dos crimes previstos no Código. É crime de ação múltipla e se configura com a conduta associativa voltada a esse fim, independentemente da prática dos crimes visados. Fundamento: art. 288-A do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Custear e manter o grupo estão entre os verbos do próprio art. 288-A; quem custeia responde por esse crime, e não como partícipe de outro." },
+        { "letra": "B", "correta": true, "justificativa": "Reproduz os verbos e a finalidade do art. 288-A: praticar qualquer dos crimes previstos no Código Penal." },
+        { "letra": "C", "correta": false, "justificativa": "O tipo descreve a conduta de constituir, integrar ou manter o grupo com a finalidade de praticar crimes; não exige que esses crimes sejam efetivamente praticados." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 288-A fala em finalidade de praticar \"qualquer dos crimes previstos neste Código\"; não menciona contravenções." }
+      ],
+      "fundamento_legal": "Código Penal, art. 288-A (incluído pela Lei nº 12.720/2012).",
+      "pegadinha": "Esquecer que custear e manter estão entre os verbos do tipo e exigir a prática dos crimes visados para a consumação.",
+      "o_que_mudou": "A pergunta deixou de ser sobre a pena do art. 288-A e passou a cobrar os verbos do tipo, a finalidade e a consumação."
+    },
+    {
+      "id": 1953,
+      "enunciado": "Sobre os crimes contra a paz pública previstos nos arts. 286 a 288-A do CP, assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "Na mesma figura da incitação ao crime incorre quem incita, publicamente, animosidade entre as Forças Armadas ou delas contra a sociedade." },
+        { "letra": "B", "texto": "A apologia se limita a exaltar, publicamente, fato criminoso, e não abrange a apologia feita, também publicamente, ao autor de crime." },
+        { "letra": "C", "texto": "A associação criminosa exige quatro ou mais pessoas, estruturalmente ordenadas e com divisão de tarefas, para o fim de cometer crimes." },
+        { "letra": "D", "texto": "A associação criminosa só se consuma quando o grupo pratica o primeiro dos crimes para os quais as pessoas se associaram." },
+        { "letra": "E", "texto": "Quem contrata o cometimento de crime a integrante de associação criminosa responde só pelo crime contratado, e não pelo crime do art. 288." }
+      ],
+      "gabarito": "A",
+      "comentario": "O parágrafo único do art. 286 do CP, incluído pela Lei nº 14.197/2021, estende a figura da incitação a quem incita, publicamente, animosidade entre as Forças Armadas, ou delas contra os poderes constitucionais, as instituições civis ou a sociedade. Fundamento: arts. 286 a 288-A do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Reproduz o parágrafo único do art. 286 do CP, que trata da incitação pública de animosidade entre as Forças Armadas ou delas contra a sociedade." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 287 pune a apologia de fato criminoso ou de autor de crime." },
+        { "letra": "C", "correta": false, "justificativa": "A associação criminosa exige 3 ou mais pessoas para o fim específico de cometer crimes (art. 288); estrutura ordenada, divisão de tarefas e quatro ou mais pessoas são requisitos da organização criminosa (Lei 12.850/2013, art. 1º, § 1º)." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 288 descreve a conduta de associarem-se para o fim específico de cometer crimes; a consumação se dá com a associação, sem depender da prática dos crimes visados." },
+        { "letra": "E", "correta": false, "justificativa": "O § 2º do art. 288, incluído pela Lei nº 15.245/2025, faz incidir a figura do caput sobre quem solicita ou contrata o crime a integrante da associação, independentemente da punição pelo crime contratado." }
+      ],
+      "fundamento_legal": "Código Penal, arts. 286, parágrafo único, 287 e 288, caput e § 2º; Lei nº 12.850/2013, art. 1º, § 1º.",
+      "pegadinha": "Confundir associação criminosa com organização criminosa e esquecer as figuras equiparadas incluídas no art. 286 e no art. 288.",
+      "o_que_mudou": "A questão deixou de comparar a espécie de pena (detenção ou reclusão) de cada crime e passou a cobrar elementares, consumação e figuras equiparadas. Na alternativa E, \"e não pela do art. 288\" virou \"e não pelo crime do art. 288\", para corrigir a concordância."
+    },
+    {
+      "id": 2036,
+      "enunciado": "De acordo com o Código Penal, quando o agente, mediante mais de uma ação ou omissão, pratica dois ou mais crimes, idênticos ou não, configura-se",
+      "alternativas": [
+        { "letra": "A", "texto": "concurso material, aplicando-se cumulativamente as penas privativas de liberdade em que haja incorrido." },
+        { "letra": "B", "texto": "concurso formal, aplicando-se a mais grave das penas cabíveis ou, se iguais, uma só delas, com acréscimo." },
+        { "letra": "C", "texto": "crime continuado, aplicando-se a sanção de um só dos crimes com acréscimo, ainda que de espécies diversas." },
+        { "letra": "D", "texto": "concurso formal impróprio, somando-se as penas em razão da existência de desígnios autônomos." }
+      ],
+      "gabarito": "A",
+      "comentario": "O concurso material (ou real) exige pluralidade de condutas (mais de uma ação ou omissão) e pluralidade de crimes, idênticos ou não. A consequência é o cúmulo material: as penas privativas de liberdade são aplicadas cumulativamente. Fundamento: CP, art. 69, caput.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Reproduz o art. 69, caput: mais de uma ação ou omissão e dois ou mais crimes, com aplicação cumulativa das penas." },
+        { "letra": "B", "correta": false, "justificativa": "O concurso formal (art. 70) pressupõe uma só ação ou omissão, e não mais de uma." },
+        { "letra": "C", "correta": false, "justificativa": "O crime continuado (art. 71) exige crimes da mesma espécie e condições semelhantes de tempo, lugar e maneira de execução; não se aplica a crimes de espécies diversas." },
+        { "letra": "D", "correta": false, "justificativa": "O concurso formal impróprio também pressupõe uma só ação ou omissão, embora dolosa e com desígnios autônomos." }
+      ],
+      "fundamento_legal": "Código Penal, arts. 69, 70 e 71.",
+      "pegadinha": "Confundir o número de condutas que separa o concurso material (várias) do concurso formal, próprio ou impróprio (uma só).",
+      "o_que_mudou": "As alternativas deixaram de citar as frações de aumento do concurso formal e do crime continuado; a questão cobra só os requisitos de cada espécie."
+    },
+    {
+      "id": 2038,
+      "enunciado": "Querendo matar dois desafetos, o agente detona um único explosivo junto ao carro em que ambos estavam, e os dois morrem. Segundo o Código Penal, há",
+      "alternativas": [
+        { "letra": "A", "texto": "concurso formal próprio, pois houve uma só ação, aplicando-se a mais grave das penas com acréscimo legal." },
+        { "letra": "B", "texto": "concurso formal impróprio, pois a ação é dolosa e os crimes resultam de desígnios autônomos, somando-se as penas." },
+        { "letra": "C", "texto": "concurso material, pois houve dois resultados, o que basta para afastar o concurso formal e somar as penas." },
+        { "letra": "D", "texto": "crime continuado, pois os crimes são da mesma espécie e cometidos nas mesmas condições de tempo e lugar." }
+      ],
+      "gabarito": "B",
+      "comentario": "Pelo art. 70 do CP, quando uma só ação ou omissão produz dois ou mais crimes, há concurso formal. Se a ação é dolosa e os crimes resultam de desígnios autônomos (o agente quis cada um dos resultados), as penas aplicam-se cumulativamente, como no concurso material: é o concurso formal impróprio. No caso, uma única detonação, com a vontade de matar as duas vítimas. Fundamento: CP, art. 70, caput, parte final.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Houve uma só ação, mas o agente quis os dois resultados (desígnios autônomos), o que afasta o concurso formal próprio e impõe a soma das penas." },
+        { "letra": "B", "correta": true, "justificativa": "Reproduz a parte final do art. 70, caput: ação dolosa com crimes resultantes de desígnios autônomos, com aplicação cumulativa das penas." },
+        { "letra": "C", "correta": false, "justificativa": "O concurso material (art. 69) exige mais de uma ação ou omissão; a pluralidade de resultados não basta." },
+        { "letra": "D", "correta": false, "justificativa": "O crime continuado (art. 71) exige mais de uma ação ou omissão; houve uma única detonação." }
+      ],
+      "fundamento_legal": "Código Penal, arts. 69, 70 e 71.",
+      "pegadinha": "Achar que a soma das penas só ocorre no concurso material, quando o concurso formal com desígnios autônomos também leva ao cúmulo.",
+      "o_que_mudou": "A pergunta deixou de ser sobre a fração de aumento do concurso formal próprio e passou a cobrar a distinção entre concurso formal próprio, impróprio, material e crime continuado num caso concreto."
+    }
+  ]
+}

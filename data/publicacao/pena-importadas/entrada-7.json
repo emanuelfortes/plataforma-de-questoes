@@ -1,0 +1,272 @@
+{
+  "itens": [
+    {
+      "id": 1249,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Crimes Ambientais",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--crimes-ambientais.md",
+      "atual": {
+        "enunciado": "A respeito do crime contra espécimes da fauna silvestre previsto no art. 29 da Lei nº 9.605/1998, assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "A pena é aumentada até o triplo se o crime é praticado durante a noite ou em período proibido à caça."
+          },
+          {
+            "letra": "B",
+            "texto": "As disposições do art. 29 aplicam-se aos atos de pesca de espécies nativas ou em rota migratória."
+          },
+          {
+            "letra": "C",
+            "texto": "Na guarda doméstica de espécie silvestre não ameaçada de extinção, o juiz pode deixar de aplicar a pena."
+          },
+          {
+            "letra": "D",
+            "texto": "A pena é aumentada de metade se o crime decorre do exercício de caça profissional, atividade habitual."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O art. 29 traz regras específicas: perdão judicial na guarda doméstica de espécie silvestre não ameaçada de extinção, aumento de metade em hipóteses como crime à noite ou em unidade de conservação, aumento até o triplo na caça profissional e inaplicabilidade aos atos de pesca, que têm tipos próprios. Análise das alternativas: A) Errada: crime praticado durante a noite ou em período proibido à caça gera aumento de metade (§ 4º, II e III); o aumento até o triplo é para a caça profissional. B) Errada: o § 6º afasta a aplicação do artigo aos atos de pesca, que têm tipos próprios. C) Correta: § 2º, considerando as circunstâncias. D) Errada: a caça profissional aumenta a pena até o triplo (§ 5º), não de metade. Fundamento: art. 29, §§ 2º, 4º, 5º e 6º, da Lei nº 9.605/1998. MACETE DO RICCARDO: caçador profissional \"triplica\"; noite, defeso e unidade de conservação dão \"metade\".",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1251,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Crimes Ambientais",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--crimes-ambientais.md",
+      "atual": {
+        "enunciado": "Quanto ao crime de provocar incêndio em floresta ou em demais formas de vegetação, a Lei nº 9.605/1998 comina as seguintes penas:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "reclusão, de dois a quatro anos, e multa; culposo: a mesma pena, reduzida à metade."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão, de dois a quatro anos, e multa; culposo: detenção de seis meses a um ano, e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "detenção, de um a três anos, ou multa; culposo: detenção de seis meses a um ano, e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "reclusão, de dois a cinco anos, e multa; culposo: detenção de três meses a dois anos, e multa."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O art. 41, com redação da Lei nº 14.944/2024, pune com reclusão, de dois a quatro anos, e multa quem provoca incêndio em floresta ou nas demais formas de vegetação. Na modalidade culposa, a pena é de detenção, de seis meses a um ano, e multa. Análise das alternativas: A) Errada: a redução à metade é regra de outros crimes contra a flora (por exemplo, art. 38, parágrafo único); no incêndio culposo há pena própria. B) Correta: reproduz o art. 41 e seu parágrafo único. C) Errada: a pena do crime doloso é de reclusão, de dois a quatro anos, e multa; detenção de um a três anos, ou multa, é a pena de outros crimes contra a flora, como o do art. 38. D) Errada: o crime doloso tem pena máxima de quatro anos, e o culposo é punido com detenção de seis meses a um ano. Fundamento: art. 41 da Lei nº 9.605/1998.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1253,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Crimes Ambientais",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--crimes-ambientais.md",
+      "atual": {
+        "enunciado": "Acerca do crime de poluição e das causas de aumento da Seção III do Capítulo V da Lei nº 9.605/1998, assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Se a poluição hídrica exigir a interrupção do abastecimento público de água de uma comunidade, a pena é de reclusão, de um a cinco anos."
+          },
+          {
+            "letra": "B",
+            "texto": "Se o crime de poluição for culposo, a pena é de detenção, de um a três anos, e multa, sem prejuízo da reparação do dano."
+          },
+          {
+            "letra": "C",
+            "texto": "Quem deixa de adotar medidas de precaução exigidas pela autoridade, em caso de risco de dano grave, sujeita-se à pena do caput do art. 54."
+          },
+          {
+            "letra": "D",
+            "texto": "Se a poluição dificultar ou impedir o uso público das praias, a pena é de detenção, de seis meses a um ano, e multa."
+          },
+          {
+            "letra": "E",
+            "texto": "Nos crimes dolosos da Seção, se resultar a morte de outrem, a pena é aumentada de um terço até a metade."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O art. 54 pune a poluição com reclusão, de um a quatro anos, e multa; na forma culposa, detenção de seis meses a um ano, e multa. As hipóteses do § 2º (área imprópria à ocupação, retirada de habitantes, interrupção do abastecimento de água, uso das praias, lançamento irregular de resíduos) elevam a pena para reclusão de um a cinco anos, e o § 3º estende essa pena a quem deixa de adotar medidas de precaução exigidas. Análise das alternativas: A) Correta: art. 54, § 2º, III. B) Errada: a poluição culposa tem pena de detenção, de seis meses a um ano, e multa (§ 1º). C) Errada: o § 3º remete às penas do § 2º (reclusão de um a cinco anos), não às do caput. D) Errada: dificultar o uso público das praias é forma qualificada do § 2º, IV, com reclusão de um a cinco anos. E) Errada: resultado morte aumenta a pena até o dobro (art. 58, III); de um terço até a metade é para lesão corporal grave (art. 58, II). Fundamento: arts. 54 e 58 da Lei nº 9.605/1998.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1254,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Crimes Ambientais",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--crimes-ambientais.md",
+      "atual": {
+        "enunciado": "Sobre os crimes contra o ordenamento urbano e o patrimônio cultural previstos na Lei nº 9.605/1998, assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Pichar edificação ou monumento urbano é crime punido com reclusão, de um a três anos, e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "A prática de grafite para valorizar bem privado é crime, ainda que consentida pelo proprietário."
+          },
+          {
+            "letra": "C",
+            "texto": "Promover construção em solo não edificável, por seu valor histórico, é punido com reclusão, de um a três anos."
+          },
+          {
+            "letra": "D",
+            "texto": "Destruir, por culpa, bem especialmente protegido por decisão judicial é fato atípico na lei ambiental."
+          },
+          {
+            "letra": "E",
+            "texto": "Pichar coisa tombada em virtude de seu valor histórico é punido com detenção, de seis meses a um ano, e multa."
+          }
+        ],
+        "gabarito": "E",
+        "comentario": "A pichação de edificação ou monumento urbano tem pena de detenção, de três meses a um ano, e multa; se o ato atinge monumento ou coisa tombada por valor artístico, arqueológico ou histórico, a pena é de detenção, de seis meses a um ano, e multa. O grafite consentido e autorizado, com objetivo de valorizar o patrimônio, não é crime. Análise das alternativas: A) Errada: a pena do art. 65, caput, é de detenção, de três meses a um ano, e multa. B) Errada: o § 2º do art. 65 exclui o crime no grafite consentido pelo proprietário (e, quando couber, pelo locatário ou arrendatário). C) Errada: o art. 64 comina detenção, de seis meses a um ano, e multa; reclusão de um a três anos é pena dos arts. 62 e 63. D) Errada: o art. 62, parágrafo único, pune a forma culposa com detenção de seis meses a um ano, sem prejuízo da multa. E) Correta: art. 65, § 1º. Fundamento: arts. 62, 64 e 65 da Lei nº 9.605/1998.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1255,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Crimes Ambientais",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--crimes-ambientais.md",
+      "atual": {
+        "enunciado": "Durante investigação conduzida pela Delegacia de Meio Ambiente, apurou-se que um consultor privado elaborou e apresentou, em procedimento de licenciamento ambiental, laudo parcialmente falso. À luz da Lei nº 9.605/1998, o consultor:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "responde pelo art. 66, com reclusão de um a três anos, crime que admite como autor qualquer particular."
+          },
+          {
+            "letra": "B",
+            "texto": "responde com reclusão, de três a seis anos, e multa, aumentada de 1/3 a 2/3 se houver dano ambiental significativo."
+          },
+          {
+            "letra": "C",
+            "texto": "não responde por crime, pois o tipo penal só alcança o laudo totalmente falso, excluída a falsidade parcial."
+          },
+          {
+            "letra": "D",
+            "texto": "responde com detenção, de um a três anos, e multa, por obstar ou dificultar a ação fiscalizadora do Poder Público."
+          },
+          {
+            "letra": "E",
+            "texto": "responde com reclusão, de três a seis anos, sendo a forma culposa punida com detenção de seis meses a um ano."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O art. 69-A pune quem elabora ou apresenta, no licenciamento, concessão florestal ou outro procedimento administrativo, estudo, laudo ou relatório ambiental total ou parcialmente falso ou enganoso, inclusive por omissão, com reclusão de três a seis anos e multa. Há forma culposa (detenção de um a três anos) e aumento de um terço a dois terços se houver dano significativo decorrente da informação falsa. Análise das alternativas: A) Errada: o art. 66 é crime próprio de funcionário público, e a conduta do consultor amolda-se ao art. 69-A. B) Correta: art. 69-A, caput e § 2º. C) Errada: o tipo abrange o laudo total ou parcialmente falso, inclusive por omissão. D) Errada: obstar a fiscalização (art. 69) é conduta diversa da elaboração de laudo falso. E) Errada: a forma culposa é punida com detenção de um a três anos (§ 1º). Fundamento: arts. 66, 69 e 69-A da Lei nº 9.605/1998.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1318,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Organização Criminosa",
+      "lei": "sem arquivo de lei: use a lei vigente que o enunciado e o comentário citam",
+      "atual": {
+        "enunciado": "O crime de promover, constituir, financiar ou integrar, pessoalmente ou por interposta pessoa, organização criminosa (art. 2º da Lei nº 12.850/2013) é punido com:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "reclusão, de 3 a 8 anos, e multa, sem prejuízo das penas correspondentes às demais infrações penais praticadas."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão, de 3 a 8 anos, e multa, ficando absorvidas pelo crime as demais infrações penais praticadas pelo grupo."
+          },
+          {
+            "letra": "C",
+            "texto": "reclusão, de 1 a 3 anos, e multa, sem prejuízo das penas correspondentes às demais infrações penais praticadas."
+          },
+          {
+            "letra": "D",
+            "texto": "reclusão, de 4 a 12 anos, e multa, ficando absorvidas pelo crime as demais infrações penais praticadas pelo grupo."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O tipo do art. 2º pune quem promove, constitui, financia ou integra organização criminosa com reclusão de 3 a 8 anos e multa. A lei ressalva expressamente que essa pena se aplica sem prejuízo das penas das demais infrações praticadas, ou seja, há cúmulo, e não absorção. Análise das alternativas: A) Correta: pena e regra de cúmulo conforme o art. 2º. B) Errada: a pena está certa, mas as demais infrações não são absorvidas. C) Errada: 1 a 3 anos é a pena do crime de revelar a identidade do colaborador (art. 18). D) Errada: 4 a 12 anos é a pena dos crimes de obstrução (arts. 21-A e 21-B), e não há absorção. Fundamento: art. 2º, caput, da Lei nº 12.850/2013.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1327,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Organização Criminosa",
+      "lei": "sem arquivo de lei: use a lei vigente que o enunciado e o comentário citam",
+      "atual": {
+        "enunciado": "Um jornalista divulga a identidade e fotografias de um colaborador da Justiça, sem a prévia autorização por escrito deste. Segundo a Lei nº 12.850/2013, essa conduta configura crime punido com:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "reclusão, de 1 (um) a 4 (quatro) anos, e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "detenção, de 6 (seis) meses a 2 (dois) anos, e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "reclusão, de 1 (um) a 3 (três) anos, e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "reclusão, de 6 (seis) meses a 2 (dois) anos, e multa."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "Revelar a identidade, fotografar ou filmar o colaborador sem sua prévia autorização por escrito é crime do art. 18, com pena de reclusão de 1 a 3 anos e multa. Os demais crimes da Seção V têm penas diferentes, o que costuma ser explorado em provas. Análise das alternativas: A) Errada: 1 a 4 anos é a pena da colaboração caluniosa (art. 19) e da violação de sigilo da ação controlada ou infiltração (art. 20). B) Errada: a lei não comina detenção nesses crimes. C) Correta: pena do art. 18. D) Errada: 6 meses a 2 anos é a pena de recusar ou omitir dados requisitados (art. 21). Fundamento: art. 18 da Lei nº 12.850/2013.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1445,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Código de Trânsito Brasileiro",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--codigo-de-transito-brasileiro.md",
+      "atual": {
+        "enunciado": "Motorista habilitado e sóbrio, dirigindo com imprudência, perde o controle do carro, sobe na calçada e atinge um pedestre, que morre no local. Nos termos do CTB, ele responde por homicídio culposo na direção de veículo automotor:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "com pena aumentada de um terço à metade, por ter praticado o fato na calçada."
+          },
+          {
+            "letra": "B",
+            "texto": "com pena aumentada de um sexto a um terço, por ter praticado o fato na calçada."
+          },
+          {
+            "letra": "C",
+            "texto": "sem causa de aumento, pois esta se limita aos fatos ocorridos na faixa de pedestres."
+          },
+          {
+            "letra": "D",
+            "texto": "com pena aumentada de metade a dois terços, por ter praticado o fato na calçada."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O § 1º do art. 302 prevê aumento de 1/3 à metade quando o homicídio culposo de trânsito é praticado em faixa de pedestres ou na calçada, entre outras hipóteses. A calçada está expressamente no inciso II. Análise das alternativas: A) Correta, fração e hipótese conferem com o art. 302, § 1º, II. B) Errada, a fração legal é de um terço à metade. C) Errada, o inciso II abrange faixa de pedestres e calçada. D) Errada, a fração de metade a dois terços não é a prevista no CTB. Fundamento: art. 302, § 1º, II, da Lei 9.503/1997.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "itens": [
+    {
+      "id": 879,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Dignidade Sexual",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-dignidade-sexual.md",
+      "atual": {
+        "enunciado": "Sobre o crime de violação sexual mediante fraude, previsto no art. 215 do Código Penal, assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Pressupõe violência ou grave ameaça contra a vítima e é punido com reclusão de 2 a 6 anos."
+          },
+          {
+            "letra": "B",
+            "texto": "Abrange outro meio que impeça ou dificulte a livre manifestação de vontade da vítima, com reclusão de 2 a 6 anos."
+          },
+          {
+            "letra": "C",
+            "texto": "Abrange outro meio que dificulte a livre manifestação de vontade da vítima, com detenção de 1 a 2 anos."
+          },
+          {
+            "letra": "D",
+            "texto": "Se cometido com o fim de obter vantagem econômica, tem a pena de reclusão aumentada de metade."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O art. 215 pune quem tem conjunção carnal ou pratica outro ato libidinoso com alguém mediante fraude ou outro meio que impeça ou dificulte a livre manifestação de vontade da vítima. A pena é de reclusão de 2 a 6 anos, e, se houver fim de obter vantagem econômica, aplica-se também multa. Análise das alternativas: A) Errada: violência ou grave ameaça caracterizam o estupro (art. 213), não a violação mediante fraude. B) Correta: reproduz o tipo e a pena do art. 215. C) Errada: a pena é de reclusão de 2 a 6 anos; detenção de 1 a 2 anos é a pena do assédio sexual. D) Errada: o fim de vantagem econômica gera a aplicação cumulativa de multa, e não aumento de metade. Fundamento: CP, art. 215, caput e parágrafo único.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 883,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Dignidade Sexual",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-dignidade-sexual.md",
+      "atual": {
+        "enunciado": "Agente que, sem autorização dos participantes, filma cena de nudez de caráter íntimo e privado, mas não divulga o material, pratica, segundo o Código Penal:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "divulgação de cena de sexo ou nudez (art. 218-C), punida com reclusão de 4 a 10 anos e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "registro não autorizado da intimidade sexual (art. 216-B), com detenção de 6 meses a 1 ano e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "importunação sexual (art. 215-A), punida com reclusão de 1 a 5 anos, se não houver crime mais grave."
+          },
+          {
+            "letra": "D",
+            "texto": "registro não autorizado da intimidade sexual (art. 216-B), punido com reclusão de 2 a 6 anos."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O art. 216-B pune quem produz, fotografa, filma ou registra, por qualquer meio, conteúdo com cena de nudez ou ato sexual ou libidinoso de caráter íntimo e privado sem autorização dos participantes. A pena é de detenção de 6 meses a 1 ano, e multa. Análise das alternativas: A) Errada: o art. 218-C exige divulgação, oferta, transmissão ou conduta semelhante, o que não ocorreu. B) Correta: o simples registro não autorizado configura o art. 216-B. C) Errada: a importunação exige a prática de ato libidinoso contra alguém, e não o registro de cena. D) Errada: a pena do art. 216-B é de detenção de 6 meses a 1 ano e multa; 2 a 6 anos é a pena do art. 215. Fundamento: CP, art. 216-B, caput.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 887,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Dignidade Sexual",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-dignidade-sexual.md",
+      "atual": {
+        "enunciado": "No estupro de vulnerável, se da conduta resulta lesão corporal de natureza grave ou se resulta morte, as penas previstas no Código Penal, com a redação da Lei nº 15.280/2025, são, respectivamente:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "reclusão de 8 a 12 anos; e reclusão de 12 a 30 anos."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão de 12 a 24 anos, e multa; e reclusão de 20 a 40 anos, e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "reclusão de 10 a 20 anos; e reclusão de 12 a 30 anos, e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "reclusão de 12 a 20 anos, e multa; e reclusão de 20 a 30 anos, e multa."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "Com a Lei nº 15.280/2025, o estupro de vulnerável qualificado por lesão grave passou a ter pena de reclusão de 12 a 24 anos e multa (§ 3º), e o qualificado pela morte, reclusão de 20 a 40 anos e multa (§ 4º). Análise das alternativas: A) Errada: são as penas do estupro comum qualificado (art. 213, §§ 1º e 2º). B) Correta: corresponde aos §§ 3º e 4º do art. 217-A. C) Errada: as faixas não correspondem a nenhum dos parágrafos, e a multa é cumulada em ambos. D) Errada: os máximos são 24 e 40 anos, e não 20 e 30. Fundamento: CP, art. 217-A, §§ 3º e 4º.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 888,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Dignidade Sexual",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-dignidade-sexual.md",
+      "atual": {
+        "enunciado": "Um homem publica em rede social, sem o consentimento da vítima, um vídeo que contém cena de nudez dela. Ele nunca manteve relação afetiva com a vítima e não agiu por vingança ou humilhação. Se o fato não constituir crime mais grave, ele responde por:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "registro não autorizado da intimidade sexual (art. 216-B), com detenção de 6 meses a 1 ano e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "importunação sexual (art. 215-A), com pena de reclusão de 1 a 5 anos."
+          },
+          {
+            "letra": "C",
+            "texto": "divulgação de cena de sexo, nudez ou pornografia (art. 218-C), com reclusão de 4 a 10 anos e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "divulgação de cena de sexo, nudez ou pornografia (art. 218-C), com reclusão de 1 a 5 anos e multa."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O art. 218-C pune, entre outras condutas, publicar ou divulgar, por qualquer meio, registro audiovisual que contenha, sem o consentimento da vítima, cena de sexo, nudez ou pornografia. Com a Lei nº 15.280/2025, a pena passou a ser de reclusão de 4 a 10 anos e multa, se o fato não constitui crime mais grave. Análise das alternativas: A) Errada: o art. 216-B pune o registro, e o caso narra a divulgação. B) Errada: não houve ato libidinoso praticado contra a vítima. C) Correta: tipo e pena atuais do art. 218-C. D) Errada: 1 a 5 anos era a pena anterior à alteração legislativa. Fundamento: CP, art. 218-C, caput.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 894,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Dignidade Sexual",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-dignidade-sexual.md",
+      "atual": {
+        "enunciado": "Nos crimes previstos no Título VI do Código Penal, as frações de aumento do art. 234-A para os casos em que do crime resulta gravidez e em que o agente transmite à vítima doença sexualmente transmissível de que sabe ou deveria saber ser portador são, respectivamente:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "de 1/3 a 2/3; e de metade a 2/3."
+          },
+          {
+            "letra": "B",
+            "texto": "de metade; e de quarta parte."
+          },
+          {
+            "letra": "C",
+            "texto": "de metade a 2/3; e de 1/3 a 2/3."
+          },
+          {
+            "letra": "D",
+            "texto": "de 1/6 a 1/3; e de 1/3 a 2/3."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O art. 234-A aumenta a pena de metade a 2/3 se do crime resulta gravidez (inciso III) e de 1/3 a 2/3 se o agente transmite à vítima doença sexualmente transmissível de que sabe ou deveria saber ser portador, ou se a vítima é idosa ou pessoa com deficiência (inciso IV). Análise das alternativas: A) Errada: inverte as frações dos incisos III e IV. B) Errada: metade e quarta parte são frações do art. 226, II e I. C) Correta: corresponde aos incisos III e IV do art. 234-A. D) Errada: 1/6 a 1/3 não é fração prevista para a gravidez. Fundamento: CP, art. 234-A, III e IV.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 925,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Crimes Hediondos",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--crimes-hediondos.md",
+      "atual": {
+        "enunciado": "Integrante de associação voltada à prática de extorsões mediante sequestro comparece à delegacia e denuncia o grupo à autoridade, fornecendo informações que possibilitam o seu desmantelamento. Conforme o parágrafo único do art. 8º da Lei nº 8.072/1990, esse associado:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "terá a pena reduzida de um a dois terços, por ter possibilitado o desmantelamento."
+          },
+          {
+            "letra": "B",
+            "texto": "terá extinta a punibilidade, por ter colaborado de forma eficaz com a investigação."
+          },
+          {
+            "letra": "C",
+            "texto": "terá a pena reduzida de um sexto a um terço, desde que seja primário."
+          },
+          {
+            "letra": "D",
+            "texto": "terá direito ao perdão judicial, desde que confesse a participação no grupo."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O parágrafo único do art. 8º prevê causa de diminuição de pena para o participante ou associado que denunciar o grupo à autoridade, possibilitando seu desmantelamento: redução de um a dois terços. Análise das alternativas: A) Correta: reproduz a consequência e o requisito legal. B) Errada: a lei prevê redução de pena, não extinção da punibilidade. C) Errada: a fração é de um a dois terços e não há exigência de primariedade. D) Errada: não há previsão de perdão judicial nesse dispositivo. Fundamento: art. 8º, parágrafo único, da Lei nº 8.072/1990.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1023,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Lei de Tortura",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--lei-de-tortura.md",
+      "atual": {
+        "enunciado": "O corregedor de uma guarda municipal toma conhecimento, dias depois do fato, de que guardas torturaram um detido e, embora tenha o dever funcional de apurar o ocorrido, deixa deliberadamente de instaurar qualquer procedimento. Segundo a Lei nº 9.455/1997, o corregedor:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "não comete crime da lei, pois a omissão só é punida quando o agente podia evitar a tortura enquanto ocorria."
+          },
+          {
+            "letra": "B",
+            "texto": "responde pela tortura comissiva, com pena de reclusão de dois a oito anos, por ter dever funcional."
+          },
+          {
+            "letra": "C",
+            "texto": "responde por tortura com aumento de um sexto a um terço, por ser agente público, sem distinção da omissão."
+          },
+          {
+            "letra": "D",
+            "texto": "responde pela omissão do § 2º, que alcança quem tinha o dever de evitar ou de apurar as condutas."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "A omissão do § 2º tem duas vertentes: quem tinha o dever de evitar a tortura e quem tinha o dever de apurá-la. Assim, a omissão posterior ao fato, por quem deveria investigá-lo, também é crime, com pena de detenção de um a quatro anos. Análise das alternativas: A) Errada: o § 2º menciona expressamente o dever de \"apurá-las\", que é posterior à conduta. B) Errada: o omitente tem tipo e pena próprios, não responde pela forma comissiva. C) Errada: a lei trata a omissão de modo autônomo no § 2º; a alternativa ignora essa figura. D) Correta: reproduz a hipótese do dever de apurar. Fundamento: Lei nº 9.455/1997, art. 1º, § 2º.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1027,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Lei de Tortura",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--lei-de-tortura.md",
+      "atual": {
+        "enunciado": "As causas de aumento previstas no art. 1º, § 4º, da Lei nº 9.455/1997 elevam a pena:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "de um terço até a metade."
+          },
+          {
+            "letra": "B",
+            "texto": "de um sexto até a metade."
+          },
+          {
+            "letra": "C",
+            "texto": "de metade."
+          },
+          {
+            "letra": "D",
+            "texto": "de um sexto a um terço."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O § 4º prevê aumento de um sexto até um terço quando o crime é cometido por agente público, contra criança, gestante, portador de deficiência, adolescente ou maior de 60 anos, ou mediante sequestro. Análise das alternativas: A) Errada: a fração mínima é um sexto e a máxima, um terço. B) Errada: o teto é um terço, não a metade. C) Errada: a lei prevê intervalo variável, não fração fixa. D) Correta: reproduz o § 4º. Fundamento: Lei nº 9.455/1997, art. 1º, § 4º. MACETE DO RICCARDO: tortura aumenta \"de 6 em 3\": de um sexto a um terço.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    }
+  ]
+}

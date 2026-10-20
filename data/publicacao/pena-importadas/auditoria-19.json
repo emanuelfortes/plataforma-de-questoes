@@ -1,0 +1,52 @@
+{
+  "auditorias": [
+    {
+      "id": 2751,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C. O art. 270, § 1º, do CP sujeita à mesma pena do envenenamento quem tem em depósito, para o fim de ser distribuída, a água envenenada, sem exigir que o agente tenha envenenado. O art. 271 descreve corromper ou poluir (não há veneno nem depósito), o art. 278 é residual diante do tipo específico, a tese de mera participação contraria a conduta autônoma do § 1º e a tese de atipicidade contraria o texto. Alternativas não giram em torno de pena. Gabarito, fundamento e comentário conferidos no texto fornecido.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2753,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: A. O art. 273, § 1º, pune quem entrega a consumo produto terapêutico adulterado e o § 2º prevê a modalidade culposa; a negligência na conferência do estoque caracteriza culpa. B contraria o § 2º; C erra ao tratar o art. 278 (residual) como absorvente; D exige desacordo com receita (art. 280), afastado pelo enunciado. Única correta, sem cobrança de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2754,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: B. O texto fornecido traz o art. 282 com a redação da Lei nº 15.425/2026: o caput pune o exercício ainda que a título gratuito, o § 1º acrescenta multa se houver fim de lucro e o § 5º equipara ao caput quem exerce a profissão durante a suspensão do registro. A, C e E contrariam o caput e o § 5º; D (curandeirismo) não se aplica a quem exerce a própria profissão de médico, enquadrada no art. 282. Alternativas sem pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2755,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C. O art. 283 pune inculcar ou anunciar cura por meio secreto ou infalível; o simples anúncio basta. O curandeirismo (art. 284) exige exercer práticas (prescrever, aplicar, usar gestos ou palavras, diagnosticar), o que o enunciado não descreve; o art. 282 exige exercer a profissão; E acrescenta requisitos (atendimento e pagamento) inexistentes no tipo. Única correta, alternativas sem pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2821,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: B. O art. 3º da Lei nº 13.260/2016 tem os núcleos promover, constituir, integrar ou prestar auxílio, pessoalmente ou por interposta pessoa, a organização terrorista. A exclui o auxílio (contraria o texto); C cria exigência de ato de terrorismo já praticado, inexistente no tipo; D contraria o art. 11 (Polícia Federal e Justiça Federal). Alternativas sem pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2824,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: A. O art. 6º pune receber e manter em depósito recursos ou valores de qualquer natureza para o planejamento, a preparação ou a execução dos crimes da lei; é tipo autônomo, não depende do início do atentado nem da origem ilícita dos recursos. B, C e D contrariam o texto do art. 6º. Alternativas sem pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2825,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: A. O art. 7º se aplica a qualquer crime da lei do qual resulte lesão corporal grave ou morte, salvo quando o resultado for elementar. B restringe ao art. 2º; C inclui lesão leve e ignora a ressalva; D cria exclusão inexistente. As alternativas cobram as hipóteses e o alcance da majorante, não as frações de aumento.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2828,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: D. O art. 299 do Código Eleitoral pune oferecer vantagem para obter voto, ainda que a oferta não seja aceita, consumando-se com a oferta. A contraria a parte final do art. 299; B confunde com o art. 301, que exige violência ou grave ameaça; C confunde com o art. 300, próprio do servidor público que se vale da autoridade. Alternativas sem pena ou dias-multa.",
+      "correcao_sugerida": null
+    }
+  ]
+}

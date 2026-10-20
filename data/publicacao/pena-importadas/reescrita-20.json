@@ -1,0 +1,174 @@
+{
+  "itens": [
+    {
+      "id": 2829,
+      "enunciado": "Sobre os crimes relativos ao alistamento eleitoral previstos no Código Eleitoral (Lei nº 4.737/1965), assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "Quem induz outra pessoa a se inscrever eleitor com infração ao Código responde só como partícipe do art. 289, por falta de tipo autônomo." },
+        { "letra": "B", "texto": "A autoridade judiciária que nega a inscrição requerida comete o crime do art. 292, ainda que a recusa tenha fundamento legal." },
+        { "letra": "C", "texto": "O eleitor que se inscreve fraudulentamente comete o crime do art. 289, e o juiz que efetua fraudulentamente a inscrição responde pelo art. 291." },
+        { "letra": "D", "texto": "Reter o título eleitoral contra a vontade do eleitor configura o crime de perturbar ou impedir o alistamento, previsto no art. 293." }
+      ],
+      "gabarito": "C",
+      "comentario": "O Código Eleitoral separa as condutas ligadas ao alistamento em tipos próprios. Inscrever-se fraudulentamente eleitor é o crime do art. 289; quando é o juiz quem efetua, fraudulentamente, a inscrição de alistando, o crime é o do art. 291. Induzir alguém a se inscrever com infração ao Código tem tipo autônomo no art. 290, negar ou retardar a inscrição sem fundamento legal está no art. 292, e reter título contra a vontade do eleitor está no art. 295. Fundamento: arts. 289 a 295 da Lei nº 4.737/1965.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Induzir alguém a se inscrever eleitor com infração a qualquer dispositivo do Código é crime autônomo, previsto no art. 290." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 292 exige que a autoridade judiciária negue ou retarde a inscrição sem fundamento legal; a recusa fundamentada não é crime." },
+        { "letra": "C", "correta": true, "justificativa": "O art. 289 pune quem se inscreve fraudulentamente eleitor, e o art. 291 pune o juiz que efetua fraudulentamente a inscrição de alistando." },
+        { "letra": "D", "correta": false, "justificativa": "Reter título eleitoral contra a vontade do eleitor tem tipo próprio no art. 295; o art. 293 trata de perturbar ou impedir o alistamento." }
+      ],
+      "fundamento_legal": "Lei nº 4.737/1965 (Código Eleitoral), arts. 289, 290, 291, 292, 293 e 295",
+      "pegadinha": "Achar que a indução à inscrição irregular não tem tipo próprio, esquecer que o art. 292 exige recusa sem fundamento legal e confundir a retenção de título com a perturbação do alistamento.",
+      "o_que_mudou": "A questão deixou de pedir a pena do art. 289; agora cobra quem comete cada crime do alistamento (eleitor, quem induz, juiz) e a diferença entre os tipos dos arts. 289 a 295."
+    },
+    {
+      "id": 2832,
+      "enunciado": "Um servidor público municipal, valendo-se da autoridade do cargo, coage subordinados a votar em determinado candidato a prefeito, sem empregar violência ou grave ameaça. Pelo Código Eleitoral (Lei nº 4.737/1965), o servidor:",
+      "alternativas": [
+        { "letra": "A", "texto": "comete o crime do art. 301, pois a coação para votar em determinado candidato basta para esse tipo, mesmo sem violência ou grave ameaça." },
+        { "letra": "B", "texto": "comete o crime do art. 300, e, se fosse membro ou funcionário da Justiça Eleitoral e se prevalecesse do cargo, a pena seria agravada." },
+        { "letra": "C", "texto": "não comete crime eleitoral, pois o Código só pune a coação ao voto quando praticada por membro ou funcionário da Justiça Eleitoral." },
+        { "letra": "D", "texto": "comete o crime do art. 300, mas a ação penal depende de representação dos subordinados coagidos, por serem eles as vítimas diretas." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 300 do Código Eleitoral pune o servidor público que se vale de sua autoridade para coagir alguém a votar ou não votar em determinado candidato ou partido. Não se exige violência nem grave ameaça: quando elas existem, o crime passa a ser o do art. 301. O parágrafo único agrava a pena se o agente é membro ou funcionário da Justiça Eleitoral e se prevalece do cargo. Todas as infrações do Código são de ação pública (art. 355). Fundamento: arts. 300, 301 e 355 da Lei nº 4.737/1965.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 301 exige o uso de violência ou grave ameaça; sem elas, a coação pelo servidor que usa sua autoridade é a do art. 300." },
+        { "letra": "B", "correta": true, "justificativa": "O caso se encaixa no art. 300, e o parágrafo único prevê agravamento quando o agente é membro ou funcionário da Justiça Eleitoral e se prevalece do cargo." },
+        { "letra": "C", "correta": false, "justificativa": "O caput do art. 300 alcança qualquer servidor público; ser da Justiça Eleitoral é só hipótese de agravamento (parágrafo único)." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 355 diz que as infrações penais definidas no Código Eleitoral são de ação pública; não há exigência de representação." }
+      ],
+      "fundamento_legal": "Lei nº 4.737/1965 (Código Eleitoral), arts. 300, caput e parágrafo único, 301 e 355",
+      "pegadinha": "Confundir a coação pelo servidor que usa sua autoridade (art. 300) com a coação mediante violência ou grave ameaça (art. 301) e achar que o crime eleitoral depende de representação.",
+      "o_que_mudou": "A questão deixou de pedir a pena do art. 300; agora cobra a diferença entre os arts. 300 e 301, a hipótese de agravamento do parágrafo único e a ação penal pública."
+    },
+    {
+      "id": 2833,
+      "enunciado": "Integrantes de grupo armado ameaçam gravemente moradores de uma comunidade para que votem em certo candidato a vereador. Apurado o resultado, constata-se que a maioria dos moradores votou em outros candidatos. Pelo Código Eleitoral (Lei nº 4.737/1965), os autores:",
+      "alternativas": [
+        { "letra": "A", "texto": "cometem apenas tentativa do crime do art. 301, já que os moradores não votaram no candidato indicado pelos agentes." },
+        { "letra": "B", "texto": "cometem o crime do art. 300, que pune a coação a votar em determinado candidato, qualquer que seja o autor da coação." },
+        { "letra": "C", "texto": "cometem o crime do art. 297, pois a coação ao voto mediante grave ameaça não tem tipo próprio no Código Eleitoral." },
+        { "letra": "D", "texto": "cometem o crime consumado do art. 301, pois esse tipo se perfaz ainda que os fins visados pelos agentes não sejam conseguidos." }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 301 pune quem usa de violência ou grave ameaça para coagir alguém a votar, ou não votar, em determinado candidato ou partido, 'ainda que os fins visados não sejam conseguidos'. É crime formal: basta a coação mediante violência ou grave ameaça, e o resultado da votação não interfere na consumação. O art. 300 é próprio do servidor público que se vale da sua autoridade, e o art. 297 é tipo genérico de impedir ou embaraçar o sufrágio. Fundamento: art. 301 da Lei nº 4.737/1965.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 301 diz expressamente 'ainda que os fins visados não sejam conseguidos'; o crime está consumado, e não tentado." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 300 exige que o autor seja servidor público e se valha da sua autoridade; aqui são particulares que usaram grave ameaça." },
+        { "letra": "C", "correta": false, "justificativa": "A coação mediante violência ou grave ameaça para votar em determinado candidato tem tipo próprio no art. 301, que prevalece sobre o art. 297." },
+        { "letra": "D", "correta": true, "justificativa": "O art. 301 prevê a consumação mesmo sem o alcance dos fins visados, e houve grave ameaça para coagir o voto." }
+      ],
+      "fundamento_legal": "Lei nº 4.737/1965 (Código Eleitoral), art. 301",
+      "pegadinha": "Achar que, como os moradores votaram em outros candidatos, o crime ficou na tentativa.",
+      "o_que_mudou": "As alternativas deixaram de trazer a pena de cada artigo; agora cobram só a tipificação (arts. 297, 300 e 301) e a consumação do crime formal."
+    },
+    {
+      "id": 2835,
+      "enunciado": "No dia da eleição, um agente, fora de situação de flagrante delito, prende um fiscal de partido que estava no exercício de suas funções junto a uma seção eleitoral. Pelo Código Eleitoral (Lei nº 4.737/1965):",
+      "alternativas": [
+        { "letra": "A", "texto": "a conduta é atípica, pois a proteção contra a prisão no período eleitoral prevista no art. 236 alcança apenas o eleitor." },
+        { "letra": "B", "texto": "a conduta configura o crime de impedir ou embaraçar o sufrágio (art. 297), pois o art. 298 protege apenas o candidato." },
+        { "letra": "C", "texto": "a conduta configura o crime do art. 298, pois o fiscal, durante o exercício das funções, só pode ser preso em flagrante delito." },
+        { "letra": "D", "texto": "a conduta só é crime se o fiscal também for candidato, cuja garantia contra a prisão começa quinze dias antes da eleição." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 298 pune quem prende ou detém eleitor, membro de mesa receptora, fiscal, delegado de partido ou candidato com violação do disposto no art. 236. Pelo § 1º do art. 236, os membros das mesas receptoras e os fiscais de partido, durante o exercício de suas funções, não podem ser detidos ou presos, salvo em flagrante delito. Como o fiscal estava em função e não havia flagrante, a prisão viola o art. 236 e configura o crime do art. 298. Fundamento: arts. 236, § 1º, e 298 da Lei nº 4.737/1965.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O § 1º do art. 236 estende a garantia aos membros das mesas receptoras e aos fiscais de partido, e o art. 298 menciona expressamente o fiscal." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 298 protege eleitor, membro de mesa receptora, fiscal, delegado de partido e candidato, e é o tipo específico da prisão ilegal." },
+        { "letra": "C", "correta": true, "justificativa": "O fiscal em exercício só pode ser preso em flagrante (art. 236, § 1º); a prisão fora dessa hipótese configura o crime do art. 298." },
+        { "letra": "D", "correta": false, "justificativa": "O fiscal tem garantia própria durante o exercício das funções; a regra dos quinze dias antes da eleição é a do candidato e não é exigida aqui." }
+      ],
+      "fundamento_legal": "Lei nº 4.737/1965 (Código Eleitoral), arts. 236, § 1º, e 298",
+      "pegadinha": "Achar que a garantia contra a prisão no período eleitoral vale só para o eleitor ou só para o candidato, esquecendo os fiscais e os membros de mesa.",
+      "o_que_mudou": "A questão deixou de pedir a pena do art. 298; agora cobra quem é protegido pelo tipo, a exceção do flagrante delito e a ligação com o art. 236."
+    },
+    {
+      "id": 2836,
+      "enunciado": "Um juiz recebe o auto de prisão em flagrante de um investigado e verifica que a prisão é manifestamente ilegal. Ainda assim, por mero capricho, deixa de relaxá-la dentro de prazo razoável. À luz da Lei nº 13.869/2019, a omissão do magistrado:",
+      "alternativas": [
+        { "letra": "A", "texto": "configura crime, pois a lei também pune a autoridade judiciária que, em prazo razoável, deixa de relaxar prisão manifestamente ilegal." },
+        { "letra": "B", "texto": "configura o crime de deixar de comunicar a prisão em flagrante à autoridade judiciária no prazo legal, previsto no art. 12 da lei." },
+        { "letra": "C", "texto": "não configura crime, pois o tipo pune apenas a conduta comissiva de decretar a prisão, e não a omissão em relaxá-la." },
+        { "letra": "D", "texto": "configura crime apenas se houver habeas corpus impetrado, pois o tipo se limita ao indeferimento da ordem." }
+      ],
+      "gabarito": "A",
+      "comentario": "O art. 9º pune quem decreta medida de privação da liberdade em manifesta desconformidade com as hipóteses legais. O parágrafo único alcança também a autoridade judiciária que, dentro de prazo razoável, deixa de relaxar a prisão manifestamente ilegal (inciso I), de substituir a preventiva ou conceder liberdade provisória quando manifestamente cabível (inciso II) ou de deferir liminar ou ordem de habeas corpus quando manifestamente cabível (inciso III). Como o juiz agiu por mero capricho, está presente a finalidade específica do art. 1º, § 1º. Fundamento: art. 9º, parágrafo único, I, da Lei nº 13.869/2019.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "O parágrafo único, I, do art. 9º tipifica a omissão da autoridade judiciária que deixa de relaxar, em prazo razoável, prisão manifestamente ilegal." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 12 pune quem deixa de comunicar o flagrante ao juiz; aqui o juiz já recebeu o auto, e a conduta é a do art. 9º, parágrafo único, I." },
+        { "letra": "C", "correta": false, "justificativa": "O parágrafo único do art. 9º tipifica expressamente a omissão de relaxar a prisão manifestamente ilegal." },
+        { "letra": "D", "correta": false, "justificativa": "Deixar de deferir habeas corpus é só uma das hipóteses (inciso III); o inciso I pune de forma autônoma a falta de relaxamento." }
+      ],
+      "fundamento_legal": "Lei nº 13.869/2019, art. 9º, caput e parágrafo único, I; art. 1º, § 1º",
+      "pegadinha": "Achar que o art. 9º só pune quem decreta a prisão, esquecendo as omissões do parágrafo único, ou confundir com a falta de comunicação do flagrante (art. 12).",
+      "o_que_mudou": "As alternativas deixaram de comparar penas; agora cobram a hipótese omissiva do art. 9º, parágrafo único, e a diferença para o crime do art. 12."
+    },
+    {
+      "id": 2843,
+      "enunciado": "Um preso redige pedido ao juiz questionando a legalidade de sua prisão. O carcereiro, sem justificativa e por mero capricho, retém o documento por semanas. Depois, o pedido chega a um juiz que, não sendo competente para decidir sobre a prisão e por satisfação pessoal, deixa de enviá-lo à autoridade competente e o arquiva. Conforme a Lei nº 13.869/2019:",
+      "alternativas": [
+        { "letra": "A", "texto": "apenas o carcereiro comete crime, pois o magistrado não responde por abuso de autoridade omissivo." },
+        { "letra": "B", "texto": "o carcereiro comete o crime do art. 19, e o juiz responde só disciplinarmente, por falta de tipo para a omissão." },
+        { "letra": "C", "texto": "carcereiro e magistrado incorrem no art. 19: o primeiro pelo caput e o segundo pelo parágrafo único." },
+        { "letra": "D", "texto": "apenas o magistrado comete crime, pois a retenção do pedido por servidor é mera irregularidade." },
+        { "letra": "E", "texto": "nenhum deles comete crime, pois o tipo exige pedido sobre a custódia, e não sobre a legalidade da prisão." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 19 pune quem impede ou retarda, injustificadamente, o envio de pleito do preso à autoridade judiciária competente para apreciar a legalidade da prisão ou as circunstâncias da custódia. O parágrafo único alcança o magistrado que, ciente do impedimento ou da demora, não toma providências para saná-lo, ou que, não sendo competente para decidir sobre a prisão, deixa de enviar o pedido à autoridade judiciária que o seja. O carcereiro responde pelo caput, e o juiz, pelo parágrafo único, porque ambos agiram com a finalidade específica exigida pelo art. 1º, § 1º (mero capricho ou satisfação pessoal), sem a qual não há crime de abuso de autoridade. Fundamento: art. 1º, § 1º, e art. 19, caput e parágrafo único, da Lei nº 13.869/2019.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O parágrafo único do art. 19 pune expressamente a omissão do magistrado que não remete o pedido ao juiz competente." },
+        { "letra": "B", "correta": false, "justificativa": "Há tipo para a omissão do juiz: o parágrafo único do art. 19 o alcança quando, incompetente, deixa de enviar o pedido." },
+        { "letra": "C", "correta": true, "justificativa": "O caput do art. 19 alcança o carcereiro que retarda o envio, e o parágrafo único, o magistrado incompetente que não remete o pedido." },
+        { "letra": "D", "correta": false, "justificativa": "Retardar injustificadamente o envio do pleito do preso é o núcleo do caput do art. 19." },
+        { "letra": "E", "correta": false, "justificativa": "O art. 19 abrange pleito sobre a legalidade da prisão ou sobre as circunstâncias da custódia." }
+      ],
+      "fundamento_legal": "Lei nº 13.869/2019, art. 1º, § 1º, e art. 19, caput e parágrafo único",
+      "pegadinha": "Esquecer que o parágrafo único do art. 19 pune a omissão do magistrado incompetente que não remete o pedido do preso.",
+      "o_que_mudou": "As alternativas deixaram de trazer faixas de pena; agora cobram quem responde pelo caput e quem responde pelo parágrafo único do art. 19. O enunciado passou a trazer a finalidade específica dos dois agentes (mero capricho e satisfação pessoal), e o comentário cita o art. 1º, § 1º."
+    },
+    {
+      "id": 2851,
+      "enunciado": "Em julgamento de órgão colegiado, um desembargador pede vista do processo e demora demasiada e injustificadamente para devolvê-lo, com o intuito de retardar o julgamento. Pela Lei nº 13.869/2019:",
+      "alternativas": [
+        { "letra": "A", "texto": "há crime somente se a demora provocar a prescrição da pretensão punitiva no processo retido." },
+        { "letra": "B", "texto": "não há crime, pois o pedido de vista é prerrogativa protegida pela independência funcional." },
+        { "letra": "C", "texto": "há crime somente se o pedido de vista ocorrer em processo criminal de réu que esteja preso." },
+        { "letra": "D", "texto": "há crime, pois a demora demasiada e injustificada visava retardar o julgamento do processo." }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 37 pune quem demora demasiada e injustificadamente no exame de processo de que tenha requerido vista em órgão colegiado, com o intuito de procrastinar seu andamento ou retardar o julgamento. O tipo não exige resultado (como a prescrição) nem que o processo seja de réu preso; basta a demora demasiada e injustificada com essa finalidade. Fundamento: art. 37 da Lei nº 13.869/2019.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 37 não exige resultado como a prescrição; basta a demora com o intuito de procrastinar ou retardar o julgamento." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 37 tipifica a demora demasiada e injustificada no exame de processo com vista; a prerrogativa não cobre o abuso." },
+        { "letra": "C", "correta": false, "justificativa": "A lei não exige que o processo seja criminal nem que envolva réu preso." },
+        { "letra": "D", "correta": true, "justificativa": "Estão presentes os elementos do art. 37: vista em órgão colegiado, demora demasiada e injustificada e intuito de retardar o julgamento." }
+      ],
+      "fundamento_legal": "Lei nº 13.869/2019, art. 37",
+      "pegadinha": "Achar que o crime exige um resultado concreto ou um processo de réu preso.",
+      "o_que_mudou": "As alternativas deixaram de comparar penas; agora cobram os elementos do art. 37 (demora demasiada e injustificada, intuito de procrastinar) e afastam requisitos que a lei não exige."
+    },
+    {
+      "id": 2855,
+      "enunciado": "A Lei nº 13.869/2019 deu nova redação ao art. 10 da Lei nº 9.296/1996, que trata da interceptação de comunicações. Segundo esse texto:",
+      "alternativas": [
+        { "letra": "A", "texto": "é crime promover escuta ambiental sem autorização judicial, conduta incluída no tipo ao lado da interceptação." },
+        { "letra": "B", "texto": "não há crime na interceptação autorizada pelo juiz, ainda que realizada com objetivo não autorizado em lei." },
+        { "letra": "C", "texto": "o juiz que determina interceptação com objetivo não autorizado em lei responde só administrativamente." },
+        { "letra": "D", "texto": "a escuta ambiental sem autorização judicial é atípica, pois o tipo alcança só comunicações telefônicas." }
+      ],
+      "gabarito": "A",
+      "comentario": "O art. 41 da Lei nº 13.869/2019 reescreveu o art. 10 da Lei nº 9.296/1996: constitui crime realizar interceptação de comunicações telefônicas, de informática ou telemática, promover escuta ambiental ou quebrar segredo da Justiça, sem autorização judicial ou com objetivos não autorizados em lei. O parágrafo único aplica a mesma punição à autoridade judicial que determina a execução dessas condutas com objetivo não autorizado em lei. Fundamento: art. 41 da Lei nº 13.869/2019 (art. 10 da Lei nº 9.296/1996).",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "O novo art. 10 inclui expressamente a conduta de promover escuta ambiental sem autorização judicial." },
+        { "letra": "B", "correta": false, "justificativa": "O tipo também alcança a interceptação feita com objetivos não autorizados em lei, ainda que haja autorização." },
+        { "letra": "C", "correta": false, "justificativa": "O parágrafo único do novo art. 10 pune também a autoridade judicial que determina a conduta com objetivo não autorizado em lei." },
+        { "letra": "D", "correta": false, "justificativa": "O tipo abrange comunicações telefônicas, de informática ou telemática e a escuta ambiental." }
+      ],
+      "fundamento_legal": "Lei nº 13.869/2019, art. 41 (nova redação do art. 10 da Lei nº 9.296/1996)",
+      "pegadinha": "Achar que basta haver autorização judicial para afastar o crime, esquecendo a hipótese de objetivo não autorizado em lei.",
+      "o_que_mudou": "As alternativas deixaram de trazer a pena do novo art. 10; agora cobram as condutas do tipo (escuta ambiental, objetivo não autorizado) e a punição da autoridade judicial."
+    }
+  ]
+}

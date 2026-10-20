@@ -1,0 +1,176 @@
+{
+  "itens": [
+    {
+      "id": 1765,
+      "enunciado": "João é autor de crime de menor potencial ofensivo de ação penal pública incondicionada, e não é caso de arquivamento. Assinale a situação que, comprovada, IMPEDE a proposta de transação penal, nos termos da Lei nº 9.099/1995.",
+      "alternativas": [
+        { "letra": "A", "texto": "João já foi condenado, por sentença definitiva, pela prática de crime anterior, somente ao pagamento de multa." },
+        { "letra": "B", "texto": "João foi beneficiado com transação penal há três anos, por outra infração de menor potencial ofensivo." },
+        { "letra": "C", "texto": "João foi beneficiado com transação penal há seis anos, por outra infração de menor potencial ofensivo." },
+        { "letra": "D", "texto": "João responde a outro processo criminal, ainda sem sentença, por infração de menor potencial ofensivo." },
+        { "letra": "E", "texto": "João já foi condenado, por sentença definitiva, a prisão simples pela prática de contravenção penal." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 76, § 2º, da Lei nº 9.099/1995 não admite a proposta de transação quando ficar comprovado que o autor já foi condenado, pela prática de crime, a pena privativa de liberdade, por sentença definitiva (inciso I); que foi beneficiado anteriormente, no prazo de cinco anos, por outra transação (inciso II); ou que antecedentes, conduta social, personalidade, motivos e circunstâncias não indicam a medida (inciso III). Uma transação recebida há três anos está dentro do prazo de cinco anos e impede o novo benefício. Fundamento: art. 76, § 2º, e § 4º, da Lei nº 9.099/1995.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Errada: o inciso I exige condenação definitiva a pena privativa de liberdade; a condenação só à multa não impede a transação." },
+        { "letra": "B", "correta": true, "justificativa": "Correta: o benefício anterior dentro do prazo de cinco anos impede nova transação (art. 76, § 2º, II, e § 4º)." },
+        { "letra": "C", "correta": false, "justificativa": "Errada: passados mais de cinco anos do benefício anterior, ele não impede a nova proposta." },
+        { "letra": "D", "correta": false, "justificativa": "Errada: estar sendo processado impede a suspensão condicional do processo (art. 89), não a transação penal." },
+        { "letra": "E", "correta": false, "justificativa": "Errada: o inciso I exige condenação pela prática de crime; a condenação por contravenção penal não se enquadra." }
+      ],
+      "fundamento_legal": "Lei nº 9.099/1995, art. 76, § 2º, I a III, e § 4º",
+      "pegadinha": "Confundir os impedimentos da transação penal com os da suspensão condicional do processo, que barra quem está sendo processado.",
+      "o_que_mudou": "As alternativas deixaram de usar a expressão de pena (multa e prisão simples como 'pena de') e passaram a descrever só a situação do autor; o foco continua nos impedimentos do art. 76, § 2º."
+    },
+    {
+      "id": 1800,
+      "enunciado": "O gerente de uma empresa privada, por motivo de discriminação de cor, deixa de conceder a um empregado os equipamentos necessários ao trabalho em igualdade de condições com os demais trabalhadores. À luz da Lei 7.716/1989, essa conduta:",
+      "alternativas": [
+        { "letra": "A", "texto": "não é tipificada pela Lei 7.716/1989, que pune apenas a negativa de emprego, sendo mero ilícito trabalhista." },
+        { "letra": "B", "texto": "configura o crime do art. 4º, § 2º, próprio de quem exige aparência racial em anúncios de recrutamento." },
+        { "letra": "C", "texto": "configura o crime genérico de praticar discriminação do art. 20, caput, por falta de tipo específico." },
+        { "letra": "D", "texto": "configura crime equiparado à negativa de emprego em empresa privada, previsto no art. 4º, § 1º, I." }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 4º da Lei 7.716/1989 pune quem nega ou obsta emprego em empresa privada. O § 1º, incluído pela Lei 12.288/2010, determina que incorre na mesma pena quem, por discriminação de raça ou de cor, deixa de conceder os equipamentos necessários ao empregado em igualdade de condições com os demais trabalhadores (inciso I), impede sua ascensão funcional (inciso II) ou lhe dá tratamento diferenciado, especialmente quanto ao salário (inciso III). A conduta do gerente está descrita no inciso I. Fundamento: Lei 7.716/1989, art. 4º, caput e § 1º, I.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Errada: a lei não se limita à negativa de emprego; o art. 4º, § 1º, I, prevê expressamente a recusa de equipamentos ao empregado." },
+        { "letra": "B", "correta": false, "justificativa": "Errada: o § 2º trata da exigência de aparência própria de raça ou etnia em anúncios de recrutamento, situação diversa." },
+        { "letra": "C", "correta": false, "justificativa": "Errada: há tipo específico no art. 4º, § 1º, I, que prevalece sobre a figura genérica do art. 20, caput." },
+        { "letra": "D", "correta": true, "justificativa": "Correta: o § 1º equipara à negativa de emprego a recusa discriminatória de equipamentos ao empregado (inciso I)." }
+      ],
+      "fundamento_legal": "Lei 7.716/1989, art. 4º, caput e § 1º, I",
+      "pegadinha": "Achar que a Lei 7.716/1989 só alcança a recusa de contratação, esquecendo as condutas praticadas contra quem já é empregado.",
+      "o_que_mudou": "As alternativas deixaram de comparar quantidades de pena e passaram a cobrar o enquadramento da conduta no art. 4º, § 1º, I, e a diferença para o § 2º e para o art. 20."
+    },
+    {
+      "id": 1801,
+      "enunciado": "Uma empresa publica anúncio de vaga para atendente exigindo aspectos de aparência próprios de determinada etnia, embora as atividades do cargo não justifiquem tal exigência. Segundo a Lei 7.716/1989, a conduta:",
+      "alternativas": [
+        { "letra": "A", "texto": "configura a figura do art. 4º, § 2º, que alcança quem exige aparência étnica injustificada no recrutamento." },
+        { "letra": "B", "texto": "equipara-se à negativa de emprego do art. 4º, caput, pois o anúncio já impede o acesso do candidato à vaga." },
+        { "letra": "C", "texto": "configura o crime genérico de praticar discriminação do art. 20, caput, por falta de tipo específico." },
+        { "letra": "D", "texto": "é atípica, pois a lei só pune a discriminação depois da contratação, no ambiente de trabalho." }
+      ],
+      "gabarito": "A",
+      "comentario": "O art. 4º, § 2º, da Lei 7.716/1989, incluído pela Lei 12.288/2010, alcança quem, em anúncios ou qualquer outra forma de recrutamento de trabalhadores, exige aspectos de aparência próprios de raça ou etnia para emprego cujas atividades não justifiquem essas exigências. É figura própria, com tratamento mais brando que o da negativa de emprego do caput, e se aplica exatamente ao anúncio descrito. Fundamento: Lei 7.716/1989, art. 4º, § 2º.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Correta: o anúncio que exige aparência étnica sem justificativa nas atividades do cargo está descrito no art. 4º, § 2º." },
+        { "letra": "B", "correta": false, "justificativa": "Errada: a exigência em anúncio tem previsão própria no § 2º; a equiparação à negativa de emprego é a do § 1º, para condutas contra o empregado." },
+        { "letra": "C", "correta": false, "justificativa": "Errada: há previsão específica no art. 4º, § 2º, que afasta a figura genérica do art. 20, caput." },
+        { "letra": "D", "correta": false, "justificativa": "Errada: a lei pune também condutas anteriores à contratação, como a negativa de emprego (caput) e a exigência em anúncios (§ 2º)." }
+      ],
+      "fundamento_legal": "Lei 7.716/1989, art. 4º, § 2º",
+      "pegadinha": "Enquadrar o anúncio discriminatório na negativa de emprego do caput ou no art. 20, quando há figura específica no § 2º.",
+      "o_que_mudou": "A pergunta deixou de pedir as penas aplicáveis e passou a cobrar o enquadramento do anúncio discriminatório e a diferença entre o caput, o § 1º, o § 2º do art. 4º e o art. 20."
+    },
+    {
+      "id": 1804,
+      "enunciado": "O porteiro de um edifício residencial, por motivo de cor, impede que um visitante utilize o elevador social, indicando-lhe o elevador de serviço. Conforme a Lei 7.716/1989, a conduta:",
+      "alternativas": [
+        { "letra": "A", "texto": "não configura crime previsto na lei, pois o edifício residencial não é local aberto ao público em geral." },
+        { "letra": "B", "texto": "configura o crime do art. 5º, por equiparação do edifício residencial a estabelecimento comercial." },
+        { "letra": "C", "texto": "configura o crime do art. 11, que pune impedir o acesso a entradas sociais e elevadores de edifícios." },
+        { "letra": "D", "texto": "configura apenas injúria racial do art. 2º-A, pois a conduta ofende a dignidade do visitante." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 11 da Lei 7.716/1989 pune quem impede o acesso às entradas sociais em edifícios públicos ou residenciais e elevadores ou escada de acesso aos mesmos. A lei menciona expressamente os edifícios residenciais, de modo que não importa se o local é aberto ao público. Barrar o visitante no elevador social por motivo de cor é a conduta do art. 11. A injúria racial do art. 2º-A exige ofensa à dignidade ou ao decoro de alguém, e não a simples restrição de acesso. Fundamento: Lei 7.716/1989, art. 11.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Errada: o art. 11 alcança expressamente os edifícios residenciais, sem exigir que sejam abertos ao público." },
+        { "letra": "B", "correta": false, "justificativa": "Errada: o art. 5º trata de estabelecimento comercial; o acesso a entradas sociais e elevadores tem tipo próprio no art. 11." },
+        { "letra": "C", "correta": true, "justificativa": "Correta: impedir, por motivo de cor, o uso do elevador social de edifício residencial é a conduta do art. 11." },
+        { "letra": "D", "correta": false, "justificativa": "Errada: a injúria racial exige ofensa à dignidade ou ao decoro; impedir o acesso ao elevador social é crime específico do art. 11." }
+      ],
+      "fundamento_legal": "Lei 7.716/1989, art. 11",
+      "pegadinha": "Pensar que o edifício residencial, por ser privado, fica fora da lei, quando o art. 11 o menciona expressamente.",
+      "o_que_mudou": "As alternativas deixaram de distinguir o art. 11 pela quantidade de pena e passaram a cobrar o enquadramento da conduta e a diferença para o art. 5º e para a injúria racial."
+    },
+    {
+      "id": 1806,
+      "enunciado": "Em reunião presencial de uma associação de bairro, sem qualquer gravação ou divulgação posterior, um participante incita a discriminação contra pessoas de determinada procedência nacional. Conforme a Lei 7.716/1989, a conduta:",
+      "alternativas": [
+        { "letra": "A", "texto": "configura o crime do art. 20, caput, pois incitar a discriminação por procedência nacional é conduta típica." },
+        { "letra": "B", "texto": "configura a forma do art. 20, § 2º, pois a fala em reunião equivale a publicação de qualquer natureza." },
+        { "letra": "C", "texto": "é atípica, pois o art. 20 só pune quem pratica a discriminação, e não quem apenas a incita." },
+        { "letra": "D", "texto": "configura injúria racial do art. 2º-A, pois a ofensa atinge pessoas de determinada procedência nacional." }
+      ],
+      "gabarito": "A",
+      "comentario": "O art. 20, caput, da Lei 7.716/1989 pune quem pratica, induz ou incita a discriminação ou preconceito de raça, cor, etnia, religião ou procedência nacional. Incitar já é um dos verbos do tipo. Como a fala não foi feita por meios de comunicação social, redes sociais, internet ou publicação de qualquer natureza (§ 2º), nem no contexto de atividades esportivas, religiosas, artísticas ou culturais destinadas ao público (§ 2º-A), aplica-se o caput. A injúria racial do art. 2º-A exige ofensa à dignidade ou ao decoro de alguém determinado. Fundamento: Lei 7.716/1989, art. 20, caput.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Correta: incitar a discriminação por procedência nacional é conduta do art. 20, caput, e não há meio de divulgação nem contexto que leve aos §§ 2º e 2º-A." },
+        { "letra": "B", "correta": false, "justificativa": "Errada: a fala presencial, sem gravação nem divulgação, não é meio de comunicação social nem publicação de qualquer natureza." },
+        { "letra": "C", "correta": false, "justificativa": "Errada: o art. 20 tem três verbos (praticar, induzir ou incitar), e a incitação basta para o crime." },
+        { "letra": "D", "correta": false, "justificativa": "Errada: a injúria racial exige ofensa à dignidade ou ao decoro de alguém; a incitação contra um grupo é o crime do art. 20." }
+      ],
+      "fundamento_legal": "Lei 7.716/1989, art. 20, caput e §§ 2º e 2º-A",
+      "pegadinha": "Confundir racismo (art. 20, discriminação contra grupo) com injúria racial (art. 2º-A, ofensa a pessoa determinada).",
+      "o_que_mudou": "A pergunta deixou de pedir a pena do caput e passou a cobrar o enquadramento da incitação, a diferença para o § 2º e a distinção entre racismo e injúria racial."
+    },
+    {
+      "id": 1807,
+      "enunciado": "Durante patrulhamento, uma guarnição da Guarda Municipal constata que um comerciante vende braçadeiras com a cruz suástica, para fins de divulgação do nazismo. Nos termos da Lei 7.716/1989, a conduta:",
+      "alternativas": [
+        { "letra": "A", "texto": "é atípica, pois o tipo penal alcança apenas quem fabrica os símbolos, e não quem os comercializa." },
+        { "letra": "B", "texto": "configura o crime genérico do art. 20, caput, de praticar discriminação, por falta de tipo específico." },
+        { "letra": "C", "texto": "configura o crime do art. 20, § 1º, que inclui comercializar símbolos com a suástica para divulgar o nazismo." },
+        { "letra": "D", "texto": "só configura crime se as braçadeiras forem anunciadas em redes sociais, na forma do art. 20, § 2º." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 20, § 1º, da Lei 7.716/1989 pune quem fabrica, comercializa, distribui ou veicula símbolos, emblemas, ornamentos, distintivos ou propaganda que utilizem a cruz suástica ou gamada, para fins de divulgação do nazismo. Vender as braçadeiras com essa finalidade é comercializar, um dos verbos do tipo. A divulgação por redes sociais não é exigida; ela é hipótese do § 2º. Fundamento: Lei 7.716/1989, art. 20, § 1º.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Errada: comercializar é um dos verbos nucleares do § 1º, ao lado de fabricar, distribuir e veicular." },
+        { "letra": "B", "correta": false, "justificativa": "Errada: há tipo específico no § 1º para os símbolos com a cruz suástica, que prevalece sobre o caput." },
+        { "letra": "C", "correta": true, "justificativa": "Correta: vender braçadeiras com a suástica para divulgar o nazismo é comercializar símbolo nos termos do § 1º." },
+        { "letra": "D", "correta": false, "justificativa": "Errada: o § 1º não exige divulgação em redes sociais; o § 2º trata dos crimes cometidos por meios de comunicação e publicações." }
+      ],
+      "fundamento_legal": "Lei 7.716/1989, art. 20, § 1º",
+      "pegadinha": "Achar que só o fabricante responde pelo § 1º, quando o tipo alcança também quem comercializa, distribui ou veicula.",
+      "o_que_mudou": "As alternativas deixaram de distinguir o § 1º do caput pela quantidade de pena e passaram a cobrar os verbos do tipo e a diferença para o caput e o § 2º."
+    },
+    {
+      "id": 1808,
+      "enunciado": "Em relação ao crime de discriminação cometido por meio de publicação em redes sociais (art. 20, § 2º, da Lei 7.716/1989), assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "A forma do § 2º não alcança as redes sociais, que não são mencionadas no dispositivo, valendo só o caput." },
+        { "letra": "B", "texto": "O juiz pode determinar a interdição das páginas na internet, mas somente após a instauração do inquérito policial." },
+        { "letra": "C", "texto": "A destruição do material apreendido constitui efeito da condenação, independentemente do trânsito em julgado." },
+        { "letra": "D", "texto": "Ouvido o Ministério Público ou a seu pedido, o juiz pode determinar, ainda antes do inquérito, a cessação da publicação." },
+        { "letra": "E", "texto": "As medidas do § 3º podem ser determinadas de ofício pela autoridade policial, dispensada a ordem do juiz." }
+      ],
+      "gabarito": "D",
+      "comentario": "Com a redação da Lei 14.532/2023, o § 2º do art. 20 alcança expressamente os crimes do artigo cometidos por publicação em redes sociais. O § 3º autoriza o juiz, ouvido o Ministério Público ou a pedido deste, ainda antes do inquérito policial e sob pena de desobediência, a determinar o recolhimento ou a busca e apreensão do material, a cessação das transmissões ou da publicação e a interdição das páginas na internet. O § 4º prevê a destruição do material apreendido como efeito da condenação, após o trânsito em julgado. Fundamento: Lei 7.716/1989, art. 20, §§ 2º, 3º e 4º.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Errada: desde a Lei 14.532/2023, o § 2º menciona expressamente a publicação em redes sociais." },
+        { "letra": "B", "correta": false, "justificativa": "Errada: as medidas do § 3º podem ser determinadas ainda antes do inquérito policial." },
+        { "letra": "C", "correta": false, "justificativa": "Errada: o § 4º condiciona a destruição do material ao trânsito em julgado da decisão." },
+        { "letra": "D", "correta": true, "justificativa": "Correta: reproduz o § 3º, II, que permite ao juiz, antes do inquérito, determinar a cessação da publicação." },
+        { "letra": "E", "correta": false, "justificativa": "Errada: as medidas do § 3º são determinadas pelo juiz, ouvido o Ministério Público ou a pedido dele, e não pela autoridade policial." }
+      ],
+      "fundamento_legal": "Lei 7.716/1989, art. 20, §§ 2º, 3º e 4º",
+      "pegadinha": "Achar que as medidas cautelares dependem de inquérito instaurado ou que a destruição do material ocorre antes do trânsito em julgado.",
+      "o_que_mudou": "As alternativas deixaram de citar a quantidade de pena do caput e a expressão de pena do § 3º; a questão continua cobrando o alcance do § 2º e as medidas dos §§ 3º e 4º."
+    },
+    {
+      "id": 1811,
+      "enunciado": "O art. 20-A da Lei 7.716/1989, incluído pela Lei 14.532/2023, prevê causa de aumento de pena ligada ao chamado racismo recreativo. Sobre essa causa de aumento, assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "Incide apenas na injúria racial do art. 2º-A, quando a ofensa é dita em tom de brincadeira." },
+        { "letra": "B", "texto": "Alcança os crimes da Lei 7.716/1989 cometidos em contexto ou com intuito de descontração ou diversão." },
+        { "letra": "C", "texto": "Exige que o crime seja praticado por funcionário público no exercício das funções ou a pretexto delas." },
+        { "letra": "D", "texto": "Afasta o crime quando a conduta ocorre em contexto de diversão, por faltar o dolo de discriminar." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 20-A determina o aumento das penas dos crimes previstos na Lei 7.716/1989 quando ocorrerem em contexto ou com intuito de descontração, diversão ou recreação. O dispositivo alcança os crimes da lei, sem se restringir a artigos específicos, e a intenção de brincar não exclui o crime: ao contrário, agrava a punição. O aumento ligado ao funcionário público no exercício das funções ou a pretexto de exercê-las é outro, previsto no art. 20-B e restrito aos arts. 2º-A e 20. Fundamento: Lei 7.716/1989, arts. 20-A e 20-B.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Errada: o art. 20-A alcança os crimes previstos na lei, não apenas a injúria racial do art. 2º-A." },
+        { "letra": "B", "correta": true, "justificativa": "Correta: reproduz a hipótese do art. 20-A, aplicável aos crimes da lei cometidos em contexto ou com intuito de descontração, diversão ou recreação." },
+        { "letra": "C", "correta": false, "justificativa": "Errada: a condição de funcionário público é a hipótese do art. 20-B, e não do art. 20-A." },
+        { "letra": "D", "correta": false, "justificativa": "Errada: o contexto de diversão não exclui o crime; é justamente a hipótese que aumenta a pena no art. 20-A." }
+      ],
+      "fundamento_legal": "Lei 7.716/1989, arts. 20-A e 20-B",
+      "pegadinha": "Tratar a 'piada' como excludente do crime, quando a lei a transforma em causa de aumento, e confundir o art. 20-A com o art. 20-B.",
+      "o_que_mudou": "A pergunta deixou de pedir a fração do aumento e passou a cobrar a hipótese do art. 20-A, seu alcance e a diferença para o art. 20-B."
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "itens": [
+    {
+      "id": 670,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Administração Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-administracao-publica.md",
+      "atual": {
+        "enunciado": "Um policial lotado em posto de fiscalização rodoviária, por iniciativa própria e com infração de dever funcional, deixa passar deliberadamente caminhão com mercadorias estrangeiras introduzidas no país sem o pagamento dos tributos devidos, sem solicitar nem receber vantagem. Segundo o Código Penal, a conduta do policial configura",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "corrupção passiva privilegiada, punida com detenção de três meses a um ano, ou multa, por ter deixado de agir."
+          },
+          {
+            "letra": "B",
+            "texto": "concussão, punida com reclusão de dois a doze anos, e multa, por ter obtido proveito em razão da função."
+          },
+          {
+            "letra": "C",
+            "texto": "participação no descaminho praticado pelo particular, por não haver tipo específico para o funcionário."
+          },
+          {
+            "letra": "D",
+            "texto": "facilitação de contrabando ou descaminho, crime funcional punido com reclusão de três a oito anos, e multa."
+          },
+          {
+            "letra": "E",
+            "texto": "excesso de exação, punido com reclusão de três a oito anos, e multa, por ter dispensado tributo devido."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 318 pune quem facilita, com infração de dever funcional, a prática de contrabando ou descaminho, com reclusão de três a oito anos, e multa. O funcionário responde por esse crime próprio, e não como partícipe do descaminho cometido pelo particular. Análise das alternativas: A) Errada: a forma privilegiada do art. 317, § 2º, exige que o funcionário ceda a pedido ou influência de outrem, e o policial agiu por iniciativa própria. B) Errada: concussão exige a conduta de exigir vantagem indevida, ausente no caso. C) Errada: há tipo específico para o funcionário que facilita contrabando ou descaminho, o art. 318. D) Correta: a conduta e a pena correspondem ao art. 318. E) Errada: excesso de exação exige que o funcionário exija tributo indevido ou use meio vexatório na cobrança, e não que facilite a entrada irregular de mercadoria. Fundamento: art. 318 do Código Penal.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 671,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Administração Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-administracao-publica.md",
+      "atual": {
+        "enunciado": "Um agente penitenciário percebe que um preso mantém um aparelho de telefone celular na cela, usado para se comunicar com o ambiente externo, mas deixa de cumprir seu dever de vedar esse acesso. Segundo o Código Penal, a omissão do agente",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "é atípica, pois o tipo penal aplicável alcança apenas o Diretor de Penitenciária, e não os demais agentes."
+          },
+          {
+            "letra": "B",
+            "texto": "configura violação de sigilo funcional, punida com detenção de seis meses a dois anos, ou multa, por facilitar a comunicação."
+          },
+          {
+            "letra": "C",
+            "texto": "configura condescendência criminosa, punida com detenção de quinze dias a um mês, ou multa."
+          },
+          {
+            "letra": "D",
+            "texto": "configura o crime do art. 319-A, que alcança também o agente público, punido com detenção de três meses a um ano."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 319-A pune o Diretor de Penitenciária e/ou agente público que deixa de cumprir seu dever de vedar ao preso o acesso a aparelho telefônico, de rádio ou similar que permita comunicação com outros presos ou com o ambiente externo. A pena é de detenção de três meses a um ano, sem previsão de multa. Análise das alternativas: A) Errada: o tipo alcança o Diretor de Penitenciária e/ou agente público. B) Errada: violação de sigilo funcional pressupõe revelar fato sigiloso ou facilitar acesso a sistemas da Administração; a omissão descrita tem tipo específico. C) Errada: a condescendência criminosa trata de não responsabilizar subordinado infrator. D) Correta: a omissão se amolda ao art. 319-A, com detenção de três meses a um ano. Fundamento: art. 319-A do Código Penal.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 672,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Administração Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-administracao-publica.md",
+      "atual": {
+        "enunciado": "O chefe de um setor da Guarda Municipal toma conhecimento de que um subordinado cometeu infração no exercício do cargo, mas, por indulgência, deixa de responsabilizá-lo. A conduta do chefe configura",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "violação de sigilo funcional, punida com detenção de seis meses a dois anos, ou multa."
+          },
+          {
+            "letra": "B",
+            "texto": "condescendência criminosa, punida com detenção de quinze dias a um mês, ou multa."
+          },
+          {
+            "letra": "C",
+            "texto": "advocacia administrativa, punida com detenção de um a três meses, ou multa."
+          },
+          {
+            "letra": "D",
+            "texto": "corrupção passiva privilegiada, punida com detenção de três meses a um ano, ou multa."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "A condescendência criminosa pune o funcionário que, por indulgência, deixa de responsabilizar subordinado que cometeu infração no exercício do cargo. Também a comete quem, faltando-lhe competência, não leva o fato ao conhecimento da autoridade competente. Análise das alternativas: A) Errada: violação de sigilo funcional consiste em revelar fato que deva permanecer em segredo; a indulgência com subordinado tem tipo próprio. B) Correta: a conduta e a pena correspondem ao art. 320. C) Errada: advocacia administrativa é patrocinar interesse privado perante a administração, o que não ocorreu. D) Errada: a corrupção passiva privilegiada exige ceder a pedido ou influência de outrem. MACETE DO RICCARDO: indulgência com subordinado lembra condescendência, com pena mínima de quinze dias. Fundamento: art. 320 do Código Penal.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 673,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Administração Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-administracao-publica.md",
+      "atual": {
+        "enunciado": "Um inspetor de polícia, valendo-se da qualidade de funcionário, procura servidores de outra repartição e patrocina, perante eles, interesse privado ilegítimo de um empresário conhecido, sem exigir nem receber vantagem. Nos termos do art. 321 do Código Penal, a pena prevista é de",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "detenção, de um a três meses, ou multa, pois a ilegitimidade do interesse não altera a pena."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão, de dois a doze anos, e multa, pois há patrocínio de interesse privado ilegítimo."
+          },
+          {
+            "letra": "C",
+            "texto": "detenção, de três meses a um ano, além da multa, por ser ilegítimo o interesse patrocinado."
+          },
+          {
+            "letra": "D",
+            "texto": "detenção, de três meses a um ano, ou multa, aumentada de um terço por ser ilegítimo o interesse."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "A advocacia administrativa consiste em patrocinar, direta ou indiretamente, interesse privado perante a administração pública, valendo-se da qualidade de funcionário. Na forma simples, a pena é de detenção de um a três meses, ou multa; se o interesse é ilegítimo, a pena passa a ser de detenção de três meses a um ano, além da multa. Análise das alternativas: A) Errada: a ilegitimidade do interesse qualifica o crime, conforme o parágrafo único. B) Errada: reclusão de dois a doze anos não é pena da advocacia administrativa. C) Correta: reproduz a pena do parágrafo único do art. 321. D) Errada: a multa é cumulativa (além da multa), e a lei não prevê aumento de um terço. Fundamento: art. 321, caput e parágrafo único, do Código Penal.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 674,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Administração Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-administracao-publica.md",
+      "atual": {
+        "enunciado": "Um servidor empresta sua senha pessoal a um amigo, pessoa não autorizada, permitindo-lhe acessar banco de dados da Administração Pública. Do acesso resulta dano à Administração. Segundo o art. 325 do Código Penal, a conduta do servidor",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "é atípica, pois o servidor não revelou pessoalmente fato que deveria permanecer em segredo."
+          },
+          {
+            "letra": "B",
+            "texto": "configura violação de sigilo funcional qualificada, punida com reclusão de dois a seis anos, e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "configura inserção de dados falsos em sistema, punida com reclusão de dois a doze anos, e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "configura violação de sigilo funcional simples, punida com detenção de seis meses a dois anos, ou multa."
+          },
+          {
+            "letra": "E",
+            "texto": "configura modificação não autorizada de sistema, com pena aumentada de um terço até a metade pelo dano."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "Incorre nas penas da violação de sigilo funcional quem permite ou facilita, mediante atribuição, fornecimento e empréstimo de senha ou qualquer outra forma, o acesso de pessoas não autorizadas a sistemas de informações ou banco de dados da Administração Pública. Se da ação ou omissão resulta dano à Administração Pública ou a outrem, a pena é de reclusão de dois a seis anos, e multa. Análise das alternativas: A) Errada: o § 1º, I, do art. 325 tipifica expressamente o empréstimo de senha. B) Correta: houve empréstimo de senha e resultou dano, incidindo o § 2º. C) Errada: não houve inserção de dados falsos (art. 313-A). D) Errada: a ocorrência de dano afasta a forma simples e atrai o § 2º. E) Errada: não houve modificação do sistema ou programa (art. 313-B). Fundamento: art. 325, §§ 1º, I, e 2º, do Código Penal.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 675,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Administração Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-administracao-publica.md",
+      "atual": {
+        "enunciado": "Um servidor público lotado em município situado na faixa de fronteira abandona o cargo, fora dos casos permitidos em lei. Segundo o art. 323 do Código Penal, a pena prevista é de",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "detenção, de um a três anos, e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "detenção, de quinze dias a um mês, ou multa."
+          },
+          {
+            "letra": "C",
+            "texto": "detenção, de três meses a um ano, e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "reclusão, de dois a seis anos, e multa."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O abandono de função tem forma simples e duas formas qualificadas. A forma simples tem pena de quinze dias a um mês, ou multa; se resulta prejuízo público, três meses a um ano, e multa; se ocorre em lugar compreendido na faixa de fronteira, um a três anos, e multa. Análise das alternativas: A) Correta: é a pena do § 2º do art. 323 (faixa de fronteira). B) Errada: essa é a pena da forma simples, do caput. C) Errada: essa é a pena do § 1º, quando do fato resulta prejuízo público. D) Errada: o art. 323 não prevê pena de reclusão. Fundamento: art. 323, caput, §§ 1º e 2º, do Código Penal.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 699,
+      "disciplina": "Direito Penal",
+      "assunto": "Ilicitude e Excludentes",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--ilicitude-e-excludentes.md",
+      "atual": {
+        "enunciado": "Considere que, nas circunstâncias do caso concreto, era razoável exigir-se do agente o sacrifício do direito ameaçado. Nessa hipótese, segundo o art. 24, §2º, do Código Penal:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "fica excluída a ilicitude do fato, por se tratar de estado de necessidade."
+          },
+          {
+            "letra": "B",
+            "texto": "o agente fica isento de pena, desde que o perigo não tenha sido provocado por ele."
+          },
+          {
+            "letra": "C",
+            "texto": "não se exclui o crime, mas a pena poderá ser reduzida de um sexto a um terço."
+          },
+          {
+            "letra": "D",
+            "texto": "a pena deverá ser reduzida de metade, por se tratar de diminuição obrigatória."
+          },
+          {
+            "letra": "E",
+            "texto": "não se exclui o crime, mas a pena poderá ser reduzida de um a dois terços."
+          }
+        ],
+        "gabarito": "E",
+        "comentario": "Um dos requisitos do estado de necessidade é que o sacrifício do direito ameaçado não fosse razoável de exigir. Quando era razoável exigi-lo, a excludente não se configura, mas o §2º do art. 24 permite reduzir a pena de um a dois terços. Análise das alternativas: A) Errada: sendo razoável exigir o sacrifício, falta requisito do caput e a ilicitude permanece. B) Errada: a lei não prevê isenção de pena, apenas redução. C) Errada: a fração de um sexto a um terço é a do erro evitável sobre a ilicitude (art. 21). D) Errada: a lei não fala em metade e usa o verbo poderá. E) Certa: corresponde ao texto do §2º. Fundamento: art. 24, §2º, do CP. MACETE DO RICCARDO: necessidade é 1 a 2/3; erro de proibição evitável é 1/6 a 1/3.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 711,
+      "disciplina": "Direito Penal",
+      "assunto": "Ilicitude e Excludentes",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--ilicitude-e-excludentes.md",
+      "atual": {
+        "enunciado": "Quanto ao erro sobre a ilicitude do fato, nos termos do art. 21 do Código Penal:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "se inevitável, isenta de pena; se evitável, poderá diminuí-la de um sexto a um terço."
+          },
+          {
+            "letra": "B",
+            "texto": "se inevitável, exclui o dolo; se evitável, permite a punição por crime culposo."
+          },
+          {
+            "letra": "C",
+            "texto": "se inevitável, isenta de pena; se evitável, poderá diminuí-la de um a dois terços."
+          },
+          {
+            "letra": "D",
+            "texto": "se inevitável, exclui a ilicitude; se evitável, a pena deverá ser reduzida de metade."
+          },
+          {
+            "letra": "E",
+            "texto": "se inevitável ou evitável, isenta de pena, pois o desconhecimento da lei é escusável."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "No erro de proibição, o agente sabe o que faz, mas não tem consciência de que aquilo é ilícito. O art. 21 dá duas consequências: se o erro era inevitável, há isenção de pena; se evitável, a pena poderá ser diminuída de um sexto a um terço. Análise das alternativas: A) Certa: reproduz o art. 21, caput. B) Errada: exclusão do dolo com punição culposa é a consequência do erro de tipo (art. 20). C) Errada: um a dois terços é a fração do art. 24, §2º. D) Errada: a lei fala em isenção de pena e em redução facultativa de um sexto a um terço. E) Errada: a lei diz que o desconhecimento da lei é inescusável, e o erro evitável só reduz a pena. Fundamento: art. 21, caput, do CP. MACETE DO RICCARDO: erro de tipo mexe no dolo; erro de proibição mexe na pena.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    }
+  ]
+}

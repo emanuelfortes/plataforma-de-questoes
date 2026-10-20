@@ -1,0 +1,52 @@
+{
+  "auditorias": [
+    {
+      "id": 1893,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: a conduta narrada (negar o acolhimento como abrigada por recusa em outorgar procuração à entidade) é a literalidade do art. 103 da Lei 10.741/2003. Os distratores estão errados pelos motivos dados: art. 106 exige indução de pessoa sem discernimento; art. 107 exige coação para outorgar; art. 98 trata de abandono. Alternativas não giram em torno de pena. Gabarito D confere.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1894,
+      "status": "VALIDADA",
+      "justificativa": "Gabarito C confere com o art. 106 (indução de pessoa idosa sem discernimento a outorgar procuração para administração de bens ou deles dispor). A está errada (retira a elementar da falta de discernimento); B acrescenta violência ou grave ameaça, que o art. 103 não exige; D acrescenta obtenção de vantagem, que o art. 108 não exige. Única correta, sem foco em pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1895,
+      "status": "VALIDADA",
+      "justificativa": "Coagir a pessoa idosa a testar está no art. 107; o art. 95 fixa ação penal pública incondicionada e afasta os arts. 181 e 182 do CP. B é a única correta. A erra o tipo e a ação penal; C contraria o art. 95; D contraria o art. 107, que inclui o verbo testar. Sem foco em quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1921,
+      "status": "VALIDADA",
+      "justificativa": "O art. 1º, § 5º, da Lei 9.613/1998 alcança autor, coautor ou partícipe e faculta ao juiz deixar de aplicar a pena ou substituí-la, a qualquer tempo, por restritiva de direitos. A confere. B exclui coautor e partícipe (errado); C contraria 'a qualquer tempo'; D transforma em cumulativos resultados alternativos ('ou'). A correta não cita as frações de redução; a questão não gira em torno de quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1948,
+      "status": "VALIDADA",
+      "justificativa": "B reproduz os verbos (constituir, organizar, integrar, manter ou custear) e a finalidade (praticar qualquer dos crimes previstos no Código) do art. 288-A. A erra ao excluir quem custeia; C exige a prática dos crimes visados, o que o tipo não exige; D inclui contravenções e leis especiais, que o texto não menciona. Única correta, sem foco em pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1953,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: A. O parágrafo único do art. 286 do CP (Lei 14.197/2021) faz incorrer na mesma pena quem incita, publicamente, animosidade entre as Forças Armadas ou delas contra a sociedade. B contraria o art. 287 (fato criminoso ou autor de crime); C mistura requisitos da organização criminosa (Lei 12.850/2013, art. 1º, § 1º) com o art. 288, que exige 3 ou mais pessoas; D erra, pois o art. 288 se consuma com a associação para o fim específico de cometer crimes; E contraria o § 2º do art. 288 (Lei 15.245/2025), conferido no texto fornecido. Única correta, sem foco em quantidade de pena. A ressalva antiga foi resolvida: a alternativa E agora diz 'e não pelo crime do art. 288', com concordância correta.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2036,
+      "status": "VALIDADA",
+      "justificativa": "O enunciado reproduz a hipótese do art. 69 do CP (mais de uma ação ou omissão, dois ou mais crimes, idênticos ou não), cuja consequência é o cúmulo das penas. A confere. B e D pressupõem uma só ação (art. 70); C contraria a exigência de crimes da mesma espécie (art. 71). As alternativas citam só o sistema de aplicação (cúmulo ou exasperação), sem frações ou quantidades de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2038,
+      "status": "VALIDADA",
+      "justificativa": "Uma só ação (uma detonação) com dolo dirigido às duas mortes: concurso formal impróprio, com aplicação cumulativa das penas (art. 70, caput, parte final). B confere. A ignora os desígnios autônomos; C e D exigem mais de uma ação (arts. 69 e 71). Sem frações de aumento nas alternativas; a questão cobra a classificação do concurso.",
+      "correcao_sugerida": null
+    }
+  ]
+}

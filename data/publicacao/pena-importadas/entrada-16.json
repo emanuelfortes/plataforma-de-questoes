@@ -1,0 +1,292 @@
+{
+  "itens": [
+    {
+      "id": 2476,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Autoridade, a Disciplina e o Serviço Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "Segundo o Código Penal Militar, o crime de motim (art. 149), quando os agentes não estão armados, é punido com:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "detenção, de quatro a oito anos, com aumento de metade para os cabeças."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão, de três a cinco anos, com aumento de um terço para os cabeças."
+          },
+          {
+            "letra": "C",
+            "texto": "reclusão, de quatro a oito anos, com aumento de um terço para os cabeças."
+          },
+          {
+            "letra": "D",
+            "texto": "reclusão, de oito a vinte anos, com aumento de um terço para os cabeças."
+          },
+          {
+            "letra": "E",
+            "texto": "reclusão, de dois a quatro anos, com aumento de metade para os cabeças."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O motim consiste na reunião de militares em alguma das condutas dos incisos do art. 149 (agir contra a ordem recebida, recusar obediência, assentir em recusa conjunta, ocupar estabelecimento militar etc.). A pena é de reclusão, de quatro a oito anos, com aumento de um terço para os cabeças. Se os agentes estavam armados, o crime passa a ser revolta. Análise das alternativas: A) Errada: a pena é de reclusão, não detenção, e o aumento para os cabeças é de um terço. B) Errada: três a cinco anos é a pena da conspiração e da omissão de lealdade militar. C) Correta: reproduz a pena do caput do art. 149. D) Errada: oito a vinte anos é a pena da revolta (agentes armados). E) Errada: dois a quatro anos é a pena da aliciação para motim ou revolta. Fundamento: art. 149 do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2477,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Autoridade, a Disciplina e o Serviço Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "Em um quartel, um grupo de soldados armados com fuzis ocupa o depósito de material bélico, desobedecendo à ordem do comandante, para impedir a transferência de colegas. À luz do CPM, a conduta configura:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "revolta, punida com reclusão de oito a vinte anos, com aumento de um terço para os cabeças."
+          },
+          {
+            "letra": "B",
+            "texto": "motim, punido com reclusão de quatro a oito anos, pois o porte de armas não altera o tipo penal."
+          },
+          {
+            "letra": "C",
+            "texto": "organização de grupo para a prática de violência, punida com reclusão de quatro a oito anos."
+          },
+          {
+            "letra": "D",
+            "texto": "conspiração, punida com reclusão de três a cinco anos, por haver ajuste prévio entre os militares."
+          },
+          {
+            "letra": "E",
+            "texto": "revolta, punida com reclusão de quatro a oito anos, com aumento de metade para os cabeças."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "Ocupar estabelecimento militar em desobediência a ordem superior é hipótese de motim (art. 149, IV). Quando os agentes estão armados, o parágrafo único do art. 149 qualifica o fato como revolta, com reclusão de oito a vinte anos e aumento de um terço para os cabeças. Análise das alternativas: A) Correta: agentes armados caracterizam revolta, com a pena indicada. B) Errada: o fato de estarem armados transforma o motim em revolta. C) Errada: o art. 150 exige a prática de violência à pessoa ou à coisa, o que não foi descrito; a ocupação em desobediência está no art. 149, IV. D) Errada: a conspiração (art. 152) pune o mero ajuste para o motim; aqui houve execução. E) Errada: a pena da revolta é de oito a vinte anos e o aumento para os cabeças é de um terço. Fundamento: art. 149, IV e parágrafo único, do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2479,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Autoridade, a Disciplina e o Serviço Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "O cabo Lima soube, dias antes, que colegas preparavam um motim na companhia, mas nada comunicou ao superior e não participou do ajuste. Segundo o CPM, Lima:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "não comete crime, pois a omissão só é punida quando o militar presencia o ato criminoso."
+          },
+          {
+            "letra": "B",
+            "texto": "comete omissão de lealdade militar, punida com reclusão de três a cinco anos."
+          },
+          {
+            "letra": "C",
+            "texto": "responde como partícipe do motim, sujeito à pena de reclusão de quatro a oito anos."
+          },
+          {
+            "letra": "D",
+            "texto": "comete conspiração, punida com reclusão de três a cinco anos, por ter tido notícia do ajuste."
+          },
+          {
+            "letra": "E",
+            "texto": "comete omissão de lealdade militar, punida com detenção de seis meses a um ano."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O art. 151 prevê duas condutas: deixar de levar ao conhecimento do superior o motim ou a revolta de cuja preparação teve notícia, ou, presenciando o ato, não usar todos os meios ao seu alcance para impedi-lo. A pena é de reclusão, de três a cinco anos. Análise das alternativas: A) Errada: a simples notícia da preparação, sem comunicação ao superior, já configura o crime. B) Correta: corresponde ao tipo e à pena do art. 151. C) Errada: Lima não aderiu nem praticou o motim; sua conduta é omissiva e tem tipo próprio. D) Errada: a conspiração exige que o militar se concerte com os demais, o que não ocorreu. E) Errada: a pena é de reclusão de três a cinco anos. Fundamento: art. 151 do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2482,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Autoridade, a Disciplina e o Serviço Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "Um soldado afixa, no mural do refeitório do batalhão, panfleto impresso que conclama os colegas a descumprirem as ordens do comandante. Segundo o CPM, a conduta:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "configura apologia de fato criminoso, punida com detenção de seis meses a um ano."
+          },
+          {
+            "letra": "B",
+            "texto": "é atípica, pois o incitamento exige manifestação oral dirigida a militar determinado."
+          },
+          {
+            "letra": "C",
+            "texto": "sujeita o agente à mesma pena do incitamento: reclusão, de dois a quatro anos."
+          },
+          {
+            "letra": "D",
+            "texto": "configura aliciação para motim, punida com reclusão de três a cinco anos."
+          },
+          {
+            "letra": "E",
+            "texto": "configura incitamento, punido com detenção de dois a quatro anos."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O art. 155 pune quem incita à desobediência, à indisciplina ou à prática de crime militar, com reclusão de dois a quatro anos. O parágrafo único estende a mesma pena a quem introduz, afixa ou distribui, em lugar sujeito à administração militar, material impresso, manuscrito, eletrônico, fotocopiado ou gravado que contenha esse incitamento. Análise das alternativas: A) Errada: apologia é exaltar fato criminoso ou seu autor; aqui há estímulo à desobediência. B) Errada: o parágrafo único prevê expressamente o material impresso afixado. C) Correta: aplica-se a pena do art. 155, reclusão de dois a quatro anos. D) Errada: a aliciação é dirigida ao motim ou revolta e tem pena de dois a quatro anos. E) Errada: a pena é de reclusão, não de detenção. Fundamento: art. 155, caput e parágrafo único, do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2483,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Autoridade, a Disciplina e o Serviço Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "O crime de apologia de fato criminoso ou do seu autor (art. 156 do CPM) exige que a apologia ocorra:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "diante da tropa formada, e é punido com reclusão de dois a quatro anos."
+          },
+          {
+            "letra": "B",
+            "texto": "por meio de imprensa ou rede social, e é punido com detenção de um a dois anos."
+          },
+          {
+            "letra": "C",
+            "texto": "em lugar público, ainda que fora da administração militar, com detenção de três meses a um ano."
+          },
+          {
+            "letra": "D",
+            "texto": "em lugar sujeito à administração militar, e é punido com reclusão de dois a quatro anos."
+          },
+          {
+            "letra": "E",
+            "texto": "em lugar sujeito à administração militar, e é punido com detenção de seis meses a um ano."
+          }
+        ],
+        "gabarito": "E",
+        "comentario": "O art. 156 pune quem faz apologia de fato que a lei militar considera crime, ou do autor desse fato, em lugar sujeito à administração militar. A pena é de detenção, de seis meses a um ano. Análise das alternativas: A) Errada: o tipo não exige presença da tropa, e a pena indicada é a do incitamento. B) Errada: o meio não é elementar do tipo, e a pena está incorreta. C) Errada: o local exigido é o sujeito à administração militar. D) Errada: o local está certo, mas a pena é de detenção de seis meses a um ano. E) Correta: reproduz o local e a pena do art. 156. Fundamento: art. 156 do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2487,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Autoridade, a Disciplina e o Serviço Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "De acordo com o art. 159 do CPM, quando da violência contra superior ou militar de serviço resulta morte ou lesão corporal, e as circunstâncias evidenciam que o agente não quis o resultado nem assumiu o risco de produzi-lo:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "a pena da violência é diminuída de um terço, afastando-se a do crime contra a pessoa."
+          },
+          {
+            "letra": "B",
+            "texto": "o agente responde pela violência, e o resultado lhe é imputado a título de culpa."
+          },
+          {
+            "letra": "C",
+            "texto": "a pena do crime contra a pessoa é diminuída de um a dois terços, conforme o caso."
+          },
+          {
+            "letra": "D",
+            "texto": "a pena do crime contra a pessoa é aplicada em dobro, por se tratar de crime preterdoloso."
+          },
+          {
+            "letra": "E",
+            "texto": "a pena do crime contra a pessoa é diminuída de metade."
+          }
+        ],
+        "gabarito": "E",
+        "comentario": "O art. 159 trata da ausência de dolo no resultado: se da violência resulta morte ou lesão corporal e as circunstâncias mostram que o agente não quis o resultado nem assumiu o risco de produzi-lo, a pena do crime contra a pessoa é diminuída de metade. A regra também é aplicada à violência contra inferior hierárquico (art. 175, parágrafo único). Análise das alternativas: A) Errada: a redução recai sobre a pena do crime contra a pessoa, que não é afastada. B) Errada: o resultado continua punido, com a redução legal. C) Errada: a fração é fixa, de metade. D) Errada: a lei prevê diminuição, não aumento. E) Correta: reproduz a regra do art. 159. Fundamento: art. 159 do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2488,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Autoridade, a Disciplina e o Serviço Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "Um soldado, diante de outros militares, desrespeita o oficial de dia. Não constituindo o fato crime mais grave, a pena prevista no CPM é de:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "detenção, de três meses a um ano, aumentada da metade."
+          },
+          {
+            "letra": "B",
+            "texto": "detenção, de três meses a um ano, aumentada de um terço."
+          },
+          {
+            "letra": "C",
+            "texto": "detenção, de um a dois anos, sem causa de aumento."
+          },
+          {
+            "letra": "D",
+            "texto": "reclusão, de três a oito anos, por ser militar de serviço."
+          },
+          {
+            "letra": "E",
+            "texto": "detenção, de seis meses a um ano, aumentada da metade."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O desrespeito a superior diante de outro militar (art. 160) é punido com detenção, de três meses a um ano, se o fato não constitui crime mais grave. O parágrafo único aumenta a pena da metade se o fato é praticado contra o comandante da unidade a que pertence o agente, oficial-general, oficial de dia, de serviço ou de quarto. Análise das alternativas: A) Correta: pena do caput com o aumento da metade do parágrafo único. B) Errada: o aumento é da metade, não de um terço. C) Errada: um a dois anos é a pena da recusa de obediência. D) Errada: três a oito anos é pena da violência contra militar de serviço; aqui não houve violência. E) Errada: a pena-base é de três meses a um ano. Fundamento: art. 160 e parágrafo único do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2489,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes contra a Autoridade, a Disciplina e o Serviço Militar",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-contra-a-administracao-militar.md",
+      "atual": {
+        "enunciado": "Sobre o crime de recusa de obediência (art. 163 do CPM), é correto afirmar que:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "alcança ordem de superior sobre qualquer assunto, inclusive particular, com pena de detenção de seis meses a um ano."
+          },
+          {
+            "letra": "B",
+            "texto": "alcança somente ordem escrita do comandante da unidade, com pena de detenção de um a dois anos."
+          },
+          {
+            "letra": "C",
+            "texto": "alcança ordem sobre matéria de serviço, com pena de reclusão de dois a quatro anos."
+          },
+          {
+            "letra": "D",
+            "texto": "alcança ordem sobre matéria de serviço ou dever imposto em lei, regulamento ou instrução, com detenção de um a dois anos."
+          },
+          {
+            "letra": "E",
+            "texto": "alcança ordem sobre matéria de serviço, com pena de detenção de três meses a um ano."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 163 pune quem recusa obedecer a ordem do superior sobre assunto ou matéria de serviço, ou relativamente a dever imposto em lei, regulamento ou instrução. A pena é de detenção, de um a dois anos, se o fato não constitui crime mais grave. Análise das alternativas: A) Errada: a ordem deve referir-se a serviço ou a dever legal ou regulamentar; a pena também está errada. B) Errada: a lei fala em ordem do superior, sem exigir forma escrita nem que venha do comandante. C) Errada: a pena é de detenção, de um a dois anos. D) Correta: reproduz o objeto da ordem e a pena do art. 163. E) Errada: três meses a um ano é a pena do desrespeito a superior. Fundamento: art. 163 do CPM.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    }
+  ]
+}

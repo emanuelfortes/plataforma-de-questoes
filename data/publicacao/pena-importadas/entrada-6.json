@@ -1,0 +1,264 @@
+{
+  "itens": [
+    {
+      "id": 1029,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Lei de Tortura",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--lei-de-tortura.md",
+      "atual": {
+        "enunciado": "Um homem tortura um vizinho de 62 anos para obter dele a senha de um cofre. Quanto à idade da vítima, segundo a Lei nº 9.455/1997:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "incide aumento de um sexto a um terço, pois a vítima é maior de 60 anos."
+          },
+          {
+            "letra": "B",
+            "texto": "não incide aumento, pois a lei exige vítima maior de 65 anos."
+          },
+          {
+            "letra": "C",
+            "texto": "não incide aumento, pois a lei exige vítima maior de 70 anos."
+          },
+          {
+            "letra": "D",
+            "texto": "incide a qualificadora do § 3º, com pena de reclusão de quatro a dez anos."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O § 4º, II, aumenta a pena de um sexto até um terço quando o crime é cometido contra maior de 60 anos, entre outras vítimas vulneráveis. A idade da vítima é causa de aumento, não qualificadora. Análise das alternativas: A) Correta: 62 anos supera o marco legal de 60. B) Errada: o marco é 60 anos, não 65. C) Errada: o marco é 60 anos, não 70. D) Errada: o § 3º trata dos resultados lesão grave ou morte, não da idade da vítima. Fundamento: Lei nº 9.455/1997, art. 1º, § 4º, II.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1079,
+      "disciplina": "Direito Penal",
+      "assunto": "Concurso de Pessoas",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--concurso-de-pessoas.md",
+      "atual": {
+        "enunciado": "Caio e Breno combinaram subtrair, sem violência, mercadorias de um depósito que acreditavam estar sem vigilância. Caio ficou do lado de fora vigiando a rua; Breno, ao entrar, encontrou inesperadamente um vigia e o agrediu para garantir a subtração. A investigação na delegacia demonstrou que, nas circunstâncias, o emprego de violência não era previsível para Caio. Considerando o art. 29, § 2º, do Código Penal, Caio:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "responde pelo crime mais grave praticado por Breno, com pena reduzida de um sexto a um terço."
+          },
+          {
+            "letra": "B",
+            "texto": "responde pelo crime mais grave praticado por Breno, pois a teoria monista exige crime único."
+          },
+          {
+            "letra": "C",
+            "texto": "responde pelo crime menos grave que quis praticar, com a pena aumentada até a metade."
+          },
+          {
+            "letra": "D",
+            "texto": "não responde por crime algum, pois houve desvio do plano previamente ajustado entre ambos."
+          },
+          {
+            "letra": "E",
+            "texto": "responde pelo crime menos grave que quis praticar, sem o aumento previsto no dispositivo."
+          }
+        ],
+        "gabarito": "E",
+        "comentario": "Na cooperação dolosamente distinta, o concorrente que quis participar de crime menos grave recebe a pena deste. O aumento de até metade só incide se o resultado mais grave era previsível para ele. Como a violência não era previsível para Caio, ele responde pelo crime que quis praticar, sem aumento. Análise das alternativas: A) Errada, Caio não responde pelo crime mais grave, e a redução de um sexto a um terço é do § 1º. B) Errada, o § 2º é justamente exceção que permite responsabilizar Caio pelo crime menos grave. C) Errada, o aumento até metade exige previsibilidade do resultado mais grave, afastada no caso. D) Errada, Caio concorreu dolosamente para a subtração e responde pelo crime que quis praticar. E) Correta, aplica-se a pena do crime menos grave, sem o aumento. Fundamento: art. 29, § 2º, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1080,
+      "disciplina": "Direito Penal",
+      "assunto": "Concurso de Pessoas",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--concurso-de-pessoas.md",
+      "atual": {
+        "enunciado": "Segundo o Código Penal, quando um dos concorrentes quis participar de crime menos grave, mas o resultado mais grave efetivamente produzido lhe era previsível, a ele será aplicada:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "a pena do crime mais grave, diminuída de um sexto a um terço."
+          },
+          {
+            "letra": "B",
+            "texto": "a pena do crime mais grave, sem qualquer redução ou aumento."
+          },
+          {
+            "letra": "C",
+            "texto": "a pena do crime menos grave, aumentada de um sexto a um terço."
+          },
+          {
+            "letra": "D",
+            "texto": "a pena do crime menos grave, que será aumentada até a metade."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O § 2º do art. 29 manda aplicar ao concorrente a pena do crime menos grave do qual quis participar. Se o resultado mais grave era previsível, essa pena será aumentada até a metade. Análise das alternativas: A) Errada, o concorrente não recebe a pena do crime mais grave, e a fração de um sexto a um terço é da participação de menor importância. B) Errada, a lei não manda aplicar a pena do crime mais grave a quem quis crime menos grave. C) Errada, a pena é do crime menos grave, mas o aumento é de até metade, não de um sexto a um terço. D) Correta, reproduz a parte final do § 2º. Fundamento: art. 29, § 2º, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1081,
+      "disciplina": "Direito Penal",
+      "assunto": "Concurso de Pessoas",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--concurso-de-pessoas.md",
+      "atual": {
+        "enunciado": "Assinale a alternativa que distingue corretamente os institutos previstos nos §§ 1º e 2º do art. 29 do Código Penal.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "No § 1º, há redução pela pequena relevância da contribuição; no § 2º, o agente responde pelo crime que quis praticar."
+          },
+          {
+            "letra": "B",
+            "texto": "No § 1º, o agente responde pelo crime que quis praticar; no § 2º, a pena é reduzida de um sexto a um terço."
+          },
+          {
+            "letra": "C",
+            "texto": "Ambos preveem redução de um sexto a um terço, diferindo apenas quanto à previsibilidade do resultado mais grave."
+          },
+          {
+            "letra": "D",
+            "texto": "No § 1º, a redução é obrigatória; no § 2º, o aumento até metade incide mesmo sem previsibilidade do resultado mais grave."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O § 1º trata da participação de menor importância, que autoriza diminuir a pena de um sexto a um terço. O § 2º trata da cooperação dolosamente distinta: o concorrente que quis crime menos grave recebe a pena deste, aumentada até metade se o resultado mais grave era previsível. Análise das alternativas: A) Correta, sintetiza a essência de cada parágrafo. B) Errada, inverte os institutos. C) Errada, só o § 1º prevê redução; o § 2º prevê aplicação da pena do crime menos grave e eventual aumento. D) Errada, a redução do § 1º é facultativa ('pode ser diminuída') e o aumento do § 2º depende da previsibilidade. Fundamento: art. 29, §§ 1º e 2º, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1152,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Estatuto da Criança e do Adolescente",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--estatuto-da-crianca-e-do-adolescente.md",
+      "atual": {
+        "enunciado": "Delegado de polícia apreende adolescente em flagrante de ato infracional, mas deliberadamente deixa de comunicar de imediato a apreensão à autoridade judiciária competente e à família do apreendido. Em tese, a conduta amolda-se a crime do ECA punido com:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "detenção de seis meses a dois anos, em tipo previsto para a autoridade policial responsável pela apreensão."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão de dois a seis anos, e multa, por se tratar de privação ilegal da liberdade de adolescente."
+          },
+          {
+            "letra": "C",
+            "texto": "detenção de seis meses a dois anos, admitida a transação penal por ser infração de menor potencial ofensivo."
+          },
+          {
+            "letra": "D",
+            "texto": "detenção de dois a quatro anos, e multa, por descumprimento de prazo fixado em benefício do adolescente."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O art. 231 tipifica a conduta da autoridade policial responsável pela apreensão de criança ou adolescente que deixa de fazer imediata comunicação à autoridade judiciária competente e à família do apreendido ou à pessoa por ele indicada, com pena de detenção de seis meses a dois anos. Aos crimes cometidos contra criança e adolescente não se aplica a Lei 9.099/1995, independentemente da pena. Análise das alternativas: A) Correta: corresponde ao art. 231. B) Errada: a privação ilegal de liberdade (art. 230) tem pena de detenção de seis meses a dois anos, e a pena indicada é a do art. 237. C) Errada: a pena está correta, mas o art. 226, § 1º, afasta a Lei 9.099/1995. D) Errada: o descumprimento de prazo (art. 235) é punido com detenção de seis meses a dois anos. Fundamento: arts. 226, § 1º, 230, 231 e 235 da Lei 8.069/1990.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1153,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Estatuto da Criança e do Adolescente",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--estatuto-da-crianca-e-do-adolescente.md",
+      "atual": {
+        "enunciado": "Acerca do crime de adquirir, possuir, armazenar ou solicitar registro que contenha violência sexual contra criança ou adolescente (art. 241-B do ECA), conforme a redação do texto legal, é correto afirmar que:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "a pena é de reclusão de um a quatro anos, e multa, aumentada de um terço se pequena a quantidade de material."
+          },
+          {
+            "letra": "B",
+            "texto": "não há crime na posse por agente público para comunicar às autoridades, dispensado o sigilo sobre o material."
+          },
+          {
+            "letra": "C",
+            "texto": "a pena é de reclusão de três a seis anos, e multa, sem previsão de causa de diminuição pela quantidade de material."
+          },
+          {
+            "letra": "D",
+            "texto": "a pena é de reclusão de três a seis anos, e multa, diminuída de um sexto a um terço se pequena a quantidade."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 241-B comina reclusão de três a seis anos, e multa, com diminuição de um sexto a um terço se for pequena a quantidade de material. Não há crime quando a posse ou o armazenamento visa comunicar o fato às autoridades, nas hipóteses do § 2º, mas as pessoas ali referidas devem manter o material sob sigilo. Análise das alternativas: A) Errada: a pena é de três a seis anos, e a pequena quantidade diminui, e não aumenta, a pena. B) Errada: o § 3º impõe o dever de sigilo sobre o material. C) Errada: o § 1º prevê causa de diminuição pela pequena quantidade. D) Correta: conjuga o caput e o § 1º do art. 241-B. Fundamento: art. 241-B, caput e §§ 1º a 3º, da Lei 8.069/1990.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1154,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Estatuto da Criança e do Adolescente",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--estatuto-da-crianca-e-do-adolescente.md",
+      "atual": {
+        "enunciado": "Comerciante vende bebida alcoólica a adolescente de dezesseis anos, que a consome em seguida. Segundo o ECA, se o fato não constituir crime mais grave, a conduta é punida com:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "detenção de seis meses a dois anos, e multa, sem previsão de aumento de pena pelo consumo do produto."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão de três a seis anos, aumentada de um terço até a metade em razão do consumo do produto."
+          },
+          {
+            "letra": "C",
+            "texto": "detenção de dois a quatro anos, e multa, aumentada de um terço até a metade em razão do consumo."
+          },
+          {
+            "letra": "D",
+            "texto": "detenção de dois a quatro anos, e multa, aumentada de dois terços em razão do consumo do produto."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O art. 243 pune quem vende, fornece, serve, ministra ou entrega, ainda que gratuitamente, bebida alcoólica a criança ou adolescente, com detenção de dois a quatro anos, e multa, se o fato não constitui crime mais grave. A pena é aumentada de um terço até a metade se a criança ou o adolescente utilizar ou consumir o produto. Análise das alternativas: A) Errada: a pena indicada é a do art. 244 (fogos de artifício), e há causa de aumento pelo consumo. B) Errada: reclusão de três a seis anos é a pena do art. 242 (arma, munição ou explosivo). C) Correta: conjuga o caput e o parágrafo único do art. 243. D) Errada: a fração de aumento é de um terço até a metade. Fundamento: art. 243 da Lei 8.069/1990.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1155,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Estatuto da Criança e do Adolescente",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--estatuto-da-crianca-e-do-adolescente.md",
+      "atual": {
+        "enunciado": "Sobre o crime de corrupção de menores previsto no art. 244-B do ECA, é correto afirmar que:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "configura-se apenas quando praticado presencialmente, não abrangendo condutas por meios eletrônicos."
+          },
+          {
+            "letra": "B",
+            "texto": "tem pena de reclusão de um a quatro anos, aumentada de um terço quando a infração for hedionda."
+          },
+          {
+            "letra": "C",
+            "texto": "tem pena de detenção de seis meses a dois anos, aumentada da metade quando a infração for hedionda."
+          },
+          {
+            "letra": "D",
+            "texto": "protege apenas o menor de catorze anos que é induzido a praticar infração penal com o agente."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O art. 244-B pune quem corrompe ou facilita a corrupção de menor de dezoito anos, com ele praticando infração penal ou induzindo-o a praticá-la, com reclusão de um a quatro anos. A pena aumenta de um terço se a infração cometida ou induzida estiver no rol do art. 1º da Lei 8.072/1990 (crimes hediondos). Análise das alternativas: A) Errada: o § 1º estende o tipo ao uso de meios eletrônicos, inclusive salas de bate-papo. B) Correta: conjuga o caput e o § 2º. C) Errada: a pena é de reclusão de um a quatro anos, e o aumento é de um terço. D) Errada: a vítima é o menor de dezoito anos. Fundamento: art. 244-B da Lei 8.069/1990.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    }
+  ]
+}

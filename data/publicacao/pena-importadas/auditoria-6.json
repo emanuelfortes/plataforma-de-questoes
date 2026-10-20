@@ -1,0 +1,52 @@
+{
+  "auditorias": [
+    {
+      "id": 1029,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: a conduta é tortura-prova (art. 1º, I, a, da Lei 9.455/1997) e a vítima de 62 anos atrai a causa de aumento do § 4º, II (maior de 60 anos, redação da Lei 10.741/2003). Gabarito A confere. B erra o marco etário; C omite o maior de 60 anos e o portador de deficiência; D é falsa porque o § 3º só trata dos resultados lesão grave ou gravíssima e morte. Alternativas tratam da natureza da circunstância e do marco etário, sem quantidade de pena. Única correta, sem distrator defensável.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1079,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: cooperação dolosamente distinta (art. 29, § 2º, do CP). Caio quis participar de furto; a violência de Breno não lhe era previsível, por isso responde pelo crime menos grave, sem o aumento da parte final. Gabarito E confere. A e B atribuem o crime mais grave; C aplica o aumento contra o enunciado; D afasta qualquer responsabilidade, o que contraria o próprio § 2º. Não há fração de pena nas alternativas. Única correta.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1080,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: pelo art. 29, § 2º, do CP, o concorrente que quis crime menos grave recebe a pena deste, aumentada quando o resultado mais grave era previsível. Gabarito D confere. A e B atribuem o crime mais grave; C ignora o aumento previsto para a hipótese de previsibilidade. Alternativas não giram em torno de quantidade de pena. Única correta.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1081,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: A. O § 1º do art. 29 do CP trata da participação de menor importância (pena pode ser diminuída) e o § 2º da cooperação dolosamente distinta (pena do crime menos grave, aumentada até metade se previsível o resultado mais grave). B inverte os parágrafos; C atribui redução aos dois; D erra ao menos na segunda parte, pois o aumento do § 2º exige previsibilidade, de modo que é falsa qualquer que seja a posição sobre a natureza da redução do § 1º. Única correta, sem citar frações. A ressalva antiga foi resolvida: a justificativa de D, a pegadinha e o 'o_que_mudou' não afirmam mais que a redução do § 1º é facultativa.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1152,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: a autoridade policial responsável pela apreensão que deixa de comunicar de imediato o juiz e a família pratica o crime do art. 231 do ECA. Gabarito A confere. B é falsa porque houve flagrante de ato infracional (art. 230 não se aplica); C contraria o art. 226, § 1º, que afasta a Lei 9.099/1995 dos crimes contra criança e adolescente independentemente da pena; D confunde com o art. 235, que tem objeto diverso. Comentário e fundamentos (arts. 226, § 1º, 227, 230, 231 e 235) conferidos no texto. Sem quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1153,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente com a redação vigente do art. 241-B (Lei 15.487/2026): o caput inclui o verbo solicitar, e o § 1º traz causa de diminuição para pequena quantidade de material. Gabarito D confere. A inverte a natureza da causa e criminaliza a hipótese do § 2º; B contraria o dever de sigilo do § 3º; C nega o § 1º e o verbo solicitar. A \"quantidade\" mencionada é do material, não da pena, e nenhuma alternativa cobra frações ou limites de pena. Única correta.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1154,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: a venda de bebida alcoólica a adolescente configura o crime do art. 243 do ECA (subsidiário), e o parágrafo único (Lei 15.234/2025) prevê aumento se a criança ou o adolescente consumir o produto. Gabarito A confere. B nega a tipicidade; C trata o consumo como elemento da consumação, quando é só causa de aumento; D contraria a expressão \"ainda que gratuitamente\". Sem fração ou quantidade de pena nas alternativas. Única correta.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1155,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: o art. 244-B, § 2º, do ECA prevê aumento quando a infração cometida ou induzida está no rol do art. 1º da Lei 8.072/1990 (hediondos). Gabarito B confere. A contraria o § 1º (meios eletrônicos); C contraria o art. 227 (ação pública incondicionada); D contraria o caput (menor de 18 anos). A alternativa correta não menciona a fração, só a hipótese de aumento. Única correta.",
+      "correcao_sugerida": null
+    }
+  ]
+}

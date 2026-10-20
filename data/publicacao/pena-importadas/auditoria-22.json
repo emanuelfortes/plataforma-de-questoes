@@ -1,0 +1,52 @@
+{
+  "auditorias": [
+    {
+      "id": 2864,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: dar causa à instauração de inquérito contra inocente, imputando-lhe crime, é denunciação caluniosa (art. 339, caput), e o anonimato é causa de aumento (§ 1º). Gabarito C confere. A erra (houve imputação a pessoa determinada, art. 340 não se aplica); B inverte o efeito do anonimato (a diminuição do § 2º é para contravenção); D e E erram, pois o tipo inclui o inquérito policial e se consuma com sua instauração. Alternativas não giram em torno de quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2867,
+      "status": "VALIDADA",
+      "justificativa": "Gabarito D reproduz o art. 342, § 2º. A erra (art. 343 se perfaz com dar, oferecer ou prometer); B omite 'negar ou calar a verdade'; C contraria a menção expressa ao inquérito policial no art. 342; E contraria a inclusão de perito, contador, tradutor e intérprete. Uma única correta, sem cobrança de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2868,
+      "status": "VALIDADA",
+      "justificativa": "Grave ameaça à vítima chamada a intervir no processo, para favorecer interesse próprio, é coação no curso do processo (art. 344), com aumento do parágrafo único (Lei 14.245/2021) por envolver crime contra a dignidade sexual. Gabarito A confere. B, C e D erram pelos motivos dados (o aumento depende da natureza do crime; o tipo protege parte e qualquer pessoa; art. 348 é auxílio a terceiro). A alternativa cita a existência do aumento, não sua quantidade.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2870,
+      "status": "VALIDADA",
+      "justificativa": "Art. 347, parágrafo único: inovação destinada a produzir efeito em processo penal, ainda que não iniciado, é a forma agravada. Gabarito B confere com o texto. A e D contrariam a expressão 'ainda que não iniciado'; C erra, pois o favorecimento real é auxílio prestado por terceiro fora da coautoria e aqui o próprio autor agiu para enganar o perito. 'Forma agravada' não exige o aluno saber a quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2872,
+      "status": "VALIDADA",
+      "justificativa": "Auxílio prestado ao autor, fora da coautoria e da receptação, para tornar seguro o proveito do crime é favorecimento real (art. 349). Gabarito C confere. A confunde com o favorecimento pessoal (art. 348, protege a pessoa); B erra porque o enunciado afasta proveito próprio e o auxílio é em favor do próprio autor (o art. 349 ressalva a receptação); D erra porque o enunciado diz que o amigo não participou do crime. Sem cobrança de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2874,
+      "status": "VALIDADA",
+      "justificativa": "Arrebatar preso, a fim de maltratá-lo, do poder de quem o tem sob custódia é o art. 353. Gabarito C confere. A erra (art. 351 visa a fuga, não o maltrato); B erra (motim, art. 354, é praticado pelos próprios presos); D erra (há tipo específico, e o art. 345 pressupõe satisfazer pretensão). Sem cobrança de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2875,
+      "status": "VALIDADA",
+      "justificativa": "Art. 355, parágrafo único: o advogado que defende na mesma causa, simultânea ou sucessivamente, partes contrárias comete patrocínio simultâneo ou tergiversação. Gabarito B confere. A contraria o 'sucessivamente'; C exige requisito que o parágrafo único não prevê; D (art. 356) e E (art. 357) descrevem condutas diversas. Sem cobrança de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2919,
+      "status": "VALIDADA",
+      "justificativa": "Transportar produto químico destinado à preparação de drogas está no art. 33, § 1º, I, da Lei 11.343/2006, sem exigir droga pronta. Gabarito D confere. A erra porque o art. 34 trata de maquinário, aparelho, instrumento ou objeto, e o insumo químico tem previsão específica; B contraria o § 1º, I; C erra porque o art. 37 pune a colaboração como informante. Sem cobrança de pena.",
+      "correcao_sugerida": null
+    }
+  ]
+}

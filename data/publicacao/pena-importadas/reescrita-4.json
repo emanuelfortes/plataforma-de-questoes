@@ -1,0 +1,184 @@
+{
+  "itens": [
+    {
+      "id": 730,
+      "enunciado": "Em seu consultório particular, um médico emite, mediante pagamento, atestado falso de que um paciente esteve internado, para que este justifique faltas no emprego. À luz do Código Penal, a conduta do médico configura",
+      "alternativas": [
+        { "letra": "A", "texto": "certidão ou atestado ideologicamente falso (art. 301, caput), pois o atestado serve para obter vantagem." },
+        { "letra": "B", "texto": "falsidade ideológica em documento particular (art. 299), já que inseriu declaração falsa no atestado." },
+        { "letra": "C", "texto": "falsidade de atestado médico (art. 302), com aplicação também de multa, por ter agido com fim de lucro." },
+        { "letra": "D", "texto": "falsidade material de atestado ou certidão (art. 301, § 1º), porque o documento entregue é falso." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 302 do CP pune o médico que, no exercício da sua profissão, dá atestado falso. É crime próprio do médico e especial em relação à falsidade ideológica comum (art. 299). Como o médico cobrou pelo atestado, incide o parágrafo único: se o crime é cometido com o fim de lucro, aplica-se também multa. O art. 301, caput, exige que o falso seja praticado em razão de função pública, e o § 1º trata de falsificar ou alterar materialmente o documento, o que não ocorreu: o médico emitiu um atestado com conteúdo falso. Fundamento: art. 302, caput e parágrafo único, do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 301, caput, exige que o agente ateste falsamente em razão de função pública. O médico atuou no exercício da profissão, em consultório particular, o que atrai o tipo específico do art. 302." },
+        { "letra": "B", "correta": false, "justificativa": "Embora haja declaração falsa, o atestado falso dado por médico no exercício da profissão tem tipo próprio (art. 302), que prevalece sobre a falsidade ideológica genérica do art. 299 pelo princípio da especialidade." },
+        { "letra": "C", "correta": true, "justificativa": "O médico deu atestado falso no exercício da profissão (art. 302, caput) e agiu com fim de lucro, o que faz incidir também a multa do parágrafo único." },
+        { "letra": "D", "correta": false, "justificativa": "A falsidade material do art. 301, § 1º, consiste em falsificar, no todo ou em parte, ou alterar atestado ou certidão. O médico não adulterou documento: emitiu atestado de conteúdo falso, o que é falsidade de conteúdo do art. 302." }
+      ],
+      "fundamento_legal": "Código Penal, art. 302, caput e parágrafo único.",
+      "pegadinha": "Confundir o atestado falso do médico (art. 302, crime próprio do médico na profissão) com o atestado ideologicamente falso do art. 301, que exige função pública, ou com a falsidade ideológica genérica do art. 299.",
+      "o_que_mudou": "A questão deixou de perguntar a pena do art. 302 e passou a cobrar qual crime se configura, distinguindo o atestado médico falso dos arts. 299 e 301 e a consequência do fim de lucro (multa), sem quantidade de pena."
+    },
+    {
+      "id": 731,
+      "enunciado": "Sobre os crimes de certidão ou atestado ideologicamente falso (art. 301, caput, do CP) e de falsidade material de atestado ou certidão (art. 301, § 1º, do CP), assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "A figura do caput pode ser praticada por qualquer pessoa, sendo dispensável que o falso ocorra em razão de função pública." },
+        { "letra": "B", "texto": "A conduta do caput consiste em falsificar, no todo ou em parte, atestado ou certidão, ou alterar o teor de documento verdadeiro." },
+        { "letra": "C", "texto": "Se o crime é praticado com o fim de lucro, a pena privativa de liberdade deixa de ser aplicada e é substituída pela de multa." },
+        { "letra": "D", "texto": "O fato ou circunstância atestado deve servir para habilitar alguém a obter cargo público, isenção de ônus ou de serviço público ou outra vantagem." },
+        { "letra": "E", "texto": "Como o art. 301 protege só o acesso a cargo público, o atestado falso destinado a obter qualquer outra vantagem é fato atípico." }
+      ],
+      "gabarito": "D",
+      "comentario": "O caput do art. 301 pune quem atesta ou certifica falsamente, em razão de função pública, fato ou circunstância que habilite alguém a obter cargo público, isenção de ônus ou de serviço de caráter público, ou qualquer outra vantagem (falsidade de conteúdo). O § 1º trata da falsidade material: falsificar, no todo ou em parte, atestado ou certidão, ou alterar o teor de documento verdadeiro, para o mesmo fim. O § 2º manda aplicar a multa além da pena privativa de liberdade quando houver fim de lucro. Fundamento: art. 301, caput, §§ 1º e 2º, do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O caput exige que o agente ateste ou certifique falsamente em razão de função pública. Não é qualquer pessoa que pratica essa figura." },
+        { "letra": "B", "correta": false, "justificativa": "Falsificar ou alterar atestado ou certidão é a falsidade material do § 1º. O caput descreve atestar ou certificar falsamente, em razão de função pública, isto é, falsidade de conteúdo." },
+        { "letra": "C", "correta": false, "justificativa": "O § 2º determina que, havendo fim de lucro, aplica-se a multa além da pena privativa de liberdade, e não em substituição a ela." },
+        { "letra": "D", "correta": true, "justificativa": "Tanto o caput quanto o § 1º exigem que o fato ou circunstância sirva para habilitar alguém a obter cargo público, isenção de ônus ou de serviço de caráter público, ou qualquer outra vantagem." },
+        { "letra": "E", "correta": false, "justificativa": "O texto legal inclui expressamente 'qualquer outra vantagem', além do cargo público e da isenção de ônus ou de serviço de caráter público." }
+      ],
+      "fundamento_legal": "Código Penal, art. 301, caput, §§ 1º e 2º.",
+      "pegadinha": "Trocar a falsidade de conteúdo do caput (atestar falsamente em razão de função pública) pela falsidade material do § 1º (falsificar ou alterar o documento) e achar que o fim de lucro substitui a pena por multa.",
+      "o_que_mudou": "As alternativas sobre a quantidade de pena do caput e do § 1º foram trocadas por afirmações sobre os elementos dos tipos: exigência de função pública, diferença entre falsidade de conteúdo e material, finalidade do documento e efeito do fim de lucro."
+    },
+    {
+      "id": 732,
+      "enunciado": "Um devedor, durante visita ao escritório do credor, apodera-se do único original de um contrato particular de confissão de dívida, do qual não podia dispor, e o destrói para se livrar da cobrança. Em tese, ele pratica",
+      "alternativas": [
+        { "letra": "A", "texto": "falsificação de documento particular, pois eliminou em seu favor a prova escrita da dívida." },
+        { "letra": "B", "texto": "fato atípico, pois a supressão de documento só alcança documento público, e não particular." },
+        { "letra": "C", "texto": "supressão de documento, pois destruiu documento particular verdadeiro de que não podia dispor." },
+        { "letra": "D", "texto": "uso de documento falso, pois se valeu do sumiço do título para se livrar da cobrança devida." },
+        { "letra": "E", "texto": "falsidade ideológica, pois alterou a verdade sobre fato juridicamente relevante, a dívida." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 305 do CP pune quem destrói, suprime ou oculta, em benefício próprio ou de outrem, ou em prejuízo alheio, documento público ou particular verdadeiro, de que não podia dispor. O devedor destruiu o original verdadeiro do contrato particular, do qual não podia dispor, em benefício próprio (livrar-se da cobrança) e em prejuízo do credor. Não houve falsificação, alteração, inserção de declaração falsa nem uso de papel falsificado: o documento era verdadeiro e foi eliminado. A natureza do documento (público ou particular) apenas altera a pena, não a tipicidade. Fundamento: art. 305 do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A falsificação de documento particular (art. 298) exige falsificar, no todo ou em parte, ou alterar o documento. Aqui o documento verdadeiro foi destruído, sem falsificação." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 305 menciona expressamente documento público ou particular verdadeiro. O particular também é protegido." },
+        { "letra": "C", "correta": true, "justificativa": "Destruir documento particular verdadeiro, de que não podia dispor, em benefício próprio e em prejuízo alheio, é exatamente a conduta do art. 305." },
+        { "letra": "D", "correta": false, "justificativa": "O uso de documento falso (art. 304) exige fazer uso de papel falsificado ou alterado. Nenhum documento falso foi usado." },
+        { "letra": "E", "correta": false, "justificativa": "A falsidade ideológica (art. 299) exige omitir declaração devida ou inserir declaração falsa em documento. O agente não mexeu no conteúdo do documento, apenas o destruiu." }
+      ],
+      "fundamento_legal": "Código Penal, art. 305.",
+      "pegadinha": "Achar que a supressão de documento só protege documento público ou confundir a destruição de documento verdadeiro com falsificação ou falsidade ideológica.",
+      "o_que_mudou": "As alternativas deixaram de combinar o crime com a quantidade de pena e passaram a cobrar só a tipificação, distinguindo a supressão de documento da falsificação, do uso de documento falso e da falsidade ideológica."
+    },
+    {
+      "id": 733,
+      "enunciado": "Sobre o crime de adulteração de sinal identificador de veículo (art. 311 do CP), assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "A remarcação do número do chassi é típica ainda que seja realizada com autorização do órgão competente." },
+        { "letra": "B", "texto": "Se o agente comete o crime no exercício da função pública, não incide causa de aumento, por ser elementar." },
+        { "letra": "C", "texto": "A adulteração de sinal de reboque ou semirreboque não é alcançada, pois o tipo se limita ao veículo automotor." },
+        { "letra": "D", "texto": "Expor à venda, em loja de usados, veículo com placa que devesse saber adulterada é figura mais grave do § 3º." },
+        { "letra": "E", "texto": "O comércio irregular exercido em residência não se equipara à atividade comercial para os fins do § 3º do artigo." }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 311 pune quem adultera, remarca ou suprime número de chassi, monobloco, motor, placa ou qualquer sinal identificador de veículo automotor, elétrico, híbrido, de reboque, de semirreboque ou de suas combinações, sem autorização do órgão competente. O § 1º prevê causa de aumento quando o agente comete o crime no exercício da função pública ou em razão dela. O § 2º, III, alcança quem vende ou expõe à venda veículo com sinal que devesse saber adulterado, e o § 3º torna mais grave essa conduta quando praticada no exercício de atividade comercial ou industrial. O § 4º equipara a atividade comercial qualquer comércio irregular ou clandestino, inclusive em residência. Fundamento: art. 311, caput, §§ 1º a 4º, do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A ausência de autorização do órgão competente é elementar do tipo. Com autorização, a remarcação é atípica." },
+        { "letra": "B", "correta": false, "justificativa": "O § 1º prevê expressamente causa de aumento quando o crime é cometido no exercício da função pública ou em razão dela. A função pública não é elementar do caput." },
+        { "letra": "C", "correta": false, "justificativa": "Com a redação da Lei 14.562/2023, o caput abrange expressamente veículo elétrico, híbrido, reboque, semirreboque e suas combinações." },
+        { "letra": "D", "correta": true, "justificativa": "Expor à venda veículo com placa que devesse saber adulterada é conduta do § 2º, III. Praticada no exercício de atividade comercial (loja de usados), atrai a forma mais grave do § 3º." },
+        { "letra": "E", "correta": false, "justificativa": "O § 4º equipara expressamente à atividade comercial qualquer forma de comércio irregular ou clandestino, inclusive o exercido em residência." }
+      ],
+      "fundamento_legal": "Código Penal, art. 311, caput, §§ 1º a 4º.",
+      "pegadinha": "Esquecer que o tipo foi ampliado para reboques e semirreboques e que o comércio em residência se equipara à atividade comercial para a forma mais grave.",
+      "o_que_mudou": "As alternativas que comparavam penas e frações foram trocadas por afirmações sobre as elementares (autorização do órgão, objeto material), a hipótese da causa de aumento pela função pública e a forma mais grave da atividade comercial, sem citar quantidade de pena."
+    },
+    {
+      "id": 734,
+      "enunciado": "O tabelião que, no exercício da função pública, reconhece como verdadeira, em contrato particular, firma que sabe ser falsa pratica, em tese,",
+      "alternativas": [
+        { "letra": "A", "texto": "falsificação de documento particular, por ter alterado o contrato verdadeiro ao lançar nele o reconhecimento." },
+        { "letra": "B", "texto": "falsificação do selo ou sinal público, pois utilizou seu sinal de tabelião para autenticar a assinatura." },
+        { "letra": "C", "texto": "certidão ideologicamente falsa, pois certificou fato que habilita alguém a obter vantagem de caráter público." },
+        { "letra": "D", "texto": "falsidade ideológica comum, pois inseriu em documento particular declaração diversa da que devia constar." },
+        { "letra": "E", "texto": "falso reconhecimento de firma ou letra, crime que alcança o reconhecimento em documento público ou particular." }
+      ],
+      "gabarito": "E",
+      "comentario": "O art. 300 do CP pune quem reconhece, como verdadeira, no exercício de função pública, firma ou letra que o não seja. É tipo específico para o reconhecimento falso e abrange tanto documento público quanto documento particular (a natureza do documento só muda a pena). Por ser especial, prevalece sobre a falsidade ideológica genérica do art. 299 e sobre a certidão ideologicamente falsa do art. 301. O tabelião não falsificou seu sinal (art. 296), apenas usou o sinal verdadeiro para reconhecer firma falsa. Fundamento: art. 300 do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A falsificação de documento particular (art. 298) exige falsificar ou alterar o documento. O tabelião não alterou o contrato: reconheceu como verdadeira firma falsa, conduta que tem tipo próprio." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 296 pune falsificar selo ou sinal público, inclusive o de tabelião. Aqui o sinal é verdadeiro; o falso está no reconhecimento da firma." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 301 trata de atestar ou certificar fato que habilite a obter cargo público, isenção de ônus ou vantagem. O reconhecimento de firma falsa tem previsão específica no art. 300." },
+        { "letra": "D", "correta": false, "justificativa": "Embora haja declaração falsa, o reconhecimento de firma ou letra falsa por quem exerce função pública é tipificado no art. 300, que prevalece sobre o art. 299 pela especialidade." },
+        { "letra": "E", "correta": true, "justificativa": "Reconhecer como verdadeira, no exercício de função pública, firma que não o é configura o art. 300, que abrange documento público e particular." }
+      ],
+      "fundamento_legal": "Código Penal, art. 300.",
+      "pegadinha": "Enquadrar o reconhecimento falso de firma como falsidade ideológica genérica (art. 299) ou como falsificação do sinal de tabelião (art. 296).",
+      "o_que_mudou": "A questão deixou de perguntar a pena do art. 300 conforme o documento e passou a cobrar qual crime se configura, distinguindo o falso reconhecimento de firma dos arts. 296, 298, 299 e 301."
+    },
+    {
+      "id": 735,
+      "enunciado": "O sócio-administrador de uma empresa de segurança privada manda estampar nas viaturas da empresa, sem autorização, o brasão e a sigla oficiais da Guarda Municipal, para transmitir ao público a ideia de vínculo com o órgão. À luz do Código Penal, essa conduta",
+      "alternativas": [
+        { "letra": "A", "texto": "é atípica, pois o art. 296 protege apenas o selo público destinado a autenticar atos oficiais." },
+        { "letra": "B", "texto": "configura falsa identidade, pois o agente se atribui a qualidade de integrante da Guarda Municipal." },
+        { "letra": "C", "texto": "configura a figura equiparada do art. 296, § 1º, III: uso indevido de sigla e símbolo de órgão público." },
+        { "letra": "D", "texto": "configura falsificação de papel público, pois o brasão oficial equivale a papel de emissão legal." },
+        { "letra": "E", "texto": "só é típica se o agente for funcionário público e se prevalecer do cargo para usar os símbolos." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 296, § 1º, III, do CP (incluído pela Lei 9.983/2000) estende as penas da falsificação de selo ou sinal público a quem altera, falsifica ou faz uso indevido de marcas, logotipos, siglas ou quaisquer outros símbolos utilizados ou identificadores de órgãos ou entidades da Administração Pública. Estampar sem autorização o brasão e a sigla da Guarda Municipal nas viaturas de empresa privada é uso indevido desses símbolos. A condição de funcionário público não é exigida: o § 2º apenas prevê aumento quando o agente o é e se prevalece do cargo. Fundamento: art. 296, § 1º, III, e § 2º, do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Além do selo destinado a autenticar atos oficiais, o § 1º, III, protege marcas, logotipos, siglas e outros símbolos identificadores de órgãos públicos." },
+        { "letra": "B", "correta": false, "justificativa": "A falsa identidade (art. 307) exige que o agente atribua a si ou a terceiro identidade falsa. Aqui o agente usa indevidamente símbolos do órgão, conduta com previsão específica no art. 296, § 1º, III." },
+        { "letra": "C", "correta": true, "justificativa": "O uso indevido de sigla e brasão identificadores de órgão da Administração Pública é a conduta equiparada do art. 296, § 1º, III." },
+        { "letra": "D", "correta": false, "justificativa": "Brasão e sigla não estão entre os papéis públicos do art. 293 (selo de controle tributário, papel de crédito público, vale postal etc.)." },
+        { "letra": "E", "correta": false, "justificativa": "Qualquer pessoa pode praticar a conduta. Ser funcionário público e prevalecer-se do cargo é apenas causa de aumento (§ 2º), não requisito do crime." }
+      ],
+      "fundamento_legal": "Código Penal, art. 296, § 1º, III, e § 2º.",
+      "pegadinha": "Achar que o art. 296 protege só selos de autenticação ou confundir o uso indevido de símbolo de órgão público com falsa identidade.",
+      "o_que_mudou": "As alternativas que traziam penas foram substituídas por enquadramentos do fato: atipicidade, falsa identidade, figura equiparada do art. 296, § 1º, III, papel público e a exigência indevida de ser funcionário público."
+    },
+    {
+      "id": 876,
+      "enunciado": "Sobre o crime de estupro em sua forma simples (art. 213, caput, do Código Penal), assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "Exige conjunção carnal, de modo que outro ato libidinoso forçado configura apenas importunação sexual." },
+        { "letra": "B", "texto": "Pode ter como vítima pessoa de qualquer sexo e abrange a conjunção carnal e o outro ato libidinoso." },
+        { "letra": "C", "texto": "Configura-se também quando o agente obtém o ato por fraude, sem empregar violência ou grave ameaça." },
+        { "letra": "D", "texto": "Procede-se mediante ação penal pública condicionada à representação, quando a vítima for adulta." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 213 pune quem constrange alguém, mediante violência ou grave ameaça, a ter conjunção carnal ou a praticar ou permitir que com ele se pratique outro ato libidinoso. O termo 'alguém' indica que a vítima pode ser de qualquer sexo, e o tipo abrange tanto a conjunção carnal quanto outro ato libidinoso. O meio de execução é a violência ou a grave ameaça; a obtenção do ato por fraude é violação sexual mediante fraude (art. 215). Desde a Lei 13.718/2018, os crimes dos Capítulos I e II do Título VI são de ação penal pública incondicionada (art. 225). Fundamento: CP, arts. 213, 215 e 225.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 213 abrange expressamente a conjunção carnal e o outro ato libidinoso. Ato libidinoso obtido com violência ou grave ameaça é estupro; a importunação sexual (art. 215-A) só se aplica se o ato não constitui crime mais grave." },
+        { "letra": "B", "correta": true, "justificativa": "O tipo usa 'alguém', de modo que homem ou mulher podem ser vítimas, e alcança a conjunção carnal e outro ato libidinoso." },
+        { "letra": "C", "correta": false, "justificativa": "Ato sexual obtido por fraude, sem violência ou grave ameaça, configura violação sexual mediante fraude (art. 215), e não estupro." },
+        { "letra": "D", "correta": false, "justificativa": "Pelo art. 225, com a redação da Lei 13.718/2018, a ação penal nos crimes contra a liberdade sexual é pública incondicionada, qualquer que seja a idade da vítima." }
+      ],
+      "fundamento_legal": "Código Penal, arts. 213, caput, 215, 215-A e 225.",
+      "pegadinha": "Achar que o estupro exige conjunção carnal, confundir fraude com violência ou grave ameaça e aplicar a antiga ação penal condicionada à representação.",
+      "o_que_mudou": "A questão deixou de perguntar a pena do estupro simples e passou a cobrar os elementos do tipo (vítima, condutas, meio de execução) e a ação penal, distinguindo o estupro da violação sexual mediante fraude e da importunação sexual."
+    },
+    {
+      "id": 877,
+      "enunciado": "Em plantão na delegacia, o inspetor registra ocorrência na qual o autor, mediante grave ameaça exercida com uma faca, constrangeu uma adolescente de 16 anos a praticar ato libidinoso. A vítima não sofreu lesão corporal. Com base exclusivamente no Código Penal, a conduta corresponde a",
+      "alternativas": [
+        { "letra": "A", "texto": "estupro de vulnerável (art. 217-A, caput), pois a vítima ainda não havia completado 18 anos." },
+        { "letra": "B", "texto": "estupro simples (art. 213, caput), pois a vítima não sofreu lesão corporal de natureza grave." },
+        { "letra": "C", "texto": "violação sexual mediante fraude (art. 215), por meio que dificultou a vontade da vítima." },
+        { "letra": "D", "texto": "estupro qualificado pelo resultado (art. 213, § 2º), pelo uso de faca na grave ameaça." },
+        { "letra": "E", "texto": "estupro qualificado (art. 213, § 1º), pois a vítima é menor de 18 e maior de 14 anos." }
+      ],
+      "gabarito": "E",
+      "comentario": "O § 1º do art. 213 prevê duas hipóteses alternativas de qualificadora: resultar lesão corporal de natureza grave ou ser a vítima menor de 18 e maior de 14 anos. Basta uma delas. Como houve constrangimento mediante grave ameaça contra adolescente de 16 anos, configura-se o estupro qualificado pela idade da vítima, ainda que não tenha havido lesão. O estupro de vulnerável por idade (art. 217-A) exige vítima menor de 14 anos, e o § 2º do art. 213 exige resultado morte. Fundamento: CP, art. 213, § 1º.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O estupro de vulnerável por idade (art. 217-A, caput) exige vítima menor de 14 anos. A vítima tinha 16." },
+        { "letra": "B", "correta": false, "justificativa": "A ausência de lesão grave não afasta a qualificadora, que também incide quando a vítima é menor de 18 e maior de 14 anos." },
+        { "letra": "C", "correta": false, "justificativa": "Houve grave ameaça com faca, e não fraude ou outro meio que impeça ou dificulte a livre manifestação de vontade. Grave ameaça é meio do estupro (art. 213)." },
+        { "letra": "D", "correta": false, "justificativa": "O § 2º do art. 213 exige resultado morte. O uso de faca é apenas o meio da grave ameaça e não qualifica o crime pelo resultado." },
+        { "letra": "E", "correta": true, "justificativa": "Vítima entre 14 e 18 anos, constrangida mediante grave ameaça, atrai a qualificadora do art. 213, § 1º, independentemente de lesão." }
+      ],
+      "fundamento_legal": "Código Penal, art. 213, § 1º.",
+      "pegadinha": "Achar que a qualificadora do § 1º depende de lesão grave, quando a idade da vítima entre 14 e 18 anos já basta, ou confundir com o estupro de vulnerável (menor de 14).",
+      "o_que_mudou": "O enunciado e o gabarito foram mantidos, mas as alternativas deixaram de trazer a quantidade de pena de cada crime e passaram a indicar só o enquadramento e a razão dele."
+    }
+  ]
+}

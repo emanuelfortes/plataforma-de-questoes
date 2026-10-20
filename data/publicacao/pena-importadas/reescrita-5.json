@@ -1,0 +1,172 @@
+{
+  "itens": [
+    {
+      "id": 879,
+      "enunciado": "Sobre o crime de violação sexual mediante fraude, previsto no art. 215 do Código Penal, assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "Exige o emprego de violência ou grave ameaça para obter a conjunção carnal ou o ato libidinoso." },
+        { "letra": "B", "texto": "Abrange, além da fraude, outro meio que impeça ou dificulte a livre manifestação de vontade da vítima." },
+        { "letra": "C", "texto": "Limita-se à conjunção carnal obtida por fraude, sem alcançar a prática de outro ato libidinoso." },
+        { "letra": "D", "texto": "Quando praticado para obter vantagem econômica, passa a configurar o rufianismo do art. 230." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 215 do CP pune quem tem conjunção carnal ou pratica outro ato libidinoso com alguém mediante fraude ou outro meio que impeça ou dificulte a livre manifestação de vontade da vítima. Não há violência nem grave ameaça (isso seria estupro, art. 213). Se o crime tem o fim de obter vantagem econômica, o parágrafo único apenas manda aplicar também multa: o crime continua sendo o do art. 215.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Violência ou grave ameaça são elementares do estupro (art. 213). No art. 215 o meio é a fraude ou outro meio que impeça ou dificulte a manifestação de vontade." },
+        { "letra": "B", "correta": true, "justificativa": "Reproduz o tipo do art. 215: fraude ou outro meio que impeça ou dificulte a livre manifestação de vontade da vítima." },
+        { "letra": "C", "correta": false, "justificativa": "O tipo alcança a conjunção carnal e também a prática de outro ato libidinoso." },
+        { "letra": "D", "correta": false, "justificativa": "O fim de vantagem econômica não muda o crime: o parágrafo único do art. 215 só acrescenta a multa. Rufianismo (art. 230) é tirar proveito da prostituição alheia." }
+      ],
+      "fundamento_legal": "Código Penal, art. 215, caput e parágrafo único; art. 213 (comparação).",
+      "pegadinha": "Confundir o meio executório da violação mediante fraude com o do estupro e achar que o fim econômico muda o crime.",
+      "o_que_mudou": "As alternativas deixaram de comparar penas (reclusão de 2 a 6 anos, detenção de 1 a 2 anos, aumento de metade) e passaram a cobrar os elementos do tipo e o efeito do fim econômico."
+    },
+    {
+      "id": 883,
+      "enunciado": "Agente que, sem autorização dos participantes, filma cena de nudez de caráter íntimo e privado, mas não divulga o material, pratica, segundo o Código Penal:",
+      "alternativas": [
+        { "letra": "A", "texto": "divulgação de cena de sexo ou nudez (art. 218-C), pois o próprio registro sem consentimento já a configura." },
+        { "letra": "B", "texto": "fato atípico, pois o Código Penal só pune a exposição da intimidade quando o material é divulgado." },
+        { "letra": "C", "texto": "importunação sexual (art. 215-A), por ter praticado contra a vítima ato de conteúdo libidinoso." },
+        { "letra": "D", "texto": "registro não autorizado da intimidade sexual (art. 216-B), ainda que o material não seja divulgado." }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 216-B do CP pune quem produz, fotografa, filma ou registra, por qualquer meio, conteúdo com cena de nudez ou ato sexual ou libidinoso de caráter íntimo e privado sem autorização dos participantes. O simples registro já consuma o crime; a divulgação é outra conduta, punida no art. 218-C.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 218-C exige oferecer, transmitir, publicar, divulgar ou conduta semelhante. Filmar sem divulgar não é divulgação." },
+        { "letra": "B", "correta": false, "justificativa": "O fato é típico: o art. 216-B pune o registro não autorizado, independentemente de divulgação." },
+        { "letra": "C", "correta": false, "justificativa": "A importunação sexual exige praticar contra alguém, sem anuência, ato libidinoso para satisfazer a lascívia; filmar a cena não é isso." },
+        { "letra": "D", "correta": true, "justificativa": "Filmar cena de nudez íntima e privada sem autorização dos participantes é exatamente a conduta do art. 216-B." }
+      ],
+      "fundamento_legal": "Código Penal, art. 216-B, caput; art. 218-C e art. 215-A (comparação).",
+      "pegadinha": "Achar que a exposição da intimidade só é crime quando há divulgação, ou confundir o registro (216-B) com a divulgação (218-C).",
+      "o_que_mudou": "As alternativas deixaram de trazer as penas de cada crime e passaram a cobrar só a tipificação, incluindo a tese do fato atípico como distrator."
+    },
+    {
+      "id": 887,
+      "enunciado": "Um homem de 20 anos mantém conjunção carnal com uma adolescente de 13 anos, que consentiu com o ato e já havia tido relações sexuais anteriores. Da conduta resulta lesão corporal de natureza grave na vítima. Segundo o Código Penal e a Lei nº 8.072/1990, o agente:",
+      "alternativas": [
+        { "letra": "A", "texto": "responde por estupro de vulnerável qualificado pela lesão grave (art. 217-A, § 3º), crime hediondo." },
+        { "letra": "B", "texto": "responde por estupro qualificado (art. 213, § 1º), pois a vítima consentiu e já tinha experiência sexual." },
+        { "letra": "C", "texto": "responde por estupro de vulnerável simples, pois o consentimento relativiza a presunção de vulnerabilidade." },
+        { "letra": "D", "texto": "responde só pela lesão corporal grave, pois o consentimento da vítima afasta o crime contra a dignidade sexual." }
+      ],
+      "gabarito": "A",
+      "comentario": "Ter conjunção carnal com menor de 14 anos é estupro de vulnerável (art. 217-A). A presunção de vulnerabilidade é absoluta e não admite relativização (§ 4º-A), e as penas se aplicam independentemente do consentimento da vítima ou de relações sexuais anteriores (§ 5º). Como resultou lesão corporal grave, incide a forma qualificada do § 3º. O estupro de vulnerável, inclusive nos §§ 3º e 4º, é hediondo (Lei 8.072/1990, art. 1º, VI).",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Vítima menor de 14 anos e resultado lesão grave: art. 217-A, § 3º, crime hediondo pelo art. 1º, VI, da Lei 8.072/1990." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 213, § 1º, trata da vítima entre 14 e 18 anos e exige violência ou grave ameaça. Com vítima de 13 anos o crime é o do art. 217-A, e o consentimento é irrelevante (§ 5º)." },
+        { "letra": "C", "correta": false, "justificativa": "A presunção de vulnerabilidade é absoluta e inadmissível sua relativização (§ 4º-A); além disso, o resultado lesão grave qualifica o crime (§ 3º)." },
+        { "letra": "D", "correta": false, "justificativa": "O consentimento do menor de 14 anos não afasta o estupro de vulnerável (§ 5º)." }
+      ],
+      "fundamento_legal": "Código Penal, art. 217-A, caput, §§ 3º, 4º-A e 5º; Lei 8.072/1990, art. 1º, VI.",
+      "pegadinha": "Achar que o consentimento ou a experiência sexual anterior da vítima menor de 14 anos muda a tipificação.",
+      "o_que_mudou": "A questão deixou de pedir as faixas de pena dos §§ 3º e 4º e passou a cobrar a tipificação no caso concreto: vulnerabilidade absoluta, irrelevância do consentimento, forma qualificada e natureza hedionda."
+    },
+    {
+      "id": 888,
+      "enunciado": "Um homem publica em rede social, sem o consentimento da vítima, um vídeo que contém cena de nudez dela. Ele nunca manteve relação afetiva com a vítima e não agiu por vingança ou humilhação. Se o fato não constituir crime mais grave, ele responde por:",
+      "alternativas": [
+        { "letra": "A", "texto": "registro não autorizado da intimidade sexual (art. 216-B), pois o vídeo mostra cena íntima sem autorização." },
+        { "letra": "B", "texto": "divulgação de cena de nudez (art. 218-C) com a causa de aumento do § 1º, pela falta de consentimento." },
+        { "letra": "C", "texto": "divulgação de cena de sexo, nudez ou pornografia (art. 218-C), na forma simples, sem o aumento do § 1º." },
+        { "letra": "D", "texto": "importunação sexual (art. 215-A), pois a publicação expôs a vítima a constrangimento de cunho sexual." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 218-C do CP pune quem publica ou divulga, por qualquer meio, inclusive sistema de informática ou telemática, registro audiovisual que contenha, sem o consentimento da vítima, cena de sexo, nudez ou pornografia. A causa de aumento do § 1º só incide se o agente mantém ou manteve relação íntima de afeto com a vítima ou age com fim de vingança ou humilhação, o que o enunciado afasta. Logo, é a forma simples.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 216-B pune o registro (filmar, fotografar). O caso narra a publicação, conduta do art. 218-C." },
+        { "letra": "B", "correta": false, "justificativa": "A falta de consentimento é elementar do caput. O aumento do § 1º depende de relação íntima de afeto ou de fim de vingança ou humilhação, ausentes no caso." },
+        { "letra": "C", "correta": true, "justificativa": "Publicar, sem consentimento, vídeo com nudez da vítima é o art. 218-C, e sem as hipóteses do § 1º fica na forma simples." },
+        { "letra": "D", "correta": false, "justificativa": "A importunação sexual exige a prática de ato libidinoso contra a vítima, o que não houve." }
+      ],
+      "fundamento_legal": "Código Penal, art. 218-C, caput e § 1º; arts. 216-B e 215-A (comparação).",
+      "pegadinha": "Aplicar a causa de aumento do § 1º só porque não houve consentimento, quando ela exige relação afetiva ou fim de vingança ou humilhação.",
+      "o_que_mudou": "As alternativas deixaram de comparar a pena atual e a anterior do art. 218-C e passaram a cobrar a tipificação e a hipótese da causa de aumento, sem fração."
+    },
+    {
+      "id": 894,
+      "enunciado": "Nos crimes contra a dignidade sexual (Título VI do Código Penal), o art. 234-A prevê causa de aumento de pena para a hipótese em que:",
+      "alternativas": [
+        { "letra": "A", "texto": "o crime é praticado mediante o concurso de duas ou mais pessoas, ainda que só uma pratique o ato sexual." },
+        { "letra": "B", "texto": "o agente é ascendente, padrasto, tutor ou empregador da vítima ou tem qualquer autoridade sobre ela." },
+        { "letra": "C", "texto": "o agente transmite à vítima doença sexualmente transmissível de que sabe ou deveria saber ser portador." },
+        { "letra": "D", "texto": "o agente transmite doença à vítima, desde que se prove que tinha ciência efetiva de ser portador dela." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 234-A do CP aumenta a pena dos crimes do Título VI se do crime resulta gravidez (inciso III) e se o agente transmite à vítima doença sexualmente transmissível de que sabe ou deveria saber ser portador, ou se a vítima é idosa ou pessoa com deficiência (inciso IV). O concurso de pessoas e a relação de parentesco ou autoridade sobre a vítima são hipóteses de aumento do art. 226, não do art. 234-A.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O concurso de duas ou mais pessoas é causa de aumento do art. 226, I (e do inciso IV, a, no estupro coletivo), não do art. 234-A." },
+        { "letra": "B", "correta": false, "justificativa": "Parentesco, tutela, emprego ou autoridade sobre a vítima estão no art. 226, II, não no art. 234-A." },
+        { "letra": "C", "correta": true, "justificativa": "Reproduz o art. 234-A, IV: transmissão de doença sexualmente transmissível de que o agente sabe ou deveria saber ser portador." },
+        { "letra": "D", "correta": false, "justificativa": "A lei não exige ciência efetiva: basta que o agente saiba ou deveria saber ser portador." }
+      ],
+      "fundamento_legal": "Código Penal, art. 234-A, III e IV; art. 226, I e II (comparação).",
+      "pegadinha": "Confundir as causas de aumento do art. 234-A com as do art. 226 e exigir conhecimento efetivo da doença.",
+      "o_que_mudou": "A questão deixou de pedir as frações de aumento e passou a cobrar quais hipóteses estão no art. 234-A, distinguindo-as das do art. 226. Na análise da letra D, saiu a leitura doutrinária \"(dolo direto ou eventual)\", que não está no texto legal."
+    },
+    {
+      "id": 925,
+      "enunciado": "Integrante de associação voltada à prática de extorsões mediante sequestro comparece à delegacia e denuncia o grupo à autoridade, fornecendo informações que possibilitam o seu desmantelamento. Conforme o parágrafo único do art. 8º da Lei nº 8.072/1990, esse associado:",
+      "alternativas": [
+        { "letra": "A", "texto": "terá extinta a punibilidade, por ter colaborado de forma eficaz com a investigação do grupo criminoso." },
+        { "letra": "B", "texto": "terá direito ao perdão judicial, desde que confesse a participação e restitua o produto dos crimes." },
+        { "letra": "C", "texto": "terá direito a causa de diminuição, por ter denunciado o grupo e possibilitado o seu desmantelamento." },
+        { "letra": "D", "texto": "terá direito a causa de diminuição apenas se for primário e confessar a participação no grupo." }
+      ],
+      "gabarito": "C",
+      "comentario": "O parágrafo único do art. 8º da Lei 8.072/1990 prevê causa de diminuição de pena para o participante e o associado que denunciar à autoridade o bando ou quadrilha, possibilitando seu desmantelamento. Os requisitos são a denúncia à autoridade e o resultado (desmantelamento). A lei não prevê extinção da punibilidade nem perdão judicial, e não exige primariedade ou confissão.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A consequência legal é a diminuição da pena, não a extinção da punibilidade." },
+        { "letra": "B", "correta": false, "justificativa": "O dispositivo não prevê perdão judicial, nem exige confissão ou restituição." },
+        { "letra": "C", "correta": true, "justificativa": "Reproduz o benefício e seus requisitos: denunciar o grupo à autoridade e possibilitar o desmantelamento." },
+        { "letra": "D", "correta": false, "justificativa": "A lei não exige primariedade nem confissão: basta a denúncia que possibilite o desmantelamento." }
+      ],
+      "fundamento_legal": "Lei 8.072/1990, art. 8º, parágrafo único.",
+      "pegadinha": "Confundir a causa de diminuição da delação do art. 8º com extinção da punibilidade ou perdão judicial, ou inventar requisitos.",
+      "o_que_mudou": "As alternativas deixaram de comparar frações de redução e passaram a cobrar a natureza do benefício (diminuição, e não extinção ou perdão) e seus requisitos."
+    },
+    {
+      "id": 1023,
+      "enunciado": "O corregedor de uma guarda municipal toma conhecimento, dias depois do fato, de que guardas torturaram um detido e, embora tenha o dever funcional de apurar o ocorrido, deixa deliberadamente de instaurar qualquer procedimento. Segundo a Lei nº 9.455/1997, o corregedor:",
+      "alternativas": [
+        { "letra": "A", "texto": "não comete crime da lei, pois a omissão só é punida quando o agente podia evitar a tortura enquanto ocorria." },
+        { "letra": "B", "texto": "responde pela tortura comissiva do inciso I, como se tivesse participado da agressão, por ter dever funcional." },
+        { "letra": "C", "texto": "responde por tortura com a causa de aumento de agente público, sem distinguir a ação da omissão posterior." },
+        { "letra": "D", "texto": "responde pela omissão do § 2º, que alcança quem tinha o dever de evitar ou de apurar as condutas de tortura." }
+      ],
+      "gabarito": "D",
+      "comentario": "O § 2º do art. 1º da Lei 9.455/1997 pune quem se omite em face das condutas de tortura quando tinha o dever de evitá-las ou apurá-las. A omissão posterior ao fato, por quem deveria investigá-lo, também é crime, mas é figura própria e autônoma: o omitente não responde pela tortura comissiva. Essa figura é, inclusive, a exceção ao início em regime fechado do § 7º.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O § 2º menciona expressamente o dever de apurar, que é posterior à conduta." },
+        { "letra": "B", "correta": false, "justificativa": "O omitente responde pela figura própria do § 2º, e não como autor da tortura comissiva." },
+        { "letra": "C", "correta": false, "justificativa": "A lei trata a omissão de modo autônomo no § 2º; a alternativa ignora essa figura e a equipara à ação." },
+        { "letra": "D", "correta": true, "justificativa": "O corregedor tinha o dever de apurar e se omitiu: é a hipótese do § 2º." }
+      ],
+      "fundamento_legal": "Lei 9.455/1997, art. 1º, §§ 2º e 7º.",
+      "pegadinha": "Achar que a omissão só é punida quando o agente podia impedir a tortura, esquecendo o dever de apurar.",
+      "o_que_mudou": "As alternativas B e C deixaram de citar pena e fração de aumento; agora todas cobram só o enquadramento da omissão."
+    },
+    {
+      "id": 1027,
+      "enunciado": "Segundo o art. 1º, § 4º, da Lei nº 9.455/1997, incide causa de aumento de pena no crime de tortura cometido:",
+      "alternativas": [
+        { "letra": "A", "texto": "contra pessoa maior de 70 anos, contra gestante ou mediante emboscada." },
+        { "letra": "B", "texto": "por particular contra servidor público no exercício de suas funções." },
+        { "letra": "C", "texto": "mediante concurso de duas ou mais pessoas ou contra pessoa já presa." },
+        { "letra": "D", "texto": "contra pessoa maior de 60 anos, contra gestante ou mediante sequestro." }
+      ],
+      "gabarito": "D",
+      "comentario": "O § 4º do art. 1º da Lei 9.455/1997 aumenta a pena se o crime é cometido por agente público (I); contra criança, gestante, portador de deficiência, adolescente ou maior de 60 anos (II); ou mediante sequestro (III). A tortura de pessoa presa por ato não previsto em lei é figura equiparada do § 1º, não causa de aumento.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A idade prevista é maior de 60 anos, e a lei fala em sequestro, não em emboscada." },
+        { "letra": "B", "correta": false, "justificativa": "Inverte a hipótese: o aumento incide quando o crime é cometido por agente público (inciso I), não contra ele." },
+        { "letra": "C", "correta": false, "justificativa": "O concurso de pessoas não está no § 4º, e a tortura de pessoa presa é figura do § 1º, não causa de aumento." },
+        { "letra": "D", "correta": true, "justificativa": "Reúne hipóteses dos incisos II e III do § 4º: maior de 60 anos, gestante e sequestro." }
+      ],
+      "fundamento_legal": "Lei 9.455/1997, art. 1º, §§ 1º e 4º.",
+      "pegadinha": "Trocar a idade (60 por 70), o meio (sequestro por emboscada) ou inverter a hipótese do agente público.",
+      "o_que_mudou": "A questão deixou de pedir a fração do aumento e passou a cobrar as hipóteses em que ele incide."
+    }
+  ]
+}

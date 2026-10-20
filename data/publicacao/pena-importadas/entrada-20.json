@@ -1,0 +1,264 @@
+{
+  "itens": [
+    {
+      "id": 2829,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Crimes Eleitorais",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--crimes-eleitorais.md",
+      "atual": {
+        "enunciado": "Inscrever-se fraudulentamente eleitor é crime previsto no art. 289 do Código Eleitoral, punido com:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "reclusão até cinco anos e pagamento de cinco a 15 dias-multa."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão até dois anos e pagamento de 15 a 30 dias-multa."
+          },
+          {
+            "letra": "C",
+            "texto": "detenção de 15 dias a seis meses ou pagamento de 30 a 60 dias-multa."
+          },
+          {
+            "letra": "D",
+            "texto": "detenção até seis meses e pagamento de 60 a 100 dias-multa."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "A inscrição fraudulenta do próprio eleitor (art. 289) é punida com reclusão até cinco anos e pagamento de cinco a 15 dias-multa. A mesma pena se aplica ao juiz que efetua fraudulentamente a inscrição de alistando (art. 291). Análise das alternativas: A) Correta. É a pena prevista no art. 289. B) Errada. Essa é a pena do art. 290 (induzir alguém a se inscrever com infração ao Código). C) Errada. Essa é a pena do art. 293 (perturbar ou impedir o alistamento). D) Errada. Essa é a pena dos arts. 297 e 300, não do art. 289. Fundamento: art. 289 da Lei nº 4.737/1965 (Código Eleitoral).",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2832,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Crimes Eleitorais",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--crimes-eleitorais.md",
+      "atual": {
+        "enunciado": "Um servidor público municipal, valendo-se da autoridade do cargo, coage subordinados a votar em determinado candidato a prefeito, sem empregar violência ou grave ameaça. Pelo Código Eleitoral, ele comete o crime do art. 300, punido com:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "detenção até seis meses e pagamento de 60 a 100 dias-multa."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão até quatro anos e pagamento de cinco a quinze dias-multa."
+          },
+          {
+            "letra": "C",
+            "texto": "detenção até dois meses e pagamento de 60 a 90 dias-multa."
+          },
+          {
+            "letra": "D",
+            "texto": "reclusão até cinco anos e pagamento de cinco a quinze dias-multa."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O art. 300 pune o servidor público que se vale de sua autoridade para coagir alguém a votar ou não votar em determinado candidato ou partido, com detenção até seis meses e 60 a 100 dias-multa. Se o agente é membro ou funcionário da Justiça Eleitoral e se prevalece do cargo, a pena é agravada (parágrafo único). Análise das alternativas: A) Correta. É a pena do art. 300, caput. B) Errada. Essa é a pena do art. 301, que exige violência ou grave ameaça. C) Errada. Essa é a pena do art. 296 (promover desordem que prejudique os trabalhos eleitorais). D) Errada. Essa é a pena dos arts. 289 e 291, relativos à inscrição fraudulenta. Fundamento: art. 300 da Lei nº 4.737/1965 (Código Eleitoral).",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2833,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Crimes Eleitorais",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--crimes-eleitorais.md",
+      "atual": {
+        "enunciado": "Integrantes de grupo armado ameaçam gravemente moradores de uma comunidade para que votem em certo candidato a vereador. Apurado o resultado, constata-se que a maioria dos moradores votou em outros candidatos. Pelo Código Eleitoral, os autores:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "cometem apenas tentativa do crime do art. 301, já que os moradores não votaram no candidato indicado pelos agentes."
+          },
+          {
+            "letra": "B",
+            "texto": "cometem o crime do art. 300, punido com detenção até seis meses e multa, por se tratar de coação a votar em candidato."
+          },
+          {
+            "letra": "C",
+            "texto": "cometem o crime do art. 297, punido com detenção até seis meses e multa, por terem embaraçado o exercício do sufrágio."
+          },
+          {
+            "letra": "D",
+            "texto": "cometem o crime do art. 301, punido com reclusão até quatro anos e multa, pois o tipo se perfaz ainda que os fins visados não sejam conseguidos."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 301 pune quem usa de violência ou grave ameaça para coagir alguém a votar, ou não votar, em determinado candidato ou partido, com reclusão até quatro anos e cinco a quinze dias-multa. É crime formal: consuma-se ainda que os fins visados não sejam conseguidos. Análise das alternativas: A) Errada. O art. 301 diz 'ainda que os fins visados não sejam conseguidos'; o crime está consumado. B) Errada. O art. 300 exige servidor público valendo-se da autoridade; aqui houve grave ameaça por particulares (art. 301). C) Errada. A coação mediante violência ou grave ameaça para votar em determinado candidato tem tipo próprio no art. 301. D) Correta. O art. 301 prevê expressamente a consumação mesmo sem o alcance dos fins visados. Fundamento: art. 301 da Lei nº 4.737/1965 (Código Eleitoral).",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2835,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Crimes Eleitorais",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--crimes-eleitorais.md",
+      "atual": {
+        "enunciado": "No dia da eleição, um agente prende um fiscal de partido nas proximidades de uma seção eleitoral, com violação do disposto no art. 236 do Código Eleitoral. Essa conduta caracteriza o crime do art. 298 do Código, punido com:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "detenção até seis meses e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "detenção até dois meses ou multa."
+          },
+          {
+            "letra": "C",
+            "texto": "reclusão até quatro anos."
+          },
+          {
+            "letra": "D",
+            "texto": "reclusão até dois anos e multa."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O art. 298 pune quem prende ou detém eleitor, membro de mesa receptora, fiscal, delegado de partido ou candidato com violação do disposto no art. 236. A pena é de reclusão até quatro anos, sem previsão de multa. Análise das alternativas: A) Errada. Essa pena (com 60 a 100 dias-multa) é a dos arts. 297 e 300. B) Errada. Essa pena (com 30 a 60 dias-multa) é a do art. 295. C) Correta. O art. 298 comina reclusão até quatro anos, sem multa. D) Errada. Essa pena (com 15 a 30 dias-multa) é a do art. 290. Fundamento: art. 298 da Lei nº 4.737/1965 (Código Eleitoral).",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2836,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Abuso de Autoridade",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--abuso-de-autoridade.md",
+      "atual": {
+        "enunciado": "Um juiz recebe o auto de prisão em flagrante de um investigado e verifica que a prisão é manifestamente ilegal. Ainda assim, por mero capricho, deixa de relaxá-la dentro de prazo razoável. À luz da Lei nº 13.869/2019, a omissão do magistrado:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "configura crime, com a mesma pena de quem decreta prisão em manifesta desconformidade com as hipóteses legais."
+          },
+          {
+            "letra": "B",
+            "texto": "configura crime omissivo punido com detenção de 6 meses a 2 anos, a mesma pena da falta de comunicação do flagrante."
+          },
+          {
+            "letra": "C",
+            "texto": "não configura crime, pois o tipo pune apenas a conduta comissiva de decretar a prisão, e não a omissão em relaxá-la."
+          },
+          {
+            "letra": "D",
+            "texto": "configura crime apenas se houver habeas corpus impetrado, pois o tipo se limita ao indeferimento da ordem."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O art. 9º pune quem decreta medida de privação da liberdade em manifesta desconformidade com as hipóteses legais. O parágrafo único estende a mesma pena à autoridade judiciária que, dentro de prazo razoável, deixa de relaxar prisão manifestamente ilegal, de substituir a preventiva ou conceder liberdade provisória quando manifestamente cabível, ou de deferir liminar ou ordem de habeas corpus quando manifestamente cabível. Análise das alternativas: A) Correta: O parágrafo único do art. 9º manda aplicar a mesma pena do caput à autoridade judiciária que deixa de relaxar prisão manifestamente ilegal. B) Errada: A pena é a do caput do art. 9º: detenção de 1 a 4 anos, e multa; 6 meses a 2 anos é a pena do art. 12. C) Errada: O parágrafo único do art. 9º tipifica expressamente a omissão de relaxar a prisão manifestamente ilegal. D) Errada: Deixar de deferir habeas corpus é só uma das hipóteses (inciso III); o inciso I pune autonomamente a falta de relaxamento. Fundamento: art. 9º, caput e parágrafo único, I, da Lei nº 13.869/2019.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2843,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Abuso de Autoridade",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--abuso-de-autoridade.md",
+      "atual": {
+        "enunciado": "Um preso redige pedido ao juiz questionando a legalidade de sua prisão. O carcereiro, sem justificativa, retém o documento por semanas. Depois, o pedido chega a um juiz que, não sendo competente para decidir sobre a prisão, deixa de enviá-lo à autoridade competente e o arquiva. Conforme a Lei nº 13.869/2019:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "apenas o carcereiro comete crime, pois o magistrado não responde por abuso de autoridade omissivo."
+          },
+          {
+            "letra": "B",
+            "texto": "o carcereiro comete crime punido com detenção de 6 meses a 2 anos; o juiz responde só disciplinarmente."
+          },
+          {
+            "letra": "C",
+            "texto": "carcereiro e magistrado incorrem no mesmo tipo penal, punido com detenção de 1 a 4 anos, e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "apenas o magistrado comete crime, pois a retenção do pedido por servidor é mera irregularidade."
+          },
+          {
+            "letra": "E",
+            "texto": "nenhum deles comete crime, pois o tipo exige pedido sobre a custódia, e não sobre a legalidade da prisão."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O art. 19 pune quem impede ou retarda, injustificadamente, o envio de pleito do preso à autoridade judiciária competente para apreciar a legalidade da prisão ou as circunstâncias da custódia. O parágrafo único aplica a mesma pena ao magistrado que, ciente do impedimento ou da demora, não o sana, ou que, não sendo competente, deixa de enviar o pedido ao juiz que o seja. Análise das alternativas: A) Errada: O parágrafo único do art. 19 pune expressamente a omissão do magistrado. B) Errada: A pena é de 1 a 4 anos, e o juiz também comete crime pelo parágrafo único. C) Correta: O caput do art. 19 alcança o carcereiro, e o parágrafo único, o magistrado incompetente que não remete o pedido. D) Errada: Retardar injustificadamente o envio do pleito do preso é o núcleo do caput do art. 19. E) Errada: O art. 19 abrange pleito sobre a legalidade da prisão ou sobre as circunstâncias da custódia. Fundamento: art. 19, caput e parágrafo único, da Lei nº 13.869/2019.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2851,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Abuso de Autoridade",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--abuso-de-autoridade.md",
+      "atual": {
+        "enunciado": "Em julgamento de órgão colegiado, um desembargador pede vista do processo e demora demasiada e injustificadamente para devolvê-lo, com o intuito de retardar o julgamento. Pela Lei nº 13.869/2019:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "há crime, punido com detenção de 1 a 4 anos, e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "não há crime, pois o pedido de vista é prerrogativa protegida pela independência funcional."
+          },
+          {
+            "letra": "C",
+            "texto": "há crime somente se o pedido de vista ocorrer em processo de réu preso."
+          },
+          {
+            "letra": "D",
+            "texto": "há crime, punido com detenção de 6 meses a 2 anos, e multa."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 37 pune quem demora demasiada e injustificadamente no exame de processo de que tenha requerido vista em órgão colegiado, com o intuito de procrastinar seu andamento ou retardar o julgamento. A pena é de detenção, de 6 meses a 2 anos, e multa. Análise das alternativas: A) Errada: A pena do art. 37 é de 6 meses a 2 anos. B) Errada: O art. 37 tipifica a demora demasiada e injustificada no exame de processo com vista. C) Errada: A lei não exige que o processo envolva réu preso. D) Correta: É a conduta e a pena do art. 37. Fundamento: art. 37 da Lei nº 13.869/2019.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2855,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Abuso de Autoridade",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--abuso-de-autoridade.md",
+      "atual": {
+        "enunciado": "A Lei nº 13.869/2019 deu nova redação ao art. 10 da Lei nº 9.296/1996, que trata da interceptação de comunicações. Segundo esse texto:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "é crime promover escuta ambiental sem autorização judicial, com reclusão de 2 a 4 anos, e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "é crime realizar interceptação sem autorização judicial, com pena de detenção de 1 a 4 anos, e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "o juiz que determina interceptação com objetivo não autorizado em lei responde só administrativamente."
+          },
+          {
+            "letra": "D",
+            "texto": "a escuta ambiental sem autorização judicial é atípica, pois o tipo alcança só comunicações telefônicas."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O art. 41 da Lei nº 13.869/2019 reescreveu o art. 10 da Lei nº 9.296/1996: é crime realizar interceptação de comunicações telefônicas, de informática ou telemática, promover escuta ambiental ou quebrar segredo da Justiça, sem autorização judicial ou com objetivos não autorizados em lei. A pena é de reclusão, de 2 a 4 anos, e multa, e incorre nela também a autoridade judicial que determina a conduta com objetivo não autorizado em lei. Análise das alternativas: A) Correta: O novo art. 10 inclui a escuta ambiental, com pena de reclusão de 2 a 4 anos, e multa. B) Errada: A pena é de reclusão, de 2 a 4 anos, e multa. C) Errada: O parágrafo único do novo art. 10 aplica a mesma pena à autoridade judicial nessa hipótese. D) Errada: O tipo abrange comunicações telefônicas, de informática ou telemática e a escuta ambiental. Fundamento: art. 41 da Lei nº 13.869/2019 (art. 10 da Lei nº 9.296/1996).",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    }
+  ]
+}

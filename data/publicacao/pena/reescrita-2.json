@@ -1,0 +1,396 @@
+{
+  "itens": [
+    {
+      "id": 204,
+      "enunciado": "Lúcio, primário, recebeu de um colega, por empréstimo, uma furadeira de pequeno valor. Dias depois, já com o objeto em casa, decidiu não devolvê-lo e o vendeu a terceiro. Segundo o Código Penal, Lúcio praticou",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "furto, porque retirou a coisa da esfera de vigilância do dono, e a primariedade com o pequeno valor permite o privilégio do art. 155, § 2º."
+        },
+        {
+          "letra": "B",
+          "texto": "estelionato, porque obteve a furadeira por meio de empréstimo, e o privilégio só alcança o caso se ele reparar o dano antes da denúncia."
+        },
+        {
+          "letra": "C",
+          "texto": "apropriação indébita, pois já tinha a posse da coisa ao decidir não devolvê-la, e o privilégio do furto se aplica a esse crime por força do art. 170."
+        },
+        {
+          "letra": "D",
+          "texto": "apropriação indébita, pois já tinha a posse da coisa, mas o privilégio previsto para o furto não se estende aos crimes do capítulo da apropriação."
+        }
+      ],
+      "gabarito": "C",
+      "comentario": "Lúcio recebeu a furadeira licitamente (empréstimo) e só depois inverteu o ânimo da posse, passando a agir como dono: é a apropriação indébita do art. 168 do CP (apropriar-se de coisa alheia móvel de que tem a posse ou a detenção). Não houve subtração (furto) nem fraude para obter a coisa (estelionato). Como ele é primário e a coisa é de pequeno valor, o art. 170 manda aplicar aos crimes do capítulo da apropriação indébita o privilégio do art. 155, § 2º.",
+      "analise_alternativas": [
+        {
+          "letra": "A",
+          "correta": false,
+          "justificativa": "O furto (art. 155) exige subtração. Lúcio já tinha a posse da furadeira, recebida por empréstimo; não a tirou da vigilância do dono."
+        },
+        {
+          "letra": "B",
+          "correta": false,
+          "justificativa": "O estelionato (art. 171) exige que a vantagem seja obtida mediante artifício, ardil ou outro meio fraudulento. O empréstimo foi lícito e a decisão de ficar com a coisa veio depois. Além disso, o privilégio não depende de reparação do dano (isso é o arrependimento posterior do art. 16)."
+        },
+        {
+          "letra": "C",
+          "correta": true,
+          "justificativa": "A posse anterior e lícita, seguida da inversão do ânimo, caracteriza o art. 168, e o art. 170 estende a esse capítulo o disposto no art. 155, § 2º."
+        },
+        {
+          "letra": "D",
+          "correta": false,
+          "justificativa": "O crime está certo, mas o art. 170 estende expressamente o art. 155, § 2º, aos crimes do capítulo da apropriação indébita."
+        }
+      ],
+      "fundamento_legal": "Código Penal, art. 168, caput; art. 170; art. 155, caput e § 2º; art. 171, caput; art. 16.",
+      "pegadinha": "Confundir apropriação indébita com furto ou estelionato e achar que o privilégio do furto não se estende à apropriação indébita.",
+      "o_que_mudou": "Antes a questão cobrava as frações e as opções de redução de pena. Agora cobra qual crime se configura (posse anterior lícita, inversão do ânimo) e se o privilégio do furto se aplica (art. 170), sem citar quantidade de pena."
+    },
+    {
+      "id": 207,
+      "enunciado": "Durante a noite, Joel entrou no curral da fazenda vizinha e, sem retirar nenhum animal do local, alterou indevidamente a marca de propriedade gravada em parte do rebanho do vizinho, substituindo-a por um sinal semelhante ao da própria fazenda. Não houve violência nem grave ameaça. Considerando o Código Penal, assinale a alternativa correta.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Joel praticou furto qualificado de semovente domesticável de produção, pois a alteração da marca equivale à subtração dos animais do vizinho."
+        },
+        {
+          "letra": "B",
+          "texto": "Joel praticou supressão ou alteração de marca em animais, mas, por ser particular a propriedade e não haver violência, só se procede mediante queixa."
+        },
+        {
+          "letra": "C",
+          "texto": "Joel praticou dano simples, pois deteriorou coisa alheia ao alterar a marca dos animais, e o crime só se procede mediante queixa do vizinho."
+        },
+        {
+          "letra": "D",
+          "texto": "Joel praticou supressão ou alteração de marca em animais, e o Código Penal não prevê, para esse crime, que se proceda somente mediante queixa."
+        }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 162 do CP tipifica a conduta de suprimir ou alterar, indevidamente, em gado ou rebanho alheio, marca ou sinal indicativo de propriedade. Joel não retirou os animais, de modo que não houve subtração (furto). A regra da queixa para propriedade particular sem violência (art. 161, § 3º) vale para as figuras do art. 161, e o art. 167 (ação penal no dano) não menciona o art. 162. Logo, não há previsão de ação privada para esse crime.",
+      "analise_alternativas": [
+        {
+          "letra": "A",
+          "correta": false,
+          "justificativa": "O furto (art. 155, § 6º, I) exige subtração do semovente; o enunciado diz que nenhum animal foi retirado, e a conduta descrita tem tipo próprio no art. 162."
+        },
+        {
+          "letra": "B",
+          "correta": false,
+          "justificativa": "A exigência de queixa para propriedade particular sem emprego de violência está no art. 161, § 3º, e se refere às figuras do art. 161; não se estende ao art. 162, nem o art. 167 o menciona."
+        },
+        {
+          "letra": "C",
+          "correta": false,
+          "justificativa": "Há tipo específico para alterar marca indicativa de propriedade em gado alheio (art. 162), que prevalece sobre a figura genérica do dano (art. 163)."
+        },
+        {
+          "letra": "D",
+          "correta": true,
+          "justificativa": "A conduta corresponde ao art. 162, e nem o art. 162 nem o art. 167 preveem que se proceda somente mediante queixa."
+        }
+      ],
+      "fundamento_legal": "Código Penal, art. 162; art. 161, § 3º; art. 163; art. 167.",
+      "pegadinha": "Estender ao art. 162 a regra de queixa do art. 161, § 3º, ou tratar a alteração de marca como furto ou dano.",
+      "o_que_mudou": "Tiradas as penas das alternativas (furto qualificado e art. 162). A questão continua cobrando a tipificação (art. 162 x furto x dano) e a ação penal."
+    },
+    {
+      "id": 242,
+      "enunciado": "De acordo com o art. 33, caput, da Lei nº 11.343/2006, a respeito do crime de tráfico de drogas, é correto afirmar que:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "fornecer drogas, ainda que gratuitamente, sem autorização ou em desacordo com determinação legal ou regulamentar, configura o crime do caput, pois o lucro não é elemento do tipo."
+        },
+        {
+          "letra": "B",
+          "texto": "a conduta de fornecer drogas somente é punida quando o agente busca obter lucro com a entrega, sendo atípico o fornecimento gratuito, ainda que feito sem autorização legal."
+        },
+        {
+          "letra": "C",
+          "texto": "o tipo penal alcança apenas as condutas de vender e expor à venda, não abrangendo as de guardar, transportar ou trazer consigo, que configuram apenas o porte para consumo pessoal."
+        },
+        {
+          "letra": "D",
+          "texto": "prescrever ou ministrar drogas não integra o caput, pois essas condutas, quando praticadas por profissional de saúde, configuram apenas o crime culposo previsto no art. 38."
+        }
+      ],
+      "gabarito": "A",
+      "comentario": "O art. 33, caput, é um tipo misto alternativo com 18 verbos (importar, exportar, remeter, preparar, produzir, fabricar, adquirir, vender, expor à venda, oferecer, ter em depósito, transportar, trazer consigo, guardar, prescrever, ministrar, entregar a consumo ou fornecer). A lei diz expressamente \"ainda que gratuitamente\": o lucro não é elemento do tipo. Prescrever e ministrar dolosamente estão no caput; o art. 38 trata da forma culposa.",
+      "analise_alternativas": [
+        {
+          "letra": "A",
+          "correta": true,
+          "justificativa": "Reproduz o caput: fornecer drogas, ainda que gratuitamente, sem autorização ou em desacordo com determinação legal ou regulamentar, é tráfico."
+        },
+        {
+          "letra": "B",
+          "correta": false,
+          "justificativa": "O caput traz a expressão \"ainda que gratuitamente\", de modo que o fornecimento sem contraprestação também configura o crime."
+        },
+        {
+          "letra": "C",
+          "correta": false,
+          "justificativa": "Guardar, transportar e trazer consigo estão expressamente entre os verbos do caput do art. 33; só se enquadram no art. 28 quando a droga se destina ao consumo pessoal."
+        },
+        {
+          "letra": "D",
+          "correta": false,
+          "justificativa": "Prescrever e ministrar estão entre os verbos do caput do art. 33. O art. 38 pune quem prescreve ou ministra culposamente; a conduta dolosa é tráfico."
+        }
+      ],
+      "fundamento_legal": "Lei nº 11.343/2006, art. 33, caput (verbos do tipo e expressão \"ainda que gratuitamente\"); arts. 28 e 38 (usados nos distratores).",
+      "pegadinha": "Achar que o tráfico exige finalidade de lucro, ou que prescrever e ministrar só são punidos na forma culposa do art. 38.",
+      "o_que_mudou": "Antes duas alternativas giravam em torno das penas dos arts. 33 e 35. Agora todas cobram os verbos e os elementos do tipo, com um distrator novo sobre a forma culposa do art. 38."
+    },
+    {
+      "id": 243,
+      "enunciado": "Nos termos do art. 35, caput, da Lei nº 11.343/2006, o crime de associação para o tráfico consiste em:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "associarem-se três ou mais pessoas para o fim de praticar qualquer dos crimes da Lei de Drogas, inclusive o de oferecer droga eventualmente, sem lucro, a pessoa de seu relacionamento."
+        },
+        {
+          "letra": "B",
+          "texto": "associarem-se duas ou mais pessoas para o fim de praticar, reiteradamente ou não, qualquer dos crimes previstos nos arts. 33, caput e § 1º, e 34 da mesma lei."
+        },
+        {
+          "letra": "C",
+          "texto": "associarem-se duas ou mais pessoas para o fim de praticar, exclusivamente de forma reiterada, os crimes previstos no art. 33, caput, excluídos os do art. 34."
+        },
+        {
+          "letra": "D",
+          "texto": "associarem-se quatro ou mais pessoas, de forma estruturada e com divisão de tarefas, para a prática de crimes de tráfico ou de financiamento do tráfico."
+        }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 35, caput, exige duas ou mais pessoas associadas para praticar, \"reiteradamente ou não\", os crimes dos arts. 33, caput e § 1º, e 34. Não se exige o número de pessoas de outros tipos de associação, estrutura com divisão de tarefas, nem que o fim seja a prática reiterada (exigência que só aparece no parágrafo único, para o financiamento do art. 36).",
+      "analise_alternativas": [
+        {
+          "letra": "A",
+          "correta": false,
+          "justificativa": "O art. 35 exige duas ou mais pessoas, não três, e seu objeto se limita aos crimes dos arts. 33, caput e § 1º, e 34; a conduta do § 3º do art. 33 não está entre eles."
+        },
+        {
+          "letra": "B",
+          "correta": true,
+          "justificativa": "Reproduz o caput do art. 35: duas ou mais pessoas, reiteradamente ou não, crimes dos arts. 33, caput e § 1º, e 34."
+        },
+        {
+          "letra": "C",
+          "correta": false,
+          "justificativa": "O caput diz \"reiteradamente ou não\" e abrange também o § 1º do art. 33 e o art. 34."
+        },
+        {
+          "letra": "D",
+          "correta": false,
+          "justificativa": "A lei fala em duas ou mais pessoas e não exige estrutura com divisão de tarefas; a associação para financiar (parágrafo único) exige prática reiterada, regra diferente do caput."
+        }
+      ],
+      "fundamento_legal": "Lei nº 11.343/2006, art. 35, caput e parágrafo único; art. 33, caput, §§ 1º e 3º; art. 34.",
+      "pegadinha": "Trocar o número mínimo de pessoas (duas) e exigir reiteração, quando o caput diz \"reiteradamente ou não\".",
+      "o_que_mudou": "Tiradas as penas das alternativas. A questão passa a cobrar só os elementos do tipo: número de pessoas, reiteração e quais crimes são objeto da associação."
+    },
+    {
+      "id": 244,
+      "enunciado": "Sobre o crime previsto no art. 34 da Lei nº 11.343/2006, que trata de maquinário, aparelho, instrumento ou qualquer objeto destinado à fabricação, preparação, produção ou transformação de drogas, assinale a afirmativa correta.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O tipo pune apenas a fabricação e a venda do maquinário destinado à preparação de drogas, sendo atípicas as condutas de possuir e guardar o objeto, por serem meros atos preparatórios."
+        },
+        {
+          "letra": "B",
+          "texto": "O crime exige finalidade de lucro, de modo que quem fornece gratuitamente aparelho destinado à produção de drogas não pratica o crime do art. 34, apenas participa do tráfico."
+        },
+        {
+          "letra": "C",
+          "texto": "Quem colabora como informante com grupo destinado ao tráfico, repassando dados sobre ações policiais, pratica o crime do art. 34, por fornecer instrumento ao tráfico."
+        },
+        {
+          "letra": "D",
+          "texto": "Pratica o crime quem possui ou guarda, ainda que gratuitamente e sem autorização, maquinário ou objeto destinado à preparação ou à transformação de drogas."
+        }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 34 pune quem fabrica, adquire, utiliza, transporta, oferece, vende, distribui, entrega a qualquer título, possui, guarda ou fornece, ainda que gratuitamente, maquinário, aparelho, instrumento ou objeto destinado à fabricação, preparação, produção ou transformação de drogas, sem autorização ou em desacordo com determinação legal ou regulamentar. É crime autônomo: a lei pune o que seria ato preparatório do tráfico. Quem colabora como informante responde pelo art. 37.",
+      "analise_alternativas": [
+        {
+          "letra": "A",
+          "correta": false,
+          "justificativa": "O art. 34 tem onze verbos, entre eles possuir e guardar; a lei trata essas condutas como crime autônomo, não como atos preparatórios impuníveis."
+        },
+        {
+          "letra": "B",
+          "correta": false,
+          "justificativa": "O art. 34 traz a expressão \"ainda que gratuitamente\" e inclui o verbo fornecer; o lucro não é elemento do tipo."
+        },
+        {
+          "letra": "C",
+          "correta": false,
+          "justificativa": "Colaborar como informante com grupo, organização ou associação destinados ao tráfico é o crime do art. 37. O art. 34 trata de maquinário, aparelho, instrumento ou objeto."
+        },
+        {
+          "letra": "D",
+          "correta": true,
+          "justificativa": "Possuir e guardar estão entre os verbos do art. 34, que traz a expressão \"ainda que gratuitamente\" e alcança objeto destinado à preparação ou transformação de drogas."
+        }
+      ],
+      "fundamento_legal": "Lei nº 11.343/2006, art. 34; art. 37 (usado no distrator).",
+      "pegadinha": "Achar que só fabricar e vender o maquinário é crime, que o art. 34 exige lucro, ou confundi-lo com o informante do art. 37.",
+      "o_que_mudou": "Antes três alternativas comparavam as penas dos arts. 33, 34 e 37. Agora cobram os verbos do art. 34, a gratuidade e a diferença para o informante do art. 37."
+    },
+    {
+      "id": 245,
+      "enunciado": "Segundo o art. 33, § 4º, da Lei nº 11.343/2006 (tráfico privilegiado), a redução prevista para os delitos definidos no caput e no § 1º do mesmo artigo depende de que o agente:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "seja primário ou tenha bons antecedentes, requisitos alternativos que dispensam a análise da dedicação a atividades criminosas e da integração a organização criminosa."
+        },
+        {
+          "letra": "B",
+          "texto": "seja primário, tenha bons antecedentes e tenha sido apreendida pequena quantidade de droga, considerada a natureza da substância encontrada com ele."
+        },
+        {
+          "letra": "C",
+          "texto": "seja primário, de bons antecedentes, não se dedique às atividades criminosas nem integre organização criminosa, requisitos exigidos de forma cumulativa."
+        },
+        {
+          "letra": "D",
+          "texto": "colabore voluntariamente com a investigação e o processo na identificação dos demais coautores ou partícipes e na recuperação do produto do crime."
+        }
+      ],
+      "gabarito": "C",
+      "comentario": "O § 4º do art. 33 (tráfico privilegiado) permite reduzir a pena nos delitos do caput e do § 1º desde que o agente reúna, cumulativamente, quatro requisitos: ser primário, ter bons antecedentes, não se dedicar às atividades criminosas e não integrar organização criminosa. A colaboração voluntária com a investigação é outro instituto, o do art. 41.",
+      "analise_alternativas": [
+        {
+          "letra": "A",
+          "correta": false,
+          "justificativa": "Os requisitos são cumulativos (\"desde que o agente seja primário, de bons antecedentes, não se dedique... nem integre\"); não bastam primariedade ou bons antecedentes isoladamente."
+        },
+        {
+          "letra": "B",
+          "correta": false,
+          "justificativa": "A pequena quantidade de droga não está entre os requisitos do § 4º (natureza e quantidade são consideradas na fixação da pena, art. 42); faltam ainda a não dedicação a atividades criminosas e a não integração a organização criminosa."
+        },
+        {
+          "letra": "C",
+          "correta": true,
+          "justificativa": "Reproduz o § 4º: os quatro requisitos, exigidos cumulativamente."
+        },
+        {
+          "letra": "D",
+          "correta": false,
+          "justificativa": "A colaboração voluntária na identificação de coautores e partícipes e na recuperação do produto do crime é a do art. 41, instituto diverso do § 4º do art. 33."
+        }
+      ],
+      "fundamento_legal": "Lei nº 11.343/2006, art. 33, § 4º; arts. 41 e 42 (usados nos distratores).",
+      "pegadinha": "Tratar os requisitos do tráfico privilegiado como alternativos ou confundi-lo com a colaboração voluntária do art. 41.",
+      "o_que_mudou": "Antes as alternativas trocavam as frações de redução. Agora cobram só os requisitos do § 4º e a diferença para o art. 41, sem nenhuma fração."
+    },
+    {
+      "id": 246,
+      "enunciado": "Rogério, proprietário de uma oficina mecânica, consentiu que um conhecido utilizasse, sem cobrar nada por isso, um galpão nos fundos do estabelecimento para guardar entorpecentes que seriam posteriormente revendidos por esse conhecido. Rogério não manuseava a droga nem participava das vendas. À luz da Lei nº 11.343/2006, Rogério:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "responde pelo crime do art. 34, por ter fornecido local que funciona como instrumento destinado à fabricação, preparação ou produção de drogas."
+        },
+        {
+          "letra": "B",
+          "texto": "responde pelo crime de colaborar como informante com grupo, organização ou associação destinados ao tráfico, previsto no art. 37 da lei."
+        },
+        {
+          "letra": "C",
+          "texto": "pratica a figura equiparada ao tráfico do art. 33, § 1º, III, por consentir que outrem utilize, ainda que gratuitamente, bem de sua propriedade para o tráfico."
+        },
+        {
+          "letra": "D",
+          "texto": "não responde por crime algum, pois não praticou verbo de comércio de drogas, não manuseou o entorpecente e não obteve vantagem com o consentimento dado."
+        }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 33, § 1º, III, equipara ao tráfico a conduta de quem utiliza local ou bem de qualquer natureza de que tem a propriedade, posse, administração, guarda ou vigilância, ou consente que outrem dele se utilize, ainda que gratuitamente, para o tráfico ilícito de drogas. Rogério, proprietário do galpão, consentiu no uso para guardar droga destinada à revenda: incorre nas mesmas penas do caput.",
+      "analise_alternativas": [
+        {
+          "letra": "A",
+          "correta": false,
+          "justificativa": "O art. 34 trata de maquinário, aparelho, instrumento ou objeto destinado à fabricação, preparação, produção ou transformação de drogas; o local usado para guardar a droga está no § 1º, III, do art. 33."
+        },
+        {
+          "letra": "B",
+          "correta": false,
+          "justificativa": "O art. 37 pune quem colabora como informante, isto é, repassando informações; ceder o uso de imóvel para o tráfico tem enquadramento próprio no art. 33, § 1º, III."
+        },
+        {
+          "letra": "C",
+          "correta": true,
+          "justificativa": "A conduta de consentir no uso de bem próprio para o tráfico, ainda que gratuitamente, está no art. 33, § 1º, III."
+        },
+        {
+          "letra": "D",
+          "correta": false,
+          "justificativa": "O § 1º, III, pune quem apenas consente que outrem use o bem para o tráfico, e traz a expressão \"ainda que gratuitamente\"; não é preciso manusear a droga, praticar verbo de comércio nem lucrar."
+        }
+      ],
+      "fundamento_legal": "Lei nº 11.343/2006, art. 33, § 1º, caput e inciso III; arts. 34 e 37 (usados nos distratores).",
+      "pegadinha": "Achar que só responde por tráfico quem manuseia ou vende a droga, ignorando a figura equiparada de quem consente no uso do próprio bem.",
+      "o_que_mudou": "Tiradas as penas das alternativas (arts. 34 e 37). A questão continua cobrando a tipificação: figura equiparada x maquinário x informante x atipicidade."
+    },
+    {
+      "id": 248,
+      "enunciado": "A respeito do crime de financiar ou custear o tráfico (art. 36 da Lei nº 11.343/2006) e da associação voltada a esse crime, prevista no parágrafo único do art. 35 da mesma lei, assinale a afirmativa correta.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A associação de duas ou mais pessoas para financiar ou custear o tráfico configura o crime do parágrafo único do art. 35 ainda que voltada a um único ato de financiamento, como no caput."
+        },
+        {
+          "letra": "B",
+          "texto": "Quem financia ou custeia o tráfico responde apenas como partícipe do art. 33, já que a Lei de Drogas não prevê tipo autônomo para o financiamento, mas só uma causa de aumento."
+        },
+        {
+          "letra": "C",
+          "texto": "O crime do art. 36 consiste em financiar ou custear a prática de qualquer crime da Lei de Drogas, inclusive o porte de droga para consumo pessoal e o induzimento ao uso."
+        },
+        {
+          "letra": "D",
+          "texto": "Para configurar a associação do parágrafo único do art. 35, a lei exige que o agente se associe com o fim de praticar de forma reiterada o crime de financiar ou custear o tráfico."
+        }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 36 é crime autônomo: pune quem financia ou custeia a prática dos crimes dos arts. 33, caput e § 1º, e 34. Já o parágrafo único do art. 35 pune, com as mesmas penas do caput, quem se associa para a prática reiterada do crime do art. 36. Diferença central: no caput do art. 35 a associação vale \"reiteradamente ou não\"; no parágrafo único, a lei exige a finalidade de prática reiterada. O art. 40, VII, é a causa de aumento para quem pratica o próprio crime e também o financia, o que não elimina o tipo do art. 36.",
+      "analise_alternativas": [
+        {
+          "letra": "A",
+          "correta": false,
+          "justificativa": "O parágrafo único do art. 35 fala em associação \"para a prática reiterada\" do crime do art. 36; a expressão \"reiteradamente ou não\" está apenas no caput."
+        },
+        {
+          "letra": "B",
+          "correta": false,
+          "justificativa": "O art. 36 tipifica o financiamento e o custeio como crime autônomo. A causa de aumento do art. 40, VII, existe, mas não substitui esse tipo."
+        },
+        {
+          "letra": "C",
+          "correta": false,
+          "justificativa": "O art. 36 se limita ao financiamento dos crimes dos arts. 33, caput e § 1º, e 34; não abrange o porte para consumo pessoal (art. 28) nem o induzimento ao uso (art. 33, § 2º)."
+        },
+        {
+          "letra": "D",
+          "correta": true,
+          "justificativa": "O parágrafo único do art. 35 pune quem se associa para a prática reiterada do crime definido no art. 36."
+        }
+      ],
+      "fundamento_legal": "Lei nº 11.343/2006, art. 36; art. 35, caput e parágrafo único; art. 40, VII; arts. 28 e 33, § 2º (usados nos distratores).",
+      "pegadinha": "Transportar a expressão \"reiteradamente ou não\" do caput do art. 35 para o parágrafo único e achar que o financiamento é só causa de aumento.",
+      "o_que_mudou": "Antes três alternativas citavam as penas dos arts. 35 e 36. Agora cobram a reiteração exigida no parágrafo único, a autonomia do art. 36 e quais crimes podem ser financiados."
+    }
+  ]
+}

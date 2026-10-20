@@ -1,0 +1,52 @@
+{
+  "auditorias": [
+    {
+      "id": 2042,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C. O art. 71, caput, do CP exige mais de uma ação ou omissão, crimes da mesma espécie e semelhança de tempo, lugar, maneira de execução e outras. A erra ao exigir crimes idênticos (a lei fala em mesma espécie e prevê penas diversas); B descreve o concurso formal (art. 70); D contraria o parágrafo único do art. 71, que admite vítimas diferentes e violência ou grave ameaça. Alternativas sobre requisitos, sem quantidade de pena. Gabarito único e comentário correto.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2043,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: B. O art. 71, caput, manda aplicar uma só pena com acréscimo (exasperação), e o art. 119 diz que, no concurso de crimes, a extinção da punibilidade incide sobre a pena de cada um, isoladamente. A descreve o concurso material (art. 69); C contraria o art. 119; D falha porque o parágrafo único do art. 71 exige violência ou grave ameaça, ausentes no furto simples. As alternativas tratam da técnica de aplicação e do art. 119, sem frações ou quantidade de pena. Gabarito único.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2045,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: A. O caso (roubos dolosos, vítimas diferentes, grave ameaça) é o do art. 71, parágrafo único, que manda observar o parágrafo único do art. 70 (pena não pode exceder a do art. 69) e o art. 75. B contraria a exigência de considerar culpabilidade, antecedentes, conduta social, personalidade, motivos e circunstâncias; C inverte o requisito de vítimas diferentes; D contraria a remissão ao parágrafo único do art. 70. As alternativas cobram requisitos e limites legais, sem frações ou números de pena. Gabarito único e comentário correto.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2052,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: E. O art. 75, § 2º, do CP determina nova unificação quando sobrevém condenação por fato posterior ao início do cumprimento, desprezando-se o período de pena já cumprido. A e B negam a nova unificação; C inverte o comando (computar em vez de desprezar); D contraria o próprio § 2º, que trata de fato posterior. Sem números de anos nas alternativas. Gabarito único e comentário correto.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2076,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: B. Desacatar superior procurando deprimir-lhe a autoridade é o art. 298 do CPM, e o parágrafo único agrava se o superior é oficial general ou comandante da unidade a que pertence o agente (hipóteses alternativas). A ignora o tipo específico do desacato a superior; C omite a hipótese do comandante da unidade; D (art. 300) protege servidor público; E (art. 301) exige descumprimento de ordem legal. Alternativas sobre tipificação e hipótese de agravação, sem quantidade de pena. Gabarito único.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2077,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: D. O art. 299 do CPM pune desacatar militar no exercício de função de natureza militar ou em razão dela, se o fato não constitui outro crime. A dispensa o elemento funcional; B descreve o art. 298 e cria exigência de local inexistente; C descreve o art. 300; E exclui indevidamente o desacato em razão da função. Alternativas sobre elementos do tipo. Gabarito único e comentário correto.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2079,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: B. O art. 301 do CPM descreve desobedecer a ordem legal de autoridade militar; não exige ofensa à dignidade ou ao decoro (elemento dos arts. 298 a 300). A ignora a exigência de ordem legal; C troca autoridade militar por servidor civil; D descreve desacato; E cria restrição de sujeito ativo que o tipo não traz. Alternativas sobre elementos do tipo, sem pena. Gabarito único.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2080,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: E. O art. 302 do CPM pune penetrar em quartel por onde seja defeso ou não haja passagem regular, ou iludindo a vigilância da sentinela ou de vigia, se o fato não constitui crime mais grave; as formas são alternativas. A trata a sentinela como requisito único; B não há ordem legal dirigida ao agente, e o tipo específico é o art. 302; C e D criam exigências (vínculo com a unidade, arma ou finalidade) que o tipo não traz. Alternativas sobre elementos do tipo, sem quantidade de pena. Gabarito único e comentário correto.",
+      "correcao_sugerida": null
+    }
+  ]
+}

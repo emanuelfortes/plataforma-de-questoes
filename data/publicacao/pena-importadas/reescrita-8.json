@@ -1,0 +1,174 @@
+{
+  "itens": [
+    {
+      "id": 1449,
+      "enunciado": "Após colidir com um carro estacionado, sem deixar vítimas, o condutor deixa rapidamente o local para não ser identificado como responsável pelo prejuízo causado ao dono do veículo. Segundo o CTB, essa conduta:",
+      "alternativas": [
+        { "letra": "A", "texto": "configura omissão de socorro (art. 304), porque o condutor deixou o local do sinistro sem aguardar a chegada da autoridade pública." },
+        { "letra": "B", "texto": "é atípica na esfera penal, porque o crime do art. 305 exige que do sinistro tenha resultado vítima com lesão corporal ou morte." },
+        { "letra": "C", "texto": "configura o crime do art. 305, pois o condutor se afastou do local do sinistro para fugir à responsabilidade civil que lhe cabia." },
+        { "letra": "D", "texto": "configura o crime do art. 312, porque o condutor, ao deixar o local, inovou artificiosamente o estado de lugar para enganar o perito." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 305 do CTB pune o condutor que se afasta do local do sinistro para fugir à responsabilidade penal ou civil que lhe possa ser atribuída. O tipo não exige vítima: basta o afastamento com essa finalidade específica, e a responsabilidade civil pelo dano ao outro veículo é suficiente. A omissão de socorro (art. 304) pressupõe vítima a ser socorrida, e a fraude processual do art. 312 exige inovação artificiosa do estado de lugar, coisa ou pessoa, em sinistro com vítima. Fundamento: art. 305 da Lei 9.503/1997.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 304 pune quem deixa de prestar socorro à vítima ou de pedir auxílio da autoridade. No caso não há vítima, e o tipo não pune o simples fato de não esperar a autoridade." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 305 fala apenas em sinistro e na finalidade de fugir à responsabilidade penal ou civil; não exige vítima com lesão ou morte." },
+        { "letra": "C", "correta": true, "justificativa": "Reproduz o art. 305: afastar-se do local do sinistro para fugir à responsabilidade civil que possa ser atribuída ao condutor." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 312 exige inovação artificiosa do estado de lugar, coisa ou pessoa, em sinistro com vítima, para induzir a erro policial, perito ou juiz. Ir embora não é inovar o local." }
+      ],
+      "fundamento_legal": "Lei 9.503/1997 (CTB), art. 305; arts. 304 e 312 para a distinção.",
+      "pegadinha": "Achar que a fuga do local só é crime quando há vítima, ou confundi-la com a omissão de socorro.",
+      "o_que_mudou": "Antes as alternativas combinavam a finalidade do tipo com a quantidade de pena. Agora a questão cobra a elementar subjetiva do art. 305 (fugir à responsabilidade penal ou civil) e a diferença para os arts. 304 e 312, sem citar pena."
+    },
+    {
+      "id": 1452,
+      "enunciado": "Segundo o art. 306 do CTB, a conduta de conduzir veículo automotor com capacidade psicomotora alterada em razão da influência de álcool será constatada por:",
+      "alternativas": [
+        { "letra": "A", "texto": "teste em etilômetro homologado, exclusivamente, não se admitindo vídeo nem prova testemunhal para a caracterização do crime." },
+        { "letra": "B", "texto": "qualquer concentração de álcool por litro de sangue, desde que o condutor tenha provocado sinistro de trânsito com vítima." },
+        { "letra": "C", "texto": "concentração igual ou superior a 6 decigramas de álcool por litro de sangue, ou a 0,3 miligrama por litro de ar alveolar, ou sinais de alteração." },
+        { "letra": "D", "texto": "concentração igual ou superior a 0,6 miligrama de álcool por litro de ar alveolar, somada à prova de perigo concreto de dano a terceiro." }
+      ],
+      "gabarito": "C",
+      "comentario": "O § 1º do art. 306 diz que a conduta será constatada por concentração igual ou superior a 6 decigramas de álcool por litro de sangue ou a 0,3 miligrama por litro de ar alveolar, ou por sinais que indiquem, na forma disciplinada pelo Contran, alteração da capacidade psicomotora. O § 2º admite teste de alcoolemia ou toxicológico, exame clínico, perícia, vídeo, prova testemunhal e outros meios de prova, observado o direito à contraprova. O tipo não exige sinistro nem perigo concreto. Fundamento: art. 306, §§ 1º e 2º, da Lei 9.503/1997.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O § 2º admite expressamente vídeo, prova testemunhal, exame clínico, perícia e outros meios de prova, além do teste de alcoolemia." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 306 não exige sinistro nem vítima, e a lei fixa parâmetros de concentração ou sinais de alteração, não qualquer quantidade." },
+        { "letra": "C", "correta": true, "justificativa": "Reproduz os dois incisos do § 1º do art. 306: os índices de álcool no sangue ou no ar alveolar, ou os sinais de alteração da capacidade psicomotora." },
+        { "letra": "D", "correta": false, "justificativa": "O índice no ar alveolar é de 0,3 miligrama por litro, e o tipo não exige prova de perigo concreto de dano a terceiro." }
+      ],
+      "fundamento_legal": "Lei 9.503/1997 (CTB), art. 306, caput e §§ 1º e 2º.",
+      "pegadinha": "Trocar os índices de sangue e de ar alveolar, ou achar que só o bafômetro prova o crime.",
+      "o_que_mudou": "Antes a questão pedia a pena do art. 306. Agora cobra como a conduta é constatada (índices, sinais de alteração e meios de prova), sem citar pena."
+    },
+    {
+      "id": 1453,
+      "enunciado": "Dois motoristas disputam corrida não autorizada em avenida movimentada, gerando risco à incolumidade pública. Um deles atropela e mata um pedestre, e as circunstâncias demonstram que não quis o resultado nem assumiu o risco de produzi-lo. Segundo o CTB, esse motorista responde por:",
+      "alternativas": [
+        { "letra": "A", "texto": "homicídio culposo na direção de veículo automotor (art. 302), com a causa de aumento ligada ao atropelamento de pedestre." },
+        { "letra": "B", "texto": "homicídio doloso do Código Penal, pois a participação em racha caracteriza, por si só, o dolo eventual quanto à morte." },
+        { "letra": "C", "texto": "racha na forma do art. 308, § 1º, porque o parágrafo que trata da morte exige que o agente tenha assumido o risco dela." },
+        { "letra": "D", "texto": "racha qualificado pelo resultado morte (art. 308, § 2º), já que o agente não quis a morte nem assumiu o risco de produzi-la." }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 308 do CTB tem formas qualificadas pelo resultado: o § 1º trata da lesão corporal grave e o § 2º trata da morte, ambos quando as circunstâncias demonstram que o agente não quis o resultado nem assumiu o risco de produzi-lo. Como o caso traz morte e afasta o dolo, inclusive o eventual, aplica-se o § 2º, figura específica que prevalece sobre o homicídio culposo do art. 302. Se houvesse dolo eventual, a solução sairia do CTB. Fundamento: art. 308, § 2º, da Lei 9.503/1997.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A morte decorrente de racha tem previsão específica no art. 308, § 2º, que prevalece sobre o art. 302. Além disso, o § 1º do art. 302 fala em faixa de pedestres ou calçada, não em qualquer atropelamento." },
+        { "letra": "B", "correta": false, "justificativa": "O enunciado afirma que o agente não assumiu o risco do resultado, o que afasta o dolo eventual. O racha não gera dolo eventual de forma automática." },
+        { "letra": "C", "correta": false, "justificativa": "O § 1º trata da lesão corporal grave. O § 2º, que trata da morte, exige justamente que o agente não tenha querido nem assumido o risco do resultado." },
+        { "letra": "D", "correta": true, "justificativa": "É a hipótese do art. 308, § 2º: do racha resultou morte, e as circunstâncias mostram que o agente não quis nem assumiu o risco do resultado." }
+      ],
+      "fundamento_legal": "Lei 9.503/1997 (CTB), art. 308, §§ 1º e 2º; art. 302 para a distinção.",
+      "pegadinha": "Enquadrar a morte no racha como homicídio culposo comum do art. 302 ou presumir dolo eventual.",
+      "o_que_mudou": "Antes as alternativas eram faixas de pena. Agora a questão cobra qual crime se configura (racha qualificado pela morte), a distinção entre os §§ 1º e 2º do art. 308 e a diferença para o art. 302 e para o dolo eventual."
+    },
+    {
+      "id": 1455,
+      "enunciado": "Proprietário de veículo entrega a direção de seu carro a amigo visivelmente embriagado, que não está em condições de conduzi-lo com segurança. Segundo o CTB, o proprietário:",
+      "alternativas": [
+        { "letra": "A", "texto": "não comete crime, pois somente o condutor embriagado responde penalmente, pelo crime do art. 306." },
+        { "letra": "B", "texto": "comete o crime do art. 310, que pune a entrega da direção a quem, por embriaguez, não pode dirigir com segurança." },
+        { "letra": "C", "texto": "comete o crime do art. 310 somente se o amigo, além de embriagado, também não possuir habilitação." },
+        { "letra": "D", "texto": "responde como partícipe do crime do art. 306, pois o CTB não prevê tipo autônomo para quem entrega o veículo." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 310 do CTB pune quem permite, confia ou entrega a direção de veículo automotor a pessoa não habilitada, com habilitação cassada ou com o direito de dirigir suspenso, ou ainda a quem, por seu estado de saúde, física ou mental, ou por embriaguez, não esteja em condições de conduzi-lo com segurança. A embriaguez é hipótese autônoma, que não depende da falta de habilitação, e o crime de quem entrega é próprio, distinto do art. 306 cometido por quem dirige. Fundamento: art. 310 da Lei 9.503/1997.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A entrega da direção a pessoa embriagada é crime autônomo do art. 310, independentemente da responsabilidade do condutor pelo art. 306." },
+        { "letra": "B", "correta": true, "justificativa": "Reproduz a parte final do art. 310: entregar a direção a quem, por embriaguez, não esteja em condições de conduzir com segurança." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 310 lista hipóteses alternativas; a embriaguez basta, sem exigir que o condutor também seja não habilitado." },
+        { "letra": "D", "correta": false, "justificativa": "O CTB prevê tipo autônomo para quem permite, confia ou entrega a direção (art. 310), então não se trata de mera participação no art. 306." }
+      ],
+      "fundamento_legal": "Lei 9.503/1997 (CTB), art. 310.",
+      "pegadinha": "Achar que o art. 310 só alcança a entrega a pessoa não habilitada, ou que quem entrega é apenas partícipe do art. 306.",
+      "o_que_mudou": "Antes duas alternativas diferiam só pela pena do art. 310. Agora a questão cobra as hipóteses do tipo e a distinção entre o crime de quem entrega e o de quem dirige, sem citar pena."
+    },
+    {
+      "id": 1718,
+      "enunciado": "De acordo com o Código Penal, quem, por erro plenamente justificado pelas circunstâncias, supõe situação de fato que, se existisse, tornaria a ação legítima",
+      "alternativas": [
+        { "letra": "A", "texto": "é isento de pena, mas não há isenção quando o erro deriva de culpa e o fato é punível como crime culposo." },
+        { "letra": "B", "texto": "incorre em erro sobre a ilicitude do fato, que só isenta de pena quando inevitável, nos termos do art. 21." },
+        { "letra": "C", "texto": "responde pelo crime doloso, pois o desconhecimento da lei é inescusável segundo o Código Penal." },
+        { "letra": "D", "texto": "tem excluído o dolo e responde por crime culposo, ainda que a lei não preveja a forma culposa do fato." }
+      ],
+      "gabarito": "A",
+      "comentario": "Trata-se das descriminantes putativas (art. 20, § 1º, do CP): o agente imagina uma situação de fato que, se real, tornaria sua conduta lícita. Se o erro é plenamente justificado pelas circunstâncias, ele é isento de pena; não há isenção quando o erro deriva de culpa e o fato é punível como crime culposo. O erro aqui recai sobre a situação de fato, não sobre a ilicitude (art. 21), e a punição por culpa sempre depende de previsão legal da forma culposa. Fundamento: art. 20, § 1º, do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Reproduz o § 1º do art. 20, com a ressalva do erro derivado de culpa quando o fato é punível como crime culposo." },
+        { "letra": "B", "correta": false, "justificativa": "O erro sobre a ilicitude (art. 21) recai sobre o caráter ilícito da conduta. Aqui o agente erra sobre a situação de fato, hipótese do art. 20, § 1º." },
+        { "letra": "C", "correta": false, "justificativa": "O agente não alega desconhecer a lei, mas ter suposto uma situação de fato. A regra da inescusabilidade do art. 21 não resolve o caso." },
+        { "letra": "D", "correta": false, "justificativa": "Mesmo quando há punição por culpa, ela só ocorre se o fato for punível como crime culposo; sem previsão legal da forma culposa, não há crime culposo." }
+      ],
+      "fundamento_legal": "Código Penal, art. 20, § 1º; art. 21 para a distinção.",
+      "pegadinha": "Confundir a descriminante putativa por erro de fato com o erro sobre a ilicitude do art. 21.",
+      "o_que_mudou": "Antes duas alternativas giravam em torno de frações de redução. Agora os distratores erram por instituto (erro de proibição, inescusabilidade da lei) e pela exigência de previsão da forma culposa, sem citar fração."
+    },
+    {
+      "id": 1725,
+      "enunciado": "Um gerente de banco é obrigado a abrir o cofre da agência após criminosos ameaçarem matar sua família, mantida sob a mira de armas. Considerando a coação irresistível, segundo o Código Penal",
+      "alternativas": [
+        { "letra": "A", "texto": "o gerente e os coatores respondem pelo crime, aplicando-se ao gerente apenas uma atenuante genérica." },
+        { "letra": "B", "texto": "o gerente responde pelo crime, pois a coação só afasta a punição quando é física, e não moral." },
+        { "letra": "C", "texto": "só é punível o autor da coação, não respondendo o gerente pelo fato praticado sob ela." },
+        { "letra": "D", "texto": "o gerente só deixa de ser punido se a ordem partiu de superior hierárquico e não era manifestamente ilegal." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 22 do CP determina que, se o fato é cometido sob coação irresistível, só é punível o autor da coação. A ameaça de morte à família, com armas apontadas, caracteriza coação moral irresistível: o gerente não tinha como agir de outro modo, e a responsabilidade recai sobre os coatores. A obediência hierárquica é outra hipótese do mesmo artigo, que não se confunde com a coação. Fundamento: art. 22 do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A coação irresistível não é mera atenuante: pelo art. 22, o coagido não é punível, e só responde o autor da coação." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 22 fala em coação irresistível sem restringir à coação física; a grave ameaça à família é coação moral irresistível." },
+        { "letra": "C", "correta": true, "justificativa": "É a regra do art. 22: sob coação irresistível, só é punível o autor da coação." },
+        { "letra": "D", "correta": false, "justificativa": "Ordem de superior hierárquico não manifestamente ilegal é a hipótese de obediência hierárquica, distinta da coação irresistível, que basta por si só." }
+      ],
+      "fundamento_legal": "Código Penal, art. 22.",
+      "pegadinha": "Confundir coação irresistível com obediência hierárquica ou tratá-la como simples atenuante.",
+      "o_que_mudou": "Antes duas alternativas traziam frações de redução de pena. Agora os distratores erram por conteúdo (atenuante, coação só física, confusão com obediência hierárquica), sem citar fração."
+    },
+    {
+      "id": 1728,
+      "enunciado": "Laudo pericial atesta que o acusado, em virtude de perturbação de saúde mental, não era inteiramente capaz de determinar-se de acordo com o entendimento do caráter ilícito do fato ao tempo da conduta. Conforme o Código Penal, nesse caso",
+      "alternativas": [
+        { "letra": "A", "texto": "o acusado é isento de pena, por inimputabilidade decorrente de doença mental." },
+        { "letra": "B", "texto": "incide o erro sobre a ilicitude do fato, que permite diminuir a pena se evitável." },
+        { "letra": "C", "texto": "a pena é aplicada integralmente, pois só a incapacidade total produz efeito penal." },
+        { "letra": "D", "texto": "o acusado responde pelo crime, mas a lei autoriza reduzir a pena (semi-imputabilidade)." }
+      ],
+      "gabarito": "D",
+      "comentario": "Quando a perturbação de saúde mental não elimina, mas reduz a capacidade de entender ou de se autodeterminar, o agente é semi-imputável: responde pelo crime, e a lei autoriza a redução da pena (art. 26, parágrafo único, do CP). A isenção de pena do caput exige incapacidade inteira, e o erro sobre a ilicitude (art. 21) trata de outro problema, a falta de consciência da ilicitude. Fundamento: art. 26, parágrafo único, do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A isenção de pena do art. 26, caput, exige que o agente fosse inteiramente incapaz; o laudo fala em capacidade apenas parcial." },
+        { "letra": "B", "correta": false, "justificativa": "O erro sobre a ilicitude (art. 21) trata da falta de consciência da ilicitude, não de perturbação de saúde mental." },
+        { "letra": "C", "correta": false, "justificativa": "O parágrafo único do art. 26 dá efeito também à capacidade parcial, permitindo a redução da pena." },
+        { "letra": "D", "correta": true, "justificativa": "É a regra do parágrafo único do art. 26: o semi-imputável responde pelo crime, com possibilidade de redução da pena." }
+      ],
+      "fundamento_legal": "Código Penal, art. 26, caput e parágrafo único.",
+      "pegadinha": "Tratar a capacidade parcial como inimputabilidade, que isenta de pena.",
+      "o_que_mudou": "Antes as alternativas comparavam frações de redução. Agora a questão cobra a distinção entre inimputabilidade, semi-imputabilidade e erro sobre a ilicitude, sem citar fração."
+    },
+    {
+      "id": 1757,
+      "enunciado": "Considerando as disposições gerais da Lei nº 9.099/1995 sobre os Juizados Especiais Criminais, assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "As contravenções penais só são consideradas infrações de menor potencial ofensivo quando a lei não lhes comina prisão simples." },
+        { "letra": "B", "texto": "A competência do Juizado Especial Criminal é determinada pelo domicílio do autor do fato, e não pelo lugar em que praticada a infração." },
+        { "letra": "C", "texto": "O Juizado Especial Criminal tem competência apenas para a conciliação, cabendo o julgamento e a execução ao juízo comum." },
+        { "letra": "D", "texto": "As disposições da Lei nº 9.099/1995 aplicam-se na Justiça Militar quando a infração for considerada de menor potencial ofensivo." },
+        { "letra": "E", "texto": "Na reunião de processos perante o tribunal do júri, por conexão ou continência, observam-se a transação penal e a composição dos danos civis." }
+      ],
+      "gabarito": "E",
+      "comentario": "O parágrafo único do art. 60 da Lei nº 9.099/1995 determina que, na reunião de processos perante o juízo comum ou o tribunal do júri por conexão ou continência, sejam observados os institutos da transação penal e da composição dos danos civis. O art. 61 considera de menor potencial ofensivo todas as contravenções penais, o art. 60 dá ao Juizado competência para conciliação, julgamento e execução, o art. 63 fixa a competência pelo lugar da infração e o art. 90-A afasta a lei no âmbito da Justiça Militar. Fundamento: arts. 60, 61, 63 e 90-A da Lei nº 9.099/1995.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 61 inclui as contravenções penais entre as infrações de menor potencial ofensivo, sem distinguir a espécie de pena cominada." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 63 determina a competência pelo lugar em que foi praticada a infração penal, não pelo domicílio do autor." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 60 atribui ao Juizado Especial Criminal a conciliação, o julgamento e a execução das infrações de menor potencial ofensivo." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 90-A afasta as disposições da lei no âmbito da Justiça Militar, sem exceção para infrações de menor potencial ofensivo." },
+        { "letra": "E", "correta": true, "justificativa": "Reproduz o parágrafo único do art. 60: mesmo com a reunião no júri, observam-se a transação penal e a composição dos danos civis." }
+      ],
+      "fundamento_legal": "Lei 9.099/1995, art. 60, parágrafo único; arts. 61, 63 e 90-A.",
+      "pegadinha": "Achar que a reunião de processos no júri por conexão afasta os institutos despenalizadores.",
+      "o_que_mudou": "Antes os distratores dependiam de faixas de pena e de leis externas. Agora todos se resolvem pela própria Lei 9.099/1995 (contravenções, competência, Justiça Militar e conexão com o júri), sem citar quantidade de pena."
+    }
+  ]
+}

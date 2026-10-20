@@ -1,0 +1,182 @@
+{
+  "itens": [
+    {
+      "id": 251,
+      "enunciado": "Policiais civis prenderam em flagrante um homem que vendia cocaína a estudantes na calçada em frente a uma faculdade particular de Fortaleza. Não houve emprego de arma, violência ou ameaça, nem envolvimento de criança ou adolescente, e o agente não integrava organização criminosa, grupo paramilitar ou milícia. À luz da Lei nº 11.343/2006, em caso de condenação por tráfico, é correto afirmar que",
+      "alternativas": [
+        { "letra": "A", "texto": "não incide a causa de aumento do local, pois a majorante relativa a estabelecimentos de ensino exige que o crime ocorra no interior da instituição." },
+        { "letra": "B", "texto": "incide a majorante do art. 40-A, própria do tráfico praticado nas imediações de estabelecimentos de ensino ou de sedes de entidades estudantis." },
+        { "letra": "C", "texto": "incide a causa de aumento do local apenas se ficar demonstrado que os compradores eram crianças ou adolescentes matriculados na instituição." },
+        { "letra": "D", "texto": "incide a causa de aumento do art. 40, III, da Lei de Drogas, por ter sido a infração cometida nas imediações de estabelecimento de ensino." }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 40, III, da Lei 11.343/2006 prevê causa de aumento para os crimes dos arts. 33 a 37 quando a infração é cometida nas dependências ou imediações de estabelecimentos de ensino, entre outros locais. A lei fala em imediações, então não é preciso que a venda ocorra dentro da faculdade, e não exige que os compradores sejam crianças ou adolescentes (essa é outra hipótese, a do inciso VI). Já o art. 40-A só se aplica quando o crime é praticado por integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada, o que o enunciado afasta.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O inciso III do art. 40 abrange expressamente as dependências e também as imediações dos estabelecimentos de ensino; a venda na calçada em frente à faculdade basta." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 40-A não trata de local: alcança o crime praticado por integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada, situação excluída pelo enunciado." },
+        { "letra": "C", "correta": false, "justificativa": "O envolvimento de criança ou adolescente é a hipótese autônoma do inciso VI; a majorante do inciso III decorre só da proximidade do estabelecimento de ensino, que inclui faculdades." },
+        { "letra": "D", "correta": true, "justificativa": "Aplica o art. 40, III: o tráfico cometido nas imediações de estabelecimento de ensino atrai a causa de aumento." }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 40, caput e incisos III e VI; art. 40-A, caput.",
+      "pegadinha": "Restringir a majorante ao interior da instituição, condicioná-la à idade dos compradores ou confundir o art. 40, III, com o art. 40-A.",
+      "o_que_mudou": "As alternativas deixaram de cobrar a fração do aumento e a pena em dobro; agora cobram qual hipótese de majorante incide (art. 40, III, x inciso VI x art. 40-A)."
+    },
+    {
+      "id": 254,
+      "enunciado": "Considere apenas a redação literal do art. 44 da Lei nº 11.343/2006, sem considerar o entendimento do STF sobre sua aplicação. Segundo a letra da lei, assinale a afirmativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "O crime de prescrever ou ministrar drogas culposamente é inafiançável e insuscetível de graça, indulto e anistia, por expressa previsão do art. 44." },
+        { "letra": "B", "texto": "A associação para o tráfico e o financiamento do tráfico estão no rol do art. 44, e nesses crimes o livramento condicional é vedado ao reincidente específico." },
+        { "letra": "C", "texto": "O crime de induzir, instigar ou auxiliar alguém ao uso indevido de droga está entre os crimes declarados inafiançáveis e insuscetíveis de sursis pelo art. 44." },
+        { "letra": "D", "texto": "Nos crimes alcançados pelo art. 44, o livramento condicional é vedado a qualquer reincidente, ainda que a condenação anterior seja por crime de outra natureza." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 44 declara inafiançáveis e insuscetíveis de sursis, graça, indulto, anistia e liberdade provisória, vedada a conversão em restritivas de direitos, os crimes dos arts. 33, caput e § 1º, e 34 a 37. A associação para o tráfico (art. 35) e o financiamento (art. 36) estão nessa lista. O parágrafo único trata do livramento condicional nesses crimes e o veda ao reincidente específico, não a qualquer reincidente. Ficam fora do art. 44 o art. 33, § 2º (induzir, instigar ou auxiliar ao uso), e o art. 38 (crime culposo), entre outros. Atenção ao entendimento atual: o STF declarou inconstitucionais, em controle difuso, a vedação de liberdade provisória do art. 44 e a proibição de conversão da pena em restritivas de direitos (proibição que também constava do art. 33, § 4º, e teve a execução suspensa pelo Senado). Na prática, essas duas vedações não se aplicam de forma automática; continuam valendo a inafiançabilidade e a vedação de graça, indulto e anistia, que decorrem do art. 5º, XLIII, da CF. Por isso o enunciado avisa que cobra a redação literal; a resposta não depende das vedações afastadas pelo STF.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 38 (prescrever ou ministrar culposamente) está fora do rol do art. 44, que alcança o art. 33, caput e § 1º, e os arts. 34 a 37." },
+        { "letra": "B", "correta": true, "justificativa": "Os arts. 35 e 36 estão no intervalo dos arts. 34 a 37 citados pelo art. 44, e o parágrafo único veda o livramento condicional ao reincidente específico." },
+        { "letra": "C", "correta": false, "justificativa": "Induzir, instigar ou auxiliar ao uso é a conduta do art. 33, § 2º, que não consta do art. 44, pois este só menciona o art. 33, caput e § 1º." },
+        { "letra": "D", "correta": false, "justificativa": "O parágrafo único do art. 44 veda o livramento apenas ao reincidente específico; a reincidência por crime de outra natureza não impede o benefício pela letra da lei." }
+      ],
+      "fundamento_legal": "Lei 11.343/2006, art. 44, caput e parágrafo único; arts. 33, § 2º, 35, 36 e 38.",
+      "pegadinha": "Incluir no art. 44 crimes que estão fora do rol (art. 33, § 2º, e art. 38) e estender a vedação do livramento a qualquer reincidente.",
+      "o_que_mudou": "Saíram as frações de cumprimento de pena para o livramento; agora a questão cobra quais crimes estão no rol do art. 44 e a quem o livramento é vedado (reincidente específico)."
+    },
+    {
+      "id": 264,
+      "enunciado": "Carlos, primário, subtraiu, durante o dia, alguns metros de cabos utilizados para a transmissão de telefonia, de pequeno valor, de um poste em via pública, agindo sozinho e sem romper obstáculo. Considerando o Código Penal, assinale a afirmativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "Carlos responde por furto simples majorado pelo repouso noturno, porque os cabos de telefonia se equiparam à energia elétrica para todos os efeitos." },
+        { "letra": "B", "texto": "Carlos responde pela forma qualificada de subtração de fios e cabos, sendo vedado o privilégio por se tratar de figura qualificada, ainda que primário o agente." },
+        { "letra": "C", "texto": "Carlos responde pelo furto de dispositivo eletrônico ou informático do § 6º, II, pois os cabos de telefonia servem à transmissão de dados e de voz." },
+        { "letra": "D", "texto": "Carlos responde pela forma qualificada de subtração de fios e cabos do § 8º, sendo aplicável, por expressa previsão legal, o benefício do furto privilegiado." }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 155, § 8º, do CP, com a redação dada pela Lei 15.397/2026, traz forma qualificada para a subtração de fios, cabos ou equipamentos utilizados para fornecimento ou transmissão de energia elétrica ou de telefonia ou para transferência de dados, e determina que se aplica, em qualquer caso, o § 2º (furto privilegiado). Como Carlos é primário e a coisa é de pequeno valor, o juiz pode aplicar os benefícios do privilégio, mesmo sendo a figura qualificada.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O fato ocorreu durante o dia, então não há repouso noturno (§ 1º); e o § 3º equipara à coisa móvel a energia, não os cabos. A subtração de cabos de telefonia tem forma própria no § 8º." },
+        { "letra": "B", "correta": false, "justificativa": "O § 8º afasta essa vedação ao prever que se aplica, em qualquer caso, o disposto no § 2º (furto privilegiado), de modo que a primariedade de Carlos é relevante." },
+        { "letra": "C", "correta": false, "justificativa": "O § 6º, II, trata de aparelho de telefonia celular, computador ou dispositivo eletrônico ou informático semelhante. Cabos de telefonia e de transferência de dados estão especificamente previstos no § 8º." },
+        { "letra": "D", "correta": true, "justificativa": "Reproduz o § 8º: forma qualificada da subtração de cabos de telefonia, com aplicação expressa do § 2º, cujos requisitos (primariedade e pequeno valor) estão presentes." }
+      ],
+      "fundamento_legal": "Código Penal, art. 155, §§ 1º, 2º, 3º, 6º, II, e 8º (§ 8º com redação dada pela Lei 15.397/2026).",
+      "pegadinha": "Supor que o privilégio nunca se aplica a formas qualificadas, quando o § 8º manda aplicá-lo expressamente.",
+      "o_que_mudou": "As alternativas não citam mais a quantidade de pena; cobram a tipificação (qual parágrafo do art. 155) e a aplicação expressa do privilégio no § 8º."
+    },
+    {
+      "id": 274,
+      "enunciado": "Ricardo hospedou-se por três noites em um hotel, consumindo também as refeições oferecidas, ciente desde o início de que não dispunha de recursos para pagar as despesas. Na saída, sem empregar violência ou grave ameaça, informou ao gerente que não tinha como pagar. Considerando o Código Penal, é correto afirmar que a conduta de Ricardo",
+      "alternativas": [
+        { "letra": "A", "texto": "configura o crime de outras fraudes, de ação penal pública incondicionada, sendo vedado ao juiz deixar de aplicar a pena se houver prejuízo efetivo ao hotel." },
+        { "letra": "B", "texto": "configura o crime de outras fraudes, que somente se procede mediante representação, podendo o juiz, conforme as circunstâncias, deixar de aplicar a pena." },
+        { "letra": "C", "texto": "é atípica, pois o simples inadimplemento de despesas de hospedagem, sem violência ou grave ameaça, constitui ilícito exclusivamente civil." },
+        { "letra": "D", "texto": "configura o crime de outras fraudes, cuja ação penal é privada, pois somente se procede mediante queixa oferecida pelo hotel que sofreu o prejuízo." },
+        { "letra": "E", "texto": "configura estelionato em sua forma básica, cuja ação penal é pública incondicionada, independentemente de qualquer manifestação do hotel." }
+      ],
+      "gabarito": "B",
+      "comentario": "Alojar-se em hotel ou tomar refeição em restaurante sem dispor de recursos para pagar é o crime do art. 176 do CP (outras fraudes). O parágrafo único traz duas particularidades que a prova adora: a ação penal depende de representação (pública condicionada) e o juiz pode, conforme as circunstâncias, deixar de aplicar a pena. Como Ricardo já sabia que não teria como pagar, não se trata de mero inadimplemento, e o tipo específico do art. 176 prevalece sobre o estelionato.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O parágrafo único do art. 176 exige representação, então a ação não é incondicionada; e a lei autoriza expressamente o juiz a deixar de aplicar a pena conforme as circunstâncias." },
+        { "letra": "B", "correta": true, "justificativa": "Reproduz o art. 176, parágrafo único: somente se procede mediante representação e o juiz pode, conforme as circunstâncias, deixar de aplicar a pena." },
+        { "letra": "C", "correta": false, "justificativa": "A ausência de violência ou grave ameaça não torna o fato atípico: alojar-se em hotel ou tomar refeição sem dispor de recursos para pagar está expressamente tipificado no art. 176 do CP." },
+        { "letra": "D", "correta": false, "justificativa": "O parágrafo único do art. 176 fala em representação, e não em queixa. A ação é pública condicionada, não privada; a queixa é exigida, por exemplo, na fraude à execução (art. 179)." },
+        { "letra": "E", "correta": false, "justificativa": "Há tipo específico para a conduta (art. 176), que prevalece sobre o estelionato do caput do art. 171; além disso, a ação penal do art. 176 depende de representação." }
+      ],
+      "fundamento_legal": "Código Penal, art. 176, caput e parágrafo único; art. 171, caput.",
+      "pegadinha": "Trocar representação por queixa e esquecer a possibilidade de o juiz deixar de aplicar a pena.",
+      "o_que_mudou": "Saíram a espécie e a quantidade da pena das alternativas; as erradas agora erram na tipificação e na natureza da ação penal."
+    },
+    {
+      "id": 276,
+      "enunciado": "Executado em processo de cobrança, Osvaldo, para impedir que seus bens fossem penhorados, doou-os ao irmão e, em seguida, simulou dívidas com terceiros. A respeito do crime de fraude à execução previsto no Código Penal, é correto afirmar que",
+      "alternativas": [
+        { "letra": "A", "texto": "é crime de ação penal privada, pois somente se procede mediante queixa, e o tipo alcança tanto a alienação de bens quanto a simulação de dívidas." },
+        { "letra": "B", "texto": "a conduta configura disposição de coisa alheia como própria, porque os bens penhoráveis já pertenciam ao credor desde o início da execução." },
+        { "letra": "C", "texto": "a conduta é atípica, pois a doação de bens próprios constitui ato lícito de disposição do patrimônio, ainda que haja execução em curso." },
+        { "letra": "D", "texto": "é crime de ação penal pública condicionada, pois somente se procede mediante representação do credor prejudicado pela fraude." },
+        { "letra": "E", "texto": "a ação penal é pública incondicionada, por se tratar de crime que atenta contra a administração da justiça e não contra o patrimônio." }
+      ],
+      "gabarito": "A",
+      "comentario": "O art. 179 do CP pune quem frauda execução, alienando, desviando, destruindo ou danificando bens, ou simulando dívidas. As duas condutas de Osvaldo (doar os bens e simular dívidas) estão no tipo. O parágrafo único estabelece que somente se procede mediante queixa: é crime de ação penal privada, inserido no título dos crimes contra o patrimônio.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Corresponde ao art. 179: o tipo inclui alienar bens e simular dívidas, e o parágrafo único exige queixa, o que torna a ação penal privada." },
+        { "letra": "B", "correta": false, "justificativa": "Os bens continuavam sendo de Osvaldo; a execução não transfere a propriedade ao credor. A disposição de coisa alheia como própria (art. 171, § 2º, I) não se aplica, e há tipo específico no art. 179." },
+        { "letra": "C", "correta": false, "justificativa": "Alienar bens e simular dívidas para fraudar execução são condutas expressamente previstas no art. 179." },
+        { "letra": "D", "correta": false, "justificativa": "A lei não fala em representação, e sim em queixa; a representação é exigida, por exemplo, no art. 176." },
+        { "letra": "E", "correta": false, "justificativa": "O parágrafo único do art. 179 exige queixa, o que torna a ação penal privada; e o crime está no título dos crimes contra o patrimônio do CP." }
+      ],
+      "fundamento_legal": "Código Penal, art. 179, caput e parágrafo único; art. 171, § 2º, I.",
+      "pegadinha": "Trocar a queixa (ação privada) pela representação, que aparece em outros crimes do mesmo título.",
+      "o_que_mudou": "As alternativas deixaram de comparar quantidades de pena (art. 179 x estelionato); agora cobram as condutas do tipo, a diferença para a disposição de coisa alheia e a ação penal."
+    },
+    {
+      "id": 279,
+      "enunciado": "Carlos mantém, nos fundos da própria casa, uma oficina clandestina, sem qualquer registro, onde desmonta veículos e vende as peças a clientes. As circunstâncias em que recebe os carros indicam que ele deve saber que são produto de crime. Com base no Código Penal, Carlos pratica",
+      "alternativas": [
+        { "letra": "A", "texto": "receptação culposa, pois não há prova de que soubesse da origem ilícita dos veículos, bastando que devesse presumi-la pelas circunstâncias." },
+        { "letra": "B", "texto": "receptação qualificada, pois o comércio clandestino, inclusive o exercido em residência, equipara-se à atividade comercial para esse efeito." },
+        { "letra": "C", "texto": "fato atípico quanto à receptação, pois quem apenas desmonta e vende peças a clientes não adquire, não recebe nem oculta a coisa produto de crime." },
+        { "letra": "D", "texto": "receptação simples, pois a atividade não é formalmente registrada e, por isso, não se equipara à atividade comercial ou industrial." },
+        { "letra": "E", "texto": "receptação simples, pois a forma qualificada exige que o agente saiba, e não apenas deva saber, que a coisa é produto de crime." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 180, § 1º, do CP descreve a receptação qualificada: quem, no exercício de atividade comercial ou industrial, desmonta, vende ou de qualquer forma utiliza coisa que deve saber ser produto de crime. O § 2º equipara à atividade comercial qualquer forma de comércio irregular ou clandestino, inclusive o exercido em residência. A oficina de Carlos se enquadra nos dois parágrafos: falta de registro e funcionamento em casa não afastam a qualificadora.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A receptação culposa (§ 3º) restringe-se a adquirir ou receber coisa que deve presumir-se obtida por meio criminoso; a expressão \"deve saber\", no exercício de atividade comercial, está no tipo qualificado do § 1º." },
+        { "letra": "B", "correta": true, "justificativa": "Reúne o § 1º (desmontar e vender, no exercício de atividade comercial, coisa que deve saber ser produto de crime) e o § 2º (comércio clandestino em residência)." },
+        { "letra": "C", "correta": false, "justificativa": "Desmontar e vender estão entre os núcleos do § 1º, ao lado de adquirir, receber e ocultar; não é preciso praticar estes últimos para que o tipo se configure." },
+        { "letra": "D", "correta": false, "justificativa": "A falta de registro não afasta a qualificadora: o § 2º equipara o comércio irregular ou clandestino à atividade comercial." },
+        { "letra": "E", "correta": false, "justificativa": "É o contrário: o caput fala em coisa que sabe ser produto de crime, e o § 1º usa justamente a expressão \"deve saber\"." }
+      ],
+      "fundamento_legal": "Código Penal, art. 180, caput e §§ 1º, 2º e 3º.",
+      "pegadinha": "Achar que a falta de registro formal, o funcionamento em residência ou o \"deve saber\" afastam a receptação qualificada.",
+      "o_que_mudou": "As alternativas não trazem mais as penas de cada forma de receptação nem a pena em dobro; cobram só qual crime se configura e por quê."
+    },
+    {
+      "id": 282,
+      "enunciado": "Rafael enviou mensagens por aplicativo e e-mails fraudulentos a Bianca, de 35 anos, passando-se por funcionário do banco dela. Induzida a erro, Bianca forneceu informações que permitiram a Rafael obter vantagem ilícita em prejuízo dela. Apurou-se que a página falsa utilizada no golpe estava hospedada em servidor mantido fora do território nacional. Considerando o Código Penal, Rafael responde por",
+      "alternativas": [
+        { "letra": "A", "texto": "fraude eletrônica, sem a majorante do servidor no exterior, pois essa causa de aumento só incide quando a vítima é idosa ou vulnerável." },
+        { "letra": "B", "texto": "furto mediante fraude por meio de dispositivo eletrônico, pois a vantagem foi obtida com informações fornecidas pela própria vítima." },
+        { "letra": "C", "texto": "fraude eletrônica, com a majorante do crime contra vulnerável, pois toda vítima atingida por servidor no exterior é tida como vulnerável." },
+        { "letra": "D", "texto": "estelionato na forma básica do caput, com a majorante do servidor no exterior, que alcança qualquer estelionato praticado na internet." },
+        { "letra": "E", "texto": "fraude eletrônica, com a causa de aumento do § 2º-B, pela utilização de servidor mantido fora do território nacional para o golpe." }
+      ],
+      "gabarito": "E",
+      "comentario": "Obter vantagem ilícita usando informações fornecidas pela vítima induzida a erro por mensagens e e-mails fraudulentos é a fraude eletrônica do art. 171, § 2º-A, do CP (redação dada pela Lei 15.397/2026). O § 2º-B prevê causa de aumento sobre a pena do § 2º-A, considerada a relevância do resultado gravoso, se o crime é praticado mediante a utilização de servidor mantido fora do território nacional. A vítima tem 35 anos, então a causa de aumento do § 4º (idoso ou vulnerável) não se aplica. Não é furto mediante fraude: aqui a própria vítima, enganada, entrega as informações que geram a vantagem, o que é típico do estelionato.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O § 2º-B não depende da condição da vítima; basta a utilização de servidor mantido fora do território nacional. A condição de idoso ou vulnerável é a hipótese do § 4º." },
+        { "letra": "B", "correta": false, "justificativa": "A obtenção de vantagem com informações fornecidas pela vítima induzida a erro é exatamente a descrição do art. 171, § 2º-A (estelionato), e não do furto do art. 155, § 4º-B." },
+        { "letra": "C", "correta": false, "justificativa": "O § 4º exige vítima idosa ou vulnerável, e Bianca tem 35 anos; o uso de servidor no exterior é hipótese própria do § 2º-B, que não transforma a vítima em vulnerável." },
+        { "letra": "D", "correta": false, "justificativa": "O uso de redes, mensagens e e-mail fraudulento caracteriza a forma do § 2º-A, e o § 2º-B incide sobre a pena do § 2º-A, não sobre a do caput." },
+        { "letra": "E", "correta": true, "justificativa": "Combina corretamente a tipificação do § 2º-A (fraude eletrônica) com a causa de aumento do § 2º-B (servidor mantido fora do território nacional)." }
+      ],
+      "fundamento_legal": "Código Penal, art. 171, caput, § 2º-A (redação dada pela Lei nº 15.397/2026), § 2º-B (incluído pela Lei nº 14.155/2021) e § 4º; art. 155, § 4º-B.",
+      "pegadinha": "Confundir a fraude eletrônica com o furto mediante fraude eletrônico e misturar as hipóteses de aumento do § 2º-B (servidor no exterior) e do § 4º (idoso ou vulnerável).",
+      "o_que_mudou": "A questão perguntava a pena e as frações de aumento; agora pergunta qual crime se configura e qual hipótese de causa de aumento incide."
+    },
+    {
+      "id": 290,
+      "enunciado": "Carlos, de 30 anos, contratou um adolescente de 16 anos para levar, de ônibus, 5 kg de cocaína de Fortaleza (CE) a Teresina (PI), onde a droga seria vendida. O adolescente foi abordado já em território piauiense, logo depois de cruzar a divisa. Considerando apenas a Lei nº 11.343/2006, Carlos responde por tráfico de drogas:",
+      "alternativas": [
+        { "letra": "A", "texto": "com as causas de aumento da transnacionalidade e do envolvimento de adolescente, pois a droga atravessou a divisa entre dois Estados." },
+        { "letra": "B", "texto": "com as causas de aumento do tráfico entre Estados e do envolvimento de adolescente, previstas nos incisos V e VI do art. 40." },
+        { "letra": "C", "texto": "sem causas de aumento, porque as majorantes da Lei de Drogas exigem que o próprio agente transporte a substância." },
+        { "letra": "D", "texto": "apenas com a causa de aumento do tráfico entre Estados, pois o envolvimento de adolescente só agrava o crime se a droga for destinada a ele." },
+        { "letra": "E", "texto": "apenas com a causa de aumento do envolvimento de adolescente, pois o tráfico entre Estados exige que a droga chegue ao local da venda." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 40 da Lei 11.343/2006 prevê causas de aumento para os crimes dos arts. 33 a 37 quando caracterizado o tráfico entre Estados da Federação (inciso V) e quando a prática envolver ou visar a atingir criança ou adolescente (inciso VI). No caso, a droga saiu do Ceará e já estava no Piauí quando houve a abordagem, e Carlos usou um adolescente no transporte: incidem as duas majorantes. Transnacionalidade (inciso I) é outra coisa: exige elementos que indiquem ligação com outro país.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Transporte entre Ceará e Piauí é tráfico interestadual (inciso V), não transnacional (inciso I), que pressupõe ligação com o exterior." },
+        { "letra": "B", "correta": true, "justificativa": "Incidem o inciso V (tráfico entre Estados) e o inciso VI (prática que envolve adolescente) do art. 40." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 40 não exige que o próprio agente transporte a droga; Carlos é autor do tráfico e as majorantes decorrem das circunstâncias do fato." },
+        { "letra": "D", "correta": false, "justificativa": "O inciso VI usa a fórmula envolver ou visar a atingir: basta que o adolescente seja envolvido na prática, como no transporte, sem que a droga seja destinada a ele." },
+        { "letra": "E", "correta": false, "justificativa": "O inciso V exige apenas que se caracterize o tráfico entre Estados, e a droga já havia cruzado a divisa; a lei não condiciona a majorante à chegada ao local da venda." }
+      ],
+      "fundamento_legal": "Lei nº 11.343/2006, art. 33, caput, e art. 40, caput e incisos I, V e VI.",
+      "pegadinha": "Confundir tráfico interestadual com transnacional e restringir o inciso VI aos casos em que a droga se destina ao adolescente.",
+      "o_que_mudou": "Saíram as frações de aumento das alternativas; agora a questão cobra só quais hipóteses do art. 40 incidem no caso."
+    }
+  ]
+}

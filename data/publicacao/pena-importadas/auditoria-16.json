@@ -1,0 +1,52 @@
+{
+  "auditorias": [
+    {
+      "id": 2476,
+      "status": "VALIDADA",
+      "justificativa": "Reunião de militares negando-se a cumprir a ordem do superior é motim (art. 149, I, do CPM); sem armas não há revolta (parágrafo único). Distratores errados pelo texto: a ocupação é só o inciso IV; revolta exige agentes armados; conspiração (art. 152) é o concerto, absorvido pela execução; o art. 150 exige armamento ou material bélico e violência. A recusa de obediência (art. 163) é subsidiária. Alternativas não tratam de quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2477,
+      "status": "VALIDADA",
+      "justificativa": "Ocupar dependência de estabelecimento militar em desobediência a ordem superior é motim (art. 149, IV); agentes armados fazem do fato revolta (parágrafo único). O enunciado afasta a violência, excluindo o art. 150, que a exige. Conspiração (art. 152) e recusa individual (art. 163) não se ajustam ao fato executado em conjunto. Gabarito único; sem quantidade de pena nas alternativas.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2479,
+      "status": "VALIDADA",
+      "justificativa": "O art. 151 pune o militar que deixa de levar ao superior o motim de cuja preparação teve notícia, sem exigir execução. Lima não se concertou (afasta art. 152) nem aderiu ao motim. Todos os distratores contrariam a letra do art. 151 ou do art. 152. Gabarito único; sem quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2482,
+      "status": "VALIDADA",
+      "justificativa": "O refeitório do batalhão é lugar sujeito à administração militar, e afixar impresso que incita à desobediência é a forma equiparada do art. 155, parágrafo único. Apologia (art. 156) exige exaltação de fato criminoso ou autor; aliciação (art. 154) é atrair militar para crime do Capítulo I, o que o enunciado não descreve; o tipo é formal e não exige resultado. Gabarito único; sem quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2483,
+      "status": "VALIDADA",
+      "justificativa": "O art. 156 exige apologia de fato que a lei militar considera crime, ou do seu autor, em lugar sujeito à administração militar. Só a alternativa correta traz as duas elementares; as demais trocam o lugar (tropa formada, qualquer lugar, lugar público) ou restringem o objeto ao autor. Gabarito único; sem quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2487,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C. O art. 159 do CPM diz que, quando da violência resulta morte ou lesão corporal e as circunstâncias evidenciam que o agente não quis o resultado nem assumiu o risco, a pena do crime contra a pessoa é diminuída. A erra (o resultado continua punido); B erra (não há presunção de dolo); D erra (o artigo fala em morte ou lesão); E erra (a regra está no capítulo que abrange os arts. 157 e 158). Art. 175, parágrafo único, conferido. Única correta pela letra da lei, sem citar frações. A ressalva antiga foi resolvida: o comentário agora menciona a forma qualificada do art. 157, § 4º, registra a discussão doutrinária e deixa claro que a questão cobra a letra do art. 159.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2488,
+      "status": "VALIDADA",
+      "justificativa": "Desrespeito a superior diante de outro militar, sem crime mais grave, é o art. 160; o parágrafo único prevê aumento quando a vítima é o oficial de dia (o oficial de dia é superior do soldado). Sem violência, afasta-se o art. 158; sem ordem descumprida, afasta-se o art. 163; o tipo não exige tropa formada. As alternativas tratam da hipótese da causa de aumento, não da quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 2489,
+      "status": "VALIDADA",
+      "justificativa": "O art. 163 alcança a ordem do superior sobre assunto ou matéria de serviço ou relativa a dever imposto em lei, regulamento ou instrução, e é subsidiário ('se o fato não constitui crime mais grave'). A lei não exige ordem escrita, ordem do comandante nem presença de outros militares (elementar do art. 160). Gabarito único; sem quantidade de pena.",
+      "correcao_sugerida": null
+    }
+  ]
+}

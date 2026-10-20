@@ -1,0 +1,264 @@
+{
+  "itens": [
+    {
+      "id": 2856,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Administração Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-administracao-publica.md",
+      "atual": {
+        "enunciado": "Um homem sem qualquer vínculo com a Administração passa a se apresentar como fiscal da vigilância sanitária municipal, realiza falsas vistorias em bares e recebe dos comerciantes valores para emitir supostos alvarás. Considerando apenas o crime de usurpação de função pública, a pena aplicável é de",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "detenção, de três meses a dois anos, e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão, de dois a cinco anos, e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "reclusão, de dois a doze anos, e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "detenção, de seis meses a dois anos, ou multa."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "A usurpação de função pública consiste em exercer indevidamente função pública por quem não a titulariza. A forma simples tem pena de detenção de três meses a dois anos, e multa; se do fato o agente aufere vantagem, incide a forma qualificada, com reclusão de dois a cinco anos, e multa. No caso, o agente recebeu valores dos comerciantes. Análise das alternativas: A) Errada: é a pena da forma simples, sem obtenção de vantagem. B) Correta: o agente auferiu vantagem, o que atrai o parágrafo único do art. 328. C) Errada: reclusão de dois a doze anos é a pena da corrupção ativa (art. 333). D) Errada: detenção de seis meses a dois anos, ou multa, é a pena do desacato (art. 331). Fundamento: art. 328, caput e parágrafo único, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2857,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Administração Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-administracao-publica.md",
+      "atual": {
+        "enunciado": "Um oficial de justiça, acompanhado de um guarda municipal que lhe prestava auxílio, tenta cumprir mandado judicial de busca e apreensão de um veículo. O morador, empunhando uma faca, ameaça ambos e consegue impedir que o veículo seja apreendido. Com base no Código Penal, a conduta do morador configura",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "desobediência, com pena de detenção de quinze dias a seis meses, e multa, pois a ordem judicial deixou de ser cumprida."
+          },
+          {
+            "letra": "B",
+            "texto": "resistência simples, com pena de detenção de dois meses a dois anos, ficando absorvida a pena de eventual violência."
+          },
+          {
+            "letra": "C",
+            "texto": "resistência apenas em relação ao oficial, pois quem presta auxílio ao funcionário competente não pode ser vítima do crime."
+          },
+          {
+            "letra": "D",
+            "texto": "resistência qualificada, com pena de reclusão de um a três anos, porque o ato, em razão da resistência, não se executou."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "A resistência exige oposição à execução de ato legal mediante violência ou ameaça ao funcionário competente ou a quem lhe esteja prestando auxílio. Se, em razão da resistência, o ato não se executa, a pena passa a ser de reclusão de um a três anos. Além disso, as penas são aplicadas sem prejuízo das correspondentes à violência. Análise das alternativas: A) Errada: houve ameaça, o que afasta a desobediência e caracteriza resistência. B) Errada: o ato não se executou, logo incide o § 1º; e o § 2º manda somar a pena da violência, não absorvê-la. C) Errada: o tipo protege expressamente quem presta auxílio ao funcionário competente. D) Correta: aplica-se o § 1º do art. 329. Fundamento: art. 329, caput, §§ 1º e 2º, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2858,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Administração Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-administracao-publica.md",
+      "atual": {
+        "enunciado": "Em diligência, um inspetor de polícia, munido de ordem legal, determina ao proprietário de um galpão que abra o portão para a entrada da equipe. O proprietário se recusa e permanece parado, sem empregar violência nem fazer ameaça. A conduta do proprietário corresponde ao crime de",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "desobediência, punida com detenção, de quinze dias a seis meses, e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "resistência, punida com detenção, de dois meses a dois anos."
+          },
+          {
+            "letra": "C",
+            "texto": "desacato, punido com detenção, de seis meses a dois anos, ou multa."
+          },
+          {
+            "letra": "D",
+            "texto": "usurpação de função, punida com detenção, de três meses a dois anos, e multa."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "Desobedecer a ordem legal de funcionário público, sem violência ou ameaça, configura desobediência. A resistência exige violência ou ameaça ao funcionário; sem esses meios, a mera recusa passiva fica na desobediência. Análise das alternativas: A) Correta: recusa em cumprir ordem legal, sem violência ou ameaça, com a pena do art. 330. B) Errada: a resistência depende de violência ou ameaça, ausentes no caso. C) Errada: o desacato exige ofensa ou desprestígio ao funcionário, e não simples descumprimento de ordem. D) Errada: o proprietário não exerceu função pública alguma. Fundamento: arts. 329 e 330 do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2859,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Administração Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-administracao-publica.md",
+      "atual": {
+        "enunciado": "Abordado em uma blitz, um motorista xinga e humilha, diante de populares, o policial militar que o fiscalizava, em razão da função por ele exercida. De acordo com o Código Penal, a pena cominada ao crime praticado pelo motorista é de",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "detenção, de quinze dias a seis meses, e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão, de um a três anos, e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "detenção, de seis meses a dois anos, ou multa."
+          },
+          {
+            "letra": "D",
+            "texto": "detenção, de seis meses a dois anos, e multa."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "Ofender ou humilhar funcionário público no exercício da função ou em razão dela configura desacato. A pena é alternativa: detenção de seis meses a dois anos, ou multa. Análise das alternativas: A) Errada: é a pena da desobediência (art. 330). B) Errada: reclusão de um a três anos é a pena da resistência quando o ato não se executa (art. 329, § 1º). C) Correta: reproduz a pena do art. 331. D) Errada: a lei usa a conjunção \"ou\", e não \"e\"; a multa é alternativa, não cumulativa. MACETE DO RICCARDO: no desacato, a multa vem com \"ou\" — ou cadeia, ou bolso. Fundamento: art. 331 do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2860,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Administração Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-administracao-publica.md",
+      "atual": {
+        "enunciado": "Um particular cobra de um empresário R$ 50 mil a pretexto de influir no ato de um servidor da Secretaria de Obras responsável pela liberação de um alvará, insinuando que parte do dinheiro também seria repassada ao servidor. Assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Há tráfico de influência, com pena de reclusão de 2 a 5 anos, e multa, aumentada da metade."
+          },
+          {
+            "letra": "B",
+            "texto": "Há corrupção ativa, com pena de reclusão de 2 a 12 anos, e multa, aumentada de um terço."
+          },
+          {
+            "letra": "C",
+            "texto": "Há exploração de prestígio, com pena de reclusão de 1 a 5 anos, e multa, aumentada de um terço."
+          },
+          {
+            "letra": "D",
+            "texto": "Há tráfico de influência, com pena de reclusão de 2 a 5 anos, e multa, aumentada de um terço."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "Cobrar vantagem a pretexto de influir em ato de funcionário público no exercício da função é tráfico de influência, punido com reclusão de 2 a 5 anos, e multa. Se o agente alega ou insinua que a vantagem também se destina ao funcionário, a pena é aumentada da metade. Análise das alternativas: A) Correta: tipo e majorante do art. 332. B) Errada: na corrupção ativa o agente oferece ou promete vantagem ao funcionário; aqui ele cobra do particular a pretexto de influência. C) Errada: a exploração de prestígio exige pretexto de influir em juiz, jurado, MP, funcionário de justiça, perito, tradutor, intérprete ou testemunha (art. 357), não em servidor da Secretaria de Obras. D) Errada: o aumento do art. 332 é da metade, e não de um terço. Fundamento: art. 332, caput e parágrafo único, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2861,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Administração Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-administracao-publica.md",
+      "atual": {
+        "enunciado": "Durante fiscalização, um motorista oferece R$ 500,00 a um policial rodoviário para que ele não lavre auto de infração. O policial aceita a oferta e, em razão dela, deixa de lavrar o auto. Quanto à responsabilidade penal do motorista, é correto afirmar que ele",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "responde por corrupção ativa, com reclusão de 2 a 12 anos, e multa, sem aumento, pois o crime se consumou com a simples oferta."
+          },
+          {
+            "letra": "B",
+            "texto": "responde por corrupção ativa com pena aumentada de um terço, porque, em razão da vantagem, o funcionário omitiu ato de ofício."
+          },
+          {
+            "letra": "C",
+            "texto": "responde como partícipe da corrupção passiva do policial, com reclusão de 2 a 12 anos, e multa, aumentada de um terço."
+          },
+          {
+            "letra": "D",
+            "texto": "responde por tráfico de influência, pois obteve benefício relacionado a ato de funcionário, com pena aumentada da metade."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "Oferecer ou prometer vantagem indevida a funcionário público para determiná-lo a praticar, omitir ou retardar ato de ofício é corrupção ativa, crime próprio do particular, com pena de reclusão de 2 a 12 anos, e multa. Se, em razão da vantagem ou promessa, o funcionário retarda ou omite o ato, ou o pratica infringindo dever funcional, a pena é aumentada de um terço. Análise das alternativas: A) Errada: a consumação ocorre com a oferta, mas a efetiva omissão do ato atrai a majorante do parágrafo único. B) Correta: aplica-se o art. 333, parágrafo único. C) Errada: o particular que oferece a vantagem tem tipo próprio, a corrupção ativa. D) Errada: no tráfico de influência o agente solicita ou obtém vantagem a pretexto de influir no funcionário; aqui houve oferta direta ao próprio funcionário. Fundamento: art. 333, caput e parágrafo único, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2862,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Administração Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-administracao-publica.md",
+      "atual": {
+        "enunciado": "Sobre os crimes de descaminho e contrabando, conforme a redação do Código Penal, assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Descaminho é importar ou exportar mercadoria proibida, com pena de reclusão de 1 a 4 anos."
+          },
+          {
+            "letra": "B",
+            "texto": "Contrabando é iludir o pagamento de imposto devido pela entrada de mercadoria, com pena de reclusão de 2 a 5 anos."
+          },
+          {
+            "letra": "C",
+            "texto": "A pena do descaminho é aumentada de um terço quando o crime é praticado em transporte aéreo, marítimo ou fluvial."
+          },
+          {
+            "letra": "D",
+            "texto": "Reinserir no território nacional mercadoria brasileira destinada à exportação é conduta equiparada ao descaminho, com a mesma pena."
+          },
+          {
+            "letra": "E",
+            "texto": "Importar clandestinamente mercadoria que dependa de registro ou autorização de órgão público competente equipara-se ao contrabando."
+          }
+        ],
+        "gabarito": "E",
+        "comentario": "O descaminho (art. 334) é iludir, no todo ou em parte, o pagamento de direito ou imposto devido pela entrada, saída ou consumo de mercadoria, com reclusão de 1 a 4 anos. O contrabando (art. 334-A) é importar ou exportar mercadoria proibida, com reclusão de 2 a 5 anos. Em ambos, a pena aplica-se em dobro se o crime é praticado em transporte aéreo, marítimo ou fluvial. Análise das alternativas: A) Errada: importar ou exportar mercadoria proibida é contrabando, e não descaminho. B) Errada: iludir o pagamento de imposto é descaminho; a pena de 2 a 5 anos é do contrabando. C) Errada: no transporte aéreo, marítimo ou fluvial a pena é aplicada em dobro (art. 334, § 3º). D) Errada: reinserir mercadoria brasileira destinada à exportação é figura equiparada ao contrabando (art. 334-A, § 1º, III). E) Correta: reproduz o art. 334-A, § 1º, II. Fundamento: arts. 334 e 334-A do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2863,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Administração Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-administracao-publica.md",
+      "atual": {
+        "enunciado": "Um estrangeiro regularmente expulso do Brasil reingressa clandestinamente no território nacional e é localizado pela Polícia Federal. Segundo o Código Penal, ele",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "responde por desobediência, com pena de detenção de quinze dias a seis meses, e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "não comete crime, sujeitando-se apenas a nova expulsão pela via administrativa."
+          },
+          {
+            "letra": "C",
+            "texto": "comete crime punido com detenção de um a quatro anos, ficando vedada nova expulsão após o cumprimento da pena."
+          },
+          {
+            "letra": "D",
+            "texto": "comete crime punido com reclusão de um a quatro anos, sem prejuízo de nova expulsão após a pena."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "Reingressar no território nacional o estrangeiro que dele foi expulso é crime contra a administração da justiça, punido com reclusão de um a quatro anos. A lei ressalva que a condenação não impede nova expulsão após o cumprimento da pena. Análise das alternativas: A) Errada: há tipo específico (art. 338), que não se confunde com a desobediência. B) Errada: o reingresso é crime, e não mera infração administrativa. C) Errada: a pena é de reclusão, e a lei permite expressamente nova expulsão. D) Correta: reproduz o art. 338. Fundamento: art. 338 do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "itens": [
+    {
+      "id": 2741,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Incolumidade Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-incolumidade-publica.md",
+      "atual": {
+        "enunciado": "Segundo o art. 253 do Código Penal, quem possui, sem licença da autoridade, material destinado à fabricação de substância explosiva:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "só responde se ficar demonstrado perigo concreto à vida ou ao patrimônio alheio."
+          },
+          {
+            "letra": "B",
+            "texto": "não comete crime, pois o tipo alcança a substância pronta, e não o material."
+          },
+          {
+            "letra": "C",
+            "texto": "comete crime punido com detenção, de seis meses a dois anos, e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "comete crime punido com reclusão, de um a quatro anos, e multa."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O art. 253 pune fabricar, fornecer, adquirir, possuir ou transportar, sem licença da autoridade, substância ou engenho explosivo, gás tóxico ou asfixiante, ou material destinado à sua fabricação. Diferentemente dos arts. 250 a 252, o tipo não exige a exposição concreta de alguém a perigo. Análise das alternativas: A) Errada: o art. 253 não contém a elementar 'expondo a perigo'. B) Errada: o tipo inclui expressamente o material destinado à fabricação. C) Correta: é a pena do art. 253. D) Errada: reclusão de um a quatro anos, e multa, é a pena do uso de gás tóxico (art. 252). Fundamento: art. 253 do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2742,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Incolumidade Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-incolumidade-publica.md",
+      "atual": {
+        "enunciado": "Sobre o crime de inundação, previsto no art. 254 do Código Penal, assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Não admite forma culposa, sendo punido apenas a título de dolo."
+          },
+          {
+            "letra": "B",
+            "texto": "Admite forma culposa, punida com detenção, de seis meses a dois anos."
+          },
+          {
+            "letra": "C",
+            "texto": "Admite forma culposa, punida com detenção, de três meses a um ano."
+          },
+          {
+            "letra": "D",
+            "texto": "Na forma dolosa, é punido com reclusão, de um a três anos, e multa."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O art. 254 traz, no próprio preceito secundário, as duas penas: reclusão de três a seis anos, e multa, no caso de dolo, ou detenção de seis meses a dois anos, no caso de culpa. Análise das alternativas: A) Errada: a culpa está prevista no próprio art. 254. B) Correta: é a pena cominada ao caso de culpa. C) Errada: três meses a um ano não é a pena da inundação culposa. D) Errada: um a três anos é a pena do perigo de inundação (art. 255); a inundação dolosa tem três a seis anos. Fundamento: art. 254 do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2743,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Incolumidade Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-incolumidade-publica.md",
+      "atual": {
+        "enunciado": "Um fazendeiro destrói, em seu próprio terreno, um dique construído para impedir inundação, expondo a perigo as casas vizinhas, embora nenhuma inundação chegue a ocorrer. Nos termos do Código Penal, ele:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "não comete crime, pois o dique estava em prédio próprio, e não alheio."
+          },
+          {
+            "letra": "B",
+            "texto": "comete inundação, punida com reclusão, de três a seis anos, e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "responde apenas por crime de dano, pois não houve inundação efetiva no local."
+          },
+          {
+            "letra": "D",
+            "texto": "comete perigo de inundação, punido com reclusão, de um a três anos, e multa."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 255 pune quem remove, destrói ou inutiliza, em prédio próprio ou alheio, obstáculo natural ou obra destinada a impedir inundação, expondo a perigo a vida, a integridade física ou o patrimônio de outrem. Não é preciso que a inundação ocorra. Análise das alternativas: A) Errada: o tipo abrange expressamente o prédio próprio. B) Errada: o crime de inundação (art. 254) exige que a inundação seja causada. C) Errada: a destruição da obra com exposição a perigo configura crime de perigo comum, não mero dano. D) Correta: tipo e pena do art. 255. Fundamento: art. 255 do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2745,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Incolumidade Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-incolumidade-publica.md",
+      "atual": {
+        "enunciado": "Durante um incêndio em um mercado público, um indivíduo esconde as mangueiras e os extintores do prédio, dificultando o trabalho dos bombeiros. Segundo o Código Penal, ele comete:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "furto simples, já que a conduta atinge só o patrimônio do estabelecimento."
+          },
+          {
+            "letra": "B",
+            "texto": "incêndio com aumento de pena, por ter contribuído para a propagação do fogo."
+          },
+          {
+            "letra": "C",
+            "texto": "o crime do art. 257, punido com reclusão, de dois a cinco anos, e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "o crime do art. 257, punido com detenção, de seis meses a dois anos."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O art. 257 pune quem subtrai, oculta ou inutiliza, por ocasião de incêndio, inundação, naufrágio ou outro desastre, material destinado ao combate ao perigo, socorro ou salvamento, ou impede ou dificulta tal serviço. Esconder extintores durante o incêndio é ocultar material de salvamento. Análise das alternativas: A) Errada: há tipo específico de perigo comum, e esconder não é subtrair para si. B) Errada: o agente não causou o incêndio, e o aumento do art. 250, § 1º, pressupõe o incêndio pelo agente. C) Correta: tipo e pena do art. 257. D) Errada: a pena do art. 257 é de reclusão, de dois a cinco anos, e multa. Fundamento: art. 257 do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2746,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Incolumidade Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-incolumidade-publica.md",
+      "atual": {
+        "enunciado": "Nos crimes dolosos de perigo comum, o art. 258 do Código Penal estabelece que a pena privativa de liberdade será:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "aumentada de um terço, se resulta lesão grave, e de metade, se resulta morte."
+          },
+          {
+            "letra": "B",
+            "texto": "aumentada de metade, se resulta lesão leve, e aplicada em dobro, se resulta morte."
+          },
+          {
+            "letra": "C",
+            "texto": "aplicada em dobro, se resulta lesão grave, e triplicada, se resulta morte."
+          },
+          {
+            "letra": "D",
+            "texto": "aumentada de metade, se resulta lesão grave, e trocada pela do homicídio, se resulta morte."
+          },
+          {
+            "letra": "E",
+            "texto": "aumentada de metade, se resulta lesão grave, e aplicada em dobro, se resulta morte."
+          }
+        ],
+        "gabarito": "E",
+        "comentario": "O art. 258 traz formas qualificadas pelo resultado. No crime doloso de perigo comum, se resulta lesão corporal de natureza grave, a pena é aumentada de metade; se resulta morte, é aplicada em dobro. Análise das alternativas: A) Errada: as frações não são essas; um terço não aparece no doloso. B) Errada: na forma dolosa, só a lesão grave qualifica; a lesão leve qualifica apenas a forma culposa. C) Errada: lesão grave gera aumento de metade, e não há triplicação. D) Errada: a remissão ao homicídio (culposo) só existe para o crime culposo com morte. E) Correta: reproduz a primeira parte do art. 258. Fundamento: art. 258 do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2747,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Incolumidade Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-incolumidade-publica.md",
+      "atual": {
+        "enunciado": "Em crime de perigo comum praticado na forma culposa, do qual resulta a morte de uma pessoa, o art. 258 do Código Penal determina:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "a aplicação da pena do crime culposo de perigo comum em dobro."
+          },
+          {
+            "letra": "B",
+            "texto": "a aplicação da pena do homicídio culposo, aumentada de um terço."
+          },
+          {
+            "letra": "C",
+            "texto": "a aplicação da pena do crime culposo de perigo comum, aumentada de metade."
+          },
+          {
+            "letra": "D",
+            "texto": "a aplicação da pena do homicídio culposo, aumentada de metade."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "Na parte culposa do art. 258, se do fato resulta lesão corporal (de qualquer natureza), a pena aumenta-se de metade; se resulta morte, aplica-se a pena cominada ao homicídio culposo, aumentada de um terço. Análise das alternativas: A) Errada: a aplicação em dobro é para o crime doloso com morte. B) Correta: reproduz a parte final do art. 258. C) Errada: o aumento de metade, na culpa, é para o resultado lesão corporal. D) Errada: a fração sobre o homicídio culposo é de um terço, não de metade. Fundamento: art. 258 do CP. MACETE DO RICCARDO: culpa + morte = vira homicídio culposo + 1/3.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2748,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Incolumidade Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-incolumidade-publica.md",
+      "atual": {
+        "enunciado": "Um grupo furta cabos essenciais ao funcionamento da rede de energia elétrica de um bairro, atentando contra a segurança e o funcionamento do serviço. Quanto ao crime do art. 265 do CP, a pena aplicável é de:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "detenção, de um a dois anos, e multa, com aumento de um terço até a metade."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão, de um a cinco anos, e multa, aumentada de um terço."
+          },
+          {
+            "letra": "C",
+            "texto": "reclusão, de dois a quatro anos, e multa, aplicada em dobro."
+          },
+          {
+            "letra": "D",
+            "texto": "reclusão, de um a cinco anos, e multa, aumentada de um terço até a metade."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 265 pune o atentado contra a segurança ou o funcionamento de serviço de água, luz, força, calor ou outro de utilidade pública, com reclusão de um a cinco anos, e multa. O parágrafo único aumenta a pena de um terço até a metade se o dano decorrer de subtração de material essencial ao funcionamento do serviço. Análise das alternativas: A) Errada: detenção de um a dois anos é a pena do art. 262 (outro meio de transporte). B) Errada: o aumento é variável, de um terço até a metade, e não fixo. C) Errada: dois a quatro anos com dobro é a disciplina do art. 266 (serviço telefônico e telemático). D) Correta: pena do caput com o aumento do parágrafo único. Fundamento: art. 265, caput e parágrafo único, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2749,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Incolumidade Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-incolumidade-publica.md",
+      "atual": {
+        "enunciado": "Sobre o crime de epidemia, previsto no art. 267 do Código Penal, assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Na forma dolosa, a pena é de reclusão, de dois a cinco anos, e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "Se do fato doloso resulta morte, a pena é aumentada de um terço."
+          },
+          {
+            "letra": "C",
+            "texto": "Na forma culposa, resultando morte, a pena é de detenção, de dois a quatro anos."
+          },
+          {
+            "letra": "D",
+            "texto": "Não há modalidade culposa, sendo a conduta punida somente quando praticada com dolo."
+          },
+          {
+            "letra": "E",
+            "texto": "Na forma culposa sem morte, a pena é de detenção, de seis meses a dois anos."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "Causar epidemia mediante propagação de germes patogênicos é punido com reclusão de dez a quinze anos; se resulta morte, a pena é aplicada em dobro. Na culpa, a pena é de detenção de um a dois anos, ou, se resulta morte, de dois a quatro anos. Análise das alternativas: A) Errada: a pena dolosa é de reclusão de dez a quinze anos. B) Errada: com morte, a pena é aplicada em dobro (§ 1º). C) Correta: parte final do § 2º. D) Errada: o § 2º prevê expressamente a modalidade culposa. E) Errada: a epidemia culposa sem morte tem detenção de um a dois anos. Fundamento: art. 267, caput, §§ 1º e 2º, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    }
+  ]
+}

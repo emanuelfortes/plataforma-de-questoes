@@ -1,0 +1,169 @@
+{
+  "itens": [
+    {
+      "id": 592,
+      "banca": "IDECAN",
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Estatuto do Desarmamento",
+      "subtopico": "Posse irregular de arma de uso permitido (art. 12)",
+      "lei": "data/publicacao/pena/leis/legislacao-penal-especial--estatuto-do-desarmamento.md",
+      "atual": {
+        "enunciado": "Segundo a Lei nº 10.826/2003, o crime de possuir ou manter sob sua guarda arma de fogo, acessório ou munição de uso permitido, em desacordo com determinação legal ou regulamentar, no interior da residência ou no local de trabalho, do qual seja o titular ou responsável legal, é apenado com:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Reclusão, de 2 (dois) a 4 (quatro) anos, e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "Reclusão, de 3 (três) a 6 (seis) anos, e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "Detenção, de 6 (seis) meses a 2 (dois) anos, e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "Detenção, de 1 (um) a 3 (três) anos, e multa."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 12 (posse irregular de arma de fogo de uso permitido) comina detenção de 1 a 3 anos e multa. Os demais patamares pertencem a outros tipos: reclusão de 2 a 4 anos é o porte ilegal de uso permitido (art. 14); reclusão de 3 a 6 anos é a posse ou porte de uso restrito (art. 16). A pena de detenção de 6 meses a 2 anos não corresponde a nenhum desses crimes.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "Reclusão de 2 a 4 anos é a pena do porte ilegal de arma de uso permitido (art. 14), e não da posse do art. 12."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "Reclusão de 3 a 6 anos é a pena da posse ou porte de arma de uso restrito (art. 16), crime mais grave que o do art. 12."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "O Estatuto não comina detenção de 6 meses a 2 anos ao art. 12; a pena legal é de 1 a 3 anos de detenção."
+          },
+          {
+            "letra": "D",
+            "correta": true,
+            "justificativa": "Corresponde exatamente ao preceito secundário do art. 12: detenção de 1 a 3 anos e multa."
+          }
+        ],
+        "fundamento_legal": "Art. 12 da Lei nº 10.826/2003.",
+        "pegadinha": "Trocar a detenção do art. 12 pela reclusão do porte (art. 14) ou da posse de uso restrito (art. 16)."
+      }
+    },
+    {
+      "id": 595,
+      "banca": "IDECAN",
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Estatuto do Desarmamento",
+      "subtopico": "Causas de aumento de pena (art. 20)",
+      "lei": "data/publicacao/pena/leis/legislacao-penal-especial--estatuto-do-desarmamento.md",
+      "atual": {
+        "enunciado": "O art. 20 da Lei nº 10.826/2003 prevê causa de aumento de pena para alguns crimes do Estatuto. Sobre essa majorante, assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Nos crimes dos arts. 14 a 18, a pena é aumentada da metade se praticados por integrante dos órgãos e empresas dos arts. 6º, 7º e 8º ou por reincidente específico."
+          },
+          {
+            "letra": "B",
+            "texto": "Em todos os crimes do Estatuto, inclusive a posse e a omissão de cautela, a pena é aumentada de um terço quando o agente for reincidente, ainda que em crime de natureza diversa dos previstos na lei."
+          },
+          {
+            "letra": "C",
+            "texto": "Apenas nos crimes dos arts. 17 e 18, a pena é aumentada da metade quando a arma de fogo, o acessório ou a munição envolvidos no crime forem de uso proibido ou de uso restrito."
+          },
+          {
+            "letra": "D",
+            "texto": "Nos crimes dos arts. 12 e 13, a pena é aumentada em dois terços se praticados por policial em atividade ou por servidor público, independentemente de reincidência."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O art. 20 aumenta a pena da metade nos crimes dos arts. 14, 15, 16, 17 e 18 em duas hipóteses: quando praticados por integrante dos órgãos e empresas dos arts. 6º, 7º e 8º, ou quando o agente for reincidente específico em crimes dessa natureza. Repare que a reincidência exigida é específica (crimes da mesma natureza), não genérica. O aumento da metade pelo uso proibido ou restrito, limitado aos arts. 17 e 18, está no art. 19, dispositivo diverso.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": true,
+            "justificativa": "Reproduz o art. 20, com os incisos I e II: aumento da metade nos arts. 14 a 18 por agente dos arts. 6º, 7º e 8º ou por reincidente específico."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "O art. 20 incide apenas sobre os arts. 14 a 18 e exige reincidência específica em crimes dessa natureza, não reincidência genérica em crime diverso."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "O aumento da metade pelo uso proibido ou restrito nos arts. 17 e 18 é previsto no art. 19, e não no art. 20."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "O art. 20 não alcança os arts. 12 e 13 nem prevê aumento de dois terços; as condutas abrangidas são as dos arts. 14 a 18."
+          }
+        ],
+        "fundamento_legal": "Art. 20, incisos I e II, da Lei nº 10.826/2003.",
+        "pegadinha": "Confundir o art. 20 (agente dos arts. 6º, 7º e 8º ou reincidente específico) com o art. 19 (uso proibido ou restrito nos arts. 17 e 18)."
+      }
+    },
+    {
+      "id": 597,
+      "banca": "IDECAN",
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Estatuto do Desarmamento",
+      "subtopico": "Penas dos crimes de uso restrito, comércio e tráfico (arts. 16, 17 e 18)",
+      "lei": "data/publicacao/pena/leis/legislacao-penal-especial--estatuto-do-desarmamento.md",
+      "atual": {
+        "enunciado": "Em três investigações distintas, apuram-se: (I) posse de arma de fogo de uso restrito (art. 16, caput); (II) comércio ilegal de arma de fogo (art. 17); e (III) tráfico internacional de arma de fogo (art. 18). Considerando as penas cominadas pela Lei nº 10.826/2003, qual alternativa indica corretamente a ordem crescente de gravidade das penas máximas desses crimes?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Posse de uso restrito (reclusão de 4 a 8 anos), comércio ilegal (reclusão de 6 a 12 anos) e tráfico internacional (reclusão de 10 a 20 anos)."
+          },
+          {
+            "letra": "B",
+            "texto": "Posse de uso restrito (reclusão de 3 a 6 anos), tráfico internacional (reclusão de 6 a 12 anos) e comércio ilegal (reclusão de 8 a 16 anos)."
+          },
+          {
+            "letra": "C",
+            "texto": "Posse de uso restrito (reclusão de 2 a 4 anos), comércio ilegal (reclusão de 4 a 12 anos) e tráfico internacional (reclusão de 6 a 12 anos)."
+          },
+          {
+            "letra": "D",
+            "texto": "Posse de uso restrito (reclusão de 3 a 6 anos), comércio ilegal (reclusão de 6 a 12 anos) e tráfico internacional (reclusão de 8 a 16 anos)."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "As penas sobem conforme a gravidade da conduta: posse ou porte de arma de uso restrito (art. 16, caput) é reclusão de 3 a 6 anos; comércio ilegal de arma de fogo (art. 17) é reclusão de 6 a 12 anos; e tráfico internacional de arma de fogo (art. 18) é reclusão de 8 a 16 anos. Portanto, a ordem crescente é art. 16, art. 17 e art. 18. Cuidado para não inverter o comércio com o tráfico internacional: o tráfico (art. 18) é o mais grave.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "A posse de uso restrito é de 3 a 6 anos (não 4 a 8) e o tráfico internacional é de 8 a 16 anos (não 10 a 20)."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "Há inversão entre comércio e tráfico: o tráfico internacional (art. 18) é de 8 a 16 anos e é o mais grave, enquanto o comércio (art. 17) é de 6 a 12 anos."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "A posse de uso restrito é de 3 a 6 anos (não 2 a 4), o comércio é de 6 a 12 anos (não 4 a 12) e o tráfico internacional é de 8 a 16 anos (não 6 a 12)."
+          },
+          {
+            "letra": "D",
+            "correta": true,
+            "justificativa": "As penas estão corretas: art. 16 (3 a 6 anos), art. 17 (6 a 12 anos) e art. 18 (8 a 16 anos), na ordem crescente de gravidade."
+          }
+        ],
+        "fundamento_legal": "Arts. 16, caput, 17 e 18 da Lei nº 10.826/2003.",
+        "pegadinha": "Inverter as penas do comércio ilegal (art. 17) e do tráfico internacional (art. 18) ou alterar os patamares da posse de uso restrito (art. 16)."
+      }
+    }
+  ]
+}

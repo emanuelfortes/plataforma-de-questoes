@@ -1,0 +1,52 @@
+{
+  "auditorias": [
+    {
+      "id": 644,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: constranger o preso, mediante grave ameaça, a exibir-se à curiosidade pública corresponde ao art. 13, I, da Lei nº 13.869/2019, que prevê violência, grave ameaça ou redução da capacidade de resistência como meios alternativos. Gabarito D confirmado. A é contrariada pelo tipo expresso; B (art. 18) trata de interrogatório no repouso noturno, ausente no caso; C contraria a letra do caput. Alternativas não giram em torno de quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 646,
+      "status": "VALIDADA",
+      "justificativa": "Art. 15-A da Lei nº 13.869/2019: protege a vítima de infração penal ou a testemunha de crimes violentos submetida a procedimentos desnecessários, repetitivos ou invasivos que a levem a reviver, sem estrita necessidade, a violência. D reproduz o caput. A inverte a exigência de crime violento (vale para a testemunha); B contraria a elementar 'sem estrita necessidade'; C ignora o caput; E ignora o § 1º. Gabarito D confirmado; sem frações de pena nas alternativas.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 647,
+      "status": "VALIDADA",
+      "justificativa": "Art. 16, caput e parágrafo único, da Lei nº 13.869/2019 (parte vetada promulgada): pune deixar de identificar-se ou identificar-se falsamente ao preso na captura, e o responsável por interrogatório que se atribui falsa identidade. B confirmada. A contraria a tipificação; C cria exigência de prejuízo inexistente; D restringe indevidamente ao interrogatório. Gabarito B correto e único; sem quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 652,
+      "status": "VALIDADA",
+      "justificativa": "Art. 23 da Lei nº 13.869/2019: inovar artificiosamente, no curso de diligência, investigação ou processo, o estado de lugar, coisa ou pessoa, com o fim de eximir-se de responsabilidade ou de responsabilizar alguém. Alterar o corpo e plantar arma após confronto policial, para eximir-se, enquadra-se. C confirmada. A ignora o tipo específico; B omite a finalidade de eximir-se; D exige processo judicial que a lei não exige. Sem quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 662,
+      "status": "VALIDADA",
+      "justificativa": "Art. 312, §§ 2º e 3º, do CP: o servidor que, por descuido, concorre para o crime de outrem comete peculato culposo, e a reparação do dano antes da sentença irrecorrível extingue a punibilidade. B confirmada. A ignora a forma culposa e o efeito da reparação; C troca o marco pela denúncia; D nega a forma culposa prevista; E atribui à reparação anterior o efeito da posterior. Não cobra fração de redução.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 663,
+      "status": "VALIDADA",
+      "justificativa": "Art. 313 do CP: apropriar-se de dinheiro que, no exercício do cargo, recebeu por erro de outrem. O servidor recebeu a mais por engano do contribuinte e ficou com a diferença. C confirmada. A (art. 312) exige posse regular em razão do cargo; B (concussão) e D (excesso de exação, art. 316, § 1º) exigem a conduta de exigir, ausente. Gabarito único; sem quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 664,
+      "status": "VALIDADA",
+      "justificativa": "Art. 313-A do CP: funcionário autorizado que insere dados falsos em sistema ou banco de dados da Administração para obter vantagem indevida para outrem. A confirmada. B (art. 313-B) recai sobre a modificação do sistema ou programa; C (art. 325) não se aplica, pois não houve revelação nem uso de informação do sistema, e sim inserção de dados falsos, conduta específica do art. 313-A; D (art. 313) exige recebimento por erro de outrem. Sem quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 666,
+      "status": "VALIDADA",
+      "justificativa": "Art. 316, § 1º, do CP: excesso de exação abrange exigir tributo ou contribuição social que sabe ou deveria saber indevido, ou, quando devido, empregar na cobrança meio vexatório ou gravoso não autorizado. C reproduz a segunda forma. A omite 'deveria saber'; B descreve a concussão do caput; D descreve o § 2º; E exclui a contribuição social expressa. Gabarito C único; sem quantidade de pena.",
+      "correcao_sugerida": null
+    }
+  ]
+}

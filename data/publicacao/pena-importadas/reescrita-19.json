@@ -1,0 +1,178 @@
+{
+  "itens": [
+    {
+      "id": 2751,
+      "enunciado": "O dono de uma distribuidora mantém em depósito, para o fim de distribuí-los, galões de água potável que sabe terem sido envenenados por terceiro. Segundo o Código Penal, ele:",
+      "alternativas": [
+        { "letra": "A", "texto": "não responde por crime algum, porque o ato de envenenar a água foi praticado exclusivamente por terceiro." },
+        { "letra": "B", "texto": "responde por corrupção ou poluição de água potável, já que guarda água que se tornou imprópria para consumo." },
+        { "letra": "C", "texto": "responde por envenenamento de água potável, na forma equiparada de ter em depósito, para distribuição, a água envenenada." },
+        { "letra": "D", "texto": "responde por outra substância nociva à saúde pública, tipo residual que alcança qualquer coisa nociva entregue a consumo." },
+        { "letra": "E", "texto": "responde apenas como partícipe do envenenamento, desde que se prove ajuste prévio com quem envenenou a água." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 270 do CP pune quem envenena água potável ou substância alimentícia ou medicinal destinada a consumo. O § 1º equipara a quem envenena aquele que entrega a consumo ou tem em depósito, para o fim de ser distribuída, a água ou a substância envenenada. O dono da distribuidora sabe do veneno e guarda os galões para distribuir: pratica o próprio crime de envenenamento, na forma do § 1º, sem precisar ter participado do envenenamento. Fundamento: art. 270, caput e § 1º, do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O § 1º do art. 270 alcança justamente quem não envenenou, mas tem em depósito a água envenenada para distribuí-la." },
+        { "letra": "B", "correta": false, "justificativa": "Corrupção ou poluição (art. 271) é corromper ou poluir a água; quando há veneno e depósito para distribuição, o tipo é o do art. 270, § 1º." },
+        { "letra": "C", "correta": true, "justificativa": "É a conduta equiparada do art. 270, § 1º: ter em depósito, para o fim de ser distribuída, a água envenenada." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 278 é residual: só se aplica quando não há tipo específico. Para água envenenada, o tipo específico é o art. 270, § 1º." },
+        { "letra": "E", "correta": false, "justificativa": "A lei não exige ajuste com quem envenenou: ter em depósito para distribuir é conduta autônoma, punida como o próprio envenenamento." }
+      ],
+      "fundamento_legal": "Art. 270, caput e § 1º, do Código Penal.",
+      "pegadinha": "Achar que só responde quem envenenou, ou confundir envenenamento com corrupção ou poluição de água potável (art. 271).",
+      "o_que_mudou": "As alternativas deixaram de citar pena e passaram a cobrar qual crime se configura e a conduta equiparada do § 1º do art. 270."
+    },
+    {
+      "id": 2753,
+      "enunciado": "Um balconista de farmácia, por negligência na conferência do estoque, entrega a consumo um medicamento adulterado, sem que houvesse receita médica envolvida na venda. Sobre a conduta dele, segundo o Código Penal, é correto afirmar que:",
+      "alternativas": [
+        { "letra": "A", "texto": "responde pelo crime do art. 273 na modalidade culposa, pois a entrega a consumo de produto adulterado admite a forma culposa." },
+        { "letra": "B", "texto": "não comete crime, pois a entrega a consumo de produto terapêutico adulterado só é punida quando praticada com dolo." },
+        { "letra": "C", "texto": "responde por outra substância nociva à saúde pública (art. 278), que absorve as condutas culposas com medicamentos." },
+        { "letra": "D", "texto": "responde por medicamento em desacordo com receita médica (art. 280), pois forneceu substância medicinal irregular." }
+      ],
+      "gabarito": "A",
+      "comentario": "O art. 273, § 1º, do CP pune quem vende, tem em depósito ou, de qualquer forma, distribui ou entrega a consumo produto terapêutico ou medicinal falsificado, corrompido, adulterado ou alterado. O § 2º prevê a modalidade culposa. O balconista não sabia da adulteração, mas agiu com negligência ao conferir o estoque: responde pelo art. 273, §§ 1º e 2º. Fundamento: art. 273, §§ 1º e 2º, do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "O § 2º do art. 273 prevê a forma culposa, que alcança a entrega a consumo do § 1º feita por negligência." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 273 tem modalidade culposa expressa no § 2º; a negligência não torna a conduta atípica." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 278 é residual e não absorve nada: havendo produto terapêutico adulterado, aplica-se o tipo específico do art. 273." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 280 exige fornecer substância em desacordo com receita médica, e o enunciado diz que não havia receita na venda." }
+      ],
+      "fundamento_legal": "Art. 273, §§ 1º e 2º, do Código Penal.",
+      "pegadinha": "Achar que a falsificação de medicamento só existe na forma dolosa, ou confundir com o art. 280 (desacordo com receita).",
+      "o_que_mudou": "Deixou de perguntar a pena da forma culposa e passou a cobrar se há crime culposo e qual tipo se aplica, em comparação com os arts. 278 e 280."
+    },
+    {
+      "id": 2754,
+      "enunciado": "Um médico com o registro profissional suspenso continua atendendo pacientes, de forma gratuita, durante o período da suspensão. Conforme o art. 282 do CP, com a redação dada pela Lei nº 15.425/2026, ele:",
+      "alternativas": [
+        { "letra": "A", "texto": "não comete crime, porque é profissional habilitado e atua sem nenhum fim de lucro nos atendimentos." },
+        { "letra": "B", "texto": "comete exercício ilegal da medicina, pois a lei equipara ao caput quem atua durante a suspensão do registro." },
+        { "letra": "C", "texto": "comete exercício ilegal da medicina só se cobrar pelas consultas, já que a gratuidade afasta o tipo penal." },
+        { "letra": "D", "texto": "responde por curandeirismo, pois exerce atividade de cura sem autorização do conselho profissional." },
+        { "letra": "E", "texto": "comete só infração administrativa, pois a suspensão do registro não retira a sua habilitação médica." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 282 do CP pune exercer, ainda que a título gratuito, a profissão de médico, médico veterinário, dentista ou farmacêutico sem autorização legal ou excedendo-lhe os limites. O § 5º, incluído pela Lei nº 15.425/2026, diz que incorre na conduta do caput quem exerce a profissão durante o período de suspensão ou após o cancelamento da habilitação ou do registro profissional. A gratuidade não afasta o crime; o fim de lucro só acrescenta a multa (§ 1º). Fundamento: art. 282, caput, §§ 1º e 5º, do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O caput pune a conduta ainda que gratuita, e o § 5º alcança o profissional com registro suspenso." },
+        { "letra": "B", "correta": true, "justificativa": "É a equiparação do § 5º do art. 282: exercer a profissão durante a suspensão do registro é a conduta do caput." },
+        { "letra": "C", "correta": false, "justificativa": "O tipo diz \"ainda que a título gratuito\"; o fim de lucro não é elementar, só faz incidir também a multa (§ 1º)." },
+        { "letra": "D", "correta": false, "justificativa": "Curandeirismo (art. 284) é praticado por quem não é profissional de saúde; o médico suspenso se enquadra no art. 282, § 5º." },
+        { "letra": "E", "correta": false, "justificativa": "O § 5º tipifica expressamente o exercício durante a suspensão, então há crime, e não mera infração administrativa." }
+      ],
+      "fundamento_legal": "Art. 282, caput, §§ 1º e 5º, do Código Penal (redação da Lei nº 15.425/2026).",
+      "pegadinha": "Achar que a gratuidade ou a habilitação anterior afastam o crime do profissional com registro suspenso.",
+      "o_que_mudou": "Saiu a pena das alternativas; a questão passou a cobrar se há crime, a irrelevância da gratuidade e a equiparação do § 5º."
+    },
+    {
+      "id": 2755,
+      "enunciado": "Um indivíduo anuncia em redes sociais a cura garantida de doenças graves por meio de um 'método secreto e infalível'. A conduta corresponde, no Código Penal, ao crime de:",
+      "alternativas": [
+        { "letra": "A", "texto": "curandeirismo, pois o agente se dispõe a curar doenças graves sem ter nenhuma habilitação profissional." },
+        { "letra": "B", "texto": "exercício ilegal da medicina, pois promete tratar doenças graves sem ter autorização legal para isso." },
+        { "letra": "C", "texto": "charlatanismo, que se configura com o simples ato de anunciar cura por meio secreto ou infalível." },
+        { "letra": "D", "texto": "curandeirismo, pois anunciar cura em redes sociais equivale a usar gestos, palavras ou outro meio." },
+        { "letra": "E", "texto": "charlatanismo, mas só se o agente chegar a atender algum doente e receber pagamento pelo tratamento." }
+      ],
+      "gabarito": "C",
+      "comentario": "Charlatanismo (art. 283 do CP) é inculcar ou anunciar cura por meio secreto ou infalível. Basta o anúncio: não é preciso atender doente nem receber pagamento. O curandeirismo (art. 284) exige exercer a atividade, prescrevendo ou aplicando substâncias habitualmente, usando gestos ou palavras ou fazendo diagnósticos. O exercício ilegal da medicina (art. 282) exige exercer a profissão de médico. Fundamento: arts. 282, 283 e 284 do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O curandeirismo exige exercer a atividade (art. 284, I a III); o agente apenas anunciou cura por meio secreto, conduta do art. 283." },
+        { "letra": "B", "correta": false, "justificativa": "Não há exercício da profissão de médico (art. 282), mas apenas anúncio de cura." },
+        { "letra": "C", "correta": true, "justificativa": "O art. 283 pune inculcar ou anunciar cura por meio secreto ou infalível; o anúncio já configura o crime." },
+        { "letra": "D", "correta": false, "justificativa": "Usar gestos ou palavras (art. 284, II) é forma de exercer o curandeirismo sobre alguém, e não de anunciar cura ao público." },
+        { "letra": "E", "correta": false, "justificativa": "O tipo do art. 283 não exige atendimento nem pagamento: basta inculcar ou anunciar a cura por meio secreto ou infalível." }
+      ],
+      "fundamento_legal": "Art. 283 do Código Penal (com os arts. 282 e 284 para a comparação).",
+      "pegadinha": "Confundir charlatanismo (anunciar cura secreta ou infalível) com curandeirismo (exercer práticas de cura).",
+      "o_que_mudou": "As alternativas deixaram de combinar tipo e pena e passaram a cobrar só a diferença entre charlatanismo, curandeirismo e exercício ilegal da medicina."
+    },
+    {
+      "id": 2821,
+      "enunciado": "Quanto ao crime relacionado à organização terrorista, previsto no art. 3º da Lei nº 13.260/2016, é correto afirmar que:",
+      "alternativas": [
+        { "letra": "A", "texto": "pune apenas quem constitui ou integra a organização terrorista, sendo atípica a conduta de quem lhe presta auxílio por interposta pessoa." },
+        { "letra": "B", "texto": "pune quem promove, constitui, integra ou presta auxílio a organização terrorista, inclusive quando o auxílio vem por interposta pessoa." },
+        { "letra": "C", "texto": "exige, para a consumação, que a organização terrorista já tenha praticado ao menos um dos atos de terrorismo descritos no art. 2º." },
+        { "letra": "D", "texto": "tem a investigação atribuída à Polícia Civil e o julgamento à Justiça Estadual, salvo quando houver repercussão internacional." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 3º da Lei nº 13.260/2016 tem quatro núcleos: promover, constituir, integrar ou prestar auxílio, pessoalmente ou por interposta pessoa, a organização terrorista. O tipo não exige que a organização já tenha praticado atentado. Pelo art. 11, os crimes da lei são considerados praticados contra o interesse da União: investiga a Polícia Federal e julga a Justiça Federal. Fundamento: arts. 3º e 11 da Lei nº 13.260/2016.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Prestar auxílio, pessoalmente ou por interposta pessoa, é núcleo expresso do art. 3º." },
+        { "letra": "B", "correta": true, "justificativa": "Reproduz os quatro núcleos do art. 3º e a previsão do auxílio por interposta pessoa." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 3º não exige ato de terrorismo já praticado: promover, constituir, integrar ou auxiliar a organização basta." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 11 atribui a investigação à Polícia Federal e o julgamento à Justiça Federal, sem a ressalva mencionada." }
+      ],
+      "fundamento_legal": "Arts. 3º e 11 da Lei nº 13.260/2016.",
+      "pegadinha": "Esquecer o núcleo \"prestar auxílio, pessoalmente ou por interposta pessoa\" e a competência federal do art. 11.",
+      "o_que_mudou": "Saíram as penas das alternativas; a questão passou a cobrar os núcleos do tipo, a consumação e a competência para investigar e julgar."
+    },
+    {
+      "id": 2824,
+      "enunciado": "Um empresário recebe e mantém em depósito valores, de origem lícita, destinados à preparação de um atentado previsto na Lei nº 13.260/2016. Ele é preso antes de o atentado ser iniciado. Sobre a conduta dele, é correto afirmar que:",
+      "alternativas": [
+        { "letra": "A", "texto": "configura financiamento do terrorismo (art. 6º), crime autônomo que alcança também quem guarda ou mantém em depósito os recursos." },
+        { "letra": "B", "texto": "só é punível como participação no terrorismo do art. 2º, e desde que o atentado financiado chegue a ser executado." },
+        { "letra": "C", "texto": "configura apenas o crime do art. 3º, pois financiar equivale a prestar auxílio a organização terrorista, sem tipo próprio." },
+        { "letra": "D", "texto": "é atípica, pois os recursos têm origem lícita e a lei pune só o emprego de valores obtidos por meio de crime." }
+      ],
+      "gabarito": "A",
+      "comentario": "O art. 6º da Lei nº 13.260/2016 pune quem recebe, provê, oferece, obtém, guarda, mantém em depósito, solicita ou investe recursos, ativos, bens, direitos, valores ou serviços de qualquer natureza para o planejamento, a preparação ou a execução dos crimes da lei. É crime autônomo: não depende de o atentado começar, e a lei não exige origem ilícita dos recursos, mas a destinação ao terrorismo. Fundamento: art. 6º, caput, da Lei nº 13.260/2016.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Receber e manter em depósito recursos para a preparação de crime da lei são núcleos expressos do art. 6º." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 6º é tipo autônomo e alcança recursos para o planejamento ou a preparação, sem exigir a execução do atentado." },
+        { "letra": "C", "correta": false, "justificativa": "O financiamento tem tipo próprio no art. 6º, distinto do auxílio a organização terrorista do art. 3º." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 6º fala em recursos \"de qualquer natureza\"; o que importa é a destinação ao terrorismo, não a origem ilícita." }
+      ],
+      "fundamento_legal": "Art. 6º, caput, da Lei nº 13.260/2016.",
+      "pegadinha": "Achar que o financiamento depende da execução do atentado ou de recursos de origem ilícita.",
+      "o_que_mudou": "Deixou de perguntar a pena do financiamento e passou a cobrar a tipificação, a autonomia do art. 6º e a diferença para o art. 3º."
+    },
+    {
+      "id": 2825,
+      "enunciado": "Nos crimes da Lei nº 13.260/2016, sobre a causa de aumento prevista no art. 7º para os resultados lesão corporal grave ou morte, é correto afirmar que ela:",
+      "alternativas": [
+        { "letra": "A", "texto": "incide quando de qualquer crime da lei resultar lesão corporal grave ou morte, salvo se o resultado for elementar do crime." },
+        { "letra": "B", "texto": "incide apenas no crime de terrorismo do art. 2º, sem alcançar os demais crimes previstos na Lei nº 13.260/2016." },
+        { "letra": "C", "texto": "incide quando resultar qualquer lesão corporal, inclusive leve, ainda que esse resultado já seja elementar do crime." },
+        { "letra": "D", "texto": "é afastada quando o crime é praticado por organização terrorista, caso em que se aplica somente o art. 3º da lei." }
+      ],
+      "gabarito": "A",
+      "comentario": "O art. 7º da Lei nº 13.260/2016 aumenta a pena de qualquer crime da lei do qual resulte lesão corporal grave ou morte, salvo quando esse resultado for elementar do crime praticado (para não punir duas vezes o mesmo fato). A lei fala só em lesão grave e morte; lesão leve não aciona a majorante. Fundamento: art. 7º da Lei nº 13.260/2016.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Reproduz as hipóteses do art. 7º: qualquer crime da lei, resultado lesão grave ou morte, ressalvado o caso em que é elementar." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 7º fala em \"qualquer crime previsto nesta Lei\", e não apenas no terrorismo do art. 2º." },
+        { "letra": "C", "correta": false, "justificativa": "A majorante exige lesão grave ou morte e não incide quando o resultado for elementar do crime." },
+        { "letra": "D", "correta": false, "justificativa": "A lei não prevê essa exclusão: o art. 7º vale para qualquer crime da lei, inclusive o do art. 3º." }
+      ],
+      "fundamento_legal": "Art. 7º da Lei nº 13.260/2016.",
+      "pegadinha": "Esquecer a ressalva \"salvo quando for elementar\" ou estender a majorante à lesão leve.",
+      "o_que_mudou": "Saíram as frações de aumento; a questão passou a cobrar as hipóteses da majorante, seu alcance e a ressalva do resultado elementar."
+    },
+    {
+      "id": 2828,
+      "enunciado": "Em período eleitoral, um candidato oferece cestas básicas a moradores de um bairro em troca de votos. Um dos moradores recusa a oferta e comunica o fato à Guarda Municipal. Segundo o Código Eleitoral, a conduta do candidato:",
+      "alternativas": [
+        { "letra": "A", "texto": "configura corrupção eleitoral (art. 299) só se o morador aceitar as cestas, pois antes da aceitação há mera tentativa." },
+        { "letra": "B", "texto": "configura coação eleitoral (art. 301), pois oferecer bens a eleitor carente equivale a pressioná-lo a votar." },
+        { "letra": "C", "texto": "configura o crime do art. 300, pois o candidato se vale de sua posição para coagir o eleitor a votar nele." },
+        { "letra": "D", "texto": "configura corrupção eleitoral (art. 299), que se consuma com a simples oferta, ainda que ela não seja aceita." }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 299 do Código Eleitoral pune quem dá, oferece, promete, solicita ou recebe dinheiro, dádiva ou qualquer outra vantagem para obter ou dar voto ou para conseguir ou prometer abstenção, \"ainda que a oferta não seja aceita\". O crime se consuma com a oferta. A coação do art. 301 exige violência ou grave ameaça, e a do art. 300 é do servidor público que se vale da sua autoridade. Fundamento: arts. 299, 300 e 301 da Lei nº 4.737/1965.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O art. 299 diz expressamente \"ainda que a oferta não seja aceita\": a recusa não impede a consumação." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 301 exige violência ou grave ameaça; oferecer vantagem em troca de voto é corrupção eleitoral." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 300 pune o servidor público que se vale da sua autoridade para coagir; o candidato apenas ofereceu vantagem." },
+        { "letra": "D", "correta": true, "justificativa": "O núcleo \"oferecer\" está no art. 299, e o crime se configura ainda que a oferta não seja aceita." }
+      ],
+      "fundamento_legal": "Art. 299 da Lei nº 4.737/1965 (Código Eleitoral).",
+      "pegadinha": "Achar que a recusa do eleitor deixa o crime na tentativa, ou confundir corrupção eleitoral com coação eleitoral.",
+      "o_que_mudou": "As alternativas deixaram de citar pena e dias-multa e passaram a cobrar a consumação e a diferença entre os arts. 299, 300 e 301."
+    }
+  ]
+}

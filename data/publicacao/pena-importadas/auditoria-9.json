@@ -1,0 +1,52 @@
+{
+  "auditorias": [
+    {
+      "id": 1765,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: B. O art. 76, § 2º, II, e § 4º, da Lei 9.099/1995 impedem nova transação dentro de cinco anos; três anos está no prazo. A (condenação só à multa) e E (prisão simples por contravenção) não preenchem o inciso I, que exige condenação por crime a pena privativa de liberdade; C está fora do prazo; D é requisito da suspensão condicional do processo (art. 89). As alternativas tratam da espécie da condenação e do prazo, não de quantidade de pena. Gabarito único e comentário correto.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1800,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: D. O art. 4º, § 1º, I, da Lei 7.716/1989 equipara à negativa de emprego deixar de conceder, por discriminação de raça ou cor, os equipamentos necessários ao empregado em igualdade de condições. A é contrária ao texto; B descreve o § 2º (anúncios); C ignora o tipo específico. Alternativas sobre enquadramento, sem quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1801,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: A. O art. 4º, § 2º, da Lei 7.716/1989 alcança quem, em anúncios ou outra forma de recrutamento, exige aspectos de aparência próprios de raça ou etnia sem justificativa nas atividades. B e C ignoram a previsão específica; D é contrária ao caput e ao § 2º. Alternativas sobre enquadramento, sem quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1804,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C. O art. 11 da Lei 7.716/1989 pune impedir o acesso às entradas sociais em edifícios públicos ou residenciais e aos elevadores; a motivação por cor decorre do art. 1º. A contraria a menção expressa a edifícios residenciais; B aponta o art. 5º (estabelecimento comercial); D exige ofensa à dignidade ou ao decoro (art. 2º-A). Gabarito único.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1806,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: A. O art. 20, caput, da Lei 7.716/1989 tem os verbos praticar, induzir ou incitar e inclui procedência nacional. Sem meio de comunicação ou publicação (§ 2º) nem contexto do § 2º-A, aplica-se o caput. B, C e D estão corretamente afastadas (D: o art. 2º-A exige ofensa a alguém determinado). Sem quantidade de pena nas alternativas.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1807,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: C. O art. 20, § 1º, da Lei 7.716/1989 inclui o verbo comercializar símbolos com a cruz suástica para fins de divulgação do nazismo. A omite o verbo; B ignora o tipo específico; D confunde com o § 2º. Gabarito único, sem quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1808,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: D. O art. 20, § 3º, II, permite ao juiz, no caso do § 2º, ouvido o Ministério Público ou a pedido deste, ainda antes do inquérito, determinar a cessação da publicação. A contraria a redação da Lei 14.532/2023 (redes sociais); B contraria o 'ainda antes do inquérito'; C contraria o § 4º (após o trânsito em julgado); E atribui à autoridade policial medida reservada ao juiz. Sem quantidade de pena.",
+      "correcao_sugerida": null
+    },
+    {
+      "id": 1811,
+      "status": "VALIDADA",
+      "justificativa": "Resolvida de forma independente: B. O art. 20-A da Lei 7.716/1989 aumenta as penas dos crimes da lei cometidos em contexto ou com intuito de descontração, diversão ou recreação. A restringe indevidamente; C descreve o art. 20-B; D inverte o efeito (agrava, não exclui). A questão cobra a hipótese e o alcance da causa de aumento, não a fração.",
+      "correcao_sugerida": null
+    }
+  ]
+}

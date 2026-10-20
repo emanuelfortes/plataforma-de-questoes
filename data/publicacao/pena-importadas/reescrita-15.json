@@ -1,0 +1,188 @@
+{
+  "itens": [
+    {
+      "id": 2304,
+      "enunciado": "Acerca da injúria no Código Penal Militar (arts. 216 a 218), assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "Na injúria real, a violência empregada fica absorvida pela injúria, e o agente responde por um único crime." },
+        { "letra": "B", "texto": "O juízo pode deixar de aplicar a pena quando o ofendido, de forma reprovável, provocou diretamente a injúria." },
+        { "letra": "C", "texto": "A injúria qualificada exige que a ofensa se refira à condição de militar ou de servidor público do ofendido." },
+        { "letra": "D", "texto": "A retorsão imediata, que consista em outra injúria, agrava a situação do agente, por revelar maior reprovabilidade." },
+        { "letra": "E", "texto": "A injúria feita na presença de inferior hierárquico do ofendido só agrava o crime se houver também duas testemunhas." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 216, § 1º, do CPM (incluído pela Lei 14.688/2023) permite ao juízo deixar de aplicar a pena em duas hipóteses: quando o ofendido, de forma reprovável, provocou diretamente a injúria (inciso I) e no caso de retorsão imediata que consista em outra injúria (inciso II). A injúria qualificada (§ 2º) é a que usa elementos referentes a raça, cor, etnia, religião, origem, orientação sexual ou condição de pessoa idosa ou com deficiência. Na injúria real (art. 217), o agente responde também pela violência. E o art. 218 prevê o aumento quando o crime é cometido contra militar ou servidor em razão das funções, ou na presença de duas ou mais pessoas ou de inferior hierárquico do ofendido (hipóteses alternativas). Fundamento: CPM, arts. 216, 217 e 218.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Errada: o art. 217 manda aplicar a sanção da injúria real 'além da pena correspondente à violência'; não há absorção." },
+        { "letra": "B", "correta": true, "justificativa": "Correta: é a hipótese do art. 216, § 1º, I, do CPM." },
+        { "letra": "C", "correta": false, "justificativa": "Errada: a condição de militar ou servidor ofendido em razão das funções é causa de aumento do art. 218, III; a injúria qualificada (art. 216, § 2º) envolve raça, cor, etnia, religião, origem, orientação sexual, idade ou deficiência." },
+        { "letra": "D", "correta": false, "justificativa": "Errada: a retorsão imediata é hipótese em que o juízo pode deixar de aplicar a pena (art. 216, § 1º, II), e não de agravamento." },
+        { "letra": "E", "correta": false, "justificativa": "Errada: o art. 218, IV, prevê de forma alternativa a presença de duas ou mais pessoas ou de inferior hierárquico do ofendido; basta uma das situações." }
+      ],
+      "fundamento_legal": "CPM (Decreto-Lei 1.001/1969), arts. 216, §§ 1º e 2º, 217 e 218, III e IV",
+      "pegadinha": "Trocar o perdão judicial da provocação e da retorsão por agravante e confundir a injúria qualificada (elementos discriminatórios) com o aumento pela condição funcional do ofendido.",
+      "o_que_mudou": "As alternativas deixaram de cobrar a quantidade de pena de cada modalidade e passaram a cobrar as hipóteses de perdão judicial, a injúria qualificada, a injúria real e as causas de aumento do art. 218."
+    },
+    {
+      "id": 2307,
+      "enunciado": "Um soldado primário subtrai, no quartel, objeto cujo valor não excede a um décimo da quantia mensal do mais alto salário mínimo do país. Sobre o furto atenuado (art. 240, §§ 1º, 2º e 7º, do CPM), é correto afirmar:",
+      "alternativas": [
+        { "letra": "A", "texto": "O benefício exige, além da primariedade e do pequeno valor, a reparação integral do dano antes da sentença." },
+        { "letra": "B", "texto": "A restituição da coisa ao dono permite a atenuação ao primário, ainda que feita após instaurada a ação penal." },
+        { "letra": "C", "texto": "A atenuação não alcança o furto com rompimento de obstáculo, mesmo que o primário restitua a coisa a tempo." },
+        { "letra": "D", "texto": "Entre as opções do juiz está a de considerar a infração como disciplinar, por ser o agente primário e a coisa de pequeno valor." },
+        { "letra": "E", "texto": "Considera-se de pequeno valor a coisa que não exceda a um salário mínimo vigente na data do fato." }
+      ],
+      "gabarito": "D",
+      "comentario": "No furto atenuado (art. 240, § 1º, do CPM), sendo o agente primário e de pequeno valor a coisa (até um décimo da quantia mensal do mais alto salário mínimo do país), o juiz pode substituir a reclusão por detenção, diminuir a pena ou considerar a infração como disciplinar. Não se exige reparação do dano. O § 2º estende a atenuação ao primário que restitui a coisa ou repara o dano antes de instaurada a ação penal, e o § 7º manda aplicar a atenuação do § 2º também ao furto qualificado do § 6º (rompimento de obstáculo, fraude, chave falsa, concurso). Fundamento: CPM, art. 240, §§ 1º, 2º e 7º.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Errada: o § 1º exige apenas primariedade e pequeno valor; a reparação do dano é outra via de atenuação (§ 2º), e antes da ação penal, não da sentença." },
+        { "letra": "B", "correta": false, "justificativa": "Errada: o § 2º exige que a restituição ou a reparação ocorra antes de instaurada a ação penal." },
+        { "letra": "C", "correta": false, "justificativa": "Errada: pelo § 7º, aos casos do § 6º (que inclui o rompimento de obstáculo) aplica-se a atenuação do § 2º." },
+        { "letra": "D", "correta": true, "justificativa": "Correta: o § 1º permite ao juiz considerar a infração como disciplinar quando o agente é primário e a coisa é de pequeno valor." },
+        { "letra": "E", "correta": false, "justificativa": "Errada: o pequeno valor é o que não excede a um décimo da quantia mensal do mais alto salário mínimo do país." }
+      ],
+      "fundamento_legal": "CPM (Decreto-Lei 1.001/1969), art. 240, §§ 1º, 2º e 7º",
+      "pegadinha": "Exigir reparação do dano no § 1º, aceitar a restituição depois da ação penal e achar que o furto qualificado do § 6º não admite nenhuma atenuação.",
+      "o_que_mudou": "Deixou de cobrar as frações de diminuição e passou a cobrar os requisitos do furto atenuado, o conceito de pequeno valor, o momento da restituição e o alcance do § 7º."
+    },
+    {
+      "id": 2309,
+      "enunciado": "Um soldado retira, sem autorização, a viatura da unidade para uso momentâneo e, logo em seguida, a restitui ao lugar onde se achava. Pelo CPM, a conduta configura:",
+      "alternativas": [
+        { "letra": "A", "texto": "furto de uso, com a causa de aumento prevista para coisa que seja veículo motorizado." },
+        { "letra": "B", "texto": "furto qualificado, pois a coisa subtraída pertence à Fazenda Pública e foi retirada." },
+        { "letra": "C", "texto": "furto de uso simples, pois a causa de aumento só vale quando a coisa é arma ou aeronave." },
+        { "letra": "D", "texto": "fato atípico, pois a viatura foi restituída antes de instaurada a ação penal militar." },
+        { "letra": "E", "texto": "apropriação indébita, pois o soldado tinha acesso à viatura em razão do serviço." }
+      ],
+      "gabarito": "A",
+      "comentario": "O CPM tipifica o furto de uso (art. 241): a coisa é subtraída para uso momentâneo e, a seguir, imediatamente restituída ou reposta no lugar onde se achava. O parágrafo único (redação da Lei 14.688/2023) prevê causa de aumento se a coisa usada é veículo motorizado, embarcação, aeronave ou arma (e outra, menor, se é animal de sela ou de tiro). A viatura é veículo motorizado. A finalidade de uso momentâneo com restituição imediata afasta o furto do art. 240, e a restituição integra o próprio tipo do art. 241, não o torna atípico. Fundamento: CPM, art. 241 e parágrafo único.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Correta: há furto de uso (art. 241) e, sendo a viatura veículo motorizado, incide a causa de aumento do parágrafo único." },
+        { "letra": "B", "correta": false, "justificativa": "Errada: o fim de uso momentâneo com restituição imediata desloca a conduta para o art. 241; o § 5º do art. 240 pressupõe furto com ânimo de assenhoramento." },
+        { "letra": "C", "correta": false, "justificativa": "Errada: o parágrafo único abrange veículo motorizado, embarcação, aeronave ou arma." },
+        { "letra": "D", "correta": false, "justificativa": "Errada: o furto de uso é crime no CPM; a restituição imediata é elemento do próprio tipo." },
+        { "letra": "E", "correta": false, "justificativa": "Errada: a apropriação indébita (art. 248) exige posse ou detenção anterior da coisa; o soldado retirou a viatura sem autorização, o que é subtração." }
+      ],
+      "fundamento_legal": "CPM (Decreto-Lei 1.001/1969), art. 241 e parágrafo único",
+      "pegadinha": "Achar que a restituição torna o fato atípico ou que o bem público leva ao furto qualificado, quando o CPM pune o furto de uso com aumento para veículo motorizado.",
+      "o_que_mudou": "As alternativas deixaram de comparar frações de aumento e passaram a cobrar a tipificação (furto de uso, furto qualificado, apropriação indébita, atipicidade) e a hipótese da causa de aumento."
+    },
+    {
+      "id": 2310,
+      "enunciado": "Para assegurar a detenção da coisa durante um roubo, o agente mata dolosamente a vítima, mas foge sem conseguir levar o bem. Pelo CPM, a conduta configura:",
+      "alternativas": [
+        { "letra": "A", "texto": "homicídio qualificado, que absorve o roubo tentado por ser o crime mais grave." },
+        { "letra": "B", "texto": "roubo tentado, com a causa de aumento pelo resultado morte do art. 242, § 2º, VI." },
+        { "letra": "C", "texto": "latrocínio na forma tentada, porque a subtração do bem não chegou a se consumar." },
+        { "letra": "D", "texto": "roubo impróprio, pois a violência foi empregada depois para garantir a coisa." },
+        { "letra": "E", "texto": "latrocínio (art. 242, § 3º), sendo irrelevante que a subtração não se consumasse." }
+      ],
+      "gabarito": "E",
+      "comentario": "Pelo art. 242, § 3º, do CPM, há latrocínio quando, para praticar o roubo, assegurar a impunidade do crime ou a detenção da coisa, o agente ocasiona dolosamente a morte de alguém, 'sendo irrelevante se a lesão patrimonial deixa de consumar-se'. A morte dolosa afasta tanto o § 2º, VI (resultado morte que o agente não quis nem assumiu o risco de produzir) quanto o roubo impróprio do § 1º, que é a violência sem morte dolosa. Há tipo específico, que prevalece sobre o homicídio qualificado. Fundamento: CPM, art. 242, §§ 1º, 2º, VI, e 3º.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Errada: o CPM tem tipo específico para a morte dolosa no contexto do roubo (latrocínio, art. 242, § 3º), que prevalece." },
+        { "letra": "B", "correta": false, "justificativa": "Errada: o § 2º, VI, só se aplica quando o agente não quis a morte nem assumiu o risco de produzi-la; aqui a morte foi dolosa." },
+        { "letra": "C", "correta": false, "justificativa": "Errada: o § 3º declara irrelevante que a lesão patrimonial deixe de consumar-se; não se fala em forma tentada por falta da subtração." },
+        { "letra": "D", "correta": false, "justificativa": "Errada: o roubo impróprio (§ 1º) cobre a violência após a subtração; havendo morte dolosa, incide o § 3º." },
+        { "letra": "E", "correta": true, "justificativa": "Correta: reproduz o art. 242, § 3º, do CPM." }
+      ],
+      "fundamento_legal": "CPM (Decreto-Lei 1.001/1969), art. 242, §§ 1º, 2º, VI, e 3º",
+      "pegadinha": "Confundir a morte dolosa (latrocínio) com o resultado morte não querido do § 2º, VI, e achar que a falta da subtração leva à tentativa.",
+      "o_que_mudou": "Deixou de perguntar a pena do latrocínio e passou a perguntar qual crime se configura, cobrando a diferença entre latrocínio, roubo com resultado morte, roubo impróprio e homicídio."
+    },
+    {
+      "id": 2312,
+      "enunciado": "Um cabo encontra, no pátio do quartel, uma carteira perdida e dela se apropria, deixando de restituí-la ao dono ou de entregá-la à autoridade por vinte dias. Pelo CPM, ele responde por:",
+      "alternativas": [
+        { "letra": "A", "texto": "furto simples, pois tomou para si coisa alheia móvel sem o consentimento do dono." },
+        { "letra": "B", "texto": "apropriação indébita simples, por passar a dispor da coisa como se fosse sua." },
+        { "letra": "C", "texto": "apropriação de coisa achada, pois deixou passar o prazo legal de quinze dias." },
+        { "letra": "D", "texto": "estelionato, por manter o dono em erro quanto ao paradeiro da carteira perdida." },
+        { "letra": "E", "texto": "nenhum crime, pois o prazo legal para a entrega à autoridade é de trinta dias." }
+      ],
+      "gabarito": "C",
+      "comentario": "Quem acha coisa alheia perdida e dela se apropria, total ou parcialmente, deixando de restituí-la ao dono ou legítimo possuidor ou de entregá-la à autoridade competente dentro de quinze dias, comete apropriação de coisa achada (art. 249, parágrafo único, do CPM). Como passaram vinte dias, o prazo foi ultrapassado. Não há subtração (a coisa estava perdida), nem posse anterior legítima (exigida na apropriação indébita do art. 248), nem fraude para obter a coisa. Fundamento: CPM, art. 249, parágrafo único.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Errada: não houve subtração; a coisa estava perdida e veio ao poder do agente pelo achado." },
+        { "letra": "B", "correta": false, "justificativa": "Errada: a apropriação indébita simples (art. 248) exige que o agente já tivesse a posse ou detenção da coisa." },
+        { "letra": "C", "correta": true, "justificativa": "Correta: é a apropriação de coisa achada do art. 249, parágrafo único, com o prazo de quinze dias já vencido." },
+        { "letra": "D", "correta": false, "justificativa": "Errada: o estelionato exige obter vantagem induzindo ou mantendo alguém em erro mediante fraude; não houve fraude." },
+        { "letra": "E", "correta": false, "justificativa": "Errada: o prazo legal é de quinze dias, não de trinta." }
+      ],
+      "fundamento_legal": "CPM (Decreto-Lei 1.001/1969), art. 249, parágrafo único",
+      "pegadinha": "Confundir a apropriação de coisa achada com furto ou apropriação indébita e errar o prazo de quinze dias.",
+      "o_que_mudou": "As alternativas deixaram de trazer a pena de cada crime e passaram a trazer só o crime e a razão da tipificação."
+    },
+    {
+      "id": 2313,
+      "enunciado": "Um sargento da ativa vende a um civil, como se fosse sua, uma motocicleta pertencente a um colega também da ativa. À luz do art. 251 do CPM, essa conduta:",
+      "alternativas": [
+        { "letra": "A", "texto": "configura apropriação indébita simples, por dispor de coisa alheia móvel que tinha em seu poder." },
+        { "letra": "B", "texto": "configura disposição de coisa alheia como própria, figura sujeita às mesmas penas do estelionato." },
+        { "letra": "C", "texto": "configura furto mediante fraude, porque o bem saiu da esfera do dono sem o seu consentimento." },
+        { "letra": "D", "texto": "configura receptação dolosa, porque o sargento negociou coisa que sabia não lhe pertencer." },
+        { "letra": "E", "texto": "é atípica no CPM, pois vender coisa alheia como própria só é crime na legislação penal comum." }
+      ],
+      "gabarito": "B",
+      "comentario": "Vender coisa alheia como própria é a disposição de coisa alheia como própria (art. 251, § 1º, I, do CPM), que sujeita o agente às mesmas penas do estelionato. Pelo § 2º, as figuras dos incisos I a V só são crimes militares nos casos do art. 9º, II, 'a' e 'e'; a alínea 'a' abrange o crime praticado por militar da ativa contra militar na mesma situação; quando o comprador enganado é civil, o enquadramento como crime militar depende de se considerar o dono militar como vítima. Fundamento: CPM, art. 251, caput e §§ 1º, I, e 2º.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Errada: o enunciado não indica posse anterior da motocicleta, e a lei tipifica especificamente a venda de coisa alheia como própria no rol equiparado ao estelionato." },
+        { "letra": "B", "correta": true, "justificativa": "Correta: é a figura do art. 251, § 1º, I, do CPM." },
+        { "letra": "C", "correta": false, "justificativa": "Errada: não houve subtração da motocicleta; o agente a vendeu a terceiro como se fosse sua." },
+        { "letra": "D", "correta": false, "justificativa": "Errada: a receptação exige adquirir, receber ou ocultar coisa proveniente de crime; o sargento não recebeu coisa produto de crime." },
+        { "letra": "E", "correta": false, "justificativa": "Errada: o CPM prevê a figura no art. 251, § 1º, I, e o § 2º a considera crime militar nos casos do art. 9º, II, 'a' e 'e'." }
+      ],
+      "fundamento_legal": "CPM (Decreto-Lei 1.001/1969), art. 251, § 1º, I, e § 2º",
+      "pegadinha": "Confundir a disposição de coisa alheia como própria com apropriação indébita, furto mediante fraude ou receptação.",
+      "o_que_mudou": "As alternativas deixaram de trazer a quantidade de pena de cada crime e passaram a cobrar só a tipificação e quando a figura é crime militar. O comentário deixou de afirmar como certo o enquadramento no art. 9º, II, 'a', e passou a registrar que, com comprador civil, ele depende de se considerar o dono militar como vítima."
+    },
+    {
+      "id": 2314,
+      "enunciado": "Sobre a receptação no Código Penal Militar (arts. 254 a 256), assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "A receptação dolosa exige que o agente adquira a coisa para si, sem abranger a ocultação em proveito alheio." },
+        { "letra": "B", "texto": "A receptação só é punível se identificado e condenado o autor do crime de que proveio a coisa." },
+        { "letra": "C", "texto": "Na receptação culposa, a lei exige que o agente saiba, com certeza, que a coisa provém de crime." },
+        { "letra": "D", "texto": "Na receptação culposa, o juiz pode deixar de aplicar a pena se o agente restituir a coisa ao dono." },
+        { "letra": "E", "texto": "Há receptação qualificada se a coisa é arma, munição, explosivo ou material militar de uso restrito." }
+      ],
+      "gabarito": "E",
+      "comentario": "A receptação dolosa do CPM (art. 254) consiste em adquirir, receber ou ocultar, em proveito próprio ou alheio, coisa proveniente de crime, ou influir para que terceiro de boa-fé a adquira, receba ou oculte. A forma qualificada (§ 2º, incluído pela Lei 14.688/2023) ocorre quando a coisa é arma, munição, explosivo ou outro material militar de uso restrito ou com sinal de pertencer a instituição militar. A culposa (art. 255) não exige certeza: basta que a coisa, por sua natureza, pela desproporção entre valor e preço ou pela condição de quem oferece, deva presumir-se obtida por meio criminoso; o perdão judicial exige agente primário e coisa de valor não superior a um décimo do salário mínimo. O art. 256 torna a receptação punível ainda que desconhecido ou isento de pena o autor do crime anterior. Fundamento: CPM, arts. 254, 255 e 256.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Errada: o art. 254 abrange adquirir, receber ou ocultar, em proveito próprio ou alheio." },
+        { "letra": "B", "correta": false, "justificativa": "Errada: o art. 256 torna a receptação punível ainda que desconhecido ou isento de pena o autor do crime anterior." },
+        { "letra": "C", "correta": false, "justificativa": "Errada: na receptação culposa basta que a coisa deva presumir-se obtida por meio criminoso; a ciência da origem caracteriza a dolosa." },
+        { "letra": "D", "correta": false, "justificativa": "Errada: o perdão do art. 255, parágrafo único, exige agente primário e coisa de valor não superior a um décimo do salário mínimo, não a restituição." },
+        { "letra": "E", "correta": true, "justificativa": "Correta: é a receptação qualificada do art. 254, § 2º." }
+      ],
+      "fundamento_legal": "CPM (Decreto-Lei 1.001/1969), arts. 254, caput e § 2º, 255 e 256",
+      "pegadinha": "Exigir certeza da origem na receptação culposa, condicionar o perdão à restituição e exigir a punição do autor do crime anterior.",
+      "o_que_mudou": "As alternativas deixaram de cobrar a pena de cada modalidade e passaram a cobrar as condutas, a hipótese qualificada, a diferença entre dolosa e culposa, o perdão judicial e a autonomia da receptação."
+    },
+    {
+      "id": 2315,
+      "enunciado": "Sobre o crime de dano no Código Penal Militar (arts. 259 a 262), assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "O dano cometido por motivo egoístico ou com prejuízo considerável é forma qualificada, nos termos do art. 261." },
+        { "letra": "B", "texto": "O dano atenuado alcança o primário que repara o dano causado, ainda que depois de instaurada a ação penal." },
+        { "letra": "C", "texto": "Fazer desaparecer coisa alheia não configura dano, pois o tipo exige a destruição ou a deterioração do bem." },
+        { "letra": "D", "texto": "O dano em material ou aparelhamento de utilidade militar só se configura se o bem pertencer às Forças Armadas." },
+        { "letra": "E", "texto": "O dano atenuado permite tratar o fato como infração disciplinar se a coisa valer até um salário mínimo." }
+      ],
+      "gabarito": "A",
+      "comentario": "O dano simples do CPM (art. 259) consiste em destruir, inutilizar, deteriorar ou fazer desaparecer coisa alheia, com forma mais grave se o bem é público. O art. 261 qualifica o dano cometido com violência à pessoa ou grave ameaça, com emprego de substância inflamável ou explosiva (se o fato não constitui crime mais grave) ou por motivo egoístico ou com prejuízo considerável. O dano atenuado (art. 260) exige agente primário e coisa de valor não excedente a um décimo do salário mínimo, e alcança quem repara o dano antes de instaurada a ação penal. O art. 262 pune o dano em material ou aparelhamento de guerra ou de utilidade militar, pertencentes ou não às forças armadas. Fundamento: CPM, arts. 259 a 262.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Correta: é a hipótese do art. 261, III, do CPM." },
+        { "letra": "B", "correta": false, "justificativa": "Errada: o art. 260, parágrafo único, exige que a reparação ocorra antes de instaurada a ação penal." },
+        { "letra": "C", "correta": false, "justificativa": "Errada: o art. 259 inclui expressamente o verbo 'fazer desaparecer' coisa alheia." },
+        { "letra": "D", "correta": false, "justificativa": "Errada: o art. 262 abrange o material ou aparelhamento 'pertencentes ou não às fôrças armadas'." },
+        { "letra": "E", "correta": false, "justificativa": "Errada: o art. 260 exige coisa de valor não excedente a um décimo do salário mínimo, além da primariedade." }
+      ],
+      "fundamento_legal": "CPM (Decreto-Lei 1.001/1969), arts. 259, 260, 261, III, e 262",
+      "pegadinha": "Esquecer o verbo 'fazer desaparecer', o limite de um décimo do salário mínimo e o momento da reparação, e achar que o art. 262 exige bem das Forças Armadas.",
+      "o_que_mudou": "A questão deixou de perguntar só a pena do dano a bem público e passou a cobrar as condutas do tipo, a forma qualificada, o dano atenuado e o dano em material de utilidade militar."
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "itens": [
+    {
+      "id": 2476,
+      "enunciado": "Soldados de uma companhia, reunidos e desarmados, recusam-se em conjunto a cumprir a ordem do comandante de iniciar um exercício. Segundo o Código Penal Militar, a conduta configura:",
+      "alternativas": [
+        { "letra": "A", "texto": "recusa de obediência em concurso de agentes, pois o motim pressupõe a ocupação de estabelecimento militar." },
+        { "letra": "B", "texto": "revolta, pois a recusa conjunta de obediência a superior basta para qualificar o fato, mesmo sem armas." },
+        { "letra": "C", "texto": "motim, que se caracteriza pela reunião de militares agindo contra a ordem do superior ou negando-se a cumpri-la." },
+        { "letra": "D", "texto": "conspiração, pois houve ajuste entre os militares, ainda que a recusa à ordem tenha chegado a ser executada." },
+        { "letra": "E", "texto": "organização de grupo para a prática de violência, pois houve reunião de dois ou mais militares contra a ordem." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 149 do CPM define o motim como a reunião de militares em alguma das condutas dos seus incisos, entre elas agir contra a ordem recebida de superior ou negar-se a cumpri-la (inciso I). Não é preciso ocupar estabelecimento militar: essa é só uma das hipóteses (inciso IV). Como os soldados estavam desarmados, o fato não passa a revolta (parágrafo único, que exige agentes armados). Os cabeças têm a pena aumentada.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A ocupação de estabelecimento militar é apenas uma das formas do motim (art. 149, IV). A reunião de militares que se negam a cumprir a ordem já configura motim pelo inciso I, e não mera recusa de obediência." },
+        { "letra": "B", "correta": false, "justificativa": "A revolta exige que os agentes estejam armados (art. 149, parágrafo único). Sem armas, o fato continua sendo motim." },
+        { "letra": "C", "correta": true, "justificativa": "Reunião de militares negando-se a cumprir a ordem recebida de superior é exatamente o motim do art. 149, I." },
+        { "letra": "D", "correta": false, "justificativa": "A conspiração (art. 152) pune o simples concerto para a prática do motim. Aqui o motim foi executado, e o crime é o do art. 149." },
+        { "letra": "E", "correta": false, "justificativa": "O art. 150 exige militares com armamento ou material bélico de propriedade militar praticando violência à pessoa ou à coisa, o que não ocorreu." }
+      ],
+      "fundamento_legal": "Código Penal Militar (Decreto-Lei 1.001/1969), art. 149, I e parágrafo único.",
+      "pegadinha": "Achar que o motim exige ocupação de quartel ou que a recusa coletiva, por si só, já é revolta, quando a revolta depende de os agentes estarem armados.",
+      "o_que_mudou": "Antes perguntava a quantidade de pena do motim. Agora cobra qual crime se configura (motim) e a diferença para revolta, conspiração, recusa de obediência e organização de grupo, sem citar pena."
+    },
+    {
+      "id": 2477,
+      "enunciado": "Em um quartel, um grupo de soldados armados com fuzis ocupa o depósito de material bélico, desobedecendo à ordem do comandante, para impedir a transferência de colegas. Não houve violência contra pessoas ou coisas. À luz do CPM, a conduta configura:",
+      "alternativas": [
+        { "letra": "A", "texto": "revolta, pois a ocupação em desobediência a ordem superior é motim, e estarem os agentes armados o converte em revolta." },
+        { "letra": "B", "texto": "motim, pois o porte de armas pelos agentes não altera o tipo penal e só influi na fixação da pena-base pelo juiz." },
+        { "letra": "C", "texto": "organização de grupo para a prática de violência, pois basta a reunião de militares armados em lugar militar." },
+        { "letra": "D", "texto": "conspiração, pois houve ajuste prévio entre os militares para ocupar o depósito e impedir a transferência." },
+        { "letra": "E", "texto": "recusa de obediência, pois cada soldado descumpriu individualmente a ordem do comandante sobre matéria de serviço." }
+      ],
+      "gabarito": "A",
+      "comentario": "Ocupar estabelecimento militar ou dependência dele em desobediência a ordem superior é hipótese de motim (art. 149, IV, do CPM). Quando os agentes estão armados, o parágrafo único do art. 149 transforma o fato em revolta. A organização de grupo para a prática de violência (art. 150) exige que os militares armados pratiquem violência à pessoa ou à coisa, o que o enunciado afasta.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Ocupação em desobediência a ordem superior é motim (art. 149, IV); agentes armados fazem do fato revolta (art. 149, parágrafo único)." },
+        { "letra": "B", "correta": false, "justificativa": "O porte de armas muda o crime: com agentes armados, o motim passa a ser revolta, nos termos do parágrafo único do art. 149." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 150 exige a prática de violência à pessoa ou à coisa, e não apenas a reunião de militares armados. O enunciado diz que não houve violência." },
+        { "letra": "D", "correta": false, "justificativa": "A conspiração (art. 152) pune o mero concerto para o motim. Aqui houve a execução, e o crime é o do art. 149." },
+        { "letra": "E", "correta": false, "justificativa": "A atuação conjunta dos militares reunidos na ocupação caracteriza o crime coletivo do art. 149, e não recusas individuais de obediência (art. 163)." }
+      ],
+      "fundamento_legal": "Código Penal Militar (Decreto-Lei 1.001/1969), art. 149, IV e parágrafo único; art. 150; art. 152.",
+      "pegadinha": "Confundir revolta com organização de grupo para a prática de violência, que exige violência efetiva, ou achar que as armas não mudam o tipo penal.",
+      "o_que_mudou": "As alternativas deixaram de trazer a pena de cada crime. A questão agora cobra só a tipificação (revolta) e a diferença para motim, art. 150, conspiração e recusa de obediência; o enunciado deixa claro que não houve violência."
+    },
+    {
+      "id": 2479,
+      "enunciado": "O cabo Lima soube, dias antes, que colegas preparavam um motim na companhia, mas nada comunicou ao superior e não participou do ajuste. Segundo o CPM, Lima:",
+      "alternativas": [
+        { "letra": "A", "texto": "não comete crime, pois a omissão só é punida quando o militar presencia o ato e não tenta impedi-lo." },
+        { "letra": "B", "texto": "comete omissão de lealdade militar, por não levar ao superior o motim de cuja preparação teve notícia." },
+        { "letra": "C", "texto": "responde como partícipe do motim, pois a ciência prévia do plano equivale à adesão aos amotinados." },
+        { "letra": "D", "texto": "comete conspiração, pois basta ter notícia do ajuste entre os colegas para integrar o concerto criminoso." },
+        { "letra": "E", "texto": "só comete crime se o motim chegar a ser executado, pois antes disso a sua omissão não é punível." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 151 do CPM prevê duas condutas na omissão de lealdade militar: deixar de levar ao conhecimento do superior o motim ou a revolta de cuja preparação teve notícia, ou, presenciando o ato criminoso, não usar todos os meios ao seu alcance para impedi-lo. Lima soube da preparação e se calou: basta isso, sem que o motim precise ser executado. Como não se concertou com os colegas, não há conspiração (art. 152).",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Presenciar e não impedir é só uma das condutas do art. 151. Deixar de comunicar a preparação de que teve notícia também é crime." },
+        { "letra": "B", "correta": true, "justificativa": "É a primeira conduta do art. 151: deixar de levar ao superior o motim de cuja preparação teve notícia." },
+        { "letra": "C", "correta": false, "justificativa": "Lima não aderiu nem praticou o motim. Sua conduta é omissiva e tem tipo próprio no art. 151." },
+        { "letra": "D", "correta": false, "justificativa": "A conspiração (art. 152) exige que o militar se concerte com os demais para o motim. Saber do ajuste não é participar dele." },
+        { "letra": "E", "correta": false, "justificativa": "O art. 151 pune a falta de comunicação da preparação; não exige que o motim seja executado." }
+      ],
+      "fundamento_legal": "Código Penal Militar (Decreto-Lei 1.001/1969), art. 151; art. 152.",
+      "pegadinha": "Confundir quem apenas sabe da preparação (omissão de lealdade militar) com quem se ajusta para o motim (conspiração).",
+      "o_que_mudou": "As alternativas deixaram de cobrar a pena da omissão de lealdade militar. Agora cobram as condutas do art. 151, a desnecessidade de execução do motim e a diferença para conspiração e participação."
+    },
+    {
+      "id": 2482,
+      "enunciado": "Um soldado afixa, no mural do refeitório do batalhão, panfleto impresso que conclama os colegas a descumprirem as ordens do comandante. Segundo o CPM, a conduta:",
+      "alternativas": [
+        { "letra": "A", "texto": "configura apologia de fato criminoso, pois exalta a desobediência em lugar sujeito à administração militar." },
+        { "letra": "B", "texto": "é atípica, pois o incitamento exige manifestação oral do agente dirigida a militar determinado." },
+        { "letra": "C", "texto": "configura incitamento, pois a lei equipara ao caput quem afixa impresso que contenha incitamento." },
+        { "letra": "D", "texto": "configura aliciação para motim, pois o panfleto busca atrair militares para a desobediência coletiva." },
+        { "letra": "E", "texto": "configura incitamento apenas se algum militar efetivamente descumprir a ordem por causa do panfleto." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 155 do CPM pune quem incita à desobediência, à indisciplina ou à prática de crime militar. O parágrafo único aplica a mesma pena a quem introduz, afixa ou distribui, em lugar sujeito à administração militar, material impresso, manuscrito, eletrônico, fotocopiado ou gravado que contenha esse incitamento. Afixar o panfleto no mural do refeitório se encaixa nessa forma equiparada, e o tipo não exige que alguém obedeça ao chamado.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Apologia (art. 156) é exaltar fato criminoso ou seu autor. O panfleto não elogia um fato: estimula a desobediência futura, o que é incitamento." },
+        { "letra": "B", "correta": false, "justificativa": "O parágrafo único do art. 155 prevê expressamente o material impresso afixado em lugar sujeito à administração militar." },
+        { "letra": "C", "correta": true, "justificativa": "O parágrafo único do art. 155 equipara ao incitamento afixar, em lugar sujeito à administração militar, impresso que contenha incitamento." },
+        { "letra": "D", "correta": false, "justificativa": "A aliciação (art. 154) é atrair militar para motim, revolta ou outro crime do Capítulo I. O panfleto incita à desobediência às ordens, o que o art. 155 alcança." },
+        { "letra": "E", "correta": false, "justificativa": "O incitamento se consuma com o próprio ato de incitar ou de afixar o material; o tipo não exige que algum militar descumpra a ordem." }
+      ],
+      "fundamento_legal": "Código Penal Militar (Decreto-Lei 1.001/1969), art. 155, caput e parágrafo único.",
+      "pegadinha": "Confundir incitamento (estímulo à desobediência) com apologia (elogio de fato criminoso) e achar que o incitamento depende de resultado.",
+      "o_que_mudou": "As alternativas deixaram de girar em torno da pena do incitamento e passaram a cobrar a tipificação, a forma equiparada do parágrafo único, a consumação e a diferença para apologia e aliciação."
+    },
+    {
+      "id": 2483,
+      "enunciado": "Sobre o crime de apologia de fato criminoso ou do seu autor (art. 156 do CPM), é correto afirmar que a apologia deve ocorrer:",
+      "alternativas": [
+        { "letra": "A", "texto": "diante da tropa formada, ainda que fora de lugar sujeito à administração militar." },
+        { "letra": "B", "texto": "por meio de imprensa ou rede social, seja qual for o lugar em que o agente se encontre." },
+        { "letra": "C", "texto": "em lugar público, ainda que fora da administração militar, desde que diante de civis." },
+        { "letra": "D", "texto": "em lugar sujeito à administração militar, mas só se o elogio recair sobre o autor do fato." },
+        { "letra": "E", "texto": "em lugar sujeito à administração militar, exaltando fato que a lei militar tem como crime ou o seu autor." }
+      ],
+      "gabarito": "E",
+      "comentario": "O art. 156 do CPM pune quem faz apologia de fato que a lei militar considera crime, ou do autor desse fato, em lugar sujeito à administração militar. O local é elementar do tipo; o meio (oral, escrito, eletrônico) não é. A apologia pode recair tanto sobre o fato quanto sobre o seu autor.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O tipo não exige a presença da tropa formada, e sim que a apologia ocorra em lugar sujeito à administração militar." },
+        { "letra": "B", "correta": false, "justificativa": "O meio não é elementar do art. 156, e o lugar é: a apologia precisa ocorrer em lugar sujeito à administração militar." },
+        { "letra": "C", "correta": false, "justificativa": "O local exigido é o sujeito à administração militar, e o tipo não exige a presença de civis." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 156 alcança a apologia do fato criminoso ou do seu autor; não se limita ao elogio do autor." },
+        { "letra": "E", "correta": true, "justificativa": "Reproduz as elementares do art. 156: apologia de fato que a lei militar considera crime, ou do seu autor, em lugar sujeito à administração militar." }
+      ],
+      "fundamento_legal": "Código Penal Militar (Decreto-Lei 1.001/1969), art. 156.",
+      "pegadinha": "Trocar a elementar de lugar (sujeito à administração militar) por presença da tropa, meio de divulgação ou presença de civis.",
+      "o_que_mudou": "As alternativas deixaram de trazer a pena da apologia e passaram a cobrar só as elementares do art. 156: o lugar e o objeto da apologia (fato ou autor)."
+    },
+    {
+      "id": 2487,
+      "enunciado": "Durante uma discussão, um soldado empurra o sargento, que cai, bate a cabeça e morre. As circunstâncias evidenciam que o soldado não quis a morte nem assumiu o risco de produzi-la. Segundo o CPM:",
+      "alternativas": [
+        { "letra": "A", "texto": "o fato é atípico quanto à morte, pois o resultado não foi querido nem assumido pelo agente." },
+        { "letra": "B", "texto": "o soldado responde por homicídio doloso, pois a violência contra superior torna dolosa a morte." },
+        { "letra": "C", "texto": "aplica-se o art. 159, que reduz a sanção do crime contra a pessoa por falta de dolo no resultado." },
+        { "letra": "D", "texto": "aplica-se o art. 159, mas ele só alcança o resultado lesão corporal, e não o resultado morte." },
+        { "letra": "E", "texto": "o art. 159 só vale para a violência contra militar de serviço, e não para a violência contra superior." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 159 do CPM (ausência de dolo no resultado) se aplica quando da violência resulta morte ou lesão corporal e as circunstâncias evidenciam que o agente não quis o resultado nem assumiu o risco de produzi-lo: o resultado continua punido, mas a pena do crime contra a pessoa é reduzida. A regra fica no capítulo da violência contra superior ou militar de serviço e alcança os dois resultados, morte e lesão. O art. 175, parágrafo único, manda observá-la também na violência contra inferior hierárquico. Na violência contra superior com resultado morte, o art. 157, § 4º, prevê forma qualificada com pena própria, e a doutrina discute como ela convive com o art. 159; a questão cobra a letra do art. 159, que menciona expressamente o resultado morte.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "O resultado não querido continua punido: o art. 159 apenas reduz a pena do crime contra a pessoa, não afasta o crime." },
+        { "letra": "B", "correta": false, "justificativa": "A lei prevê tratamento próprio para o resultado não querido nem assumido (art. 159); não há presunção de dolo na morte." },
+        { "letra": "C", "correta": true, "justificativa": "É a regra do art. 159: violência da qual resulta morte não querida nem assumida leva à redução da pena do crime contra a pessoa." },
+        { "letra": "D", "correta": false, "justificativa": "O art. 159 fala expressamente em morte ou lesão corporal." },
+        { "letra": "E", "correta": false, "justificativa": "O art. 159 está no capítulo da violência contra superior ou militar de serviço e se aplica às duas figuras (arts. 157 e 158)." }
+      ],
+      "fundamento_legal": "Código Penal Militar (Decreto-Lei 1.001/1969), arts. 157, 159 e 175, parágrafo único.",
+      "pegadinha": "Achar que o resultado não querido torna o fato atípico, ou que o art. 159 vale só para lesão ou só para militar de serviço.",
+      "o_que_mudou": "Antes perguntava a fração de diminuição do art. 159. Agora apresenta um caso e cobra quando a regra se aplica, o seu alcance (morte e lesão, superior e militar de serviço) e o fato de o resultado continuar punido, sem citar frações. O comentário ganhou uma frase sobre a relação entre o art. 159 e a forma qualificada do art. 157, § 4º (resultado morte na violência contra superior)."
+    },
+    {
+      "id": 2488,
+      "enunciado": "Um soldado, diante de outros militares, desrespeita verbalmente o oficial de dia, sem praticar violência. Não constituindo o fato crime mais grave, segundo o CPM, a conduta:",
+      "alternativas": [
+        { "letra": "A", "texto": "configura desrespeito a superior, com causa de aumento por ter sido praticado contra o oficial de dia." },
+        { "letra": "B", "texto": "configura violência contra militar de serviço, pois o ofendido estava exercendo a função de oficial de dia." },
+        { "letra": "C", "texto": "configura recusa de obediência, pois desrespeitar o oficial de dia equivale a descumprir a sua ordem." },
+        { "letra": "D", "texto": "configura desrespeito a superior na forma simples, pois a causa de aumento só alcança o comandante." },
+        { "letra": "E", "texto": "é atípica, pois o desrespeito a superior só é crime quando praticado diante da tropa formada." }
+      ],
+      "gabarito": "A",
+      "comentario": "O art. 160 do CPM pune o desrespeito a superior diante de outro militar, se o fato não constitui crime mais grave. O parágrafo único aumenta a pena quando o fato é praticado contra o comandante da unidade a que pertence o agente, oficial-general, oficial de dia, de serviço ou de quarto. Sem violência, não há o crime do art. 158; e não houve ordem descumprida, o que afasta a recusa de obediência.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Desrespeito diante de outro militar é o art. 160, e o parágrafo único prevê aumento quando a vítima é o oficial de dia." },
+        { "letra": "B", "correta": false, "justificativa": "O art. 158 exige violência contra o oficial de dia, o que o enunciado afasta." },
+        { "letra": "C", "correta": false, "justificativa": "A recusa de obediência (art. 163) pressupõe ordem sobre matéria de serviço descumprida; desrespeito não é recusa de ordem." },
+        { "letra": "D", "correta": false, "justificativa": "O parágrafo único do art. 160 inclui, além do comandante, o oficial-general e o oficial de dia, de serviço ou de quarto." },
+        { "letra": "E", "correta": false, "justificativa": "O art. 160 exige apenas que o desrespeito ocorra diante de outro militar, sem exigir tropa formada." }
+      ],
+      "fundamento_legal": "Código Penal Militar (Decreto-Lei 1.001/1969), art. 160 e parágrafo único; art. 158; art. 163.",
+      "pegadinha": "Achar que a causa de aumento do desrespeito só protege o comandante, ou confundir desrespeito ao oficial de dia com violência contra militar de serviço.",
+      "o_que_mudou": "Antes perguntava a pena e a fração de aumento. Agora cobra a tipificação (desrespeito a superior), a hipótese da causa de aumento (oficial de dia) e a diferença para violência contra militar de serviço e recusa de obediência."
+    },
+    {
+      "id": 2489,
+      "enunciado": "Sobre o crime de recusa de obediência (art. 163 do CPM), é correto afirmar que ele:",
+      "alternativas": [
+        { "letra": "A", "texto": "alcança ordem de superior sobre qualquer assunto, inclusive particular, e subsiste ainda que o fato seja crime mais grave." },
+        { "letra": "B", "texto": "alcança somente ordem escrita do comandante da unidade, não bastando a ordem verbal de outro superior." },
+        { "letra": "C", "texto": "alcança ordem sobre matéria de serviço, mas não a recusa de cumprir dever imposto em regulamento ou instrução." },
+        { "letra": "D", "texto": "alcança ordem sobre matéria de serviço ou dever imposto em lei, regulamento ou instrução, se o fato não é crime mais grave." },
+        { "letra": "E", "texto": "alcança ordem sobre matéria de serviço, mas só se consuma quando a recusa ocorre diante de outros militares." }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 163 do CPM pune quem recusa obedecer a ordem do superior sobre assunto ou matéria de serviço, ou relativamente a dever imposto em lei, regulamento ou instrução. O crime é subsidiário: só se aplica se o fato não constitui crime mais grave. A lei fala em ordem do superior, sem exigir forma escrita, que venha do comandante ou que a recusa ocorra diante de outros militares (exigência que é do desrespeito a superior, art. 160).",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "A ordem deve referir-se a serviço ou a dever legal ou regulamentar, e o tipo é subsidiário: cede quando o fato constitui crime mais grave." },
+        { "letra": "B", "correta": false, "justificativa": "A lei fala em ordem do superior, sem exigir forma escrita nem que venha do comandante da unidade." },
+        { "letra": "C", "correta": false, "justificativa": "O art. 163 alcança expressamente a recusa relativa a dever imposto em lei, regulamento ou instrução." },
+        { "letra": "D", "correta": true, "justificativa": "Reproduz o objeto da ordem e a cláusula de subsidiariedade do art. 163." },
+        { "letra": "E", "correta": false, "justificativa": "A presença de outros militares é elementar do desrespeito a superior (art. 160), e não da recusa de obediência." }
+      ],
+      "fundamento_legal": "Código Penal Militar (Decreto-Lei 1.001/1969), art. 163.",
+      "pegadinha": "Esquecer o dever imposto em lei, regulamento ou instrução e a subsidiariedade do tipo, ou trazer para a recusa de obediência a exigência de presença de outro militar, que é do desrespeito.",
+      "o_que_mudou": "As alternativas deixaram de trazer a pena da recusa de obediência e passaram a cobrar o objeto da ordem, a subsidiariedade e a diferença para o desrespeito a superior."
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "itens": [
+    {
+      "id": 2304,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes Militares contra a Pessoa e o Patrimônio",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-militares-contra-a-pessoa-e-o-patrimonio.md",
+      "atual": {
+        "enunciado": "Acerca da injúria no Código Penal Militar (arts. 216 e 217), assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "A injúria simples é punida com detenção, de três meses a um ano."
+          },
+          {
+            "letra": "B",
+            "texto": "Na injúria real, a pena correspondente à violência fica absorvida pela pena da injúria."
+          },
+          {
+            "letra": "C",
+            "texto": "A injúria com elementos referentes à condição de pessoa idosa tem pena de reclusão, de um a três anos."
+          },
+          {
+            "letra": "D",
+            "texto": "A retorsão imediata, que consista em outra injúria, é causa de aumento de pena de um terço, por revelar maior reprovabilidade."
+          },
+          {
+            "letra": "E",
+            "texto": "A injúria contra militar, em razão das suas funções, tem a pena aplicada em dobro."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "A injúria simples do CPM tem pena de detenção até seis meses; a injúria qualificada por elementos de raça, cor, etnia, religião, origem, orientação sexual ou condição de pessoa idosa ou com deficiência é punida com reclusão de um a três anos; a injúria real soma a pena da violência. Análise das alternativas: A) Errada: a injúria simples tem pena de detenção até seis meses; três meses a um ano é a injúria real. B) Errada: na injúria real aplica-se a pena 'além da pena correspondente à violência'. C) Correta: art. 216, § 2º. D) Errada: na retorsão imediata o juízo pode deixar de aplicar a pena (art. 216, § 1º, II). E) Errada: a ofensa contra militar em razão das funções aumenta a pena de um terço (art. 218, III); o dobro é para paga ou promessa de recompensa. Fundamento: CPM, arts. 216, 217 e 218.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2307,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes Militares contra a Pessoa e o Patrimônio",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-militares-contra-a-pessoa-e-o-patrimonio.md",
+      "atual": {
+        "enunciado": "Um soldado primário subtrai, no quartel, objeto cujo valor não excede a um décimo da quantia mensal do mais alto salário mínimo do país. Nos termos do art. 240, § 1º, do CPM, o juiz pode:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "diminuir a pena de um sexto a um terço ou substituí-la por pena de multa."
+          },
+          {
+            "letra": "B",
+            "texto": "deixar de aplicar a pena, desde que a coisa seja restituída ao dono após a sentença condenatória."
+          },
+          {
+            "letra": "C",
+            "texto": "substituir a reclusão por detenção, mas somente se houver a reparação integral do dano antes da sentença."
+          },
+          {
+            "letra": "D",
+            "texto": "aplicar somente a pena de detenção até seis meses, prevista para o furto de uso."
+          },
+          {
+            "letra": "E",
+            "texto": "trocar a reclusão por detenção, diminuí-la de um a dois terços ou tê-la como infração disciplinar."
+          }
+        ],
+        "gabarito": "E",
+        "comentario": "No furto atenuado, sendo o agente primário e de pequeno valor a coisa (até um décimo do mais alto salário mínimo mensal), o juiz pode substituir a reclusão por detenção, diminuí-la de um a dois terços ou considerar a infração como disciplinar. Análise das alternativas: A) Errada: a fração é de um a dois terços e não há substituição por multa. B) Errada: a lei não prevê perdão por restituição após a sentença; a restituição relevante (§ 2º) é a feita antes de instaurada a ação penal. C) Errada: no § 1º a reparação do dano não é requisito; basta primariedade e pequeno valor. D) Errada: a pena do furto de uso (art. 241) só se aplica ao uso momentâneo seguido de restituição imediata. E) Correta: reproduz as três opções do § 1º. Fundamento: CPM, art. 240, § 1º.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2309,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes Militares contra a Pessoa e o Patrimônio",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-militares-contra-a-pessoa-e-o-patrimonio.md",
+      "atual": {
+        "enunciado": "Um soldado retira, sem autorização, a viatura da unidade para uso momentâneo e, logo em seguida, a restitui ao lugar onde se achava. Pelo CPM, a conduta configura:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "furto simples, punido com reclusão, até seis anos."
+          },
+          {
+            "letra": "B",
+            "texto": "furto de uso, com pena de detenção, até seis meses, aumentada de um terço."
+          },
+          {
+            "letra": "C",
+            "texto": "furto de uso, com pena de detenção, até seis meses, aumentada de metade."
+          },
+          {
+            "letra": "D",
+            "texto": "fato atípico, pois a coisa foi restituída antes da ação penal."
+          },
+          {
+            "letra": "E",
+            "texto": "furto de uso, com pena de detenção, até seis meses, aplicada em dobro."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O CPM tipifica o furto de uso (art. 241): subtração para uso momentâneo com imediata restituição ou reposição no lugar. A pena é de detenção até seis meses, aumentada de metade se a coisa é veículo motorizado, embarcação, aeronave ou arma, e de um terço se é animal de sela ou de tiro. Análise das alternativas: A) Errada: a finalidade de uso momentâneo com restituição imediata desloca a conduta para o art. 241. B) Errada: o aumento de um terço é para animal de sela ou de tiro. C) Correta: viatura é veículo motorizado, incidindo o aumento de metade. D) Errada: o furto de uso é crime no CPM; a restituição integra o próprio tipo. E) Errada: não há previsão de pena em dobro. Fundamento: CPM, art. 241 e parágrafo único.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2310,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes Militares contra a Pessoa e o Patrimônio",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-militares-contra-a-pessoa-e-o-patrimonio.md",
+      "atual": {
+        "enunciado": "Para assegurar a detenção da coisa durante um roubo, o agente mata dolosamente a vítima, mas foge sem conseguir levar o bem. Pelo CPM, a conduta é punida com:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "reclusão, de doze a trinta anos, como homicídio qualificado, absorvido o roubo."
+          },
+          {
+            "letra": "B",
+            "texto": "a pena do roubo tentado, aumentada de um terço até metade, por resultar morte da vítima."
+          },
+          {
+            "letra": "C",
+            "texto": "a pena do latrocínio, reduzida por não ter havido consumação da subtração."
+          },
+          {
+            "letra": "D",
+            "texto": "reclusão, de quinze a trinta anos, sendo irrelevante não se consumar a subtração."
+          },
+          {
+            "letra": "E",
+            "texto": "reclusão, de quatro a quinze anos, aumentada de metade pelo resultado morte."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "No latrocínio do CPM (art. 242, § 3º), se o agente ocasiona dolosamente a morte de alguém para praticar o roubo, assegurar a impunidade ou a detenção da coisa, a pena é de reclusão de quinze a trinta anos, e a lei declara irrelevante que a lesão patrimonial deixe de consumar-se. Análise das alternativas: A) Errada: há tipo específico (latrocínio), que prevalece sobre o homicídio qualificado. B) Errada: o aumento de um terço até metade pelo resultado morte (§ 2º, VI) é para a morte não querida nem assumida; aqui a morte foi dolosa. C) Errada: o § 3º afasta expressamente a relevância da não consumação patrimonial. D) Correta: reproduz o art. 242, § 3º. E) Errada: quatro a quinze anos é a pena do roubo simples, e não há aumento de metade pela morte. Fundamento: CPM, art. 242, §§ 2º, VI, e 3º.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2312,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes Militares contra a Pessoa e o Patrimônio",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-militares-contra-a-pessoa-e-o-patrimonio.md",
+      "atual": {
+        "enunciado": "Um cabo encontra, no pátio do quartel, uma carteira perdida e dela se apropria, deixando de restituí-la ao dono ou de entregá-la à autoridade por vinte dias. Pelo CPM, ele responde por:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "furto simples, punido com reclusão, até seis anos."
+          },
+          {
+            "letra": "B",
+            "texto": "apropriação indébita simples, com reclusão, até seis anos."
+          },
+          {
+            "letra": "C",
+            "texto": "nenhum crime, pois o prazo legal para a entrega é de trinta dias."
+          },
+          {
+            "letra": "D",
+            "texto": "estelionato, por manter o dono em erro, com reclusão de dois a sete anos."
+          },
+          {
+            "letra": "E",
+            "texto": "apropriação de coisa achada, punida com detenção, até um ano."
+          }
+        ],
+        "gabarito": "E",
+        "comentario": "Quem acha coisa alheia perdida e dela se apropria, deixando de restituí-la ao dono ou de entregá-la à autoridade dentro de quinze dias, comete apropriação de coisa achada, punida com detenção até um ano. Análise das alternativas: A) Errada: não houve subtração; a coisa estava perdida. B) Errada: a apropriação indébita simples exige posse ou detenção anterior da coisa (art. 248). C) Errada: o prazo legal é de quinze dias, já ultrapassado. D) Errada: não houve fraude para obter a coisa. E) Correta: art. 249, parágrafo único. Fundamento: CPM, art. 249, parágrafo único.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2313,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes Militares contra a Pessoa e o Patrimônio",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-militares-contra-a-pessoa-e-o-patrimonio.md",
+      "atual": {
+        "enunciado": "Um sargento vende a um civil, como se fosse sua, uma motocicleta pertencente a um colega. À luz do art. 251 do CPM, essa conduta:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "sujeita o agente às mesmas penas do estelionato: reclusão, de dois a sete anos."
+          },
+          {
+            "letra": "B",
+            "texto": "configura apropriação indébita simples, punida com reclusão, até seis anos, por dispor da coisa alheia."
+          },
+          {
+            "letra": "C",
+            "texto": "configura furto mediante fraude, punido com reclusão, de três a dez anos."
+          },
+          {
+            "letra": "D",
+            "texto": "configura receptação dolosa, punida com reclusão, até cinco anos."
+          },
+          {
+            "letra": "E",
+            "texto": "sujeita o agente às penas do estelionato, reduzidas de um a dois terços."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "Vender coisa alheia como própria é a disposição de coisa alheia como própria (art. 251, § 1º, I), que sujeita o agente às mesmas penas do estelionato (reclusão de dois a sete anos). O § 2º acrescenta que as figuras dos incisos I a V só são crimes militares nos casos do art. 9º, II, 'a' e 'e'. Análise das alternativas: A) Correta: art. 251, § 1º, I. B) Errada: a lei tipifica especificamente a venda de coisa alheia como própria no rol do estelionato. C) Errada: não houve subtração da motocicleta. D) Errada: o sargento não adquiriu nem recebeu coisa produto de crime. E) Errada: a lei manda aplicar 'as mesmas penas', sem redução. Fundamento: CPM, art. 251, caput e §§ 1º, I, e 2º.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2314,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes Militares contra a Pessoa e o Patrimônio",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-militares-contra-a-pessoa-e-o-patrimonio.md",
+      "atual": {
+        "enunciado": "Sobre a receptação no Código Penal Militar (arts. 254 a 256), assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "A receptação dolosa simples é punida com reclusão, de dois a sete anos."
+          },
+          {
+            "letra": "B",
+            "texto": "A receptação só é punível se identificado e condenado o autor do crime anterior."
+          },
+          {
+            "letra": "C",
+            "texto": "Se a coisa é munição de uso restrito militar, a pena é de reclusão, de três a dez anos."
+          },
+          {
+            "letra": "D",
+            "texto": "Na receptação culposa, a pena cominada é de reclusão, até três anos."
+          },
+          {
+            "letra": "E",
+            "texto": "Na receptação culposa, o juiz pode deixar de aplicar a pena se o agente restituir a coisa."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "A receptação dolosa do CPM é punida com reclusão até cinco anos, e a qualificada (arma, munição, explosivo ou material militar de uso restrito) com reclusão de três a dez anos; a culposa, com detenção até um ano. A receptação é punível ainda que desconhecido ou isento de pena o autor do crime antecedente. Análise das alternativas: A) Errada: a pena é de reclusão até cinco anos; dois a sete anos é o estelionato. B) Errada: o art. 256 dispensa a identificação e a punibilidade do autor do crime anterior. C) Correta: art. 254, § 2º. D) Errada: a receptação culposa é punida com detenção até um ano. E) Errada: o perdão do art. 255, parágrafo único, exige agente primário e coisa de valor não superior a um décimo do salário mínimo, não a restituição. Fundamento: CPM, arts. 254, 255 e 256.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 2315,
+      "disciplina": "Direito Penal Militar",
+      "assunto": "Crimes Militares contra a Pessoa e o Patrimônio",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal-militar--crimes-militares-contra-a-pessoa-e-o-patrimonio.md",
+      "atual": {
+        "enunciado": "Pelo Código Penal Militar, o crime de dano simples (art. 259), quando se trata de bem público, é punido com:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "detenção, até seis meses."
+          },
+          {
+            "letra": "B",
+            "texto": "reclusão, até quatro anos."
+          },
+          {
+            "letra": "C",
+            "texto": "reclusão, até seis anos."
+          },
+          {
+            "letra": "D",
+            "texto": "detenção, de seis meses a três anos."
+          },
+          {
+            "letra": "E",
+            "texto": "detenção, de três meses a um ano."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O dano simples do CPM (destruir, inutilizar, deteriorar ou fazer desaparecer coisa alheia) é punido com detenção até seis meses; se o bem é público, a pena sobe para detenção de seis meses a três anos. Análise das alternativas: A) Errada: é a pena do dano simples sobre bem particular. B) Errada: reclusão até quatro anos é a pena do dano qualificado (art. 261). C) Errada: reclusão até seis anos é a pena do dano em material ou aparelhamento de guerra (art. 262). D) Correta: art. 259, parágrafo único. E) Errada: não corresponde a nenhuma modalidade de dano do art. 259. Fundamento: CPM, art. 259 e parágrafo único.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "itens": [
+    {
+      "id": 2856,
+      "enunciado": "Um homem sem qualquer vínculo com a Administração passa a se apresentar como fiscal da vigilância sanitária municipal, realiza falsas vistorias em bares e recebe dos comerciantes valores para emitir supostos alvarás. Considerando os crimes praticados por particular contra a Administração em geral, previstos no Código Penal, a conduta configura",
+      "alternativas": [
+        { "letra": "A", "texto": "usurpação de função pública na forma simples, pois o dinheiro recebido é mero exaurimento do crime." },
+        { "letra": "B", "texto": "usurpação de função pública na forma qualificada, pois o agente auferiu vantagem com o fato." },
+        { "letra": "C", "texto": "corrupção passiva, pois o agente recebeu vantagem indevida em razão de função pública." },
+        { "letra": "D", "texto": "exercício funcional ilegalmente antecipado, pois ele assumiu a função sem cumprir as exigências legais." }
+      ],
+      "gabarito": "B",
+      "comentario": "Usurpar o exercício de função pública é crime do art. 328 do CP, praticado por quem exerce indevidamente uma função que não titulariza. O parágrafo único prevê a forma qualificada quando, do fato, o agente aufere vantagem. No caso, o falso fiscal recebeu valores dos comerciantes, o que atrai a qualificadora. Ele não é funcionário público, por isso não responde por crimes funcionais como a corrupção passiva (art. 317) ou o exercício funcional ilegalmente antecipado (art. 324). Fundamento: art. 328, caput e parágrafo único, do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Errada: a obtenção de vantagem não é mero exaurimento; o parágrafo único do art. 328 a transforma em forma qualificada." },
+        { "letra": "B", "correta": true, "justificativa": "Correta: houve usurpação de função pública e o agente auferiu vantagem, hipótese do art. 328, parágrafo único." },
+        { "letra": "C", "correta": false, "justificativa": "Errada: a corrupção passiva (art. 317) é crime próprio de funcionário público, e o agente não tem vínculo algum com a Administração." },
+        { "letra": "D", "correta": false, "justificativa": "Errada: o art. 324 pune quem foi regularmente investido e entra no exercício antes de satisfeitas as exigências legais; o agente nunca foi nomeado." }
+      ],
+      "fundamento_legal": "Código Penal, art. 328, caput e parágrafo único; arts. 317 e 324 (distinção).",
+      "pegadinha": "Achar que o dinheiro recebido é só exaurimento ou que o falso fiscal responde por crime funcional, quando a vantagem qualifica a usurpação.",
+      "o_que_mudou": "Deixou de perguntar a pena e passou a cobrar o enquadramento: usurpação qualificada pela vantagem, distinta da corrupção passiva e do art. 324."
+    },
+    {
+      "id": 2857,
+      "enunciado": "Um oficial de justiça, acompanhado de um guarda municipal que lhe prestava auxílio, tenta cumprir mandado judicial de busca e apreensão de um veículo. O morador, empunhando uma faca, ameaça ambos e consegue impedir que o veículo seja apreendido. Com base no Código Penal, a conduta do morador configura",
+      "alternativas": [
+        { "letra": "A", "texto": "desobediência, pois a ordem judicial deixou de ser cumprida, ficando absorvida a ameaça empregada." },
+        { "letra": "B", "texto": "resistência simples, pois a forma qualificada exige violência física contra o funcionário competente." },
+        { "letra": "C", "texto": "resistência apenas contra o oficial, pois quem presta auxílio ao funcionário não pode ser vítima do crime." },
+        { "letra": "D", "texto": "resistência qualificada, porque o ato legal, em razão da oposição do morador, deixou de ser executado." }
+      ],
+      "gabarito": "D",
+      "comentario": "A resistência (art. 329 do CP) é opor-se à execução de ato legal mediante violência ou ameaça a funcionário competente ou a quem lhe esteja prestando auxílio. Se, em razão da resistência, o ato não se executa, incide a forma qualificada do § 1º. O § 2º manda aplicar as penas sem prejuízo das correspondentes à violência. No caso, houve ameaça a ambos e a apreensão foi frustrada. Fundamento: art. 329, caput, §§ 1º e 2º, do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Errada: o uso de ameaça para impedir o ato caracteriza resistência; a desobediência (art. 330) é a recusa sem violência ou ameaça." },
+        { "letra": "B", "correta": false, "justificativa": "Errada: a qualificadora do § 1º depende de o ato não se executar, e não do tipo de meio; a ameaça já basta para o crime." },
+        { "letra": "C", "correta": false, "justificativa": "Errada: o caput protege expressamente quem presta auxílio ao funcionário competente." },
+        { "letra": "D", "correta": true, "justificativa": "Correta: houve resistência e o ato não se executou em razão dela, hipótese do art. 329, § 1º." }
+      ],
+      "fundamento_legal": "Código Penal, art. 329, caput, §§ 1º e 2º; art. 330 (distinção).",
+      "pegadinha": "Confundir o critério da qualificadora (ato não executado) com o meio empregado, ou excluir quem auxilia o funcionário.",
+      "o_que_mudou": "As alternativas não citam mais penas; cobram o crime, a hipótese da qualificadora e quem pode ser vítima."
+    },
+    {
+      "id": 2858,
+      "enunciado": "Em diligência, um inspetor de polícia, munido de ordem legal, determina ao proprietário de um galpão que abra o portão para a entrada da equipe. O proprietário se recusa e permanece parado, sem empregar violência nem fazer ameaça. A conduta do proprietário corresponde ao crime de",
+      "alternativas": [
+        { "letra": "A", "texto": "desobediência, pois recusou cumprir ordem legal de funcionário sem violência ou ameaça." },
+        { "letra": "B", "texto": "resistência, pois se opôs à execução de ato legal de funcionário público competente." },
+        { "letra": "C", "texto": "desacato, pois o descumprimento da ordem desprestigiou o funcionário na sua função." },
+        { "letra": "D", "texto": "usurpação de função, pois interferiu indevidamente no exercício da função policial." }
+      ],
+      "gabarito": "A",
+      "comentario": "Desobedecer a ordem legal de funcionário público configura desobediência (art. 330 do CP). A resistência (art. 329) exige que a oposição se faça mediante violência ou ameaça ao funcionário; sem esses meios, a recusa passiva fica na desobediência. O desacato (art. 331) exige ofensa ou humilhação ao funcionário, e a usurpação (art. 328) exige que o agente exerça a função indevidamente. Fundamento: arts. 329, 330 e 331 do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Correta: recusa em cumprir ordem legal, sem violência ou ameaça, é a desobediência do art. 330." },
+        { "letra": "B", "correta": false, "justificativa": "Errada: a resistência depende de violência ou ameaça ao funcionário, ausentes no caso." },
+        { "letra": "C", "correta": false, "justificativa": "Errada: o desacato exige ofensa ou humilhação ao funcionário, e não simples descumprimento de ordem." },
+        { "letra": "D", "correta": false, "justificativa": "Errada: a usurpação exige que o agente exerça a função pública, o que o proprietário não fez." }
+      ],
+      "fundamento_legal": "Código Penal, art. 330; arts. 328, 329 e 331 (distinção).",
+      "pegadinha": "Tratar a oposição passiva como resistência, que só existe com violência ou ameaça.",
+      "o_que_mudou": "Retirada a pena de cada alternativa; cada uma agora traz o crime e a razão do enquadramento."
+    },
+    {
+      "id": 2859,
+      "enunciado": "Abordado em uma blitz, um motorista xinga e humilha, diante de populares, o policial militar que o fiscalizava, em razão da função por ele exercida. De acordo com o Código Penal, o motorista praticou",
+      "alternativas": [
+        { "letra": "A", "texto": "desobediência, pois deixou de acatar a autoridade do policial durante a fiscalização." },
+        { "letra": "B", "texto": "resistência, pois se opôs à execução de ato legal do policial competente na blitz." },
+        { "letra": "C", "texto": "desacato, pois ofendeu e humilhou o funcionário público em razão da função exercida." },
+        { "letra": "D", "texto": "injúria simples, pois o crime contra a Administração exige que a ofensa seja privada." }
+      ],
+      "gabarito": "C",
+      "comentario": "Desacatar funcionário público no exercício da função ou em razão dela é crime do art. 331 do CP. Xingar e humilhar o policial em razão da fiscalização que ele fazia atinge o prestígio da função, o que configura desacato. Não há descumprimento de ordem (desobediência, art. 330) nem oposição ao ato mediante violência ou ameaça (resistência, art. 329). Fundamento: art. 331 do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Errada: a desobediência exige descumprir ordem legal; o motorista ofendeu o policial, sem recusar ordem alguma." },
+        { "letra": "B", "correta": false, "justificativa": "Errada: não houve oposição à execução do ato mediante violência ou ameaça, requisito do art. 329." },
+        { "letra": "C", "correta": true, "justificativa": "Correta: a ofensa ao funcionário em razão da função é o desacato do art. 331." },
+        { "letra": "D", "correta": false, "justificativa": "Errada: o art. 331 não exige ofensa privada; a humilhação em razão da função, inclusive diante de terceiros, configura desacato." }
+      ],
+      "fundamento_legal": "Código Penal, art. 331; arts. 329 e 330 (distinção).",
+      "pegadinha": "Confundir o desacato com desobediência ou resistência, ou tratá-lo como simples crime contra a honra.",
+      "o_que_mudou": "Deixou de perguntar a pena do desacato (e o macete do ou/e) e passou a cobrar qual crime se configura."
+    },
+    {
+      "id": 2860,
+      "enunciado": "Um particular cobra de um empresário R$ 50 mil a pretexto de influir no ato de um servidor da Secretaria de Obras responsável pela liberação de um alvará, insinuando que parte do dinheiro também seria repassada ao servidor. Assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "Há tráfico de influência majorado, pois o agente insinuou que a vantagem também iria ao servidor." },
+        { "letra": "B", "texto": "Há corrupção ativa, pois o agente ofereceu vantagem indevida a funcionário público pelo alvará." },
+        { "letra": "C", "texto": "Há exploração de prestígio, pois o agente cobrou vantagem a pretexto de influir em funcionário." },
+        { "letra": "D", "texto": "Há tráfico de influência simples, pois a insinuação de repasse ao servidor não altera a punição." }
+      ],
+      "gabarito": "A",
+      "comentario": "Cobrar vantagem a pretexto de influir em ato praticado por funcionário público no exercício da função é tráfico de influência (art. 332 do CP). O parágrafo único aumenta a pena se o agente alega ou insinua que a vantagem também se destina ao funcionário, o que ocorreu. A exploração de prestígio (art. 357) só se aplica quando o pretexto é influir em juiz, jurado, órgão do MP, funcionário de justiça, perito, tradutor, intérprete ou testemunha. Fundamento: art. 332, caput e parágrafo único, do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Correta: há o tipo do art. 332 e a causa de aumento do parágrafo único, pela insinuação de repasse ao servidor." },
+        { "letra": "B", "correta": false, "justificativa": "Errada: na corrupção ativa o agente oferece vantagem ao funcionário; aqui ele cobrou do particular a pretexto de influência." },
+        { "letra": "C", "correta": false, "justificativa": "Errada: a exploração de prestígio (art. 357) exige pretexto de influir em juiz, jurado, MP, funcionário de justiça, perito, tradutor, intérprete ou testemunha, não em servidor da Secretaria de Obras." },
+        { "letra": "D", "correta": false, "justificativa": "Errada: a insinuação de que a vantagem também se destina ao funcionário é exatamente a causa de aumento do parágrafo único do art. 332." }
+      ],
+      "fundamento_legal": "Código Penal, art. 332, caput e parágrafo único; arts. 333 e 357 (distinção).",
+      "pegadinha": "Confundir tráfico de influência com exploração de prestígio, que só vale para quem atua na administração da justiça.",
+      "o_que_mudou": "As alternativas não citam mais penas nem frações; cobram o crime e a hipótese da causa de aumento."
+    },
+    {
+      "id": 2861,
+      "enunciado": "Durante fiscalização, um motorista oferece R$ 500,00 a um policial rodoviário para que ele não lavre auto de infração. O policial aceita a oferta e, em razão dela, deixa de lavrar o auto. Quanto à responsabilidade penal do motorista, é correto afirmar que ele",
+      "alternativas": [
+        { "letra": "A", "texto": "responde por corrupção ativa simples, pois a omissão posterior do ato é mero exaurimento sem reflexo na punição." },
+        { "letra": "B", "texto": "responde por corrupção ativa majorada, porque, em razão da vantagem, o funcionário omitiu ato de ofício." },
+        { "letra": "C", "texto": "responde como partícipe da corrupção passiva do policial, já que a vantagem oferecida foi aceita por ele." },
+        { "letra": "D", "texto": "responde por tráfico de influência, pois obteve benefício relacionado a ato de funcionário público." }
+      ],
+      "gabarito": "B",
+      "comentario": "Oferecer ou prometer vantagem indevida a funcionário público para determiná-lo a praticar, omitir ou retardar ato de ofício é corrupção ativa (art. 333 do CP), que se consuma com a simples oferta. O parágrafo único prevê causa de aumento se, em razão da vantagem ou promessa, o funcionário retarda ou omite o ato, ou o pratica infringindo dever funcional. O policial deixou de lavrar o auto, o que atrai a majorante. Fundamento: art. 333, caput e parágrafo único, do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Errada: o crime se consuma com a oferta, mas a efetiva omissão do ato atrai a causa de aumento do parágrafo único do art. 333." },
+        { "letra": "B", "correta": true, "justificativa": "Correta: corrupção ativa com a causa de aumento do art. 333, parágrafo único, pois o funcionário omitiu o ato de ofício." },
+        { "letra": "C", "correta": false, "justificativa": "Errada: o particular que oferece a vantagem tem tipo próprio, a corrupção ativa; o policial responde por corrupção passiva." },
+        { "letra": "D", "correta": false, "justificativa": "Errada: no tráfico de influência o agente obtém vantagem a pretexto de influir em funcionário; aqui houve oferta direta ao próprio funcionário." }
+      ],
+      "fundamento_legal": "Código Penal, art. 333, caput e parágrafo único; arts. 317 e 332 (distinção).",
+      "pegadinha": "Achar que, por ser crime formal, a omissão efetiva do ato não muda nada na punição do corruptor.",
+      "o_que_mudou": "Retiradas as penas e frações; a questão cobra a consumação, a hipótese da causa de aumento e a distinção entre os crimes."
+    },
+    {
+      "id": 2862,
+      "enunciado": "Sobre os crimes de descaminho e contrabando, conforme a redação do Código Penal, assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "Descaminho consiste em importar ou exportar mercadoria cuja entrada ou saída é proibida pela lei brasileira." },
+        { "letra": "B", "texto": "Contrabando consiste em iludir, no todo ou em parte, o pagamento de imposto devido pela entrada de mercadoria." },
+        { "letra": "C", "texto": "A majorante do crime praticado em transporte aéreo, marítimo ou fluvial alcança só o contrabando, não o descaminho." },
+        { "letra": "D", "texto": "Reinserir no território nacional mercadoria brasileira destinada à exportação é figura equiparada ao descaminho." },
+        { "letra": "E", "texto": "Importar clandestinamente mercadoria que dependa de registro ou autorização de órgão público competente equipara-se ao contrabando." }
+      ],
+      "gabarito": "E",
+      "comentario": "O descaminho (art. 334 do CP) é iludir, no todo ou em parte, o pagamento de direito ou imposto devido pela entrada, saída ou consumo de mercadoria. O contrabando (art. 334-A) é importar ou exportar mercadoria proibida. Entre as figuras equiparadas ao contrabando estão importar ou exportar clandestinamente mercadoria que dependa de registro, análise ou autorização de órgão público competente (§ 1º, II) e reinserir no território nacional mercadoria brasileira destinada à exportação (§ 1º, III). A majorante do transporte aéreo, marítimo ou fluvial existe nos dois crimes (art. 334, § 3º, e art. 334-A, § 3º). Fundamento: arts. 334 e 334-A do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Errada: importar ou exportar mercadoria proibida é contrabando (art. 334-A), e não descaminho." },
+        { "letra": "B", "correta": false, "justificativa": "Errada: iludir o pagamento de imposto é descaminho (art. 334), e não contrabando." },
+        { "letra": "C", "correta": false, "justificativa": "Errada: a majorante do transporte aéreo, marítimo ou fluvial está prevista para os dois crimes (art. 334, § 3º, e art. 334-A, § 3º)." },
+        { "letra": "D", "correta": false, "justificativa": "Errada: reinserir mercadoria brasileira destinada à exportação é figura equiparada ao contrabando (art. 334-A, § 1º, III)." },
+        { "letra": "E", "correta": true, "justificativa": "Correta: reproduz a figura equiparada do art. 334-A, § 1º, II." }
+      ],
+      "fundamento_legal": "Código Penal, arts. 334 e 334-A, especialmente art. 334-A, § 1º, II e III, e os §§ 3º dos dois artigos.",
+      "pegadinha": "Inverter os conceitos de descaminho (tributo) e contrabando (mercadoria proibida) e as figuras equiparadas de cada um.",
+      "o_que_mudou": "As alternativas não citam mais penas; cobram o conceito de cada crime, as figuras equiparadas e o alcance da majorante."
+    },
+    {
+      "id": 2863,
+      "enunciado": "Um estrangeiro regularmente expulso do Brasil reingressa clandestinamente no território nacional e é localizado pela Polícia Federal. Segundo o Código Penal, ele",
+      "alternativas": [
+        { "letra": "A", "texto": "responde por desobediência, pois descumpriu a ordem de expulsão dada pela autoridade competente." },
+        { "letra": "B", "texto": "não comete crime, sujeitando-se apenas a nova expulsão pela via administrativa." },
+        { "letra": "C", "texto": "comete o crime de reingresso de estrangeiro expulso, ficando vedada nova expulsão após cumprir a pena." },
+        { "letra": "D", "texto": "comete o crime de reingresso de estrangeiro expulso, sem prejuízo de nova expulsão após cumprir a pena." }
+      ],
+      "gabarito": "D",
+      "comentario": "Reingressar no território nacional o estrangeiro que dele foi expulso é crime próprio do art. 338 do CP, inserido entre os crimes contra a administração da justiça. A própria lei ressalva que a condenação não impede nova expulsão após o cumprimento da pena. Por haver tipo específico, não se aplica a desobediência (art. 330). Fundamento: art. 338 do CP.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Errada: há tipo específico (art. 338), que afasta a desobediência genérica do art. 330." },
+        { "letra": "B", "correta": false, "justificativa": "Errada: o reingresso do expulso é crime, e não mera infração administrativa." },
+        { "letra": "C", "correta": false, "justificativa": "Errada: o art. 338 diz expressamente que a pena se aplica sem prejuízo de nova expulsão após o seu cumprimento." },
+        { "letra": "D", "correta": true, "justificativa": "Correta: reproduz o art. 338, inclusive a ressalva sobre a nova expulsão." }
+      ],
+      "fundamento_legal": "Código Penal, art. 338; art. 330 (distinção).",
+      "pegadinha": "Achar que a condenação pelo reingresso impede nova expulsão, ou enquadrar o fato como desobediência.",
+      "o_que_mudou": "Retirada a espécie e a quantidade de pena das alternativas; a questão cobra o tipo específico e a ressalva da nova expulsão."
+    }
+  ]
+}

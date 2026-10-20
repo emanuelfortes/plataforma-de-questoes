@@ -1,0 +1,272 @@
+{
+  "itens": [
+    {
+      "id": 644,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Abuso de Autoridade",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--abuso-de-autoridade.md",
+      "atual": {
+        "enunciado": "Um policial, mediante grave ameaça, obriga um preso a posar algemado para fotografias de curiosos na porta da delegacia. À luz da Lei nº 13.869/2019, a conduta:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "é atípica, pois a exibição do preso é mero efeito da prisão e dispensa autorização legal."
+          },
+          {
+            "letra": "B",
+            "texto": "é crime, punido com detenção de 6 meses a 2 anos e multa, absorvida a pena da violência."
+          },
+          {
+            "letra": "C",
+            "texto": "é crime apenas se o preso sofrer lesão corporal, pois a grave ameaça não integra o tipo."
+          },
+          {
+            "letra": "D",
+            "texto": "é crime, punido com detenção de 1 a 4 anos e multa, sem prejuízo da pena da violência."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "Constitui abuso de autoridade constranger o preso ou detento, mediante violência, grave ameaça ou redução de sua capacidade de resistência, a exibir-se ou ter seu corpo exibido à curiosidade pública. A pena é de detenção de 1 a 4 anos e multa, sem prejuízo da pena cominada à violência. Análise das alternativas: A) Errada: a conduta está expressamente tipificada no art. 13, I. B) Errada: a pena é de 1 a 4 anos, e a violência é punida em concurso, não absorvida. C) Errada: a grave ameaça é meio executório previsto no tipo. D) Correta: corresponde ao art. 13, I, e à pena cominada. Fundamento: art. 13, I, da Lei nº 13.869/2019.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 646,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Abuso de Autoridade",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--abuso-de-autoridade.md",
+      "atual": {
+        "enunciado": "Sobre o crime de violência institucional, incluído na Lei nº 13.869/2019 pela Lei nº 14.321/2022, assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "A pena é de detenção de 6 meses a 2 anos e multa, aplicada em dobro se terceiro intimidar a vítima."
+          },
+          {
+            "letra": "B",
+            "texto": "Se o próprio agente público intimidar a vítima de crime violento, gerando revitimização, a pena é dobrada."
+          },
+          {
+            "letra": "C",
+            "texto": "Se o agente permitir que terceiro intimide a vítima de crime violento, a pena é aumentada de metade."
+          },
+          {
+            "letra": "D",
+            "texto": "O tipo protege só a vítima, não alcançando a testemunha de crime violento submetida a procedimento repetitivo."
+          },
+          {
+            "letra": "E",
+            "texto": "Basta submeter a vítima a procedimento repetitivo, ainda que estritamente necessário, para haver crime."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "A violência institucional consiste em submeter a vítima de infração penal ou a testemunha de crimes violentos a procedimentos desnecessários, repetitivos ou invasivos, que a levem a reviver, sem estrita necessidade, a situação de violência ou outras situações de sofrimento ou estigmatização. A pena é de detenção de 3 meses a 1 ano e multa, aumentada de 2/3 se o agente permitir que terceiro intimide a vítima e aplicada em dobro se o próprio agente a intimidar. Análise das alternativas: A) Errada: a pena-base é de 3 meses a 1 ano, e o dobro é para intimidação pelo próprio agente. B) Correta: reproduz o § 2º do art. 15-A. C) Errada: a permissão de intimidação por terceiro aumenta a pena de 2/3. D) Errada: a testemunha de crimes violentos está no tipo. E) Errada: o tipo exige ausência de estrita necessidade. Fundamento: art. 15-A, caput e §§ 1º e 2º, da Lei nº 13.869/2019. MACETE DO RICCARDO: terceiro intimida = 2/3; o próprio agente intimida = dobro.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 647,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Abuso de Autoridade",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--abuso-de-autoridade.md",
+      "atual": {
+        "enunciado": "O policial que deixa de identificar-se ou se identifica falsamente ao preso por ocasião de sua captura:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "comete só infração disciplinar, pois a conduta não foi tipificada na Lei nº 13.869/2019."
+          },
+          {
+            "letra": "B",
+            "texto": "comete crime de abuso de autoridade, punido com detenção de 6 meses a 2 anos e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "comete crime de abuso de autoridade, punido com reclusão de 2 a 4 anos e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "comete crime apenas se a falsa identificação ocorrer durante o interrogatório formal."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O art. 16, cujo veto foi derrubado e promulgado, tipifica deixar de identificar-se ou identificar-se falsamente ao preso por ocasião da captura ou quando deva fazê-lo durante a detenção ou prisão. Também é punido o responsável por interrogatório que deixa de identificar-se ao preso ou se atribui falsa identidade, cargo ou função. Análise das alternativas: A) Errada: a conduta é crime previsto no art. 16. B) Correta: a pena é detenção de 6 meses a 2 anos e multa. C) Errada: a pena é de detenção, de 6 meses a 2 anos. D) Errada: o caput já pune a omissão ou falsidade no momento da captura. Fundamento: art. 16, caput e parágrafo único, da Lei nº 13.869/2019.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 652,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Abuso de Autoridade",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--abuso-de-autoridade.md",
+      "atual": {
+        "enunciado": "Após um confronto, um policial altera a posição do corpo da vítima e coloca uma arma ao seu lado, com o fim de eximir-se de responsabilidade. À luz da Lei nº 13.869/2019, a conduta:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "não tem tipo específico na Lei nº 13.869/2019, devendo ser enquadrada apenas no Código Penal."
+          },
+          {
+            "letra": "B",
+            "texto": "é atípica nessa lei, que só pune a inovação feita para responsabilizar criminalmente terceiro."
+          },
+          {
+            "letra": "C",
+            "texto": "configura inovação artificiosa do estado de lugar ou de coisa, com detenção de 1 a 4 anos e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "configura inovação artificiosa do estado de lugar, punida com detenção de 6 meses a 2 anos, sem multa."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O art. 23 pune quem inova artificiosamente, no curso de diligência, investigação ou processo, o estado de lugar, de coisa ou de pessoa, com o fim de eximir-se de responsabilidade ou de responsabilizar criminalmente alguém ou agravar-lhe a responsabilidade. A pena é de detenção de 1 a 4 anos e multa. Análise das alternativas: A) Errada: há tipo específico no art. 23. B) Errada: eximir-se de responsabilidade é finalidade expressa no caput. C) Correta: corresponde ao tipo e à pena do art. 23. D) Errada: a pena é de 1 a 4 anos, cumulada com multa. Fundamento: art. 23 da Lei nº 13.869/2019.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 662,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Administração Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-administracao-publica.md",
+      "atual": {
+        "enunciado": "Condenado por peculato culposo, um servidor repara integralmente o dano causado à Administração somente depois de a sentença condenatória se tornar irrecorrível. De acordo com o § 3º do art. 312 do Código Penal, a reparação do dano",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "extingue a punibilidade, pois a lei admite a reparação até o início da execução da pena."
+          },
+          {
+            "letra": "B",
+            "texto": "não produz efeito sobre a pena, pois só é relevante se ocorrer antes da sentença irrecorrível."
+          },
+          {
+            "letra": "C",
+            "texto": "reduz a pena imposta de um terço a dois terços, conforme o momento em que foi efetuada."
+          },
+          {
+            "letra": "D",
+            "texto": "extingue a punibilidade, desde que o servidor seja primário e repare o dano com correção."
+          },
+          {
+            "letra": "E",
+            "texto": "reduz de metade a pena imposta, por ter sido realizada após a sentença irrecorrível."
+          }
+        ],
+        "gabarito": "E",
+        "comentario": "No peculato culposo, a reparação do dano tem dois efeitos possíveis, conforme o momento. Se precede à sentença irrecorrível, extingue a punibilidade; se lhe é posterior, reduz de metade a pena imposta. Análise das alternativas: A) Errada: a extinção da punibilidade só ocorre se a reparação preceder a sentença irrecorrível. B) Errada: a reparação posterior produz efeito, pois reduz de metade a pena imposta. C) Errada: a redução é fixa, de metade, e não variável de um terço a dois terços. D) Errada: a lei não condiciona o benefício à primariedade, e a reparação posterior à sentença irrecorrível não extingue a punibilidade. E) Correta: reparação posterior à sentença irrecorrível reduz de metade a pena imposta. Fundamento: art. 312, § 3º, do Código Penal.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 663,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Administração Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-administracao-publica.md",
+      "atual": {
+        "enunciado": "Um servidor, ao atender um contribuinte no balcão da repartição, recebe por engano quantia superior à devida e, percebendo o erro, fica com a diferença para si. A conduta amolda-se ao crime de",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "peculato próprio, na forma de apropriação, punido com reclusão de dois a doze anos, e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "concussão, por obter vantagem indevida, punida com reclusão de dois a doze anos, e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "peculato mediante erro de outrem, punido com reclusão de um a quatro anos, e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "excesso de exação, por cobrança indevida, punido com reclusão de três a oito anos, e multa."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O art. 313 pune quem se apropria de dinheiro ou qualquer utilidade que, no exercício do cargo, recebeu por erro de outrem. Diferencia-se do peculato do art. 312 porque a posse não decorre regularmente do cargo, mas do engano de terceiro. Análise das alternativas: A) Errada: no peculato-apropriação a posse decorre do cargo, e não de erro de outrem; além disso, a pena do art. 313 é menor. B) Errada: concussão exige a conduta de exigir vantagem indevida, ausente no caso. C) Correta: o servidor se apropriou do valor recebido por erro do contribuinte, e a pena é de reclusão de um a quatro anos, e multa. D) Errada: excesso de exação exige que o funcionário exija tributo ou contribuição que sabe ou deveria saber indevido; aqui não houve exigência. Fundamento: art. 313 do Código Penal.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 664,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Administração Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-administracao-publica.md",
+      "atual": {
+        "enunciado": "Servidora autorizada a operar o sistema informatizado de benefícios de um órgão público insere dados falsos no banco de dados, com o fim de obter vantagem indevida para um parente. Segundo o Código Penal, a conduta configura",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "inserção de dados falsos em sistema de informações, punida com reclusão de dois a doze anos, e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "modificação não autorizada de sistema de informações, punida com detenção de três meses a dois anos, e multa."
+          },
+          {
+            "letra": "C",
+            "texto": "violação de sigilo funcional qualificada pelo dano, punida com reclusão de dois a seis anos, e multa."
+          },
+          {
+            "letra": "D",
+            "texto": "peculato mediante erro de outrem, por obter utilidade no cargo, punido com reclusão de um a quatro anos, e multa."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O art. 313-A pune o funcionário autorizado que insere ou facilita a inserção de dados falsos, ou altera ou exclui indevidamente dados corretos, nos sistemas da Administração, com o fim de obter vantagem indevida para si ou para outrem ou para causar dano. Já o art. 313-B trata da modificação ou alteração do próprio sistema ou programa sem autorização. Análise das alternativas: A) Correta: a servidora autorizada inseriu dados falsos visando vantagem indevida para outrem, com pena de reclusão de dois a doze anos, e multa. B) Errada: o art. 313-B recai sobre o sistema ou programa de informática, e não sobre a inserção de dados falsos. C) Errada: não houve revelação de segredo nem acesso indevido de terceiro, núcleos do art. 325. D) Errada: não houve recebimento de utilidade por erro de outrem. Fundamento: arts. 313-A e 313-B do Código Penal.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 666,
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Administração Pública",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--crimes-contra-a-administracao-publica.md",
+      "atual": {
+        "enunciado": "Sobre o crime de excesso de exação, previsto no § 1º do art. 316 do Código Penal, assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Configura-se apenas quando o funcionário exige tributo que sabe indevido, não alcançando a hipótese em que deveria saber."
+          },
+          {
+            "letra": "B",
+            "texto": "Pune com reclusão de dois a doze anos o funcionário que exige tributo indevido, a mesma pena prevista para a concussão."
+          },
+          {
+            "letra": "C",
+            "texto": "Abrange a cobrança de tributo devido quando o funcionário emprega meio vexatório ou gravoso que a lei não autoriza."
+          },
+          {
+            "letra": "D",
+            "texto": "Exige que o funcionário desvie, em proveito próprio, o tributo que recebeu indevidamente para recolher aos cofres."
+          },
+          {
+            "letra": "E",
+            "texto": "Pune com detenção de três meses a um ano o funcionário que exige contribuição social que deveria saber indevida."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O excesso de exação tem duas formas: exigir tributo ou contribuição social que o funcionário sabe ou deveria saber indevido; ou, quando devido, empregar na cobrança meio vexatório ou gravoso que a lei não autoriza. A pena é de reclusão de três a oito anos, e multa. Análise das alternativas: A) Errada: a lei abrange tanto quem sabe quanto quem deveria saber que o tributo é indevido. B) Errada: a pena do § 1º é de reclusão de três a oito anos, e multa, diferente da concussão. C) Correta: reproduz a segunda forma do § 1º, cobrança de tributo devido por meio vexatório ou gravoso não autorizado. D) Errada: o desvio do que foi recebido indevidamente é a figura do § 2º do art. 316, e não requisito do § 1º. E) Errada: a pena é de reclusão de três a oito anos, e multa, e não detenção. Fundamento: art. 316, §§ 1º e 2º, do Código Penal.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    }
+  ]
+}

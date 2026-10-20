@@ -1,0 +1,264 @@
+{
+  "itens": [
+    {
+      "id": 1449,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Código de Trânsito Brasileiro",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--codigo-de-transito-brasileiro.md",
+      "atual": {
+        "enunciado": "O crime de fuga do local do sinistro (art. 305 do CTB) consiste em o condutor afastar-se do local do sinistro com a finalidade de:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "evitar o teste de alcoolemia, sendo punido com detenção de seis meses a três anos e multa."
+          },
+          {
+            "letra": "B",
+            "texto": "fugir à responsabilidade penal ou civil, sendo punido com reclusão de um a quatro anos e multa cumulativa."
+          },
+          {
+            "letra": "C",
+            "texto": "fugir à responsabilidade penal ou civil, sendo punido com detenção de seis meses a um ano, ou multa."
+          },
+          {
+            "letra": "D",
+            "texto": "evitar a prisão em flagrante, sendo punido com detenção de seis meses a três anos, ou multa."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O art. 305 exige um fim específico: afastar-se do local do sinistro para fugir à responsabilidade penal ou civil que possa ser atribuída ao condutor. A pena é de detenção de seis meses a um ano, ou multa, alternativamente. Análise das alternativas: A) Errada, a finalidade típica não é evitar o teste e a pena está incorreta. B) Errada, a finalidade está certa, mas a pena é de detenção, de seis meses a um ano, ou multa. C) Correta, reproduz o art. 305. D) Errada, a finalidade descrita na lei é outra e o máximo é de um ano. Fundamento: art. 305 da Lei 9.503/1997.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1452,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Código de Trânsito Brasileiro",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--codigo-de-transito-brasileiro.md",
+      "atual": {
+        "enunciado": "A pena prevista para o crime de conduzir veículo automotor com capacidade psicomotora alterada em razão da influência de álcool (art. 306 do CTB) é de:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "detenção, de seis meses a três anos, multa e suspensão ou proibição de obter a habilitação."
+          },
+          {
+            "letra": "B",
+            "texto": "detenção, de seis meses a um ano, ou multa, e suspensão ou proibição de obter a habilitação."
+          },
+          {
+            "letra": "C",
+            "texto": "reclusão, de um a três anos, multa e suspensão ou proibição de obter a habilitação."
+          },
+          {
+            "letra": "D",
+            "texto": "detenção, de seis meses a dois anos, e suspensão ou proibição de obter a habilitação."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "A embriaguez ao volante é punida com detenção de seis meses a três anos, multa e suspensão ou proibição de se obter a permissão ou a habilitação, penas cumulativas. Análise das alternativas: A) Correta, reproduz a pena do art. 306. B) Errada, o máximo é de três anos e a multa é cumulativa, não alternativa. C) Errada, a pena é de detenção, com mínimo de seis meses. D) Errada, essa é a pena da lesão culposa do art. 303, sem multa. Fundamento: art. 306, caput, da Lei 9.503/1997.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1453,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Código de Trânsito Brasileiro",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--codigo-de-transito-brasileiro.md",
+      "atual": {
+        "enunciado": "Dois motoristas disputam corrida não autorizada em avenida movimentada, gerando risco à incolumidade pública. Um deles atropela e mata um pedestre, e as circunstâncias demonstram que não quis o resultado nem assumiu o risco de produzi-lo. A pena privativa de liberdade prevista no CTB para esse motorista é de:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "reclusão, de três a seis anos, sem prejuízo das demais penas do art. 308."
+          },
+          {
+            "letra": "B",
+            "texto": "detenção, de dois a quatro anos, aumentada de um terço à metade."
+          },
+          {
+            "letra": "C",
+            "texto": "reclusão, de cinco a oito anos, sem prejuízo das demais penas do art. 308."
+          },
+          {
+            "letra": "D",
+            "texto": "reclusão, de cinco a dez anos, sem prejuízo das demais penas do art. 308."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O racha (art. 308) tem formas qualificadas pelo resultado culposo: se resulta lesão grave, reclusão de três a seis anos; se resulta morte, reclusão de cinco a dez anos, desde que as circunstâncias mostrem que o agente não quis o resultado nem assumiu o risco de produzi-lo. Análise das alternativas: A) Errada, três a seis anos corresponde ao resultado lesão grave (§ 1º). B) Errada, o caso está previsto especificamente no art. 308, § 2º, e não no art. 302. C) Errada, cinco a oito anos é a pena do homicídio culposo sob influência de álcool. D) Correta, conforme o art. 308, § 2º. MACETE DO RICCARDO: racha com lesão grave 3 a 6; racha com morte 5 a 10. Fundamento: art. 308, § 2º, da Lei 9.503/1997.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1455,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Código de Trânsito Brasileiro",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--codigo-de-transito-brasileiro.md",
+      "atual": {
+        "enunciado": "Proprietário de veículo entrega a direção de seu carro a amigo visivelmente embriagado, que não está em condições de conduzi-lo com segurança. Segundo o CTB, o proprietário:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "não comete crime, pois somente o condutor embriagado responde, pelo art. 306."
+          },
+          {
+            "letra": "B",
+            "texto": "comete o crime do art. 310, punido com detenção de seis meses a um ano, ou multa."
+          },
+          {
+            "letra": "C",
+            "texto": "comete o crime do art. 310 somente se o amigo também não possuir habilitação."
+          },
+          {
+            "letra": "D",
+            "texto": "comete o crime do art. 310, punido com detenção de seis meses a três anos e multa."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O art. 310 pune quem permite, confia ou entrega a direção de veículo automotor a pessoa não habilitada, com habilitação cassada ou suspensa, ou a quem, por estado de saúde ou por embriaguez, não esteja em condições de conduzi-lo com segurança. A pena é de detenção de seis meses a um ano, ou multa. Análise das alternativas: A) Errada, a entrega a pessoa embriagada é crime autônomo do art. 310. B) Correta, conduta e pena conferem com o art. 310. C) Errada, a embriaguez é hipótese autônoma, independente da falta de habilitação. D) Errada, a pena descrita é a do art. 306, não a do art. 310. Fundamento: art. 310 da Lei 9.503/1997.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1718,
+      "disciplina": "Direito Penal",
+      "assunto": "Culpabilidade e Imputabilidade",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--culpabilidade-e-imputabilidade.md",
+      "atual": {
+        "enunciado": "De acordo com o Código Penal, quem, por erro plenamente justificado pelas circunstâncias, supõe situação de fato que, se existisse, tornaria a ação legítima",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "é isento de pena, salvo se o erro derivar de culpa e o fato for punível como crime culposo."
+          },
+          {
+            "letra": "B",
+            "texto": "tem a pena reduzida de um sexto a um terço, por se tratar de erro sobre a ilicitude do fato."
+          },
+          {
+            "letra": "C",
+            "texto": "responde pelo crime doloso, pois o desconhecimento da lei é inescusável segundo o Código Penal."
+          },
+          {
+            "letra": "D",
+            "texto": "tem a pena reduzida de um a dois terços, desde que o erro tenha sido provocado por terceiro."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "Trata-se das descriminantes putativas: o agente imagina uma situação fática que, se real, tornaria sua conduta lícita. Se o erro for plenamente justificado, há isenção de pena; se derivar de culpa e houver forma culposa, ele responde por culpa. Análise das alternativas: A) Correta: reproduz o § 1º do art. 20, com sua ressalva. B) Errada: a fração de um sexto a um terço é do erro de proibição evitável (art. 21). C) Errada: o agente não alega desconhecer a lei, mas sim ter suposto uma situação de fato. D) Errada: a redução de um a dois terços não existe para esse instituto, e o erro provocado por terceiro faz responder o terceiro (§ 2º). Fundamento: art. 20, § 1º, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1725,
+      "disciplina": "Direito Penal",
+      "assunto": "Culpabilidade e Imputabilidade",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--culpabilidade-e-imputabilidade.md",
+      "atual": {
+        "enunciado": "Um gerente de banco é obrigado a abrir o cofre da agência após criminosos ameaçarem matar sua família, mantida sob a mira de armas. Considerando a coação irresistível, segundo o Código Penal",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "o gerente e os coatores respondem pelo crime, com pena reduzida de um a dois terços para o gerente."
+          },
+          {
+            "letra": "B",
+            "texto": "o gerente responde pelo crime, pois a coação apenas atenua a pena de quem pratica o fato."
+          },
+          {
+            "letra": "C",
+            "texto": "só é punível o autor da coação, não respondendo o gerente pelo fato praticado sob ela."
+          },
+          {
+            "letra": "D",
+            "texto": "o gerente responde pelo crime, com pena reduzida de um sexto a um terço, e os coatores respondem integralmente."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "Na coação moral irresistível, o coagido não tem como agir de outro modo, e a lei transfere a responsabilidade ao coator. Análise das alternativas: A) Errada: não há previsão de redução para o coagido; ele não é punível. B) Errada: a coação irresistível não apenas atenua, ela afasta a punição do coagido. C) Correta: é a regra do art. 22. D) Errada: a redução de um sexto a um terço é do erro de proibição evitável. Fundamento: art. 22 do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1728,
+      "disciplina": "Direito Penal",
+      "assunto": "Culpabilidade e Imputabilidade",
+      "lei": "data/publicacao/pena-importadas/leis/direito-penal--culpabilidade-e-imputabilidade.md",
+      "atual": {
+        "enunciado": "Laudo pericial atesta que o acusado, em virtude de perturbação de saúde mental, não era inteiramente capaz de determinar-se de acordo com o entendimento do caráter ilícito do fato ao tempo da conduta. Conforme o Código Penal, nesse caso",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "o acusado é isento de pena, por inimputabilidade decorrente de doença mental."
+          },
+          {
+            "letra": "B",
+            "texto": "a pena pode ser reduzida de um sexto a um terço, como no erro evitável."
+          },
+          {
+            "letra": "C",
+            "texto": "a pena é aplicada integralmente, pois só a incapacidade total tem efeito."
+          },
+          {
+            "letra": "D",
+            "texto": "a pena pode ser reduzida de um a dois terços, por semi-imputabilidade."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "Quando a perturbação de saúde mental não elimina, mas reduz a capacidade de entender ou de se autodeterminar, o agente é semi-imputável: responde pelo crime, mas a pena pode ser reduzida de um a dois terços. Análise das alternativas: A) Errada: a isenção exige incapacidade inteira (art. 26, caput). B) Errada: um sexto a um terço é a fração do erro de proibição evitável. C) Errada: a lei prevê efeito também para a capacidade parcial. D) Correta: é a regra do parágrafo único do art. 26. Fundamento: art. 26, parágrafo único, do CP.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    },
+    {
+      "id": 1757,
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Juizados Especiais Criminais",
+      "lei": "data/publicacao/pena-importadas/leis/legislacao-penal-especial--juizados-especiais-criminais.md",
+      "atual": {
+        "enunciado": "Considerando a Lei nº 9.099/1995 e as normas legais que afastam sua incidência, assinale a alternativa correta.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Crime com pena de detenção de 1 a 3 anos é infração de menor potencial ofensivo, pois a pena mínima não ultrapassa 2 anos."
+          },
+          {
+            "letra": "B",
+            "texto": "Lesão corporal leve praticada com violência doméstica e familiar contra a mulher admite transação penal, por ser de menor potencial ofensivo."
+          },
+          {
+            "letra": "C",
+            "texto": "Crime praticado contra criança ou adolescente, com pena máxima de 2 anos, segue o rito da Lei nº 9.099/1995 e admite transação penal."
+          },
+          {
+            "letra": "D",
+            "texto": "As disposições da Lei nº 9.099/1995 aplicam-se na Justiça Militar quando a infração tiver pena máxima não superior a 2 anos."
+          },
+          {
+            "letra": "E",
+            "texto": "Na reunião de processos perante o tribunal do júri, por conexão ou continência, observam-se a transação penal e a composição dos danos civis."
+          }
+        ],
+        "gabarito": "E",
+        "comentario": "A Lei nº 9.099/1995 determina que, mesmo havendo reunião de processos no juízo comum ou no júri por conexão ou continência, os institutos despenalizadores da transação penal e da composição civil sejam observados. Por outro lado, há leis que afastam expressamente a Lei nº 9.099/1995: a Lei Maria da Penha (art. 41) e o ECA (art. 226, § 1º), além da própria vedação na Justiça Militar. Análise das alternativas: A) Errada: o critério é a pena máxima, e 3 anos supera o limite de 2 anos. B) Errada: o art. 41 da Lei Maria da Penha afasta a Lei nº 9.099/1995 nos crimes com violência doméstica e familiar contra a mulher. C) Errada: o art. 226, § 1º, do ECA afasta a Lei nº 9.099/1995 nos crimes contra criança e adolescente, independentemente da pena. D) Errada: o art. 90-A veda a aplicação da lei no âmbito da Justiça Militar. E) Correta: reproduz o parágrafo único do art. 60. Fundamento: arts. 60, parágrafo único, 61 e 90-A da Lei nº 9.099/1995.",
+        "analise_alternativas": [],
+        "fundamento_legal": null,
+        "pegadinha": null
+      }
+    }
+  ]
+}

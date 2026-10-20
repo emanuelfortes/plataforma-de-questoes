@@ -1,0 +1,178 @@
+{
+  "itens": [
+    {
+      "id": 644,
+      "enunciado": "Um policial, mediante grave ameaça, obriga um preso a posar algemado para fotografias de curiosos na porta da delegacia. À luz da Lei nº 13.869/2019, a conduta:",
+      "alternativas": [
+        { "letra": "A", "texto": "é atípica, pois a exibição do preso é mero efeito da prisão e dispensa autorização legal." },
+        { "letra": "B", "texto": "configura o crime de submeter o preso a interrogatório no repouso noturno, do art. 18." },
+        { "letra": "C", "texto": "é crime apenas se o preso sofrer lesão corporal, pois a grave ameaça não integra o tipo." },
+        { "letra": "D", "texto": "configura o crime de constranger o preso a exibir-se à curiosidade pública, do art. 13, I." }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 13, I, da Lei nº 13.869/2019 pune quem constrange o preso ou o detento, mediante violência, grave ameaça ou redução de sua capacidade de resistência, a exibir-se ou ter seu corpo exibido à curiosidade pública. Obrigar o preso, sob grave ameaça, a posar para fotos de curiosos é exatamente essa conduta. A grave ameaça é um dos meios do tipo, então não é preciso lesão corporal; se houver violência, ela é punida à parte. Fundamento: art. 13, I, da Lei nº 13.869/2019.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Errada: a exibição do preso à curiosidade pública, obtida por constrangimento, está expressamente tipificada no art. 13, I." },
+        { "letra": "B", "correta": false, "justificativa": "Errada: o art. 18 trata de interrogatório policial durante o repouso noturno, situação que não aparece no caso." },
+        { "letra": "C", "correta": false, "justificativa": "Errada: violência, grave ameaça e redução da capacidade de resistência são meios alternativos do tipo; a lesão não é exigida." },
+        { "letra": "D", "correta": true, "justificativa": "Correta: o policial constrangeu o preso, mediante grave ameaça, a exibir-se à curiosidade pública (art. 13, I)." }
+      ],
+      "fundamento_legal": "Lei nº 13.869/2019, art. 13, I",
+      "pegadinha": "Achar que o crime exige violência física ou lesão, quando a grave ameaça já basta como meio do constrangimento.",
+      "o_que_mudou": "As alternativas deixaram de comparar quantidades de pena e passaram a cobrar o enquadramento da conduta (art. 13, I), o meio executório e a diferença para o art. 18."
+    },
+    {
+      "id": 646,
+      "enunciado": "Sobre o crime de violência institucional, incluído na Lei nº 13.869/2019 pela Lei nº 14.321/2022, assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "O tipo alcança apenas a vítima de crime violento, excluindo a vítima de infração penal cometida sem violência." },
+        { "letra": "B", "texto": "Basta submeter a vítima a procedimento repetitivo, ainda que estritamente necessário, para haver o crime." },
+        { "letra": "C", "texto": "Só há crime se o próprio agente público intimidar a vítima, sendo atípica a submissão a procedimento invasivo." },
+        { "letra": "D", "texto": "Comete o crime quem submete a testemunha de crime violento a procedimento repetitivo e desnecessário que a faça reviver a violência." },
+        { "letra": "E", "texto": "Permitir que terceiro intimide a vítima de crime violento não tem tratamento próprio no tipo, valendo só o caput." }
+      ],
+      "gabarito": "D",
+      "comentario": "O art. 15-A pune submeter a vítima de infração penal ou a testemunha de crimes violentos a procedimentos desnecessários, repetitivos ou invasivos, que a levem a reviver, sem estrita necessidade, a situação de violência ou outras situações potencialmente geradoras de sofrimento ou estigmatização. A testemunha de crime violento está no tipo, e a falta de estrita necessidade é elementar. Os §§ 1º e 2º preveem tratamento mais grave quando o agente permite que terceiro intimide a vítima ou quando ele próprio a intimida, gerando revitimização. Fundamento: art. 15-A, caput e §§ 1º e 2º, da Lei nº 13.869/2019.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Errada: a vítima protegida é a de qualquer infração penal; a exigência de crime violento vale para a testemunha." },
+        { "letra": "B", "correta": false, "justificativa": "Errada: o tipo exige que o procedimento leve a vítima a reviver o sofrimento sem estrita necessidade." },
+        { "letra": "C", "correta": false, "justificativa": "Errada: a submissão a procedimento desnecessário, repetitivo ou invasivo já é o crime do caput; a intimidação pelo próprio agente é hipótese do § 2º." },
+        { "letra": "D", "correta": true, "justificativa": "Correta: reproduz o caput do art. 15-A, que inclui a testemunha de crimes violentos." },
+        { "letra": "E", "correta": false, "justificativa": "Errada: o § 1º trata especificamente do agente que permite que terceiro intimide a vítima de crimes violentos." }
+      ],
+      "fundamento_legal": "Lei nº 13.869/2019, art. 15-A, caput e §§ 1º e 2º",
+      "pegadinha": "Trocar quem é protegido: a vítima é a de qualquer infração penal, e a testemunha é a de crimes violentos.",
+      "o_que_mudou": "Saíram as frações de aumento e o dobro; a questão passou a cobrar quem o tipo protege, a elementar da falta de estrita necessidade e as hipóteses dos §§ 1º e 2º sem a fração."
+    },
+    {
+      "id": 647,
+      "enunciado": "O policial que deixa de identificar-se ou se identifica falsamente ao preso por ocasião de sua captura:",
+      "alternativas": [
+        { "letra": "A", "texto": "comete só infração disciplinar, pois a conduta não foi tipificada na Lei nº 13.869/2019." },
+        { "letra": "B", "texto": "comete abuso de autoridade, e o tipo alcança também quem, no interrogatório, se atribui falsa identidade." },
+        { "letra": "C", "texto": "comete abuso de autoridade apenas se a falsa identificação causar prejuízo comprovado à defesa do preso." },
+        { "letra": "D", "texto": "comete crime apenas se a falsa identificação ocorrer durante o interrogatório formal na delegacia." }
+      ],
+      "gabarito": "B",
+      "comentario": "O art. 16 da Lei nº 13.869/2019 (veto derrubado e promulgado) tipifica deixar de identificar-se ou identificar-se falsamente ao preso por ocasião da captura ou quando deva fazê-lo durante a detenção ou prisão. O parágrafo único estende o crime ao responsável por interrogatório em procedimento investigatório que deixa de identificar-se ao preso ou atribui a si mesmo falsa identidade, cargo ou função. O tipo não exige prejuízo à defesa. Fundamento: art. 16, caput e parágrafo único, da Lei nº 13.869/2019.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Errada: a conduta é crime previsto no art. 16 da Lei nº 13.869/2019." },
+        { "letra": "B", "correta": true, "justificativa": "Correta: o caput pune o policial na captura, e o parágrafo único alcança o responsável pelo interrogatório que se atribui falsa identidade." },
+        { "letra": "C", "correta": false, "justificativa": "Errada: o tipo não exige prejuízo à defesa; basta a omissão ou a falsidade da identificação." },
+        { "letra": "D", "correta": false, "justificativa": "Errada: o caput já pune a omissão ou a falsidade no momento da captura, sem depender do interrogatório." }
+      ],
+      "fundamento_legal": "Lei nº 13.869/2019, art. 16, caput e parágrafo único",
+      "pegadinha": "Achar que o crime só existe no interrogatório formal, quando o caput já pune a falta de identificação na captura.",
+      "o_que_mudou": "As alternativas deixaram de comparar detenção e reclusão e passaram a cobrar o alcance do tipo (caput e parágrafo único) e a desnecessidade de prejuízo."
+    },
+    {
+      "id": 652,
+      "enunciado": "Após um confronto, um policial altera a posição do corpo da vítima e coloca uma arma ao seu lado, com o fim de eximir-se de responsabilidade. À luz da Lei nº 13.869/2019, a conduta:",
+      "alternativas": [
+        { "letra": "A", "texto": "não tem tipo específico na Lei nº 13.869/2019, devendo ser enquadrada apenas no Código Penal." },
+        { "letra": "B", "texto": "é atípica nessa lei, que só pune a inovação feita para responsabilizar criminalmente terceiro." },
+        { "letra": "C", "texto": "configura inovação artificiosa do estado de lugar, de coisa ou de pessoa, prevista no art. 23." },
+        { "letra": "D", "texto": "configura inovação artificiosa apenas se já houver processo judicial instaurado quando da alteração." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 23 da Lei nº 13.869/2019 pune quem inova artificiosamente, no curso de diligência, de investigação ou de processo, o estado de lugar, de coisa ou de pessoa, com o fim de eximir-se de responsabilidade ou de responsabilizar criminalmente alguém ou agravar-lhe a responsabilidade. Mexer no corpo e plantar uma arma para se livrar da responsabilidade é exatamente essa conduta, e o tipo não exige processo judicial já instaurado. Fundamento: art. 23 da Lei nº 13.869/2019.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Errada: há tipo específico no art. 23 da Lei nº 13.869/2019." },
+        { "letra": "B", "correta": false, "justificativa": "Errada: eximir-se de responsabilidade é finalidade expressa no caput, ao lado de responsabilizar terceiro." },
+        { "letra": "C", "correta": true, "justificativa": "Correta: o policial inovou o estado de lugar, de coisa e de pessoa para eximir-se de responsabilidade (art. 23)." },
+        { "letra": "D", "correta": false, "justificativa": "Errada: basta que a inovação ocorra no curso de diligência ou de investigação; não é preciso processo judicial." }
+      ],
+      "fundamento_legal": "Lei nº 13.869/2019, art. 23",
+      "pegadinha": "Esquecer que a finalidade de eximir-se de responsabilidade também está no tipo, e não só a de incriminar alguém.",
+      "o_que_mudou": "Saíram as penas das alternativas; a questão passou a cobrar a finalidade do tipo e o momento em que a inovação é punida (diligência, investigação ou processo)."
+    },
+    {
+      "id": 662,
+      "enunciado": "Um servidor, por descuido, deixa aberto o almoxarifado da repartição, e um colega aproveita para subtrair equipamentos. Antes da sentença irrecorrível, o servidor descuidado repara integralmente o dano. De acordo com o art. 312 do Código Penal, o servidor descuidado",
+      "alternativas": [
+        { "letra": "A", "texto": "responde por peculato doloso em coautoria com o colega, e a reparação do dano não produz efeito." },
+        { "letra": "B", "texto": "responde por peculato culposo, e a reparação feita antes da sentença irrecorrível extingue a punibilidade." },
+        { "letra": "C", "texto": "responde por peculato culposo, mas a reparação só extinguiria a punibilidade se feita antes da denúncia." },
+        { "letra": "D", "texto": "não comete crime, pois o peculato exige dolo e o Código Penal não prevê a sua forma culposa." },
+        { "letra": "E", "texto": "responde por peculato culposo, e a reparação antes da sentença só atenua a punição, sem extinguir a punibilidade." }
+      ],
+      "gabarito": "B",
+      "comentario": "O § 2º do art. 312 prevê o peculato culposo: o funcionário que concorre culposamente para o crime de outrem. Foi o que fez o servidor que, por descuido, permitiu a subtração pelo colega. Pelo § 3º, a reparação do dano, se precede à sentença irrecorrível, extingue a punibilidade; se lhe é posterior, apenas reduz a pena imposta. Como a reparação veio antes da sentença irrecorrível, a punibilidade está extinta. Fundamento: art. 312, §§ 2º e 3º, do Código Penal.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Errada: o servidor agiu por descuido, sem dolo, e por isso responde pela forma culposa do § 2º; além disso, a reparação produz efeito." },
+        { "letra": "B", "correta": true, "justificativa": "Correta: é peculato culposo (§ 2º), e a reparação anterior à sentença irrecorrível extingue a punibilidade (§ 3º)." },
+        { "letra": "C", "correta": false, "justificativa": "Errada: o marco legal é a sentença irrecorrível, e não o oferecimento da denúncia." },
+        { "letra": "D", "correta": false, "justificativa": "Errada: o § 2º do art. 312 prevê expressamente o peculato culposo." },
+        { "letra": "E", "correta": false, "justificativa": "Errada: antes da sentença irrecorrível a reparação extingue a punibilidade; a simples redução vale para a reparação posterior." }
+      ],
+      "fundamento_legal": "Código Penal, art. 312, §§ 2º e 3º",
+      "pegadinha": "Trocar o marco da sentença irrecorrível pelo da denúncia, ou confundir o efeito da reparação anterior com o da posterior.",
+      "o_que_mudou": "A questão deixou de cobrar a fração de redução e passou a cobrar a configuração do peculato culposo e o efeito da reparação feita antes da sentença irrecorrível."
+    },
+    {
+      "id": 663,
+      "enunciado": "Um servidor, ao atender um contribuinte no balcão da repartição, recebe por engano quantia superior à devida e, percebendo o erro, fica com a diferença para si. A conduta amolda-se ao crime de",
+      "alternativas": [
+        { "letra": "A", "texto": "peculato próprio, na modalidade apropriação, pois recebeu o valor no exercício do cargo." },
+        { "letra": "B", "texto": "concussão, pois obteve vantagem indevida em razão da função pública que exerce." },
+        { "letra": "C", "texto": "peculato mediante erro de outrem, pois ficou com o que recebeu por engano do contribuinte." },
+        { "letra": "D", "texto": "excesso de exação, pois cobrou do contribuinte quantia superior à efetivamente devida." }
+      ],
+      "gabarito": "C",
+      "comentario": "O art. 313 do Código Penal pune quem se apropria de dinheiro ou qualquer utilidade que, no exercício do cargo, recebeu por erro de outrem. Difere do peculato do art. 312 porque ali a posse decorre regularmente do cargo, e aqui decorre do engano de terceiro. Também não há concussão nem excesso de exação, porque o servidor nada exigiu: apenas ficou com o que recebeu por erro. Fundamento: arts. 312, 313 e 316 do Código Penal.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Errada: no peculato-apropriação a posse decorre do cargo, e não do erro de outrem." },
+        { "letra": "B", "correta": false, "justificativa": "Errada: a concussão exige a conduta de exigir vantagem indevida, ausente no caso." },
+        { "letra": "C", "correta": true, "justificativa": "Correta: o servidor se apropriou do valor recebido por erro do contribuinte (art. 313)." },
+        { "letra": "D", "correta": false, "justificativa": "Errada: o excesso de exação exige que o funcionário exija tributo indevido; aqui o valor a mais veio de engano do contribuinte." }
+      ],
+      "fundamento_legal": "Código Penal, art. 313",
+      "pegadinha": "Confundir o peculato-apropriação (posse em razão do cargo) com o peculato mediante erro de outrem (posse que vem do engano de terceiro).",
+      "o_que_mudou": "As penas foram retiradas das alternativas; cada uma passou a trazer o crime e o motivo do enquadramento."
+    },
+    {
+      "id": 664,
+      "enunciado": "Servidora autorizada a operar o sistema informatizado de benefícios de um órgão público insere dados falsos no banco de dados, com o fim de obter vantagem indevida para um parente. Segundo o Código Penal, a conduta configura",
+      "alternativas": [
+        { "letra": "A", "texto": "inserção de dados falsos em sistema de informações, por ser funcionária autorizada a operá-lo." },
+        { "letra": "B", "texto": "modificação não autorizada de sistema de informações, por alterar o banco de dados do órgão." },
+        { "letra": "C", "texto": "violação de sigilo funcional, por usar indevidamente informação do sistema em favor de parente." },
+        { "letra": "D", "texto": "peculato mediante erro de outrem, por obter utilidade indevida no exercício do cargo público." }
+      ],
+      "gabarito": "A",
+      "comentario": "O art. 313-A pune o funcionário autorizado que insere ou facilita a inserção de dados falsos, ou altera ou exclui indevidamente dados corretos, nos sistemas informatizados ou bancos de dados da Administração, com o fim de obter vantagem indevida para si ou para outrem ou para causar dano. Já o art. 313-B recai sobre o próprio sistema ou programa, modificado sem autorização. A servidora autorizada inseriu dados falsos para beneficiar o parente: art. 313-A. Fundamento: arts. 313-A e 313-B do Código Penal.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": true, "justificativa": "Correta: funcionária autorizada inseriu dados falsos visando vantagem indevida para outrem (art. 313-A)." },
+        { "letra": "B", "correta": false, "justificativa": "Errada: o art. 313-B trata da modificação do sistema ou do programa de informática, e não da inserção de dados falsos." },
+        { "letra": "C", "correta": false, "justificativa": "Errada: não houve revelação de segredo nem facilitação de acesso a terceiro, núcleos do art. 325." },
+        { "letra": "D", "correta": false, "justificativa": "Errada: não houve recebimento de dinheiro ou utilidade por erro de outrem (art. 313)." }
+      ],
+      "fundamento_legal": "Código Penal, art. 313-A",
+      "pegadinha": "Confundir o art. 313-A (dados falsos inseridos por funcionário autorizado) com o art. 313-B (alteração do próprio sistema ou programa).",
+      "o_que_mudou": "As penas foram retiradas das alternativas; a questão cobra só a diferença entre os crimes parecidos."
+    },
+    {
+      "id": 666,
+      "enunciado": "Sobre o crime de excesso de exação, previsto no § 1º do art. 316 do Código Penal, assinale a alternativa correta.",
+      "alternativas": [
+        { "letra": "A", "texto": "Configura-se apenas quando o funcionário exige tributo que sabe indevido, não alcançando a hipótese em que deveria saber." },
+        { "letra": "B", "texto": "Abrange o funcionário que exige vantagem indevida para si, ainda que fora da função, mas em razão dela." },
+        { "letra": "C", "texto": "Abrange a cobrança de tributo devido quando o funcionário emprega meio vexatório ou gravoso que a lei não autoriza." },
+        { "letra": "D", "texto": "Exige que o funcionário desvie, em proveito próprio, o tributo que recebeu indevidamente para recolher aos cofres." },
+        { "letra": "E", "texto": "Alcança apenas o tributo, ficando fora do tipo a exigência de contribuição social que o funcionário sabe indevida." }
+      ],
+      "gabarito": "C",
+      "comentario": "O excesso de exação (art. 316, § 1º) tem duas formas: exigir tributo ou contribuição social que o funcionário sabe ou deveria saber indevido; ou, quando devido, empregar na cobrança meio vexatório ou gravoso que a lei não autoriza. A exigência de vantagem indevida em razão da função é a concussão do caput, e o desvio do que foi recebido indevidamente é a figura do § 2º. Fundamento: art. 316, caput e §§ 1º e 2º, do Código Penal.",
+      "analise_alternativas": [
+        { "letra": "A", "correta": false, "justificativa": "Errada: a lei abrange tanto quem sabe quanto quem deveria saber que o tributo é indevido." },
+        { "letra": "B", "correta": false, "justificativa": "Errada: exigir vantagem indevida em razão da função é a concussão do caput do art. 316, e não o excesso de exação." },
+        { "letra": "C", "correta": true, "justificativa": "Correta: reproduz a segunda forma do § 1º, a cobrança de tributo devido por meio vexatório ou gravoso não autorizado." },
+        { "letra": "D", "correta": false, "justificativa": "Errada: o desvio do que foi recebido indevidamente é a figura do § 2º do art. 316, e não requisito do § 1º." },
+        { "letra": "E", "correta": false, "justificativa": "Errada: o § 1º menciona expressamente tributo ou contribuição social." }
+      ],
+      "fundamento_legal": "Código Penal, art. 316, § 1º",
+      "pegadinha": "Achar que o excesso de exação só existe com tributo indevido, esquecendo a cobrança de tributo devido por meio vexatório ou gravoso.",
+      "o_que_mudou": "As duas alternativas que comparavam penas foram trocadas por distratores de conteúdo: a concussão do caput e a exclusão indevida da contribuição social."
+    }
+  ]
+}

@@ -1,0 +1,462 @@
+{
+  "itens": [
+    {
+      "id": 292,
+      "banca": "Vunesp",
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Lei de Drogas",
+      "subtopico": "Não atuação policial (art. 53, II) em tráfico interestadual (art. 40, V)",
+      "lei": "data/publicacao/pena/leis/legislacao-penal-especial--lei-de-drogas.md",
+      "atual": {
+        "enunciado": "Investigação sobre um grupo de traficantes revelou que um caminhão sairá de Juazeiro do Norte (CE) levando cocaína para distribuição em Recife (PE). A polícia já conhece o itinerário provável e a identidade do motorista e de dois colaboradores. Em vez de abordar o veículo logo na saída, a autoridade pretende acompanhá-lo até o destino para identificar e responsabilizar mais integrantes da operação. À luz da Lei nº 11.343/2006, é correto afirmar:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "A medida depende de autorização judicial, ouvido o Ministério Público, e do conhecimento do itinerário provável; se a droga chegar a Pernambuco, incidirá o aumento de um sexto a dois terços pela transnacionalidade do delito."
+          },
+          {
+            "letra": "B",
+            "texto": "A medida depende de autorização judicial, ouvido o Ministério Público, e só é admitida depois de recebida a denúncia, na fase de instrução criminal, sendo vedada durante o inquérito policial."
+          },
+          {
+            "letra": "C",
+            "texto": "A medida depende de autorização judicial, ouvido o Ministério Público, e de conhecimento do itinerário provável e da identificação dos agentes; se a droga chegar a Pernambuco, incidirá o aumento pelo tráfico entre Estados."
+          },
+          {
+            "letra": "D",
+            "texto": "A medida depende de autorização judicial, ouvido o Ministério Público, mas, uma vez adotada, impede a ação penal contra o motorista, cuja abordagem foi deliberadamente adiada pela polícia."
+          },
+          {
+            "letra": "E",
+            "texto": "A medida dispensa autorização judicial, bastando comunicação prévia ao juiz competente e ao Ministério Público; se a droga chegar a Pernambuco, incidirá o aumento de um sexto a dois terços pelo tráfico entre Estados da Federação."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "O art. 53, II, permite, em qualquer fase da persecução, mediante autorização judicial e ouvido o Ministério Público, a não atuação policial sobre os portadores de drogas que se encontrem no território brasileiro, para identificar e responsabilizar maior número de integrantes, sem prejuízo da ação penal cabível. O parágrafo único condiciona a autorização ao conhecimento do itinerário provável e da identificação dos agentes ou de colaboradores, requisitos presentes no caso. Quanto ao crime, o transporte do Ceará a Pernambuco caracteriza tráfico entre Estados, com aumento de um sexto a dois terços (art. 40, V).",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "Errada. Os requisitos da medida estão corretos, mas o transporte entre Ceará e Pernambuco é tráfico interestadual (art. 40, V), e não transnacional (art. 40, I)."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "Errada. O art. 53 admite os procedimentos investigatórios em qualquer fase da persecução criminal, inclusive durante o inquérito policial."
+          },
+          {
+            "letra": "C",
+            "correta": true,
+            "justificativa": "Correta. Reúne os requisitos do art. 53, II e parágrafo único, e a majorante do art. 40, V."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "Errada. O art. 53, II, prevê a não atuação sem prejuízo da ação penal cabível; o adiamento da abordagem não impede a responsabilização do motorista."
+          },
+          {
+            "letra": "E",
+            "correta": false,
+            "justificativa": "Errada. Na Lei de Drogas, a não atuação policial exige autorização judicial, ouvido o Ministério Público; mera comunicação prévia ao juiz e ao Ministério Público não basta."
+          }
+        ],
+        "fundamento_legal": "Lei nº 11.343/2006, art. 53, caput, inciso II e parágrafo único; art. 40, caput e incisos I e V.",
+        "pegadinha": "Dispensar a autorização judicial para a não atuação policial ou limitá-la à fase judicial, e confundir tráfico interestadual com transnacional."
+      }
+    },
+    {
+      "id": 295,
+      "banca": "Vunesp",
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra o Patrimônio",
+      "subtopico": "Receptação culposa e autonomia da receptação (art. 180, §§ 3º, 4º e 5º revogado)",
+      "lei": "data/publicacao/pena/leis/direito-penal--crimes-contra-o-patrimonio.md",
+      "atual": {
+        "enunciado": "Joana, primária, comprou de um desconhecido, na rua, um celular de última geração por um décimo do preço de mercado, sem nota fiscal. Ela não sabia que o aparelho era furtado, mas, pela desproporção entre o valor e o preço e pela condição de quem o oferecia, deveria presumir sua origem criminosa. O autor do furto nunca foi identificado. Considerando a redação vigente do Código Penal, é correto afirmar que Joana",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "responde por receptação culposa, punível ainda que desconhecido o autor do furto, mas o juiz pode, tendo em conta as circunstâncias e a primariedade da agente, deixar de aplicar a pena."
+          },
+          {
+            "letra": "B",
+            "texto": "não pode ser punida por receptação enquanto não for identificado, processado e condenado o autor do furto do qual proveio o celular, pois a receptação depende do crime anterior."
+          },
+          {
+            "letra": "C",
+            "texto": "responde por receptação culposa, punível ainda que desconhecido o autor do furto, sem que a lei vigente preveja, para essa modalidade, a possibilidade de deixar de aplicar a pena."
+          },
+          {
+            "letra": "D",
+            "texto": "responde por receptação dolosa, punida com reclusão de 2 a 6 anos, e multa, pois deveria presumir a origem ilícita do bem pela desproporção entre o valor e o preço."
+          },
+          {
+            "letra": "E",
+            "texto": "responde por receptação culposa, que, por ter pena máxima de um ano, somente se procede mediante representação da vítima do furto, dona do aparelho."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "Adquirir coisa que, pela desproporção entre o valor e o preço ou pela condição de quem a oferece, deve presumir-se obtida por meio criminoso é a receptação culposa do art. 180, § 3º (detenção, de um mês a um ano, ou multa, ou ambas). O § 4º diz que a receptação é punível ainda que desconhecido ou isento de pena o autor do crime de que proveio a coisa. O dispositivo que previa a possibilidade de deixar de aplicar a pena nessa modalidade (§ 5º) foi revogado (Lei nº 15.358/2026), de modo que não há base legal para isso no texto vigente.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "O enquadramento no § 3º e a punibilidade pelo § 4º estão certos, mas a possibilidade de deixar de aplicar a pena constava do § 5º do art. 180, hoje revogado; a redação vigente não a prevê."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "Contraria o § 4º do art. 180: a receptação é punível ainda que desconhecido ou isento de pena o autor do crime antecedente."
+          },
+          {
+            "letra": "C",
+            "correta": true,
+            "justificativa": "Enquadramento no § 3º, punibilidade garantida pelo § 4º e ausência de previsão vigente de perdão judicial, já que o § 5º foi revogado."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "A receptação dolosa do caput exige que o agente saiba que a coisa é produto de crime; o dever de presumir pela desproporção do preço é a forma culposa do § 3º."
+          },
+          {
+            "letra": "E",
+            "correta": false,
+            "justificativa": "O art. 180 não condiciona a ação penal à representação, e o patamar da pena não cria essa condição; no caso, também não há relação de parentesco que atraia o art. 182."
+          }
+        ],
+        "fundamento_legal": "Código Penal, art. 180, caput, § 3º e § 4º; § 5º revogado pela Lei nº 15.358/2026.",
+        "pegadinha": "Aplicar a possibilidade de deixar de aplicar a pena na receptação culposa, prevista em dispositivo já revogado (§ 5º)."
+      }
+    },
+    {
+      "id": 338,
+      "banca": "IDECAN",
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Lei de Drogas",
+      "subtopico": "Redução de pena do semi-imputável (art. 46)",
+      "lei": "data/publicacao/pena/leis/legislacao-penal-especial--lei-de-drogas.md",
+      "atual": {
+        "enunciado": "Em um crime previsto na Lei nº 11.343/2006, a perícia concluiu que o agente, por força das circunstâncias ligadas ao efeito ou à dependência de droga, não possuía, ao tempo do fato, a plena capacidade de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento. De acordo com o art. 46, as penas:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "podem ser reduzidas de um terço a dois terços, por se tratar de capacidade apenas parcial de entendimento ou de autodeterminação."
+          },
+          {
+            "letra": "B",
+            "texto": "são aplicadas sem qualquer redução, convertendo-se obrigatoriamente em medida de segurança de internação ao final do cumprimento."
+          },
+          {
+            "letra": "C",
+            "texto": "ficam integralmente afastadas, pois a capacidade parcial de entendimento equivale à inimputabilidade e isenta o agente de pena."
+          },
+          {
+            "letra": "D",
+            "texto": "são reduzidas de metade, percentual fixo previsto para o agente com capacidade parcial de entendimento do caráter ilícito do fato."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O art. 46 da Lei de Drogas cuida da capacidade apenas parcial (semi-imputabilidade): quando, por força das circunstâncias do art. 45, o agente não possuía, ao tempo do fato, a plena capacidade de entender o caráter ilícito ou de determinar-se, as penas podem ser reduzidas de um terço a dois terços. Não há isenção (essa é do art. 45, para o inteiramente incapaz), nem percentual fixo de metade: a redução é variável, de um terço a dois terços.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": true,
+            "justificativa": "Corresponde ao art. 46: a capacidade parcial autoriza a redução das penas de um terço a dois terços, mantida a responsabilidade do agente."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "O art. 46 permite a redução das penas; não as mantém intactas nem impõe conversão obrigatória em medida de segurança de internação."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "A capacidade parcial do art. 46 não equivale à inimputabilidade; a isenção de pena é do art. 45, para quem era inteiramente incapaz."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "O art. 46 prevê redução de um terço a dois terços, não um percentual fixo de metade."
+          }
+        ],
+        "fundamento_legal": "Lei 11.343/2006, art. 46",
+        "pegadinha": "Tratar a capacidade parcial (art. 46) como isenção de pena ou fixar a redução em metade, quando ela é de um terço a dois terços."
+      }
+    },
+    {
+      "id": 482,
+      "banca": "IDECAN",
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Lei de Drogas",
+      "subtopico": "Penas do usuário (art. 28)",
+      "lei": "data/publicacao/pena/leis/legislacao-penal-especial--lei-de-drogas.md",
+      "atual": {
+        "enunciado": "Segundo a Lei nº 11.343/2006, quem adquire ou traz consigo drogas para consumo pessoal, sem autorização ou em desacordo com determinação legal, fica sujeito às penas previstas no art. 28. Assinale a alternativa que indica corretamente uma dessas penas.",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Reclusão, aplicada em regime inicial fechado, vedada a substituição por restritivas de direitos."
+          },
+          {
+            "letra": "B",
+            "texto": "Detenção de seis meses a dois anos, convertida em multa se o agente for primário."
+          },
+          {
+            "letra": "C",
+            "texto": "Internação compulsória em comunidade terapêutica, pelo prazo que o juiz entender cabível."
+          },
+          {
+            "letra": "D",
+            "texto": "Medida educativa de comparecimento, pelo agente, a programa ou a curso educativo sobre drogas."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 28 não comina pena privativa de liberdade para quem porta droga para consumo pessoal. As penas são três: advertência sobre os efeitos das drogas, prestação de serviços à comunidade e medida educativa de comparecimento a programa ou curso educativo. Não há reclusão, detenção nem internação compulsória nessa figura: o legislador optou por medidas de caráter educativo e assistencial.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "O art. 28 não prevê reclusão para o usuário; a pena privativa de liberdade com regime fechado é própria do tráfico, não do porte para consumo pessoal."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "Detenção de seis meses a dois anos é a pena do art. 38 (prescrever ou ministrar culposamente drogas), e não a resposta para o porte de droga do usuário."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "A internação é medida de saúde regida por outras regras da Lei, não figura entre as penas do art. 28 e não pode ser aplicada como sanção ao usuário nesse dispositivo."
+          },
+          {
+            "letra": "D",
+            "correta": true,
+            "justificativa": "Reproduz o inciso III do art. 28: medida educativa de comparecimento a programa ou curso educativo é uma das três penas do usuário."
+          }
+        ],
+        "fundamento_legal": "Art. 28, caput, incisos I a III, da Lei nº 11.343/2006.",
+        "pegadinha": "Imaginar que o porte de droga para consumo pessoal é punido com prisão, como o tráfico."
+      }
+    },
+    {
+      "id": 485,
+      "banca": "IDECAN",
+      "disciplina": "Legislação Penal Especial",
+      "assunto": "Lei de Drogas",
+      "subtopico": "Uso compartilhado de drogas (art. 33, § 3º)",
+      "lei": "data/publicacao/pena/leis/legislacao-penal-especial--lei-de-drogas.md",
+      "atual": {
+        "enunciado": "João, sem qualquer objetivo de lucro, oferece de forma eventual uma pequena porção de droga a um amigo, pessoa de seu relacionamento, para que a consumam juntos naquele momento. À luz da Lei nº 11.343/2006, essa conduta configura:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "O tráfico de drogas do caput do art. 33, com pena de reclusão de 5 a 15 anos, por se tratar de entrega de droga a terceiro."
+          },
+          {
+            "letra": "B",
+            "texto": "Conduta atípica, pois a oferta gratuita e eventual de droga a amigo não é prevista como crime pela Lei de Drogas."
+          },
+          {
+            "letra": "C",
+            "texto": "A associação para o tráfico do art. 35, já que duas pessoas se uniram para o consumo conjunto da substância."
+          },
+          {
+            "letra": "D",
+            "texto": "A figura do uso compartilhado (art. 33, § 3º), com pena de detenção de 6 meses a 1 ano, mais branda que o tráfico do caput."
+          }
+        ],
+        "gabarito": "D",
+        "comentario": "O art. 33, § 3º, descreve o chamado uso compartilhado: oferecer droga, eventualmente e sem objetivo de lucro, a pessoa de seu relacionamento, para juntos consumirem. A pena é de detenção de 6 meses a 1 ano, bem menor que a do tráfico do caput, justamente porque faltam o intuito de lucro e a habitualidade. Os três requisitos (eventualidade, ausência de lucro e destinatário do relacionamento, para consumo conjunto) é que afastam o enquadramento como tráfico.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "A presença dos requisitos do § 3º afasta o enquadramento no caput; sem intuito de lucro e sendo oferta eventual a conhecido para consumo conjunto, não é tráfico comum."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "A conduta é típica: o próprio § 3º do art. 33 a descreve como crime, com pena própria, de modo que não há atipicidade."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "O art. 35 exige associação voltada à prática dos crimes de tráfico; a reunião pontual de dois amigos para consumir não forma associação criminosa."
+          },
+          {
+            "letra": "D",
+            "correta": true,
+            "justificativa": "Estão presentes os elementos do § 3º do art. 33: oferta eventual, sem objetivo de lucro, a pessoa do relacionamento, para consumirem juntos; a pena é de detenção de 6 meses a 1 ano."
+          }
+        ],
+        "fundamento_legal": "Art. 33, § 3º, da Lei nº 11.343/2006.",
+        "pegadinha": "Enquadrar como tráfico do caput a oferta eventual e sem lucro de droga a amigo para consumo conjunto."
+      }
+    },
+    {
+      "id": 515,
+      "banca": "IDECAN",
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Pessoa",
+      "subtopico": "Rixa",
+      "lei": "data/publicacao/pena/leis/direito-penal--crimes-contra-a-pessoa.md",
+      "atual": {
+        "enunciado": "Vários indivíduos se envolvem em uma rixa generalizada e, em razão do tumulto, um dos participantes sofre lesão corporal de natureza grave. Conforme o parágrafo único do art. 137 do Código Penal, qual é a consequência penal para os demais participantes pelo só fato da participação na rixa?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Respondem apenas pela pena simples da rixa, de detenção, de quinze dias a dois meses, ou multa."
+          },
+          {
+            "letra": "B",
+            "texto": "Respondem, cada um deles, diretamente pela lesão corporal grave sofrida pela vítima no tumulto."
+          },
+          {
+            "letra": "C",
+            "texto": "Respondem, pelo só fato da participação na rixa, à pena de detenção, de seis meses a dois anos."
+          },
+          {
+            "letra": "D",
+            "texto": "Respondem pela pena do homicídio, por ser o resultado equiparado à morte para fins de rixa qualificada."
+          }
+        ],
+        "gabarito": "C",
+        "comentario": "A rixa simples é punida com detenção, de quinze dias a dois meses, ou multa (art. 137, caput). Mas o parágrafo único prevê a rixa qualificada: ocorrendo morte ou lesão corporal de natureza grave, aplica-se, pelo só fato da participação na rixa, a pena de detenção, de seis meses a dois anos. A qualificadora agrava a pena de todos os rixosos independentemente de se identificar quem causou o resultado; não os faz responder pelo crime de lesão ou de homicídio em si.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "A pena de quinze dias a dois meses é da rixa simples; com lesão grave ou morte incide a forma qualificada, mais grave."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "O parágrafo único faz responder pela rixa qualificada, não pela lesão grave em si; a punição deriva do só fato de participar."
+          },
+          {
+            "letra": "C",
+            "correta": true,
+            "justificativa": "Corresponde ao parágrafo único do art. 137: havendo lesão grave ou morte, a pena pela participação na rixa passa a ser detenção de seis meses a dois anos."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "Não há equiparação da rixa ao homicídio; a lei apenas eleva a pena da rixa quando sobrevém resultado morte ou lesão grave."
+          }
+        ],
+        "fundamento_legal": "Art. 137, caput e parágrafo único, do Código Penal (Decreto-Lei 2.848/1940).",
+        "pegadinha": "Achar que a lesão grave na rixa faz cada participante responder pelo crime de lesão corporal, e não pela rixa qualificada."
+      }
+    },
+    {
+      "id": 517,
+      "banca": "IDECAN",
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Pessoa",
+      "subtopico": "Sequestro e cárcere privado",
+      "lei": "data/publicacao/pena/leis/direito-penal--crimes-contra-a-pessoa.md",
+      "atual": {
+        "enunciado": "Considere que o agente priva a vítima de sua liberdade mediante cárcere privado e a mantém presa por dezoito dias. Segundo o art. 148 do Código Penal, essa circunstância produz qual efeito sobre a figura do crime?",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Qualifica o crime, pois a privação da liberdade durou mais de quinze dias, elevando a pena para reclusão, de dois a cinco anos."
+          },
+          {
+            "letra": "B",
+            "texto": "Mantém a figura simples, pois o tempo de privação não altera a pena de reclusão, de um a três anos, do cárcere privado."
+          },
+          {
+            "letra": "C",
+            "texto": "Qualifica o crime apenas quando, em razão da própria detenção ou de maus-tratos, resultar à vítima algum grave sofrimento físico ou moral durante o período de cativeiro."
+          },
+          {
+            "letra": "D",
+            "texto": "Converte o crime em sequestro relâmpago, com pena autônoma prevista para a privação breve da liberdade."
+          }
+        ],
+        "gabarito": "A",
+        "comentario": "O art. 148, caput, pune o sequestro e cárcere privado com reclusão de um a três anos. O § 1º prevê formas qualificadas com reclusão de dois a cinco anos, entre elas quando a privação da liberdade dura mais de quinze dias (inciso III). Como a vítima ficou presa por dezoito dias, incide essa qualificadora pelo só decurso do prazo, independentemente de grave sofrimento. A hipótese de grave sofrimento físico ou moral está no § 2º e tem pena diversa; não existe no tipo a figura de sequestro relâmpago.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": true,
+            "justificativa": "A duração superior a quinze dias é a qualificadora do art. 148, § 1º, III, que eleva a pena para reclusão de dois a cinco anos."
+          },
+          {
+            "letra": "B",
+            "correta": false,
+            "justificativa": "O tempo importa sim: ultrapassados quinze dias, deixa de ser figura simples e passa à forma qualificada do § 1º."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "A qualificadora pela duração independe de grave sofrimento; o sofrimento físico ou moral é hipótese distinta, do § 2º."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "Não há no art. 148 a figura de sequestro relâmpago; a qualificadora aplicável decorre do tempo de privação da liberdade."
+          }
+        ],
+        "fundamento_legal": "Art. 148, § 1º, III, do Código Penal (Decreto-Lei 2.848/1940).",
+        "pegadinha": "Exigir grave sofrimento da vítima quando a qualificadora decorre apenas de a privação durar mais de quinze dias."
+      }
+    },
+    {
+      "id": 518,
+      "banca": "IDECAN",
+      "disciplina": "Direito Penal",
+      "assunto": "Crimes contra a Pessoa",
+      "subtopico": "Induzimento, instigação ou auxílio a suicídio ou automutilação",
+      "lei": "data/publicacao/pena/leis/direito-penal--crimes-contra-a-pessoa.md",
+      "atual": {
+        "enunciado": "O agente instiga pessoa maior e capaz a praticar automutilação e lhe presta auxílio material para o ato. Da automutilação resulta lesão corporal de natureza grave. Nessa hipótese, segundo o art. 122 do Código Penal, a conduta do agente é punida com:",
+        "alternativas": [
+          {
+            "letra": "A",
+            "texto": "Reclusão, de seis meses a dois anos, pena do caput, pois o resultado grave não influi na dosimetria do tipo."
+          },
+          {
+            "letra": "B",
+            "texto": "Reclusão, de um a três anos, por resultar da automutilação lesão corporal de natureza grave."
+          },
+          {
+            "letra": "C",
+            "texto": "Reclusão, de dois a seis anos, por se equiparar a conduta, quanto à pena, ao caso de morte da vítima."
+          },
+          {
+            "letra": "D",
+            "texto": "Detenção, de um a três anos, respondendo o agente diretamente pelo crime de lesão corporal grave."
+          }
+        ],
+        "gabarito": "B",
+        "comentario": "O caput do art. 122 pune induzir, instigar ou auxiliar suicídio ou automutilação com reclusão de seis meses a dois anos. Mas o § 1º prevê que, se da automutilação ou da tentativa de suicídio resulta lesão corporal de natureza grave ou gravíssima (nos termos dos §§ 1º e 2º do art. 129), a pena é de reclusão de um a três anos. Como houve lesão grave, aplica-se essa figura preterdolosa específica. A pena de dois a seis anos é do § 2º (suicídio consumado ou morte da automutilação), e o agente não responde pelo crime de lesão corporal autônomo.",
+        "analise_alternativas": [
+          {
+            "letra": "A",
+            "correta": false,
+            "justificativa": "A pena de seis meses a dois anos é a do caput; havendo resultado grave, incide a majoração do § 1º."
+          },
+          {
+            "letra": "B",
+            "correta": true,
+            "justificativa": "O art. 122, § 1º, fixa reclusão de um a três anos quando da automutilação resulta lesão corporal grave ou gravíssima."
+          },
+          {
+            "letra": "C",
+            "correta": false,
+            "justificativa": "Reclusão de dois a seis anos é a do § 2º, reservada ao suicídio consumado ou à morte decorrente da automutilação, o que não ocorreu."
+          },
+          {
+            "letra": "D",
+            "correta": false,
+            "justificativa": "O agente responde pelo próprio art. 122 em sua forma qualificada pelo resultado, e não autonomamente pela lesão corporal grave do art. 129."
+          }
+        ],
+        "fundamento_legal": "Art. 122, caput e § 1º, do Código Penal (Decreto-Lei 2.848/1940).",
+        "pegadinha": "Aplicar a pena do caput ignorando a figura preterdolosa do § 1º, ou punir o agente pela lesão corporal como crime autônomo."
+      }
+    }
+  ]
+}
