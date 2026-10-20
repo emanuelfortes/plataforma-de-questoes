@@ -1237,10 +1237,12 @@
       "concurso": "gm-fortaleza",
       "foco": "Tipicidade",
       "execucao": "exec-2026-10-19T09-01-03-671Z",
-      "etapa": "gerado",
+      "etapa": "regen_pendente",
       "tentativas": {},
       "reprovadas": {
-        "questoes": [],
+        "questoes": [
+          "q09"
+        ],
         "flashcards": []
       },
       "criadoEm": "2026-10-19T09:10:43.251Z"
@@ -1253,13 +1255,31 @@
       "concurso": "gm-fortaleza",
       "foco": "todo o tema, variando os pontos cobrados",
       "execucao": "exec-2026-10-19T09-01-03-671Z",
-      "etapa": "gerado",
+      "etapa": "concluido",
       "tentativas": {},
       "reprovadas": {
         "questoes": [],
         "flashcards": []
       },
-      "criadoEm": "2026-10-19T09:10:43.404Z"
+      "criadoEm": "2026-10-19T09:10:43.404Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 9,
+          "fila": 1,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 3,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-20T02:00:19.829Z"
     },
     {
       "id": "direito-penal-militar--crime-militar-conceito-e-classificacao-003",
@@ -1269,13 +1289,63 @@
       "concurso": "cfo-pmce",
       "foco": "Crimes militares em tempo de paz",
       "execucao": "exec-2026-10-19T09-01-03-671Z",
-      "etapa": "gerado",
+      "etapa": "concluido",
       "tentativas": {},
       "reprovadas": {
         "questoes": [],
         "flashcards": []
       },
-      "criadoEm": "2026-10-19T09:10:43.527Z"
+      "criadoEm": "2026-10-19T09:10:43.527Z",
+      "resultado": {
+        "questoes": {
+          "geradas": 10,
+          "aprovadas": 10,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "flashcards": {
+          "geradas": 3,
+          "aprovadas": 3,
+          "fila": 0,
+          "descartadas": 0,
+          "duplicadas": 0
+        },
+        "descartes": []
+      },
+      "concluidoEm": "2026-10-20T02:00:22.313Z"
+    },
+    {
+      "id": "historia-e-geografia-do-ceara--ceara-na-republica-003",
+      "topico": "historia-e-geografia-do-ceara--ceara-na-republica",
+      "banca": "Vunesp",
+      "alternativas": 5,
+      "concurso": "cfo-pmce",
+      "foco": "Governos militares e Nova República",
+      "execucao": "exec-2026-10-20T02-00-11-329Z",
+      "etapa": "pendente",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-20T02:00:22.430Z"
+    },
+    {
+      "id": "raciocinio-logico--problemas-aritmeticos-geometricos-e-matriciais-001",
+      "topico": "raciocinio-logico--problemas-aritmeticos-geometricos-e-matriciais",
+      "banca": "IDECAN",
+      "alternativas": 4,
+      "concurso": "gm-fortaleza",
+      "foco": "todo o tema, variando os pontos cobrados",
+      "execucao": "exec-2026-10-20T02-00-11-329Z",
+      "etapa": "pendente",
+      "tentativas": {},
+      "reprovadas": {
+        "questoes": [],
+        "flashcards": []
+      },
+      "criadoEm": "2026-10-20T02:00:23.109Z"
     }
   ],
   "execucoes": [
@@ -1347,7 +1417,16 @@
       "inicio": "2026-10-19T09:01:03.672Z",
       "teto": 6,
       "paralelo": 3,
-      "lotesIniciados": 6
+      "lotesIniciados": 6,
+      "fim": "2026-10-20T02:00:11.329Z",
+      "motivoFim": "substituída por nova execução"
+    },
+    {
+      "id": "exec-2026-10-20T02-00-11-329Z",
+      "inicio": "2026-10-20T02:00:11.329Z",
+      "teto": 6,
+      "paralelo": 3,
+      "lotesIniciados": 2
     }
   ],
   "erros": []
