@@ -915,7 +915,7 @@ async function metricasPistas(lotes: string[]) {
     if (t.maisCurta) curta++;
     if (t.maisLonga) longa++;
     if (absolutoSoNasErradas(q)) soErradas++;
-    if (cobraPena(l.alternativas)) pena++;
+    if (cobraPena({ alternativas: l.alternativas })) pena++;
     const erradas = l.alternativas.filter((a) => a.letra !== l.gabarito);
     totalErradas += erradas.length;
     absErradas += erradas.filter((a) => PADRAO_ABSOLUTO.test(a.texto)).length;
