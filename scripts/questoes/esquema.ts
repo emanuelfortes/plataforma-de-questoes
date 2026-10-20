@@ -93,6 +93,17 @@ export const MAX_POR_LOTE_ABSOLUTO_SO_NAS_ERRADAS = 2; // questões com termo ab
 export const PADRAO_ABSOLUTO =
   /\b(sempre|nunca|jamais|absolutamente|em qualquer (hip[óo]tese|caso|circunst[âa]ncia|situa[çc][ãa]o)|em nenhuma hip[óo]tese|tod[oa] e qualquer|automaticamente|necessariamente|sem (qualquer )?exce[çc][ãa]o|incondicionalmente|independentemente de qualquer)\b/i;
 
+/**
+ * Alternativa que fala de quantidade de pena ("reclusão de 2 a 4 anos", "aumentada de um terço", "em dobro").
+ * Questão que cobra pena é exceção: ninguém decora pena, e a banca cobra mais o crime, os elementos e as exceções.
+ */
+export const PADRAO_PENA =
+  /\b(reclus[ãa]o|deten[çc][ãa]o)\b|\bpena (de|aumentad|reduzid|diminu)|aumentada (de|at[ée]|em)|em dobro|\bde (um|dois|tr[êe]s|quatro|seis|1|2|3|4|6) (a|meses)|um ter[çc]o|dois ter[çc]os|metade/i;
+export const MAX_POR_LOTE_COBRA_PENA = 1; // num lote de 10, no máximo 1 questão sobre quantidade de pena
+
+/** A questão gira em torno de pena: 2 ou mais alternativas falam de quantidade de pena. */
+export const cobraPena = (q: { alternativas: { texto: string }[] }) => q.alternativas.filter((a) => PADRAO_PENA.test(a.texto)).length >= 2;
+
 /** A questão tem termo absoluto em alguma errada e nenhum na correta. */
 export function absolutoSoNasErradas(q: { alternativas: { id: string; texto: string }[]; id_correta: string }) {
   const correta = q.alternativas.find((a) => a.id === q.id_correta)?.texto ?? "";
@@ -121,6 +132,11 @@ export function conferirLote(questoes: QuestaoGerada[]): string[] {
     erros.push(`a correta é a alternativa mais longa em ${longas.length} questões (${longas.join(", ")}); o máximo no lote é ${proporcional(MAX_POR_LOTE_MAIS_LONGA)}. Reescreva algumas para que uma errada seja a mais longa.`);
   if (curtas.length > proporcional(MAX_POR_LOTE_MAIS_CURTA))
     erros.push(`a correta é a alternativa mais curta em ${curtas.length} questões (${curtas.join(", ")}); o máximo no lote é ${proporcional(MAX_POR_LOTE_MAIS_CURTA)}. Deixe as erradas mais enxutas ou a correta mais completa, com o mesmo tom.`);
+  const penas = questoes.filter(cobraPena).map((q) => q.id);
+  if (penas.length > MAX_POR_LOTE_COBRA_PENA)
+    erros.push(
+      `${penas.length} questões têm alternativas que giram em torno de quantidade de pena (${penas.join(", ")}); o máximo no lote é ${MAX_POR_LOTE_COBRA_PENA}. Reescreva as demais para cobrar o crime (tipificação, elementares, consumação, qualificadoras como hipótese, exceções, ação penal), sem citar quantidade de pena nas alternativas.`,
+    );
   if (absolutos.length > MAX_POR_LOTE_ABSOLUTO_SO_NAS_ERRADAS)
     erros.push(`termos absolutos ("sempre", "jamais", "automaticamente", "em qualquer hipótese"...) aparecem só nas erradas em ${absolutos.length} questões (${absolutos.join(", ")}); o máximo é ${MAX_POR_LOTE_ABSOLUTO_SO_NAS_ERRADAS}. Faça as erradas errarem por conteúdo (prazo, requisito, regra e exceção), não por exagero.`);
   return erros;

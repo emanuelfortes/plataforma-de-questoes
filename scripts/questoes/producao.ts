@@ -28,6 +28,7 @@ import { normalizar, semelhanca } from "../../src/lib/catalogo";
 import { acharTopico, lerJurisprudencia, lerTaxonomia, sensiveisDoTopico, textoLegal, type Taxonomia, type Topico } from "./contexto";
 import {
   absolutoSoNasErradas,
+  cobraPena,
   artigosSensiveisCitados,
   PADRAO_ABSOLUTO,
   tamanhoDaCorreta,
@@ -219,6 +220,7 @@ async function entrada(tax: Taxonomia, lote: Lote, extra?: string) {
 - Lista de jurisprudência fornecida (só estes podem ser citados pelo número): ${listaJurisprudencia()}
 - Perfil da banca: sem questões anteriores fornecidas; use apenas características gerais conhecidas da banca.
 - Tamanho e tom das alternativas (verificado em código): a correta tem entre 80% e 125% da média de caracteres das erradas; no lote, é a mais longa em no máximo 3 questões e a mais curta em no máximo 3; termos absolutos ("sempre", "jamais", "automaticamente"...) só nas erradas em no máximo 2 questões. As erradas erram por conteúdo, não por exagero.
+- Pena é exceção: no máximo 1 questão do lote pode girar em torno de quantidade de pena; nas outras, cobre o crime (tipificação, elementares, consumação, hipóteses de aumento sem a fração, exceções, ação penal), sem pena nas alternativas.
 ${topico.nota ? `- Observação: ${topico.nota}\n` : ""}
 ## Já cobertos neste tema (não repita o mesmo ponto do mesmo jeito)
 - Subtemas recentes: ${cobertos.subtemas.join("; ") || "nenhum ainda"}
@@ -906,12 +908,14 @@ async function metricasPistas(lotes: string[]) {
   let absErradas = 0;
   let totalErradas = 0;
   let absCorreta = 0;
+  let pena = 0;
   for (const l of linhas) {
     const q = { alternativas: l.alternativas.map((a) => ({ id: a.letra, texto: a.texto })), id_correta: l.gabarito } as QuestaoGerada;
     const t = tamanhoDaCorreta(q);
     if (t.maisCurta) curta++;
     if (t.maisLonga) longa++;
     if (absolutoSoNasErradas(q)) soErradas++;
+    if (cobraPena(l.alternativas)) pena++;
     const erradas = l.alternativas.filter((a) => a.letra !== l.gabarito);
     totalErradas += erradas.length;
     absErradas += erradas.filter((a) => PADRAO_ABSOLUTO.test(a.texto)).length;
@@ -926,6 +930,7 @@ async function metricasPistas(lotes: string[]) {
     absolutosErradas: pct(absErradas, totalErradas),
     absolutosCorreta: pct(absCorreta, n),
     absolutoSoNasErradas: pct(soErradas, n),
+    cobraPena: pct(pena, n),
   };
 }
 
@@ -946,9 +951,9 @@ async function relatorio(data?: string) {
   const m = await metricasPistas(lotes.filter((l) => l.etapa === "concluido").map((l) => l.id));
   const pistas = m
     ? `## Pistas involuntárias (${m.n} questões importadas)
-| Correta é a mais curta | Correta é a mais longa | Termo absoluto nas erradas | Termo absoluto na correta | Questões com absoluto só nas erradas |
-|---|---|---|---|---|
-| ${m.maisCurta} | ${m.maisLonga} | ${m.absolutosErradas} das alternativas | ${m.absolutosCorreta} | ${m.absolutoSoNasErradas} |
+| Correta é a mais curta | Correta é a mais longa | Termo absoluto nas erradas | Termo absoluto na correta | Questões com absoluto só nas erradas | Questões sobre quantidade de pena |
+|---|---|---|---|---|---|
+| ${m.maisCurta} | ${m.maisLonga} | ${m.absolutosErradas} das alternativas | ${m.absolutosCorreta} | ${m.absolutoSoNasErradas} | ${m.cobraPena} (meta: até 10%) |
 
 Referência sem pista: mais curta e mais longa perto de 25% (4 alternativas) ou 20% (5); absolutos parecidos entre erradas e correta.
 `
