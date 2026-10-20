@@ -1,4 +1,4 @@
-import { BarChart3, BookOpenCheck, Check, Filter, Layers, MessageSquareText, Smartphone, Sparkles } from "lucide-react";
+import { BadgeCheck, BarChart3, BookOpenCheck, Check, Filter, Layers, ListChecks, MessageSquareText, Smartphone, Sparkles } from "lucide-react";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -99,15 +99,24 @@ function Hero({ questoes, flashcards, materias }: { questoes: number; flashcards
         </div>
         <ExemploQuestao />
       </div>
-      <div className="relative mx-auto grid max-w-6xl grid-cols-3 gap-3 px-4 pt-4 pb-16 sm:px-6">
+      <div className="relative mx-auto grid max-w-6xl grid-cols-3 gap-3 px-4 pt-4 pb-16 sm:gap-4 sm:px-6">
         {[
-          { valor: formatarNumero(questoes), rotulo: "questões comentadas" },
-          { valor: formatarNumero(flashcards), rotulo: "flashcards" },
-          { valor: formatarNumero(materias), rotulo: "matérias" },
-        ].map((n) => (
-          <div key={n.rotulo} className="rounded-2xl border border-borda bg-superficie p-4 text-center sm:p-6">
-            <p className="text-2xl font-extrabold tracking-tight tabular-nums sm:text-4xl">{n.valor}</p>
-            <p className="mt-1 text-xs text-suave sm:text-sm">{n.rotulo}</p>
+          { valor: formatarNumero(questoes), rotulo: "questões comentadas", Icone: ListChecks },
+          { valor: formatarNumero(flashcards), rotulo: "flashcards", Icone: Layers },
+          { valor: formatarNumero(materias), rotulo: "matérias", Icone: BookOpenCheck },
+        ].map(({ valor, rotulo, Icone }) => (
+          <div
+            key={rotulo}
+            className="group relative overflow-hidden rounded-2xl border border-borda bg-superficie p-4 transition-all duration-300 hover:-translate-y-1 hover:border-marca/50 sm:flex sm:items-center sm:gap-4 sm:p-6"
+          >
+            <div aria-hidden className="absolute -right-10 -top-10 size-32 rounded-full bg-marca-suave blur-2xl transition-opacity duration-300 sm:opacity-60 group-hover:opacity-100" />
+            <span className="relative mb-2 grid size-10 place-items-center rounded-xl bg-linear-to-br from-marca to-marca-forte text-sobre-marca shadow-lg shadow-marca-suave sm:mb-0 sm:size-12">
+              <Icone className="size-5 sm:size-6" aria-hidden />
+            </span>
+            <div className="relative">
+              <p className="text-2xl font-extrabold tracking-tight tabular-nums sm:text-4xl">{valor}</p>
+              <p className="text-xs text-suave sm:text-sm">{rotulo}</p>
+            </div>
           </div>
         ))}
       </div>
@@ -170,18 +179,52 @@ function Recursos() {
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 md:py-20">
         <Titulo selo="O que tem dentro" titulo="Tudo o que você precisa para treinar, num lugar só" />
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {RECURSOS.map(({ Icone, titulo, texto }) => (
-            <div key={titulo} className="rounded-2xl border border-borda bg-superficie p-6 transition-colors hover:border-borda-forte">
-              <span className="grid size-11 place-items-center rounded-xl bg-marca-suave text-marca-clara">
-                <Icone className="size-5" aria-hidden />
-              </span>
-              <h3 className="mt-4 font-extrabold">{titulo}</h3>
-              <p className="mt-1.5 text-sm leading-relaxed text-suave">{texto}</p>
+          {RECURSOS.map(({ Icone, titulo, texto }, i) => (
+            <div
+              key={titulo}
+              className={cn(
+                "group relative overflow-hidden rounded-3xl border border-borda bg-superficie p-6 transition-all duration-300 hover:-translate-y-1 hover:border-marca/50 hover:shadow-2xl hover:shadow-marca-suave sm:p-7",
+                i === 0 && "sm:col-span-2 lg:row-span-2 lg:flex lg:flex-col",
+                i === RECURSOS.length - 1 && "sm:col-span-2 lg:col-span-1",
+              )}
+            >
+              {/* Faixa de luz no topo e brilho que acende ao passar o mouse. */}
+              <div aria-hidden className="absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-marca/60 to-transparent" />
+              <div aria-hidden className="absolute -right-16 -top-16 size-48 rounded-full bg-marca-suave opacity-0 blur-3xl transition-opacity duration-500 group-hover:opacity-100" />
+              <div className="relative flex items-start justify-between">
+                <span className="grid size-12 place-items-center rounded-2xl bg-linear-to-br from-marca to-marca-forte text-sobre-marca shadow-lg shadow-marca-suave transition-transform duration-300 group-hover:scale-110 group-hover:-rotate-3">
+                  <Icone className="size-6" aria-hidden />
+                </span>
+                <span className="text-3xl font-extrabold tabular-nums text-texto/10">{String(i + 1).padStart(2, "0")}</span>
+              </div>
+              <h3 className="relative mt-5 text-lg font-extrabold">{titulo}</h3>
+              <p className="relative mt-2 text-sm leading-relaxed text-suave">{texto}</p>
+              {i === 0 && <MiniComentario />}
             </div>
           ))}
         </div>
       </div>
     </section>
+  );
+}
+
+/** Prévia da análise das alternativas, dentro do card principal de recursos. */
+function MiniComentario() {
+  const linhas = [
+    { letra: "A", certa: false, texto: "Troca a regra pela da ação incondicionada." },
+    { letra: "B", certa: true, texto: "Art. 5º, § 4º: sem representação, não inicia." },
+    { letra: "C", certa: false, texto: "A requisição do MP não é a única via." },
+    { letra: "D", certa: false, texto: "Queixa-crime é da ação privada, não desta." },
+  ];
+  return (
+    <div className="relative mt-6 space-y-2 lg:mt-auto lg:pt-6">
+      {linhas.map((l) => (
+        <div key={l.letra} className={cn("flex items-center gap-3 rounded-xl border px-3 py-2 text-xs", l.certa ? "border-acerto/60 bg-acerto-suave" : "border-borda bg-camada")}>
+          <span className={cn("grid size-6 shrink-0 place-items-center rounded-lg font-extrabold", l.certa ? "bg-acerto text-sobre-marca" : "bg-camada-forte text-suave")}>{l.letra}</span>
+          <span className={l.certa ? "font-semibold" : "text-suave"}>{l.texto}</span>
+        </div>
+      ))}
+    </div>
   );
 }
 
@@ -218,9 +261,9 @@ function Professor() {
 }
 
 const CONCURSOS = [
-  { sigla: "PCCE", nome: "Polícia Civil do Ceará", detalhe: "Inspetor e Escrivão · estilo IDECAN" },
-  { sigla: "GMF", nome: "Guarda Municipal de Fortaleza", detalhe: "Guarda Municipal · estilo IDECAN" },
-  { sigla: "CFO", nome: "Polícia Militar do Ceará", detalhe: "Cadete do CFO · estilo Vunesp" },
+  { sigla: "PCCE", nome: "Polícia Civil do Ceará", cargo: "Inspetor e Escrivão", banca: "IDECAN", alternativas: "4 alternativas" },
+  { sigla: "GMF", nome: "Guarda Municipal de Fortaleza", cargo: "Guarda Municipal", banca: "IDECAN", alternativas: "4 alternativas" },
+  { sigla: "CFO", nome: "Polícia Militar do Ceará", cargo: "Cadete do CFO", banca: "Vunesp", alternativas: "5 alternativas" },
 ];
 
 function Concursos() {
@@ -229,10 +272,25 @@ function Concursos() {
       <Titulo selo="Para quem é" titulo="Montado em cima dos editais" texto="Os assuntos e o peso de cada um seguem os editais verticalizados. A banca de cada questão define o formato: quatro alternativas na IDECAN, cinco na Vunesp." />
       <div className="mt-10 grid gap-4 md:grid-cols-3">
         {CONCURSOS.map((c) => (
-          <div key={c.sigla} className="rounded-2xl border border-borda bg-superficie p-6">
-            <p className="text-3xl font-extrabold tracking-tight text-marca">{c.sigla}</p>
-            <p className="mt-2 font-bold">{c.nome}</p>
-            <p className="text-sm text-suave">{c.detalhe}</p>
+          <div
+            key={c.sigla}
+            className="visao-escura group relative isolate overflow-hidden rounded-3xl border border-borda p-7 transition-all duration-300 hover:-translate-y-1 hover:border-marca/60 hover:shadow-2xl hover:shadow-marca-suave"
+          >
+            <Image src="/marca/vitrine/textura.webp" alt="" fill sizes="(min-width: 768px) 384px, 100vw" className="-z-10 object-cover transition-transform duration-700 group-hover:scale-110" />
+            <div aria-hidden className="absolute inset-0 -z-10 bg-linear-to-t from-fundo via-fundo/60 to-transparent" />
+            {/* Sigla gigante como marca d'água. */}
+            <span aria-hidden className="pointer-events-none absolute -bottom-6 -right-2 text-8xl font-extrabold tracking-tighter text-texto/[.06]">
+              {c.sigla}
+            </span>
+            <span className="inline-flex items-center gap-1.5 rounded-full border border-marca/40 bg-marca-suave px-3 py-1 text-xs font-extrabold text-marca-clara">
+              <BadgeCheck className="size-3.5" aria-hidden /> Estilo {c.banca}
+            </span>
+            <p className="mt-10 text-4xl font-extrabold tracking-tight">{c.sigla}</p>
+            <p className="mt-1 font-bold">{c.nome}</p>
+            <div className="mt-5 flex items-center justify-between border-t border-borda pt-4 text-sm text-suave">
+              <span>{c.cargo}</span>
+              <span>{c.alternativas}</span>
+            </div>
           </div>
         ))}
       </div>
@@ -246,9 +304,12 @@ function Materias({ materias }: { materias: string[] }) {
     <section className="mx-auto max-w-6xl px-4 pb-16 sm:px-6 md:pb-20">
       <div className="rounded-3xl border border-borda bg-superficie p-6 sm:p-8">
         <h2 className="text-lg font-extrabold">Matérias disponíveis</h2>
-        <ul className="mt-4 flex flex-wrap gap-2">
+        <ul className="mt-5 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
           {materias.map((m) => (
-            <li key={m} className="rounded-full border border-borda bg-camada px-3 py-1.5 text-sm font-semibold">
+            <li key={m} className="flex items-center gap-3 rounded-xl border border-borda bg-camada px-3.5 py-2.5 text-sm font-semibold transition-colors hover:border-marca/50 hover:bg-marca-suave">
+              <span className="grid size-6 shrink-0 place-items-center rounded-md bg-marca-suave text-marca-clara">
+                <Check className="size-3.5" aria-hidden />
+              </span>
               {m}
             </li>
           ))}
@@ -267,7 +328,7 @@ function Preco() {
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 md:py-20">
         <Titulo selo="Plano" titulo="Comece grátis. Assine quando quiser ir além." />
         <div className="mx-auto mt-10 grid max-w-3xl gap-4 md:grid-cols-2">
-          <div className="flex flex-col rounded-3xl border border-borda bg-superficie p-6 sm:p-8">
+          <div className="flex flex-col rounded-3xl border border-borda bg-superficie p-6 transition-colors hover:border-borda-forte sm:p-8">
             <p className="font-extrabold">Grátis</p>
             <p className="mt-2 text-4xl font-extrabold tracking-tight">R$ 0</p>
             <p className="text-sm text-suave">para sempre</p>
@@ -276,8 +337,13 @@ function Preco() {
               Criar conta grátis
             </Link>
           </div>
-          <div className="relative flex flex-col rounded-3xl border-2 border-marca bg-superficie p-6 shadow-xl shadow-marca-suave sm:p-8">
-            <span className="absolute -top-3 left-6 rounded-full bg-marca px-3 py-0.5 text-xs font-extrabold text-sobre-marca">Mais completo</span>
+          <div className="visao-escura relative isolate flex flex-col overflow-hidden rounded-3xl border-2 border-marca p-6 shadow-2xl shadow-marca-suave sm:p-8">
+            <Image src="/marca/vitrine/textura.webp" alt="" fill sizes="(min-width: 768px) 384px, 100vw" className="-z-10 object-cover" />
+            <div aria-hidden className="absolute inset-0 -z-10 bg-fundo/40" />
+            <div aria-hidden className="absolute -right-20 -top-20 -z-10 size-56 rounded-full bg-marca-suave blur-3xl" />
+            <span className="mb-3 inline-flex w-fit items-center gap-1.5 rounded-full bg-marca px-3 py-1 text-xs font-extrabold text-sobre-marca">
+              <Sparkles className="size-3.5" aria-hidden /> Mais completo
+            </span>
             <p className="font-extrabold">{ASSINATURA.nome}</p>
             <p className="mt-2 text-4xl font-extrabold tracking-tight">
               {formatarReais(ASSINATURA.valor)}
