@@ -1,5 +1,6 @@
 import { BarChart3, BookOpenCheck, Check, Filter, Layers, MessageSquareText, Smartphone, Sparkles } from "lucide-react";
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { BotaoTema } from "@/components/botao-tema";
@@ -28,6 +29,7 @@ export default async function Inicio() {
       <main>
         <Hero questoes={questoes} flashcards={flashcards} materias={materias.length} />
         <Recursos />
+        <Professor />
         <Concursos />
         <Materias materias={materias} />
         <Preco />
@@ -67,9 +69,13 @@ function Topo() {
 function Hero({ questoes, flashcards, materias }: { questoes: number; flashcards: number; materias: number }) {
   return (
     <section className="relative overflow-hidden">
-      {/* Brilho suave atrás do título (só tokens de cor). */}
-      <div aria-hidden className="pointer-events-none absolute -top-40 left-1/2 h-[480px] w-[880px] -translate-x-1/2 rounded-full bg-marca-suave blur-3xl" />
-      <div className="relative mx-auto grid max-w-6xl items-center gap-12 px-4 py-16 sm:px-6 md:grid-cols-[1.1fr_1fr] md:py-24">
+      {/* Foto tática do site do professor, escurecida para o texto ficar legível. Sempre na visão escura. */}
+      <div className="visao-escura absolute inset-0 z-0">
+        <Image src="/marca/vitrine/fundo-tatico.webp" alt="" fill priority sizes="100vw" className="object-cover object-center" />
+        <div className="absolute inset-0 bg-linear-to-r from-fundo via-fundo/75 to-fundo/35" />
+        <div className="absolute inset-x-0 bottom-0 h-40 bg-linear-to-b from-transparent to-fundo" />
+      </div>
+      <div className="visao-escura relative mx-auto grid max-w-6xl items-center gap-12 px-4 py-16 sm:px-6 md:grid-cols-[1.1fr_1fr] md:py-28">
         <div className="space-y-6">
           <span className="inline-flex items-center gap-2 rounded-full border border-borda bg-camada px-3 py-1 text-xs font-bold text-marca-clara">
             <Sparkles className="size-3.5" aria-hidden /> Professor Riccardo Nóbrega
@@ -93,7 +99,7 @@ function Hero({ questoes, flashcards, materias }: { questoes: number; flashcards
         </div>
         <ExemploQuestao />
       </div>
-      <div className="relative mx-auto grid max-w-6xl grid-cols-3 gap-3 px-4 pb-16 sm:px-6">
+      <div className="relative mx-auto grid max-w-6xl grid-cols-3 gap-3 px-4 pt-4 pb-16 sm:px-6">
         {[
           { valor: formatarNumero(questoes), rotulo: "questões comentadas" },
           { valor: formatarNumero(flashcards), rotulo: "flashcards" },
@@ -179,6 +185,38 @@ function Recursos() {
   );
 }
 
+/** Quem está por trás: foto e textura do site do professor. */
+function Professor() {
+  return (
+    <section className="visao-escura relative overflow-hidden bg-fundo">
+      <Image src="/marca/vitrine/textura.webp" alt="" fill sizes="100vw" className="object-cover opacity-90" />
+      <div className="absolute inset-0 bg-linear-to-r from-fundo/30 via-transparent to-fundo/40" />
+      <div className="relative mx-auto grid max-w-6xl items-end gap-8 px-4 pt-14 sm:px-6 md:grid-cols-[1.2fr_1fr] md:pt-16">
+        <div className="space-y-5 pb-14 md:pb-20">
+          <p className="text-xs font-extrabold uppercase tracking-[.12em] text-marca-clara">Quem prepara você</p>
+          <h2 className="text-3xl font-extrabold tracking-[-.02em] sm:text-4xl">Professor Riccardo Nóbrega</h2>
+          <p className="text-2xl font-extrabold text-marca-clara">O propósito é simples: aprovação.</p>
+          <p className="max-w-xl leading-relaxed text-texto/85">
+            Não é sobre acumular horas de aula. É sobre se preparar de forma estratégica para conquistar a sua vaga. Aqui você treina
+            os conteúdos essenciais exigidos em prova, do jeito que a banca cobra.
+          </p>
+          <ul className="flex flex-wrap gap-2">
+            {["Disciplina", "Foco", "Conteúdo direto ao ponto"].map((p) => (
+              <li key={p} className="rounded-full border border-borda-forte bg-camada px-3.5 py-1.5 text-sm font-bold">
+                {p}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="relative mx-auto w-full max-w-sm md:max-w-md">
+          <div aria-hidden className="absolute inset-x-6 bottom-0 top-16 rounded-t-full bg-marca-suave blur-2xl" />
+          <Image src="/marca/vitrine/riccardo.webp" alt="Professor Riccardo Nóbrega" width={900} height={1199} sizes="(min-width: 768px) 448px, 384px" className="relative h-auto w-full" />
+        </div>
+      </div>
+    </section>
+  );
+}
+
 const CONCURSOS = [
   { sigla: "PCCE", nome: "Polícia Civil do Ceará", detalhe: "Inspetor e Escrivão · estilo IDECAN" },
   { sigla: "GMF", nome: "Guarda Municipal de Fortaleza", detalhe: "Guarda Municipal · estilo IDECAN" },
@@ -223,7 +261,7 @@ function Materias({ materias }: { materias: string[] }) {
 
 function Preco() {
   const gratis = [`${LIMITE_GRATIS_DIA} questões por dia`, "Comentário de cada alternativa", "Flashcards e desempenho"];
-  const completo = ["Questões ilimitadas", "Todas as matérias e assuntos", "Flashcards com revisão espaçada", "Desempenho completo por matéria", "Cancele quando quiser"];
+  const completo = ["Questões ilimitadas", "Todas as matérias e assuntos", "Flashcards com revisão espaçada", "Desempenho completo por matéria", "Novas questões toda semana"];
   return (
     <section id="preco" className="scroll-mt-20 border-y border-borda bg-superficie/40">
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 md:py-20">
@@ -245,7 +283,7 @@ function Preco() {
               {formatarReais(ASSINATURA.valor)}
               <span className="text-base font-bold text-suave">/mês</span>
             </p>
-            <p className="text-sm text-suave">pagamento pelo Mercado Pago</p>
+            <p className="text-sm text-suave">cancele quando quiser</p>
             <Lista itens={completo} />
             <Link href="/cadastrar" className={cn(variantesBotao(), "mt-auto w-full")}>
               Começar agora
@@ -300,12 +338,16 @@ function Perguntas() {
 function ChamadaFinal() {
   return (
     <section className="mx-auto max-w-6xl px-4 pb-20 sm:px-6">
-      <div className="rounded-3xl bg-marca px-6 py-12 text-center text-sobre-marca sm:px-12">
-        <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">Sua aprovação começa na próxima questão.</h2>
-        <p className="mx-auto mt-3 max-w-xl opacity-90">Crie sua conta em menos de um minuto e resolva as primeiras questões hoje.</p>
-        <Link href="/cadastrar" className="mt-8 inline-flex h-[50px] items-center rounded-xl bg-superficie px-8 text-[15px] font-extrabold text-texto transition-opacity hover:opacity-90">
-          Começar grátis
-        </Link>
+      <div className="visao-escura relative overflow-hidden rounded-3xl border border-borda px-6 py-14 text-center sm:px-12">
+        <Image src="/marca/vitrine/fundo-tatico.webp" alt="" fill sizes="(min-width: 1152px) 1152px, 100vw" className="object-cover object-top" />
+        <div className="absolute inset-0 bg-fundo/80" />
+        <div className="relative">
+          <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">Sua aprovação começa na próxima questão.</h2>
+          <p className="mx-auto mt-3 max-w-xl text-texto/85">Crie sua conta em menos de um minuto e resolva as primeiras questões hoje.</p>
+          <Link href="/cadastrar" className={cn(variantesBotao({ tamanho: "grande" }), "mt-8")}>
+            Começar grátis
+          </Link>
+        </div>
       </div>
     </section>
   );

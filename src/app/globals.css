@@ -36,6 +36,25 @@
 
 /* Visão clara: escolhida no botão (data-tema="claro") ou, sem escolha, pelo sistema do aparelho. */
 @layer base {
+  /* Faixas com foto de fundo (página de vendas): sempre na visão escura, em qualquer tema,
+     para o texto continuar legível sobre a imagem. Mesmos valores do @theme acima. */
+  .visao-escura {
+    --color-fundo: #262626;
+    --color-superficie: #313131;
+    --color-camada: rgba(255, 255, 255, 0.05);
+    --color-camada-forte: rgba(255, 255, 255, 0.1);
+    --color-borda: rgba(255, 255, 255, 0.12);
+    --color-borda-forte: rgba(255, 255, 255, 0.28);
+    --color-texto: #ededed;
+    --color-suave: #a3a3a3;
+    --color-marca: #2f9ee0;
+    --color-marca-forte: #1f86c4;
+    --color-marca-suave: rgba(47, 158, 224, 0.16);
+    --color-marca-clara: #7cc4ef;
+    --color-acerto: #3cc36b;
+    --color-acerto-suave: rgba(60, 195, 107, 0.15);
+    color: var(--color-texto);
+  }
   :root[data-tema="claro"] {
     --color-fundo: #f3f5f8;
     --color-superficie: #ffffff;
