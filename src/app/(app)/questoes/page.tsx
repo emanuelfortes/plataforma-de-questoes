@@ -84,18 +84,20 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
     // Matéria inteira vira uma etiqueta; matéria com áreas, uma por área (tirar a última volta à matéria inteira).
     ...nomes.materias
       .filter((m) => m.inteira)
-      .map((m) => ({ chave: `materia-${m.id}`, rotulo: m.nome, sem: lista({ ...atual, grupos: grupos.filter((g) => g.disciplinaId !== m.id) }) })),
+      .map((m) => ({ chave: `materia-${m.id}`, grupo: "Matéria inteira", rotulo: m.nome, sem: lista({ ...atual, grupos: grupos.filter((g) => g.disciplinaId !== m.id) }) })),
     ...nomes.areas.map((a) => ({
       chave: `area-${a.id}`,
+      grupo: nomes.materias.find((m) => m.id === a.disciplinaId)?.nome ?? "Área",
       rotulo: a.nome,
       sem: lista({ ...atual, grupos: grupos.map((g) => ({ ...g, assuntoIds: g.assuntoIds.filter((id) => id !== a.id) })) }),
     })),
     ...dificuldades.map((d) => ({
       chave: `dif-${d}`,
-      rotulo: `Dificuldade ${ROTULO_DIFICULDADE_FILTRO[d].toLowerCase()}`,
+      grupo: "Dificuldade",
+      rotulo: ROTULO_DIFICULDADE_FILTRO[d],
       sem: lista({ ...atual, dificuldades: dificuldades.filter((x) => x !== d) }),
     })),
-    ...(tipoQuestao ? [{ chave: "tipo", rotulo: ROTULO_TIPO_QUESTAO[tipoQuestao], sem: lista({ ...atual, tipo: undefined }) }] : []),
+    ...(tipoQuestao ? [{ chave: "tipo", grupo: "Tipo de questão", rotulo: ROTULO_TIPO_QUESTAO[tipoQuestao], sem: lista({ ...atual, tipo: undefined }) }] : []),
   ];
   const editarFiltros = `/estudar?tipo=questoes&${parametros(atual)}`;
   const semFiltros = etiquetas.length || status !== "todas" ? lista({ grupos: [], dificuldades: [], status: "todas" }) : null;

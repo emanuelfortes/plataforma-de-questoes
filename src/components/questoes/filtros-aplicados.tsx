@@ -1,7 +1,14 @@
 import { SlidersHorizontal, X } from "lucide-react";
 import Link from "next/link";
 
-export type Etiqueta = { chave: string; rotulo: string; /** Endereço da mesma lista sem este filtro. */ sem: string };
+export type Etiqueta = {
+  chave: string;
+  /** De que é o filtro ("Direito Penal", "Dificuldade", "Tipo de questão"). */
+  grupo: string;
+  rotulo: string;
+  /** Endereço da mesma lista sem este filtro. */
+  sem: string;
+};
 
 type Props = {
   etiquetas: Etiqueta[];
@@ -11,28 +18,30 @@ type Props = {
   limpar: string | null;
 };
 
-/** Mostra quantas etiquetas antes de recolher o resto em "+N" (ex.: "Todo o conteúdo" de um título do CP). */
-const VISIVEIS = 6;
+/** Linhas visíveis antes de recolher o resto em "Ver todos" (a questão não pode ficar lá embaixo). */
+const VISIVEIS = 4;
 
 /**
- * Filtros aplicados, como no TEC: cada um vira uma etiqueta com X para tirar só ele.
+ * Filtros aplicados, um embaixo do outro, cada um com X para tirar só ele (como no TEC).
  * Só links (funciona sem JavaScript); o status (Não resolvidas, Acertei...) fica nos botões logo abaixo.
  */
 export function FiltrosAplicados({ etiquetas, editar, limpar }: Props) {
   const primeiras = etiquetas.slice(0, VISIVEIS);
   const resto = etiquetas.slice(VISIVEIS);
   return (
-    <section aria-label="Filtros aplicados" className="rounded-xl border border-borda bg-superficie px-4 py-3">
-      <div className="flex items-center gap-3">
-        <h2 className="flex-1 text-[11px] font-bold uppercase tracking-[.06em] text-suave">Filtros aplicados</h2>
+    <section aria-label="Filtros aplicados" className="rounded-xl border border-borda bg-superficie">
+      <div className="flex items-center gap-3 border-b border-borda px-4 py-2.5">
+        <h2 className="flex-1 text-[11px] font-bold uppercase tracking-[.06em] text-suave">
+          Filtros aplicados{etiquetas.length > 0 && ` (${etiquetas.length})`}
+        </h2>
         {limpar && (
-          <Link href={limpar} className="-my-1 rounded-lg px-2 py-1 text-xs font-bold text-suave hover:text-texto">
+          <Link href={limpar} className="rounded-lg px-2 py-1 text-xs font-bold text-suave hover:text-texto">
             Limpar
           </Link>
         )}
         <Link
           href={editar}
-          className="-my-1 -mr-2 inline-flex items-center gap-1.5 rounded-lg px-2 py-1 text-sm font-bold text-marca-clara hover:underline"
+          className="-mr-2 inline-flex items-center gap-1.5 rounded-lg px-2 py-1 text-sm font-bold text-marca-clara hover:underline"
         >
           <SlidersHorizontal className="size-4" aria-hidden />
           Editar
@@ -40,45 +49,47 @@ export function FiltrosAplicados({ etiquetas, editar, limpar }: Props) {
       </div>
 
       {etiquetas.length === 0 ? (
-        <p className="mt-2 text-sm font-extrabold">Todas as matérias</p>
+        <p className="px-4 py-3 text-sm font-extrabold">Todas as matérias</p>
       ) : (
-        <ul className="mt-2.5 flex flex-wrap gap-2">
-          {primeiras.map((e) => (
-            <EtiquetaFiltro key={e.chave} etiqueta={e} />
-          ))}
+        <>
+          <ul>
+            {primeiras.map((e) => (
+              <LinhaFiltro key={e.chave} etiqueta={e} />
+            ))}
+          </ul>
           {resto.length > 0 && (
-            // Aberto, ocupa a linha inteira e mostra as demais etiquetas embaixo.
-            <li className="has-[details[open]]:basis-full">
-              <details className="group">
-                <summary className="inline-flex h-8 cursor-pointer list-none items-center rounded-full border border-borda bg-camada px-3 text-xs font-bold text-suave hover:text-texto [&::-webkit-details-marker]:hidden">
-                  <span className="group-open:hidden">+{resto.length}</span>
-                  <span className="hidden group-open:inline">Mostrar menos</span>
-                </summary>
-                <ul className="mt-2 flex flex-wrap gap-2">
-                  {resto.map((e) => (
-                    <EtiquetaFiltro key={e.chave} etiqueta={e} />
-                  ))}
-                </ul>
-              </details>
-            </li>
+            <details className="group">
+              <summary className="cursor-pointer list-none border-t border-borda px-4 py-2.5 text-center text-xs font-bold text-marca-clara [&::-webkit-details-marker]:hidden">
+                <span className="group-open:hidden">Ver todos ({etiquetas.length})</span>
+                <span className="hidden group-open:inline">Mostrar menos</span>
+              </summary>
+              <ul>
+                {resto.map((e) => (
+                  <LinhaFiltro key={e.chave} etiqueta={e} />
+                ))}
+              </ul>
+            </details>
           )}
-        </ul>
+        </>
       )}
     </section>
   );
 }
 
-function EtiquetaFiltro({ etiqueta }: { etiqueta: Etiqueta }) {
+function LinhaFiltro({ etiqueta }: { etiqueta: Etiqueta }) {
   return (
-    <li className="inline-flex h-8 max-w-full items-center gap-1 rounded-full border border-marca/40 bg-marca-suave pl-3 text-xs font-bold">
-      <span className="truncate">{etiqueta.rotulo}</span>
+    <li className="flex items-center gap-3 border-t border-borda py-1.5 pl-4 pr-2 first:border-t-0">
+      <div className="min-w-0 flex-1">
+        <p className="truncate text-[11px] font-bold text-suave">{etiqueta.grupo}</p>
+        <p className="text-sm font-bold leading-snug">{etiqueta.rotulo}</p>
+      </div>
       <Link
         href={etiqueta.sem}
         aria-label={`Tirar o filtro ${etiqueta.rotulo}`}
         title="Tirar este filtro"
-        className="grid size-8 shrink-0 place-items-center rounded-full text-suave hover:text-texto"
+        className="grid size-10 shrink-0 place-items-center rounded-lg text-suave hover:bg-camada hover:text-erro"
       >
-        <X className="size-3.5" strokeWidth={3} aria-hidden />
+        <X className="size-4" strokeWidth={2.5} aria-hidden />
       </Link>
     </li>
   );
