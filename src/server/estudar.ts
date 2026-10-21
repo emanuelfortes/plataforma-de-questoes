@@ -3,6 +3,7 @@ import { asc, eq, inArray } from "drizzle-orm";
 import { db } from "@/db";
 import { assuntos, contagens, disciplinas } from "@/db/schema";
 import { chaveNome } from "@/lib/catalogo";
+import type { GrupoSelecao } from "@/lib/filtros";
 import { entradasDaMateria, nomeDaEntrada, type EntradaOrdem } from "@/lib/ordem-areas";
 
 // Dados da tela "Estudar" (escolha de tipo, matéria e área). Tudo sai de "contagens",
@@ -115,19 +116,43 @@ export async function detalharMateria(tipo: TipoEstudo, disciplinaId: number) {
   };
 }
 
-/** Nomes para o cabeçalho "Matéria · Área" das telas de questões e flashcards. */
-export async function nomesSelecao(disciplinaId?: number, assuntoIds: number[] = []) {
-  const [d] = disciplinaId
-    ? await db.select({ nome: disciplinas.nome }).from(disciplinas).where(eq(disciplinas.id, disciplinaId))
-    : [];
-  const areas = assuntoIds.length
+/**
+ * Da URL (matérias e áreas soltas) para grupos por matéria. A área diz de qual matéria é; a matéria
+ * que não tem área marcada vai inteira. Uma consulta pequena (só as áreas marcadas).
+ */
+export async function resolverSelecao(sel: { disciplinas: number[]; assuntos: number[] }): Promise<GrupoSelecao[]> {
+  const areas = sel.assuntos.length
     ? await db
-        .select({ id: assuntos.id, nome: assuntos.nome })
+        .select({ id: assuntos.id, disciplinaId: assuntos.disciplinaId })
         .from(assuntos)
-        .where(inArray(assuntos.id, assuntoIds))
-        .orderBy(asc(assuntos.nome))
+        .where(inArray(assuntos.id, sel.assuntos))
     : [];
-  return { disciplina: d?.nome, assunto: areas.map((a) => a.nome).join(" + ") || undefined, areas };
+  const grupos = new Map<number, number[]>(sel.disciplinas.map((d) => [d, []]));
+  for (const a of areas) grupos.set(a.disciplinaId, [...(grupos.get(a.disciplinaId) ?? []), a.id]);
+  return [...grupos].map(([disciplinaId, assuntoIds]) => ({ disciplinaId, assuntoIds }));
+}
+
+/** Nomes das matérias e áreas escolhidas (etiquetas da tela de questões e cabeçalho dos flashcards). */
+export async function nomesSelecao(grupos: GrupoSelecao[]) {
+  const ids = grupos.map((g) => g.disciplinaId);
+  const areaIds = grupos.flatMap((g) => g.assuntoIds);
+  const [ds, as] = await Promise.all([
+    ids.length ? db.select({ id: disciplinas.id, nome: disciplinas.nome }).from(disciplinas).where(inArray(disciplinas.id, ids)) : [],
+    areaIds.length
+      ? db.select({ id: assuntos.id, nome: assuntos.nome, disciplinaId: assuntos.disciplinaId }).from(assuntos).where(inArray(assuntos.id, areaIds))
+      : [],
+  ]);
+  const nomeMateria = new Map(ds.map((d) => [d.id, d.nome]));
+  const materias = grupos.map((g) => ({ id: g.disciplinaId, nome: nomeMateria.get(g.disciplinaId) ?? "?", inteira: g.assuntoIds.length === 0 }));
+  const areas = as.sort((x, y) => x.nome.localeCompare(y.nome, "pt-BR"));
+  const resumo = grupos
+    .map((g) => {
+      const m = nomeMateria.get(g.disciplinaId) ?? "?";
+      const nomes = areas.filter((a) => a.disciplinaId === g.disciplinaId).map((a) => a.nome);
+      return nomes.length ? `${m} · ${nomes.join(" + ")}` : m;
+    })
+    .join("; ");
+  return { materias, areas, resumo };
 }
 
 export type MateriaArvore = {

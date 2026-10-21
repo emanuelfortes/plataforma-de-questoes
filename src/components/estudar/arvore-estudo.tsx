@@ -8,6 +8,8 @@ import { CONFIG_FILTRO } from "@/components/questoes/icone-status";
 import {
   DIFICULDADES_FILTRO,
   MAX_AREAS,
+  parametrosSelecao,
+  type GrupoSelecao,
   ROTULO_DIFICULDADE_FILTRO,
   ROTULO_TIPO_QUESTAO,
   TIPOS_QUESTAO,
@@ -31,16 +33,29 @@ type Props = {
   comTipoQuestao?: boolean;
   /** Filtros já aplicados (vindo de "Editar" na tela de questões). */
   inicial?: {
-    disciplinaId?: number;
-    areas: number[];
+    grupos: GrupoSelecao[];
     dificuldades: DificuldadeFiltro[];
     tipo?: TipoQuestao;
     status: FiltroStatus;
   };
 };
 
-/** O que está marcado: nada (todas as matérias), uma matéria inteira ou algumas áreas dela. */
-type Selecao = { disciplinaId: number; areas: number[] } | null;
+/**
+ * O que está marcado: várias matérias, cada uma inteira (sem áreas) ou com algumas áreas.
+ * Lista vazia = todas as matérias.
+ */
+type Selecao = GrupoSelecao[];
+
+/** Troca as áreas de uma matéria na seleção (null tira a matéria). Respeita o limite total de áreas. */
+function comMateria(sel: Selecao, disciplinaId: number, areas: number[] | null): Selecao {
+  const outras = sel.filter((g) => g.disciplinaId !== disciplinaId);
+  if (areas === null) return outras;
+  const usadas = outras.reduce((t, g) => t + g.assuntoIds.length, 0);
+  const novo = { disciplinaId, assuntoIds: areas.slice(0, Math.max(MAX_AREAS - usadas, 0)) };
+  // Mantém a ordem em que as matérias foram marcadas.
+  const pos = sel.findIndex((g) => g.disciplinaId === disciplinaId);
+  return pos < 0 ? [...sel, novo] : sel.map((g) => (g.disciplinaId === disciplinaId ? novo : g));
+}
 
 const normalizar = (t: string) =>
   t
@@ -54,11 +69,11 @@ const normalizar = (t: string) =>
  */
 export function ArvoreEstudo({ materias, destino, unidade, abertaInicial, comOpcoes = false, comTipoQuestao = false, inicial }: Props) {
   const router = useRouter();
-  const [abertas, setAbertas] = useState<Set<number>>(() => new Set(abertaInicial ? [abertaInicial] : []));
+  const [abertas, setAbertas] = useState<Set<number>>(
+    () => new Set([...(abertaInicial ? [abertaInicial] : []), ...(inicial?.grupos ?? []).map((g) => g.disciplinaId)]),
+  );
   const [selecao, setSelecao] = useState<Selecao>(() =>
-    inicial?.disciplinaId && materias.some((m) => m.id === inicial.disciplinaId)
-      ? { disciplinaId: inicial.disciplinaId, areas: inicial.areas }
-      : null,
+    (inicial?.grupos ?? []).filter((g) => materias.some((m) => m.id === g.disciplinaId)),
   );
   const [busca, setBusca] = useState("");
   // Opções (só questões). Nada marcado = sem filtro. Dificuldade aceita várias; tipo e resolução, uma.
@@ -70,18 +85,18 @@ export function ArvoreEstudo({ materias, destino, unidade, abertaInicial, comOpc
   // Abre as pastas que têm áreas já marcadas, para o aluno ver onde estão.
   const [pastasAbertas, setPastasAbertas] = useState<Set<string>>(() => {
     const abertas = new Set<string>();
-    const materia = materias.find((m) => m.id === inicial?.disciplinaId);
-    if (!materia || !inicial?.areas.length) return abertas;
+    const marcadas = new Set((inicial?.grupos ?? []).flatMap((g) => g.assuntoIds));
+    if (!marcadas.size) return abertas;
     const visitar = (itens: ItemArvore[], caminho: string): boolean =>
       itens.some((i) => {
-        if (i.tipo === "area") return inicial.areas.includes(i.area.id);
+        if (i.tipo === "area") return marcadas.has(i.area.id);
         const chave = `${caminho}/${i.nome}`;
         // Visita todos os filhos (não para no primeiro) para abrir todas as pastas com algo marcado.
         const tem = i.itens.map((f) => visitar([f], chave)).some(Boolean);
         if (tem) abertas.add(chave);
         return tem;
       });
-    materia.itens.forEach((i) => visitar([i], String(materia.id)));
+    for (const materia of materias) materia.itens.forEach((i) => visitar([i], String(materia.id)));
     return abertas;
   });
 
@@ -124,32 +139,36 @@ export function ArvoreEstudo({ materias, destino, unidade, abertaInicial, comOpc
     });
   }
 
+  // Cada matéria é independente: marcar algo em Constitucional não desmarca o que está em Penal.
+  const areasMarcadas = (disciplinaId: number) => selecao.find((g) => g.disciplinaId === disciplinaId)?.assuntoIds ?? [];
+  const materiaInteira = (disciplinaId: number) =>
+    selecao.some((g) => g.disciplinaId === disciplinaId && g.assuntoIds.length === 0);
+
   function marcarTudo(disciplinaId: number) {
-    setSelecao((s) => (s?.disciplinaId === disciplinaId && s.areas.length === 0 ? null : { disciplinaId, areas: [] }));
+    setSelecao((s) => comMateria(s, disciplinaId, materiaInteira(disciplinaId) ? null : []));
   }
 
   function marcarArea(disciplinaId: number, areaId: number) {
     setSelecao((s) => {
-      // Área de outra matéria: recomeça a seleção nela (uma matéria por vez).
-      const atuais = s?.disciplinaId === disciplinaId ? s.areas : [];
-      const areas = atuais.includes(areaId) ? atuais.filter((a) => a !== areaId) : [...atuais, areaId].slice(0, MAX_AREAS);
-      return areas.length ? { disciplinaId, areas } : null;
+      const atuais = s.find((g) => g.disciplinaId === disciplinaId)?.assuntoIds ?? [];
+      const areas = atuais.includes(areaId) ? atuais.filter((a) => a !== areaId) : [...atuais, areaId];
+      return comMateria(s, disciplinaId, areas.length ? areas : null);
     });
   }
 
   // "Todo o conteúdo" de uma subpasta: marca todas as áreas dela (ou desmarca, se já estavam todas).
   function marcarPasta(disciplinaId: number, ids: number[]) {
     setSelecao((s) => {
-      const atuais = s?.disciplinaId === disciplinaId ? s.areas : [];
+      const atuais = s.find((g) => g.disciplinaId === disciplinaId)?.assuntoIds ?? [];
       const todas = ids.every((id) => atuais.includes(id));
-      const areas = todas ? atuais.filter((a) => !ids.includes(a)) : [...new Set([...atuais, ...ids])].slice(0, MAX_AREAS);
-      return areas.length ? { disciplinaId, areas } : null;
+      const areas = todas ? atuais.filter((a) => !ids.includes(a)) : [...new Set([...atuais, ...ids])];
+      return comMateria(s, disciplinaId, areas.length ? areas : null);
     });
   }
 
   // Área solta ou pasta (com "Todo o conteúdo" e o que tem dentro), em qualquer nível.
   function desenharItem(disciplinaId: number, item: ItemArvore, nivel: number, caminho: string): React.ReactNode {
-    const marcadas = selecao?.disciplinaId === disciplinaId ? selecao.areas : [];
+    const marcadas = areasMarcadas(disciplinaId);
     if (item.tipo === "area") {
       const a = item.area;
       const marcada = marcadas.includes(a.id);
@@ -194,26 +213,33 @@ export function ArvoreEstudo({ materias, destino, unidade, abertaInicial, comOpc
   }
 
   // Resumo do que está marcado, para a barra de começar.
-  const materiaSel = selecao ? materias.find((m) => m.id === selecao.disciplinaId) : undefined;
-  const areasSel = materiaSel ? materiaSel.areas.filter((a) => selecao!.areas.includes(a.id)) : [];
-  const resumo = !materiaSel
-    ? { nome: "Todas as matérias", total: materias.reduce((s, m) => s + m.total, 0) }
-    : areasSel.length === 0
-      ? { nome: `Todo o conteúdo de ${materiaSel.nome}`, total: materiaSel.total }
+  const partes = selecao.flatMap((g) => {
+    const m = materias.find((x) => x.id === g.disciplinaId);
+    if (!m) return [];
+    if (g.assuntoIds.length === 0) return [{ nome: m.nome, total: m.total }];
+    const areas = m.areas.filter((a) => g.assuntoIds.includes(a.id));
+    const nome =
+      areas.length === 1
+        ? `${m.nome} · ${areas[0]!.nome}`
+        : `${m.nome} · ${pastaIgual(m.itens, g.assuntoIds) ?? `${areas.length} áreas`}`;
+    return [{ nome, total: areas.reduce((s, a) => s + a.total, 0) }];
+  });
+  const resumo =
+    partes.length === 0
+      ? { nome: "Todas as matérias", total: materias.reduce((s, m) => s + m.total, 0) }
       : {
+          // Uma matéria: "Direito Penal · Feminicídio". Várias: "3 matérias: Direito Penal, Informática..."
           nome:
-            areasSel.length === 1
-              ? `${materiaSel.nome} · ${areasSel[0]!.nome}`
-              : `${materiaSel.nome} · ${pastaIgual(materiaSel.itens, selecao!.areas) ?? `${areasSel.length} áreas`}`,
-          total: areasSel.reduce((s, a) => s + a.total, 0),
+            partes.length === 1
+              ? selecao[0]!.assuntoIds.length === 0
+                ? `Todo o conteúdo de ${partes[0]!.nome}`
+                : partes[0]!.nome
+              : `${partes.length} matérias: ${selecao.map((g) => materias.find((x) => x.id === g.disciplinaId)?.nome).join(", ")}`,
+          total: partes.reduce((s, p) => s + p.total, 0),
         };
 
   function comecar() {
-    const p = new URLSearchParams();
-    if (selecao) {
-      p.set("disciplina", String(selecao.disciplinaId));
-      for (const a of selecao.areas) p.append("assunto", String(a));
-    }
+    const p = parametrosSelecao(selecao);
     if (comOpcoes) {
       if (dificuldades.length < DIFICULDADES_FILTRO.length) for (const d of dificuldades) p.append("dificuldade", d);
       if (tipoQuestao) p.set("tipoq", tipoQuestao);
@@ -234,10 +260,10 @@ export function ArvoreEstudo({ materias, destino, unidade, abertaInicial, comOpc
               {formatarNumero(resumo.total)} {unidade}
             </p>
           </div>
-          {selecao && (
+          {selecao.length > 0 && (
             <button
               type="button"
-              onClick={() => setSelecao(null)}
+              onClick={() => setSelecao([])}
               className="grid size-9 shrink-0 place-items-center rounded-lg text-suave hover:bg-camada hover:text-texto"
               aria-label="Limpar seleção"
               title="Limpar seleção"
@@ -307,8 +333,8 @@ export function ArvoreEstudo({ materias, destino, unidade, abertaInicial, comOpc
 
         <ul className="py-1.5" role="tree" aria-label="Matérias e assuntos">
           {!termo && (
-            <li role="treeitem" aria-selected={!selecao}>
-              <Linha onClick={() => setSelecao(null)} marcada={!selecao} nivel={0}>
+            <li role="treeitem" aria-selected={selecao.length === 0}>
+              <Linha onClick={() => setSelecao([])} marcada={selecao.length === 0} nivel={0}>
                 <ArrowBigRight className="size-5 shrink-0 fill-marca text-marca" aria-hidden />
                 <span className="min-w-0 flex-1 font-semibold">Misturar todas as matérias</span>
               </Linha>
@@ -322,9 +348,9 @@ export function ArvoreEstudo({ materias, destino, unidade, abertaInicial, comOpc
           {visiveis.map((m) => {
             const aberta = abertas.has(m.id) || m.abertaPelaBusca;
             const PastaIcone = aberta ? FolderOpen : Folder;
-            const tudoMarcado = selecao?.disciplinaId === m.id && selecao.areas.length === 0;
+            const tudoMarcado = materiaInteira(m.id);
             return (
-              <li key={m.id} role="treeitem" aria-expanded={aberta} aria-selected={selecao?.disciplinaId === m.id}>
+              <li key={m.id} role="treeitem" aria-expanded={aberta} aria-selected={selecao.some((g) => g.disciplinaId === m.id)}>
                 <Linha onClick={() => alternarPasta(m.id)} nivel={0}>
                   <ChevronRight
                     className={cn("size-4 shrink-0 text-suave transition-transform", aberta && "rotate-90")}

@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight, Check, CircleCheck, CircleX, LoaderCircle, RotateCcw, X } from "lucide-react";
+import { ArrowRight, Check, CircleCheck, CircleX, LoaderCircle, RotateCcw, Scissors, X } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useRef, useState, useTransition } from "react";
 import { ReportarErro } from "@/components/reportar-erro";
@@ -35,6 +35,9 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
   const [noLimite, setNoLimite] = useState(false);
   const [enviando, iniciar] = useTransition();
   const refResultado = useRef<HTMLDivElement>(null);
+  // Tesourinha (como no TEC): alternativas que o aluno já descartou ficam riscadas. Só na tela, não vai ao servidor.
+  const [cortadas, setCortadas] = useState<Set<string>>(() => new Set());
+  const ultimoToque = useRef<{ letra: string; quando: number } | null>(null);
 
   const certoErrado = ehCertoErrado(questao.alternativas);
   const paragrafos = questao.enunciado.split(/\n\s*\n/);
@@ -63,6 +66,31 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
   function refazer() {
     setEscolhida(null);
     setResultado(null);
+    setCortadas(new Set());
+  }
+
+  function alternarCorte(letra: string) {
+    setCortadas((atual) => {
+      const nova = new Set(atual);
+      if (nova.has(letra)) nova.delete(letra);
+      else nova.add(letra);
+      return nova;
+    });
+    setEscolhida((e) => (e === letra ? null : e));
+  }
+
+  // Um toque escolhe; dois toques seguidos na mesma alternativa riscam (o dblclick não é confiável no celular).
+  function tocarAlternativa(letra: string) {
+    const agora = Date.now();
+    const anterior = ultimoToque.current;
+    ultimoToque.current = { letra, quando: agora };
+    if (anterior?.letra === letra && agora - anterior.quando < 350) {
+      ultimoToque.current = null;
+      return alternarCorte(letra);
+    }
+    // Escolher uma alternativa riscada tira o risco.
+    if (cortadas.has(letra)) alternarCorte(letra);
+    setEscolhida(letra);
   }
 
   function estado(letra: string) {
@@ -160,17 +188,19 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
         <ul className="space-y-2.5" role="radiogroup" aria-label="Alternativas">
           {questao.alternativas.map((alt) => {
             const e = estado(alt.letra);
+            const cortada = !resultado && cortadas.has(alt.letra);
             return (
-              <li key={alt.letra}>
+              <li key={alt.letra} className="flex items-start gap-1.5">
                 <button
                   type="button"
                   role="radio"
                   aria-checked={escolhida === alt.letra}
                   disabled={!!resultado || enviando}
-                  onClick={() => setEscolhida(alt.letra)}
+                  onClick={() => tocarAlternativa(alt.letra)}
                   className={cn(
-                    "flex min-h-14 w-full items-start gap-3 rounded-xl border-[1.5px] px-3 py-3 text-left transition-[background-color,border-color,opacity,transform] duration-150 motion-safe:active:scale-[.99] disabled:cursor-default sm:gap-4 sm:px-4",
-                    e === "livre" && "border-borda bg-superficie hover:border-borda-forte hover:bg-camada",
+                    "flex min-h-14 min-w-0 flex-1 items-start gap-3 rounded-xl border-[1.5px] px-3 py-3 text-left transition-[background-color,border-color,opacity,transform] duration-150 motion-safe:active:scale-[.99] disabled:cursor-default sm:gap-4 sm:px-4",
+                    e === "livre" && !cortada && "border-borda bg-superficie hover:border-borda-forte hover:bg-camada",
+                    cortada && "border-dashed border-borda bg-transparent opacity-50",
                     e === "selecionada" && "border-marca bg-marca-suave",
                     e === "certa" && "border-acerto bg-acerto-suave",
                     e === "errada" && "border-erro bg-erro-suave",
@@ -189,16 +219,36 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
                   >
                     {alt.letra}
                   </span>
-                  <span className="min-w-0 flex-1 pt-0.5 text-[15px] leading-relaxed sm:text-base">
+                  <span className={cn("min-w-0 flex-1 pt-0.5 text-[15px] leading-relaxed sm:text-base", cortada && "line-through decoration-2")}>
                     <span className="sr-only">{alt.letra}) </span>
+                    {cortada && <span className="sr-only">(riscada) </span>}
                     {alt.texto}
                   </span>
                   {e === "certa" && <CircleCheck className="mt-1 size-5 shrink-0 text-acerto" aria-label="Resposta correta" />}
                   {e === "errada" && <CircleX className="mt-1 size-5 shrink-0 text-erro" aria-label="Sua resposta" />}
                 </button>
+                {!resultado && (
+                  <button
+                    type="button"
+                    onClick={() => alternarCorte(alt.letra)}
+                    disabled={enviando}
+                    aria-pressed={cortada}
+                    aria-label={cortada ? `Desfazer o risco da alternativa ${alt.letra}` : `Riscar a alternativa ${alt.letra}`}
+                    title={cortada ? "Desfazer o risco" : "Riscar (descartar) esta alternativa"}
+                    className={cn(
+                      "grid size-10 shrink-0 place-items-center self-center rounded-xl transition-colors",
+                      cortada ? "bg-marca-suave text-marca-clara" : "text-suave hover:bg-camada hover:text-texto",
+                    )}
+                  >
+                    <Scissors className="size-[18px]" aria-hidden />
+                  </button>
+                )}
               </li>
             );
           })}
+          {!resultado && (
+            <li className="pt-0.5 text-center text-xs text-suave">Toque duas vezes ou na tesoura para riscar uma alternativa.</li>
+          )}
         </ul>
       )}
 

@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { SessaoFlashcards } from "@/components/flashcards/sessao-flashcards";
 import { SelecaoAtual } from "@/components/selecao-atual";
-import { lerId, lerIds } from "@/lib/filtros";
+import { lerSelecao, parametrosSelecao } from "@/lib/filtros";
 import { exigirUsuario } from "@/lib/sessao";
-import { nomesSelecao } from "@/server/estudar";
+import { nomesSelecao, resolverSelecao } from "@/server/estudar";
 import { montarSessao } from "@/server/flashcards";
 
 export const metadata: Metadata = { title: "Flashcards" };
@@ -13,14 +13,10 @@ type Params = Promise<{ [chave: string]: string | string[] | undefined }>;
 export default async function PaginaFlashcards({ searchParams }: { searchParams: Params }) {
   const usuario = await exigirUsuario();
   const sp = await searchParams;
-  const texto = (k: string) => (typeof sp[k] === "string" ? (sp[k] as string) : undefined);
-  const disciplinaId = lerId(texto("disciplina"));
-  const assuntoIds = disciplinaId ? lerIds(sp.assunto) : [];
+  const grupos = await resolverSelecao(lerSelecao(sp));
+  const chave = parametrosSelecao(grupos).toString();
 
-  const [nomes, cards] = await Promise.all([
-    nomesSelecao(disciplinaId, assuntoIds),
-    montarSessao(usuario.id, disciplinaId, assuntoIds),
-  ]);
+  const [nomes, cards] = await Promise.all([nomesSelecao(grupos), montarSessao(usuario.id, grupos)]);
 
   return (
     <div className="mx-auto max-w-xl space-y-6">
@@ -32,10 +28,10 @@ export default async function PaginaFlashcards({ searchParams }: { searchParams:
         </p>
       </div>
 
-      <SelecaoAtual tipo="flashcards" disciplinaId={disciplinaId} partes={[nomes.disciplina, nomes.assunto]} />
+      <SelecaoAtual texto={nomes.resumo} trocar={`/estudar?tipo=flashcards${chave ? `&${chave}` : ""}`} />
 
       {/* key força reiniciar a sessão ao trocar a seleção */}
-      <SessaoFlashcards key={`${disciplinaId ?? "todas"}-${assuntoIds.join(".") || "todas"}`} cards={cards} />
+      <SessaoFlashcards key={chave || "todas"} cards={cards} />
     </div>
   );
 }

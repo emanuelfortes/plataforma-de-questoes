@@ -1,7 +1,8 @@
 import "server-only";
-import { and, asc, eq, isNull, lte, type SQL } from "drizzle-orm";
+import { and, asc, eq, isNull, lte, or, type SQL } from "drizzle-orm";
 import { db } from "@/db";
 import { assuntos, disciplinas, flashcards, revisoesFlashcard } from "@/db/schema";
+import type { GrupoSelecao } from "@/lib/filtros";
 import { filtroAreas } from "@/server/questoes";
 
 export const LIMITE_SESSAO = 20;
@@ -10,13 +11,12 @@ export const NOVOS_POR_SESSAO = 10;
 /**
  * Monta uma sessão: primeiro os cards vencidos (revisão), depois cards nunca vistos (novos).
  */
-export async function montarSessao(usuarioId: string, disciplinaId?: number, assuntoIds?: number[]) {
+export async function montarSessao(usuarioId: string, grupos: GrupoSelecao[]) {
   const agora = new Date();
-  const filtroDisciplina: SQL[] = [];
-  if (disciplinaId) filtroDisciplina.push(eq(flashcards.disciplinaId, disciplinaId));
-  // Várias áreas: percorre o índice (disciplina, id) já ordenado (ver filtroAreas).
-  const areas = filtroAreas(flashcards.assuntoId, assuntoIds);
-  if (areas) filtroDisciplina.push(areas);
+  // Uma ou várias matérias, cada uma inteira ou com algumas áreas (ver filtroAreas).
+  const filtroDisciplina: SQL[] = grupos.length
+    ? [or(...grupos.map((g) => and(eq(flashcards.disciplinaId, g.disciplinaId), filtroAreas(flashcards.assuntoId, g.assuntoIds))))!]
+    : [];
 
   const campos = {
     id: flashcards.id,
