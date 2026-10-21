@@ -122,12 +122,12 @@ export async function nomesSelecao(disciplinaId?: number, assuntoIds: number[] =
     : [];
   const areas = assuntoIds.length
     ? await db
-        .select({ nome: assuntos.nome })
+        .select({ id: assuntos.id, nome: assuntos.nome })
         .from(assuntos)
         .where(inArray(assuntos.id, assuntoIds))
         .orderBy(asc(assuntos.nome))
     : [];
-  return { disciplina: d?.nome, assunto: areas.map((a) => a.nome).join(" + ") || undefined };
+  return { disciplina: d?.nome, assunto: areas.map((a) => a.nome).join(" + ") || undefined, areas };
 }
 
 export type MateriaArvore = {

@@ -2,7 +2,7 @@ import { BookOpenCheck, Layers } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArvoreEstudo } from "@/components/estudar/arvore-estudo";
-import { lerId } from "@/lib/filtros";
+import { lerDificuldades, lerFiltroStatus, lerId, lerIds, lerTipoQuestao } from "@/lib/filtros";
 import { exigirUsuario } from "@/lib/sessao";
 import { formatarNumero } from "@/lib/utils";
 import { arvoreDeEstudo, temCertoErrado, totaisPorTipo, type TipoEstudo } from "@/server/estudar";
@@ -82,6 +82,14 @@ export default async function PaginaEstudar({ searchParams }: { searchParams: Pa
   ]);
   const unidade = tipo === "questoes" ? "questões" : "cards";
   const abertaInicial = lerId(typeof sp.disciplina === "string" ? sp.disciplina : undefined);
+  // "Editar" na tela de questões volta para cá com os filtros aplicados na URL: a tela abre já marcada.
+  const inicial = {
+    disciplinaId: abertaInicial,
+    areas: abertaInicial ? lerIds(sp.assunto) : [],
+    dificuldades: lerDificuldades(sp.dificuldade),
+    tipo: lerTipoQuestao(typeof sp.tipoq === "string" ? sp.tipoq : undefined),
+    status: lerFiltroStatus(typeof sp.status === "string" ? sp.status : undefined),
+  };
 
   return (
     <div className="mx-auto max-w-3xl space-y-6">
@@ -96,6 +104,7 @@ export default async function PaginaEstudar({ searchParams }: { searchParams: Pa
           destino={TIPOS[tipo].destino}
           unidade={unidade}
           abertaInicial={abertaInicial}
+          inicial={inicial}
           comOpcoes={tipo === "questoes"}
           comTipoQuestao={comCertoErrado}
         />

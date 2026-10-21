@@ -29,6 +29,14 @@ type Props = {
   comOpcoes?: boolean;
   /** Só aparece quando o banco tem questões de certo ou errado (contagem "q:ce"). */
   comTipoQuestao?: boolean;
+  /** Filtros já aplicados (vindo de "Editar" na tela de questões). */
+  inicial?: {
+    disciplinaId?: number;
+    areas: number[];
+    dificuldades: DificuldadeFiltro[];
+    tipo?: TipoQuestao;
+    status: FiltroStatus;
+  };
 };
 
 /** O que está marcado: nada (todas as matérias), uma matéria inteira ou algumas áreas dela. */
@@ -44,18 +52,38 @@ const normalizar = (t: string) =>
  * Escolha de matéria e áreas em árvore de pastas, como no filtro do TEC Concursos:
  * pasta amarela = matéria; seta azul = "todo o conteúdo"; seta verde = uma área.
  */
-export function ArvoreEstudo({ materias, destino, unidade, abertaInicial, comOpcoes = false, comTipoQuestao = false }: Props) {
+export function ArvoreEstudo({ materias, destino, unidade, abertaInicial, comOpcoes = false, comTipoQuestao = false, inicial }: Props) {
   const router = useRouter();
   const [abertas, setAbertas] = useState<Set<number>>(() => new Set(abertaInicial ? [abertaInicial] : []));
-  const [selecao, setSelecao] = useState<Selecao>(null);
+  const [selecao, setSelecao] = useState<Selecao>(() =>
+    inicial?.disciplinaId && materias.some((m) => m.id === inicial.disciplinaId)
+      ? { disciplinaId: inicial.disciplinaId, areas: inicial.areas }
+      : null,
+  );
   const [busca, setBusca] = useState("");
   // Opções (só questões). Nada marcado = sem filtro. Dificuldade aceita várias; tipo e resolução, uma.
-  const [dificuldades, setDificuldades] = useState<DificuldadeFiltro[]>([]);
-  const [tipoQuestao, setTipoQuestao] = useState<TipoQuestao | null>(null);
-  const [status, setStatus] = useState<FiltroStatus>("todas");
+  const [dificuldades, setDificuldades] = useState<DificuldadeFiltro[]>(inicial?.dificuldades ?? []);
+  const [tipoQuestao, setTipoQuestao] = useState<TipoQuestao | null>(inicial?.tipo ?? null);
+  const [status, setStatus] = useState<FiltroStatus>(inicial?.status ?? "todas");
   const [indo, iniciar] = useTransition();
 
-  const [pastasAbertas, setPastasAbertas] = useState<Set<string>>(() => new Set());
+  // Abre as pastas que têm áreas já marcadas, para o aluno ver onde estão.
+  const [pastasAbertas, setPastasAbertas] = useState<Set<string>>(() => {
+    const abertas = new Set<string>();
+    const materia = materias.find((m) => m.id === inicial?.disciplinaId);
+    if (!materia || !inicial?.areas.length) return abertas;
+    const visitar = (itens: ItemArvore[], caminho: string): boolean =>
+      itens.some((i) => {
+        if (i.tipo === "area") return inicial.areas.includes(i.area.id);
+        const chave = `${caminho}/${i.nome}`;
+        // Visita todos os filhos (não para no primeiro) para abrir todas as pastas com algo marcado.
+        const tem = i.itens.map((f) => visitar([f], chave)).some(Boolean);
+        if (tem) abertas.add(chave);
+        return tem;
+      });
+    materia.itens.forEach((i) => visitar([i], String(materia.id)));
+    return abertas;
+  });
 
   // Busca: mostra a matéria se o nome dela ou de alguma área bate; abre as matérias e pastas que batem por área.
   const termo = normalizar(busca.trim());

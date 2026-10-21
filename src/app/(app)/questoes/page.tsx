@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Filtros } from "@/components/questoes/filtros";
 import { Resolucao } from "@/components/questoes/resolucao";
-import { SelecaoAtual } from "@/components/selecao-atual";
+import { FiltrosAplicados, type Etiqueta } from "@/components/questoes/filtros-aplicados";
 import {
   lerDificuldades,
   lerFiltroStatus,
@@ -49,10 +49,6 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
   const tipoQuestao = tipoPedido && (await temCertoErrado()) ? tipoPedido : undefined;
   // Com dificuldade ou tipo, os totais pré-calculados (por matéria e área) não valem: os números somem.
   const comOpcoes = dificuldades.length > 0 || !!tipoQuestao;
-  const resumoOpcoes = [
-    dificuldades.map((d) => ROTULO_DIFICULDADE_FILTRO[d]).join(", "),
-    tipoQuestao && ROTULO_TIPO_QUESTAO[tipoQuestao],
-  ];
   // Ponto de partida sorteado a cada sessão nova; as páginas seguintes levam o mesmo na URL.
   const inicioUrl = Number(texto("inicio"));
   const inicio = Number.isInteger(inicioUrl) && inicioUrl >= 0 ? inicioUrl : randomInt(2 ** 31);
@@ -66,6 +62,43 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
     contarPorStatus({ usuarioId: usuario.id, disciplinaId, assuntoIds }),
     listarQuestoes({ usuarioId: usuario.id, disciplinaId, assuntoIds, status, inicio, cursor, voltou, dificuldades, tipo: tipoQuestao }),
   ]);
+
+  // Filtros na URL (sem a posição na sequência). Tirar um filtro recomeça a sequência, com o mesmo ponto sorteado.
+  type Filtro = { disciplina?: number; assuntos: number[]; dificuldades: string[]; tipo?: string; status: string };
+  const atual: Filtro = { disciplina: disciplinaId, assuntos: assuntoIds, dificuldades, tipo: tipoQuestao, status };
+  const parametros = (x: Filtro) => {
+    const p = new URLSearchParams();
+    if (x.disciplina) p.set("disciplina", String(x.disciplina));
+    if (x.disciplina) for (const id of x.assuntos) p.append("assunto", String(id));
+    for (const d of x.dificuldades) p.append("dificuldade", d);
+    if (x.tipo) p.set("tipoq", x.tipo);
+    if (x.status !== "todas") p.set("status", x.status);
+    return p;
+  };
+  const lista = (x: Filtro) => {
+    const p = parametros(x);
+    p.set("inicio", String(inicio));
+    return `/questoes?${p}`;
+  };
+  const etiquetas: Etiqueta[] = [
+    // Sem áreas, a matéria inteira é o filtro; com áreas, cada área é uma etiqueta (a última volta à matéria inteira).
+    ...(disciplinaId && nomes.areas.length === 0 && nomes.disciplina
+      ? [{ chave: "materia", rotulo: nomes.disciplina, sem: lista({ ...atual, disciplina: undefined, assuntos: [] }) }]
+      : []),
+    ...nomes.areas.map((a) => ({
+      chave: `area-${a.id}`,
+      rotulo: a.nome,
+      sem: lista({ ...atual, assuntos: assuntoIds.filter((id) => id !== a.id) }),
+    })),
+    ...dificuldades.map((d) => ({
+      chave: `dif-${d}`,
+      rotulo: `Dificuldade ${ROTULO_DIFICULDADE_FILTRO[d].toLowerCase()}`,
+      sem: lista({ ...atual, dificuldades: dificuldades.filter((x) => x !== d) }),
+    })),
+    ...(tipoQuestao ? [{ chave: "tipo", rotulo: ROTULO_TIPO_QUESTAO[tipoQuestao], sem: lista({ ...atual, tipo: undefined }) }] : []),
+  ];
+  const editarFiltros = `/estudar?tipo=questoes&${parametros(atual)}`;
+  const semFiltros = etiquetas.length || status !== "todas" ? lista({ assuntos: [], dificuldades: [], status: "todas" }) : null;
 
   const proximaUrl = (() => {
     if (!proximo) return null;
@@ -100,11 +133,7 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
           )}
         </div>
 
-        <SelecaoAtual
-          tipo="questoes"
-          disciplinaId={disciplinaId}
-          partes={[nomes.disciplina, nomes.assunto, ...resumoOpcoes]}
-        />
+        <FiltrosAplicados etiquetas={etiquetas} editar={editarFiltros} limpar={semFiltros} />
 
         <Filtros contagens={contagens} atual={{ status }} semNumeros={comOpcoes} />
 
