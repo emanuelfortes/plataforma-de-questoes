@@ -5,7 +5,8 @@ import { db } from "@/db";
 import { assuntos, contagens, disciplinas, questoes, statusQuestao } from "@/db/schema";
 
 import { dificuldadePorNivel } from "@/lib/dificuldade";
-import type { FiltroStatus, StatusAluno } from "@/lib/filtros";
+import { NIVEL_DIFICULDADE } from "@/lib/dificuldade";
+import type { DificuldadeFiltro, FiltroStatus, StatusAluno, TipoQuestao } from "@/lib/filtros";
 
 export const TAMANHO_PAGINA = 20;
 
@@ -14,7 +15,27 @@ export type FiltrosQuestoes = {
   disciplinaId?: number;
   assuntoIds?: number[]; // vazio = todas as áreas da matéria
   status: FiltroStatus;
+  /** Opções da tela de filtro. Vazio = todos os níveis. */
+  dificuldades?: DificuldadeFiltro[];
+  tipo?: TipoQuestao;
 };
+
+/**
+ * Certo ou errado (estilo Cebraspe) é guardado como duas alternativas, "Certo" e "Errado" (docs/FORMATO-QUESTOES.md).
+ * Não há coluna própria: o filtro confere o JSON da linha que o índice (matéria ou área, ordem) já está lendo.
+ */
+const EH_CERTO_ERRADO = sql`(json_array_length(${questoes.alternativas}) = 2 and exists (select 1 from json_each(${questoes.alternativas}) where lower(trim(json_extract(value, '$.texto'))) = 'certo'))`;
+
+/** Filtros de dificuldade e tipo: conferidos na linha, sem índice próprio (não mudam o plano da listagem). */
+export function filtrosDeOpcoes(dificuldades: DificuldadeFiltro[] | undefined, tipo: TipoQuestao | undefined) {
+  const condicoes: SQL[] = [];
+  // O "+" impede o SQLite de trocar o índice da listagem por outro caminho.
+  if (dificuldades?.length && dificuldades.length < 3)
+    condicoes.push(sql`+${questoes.dificuldade} in (${sql.join(dificuldades.map((d) => sql`${NIVEL_DIFICULDADE[d]}`), sql`, `)})`);
+  if (tipo === "certo_errado") condicoes.push(EH_CERTO_ERRADO);
+  if (tipo === "multipla") condicoes.push(sql`not ${EH_CERTO_ERRADO}`);
+  return condicoes;
+}
 
 /**
  * Filtro de área para listagens ordenadas. Uma área: usa o índice (assunto, ordem). Várias: o "+" impede
@@ -58,13 +79,14 @@ export async function listarAssuntos(disciplinaId: number) {
 export async function listarQuestoes(
   filtros: FiltrosQuestoes & { inicio: number; cursor?: CursorQuestoes; voltou: boolean },
 ) {
-  const { usuarioId, disciplinaId, assuntoIds, status, inicio, cursor, voltou } = filtros;
+  const { usuarioId, disciplinaId, assuntoIds, status, inicio, cursor, voltou, dificuldades, tipo } = filtros;
 
   // Questão reportada por aluno fica fora do ar até ser revisada.
   const condicoes: SQL[] = [eq(questoes.suspensa, false)];
   if (disciplinaId) condicoes.push(eq(questoes.disciplinaId, disciplinaId));
   const areas = filtroAreas(questoes.assuntoId, assuntoIds);
   if (areas) condicoes.push(areas);
+  condicoes.push(...filtrosDeOpcoes(dificuldades, tipo));
 
   if (status === "nao_resolvidas") condicoes.push(isNull(statusQuestao.questaoId));
   if (status === "resolvidas") condicoes.push(isNotNull(statusQuestao.questaoId));

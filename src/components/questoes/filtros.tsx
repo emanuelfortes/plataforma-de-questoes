@@ -6,10 +6,12 @@ import { cn, formatarNumero } from "@/lib/utils";
 import { FILTROS_STATUS, type FiltroStatus } from "@/lib/filtros";
 import { CONFIG_FILTRO } from "./icone-status";
 
-// Matéria, área e nível são escolhidos na tela Estudar; aqui fica só o status do aluno.
+// Matéria, área, dificuldade e tipo são escolhidos na tela Estudar; aqui fica só o status do aluno.
 type Props = {
   contagens: Record<FiltroStatus, number>;
   atual: { status: FiltroStatus };
+  /** Com dificuldade ou tipo escolhidos, os totais pré-calculados não valem: mostra só os nomes. */
+  semNumeros?: boolean;
 };
 
 // Cor do pontinho de cada status (substitui o ícone; mais limpo no fundo escuro).
@@ -21,7 +23,7 @@ const PONTO: Record<FiltroStatus, string> = {
   errei: "bg-erro",
 };
 
-export function Filtros({ contagens, atual }: Props) {
+export function Filtros({ contagens, atual, semNumeros = false }: Props) {
   const router = useRouter();
   const caminho = usePathname();
   const params = useSearchParams();
@@ -62,7 +64,7 @@ export function Filtros({ contagens, atual }: Props) {
             >
               <span className={cn("size-1.5 rounded-full", PONTO[status])} aria-hidden />
               {CONFIG_FILTRO[status].rotulo}
-              <span className="tabular-nums opacity-60">{formatarNumero(contagens[status])}</span>
+              {!semNumeros && <span className="tabular-nums opacity-60">{formatarNumero(contagens[status])}</span>}
             </button>
           );
         })}

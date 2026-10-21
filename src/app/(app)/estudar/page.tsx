@@ -5,7 +5,7 @@ import { ArvoreEstudo } from "@/components/estudar/arvore-estudo";
 import { lerId } from "@/lib/filtros";
 import { exigirUsuario } from "@/lib/sessao";
 import { formatarNumero } from "@/lib/utils";
-import { arvoreDeEstudo, totaisPorTipo, type TipoEstudo } from "@/server/estudar";
+import { arvoreDeEstudo, temCertoErrado, totaisPorTipo, type TipoEstudo } from "@/server/estudar";
 
 export const metadata: Metadata = { title: "Estudar" };
 
@@ -76,7 +76,10 @@ export default async function PaginaEstudar({ searchParams }: { searchParams: Pa
 
   // Passo 2: matéria e áreas, em árvore de pastas (estilo TEC). O nível não é escolhido:
   // as questões vêm misturadas, como na prova.
-  const materias = await arvoreDeEstudo(tipo);
+  const [materias, comCertoErrado] = await Promise.all([
+    arvoreDeEstudo(tipo),
+    tipo === "questoes" ? temCertoErrado() : false,
+  ]);
   const unidade = tipo === "questoes" ? "questões" : "cards";
   const abertaInicial = lerId(typeof sp.disciplina === "string" ? sp.disciplina : undefined);
 
@@ -93,6 +96,8 @@ export default async function PaginaEstudar({ searchParams }: { searchParams: Pa
           destino={TIPOS[tipo].destino}
           unidade={unidade}
           abertaInicial={abertaInicial}
+          comOpcoes={tipo === "questoes"}
+          comTipoQuestao={comCertoErrado}
         />
       )}
     </div>

@@ -28,6 +28,13 @@ export function avisosDoLote(questoes: { disciplina: string; alternativas: { let
     avisos.push(
       `${pena} de ${penais.length} questões penais (${Math.round((100 * pena) / penais.length)}%) giram em torno de quantidade de pena. O ideal é até ${Math.round(LIMITE_PENA_NO_LOTE * 100)}%: peça à IA para cobrar o crime em vez da pena.`,
     );
+  // Certo ou errado: com o gabarito quase todo igual, o aluno acerta chutando sempre o mesmo.
+  const ce = questoes.filter((q) => q.alternativas.length === 2 && q.alternativas.some((a) => /^certo$/i.test(a.texto.trim())));
+  const certos = ce.filter((q) => /^certo$/i.test(q.alternativas.find((a) => a.letra === q.gabarito)?.texto.trim() ?? "")).length;
+  if (ce.length >= 10 && (certos / ce.length < 0.35 || certos / ce.length > 0.65))
+    avisos.push(
+      `Das ${ce.length} questões de certo ou errado, ${certos} têm gabarito "Certo" (${Math.round((100 * certos) / ce.length)}%). O ideal é perto de metade: peça à IA para equilibrar.`,
+    );
   const multiplas = questoes.filter((q) => q.alternativas.length >= 4);
   const longas = multiplas.filter(corretaMaisLonga).length;
   if (multiplas.length >= 10 && longas / multiplas.length > 0.35)

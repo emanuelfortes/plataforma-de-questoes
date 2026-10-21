@@ -1,0 +1,998 @@
+{
+  "_leia": "Ordem e pastas da tela de filtro, por matéria. Item: nome da área (texto), pasta { pasta, areas: [...] } (pode ter pastas dentro) ou área com classificação { area, artigos, termos?, exceto? }: a importação e scripts/publicacao/reclassificar-crimes.ts põem na área a questão que cita um desses artigos do CP ou cujo enunciado bate com 'termos' (regex). A área com o mesmo nome da pasta guarda o que não deu para classificar e aparece como 'Demais ...'. Área que não está aqui vai para o fim, em ordem alfabética. Nomes comparados sem maiúsculas, acentos e plural (chaveNome).",
+  "Língua Portuguesa": [
+    "Interpretação de Texto",
+    "Tipologia e Gêneros Textuais",
+    "Coesão e Coerência",
+    "Significação de Palavras e Expressões",
+    "Reescrita de Frases e Equivalência de Estruturas",
+    "Ortografia",
+    "Acentuação Gráfica",
+    "Estrutura e Formação de Palavras",
+    "Classes de Palavras",
+    "Tempos e Modos Verbais",
+    "Pronomes: Emprego, Tratamento e Colocação",
+    "Sintaxe: Coordenação e Subordinação",
+    "Pontuação",
+    "Concordância Verbal",
+    "Concordância Nominal",
+    "Regência Verbal",
+    "Regência Nominal",
+    "Crase"
+  ],
+  "Raciocínio Lógico": [
+    "Estruturas Lógicas e Relações Arbitrárias",
+    "Lógica de Argumentação e Raciocínio Verbal",
+    "Raciocínio Sequencial, Espacial e Temporal",
+    "Conjuntos",
+    "Problemas Aritméticos, Geométricos e Matriciais"
+  ],
+  "Informática": [
+    "Hardware",
+    "Sistemas Operacionais Windows e Linux",
+    "Editor de Textos (Writer)",
+    "Planilhas Eletrônicas (Calc)",
+    "Editor de Apresentações (Impress)",
+    "Correio Eletrônico",
+    "Internet e Navegadores",
+    "Ferramentas de Reunião On-line",
+    "Segurança da Informação",
+    "Extensões de Arquivos",
+    "Criptomoedas"
+  ],
+  "Direito Constitucional": [
+    "Teoria da Constituição",
+    "Princípios Fundamentais",
+    "Direitos e Garantias Fundamentais",
+    "Direitos Sociais",
+    "Nacionalidade",
+    "Direitos Políticos e Partidos Políticos",
+    "Remédios Constitucionais",
+    "Aplicabilidade das Normas Constitucionais",
+    "Controle de Constitucionalidade",
+    "Organização do Estado",
+    "Administração Pública na Constituição",
+    "Poder Legislativo e Processo Legislativo",
+    "Poder Executivo",
+    "Poder Judiciário",
+    "Funções Essenciais à Justiça",
+    "Segurança Pública na Constituição",
+    "Forças Armadas",
+    "Política Urbana",
+    "Ordem Social",
+    "Ordem Econômica"
+  ],
+  "Direitos Humanos": [
+    "Teoria dos Direitos Humanos",
+    "Direitos Humanos na Constituição e Política Nacional",
+    "Violência de Gênero e Doméstica",
+    "Igualdade Racial e Combate à Discriminação",
+    "Pessoa com Deficiência",
+    "Tortura e Violência de Estado"
+  ],
+  "Direito Administrativo": [
+    "Estado, Governo e Administração Pública",
+    "Princípios da Administração Pública",
+    "Modelos de Administração e Governança",
+    "Organização Administrativa",
+    "Atos Administrativos",
+    "Poderes Administrativos",
+    "Licitações e Contratos Administrativos",
+    "Serviços Públicos e Delegação",
+    "Controle da Administração Pública",
+    "Responsabilidade Civil do Estado",
+    "Improbidade Administrativa",
+    "Processo Administrativo",
+    "Lei Geral de Proteção de Dados"
+  ],
+  "Administração Pública e Ética": [
+    "Organizações Formais e Estrutura Organizacional",
+    "Processo Organizacional",
+    "Gestão de Processos e de Contratos",
+    "Planejamento Estratégico",
+    "Relações Humanas no Trabalho",
+    "Ética e Cidadania no Serviço Público"
+  ],
+  "Direito Penal": [
+    "Aplicação da Lei Penal",
+    "Teoria do Crime e Fato Típico",
+    "Consumação, Tentativa e Desistência",
+    "Ilicitude e Excludentes",
+    "Culpabilidade e Imputabilidade",
+    "Concurso de Pessoas",
+    "Concurso de Crimes",
+    "Penas e Medidas de Segurança",
+    "Ação Penal, Punibilidade e Prescrição",
+    {
+      "pasta": "Crimes contra a Pessoa",
+      "areas": [
+        {
+          "pasta": "Crimes contra a Vida",
+          "areas": [
+            {
+              "area": "Homicídio",
+              "artigos": [
+                "121"
+              ],
+              "termos": "homic[ií]dio",
+              "exceto": "feminic[ií]dio"
+            },
+            {
+              "area": "Feminicídio",
+              "artigos": [
+                "121-A"
+              ],
+              "termos": "feminic[ií]dio"
+            },
+            {
+              "area": "Induzimento, Instigação ou Auxílio a Suicídio ou a Automutilação",
+              "artigos": [
+                "122"
+              ],
+              "termos": "suic[ií]dio|automutila"
+            },
+            {
+              "area": "Infanticídio",
+              "artigos": [
+                "123"
+              ],
+              "termos": "infantic[ií]dio"
+            },
+            {
+              "area": "Aborto",
+              "artigos": [
+                "124-128"
+              ],
+              "termos": "aborto"
+            }
+          ]
+        },
+        {
+          "area": "Lesão Corporal",
+          "artigos": [
+            "129"
+          ],
+          "termos": "les[ãa]o corporal|les[õo]es corporais"
+        },
+        {
+          "pasta": "Periclitação da Vida e da Saúde",
+          "areas": [
+            {
+              "area": "Perigo de Contágio",
+              "artigos": [
+                "130",
+                "131"
+              ],
+              "termos": "perigo de cont[áa]gio"
+            },
+            {
+              "area": "Perigo para a Vida ou Saúde de Outrem",
+              "artigos": [
+                "132"
+              ],
+              "termos": "perigo para a vida ou (a )?sa[úu]de de outrem"
+            },
+            {
+              "area": "Abandono de Incapaz e de Recém-Nascido",
+              "artigos": [
+                "133",
+                "134"
+              ],
+              "termos": "abandono de incapaz|abandono de rec[ée]m"
+            },
+            {
+              "area": "Omissão de Socorro",
+              "artigos": [
+                "135",
+                "135-A"
+              ],
+              "termos": "omiss[ãa]o de socorro|atendimento m[ée]dico-hospitalar emergencial"
+            },
+            {
+              "area": "Maus-Tratos",
+              "artigos": [
+                "136"
+              ],
+              "termos": "maus-tratos"
+            }
+          ]
+        },
+        {
+          "area": "Rixa",
+          "artigos": [
+            "137"
+          ],
+          "termos": "\\brixa\\b"
+        },
+        {
+          "pasta": "Crimes contra a Honra",
+          "areas": [
+            {
+              "area": "Calúnia",
+              "artigos": [
+                "138"
+              ],
+              "termos": "cal[úu]nia"
+            },
+            {
+              "area": "Difamação",
+              "artigos": [
+                "139"
+              ],
+              "termos": "difama[çc][ãa]o"
+            },
+            {
+              "area": "Injúria",
+              "artigos": [
+                "140"
+              ],
+              "termos": "inj[úu]ria"
+            },
+            {
+              "area": "Disposições Comuns aos Crimes contra a Honra",
+              "artigos": [
+                "141-145"
+              ],
+              "termos": "retrata[çc][ãa]o|exce[çc][ãa]o da verdade"
+            }
+          ]
+        },
+        {
+          "pasta": "Crimes contra a Liberdade Individual",
+          "areas": [
+            {
+              "area": "Constrangimento Ilegal",
+              "artigos": [
+                "146"
+              ],
+              "termos": "constrangimento ilegal"
+            },
+            {
+              "area": "Ameaça",
+              "artigos": [
+                "147"
+              ],
+              "termos": "\\bamea[çc]a\\b"
+            },
+            {
+              "area": "Perseguição (Stalking)",
+              "artigos": [
+                "147-A"
+              ],
+              "termos": "persegui[çc][ãa]o|stalking"
+            },
+            {
+              "area": "Violência Psicológica contra a Mulher",
+              "artigos": [
+                "147-B"
+              ],
+              "termos": "viol[êe]ncia psicol[óo]gica"
+            },
+            {
+              "area": "Sequestro e Cárcere Privado",
+              "artigos": [
+                "148"
+              ],
+              "termos": "c[áa]rcere privado|sequestro",
+              "exceto": "extors[ãa]o mediante sequestro"
+            },
+            {
+              "area": "Redução a Condição Análoga à de Escravo",
+              "artigos": [
+                "149"
+              ],
+              "termos": "an[áa]loga [àa] de escravo"
+            },
+            {
+              "area": "Tráfico de Pessoas",
+              "artigos": [
+                "149-A"
+              ],
+              "termos": "tr[áa]fico de pessoas"
+            },
+            {
+              "area": "Violação de Domicílio",
+              "artigos": [
+                "150"
+              ],
+              "termos": "viola[çc][ãa]o de domic[ií]lio"
+            },
+            {
+              "area": "Crimes contra a Inviolabilidade de Correspondência e dos Segredos",
+              "artigos": [
+                "151",
+                "152",
+                "153",
+                "154"
+              ],
+              "termos": "correspond[êe]ncia|divulga[çc][ãa]o de segredo|viola[çc][ãa]o do segredo profissional"
+            },
+            {
+              "area": "Invasão de Dispositivo Informático",
+              "artigos": [
+                "154-A",
+                "154-B"
+              ],
+              "termos": "invas[ãa]o de dispositivo inform[áa]tico"
+            }
+          ]
+        },
+        "Crimes contra a Pessoa"
+      ]
+    },
+    {
+      "pasta": "Crimes contra o Patrimônio",
+      "areas": [
+        {
+          "area": "Furto",
+          "artigos": [
+            "155",
+            "156"
+          ],
+          "termos": "\\bfurto\\b"
+        },
+        {
+          "pasta": "Roubo e Extorsão",
+          "areas": [
+            {
+              "area": "Roubo",
+              "artigos": [
+                "157"
+              ],
+              "termos": "\\broubo\\b|latroc[ií]nio"
+            },
+            {
+              "area": "Extorsão",
+              "artigos": [
+                "158"
+              ],
+              "termos": "\\bextors[ãa]o\\b",
+              "exceto": "extors[ãa]o mediante sequestro|extors[ãa]o indireta"
+            },
+            {
+              "area": "Extorsão Mediante Sequestro",
+              "artigos": [
+                "159"
+              ],
+              "termos": "extors[ãa]o mediante sequestro"
+            },
+            {
+              "area": "Extorsão Indireta",
+              "artigos": [
+                "160"
+              ],
+              "termos": "extors[ãa]o indireta"
+            }
+          ]
+        },
+        {
+          "area": "Usurpação",
+          "artigos": [
+            "161",
+            "162"
+          ],
+          "termos": "usurpa[çc][ãa]o|altera[çc][ãa]o de limites|esbulho possess[óo]rio"
+        },
+        {
+          "area": "Dano",
+          "artigos": [
+            "163-167"
+          ],
+          "termos": "\\bdano\\b"
+        },
+        {
+          "area": "Apropriação Indébita",
+          "artigos": [
+            "168",
+            "168-A",
+            "169",
+            "170"
+          ],
+          "termos": "apropria[çc][ãa]o ind[ée]bita"
+        },
+        {
+          "area": "Estelionato e Outras Fraudes",
+          "artigos": [
+            "171",
+            "171-A",
+            "172-179"
+          ],
+          "termos": "estelionato|fraude eletr[ôo]nica|duplicata simulada"
+        },
+        {
+          "area": "Receptação",
+          "artigos": [
+            "180",
+            "180-A"
+          ],
+          "termos": "recepta[çc][ãa]o"
+        },
+        {
+          "area": "Disposições Gerais (Imunidades)",
+          "artigos": [
+            "181-183"
+          ],
+          "termos": "imunidade|escusa absolut[óo]ria"
+        },
+        "Crimes contra o Patrimônio"
+      ]
+    },
+    {
+      "pasta": "Crimes contra a Dignidade Sexual",
+      "areas": [
+        {
+          "area": "Estupro",
+          "artigos": [
+            "213"
+          ],
+          "termos": "\\bestupro\\b",
+          "exceto": "estupro de vulner[áa]vel"
+        },
+        {
+          "area": "Violação Sexual Mediante Fraude",
+          "artigos": [
+            "215"
+          ],
+          "termos": "viola[çc][ãa]o sexual mediante fraude"
+        },
+        {
+          "area": "Importunação Sexual",
+          "artigos": [
+            "215-A"
+          ],
+          "termos": "importuna[çc][ãa]o sexual"
+        },
+        {
+          "area": "Assédio Sexual",
+          "artigos": [
+            "216-A"
+          ],
+          "termos": "ass[ée]dio sexual"
+        },
+        {
+          "area": "Registro Não Autorizado da Intimidade Sexual",
+          "artigos": [
+            "216-B"
+          ],
+          "termos": "registro n[ãa]o autorizado"
+        },
+        {
+          "area": "Estupro de Vulnerável",
+          "artigos": [
+            "217-A"
+          ],
+          "termos": "estupro de vulner[áa]vel"
+        },
+        {
+          "area": "Outros Crimes contra Vulnerável",
+          "artigos": [
+            "218",
+            "218-A",
+            "218-B"
+          ],
+          "termos": "corrup[çc][ãa]o de menores|satisfa[çc][ãa]o de lasc[ií]via|favorecimento da prostitui[çc][ãa]o.*vulner[áa]vel"
+        },
+        {
+          "area": "Divulgação de Cena de Estupro, Sexo ou Nudez",
+          "artigos": [
+            "218-C"
+          ],
+          "termos": "divulga[çc][ãa]o de cena|cena de (sexo|nudez|estupro)|pornografia de vingan[çc]a"
+        },
+        {
+          "area": "Lenocínio e Exploração Sexual",
+          "artigos": [
+            "227-232"
+          ],
+          "termos": "lenoc[ií]nio|rufianismo|casa de prostitui[çc][ãa]o|media[çc][ãa]o para servir"
+        },
+        {
+          "area": "Ultraje Público ao Pudor",
+          "artigos": [
+            "233",
+            "234"
+          ],
+          "termos": "ato obsceno|escrito ou objeto obsceno"
+        },
+        "Crimes contra a Dignidade Sexual"
+      ]
+    },
+    {
+      "pasta": "Crimes contra a Incolumidade Pública",
+      "areas": [
+        {
+          "area": "Crimes de Perigo Comum",
+          "artigos": [
+            "250-259"
+          ],
+          "termos": "inc[êe]ndio|explos[ãa]o|inunda[çc][ãa]o|desabamento|perigo comum"
+        },
+        {
+          "area": "Crimes contra a Segurança dos Meios de Comunicação e Transporte",
+          "artigos": [
+            "260-266"
+          ],
+          "termos": "atentado contra a seguran[çc]a|transporte|arremesso de proj[ée]til"
+        },
+        {
+          "area": "Crimes contra a Saúde Pública",
+          "artigos": [
+            "267-285"
+          ],
+          "termos": "epidemia|envenenamento de [áa]gua|falsifica[çc][ãa]o.*(medicinal|terap[êe]utic)|exerc[ií]cio ilegal da medicina|charlatanismo|curandeirismo|sa[úu]de p[úu]blica"
+        },
+        "Crimes contra a Incolumidade Pública"
+      ]
+    },
+    {
+      "pasta": "Crimes contra a Paz Pública",
+      "areas": [
+        {
+          "area": "Incitação e Apologia ao Crime",
+          "artigos": [
+            "286",
+            "287"
+          ],
+          "termos": "incita[çc][ãa]o ao crime|apologia"
+        },
+        {
+          "area": "Associação Criminosa",
+          "artigos": [
+            "288"
+          ],
+          "termos": "associa[çc][ãa]o criminosa"
+        },
+        {
+          "area": "Constituição de Milícia Privada",
+          "artigos": [
+            "288-A"
+          ],
+          "termos": "mil[ií]cia"
+        },
+        "Crimes contra a Paz Pública"
+      ]
+    },
+    {
+      "pasta": "Crimes contra a Fé Pública",
+      "areas": [
+        {
+          "area": "Moeda Falsa",
+          "artigos": [
+            "289-292"
+          ],
+          "termos": "moeda falsa|falsifica[çc][ãa]o de moeda|petrechos"
+        },
+        {
+          "area": "Falsidade de Títulos e Papéis Públicos",
+          "artigos": [
+            "293-295"
+          ],
+          "termos": "pap[ée]is p[úu]blicos|t[ií]tulos p[úu]blicos"
+        },
+        {
+          "pasta": "Falsidade Documental",
+          "areas": [
+            {
+              "area": "Falsificação de Documento Público",
+              "artigos": [
+                "297"
+              ],
+              "termos": "falsifica[çc][ãa]o de documento p[úu]blico|equipara.{0,20}documento p[úu]blico"
+            },
+            {
+              "area": "Falsificação de Documento Particular",
+              "artigos": [
+                "298"
+              ],
+              "termos": "falsifica[çc][ãa]o de documento particular"
+            },
+            {
+              "area": "Falsidade Ideológica",
+              "artigos": [
+                "299"
+              ],
+              "termos": "falsidade ideol[óo]gica"
+            },
+            {
+              "area": "Uso de Documento Falso",
+              "artigos": [
+                "304"
+              ],
+              "termos": "uso de documento falso"
+            },
+            {
+              "area": "Outras Falsidades Documentais",
+              "artigos": [
+                "296",
+                "300",
+                "301",
+                "302",
+                "303",
+                "305"
+              ],
+              "termos": "falso reconhecimento de firma|certid[ãa]o.*falsa|atestado.*falso|supress[ãa]o de documento"
+            }
+          ]
+        },
+        {
+          "area": "Outras Falsidades",
+          "artigos": [
+            "306",
+            "307",
+            "308",
+            "309",
+            "310",
+            "311"
+          ],
+          "termos": "falsa identidade|adultera[çc][ãa]o de sinal identificador"
+        },
+        {
+          "area": "Fraudes em Certames de Interesse Público",
+          "artigos": [
+            "311-A"
+          ],
+          "termos": "fraude[s]? em certame"
+        },
+        "Crimes contra a Fé Pública"
+      ]
+    },
+    {
+      "pasta": "Crimes contra a Administração Pública",
+      "areas": [
+        {
+          "pasta": "Crimes Praticados por Funcionário Público",
+          "areas": [
+            {
+              "area": "Peculato",
+              "artigos": [
+                "312",
+                "313"
+              ],
+              "termos": "peculato"
+            },
+            {
+              "area": "Concussão e Excesso de Exação",
+              "artigos": [
+                "316"
+              ],
+              "termos": "concuss[ãa]o|excesso de exa[çc][ãa]o"
+            },
+            {
+              "area": "Corrupção Passiva",
+              "artigos": [
+                "317"
+              ],
+              "termos": "corrup[çc][ãa]o passiva"
+            },
+            {
+              "area": "Prevaricação",
+              "artigos": [
+                "319",
+                "319-A"
+              ],
+              "termos": "prevarica[çc][ãa]o"
+            },
+            {
+              "area": "Condescendência Criminosa",
+              "artigos": [
+                "320"
+              ],
+              "termos": "condescend[êe]ncia criminosa"
+            },
+            {
+              "area": "Advocacia Administrativa",
+              "artigos": [
+                "321"
+              ],
+              "termos": "advocacia administrativa"
+            },
+            {
+              "area": "Violação de Sigilo Funcional",
+              "artigos": [
+                "325"
+              ],
+              "termos": "viola[çc][ãa]o de sigilo funcional"
+            },
+            {
+              "area": "Outros Crimes de Funcionário Público",
+              "artigos": [
+                "313-A",
+                "313-B",
+                "314",
+                "315",
+                "318",
+                "322",
+                "323",
+                "324",
+                "326"
+              ],
+              "termos": "emprego irregular de verbas|abandono de fun[çc][ãa]o|viol[êe]ncia arbitr[áa]ria|extravio, sonega[çc][ãa]o|inser[çc][ãa]o de dados falsos|facilita[çc][ãa]o de contrabando"
+            },
+            {
+              "area": "Conceito de Funcionário Público",
+              "artigos": [
+                "327"
+              ],
+              "termos": "funcion[áa]rio p[úu]blico por equipara[çc][ãa]o|conceito de funcion[áa]rio p[úu]blico"
+            }
+          ]
+        },
+        {
+          "pasta": "Crimes Praticados por Particular contra a Administração",
+          "areas": [
+            {
+              "area": "Usurpação de Função Pública",
+              "artigos": [
+                "328"
+              ],
+              "termos": "usurpa[çc][ãa]o de fun[çc][ãa]o"
+            },
+            {
+              "area": "Resistência",
+              "artigos": [
+                "329"
+              ],
+              "termos": "resist[êe]ncia"
+            },
+            {
+              "area": "Desobediência",
+              "artigos": [
+                "330"
+              ],
+              "termos": "desobedi[êe]ncia"
+            },
+            {
+              "area": "Desacato",
+              "artigos": [
+                "331"
+              ],
+              "termos": "desacato"
+            },
+            {
+              "area": "Tráfico de Influência",
+              "artigos": [
+                "332"
+              ],
+              "termos": "tr[áa]fico de influ[êe]ncia"
+            },
+            {
+              "area": "Corrupção Ativa",
+              "artigos": [
+                "333"
+              ],
+              "termos": "corrup[çc][ãa]o ativa"
+            },
+            {
+              "area": "Descaminho e Contrabando",
+              "artigos": [
+                "334",
+                "334-A"
+              ],
+              "termos": "descaminho|contrabando",
+              "exceto": "facilita[çc][ãa]o de contrabando"
+            },
+            {
+              "area": "Outros Crimes de Particular contra a Administração",
+              "artigos": [
+                "335",
+                "336",
+                "337",
+                "337-A"
+              ],
+              "termos": "inutiliza[çc][ãa]o de edital|subtra[çc][ãa]o ou inutiliza[çc][ãa]o de livro|sonega[çc][ãa]o de contribui[çc][ãa]o previdenci[áa]ria"
+            }
+          ]
+        },
+        {
+          "area": "Crimes contra a Administração Pública Estrangeira",
+          "artigos": [
+            "337-B",
+            "337-C",
+            "337-D"
+          ],
+          "termos": "administra[çc][ãa]o p[úu]blica estrangeira"
+        },
+        {
+          "area": "Crimes em Licitações e Contratos Administrativos",
+          "artigos": [
+            "337-E",
+            "337-F",
+            "337-G",
+            "337-H",
+            "337-I",
+            "337-J",
+            "337-K",
+            "337-L",
+            "337-M",
+            "337-N",
+            "337-O",
+            "337-P"
+          ],
+          "termos": "licita[çc][ãa]o|contrata[çc][ãa]o direta"
+        },
+        {
+          "pasta": "Crimes contra a Administração da Justiça",
+          "areas": [
+            {
+              "area": "Denunciação Caluniosa",
+              "artigos": [
+                "339"
+              ],
+              "termos": "denuncia[çc][ãa]o caluniosa"
+            },
+            {
+              "area": "Comunicação Falsa de Crime",
+              "artigos": [
+                "340"
+              ],
+              "termos": "comunica[çc][ãa]o falsa de crime"
+            },
+            {
+              "area": "Autoacusação Falsa",
+              "artigos": [
+                "341"
+              ],
+              "termos": "autoacusa[çc][ãa]o falsa"
+            },
+            {
+              "area": "Falso Testemunho ou Falsa Perícia",
+              "artigos": [
+                "342",
+                "343"
+              ],
+              "termos": "falso testemunho|falsa per[ií]cia"
+            },
+            {
+              "area": "Coação no Curso do Processo",
+              "artigos": [
+                "344"
+              ],
+              "termos": "coa[çc][ãa]o no curso do processo"
+            },
+            {
+              "area": "Exercício Arbitrário das Próprias Razões",
+              "artigos": [
+                "345",
+                "346"
+              ],
+              "termos": "exerc[ií]cio arbitr[áa]rio das pr[óo]prias raz[õo]es"
+            },
+            {
+              "area": "Fraude Processual",
+              "artigos": [
+                "347"
+              ],
+              "termos": "fraude processual"
+            },
+            {
+              "area": "Favorecimento Pessoal e Real",
+              "artigos": [
+                "348",
+                "349",
+                "349-A"
+              ],
+              "termos": "favorecimento (pessoal|real)"
+            },
+            {
+              "area": "Fuga de Pessoa Presa",
+              "artigos": [
+                "351",
+                "352"
+              ],
+              "termos": "fuga de pessoa presa|evas[ãa]o mediante viol[êe]ncia"
+            },
+            {
+              "area": "Outros Crimes contra a Administração da Justiça",
+              "artigos": [
+                "338",
+                "350",
+                "353",
+                "354",
+                "355",
+                "356",
+                "357",
+                "358",
+                "359"
+              ],
+              "termos": "reingresso de estrangeiro|arrebatamento de preso|motim de presos|patroc[ií]nio infiel|explora[çc][ãa]o de prest[ií]gio|desobedi[êe]ncia a decis[ãa]o judicial"
+            }
+          ]
+        },
+        {
+          "area": "Crimes contra as Finanças Públicas",
+          "artigos": [
+            "359-A",
+            "359-B",
+            "359-C",
+            "359-D",
+            "359-E",
+            "359-F",
+            "359-G",
+            "359-H"
+          ],
+          "termos": "finan[çc]as p[úu]blicas|opera[çc][ãa]o de cr[ée]dito"
+        },
+        "Crimes contra a Administração Pública"
+      ]
+    },
+    "Uso da Força e Funções da Polícia",
+    "Jurisprudência dos Tribunais Superiores em Matéria Penal"
+  ],
+  "Direito Processual Penal": [
+    "Princípios e Lei Processual Penal",
+    "Inquérito Policial",
+    "Ação Penal",
+    "Provas: Disposições Gerais e Provas Ilícitas",
+    "Corpo de Delito, Cadeia de Custódia e Perícias",
+    "Interrogatório, Confissão, Ofendido e Testemunhas",
+    "Busca e Apreensão",
+    "Prisão em Flagrante",
+    "Prisão Preventiva e Medidas Cautelares",
+    "Prisão Temporária",
+    "Liberdade Provisória e Fiança",
+    "Habeas Corpus",
+    "Crimes de Responsabilidade dos Funcionários Públicos",
+    "Revisão Criminal e Execução Penal",
+    "Interceptação Telefônica",
+    "Organização Criminosa",
+    "Investigação pelo Delegado e pelo Ministério Público",
+    "Identificação Criminal",
+    "Jurisprudência dos Tribunais Superiores em Processo Penal"
+  ],
+  "Legislação Penal Especial": [
+    "Lei de Drogas",
+    "Estatuto do Desarmamento",
+    "Lei Maria da Penha",
+    "Abuso de Autoridade",
+    "Crimes Hediondos",
+    "Lei de Tortura",
+    "Crimes Ambientais",
+    "Crimes de Racismo",
+    "Estatuto da Criança e do Adolescente",
+    "Código de Trânsito Brasileiro",
+    "Estatuto da Pessoa Idosa",
+    "Juizados Especiais Criminais",
+    "Pacote Anticrime",
+    "Lavagem de Dinheiro",
+    "Contravenções Penais",
+    "Lei Antiterrorismo",
+    "Crimes contra a Economia Popular e a Ordem Tributária",
+    "Crimes contra as Relações de Consumo",
+    "Crimes Eleitorais",
+    "Proteção a Vítimas e Testemunhas",
+    "Crimes no Esporte (Lei Geral do Esporte)"
+  ],
+  "Direito Penal Militar": [
+    "Aplicação da Lei Penal Militar",
+    "Crime Militar: Conceito e Classificação",
+    "Imputabilidade e Concurso de Agentes no CPM",
+    "Penas e Medidas de Segurança no CPM",
+    "Ação Penal Militar e Extinção da Punibilidade",
+    "Crimes Militares contra a Pessoa e o Patrimônio",
+    "Crimes contra a Administração Militar",
+    "Crimes em Tempo de Guerra"
+  ],
+  "Legislação Estadual e Municipal": [
+    "Constituição do Ceará: Segurança Pública e Defesa Civil",
+    "Estatuto dos Servidores Civis do Ceará",
+    "Estatuto da Polícia Civil do Ceará",
+    "Controladoria Geral de Disciplina do Ceará",
+    "Estatuto Geral das Guardas Municipais",
+    "Lei Orgânica de Fortaleza",
+    "Estatuto dos Servidores de Fortaleza"
+  ],
+  "Segurança Pública": [
+    "Segurança Pública e Direitos Humanos",
+    "Instituições de Segurança Pública e Sistema Prisional",
+    "Crime Organizado e Corrupção Policial",
+    "Participação Social e Acesso à Justiça",
+    "PRONASCI"
+  ],
+  "História e Geografia do Ceará": [
+    "Ceará Colonial",
+    "Ceará Imperial",
+    "Ceará na República",
+    "Fortaleza: Geografia",
+    "Fortaleza: História, População e Cultura"
+  ]
+}

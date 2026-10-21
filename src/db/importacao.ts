@@ -9,6 +9,8 @@ import type { Db } from "./index";
 import { assuntos, contagens, disciplinas, flashcards, questoes } from "./schema";
 import { chaveNome, nomesPreferidos, normalizar } from "../lib/catalogo";
 import { NIVEL_DIFICULDADE } from "../lib/dificuldade";
+import { ehCertoErrado } from "../lib/filtros";
+import { classificarArea } from "../lib/ordem-areas";
 import { esquemaFlashcard, esquemaQuestao, type LinhaFlashcard, type LinhaQuestao } from "../lib/formato-jsonl";
 
 export type QuestaoPronta = LinhaQuestao & { codigo: string };
@@ -169,13 +171,18 @@ export function criarGravador(db: Db) {
     return a!.id;
   }
 
-  async function somarContagens(prefixo: "q" | "f", linhas: { disciplinaId: number; assuntoId: number | null }[]) {
+  async function somarContagens(
+    prefixo: "q" | "f",
+    linhas: { disciplinaId: number; assuntoId: number | null; alternativas?: { texto: string }[] }[],
+  ) {
     if (!linhas.length) return;
     const somas = new Map<string, number>([[`${prefixo}:total`, linhas.length]]);
     const somar = (chave: string) => somas.set(chave, (somas.get(chave) ?? 0) + 1);
     for (const l of linhas) {
       somar(`${prefixo}:d:${l.disciplinaId}`);
       if (l.assuntoId) somar(`${prefixo}:a:${l.assuntoId}`);
+      // Quantas são de certo ou errado: a tela de filtro só oferece esse tipo quando existe alguma.
+      if (l.alternativas && ehCertoErrado(l.alternativas)) somar("q:ce");
     }
     await db
       .insert(contagens)
@@ -192,7 +199,17 @@ export function criarGravador(db: Db) {
       valores.push({
         codigo: q.codigo,
         disciplinaId,
-        assuntoId: await idAssunto(disciplinaId, q.assunto),
+        // Questão de um título do CP ("Crimes contra a Pessoa") vai para a área do crime ("Feminicídio")
+        // quando o artigo ou o nome do crime deixa claro (data/ordem-areas.json).
+        assuntoId: await idAssunto(
+          disciplinaId,
+          classificarArea(q.disciplina, q.assunto, {
+            principal: q.enunciado,
+            correta: q.alternativas.find((a) => a.letra === q.gabarito)?.texto,
+            resto: [q.comentario ?? "", ...q.alternativas.filter((a) => a.letra !== q.gabarito).map((a) => a.texto)].join(" "),
+            leiReferencia: q.leiReferencia,
+          }) ?? q.assunto,
+        ),
         banca: q.banca ?? null,
         ano: q.ano ?? null,
         enunciado: q.enunciado,
@@ -212,7 +229,7 @@ export function criarGravador(db: Db) {
       .insert(questoes)
       .values(valores)
       .onConflictDoNothing({ target: questoes.codigo })
-      .returning({ disciplinaId: questoes.disciplinaId, assuntoId: questoes.assuntoId });
+      .returning({ disciplinaId: questoes.disciplinaId, assuntoId: questoes.assuntoId, alternativas: questoes.alternativas });
     await somarContagens("q", inseridas);
     return inseridas.length;
   }
@@ -225,7 +242,10 @@ export function criarGravador(db: Db) {
       valores.push({
         codigo: f.codigo,
         disciplinaId,
-        assuntoId: await idAssunto(disciplinaId, f.assunto),
+        assuntoId: await idAssunto(
+          disciplinaId,
+          classificarArea(f.disciplina, f.assunto, { principal: f.frente, correta: f.verso, leiReferencia: f.leiReferencia }) ?? f.assunto,
+        ),
         frente: f.frente,
         verso: f.verso,
         origem: f.origem ?? null,

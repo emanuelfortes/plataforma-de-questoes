@@ -84,7 +84,7 @@ src/db/aprovacao.ts                       aprovar, rejeitar e reportar erro (tel
   `alternativas` é JSON na própria linha.
 - `flashcards`: frente e verso.
 - `disciplinas`, `assuntos` (matéria e área). Criadas na importação (a IA tira do PDF); nomes equivalentes são unidos por `chaveNome()` em `src/lib/catalogo.ts`.
-- `questoes.dificuldade`: 1 fácil, 2 médio, 3 difícil (`src/lib/dificuldade.ts`). Não é filtro do aluno; aparece só depois da resposta.
+- `questoes.dificuldade`: 1 fácil, 2 médio, 3 difícil (`src/lib/dificuldade.ts`). É opção do aluno na tela de filtro (Opções), mas na questão só aparece depois da resposta.
 - `questoes.ordem`: posição sorteada na importação. A listagem segue `(ordem, id)` para misturar níveis e áreas, começando num ponto sorteado por sessão.
 - `contagens`: totais pré-calculados (`q:total`, `q:d:<id>`, `q:a:<id>`, `f:total`, `f:d:<id>`, `f:a:<id>`).
 - `respostas`: histórico, uma linha por tentativa. Fonte do desempenho.

@@ -17,9 +17,36 @@ export function lerId(valor: string | undefined) {
 }
 
 /** Áreas escolhidas juntas (?assunto=3&assunto=7). Sem nenhuma = todas as áreas da matéria. */
-export const MAX_AREAS = 30;
+// 80: "Todo o conteúdo" de um título grande do CP (ex.: Administração Pública) marca dezenas de crimes.
+export const MAX_AREAS = 80;
 export function lerIds(valor: string | string[] | undefined) {
   const lista = Array.isArray(valor) ? valor : valor ? [valor] : [];
   const ids = lista.map(lerId).filter((n): n is number => n !== undefined);
   return [...new Set(ids)].slice(0, MAX_AREAS);
+}
+
+// Opções da tela de filtro (além de matéria e área). Vão na URL: ?dificuldade=facil&dificuldade=medio&tipoq=certo_errado
+export const DIFICULDADES_FILTRO = ["facil", "medio", "dificil"] as const;
+export type DificuldadeFiltro = (typeof DIFICULDADES_FILTRO)[number];
+export const ROTULO_DIFICULDADE_FILTRO: Record<DificuldadeFiltro, string> = { facil: "Fácil", medio: "Média", dificil: "Difícil" };
+
+export const TIPOS_QUESTAO = ["certo_errado", "multipla"] as const;
+export type TipoQuestao = (typeof TIPOS_QUESTAO)[number];
+export const ROTULO_TIPO_QUESTAO: Record<TipoQuestao, string> = { certo_errado: "Certo/Errado", multipla: "Múltipla escolha" };
+
+export function lerDificuldades(valor: string | string[] | undefined): DificuldadeFiltro[] {
+  const lista = Array.isArray(valor) ? valor : valor ? [valor] : [];
+  return DIFICULDADES_FILTRO.filter((d) => lista.includes(d));
+}
+
+export function lerTipoQuestao(valor: string | undefined): TipoQuestao | undefined {
+  return (TIPOS_QUESTAO as readonly string[]).includes(valor ?? "") ? (valor as TipoQuestao) : undefined;
+}
+
+/**
+ * Certo ou errado (estilo Cebraspe) chega como duas alternativas, "Certo" e "Errado" (docs/FORMATO-QUESTOES.md).
+ * Mesma regra do filtro em SQL (src/server/questoes.ts) e da contagem "q:ce".
+ */
+export function ehCertoErrado(alternativas: { texto: string }[]) {
+  return alternativas.length === 2 && alternativas.some((a) => a.texto.trim().toLowerCase() === "certo");
 }

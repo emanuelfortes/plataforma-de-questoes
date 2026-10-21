@@ -4,12 +4,20 @@ import Link from "next/link";
 import { Filtros } from "@/components/questoes/filtros";
 import { Resolucao } from "@/components/questoes/resolucao";
 import { SelecaoAtual } from "@/components/selecao-atual";
-import { lerFiltroStatus, lerId, lerIds } from "@/lib/filtros";
+import {
+  lerDificuldades,
+  lerFiltroStatus,
+  lerId,
+  lerIds,
+  lerTipoQuestao,
+  ROTULO_DIFICULDADE_FILTRO,
+  ROTULO_TIPO_QUESTAO,
+} from "@/lib/filtros";
 import { LIMITE_GRATIS_DIA } from "@/lib/planos";
 import { exigirUsuario } from "@/lib/sessao";
 import { formatarNumero } from "@/lib/utils";
 import { situacaoDoAluno } from "@/server/assinatura";
-import { nomesSelecao } from "@/server/estudar";
+import { nomesSelecao, temCertoErrado } from "@/server/estudar";
 import { contarPorStatus, listarQuestoes, TAMANHO_PAGINA, type CursorQuestoes } from "@/server/questoes";
 
 export const metadata: Metadata = { title: "Questões" };
@@ -35,6 +43,16 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
   const disciplinaId = lerId(texto("disciplina"));
   const assuntoIds = disciplinaId ? lerIds(sp.assunto) : [];
   const status = lerFiltroStatus(texto("status"));
+  const dificuldades = lerDificuldades(sp.dificuldade);
+  // Sem questões de certo ou errado no banco, o tipo é ignorado (o filtro leria a matéria inteira para nada).
+  const tipoPedido = lerTipoQuestao(texto("tipoq"));
+  const tipoQuestao = tipoPedido && (await temCertoErrado()) ? tipoPedido : undefined;
+  // Com dificuldade ou tipo, os totais pré-calculados (por matéria e área) não valem: os números somem.
+  const comOpcoes = dificuldades.length > 0 || !!tipoQuestao;
+  const resumoOpcoes = [
+    dificuldades.map((d) => ROTULO_DIFICULDADE_FILTRO[d]).join(", "),
+    tipoQuestao && ROTULO_TIPO_QUESTAO[tipoQuestao],
+  ];
   // Ponto de partida sorteado a cada sessão nova; as páginas seguintes levam o mesmo na URL.
   const inicioUrl = Number(texto("inicio"));
   const inicio = Number.isInteger(inicioUrl) && inicioUrl >= 0 ? inicioUrl : randomInt(2 ** 31);
@@ -46,7 +64,7 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
     situacaoDoAluno(usuario),
     nomesSelecao(disciplinaId, assuntoIds),
     contarPorStatus({ usuarioId: usuario.id, disciplinaId, assuntoIds }),
-    listarQuestoes({ usuarioId: usuario.id, disciplinaId, assuntoIds, status, inicio, cursor, voltou }),
+    listarQuestoes({ usuarioId: usuario.id, disciplinaId, assuntoIds, status, inicio, cursor, voltou, dificuldades, tipo: tipoQuestao }),
   ]);
 
   const proximaUrl = (() => {
@@ -55,6 +73,8 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
     if (disciplinaId) p.set("disciplina", String(disciplinaId));
     for (const id of assuntoIds) p.append("assunto", String(id));
     if (status !== "todas") p.set("status", status);
+    for (const d of dificuldades) p.append("dificuldade", d);
+    if (tipoQuestao) p.set("tipoq", tipoQuestao);
     p.set("inicio", String(inicio));
     p.set("cursor", `${proximo.cursor.ordem}.${proximo.cursor.id}`);
     if (proximo.voltou) p.set("volta", "1");
@@ -75,16 +95,18 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
             Meta de hoje: {feitasHoje} de {META_DIARIA}
             <span className="text-suave"> · {faltam ? `faltam ${faltam}` : "meta batida"}</span>
           </p>
-          <p className="tabular-nums text-suave">{formatarNumero(contagens[status])} questões neste filtro</p>
+          {!comOpcoes && (
+            <p className="tabular-nums text-suave">{formatarNumero(contagens[status])} questões neste filtro</p>
+          )}
         </div>
 
         <SelecaoAtual
           tipo="questoes"
           disciplinaId={disciplinaId}
-          partes={[nomes.disciplina, nomes.assunto]}
+          partes={[nomes.disciplina, nomes.assunto, ...resumoOpcoes]}
         />
 
-        <Filtros contagens={contagens} atual={{ status }} />
+        <Filtros contagens={contagens} atual={{ status }} semNumeros={comOpcoes} />
 
         {!situacao.assinante && (
           <p className="flex flex-wrap items-center gap-x-2 text-sm text-suave">
@@ -106,7 +128,7 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
           </div>
         ) : (
           <Resolucao
-            key={`${disciplinaId}-${assuntoIds.join(".")}-${status}-${inicio}-${texto("cursor") ?? ""}`}
+            key={`${disciplinaId}-${assuntoIds.join(".")}-${status}-${dificuldades.join(".")}-${tipoQuestao ?? ""}-${inicio}-${texto("cursor") ?? ""}`}
             questoes={questoes}
             inicio={(pagina - 1) * TAMANHO_PAGINA + 1}
             proximaUrl={proximaUrl}
