@@ -8,10 +8,8 @@ import {
   lerDificuldades,
   lerFiltroStatus,
   lerId,
-  lerSelecao,
+  lerIds,
   lerTipoQuestao,
-  parametrosSelecao,
-  type GrupoSelecao,
   ROTULO_DIFICULDADE_FILTRO,
   ROTULO_TIPO_QUESTAO,
 } from "@/lib/filtros";
@@ -19,7 +17,7 @@ import { LIMITE_GRATIS_DIA } from "@/lib/planos";
 import { exigirUsuario } from "@/lib/sessao";
 import { formatarNumero } from "@/lib/utils";
 import { situacaoDoAluno } from "@/server/assinatura";
-import { nomesSelecao, resolverSelecao, temCertoErrado } from "@/server/estudar";
+import { nomesSelecao, temCertoErrado } from "@/server/estudar";
 import { contarPorStatus, listarQuestoes, TAMANHO_PAGINA, type CursorQuestoes } from "@/server/questoes";
 
 export const metadata: Metadata = { title: "Questões" };
@@ -42,8 +40,8 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
   const sp = await searchParams;
   const texto = (k: string) => (typeof sp[k] === "string" ? (sp[k] as string) : undefined);
 
-  // Uma ou várias matérias, cada uma inteira ou com algumas áreas.
-  const grupos = await resolverSelecao(lerSelecao(sp));
+  const disciplinaId = lerId(texto("disciplina"));
+  const assuntoIds = disciplinaId ? lerIds(sp.assunto) : [];
   const status = lerFiltroStatus(texto("status"));
   const dificuldades = lerDificuldades(sp.dificuldade);
   // Sem questões de certo ou errado no banco, o tipo é ignorado (o filtro leria a matéria inteira para nada).
@@ -60,16 +58,18 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
 
   const [situacao, nomes, contagens, { questoes, proximo }] = await Promise.all([
     situacaoDoAluno(usuario),
-    nomesSelecao(grupos),
-    contarPorStatus({ usuarioId: usuario.id, grupos }),
-    listarQuestoes({ usuarioId: usuario.id, grupos, status, inicio, cursor, voltou, dificuldades, tipo: tipoQuestao }),
+    nomesSelecao(disciplinaId, assuntoIds),
+    contarPorStatus({ usuarioId: usuario.id, disciplinaId, assuntoIds }),
+    listarQuestoes({ usuarioId: usuario.id, disciplinaId, assuntoIds, status, inicio, cursor, voltou, dificuldades, tipo: tipoQuestao }),
   ]);
 
   // Filtros na URL (sem a posição na sequência). Tirar um filtro recomeça a sequência, com o mesmo ponto sorteado.
-  type Filtro = { grupos: GrupoSelecao[]; dificuldades: string[]; tipo?: string; status: string };
-  const atual: Filtro = { grupos, dificuldades, tipo: tipoQuestao, status };
+  type Filtro = { disciplina?: number; assuntos: number[]; dificuldades: string[]; tipo?: string; status: string };
+  const atual: Filtro = { disciplina: disciplinaId, assuntos: assuntoIds, dificuldades, tipo: tipoQuestao, status };
   const parametros = (x: Filtro) => {
-    const p = parametrosSelecao(x.grupos);
+    const p = new URLSearchParams();
+    if (x.disciplina) p.set("disciplina", String(x.disciplina));
+    if (x.disciplina) for (const id of x.assuntos) p.append("assunto", String(id));
     for (const d of x.dificuldades) p.append("dificuldade", d);
     if (x.tipo) p.set("tipoq", x.tipo);
     if (x.status !== "todas") p.set("status", x.status);
@@ -81,15 +81,15 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
     return `/questoes?${p}`;
   };
   const etiquetas: Etiqueta[] = [
-    // Matéria inteira vira uma etiqueta; matéria com áreas, uma por área (tirar a última volta à matéria inteira).
-    ...nomes.materias
-      .filter((m) => m.inteira)
-      .map((m) => ({ chave: `materia-${m.id}`, grupo: "Matéria inteira", rotulo: m.nome, sem: lista({ ...atual, grupos: grupos.filter((g) => g.disciplinaId !== m.id) }) })),
+    // Sem áreas, a matéria inteira é o filtro; com áreas, cada área é uma etiqueta (a última volta à matéria inteira).
+    ...(disciplinaId && nomes.areas.length === 0 && nomes.disciplina
+      ? [{ chave: "materia", grupo: "Matéria inteira", rotulo: nomes.disciplina, sem: lista({ ...atual, disciplina: undefined, assuntos: [] }) }]
+      : []),
     ...nomes.areas.map((a) => ({
       chave: `area-${a.id}`,
-      grupo: nomes.materias.find((m) => m.id === a.disciplinaId)?.nome ?? "Área",
+      grupo: nomes.disciplina ?? "Área",
       rotulo: a.nome,
-      sem: lista({ ...atual, grupos: grupos.map((g) => ({ ...g, assuntoIds: g.assuntoIds.filter((id) => id !== a.id) })) }),
+      sem: lista({ ...atual, assuntos: assuntoIds.filter((id) => id !== a.id) }),
     })),
     ...dificuldades.map((d) => ({
       chave: `dif-${d}`,
@@ -100,11 +100,16 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
     ...(tipoQuestao ? [{ chave: "tipo", grupo: "Tipo de questão", rotulo: ROTULO_TIPO_QUESTAO[tipoQuestao], sem: lista({ ...atual, tipo: undefined }) }] : []),
   ];
   const editarFiltros = `/estudar?tipo=questoes&${parametros(atual)}`;
-  const semFiltros = etiquetas.length || status !== "todas" ? lista({ grupos: [], dificuldades: [], status: "todas" }) : null;
+  const semFiltros = etiquetas.length || status !== "todas" ? lista({ assuntos: [], dificuldades: [], status: "todas" }) : null;
 
   const proximaUrl = (() => {
     if (!proximo) return null;
-    const p = parametros(atual);
+    const p = new URLSearchParams();
+    if (disciplinaId) p.set("disciplina", String(disciplinaId));
+    for (const id of assuntoIds) p.append("assunto", String(id));
+    if (status !== "todas") p.set("status", status);
+    for (const d of dificuldades) p.append("dificuldade", d);
+    if (tipoQuestao) p.set("tipoq", tipoQuestao);
     p.set("inicio", String(inicio));
     p.set("cursor", `${proximo.cursor.ordem}.${proximo.cursor.id}`);
     if (proximo.voltou) p.set("volta", "1");
@@ -154,7 +159,7 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
           </div>
         ) : (
           <Resolucao
-            key={`${parametrosSelecao(grupos)}-${status}-${dificuldades.join(".")}-${tipoQuestao ?? ""}-${inicio}-${texto("cursor") ?? ""}`}
+            key={`${disciplinaId}-${assuntoIds.join(".")}-${status}-${dificuldades.join(".")}-${tipoQuestao ?? ""}-${inicio}-${texto("cursor") ?? ""}`}
             questoes={questoes}
             inicio={(pagina - 1) * TAMANHO_PAGINA + 1}
             proximaUrl={proximaUrl}

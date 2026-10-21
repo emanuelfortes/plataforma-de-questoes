@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { SessaoFlashcards } from "@/components/flashcards/sessao-flashcards";
 import { SelecaoAtual } from "@/components/selecao-atual";
-import { lerSelecao, parametrosSelecao } from "@/lib/filtros";
+import { lerId, lerIds } from "@/lib/filtros";
 import { exigirUsuario } from "@/lib/sessao";
-import { nomesSelecao, resolverSelecao } from "@/server/estudar";
+import { nomesSelecao } from "@/server/estudar";
 import { montarSessao } from "@/server/flashcards";
 
 export const metadata: Metadata = { title: "Flashcards" };
@@ -13,10 +13,14 @@ type Params = Promise<{ [chave: string]: string | string[] | undefined }>;
 export default async function PaginaFlashcards({ searchParams }: { searchParams: Params }) {
   const usuario = await exigirUsuario();
   const sp = await searchParams;
-  const grupos = await resolverSelecao(lerSelecao(sp));
-  const chave = parametrosSelecao(grupos).toString();
+  const texto = (k: string) => (typeof sp[k] === "string" ? (sp[k] as string) : undefined);
+  const disciplinaId = lerId(texto("disciplina"));
+  const assuntoIds = disciplinaId ? lerIds(sp.assunto) : [];
 
-  const [nomes, cards] = await Promise.all([nomesSelecao(grupos), montarSessao(usuario.id, grupos)]);
+  const [nomes, cards] = await Promise.all([
+    nomesSelecao(disciplinaId, assuntoIds),
+    montarSessao(usuario.id, disciplinaId, assuntoIds),
+  ]);
 
   return (
     <div className="mx-auto max-w-xl space-y-6">
@@ -28,10 +32,10 @@ export default async function PaginaFlashcards({ searchParams }: { searchParams:
         </p>
       </div>
 
-      <SelecaoAtual texto={nomes.resumo} trocar={`/estudar?tipo=flashcards${chave ? `&${chave}` : ""}`} />
+      <SelecaoAtual tipo="flashcards" disciplinaId={disciplinaId} partes={[nomes.disciplina, nomes.assunto]} />
 
       {/* key força reiniciar a sessão ao trocar a seleção */}
-      <SessaoFlashcards key={chave || "todas"} cards={cards} />
+      <SessaoFlashcards key={`${disciplinaId ?? "todas"}-${assuntoIds.join(".") || "todas"}`} cards={cards} />
     </div>
   );
 }

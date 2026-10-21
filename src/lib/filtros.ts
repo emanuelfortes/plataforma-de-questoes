@@ -50,22 +50,3 @@ export function lerTipoQuestao(valor: string | undefined): TipoQuestao | undefin
 export function ehCertoErrado(alternativas: { texto: string }[]) {
   return alternativas.length === 2 && alternativas.some((a) => a.texto.trim().toLowerCase() === "certo");
 }
-
-/**
- * Seleção de conteúdo: uma ou várias matérias, cada uma inteira (assuntoIds vazio) ou só com algumas áreas.
- * Na URL: ?disciplina=1&disciplina=5&assunto=80 (a área diz de qual matéria é; matéria sem área marcada vai inteira).
- */
-export type GrupoSelecao = { disciplinaId: number; assuntoIds: number[] };
-
-export function lerSelecao(sp: { disciplina?: string | string[]; assunto?: string | string[] }) {
-  return { disciplinas: lerIds(sp.disciplina), assuntos: lerIds(sp.assunto) };
-}
-
-/** Grupos de volta para a URL (mesmo formato que lerSelecao entende). */
-export function parametrosSelecao(grupos: GrupoSelecao[], p = new URLSearchParams()) {
-  for (const g of grupos) {
-    p.append("disciplina", String(g.disciplinaId));
-    for (const a of g.assuntoIds) p.append("assunto", String(a));
-  }
-  return p;
-}

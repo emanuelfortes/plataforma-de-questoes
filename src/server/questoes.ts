@@ -1,19 +1,19 @@
 import "server-only";
-import { and, asc, count, eq, gte, inArray, isNotNull, isNull, lt, or, sql, sum, type SQL } from "drizzle-orm";
+import { and, asc, count, eq, gte, inArray, isNotNull, isNull, lt, sql, sum, type SQL } from "drizzle-orm";
 import type { AnySQLiteColumn } from "drizzle-orm/sqlite-core";
 import { db } from "@/db";
 import { assuntos, contagens, disciplinas, questoes, statusQuestao } from "@/db/schema";
 
 import { dificuldadePorNivel } from "@/lib/dificuldade";
 import { NIVEL_DIFICULDADE } from "@/lib/dificuldade";
-import type { DificuldadeFiltro, FiltroStatus, GrupoSelecao, StatusAluno, TipoQuestao } from "@/lib/filtros";
+import type { DificuldadeFiltro, FiltroStatus, StatusAluno, TipoQuestao } from "@/lib/filtros";
 
 export const TAMANHO_PAGINA = 20;
 
 export type FiltrosQuestoes = {
   usuarioId: string;
-  /** Matérias escolhidas (vazio = todas), cada uma inteira ou com algumas áreas. */
-  grupos: GrupoSelecao[];
+  disciplinaId?: number;
+  assuntoIds?: number[]; // vazio = todas as áreas da matéria
   status: FiltroStatus;
   /** Opções da tela de filtro. Vazio = todos os níveis. */
   dificuldades?: DificuldadeFiltro[];
@@ -51,11 +51,6 @@ export function filtroAreas(coluna: AnySQLiteColumn, ids: number[] | undefined) 
   )})`;
 }
 
-/** Uma matéria (inteira ou só as áreas marcadas), para a listagem ordenada. */
-function condicaoDoGrupo(g: GrupoSelecao) {
-  return and(eq(questoes.disciplinaId, g.disciplinaId), filtroAreas(questoes.assuntoId, g.assuntoIds));
-}
-
 /** Posição na ordem embaralhada: a próxima página começa depois deste par. */
 export type CursorQuestoes = { ordem: number; id: number };
 
@@ -84,10 +79,13 @@ export async function listarAssuntos(disciplinaId: number) {
 export async function listarQuestoes(
   filtros: FiltrosQuestoes & { inicio: number; cursor?: CursorQuestoes; voltou: boolean },
 ) {
-  const { usuarioId, grupos, status, inicio, cursor, voltou, dificuldades, tipo } = filtros;
+  const { usuarioId, disciplinaId, assuntoIds, status, inicio, cursor, voltou, dificuldades, tipo } = filtros;
 
   // Questão reportada por aluno fica fora do ar até ser revisada.
   const condicoes: SQL[] = [eq(questoes.suspensa, false)];
+  if (disciplinaId) condicoes.push(eq(questoes.disciplinaId, disciplinaId));
+  const areas = filtroAreas(questoes.assuntoId, assuntoIds);
+  if (areas) condicoes.push(areas);
   condicoes.push(...filtrosDeOpcoes(dificuldades, tipo));
 
   if (status === "nao_resolvidas") condicoes.push(isNull(statusQuestao.questaoId));
@@ -99,7 +97,7 @@ export async function listarQuestoes(
     ? sql`(${questoes.ordem}, ${questoes.id}) > (${cursor.ordem}, ${cursor.id})`
     : undefined;
 
-  const buscarNoGrupo = (grupo: SQL | undefined, trecho: SQL | undefined, limite: number) =>
+  const buscar = (trecho: SQL | undefined, limite: number) =>
     db
       .select({
         id: questoes.id,
@@ -122,20 +120,9 @@ export async function listarQuestoes(
         statusQuestao,
         and(eq(statusQuestao.questaoId, questoes.id), eq(statusQuestao.usuarioId, usuarioId)),
       )
-      .where(and(...condicoes, grupo, trecho))
+      .where(and(...condicoes, trecho))
       .orderBy(asc(questoes.ordem), asc(questoes.id))
       .limit(limite);
-
-  // Várias matérias: uma consulta por matéria, cada uma no seu índice (matéria ou área, ordem) e limitada
-  // à página; depois junta pela ordem. Um "OR" único obrigaria o SQLite a ordenar tudo o que bate.
-  const buscar = async (trecho: SQL | undefined, limite: number) => {
-    if (grupos.length <= 1) return buscarNoGrupo(grupos[0] && condicaoDoGrupo(grupos[0]), trecho, limite);
-    const partes = await Promise.all(grupos.map((g) => buscarNoGrupo(condicaoDoGrupo(g), trecho, limite)));
-    return partes
-      .flat()
-      .sort((x, y) => x.ordem - y.ordem || x.id - y.id)
-      .slice(0, limite);
-  };
 
   // Trecho 1: de "inicio" até o fim. Trecho 2 (a volta): do começo até "inicio".
   type Linha = Awaited<ReturnType<typeof buscar>>[number] & { daVolta: boolean };
@@ -182,12 +169,12 @@ export type QuestaoListada = Awaited<ReturnType<typeof listarQuestoes>>["questoe
  * A parte do aluno vem de status_questao, que cresce com o aluno e não com o banco.
  */
 export async function contarPorStatus(filtros: Omit<FiltrosQuestoes, "status">) {
-  const { usuarioId, grupos } = filtros;
+  const { usuarioId, disciplinaId, assuntoIds } = filtros;
 
-  // Soma as linhas de "contagens": a matéria inteira ou cada área marcada dela.
-  const chaves = grupos.length
-    ? grupos.flatMap((g) => (g.assuntoIds.length ? g.assuntoIds.map((id) => `q:a:${id}`) : [`q:d:${g.disciplinaId}`]))
-    : ["q:total"];
+  // Várias áreas: soma as linhas de "contagens" de cada uma.
+  const chaves = assuntoIds?.length
+    ? assuntoIds.map((id) => `q:a:${id}`)
+    : [disciplinaId ? `q:d:${disciplinaId}` : "q:total"];
   const [linhaTotal] = await db
     .select({ total: sum(contagens.total) })
     .from(contagens)
@@ -196,16 +183,8 @@ export async function contarPorStatus(filtros: Omit<FiltrosQuestoes, "status">) 
 
   // Parte do aluno: o ponto de partida é status_questao (cresce com o aluno), então o "in" simples basta.
   const condicoes: SQL[] = [eq(statusQuestao.usuarioId, usuarioId), eq(questoes.suspensa, false)];
-  if (grupos.length)
-    condicoes.push(
-      or(
-        ...grupos.map((g) =>
-          g.assuntoIds.length
-            ? and(eq(questoes.disciplinaId, g.disciplinaId), inArray(questoes.assuntoId, g.assuntoIds))!
-            : eq(questoes.disciplinaId, g.disciplinaId),
-        ),
-      )!,
-    );
+  if (disciplinaId) condicoes.push(eq(questoes.disciplinaId, disciplinaId));
+  if (assuntoIds?.length) condicoes.push(inArray(questoes.assuntoId, assuntoIds));
 
   const [aluno] = await db
     .select({
