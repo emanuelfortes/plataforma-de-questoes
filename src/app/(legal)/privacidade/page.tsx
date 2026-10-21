@@ -18,7 +18,7 @@ export default function PaginaPrivacidade() {
       <h2>1. Quem é o responsável</h2>
       <p>
         O responsável pelo tratamento dos seus dados (controlador) é <Responsavel />. Dúvidas e pedidos sobre seus
-        dados: <ContatoWhatsapp mensagem="Olá! Tenho um pedido sobre meus dados na Nóbrega Questões." />.
+        dados: <ContatoWhatsapp mensagem="Olá! Tenho um pedido sobre meus dados na plataforma Riccardo Nóbrega." />.
       </p>
 
       <h2>2. Quais dados coletamos</h2>
@@ -116,7 +116,7 @@ export default function PaginaPrivacidade() {
         </li>
         <li>
           Pedir informações, correções ou qualquer outro direito do art. 18 da LGPD pelo{" "}
-          <ContatoWhatsapp mensagem="Olá! Tenho um pedido sobre meus dados na Nóbrega Questões." />. Respondemos em até
+          <ContatoWhatsapp mensagem="Olá! Tenho um pedido sobre meus dados na plataforma Riccardo Nóbrega." />. Respondemos em até
           15 dias.
         </li>
         <li>Reclamar à Autoridade Nacional de Proteção de Dados (ANPD).</li>

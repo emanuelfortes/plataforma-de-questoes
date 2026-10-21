@@ -39,7 +39,7 @@ export function Responsavel() {
 }
 
 /** Link de atendimento pelo WhatsApp, com a mensagem inicial já escrita. */
-export function ContatoWhatsapp({ mensagem = "Olá! Vim pela plataforma Nóbrega Questões." }: { mensagem?: string }) {
+export function ContatoWhatsapp({ mensagem = "Olá! Vim pela plataforma Riccardo Nóbrega." }: { mensagem?: string }) {
   return (
     <a href={linkWhatsapp(mensagem)} target="_blank" rel="noopener noreferrer">
       WhatsApp {whatsappFormatado()}

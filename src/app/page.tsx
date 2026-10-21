@@ -424,7 +424,7 @@ function Rodape() {
     <footer className="border-t border-borda">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-4 py-8 text-sm text-suave sm:flex-row sm:px-6">
         <p>
-          © {new Date().getFullYear()} {NOME_PLATAFORMA} · Professor Riccardo Nóbrega
+          © {new Date().getFullYear()} Professor {NOME_PLATAFORMA}
         </p>
         <nav className="flex gap-4">
           <Link href="/termos" className="hover:text-texto">

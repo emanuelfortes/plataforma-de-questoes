@@ -53,7 +53,7 @@ export default async function PaginaVisaoGeral() {
     <>
       <CabecalhoPagina
         titulo="Visão geral"
-        subtitulo="Como está a Nóbrega Questões hoje."
+        subtitulo="Como está a plataforma hoje."
         acoes={<LinkBotao href="/admin/questoes">Importar questões</LinkBotao>}
       />
 

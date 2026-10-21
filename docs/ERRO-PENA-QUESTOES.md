@@ -1,6 +1,6 @@
 # Erro registrado: questões que só cobram pena
 
-Leia este documento antes de gerar questões para a plataforma Nóbrega Questões. Ele explica um erro que já aconteceu, quanto custou corrigir e as regras para não repetir. Se for gerar questões num chat do Claude, cole este documento junto com o prompt de `docs/PROMPT-CLAUDE-QUESTOES.md`. O prompt já traz essas regras; este documento explica o porquê.
+Leia este documento antes de gerar questões para a plataforma Riccardo Nóbrega. Ele explica um erro que já aconteceu, quanto custou corrigir e as regras para não repetir. Se for gerar questões num chat do Claude, cole este documento junto com o prompt de `docs/PROMPT-CLAUDE-QUESTOES.md`. O prompt já traz essas regras; este documento explica o porquê.
 
 ## O que aconteceu
 

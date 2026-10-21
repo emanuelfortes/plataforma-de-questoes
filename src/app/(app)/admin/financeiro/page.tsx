@@ -57,7 +57,7 @@ export default async function PaginaFinanceiro() {
     <>
       <CabecalhoPagina
         titulo="Financeiro"
-        subtitulo={`Só o dinheiro da Nóbrega Questões (referência "${PREFIXO_REFERENCIA}" no Mercado Pago), separado do LexCursos. Valores brutos, antes das taxas.`}
+        subtitulo={`Só o dinheiro desta plataforma (referência "${PREFIXO_REFERENCIA}" no Mercado Pago), separado do LexCursos. Valores brutos, antes das taxas.`}
       />
 
       <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">

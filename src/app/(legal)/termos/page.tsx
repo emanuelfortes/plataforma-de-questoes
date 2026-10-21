@@ -43,7 +43,7 @@ export default function PaginaTermos() {
         </li>
         <li>
           Trabalhamos para que gabaritos e comentários estejam corretos, mas pode haver erros. Encontrou um? Avise
-          pelo <ContatoWhatsapp mensagem="Olá! Encontrei um erro numa questão da Nóbrega Questões." />.
+          pelo <ContatoWhatsapp mensagem="Olá! Encontrei um erro numa questão da plataforma Riccardo Nóbrega." />.
         </li>
         <li>
           A plataforma é um apoio ao estudo: não substitui o edital nem a legislação oficial e não garante aprovação

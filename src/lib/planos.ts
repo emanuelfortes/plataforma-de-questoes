@@ -5,7 +5,7 @@ export const ASSINATURA = {
   /** Valor cobrado todo mês, em reais. */
   valor: 25,
   /** Aparece no checkout, no painel do Mercado Pago e na fatura do aluno. */
-  descricao: "Nóbrega Questões - Assinatura mensal",
+  descricao: "Riccardo Nóbrega - Assinatura mensal",
 } as const;
 
 /** Questões por dia (fuso de Brasília) para quem não assina. */
