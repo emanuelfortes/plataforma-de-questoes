@@ -454,7 +454,8 @@
           "artigos": [
             "216-B"
           ],
-          "termos": "registro n[ãa]o autorizado"
+          "termos": "registro n[ãa]o autorizado|(filma|fotograf|registr|grava).{0,40}(nudez|[íi]ntim|sexo)",
+          "exceto": "divulg|publica|compartilh"
         },
         {
           "area": "Estupro de Vulnerável",
@@ -477,7 +478,7 @@
           "artigos": [
             "218-C"
           ],
-          "termos": "divulga[çc][ãa]o de cena|cena de (sexo|nudez|estupro)|pornografia de vingan[çc]a"
+          "termos": "(divulg|publica|compartilh|transmit|vend|ofere).{0,60}(cena|nudez|[íi]ntim|sexo|pornografia)|pornografia de vingan[çc]a|218-C"
         },
         {
           "area": "Lenocínio e Exploração Sexual",

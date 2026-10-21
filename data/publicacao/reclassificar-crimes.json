@@ -1,0 +1,2192 @@
+{
+  "resumo": {
+    "Crimes contra a Pessoa": {
+      "Redução a Condição Análoga à de Escravo": 1,
+      "Abandono de Incapaz e de Recém-Nascido": 1,
+      "Induzimento, Instigação ou Auxílio a Suicídio ou a Automutilação": 2,
+      "(fica)": 2,
+      "Lesão Corporal": 4,
+      "Homicídio": 4,
+      "Calúnia": 1,
+      "Rixa": 1,
+      "Sequestro e Cárcere Privado": 2,
+      "Feminicídio": 1,
+      "Violação de Domicílio": 1,
+      "Ameaça": 1,
+      "Perseguição (Stalking)": 1,
+      "Perigo de Contágio": 2,
+      "Omissão de Socorro": 1,
+      "Violência Psicológica contra a Mulher": 1,
+      "Maus-Tratos": 1,
+      "Injúria": 1
+    },
+    "Crimes contra o Patrimônio": {
+      "Roubo": 5,
+      "Furto": 15,
+      "Apropriação Indébita": 6,
+      "Disposições Gerais (Imunidades)": 4,
+      "Estelionato e Outras Fraudes": 8,
+      "Receptação": 4,
+      "Dano": 4,
+      "Extorsão Indireta": 1,
+      "Usurpação": 2,
+      "Extorsão": 5
+    },
+    "Crimes contra a Dignidade Sexual": {
+      "Outros Crimes contra Vulnerável": 5,
+      "(fica)": 5,
+      "Estupro de Vulnerável": 7,
+      "Estupro": 9,
+      "Divulgação de Cena de Estupro, Sexo ou Nudez": 3,
+      "Violação Sexual Mediante Fraude": 2,
+      "Importunação Sexual": 2,
+      "Registro Não Autorizado da Intimidade Sexual": 2,
+      "Assédio Sexual": 2,
+      "Lenocínio e Exploração Sexual": 2,
+      "Ultraje Público ao Pudor": 1
+    },
+    "Crimes contra a Incolumidade Pública": {
+      "Crimes de Perigo Comum": 12,
+      "Crimes contra a Saúde Pública": 7,
+      "Crimes contra a Segurança dos Meios de Comunicação e Transporte": 1
+    },
+    "Crimes contra a Paz Pública": {
+      "Associação Criminosa": 8,
+      "Incitação e Apologia ao Crime": 8,
+      "Constituição de Milícia Privada": 4
+    },
+    "Crimes contra a Fé Pública": {
+      "Outras Falsidades Documentais": 5,
+      "Outras Falsidades": 3,
+      "Falsificação de Documento Particular": 1,
+      "Falsidade Ideológica": 2,
+      "Moeda Falsa": 6,
+      "Uso de Documento Falso": 1,
+      "Falsificação de Documento Público": 2
+    },
+    "Crimes contra a Administração Pública": {
+      "Desacato": 1,
+      "Coação no Curso do Processo": 1,
+      "Concussão e Excesso de Exação": 5,
+      "Crimes em Licitações e Contratos Administrativos": 2,
+      "Outros Crimes de Funcionário Público": 11,
+      "Descaminho e Contrabando": 1,
+      "Peculato": 9,
+      "Corrupção Passiva": 7,
+      "Denunciação Caluniosa": 1,
+      "Tráfico de Influência": 1,
+      "Conceito de Funcionário Público": 5,
+      "Advocacia Administrativa": 1,
+      "Prevaricação": 1,
+      "Resistência": 1,
+      "Usurpação de Função Pública": 1,
+      "Favorecimento Pessoal e Real": 2,
+      "Corrupção Ativa": 1,
+      "Condescendência Criminosa": 3,
+      "(fica)": 1,
+      "Violação de Sigilo Funcional": 4,
+      "Falso Testemunho ou Falsa Perícia": 2,
+      "Exercício Arbitrário das Próprias Razões": 1,
+      "Desobediência": 1,
+      "Outros Crimes contra a Administração da Justiça": 3,
+      "Comunicação Falsa de Crime": 1,
+      "Fraude Processual": 1,
+      "Fuga de Pessoa Presa": 1
+    }
+  },
+  "mudancas": [
+    {
+      "tabela": "questoes",
+      "id": 520,
+      "de": "Crimes contra a Pessoa",
+      "para": "Redução a Condição Análoga à de Escravo",
+      "texto": "Um empregador sujeita trabalhadores rurais a jornada exaustiva e a condições degradantes de trabalho, sem que haja restrição da liberdade de locomoção nem dívid"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3987,
+      "de": "Crimes contra a Pessoa",
+      "para": "Abandono de Incapaz e de Recém-Nascido",
+      "texto": "Logo após dar à luz em segredo, uma jovem deixa o recém-nascido na porta de uma igreja para ocultar desonra própria, sem intenção de matá-lo. Ela pratica"
+    },
+    {
+      "tabela": "questoes",
+      "id": 518,
+      "de": "Crimes contra a Pessoa",
+      "para": "Induzimento, Instigação ou Auxílio a Suicídio ou a Automutilação",
+      "texto": "O agente instiga pessoa maior e capaz a praticar automutilação e lhe presta auxílio material para o ato. Da automutilação resulta lesão corporal de natureza gra"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3983,
+      "de": "Crimes contra a Pessoa",
+      "para": "Lesão Corporal",
+      "texto": "Sabendo que Maria está grávida de oito meses, José a agride dolosamente, sem intenção de provocar aborto nem assumir esse risco. Em razão da agressão, Maria ent"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3978,
+      "de": "Crimes contra a Pessoa",
+      "para": "Homicídio",
+      "texto": "Em uma empresa, Carlos mata a colega de trabalho Luíza por motivo fútil, após uma discussão banal sobre uma vaga no estacionamento. Não há relação doméstica ou "
+    },
+    {
+      "tabela": "questoes",
+      "id": 516,
+      "de": "Crimes contra a Pessoa",
+      "para": "Calúnia",
+      "texto": "Em uma reunião de trabalho, uma pessoa afirma falsamente, perante os colegas, que outra teria praticado um furto contra a empresa, fato definido como crime. Con"
+    },
+    {
+      "tabela": "questoes",
+      "id": 515,
+      "de": "Crimes contra a Pessoa",
+      "para": "Rixa",
+      "texto": "Vários indivíduos se envolvem em uma rixa generalizada e, em razão do tumulto, um dos participantes sofre lesão corporal de natureza grave. Não foi possível ide"
+    },
+    {
+      "tabela": "questoes",
+      "id": 513,
+      "de": "Crimes contra a Pessoa",
+      "para": "Homicídio",
+      "texto": "Durante manobra imprudente no trânsito, um condutor atropela e mata um pedestre, sem ter querido o resultado nem assumido o risco de produzi-lo. De acordo com o"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3995,
+      "de": "Crimes contra a Pessoa",
+      "para": "Sequestro e Cárcere Privado",
+      "texto": "Por vingança, Lúcio mantém o antigo sócio trancado em um sítio por vinte dias, sem exigir de ninguém qualquer vantagem como condição ou preço do resgate. A cond"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3979,
+      "de": "Crimes contra a Pessoa",
+      "para": "Feminicídio",
+      "texto": "Pedro, por razões da condição do sexo feminino, em contexto de violência doméstica e familiar, decide matar a esposa e conta com a ajuda de Márcio, amigo que nã"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3977,
+      "de": "Crimes contra a Pessoa",
+      "para": "Homicídio",
+      "texto": "Situação 1: para se exibir, um homem dispara várias vezes em direção a uma praça lotada, prevê que pode matar alguém e prossegue indiferente, aceitando esse res"
+    },
+    {
+      "tabela": "questoes",
+      "id": 519,
+      "de": "Crimes contra a Pessoa",
+      "para": "Violação de Domicílio",
+      "texto": "Policiais, durante o dia e com observância das formalidades legais, entram em casa alheia para efetuar prisão determinada por mandado. Considerando o art. 150 d"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3981,
+      "de": "Crimes contra a Pessoa",
+      "para": "Homicídio",
+      "texto": "Uma mulher, três meses depois do parto e já sem qualquer influência do estado puerperal, mata dolosamente o próprio filho. Ela responde por"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3980,
+      "de": "Crimes contra a Pessoa",
+      "para": "Induzimento, Instigação ou Auxílio a Suicídio ou a Automutilação",
+      "texto": "Marcos instiga Joana, que, por enfermidade mental, não tem o necessário discernimento para a prática do ato, a tentar suicídio. Joana tenta, sobrevive e sofre l"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3976,
+      "de": "Crimes contra a Pessoa",
+      "para": "Lesão Corporal",
+      "texto": "Durante discussão em um bar, João desfere um único soco no rosto de Pedro, com a intenção apenas de machucá-lo. Pedro perde o equilíbrio, bate a cabeça no meio-"
+    },
+    {
+      "tabela": "questoes",
+      "id": 517,
+      "de": "Crimes contra a Pessoa",
+      "para": "Sequestro e Cárcere Privado",
+      "texto": "Considere que o agente priva a vítima de sua liberdade mediante cárcere privado e a mantém presa por dezoito dias, sem lhe causar sofrimento físico ou moral alé"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3992,
+      "de": "Crimes contra a Pessoa",
+      "para": "Ameaça",
+      "texto": "Mediante grave ameaça de agredi-lo, Rui obriga o vizinho a apagar de sua rede social uma publicação lícita, e o vizinho obedece. A conduta de Rui configura"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3993,
+      "de": "Crimes contra a Pessoa",
+      "para": "Perseguição (Stalking)",
+      "texto": "Assinale a alternativa que descreve conduta que configura o crime de perseguição, previsto no art. 147-A do Código Penal."
+    },
+    {
+      "tabela": "questoes",
+      "id": 3986,
+      "de": "Crimes contra a Pessoa",
+      "para": "Perigo de Contágio",
+      "texto": "Sabendo estar contaminado por moléstia grave que não é venérea, um homem, com o fim de transmiti-la a um desafeto, pratica contra ele ato capaz de produzir o co"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3982,
+      "de": "Crimes contra a Pessoa",
+      "para": "Lesão Corporal",
+      "texto": "Em uma briga, Ana fere dolosamente Bruno no braço. Após o tratamento, Bruno recupera-se, mas fica com redução permanente dos movimentos do braço, que continua f"
+    },
+    {
+      "tabela": "questoes",
+      "id": 514,
+      "de": "Crimes contra a Pessoa",
+      "para": "Omissão de Socorro",
+      "texto": "Um motorista encontra na via uma pessoa ferida e em grave e iminente perigo e, podendo prestar auxílio sem risco pessoal, simplesmente segue viagem sem socorrer"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3994,
+      "de": "Crimes contra a Pessoa",
+      "para": "Violência Psicológica contra a Mulher",
+      "texto": "Sobre o crime de violência psicológica contra a mulher, previsto no art. 147-B do Código Penal, assinale a alternativa correta."
+    },
+    {
+      "tabela": "questoes",
+      "id": 3989,
+      "de": "Crimes contra a Pessoa",
+      "para": "Maus-Tratos",
+      "texto": "Para corrigir o comportamento do filho de 12 anos, o pai, com a finalidade de educá-lo, priva-o de refeições por dois dias, expondo a perigo a sua saúde, sem lh"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3991,
+      "de": "Crimes contra a Pessoa",
+      "para": "Injúria",
+      "texto": "Durante uma discussão, Paulo ofende a dignidade de seu vizinho, de 70 anos, utilizando elementos referentes à condição de pessoa idosa. Nos termos do Código Pen"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3984,
+      "de": "Crimes contra a Pessoa",
+      "para": "Lesão Corporal",
+      "texto": "Conforme o art. 129, §§ 1º e 2º, do Código Penal, assinale a alternativa em que todos os resultados indicados qualificam a lesão corporal como gravíssima."
+    },
+    {
+      "tabela": "questoes",
+      "id": 3985,
+      "de": "Crimes contra a Pessoa",
+      "para": "Perigo de Contágio",
+      "texto": "Sabendo estar contaminado por moléstia venérea, um homem mantém relação sexual com a parceira com a intenção de transmitir-lhe a doença. A conduta caracteriza"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 113,
+      "de": "Crimes contra a Pessoa",
+      "para": "Homicídio",
+      "texto": "Quais são as hipóteses de homicídio privilegiado que permitem ao juiz reduzir a pena de um sexto a um terço?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 114,
+      "de": "Crimes contra a Pessoa",
+      "para": "Disposições Comuns aos Crimes contra a Honra",
+      "texto": "Como, em regra, se procede nos crimes contra a honra (calúnia, difamação e injúria) previstos no Código Penal?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 115,
+      "de": "Crimes contra a Pessoa",
+      "para": "Lesão Corporal",
+      "texto": "O que caracteriza a lesão corporal seguida de morte e qual a sua pena no Código Penal?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1149,
+      "de": "Crimes contra a Pessoa",
+      "para": "Perigo de Contágio",
+      "texto": "O que diferencia o perigo de contágio venéreo (art. 130) do perigo de contágio de moléstia grave (art. 131)?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1150,
+      "de": "Crimes contra a Pessoa",
+      "para": "Lesão Corporal",
+      "texto": "Na lesão corporal, aceleração de parto e aborto são resultados de lesão grave ou gravíssima?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1151,
+      "de": "Crimes contra a Pessoa",
+      "para": "Abandono de Incapaz e de Recém-Nascido",
+      "texto": "O que diferencia a exposição ou abandono de recém-nascido (art. 134) do abandono de incapaz (art. 133)?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1152,
+      "de": "Crimes contra a Pessoa",
+      "para": "Perigo de Contágio",
+      "texto": "Qual a ação penal no crime de perigo de contágio venéreo?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1153,
+      "de": "Crimes contra a Pessoa",
+      "para": "Constrangimento Ilegal",
+      "texto": "Que condutas o Código Penal exclui do constrangimento ilegal?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1154,
+      "de": "Crimes contra a Pessoa",
+      "para": "Ameaça",
+      "texto": "O que distingue a perseguição (art. 147-A) da ameaça (art. 147)?"
+    },
+    {
+      "tabela": "questoes",
+      "id": 193,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Roubo",
+      "texto": "Durante a madrugada, Caio entrou em uma loja de conveniência e, sem que ninguém percebesse, colocou na mochila diversas garrafas de bebida. Já do lado de fora, "
+    },
+    {
+      "tabela": "questoes",
+      "id": 190,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Furto",
+      "texto": "Antônio e Bruno são coproprietários, em partes iguais, de uma colheita de milho ensacada, que fica sob a guarda de Bruno, que a detém legitimamente. Sem avisar "
+    },
+    {
+      "tabela": "questoes",
+      "id": 201,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Apropriação Indébita",
+      "texto": "Um advogado, contratado para ajuizar ação de cobrança, recebeu do devedor de seu cliente, em acordo homologado, valor destinado ao cliente. O dinheiro foi entre"
+    },
+    {
+      "tabela": "questoes",
+      "id": 281,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Disposições Gerais (Imunidades)",
+      "texto": "Marcos, de 30 anos, e seu amigo Lúcio, sem relação de parentesco com a família, combinaram um ardil e, sem violência ou grave ameaça, induziram o pai de Marcos,"
+    },
+    {
+      "tabela": "questoes",
+      "id": 186,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Furto",
+      "texto": "Um comerciante faz uma ligação clandestina na rede de distribuição para consumir energia elétrica sem que o consumo seja registrado pela concessionária. Conside"
+    },
+    {
+      "tabela": "questoes",
+      "id": 282,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Estelionato e Outras Fraudes",
+      "texto": "Rafael enviou mensagens por aplicativo e e-mails fraudulentos a Bianca, de 35 anos, passando-se por funcionário do banco dela. Induzida a erro, Bianca forneceu "
+    },
+    {
+      "tabela": "questoes",
+      "id": 4153,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Roubo",
+      "texto": "Durante um assalto, Tadeu atirou contra o dono de uma loja, que reagiu, e o matou. Assustado com a chegada da polícia, fugiu sem levar nenhum bem da loja. Confo"
+    },
+    {
+      "tabela": "questoes",
+      "id": 276,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Estelionato e Outras Fraudes",
+      "texto": "Executado em processo de cobrança, Osvaldo, para impedir que seus bens fossem penhorados, doou-os ao irmão e, em seguida, simulou dívidas com terceiros. A respe"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4149,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Receptação",
+      "texto": "Dono de uma loja regular de celulares, Marcelo comprou de um fornecedor sem nota fiscal, por preço muito abaixo do de mercado, vários aparelhos e os expôs à ven"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4138,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Furto",
+      "texto": "Dizendo-se técnico da companhia de água, Fábio obteve autorização para entrar em uma casa a fim de \"vistoriar o hidrômetro\". Enquanto a moradora foi a outro côm"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4150,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Dano",
+      "texto": "Durante uma manifestação, Breno quebrou a pedradas os vidros de um ônibus pertencente a uma empresa concessionária do serviço público de transporte coletivo mun"
+    },
+    {
+      "tabela": "questoes",
+      "id": 280,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Estelionato e Outras Fraudes",
+      "texto": "Pedro, mediante pagamento mensal, cedeu sua conta bancária a um grupo para que nela transitassem valores provenientes de crimes praticados pelos integrantes des"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4137,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Furto",
+      "texto": "Em um ônibus lotado, Wesley introduziu habilmente a mão no bolso de um passageiro e retirou a carteira dele, sem que a vítima percebesse nada, e desceu no ponto"
+    },
+    {
+      "tabela": "questoes",
+      "id": 189,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Furto",
+      "texto": "Em uma tarde, Rafael, agindo sozinho, aproveitou que um motorista deixou o automóvel estacionado e destrancado, com a chave original na ignição, e o levou de Fo"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4145,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Estelionato e Outras Fraudes",
+      "texto": "Desde o início decidido a não devolver o veículo, Heitor alugou um carro em uma locadora usando documentos falsos em nome de outra pessoa, para não ser localiza"
+    },
+    {
+      "tabela": "questoes",
+      "id": 277,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Estelionato e Outras Fraudes",
+      "texto": "Tiago, proprietário de um automóvel segurado contra roubo e furto, escondeu o veículo em um sítio de um amigo e comunicou à seguradora que o carro havia sido fu"
+    },
+    {
+      "tabela": "questoes",
+      "id": 195,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Roubo",
+      "texto": "Em uma praça de Fortaleza, um homem, agindo sozinho, ameaçou um pedestre com uma faca e dele subtraiu a carteira com dinheiro, sem chegar a feri-lo. Nos termos "
+    },
+    {
+      "tabela": "questoes",
+      "id": 194,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Extorsão Indireta",
+      "texto": "Um agiota, aproveitando-se do desespero financeiro de um comerciante, condicionou a concessão de um empréstimo à entrega, como garantia da dívida, de um documen"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4139,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Estelionato e Outras Fraudes",
+      "texto": "Gustavo, que não era dono nem procurador do proprietário, mostrou a uma família uma casa de praia que pertencia a um terceiro e, apresentando-se como dono, cele"
+    },
+    {
+      "tabela": "questoes",
+      "id": 203,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Dano",
+      "texto": "Por vingança, Túlio jogou gasolina e ateou fogo no carro de um desafeto, estacionado sozinho num terreno baldio afastado de qualquer construção, pessoa ou outro"
+    },
+    {
+      "tabela": "questoes",
+      "id": 264,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Furto",
+      "texto": "Carlos, primário, subtraiu, durante o dia, alguns metros de cabos utilizados para a transmissão de telefonia, de pequeno valor, de um poste em via pública, agin"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4155,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Furto",
+      "texto": "Alegando que precisava fazer uma ligação urgente, Vítor pediu emprestado o celular desbloqueado de uma colega de trabalho. Sem que ela percebesse, abriu o aplic"
+    },
+    {
+      "tabela": "questoes",
+      "id": 295,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Receptação",
+      "texto": "Joana, primária, comprou de um desconhecido, na rua, um celular de última geração por um décimo do preço de mercado, sem nota fiscal. Ela não sabia que o aparel"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4140,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Estelionato e Outras Fraudes",
+      "texto": "Passando-se, em aplicativo de mensagens, pelo filho de uma mulher de 45 anos, com foto e nome dele, Elton disse que havia trocado de número e pediu, com urgênci"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4152,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Furto",
+      "texto": "Às três horas da madrugada, enquanto os moradores dormiam, Nélio, agindo sozinho, entrou em uma casa pela janela térrea, que estava aberta, e levou um televisor"
+    },
+    {
+      "tabela": "questoes",
+      "id": 198,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Dano",
+      "texto": "De acordo com o Código Penal, procede-se somente mediante queixa no crime de dano praticado"
+    },
+    {
+      "tabela": "questoes",
+      "id": 279,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Receptação",
+      "texto": "Carlos mantém, nos fundos da própria casa, uma oficina clandestina, sem qualquer registro, onde desmonta veículos e vende as peças a clientes. As circunstâncias"
+    },
+    {
+      "tabela": "questoes",
+      "id": 265,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Disposições Gerais (Imunidades)",
+      "texto": "Pedro, de 30 anos, sob grave ameaça, subtraiu o automóvel de seu pai, de 55 anos, com quem não residia. Sobre a responsabilidade penal de Pedro, à luz das dispo"
+    },
+    {
+      "tabela": "questoes",
+      "id": 192,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Furto",
+      "texto": "Em uma tarde de domingo, com a loja fechada e sem ninguém no interior, três agentes detonaram um artefato explosivo para abrir o cofre de uma joalheria e subtra"
+    },
+    {
+      "tabela": "questoes",
+      "id": 188,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Furto",
+      "texto": "Joaquim, primário, subtraiu, em plena tarde, de uma banca de feira, alguns produtos de pequeno valor, sem qualquer outra circunstância que qualifique ou aumente"
+    },
+    {
+      "tabela": "questoes",
+      "id": 191,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Furto",
+      "texto": "Marcos instalou, de forma oculta, um programa malicioso no telefone celular de Helena, de 72 anos. Com o programa, acessou o aplicativo bancário dela e transfer"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4151,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Furto",
+      "texto": "Em uma tarde, Lauro, agindo sozinho, apoiou uma escada no muro de três metros de altura de uma casa, subiu, pulou para o quintal e dali levou uma bicicleta, sem"
+    },
+    {
+      "tabela": "questoes",
+      "id": 199,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Apropriação Indébita",
+      "texto": "Ao sair de uma agência bancária, Rui encontrou na calçada uma carteira com documentos e dinheiro, perdida por um desconhecido. Embora houvesse documentos que pe"
+    },
+    {
+      "tabela": "questoes",
+      "id": 207,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Usurpação",
+      "texto": "Durante a noite, Joel entrou no curral da fazenda vizinha e, sem retirar nenhum animal do local, alterou indevidamente a marca de propriedade gravada em parte d"
+    },
+    {
+      "tabela": "questoes",
+      "id": 275,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Disposições Gerais (Imunidades)",
+      "texto": "Felipe, de 27 anos, mediante ardil, induziu em erro seu pai, de 52 anos, e obteve dele a transferência de uma quantia em dinheiro, causando-lhe prejuízo. Não ho"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4148,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Receptação",
+      "texto": "Sabendo que o celular oferecido por um vizinho tinha sido roubado, Caio, em proveito do vizinho, convenceu um colega de trabalho, que de nada sabia, a comprar o"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4154,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Extorsão",
+      "texto": "Ronaldo telefonou para uma mãe dizendo ter sequestrado a filha dela e ameaçou matá-la caso não fosse feito, em uma hora, um depósito em dinheiro. A filha, na ve"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4136,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Roubo",
+      "texto": "Em uma calçada movimentada, Renan correu em direção a uma senhora, deu-lhe um forte empurrão que a derrubou no chão e, aproveitando a queda, arrancou a bolsa qu"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4144,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Apropriação Indébita",
+      "texto": "Sílvio alugou um carro em uma locadora, apresentando seus documentos verdadeiros e com a intenção de devolvê-lo no prazo. Dias depois, endividado, decidiu ficar"
+    },
+    {
+      "tabela": "questoes",
+      "id": 204,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Apropriação Indébita",
+      "texto": "Lúcio, primário, recebeu de um colega, por empréstimo, uma furadeira de pequeno valor. Dias depois, já com o objeto em casa, decidiu não devolvê-lo e o vendeu a"
+    },
+    {
+      "tabela": "questoes",
+      "id": 274,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Estelionato e Outras Fraudes",
+      "texto": "Ricardo hospedou-se por três noites em um hotel, consumindo também as refeições oferecidas, ciente desde o início de que não dispunha de recursos para pagar as "
+    },
+    {
+      "tabela": "questoes",
+      "id": 278,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Disposições Gerais (Imunidades)",
+      "texto": "Lucas, que mora há anos na casa do tio, de 58 anos, utilizou-se de artifício para convencê-lo a lhe entregar uma joia de família, que depois vendeu, causando pr"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4143,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Extorsão",
+      "texto": "Durante fiscalização em um restaurante, Mauro, fiscal municipal, exigiu do dono certa quantia em dinheiro para não lavrar auto de infração pelas irregularidades"
+    },
+    {
+      "tabela": "questoes",
+      "id": 206,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Apropriação Indébita",
+      "texto": "Já na vigência da Lei Complementar 225/2026, o administrador de uma empresa deixou de repassar à previdência social contribuições recolhidas dos contribuintes, "
+    },
+    {
+      "tabela": "questoes",
+      "id": 4147,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Furto",
+      "texto": "Paulo comprou de um conhecido, para uso próprio, uma bicicleta, sabendo que ela havia sido furtada por esse conhecido dias antes. Paulo não participou do furto "
+    },
+    {
+      "tabela": "questoes",
+      "id": 187,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Furto",
+      "texto": "Sobre o crime de furto de coisa comum, previsto no art. 156 do Código Penal, assinale a afirmativa correta."
+    },
+    {
+      "tabela": "questoes",
+      "id": 4141,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Roubo",
+      "texto": "Em uma praça, Diogo abordou um rapaz e, dizendo que o mataria se reagisse, ordenou que ele lhe entregasse o celular. Com medo, a vítima tirou o aparelho do bols"
+    },
+    {
+      "tabela": "questoes",
+      "id": 202,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Apropriação Indébita",
+      "texto": "Uma loja, por falha do próprio setor de entregas, enviou ao endereço de Carla um notebook comprado por outro cliente. Carla não havia feito nenhuma compra nem p"
+    },
+    {
+      "tabela": "questoes",
+      "id": 205,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Usurpação",
+      "texto": "Apenas duas pessoas, Ari e Davi, invadiram um sítio particular para nele se instalarem e tomarem a posse do imóvel. Ao entrar, agrediram fisicamente o caseiro, "
+    },
+    {
+      "tabela": "questoes",
+      "id": 4142,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Extorsão",
+      "texto": "Mediante grave ameaça de morte, Jonas obrigou um comerciante a assinar, em favor dele, uma nota promissória de alto valor, a qual pretendia cobrar depois. Sem a"
+    },
+    {
+      "tabela": "questoes",
+      "id": 197,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Extorsão",
+      "texto": "Dois agentes abordaram um motorista, mantiveram-no dentro do próprio carro por cerca de duas horas e o levaram a caixas eletrônicos, obrigando-o a sacar dinheir"
+    },
+    {
+      "tabela": "questoes",
+      "id": 200,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Dano",
+      "texto": "Sem o consentimento do vizinho, um criador soltou seu gado no terreno dele para aproveitar o pasto. Os animais pisotearam e comeram uma plantação de milho, caus"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4146,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Furto",
+      "texto": "Rosa trabalhava havia dez anos como empregada doméstica de uma família, que lhe confiava as chaves da casa e lhe dava livre acesso a todos os cômodos. Aproveita"
+    },
+    {
+      "tabela": "questoes",
+      "id": 196,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Extorsão",
+      "texto": "Por meio de mensagens, Marcos ameaçou matar o filho de uma comerciante caso ela não depositasse R$ 10.000,00 na conta indicada por ele até o fim da semana. Com "
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1198,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Extorsão",
+      "texto": "Quando o constrangimento com grave ameaça configura extorsão, e não roubo?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1199,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Apropriação Indébita",
+      "texto": "Apropriação indébita ou estelionato: qual o papel do momento do dolo?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1200,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Roubo",
+      "texto": "Há latrocínio consumado se a morte ocorre, mas a subtração não se consuma?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1201,
+      "de": "Crimes contra o Patrimônio",
+      "para": "Dano",
+      "texto": "Dano contra bem de concessionária de serviço público: qual a ação penal?"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4305,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Outros Crimes contra Vulnerável",
+      "texto": "O gerente de uma boate permitiu, ciente dos fatos, que adolescentes de 16 anos fossem submetidas à exploração sexual no estabelecimento. Condenado pelo crime do"
+    },
+    {
+      "tabela": "questoes",
+      "id": 886,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Estupro de Vulnerável",
+      "texto": "À luz da redação atual do art. 217-A do Código Penal, assinale a alternativa correta acerca do estupro de vulnerável praticado contra menor de 14 anos."
+    },
+    {
+      "tabela": "questoes",
+      "id": 877,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Estupro",
+      "texto": "Em plantão na delegacia, o inspetor registra ocorrência na qual o autor, mediante grave ameaça exercida com uma faca, constrangeu uma adolescente de 16 anos a p"
+    },
+    {
+      "tabela": "questoes",
+      "id": 884,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Estupro de Vulnerável",
+      "texto": "Conforme a redação vigente do art. 217-A do Código Penal, alterada pela Lei nº 15.280/2025, a pena do estupro de vulnerável, em sua forma simples, é de:"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4315,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Estupro de Vulnerável",
+      "texto": "Um homem manteve conjunção carnal com uma mulher de 25 anos que, por deficiência mental, não tem o necessário discernimento para a prática do ato, condição que "
+    },
+    {
+      "tabela": "questoes",
+      "id": 876,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Estupro",
+      "texto": "Sobre o crime de estupro em sua forma simples (art. 213, caput, do Código Penal), assinale a alternativa correta."
+    },
+    {
+      "tabela": "questoes",
+      "id": 4300,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Outros Crimes contra Vulnerável",
+      "texto": "Um homem adulto manteve conjunção carnal consentida com a companheira, também adulta, e induziu o enteado de 11 anos a presenciar o ato, a fim de satisfazer a p"
+    },
+    {
+      "tabela": "questoes",
+      "id": 890,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Divulgação de Cena de Estupro, Sexo ou Nudez",
+      "texto": "Acerca da exclusão de ilicitude prevista no art. 218-C, § 2º, do Código Penal, não há crime quando o agente pratica as condutas descritas no caput:"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4298,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Violação Sexual Mediante Fraude",
+      "texto": "Apresentando-se como líder espiritual, um homem convenceu uma fiel adulta de que determinado ato libidinoso faria parte de um ritual de cura indispensável para "
+    },
+    {
+      "tabela": "questoes",
+      "id": 878,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Estupro",
+      "texto": "Segundo o Código Penal, no crime de estupro praticado contra vítima maior de 18 anos, se da conduta resulta a morte da vítima, a pena cominada é de:"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4313,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Importunação Sexual",
+      "texto": "Uma mulher adulta foi vítima de importunação sexual (art. 215-A do CP) em um evento público. Identificado o autor, ela declarou à autoridade policial que não de"
+    },
+    {
+      "tabela": "questoes",
+      "id": 895,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Estupro",
+      "texto": "Sobre o art. 234-B do Código Penal, que trata do sigilo e da publicidade dos processos por crimes contra a dignidade sexual, assinale a alternativa correta."
+    },
+    {
+      "tabela": "questoes",
+      "id": 883,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Registro Não Autorizado da Intimidade Sexual",
+      "texto": "Agente que, sem autorização dos participantes, filma cena de nudez de caráter íntimo e privado, mas não divulga o material, pratica, segundo o Código Penal:"
+    },
+    {
+      "tabela": "questoes",
+      "id": 887,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Estupro de Vulnerável",
+      "texto": "Um homem de 20 anos mantém conjunção carnal com uma adolescente de 13 anos, que consentiu com o ato e já havia tido relações sexuais anteriores. Da conduta resu"
+    },
+    {
+      "tabela": "questoes",
+      "id": 889,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Divulgação de Cena de Estupro, Sexo ou Nudez",
+      "texto": "Após o término de uma união estável, o ex-companheiro, com o fim de vingança, divulga em aplicativo de mensagens fotografia íntima da ex-companheira, sem o cons"
+    },
+    {
+      "tabela": "questoes",
+      "id": 881,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Assédio Sexual",
+      "texto": "No crime de assédio sexual (art. 216-A do Código Penal), além do constrangimento com o intuito de obter vantagem ou favorecimento sexual, constitui elementar do"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4312,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Lenocínio e Exploração Sexual",
+      "texto": "Uma pessoa mantém, por conta de terceiro, um imóvel em que ocorre exploração sexual de mulheres adultas, sem receber pessoalmente qualquer lucro e sem intermedi"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4297,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Estupro de Vulnerável",
+      "texto": "Em um vagão de metrô lotado, um homem adulto praticou ato libidinoso contra uma menina de 12 anos, sem violência nem grave ameaça, aproveitando-se da aglomeraçã"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4304,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Outros Crimes contra Vulnerável",
+      "texto": "Uma mulher passou a atrair adolescentes de 15 e 16 anos para a prostituição, organizando encontros com clientes e impedindo que elas abandonassem a atividade. A"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4306,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Lenocínio e Exploração Sexual",
+      "texto": "Sem empregar violência, grave ameaça ou fraude, um homem passou a fazer-se sustentar integralmente pelos valores obtidos por uma mulher adulta que exerce a pros"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4303,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Registro Não Autorizado da Intimidade Sexual",
+      "texto": "Durante um namoro, uma mulher adulta enviou ao namorado, de forma voluntária, uma fotografia íntima sua. Meses depois, ele publicou a imagem em uma rede social,"
+    },
+    {
+      "tabela": "questoes",
+      "id": 885,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Estupro de Vulnerável",
+      "texto": "Durante uma festa, uma mulher de 25 anos embriagou-se voluntariamente até ficar inconsciente. Aproveitando-se desse estado, um convidado praticou com ela ato li"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4296,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Estupro",
+      "texto": "Mediante grave ameaça exercida com arma de fogo, um homem constrangeu uma mulher adulta a permitir que com ela se praticasse ato libidinoso diverso da conjunção"
+    },
+    {
+      "tabela": "questoes",
+      "id": 888,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Divulgação de Cena de Estupro, Sexo ou Nudez",
+      "texto": "Um homem publica em rede social, sem o consentimento da vítima, um vídeo que contém cena de nudez dela. Ele nunca manteve relação afetiva com a vítima e não agi"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4309,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Estupro",
+      "texto": "Um homem recebeu, em grupo de aplicativo de mensagens, vídeo com cena de estupro praticado por terceiros, do qual não participou, e o repassou a outros grupos. "
+    },
+    {
+      "tabela": "questoes",
+      "id": 4302,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Assédio Sexual",
+      "texto": "Em uma repartição pública, um servidor passou a fazer insistentes propostas de natureza sexual a uma colega que ocupa o mesmo cargo e a mesma posição que ele, s"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4301,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Outros Crimes contra Vulnerável",
+      "texto": "Um homem de 30 anos pagou para manter conjunção carnal com uma adolescente de 16 anos que estava submetida à exploração sexual por terceiros, ciente da idade de"
+    },
+    {
+      "tabela": "questoes",
+      "id": 879,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Violação Sexual Mediante Fraude",
+      "texto": "Sobre o crime de violação sexual mediante fraude, previsto no art. 215 do Código Penal, assinale a alternativa correta."
+    },
+    {
+      "tabela": "questoes",
+      "id": 4308,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Estupro de Vulnerável",
+      "texto": "Um rapaz de 19 anos manteve, por meses, namoro com uma adolescente de 13 anos, com quem teve conjunção carnal consentida, com a aprovação da família dela. A ado"
+    },
+    {
+      "tabela": "questoes",
+      "id": 880,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Importunação Sexual",
+      "texto": "Guardas municipais em patrulhamento são acionados em um ônibus coletivo, onde um passageiro praticou ato libidinoso contra uma passageira, sem a anuência dela, "
+    },
+    {
+      "tabela": "questoes",
+      "id": 4310,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Ultraje Público ao Pudor",
+      "texto": "Em uma praça movimentada, durante o dia, um homem tirou a roupa e permaneceu nu diante dos transeuntes, sem dirigir qualquer ato a pessoa determinada e sem toca"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4311,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Estupro",
+      "texto": "Mediante grave ameaça, um homem constrangeu a própria esposa, com quem convive, a ter conjunção carnal contra a vontade dela. Segundo o Código Penal, é correto "
+    },
+    {
+      "tabela": "questoes",
+      "id": 892,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Estupro",
+      "texto": "Dois homens, agindo em concurso e mediante grave ameaça, constrangem uma mulher adulta a ter conjunção carnal. Não há relação de parentesco ou autoridade sobre "
+    },
+    {
+      "tabela": "questoes",
+      "id": 4299,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Estupro",
+      "texto": "Sobre a distinção entre o estupro (art. 213) e a violação sexual mediante fraude (art. 215), ambos do Código Penal, assinale a alternativa correta."
+    },
+    {
+      "tabela": "questoes",
+      "id": 4307,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Outros Crimes contra Vulnerável",
+      "texto": "Uma mulher convenceu uma menina de 13 anos, mediante promessa de presentes, a satisfazer a lascívia de um terceiro de forma meramente contemplativa, sem que nen"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 222,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Estupro de Vulnerável",
+      "texto": "Quem é considerado vulnerável para fins do crime de estupro de vulnerável?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 223,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Registro Não Autorizado da Intimidade Sexual",
+      "texto": "Fazer montagem em foto ou vídeo para incluir pessoa em cena de nudez ou ato sexual íntimo é crime? Qual a pena?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 224,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Estupro",
+      "texto": "O que é estupro corretivo e qual o aumento de pena?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 227,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Estupro",
+      "texto": "Qual a pena do estupro do qual resulta lesão corporal de natureza grave (vítima adulta)?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1244,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Importunação Sexual",
+      "texto": "Ato libidinoso contra menor de 14 anos, sem violência, em transporte público: importunação sexual ou estupro de vulnerável?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1245,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Outros Crimes contra Vulnerável",
+      "texto": "Quem pratica ato sexual com adolescente entre 14 e 18 anos submetido à exploração sexual comete crime?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1246,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Estupro de Vulnerável",
+      "texto": "Qual a diferença entre estupro de vulnerável e satisfação de lascívia mediante presença de criança?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1247,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Divulgação de Cena de Estupro, Sexo ou Nudez",
+      "texto": "Foto íntima feita com autorização e depois publicada sem consentimento: art. 216-B ou art. 218-C?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1248,
+      "de": "Crimes contra a Dignidade Sexual",
+      "para": "Violação Sexual Mediante Fraude",
+      "texto": "Na violação sexual mediante fraude, qual a consequência de o crime visar vantagem econômica?"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2745,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes de Perigo Comum",
+      "texto": "Durante um incêndio em um mercado público, um indivíduo esconde as mangueiras e os extintores do prédio, dificultando o trabalho dos bombeiros. Segundo o Código"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2746,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes de Perigo Comum",
+      "texto": "Nos crimes dolosos de perigo comum, o art. 258 do Código Penal prevê forma qualificada pelo resultado quando do fato resulta:"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2754,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes contra a Saúde Pública",
+      "texto": "Um médico com o registro profissional suspenso continua atendendo pacientes, de forma gratuita, durante o período da suspensão. Conforme o art. 282 do CP, com a"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2742,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes de Perigo Comum",
+      "texto": "Sobre o crime de inundação, previsto no art. 254 do Código Penal, assinale a alternativa correta."
+    },
+    {
+      "tabela": "questoes",
+      "id": 2738,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes de Perigo Comum",
+      "texto": "Um indivíduo detona, em via pública movimentada, um artefato cuja substância não é dinamite nem explosivo de efeitos análogos, expondo a perigo a integridade fí"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2747,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes de Perigo Comum",
+      "texto": "Em crime de perigo comum praticado na forma culposa, o art. 258 do Código Penal estabelece que:"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2739,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes de Perigo Comum",
+      "texto": "Acerca da modalidade culposa do crime de explosão (art. 251, § 3º, do CP), é correto afirmar que:"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2755,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes contra a Saúde Pública",
+      "texto": "Um indivíduo anuncia em redes sociais a cura garantida de doenças graves por meio de um 'método secreto e infalível'. A conduta corresponde, no Código Penal, ao"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2743,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes de Perigo Comum",
+      "texto": "Um fazendeiro destrói, em seu próprio terreno, um dique construído para impedir inundação, expondo a perigo as casas vizinhas, embora nenhuma inundação chegue a"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2741,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes de Perigo Comum",
+      "texto": "Segundo o art. 253 do Código Penal, quem possui, sem licença da autoridade, material destinado à fabricação de substância explosiva:"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2752,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes contra a Saúde Pública",
+      "texto": "Nos termos do art. 273, § 1º-A, do Código Penal, incluem-se entre os produtos destinados a fins terapêuticos ou medicinais:"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2736,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes de Perigo Comum",
+      "texto": "De acordo com o Código Penal, quem causa incêndio em casa habitada, expondo a perigo a vida, a integridade física ou o patrimônio de outrem, comete:"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2740,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes de Perigo Comum",
+      "texto": "Quem expõe a perigo a vida, a integridade física ou o patrimônio de outrem, usando de gás tóxico ou asfixiante, comete:"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2744,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes de Perigo Comum",
+      "texto": "Um mestre de obras, por imperícia na escavação de um terreno, causa desmoronamento de terra que expõe a perigo a vida de pedestres, sem que ninguém se fira. A p"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2750,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes contra a Saúde Pública",
+      "texto": "O art. 285 do Código Penal manda aplicar o disposto no art. 258 (formas qualificadas) aos crimes contra a saúde pública. Essa remissão:"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2748,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes contra a Segurança dos Meios de Comunicação e Transporte",
+      "texto": "Um grupo furta cabos essenciais ao funcionamento da rede de energia elétrica de um bairro, atentando contra a segurança e o funcionamento do serviço. Segundo o "
+    },
+    {
+      "tabela": "questoes",
+      "id": 2751,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes contra a Saúde Pública",
+      "texto": "O dono de uma distribuidora mantém em depósito, para o fim de distribuí-los, galões de água potável que sabe terem sido envenenados por terceiro. Segundo o Códi"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2737,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes de Perigo Comum",
+      "texto": "Um vigilante descarta, por descuido, um cigarro aceso em terreno com mato seco ao lado de residências, provocando incêndio que expõe a perigo a vida dos morador"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2753,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes contra a Saúde Pública",
+      "texto": "Um balconista de farmácia, por negligência na conferência do estoque, entrega a consumo um medicamento adulterado, sem que houvesse receita médica envolvida na "
+    },
+    {
+      "tabela": "questoes",
+      "id": 2749,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes contra a Saúde Pública",
+      "texto": "Sobre o crime de epidemia, previsto no art. 267 do Código Penal, assinale a alternativa correta."
+    },
+    {
+      "tabela": "flashcards",
+      "id": 778,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes de Perigo Comum",
+      "texto": "No incêndio, qual o efeito de o agente agir com intuito de obter vantagem pecuniária?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 779,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes de Perigo Comum",
+      "texto": "Quais causas de aumento se aplicam ao crime de explosão?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 780,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes contra a Saúde Pública",
+      "texto": "Quais são as formas de execução do curandeirismo e sua pena?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 781,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes contra a Saúde Pública",
+      "texto": "No exercício ilegal da medicina, o que ocorre se do crime resulta morte?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 782,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes contra a Segurança dos Meios de Comunicação e Transporte",
+      "texto": "Nos crimes dos arts. 260 a 262 (transportes), havendo desastre com lesão ou morte, qual regra se aplica?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 783,
+      "de": "Crimes contra a Incolumidade Pública",
+      "para": "Crimes contra a Saúde Pública",
+      "texto": "Qual a pena do envenenamento de água potável na forma culposa?"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1944,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Associação Criminosa",
+      "texto": "A pena prevista no caput do art. 288 do CP (associação criminosa) é de:"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1936,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Incitação e Apologia ao Crime",
+      "texto": "Segundo o Código Penal, a pena cominada ao crime de incitação ao crime (art. 286) é de:"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1938,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Incitação e Apologia ao Crime",
+      "texto": "Nos termos do parágrafo único do art. 286 do CP, incluído pela Lei 14.197/2021, incorre na mesma pena da incitação ao crime quem incita, publicamente:"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1939,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Incitação e Apologia ao Crime",
+      "texto": "Em perfil público de rede social, um homem publica vídeo elogiando um assalto a banco ocorrido na semana anterior, chamando-o de 'ação brilhante' e exaltando o "
+    },
+    {
+      "tabela": "questoes",
+      "id": 1941,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Associação Criminosa",
+      "texto": "De acordo com o art. 288 do CP, o crime de associação criminosa exige a associação de, no mínimo:"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1947,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Associação Criminosa",
+      "texto": "Um comerciante procura integrante de associação criminosa atuante em seu bairro e o contrata para incendiar o estabelecimento de um concorrente. Nos termos do §"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1952,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Associação Criminosa",
+      "texto": "Em investigação na delegacia, apura-se que três pessoas se uniram de forma estável e com divisão de tarefas para praticar estelionatos em série. Sabendo que a L"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1953,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Incitação e Apologia ao Crime",
+      "texto": "Sobre os crimes contra a paz pública previstos nos arts. 286 a 288-A do CP, assinale a alternativa correta."
+    },
+    {
+      "tabela": "questoes",
+      "id": 1940,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Incitação e Apologia ao Crime",
+      "texto": "Sobre a distinção entre os crimes de incitação ao crime (art. 286) e de apologia de crime ou criminoso (art. 287), assinale a alternativa correta."
+    },
+    {
+      "tabela": "questoes",
+      "id": 1937,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Incitação e Apologia ao Crime",
+      "texto": "Durante conversa reservada em sua casa, Caio sugere apenas a um amigo que furte a motocicleta de um vizinho. O amigo recusa a proposta. À luz do art. 286 do CP,"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1954,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Incitação e Apologia ao Crime",
+      "texto": "Em ato público transmitido ao vivo, um vereador homenageia conhecido chefe do tráfico já condenado, exaltando-o como 'exemplo para a juventude' em razão de sua "
+    },
+    {
+      "tabela": "questoes",
+      "id": 1949,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Constituição de Milícia Privada",
+      "texto": "Um empresário que não participa das ações do grupo repassa, mensalmente, recursos financeiros que mantêm em funcionamento uma milícia particular voltada à práti"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1950,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Constituição de Milícia Privada",
+      "texto": "O art. 288-A do CP pune quem constitui, organiza, integra, mantém ou custeia organização paramilitar, milícia particular, grupo ou esquadrão. Conforme a redação"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1942,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Associação Criminosa",
+      "texto": "Ana, Bruno e Davi combinam, de forma pontual, furtar uma única loja num sábado, sem intenção de seguir juntos em outras empreitadas. Executam o furto e se separ"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1943,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Associação Criminosa",
+      "texto": "Policiais civis desarticulam grupo de três pessoas que, de modo estável, haviam se associado para praticar roubos de cargas em rodovias do Ceará. A prisão ocorr"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1955,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Incitação e Apologia ao Crime",
+      "texto": "Em manifestação pública na Praça do Ferreira, em Fortaleza, um orador incentiva a multidão a explorar o jogo do bicho, conduta prevista em lei como contravenção"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1945,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Associação Criminosa",
+      "texto": "Três indivíduos associam-se de forma estável para praticar roubos a residências, mantendo pistolas para intimidar as vítimas. Considerando o § 1º do art. 288 do"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1951,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Constituição de Milícia Privada",
+      "texto": "O art. 288-A do CP menciona expressamente, como objeto das condutas que incrimina:"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1946,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Associação Criminosa",
+      "texto": "Entre as circunstâncias abaixo, a única prevista no § 1º do art. 288 do CP como causa de aumento de pena da associação criminosa é:"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1948,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Constituição de Milícia Privada",
+      "texto": "Sobre o crime de constituição de milícia privada (art. 288-A do CP), é correto afirmar que:"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 540,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Incitação e Apologia ao Crime",
+      "texto": "Que conduta o parágrafo único do art. 286 do CP equipara à incitação ao crime?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 541,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Incitação e Apologia ao Crime",
+      "texto": "Qual a pena da apologia de crime ou criminoso?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 542,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Associação Criminosa",
+      "texto": "Quais os elementos do crime de associação criminosa?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 543,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Associação Criminosa",
+      "texto": "Quando a pena da associação criminosa aumenta até a metade?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 544,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Associação Criminosa",
+      "texto": "Que pena recebe quem solicita ou contrata crime a integrante de associação criminosa?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 545,
+      "de": "Crimes contra a Paz Pública",
+      "para": "Constituição de Milícia Privada",
+      "texto": "Quais os núcleos do tipo e a pena da constituição de milícia privada?"
+    },
+    {
+      "tabela": "questoes",
+      "id": 735,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Outras Falsidades Documentais",
+      "texto": "O sócio-administrador de uma empresa de segurança privada manda estampar nas viaturas da empresa, sem autorização, o brasão e a sigla oficiais da Guarda Municip"
+    },
+    {
+      "tabela": "questoes",
+      "id": 733,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Outras Falsidades",
+      "texto": "Sobre o crime de adulteração de sinal identificador de veículo (art. 311 do CP), assinale a alternativa correta."
+    },
+    {
+      "tabela": "questoes",
+      "id": 723,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Falsificação de Documento Particular",
+      "texto": "Um indivíduo é preso por clonar cartões de débito de clientes de um banco. Quanto à falsificação dos cartões, o Código Penal"
+    },
+    {
+      "tabela": "questoes",
+      "id": 729,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Outras Falsidades",
+      "texto": "Pessoa que empresta o próprio título de eleitor a um amigo, para que este dele se utilize, comete, segundo o Código Penal,"
+    },
+    {
+      "tabela": "questoes",
+      "id": 726,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Falsidade Ideológica",
+      "texto": "Na falsidade ideológica (art. 299 do CP), a pena é aumentada de sexta parte quando"
+    },
+    {
+      "tabela": "questoes",
+      "id": 717,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Moeda Falsa",
+      "texto": "Um comerciante recebeu de boa-fé, como troco, uma cédula de R$ 100,00 que acreditava ser verdadeira. Dias depois, já sabendo que a nota era falsa, usou-a para p"
+    },
+    {
+      "tabela": "questoes",
+      "id": 728,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Outras Falsidades",
+      "texto": "Abordado por guardas municipais em uma blitz, um homem com mandado de prisão em aberto informa verbalmente o nome e os dados do irmão para não ser conduzido à d"
+    },
+    {
+      "tabela": "questoes",
+      "id": 727,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Uso de Documento Falso",
+      "texto": "Quem faz uso de documento público falsificado por terceiro (art. 304 do CP) está sujeito à pena"
+    },
+    {
+      "tabela": "questoes",
+      "id": 719,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Moeda Falsa",
+      "texto": "Policiais civis cumprem mandado de busca e encontram, na casa de um investigado, uma máquina especialmente destinada à falsificação de moeda, sem nenhuma cédula"
+    },
+    {
+      "tabela": "questoes",
+      "id": 720,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Moeda Falsa",
+      "texto": "Quem forma cédula representativa de moeda juntando fragmentos de cédulas verdadeiras pratica, segundo o Código Penal,"
+    },
+    {
+      "tabela": "questoes",
+      "id": 716,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Moeda Falsa",
+      "texto": "Segundo o Código Penal, quem falsifica, fabricando-a ou alterando-a, moeda metálica ou papel-moeda de curso legal no país ou no estrangeiro está sujeito a qual "
+    },
+    {
+      "tabela": "questoes",
+      "id": 722,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Falsificação de Documento Público",
+      "texto": "Para os efeitos penais, o Código Penal equipara a documento público, entre outros,"
+    },
+    {
+      "tabela": "questoes",
+      "id": 732,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Outras Falsidades Documentais",
+      "texto": "Um devedor, durante visita ao escritório do credor, apodera-se do único original de um contrato particular de confissão de dívida, do qual não podia dispor, e o"
+    },
+    {
+      "tabela": "questoes",
+      "id": 725,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Falsidade Ideológica",
+      "texto": "Um homem, ao preencher uma declaração de residência em formulário autêntico, insere endereço que sabe ser falso para obter vaga em escola pública, alterando a v"
+    },
+    {
+      "tabela": "questoes",
+      "id": 724,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Falsificação de Documento Público",
+      "texto": "Um servidor de órgão estadual de identificação, valendo-se do acesso que o cargo lhe proporciona, altera os dados de uma carteira de identidade verdadeira para "
+    },
+    {
+      "tabela": "questoes",
+      "id": 721,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Moeda Falsa",
+      "texto": "Sobre o crime de emissão de título ao portador sem permissão legal (art. 292 do CP), assinale a alternativa correta."
+    },
+    {
+      "tabela": "questoes",
+      "id": 718,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Moeda Falsa",
+      "texto": "O diretor de um banco de emissão que autoriza a emissão de papel-moeda em quantidade superior à autorizada pratica, segundo o Código Penal,"
+    },
+    {
+      "tabela": "questoes",
+      "id": 734,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Outras Falsidades Documentais",
+      "texto": "O tabelião que, no exercício da função pública, reconhece como verdadeira, em contrato particular, firma que sabe ser falsa pratica, em tese,"
+    },
+    {
+      "tabela": "questoes",
+      "id": 731,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Outras Falsidades Documentais",
+      "texto": "Sobre os crimes de certidão ou atestado ideologicamente falso (art. 301, caput, do CP) e de falsidade material de atestado ou certidão (art. 301, § 1º, do CP), "
+    },
+    {
+      "tabela": "questoes",
+      "id": 730,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Outras Falsidades Documentais",
+      "texto": "Em seu consultório particular, um médico emite, mediante pagamento, atestado falso de que um paciente esteve internado, para que este justifique faltas no empre"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 174,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Falsidade de Títulos e Papéis Públicos",
+      "texto": "Qual a pena para quem falsifica selo destinado a controle tributário?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 175,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Falsidade de Títulos e Papéis Públicos",
+      "texto": "Nos crimes de falsidade de papéis públicos (arts. 293 e 294), qual o aumento para o funcionário que se prevalece do cargo?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 176,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Outras Falsidades",
+      "texto": "Que crime comete o estrangeiro que usa nome que não é o seu para entrar ou permanecer no Brasil?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 177,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Outras Falsidades Documentais",
+      "texto": "Quando a reprodução de selo filatélico com valor para coleção NÃO é crime?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 178,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Falsificação de Documento Público",
+      "texto": "Inserir declaração falsa na CTPS do empregado gera qual pena?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 179,
+      "de": "Crimes contra a Fé Pública",
+      "para": "Fraudes em Certames de Interesse Público",
+      "texto": "Qual a pena por divulgar indevidamente conteúdo sigiloso de concurso público e qual a forma qualificada?"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2859,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Desacato",
+      "texto": "Abordado em uma blitz, um motorista xinga e humilha, diante de populares, o policial militar que o fiscalizava, em razão da função por ele exercida. De acordo c"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2868,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Coação no Curso do Processo",
+      "texto": "Réu em processo por crime de estupro faz grave ameaça à vítima para que ela não compareça à audiência de instrução, com o fim de favorecer interesse próprio. Se"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4674,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Concussão e Excesso de Exação",
+      "texto": "Um fiscal de tributos municipais, encarregado de cobrar um imposto efetivamente devido por um comerciante, decide pressioná-lo afixando na fachada da loja, sem "
+    },
+    {
+      "tabela": "questoes",
+      "id": 4670,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Crimes em Licitações e Contratos Administrativos",
+      "texto": "Um técnico de informática de uma secretaria municipal, por conta própria e sem autorização ou solicitação da autoridade competente, altera o programa de control"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4688,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Outros Crimes de Funcionário Público",
+      "texto": "Julgue o item a seguir. No crime de inserção de dados falsos em sistema de informações, a finalidade exigida pelo tipo pode ser tanto a de obter vantagem indevi"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2862,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Descaminho e Contrabando",
+      "texto": "Sobre os crimes de descaminho e contrabando, conforme a redação do Código Penal, assinale a alternativa correta."
+    },
+    {
+      "tabela": "questoes",
+      "id": 4668,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Peculato",
+      "texto": "Servidor de uma secretaria estadual, que não tem a posse nem a guarda dos notebooks armazenados no almoxarifado, combina com um comparsa sem vínculo com a Admin"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4687,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Corrupção Passiva",
+      "texto": "Julgue o item a seguir. Configura corrupção passiva privilegiada a conduta do funcionário que, cedendo a pedido de outrem, pratica ato de ofício, ainda que o fa"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2864,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Denunciação Caluniosa",
+      "texto": "Por vingança, Ana, sabendo que o vizinho é inocente, envia denúncia anônima à delegacia imputando-lhe a prática de um crime, o que dá causa à instauração de inq"
+    },
+    {
+      "tabela": "questoes",
+      "id": 675,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Outros Crimes de Funcionário Público",
+      "texto": "Um servidor público lotado em município situado na faixa de fronteira abandona o cargo, fora dos casos permitidos em lei, sem que do fato resulte prejuízo públi"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2860,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Tráfico de Influência",
+      "texto": "Um particular cobra de um empresário R$ 50 mil a pretexto de influir no ato de um servidor da Secretaria de Obras responsável pela liberação de um alvará, insin"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4686,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Outros Crimes de Funcionário Público",
+      "texto": "Julgue o item a seguir. O crime de facilitação de contrabando ou descaminho, previsto no art. 318 do Código Penal, alcança a facilitação de qualquer dessas duas"
+    },
+    {
+      "tabela": "questoes",
+      "id": 657,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Conceito de Funcionário Público",
+      "texto": "Carlos é empregado de empresa privada contratada pelo Município para executar atividade típica da Administração Pública. No exercício dessa atividade, desvia va"
+    },
+    {
+      "tabela": "questoes",
+      "id": 663,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Peculato",
+      "texto": "Um servidor, ao atender um contribuinte no balcão da repartição, recebe por engano quantia superior à devida e, percebendo o erro, fica com a diferença para si."
+    },
+    {
+      "tabela": "questoes",
+      "id": 673,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Advocacia Administrativa",
+      "texto": "Um inspetor de polícia, valendo-se da qualidade de funcionário, procura servidores de outra repartição e patrocina, perante eles, interesse privado ilegítimo de"
+    },
+    {
+      "tabela": "questoes",
+      "id": 671,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Prevaricação",
+      "texto": "Um agente penitenciário percebe que um preso mantém um aparelho de telefone celular na cela, usado para se comunicar com o ambiente externo, mas deixa de cumpri"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4683,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Outros Crimes de Funcionário Público",
+      "texto": "O art. 323 do Código Penal tipifica o abandono de função, consistente em abandonar cargo público fora dos casos permitidos em lei. Assinale a alternativa que in"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4685,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Peculato",
+      "texto": "O peculato-apropriação (art. 312, caput) e o peculato mediante erro de outrem (art. 313) têm em comum a apropriação de bem pelo funcionário público. O elemento "
+    },
+    {
+      "tabela": "questoes",
+      "id": 2857,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Resistência",
+      "texto": "Um oficial de justiça, acompanhado de um guarda municipal que lhe prestava auxílio, tenta cumprir mandado judicial de busca e apreensão de um veículo. O morador"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2856,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Usurpação de Função Pública",
+      "texto": "Um homem sem qualquer vínculo com a Administração passa a se apresentar como fiscal da vigilância sanitária municipal, realiza falsas vistorias em bares e receb"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4672,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Outros Crimes de Funcionário Público",
+      "texto": "Um escrivão de polícia, responsável pela guarda do livro oficial de registro de ocorrências da delegacia, arranca e destrói algumas folhas do livro para apagar "
+    },
+    {
+      "tabela": "questoes",
+      "id": 4682,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Conceito de Funcionário Público",
+      "texto": "Ocupante de cargo em comissão de assessor em uma secretaria estadual, órgão da administração direta, exige de um empresário vantagem indevida para emitir parece"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4678,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Outros Crimes de Funcionário Público",
+      "texto": "Um servidor estadual é oficialmente notificado de sua suspensão, mas, sem autorização, continua comparecendo à repartição e despachando processos como se nada t"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2871,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Favorecimento Pessoal e Real",
+      "texto": "Depois de cometer um roubo, Pedro é escondido em uma casa para escapar da ação da polícia. Conforme o Código Penal, quem lhe presta esse auxílio fica isento de "
+    },
+    {
+      "tabela": "questoes",
+      "id": 4684,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Corrupção Passiva",
+      "texto": "Os crimes de concussão, corrupção passiva, corrupção passiva privilegiada e excesso de exação são frequentemente confundidos em provas. Sobre a distinção entre "
+    },
+    {
+      "tabela": "questoes",
+      "id": 4681,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Conceito de Funcionário Público",
+      "texto": "Empregada pública concursada de uma empresa pública estadual, contratada pelo regime celetista, apropria-se de valores da empresa de que tinha a posse em razão "
+    },
+    {
+      "tabela": "questoes",
+      "id": 664,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Outros Crimes de Funcionário Público",
+      "texto": "Servidora autorizada a operar o sistema informatizado de benefícios de um órgão público insere dados falsos no banco de dados, com o fim de obter vantagem indev"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2861,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Corrupção Ativa",
+      "texto": "Durante fiscalização, um motorista oferece R$ 500,00 a um policial rodoviário para que ele não lavre auto de infração. O policial aceita a oferta e, em razão de"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4692,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Condescendência Criminosa",
+      "texto": "Um chefe de seção descobre que um subordinado cometeu infração no exercício do cargo e deixa de responsabilizá-lo porque recebeu dele uma quantia em dinheiro pa"
+    },
+    {
+      "tabela": "questoes",
+      "id": 662,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Peculato",
+      "texto": "Um servidor, por descuido, deixa aberto o almoxarifado da repartição, e um colega aproveita para subtrair equipamentos. Antes da sentença irrecorrível, o servid"
+    },
+    {
+      "tabela": "questoes",
+      "id": 669,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Corrupção Passiva",
+      "texto": "Um escrivão deixa de cumprir diligência que lhe cabia, com infração de dever funcional, apenas porque cedeu a pedido de um vereador da cidade, sem receber ou ac"
+    },
+    {
+      "tabela": "questoes",
+      "id": 674,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Violação de Sigilo Funcional",
+      "texto": "Um servidor empresta sua senha pessoal a um amigo, pessoa não autorizada, permitindo-lhe acessar banco de dados da Administração Pública. Do acesso resulta dano"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4680,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Violação de Sigilo Funcional",
+      "texto": "Um servidor da Secretaria da Segurança, que tem senha pessoal de acesso a um banco de dados restrito da Administração, utiliza-a, por mera curiosidade e sem nen"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4675,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Corrupção Passiva",
+      "texto": "Um servidor responsável por analisar pedidos de licença ambiental aceita a promessa de um empresário de contratar seu filho, caso o processo da empresa seja ana"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2867,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Falso Testemunho ou Falsa Perícia",
+      "texto": "Sobre o falso testemunho e a corrupção de testemunha ou perito, previstos nos arts. 342 e 343 do Código Penal, assinale a alternativa correta."
+    },
+    {
+      "tabela": "questoes",
+      "id": 658,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Conceito de Funcionário Público",
+      "texto": "Sobre a causa de aumento de pena prevista no § 2º do art. 327 do Código Penal, aplicável aos crimes praticados por funcionário público contra a Administração em"
+    },
+    {
+      "tabela": "questoes",
+      "id": 665,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Concussão e Excesso de Exação",
+      "texto": "Aprovado em concurso e já nomeado, mas antes de tomar posse, um futuro inspetor de polícia exige de um comerciante dinheiro para deixar de investigar irregulari"
+    },
+    {
+      "tabela": "questoes",
+      "id": 670,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Outros Crimes de Funcionário Público",
+      "texto": "Um policial lotado em posto de fiscalização rodoviária, por iniciativa própria e com infração de dever funcional, deixa passar deliberadamente caminhão com merc"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4691,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Peculato",
+      "texto": "Julgue o item a seguir. Conforme o Código Penal, no peculato-apropriação, a reparação integral do dano feita pelo funcionário antes da sentença irrecorrível ext"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2869,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Exercício Arbitrário das Próprias Razões",
+      "texto": "Um credor, cansado de esperar, retira do estabelecimento do devedor, sem violência ou ameaça, mercadorias de valor equivalente a uma dívida vencida e legítima. "
+    },
+    {
+      "tabela": "questoes",
+      "id": 666,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Concussão e Excesso de Exação",
+      "texto": "Sobre o crime de excesso de exação, previsto no § 1º do art. 316 do Código Penal, assinale a alternativa correta."
+    },
+    {
+      "tabela": "questoes",
+      "id": 2858,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Desobediência",
+      "texto": "Em diligência, um inspetor de polícia, munido de ordem legal, determina ao proprietário de um galpão que abra o portão para a entrada da equipe. O proprietário "
+    },
+    {
+      "tabela": "questoes",
+      "id": 2875,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Outros Crimes contra a Administração da Justiça",
+      "texto": "Um advogado patrocinou o autor de uma ação judicial e, após renunciar ao mandato, passou a defender o réu na mesma causa. De acordo com o Código Penal, o advoga"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4689,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Outros Crimes de Funcionário Público",
+      "texto": "Um servidor responsável pelo arquivo de uma repartição sonega documento de que tem a guarda em razão do cargo, e o fato, nas circunstâncias, constitui crime mai"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4679,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Violação de Sigilo Funcional",
+      "texto": "Um inspetor de polícia que integra a equipe de uma investigação sob sigilo conta a um jornalista, por amizade, os nomes dos investigados e as diligências planej"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2866,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Falso Testemunho ou Falsa Perícia",
+      "texto": "Uma testemunha mente em depoimento prestado na instrução de um processo criminal. Dias depois, antes de proferida a sentença nesse processo, ela procura o juiz "
+    },
+    {
+      "tabela": "questoes",
+      "id": 2865,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Comunicação Falsa de Crime",
+      "texto": "Para justificar a perda de dinheiro da empresa em apostas, um funcionário vai à delegacia e registra ocorrência de roubo que sabe não ter acontecido, sem aponta"
+    },
+    {
+      "tabela": "questoes",
+      "id": 667,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Corrupção Passiva",
+      "texto": "Durante uma blitz, um agente de trânsito sugere ao motorista flagrado sem habilitação que lhe entregue R$ 200,00 para não lavrar a autuação. Não há ameaça nem i"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4666,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Peculato",
+      "texto": "Tesoureiro de uma autarquia estadual, que tem a posse de valores do órgão em razão do cargo, transfere parte deles para a conta da empresa de um amigo, a fim de"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4690,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Corrupção Passiva",
+      "texto": "Um servidor do setor de licenciamento de obras, durante suas férias, procura um particular cujo projeto tramita sob sua responsabilidade e solicita dinheiro par"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2863,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Outros Crimes contra a Administração da Justiça",
+      "texto": "Um estrangeiro regularmente expulso do Brasil reingressa clandestinamente no território nacional e é localizado pela Polícia Federal. Segundo o Código Penal, el"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4671,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Outros Crimes de Funcionário Público",
+      "texto": "Servidora lotada no departamento de trânsito, autorizada a operar o sistema de multas, exclui do banco de dados registros corretos de infrações cometidas por um"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4693,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Concussão e Excesso de Exação",
+      "texto": "Um médico que trabalha em hospital privado conveniado ao poder público para prestar atendimento gratuito à população, atividade típica da Administração, exige d"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2870,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Fraude Processual",
+      "texto": "Após matar a vítima a tiros dentro de casa, o autor limpa os vestígios de sangue e coloca a arma na mão do morto, simulando suicídio para enganar o perito, ante"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2873,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Fuga de Pessoa Presa",
+      "texto": "Sobre o crime de evasão mediante violência contra a pessoa, previsto no art. 352 do Código Penal, assinale a alternativa correta."
+    },
+    {
+      "tabela": "questoes",
+      "id": 2872,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Favorecimento Pessoal e Real",
+      "texto": "Após um furto de joias, um amigo do autor, que não participou do crime nem obteve qualquer proveito para si, guarda as joias em seu cofre para garantir que o au"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4669,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Peculato",
+      "texto": "Um servidor foi condenado em primeira instância por peculato culposo, por ter permitido, por negligência, que um colega desviasse valores da repartição. Enquant"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4676,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Condescendência Criminosa",
+      "texto": "O encarregado de turno de uma unidade da Guarda Municipal, sem competência para aplicar punições disciplinares, presencia um guarda subordinado cometer infração"
+    },
+    {
+      "tabela": "questoes",
+      "id": 656,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Conceito de Funcionário Público",
+      "texto": "Joana, convocada pela Justiça Eleitoral, atuou como mesária nas eleições, sem receber remuneração e apenas durante o dia da votação. Nesse período, apropriou-se"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4667,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Outros Crimes de Funcionário Público",
+      "texto": "O secretário de saúde de um estado, sem obter proveito para si ou para terceiro, utiliza recursos que a lei vinculava à compra de medicamentos para custear a re"
+    },
+    {
+      "tabela": "questoes",
+      "id": 659,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Peculato",
+      "texto": "Durante uma abordagem, um guarda municipal apreende um aparelho celular e, em vez de encaminhá-lo à delegacia, leva-o para casa e passa a usá-lo como se fosse s"
+    },
+    {
+      "tabela": "questoes",
+      "id": 2874,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Outros Crimes contra a Administração da Justiça",
+      "texto": "Um grupo invade a delegacia e retira um preso do poder dos policiais que o tinham sob custódia, com o objetivo de espancá-lo. Segundo o Código Penal, os integra"
+    },
+    {
+      "tabela": "questoes",
+      "id": 668,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Corrupção Passiva",
+      "texto": "Um guarda municipal recebe vantagem indevida de um ambulante e, em consequência dela, deixa de lavrar o auto de apreensão das mercadorias irregulares, infringin"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4673,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Concussão e Excesso de Exação",
+      "texto": "Um fiscal da vigilância sanitária municipal, em dia de folga, envia o próprio primo a um restaurante para exigir do dono R$ 3.000,00, dando a entender que, se o"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4694,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Violação de Sigilo Funcional",
+      "texto": "Um servidor fornece sua senha a um amigo sem autorização, permitindo que ele acesse banco de dados da Administração Pública, mas do acesso não resulta dano algu"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4677,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Crimes em Licitações e Contratos Administrativos",
+      "texto": "Um servidor da Secretaria da Fazenda procura colegas do setor de licenciamento de outra secretaria e, valendo-se da qualidade de funcionário, pede que acelerem "
+    },
+    {
+      "tabela": "questoes",
+      "id": 660,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Peculato",
+      "texto": "Um escrivão de polícia, que não tem a guarda do depósito de objetos apreendidos, aproveita-se do livre trânsito que possui na delegacia por ser servidor e subtr"
+    },
+    {
+      "tabela": "questoes",
+      "id": 672,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Condescendência Criminosa",
+      "texto": "O chefe de um setor da Guarda Municipal toma conhecimento de que um subordinado cometeu infração no exercício do cargo, mas, por indulgência, deixa de responsab"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 156,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Concussão e Excesso de Exação",
+      "texto": "Qual crime comete o funcionário que desvia, em proveito próprio ou de outrem, o que recebeu indevidamente para recolher aos cofres públicos, e qual a pena?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 157,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Outros Crimes de Funcionário Público",
+      "texto": "Qual a pena do emprego irregular de verbas ou rendas públicas?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 158,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Outros Crimes de Funcionário Público",
+      "texto": "Qual a pena do extravio, sonegação ou inutilização de livro oficial ou documento de que o funcionário tem a guarda em razão do cargo?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 159,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Outros Crimes de Funcionário Público",
+      "texto": "Na violência arbitrária, a pena da violência é absorvida?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 160,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Outros Crimes de Funcionário Público",
+      "texto": "Quais condutas caracterizam o exercício funcional ilegalmente antecipado ou prolongado e qual a pena?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 161,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Outros Crimes de Funcionário Público",
+      "texto": "Na modificação ou alteração não autorizada de sistema de informações, o que ocorre se resulta dano?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 814,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Autoacusação Falsa",
+      "texto": "Qual a pena da autoacusação falsa e quais fatos ela abrange?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 815,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Outros Crimes contra a Administração da Justiça",
+      "texto": "Na exploração de prestígio, qual a pena e quando ela é aumentada?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 816,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Exercício Arbitrário das Próprias Razões",
+      "texto": "Qual a pena de quem tira, suprime, destrói ou danifica coisa própria que está em poder de terceiro por determinação judicial ou convenção?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 817,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Favorecimento Pessoal e Real",
+      "texto": "Qual a pena de quem ingressa ou facilita a entrada de celular em estabelecimento prisional sem autorização legal?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 818,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Fuga de Pessoa Presa",
+      "texto": "Na fuga de pessoa presa, qual a pena se o crime é praticado a mão armada, por mais de uma pessoa ou mediante arrombamento?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1352,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Peculato",
+      "texto": "O que caracteriza o peculato-furto?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1353,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Peculato",
+      "texto": "Quando se configura o peculato culposo?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1355,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Concussão e Excesso de Exação",
+      "texto": "Quais as duas condutas do excesso de exação?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1356,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Condescendência Criminosa",
+      "texto": "Quais as duas condutas da condescendência criminosa?"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1357,
+      "de": "Crimes contra a Administração Pública",
+      "para": "Conceito de Funcionário Público",
+      "texto": "Quem é equiparado a funcionário público para fins penais?"
+    }
+  ]
+}
