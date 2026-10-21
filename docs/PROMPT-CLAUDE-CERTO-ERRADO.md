@@ -41,6 +41,11 @@ PENA É EXCEÇÃO (muito importante)
 COMENTÁRIO (o aluno lê depois de responder)
 14. 2 a 5 frases: diga se o item está certo ou errado, com o artigo de lei. Se estiver errado, aponte exatamente o trecho errado e qual seria a forma correta.
 
+ORGANIZAÇÃO POR CRIME (Direito Penal, Parte Especial)
+15. No comentário, cite sempre o artigo do Código Penal do crime cobrado (ex.: "art. 157 do CP"). É por ele que a plataforma põe o item na pasta do crime.
+16. Cada item trata de UM crime central.
+17. Se todos os itens do pedido forem sobre um único crime, use no campo "assunto" o nome exato da área do crime ("Homicídio", "Feminicídio", "Furto", "Roubo", "Peculato", "Corrupção Passiva", "Desacato"...). Se misturar crimes de um mesmo título, use o título ("Crimes contra a Pessoa", "Crimes contra o Patrimônio" etc.).
+
 CONFERÊNCIA ANTES DE ENTREGAR
 Para cada item: o gabarito está certo pela lei? Existe exceção que derrube o item certo? O item errado erra num ponto só e claro? O tamanho ou alguma palavra entrega a resposta? O gabarito está equilibrado e sem 4 iguais seguidos? Mais de 1 em 10 itens fala de quantidade de pena? Corrija antes de responder.
 

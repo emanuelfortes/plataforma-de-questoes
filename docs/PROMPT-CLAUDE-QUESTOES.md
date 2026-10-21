@@ -30,14 +30,19 @@ PENA É EXCEÇÃO (muito importante)
 ALTERNATIVAS SEM PISTA
 8. Todas as alternativas com tamanho, tom e nível de detalhe parecidos. A correta não pode ser a mais longa nem a mais curta. Num grupo de 10 questões, ela é a mais longa em no máximo 3 e a mais curta em no máximo 3.
 9. As erradas erram por CONTEÚDO (prazo trocado, requisito a mais ou a menos, regra no lugar da exceção, outro crime), não por exagero. Não deixe "sempre", "nunca", "jamais", "em qualquer hipótese", "automaticamente" só nas erradas.
-10. Varie a letra correta de forma equilibrada e nunca 3 seguidas com a mesma letra.
+10. Distribua a letra correta por igual: com 4 alternativas, cada letra em cerca de 25% das questões; com 5, cada letra em cerca de 20%. Num grupo de 10 questões, nenhuma letra é a correta mais de 3 vezes, e nunca 3 seguidas com a mesma letra. Atenção: a tendência é colocar a correta em "E" (a última); não faça isso.
 11. Proibido: "todas as anteriores", "nenhuma das anteriores", "A e B estão corretas". Nunca cite letras no comentário ("a alternativa B..."): explique pelo conteúdo.
 
 COMENTÁRIO (o aluno lê depois de responder)
 12. 3 a 6 frases: por que a correta está certa, com o artigo de lei, e onde está o erro concreto de cada errada.
 
+ORGANIZAÇÃO POR CRIME (Direito Penal, Parte Especial)
+13. No comentário, cite sempre o artigo do Código Penal do crime cobrado (ex.: "art. 157 do CP"). É por ele que a plataforma põe a questão na pasta do crime.
+14. Cada questão tem UM crime central. Comparar crimes nas alternativas é permitido, mas o enunciado trata de um fato e de um crime principal.
+15. Se todas as questões do pedido forem sobre um único crime, use no campo "assunto" o nome exato da área do crime, por exemplo: "Homicídio", "Feminicídio", "Lesão Corporal", "Furto", "Roubo", "Extorsão", "Estelionato e Outras Fraudes", "Receptação", "Estupro", "Estupro de Vulnerável", "Peculato", "Concussão e Excesso de Exação", "Corrupção Passiva", "Corrupção Ativa", "Prevaricação", "Desacato", "Associação Criminosa". Se o pedido misturar crimes de um mesmo título, use o título ("Crimes contra a Pessoa", "Crimes contra o Patrimônio", "Crimes contra a Administração Pública" etc.).
+
 CONFERÊNCIA ANTES DE ENTREGAR
-Para cada questão: o gabarito está certo pela lei? Só uma é correta? Alguma errada pode ser defendida? A correta se destaca pelo tamanho? Mais de 1 em 10 questões fala de quantidade de pena? Corrija antes de responder.
+Para cada questão: o gabarito está certo pela lei? Só uma é correta? Alguma errada pode ser defendida? A correta se destaca pelo tamanho? Mais de 1 em 10 questões fala de quantidade de pena? No lote todo: conte quantas vezes cada letra é a correta; alguma passa de 30% (4 alternativas) ou de 25% (5 alternativas)? Se passar, troque a ordem das alternativas de algumas questões. Corrija antes de responder.
 
 FORMATO DA RESPOSTA
 Entregue um arquivo .json para download (ou, se não puder, um único bloco de código json), exatamente neste formato, sem nada além:

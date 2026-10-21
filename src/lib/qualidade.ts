@@ -35,6 +35,18 @@ export function avisosDoLote(questoes: { disciplina: string; alternativas: { let
     avisos.push(
       `Das ${ce.length} questões de certo ou errado, ${certos} têm gabarito "Certo" (${Math.round((100 * certos) / ce.length)}%). O ideal é perto de metade: peça à IA para equilibrar.`,
     );
+  // Letra do gabarito concentrada (já aconteceu: "E" em 45% das questões de 5 alternativas).
+  for (const n of [4, 5]) {
+    const grupo = questoes.filter((q) => q.alternativas.length === n);
+    if (grupo.length < 15) continue;
+    const vezes = new Map<string, number>();
+    for (const q of grupo) vezes.set(q.gabarito, (vezes.get(q.gabarito) ?? 0) + 1);
+    const [letra, total] = [...vezes].sort((a, b) => b[1] - a[1])[0]!;
+    if (total / grupo.length > 1.6 / n)
+      avisos.push(
+        `Nas ${grupo.length} questões de ${n} alternativas, o gabarito é "${letra}" em ${Math.round((100 * total) / grupo.length)}% (o normal é perto de ${Math.round(100 / n)}%). O aluno acerta chutando essa letra: peça à IA para variar a letra correta.`,
+      );
+  }
   const multiplas = questoes.filter((q) => q.alternativas.length >= 4);
   const longas = multiplas.filter(corretaMaisLonga).length;
   if (multiplas.length >= 10 && longas / multiplas.length > 0.35)

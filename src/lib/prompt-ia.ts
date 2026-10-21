@@ -75,7 +75,8 @@ Qualidade:
 5. Alternativas com tamanho, tom e nível de detalhe parecidos: a correta não pode ser a mais longa nem a mais curta, e as erradas erram por conteúdo (prazo, requisito, regra trocada pela exceção), não por exagero ("sempre", "jamais", "em qualquer hipótese" só nas erradas denunciam a resposta).
 5a. Pena é exceção: no máximo 1 em cada 10 questões pode girar em torno de quantidade de pena ("reclusão de 2 a 4 anos", "aumentada de um terço"). Nas demais, cobre o crime: qual crime se configura, elementares, consumação e tentativa, hipóteses de qualificadora ou aumento (sem a fração), exceções, ação penal, diferença entre crimes parecidos. Quando a pergunta é "qual crime", as alternativas trazem só o crime, sem a pena.
 6. Proibido: "todas as anteriores", "nenhuma das anteriores", "A e B estão corretas".
-7. Varie a letra correta: distribuição parecida entre as letras e nunca 3 seguidas com a mesma letra.
+7. Distribua a letra correta por igual (4 alternativas: cerca de 25% cada; 5 alternativas: cerca de 20% cada), nunca 3 seguidas com a mesma letra. Não concentre a correta em "E" (a última).
+7a. Direito Penal, crimes: cite no comentário o artigo do Código Penal do crime cobrado (ex.: "art. 157 do CP") e trate de um crime central por questão. Se o lote for de um crime só, use o nome do crime como área (ex.: "Feminicídio", "Roubo", "Peculato").
 8. Enunciado autossuficiente: não escreva "segundo o PDF", "conforme o texto acima" nem "na página X".
 9. "comentario" com 2 a 6 frases: por que a correta está certa e onde está o erro das erradas.
 10. Certo ou errado: "alternativas" exatamente [{"letra":"C","texto":"Certo"},{"letra":"E","texto":"Errado"}], equilibrando itens certos e errados.
