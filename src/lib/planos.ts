@@ -9,7 +9,7 @@ export const ASSINATURA = {
 } as const;
 
 /** Questões por dia (fuso de Brasília) para quem não assina. */
-export const LIMITE_GRATIS_DIA = 10;
+export const LIMITE_GRATIS_DIA = 5;
 
 /**
  * Prefixo do external_reference no Mercado Pago ("nobrega-questoes:<usuarioId>").

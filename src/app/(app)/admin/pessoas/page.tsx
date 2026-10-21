@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { CabecalhoPagina, CardMetrica, classeCabecalhoTabela, Secao, Selo } from "@/components/admin/kit";
+import { LIMITE_GRATIS_DIA } from "@/lib/planos";
 import { cn, formatarNumero } from "@/lib/utils";
 import {
   listarPessoas,
@@ -68,7 +69,7 @@ export default async function PaginaPessoas({ searchParams }: { searchParams: Pa
           dica={`${String(resumo.conversao).replace(".", ",")}% dos cadastrados`}
           destaque
         />
-        <CardMetrica rotulo="Plano grátis" valor={formatarNumero(resumo.porSituacao.gratis)} dica="10 questões por dia" />
+        <CardMetrica rotulo="Plano grátis" valor={formatarNumero(resumo.porSituacao.gratis)} dica={`${LIMITE_GRATIS_DIA} questões por dia`} />
         <CardMetrica
           rotulo="Cancelaram"
           valor={formatarNumero(resumo.porSituacao.cancelado)}
