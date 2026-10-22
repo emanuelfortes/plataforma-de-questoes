@@ -255,6 +255,9 @@ export function ArvoreEstudo({ materias, destino, unidade, abertaInicial, comOpc
       {comOpcoes && (
         <section aria-label="Opções" className="space-y-4 rounded-2xl border border-borda bg-superficie px-4 py-4">
           <GrupoOpcoes titulo="Dificuldade">
+            <Opcao marcada={dificuldades.length === 0 || dificuldades.length === DIFICULDADES_FILTRO.length} onClick={() => setDificuldades([])}>
+              Todas
+            </Opcao>
             {DIFICULDADES_FILTRO.map((d) => (
               <Opcao
                 key={d}
@@ -267,6 +270,9 @@ export function ArvoreEstudo({ materias, destino, unidade, abertaInicial, comOpc
           </GrupoOpcoes>
           {comTipoQuestao && (
           <GrupoOpcoes titulo="Tipo de questão">
+            <Opcao marcada={tipoQuestao === null} onClick={() => setTipoQuestao(null)}>
+              Todas
+            </Opcao>
             {TIPOS_QUESTAO.map((t) => (
               <Opcao key={t} marcada={tipoQuestao === t} onClick={() => setTipoQuestao((a) => (a === t ? null : t))}>
                 {ROTULO_TIPO_QUESTAO[t]}
@@ -275,6 +281,9 @@ export function ArvoreEstudo({ materias, destino, unidade, abertaInicial, comOpc
           </GrupoOpcoes>
           )}
           <GrupoOpcoes titulo="Resoluções e acertos">
+            <Opcao marcada={status === "todas"} onClick={() => setStatus("todas")}>
+              Todas
+            </Opcao>
             {(["resolvidas", "nao_resolvidas", "acertei", "errei"] as const).map((st) => {
               const { Icone, cor, rotulo } = CONFIG_FILTRO[st];
               return (
