@@ -1,6 +1,6 @@
 "use client";
 
-import { ChartColumn, Flame, GraduationCap, LogOut, ShieldCheck, UserRound, type LucideIcon } from "lucide-react";
+import { ChartColumn, Flame, GraduationCap, LogOut, ShieldCheck, Trophy, UserRound, type LucideIcon } from "lucide-react";
 import Link from "next/link";
 import { Logo } from "@/components/logo";
 import { usePathname, useRouter } from "next/navigation";
@@ -15,6 +15,7 @@ type ItemNav = { href: string; rotulo: string; Icone: LucideIcon; ativoEm: strin
 const LINKS: ItemNav[] = [
   { href: "/estudar", rotulo: "Estudar", Icone: GraduationCap, ativoEm: ["/estudar", "/questoes", "/flashcards"] },
   { href: "/desempenho", rotulo: "Desempenho", Icone: ChartColumn, ativoEm: ["/desempenho"] },
+  { href: "/ranking", rotulo: "Ranking", Icone: Trophy, ativoEm: ["/ranking"] },
 ];
 const ADMIN: ItemNav = { href: "/admin", rotulo: "Admin", Icone: ShieldCheck, ativoEm: ["/admin"] };
 const CONTA: ItemNav = { href: "/conta", rotulo: "Minha conta", Icone: UserRound, ativoEm: ["/conta"] };
@@ -111,7 +112,7 @@ export function Navegacao({ nome, admin, streak, percentual }: Props) {
               <Link href="/estudar" aria-label={NOME_PLATAFORMA} className="shrink-0">
                 <Logo tamanho={32} />
               </Link>
-              <nav aria-label="Navegação principal" className="flex min-w-0 items-center">
+              <nav aria-label="Navegação principal" className="sem-barra flex min-w-0 items-center overflow-x-auto">
                 {[...links, CONTA].map((l) => {
                   const atual = ativo(l);
                   return (

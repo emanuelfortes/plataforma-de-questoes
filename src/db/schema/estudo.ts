@@ -66,3 +66,21 @@ export const revisoesFlashcard = sqliteTable(
     index("revisoes_usuario_vence").on(t.usuarioId, t.vence),
   ],
 );
+
+// Placar de cada aluno, para o ranking (/ranking). Atualizado a cada resposta (responderQuestao), para o
+// ranking ler uma linha por aluno em vez de somar o histórico inteiro (cota de linhas lidas do Turso).
+// Conta só a PRIMEIRA tentativa de cada questão: refazer não sobe no ranking.
+export const placar = sqliteTable(
+  "placar",
+  {
+    usuarioId: text("usuario_id")
+      .primaryKey()
+      .references(() => user.id, { onDelete: "cascade" }),
+    /** Questões diferentes já respondidas (Fuzil de questões). */
+    resolvidas: integer("resolvidas").notNull().default(0),
+    /** Dessas, quantas acertou de primeira (Bom de Mira = acertos / resolvidas). */
+    acertos: integer("acertos").notNull().default(0),
+    atualizadoEm: integer("atualizado_em", { mode: "timestamp" }).notNull(),
+  },
+  (t) => [index("placar_resolvidas").on(t.resolvidas)],
+);

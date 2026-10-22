@@ -1,7 +1,7 @@
 import "server-only";
 import { eq } from "drizzle-orm";
 import { db } from "@/db";
-import { questoes, respostas, revisoesFlashcard, statusQuestao, user } from "@/db/schema";
+import { questoes, respostas, revisoesFlashcard, statusQuestao, user, placar } from "@/db/schema";
 
 /**
  * Apaga o histórico de estudo do aluno. Chamado antes de excluir a conta.
@@ -13,6 +13,7 @@ export async function apagarDadosDeEstudo(usuarioId: string) {
     db.delete(respostas).where(eq(respostas.usuarioId, usuarioId)),
     db.delete(statusQuestao).where(eq(statusQuestao.usuarioId, usuarioId)),
     db.delete(revisoesFlashcard).where(eq(revisoesFlashcard.usuarioId, usuarioId)),
+    db.delete(placar).where(eq(placar.usuarioId, usuarioId)),
   ]);
 }
 

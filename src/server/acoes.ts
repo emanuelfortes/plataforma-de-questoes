@@ -5,7 +5,7 @@ import { createEmptyCard, fsrs, type Card, type Grade } from "ts-fsrs";
 import { z } from "zod";
 import { db } from "@/db";
 import { suspenderPorReporte } from "@/db/aprovacao";
-import { flashcards, reportes, respostas, revisoesFlashcard, statusQuestao } from "@/db/schema";
+import { flashcards, placar, reportes, respostas, revisoesFlashcard, statusQuestao } from "@/db/schema";
 import { LIMITE_GRATIS_DIA } from "@/lib/planos";
 import { exigirUsuario } from "@/lib/sessao";
 import { situacaoDoAluno } from "./assinatura";
@@ -48,6 +48,27 @@ export async function responderQuestao(
   const correta = questao.gabarito === entrada.data.alternativa;
   const agora = new Date();
 
+  // Primeira vez nesta questão? Só ela conta no ranking (refazer não sobe). Leitura de uma linha (chave primária).
+  const [jaResolvida] = await db
+    .select({ tentativas: statusQuestao.tentativas })
+    .from(statusQuestao)
+    .where(and(eq(statusQuestao.usuarioId, usuario.id), eq(statusQuestao.questaoId, questao.id)));
+  const atualizarPlacar = jaResolvida
+    ? []
+    : [
+        db
+          .insert(placar)
+          .values({ usuarioId: usuario.id, resolvidas: 1, acertos: correta ? 1 : 0, atualizadoEm: agora })
+          .onConflictDoUpdate({
+            target: placar.usuarioId,
+            set: {
+              resolvidas: sql`${placar.resolvidas} + 1`,
+              acertos: sql`${placar.acertos} + ${correta ? 1 : 0}`,
+              atualizadoEm: agora,
+            },
+          }),
+      ];
+
   // batch = uma ida ao banco e atômico no libSQL.
   await db.batch([
     db.insert(respostas).values({
@@ -74,6 +95,7 @@ export async function responderQuestao(
           atualizadaEm: agora,
         },
       }),
+    ...atualizarPlacar,
   ]);
 
   return { ok: true, correta, gabarito: questao.gabarito, comentario: questao.comentario };

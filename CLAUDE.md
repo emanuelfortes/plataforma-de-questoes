@@ -51,6 +51,7 @@ src/
     (app)/questoes                        resolução (uma por vez) e filtro de status
     (app)/flashcards                      sessão de revisão
     (app)/desempenho                      janelas, gráfico diário, por disciplina
+    (app)/ranking                         Fuzil de questões (mais resolvidas) e Bom de Mira (acerto de primeira, mínimo de 30)
     (app)/admin                           área do dono (ADMIN_EMAILS), com menu lateral: visão geral, financeiro,
                                           pessoas (cadastrados x assinantes) e questões (prompt de IA e importação)
     (app)/assinatura                      assinatura mensal (Mercado Pago), cancelar, limite grátis do dia
@@ -91,6 +92,7 @@ src/db/aprovacao.ts                       aprovar, rejeitar e reportar erro (tel
 - `status_questao`: último estado por aluno e questão. Fonte dos filtros e ícones.
   Sem linha = não resolvida. `ultima_correta` = acertou ou errou.
 - `revisoes_flashcard`: estado FSRS por aluno e card.
+- `placar`: uma linha por aluno (questões diferentes resolvidas e acertos de primeira), atualizada em `responderQuestao`. Fonte do ranking; nunca some o histórico de `respostas` para isso. Recalcular: `scripts/publicacao/placar.ts`.
 - `flashcards_revisao`: o mesmo para flashcards. `reportes`: erros reportados por alunos (o item fica `suspensa` e sai das listas e contagens até a revisão).
 - `questoes_revisao`: questões geradas por IA aguardando revisão (status pendente_revisao, aprovada, rejeitada). Fora de `questoes` até a aprovação em /admin/revisao.
   A aprovada leva o mesmo `codigo` para `questoes`, com `origem = 'ia'`, `topico_taxonomia`, `subtopico` e `lei_referencia` (nulos nas importadas por arquivo; índice `questoes_origem_topico`).
