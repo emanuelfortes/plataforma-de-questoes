@@ -9,7 +9,7 @@ import type { Db } from "./index";
 import { assuntos, contagens, disciplinas, flashcards, questoes } from "./schema";
 import { chaveNome, nomesPreferidos, normalizar } from "../lib/catalogo";
 import { NIVEL_DIFICULDADE } from "../lib/dificuldade";
-import { ehCertoErrado } from "../lib/filtros";
+import { chavesDoItem } from "../lib/contagens";
 import { classificarArea } from "../lib/ordem-areas";
 import { esquemaFlashcard, esquemaQuestao, type LinhaFlashcard, type LinhaQuestao } from "../lib/formato-jsonl";
 
@@ -173,17 +173,12 @@ export function criarGravador(db: Db) {
 
   async function somarContagens(
     prefixo: "q" | "f",
-    linhas: { disciplinaId: number; assuntoId: number | null; alternativas?: { texto: string }[] }[],
+    linhas: { disciplinaId: number; assuntoId: number | null; dificuldade?: number | null; alternativas?: { texto: string }[] }[],
   ) {
     if (!linhas.length) return;
-    const somas = new Map<string, number>([[`${prefixo}:total`, linhas.length]]);
-    const somar = (chave: string) => somas.set(chave, (somas.get(chave) ?? 0) + 1);
-    for (const l of linhas) {
-      somar(`${prefixo}:d:${l.disciplinaId}`);
-      if (l.assuntoId) somar(`${prefixo}:a:${l.assuntoId}`);
-      // Quantas são de certo ou errado: a tela de filtro só oferece esse tipo quando existe alguma.
-      if (l.alternativas && ehCertoErrado(l.alternativas)) somar("q:ce");
-    }
+    // Total, matéria e área; nas questões também por dificuldade e certo ou errado (src/lib/contagens.ts).
+    const somas = new Map<string, number>();
+    for (const l of linhas) for (const chave of chavesDoItem(prefixo, l)) somas.set(chave, (somas.get(chave) ?? 0) + 1);
     await db
       .insert(contagens)
       .values([...somas].map(([chave, total]) => ({ chave, total })))
@@ -229,7 +224,12 @@ export function criarGravador(db: Db) {
       .insert(questoes)
       .values(valores)
       .onConflictDoNothing({ target: questoes.codigo })
-      .returning({ disciplinaId: questoes.disciplinaId, assuntoId: questoes.assuntoId, alternativas: questoes.alternativas });
+      .returning({
+        disciplinaId: questoes.disciplinaId,
+        assuntoId: questoes.assuntoId,
+        dificuldade: questoes.dificuldade,
+        alternativas: questoes.alternativas,
+      });
     await somarContagens("q", inseridas);
     return inseridas.length;
   }

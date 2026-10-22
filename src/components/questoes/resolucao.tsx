@@ -9,11 +9,13 @@ import { QuestaoCard } from "./questao-card";
 type Props = {
   questoes: QuestaoListada[];
   inicio: number; // número da primeira questão desta página
+  /** Quantas questões o filtro tem no total (o "de N" do cabeçalho). A página traz só 20 por vez. */
+  totalFiltro: number;
   proximaUrl: string | null;
 };
 
 /** Uma questão por vez. A página inteira já veio do servidor (mesma consulta de hoje); só avançamos no cliente. */
-export function Resolucao({ questoes, inicio, proximaUrl }: Props) {
+export function Resolucao({ questoes, inicio, proximaUrl, totalFiltro }: Props) {
   const [indice, setIndice] = useState(0);
   const refTopo = useRef<HTMLDivElement>(null);
   const atual = questoes[indice];
@@ -47,8 +49,8 @@ export function Resolucao({ questoes, inicio, proximaUrl }: Props) {
         key={atual.id}
         questao={atual}
         numero={inicio + indice}
-        total={inicio + questoes.length - 1}
-        progresso={indice / questoes.length}
+        total={Math.max(totalFiltro, inicio + questoes.length - 1)}
+        progresso={(inicio + indice - 1) / Math.max(totalFiltro, inicio + questoes.length - 1)}
         onProxima={avancar}
         onPular={avancar}
       />

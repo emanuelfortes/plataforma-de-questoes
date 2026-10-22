@@ -10,8 +10,6 @@ import { CONFIG_FILTRO } from "./icone-status";
 type Props = {
   contagens: Record<FiltroStatus, number>;
   atual: { status: FiltroStatus };
-  /** Com dificuldade ou tipo escolhidos, os totais pré-calculados não valem: mostra só os nomes. */
-  semNumeros?: boolean;
 };
 
 // Cor do pontinho de cada status (substitui o ícone; mais limpo no fundo escuro).
@@ -23,7 +21,7 @@ const PONTO: Record<FiltroStatus, string> = {
   errei: "bg-erro",
 };
 
-export function Filtros({ contagens, atual, semNumeros = false }: Props) {
+export function Filtros({ contagens, atual }: Props) {
   const router = useRouter();
   const caminho = usePathname();
   const params = useSearchParams();
@@ -64,7 +62,7 @@ export function Filtros({ contagens, atual, semNumeros = false }: Props) {
             >
               <span className={cn("size-1.5 rounded-full", PONTO[status])} aria-hidden />
               {CONFIG_FILTRO[status].rotulo}
-              {!semNumeros && <span className="tabular-nums opacity-60">{formatarNumero(contagens[status])}</span>}
+              <span className="tabular-nums opacity-60">{formatarNumero(contagens[status])}</span>
             </button>
           );
         })}

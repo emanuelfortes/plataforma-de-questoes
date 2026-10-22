@@ -1,10 +1,11 @@
 import "server-only";
-import { and, asc, count, eq, gte, inArray, isNotNull, isNull, lt, sql, sum, type SQL } from "drizzle-orm";
+import { and, asc, count, eq, gte, inArray, isNotNull, isNull, lt, sql, type SQL } from "drizzle-orm";
 import type { AnySQLiteColumn } from "drizzle-orm/sqlite-core";
 import { db } from "@/db";
 import { assuntos, contagens, disciplinas, questoes, statusQuestao } from "@/db/schema";
 
 import { dificuldadePorNivel } from "@/lib/dificuldade";
+import { totalDoFiltro } from "@/lib/contagens";
 import { NIVEL_DIFICULDADE } from "@/lib/dificuldade";
 import type { DificuldadeFiltro, FiltroStatus, StatusAluno, TipoQuestao } from "@/lib/filtros";
 
@@ -169,22 +170,23 @@ export type QuestaoListada = Awaited<ReturnType<typeof listarQuestoes>>["questoe
  * A parte do aluno vem de status_questao, que cresce com o aluno e não com o banco.
  */
 export async function contarPorStatus(filtros: Omit<FiltrosQuestoes, "status">) {
-  const { usuarioId, disciplinaId, assuntoIds } = filtros;
+  const { usuarioId, disciplinaId, assuntoIds, dificuldades, tipo } = filtros;
 
-  // Várias áreas: soma as linhas de "contagens" de cada uma.
-  const chaves = assuntoIds?.length
-    ? assuntoIds.map((id) => `q:a:${id}`)
-    : [disciplinaId ? `q:d:${disciplinaId}` : "q:total"];
-  const [linhaTotal] = await db
-    .select({ total: sum(contagens.total) })
+  // Total do banco para o filtro, só com chaves prontas de "contagens" (por área ou matéria, dificuldade e
+  // tipo; src/lib/contagens.ts). Nunca COUNT(*) em questoes.
+  const escopos = assuntoIds?.length ? assuntoIds.map((id) => `q:a:${id}`) : [disciplinaId ? `q:d:${disciplinaId}` : "q"];
+  const { chaves, calcular } = totalDoFiltro(escopos, dificuldades ?? [], tipo);
+  const lidas = await db
+    .select({ chave: contagens.chave, total: contagens.total })
     .from(contagens)
     .where(inArray(contagens.chave, chaves));
-  const totalBanco = Number(linhaTotal?.total ?? 0);
+  const totalBanco = calcular(new Map(lidas.map((l) => [l.chave, l.total])));
 
   // Parte do aluno: o ponto de partida é status_questao (cresce com o aluno), então o "in" simples basta.
   const condicoes: SQL[] = [eq(statusQuestao.usuarioId, usuarioId), eq(questoes.suspensa, false)];
   if (disciplinaId) condicoes.push(eq(questoes.disciplinaId, disciplinaId));
   if (assuntoIds?.length) condicoes.push(inArray(questoes.assuntoId, assuntoIds));
+  condicoes.push(...filtrosDeOpcoes(dificuldades, tipo));
 
   const [aluno] = await db
     .select({

@@ -16,11 +16,28 @@ export async function recontar(db: Db) {
     await tx.run(sql`
       INSERT INTO contagens (chave, total)
       SELECT 'q:a:' || assunto_id, COUNT(*) FROM questoes WHERE assunto_id IS NOT NULL AND suspensa = 0 GROUP BY assunto_id`);
-    // Certo ou errado (mesma regra de ehCertoErrado em src/lib/filtros.ts): liga a opção "Tipo de questão" no filtro.
-    await tx.run(sql`
-      INSERT INTO contagens (chave, total)
-      SELECT 'q:ce', COUNT(*) FROM questoes WHERE suspensa = 0 AND json_array_length(alternativas) = 2
-        AND EXISTS (SELECT 1 FROM json_each(alternativas) WHERE lower(trim(json_extract(value, '$.texto'))) = 'certo')`);
+    // Por dificuldade e certo ou errado, em cada escopo (banco, matéria, área): as mesmas chaves de
+    // chavesDoItem (src/lib/contagens.ts). Certo ou errado segue ehCertoErrado (src/lib/filtros.ts).
+    const escopos = [
+      { prefixo: sql`'q'`, onde: sql`1 = 1`, grupo: sql`` },
+      { prefixo: sql`'q:d:' || disciplina_id`, onde: sql`1 = 1`, grupo: sql`, disciplina_id` },
+      { prefixo: sql`'q:a:' || assunto_id`, onde: sql`assunto_id IS NOT NULL`, grupo: sql`, assunto_id` },
+    ];
+    const ce = sql.raw(`json_array_length(alternativas) = 2 AND EXISTS (SELECT 1 FROM json_each(alternativas) WHERE lower(trim(json_extract(value, '$.texto'))) = 'certo')`);
+    for (const e of escopos) {
+      await tx.run(sql`
+        INSERT INTO contagens (chave, total)
+        SELECT ${e.prefixo} || ':n' || dificuldade, COUNT(*) FROM questoes
+        WHERE suspensa = 0 AND dificuldade BETWEEN 1 AND 3 AND ${e.onde} GROUP BY dificuldade${e.grupo}`);
+      await tx.run(sql`
+        INSERT INTO contagens (chave, total)
+        SELECT ${e.prefixo} || ':ce', COUNT(*) FROM questoes
+        WHERE suspensa = 0 AND ${ce} AND ${e.onde} GROUP BY 1`);
+      await tx.run(sql`
+        INSERT INTO contagens (chave, total)
+        SELECT ${e.prefixo} || ':n' || dificuldade || ':ce', COUNT(*) FROM questoes
+        WHERE suspensa = 0 AND dificuldade BETWEEN 1 AND 3 AND ${ce} AND ${e.onde} GROUP BY dificuldade${e.grupo}`);
+    }
     await tx.run(sql`INSERT INTO contagens (chave, total) SELECT 'f:total', COUNT(*) FROM flashcards WHERE suspensa = 0`);
     await tx.run(sql`
       INSERT INTO contagens (chave, total)

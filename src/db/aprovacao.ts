@@ -5,15 +5,21 @@ import { and, eq, inArray, sql } from "drizzle-orm";
 import type { Db } from "./index";
 import { criarGravador } from "./importacao";
 import { contagens, flashcards, flashcardsRevisao, questoes, questoesRevisao, reportes } from "./schema";
+import { chavesDoItem } from "../lib/contagens";
 import { dificuldadePorNivel } from "../lib/dificuldade";
 import { bancaInedita, montarComentario } from "../lib/revisao";
 
 export type EdicaoQuestao = { enunciado: string; alternativas: { letra: string; texto: string }[]; gabarito: string; comentario: string };
 export type EdicaoFlashcard = { frente: string; verso: string };
 
-/** Soma (ou subtrai) itens nas contagens de total, matéria e área. */
-async function ajustarContagens(db: Db, prefixo: "q" | "f", disciplinaId: number, assuntoId: number | null, delta: number) {
-  const chaves = [`${prefixo}:total`, `${prefixo}:d:${disciplinaId}`, ...(assuntoId ? [`${prefixo}:a:${assuntoId}`] : [])];
+/** Soma (ou subtrai) um item em todas as contagens dele: total, matéria, área e, nas questões, dificuldade e tipo. */
+async function ajustarContagens(
+  db: Db,
+  prefixo: "q" | "f",
+  item: { disciplinaId: number; assuntoId: number | null; dificuldade?: number | null; alternativas?: { texto: string }[] },
+  delta: number,
+) {
+  const chaves = chavesDoItem(prefixo, item);
   await db
     .insert(contagens)
     .values(chaves.map((chave) => ({ chave, total: Math.max(delta, 0) })))
@@ -27,7 +33,7 @@ async function reativarQuestao(db: Db, codigo: string, edicao?: EdicaoQuestao) {
   if (edicao) await db.update(questoes).set({ enunciado: edicao.enunciado, alternativas: edicao.alternativas, gabarito: edicao.gabarito, comentario: edicao.comentario }).where(eq(questoes.id, q.id));
   if (q.suspensa) {
     await db.update(questoes).set({ suspensa: false }).where(eq(questoes.id, q.id));
-    await ajustarContagens(db, "q", q.disciplinaId, q.assuntoId, 1);
+    await ajustarContagens(db, "q", q, 1);
   }
   await db.update(reportes).set({ situacao: "restaurado", resolvidoEm: new Date() }).where(and(eq(reportes.tipo, "questao"), eq(reportes.itemId, q.id), eq(reportes.situacao, "aberto")));
 }
@@ -101,7 +107,7 @@ export async function aprovarFlashcards(db: Db, ids: number[], quem: string, edi
       if (edicao) await db.update(flashcards).set({ frente: p.frente, verso: p.verso }).where(eq(flashcards.id, f.id));
       if (f.suspensa) {
         await db.update(flashcards).set({ suspensa: false }).where(eq(flashcards.id, f.id));
-        await ajustarContagens(db, "f", f.disciplinaId, f.assuntoId, 1);
+        await ajustarContagens(db, "f", f, 1);
       }
       await db.update(reportes).set({ situacao: "restaurado", resolvidoEm: agora }).where(and(eq(reportes.tipo, "flashcard"), eq(reportes.itemId, f.id), eq(reportes.situacao, "aberto")));
     }
@@ -136,7 +142,7 @@ export async function suspenderPorReporte(db: Db, tipo: "questao" | "flashcard",
   await db.insert(reportes).values({ tipo, itemId, usuarioId, motivo, criadoEm: new Date() });
   if (!item.suspensa) {
     await db.update(conteudo).set({ suspensa: true }).where(eq(conteudo.id, itemId));
-    await ajustarContagens(db, tipo === "questao" ? "q" : "f", item.disciplinaId, item.assuntoId, -1);
+    await ajustarContagens(db, tipo === "questao" ? "q" : "f", item, -1);
   }
   const fila = tipo === "questao" ? questoesRevisao : flashcardsRevisao;
   await db
@@ -156,7 +162,7 @@ export async function resolverReporte(db: Db, reporteId: number, decisao: "resta
     const [item] = await db.select().from(conteudo).where(eq(conteudo.id, r.itemId));
     if (item?.suspensa) {
       await db.update(conteudo).set({ suspensa: false }).where(eq(conteudo.id, item.id));
-      await ajustarContagens(db, tipo === "questao" ? "q" : "f", item.disciplinaId, item.assuntoId, 1);
+      await ajustarContagens(db, tipo === "questao" ? "q" : "f", item, 1);
     }
     if (item) {
       // Se veio da IA e voltou para a fila só por causa do reporte, a fila volta a "aprovada".
