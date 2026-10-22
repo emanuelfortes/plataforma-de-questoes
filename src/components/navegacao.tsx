@@ -103,8 +103,38 @@ export function Navegacao({ nome, admin, streak, percentual }: Props) {
         </div>
 
         {/* Celular */}
-        <div className="flex h-14 items-center gap-3 border-b border-borda px-5 md:hidden">
-          <Marca />
+        <div className="flex h-14 items-center gap-2 border-b border-borda px-5 md:hidden">
+          {semAbas ? (
+            // Resolvendo questões: o rodapé é dos botões Responder e Próxima, então os ícones das abas sobem
+            // para esta barra (fixa no topo), no lugar do nome. Continuam à mão com a página rolada.
+            <>
+              <Link href="/estudar" aria-label={NOME_PLATAFORMA} className="shrink-0">
+                <Logo tamanho={32} />
+              </Link>
+              <nav aria-label="Navegação principal" className="flex min-w-0 items-center">
+                {[...links, CONTA].map((l) => {
+                  const atual = ativo(l);
+                  return (
+                    <Link
+                      key={l.href}
+                      href={l.href}
+                      aria-label={l.rotulo}
+                      aria-current={atual ? "page" : undefined}
+                      title={l.rotulo}
+                      className={cn(
+                        "grid size-9 shrink-0 place-items-center rounded-xl transition-colors",
+                        atual ? "bg-marca-suave text-marca-clara" : "text-suave hover:text-texto",
+                      )}
+                    >
+                      <l.Icone className="size-5" strokeWidth={atual ? 2.4 : 2} aria-hidden />
+                    </Link>
+                  );
+                })}
+              </nav>
+            </>
+          ) : (
+            <Marca />
+          )}
           <div className="ml-auto flex shrink-0 items-center gap-1 text-sm">
             {indicadores}
             <BotaoTema />
