@@ -1,6 +1,7 @@
-import { Crosshair, Medal, Zap } from "lucide-react";
+import { Crosshair, Zap } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Podio } from "@/components/ranking/podio";
 import { exigirUsuario } from "@/lib/sessao";
 import { cn, formatarNumero } from "@/lib/utils";
 import { MINIMO_MIRA, obterRanking, TAMANHO_RANKING, type LinhaRanking, type TipoRanking } from "@/server/ranking";
@@ -101,11 +102,16 @@ export default async function PaginaRanking({ searchParams }: { searchParams: Pa
             : "Ninguém resolveu questões ainda. Seja o primeiro."}
         </p>
       ) : (
-        <ol className="overflow-hidden rounded-2xl border border-borda bg-superficie">
-          {lista.map((l) => (
-            <Linha key={l.usuarioId} linha={l} eu={l.usuarioId === usuario.id} valor={valor(l)} />
-          ))}
-        </ol>
+        <>
+          <Podio primeiros={lista.slice(0, 3).map((l) => ({ usuarioId: l.usuarioId, nome: l.nome, ...valor(l) }))} usuarioId={usuario.id} />
+          {lista.length > 3 && (
+            <ol className="overflow-hidden rounded-2xl border border-borda bg-superficie">
+              {lista.slice(3).map((l) => (
+                <Linha key={l.usuarioId} linha={l} eu={l.usuarioId === usuario.id} valor={valor(l)} />
+              ))}
+            </ol>
+          )}
+        </>
       )}
       {!estouNaLista && lista.length === TAMANHO_RANKING && (
         <p className="text-center text-xs text-suave">Mostrando os {TAMANHO_RANKING} primeiros.</p>
@@ -115,12 +121,10 @@ export default async function PaginaRanking({ searchParams }: { searchParams: Pa
 }
 
 function Linha({ linha, eu, valor }: { linha: LinhaRanking; eu: boolean; valor: { grande: string; pequeno: string } }) {
-  // Ouro, prata e bronze nos três primeiros.
-  const podio = ["text-destaque", "text-suave", "text-erro"][linha.posicao - 1];
   return (
     <li className={cn("flex items-center gap-3 border-t border-borda px-4 py-3 first:border-t-0", eu && "bg-marca-suave")}>
       <span className="grid w-8 shrink-0 place-items-center text-sm font-extrabold tabular-nums">
-        {podio ? <Medal className={cn("size-6", podio)} aria-label={`${linha.posicao}º lugar`} /> : `${linha.posicao}º`}
+        {linha.posicao}º
       </span>
       <span className="min-w-0 flex-1 truncate font-bold">
         {linha.nome}
