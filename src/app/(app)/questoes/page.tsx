@@ -1,6 +1,7 @@
 import { randomInt } from "node:crypto";
 import type { Metadata } from "next";
 import Link from "next/link";
+import { variantesBotao } from "@/components/ui/button";
 import { Filtros } from "@/components/questoes/filtros";
 import { Resolucao } from "@/components/questoes/resolucao";
 import { FiltrosAplicados, type Etiqueta } from "@/components/questoes/filtros-aplicados";
@@ -150,8 +151,36 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
       {/* Separação por padding e borda (não por margem): mesmo espaço em qualquer navegador. */}
       <div className="border-t border-borda pt-7">
         {questoes.length === 0 ? (
-          <div className="rounded-2xl border border-dashed border-borda p-10 text-center text-sm text-suave">
-            Nenhuma questão encontrada com esses filtros.
+          // Vazio: diz o porquê e oferece o caminho mais provável (o aluno julga na hora; não pode parecer defeito).
+          <div className="space-y-4 rounded-2xl border border-dashed border-borda p-8 text-center">
+            <p className="font-extrabold">
+              {tipoQuestao === "certo_errado"
+                ? "Ainda não há questões de certo ou errado nesse conteúdo."
+                : "Nenhuma questão com essa combinação de filtros."}
+            </p>
+            <p className="text-sm text-suave">
+              {tipoQuestao === "certo_errado"
+                ? "Estamos produzindo mais. Enquanto isso, resolva o mesmo conteúdo em múltipla escolha."
+                : "Tire um dos filtros acima ou mude a seleção."}
+            </p>
+            <div className="flex flex-col items-center gap-2 sm:flex-row sm:justify-center">
+              {tipoQuestao === "certo_errado" && (
+                <Link href={lista({ ...atual, tipo: "multipla" })} className={variantesBotao({ className: "w-full sm:w-auto" })}>
+                  Ver em múltipla escolha
+                </Link>
+              )}
+              {dificuldades.length > 0 && (
+                <Link
+                  href={lista({ ...atual, dificuldades: [] })}
+                  className={variantesBotao({ variante: "contorno", className: "w-full sm:w-auto" })}
+                >
+                  Qualquer dificuldade
+                </Link>
+              )}
+              <Link href={editarFiltros} className={variantesBotao({ variante: "contorno", className: "w-full sm:w-auto" })}>
+                Editar filtros
+              </Link>
+            </div>
           </div>
         ) : (
           <Resolucao
