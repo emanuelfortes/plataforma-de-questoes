@@ -2,6 +2,7 @@ import "server-only";
 import { and, asc, count, desc, eq, gt, gte, notInArray, sql, type SQL } from "drizzle-orm";
 import { db } from "@/db";
 import { placar, user } from "@/db/schema";
+import { ehAdmin } from "@/lib/admin";
 
 // Ranking dos alunos. Tudo sai de "placar" (uma linha por aluno, atualizada a cada resposta), nunca do
 // histórico de respostas: o custo não cresce com o número de questões resolvidas.
@@ -42,7 +43,9 @@ function semDonos(): SQL | undefined {
   return donos.length ? notInArray(sql`lower(${user.email})`, donos) : undefined;
 }
 
-export async function obterRanking(tipo: TipoRanking, usuarioId: string) {
+export async function obterRanking(tipo: TipoRanking, usuarioId: string, email: string) {
+  // O dono fica fora da lista; sem isto ele via "1º de 1" com as próprias questões.
+  const dono = ehAdmin(email);
   const participa = tipo === "fuzil" ? gt(placar.resolvidas, 0) : gte(placar.resolvidas, MINIMO_MIRA);
   const filtro = and(participa, semDonos());
 
@@ -69,7 +72,7 @@ export async function obterRanking(tipo: TipoRanking, usuarioId: string) {
 
   // Posição do aluno mesmo fora do top 50: quantos estão na frente dele, mais um.
   const meus = { resolvidas: eu?.resolvidas ?? 0, acertos: eu?.acertos ?? 0 };
-  const entra = tipo === "fuzil" ? meus.resolvidas > 0 : meus.resolvidas >= MINIMO_MIRA;
+  const entra = !dono && (tipo === "fuzil" ? meus.resolvidas > 0 : meus.resolvidas >= MINIMO_MIRA);
   let posicao: number | null = lista.find((l) => l.usuarioId === usuarioId)?.posicao ?? null;
   if (entra && posicao === null) {
     const frente =
@@ -89,6 +92,7 @@ export async function obterRanking(tipo: TipoRanking, usuarioId: string) {
     participantes,
     eu: {
       ...meus,
+      dono,
       percentual: percentual(meus.acertos, meus.resolvidas),
       posicao: entra ? posicao : null,
       faltamParaMira: Math.max(MINIMO_MIRA - meus.resolvidas, 0),

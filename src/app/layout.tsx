@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Manrope } from "next/font/google";
+import { Black_Ops_One, Manrope } from "next/font/google";
 import { cookies } from "next/headers";
 import { RegistrarSW } from "@/components/registrar-sw";
 import { COOKIE_TEMA, COR_BARRA, lerTema } from "@/lib/tema";
@@ -7,6 +7,8 @@ import "./globals.css";
 import { NOME_CURTO, NOME_PLATAFORMA } from "@/lib/marca";
 
 const manrope = Manrope({ subsets: ["latin"], weight: ["500", "600", "700", "800"], variable: "--font-manrope" });
+// Estêncil do ranking. Sem preload: só baixa nas páginas que usam font-estencil.
+const estencil = Black_Ops_One({ subsets: ["latin"], weight: "400", variable: "--font-black-ops", preload: false });
 
 export const metadata: Metadata = {
   title: { default: NOME_PLATAFORMA, template: `%s · ${NOME_PLATAFORMA}` },
@@ -39,7 +41,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   // Visão escolhida pelo aluno (cookie). Sem escolha, o CSS segue a preferência do aparelho.
   const tema = lerTema((await cookies()).get(COOKIE_TEMA)?.value);
   return (
-    <html lang="pt-BR" className={manrope.variable} data-tema={tema}>
+    <html lang="pt-BR" className={`${manrope.variable} ${estencil.variable}`} data-tema={tema}>
       <body className="min-h-dvh">
         {children}
         <RegistrarSW />

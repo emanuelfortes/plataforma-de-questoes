@@ -37,8 +37,13 @@
   --color-bronze: #d98b4e;
   --color-fogo: #ff6a2b;
   --color-sobre-medalha: #1d1405;
+  /* Verde-oliva do tema militar (ranking: patentes e fundo tático). */
+  --color-oliva: #a3b46b;
+  --color-oliva-suave: rgba(130, 148, 72, 0.09);
 
   --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  /* Letra de estêncil (caixotes e fardas), só em títulos e números do ranking. */
+  --font-estencil: var(--font-black-ops), var(--font-manrope), ui-sans-serif, sans-serif;
 }
 
 /* Visão clara: escolhida no botão (data-tema="claro") ou, sem escolha, pelo sistema do aparelho. */
@@ -85,6 +90,8 @@
     --color-prata: #8e9cab;
     --color-bronze: #b0672e;
     --color-fogo: #e8531c;
+    --color-oliva: #55682a;
+    --color-oliva-suave: rgba(85, 104, 42, 0.06);
   }
   @media (prefers-color-scheme: light) {
     :root:not([data-tema]) {
@@ -110,6 +117,8 @@
       --color-prata: #8e9cab;
       --color-bronze: #b0672e;
       --color-fogo: #e8531c;
+      --color-oliva: #55682a;
+      --color-oliva-suave: rgba(85, 104, 42, 0.06);
     }
   }
 }
@@ -216,6 +225,34 @@ select option:disabled {
   0% { transform: translate(0, 0) scale(1); opacity: 0; }
   15% { opacity: 1; }
   100% { transform: translate(var(--desvio, 6px), -70px) scale(0.3); opacity: 0; }
+}
+
+/* Ranking: fundo tático (manchas de camuflagem em oliva e grade de mira bem leve). */
+.fundo-tatico {
+  background-color: var(--color-superficie);
+  /* Cada mancha são duas elipses sobrepostas, para a borda não ficar redonda demais. */
+  background-image:
+    linear-gradient(var(--color-camada) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-camada) 1px, transparent 1px),
+    radial-gradient(20% 12% at 12% 24%, var(--color-oliva-suave) 98%, transparent),
+    radial-gradient(14% 16% at 22% 30%, var(--color-oliva-suave) 98%, transparent),
+    radial-gradient(18% 10% at 84% 14%, var(--color-oliva-suave) 98%, transparent),
+    radial-gradient(10% 14% at 76% 20%, var(--color-oliva-suave) 98%, transparent),
+    radial-gradient(22% 9% at 58% 62%, var(--color-oliva-suave) 98%, transparent),
+    radial-gradient(12% 13% at 70% 56%, var(--color-oliva-suave) 98%, transparent),
+    radial-gradient(16% 10% at 20% 80%, var(--color-oliva-suave) 98%, transparent);
+  background-size: 24px 24px, 24px 24px, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%;
+}
+/* Escudo (avatar do pódio) e chapa de identificação (sua posição). */
+.escudo { clip-path: polygon(50% 0, 100% 14%, 100% 58%, 50% 100%, 0 58%, 0 14%); }
+.rebites {
+  background-image:
+    radial-gradient(circle at 8px 8px, var(--color-borda-forte) 2px, transparent 2.5px),
+    radial-gradient(circle at calc(100% - 8px) 8px, var(--color-borda-forte) 2px, transparent 2.5px);
+}
+/* Faixa de atenção (listras diagonais) no topo do pedestal. */
+.listras {
+  background-image: repeating-linear-gradient(-45deg, currentColor 0 6px, transparent 6px 12px);
 }
 
 @media (prefers-reduced-motion: reduce) {
