@@ -18,6 +18,10 @@ type Props = {
   progresso?: number; // 0 a 1, posição na página atual
   onProxima?: () => void; // quando existe, mostra "Próxima" após responder (modo uma por vez)
   onPular?: () => void;
+  /** Avisado a cada resposta (a resolução usa para trazer de volta a questão errada). */
+  onRespondida?: (correta: boolean) => void;
+  /** Questão que voltou para revisão porque o aluno errou há pouco. */
+  revisao?: boolean;
 };
 
 type Resultado = Extract<ResultadoResposta, { ok: true }>;
@@ -29,7 +33,7 @@ function ehCertoErrado(alternativas: Alternativa[]) {
   return alternativas.length === 2 && textos.C === "certo" && textos.E === "errado";
 }
 
-export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPular }: Props) {
+export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPular, onRespondida, revisao }: Props) {
   const [escolhida, setEscolhida] = useState<string | null>(null);
   const [resultado, setResultado] = useState<Resultado | null>(null);
   const [erro, setErro] = useState<string | null>(null);
@@ -61,6 +65,7 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
         return setErro(r.erro);
       }
       setResultado(r);
+      onRespondida?.(r.correta);
     });
   }
 
@@ -115,6 +120,12 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
             Questão {numero}
             {total && <span className="font-bold text-suave"> de {total}</span>}
           </span>
+          {revisao && (
+            <span className="flex shrink-0 items-center gap-1 rounded-full bg-destaque-suave px-2 py-0.5 text-[11px] font-extrabold text-destaque">
+              <RotateCcw className="size-3" aria-hidden />
+              Revisão
+            </span>
+          )}
           {progresso !== undefined && (
             <div
               className="h-1 flex-1 overflow-hidden rounded-full bg-camada-forte"

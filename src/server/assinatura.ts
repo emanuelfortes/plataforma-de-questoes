@@ -1,5 +1,5 @@
 import "server-only";
-import { and, count, desc, eq, gte, ne, or, sql } from "drizzle-orm";
+import { and, count, countDistinct, desc, eq, gte, ne, or, sql } from "drizzle-orm";
 import { Invoice, MercadoPagoConfig, PreApproval } from "mercadopago";
 import { db } from "@/db";
 import { assinaturas, pagamentos, respostas, user } from "@/db/schema";
@@ -174,13 +174,24 @@ export async function situacaoDoAluno(usuario: { id: string; email: string }) {
   if (!cobrancaAtiva() || ehAdmin(usuario.email)) return { assinante: true, respondidasHoje: 0 };
   const [a, [hoje]] = await Promise.all([
     assinaturaDoUsuario(usuario.id),
-    // Usa o índice (usuario_id, respondida_em): lê só as respostas de hoje do aluno.
+    // Usa o índice (usuario_id, respondida_em): lê só as respostas de hoje do aluno. Conta questões
+    // diferentes: refazer (ou a revisão da questão errada) não gasta o limite grátis.
     db
-      .select({ n: count() })
+      .select({ n: countDistinct(respostas.questaoId) })
       .from(respostas)
       .where(and(eq(respostas.usuarioId, usuario.id), gte(respostas.respondidaEm, inicioDoDiaLocal()))),
   ]);
   return { assinante: acessoLiberado(a), respondidasHoje: hoje?.n ?? 0 };
+}
+
+/** O aluno já respondeu esta questão hoje? (refazer no limite diário). Índice (usuario_id, respondida_em). */
+export async function respondeuHoje(usuarioId: string, questaoId: number) {
+  const [r] = await db
+    .select({ id: respostas.id })
+    .from(respostas)
+    .where(and(eq(respostas.usuarioId, usuarioId), gte(respostas.respondidaEm, inicioDoDiaLocal()), eq(respostas.questaoId, questaoId)))
+    .limit(1);
+  return !!r;
 }
 
 /** Números do painel de faturamento do dono. Lê só as tabelas de assinatura e pagamento. */

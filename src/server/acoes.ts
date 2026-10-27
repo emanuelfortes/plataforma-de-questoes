@@ -9,7 +9,7 @@ import { flashcards, placar, reportes, respostas, revisoesFlashcard, statusQuest
 import { SEGUNDOS_CHUTE } from "@/lib/patentes";
 import { LIMITE_GRATIS_DIA } from "@/lib/planos";
 import { exigirUsuario } from "@/lib/sessao";
-import { situacaoDoAluno } from "./assinatura";
+import { respondeuHoje, situacaoDoAluno } from "./assinatura";
 import { obterGabarito } from "./questoes";
 
 const entradaResposta = z.object({
@@ -40,7 +40,8 @@ export async function responderQuestao(
 
   // Quem não assina tem um limite de questões por dia (o dono não tem limite).
   const situacao = await situacaoDoAluno(usuario);
-  if (!situacao.assinante && situacao.respondidasHoje >= LIMITE_GRATIS_DIA) {
+  // No limite, ainda pode refazer uma questão que já respondeu hoje (não é questão nova).
+  if (!situacao.assinante && situacao.respondidasHoje >= LIMITE_GRATIS_DIA && !(await respondeuHoje(usuario.id, questaoId))) {
     return {
       ok: false,
       limite: true,
