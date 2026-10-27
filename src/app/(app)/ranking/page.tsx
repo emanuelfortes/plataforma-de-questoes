@@ -1,4 +1,4 @@
-import { Crosshair, Zap } from "lucide-react";
+import { Crosshair, Flame, Zap } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Insignia } from "@/components/ranking/insignia";
@@ -126,6 +126,9 @@ export default async function PaginaRanking({ searchParams }: { searchParams: Pa
         )}
       </section>
 
+      {/* Sequência de acertos (como a do GitHub): total, sequência atual no anel e recorde */}
+      {!eu.dono && eu.resolvidas > 0 && <PainelSequencia acertos={eu.acertos} atual={eu.sequencia} maior={eu.maiorSequencia} />}
+
       {/* Pódio e lista de quem está no ranking */}
       {lista.length === 0 ? (
         <p className="rounded-2xl border border-dashed border-borda p-8 text-center text-sm text-suave">
@@ -197,6 +200,12 @@ function Linha({ linha, eu, valor }: { linha: LinhaRanking; eu: boolean; valor: 
         <span className="block truncate font-bold">
           {linha.nome}
           {eu && <span className="ml-1.5 text-xs font-extrabold text-marca-clara">(você)</span>}
+          {linha.sequencia >= 5 && (
+            <span className="ml-1.5 inline-flex items-center gap-0.5 align-[-1px] text-xs font-extrabold text-fogo" title={`${linha.sequencia} acertos seguidos`}>
+              <Flame className="size-3.5 fill-current" aria-hidden />
+              {linha.sequencia}
+            </span>
+          )}
         </span>
         <span className="flex items-center gap-1 text-[10px] font-extrabold uppercase tracking-[.08em] text-oliva">
           <Insignia patente={patente} className="h-2.5" />
@@ -208,5 +217,47 @@ function Linha({ linha, eu, valor }: { linha: LinhaRanking; eu: boolean; valor: 
         <span className="block text-[11px] text-suave">{valor.detalhe ?? valor.pequeno}</span>
       </span>
     </li>
+  );
+}
+
+function PainelSequencia({ acertos, atual, maior }: { acertos: number; atual: number; maior: number }) {
+  // Anel cheio quando a sequência alcança o recorde.
+  const raio = 34;
+  const volta = 2 * Math.PI * raio;
+  const fracao = maior ? Math.min(atual / maior, 1) : 0;
+  return (
+    <section aria-label="Sequência de acertos" className="grid grid-cols-3 items-center rounded-2xl border border-borda bg-superficie py-5">
+      <div className="px-2 text-center">
+        <p className="font-estencil text-2xl tabular-nums text-ouro sm:text-3xl">{formatarNumero(acertos)}</p>
+        <p className="mt-1 text-xs font-bold text-ouro sm:text-sm">Acertos de primeira</p>
+      </div>
+      <div className="border-x border-borda px-2 text-center">
+        <div className="relative mx-auto grid size-20 place-items-center sm:size-24">
+          <svg viewBox="0 0 80 80" className="absolute inset-0 size-full -rotate-90" aria-hidden>
+            <circle cx="40" cy="40" r={raio} fill="none" strokeWidth="5" className="stroke-camada-forte" />
+            <circle
+              cx="40"
+              cy="40"
+              r={raio}
+              fill="none"
+              strokeWidth="5"
+              strokeLinecap="round"
+              className="stroke-ouro transition-[stroke-dashoffset] duration-700"
+              strokeDasharray={volta}
+              strokeDashoffset={volta * (1 - fracao)}
+            />
+          </svg>
+          <Flame className={cn("absolute -top-2 size-5 fill-fogo text-fogo", atual >= 5 && "animate-pulse")} aria-hidden />
+          <span className="font-estencil text-2xl tabular-nums text-fogo sm:text-3xl">{atual}</span>
+        </div>
+        <p className="mt-2 text-xs font-extrabold text-fogo sm:text-sm">Sequência atual</p>
+        <p className="text-[11px] text-suave">acertos seguidos</p>
+      </div>
+      <div className="px-2 text-center">
+        <p className="font-estencil text-2xl tabular-nums text-ouro sm:text-3xl">{maior}</p>
+        <p className="mt-1 text-xs font-bold text-ouro sm:text-sm">Maior sequência</p>
+        <p className="text-[11px] text-suave">{atual > 0 && atual >= maior ? "é agora!" : "seu recorde"}</p>
+      </div>
+    </section>
   );
 }

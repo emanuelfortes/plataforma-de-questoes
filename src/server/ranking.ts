@@ -20,6 +20,8 @@ export type LinhaRanking = {
   resolvidas: number;
   acertos: number;
   percentual: number;
+  /** Acertos seguidos agora. */
+  sequencia: number;
 };
 
 /** "João Carlos da Silva" vira "João S.": o ranking é público entre os alunos; nunca mostra e-mail. */
@@ -57,13 +59,16 @@ export async function obterRanking(tipo: TipoRanking, usuarioId: string, email: 
 
   const [linhas, [eu], [{ participantes } = { participantes: 0 }], outros] = await Promise.all([
     db
-      .select({ usuarioId: placar.usuarioId, nome: user.name, resolvidas: placar.resolvidas, acertos: placar.acertos })
+      .select({ usuarioId: placar.usuarioId, nome: user.name, resolvidas: placar.resolvidas, acertos: placar.acertos, sequencia: placar.sequencia })
       .from(placar)
       .innerJoin(user, eq(user.id, placar.usuarioId))
       .where(filtro)
       .orderBy(...(tipo === "fuzil" ? [desc(pontos), desc(placar.resolvidas)] : [desc(taxa), desc(placar.resolvidas)]), asc(placar.atualizadoEm))
       .limit(TAMANHO_RANKING),
-    db.select({ resolvidas: placar.resolvidas, acertos: placar.acertos }).from(placar).where(eq(placar.usuarioId, usuarioId)),
+    db
+      .select({ resolvidas: placar.resolvidas, acertos: placar.acertos, sequencia: placar.sequencia, maiorSequencia: placar.maiorSequencia })
+      .from(placar)
+      .where(eq(placar.usuarioId, usuarioId)),
     db.select({ participantes: count() }).from(placar).innerJoin(user, eq(user.id, placar.usuarioId)).where(filtro),
     db
       .select({ usuarioId: user.id, nome: user.name, resolvidas: resolvidasOuZero })
@@ -82,10 +87,16 @@ export async function obterRanking(tipo: TipoRanking, usuarioId: string, email: 
     resolvidas: l.resolvidas,
     acertos: l.acertos,
     percentual: percentual(l.acertos, l.resolvidas),
+    sequencia: l.sequencia,
   }));
 
   // Posição do aluno mesmo fora do top 50: quantos estão na frente dele, mais um.
-  const meus = { resolvidas: eu?.resolvidas ?? 0, acertos: eu?.acertos ?? 0 };
+  const meus = {
+    resolvidas: eu?.resolvidas ?? 0,
+    acertos: eu?.acertos ?? 0,
+    sequencia: eu?.sequencia ?? 0,
+    maiorSequencia: eu?.maiorSequencia ?? 0,
+  };
   const entra = !dono && (tipo === "fuzil" ? meus.resolvidas > 0 : meus.resolvidas >= MINIMO_MIRA);
   let posicao: number | null = lista.find((l) => l.usuarioId === usuarioId)?.posicao ?? null;
   if (entra && posicao === null) {

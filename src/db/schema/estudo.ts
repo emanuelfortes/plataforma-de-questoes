@@ -80,6 +80,9 @@ export const placar = sqliteTable(
     resolvidas: integer("resolvidas").notNull().default(0),
     /** Dessas, quantas acertou de primeira (Bom de Mira = acertos / resolvidas). */
     acertos: integer("acertos").notNull().default(0),
+    /** Acertos seguidos agora e o recorde (mesma regra: só primeira tentativa e sem chute; um erro zera). */
+    sequencia: integer("sequencia").notNull().default(0),
+    maiorSequencia: integer("maior_sequencia").notNull().default(0),
     atualizadoEm: integer("atualizado_em", { mode: "timestamp" }).notNull(),
   },
   (t) => [index("placar_resolvidas").on(t.resolvidas)],

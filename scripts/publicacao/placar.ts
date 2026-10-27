@@ -1,5 +1,6 @@
 // Cria a tabela "placar" (ranking) e preenche com o histórico que já existe: para cada aluno, as questões
-// diferentes que respondeu e quantas acertou na PRIMEIRA tentativa (a mesma regra de responderQuestao).
+// diferentes que respondeu, quantas acertou na PRIMEIRA tentativa e a sequência de acertos (atual e recorde),
+// com a mesma regra de responderQuestao (chute não conta).
 // Só acrescenta: não mexe em nenhuma outra tabela. Pode rodar de novo (recalcula o placar do zero).
 //
 //   npx tsx scripts/publicacao/placar.ts             mostra o que faria (não grava)
@@ -18,27 +19,56 @@ const CRIAR = [
     usuario_id text PRIMARY KEY NOT NULL REFERENCES user(id) ON DELETE cascade,
     resolvidas integer DEFAULT 0 NOT NULL,
     acertos integer DEFAULT 0 NOT NULL,
+    sequencia integer DEFAULT 0 NOT NULL,
+    maior_sequencia integer DEFAULT 0 NOT NULL,
     atualizado_em integer NOT NULL
   )`,
   `CREATE INDEX IF NOT EXISTS placar_resolvidas ON placar (resolvidas)`,
 ];
 
-// Primeira tentativa de cada (aluno, questão): a de menor id no histórico. Não conta se foi chute
-// (menos de SEGUNDOS_CHUTE depois da resposta anterior do aluno), a mesma regra de responderQuestao.
-const CALCULO = `
-  SELECT usuario_id, COUNT(*) AS resolvidas, SUM(correta) AS acertos
-  FROM (
-    SELECT usuario_id, correta,
-      ROW_NUMBER() OVER (PARTITION BY usuario_id, questao_id ORDER BY id) AS n,
-      respondida_em - LAG(respondida_em) OVER (PARTITION BY usuario_id ORDER BY respondida_em, id) AS intervalo
-    FROM respostas
-  )
-  WHERE n = 1 AND (intervalo IS NULL OR intervalo >= ${SEGUNDOS_CHUTE})
-  GROUP BY usuario_id`;
+// Tabela criada antes da sequência de acertos: acrescenta as colunas que faltam (não apaga nada).
+const colunas = new Set((await banco.execute("SELECT name FROM pragma_table_info('placar')")).rows.map((r) => String(r.name)));
+const NOVAS = colunas.size
+  ? ["sequencia", "maior_sequencia"].filter((c) => !colunas.has(c)).map((c) => `ALTER TABLE placar ADD COLUMN ${c} integer DEFAULT 0 NOT NULL`)
+  : [];
 
-const previa = await banco.execute(`SELECT COUNT(*) alunos, SUM(resolvidas) resolvidas, SUM(acertos) acertos FROM (${CALCULO})`);
-const p = previa.rows[0]!;
-console.log(`Alunos com resposta: ${p.alunos} | questões resolvidas (somadas): ${p.resolvidas} | acertos de primeira: ${p.acertos}`);
+// Mesma regra de responderQuestao, aplicada ao histórico em ordem: só a primeira tentativa de cada questão
+// conta, e não conta se foi chute (menos de SEGUNDOS_CHUTE depois da resposta anterior do aluno).
+// Um erro que conta zera a sequência; refazer e chute não mexem nela.
+type Placar = { resolvidas: number; acertos: number; sequencia: number; maior: number };
+const historico = await banco.execute(
+  "SELECT usuario_id, questao_id, correta, respondida_em FROM respostas ORDER BY usuario_id, respondida_em, id",
+);
+const placares = new Map<string, Placar>();
+let aluno = "";
+let vistas = new Set<number>();
+let anterior: number | null = null;
+for (const r of historico.rows) {
+  const u = String(r.usuario_id);
+  if (u !== aluno) {
+    aluno = u;
+    vistas = new Set();
+    anterior = null;
+  }
+  const quando = Number(r.respondida_em);
+  const primeira = !vistas.has(Number(r.questao_id));
+  const chute = anterior !== null && quando - anterior < SEGUNDOS_CHUTE;
+  vistas.add(Number(r.questao_id));
+  anterior = quando;
+  if (!primeira || chute) continue;
+  const p = placares.get(u) ?? { resolvidas: 0, acertos: 0, sequencia: 0, maior: 0 };
+  p.resolvidas++;
+  if (Number(r.correta)) {
+    p.acertos++;
+    p.sequencia++;
+    p.maior = Math.max(p.maior, p.sequencia);
+  } else p.sequencia = 0;
+  placares.set(u, p);
+}
+
+const soma = [...placares.values()].reduce((t, p) => ({ resolvidas: t.resolvidas + p.resolvidas, acertos: t.acertos + p.acertos }), { resolvidas: 0, acertos: 0 });
+console.log(`Respostas lidas: ${historico.rows.length} | alunos: ${placares.size} | questões que contam: ${soma.resolvidas} | acertos de primeira: ${soma.acertos}`);
+if (NOVAS.length) console.log(`Colunas a acrescentar: ${NOVAS.length}`);
 
 if (!APLICAR) {
   console.log("Só leitura. Rode com --aplicar para criar a tabela e gravar o placar.");
@@ -49,11 +79,15 @@ const agora = Math.floor(Date.now() / 1000);
 await banco.batch(
   [
     ...CRIAR,
+    ...NOVAS,
     "DELETE FROM placar",
-    `INSERT INTO placar (usuario_id, resolvidas, acertos, atualizado_em)
-     SELECT usuario_id, resolvidas, acertos, ${agora} FROM (${CALCULO})`,
+    ...[...placares].map(([u, p]) => ({
+      sql: "INSERT INTO placar (usuario_id, resolvidas, acertos, sequencia, maior_sequencia, atualizado_em) VALUES (?, ?, ?, ?, ?, ?)",
+      args: [u, p.resolvidas, p.acertos, p.sequencia, p.maior, agora],
+    })),
   ],
   "write",
 );
-const conferir = await banco.execute("SELECT COUNT(*) alunos, SUM(resolvidas) resolvidas FROM placar");
-console.log(`Placar gravado: ${conferir.rows[0]!.alunos} alunos, ${conferir.rows[0]!.resolvidas} questões resolvidas.`);
+const conferir = await banco.execute("SELECT COUNT(*) alunos, SUM(resolvidas) resolvidas, MAX(maior_sequencia) recorde FROM placar");
+const c = conferir.rows[0]!;
+console.log(`Placar gravado: ${c.alunos} alunos, ${c.resolvidas} questões resolvidas, maior sequência ${c.recorde}.`);

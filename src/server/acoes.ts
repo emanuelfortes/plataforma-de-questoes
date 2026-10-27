@@ -18,7 +18,15 @@ const entradaResposta = z.object({
 });
 
 export type ResultadoResposta =
-  | { ok: true; correta: boolean; gabarito: string; comentario: string | null }
+  | {
+      ok: true;
+      correta: boolean;
+      gabarito: string;
+      comentario: string | null;
+      /** Acertos seguidos depois desta resposta (null quando ela não conta: refazer ou chute). */
+      sequencia: number | null;
+      chute: boolean;
+    }
   | { ok: false; erro: string; limite?: boolean };
 
 /** Registra a tentativa no histórico e atualiza o último estado da questão para o aluno. */
@@ -70,19 +78,30 @@ export async function responderQuestao(
     : [
         db
           .insert(placar)
-          .values({ usuarioId: usuario.id, resolvidas: 1, acertos: correta ? 1 : 0, atualizadoEm: agora })
+          .values({
+            usuarioId: usuario.id,
+            resolvidas: 1,
+            acertos: correta ? 1 : 0,
+            sequencia: correta ? 1 : 0,
+            maiorSequencia: correta ? 1 : 0,
+            atualizadoEm: agora,
+          })
           .onConflictDoUpdate({
             target: placar.usuarioId,
+            // No UPDATE do SQLite as colunas à direita valem o que eram antes: o recorde usa a sequência antiga + 1.
             set: {
               resolvidas: sql`${placar.resolvidas} + 1`,
               acertos: sql`${placar.acertos} + ${correta ? 1 : 0}`,
+              sequencia: correta ? sql`${placar.sequencia} + 1` : 0,
+              maiorSequencia: correta ? sql`max(${placar.maiorSequencia}, ${placar.sequencia} + 1)` : sql`${placar.maiorSequencia}`,
               atualizadoEm: agora,
             },
-          }),
+          })
+          .returning({ sequencia: placar.sequencia }),
       ];
 
   // batch = uma ida ao banco e atômico no libSQL.
-  await db.batch([
+  const resultados = await db.batch([
     db.insert(respostas).values({
       usuarioId: usuario.id,
       questaoId: questao.id,
@@ -110,7 +129,15 @@ export async function responderQuestao(
     ...atualizarPlacar,
   ]);
 
-  return { ok: true, correta, gabarito: questao.gabarito, comentario: questao.comentario };
+  const placarNovo = atualizarPlacar.length ? (resultados[2] as { sequencia: number }[])[0] : undefined;
+  return {
+    ok: true,
+    correta,
+    gabarito: questao.gabarito,
+    comentario: questao.comentario,
+    sequencia: placarNovo?.sequencia ?? null,
+    chute: chute && !jaResolvida,
+  };
 }
 
 const agendador = fsrs({ enable_fuzz: true });

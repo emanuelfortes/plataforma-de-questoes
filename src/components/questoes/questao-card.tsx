@@ -1,11 +1,12 @@
 "use client";
 
-import { ArrowRight, Check, CircleCheck, CircleX, LoaderCircle, RotateCcw, Scissors, X } from "lucide-react";
+import { ArrowRight, Check, CircleCheck, CircleX, Flame, LoaderCircle, RotateCcw, Scissors, X } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useRef, useState, useTransition } from "react";
 import { ReportarErro } from "@/components/reportar-erro";
 import { Button, variantesBotao } from "@/components/ui/button";
 import { ROTULO_DIFICULDADE } from "@/lib/dificuldade";
+import { SEGUNDOS_CHUTE } from "@/lib/patentes";
 import { cn } from "@/lib/utils";
 import { responderQuestao, type ResultadoResposta } from "@/server/acoes";
 import type { QuestaoListada } from "@/server/questoes";
@@ -281,7 +282,21 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
               <p className="font-extrabold">{resultado.correta ? "Você acertou" : "Você errou"}</p>
               <p className="text-sm font-semibold text-texto/75">Gabarito: {textoGabarito}</p>
             </div>
+            {/* Sequência de acertos (a partir de 2), como a sequência de dias do GitHub */}
+            {resultado.correta && resultado.sequencia !== null && resultado.sequencia >= 2 && (
+              <span className="ml-auto flex shrink-0 items-center gap-1 rounded-full bg-fogo/15 px-3 py-1 text-sm font-extrabold text-fogo">
+                <Flame className={cn("size-4 fill-current", resultado.sequencia >= 5 && "animate-pulse")} aria-hidden />
+                <span className="tabular-nums">{resultado.sequencia}</span>
+                <span className="hidden sm:inline">seguidas</span>
+                <span className="sr-only sm:hidden">acertos seguidos</span>
+              </span>
+            )}
           </div>
+          {resultado.chute && (
+            <p className="-mt-3 text-xs text-suave">
+              Resposta em menos de {SEGUNDOS_CHUTE} segundos: vale para o seu estudo, mas não conta no ranking nem na sequência.
+            </p>
+          )}
           {resultado.comentario && (
             <section className="border-l-2 border-marca pl-4">
               <h2 className="text-xs font-extrabold uppercase tracking-[.06em] text-marca-clara">Comentário</h2>
