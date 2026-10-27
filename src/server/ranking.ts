@@ -33,6 +33,8 @@ function nomeCurto(nome: string) {
 
 const percentual = (acertos: number, resolvidas: number) => (resolvidas ? Math.round((100 * acertos) / resolvidas) : 0);
 const taxa = sql`1.0 * ${placar.acertos} / ${placar.resolvidas}`;
+/** Pontos do Fuzil (mesma conta de pontosFuzil em src/lib/patentes.ts). */
+const pontos = sql`${placar.resolvidas} + ${placar.acertos}`;
 
 /** A conta do dono (ADMIN_EMAILS) não entra no ranking dos alunos. */
 function semDonos(): SQL | undefined {
@@ -59,7 +61,7 @@ export async function obterRanking(tipo: TipoRanking, usuarioId: string, email: 
       .from(placar)
       .innerJoin(user, eq(user.id, placar.usuarioId))
       .where(filtro)
-      .orderBy(...(tipo === "fuzil" ? [desc(placar.resolvidas), desc(placar.acertos)] : [desc(taxa), desc(placar.resolvidas)]), asc(placar.atualizadoEm))
+      .orderBy(...(tipo === "fuzil" ? [desc(pontos), desc(placar.resolvidas)] : [desc(taxa), desc(placar.resolvidas)]), asc(placar.atualizadoEm))
       .limit(TAMANHO_RANKING),
     db.select({ resolvidas: placar.resolvidas, acertos: placar.acertos }).from(placar).where(eq(placar.usuarioId, usuarioId)),
     db.select({ participantes: count() }).from(placar).innerJoin(user, eq(user.id, placar.usuarioId)).where(filtro),
@@ -89,7 +91,7 @@ export async function obterRanking(tipo: TipoRanking, usuarioId: string, email: 
   if (entra && posicao === null) {
     const frente =
       tipo === "fuzil"
-        ? gt(placar.resolvidas, meus.resolvidas)
+        ? sql`${pontos} > ${meus.resolvidas + meus.acertos}`
         : sql`${taxa} > ${meus.acertos / meus.resolvidas}`;
     const [{ n } = { n: 0 }] = await db
       .select({ n: count() })

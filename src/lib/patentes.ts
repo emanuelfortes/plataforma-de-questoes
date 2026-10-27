@@ -33,3 +33,9 @@ export function patenteDe(resolvidas: number) {
     progresso: proxima ? (resolvidas - atual.minimo) / (proxima.minimo - atual.minimo) : 1,
   };
 }
+
+/** Resposta dada em menos que isto depois da anterior é chute: vale para o estudo, mas não para o ranking. */
+export const SEGUNDOS_CHUTE = 8;
+
+/** Pontos do Fuzil: 1 por questão resolvida e mais 1 se acertou de primeira. */
+export const pontosFuzil = (resolvidas: number, acertos: number) => resolvidas + acertos;

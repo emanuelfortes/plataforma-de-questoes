@@ -6,6 +6,7 @@
 //   npx tsx scripts/publicacao/placar.ts --aplicar   cria a tabela (se faltar) e recalcula o placar
 import "../_env";
 import { createClient } from "@libsql/client";
+import { SEGUNDOS_CHUTE } from "../../src/lib/patentes";
 
 const APLICAR = process.argv.includes("--aplicar");
 const url = process.env.TURSO_DATABASE_URL || "file:local.db";
@@ -22,14 +23,17 @@ const CRIAR = [
   `CREATE INDEX IF NOT EXISTS placar_resolvidas ON placar (resolvidas)`,
 ];
 
-// Primeira tentativa de cada (aluno, questão): a de menor id no histórico.
+// Primeira tentativa de cada (aluno, questão): a de menor id no histórico. Não conta se foi chute
+// (menos de SEGUNDOS_CHUTE depois da resposta anterior do aluno), a mesma regra de responderQuestao.
 const CALCULO = `
   SELECT usuario_id, COUNT(*) AS resolvidas, SUM(correta) AS acertos
   FROM (
-    SELECT usuario_id, correta, ROW_NUMBER() OVER (PARTITION BY usuario_id, questao_id ORDER BY id) AS n
+    SELECT usuario_id, correta,
+      ROW_NUMBER() OVER (PARTITION BY usuario_id, questao_id ORDER BY id) AS n,
+      respondida_em - LAG(respondida_em) OVER (PARTITION BY usuario_id ORDER BY respondida_em, id) AS intervalo
     FROM respostas
   )
-  WHERE n = 1
+  WHERE n = 1 AND (intervalo IS NULL OR intervalo >= ${SEGUNDOS_CHUTE})
   GROUP BY usuario_id`;
 
 const previa = await banco.execute(`SELECT COUNT(*) alunos, SUM(resolvidas) resolvidas, SUM(acertos) acertos FROM (${CALCULO})`);

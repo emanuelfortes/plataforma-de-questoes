@@ -1,11 +1,12 @@
 "use server";
 
-import { and, count, eq, gte, sql } from "drizzle-orm";
+import { and, count, desc, eq, gte, sql } from "drizzle-orm";
 import { createEmptyCard, fsrs, type Card, type Grade } from "ts-fsrs";
 import { z } from "zod";
 import { db } from "@/db";
 import { suspenderPorReporte } from "@/db/aprovacao";
 import { flashcards, placar, reportes, respostas, revisoesFlashcard, statusQuestao } from "@/db/schema";
+import { SEGUNDOS_CHUTE } from "@/lib/patentes";
 import { LIMITE_GRATIS_DIA } from "@/lib/planos";
 import { exigirUsuario } from "@/lib/sessao";
 import { situacaoDoAluno } from "./assinatura";
@@ -48,12 +49,23 @@ export async function responderQuestao(
   const correta = questao.gabarito === entrada.data.alternativa;
   const agora = new Date();
 
-  // Primeira vez nesta questão? Só ela conta no ranking (refazer não sobe). Leitura de uma linha (chave primária).
-  const [jaResolvida] = await db
-    .select({ tentativas: statusQuestao.tentativas })
-    .from(statusQuestao)
-    .where(and(eq(statusQuestao.usuarioId, usuario.id), eq(statusQuestao.questaoId, questao.id)));
-  const atualizarPlacar = jaResolvida
+  // Só a primeira vez nesta questão conta no ranking (refazer não sobe), e só se não foi chute: resposta
+  // a menos de SEGUNDOS_CHUTE da anterior. O tempo é medido no servidor (o cliente não informa nada).
+  // Duas leituras de uma linha cada (chave primária e índice respostas_usuario_data).
+  const [[jaResolvida], [anterior]] = await Promise.all([
+    db
+      .select({ tentativas: statusQuestao.tentativas })
+      .from(statusQuestao)
+      .where(and(eq(statusQuestao.usuarioId, usuario.id), eq(statusQuestao.questaoId, questao.id))),
+    db
+      .select({ respondidaEm: respostas.respondidaEm })
+      .from(respostas)
+      .where(eq(respostas.usuarioId, usuario.id))
+      .orderBy(desc(respostas.respondidaEm))
+      .limit(1),
+  ]);
+  const chute = !!anterior && agora.getTime() - anterior.respondidaEm.getTime() < SEGUNDOS_CHUTE * 1000;
+  const atualizarPlacar = jaResolvida || chute
     ? []
     : [
         db

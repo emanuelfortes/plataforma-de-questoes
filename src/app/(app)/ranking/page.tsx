@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Insignia } from "@/components/ranking/insignia";
 import { Podio } from "@/components/ranking/podio";
-import { patenteDe } from "@/lib/patentes";
+import { patenteDe, pontosFuzil, SEGUNDOS_CHUTE } from "@/lib/patentes";
 import { exigirUsuario } from "@/lib/sessao";
 import { cn, formatarNumero } from "@/lib/utils";
 import { MINIMO_MIRA, obterRanking, TAMANHO_RANKING, type LinhaRanking, type TipoRanking } from "@/server/ranking";
@@ -16,12 +16,12 @@ const ABAS: Record<TipoRanking, { rotulo: string; Icone: typeof Zap; descricao: 
   fuzil: {
     rotulo: "Fuzil de questões",
     Icone: Zap,
-    descricao: "Quem resolveu mais questões diferentes. Refazer a mesma questão não conta.",
+    descricao: `Cada questão resolvida vale 1 ponto, e acertar de primeira vale mais 1. Refazer não conta, e resposta em menos de ${SEGUNDOS_CHUTE} segundos é chute: não pontua.`,
   },
   mira: {
     rotulo: "Bom de Mira",
     Icone: Crosshair,
-    descricao: `Quem mais acerta de primeira, entre quem já resolveu pelo menos ${MINIMO_MIRA} questões.`,
+    descricao: `Quem mais acerta de primeira, entre quem já resolveu pelo menos ${MINIMO_MIRA} questões. Chute (menos de ${SEGUNDOS_CHUTE} segundos) não conta.`,
   },
 };
 
@@ -33,7 +33,12 @@ export default async function PaginaRanking({ searchParams }: { searchParams: Pa
   const minhaPatente = patenteDe(eu.resolvidas);
   const valor = (l: { resolvidas: number; acertos: number; percentual: number }) =>
     tipo === "fuzil"
-      ? { grande: formatarNumero(l.resolvidas), pequeno: "questões" }
+      ? {
+          grande: formatarNumero(pontosFuzil(l.resolvidas, l.acertos)),
+          pequeno: "pontos",
+          // Na lista e na sua posição cabe o detalhe; no pódio fica só "pontos".
+          detalhe: `${formatarNumero(l.resolvidas)} questões · ${formatarNumero(l.acertos)} acertos`,
+        }
       : { grande: `${l.percentual}%`, pequeno: `${formatarNumero(l.acertos)} de ${formatarNumero(l.resolvidas)}` };
   const estouNaLista = lista.some((l) => l.usuarioId === usuario.id);
 
@@ -84,7 +89,7 @@ export default async function PaginaRanking({ searchParams }: { searchParams: Pa
             </p>
             <p className="text-right">
               <span className="block font-estencil text-xl tabular-nums">{valor(eu).grande}</span>
-              <span className="text-xs text-suave">{valor(eu).pequeno}</span>
+              <span className="text-xs text-suave">{valor(eu).detalhe ?? valor(eu).pequeno}</span>
             </p>
           </div>
         ) : tipo === "mira" && eu.resolvidas > 0 ? (
@@ -181,7 +186,7 @@ export default async function PaginaRanking({ searchParams }: { searchParams: Pa
   );
 }
 
-function Linha({ linha, eu, valor }: { linha: LinhaRanking; eu: boolean; valor: { grande: string; pequeno: string } }) {
+function Linha({ linha, eu, valor }: { linha: LinhaRanking; eu: boolean; valor: { grande: string; pequeno: string; detalhe?: string } }) {
   const patente = patenteDe(linha.resolvidas).atual;
   return (
     <li className={cn("flex items-center gap-3 border-t border-borda px-4 py-3 first:border-t-0", eu && "bg-marca-suave")}>
@@ -200,7 +205,7 @@ function Linha({ linha, eu, valor }: { linha: LinhaRanking; eu: boolean; valor: 
       </span>
       <span className="shrink-0 text-right">
         <span className="block font-estencil tabular-nums">{valor.grande}</span>
-        <span className="block text-[11px] text-suave">{valor.pequeno}</span>
+        <span className="block text-[11px] text-suave">{valor.detalhe ?? valor.pequeno}</span>
       </span>
     </li>
   );
