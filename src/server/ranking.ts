@@ -1,5 +1,5 @@
 import "server-only";
-import { and, asc, count, desc, eq, gt, gte, notInArray, sql, type SQL } from "drizzle-orm";
+import { and, asc, count, desc, eq, gt, gte, isNull, lt, notInArray, or, sql, type SQL } from "drizzle-orm";
 import { db } from "@/db";
 import { placar, user } from "@/db/schema";
 import { ehAdmin } from "@/lib/admin";
@@ -49,7 +49,11 @@ export async function obterRanking(tipo: TipoRanking, usuarioId: string, email: 
   const participa = tipo === "fuzil" ? gt(placar.resolvidas, 0) : gte(placar.resolvidas, MINIMO_MIRA);
   const filtro = and(participa, semDonos());
 
-  const [linhas, [eu], [{ participantes } = { participantes: 0 }]] = await Promise.all([
+  // O resto da tropa: alunos que ainda não entram neste ranking (sem questões, ou abaixo do mínimo do Bom de Mira).
+  const resolvidasOuZero = sql<number>`coalesce(${placar.resolvidas}, 0)`;
+  const foraDoRanking = tipo === "fuzil" ? isNull(placar.resolvidas) : or(isNull(placar.resolvidas), lt(placar.resolvidas, MINIMO_MIRA));
+
+  const [linhas, [eu], [{ participantes } = { participantes: 0 }], outros] = await Promise.all([
     db
       .select({ usuarioId: placar.usuarioId, nome: user.name, resolvidas: placar.resolvidas, acertos: placar.acertos })
       .from(placar)
@@ -59,7 +63,15 @@ export async function obterRanking(tipo: TipoRanking, usuarioId: string, email: 
       .limit(TAMANHO_RANKING),
     db.select({ resolvidas: placar.resolvidas, acertos: placar.acertos }).from(placar).where(eq(placar.usuarioId, usuarioId)),
     db.select({ participantes: count() }).from(placar).innerJoin(user, eq(user.id, placar.usuarioId)).where(filtro),
+    db
+      .select({ usuarioId: user.id, nome: user.name, resolvidas: resolvidasOuZero })
+      .from(user)
+      .leftJoin(placar, eq(placar.usuarioId, user.id))
+      .where(and(tipo === "fuzil" ? or(foraDoRanking, eq(placar.resolvidas, 0)) : foraDoRanking, semDonos()))
+      .orderBy(desc(resolvidasOuZero), asc(user.createdAt))
+      .limit(TAMANHO_RANKING),
   ]);
+  const tropa = outros.map((o) => ({ usuarioId: o.usuarioId, nome: nomeCurto(o.nome), resolvidas: Number(o.resolvidas) }));
 
   const lista: LinhaRanking[] = linhas.map((l, i) => ({
     posicao: i + 1,
@@ -89,6 +101,7 @@ export async function obterRanking(tipo: TipoRanking, usuarioId: string, email: 
 
   return {
     lista,
+    tropa,
     participantes,
     eu: {
       ...meus,

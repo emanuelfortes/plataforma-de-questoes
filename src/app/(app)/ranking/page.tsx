@@ -29,7 +29,7 @@ export default async function PaginaRanking({ searchParams }: { searchParams: Pa
   const usuario = await exigirUsuario();
   const sp = await searchParams;
   const tipo: TipoRanking = sp.tipo === "mira" ? "mira" : "fuzil";
-  const { lista, participantes, eu } = await obterRanking(tipo, usuario.id, usuario.email);
+  const { lista, tropa, participantes, eu } = await obterRanking(tipo, usuario.id, usuario.email);
   const minhaPatente = patenteDe(eu.resolvidas);
   const valor = (l: { resolvidas: number; acertos: number; percentual: number }) =>
     tipo === "fuzil"
@@ -121,7 +121,7 @@ export default async function PaginaRanking({ searchParams }: { searchParams: Pa
         )}
       </section>
 
-      {/* Lista */}
+      {/* Pódio e lista de quem está no ranking */}
       {lista.length === 0 ? (
         <p className="rounded-2xl border border-dashed border-borda p-8 text-center text-sm text-suave">
           {tipo === "mira"
@@ -139,6 +139,40 @@ export default async function PaginaRanking({ searchParams }: { searchParams: Pa
             </ol>
           )}
         </>
+      )}
+
+      {/* O resto da tropa: todos os alunos aparecem, mesmo quem ainda não pontuou neste ranking */}
+      {tropa.length > 0 && (
+        <section aria-label="Resto da tropa" className="space-y-2">
+          <div>
+            <h2 className="font-estencil text-sm uppercase tracking-[.14em] text-oliva">Resto da tropa</h2>
+            <p className="text-xs text-suave">
+              {tipo === "mira"
+                ? `Entram no Bom de Mira ao completar ${MINIMO_MIRA} questões resolvidas.`
+                : "Ainda não resolveram questões. Na primeira, entram no ranking."}
+            </p>
+          </div>
+          <ul className="overflow-hidden rounded-2xl border border-dashed border-borda">
+            {tropa.map((t) => {
+              const patente = patenteDe(t.resolvidas).atual;
+              const eu = t.usuarioId === usuario.id;
+              return (
+                <li key={t.usuarioId} className={cn("flex items-center gap-3 border-t border-dashed border-borda px-4 py-2.5 first:border-t-0", eu && "bg-marca-suave")}>
+                  <span className="grid w-8 shrink-0 place-items-center text-suave" aria-hidden>
+                    <Insignia patente={patente} />
+                  </span>
+                  <span className="min-w-0 flex-1 truncate text-sm font-bold text-suave">
+                    {t.nome}
+                    {eu && <span className="ml-1.5 text-xs font-extrabold text-marca-clara">(você)</span>}
+                  </span>
+                  <span className="shrink-0 text-xs text-suave">
+                    {tipo === "mira" ? `${formatarNumero(t.resolvidas)} de ${MINIMO_MIRA}` : patente.nome}
+                  </span>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
       )}
       {!estouNaLista && lista.length === TAMANHO_RANKING && (
         <p className="text-center text-xs text-suave">Mostrando os {TAMANHO_RANKING} primeiros.</p>
