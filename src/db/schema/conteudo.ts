@@ -54,8 +54,15 @@ export const questoes = sqliteTable(
     leiReferencia: text("lei_referencia"),
     /** Fora do ar (um aluno reportou erro): não aparece nas listas nem nas contagens até ser revisada. */
     suspensa: integer("suspensa", { mode: "boolean" }).notNull().default(false),
+    /**
+     * Impressão da pergunta (o enunciado, sem acento, pontuação nem caixa, em qualquer matéria). Na importação, uma
+     * questão com a mesma chave e a alternativa correta parecida é a mesma pergunta reescrita e não entra
+     * (chaveEnunciado e mesmaResposta em src/db/importacao.ts).
+     */
+    chaveEnunciado: text("chave_enunciado"),
   },
   (t) => [
+    index("questoes_chave_enunciado").on(t.chaveEnunciado),
     // Achar as questões de IA de um tópico (ex.: lei alterada). Fora do caminho do aluno.
     index("questoes_origem_topico").on(t.origem, t.topicoTaxonomia),
     // O SQLite acrescenta o id (rowid) no fim de todo índice: (ordem, id) fica coberto para o cursor.

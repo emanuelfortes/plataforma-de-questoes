@@ -4,7 +4,7 @@
 // Aceita o que as IAs costumam devolver: o JSON do prompt ({ disciplina, questoes, flashcards }),
 // um array de itens, ou JSON Lines (um objeto por linha), com ou sem cercas ```json.
 import { createHash, randomInt } from "node:crypto";
-import { eq, sql } from "drizzle-orm";
+import { eq, inArray, sql } from "drizzle-orm";
 import type { Db } from "./index";
 import { assuntos, contagens, disciplinas, flashcards, questoes } from "./schema";
 import { chaveNome, nomesPreferidos, normalizar } from "../lib/catalogo";
@@ -84,6 +84,28 @@ export function lerArquivo(texto: string): { itens: unknown[]; extras: ExtrasArq
 function impressaoDigital(prefixo: string, partes: string[]) {
   const hash = createHash("sha256").update(partes.map(normalizar).join("\u0000")).digest("hex");
   return `${prefixo}${hash.slice(0, 24)}`;
+}
+
+const limparTexto = (t: string) => normalizar(t).replace(/[^a-z0-9]+/g, " ").trim();
+
+/**
+ * Chave da pergunta: o enunciado sem acento, pontuação nem caixa (questoes.chave_enunciado, indexada). Não leva a
+ * matéria: a mesma questão cadastrada em duas matérias também é repetição para quem estuda todas.
+ * Sozinha não basta: várias questões de Português começam com o mesmo "Assinale a alternativa em que a crase...".
+ * Por isso a repetição é chave igual E resposta correta parecida (mesmaResposta).
+ */
+export function chaveEnunciado(enunciado: string) {
+  return createHash("sha256").update(limparTexto(enunciado)).digest("hex").slice(0, 32);
+}
+
+/** Respostas corretas com mais da metade das palavras em comum: a mesma resposta reescrita. */
+export function mesmaResposta(a: string, b: string) {
+  const pa = new Set(limparTexto(a).split(" ").filter(Boolean));
+  const pb = new Set(limparTexto(b).split(" ").filter(Boolean));
+  if (!pa.size || !pb.size) return pa.size === pb.size;
+  let comuns = 0;
+  for (const p of pa) if (pb.has(p)) comuns++;
+  return comuns / (pa.size + pb.size - comuns) >= 0.5;
 }
 
 /** Ajusta pequenos desvios comuns das IAs antes de validar ("area" no lugar de "assunto", letra minúscula...). */
@@ -188,7 +210,7 @@ export function criarGravador(db: Db) {
   /** Devolve quantas entraram (as demais já existiam). */
   async function gravarQuestoes(lista: (QuestaoPronta & OrigemQuestao)[]) {
     if (!lista.length) return 0;
-    const valores = [];
+    const valores: (typeof questoes.$inferInsert & { chaveEnunciado: string })[] = [];
     for (const q of lista) {
       const disciplinaId = await idDisciplina(q.disciplina);
       valores.push({
@@ -218,11 +240,34 @@ export function criarGravador(db: Db) {
         topicoTaxonomia: q.topicoTaxonomia ?? null,
         subtopico: q.subtopico ?? null,
         leiReferencia: q.leiReferencia ?? null,
+        chaveEnunciado: chaveEnunciado(q.enunciado),
       });
     }
+    // A mesma pergunta já cadastrada (ou repetida no próprio lote) não entra: mesmo enunciado e
+    // resposta correta parecida. Uma leitura pelo índice questoes_chave_enunciado.
+    const correta = (v: (typeof valores)[number]) => v.alternativas.find((a) => a.letra === v.gabarito)?.texto ?? "";
+    const vistas = new Map<string, string[]>();
+    const chaves = [...new Set(valores.map((v) => v.chaveEnunciado))];
+    for (let i = 0; i < chaves.length; i += 500) {
+      const existentes = await db
+        .select({ chave: questoes.chaveEnunciado, alternativas: questoes.alternativas, gabarito: questoes.gabarito })
+        .from(questoes)
+        .where(inArray(questoes.chaveEnunciado, chaves.slice(i, i + 500)));
+      for (const e of existentes) {
+        const texto = e.alternativas.find((a) => a.letra === e.gabarito)?.texto ?? "";
+        vistas.set(e.chave!, [...(vistas.get(e.chave!) ?? []), texto]);
+      }
+    }
+    const novas = valores.filter((v) => {
+      const anteriores = vistas.get(v.chaveEnunciado) ?? [];
+      if (anteriores.some((t) => mesmaResposta(t, correta(v)))) return false;
+      vistas.set(v.chaveEnunciado, [...anteriores, correta(v)]);
+      return true;
+    });
+    if (!novas.length) return 0;
     const inseridas = await db
       .insert(questoes)
-      .values(valores)
+      .values(novas)
       .onConflictDoNothing({ target: questoes.codigo })
       .returning({
         disciplinaId: questoes.disciplinaId,
