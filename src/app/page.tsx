@@ -1,4 +1,4 @@
-import { BadgeCheck, BarChart3, BookOpenCheck, Check, Filter, Layers, ListChecks, MessageSquareText, Smartphone, Sparkles } from "lucide-react";
+import { BadgeCheck, BarChart3, BookOpenCheck, Check, Filter, Layers, ListChecks, MessageSquareText, Smartphone, Sparkles, Lock } from "lucide-react";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -321,7 +321,13 @@ function Materias({ materias }: { materias: string[] }) {
 }
 
 function Preco() {
-  const gratis = [`${LIMITE_GRATIS_DIA} questões por dia`, "Comentário de cada alternativa", "Flashcards e desempenho"];
+  const gratis: ItemPlano[] = [
+    `${LIMITE_GRATIS_DIA} questões por dia`,
+    "Comentário de cada alternativa",
+    "Ranking dos alunos",
+    { texto: "Flashcards (só assinantes)", bloqueado: true },
+    { texto: "Estatísticas de desempenho (só assinantes)", bloqueado: true },
+  ];
   const completo = ["Questões ilimitadas", "Todas as matérias e assuntos", "Flashcards com revisão espaçada", "Desempenho completo por matéria", "Novas questões toda semana"];
   return (
     <section id="preco" className="scroll-mt-20 border-y border-borda bg-superficie/40">
@@ -361,22 +367,33 @@ function Preco() {
   );
 }
 
-function Lista({ itens }: { itens: string[] }) {
+/** Item de plano: texto simples (incluso) ou com cadeado (só no plano pago). */
+type ItemPlano = string | { texto: string; bloqueado: true };
+
+function Lista({ itens }: { itens: ItemPlano[] }) {
   return (
     <ul className="my-6 space-y-2.5">
-      {itens.map((i) => (
-        <li key={i} className="flex items-start gap-2.5 text-sm">
-          <Check className="mt-0.5 size-4 shrink-0 text-acerto" aria-hidden />
-          {i}
-        </li>
-      ))}
+      {itens.map((i) => {
+        const bloqueado = typeof i !== "string";
+        const texto = typeof i === "string" ? i : i.texto;
+        return (
+          <li key={texto} className={cn("flex items-start gap-2.5 text-sm", bloqueado && "text-suave")}>
+            {bloqueado ? (
+              <Lock className="mt-0.5 size-4 shrink-0 text-destaque" aria-hidden />
+            ) : (
+              <Check className="mt-0.5 size-4 shrink-0 text-acerto" aria-hidden />
+            )}
+            {texto}
+          </li>
+        );
+      })}
     </ul>
   );
 }
 
 const PERGUNTAS = [
   { p: "As questões são de provas anteriores?", r: "São inéditas, escritas no estilo da banca de cada concurso (IDECAN ou Vunesp) a partir da lei vigente, e revisadas antes de entrar na plataforma." },
-  { p: "Preciso de cartão para começar?", r: `Não. O plano grátis libera ${LIMITE_GRATIS_DIA} questões por dia, com comentário. Você assina só se quiser estudar sem limite.` },
+  { p: "Preciso de cartão para começar?", r: `Não. O plano grátis libera ${LIMITE_GRATIS_DIA} questões por dia, com comentário. Flashcards e estatísticas de desempenho ficam para quem assina, junto com as questões sem limite.` },
   { p: "Posso cancelar a assinatura?", r: "Sim, a qualquer momento, pela própria plataforma. Você continua com acesso até o fim do mês já pago." },
   { p: "Funciona no celular?", r: "Sim. Abra pelo navegador e adicione à tela inicial: ele vira um app, com a mesma conta em todos os aparelhos." },
   { p: "E se eu achar um erro numa questão?", r: "Toque em \"Reportar erro\" depois de responder. A questão sai do ar na hora e volta só depois de revisada." },

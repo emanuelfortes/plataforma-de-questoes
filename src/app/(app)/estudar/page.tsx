@@ -1,10 +1,11 @@
-import { BookOpenCheck, Layers } from "lucide-react";
+import { BookOpenCheck, Layers, Lock } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArvoreEstudo } from "@/components/estudar/arvore-estudo";
 import { lerDificuldades, lerFiltroStatus, lerId, lerIds, lerTipoQuestao } from "@/lib/filtros";
 import { exigirUsuario } from "@/lib/sessao";
-import { formatarNumero } from "@/lib/utils";
+import { cn, formatarNumero } from "@/lib/utils";
+import { temAcessoCompleto } from "@/server/assinatura";
 import { arvoreDeEstudo, temCertoErrado, totaisPorTipo, type TipoEstudo } from "@/server/estudar";
 
 export const metadata: Metadata = { title: "Estudar" };
@@ -41,26 +42,33 @@ function Cabecalho({ passo, titulo, voltar }: { passo: string; titulo: string; v
 }
 
 export default async function PaginaEstudar({ searchParams }: { searchParams: Params }) {
-  await exigirUsuario();
+  const usuario = await exigirUsuario();
   const sp = await searchParams;
   const tipo = sp.tipo === "questoes" || sp.tipo === "flashcards" ? sp.tipo : undefined;
 
   // Passo 1: questões ou flashcards
   if (!tipo) {
-    const totais = await totaisPorTipo();
+    const [totais, acessoCompleto] = await Promise.all([totaisPorTipo(), temAcessoCompleto(usuario)]);
     return (
       <div className="mx-auto max-w-3xl space-y-8">
         <Cabecalho passo="Passo 1 de 2" titulo="Como você quer estudar hoje?" />
         <div className="grid gap-4 sm:grid-cols-2">
           {(Object.keys(TIPOS) as TipoEstudo[]).map((t) => {
             const Icone = t === "questoes" ? BookOpenCheck : Layers;
+            // Flashcards são só de assinantes: o grátis vê o cartão com cadeado e cai na tela de prévia.
+            const bloqueado = t === "flashcards" && !acessoCompleto;
             return (
               <Link
                 key={t}
-                href={`/estudar?tipo=${t}`}
-                className="group rounded-2xl border border-borda bg-superficie p-5 transition-colors hover:border-marca hover:bg-marca-suave sm:p-6"
+                href={bloqueado ? "/flashcards" : `/estudar?tipo=${t}`}
+                className="group relative rounded-2xl border border-borda bg-superficie p-5 transition-colors hover:border-marca hover:bg-marca-suave sm:p-6"
               >
-                <Icone className="size-7 text-marca-clara" aria-hidden />
+                {bloqueado && (
+                  <span className="absolute right-4 top-4 inline-flex items-center gap-1 rounded-full bg-destaque-suave px-2.5 py-1 text-[11px] font-extrabold text-destaque">
+                    <Lock className="size-3" aria-hidden /> Assinantes
+                  </span>
+                )}
+                <Icone className={cn("size-7", bloqueado ? "text-suave" : "text-marca-clara")} aria-hidden />
                 <p className="mt-4 text-xl font-extrabold">{TIPOS[t].rotulo}</p>
                 <p className="mt-1 text-sm text-suave">{TIPOS[t].descricao}</p>
                 <p className="mt-4 text-sm font-bold tabular-nums text-texto/75">

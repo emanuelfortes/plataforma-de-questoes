@@ -169,6 +169,15 @@ export function cobrancaAtiva() {
   return !!process.env.MP_ACCESS_TOKEN;
 }
 
+/**
+ * Flashcards e desempenho são só de assinantes. Liberado também para o dono e enquanto a cobrança
+ * estiver desligada (mesma regra do limite diário). Lê só a assinatura do aluno.
+ */
+export async function temAcessoCompleto(usuario: { id: string; email: string }) {
+  if (!cobrancaAtiva() || ehAdmin(usuario.email)) return true;
+  return acessoLiberado(await assinaturaDoUsuario(usuario.id));
+}
+
 /** Situação do aluno para o limite diário. O dono (ADMIN_EMAILS) nunca tem limite. */
 export async function situacaoDoAluno(usuario: { id: string; email: string }) {
   if (!cobrancaAtiva() || ehAdmin(usuario.email)) return { assinante: true, respondidasHoje: 0 };

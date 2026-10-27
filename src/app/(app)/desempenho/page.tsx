@@ -3,12 +3,15 @@ import { GraficoDiario } from "@/components/desempenho/grafico-diario";
 import { Card, CardTitulo } from "@/components/ui/card";
 import { exigirUsuario } from "@/lib/sessao";
 import { cn, formatarNumero } from "@/lib/utils";
+import { RecursoBloqueado } from "@/components/recurso-bloqueado";
+import { temAcessoCompleto } from "@/server/assinatura";
 import { obterJanelas, obterPorDisciplina, obterSerieDiaria } from "@/server/desempenho";
 
 export const metadata: Metadata = { title: "Desempenho" };
 
 export default async function PaginaDesempenho() {
   const usuario = await exigirUsuario();
+  if (!(await temAcessoCompleto(usuario))) return <DesempenhoBloqueado />;
   const [janelas, serie, porDisciplina] = await Promise.all([
     obterJanelas(usuario.id),
     obterSerieDiaria(usuario.id, 30),
@@ -109,5 +112,38 @@ export default async function PaginaDesempenho() {
         )}
       </Card>
     </div>
+  );
+}
+
+/** Aluno grátis: prévia ilustrativa (números fixos, não são dele) atrás do cadeado. */
+function DesempenhoBloqueado() {
+  const barras = [40, 65, 30, 80, 55, 90, 70, 45, 85, 60, 75, 95];
+  return (
+    <RecursoBloqueado
+      titulo="Desempenho"
+      descricao="Seus acertos e erros por período e por matéria, para saber exatamente onde reforçar."
+      beneficios={[
+        "Acertos de hoje, de ontem e dos últimos 7, 15 e 30 dias",
+        "Gráfico dia a dia do seu estudo",
+        "Por matéria: onde você vai bem e onde precisa reforçar",
+      ]}
+      previa={
+        <div className="space-y-4 bg-superficie p-5">
+          <div className="grid grid-cols-3 gap-2">
+            {["Hoje", "7 dias", "30 dias"].map((r, i) => (
+              <div key={r} className="rounded-xl border border-borda p-3">
+                <p className="text-xs text-suave">{r}</p>
+                <p className="mt-1 text-2xl font-extrabold">{[78, 71, 69][i]}%</p>
+              </div>
+            ))}
+          </div>
+          <div className="flex h-28 items-end gap-1.5 rounded-xl border border-borda p-3">
+            {barras.map((h, i) => (
+              <span key={i} className="flex-1 rounded-t bg-acerto" style={{ height: `${h}%` }} />
+            ))}
+          </div>
+        </div>
+      }
+    />
   );
 }

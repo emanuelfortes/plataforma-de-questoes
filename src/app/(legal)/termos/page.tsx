@@ -61,7 +61,7 @@ export default function PaginaTermos() {
       <h2>6. Planos e pagamento</h2>
       <ul>
         <li>
-          <strong>Plano grátis:</strong> até {LIMITE_GRATIS_DIA} questões por dia.
+          <strong>Plano grátis:</strong> até {LIMITE_GRATIS_DIA} questões por dia. Flashcards e estatísticas de desempenho são exclusivos da assinatura.
         </li>
         <li>
           <strong>{ASSINATURA.nome}:</strong> {formatarReais(ASSINATURA.valor)} por mês, com questões ilimitadas.

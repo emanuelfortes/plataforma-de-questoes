@@ -9,7 +9,7 @@ import { flashcards, placar, reportes, respostas, revisoesFlashcard, statusQuest
 import { SEGUNDOS_CHUTE } from "@/lib/patentes";
 import { LIMITE_GRATIS_DIA } from "@/lib/planos";
 import { exigirUsuario } from "@/lib/sessao";
-import { respondeuHoje, situacaoDoAluno } from "./assinatura";
+import { respondeuHoje, situacaoDoAluno, temAcessoCompleto } from "./assinatura";
 import { obterGabarito } from "./questoes";
 
 const entradaResposta = z.object({
@@ -159,6 +159,8 @@ export async function avaliarFlashcard(
   const usuario = await exigirUsuario();
   const entrada = entradaAvaliacao.safeParse({ flashcardId, nota });
   if (!entrada.success) return { ok: false, erro: "Avaliação inválida." };
+  // Flashcards são só de assinantes: a tela mostra o cadeado, e aqui o servidor confirma.
+  if (!(await temAcessoCompleto(usuario))) return { ok: false, erro: "Flashcards são exclusivos para assinantes." };
 
   const [existe] = await db
     .select({ id: flashcards.id })
