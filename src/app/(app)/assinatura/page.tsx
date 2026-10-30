@@ -4,7 +4,7 @@ import Link from "next/link";
 import { BotaoAssinar, BotaoCancelar } from "@/components/assinatura/botoes";
 import { FormularioCartao } from "@/components/assinatura/formulario-cartao";
 import { Card } from "@/components/ui/card";
-import { ASSINATURA, formatarReais, LIMITE_GRATIS_DIA } from "@/lib/planos";
+import { ASSINATURA, BENEFICIOS_ASSINATURA, formatarReais, LIMITE_GRATIS_DIA } from "@/lib/planos";
 import { exigirUsuario } from "@/lib/sessao";
 import {
   acessoLiberado,
@@ -16,12 +16,7 @@ import {
 
 export const metadata: Metadata = { title: "Assinatura" };
 
-const BENEFICIOS = [
-  "Questões ilimitadas, todos os dias",
-  "Flashcards com revisão no momento certo",
-  "Desempenho por período e por matéria",
-  "Cancele quando quiser, direto aqui",
-];
+const BENEFICIOS = [...BENEFICIOS_ASSINATURA, "Cancele quando quiser, direto aqui"];
 
 const dataCurta = (d: Date | null | undefined) => (d ? d.toLocaleDateString("pt-BR", { timeZone: "America/Sao_Paulo" }) : "");
 

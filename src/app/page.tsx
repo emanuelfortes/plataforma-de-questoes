@@ -7,7 +7,7 @@ import { BotaoTema } from "@/components/botao-tema";
 import { Logo } from "@/components/logo";
 import { variantesBotao } from "@/components/ui/button";
 import { NOME_PLATAFORMA } from "@/lib/marca";
-import { ASSINATURA, formatarReais, LIMITE_GRATIS_DIA } from "@/lib/planos";
+import { ASSINATURA, BENEFICIOS_ASSINATURA, formatarReais, LIMITE_GRATIS_DIA } from "@/lib/planos";
 import { obterSessao } from "@/lib/sessao";
 import { cn, formatarNumero } from "@/lib/utils";
 import { resumoVitrine } from "@/server/vitrine";
@@ -322,13 +322,13 @@ function Materias({ materias }: { materias: string[] }) {
 
 function Preco() {
   const gratis: ItemPlano[] = [
-    `${LIMITE_GRATIS_DIA} questões por dia`,
-    "Comentário de cada alternativa",
-    "Ranking dos alunos",
-    { texto: "Flashcards (só assinantes)", bloqueado: true },
-    { texto: "Estatísticas de desempenho (só assinantes)", bloqueado: true },
+    `${LIMITE_GRATIS_DIA} questões diárias`,
+    "Gabarito comentado",
+    "Ranking de elite",
+    { texto: "Cards inteligentes", bloqueado: true },
+    { texto: "Desempenho", bloqueado: true },
+    { texto: "Questões ilimitadas", bloqueado: true },
   ];
-  const completo = ["Questões ilimitadas", "Todas as matérias e assuntos", "Flashcards com revisão espaçada", "Desempenho completo por matéria", "Novas questões toda semana"];
   return (
     <section id="preco" className="scroll-mt-20 border-y border-borda bg-superficie/40">
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 md:py-20">
@@ -336,7 +336,7 @@ function Preco() {
         <div className="mx-auto mt-10 grid max-w-3xl gap-4 md:grid-cols-2">
           <div className="flex flex-col rounded-3xl border border-borda bg-superficie p-6 transition-colors hover:border-borda-forte sm:p-8">
             <p className="font-extrabold">Grátis</p>
-            <p className="mt-2 text-4xl font-extrabold tracking-tight">R$ 0</p>
+            <p className="mt-2 text-4xl font-extrabold tracking-tight">{formatarReais(0)}</p>
             <p className="text-sm text-suave">para sempre</p>
             <Lista itens={gratis} />
             <Link href="/cadastrar" className={cn(variantesBotao({ variante: "contorno" }), "mt-auto w-full")}>
@@ -356,7 +356,7 @@ function Preco() {
               <span className="text-base font-bold text-suave">/mês</span>
             </p>
             <p className="text-sm text-suave">cancele quando quiser</p>
-            <Lista itens={completo} />
+            <Lista itens={BENEFICIOS_ASSINATURA} />
             <Link href="/cadastrar" className={cn(variantesBotao(), "mt-auto w-full")}>
               Começar agora
             </Link>

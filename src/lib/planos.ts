@@ -3,10 +3,20 @@
 export const ASSINATURA = {
   nome: "Assinatura mensal",
   /** Valor cobrado todo mês, em reais. */
-  valor: 25,
+  valor: 24.9,
   /** Aparece no checkout, no painel do Mercado Pago e na fatura do aluno. */
   descricao: "Riccardo Nóbrega - Assinatura mensal",
 } as const;
+
+/** O que a assinatura inclui (página inicial e tela de assinatura). */
+export const BENEFICIOS_ASSINATURA = [
+  "Questões ilimitadas",
+  "Cards inteligentes",
+  "Desempenho (diário, semanal, mensal)",
+  "Ranking de elite",
+  "Todos os conteúdos",
+  "Gabarito comentado",
+];
 
 /** Questões por dia (fuso de Brasília) para quem não assina. */
 export const LIMITE_GRATIS_DIA = 5;

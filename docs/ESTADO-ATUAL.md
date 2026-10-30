@@ -32,7 +32,7 @@ Pastas que ficam só neste computador (fora do git; o OneDrive pode sincronizar)
 |---|---|
 | Questões | filtro por matéria, área, status e Opções (nível, tipo, resolução); pastas por crime no Penal; tesourinha; questão errada volta 4 questões depois; comentário em partes (explicação, alternativa por alternativa, letra da lei, pegadinha) |
 | Plano grátis | 5 questões diferentes por dia. Flashcards, desempenho e Vade Mecum com cadeado |
-| Assinatura | R$ 25 por mês no Mercado Pago, conferência diária (cron) |
+| Assinatura | R$ 24,90 por mês no Mercado Pago (cartão digitado no site), conferência diária (cron) |
 | Ranking | Fuzil de Questões e Bom de Mira, patentes, pódio, sequência de acertos; chute (menos de 8 s) não pontua |
 | Vade Mecum | 41 leis em leitura guiada, selos de atualização, aviso do STF, "N questões cobram este artigo" |
 | Área do dono | visão geral, financeiro, pessoas, questões (prompt e importação), revisão (IA e reportes), Vade Mecum (explicações) |
