@@ -51,6 +51,7 @@ src/
     (app)/questoes                        resolução (uma por vez) e filtro de status
     (app)/flashcards                      sessão de revisão
     (app)/desempenho                      janelas, gráfico diário, por disciplina
+    (app)/vade-mecum                      leis do Planalto (data/leis) em leitura guiada: artigo desmontado, palavras da banca, selos de atualização (só assinantes)
     (app)/ranking                         Fuzil de questões (mais resolvidas) e Bom de Mira (acerto de primeira, mínimo de 30)
     (app)/admin                           área do dono (ADMIN_EMAILS), com menu lateral: visão geral, financeiro,
                                           pessoas (cadastrados x assinantes) e questões (prompt de IA e importação)

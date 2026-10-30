@@ -1,6 +1,6 @@
 "use client";
 
-import { ChartColumn, Flame, GraduationCap, LogOut, ShieldCheck, Trophy, UserRound, type LucideIcon } from "lucide-react";
+import { BookMarked, ChartColumn, Flame, GraduationCap, LogOut, ShieldCheck, Trophy, UserRound, type LucideIcon } from "lucide-react";
 import Link from "next/link";
 import { Logo } from "@/components/logo";
 import { usePathname, useRouter } from "next/navigation";
@@ -14,6 +14,7 @@ type ItemNav = { href: string; rotulo: string; Icone: LucideIcon; ativoEm: strin
 // "Estudar" fica ativo também durante a resolução (questões e flashcards).
 const LINKS: ItemNav[] = [
   { href: "/estudar", rotulo: "Estudar", Icone: GraduationCap, ativoEm: ["/estudar", "/questoes", "/flashcards"] },
+  { href: "/vade-mecum", rotulo: "Vade Mecum", Icone: BookMarked, ativoEm: ["/vade-mecum"] },
   { href: "/desempenho", rotulo: "Desempenho", Icone: ChartColumn, ativoEm: ["/desempenho"] },
   { href: "/ranking", rotulo: "Ranking", Icone: Trophy, ativoEm: ["/ranking"] },
 ];

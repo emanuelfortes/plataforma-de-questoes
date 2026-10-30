@@ -55,7 +55,11 @@ for (const id of ids) {
     const resposta = await fetch(lei.fonte, { headers: { "User-Agent": "Mozilla/5.0 (plataforma de questoes)" } });
     if (!resposta.ok) throw new Error(`HTTP ${resposta.status}`);
     // O planalto serve as páginas em Windows-1252.
-    const html = new TextDecoder("windows-1252").decode(await resposta.arrayBuffer());
+    // A maioria das páginas do Planalto vem em windows-1252; algumas (ex.: Lei Maria da Penha) em UTF-16,
+    // marcadas pelos bytes FF FE no começo. Sem isto, o texto saía como "ÿþ L e i ..." e a lei ficava vazia.
+    const bytes = new Uint8Array(await resposta.arrayBuffer());
+    const codificacao = bytes[0] === 0xff && bytes[1] === 0xfe ? "utf-16le" : bytes[0] === 0xfe && bytes[1] === 0xff ? "utf-16be" : "windows-1252";
+    const html = new TextDecoder(codificacao).decode(bytes);
     const texto = htmlParaTexto(html);
     const cabecalho = [
       `# ${lei.nome}`,
