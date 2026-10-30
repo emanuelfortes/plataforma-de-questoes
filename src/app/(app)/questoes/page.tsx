@@ -19,7 +19,8 @@ import { exigirUsuario } from "@/lib/sessao";
 import { formatarNumero } from "@/lib/utils";
 import { situacaoDoAluno } from "@/server/assinatura";
 import { nomesSelecao, temCertoErrado } from "@/server/estudar";
-import { contarPorStatus, listarQuestoes, TAMANHO_PAGINA, type CursorQuestoes } from "@/server/questoes";
+import { nomeDaLei } from "@/server/vade-mecum";
+import { contarPorStatus, idsDoArtigo, listarQuestoes, TAMANHO_PAGINA, type CursorQuestoes } from "@/server/questoes";
 
 export const metadata: Metadata = { title: "Questões" };
 
@@ -41,7 +42,11 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
   const sp = await searchParams;
   const texto = (k: string) => (typeof sp[k] === "string" ? (sp[k] as string) : undefined);
 
-  const disciplinaId = lerId(texto("disciplina"));
+  // Vade Mecum: "?lei=cp&art=121" lista as questões que cobram esse artigo (no lugar de matéria e área).
+  const leiArtigo = /^[a-z0-9-]{2,30}$/.test(texto("lei") ?? "") && /^\d{1,4}(-[A-Z])?$/.test(texto("art") ?? "") ? { lei: texto("lei")!, artigo: texto("art")! } : undefined;
+  const nomeLei = leiArtigo ? nomeDaLei(leiArtigo.lei) : null;
+  const ids = leiArtigo && nomeLei ? await idsDoArtigo(leiArtigo.lei, leiArtigo.artigo) : undefined;
+  const disciplinaId = ids ? undefined : lerId(texto("disciplina"));
   const assuntoIds = disciplinaId ? lerIds(sp.assunto) : [];
   const status = lerFiltroStatus(texto("status"));
   const dificuldades = lerDificuldades(sp.dificuldade);
@@ -58,15 +63,19 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
   const [situacao, nomes, contagens, { questoes, proximo }] = await Promise.all([
     situacaoDoAluno(usuario),
     nomesSelecao(disciplinaId, assuntoIds),
-    contarPorStatus({ usuarioId: usuario.id, disciplinaId, assuntoIds, dificuldades, tipo: tipoQuestao }),
-    listarQuestoes({ usuarioId: usuario.id, disciplinaId, assuntoIds, status, inicio, cursor, voltou, dificuldades, tipo: tipoQuestao }),
+    contarPorStatus({ usuarioId: usuario.id, disciplinaId, assuntoIds, dificuldades, tipo: tipoQuestao, ids }),
+    listarQuestoes({ usuarioId: usuario.id, disciplinaId, assuntoIds, status, inicio, cursor, voltou, dificuldades, tipo: tipoQuestao, ids }),
   ]);
 
   // Filtros na URL (sem a posição na sequência). Tirar um filtro recomeça a sequência, com o mesmo ponto sorteado.
-  type Filtro = { disciplina?: number; assuntos: number[]; dificuldades: string[]; tipo?: string; status: string };
-  const atual: Filtro = { disciplina: disciplinaId, assuntos: assuntoIds, dificuldades, tipo: tipoQuestao, status };
+  type Filtro = { artigo?: { lei: string; artigo: string }; disciplina?: number; assuntos: number[]; dificuldades: string[]; tipo?: string; status: string };
+  const atual: Filtro = { artigo: ids ? leiArtigo : undefined, disciplina: disciplinaId, assuntos: assuntoIds, dificuldades, tipo: tipoQuestao, status };
   const parametros = (x: Filtro) => {
     const p = new URLSearchParams();
+    if (x.artigo) {
+      p.set("lei", x.artigo.lei);
+      p.set("art", x.artigo.artigo);
+    }
     if (x.disciplina) p.set("disciplina", String(x.disciplina));
     if (x.disciplina) for (const id of x.assuntos) p.append("assunto", String(id));
     for (const d of x.dificuldades) p.append("dificuldade", d);
@@ -80,6 +89,9 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
     return `/questoes?${p}`;
   };
   const etiquetas: Etiqueta[] = [
+    ...(atual.artigo && nomeLei
+      ? [{ chave: "artigo", grupo: "Artigo de lei", rotulo: `Art. ${atual.artigo.artigo} · ${nomeLei.replace(/\s*\(.*\)$/, "")}`, sem: lista({ ...atual, artigo: undefined }) }]
+      : []),
     // Sem áreas, a matéria inteira é o filtro; com áreas, cada área é uma etiqueta (a última volta à matéria inteira).
     ...(disciplinaId && nomes.areas.length === 0 && nomes.disciplina
       ? [{ chave: "materia", grupo: "Matéria inteira", rotulo: nomes.disciplina, sem: lista({ ...atual, disciplina: undefined, assuntos: [] }) }]
@@ -103,12 +115,7 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
 
   const proximaUrl = (() => {
     if (!proximo) return null;
-    const p = new URLSearchParams();
-    if (disciplinaId) p.set("disciplina", String(disciplinaId));
-    for (const id of assuntoIds) p.append("assunto", String(id));
-    if (status !== "todas") p.set("status", status);
-    for (const d of dificuldades) p.append("dificuldade", d);
-    if (tipoQuestao) p.set("tipoq", tipoQuestao);
+    const p = parametros(atual);
     p.set("inicio", String(inicio));
     p.set("cursor", `${proximo.cursor.ordem}.${proximo.cursor.id}`);
     if (proximo.voltou) p.set("volta", "1");
@@ -185,7 +192,7 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
         ) : (
           <Resolucao
             totalFiltro={contagens[status]}
-            key={`${disciplinaId}-${assuntoIds.join(".")}-${status}-${dificuldades.join(".")}-${tipoQuestao ?? ""}-${inicio}-${texto("cursor") ?? ""}`}
+            key={`${leiArtigo ? `${leiArtigo.lei}:${leiArtigo.artigo}` : ""}-${disciplinaId}-${assuntoIds.join(".")}-${status}-${dificuldades.join(".")}-${tipoQuestao ?? ""}-${inicio}-${texto("cursor") ?? ""}`}
             questoes={questoes}
             inicio={(pagina - 1) * TAMANHO_PAGINA + 1}
             proximaUrl={proximaUrl}

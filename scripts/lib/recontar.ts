@@ -45,5 +45,12 @@ export async function recontar(db: Db) {
     await tx.run(sql`
       INSERT INTO contagens (chave, total)
       SELECT 'f:a:' || assunto_id, COUNT(*) FROM flashcards WHERE assunto_id IS NOT NULL AND suspensa = 0 GROUP BY assunto_id`);
+    // Vade Mecum: questões por artigo de lei (só onde a tabela de ligação já existe).
+    const ligacao = await tx.all(sql`SELECT name FROM sqlite_master WHERE type = 'table' AND name = 'artigos_questao'`);
+    if (ligacao.length)
+      await tx.run(sql`
+        INSERT INTO contagens (chave, total)
+        SELECT 'v:' || a.lei || ':' || a.artigo, COUNT(*) FROM artigos_questao a JOIN questoes q ON q.id = a.questao_id
+        WHERE q.suspensa = 0 GROUP BY a.lei, a.artigo`);
   });
 }

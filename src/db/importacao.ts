@@ -6,9 +6,10 @@
 import { createHash, randomInt } from "node:crypto";
 import { eq, inArray, sql } from "drizzle-orm";
 import type { Db } from "./index";
-import { assuntos, contagens, disciplinas, flashcards, questoes } from "./schema";
+import { artigosQuestao, assuntos, contagens, disciplinas, flashcards, questoes } from "./schema";
 import { chaveNome, nomesPreferidos, normalizar } from "../lib/catalogo";
 import { NIVEL_DIFICULDADE } from "../lib/dificuldade";
+import { artigosDaQuestao } from "../lib/artigos-lei";
 import { chavesDoItem } from "../lib/contagens";
 import { classificarArea } from "../lib/ordem-areas";
 import { esquemaFlashcard, esquemaQuestao, type LinhaFlashcard, type LinhaQuestao } from "../lib/formato-jsonl";
@@ -207,6 +208,19 @@ export function criarGravador(db: Db) {
       .onConflictDoUpdate({ target: contagens.chave, set: { total: sql`${contagens.total} + excluded.total` } });
   }
 
+  /** Vade Mecum: liga as questões novas aos artigos que cobram e soma em "contagens" (v:<lei>:<artigo>). */
+  async function ligarArtigos(linhas: { id: number; disciplina: string; comentario: string | null; leiReferencia: string | null }[]) {
+    const ligacoes = linhas.flatMap((q) => artigosDaQuestao(q).map((a) => ({ ...a, questaoId: q.id })));
+    if (!ligacoes.length) return;
+    for (let i = 0; i < ligacoes.length; i += 500) await db.insert(artigosQuestao).values(ligacoes.slice(i, i + 500)).onConflictDoNothing();
+    const somas = new Map<string, number>();
+    for (const l of ligacoes) somas.set(`v:${l.lei}:${l.artigo}`, (somas.get(`v:${l.lei}:${l.artigo}`) ?? 0) + 1);
+    await db
+      .insert(contagens)
+      .values([...somas].map(([chave, total]) => ({ chave, total })))
+      .onConflictDoUpdate({ target: contagens.chave, set: { total: sql`${contagens.total} + excluded.total` } });
+  }
+
   /** Devolve quantas entraram (as demais já existiam). */
   async function gravarQuestoes(lista: (QuestaoPronta & OrigemQuestao)[]) {
     if (!lista.length) return 0;
@@ -270,12 +284,19 @@ export function criarGravador(db: Db) {
       .values(novas)
       .onConflictDoNothing({ target: questoes.codigo })
       .returning({
+        id: questoes.id,
+        codigo: questoes.codigo,
         disciplinaId: questoes.disciplinaId,
         assuntoId: questoes.assuntoId,
         dificuldade: questoes.dificuldade,
         alternativas: questoes.alternativas,
+        comentario: questoes.comentario,
+        leiReferencia: questoes.leiReferencia,
       });
     await somarContagens("q", inseridas);
+    await ligarArtigos(
+      inseridas.map((q) => ({ ...q, disciplina: lista.find((l) => l.codigo === q.codigo)?.disciplina ?? "" })),
+    );
     return inseridas.length;
   }
 

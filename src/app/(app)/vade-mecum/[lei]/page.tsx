@@ -9,7 +9,7 @@ import { variantesBotao } from "@/components/ui/button";
 import { exigirUsuario } from "@/lib/sessao";
 import { cn } from "@/lib/utils";
 import { temAcessoCompleto } from "@/server/assinatura";
-import { carregarLei, secaoDoArtigo } from "@/server/vade-mecum";
+import { avisosDaLei, carregarLei, questoesPorArtigo, secaoDoArtigo } from "@/server/vade-mecum";
 
 type Props = {
   params: Promise<{ lei: string }>;
@@ -40,6 +40,10 @@ export default async function PaginaLei({ params, searchParams }: Props) {
   const secao = lei.secoes[indice]!;
   const anterior = lei.secoes[indice - 1];
   const proxima = lei.secoes[indice + 1];
+  const questoes = await questoesPorArtigo(
+    lei.id,
+    secao.nos.flatMap((n) => (n.tipo === "artigo" ? [n.numero] : [])),
+  );
   const faixa = (s: typeof secao) => (s.primeiro ? `arts. ${s.primeiro}${s.ultimo && s.ultimo !== s.primeiro ? ` a ${s.ultimo}` : ""}` : "");
 
   return (
@@ -105,7 +109,7 @@ export default async function PaginaLei({ params, searchParams }: Props) {
         </details>
       )}
 
-      <LeituraLei nos={secao.nos} />
+      <LeituraLei nos={secao.nos} extras={{ lei: lei.id, questoes, avisos: avisosDaLei(lei.id) }} />
 
       {/* Anterior e próxima seção */}
       {(anterior || proxima) && (

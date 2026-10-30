@@ -93,6 +93,7 @@ src/db/aprovacao.ts                       aprovar, rejeitar e reportar erro (tel
 - `status_questao`: último estado por aluno e questão. Fonte dos filtros e ícones.
   Sem linha = não resolvida. `ultima_correta` = acertou ou errou.
 - `revisoes_flashcard`: estado FSRS por aluno e card.
+- `artigos_questao`: artigos de lei que cada questão cobra (`src/lib/artigos-lei.ts`, pela referência legal e pelo Fundamento do comentário); a contagem por artigo fica em `contagens` (`v:<lei>:<artigo>`). Preenchida na importação; refazer: `scripts/publicacao/artigos-questoes.ts`.
 - `placar`: uma linha por aluno (questões diferentes resolvidas e acertos de primeira), atualizada em `responderQuestao`. Fonte do ranking; nunca some o histórico de `respostas` para isso. Recalcular: `scripts/publicacao/placar.ts`.
 - `flashcards_revisao`: o mesmo para flashcards. `reportes`: erros reportados por alunos (o item fica `suspensa` e sai das listas e contagens até a revisão).
 - `questoes_revisao`: questões geradas por IA aguardando revisão (status pendente_revisao, aprovada, rejeitada). Fora de `questoes` até a aprovação em /admin/revisao.

@@ -1,6 +1,11 @@
 import "server-only";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
+import { inArray } from "drizzle-orm";
+import { db } from "@/db";
+import { contagens } from "@/db/schema";
+import { chaveArtigo } from "@/lib/artigos-lei";
+import sensiveis from "../../data/dispositivos-sensiveis.json";
 import taxonomia from "../../data/taxonomia.json";
 
 // Vade Mecum: o texto das leis (data/leis/<id>.txt, baixado do Planalto por scripts/leis/baixar-leis.ts,
@@ -23,6 +28,11 @@ export type Lei = { id: string; nome: string; fonte: string; baixadaEm: string |
 
 const LEIS = (taxonomia as { leis: Record<string, { nome: string; fonte: string }> }).leis;
 const PASTA = path.join(process.cwd(), "data", "leis");
+
+/** Nome da lei ("Código Penal (Decreto-Lei 2.848/1940)"), ou null se não existir. */
+export function nomeDaLei(id: string) {
+  return LEIS[id]?.nome ?? null;
+}
 
 /** Leis disponíveis (as que têm texto baixado), na ordem da taxonomia. */
 export async function listarLeis() {
@@ -198,4 +208,24 @@ export function secaoDoArtigo(lei: Lei, artigo: string) {
     for (const n of s.nos)
       if (n.tipo === "artigo" && n.numero.replace(/º/g, "").toUpperCase() === alvo) return { secao: s.indice, id: n.id };
   return null;
+}
+
+// --- Ligações com o resto da plataforma ---------------------------------------------------------------
+
+/** Quantas questões cobram cada artigo (de "contagens", chave "v:<lei>:<artigo>"). Só os artigos da seção. */
+export async function questoesPorArtigo(lei: string, numeros: string[]) {
+  const chaves = [...new Set(numeros.map((n) => `v:${lei}:${chaveArtigo(n)}`))];
+  if (!chaves.length) return {} as Record<string, number>;
+  const linhas = await db.select({ chave: contagens.chave, total: contagens.total }).from(contagens).where(inArray(contagens.chave, chaves));
+  return Object.fromEntries(linhas.map((l) => [l.chave.slice(`v:${lei}:`.length), l.total]));
+}
+
+export type AvisoStf = { situacao: string; nota: string };
+
+/** Artigos com decisão do STF ou não recepção (data/dispositivos-sensiveis.json), pela chave do artigo. */
+export function avisosDaLei(lei: string): Record<string, AvisoStf> {
+  const itens = (sensiveis as { itens: { lei: string; artigos: string[]; situacao: string; nota: string }[] }).itens;
+  const avisos: Record<string, AvisoStf> = {};
+  for (const it of itens) if (it.lei === lei) for (const a of it.artigos) avisos[chaveArtigo(a)] = { situacao: it.situacao, nota: it.nota };
+  return avisos;
 }

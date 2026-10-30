@@ -1,5 +1,5 @@
 // Conteúdo do banco de questões. Muda só na importação, nunca por ação do aluno.
-import { index, integer, sqliteTable, text, uniqueIndex } from "drizzle-orm/sqlite-core";
+import { index, integer, primaryKey, sqliteTable, text, uniqueIndex } from "drizzle-orm/sqlite-core";
 
 export type Alternativa = { letra: string; texto: string };
 
@@ -103,3 +103,18 @@ export const contagens = sqliteTable("contagens", {
   chave: text("chave").primaryKey(),
   total: integer("total").notNull(),
 });
+
+// Artigos de lei que cada questão cobra (src/lib/artigos-lei.ts), para o Vade Mecum ligar artigo e questões.
+// Preenchida na importação e por scripts/publicacao/artigos-questoes.ts. A contagem por artigo fica em
+// "contagens" (chave "v:<lei>:<artigo>"): o leitor nunca conta esta tabela.
+export const artigosQuestao = sqliteTable(
+  "artigos_questao",
+  {
+    lei: text("lei").notNull(),
+    artigo: text("artigo").notNull(),
+    questaoId: integer("questao_id")
+      .notNull()
+      .references(() => questoes.id),
+  },
+  (t) => [primaryKey({ columns: [t.lei, t.artigo, t.questaoId] })],
+);

@@ -2,7 +2,7 @@ import "server-only";
 import { and, asc, count, eq, gte, inArray, isNotNull, isNull, lt, sql, type SQL } from "drizzle-orm";
 import type { AnySQLiteColumn } from "drizzle-orm/sqlite-core";
 import { db } from "@/db";
-import { assuntos, contagens, disciplinas, questoes, statusQuestao } from "@/db/schema";
+import { artigosQuestao, assuntos, contagens, disciplinas, questoes, statusQuestao } from "@/db/schema";
 
 import { dificuldadePorNivel } from "@/lib/dificuldade";
 import { totalDoFiltro } from "@/lib/contagens";
@@ -19,7 +19,18 @@ export type FiltrosQuestoes = {
   /** Opções da tela de filtro. Vazio = todos os níveis. */
   dificuldades?: DificuldadeFiltro[];
   tipo?: TipoQuestao;
+  /** Vade Mecum: só as questões de um artigo de lei (ids de artigos_questao). Substitui matéria e área. */
+  ids?: number[];
 };
+
+/** Questões que cobram um artigo de lei. Leitura pela chave primária (lei, artigo) de artigos_questao. */
+export async function idsDoArtigo(lei: string, artigo: string) {
+  const linhas = await db
+    .select({ id: artigosQuestao.questaoId })
+    .from(artigosQuestao)
+    .where(and(eq(artigosQuestao.lei, lei), eq(artigosQuestao.artigo, artigo)));
+  return linhas.map((l) => l.id);
+}
 
 /**
  * Certo ou errado (estilo Cebraspe) é guardado como duas alternativas, "Certo" e "Errado" (docs/FORMATO-QUESTOES.md).
@@ -80,13 +91,18 @@ export async function listarAssuntos(disciplinaId: number) {
 export async function listarQuestoes(
   filtros: FiltrosQuestoes & { inicio: number; cursor?: CursorQuestoes; voltou: boolean },
 ) {
-  const { usuarioId, disciplinaId, assuntoIds, status, inicio, cursor, voltou, dificuldades, tipo } = filtros;
+  const { usuarioId, disciplinaId, assuntoIds, status, inicio, cursor, voltou, dificuldades, tipo, ids } = filtros;
 
   // Questão reportada por aluno fica fora do ar até ser revisada.
   const condicoes: SQL[] = [eq(questoes.suspensa, false)];
-  if (disciplinaId) condicoes.push(eq(questoes.disciplinaId, disciplinaId));
-  const areas = filtroAreas(questoes.assuntoId, assuntoIds);
-  if (areas) condicoes.push(areas);
+  if (ids) {
+    // Artigo de lei: poucas questões, buscadas pela chave primária (o SQLite ordena só elas).
+    condicoes.push(inArray(questoes.id, ids.length ? ids : [-1]));
+  } else {
+    if (disciplinaId) condicoes.push(eq(questoes.disciplinaId, disciplinaId));
+    const areas = filtroAreas(questoes.assuntoId, assuntoIds);
+    if (areas) condicoes.push(areas);
+  }
   condicoes.push(...filtrosDeOpcoes(dificuldades, tipo));
 
   if (status === "nao_resolvidas") condicoes.push(isNull(statusQuestao.questaoId));
@@ -170,7 +186,24 @@ export type QuestaoListada = Awaited<ReturnType<typeof listarQuestoes>>["questoe
  * A parte do aluno vem de status_questao, que cresce com o aluno e não com o banco.
  */
 export async function contarPorStatus(filtros: Omit<FiltrosQuestoes, "status">) {
-  const { usuarioId, disciplinaId, assuntoIds, dificuldades, tipo } = filtros;
+  const { usuarioId, disciplinaId, assuntoIds, dificuldades, tipo, ids } = filtros;
+
+  // Artigo de lei: conta só as questões dele (dezenas, pela chave primária), já com as opções.
+  if (ids) {
+    const [banco] = await db
+      .select({ n: count() })
+      .from(questoes)
+      .where(and(inArray(questoes.id, ids.length ? ids : [-1]), eq(questoes.suspensa, false), ...filtrosDeOpcoes(dificuldades, tipo)));
+    const [meu] = await db
+      .select({ resolvidas: count(), acertos: sql<number>`coalesce(sum(${statusQuestao.ultimaCorreta}), 0)` })
+      .from(statusQuestao)
+      .innerJoin(questoes, eq(questoes.id, statusQuestao.questaoId))
+      .where(and(eq(statusQuestao.usuarioId, usuarioId), inArray(statusQuestao.questaoId, ids.length ? ids : [-1]), eq(questoes.suspensa, false), ...filtrosDeOpcoes(dificuldades, tipo)));
+    const total = banco?.n ?? 0;
+    const resolvidas = meu?.resolvidas ?? 0;
+    const acertos = Number(meu?.acertos ?? 0);
+    return { todas: total, nao_resolvidas: Math.max(total - resolvidas, 0), resolvidas, acertei: acertos, errei: resolvidas - acertos } satisfies Record<FiltroStatus, number>;
+  }
 
   // Total do banco para o filtro, só com chaves prontas de "contagens" (por área ou matéria, dificuldade e
   // tipo; src/lib/contagens.ts). Nunca COUNT(*) em questoes.

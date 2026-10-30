@@ -1,6 +1,12 @@
+import { ChevronRight, ListChecks, TriangleAlert } from "lucide-react";
+import Link from "next/link";
 import { Fragment, type ReactNode } from "react";
-import { cn } from "@/lib/utils";
-import type { No, Selo } from "@/server/vade-mecum";
+import { chaveArtigo } from "@/lib/artigos-lei";
+import { cn, formatarNumero } from "@/lib/utils";
+import type { AvisoStf, No, Selo } from "@/server/vade-mecum";
+
+/** O que o leitor sabe além do texto: questões por artigo e avisos do STF (as chaves são "121", "5", "121-A"). */
+export type Extras = { lei: string; questoes?: Record<string, number>; avisos?: Record<string, AvisoStf> };
 
 // Desenha a lei desmontada: cada artigo num cartão, com o nome dele em cima, parágrafos, incisos e alíneas
 // recuados e etiquetados, a pena separada e as palavras que a banca troca em destaque.
@@ -37,12 +43,12 @@ function agrupar(nos: No[]): Bloco[] {
   return blocos;
 }
 
-export function LeituraLei({ nos }: { nos: No[] }) {
+export function LeituraLei({ nos, extras }: { nos: No[]; extras?: Extras }) {
   return (
     <div className="space-y-4">
       {agrupar(nos).map((b, i) => {
         if (b.tipo === "titulo") return <Titulo key={i} no={b.no} />;
-        if (b.tipo === "cartao") return <CartaoArtigo key={b.cartao.artigo.id} cartao={b.cartao} />;
+        if (b.tipo === "cartao") return <CartaoArtigo key={b.cartao.artigo.id} cartao={b.cartao} extras={extras} />;
         return b.no.tipo === "texto" ? (
           <p key={i} className="text-[15px] leading-relaxed text-texto/85">
             <Destacar texto={b.no.texto} />
@@ -62,8 +68,11 @@ function Titulo({ no }: { no: Extract<No, { tipo: "titulo" }> }) {
   );
 }
 
-function CartaoArtigo({ cartao }: { cartao: Cartao }) {
+function CartaoArtigo({ cartao, extras }: { cartao: Cartao; extras?: Extras }) {
   const { artigo, rubrica, filhos } = cartao;
+  const chave = chaveArtigo(artigo.numero);
+  const questoes = extras?.questoes?.[chave] ?? 0;
+  const aviso = extras?.avisos?.[chave];
   return (
     <article id={artigo.id} className="scroll-mt-20 overflow-hidden rounded-2xl border border-borda bg-superficie">
       {rubrica && (
@@ -75,10 +84,33 @@ function CartaoArtigo({ cartao }: { cartao: Cartao }) {
           {artigo.texto ? <Destacar texto={artigo.texto} /> : <Revogado selos={artigo.selos} />}
           <Selos selos={artigo.selos} />
         </p>
+        {aviso && (
+          <details className="group rounded-lg border border-erro/40 bg-erro-suave">
+            <summary className="flex cursor-pointer list-none items-start gap-2 px-3 py-2 text-[13px] font-bold text-erro [&::-webkit-details-marker]:hidden">
+              <TriangleAlert className="mt-0.5 size-4 shrink-0" aria-hidden />
+              <span className="flex-1">Atenção: {aviso.situacao}</span>
+              <span className="text-xs group-open:hidden">ver</span>
+            </summary>
+            <p className="px-3 pb-3 text-[13px] leading-relaxed text-texto/90">{aviso.nota}</p>
+          </details>
+        )}
         {filhos.map((n, i) => (
           <Filho key={i} no={n} />
         ))}
       </div>
+      {questoes > 0 && extras && (
+        <Link
+          href={`/questoes?lei=${extras.lei}&art=${encodeURIComponent(chave)}`}
+          className="flex items-center gap-2 border-t border-borda bg-marca-suave px-4 py-2.5 text-sm font-bold text-marca-clara transition-colors hover:bg-marca/20"
+        >
+          <ListChecks className="size-4 shrink-0" aria-hidden />
+          <span className="flex-1">
+            {formatarNumero(questoes)} {questoes === 1 ? "questão cobra" : "questões cobram"} este artigo
+          </span>
+          <span className="text-xs">Resolver</span>
+          <ChevronRight className="size-4 shrink-0" aria-hidden />
+        </Link>
+      )}
     </article>
   );
 }
