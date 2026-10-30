@@ -2,6 +2,7 @@ import { Check } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { BotaoAssinar, BotaoCancelar } from "@/components/assinatura/botoes";
+import { FormularioCartao } from "@/components/assinatura/formulario-cartao";
 import { Card } from "@/components/ui/card";
 import { ASSINATURA, formatarReais, LIMITE_GRATIS_DIA } from "@/lib/planos";
 import { exigirUsuario } from "@/lib/sessao";
@@ -50,6 +51,7 @@ export default async function PaginaAssinatura({
 
   const [a, situacao] = await Promise.all([assinaturaDoUsuario(usuario.id), situacaoDoAluno(usuario)]);
   const liberado = acessoLiberado(a);
+  const chavePublica = process.env.NEXT_PUBLIC_MP_PUBLIC_KEY;
 
   return (
     <div className="mx-auto max-w-xl space-y-6">
@@ -108,7 +110,12 @@ export default async function PaginaAssinatura({
               </li>
             ))}
           </ul>
-          <BotaoAssinar rotulo={a?.status === "pending" ? "Concluir pagamento" : "Assinar agora"} />
+          {/* Com a Public Key, o cartão é digitado aqui (checkout transparente); sem ela, vai para o Mercado Pago. */}
+          {chavePublica ? (
+            <FormularioCartao chavePublica={chavePublica} email={usuario.email} rotulo="Assinar agora" />
+          ) : (
+            <BotaoAssinar rotulo={a?.status === "pending" ? "Concluir pagamento" : "Assinar agora"} />
+          )}
           <p className="text-xs leading-relaxed text-suave">
             Pagamento seguro pelo Mercado Pago, com cobrança automática todo mês no cartão de crédito. Você pode
             cancelar quando quiser e tem 7 dias para desistir com reembolso. Veja os{" "}

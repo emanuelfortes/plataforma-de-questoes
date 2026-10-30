@@ -54,6 +54,33 @@ export async function criarCheckout(usuario: { id: string; email: string }) {
   return resposta.init_point;
 }
 
+/**
+ * Checkout transparente: o aluno digita o cartão no nosso site (formulário do Mercado Pago, que devolve
+ * só um token; o número do cartão nunca passa pelo nosso servidor). A assinatura já nasce "authorized"
+ * e a primeira cobrança sai na hora. Erro de cartão recusado vem como exceção da API.
+ */
+export async function assinarComCartao(usuario: { id: string }, cartao: { token: string; email: string }) {
+  const resposta = await new PreApproval(cliente()).create({
+    body: {
+      reason: ASSINATURA.descricao,
+      external_reference: referencia(usuario.id),
+      payer_email: cartao.email,
+      card_token_id: cartao.token,
+      back_url: `${enderecoSite()}/assinatura`,
+      status: "authorized",
+      auto_recurring: {
+        frequency: 1,
+        frequency_type: "months",
+        transaction_amount: ASSINATURA.valor,
+        currency_id: "BRL",
+      },
+    },
+  });
+  if (!resposta.id) throw new Error("O Mercado Pago não devolveu a assinatura.");
+  await salvarAssinatura(resposta);
+  return resposta.status ?? "pending";
+}
+
 type AssinaturaMP = Awaited<ReturnType<PreApproval["get"]>>;
 
 async function salvarAssinatura(a: AssinaturaMP) {
