@@ -17,7 +17,9 @@ import { createClient } from "@libsql/client";
 const APLICAR = process.argv.includes("--aplicar");
 const LETRAS = ["A", "B", "C", "D", "E"];
 const COMBINACAO = /\b(I|II|III|IV)\b.*\b(e|,)\b|\bapenas\b|\bsomente\b|\btodas\b|\bnenhuma\b/i;
-const CITA_LETRA = /\b(?:[Ll]etra|[Aa]lternativa)\s+["“(]?[A-E]\b/;
+// Qualquer letra de alternativa no comentário: "letra B", "alternativa B" ou a análise "A) ... B) ...".
+// (Na primeira rodada só a primeira forma foi excluída; corrigido em corrigir-letras-comentario.ts.)
+const CITA_LETRA = /\b(?:[Ll]etra|[Aa]lternativa)\s+["“(]?[A-E]\b|(^|\s)\(?[A-E]\)\s/;
 
 const url = process.env.TURSO_DATABASE_URL ?? "";
 if (!url.startsWith("libsql://")) throw new Error("TURSO_DATABASE_URL não é um banco Turso");

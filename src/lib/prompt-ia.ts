@@ -78,7 +78,7 @@ Qualidade:
 7. Distribua a letra correta por igual (4 alternativas: cerca de 25% cada; 5 alternativas: cerca de 20% cada), nunca 3 seguidas com a mesma letra. Não concentre a correta em "E" (a última).
 7a. Direito Penal, crimes: cite no comentário o artigo do Código Penal do crime cobrado (ex.: "art. 157 do CP") e trate de um crime central por questão. Se o lote for de um crime só, use o nome do crime como área (ex.: "Feminicídio", "Roubo", "Peculato").
 8. Enunciado autossuficiente: não escreva "segundo o PDF", "conforme o texto acima" nem "na página X".
-9. "comentario" com 2 a 6 frases: por que a correta está certa e onde está o erro das erradas.
+9. "comentario" em partes (a plataforma mostra cada uma separada): 2 a 4 frases explicando o ponto; depois, em linha nova, "Análise das alternativas:" com uma alternativa por linha ("A) Errada: ...", "B) Correta: ..."), pondo entre ~~ ~~ o trecho que deixa a errada errada; e, em linha nova, "Fundamento legal:" com o artigo e a lei, quando houver.
 10. Certo ou errado: "alternativas" exatamente [{"letra":"C","texto":"Certo"},{"letra":"E","texto":"Errado"}], equilibrando itens certos e errados.
 11. Português do Brasil, norma culta, linguagem de prova.
 

@@ -4,6 +4,7 @@ import { ArrowRight, Check, CircleCheck, CircleX, Flame, LoaderCircle, RotateCcw
 import Link from "next/link";
 import { useEffect, useRef, useState, useTransition } from "react";
 import { ReportarErro } from "@/components/reportar-erro";
+import { ComentarioQuestao } from "./comentario-questao";
 import { Button, variantesBotao } from "@/components/ui/button";
 import { ROTULO_DIFICULDADE } from "@/lib/dificuldade";
 import { SEGUNDOS_CHUTE } from "@/lib/patentes";
@@ -309,10 +310,7 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
             </p>
           )}
           {resultado.comentario && (
-            <section className="border-l-2 border-marca pl-4">
-              <h2 className="text-xs font-extrabold uppercase tracking-[.06em] text-marca-clara">Comentário</h2>
-              <p className="mt-2 whitespace-pre-line text-[15px] leading-[1.7] text-texto/85">{resultado.comentario}</p>
-            </section>
+            <ComentarioQuestao comentario={resultado.comentario} gabarito={resultado.gabarito} escolhida={escolhida} />
           )}
           <ReportarErro key={questao.id} tipo="questao" id={questao.id} />
         </div>

@@ -39,7 +39,7 @@ PENA É EXCEÇÃO (muito importante)
 13. No máximo 1 em cada 10 itens pode girar em torno de quantidade de pena ("reclusão de 2 a 4 anos", "aumentada de um terço", "em dobro"). Cobre principalmente qual crime se configura, os elementos do tipo, consumação e tentativa, a hipótese de qualificadora ou causa de aumento (sem a fração), as exceções, a ação penal e a diferença entre crimes parecidos.
 
 COMENTÁRIO (o aluno lê depois de responder)
-14. 2 a 5 frases: diga se o item está certo ou errado, com o artigo de lei. Se estiver errado, aponte exatamente o trecho errado e qual seria a forma correta.
+14. 2 a 5 frases: diga se o item está certo ou errado. Se estiver errado, ponha entre ~~ ~~ o trecho errado do item e diga qual seria a forma correta (ex.: "o prazo é de ~~48 horas~~, não 24"). Depois, numa linha nova, "Fundamento legal:" com o artigo e a lei (a plataforma mostra a letra da lei num quadro separado). Opcional, numa linha nova: "Pegadinha:" com a armadilha do item.
 
 ORGANIZAÇÃO POR CRIME (Direito Penal, Parte Especial)
 15. No comentário, cite sempre o artigo do Código Penal do crime cobrado (ex.: "art. 157 do CP"). É por ele que a plataforma põe o item na pasta do crime.

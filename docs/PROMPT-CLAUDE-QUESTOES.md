@@ -34,7 +34,11 @@ ALTERNATIVAS SEM PISTA
 11. Proibido: "todas as anteriores", "nenhuma das anteriores", "A e B estão corretas". Nunca cite letras no comentário ("a alternativa B..."): explique pelo conteúdo.
 
 COMENTÁRIO (o aluno lê depois de responder)
-12. 3 a 6 frases: por que a correta está certa, com o artigo de lei, e onde está o erro concreto de cada errada.
+12. O comentário tem partes, nesta ordem e com estes rótulos (a plataforma separa cada parte na tela):
+    - Primeiro, 2 a 4 frases explicando o ponto cobrado (sem rótulo).
+    - Depois, numa linha nova, "Análise das alternativas:" e, uma por linha, "A) Errada: ...", "B) Correta: ..." e assim por diante, com o erro concreto de cada errada. Na errada, ponha entre ~~ ~~ a palavra ou o trecho que a deixa errada (ex.: "o prazo é de ~~48 horas~~, não 24").
+    - Por fim, numa linha nova, "Fundamento legal:" com o artigo e a lei (ex.: "CP, art. 157, § 2º, I").
+    - Opcional, numa linha nova: "Pegadinha:" com a armadilha da questão.
 
 ORGANIZAÇÃO POR CRIME (Direito Penal, Parte Especial)
 13. No comentário, cite sempre o artigo do Código Penal do crime cobrado (ex.: "art. 157 do CP"). É por ele que a plataforma põe a questão na pasta do crime.
