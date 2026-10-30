@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-Contexto do projeto para o Claude Code. Leia antes de qualquer tarefa. O roteiro de trabalho está em `PLANO.md`.
+Contexto do projeto para o Claude Code. Leia antes de qualquer tarefa. O roteiro de trabalho está em `PLANO.md`; o que está no ar e o que ficou pendente, em `docs/ESTADO-ATUAL.md`.
 
 ## O que é
 
@@ -47,7 +47,7 @@ src/
   app/
     (acesso)/entrar, (acesso)/cadastrar   páginas públicas
     (app)/layout.tsx                      exige login (exigirUsuario)
-    (app)/estudar                         início: tipo (questões ou flashcards), matéria e área (o aluno não escolhe nível)
+    (app)/estudar                         início: tipo (questões ou flashcards), matéria e área (nível, tipo e resolução ficam em Opções no filtro)
     (app)/questoes                        resolução (uma por vez) e filtro de status
     (app)/flashcards                      sessão de revisão
     (app)/desempenho                      janelas, gráfico diário, por disciplina

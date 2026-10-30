@@ -34,7 +34,8 @@ Peça no máximo umas 30 questões por resposta: acima disso a IA tende a repeti
 - **Nomes padronizados:** matérias e áreas vêm do PDF (não há lista fechada), mas nomes equivalentes viram um só (maiúsculas, acentos, plural, "de/da/do"). `data/catalogo.json` tem os nomes preferidos e apelidos ("Português" vira "Língua Portuguesa").
 - **Mapa de pontos:** o prompt obriga a IA a listar os pontos do PDF e espalhar as questões por todos antes de repetir um. É o que evita conteúdo repetitivo dentro de um lote.
 - **Impressão digital:** a mesma questão importada duas vezes (de dois PDFs, ou do mesmo arquivo) entra uma vez só.
-- **Níveis:** fácil, médio e difícil ficam guardados para equilibrar o conteúdo. O aluno não escolhe nível: as questões aparecem embaralhadas, como na prova.
+- **Níveis:** fácil, médio e difícil ficam guardados para equilibrar o conteúdo. As questões aparecem embaralhadas, como na prova; o aluno pode filtrar por nível em Opções, se quiser.
+- **Comentário em partes:** explicação, "Análise das alternativas:", "Fundamento legal:" e, se houver, "Pegadinha:" (detalhes em `docs/FORMATO-QUESTOES.md`). O prompt já pede assim.
 - **Sem banca e sem ano:** questão inédita não caiu em prova; marcar "FGV 2023" enganaria o aluno.
 
 ## Para o desenvolvedor

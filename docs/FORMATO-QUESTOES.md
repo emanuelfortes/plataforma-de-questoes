@@ -47,7 +47,18 @@ Toda questão e todo flashcard pertencem a uma **disciplina** (matéria) e, de p
 | `enunciado` | sim | texto; quebras de linha com `\n` |
 | `alternativas` | sim | de 2 a 6 itens `{ "letra": "A", "texto": "..." }`, letras maiúsculas sem repetir |
 | `gabarito` | sim | letra que existe em `alternativas` |
-| `comentario` | não | explicação mostrada depois da resposta |
+| `comentario` | não | explicação mostrada depois da resposta, em partes (veja abaixo) |
+
+### Comentário em partes
+
+A tela separa o comentário pelos rótulos abaixo, cada um em linha nova (`\n`). Sem rótulo, o texto aparece corrido.
+
+1. Primeiro, sem rótulo: 2 a 4 frases explicando o ponto cobrado.
+2. `Análise das alternativas:` e, uma por linha, `A) Errada: ...`, `B) Correta: ...`. O trecho que deixa a errada errada vai entre `~~ ~~` e aparece riscado.
+3. `Fundamento legal:` com o artigo e a lei (ex.: `CP, art. 157, § 2º, I`). Aparece num quadro de letra de lei, e é por ele que a questão fica ligada ao artigo no Vade Mecum.
+4. Opcional: `Pegadinha:` ou `Macete:`, que aparecem como aviso.
+
+Fora da análise, não cite letras ("a alternativa B..."): o importador pode trocar a ordem das alternativas para equilibrar o gabarito, e as letras da análise são trocadas junto.
 
 ### Níveis
 
@@ -57,7 +68,7 @@ Toda questão e todo flashcard pertencem a uma **disciplina** (matéria) e, de p
 | `medio` | aplicação da regra a um caso novo; distinguir conceitos parecidos |
 | `dificil` | combinação de pontos, exceções, casos-limite e pegadinhas típicas de banca |
 
-**O aluno não escolhe o nível.** As questões aparecem embaralhadas (cada uma recebe uma posição sorteada na importação), então fácil, médio e difícil vêm misturados, como na prova. O nível serve para equilibrar o conteúdo que vocês criam e aparece para o aluno só depois que ele responde.
+As questões aparecem embaralhadas (cada uma recebe uma posição sorteada na importação), então fácil, médio e difícil vêm misturados, como na prova. O aluno pode filtrar por nível em **Opções** na tela de filtro; dentro da questão, o nível só aparece depois que ele responde.
 
 ### Certo ou Errado (estilo Cebraspe)
 

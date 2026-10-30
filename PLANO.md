@@ -54,7 +54,7 @@ Todos com plano gratuito. Limites mudam: confira as páginas de preço antes de 
   Pronto quando: importação concluída, tamanho medido (`turso db show`), páginas de questões respondendo em menos de 300 ms com e sem filtros.
 - [ ] **2.2 Conversor do seu banco atual para JSONL.** Script em `scripts/converter-<origem>.ts` que lê sua fonte (CSV, JSON, outro banco) e gera o formato de `docs/FORMATO-QUESTOES.md`.
   Pronto quando: `npm run importar` aceita o arquivo gerado com 0 inválidas (ou com as inválidas explicadas).
-- [ ] **2.3 Importação real em produção.** Rodar contra o Turso de produção, conferir contagens e o log de erros.
+- [x] **2.3 Importação real em produção.** Em 30/10/2026 a produção tem 10.929 questões (cerca de 14% de certo ou errado).
 - [x] **2.5 Taxonomia e textos legais.** `data/taxonomia.json` (`scripts/taxonomia/montar-taxonomia.ts`): 14 disciplinas, 162 tópicos, metas por concurso e formato (IDECAN A a D para PCCE e GMF, Vunesp A a E para CFO). Leis federais em `data/leis/` (`scripts/leis/baixar-leis.ts`).
 - [x] **2.6 Piloto de 200 questões por IA (subagentes, sem API).** Prompts em `prompts/gerador.md` e `prompts/auditor.md`; orquestração em `scripts/questoes/piloto.ts` (progresso em `data/geradas/progresso.json`, retomável); fechamento em `scripts/questoes/finalizar.ts` (embaralha, equilibra gabaritos, deduplica, importa em `questoes_revisao` e gera `data/piloto/revisao.html`). O mesmo fluxo pela API (Batches) está pronto em `scripts/questoes/api-lotes.ts`, não executado.
 - [x] **2.6b Correções do piloto (revisão do professor).** Checagem em código do tamanho das alternativas (correta até 25% acima da média das erradas; mais longa em no máximo 4 de 10 por lote); recortes de lei com artigos conexos (`scripts/taxonomia/montar-taxonomia.ts`); dispositivos com ressalva obrigatória em `data/dispositivos-sensiveis.json`; `data/jurisprudencia.json` (vazio, o professor preenche); reprocessamento das questões afetadas em `scripts/questoes/ajustes.ts` (progresso em `data/geradas/ajustes.json`). Resultado: a correta é a mais longa em 18% (era 53%).
@@ -63,7 +63,7 @@ Todos com plano gratuito. Limites mudam: confira as páginas de preço antes de 
 - [x] **2.9 Produção automática.** `/gerar-lote` (`.claude/commands/gerar-lote.md`) + `scripts/questoes/producao.ts`: escolhe o tópico por meta restante, gera 10 questões e ~3 flashcards por lote, dois auditores independentes, checagens em código, deduplicação entre lotes, importa no local.db e aprova sozinho o que os dois validaram sem nenhum alerta. Reportar erro (aluno) tira o item do ar. Noite: `rodar-noite.ps1` (Agendador às 23h, `agendar-noite.ps1`), relatório em `data/relatorios/` e aviso pelo ntfy.
   Produção (Turso), quando liberar: `ALTER TABLE questoes ADD COLUMN suspensa integer DEFAULT false NOT NULL` e o mesmo em `flashcards` ANTES do `db:push` (o drizzle-kit quer recriar as tabelas), depois `db:push` para as tabelas novas.
   Pistas (checadas em código): correta entre 80% e 125% da média das erradas; por lote de 10, correta mais longa no máximo 3 vezes, mais curta no máximo 3, termo absoluto só nas erradas no máximo 2. Tema jurídico sem texto legal vai sempre para a fila manual. Métricas no relatório da noite. `producao.ts reabrir <lote>` reprocessa um lote concluído.
-- [ ] **2.10 Envio das aprovadas para o Turso.** Depois da primeira semana validada pelo dono.
+- [x] **2.10 Envio das aprovadas para o Turso.** Feito em 19/10 (`scripts/publicacao/publicar.ts`, com backup antes em `data/backups/`).
 - [ ] **2.8 Geração completa (~20 mil).** Definir trechos das leis grandes ainda inteiras (CPM, ECA, CTB, Licitações, Código Eleitoral, Lei Geral do Esporte), baixar as 6 leis estaduais e municipais, o professor conferir `data/dispositivos-sensiveis.json` e preencher `data/jurisprudencia.json`.
 - [ ] **2.4 Orçamento de cota.** Anotar quanto a importação consumiu de linhas escritas no painel do Turso. A cota mensal é de 10 milhões: importar 1 milhão de uma vez cabe, mas evite reimportar tudo várias vezes no mesmo mês.
 
@@ -79,10 +79,10 @@ Todos com plano gratuito. Limites mudam: confira as páginas de preço antes de 
 - [ ] **3.3 Página de uma questão** `/questoes/[id]` (link compartilhável) e navegação anterior/próxima.
 - [ ] **3.4 Atualizar contagens dos chips após responder** sem perder o feedback da questão (atualização otimista no cliente).
 - [ ] **3.5 Formatação rica no enunciado:** Markdown, tabelas, fórmulas (KaTeX) e imagens. Imagens em armazenamento de objetos (Cloudflare R2 tem plano grátis), só a URL no banco.
-- [ ] **3.6 Favoritar e anotações por questão** (tabelas `favoritos` e `anotacoes`, filtro "Favoritas").
+- [ ] **3.6 Favoritar e anotações por questão** (tabelas `favoritos` e `anotacoes`, filtro "Favoritas"). Pode aproveitar a mesma tabela dos grifos do Vade Mecum (9.4).
 - [ ] **3.7 Caderno de erros:** atalho que abre o filtro "Errei" da disciplina com pior desempenho.
 - [ ] **3.8 Simulado:** N questões aleatórias de um filtro, cronômetro, correção ao final.
-- [ ] **3.9 Reportar erro na questão** (tabela `reportes`, tela simples de revisão para o admin).
+- [x] **3.9 Reportar erro na questão** (tabela `reportes`; o item sai do ar até a revisão em `/admin/revisao`).
 
 ---
 
@@ -134,9 +134,22 @@ Todos com plano gratuito. Limites mudam: confira as páginas de preço antes de 
 ## Fase 8: Monetização (se for cobrar)
 
 - [ ] **8.1 Hospedagem comercial:** Vercel Pro ou migrar para Cloudflare (Workers + OpenNext), que permite uso comercial no grátis.
-- [x] **8.2 Planos:** grátis com 10 questões por dia e assinatura mensal de R$ 25 (`src/lib/planos.ts`).
+- [x] **8.2 Planos:** grátis com 5 questões diferentes por dia (refazer e revisar não gastam) e assinatura mensal de R$ 25 (`src/lib/planos.ts`). Flashcards, desempenho e Vade Mecum só para assinantes (cadeado com prévia).
 - [x] **8.3 Pagamento:** assinatura recorrente no cartão pelo Mercado Pago (preapproval), webhook, cancelamento pelo aluno e painel de faturamento em `/admin/faturamento`. Falta: credenciais da aplicação "Nóbrega Questões" e webhook configurados na produção.
-- [ ] **8.4 Página de vendas.** (Termos de uso e política de privacidade já feitos em `/termos` e `/privacidade`; dados do responsável e WhatsApp em `src/lib/legal.ts`.)
+- [x] **8.4 Página de vendas** na raiz do domínio (visitante vê a vitrine; logado vai para `/estudar`). Termos e privacidade em `/termos` e `/privacidade`; dados do responsável e WhatsApp em `src/lib/legal.ts`.
+
+---
+
+## Fase 9: Entregue depois do plano original (20 a 30/10/2026)
+
+- [x] **9.1 Filtros:** etiquetas com X (um filtro por linha), Opções (dificuldade, tipo, resolução, cada grupo com "Todas"), pastas por crime no Direito Penal, total real do filtro ("Questão X de N"), filtro vazio explica o motivo.
+- [x] **9.2 Questões:** tesourinha para riscar alternativas; questão errada volta 4 questões depois (até 3 vezes); bloqueio de questão repetida (`chave_enunciado`); comentário em partes como no TEC (`src/lib/comentario.ts`).
+- [x] **9.3 Ranking:** Fuzil de Questões e Bom de Mira (acerto de primeira, mínimo de 30), tema militar com patentes e pódio, sequência de acertos; resposta a menos de 8 s da anterior é chute e não pontua (tabela `placar`).
+- [x] **9.4 Vade Mecum** (só assinantes): 41 leis do Planalto em leitura guiada (selos de atualização, palavras da banca, aviso do STF), "N questões cobram este artigo" e "Entender este artigo" (explicações aprovadas pelo professor em `/admin/vade-mecum`).
+- [ ] **9.5 Professor revisar as 126 explicações** do lote 1 em `/admin/vade-mecum` (35 marcadas para conferir vêm primeiro).
+- [ ] **9.6 Grifos e anotações do aluno na lei** (tabela nova na produção).
+- [ ] **9.7 Explicação do CP art. 313-A** (descartada do lote 1 por ter sido escrita sobre o texto errado) e lote 2 de explicações.
+- [ ] **9.8 Certo ou errado:** faltam cerca de 11.500 para a meta de 50 por área (`docs/FALTA-CERTO-ERRADO.md`). Decidir se o `/gerar-lote` passa a gerar certo ou errado.
 
 ---
 
@@ -150,4 +163,6 @@ Todos com plano gratuito. Limites mudam: confira as páginas de preço antes de 
 | `respostas` + `status_questao` | histórico completo para o desempenho e estado atual barato para os filtros |
 | "Acertou/errou" pela última tentativa | padrão das plataformas de questões; o histórico completo continua em `respostas` |
 | Janela de 7 dias inclui hoje | "últimos 7 dias" = hoje e os 6 anteriores |
+| Explicações do Vade Mecum só depois de aprovadas | texto jurídico escrito por IA pode errar; o professor revisa antes do aluno ver |
+| Chute (menos de 8 s) não pontua no ranking | evita subir no ranking clicando sem ler |
 | UTC-3 fixo | Brasil sem horário de verão desde 2019; trocar por fuso por usuário se atender outros países |

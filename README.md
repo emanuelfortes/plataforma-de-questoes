@@ -1,44 +1,59 @@
-# Plataforma de Questões
+# Riccardo Nóbrega: plataforma de questões
 
-Banco de questões de múltipla escolha e flashcards, com filtros por disciplina, assunto e status,
-e painel de desempenho (hoje, ontem, 7, 15 e 30 dias). Pensado para até ~1 milhão de questões em serviços gratuitos.
+Plataforma de estudo do Professor Riccardo Nóbrega para concursos policiais do Ceará (PCCE, Guarda Municipal de Fortaleza, CFO PMCE).
+O aluno resolve questões de múltipla escolha e de certo ou errado, revisa flashcards, lê as leis no Vade Mecum, acompanha o desempenho e disputa o ranking.
+Grátis: 5 questões por dia. Assinatura mensal (Mercado Pago) libera tudo.
 
 Stack: Next.js 16, TypeScript, Tailwind v4, Drizzle, Turso (SQLite), Better Auth, ts-fsrs, Recharts, Vercel.
 
-## Rodar localmente (5 minutos)
+**Onde parou e o que falta:** [`docs/ESTADO-ATUAL.md`](docs/ESTADO-ATUAL.md). Regras do código: [`CLAUDE.md`](CLAUDE.md). Roteiro: [`PLANO.md`](PLANO.md).
+
+## Rodar localmente
 
 Requisitos: Node.js 20 ou superior.
 
 ```bash
 npm install
-cp .env.example .env.local      # em dev pode deixar como está, usa local.db
-# gere um segredo e cole em BETTER_AUTH_SECRET:
-openssl rand -base64 32
-npm run setup                   # cria as tabelas e importa 1.000 questões + 200 flashcards de exemplo
-npm run dev
 ```
 
-Abra http://localhost:3000, crie uma conta e pronto.
+O `.env.local` **não vai pelo git** (tem as senhas). Copie o do outro computador ou crie a partir do `.env.example`.
+Se o `.env.local` apontar para o Turso de produção, rode o servidor de desenvolvimento com o banco local para não mexer no site real:
 
-Para ver o painel de desempenho com dados: `npm run simular -- seu@email.com 300`.
-
-## Importar suas questões
-
-Converta para o formato de `docs/FORMATO-QUESTOES.md` e rode:
+```powershell
+# PowerShell
+$env:TURSO_DATABASE_URL="file:local.db"; $env:TURSO_AUTH_TOKEN=""; npm run dev
+```
 
 ```bash
-npm run importar -- data/meu-banco.jsonl
+# Git Bash
+TURSO_DATABASE_URL=file:local.db TURSO_AUTH_TOKEN= npm run dev
 ```
 
-## Desenvolvendo com o Claude Code
+Sem `local.db` ainda? Crie com o mesmo prefixo: `npm run setup` (tabelas + 1.000 questões de exemplo).
+Para ver o desempenho com dados: `npm run simular -- seu@email.com 300`.
 
-- `CLAUDE.md`: contexto, regras e comandos do projeto (o Claude Code lê automaticamente).
-- `PLANO.md`: roteiro por fases com tarefas e critérios de pronto.
-- Comandos prontos em `.claude/commands/`:
-  - `/proxima-tarefa` pega a próxima tarefa do plano, implementa, testa e marca como feita (aceita um número, ex.: `/proxima-tarefa 3.2`)
-  - `/importar-questoes caminho/do/arquivo` ajuda a converter seu banco para JSONL
-  - `/revisar-performance` audita as consultas pensando em 1 milhão de questões e na cota do Turso
+## Alimentar com questões
 
-## Produção
+- Pelo site: `/admin` > Questões (gera o prompt, confere e importa o arquivo da IA). Passo a passo em `docs/PROMPT-GERAR-QUESTOES.md`.
+- Prompts para usar direto no Claude: `docs/PROMPT-CLAUDE-QUESTOES.md` e `docs/PROMPT-CLAUDE-CERTO-ERRADO.md`.
+- Formato do arquivo: `docs/FORMATO-QUESTOES.md`.
+- Produção automática com o Claude Code: `/gerar-lote`.
 
-Veja a Fase 0 do `PLANO.md` para criar o banco no Turso e publicar na Vercel.
+## Documentos
+
+| Arquivo | Para quê |
+|---|---|
+| `docs/ESTADO-ATUAL.md` | o que está no ar, o que falta e como continuar em outra máquina |
+| `CLAUDE.md` | contexto e regras para o Claude Code (lido automaticamente) |
+| `PLANO.md` | roteiro por fases (`/proxima-tarefa` pega a próxima) |
+| `docs/FORMATO-QUESTOES.md` | contrato do arquivo de questões |
+| `docs/PROMPT-*.md` | prompts para gerar questões com IA |
+| `docs/ERRO-PENA-QUESTOES.md` | erro das questões focadas em pena e as regras para não repetir |
+| `docs/FALTA-CERTO-ERRADO.md` | áreas sem certo ou errado (levantamento de 22/10) |
+
+## Comandos do Claude Code
+
+- `/proxima-tarefa [número]`: pega uma tarefa do `PLANO.md`, implementa e marca como feita.
+- `/gerar-lote`: um ciclo da produção automática de questões.
+- `/importar-questoes arquivo`: ajuda a converter um banco para o formato de importação.
+- `/revisar-performance`: audita as consultas pensando em 1 milhão de questões e na cota do Turso.

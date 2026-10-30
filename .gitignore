@@ -18,3 +18,7 @@ data/erros-importacao.log
 
 .vercel
 .DS_Store
+
+# cópias do banco de produção e lotes do chat (já importados): ficam só na máquina
+data/backups/
+data/geradas/chat/

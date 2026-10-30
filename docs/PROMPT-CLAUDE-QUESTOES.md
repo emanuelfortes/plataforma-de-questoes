@@ -31,7 +31,7 @@ ALTERNATIVAS SEM PISTA
 8. Todas as alternativas com tamanho, tom e nível de detalhe parecidos. A correta não pode ser a mais longa nem a mais curta. Num grupo de 10 questões, ela é a mais longa em no máximo 3 e a mais curta em no máximo 3.
 9. As erradas erram por CONTEÚDO (prazo trocado, requisito a mais ou a menos, regra no lugar da exceção, outro crime), não por exagero. Não deixe "sempre", "nunca", "jamais", "em qualquer hipótese", "automaticamente" só nas erradas.
 10. Distribua a letra correta por igual: com 4 alternativas, cada letra em cerca de 25% das questões; com 5, cada letra em cerca de 20%. Num grupo de 10 questões, nenhuma letra é a correta mais de 3 vezes, e nunca 3 seguidas com a mesma letra. Atenção: a tendência é colocar a correta em "E" (a última); não faça isso.
-11. Proibido: "todas as anteriores", "nenhuma das anteriores", "A e B estão corretas". Nunca cite letras no comentário ("a alternativa B..."): explique pelo conteúdo.
+11. Proibido: "todas as anteriores", "nenhuma das anteriores", "A e B estão corretas". Fora da "Análise das alternativas", nunca cite letras no comentário ("a alternativa B..."): explique pelo conteúdo.
 
 COMENTÁRIO (o aluno lê depois de responder)
 12. O comentário tem partes, nesta ordem e com estes rótulos (a plataforma separa cada parte na tela):
