@@ -118,3 +118,26 @@ export const artigosQuestao = sqliteTable(
   },
   (t) => [primaryKey({ columns: [t.lei, t.artigo, t.questaoId] })],
 );
+
+// Vade Mecum: explicação em português simples de um artigo ("Entender este artigo"). Escrita pela IA e
+// aprovada pelo professor em /admin/vade-mecum: o aluno só vê as aprovadas. O texto da lei não muda.
+export const explicacoesArtigo = sqliteTable(
+  "explicacoes_artigo",
+  {
+    lei: text("lei").notNull(),
+    artigo: text("artigo").notNull(),
+    sentido: text("sentido").notNull(),
+    /** Lista do que mais cai na prova (JSON). */
+    pontos: text("pontos", { mode: "json" }).$type<string[]>().notNull(),
+    exemplo: text("exemplo").notNull(),
+    pegadinha: text("pegadinha"),
+    /** Observação para o professor conferir antes de aprovar (não aparece ao aluno). */
+    conferir: text("conferir"),
+    /** pendente, aprovada ou rejeitada */
+    status: text("status").notNull().default("pendente"),
+    criadoEm: integer("criado_em", { mode: "timestamp" }).notNull(),
+    revisadoEm: integer("revisado_em", { mode: "timestamp" }),
+    revisadoPor: text("revisado_por"),
+  },
+  (t) => [primaryKey({ columns: [t.lei, t.artigo] }), index("explicacoes_artigo_status").on(t.status)],
+);

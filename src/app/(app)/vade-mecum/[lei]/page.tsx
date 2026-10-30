@@ -9,6 +9,8 @@ import { variantesBotao } from "@/components/ui/button";
 import { exigirUsuario } from "@/lib/sessao";
 import { cn } from "@/lib/utils";
 import { temAcessoCompleto } from "@/server/assinatura";
+import { chaveArtigo } from "@/lib/artigos-lei";
+import { explicacoesAprovadas } from "@/server/explicacoes";
 import { avisosDaLei, carregarLei, questoesPorArtigo, secaoDoArtigo } from "@/server/vade-mecum";
 
 type Props = {
@@ -40,10 +42,11 @@ export default async function PaginaLei({ params, searchParams }: Props) {
   const secao = lei.secoes[indice]!;
   const anterior = lei.secoes[indice - 1];
   const proxima = lei.secoes[indice + 1];
-  const questoes = await questoesPorArtigo(
-    lei.id,
-    secao.nos.flatMap((n) => (n.tipo === "artigo" ? [n.numero] : [])),
-  );
+  const numeros = secao.nos.flatMap((n) => (n.tipo === "artigo" ? [n.numero] : []));
+  const [questoes, explicacoes] = await Promise.all([
+    questoesPorArtigo(lei.id, numeros),
+    explicacoesAprovadas(lei.id, numeros.map(chaveArtigo)),
+  ]);
   const faixa = (s: typeof secao) => (s.primeiro ? `arts. ${s.primeiro}${s.ultimo && s.ultimo !== s.primeiro ? ` a ${s.ultimo}` : ""}` : "");
 
   return (
@@ -109,7 +112,7 @@ export default async function PaginaLei({ params, searchParams }: Props) {
         </details>
       )}
 
-      <LeituraLei nos={secao.nos} extras={{ lei: lei.id, questoes, avisos: avisosDaLei(lei.id) }} />
+      <LeituraLei nos={secao.nos} extras={{ lei: lei.id, questoes, avisos: avisosDaLei(lei.id), explicacoes }} />
 
       {/* Anterior e próxima seção */}
       {(anterior || proxima) && (

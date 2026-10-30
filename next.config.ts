@@ -16,6 +16,7 @@ const nextConfig: NextConfig = {
   outputFileTracingIncludes: {
     "/vade-mecum": ["./data/leis/*.txt"],
     "/vade-mecum/[lei]": ["./data/leis/*.txt"],
+    "/admin/vade-mecum": ["./data/leis/*.txt"],
   },
   // A tela do dono envia o arquivo de questões gerado pela IA (padrão do Next: 1 MB).
   experimental: { serverActions: { bodySizeLimit: "5mb" } },

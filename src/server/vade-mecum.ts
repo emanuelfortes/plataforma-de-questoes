@@ -65,14 +65,18 @@ function tirarNotas(linha: string): { texto: string; selos: Selo[] } {
     return " ";
   });
   texto = texto.replace(SOLTAS, "").replace(/\s{2,}/g, " ").trim();
+  // "I (revogado);" ou "§ 5º (Revogado)." sem mais nada: sobra só a pontuação. Mostra que foi revogado.
+  if (/^[\s;.,:]*$/.test(texto) && selos.some((s) => s.tipo === "revogado")) texto = "(revogado)";
   return { texto, selos };
 }
 
 // --- Linha a linha -------------------------------------------------------------------------------------
 
 const RE_TITULO = /^(PARTE|LIVRO|T[ÍI]TULO|CAP[ÍI]TULO|SE[ÇC][ÃA]O|SUBSE[ÇC][ÃA]O)\s+([IVXLCDM]+|[ÚU]NIC[OA]|GERAL|ESPECIAL|PRELIMINAR)?\b\.?\s*[-–]?\s*(.*)$/i;
-const RE_ARTIGO = /^Art\.?\s*(\d+(?:\.\d+)?\s*[º°o]?(?:\s*-\s*[A-Z]{1,2})?)\s*\.?\s*[-–]?\s*(.*)$/;
-const RE_PARAGRAFO = /^(?:§\s*(\d+\s*[º°o]?(?:\s*-\s*[A-Z])?)\.?|Par[áa]grafo [úu]nico\.?)\s*[-–.]?\s*(.*)$/i;
+// A letra do dispositivo vem colada ao número ("Art. 121-A", "§ 2º-B"). Com espaço ("Art. 313 - Apropriar-se",
+// "§ 1º - A pena") é o separador seguido do texto: não pode virar "313-A" nem "1º-A". Pode haver mais de uma ("359-M-A").
+const RE_ARTIGO = /^Art\.?\s*(\d+(?:\.\d+)?\s*[º°o]?(?:-[A-Z]{1,2}(?![a-zà-ú]))*)\s*\.?\s*[-–]?\s*(.*)$/;
+const RE_PARAGRAFO = /^(?:§\s*(\d+\s*[º°o]?(?:-[A-Z](?![a-zà-ú]))?)\.?|[Pp]ar[áa]grafo [úu]nico\.?)\s*[-–.]?\s*(.*)$/;
 const RE_INCISO = /^([IVXLCDM]+)\s*(?:[-–.]\s*|\s{2,}|\s(?=[a-zà-ú(]))(.*)$/;
 const RE_ALINEA = /^([a-z])\)\s*(.*)$/;
 const RE_PENA = /^Pena\s*[-–:]\s*(.*)$/i;
@@ -137,6 +141,65 @@ function interpretar(linhas: string[]): No[] {
   return nos;
 }
 
+/**
+ * Às vezes o Planalto deixa a redação antiga de um artigo, parágrafo, inciso ou alínea sem riscar, antes da nova
+ * (ex.: dois "§ 1º" no mesmo artigo, dois "Art. 132" no ECA). Vale a última: a anterior sai, junto com o que
+ * pertence só a ela.
+ */
+function removerRedacoesAntigas(nos: No[]): No[] {
+  const remover = new Set<number>();
+  // Artigo inteiro repetido: o anterior sai até o próximo artigo ou título (o nome do seguinte fica).
+  const ultimoArtigo = new Map<string, number>();
+  nos.forEach((no, i) => {
+    if (no.tipo === "artigo") ultimoArtigo.set(no.numero, i);
+  });
+  nos.forEach((no, i) => {
+    if (no.tipo !== "artigo" || ultimoArtigo.get(no.numero) === i) return;
+    let j = i + 1;
+    while (j < nos.length && nos[j]!.tipo !== "artigo" && nos[j]!.tipo !== "titulo") j++;
+    while (j - 1 > i && nos[j - 1]!.tipo === "rubrica") j--;
+    for (let k = i; k < j; k++) remover.add(k);
+  });
+  let vistos = new Map<string, number>();
+  let paragrafo = "caput";
+  let inciso = "";
+  // Até onde vai um dispositivo: o próximo do mesmo nível ou de nível mais alto.
+  const fimDe = (i: number) => {
+    const tipo = nos[i]!.tipo;
+    const para = tipo === "paragrafo" ? ["paragrafo", "artigo", "titulo"] : tipo === "inciso" ? ["inciso", "paragrafo", "artigo", "titulo"] : ["alinea", "inciso", "paragrafo", "artigo", "titulo"];
+    let j = i + 1;
+    while (j < nos.length && !para.includes(nos[j]!.tipo)) j++;
+    // A pena e o nome do dispositivo seguinte, se vierem logo antes do próximo, ficam (não são só da redação antiga).
+    while (j - 1 > i && (nos[j - 1]!.tipo === "pena" || nos[j - 1]!.tipo === "rubrica")) j--;
+    return j;
+  };
+  nos.forEach((no, i) => {
+    if (no.tipo === "artigo" || no.tipo === "titulo") {
+      vistos = new Map();
+      paragrafo = "caput";
+      inciso = "";
+      return;
+    }
+    let chave: string | null = null;
+    if (no.tipo === "paragrafo") {
+      paragrafo = no.numero;
+      inciso = "";
+      chave = `p:${no.numero}`;
+    } else if (no.tipo === "inciso") {
+      inciso = `${paragrafo}:${no.numero}`;
+      chave = `i:${inciso}`;
+    } else if (no.tipo === "alinea") {
+      // Alínea direto no parágrafo (CP art. 7º, §§ 2º e 3º) é contada dentro dele.
+      chave = `a:${inciso || paragrafo}:${no.numero}`;
+    }
+    if (!chave) return;
+    const anterior = vistos.get(chave);
+    if (anterior !== undefined) for (let k = anterior; k < fimDe(anterior); k++) remover.add(k);
+    vistos.set(chave, i);
+  });
+  return remover.size ? nos.filter((_, i) => !remover.has(i)) : nos;
+}
+
 /** Corpo da lei: do primeiro título/artigo até antes das assinaturas e do aviso do Planalto. */
 function recortarCorpo(conteudo: string) {
   // O Planalto usa o travessão do Windows (byte 0x96) em parte das leis: vira travessão normal.
@@ -146,7 +209,8 @@ function recortarCorpo(conteudo: string) {
     .split("\n")
     .filter((l) => !l.startsWith("#"));
   const ini = linhas.findIndex((l) => /^(PRE[ÂA]MBULO|PARTE |LIVRO |T[ÍI]TULO |CAP[ÍI]TULO |Art\.?\s*1\s*[º°o]?\b)/.test(l.trim()));
-  let fim = linhas.findIndex((l, i) => i > ini && /^Este texto não substitui/i.test(l.trim()));
+  // Um segundo cabeçalho do Planalto é outro documento colado no fim (ex.: promulgação das partes vetadas).
+  let fim = linhas.findIndex((l, i) => i > ini && (/^Este texto não substitui/i.test(l.trim()) || l.trim() === "Presidência da República"));
   if (fim < 0) fim = linhas.length;
   // Assinatura: "Brasília, 27 de setembro de 2019; ..." e os nomes depois dela.
   const assinatura = linhas.slice(0, fim).findLastIndex((l) => /^(Brasília|Rio de Janeiro),?\s+\d/.test(l.trim()));
@@ -196,7 +260,7 @@ export async function carregarLei(id: string): Promise<Lei | null> {
     return null;
   }
   const baixadaEm = /^# Baixado em:\s*(\d{4}-\d{2}-\d{2})/m.exec(conteudo)?.[1] ?? null;
-  const lei: Lei = { id, nome: LEIS[id]!.nome, fonte: LEIS[id]!.fonte, baixadaEm, secoes: dividirEmSecoes(interpretar(recortarCorpo(conteudo))) };
+  const lei: Lei = { id, nome: LEIS[id]!.nome, fonte: LEIS[id]!.fonte, baixadaEm, secoes: dividirEmSecoes(removerRedacoesAntigas(interpretar(recortarCorpo(conteudo)))) };
   cache.set(id, lei);
   return lei;
 }
@@ -218,6 +282,19 @@ export async function questoesPorArtigo(lei: string, numeros: string[]) {
   if (!chaves.length) return {} as Record<string, number>;
   const linhas = await db.select({ chave: contagens.chave, total: contagens.total }).from(contagens).where(inArray(contagens.chave, chaves));
   return Object.fromEntries(linhas.map((l) => [l.chave.slice(`v:${lei}:`.length), l.total]));
+}
+
+/** As partes de um só artigo (com o nome dele), para mostrar o texto oficial ao lado da explicação. */
+export async function nosDoArtigo(leiId: string, artigo: string): Promise<No[]> {
+  const lei = await carregarLei(leiId);
+  const achado = lei && secaoDoArtigo(lei, artigo);
+  if (!lei || !achado) return [];
+  const nos = lei.secoes[achado.secao]!.nos;
+  const i = nos.findIndex((n) => n.tipo === "artigo" && n.id === achado.id);
+  let fim = nos.findIndex((n, k) => k > i && (n.tipo === "artigo" || n.tipo === "titulo"));
+  if (fim < 0) fim = nos.length;
+  if (nos[fim - 1]?.tipo === "rubrica") fim--; // nome do artigo seguinte
+  return nos.slice(nos[i - 1]?.tipo === "rubrica" ? i - 1 : i, fim);
 }
 
 export type AvisoStf = { situacao: string; nota: string };

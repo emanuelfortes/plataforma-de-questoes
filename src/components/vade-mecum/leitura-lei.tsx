@@ -1,12 +1,19 @@
-import { ChevronRight, ListChecks, TriangleAlert } from "lucide-react";
+import { ChevronRight, Lightbulb, ListChecks, MessageCircleQuestion, TriangleAlert } from "lucide-react";
 import Link from "next/link";
 import { Fragment, type ReactNode } from "react";
 import { chaveArtigo } from "@/lib/artigos-lei";
 import { cn, formatarNumero } from "@/lib/utils";
+import type { Explicacao } from "@/lib/explicacao";
 import type { AvisoStf, No, Selo } from "@/server/vade-mecum";
 
 /** O que o leitor sabe além do texto: questões por artigo e avisos do STF (as chaves são "121", "5", "121-A"). */
-export type Extras = { lei: string; questoes?: Record<string, number>; avisos?: Record<string, AvisoStf> };
+export type Extras = {
+  lei: string;
+  questoes?: Record<string, number>;
+  avisos?: Record<string, AvisoStf>;
+  /** Explicações aprovadas pelo professor ("Entender este artigo"). */
+  explicacoes?: Record<string, Explicacao>;
+};
 
 // Desenha a lei desmontada: cada artigo num cartão, com o nome dele em cima, parágrafos, incisos e alíneas
 // recuados e etiquetados, a pena separada e as palavras que a banca troca em destaque.
@@ -73,6 +80,7 @@ function CartaoArtigo({ cartao, extras }: { cartao: Cartao; extras?: Extras }) {
   const chave = chaveArtigo(artigo.numero);
   const questoes = extras?.questoes?.[chave] ?? 0;
   const aviso = extras?.avisos?.[chave];
+  const explicacao = extras?.explicacoes?.[chave];
   return (
     <article id={artigo.id} className="scroll-mt-20 overflow-hidden rounded-2xl border border-borda bg-superficie">
       {rubrica && (
@@ -98,6 +106,7 @@ function CartaoArtigo({ cartao, extras }: { cartao: Cartao; extras?: Extras }) {
           <Filho key={i} no={n} />
         ))}
       </div>
+      {explicacao && <Entender explicacao={explicacao} />}
       {questoes > 0 && extras && (
         <Link
           href={`/questoes?lei=${extras.lei}&art=${encodeURIComponent(chave)}`}
@@ -112,6 +121,48 @@ function CartaoArtigo({ cartao, extras }: { cartao: Cartao; extras?: Extras }) {
         </Link>
       )}
     </article>
+  );
+}
+
+/** O artigo em português simples, aberto quando o aluno pede. O texto da lei, acima, não muda. */
+function Entender({ explicacao }: { explicacao: Explicacao }) {
+  return (
+    <details className="group border-t border-borda">
+      <summary className="flex cursor-pointer list-none items-center gap-2 px-4 py-2.5 text-sm font-bold text-acerto [&::-webkit-details-marker]:hidden">
+        <MessageCircleQuestion className="size-4 shrink-0" aria-hidden />
+        <span className="flex-1">Entender este artigo</span>
+        <ChevronRight className="size-4 shrink-0 transition-transform group-open:rotate-90" aria-hidden />
+      </summary>
+      <div className="space-y-3 bg-acerto-suave px-4 pb-4 pt-1 text-[15px] leading-relaxed">
+        <p>{explicacao.sentido}</p>
+        {explicacao.pontos.length > 0 && (
+          <div>
+            <p className="text-[11px] font-extrabold uppercase tracking-[.06em] text-acerto">O que mais cai</p>
+            <ul className="mt-1 space-y-1.5">
+              {explicacao.pontos.map((p, i) => (
+                <li key={i} className="flex gap-2">
+                  <span className="mt-2 size-1.5 shrink-0 rounded-full bg-acerto" aria-hidden />
+                  <span>{p}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+        <p className="rounded-lg bg-superficie px-3 py-2 text-[14px]">
+          <strong className="text-acerto">Exemplo: </strong>
+          {explicacao.exemplo}
+        </p>
+        {explicacao.pegadinha && (
+          <p className="flex gap-2 rounded-lg border border-destaque/40 bg-destaque-suave px-3 py-2 text-[14px]">
+            <Lightbulb className="mt-0.5 size-4 shrink-0 text-destaque" aria-hidden />
+            <span>
+              <strong className="text-destaque">Pegadinha: </strong>
+              {explicacao.pegadinha}
+            </span>
+          </p>
+        )}
+      </div>
+    </details>
   );
 }
 
