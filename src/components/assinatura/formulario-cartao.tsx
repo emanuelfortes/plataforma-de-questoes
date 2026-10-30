@@ -63,7 +63,7 @@ export function FormularioCartao({ chavePublica, email, rotulo }: { chavePublica
           initialization: { amount: ASSINATURA.valor, payer: { email } },
           customization: {
             paymentMethods: { maxInstallments: 1, types: { excluded: ["debit_card", "prepaid_card"] } },
-            visual: { style: { theme: temaEscuro() ? "dark" : "default" }, texts: { formSubmit: "Assinar" } },
+            visual: { style: { theme: temaEscuro() ? "dark" : "default" }, texts: { formTitle: "Cartão de crédito", formSubmit: "Assinar" } },
           },
           callbacks: {
             onReady: () => setPronto(true),
