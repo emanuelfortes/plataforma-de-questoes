@@ -36,6 +36,8 @@
   --color-prata: #c9d6e3;
   --color-bronze: #d98b4e;
   --color-fogo: #ff6a2b;
+  /* Centro da chama (quase branco, igual nas duas visões: é a parte mais quente do fogo). */
+  --color-nucleo-fogo: #fff3c4;
   --color-sobre-medalha: #1d1405;
   /* Verde-oliva do tema militar (ranking: patentes e fundo tático). */
   --color-oliva: #a3b46b;
@@ -227,6 +229,115 @@ select option:disabled {
   100% { transform: translate(var(--desvio, 6px), -70px) scale(0.3); opacity: 0; }
 }
 
+/* Chama da sequência de acertos (src/components/fogo.tsx). Três línguas sobrepostas (fora, meio e núcleo),
+   cada uma tremulando num ritmo; a gota é um quadrado com um canto reto girado 45 graus. */
+.fogo {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  width: 1em;
+  height: 1.3em;
+  filter: drop-shadow(0 0 0.22em color-mix(in oklab, var(--color-fogo) 75%, transparent));
+}
+.fogo-lingua {
+  position: absolute;
+  inset: 0;
+  transform-origin: 50% 92%;
+  animation: tremular 0.9s ease-in-out infinite;
+}
+.fogo-lingua::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: var(--pe, 0.12em);
+  width: var(--largura);
+  aspect-ratio: 1;
+  translate: -50% 0;
+  rotate: -45deg;
+  border-radius: 50% 0 50% 50%;
+  background: var(--cor);
+}
+.fogo-fora { --largura: 0.74em; --cor: var(--color-fogo); }
+.fogo-meio { --largura: 0.52em; --pe: 0.1em; --cor: var(--color-ouro); animation-duration: 0.7s; animation-delay: -0.3s; }
+.fogo-nucleo {
+  --largura: 0.3em;
+  --pe: 0.1em;
+  --cor: var(--color-nucleo-fogo);
+  animation-duration: 0.55s;
+  animation-delay: -0.15s;
+}
+.fogo-intenso { filter: drop-shadow(0 0 0.4em var(--color-fogo)); }
+.fogo-intenso .fogo-lingua { animation-duration: 0.5s; }
+@keyframes tremular {
+  0%, 100% { transform: scale(1, 1) skewX(0deg); }
+  25% { transform: scale(0.9, 1.1) skewX(-4deg); }
+  50% { transform: scale(1.05, 0.94) skewX(2deg); }
+  75% { transform: scale(0.95, 1.06) skewX(4deg); }
+}
+
+/* Labaredas subindo (cartão da frase de 3 e 5 acertos seguidos). */
+.incendio {
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  height: var(--altura-fogo, 6rem);
+  pointer-events: none;
+}
+.incendio::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, color-mix(in oklab, var(--color-fogo) 55%, transparent), transparent 80%);
+  animation: brasa 1.8s ease-in-out infinite alternate;
+}
+/* Cada partícula é uma língua de fogo (a mesma gota da .fogo, alongada) que sobe, afina e some. */
+.particula-fogo {
+  position: absolute;
+  left: var(--x);
+  bottom: calc(var(--tamanho) * -0.35);
+  width: var(--tamanho);
+  aspect-ratio: 1;
+  translate: -50% 0;
+  transform-origin: 50% 100%;
+  filter: blur(3px);
+  opacity: 0;
+  animation: subir-fogo var(--duracao) cubic-bezier(0.4, 0, 0.7, 1) infinite var(--atraso);
+}
+.particula-fogo::before {
+  content: "";
+  position: absolute;
+  left: 15%;
+  bottom: 12%;
+  width: 70%;
+  aspect-ratio: 1;
+  border-radius: 50% 0 50% 50%;
+  rotate: -45deg;
+  background: radial-gradient(circle at 38% 62%, var(--color-nucleo-fogo) 0 14%, var(--color-ouro) 38%, var(--color-fogo) 72%);
+}
+/* O esticão vertical fica no transform do pai (depois do giro da gota), para a chama ficar alta e fina. */
+@keyframes subir-fogo {
+  0% { transform: translate(0, 0) scale(0.7, 0.8); opacity: 0; }
+  12% { transform: translate(0, -8%) scale(1, 1.45); opacity: 0.95; }
+  50% { opacity: 0.8; }
+  100% { transform: translate(var(--deriva), calc(var(--altura-fogo) * -0.9)) scale(0.3, 0.9); opacity: 0; }
+}
+@keyframes brasa {
+  from { opacity: 0.55; }
+  to { opacity: 1; }
+}
+/* Entrada da frase e o "chacoalhão" dos 3 erros seguidos. */
+.surgir { animation: surgir 0.45s cubic-bezier(0.2, 0.9, 0.3, 1.3) both; }
+@keyframes surgir {
+  from { transform: translateY(8px) scale(0.96); opacity: 0; }
+  to { transform: none; opacity: 1; }
+}
+.tremer { animation: tremer 0.5s ease-in-out both; }
+@keyframes tremer {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-6px); }
+  40%, 80% { transform: translateX(6px); }
+}
+
 /* Ranking: fundo tático (manchas de camuflagem em oliva e grade de mira bem leve). */
 .fundo-tatico {
   background-color: var(--color-superficie);
@@ -257,6 +368,8 @@ select option:disabled {
 
 @media (prefers-reduced-motion: reduce) {
   .card-giro { transition: none; }
-  .chama, .chama::after, .faisca { animation: none; }
+  .chama, .chama::after, .faisca, .fogo-lingua, .incendio::before, .surgir, .tremer { animation: none; }
   .faisca { display: none; }
+  /* Sem movimento, as labaredas viram um brilho parado no pé do cartão. */
+  .particula-fogo { animation: none; opacity: 0.5; }
 }

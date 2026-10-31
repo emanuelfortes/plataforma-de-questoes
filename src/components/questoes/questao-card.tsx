@@ -1,8 +1,9 @@
 "use client";
 
-import { ArrowRight, Check, CircleCheck, CircleX, Flame, LoaderCircle, RotateCcw, Scissors, X } from "lucide-react";
+import { ArrowRight, Check, CircleCheck, CircleX, LoaderCircle, RotateCcw, Scissors, TriangleAlert, X } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useRef, useState, useTransition } from "react";
+import { Fogo, Incendio } from "@/components/fogo";
 import { ReportarErro } from "@/components/reportar-erro";
 import { ComentarioQuestao } from "./comentario-questao";
 import { Button, variantesBotao } from "@/components/ui/button";
@@ -19,11 +20,21 @@ type Props = {
   progresso?: number; // 0 a 1, posição na página atual
   onProxima?: () => void; // quando existe, mostra "Próxima" após responder (modo uma por vez)
   onPular?: () => void;
-  /** Avisado a cada resposta (a resolução usa para trazer de volta a questão errada). */
-  onRespondida?: (correta: boolean) => void;
+  /** Avisado a cada resposta (a resolução usa para trazer de volta a questão errada e contar erros seguidos).
+   *  `conta`: resposta que vale para o ranking (primeira vez na questão e não foi chute). */
+  onRespondida?: (correta: boolean, conta: boolean) => void;
   /** Questão que voltou para revisão porque o aluno errou há pouco. */
   revisao?: boolean;
+  /** Erros seguidos nesta sessão, contando a resposta atual (a frase aparece no 3º). */
+  errosSeguidos?: number;
 };
+
+// Frases de efeito: aparecem só no momento exato (3º e 5º acerto seguido, 3º erro seguido).
+const FRASE_ACERTOS: Record<number, string> = {
+  3: "Boa, Papai! 3 acertos 👏🏻",
+  5: "5 acertos, Papai? Já vejo o senhor fardado",
+};
+const FRASE_ERROS = "Mais atenção, Papai! A prova é malvada e não perdoa";
 
 type Resultado = Extract<ResultadoResposta, { ok: true }>;
 type Alternativa = QuestaoListada["alternativas"][number];
@@ -34,7 +45,7 @@ function ehCertoErrado(alternativas: Alternativa[]) {
   return alternativas.length === 2 && textos.C === "certo" && textos.E === "errado";
 }
 
-export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPular, onRespondida, revisao }: Props) {
+export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPular, onRespondida, revisao, errosSeguidos }: Props) {
   const [escolhida, setEscolhida] = useState<string | null>(null);
   const [resultado, setResultado] = useState<Resultado | null>(null);
   const [erro, setErro] = useState<string | null>(null);
@@ -66,7 +77,7 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
         return setErro(r.erro);
       }
       setResultado(r);
-      onRespondida?.(r.correta);
+      onRespondida?.(r.correta, r.sequencia !== null);
     });
   }
 
@@ -107,6 +118,10 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
     if (selecionada) return "errada";
     return "apagada";
   }
+
+  const sequencia = resultado?.correta ? (resultado.sequencia ?? 0) : 0;
+  const fraseAcerto = FRASE_ACERTOS[sequencia];
+  const fraseErro = resultado && !resultado.correta && resultado.sequencia !== null && errosSeguidos === 3 ? FRASE_ERROS : undefined;
 
   const textoGabarito = certoErrado
     ? questao.alternativas.find((a) => a.letra === resultado?.gabarito)?.texto
@@ -283,6 +298,19 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
 
       {resultado && (
         <div ref={refResultado} className="scroll-mb-28 space-y-5 md:scroll-mb-8" role="status">
+          {fraseAcerto && (
+            <div className="surgir relative overflow-hidden rounded-2xl border border-fogo/40 bg-camada px-5 pt-5 pb-16 text-center">
+              <Incendio forca={sequencia >= 5 ? 2 : 1} />
+              <Fogo className="relative text-4xl" intenso={sequencia >= 5} />
+              <p className="relative mt-2 text-xl font-extrabold leading-snug text-texto sm:text-2xl">{fraseAcerto}</p>
+            </div>
+          )}
+          {fraseErro && (
+            <div className="tremer flex items-center gap-3 rounded-2xl border border-erro/50 bg-erro-suave px-5 py-4">
+              <TriangleAlert className="size-7 shrink-0 text-erro" aria-hidden />
+              <p className="text-lg font-extrabold leading-snug text-texto">{fraseErro}</p>
+            </div>
+          )}
           <div
             className={cn(
               "flex items-center gap-3 rounded-xl px-4 py-3",
@@ -295,10 +323,10 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
               <p className="text-sm font-semibold text-texto/75">Gabarito: {textoGabarito}</p>
             </div>
             {/* Sequência de acertos (a partir de 2), como a sequência de dias do GitHub */}
-            {resultado.correta && resultado.sequencia !== null && resultado.sequencia >= 2 && (
-              <span className="ml-auto flex shrink-0 items-center gap-1 rounded-full bg-fogo/15 px-3 py-1 text-sm font-extrabold text-fogo">
-                <Flame className={cn("size-4 fill-current", resultado.sequencia >= 5 && "animate-pulse")} aria-hidden />
-                <span className="tabular-nums">{resultado.sequencia}</span>
+            {sequencia >= 2 && (
+              <span className="ml-auto flex shrink-0 items-center gap-1.5 rounded-full bg-fogo/15 px-3 py-1 text-sm font-extrabold text-fogo">
+                <Fogo className="text-base" intenso={sequencia >= 5} />
+                <span className="tabular-nums">{sequencia}</span>
                 <span className="hidden sm:inline">seguidas</span>
                 <span className="sr-only sm:hidden">acertos seguidos</span>
               </span>

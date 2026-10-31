@@ -1,6 +1,7 @@
-import { Crosshair, Flame, Zap } from "lucide-react";
+import { Crosshair, Zap } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Fogo } from "@/components/fogo";
 import { Insignia } from "@/components/ranking/insignia";
 import { Podio } from "@/components/ranking/podio";
 import { patenteDe, pontosFuzil, SEGUNDOS_CHUTE } from "@/lib/patentes";
@@ -202,7 +203,7 @@ function Linha({ linha, eu, valor }: { linha: LinhaRanking; eu: boolean; valor: 
           {eu && <span className="ml-1.5 text-xs font-extrabold text-marca-clara">(você)</span>}
           {linha.sequencia >= 5 && (
             <span className="ml-1.5 inline-flex items-center gap-0.5 align-[-1px] text-xs font-extrabold text-fogo" title={`${linha.sequencia} acertos seguidos`}>
-              <Flame className="size-3.5 fill-current" aria-hidden />
+              <Fogo className="text-sm" />
               {linha.sequencia}
             </span>
           )}
@@ -247,7 +248,7 @@ function PainelSequencia({ acertos, atual, maior }: { acertos: number; atual: nu
               strokeDashoffset={volta * (1 - fracao)}
             />
           </svg>
-          <Flame className={cn("absolute -top-2 size-5 fill-fogo text-fogo", atual >= 5 && "animate-pulse")} aria-hidden />
+          <Fogo className="absolute -top-3 text-xl" intenso={atual >= 5} />
           <span className="font-estencil text-2xl tabular-nums text-fogo sm:text-3xl">{atual}</span>
         </div>
         <p className="mt-2 text-xs font-extrabold text-fogo sm:text-sm">Sequência atual</p>

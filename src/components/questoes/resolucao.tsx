@@ -30,8 +30,12 @@ export function Resolucao({ questoes, inicio, proximaUrl, totalFiltro }: Props) 
   const item = fila[indice];
   const atual = item?.questao;
   const avancar = () => setIndice((i) => i + 1);
+  // Erros seguidos (para a frase do 3º erro): acerto zera; só soma resposta que conta (não refazer nem chute).
+  const [errosSeguidos, setErrosSeguidos] = useState(0);
 
-  function respondida(correta: boolean) {
+  function respondida(correta: boolean, conta: boolean) {
+    if (correta) setErrosSeguidos(0);
+    else if (conta) setErrosSeguidos((n) => n + 1);
     if (correta || !item || item.volta >= MAXIMO_VOLTAS) return;
     setFila((f) => {
       // Só agenda uma vez por resposta, mesmo se o aluno usar "Refazer" e errar de novo na mesma tela.
@@ -77,6 +81,7 @@ export function Resolucao({ questoes, inicio, proximaUrl, totalFiltro }: Props) 
         onPular={avancar}
         onRespondida={respondida}
         revisao={item.volta > 0}
+        errosSeguidos={errosSeguidos}
       />
     </div>
   );
