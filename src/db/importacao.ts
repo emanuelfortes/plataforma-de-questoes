@@ -238,6 +238,7 @@ export function criarGravador(db: Db) {
             principal: q.enunciado,
             correta: q.alternativas.find((a) => a.letra === q.gabarito)?.texto,
             resto: [q.comentario ?? "", ...q.alternativas.filter((a) => a.letra !== q.gabarito).map((a) => a.texto)].join(" "),
+            comentario: q.comentario,
             leiReferencia: q.leiReferencia,
           }) ?? q.assunto,
         ),

@@ -153,11 +153,14 @@ export function ArvoreEstudo({ materias, destino, unidade, abertaInicial, comOpc
     if (item.tipo === "area") {
       const a = item.area;
       const marcada = marcadas.includes(a.id);
+      // Dentro da pasta da lei, "Estatuto do Desarmamento: arts. 1º a 11" aparece só como "Arts. 1º a 11".
+      const pastaPai = caminho.slice(caminho.lastIndexOf("/") + 1);
+      const nome = pastaPai && a.nome.startsWith(`${pastaPai}: `) ? a.nome.slice(pastaPai.length + 2).replace(/^./, (l) => l.toUpperCase()) : a.nome;
       return (
         <li key={a.id} role="treeitem" aria-selected={marcada}>
           <Linha onClick={() => marcarArea(disciplinaId, a.id)} marcada={marcada} nivel={nivel}>
             <ArrowBigRight className="size-5 shrink-0 fill-acerto text-acerto" aria-hidden />
-            <span className="min-w-0 flex-1">{a.nome}</span>
+            <span className="min-w-0 flex-1">{nome}</span>
             <Contador n={a.total} />
           </Linha>
         </li>

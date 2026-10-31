@@ -1,5 +1,5 @@
 {
-  "_leia": "Ordem e pastas da tela de filtro, por matéria. Item: nome da área (texto), pasta { pasta, areas: [...] } (pode ter pastas dentro) ou área com classificação { area, artigos, termos?, exceto? }: a importação e scripts/publicacao/reclassificar-crimes.ts põem na área a questão que cita um desses artigos do CP ou cujo enunciado bate com 'termos' (regex). A área com o mesmo nome da pasta guarda o que não deu para classificar e aparece como 'Demais ...'. Área que não está aqui vai para o fim, em ordem alfabética. Nomes comparados sem maiúsculas, acentos e plural (chaveNome).",
+  "_leia": "Ordem e pastas da tela de filtro, por matéria. Item: nome da área (texto), pasta { pasta, areas: [...] } (pode ter pastas dentro) ou área com classificação { area, artigos, termos?, exceto? }: a importação e scripts/publicacao/reclassificar-crimes.ts põem na área a questão que cita um desses artigos do CP ou cujo enunciado bate com 'termos' (regex). A área com o mesmo nome da pasta guarda o que não deu para classificar e aparece como 'Demais ...'. Área que não está aqui vai para o fim, em ordem alfabética. Nomes comparados sem maiúsculas, acentos e plural (chaveNome). Pasta de lei ({ pasta, lei, areas }): as áreas são faixas de artigos daquela lei (id de data/taxonomia.json), como os editais dividem; artigo com letra (24-A) entra na faixa do número.",
   "Língua Portuguesa": [
     "Interpretação de Texto",
     "Tipologia e Gêneros Textuais",
@@ -81,7 +81,43 @@
     "Serviços Públicos e Delegação",
     "Controle da Administração Pública",
     "Responsabilidade Civil do Estado",
-    "Improbidade Administrativa",
+    {
+      "pasta": "Improbidade Administrativa",
+      "lei": "lei-8429-1992",
+      "areas": [
+        {
+          "area": "Improbidade Administrativa: arts. 1º a 4º",
+          "artigos": [
+            "1-4"
+          ]
+        },
+        {
+          "area": "Improbidade Administrativa: arts. 6º a 8º",
+          "artigos": [
+            "6-8"
+          ]
+        },
+        {
+          "area": "Improbidade Administrativa: arts. 9º a 12",
+          "artigos": [
+            "9-12"
+          ]
+        },
+        {
+          "area": "Improbidade Administrativa: arts. 13 a 18",
+          "artigos": [
+            "13-18"
+          ]
+        },
+        {
+          "area": "Improbidade Administrativa: arts. 19 a 23-C",
+          "artigos": [
+            "19-23"
+          ]
+        },
+        "Improbidade Administrativa"
+      ]
+    },
     "Processo Administrativo",
     "Lei Geral de Proteção de Dados"
   ],
@@ -935,22 +971,154 @@
     "Crimes de Responsabilidade dos Funcionários Públicos",
     "Revisão Criminal e Execução Penal",
     "Interceptação Telefônica",
-    "Organização Criminosa",
+    {
+      "pasta": "Organização Criminosa",
+      "lei": "lei-12850-2013",
+      "areas": [
+        {
+          "area": "Organização Criminosa: arts. 1º a 2º",
+          "artigos": [
+            "1-2"
+          ]
+        },
+        {
+          "area": "Organização Criminosa: arts. 3º a 7º",
+          "artigos": [
+            "3-7"
+          ]
+        },
+        {
+          "area": "Organização Criminosa: arts. 8º a 14",
+          "artigos": [
+            "8-14"
+          ]
+        },
+        {
+          "area": "Organização Criminosa: arts. 15 a 23",
+          "artigos": [
+            "15-23"
+          ]
+        },
+        "Organização Criminosa"
+      ]
+    },
     "Investigação pelo Delegado e pelo Ministério Público",
     "Identificação Criminal",
     "Jurisprudência dos Tribunais Superiores em Processo Penal"
   ],
   "Legislação Penal Especial": [
     "Lei de Drogas",
-    "Estatuto do Desarmamento",
-    "Lei Maria da Penha",
+    {
+      "pasta": "Estatuto do Desarmamento",
+      "lei": "lei-10826-2003",
+      "areas": [
+        {
+          "area": "Estatuto do Desarmamento: arts. 1º a 11",
+          "artigos": [
+            "1-11"
+          ]
+        },
+        {
+          "area": "Estatuto do Desarmamento: arts. 12 a 25",
+          "artigos": [
+            "12-25"
+          ]
+        },
+        "Estatuto do Desarmamento"
+      ]
+    },
+    {
+      "pasta": "Lei Maria da Penha",
+      "lei": "lei-11340-2006",
+      "areas": [
+        {
+          "area": "Lei Maria da Penha: arts. 1º a 7º",
+          "artigos": [
+            "1-7"
+          ]
+        },
+        {
+          "area": "Lei Maria da Penha: arts. 8º a 15",
+          "artigos": [
+            "8-15"
+          ]
+        },
+        {
+          "area": "Lei Maria da Penha: arts. 16 a 25",
+          "artigos": [
+            "16-25"
+          ]
+        },
+        "Lei Maria da Penha"
+      ]
+    },
     "Abuso de Autoridade",
     "Crimes Hediondos",
     "Lei de Tortura",
-    "Crimes Ambientais",
+    {
+      "pasta": "Crimes Ambientais",
+      "lei": "lei-9605-1998",
+      "areas": [
+        {
+          "area": "Crimes Ambientais: arts. 1º a 4º",
+          "artigos": [
+            "1-4"
+          ]
+        },
+        {
+          "area": "Crimes Ambientais: arts. 5º a 15",
+          "artigos": [
+            "5-15"
+          ]
+        },
+        {
+          "area": "Crimes Ambientais: arts. 16 a 24",
+          "artigos": [
+            "16-24"
+          ]
+        },
+        {
+          "area": "Crimes Ambientais: arts. 25 a 28",
+          "artigos": [
+            "25-28"
+          ]
+        },
+        {
+          "area": "Crimes Ambientais: arts. 29 a 37",
+          "artigos": [
+            "29-37"
+          ]
+        },
+        {
+          "area": "Crimes Ambientais: arts. 38 a 53",
+          "artigos": [
+            "38-53"
+          ]
+        },
+        "Crimes Ambientais"
+      ]
+    },
     "Crimes de Racismo",
     "Estatuto da Criança e do Adolescente",
-    "Código de Trânsito Brasileiro",
+    {
+      "pasta": "Código de Trânsito Brasileiro",
+      "lei": "lei-9503-1997",
+      "areas": [
+        {
+          "area": "Código de Trânsito Brasileiro: arts. 291 a 301",
+          "artigos": [
+            "291-301"
+          ]
+        },
+        {
+          "area": "Código de Trânsito Brasileiro: arts. 302 a 312",
+          "artigos": [
+            "302-312"
+          ]
+        },
+        "Código de Trânsito Brasileiro"
+      ]
+    },
     "Estatuto da Pessoa Idosa",
     "Juizados Especiais Criminais",
     "Pacote Anticrime",

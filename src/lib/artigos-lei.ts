@@ -55,8 +55,14 @@ function artigosDoTrecho(trecho: string): string[] {
   return achados;
 }
 
-/** Artigos que a questão cobra, sem repetição. Lista vazia quando não dá para saber. */
-export function artigosDaQuestao(q: { disciplina: string; leiReferencia?: string | null; comentario?: string | null }): ArtigoCitado[] {
+/**
+ * Artigos que a questão cobra, sem repetição. Lista vazia quando não dá para saber.
+ * `leiPadrao`: lei do artigo citado sem lei (senão vale a lei principal da matéria).
+ */
+export function artigosDaQuestao(
+  q: { disciplina: string; leiReferencia?: string | null; comentario?: string | null },
+  leiPadrao?: string,
+): ArtigoCitado[] {
   const fontes = [
     q.leiReferencia ?? "",
     ...(q.comentario ? separarComentario(q.comentario).filter((p) => p.tipo === "lei").map((p) => (p.tipo === "lei" ? p.texto : "")) : []),
@@ -65,7 +71,7 @@ export function artigosDaQuestao(q: { disciplina: string; leiReferencia?: string
   for (const fonte of fontes) {
     // Cada trecho separado por ";" pode ser de uma lei diferente ("art. 5º da CF; art. 301 do CPP").
     for (const trecho of fonte.split(/;/)) {
-      const lei = leiDoTrecho(trecho) ?? leiDoTrecho(fonte) ?? LEI_DA_MATERIA[q.disciplina] ?? null;
+      const lei = leiDoTrecho(trecho) ?? leiDoTrecho(fonte) ?? leiPadrao ?? LEI_DA_MATERIA[q.disciplina] ?? null;
       if (!lei) continue;
       for (const artigo of artigosDoTrecho(trecho)) vistos.set(`${lei}:${artigo}`, { lei, artigo });
     }

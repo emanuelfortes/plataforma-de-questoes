@@ -1,11 +1,14 @@
 // Ordem, pastas e classificação das áreas (data/ordem-areas.json). Usado pela tela de filtro,
 // pela importação e por scripts/publicacao/reclassificar-crimes.ts.
 import ordemAreas from "../../data/ordem-areas.json";
+import { artigosDaQuestao } from "./artigos-lei";
 import { chaveNome } from "./catalogo";
 
 /** Área que a importação consegue preencher sozinha: pelos artigos do CP citados ou pelo nome do crime. */
 export type AreaClassificada = { area: string; artigos: string[]; termos?: string; exceto?: string };
-export type EntradaOrdem = string | AreaClassificada | { pasta: string; areas: EntradaOrdem[] };
+/** Pasta; com `lei` (id de data/taxonomia.json) as áreas dela são faixas de artigos daquela lei. */
+export type PastaOrdem = { pasta: string; lei?: string; areas: EntradaOrdem[] };
+export type EntradaOrdem = string | AreaClassificada | PastaOrdem;
 
 const POR_MATERIA = new Map(
   Object.entries(ordemAreas as Record<string, unknown>)
@@ -33,7 +36,7 @@ function expandirArtigos(artigos: string[]) {
 }
 
 type Folha = { area: string; artigos: Set<string>; termos?: RegExp; exceto?: RegExp };
-type Base = { area: string; folhas: Folha[] };
+type Base = { area: string; lei?: string; folhas: Folha[] };
 
 /** Para cada área "base" (a do título, ex.: Crimes contra a Pessoa), as áreas de crime da pasta dela. */
 function montarBases(entradas: EntradaOrdem[]): Base[] {
@@ -55,7 +58,7 @@ function montarBases(entradas: EntradaOrdem[]): Base[] {
     for (const e of lista) {
       if (typeof e === "string" || !("pasta" in e)) continue;
       const temBase = e.areas.some((x) => typeof x === "string" && chaveNome(x) === chaveNome(e.pasta));
-      if (temBase) bases.push({ area: e.pasta, folhas: folhasDe(e.areas) });
+      if (temBase) bases.push({ area: e.pasta, lei: e.lei, folhas: folhasDe(e.areas) });
       else visitar(e.areas);
     }
   };
@@ -91,8 +94,31 @@ export type TextosClassificacao = {
   correta?: string;
   /** Comentário e demais alternativas. */
   resto?: string;
+  /** Só o comentário (a parte "Fundamento" diz o artigo cobrado). */
+  comentario?: string | null;
   leiReferencia?: string | null;
 };
+
+/**
+ * Pasta de lei: a faixa de artigos pelo artigo que a questão cobra (referência legal e Fundamento do
+ * comentário; depois o enunciado e a resposta certa). Artigo citado sem lei conta como da pasta;
+ * de outra lei (CF, CP...) não conta. "24-A" entra na faixa do 24.
+ */
+function classificarPorLei(base: Base & { lei: string }, materia: string, t: TextosClassificacao) {
+  const faixa = (fontes: { leiReferencia?: string | null; comentario?: string | null }) => {
+    const numeros = artigosDaQuestao({ disciplina: materia, ...fontes }, base.lei)
+      .filter((a) => a.lei === base.lei)
+      .map((a) => String(Number.parseInt(a.artigo, 10)));
+    // Artigo fora de todas as faixas (ex.: art. 66 com faixas até o 53): pode ser ele o cobrado, então não decide.
+    if (numeros.some((n) => !base.folhas.some((f) => f.artigos.has(n)))) return undefined;
+    return unica(base.folhas.filter((f) => numeros.some((n) => f.artigos.has(n))).map((f) => f.area));
+  };
+  return (
+    faixa({ leiReferencia: t.leiReferencia, comentario: t.comentario }) ??
+    faixa({ leiReferencia: t.principal }) ??
+    faixa({ leiReferencia: t.correta })
+  );
+}
 
 /**
  * Área de crime para uma questão que está (ou chega) na área do título, como "Crimes contra a Pessoa".
@@ -103,6 +129,7 @@ export function classificarArea(materia: string, area: string | null | undefined
   if (!area) return undefined;
   const base = BASES.get(chaveNome(materia))?.find((b) => chaveNome(b.area) === chaveNome(area));
   if (!base) return undefined;
+  if (base.lei) return classificarPorLei({ ...base, lei: base.lei }, materia, t);
 
   const porArtigo = (arts: string[]) => unica(base.folhas.filter((f) => arts.some((a) => f.artigos.has(a))).map((f) => f.area));
   const porTermo = (texto: string | undefined) => {

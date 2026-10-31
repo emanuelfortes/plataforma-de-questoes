@@ -3,7 +3,7 @@ import { asc, eq, inArray } from "drizzle-orm";
 import { db } from "@/db";
 import { assuntos, contagens, disciplinas } from "@/db/schema";
 import { chaveNome } from "@/lib/catalogo";
-import { entradasDaMateria, nomeDaEntrada, type EntradaOrdem } from "@/lib/ordem-areas";
+import { entradasDaMateria, nomeDaEntrada, type EntradaOrdem, type PastaOrdem } from "@/lib/ordem-areas";
 
 // Dados da tela "Estudar" (escolha de tipo, matéria e área). Tudo sai de "contagens",
 // nunca de COUNT(*) sobre questoes ou flashcards.
@@ -31,22 +31,26 @@ function organizarAreas(materia: string, areas: AreaArvore[]): ItemArvore[] {
     sobrando.delete(chaveNome(nome));
     return a;
   };
-  const montar = (entradas: EntradaOrdem[], pastaAtual?: string): ItemArvore[] =>
+  const restos = new Set<number>();
+  const montar = (entradas: EntradaOrdem[], pastaAtual?: PastaOrdem): ItemArvore[] =>
     entradas.flatMap((e): ItemArvore[] => {
       if (typeof e === "string" || !("pasta" in e)) {
         const nome = nomeDaEntrada(e);
         const a = pegar(nome);
         if (!a) return [];
-        // Área com o mesmo nome da pasta guarda o resto do assunto: "Demais crimes contra a pessoa".
-        const resto = pastaAtual && chaveNome(nome) === chaveNome(pastaAtual);
-        return [{ tipo: "area", area: resto ? { ...a, nome: `Demais ${pastaAtual.toLowerCase()}` } : a }];
+        // Área com o mesmo nome da pasta guarda o resto do assunto: "Demais crimes contra a pessoa"
+        // ou, numa pasta de lei, as questões sem artigo definido.
+        if (!pastaAtual || chaveNome(nome) !== chaveNome(pastaAtual.pasta)) return [{ tipo: "area", area: a }];
+        restos.add(a.id);
+        const rotulo = pastaAtual.lei ? "Outras questões da lei" : `Demais ${pastaAtual.pasta.toLowerCase()}`;
+        return [{ tipo: "area", area: { ...a, nome: rotulo } }];
       }
-      const itens = montar(e.areas, e.pasta);
+      const itens = montar(e.areas, e);
       if (itens.length === 0) return [];
       // Pasta com um item só não ajuda: mostra o item solto (a área "Demais" volta a ter o nome da pasta).
       if (itens.length === 1) {
         const unico = itens[0]!;
-        return [unico.tipo === "area" && unico.area.nome.startsWith("Demais ") ? { tipo: "area", area: { ...unico.area, nome: e.pasta } } : unico];
+        return [unico.tipo === "area" && restos.has(unico.area.id) ? { tipo: "area", area: { ...unico.area, nome: e.pasta } } : unico];
       }
       return [{ tipo: "pasta", nome: e.pasta, total: itens.flatMap(areasDoItem).reduce((t, a) => t + a.total, 0), itens }];
     });
