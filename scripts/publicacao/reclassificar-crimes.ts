@@ -78,8 +78,11 @@ for (const { id: disciplinaId, nome: materia } of disciplinas) {
   }
 }
 
-mkdirSync("data/publicacao", { recursive: true });
-writeFileSync("data/publicacao/reclassificar-crimes.json", JSON.stringify({ resumo, mudancas }, null, 2));
+// Sem nada a mover, não sobrescreve a lista da última aplicação (ela é o registro do que mudou).
+if (mudancas.length) {
+  mkdirSync("data/publicacao", { recursive: true });
+  writeFileSync("data/publicacao/reclassificar-crimes.json", JSON.stringify({ resumo, mudancas }, null, 2));
+}
 for (const [base, conta] of Object.entries(resumo)) {
   console.log(`\n${base}:`, Object.entries(conta).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${k} ${v}`).join(" | "));
 }

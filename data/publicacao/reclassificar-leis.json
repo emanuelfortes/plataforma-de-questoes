@@ -1,0 +1,2297 @@
+{
+  "aplicado": "2026-10-31",
+  "mudancas": [
+    {
+      "tabela": "questoes",
+      "id": 3545,
+      "de": "Organização Criminosa",
+      "para": "Organização Criminosa: arts. 3º a 7º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3546,
+      "de": "Organização Criminosa",
+      "para": "Organização Criminosa: arts. 3º a 7º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3541,
+      "de": "Organização Criminosa",
+      "para": "Organização Criminosa: arts. 3º a 7º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3542,
+      "de": "Organização Criminosa",
+      "para": "Organização Criminosa: arts. 3º a 7º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3549,
+      "de": "Organização Criminosa",
+      "para": "Organização Criminosa: arts. 3º a 7º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3536,
+      "de": "Organização Criminosa",
+      "para": "Organização Criminosa: arts. 3º a 7º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3547,
+      "de": "Organização Criminosa",
+      "para": "Organização Criminosa: arts. 3º a 7º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3538,
+      "de": "Organização Criminosa",
+      "para": "Organização Criminosa: arts. 3º a 7º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3543,
+      "de": "Organização Criminosa",
+      "para": "Organização Criminosa: arts. 3º a 7º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3539,
+      "de": "Organização Criminosa",
+      "para": "Organização Criminosa: arts. 3º a 7º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3548,
+      "de": "Organização Criminosa",
+      "para": "Organização Criminosa: arts. 3º a 7º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3544,
+      "de": "Organização Criminosa",
+      "para": "Organização Criminosa: arts. 3º a 7º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3537,
+      "de": "Organização Criminosa",
+      "para": "Organização Criminosa: arts. 3º a 7º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3540,
+      "de": "Organização Criminosa",
+      "para": "Organização Criminosa: arts. 3º a 7º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3550,
+      "de": "Organização Criminosa",
+      "para": "Organização Criminosa: arts. 3º a 7º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3552,
+      "de": "Organização Criminosa",
+      "para": "Organização Criminosa: arts. 15 a 23"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3555,
+      "de": "Organização Criminosa",
+      "para": "Organização Criminosa: arts. 15 a 23"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3551,
+      "de": "Organização Criminosa",
+      "para": "Organização Criminosa: arts. 8º a 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8916,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 593,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4083,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4079,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 597,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8919,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4086,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8917,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8893,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4085,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4082,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8902,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4089,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8895,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4080,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4076,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 598,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 592,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8892,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8914,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4091,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8900,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4090,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 595,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8896,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4088,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8901,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8898,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4087,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8894,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8908,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8891,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4077,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4084,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8897,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4081,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8899,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8915,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8904,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8909,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "questoes",
+      "id": 596,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4094,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4095,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8905,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4092,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8907,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8913,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "questoes",
+      "id": 591,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4093,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8920,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8910,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4078,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8911,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8906,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8912,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8903,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8918,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3301,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10156,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4131,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10153,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3299,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3302,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10169,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10165,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3300,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10176,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10155,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10177,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4128,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10157,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10152,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4132,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3305,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4121,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10154,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4135,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10174,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3314,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3313,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4117,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3310,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4122,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4126,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10164,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4129,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3308,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3306,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3307,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3304,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4120,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10158,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10178,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4119,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10161,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4130,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10175,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3303,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3311,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10166,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10162,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4118,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4133,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10172,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10159,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10171,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3309,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10168,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10167,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10160,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4116,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3297,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 1º a 7º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10170,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 1º a 7º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10151,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 1º a 7º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10150,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 1º a 7º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3296,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 1º a 7º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4456,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 1º a 4º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9434,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 1º a 4º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1238,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 1º a 4º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1237,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 1º a 4º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1236,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 1º a 4º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9445,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 38 a 53"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9441,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 38 a 53"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9442,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 38 a 53"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1252,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 38 a 53"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4470,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 38 a 53"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9436,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 38 a 53"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9435,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 38 a 53"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1251,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 38 a 53"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9431,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 38 a 53"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4471,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 38 a 53"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9439,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 38 a 53"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1248,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 29 a 37"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1247,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 29 a 37"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4467,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 29 a 37"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9454,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 29 a 37"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9433,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 29 a 37"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1249,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 29 a 37"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9455,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 29 a 37"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4465,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 29 a 37"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4466,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 29 a 37"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9438,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 29 a 37"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9452,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 29 a 37"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9453,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 29 a 37"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9451,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 29 a 37"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1250,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 29 a 37"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1245,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 25 a 28"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9437,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 25 a 28"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9430,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 25 a 28"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4462,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 25 a 28"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1246,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 25 a 28"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1241,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 16 a 24"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1244,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 16 a 24"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1242,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 16 a 24"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9450,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 16 a 24"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9458,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 16 a 24"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9432,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 5º a 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1240,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 5º a 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1243,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 5º a 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1239,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 5º a 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4288,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4287,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4290,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1446,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4295,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1449,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8645,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8627,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8634,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1451,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1447,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1455,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8632,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8639,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1445,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1450,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1452,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8640,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4283,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4291,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8631,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1454,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8625,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4285,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1453,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1437,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8630,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4293,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4292,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1448,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8646,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8648,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1444,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8629,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8628,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4281,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4286,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8644,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8647,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4289,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4294,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4282,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8633,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1439,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8635,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8621,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8642,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8649,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8641,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4279,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1440,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4278,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8650,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8638,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1438,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8637,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8623,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1436,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8643,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8636,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4277,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4276,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1441,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8622,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1442,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1443,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4504,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4510,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1505,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10495,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4506,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1508,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10481,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1503,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4502,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1502,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1507,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10484,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1509,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10488,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10494,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4505,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10482,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4501,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10490,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1504,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10483,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10493,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10486,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10499,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1506,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4509,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10496,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10485,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10480,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4508,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1510,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4507,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1514,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 19 a 23-C"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4515,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 19 a 23-C"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1515,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 19 a 23-C"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10487,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 19 a 23-C"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1500,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 1º a 4º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10489,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 1º a 4º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4497,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 1º a 4º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4498,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 1º a 4º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1499,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 1º a 4º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1496,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 1º a 4º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1498,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 1º a 4º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4496,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 1º a 4º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10506,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 1º a 4º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10498,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 13 a 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4511,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 13 a 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1511,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 13 a 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1512,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 13 a 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4512,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 13 a 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4513,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 13 a 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4514,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 13 a 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10492,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 13 a 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10491,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 13 a 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4500,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 6º a 8º"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4499,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 6º a 8º"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1018,
+      "de": "Organização Criminosa",
+      "para": "Organização Criminosa: arts. 3º a 7º"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1021,
+      "de": "Organização Criminosa",
+      "para": "Organização Criminosa: arts. 3º a 7º"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1022,
+      "de": "Organização Criminosa",
+      "para": "Organização Criminosa: arts. 3º a 7º"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1017,
+      "de": "Organização Criminosa",
+      "para": "Organização Criminosa: arts. 8º a 14"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1019,
+      "de": "Organização Criminosa",
+      "para": "Organização Criminosa: arts. 8º a 14"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1020,
+      "de": "Organização Criminosa",
+      "para": "Organização Criminosa: arts. 8º a 14"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 136,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2195,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2199,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 12 a 25"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1179,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1180,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1181,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1182,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1183,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2196,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2197,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2198,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2200,
+      "de": "Estatuto do Desarmamento",
+      "para": "Estatuto do Desarmamento: arts. 1º a 11"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 949,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 950,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1191,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2445,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2446,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2447,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2448,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2449,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2450,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 8º a 15"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 945,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 946,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 947,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 948,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1192,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1195,
+      "de": "Lei Maria da Penha",
+      "para": "Lei Maria da Penha: arts. 16 a 25"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 334,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 38 a 53"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1292,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 38 a 53"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2304,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 38 a 53"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2305,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 38 a 53"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1294,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 29 a 37"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1295,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 29 a 37"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2306,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 29 a 37"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 330,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 25 a 28"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2301,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 25 a 28"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 331,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 16 a 24"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 333,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 16 a 24"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2303,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 16 a 24"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 332,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 5º a 15"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2302,
+      "de": "Crimes Ambientais",
+      "para": "Crimes Ambientais: arts. 5º a 15"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 392,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 393,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 394,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 395,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1240,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1241,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1242,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2142,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2145,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2146,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2147,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 302 a 312"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 390,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 391,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1238,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1243,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2143,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2144,
+      "de": "Código de Trânsito Brasileiro",
+      "para": "Código de Trânsito Brasileiro: arts. 291 a 301"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1304,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1305,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1308,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1309,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 9º a 12"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 413,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 19 a 23-C"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2514,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 19 a 23-C"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 408,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 1º a 4º"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2515,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 1º a 4º"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 410,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 13 a 18"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 411,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 13 a 18"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 412,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 13 a 18"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1306,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 13 a 18"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1307,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 13 a 18"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2511,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 13 a 18"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2512,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 13 a 18"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2513,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 13 a 18"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2516,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 13 a 18"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 409,
+      "de": "Improbidade Administrativa",
+      "para": "Improbidade Administrativa: arts. 6º a 8º"
+    }
+  ]
+}
