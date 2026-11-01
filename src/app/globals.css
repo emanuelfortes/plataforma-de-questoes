@@ -38,6 +38,8 @@
   --color-fogo: #ff6a2b;
   /* Centro da chama (quase branco, igual nas duas visões: é a parte mais quente do fogo). */
   --color-nucleo-fogo: #fff3c4;
+  /* Fundo do furo de bala (escuro nas duas visões). */
+  --color-furo: #141414;
   --color-sobre-medalha: #1d1405;
   /* Verde-oliva do tema militar (ranking: patentes e fundo tático). */
   --color-oliva: #a3b46b;
@@ -275,62 +277,70 @@ select option:disabled {
   75% { transform: scale(0.95, 1.06) skewX(4deg); }
 }
 
-/* Labaredas subindo (cartão da frase de 3 e 5 acertos seguidos). */
-.incendio {
-  position: absolute;
-  inset-inline: 0;
-  bottom: 0;
-  height: var(--altura-fogo, 6rem);
-  pointer-events: none;
+/* Rajada (src/components/tiros.tsx): furos de bala no cartão da frase de 3 e 5 acertos seguidos.
+   Cada tiro chega com clarão, estilhaços e fumaça; o cartão dá um tranco por tiro (mesmo ritmo: 0,16s). */
+.rajada { animation: coice 0.16s ease-out 0.1s var(--tiros, 3); }
+@keyframes coice {
+  0%, 100% { transform: none; }
+  25% { transform: translate(-3px, 2px) rotate(-0.4deg); }
+  60% { transform: translate(2px, -1px) rotate(0.2deg); }
 }
-.incendio::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to top, color-mix(in oklab, var(--color-fogo) 55%, transparent), transparent 80%);
-  animation: brasa 1.8s ease-in-out infinite alternate;
-}
-/* Cada partícula é uma língua de fogo (a mesma gota da .fogo, alongada) que sobe, afina e some. */
-.particula-fogo {
+.furo {
   position: absolute;
   left: var(--x);
-  bottom: calc(var(--tamanho) * -0.35);
-  width: var(--tamanho);
+  top: var(--y);
+  width: var(--tam);
   aspect-ratio: 1;
-  translate: -50% 0;
-  transform-origin: 50% 100%;
-  filter: blur(3px);
-  opacity: 0;
-  animation: subir-fogo var(--duracao) cubic-bezier(0.4, 0, 0.7, 1) infinite var(--atraso);
+  translate: -50% -50%;
+  color: var(--color-texto);
 }
-.particula-fogo::before {
-  content: "";
+.furo svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; animation: impacto 0.2s cubic-bezier(0.2, 0.9, 0.3, 1.2) var(--atraso) both; }
+@keyframes impacto {
+  from { opacity: 0; transform: scale(1.7); }
+  to { opacity: 1; transform: scale(1); }
+}
+.clarao {
   position: absolute;
-  left: 15%;
-  bottom: 12%;
-  width: 70%;
-  aspect-ratio: 1;
-  border-radius: 50% 0 50% 50%;
-  rotate: -45deg;
-  background: radial-gradient(circle at 38% 62%, var(--color-nucleo-fogo) 0 14%, var(--color-ouro) 38%, var(--color-fogo) 72%);
+  inset: -35%;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--color-nucleo-fogo) 0 12%, var(--color-ouro) 28%, color-mix(in oklab, var(--color-fogo) 60%, transparent) 48%, transparent 68%);
+  opacity: 0;
+  animation: clarao 0.28s ease-out var(--atraso) both;
 }
-/* O esticão vertical fica no transform do pai (depois do giro da gota), para a chama ficar alta e fina. */
-@keyframes subir-fogo {
-  0% { transform: translate(0, 0) scale(0.7, 0.8); opacity: 0; }
-  12% { transform: translate(0, -8%) scale(1, 1.45); opacity: 0.95; }
-  50% { opacity: 0.8; }
-  100% { transform: translate(var(--deriva), calc(var(--altura-fogo) * -0.9)) scale(0.3, 0.9); opacity: 0; }
+@keyframes clarao {
+  from { opacity: 1; transform: scale(0.3); }
+  to { opacity: 0; transform: scale(1.25); }
 }
-@keyframes brasa {
-  from { opacity: 0.55; }
-  to { opacity: 1; }
+.estilhaco {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 4px;
+  height: 3px;
+  border-radius: 1px;
+  background: var(--color-suave);
+  opacity: 0;
+  animation: estilhaco 0.55s cubic-bezier(0.1, 0.7, 0.3, 1) var(--atraso) both;
 }
-/* Entrada da frase e o "chacoalhão" dos 3 erros seguidos. */
-.surgir { animation: surgir 0.45s cubic-bezier(0.2, 0.9, 0.3, 1.3) both; }
-@keyframes surgir {
-  from { transform: translateY(8px) scale(0.96); opacity: 0; }
-  to { transform: none; opacity: 1; }
+@keyframes estilhaco {
+  from { opacity: 1; transform: translate(0, 0) rotate(0deg); }
+  to { opacity: 0; transform: translate(var(--dx), var(--dy)) rotate(220deg); }
 }
+.fumaca {
+  position: absolute;
+  inset: -20%;
+  border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in oklab, var(--color-suave) 45%, transparent), transparent 65%);
+  opacity: 0;
+  filter: blur(4px);
+  animation: fumaca 1.4s ease-out var(--atraso) both;
+}
+@keyframes fumaca {
+  0% { opacity: 0; transform: translateY(0) scale(0.5); }
+  15% { opacity: 0.9; }
+  100% { opacity: 0; transform: translateY(-40%) scale(1.6); }
+}
+/* "Chacoalhão" do cartão dos 3 erros seguidos. */
 .tremer { animation: tremer 0.5s ease-in-out both; }
 @keyframes tremer {
   0%, 100% { transform: translateX(0); }
@@ -368,8 +378,8 @@ select option:disabled {
 
 @media (prefers-reduced-motion: reduce) {
   .card-giro { transition: none; }
-  .chama, .chama::after, .faisca, .fogo-lingua, .incendio::before, .surgir, .tremer { animation: none; }
+  .chama, .chama::after, .faisca, .fogo-lingua, .tremer, .rajada, .furo svg { animation: none; }
   .faisca { display: none; }
-  /* Sem movimento, as labaredas viram um brilho parado no pé do cartão. */
-  .particula-fogo { animation: none; opacity: 0.5; }
+  /* Sem movimento, os furos já aparecem prontos (sem clarão, estilhaço nem fumaça). */
+  .clarao, .estilhaco, .fumaca { display: none; }
 }

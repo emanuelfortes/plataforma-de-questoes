@@ -1,9 +1,10 @@
 "use client";
 
-import { ArrowRight, Check, CircleCheck, CircleX, LoaderCircle, RotateCcw, Scissors, TriangleAlert, X } from "lucide-react";
+import { ArrowRight, Check, CircleCheck, CircleX, Crosshair, LoaderCircle, RotateCcw, Scissors, TriangleAlert, X } from "lucide-react";
 import Link from "next/link";
-import { useEffect, useRef, useState, useTransition } from "react";
-import { Fogo, Incendio } from "@/components/fogo";
+import { useEffect, useRef, useState, useTransition, type CSSProperties } from "react";
+import { Fogo } from "@/components/fogo";
+import { Rajada } from "@/components/tiros";
 import { ReportarErro } from "@/components/reportar-erro";
 import { ComentarioQuestao } from "./comentario-questao";
 import { Button, variantesBotao } from "@/components/ui/button";
@@ -299,9 +300,13 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
       {resultado && (
         <div ref={refResultado} className="scroll-mb-28 space-y-5 md:scroll-mb-8" role="status">
           {fraseAcerto && (
-            <div className="surgir relative overflow-hidden rounded-2xl border border-fogo/40 bg-camada px-5 pt-5 pb-16 text-center">
-              <Incendio forca={sequencia >= 5 ? 2 : 1} />
-              <Fogo className="relative text-4xl" intenso={sequencia >= 5} />
+            // Rajada: um tiro na parede por acerto (3 ou 5), com tranco no cartão a cada um.
+            <div
+              className="rajada relative overflow-hidden rounded-2xl border border-borda bg-camada px-14 py-11 text-center"
+              style={{ "--tiros": sequencia >= 5 ? 5 : 3 } as CSSProperties}
+            >
+              <Rajada tiros={sequencia >= 5 ? 5 : 3} />
+              <Crosshair className="relative mx-auto size-8 text-fogo" aria-hidden />
               <p className="relative mt-2 text-xl font-extrabold leading-snug text-texto sm:text-2xl">{fraseAcerto}</p>
             </div>
           )}
