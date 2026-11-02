@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Card } from "@/components/ui/card";
 import { variantesBotao } from "@/components/ui/button";
-import { BENEFICIOS_ELITE, ELITE, formatarReais } from "@/lib/planos";
+import { BENEFICIOS_ELITE, ELITE, formatarReais, precoDoPlano } from "@/lib/planos";
 import { exigirUsuario } from "@/lib/sessao";
 import { cn } from "@/lib/utils";
 import { temElite } from "@/server/assinatura";
@@ -77,8 +77,9 @@ function ConviteElite() {
     <Card className="space-y-5 border-2 border-marca p-6">
       <div>
         <p className="text-sm font-bold text-marca-clara">🏆 {ELITE.nome}</p>
+        {precoDoPlano("elite") < ELITE.valor && <p className="mt-1 text-sm font-bold text-suave line-through">{formatarReais(ELITE.valor)}/mês</p>}
         <p className="mt-1 text-4xl font-extrabold tracking-tight">
-          {formatarReais(ELITE.valor)}
+          {formatarReais(precoDoPlano("elite"))}
           <span className="text-base font-bold text-suave"> /mês</span>
         </p>
       </div>

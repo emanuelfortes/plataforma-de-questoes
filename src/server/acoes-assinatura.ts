@@ -4,15 +4,12 @@
 import { revalidatePath } from "next/cache";
 import { z } from "zod";
 import { exigirUsuario } from "@/lib/sessao";
-import { blackFridayAberta, type Plano } from "@/lib/planos";
+import type { Plano } from "@/lib/planos";
 import {
   assinarComCartao,
   assinaturaDoUsuario,
   cancelarAssinatura,
   criarCheckout,
-  criarCheckoutBlackFriday,
-  ehCompra,
-  jaComprouBlackFriday,
   mudarPlano,
 } from "./assinatura";
 
@@ -20,7 +17,7 @@ const planoSchema = z.enum(["basico", "elite"]);
 
 export type ResultadoAssinar = { ok: true; url: string } | { ok: false; erro: string };
 
-/** Mensal já ativa? (quem tem Black Friday ou período pago pode assinar: a cobrança começa no fim do acesso). */
+/** Mensal já ativa? (quem cancelou e ainda tem período pago pode assinar: a cobrança começa no fim do acesso). */
 const mensalAtiva = async (usuarioId: string) => (await assinaturaDoUsuario(usuarioId))?.status === "authorized";
 
 /** Cria a assinatura no Mercado Pago e devolve o link do checkout. */
@@ -78,7 +75,7 @@ export async function assinarCartao(entrada: unknown): Promise<ResultadoCartao> 
 export async function cancelar():Promise<{ ok: boolean; erro?: string }> {
   const usuario = await exigirUsuario();
   const a = await assinaturaDoUsuario(usuario.id);
-  if (!a || a.status === "cancelled" || ehCompra(a.id)) return { ok: false, erro: "Você não tem assinatura ativa." };
+  if (!a || a.status === "cancelled") return { ok: false, erro: "Você não tem assinatura ativa." };
   try {
     await cancelarAssinatura(a.id);
   } catch (erro) {
@@ -89,27 +86,13 @@ export async function cancelar():Promise<{ ok: boolean; erro?: string }> {
   return { ok: true };
 }
 
-/** Black Friday: pagamento único (Pix ou cartão) no Mercado Pago. Uma por conta, só para quem não assina. */
-export async function comprarBlackFriday(): Promise<ResultadoAssinar> {
-  const usuario = await exigirUsuario();
-  if (!blackFridayAberta()) return { ok: false, erro: "A oferta da Black Friday já terminou." };
-  if (await mensalAtiva(usuario.id)) return { ok: false, erro: "Sua assinatura já está ativa." };
-  if (await jaComprouBlackFriday(usuario.id)) return { ok: false, erro: "Você já aproveitou a Black Friday nesta conta." };
-  try {
-    return { ok: true, url: await criarCheckoutBlackFriday(usuario) };
-  } catch (erro) {
-    console.error("[assinatura] falha ao criar checkout da Black Friday:", erro);
-    return { ok: false, erro: "Não foi possível abrir o pagamento agora. Tente de novo em alguns minutos." };
-  }
-}
-
 /** Sobe para o Elite ou volta ao Basic na assinatura mensal ativa (muda o valor das próximas cobranças). */
 export async function trocarPlano(entrada: unknown): Promise<{ ok: boolean; erro?: string }> {
   const usuario = await exigirUsuario();
   const plano = planoSchema.safeParse(entrada);
   if (!plano.success) return { ok: false, erro: "Plano inválido." };
   const a = await assinaturaDoUsuario(usuario.id);
-  if (!a || a.status !== "authorized" || ehCompra(a.id)) return { ok: false, erro: "Você não tem assinatura mensal ativa." };
+  if (!a || a.status !== "authorized") return { ok: false, erro: "Você não tem assinatura ativa." };
   try {
     await mudarPlano(a.id, plano.data satisfies Plano);
   } catch (erro) {

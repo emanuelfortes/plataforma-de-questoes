@@ -29,20 +29,31 @@ export const BENEFICIOS_ELITE = [
 ];
 
 /**
- * Black Friday: paga uma vez (Pix ou cartão) e ganha 2 meses. Não renova sozinha: perto do fim, o aluno
- * ativa a assinatura mensal, que só começa a cobrar quando os 2 meses acabam. Uma por conta.
+ * Preço de lançamento: quem assina até o fim de novembro paga para sempre o preço promocional (o valor
+ * fica gravado na assinatura do Mercado Pago). Depois, quem assina (ou cancela e volta) paga o valor cheio.
  */
-export const BLACK_FRIDAY = {
-  nome: "Black Friday: 2 meses",
-  valor: 39.8,
-  dias: 60,
-  descricao: "Riccardo Nóbrega - Black Friday 2 meses",
-  /** Último dia da oferta (fuso de Brasília). Depois disso o botão some sozinho. */
-  ate: "2026-12-31",
+export const PROMOCAO = {
+  /** Último dia (fuso de Brasília). */
+  ate: "2026-11-30",
+  basico: 19.9,
+  elite: 29.9,
 } as const;
 
-export function blackFridayAberta(agora = new Date()) {
-  return agora.getTime() < new Date(`${BLACK_FRIDAY.ate}T23:59:59-03:00`).getTime();
+export function promocaoAberta(agora = new Date()) {
+  return agora.getTime() <= new Date(`${PROMOCAO.ate}T23:59:59-03:00`).getTime();
+}
+
+/** Preço de quem assina agora (promocional até o fim da promoção). Calcule no servidor e passe para a tela. */
+export function precoDoPlano(plano: Plano, agora = new Date()) {
+  return promocaoAberta(agora) ? PROMOCAO[plano] : PLANOS[plano].valor;
+}
+
+/**
+ * A assinatura é Elite? O Mercado Pago só guarda o valor, então o plano sai dele: qualquer valor de Elite
+ * (o promocional também) é maior que qualquer valor do Basic. Mantenha assim ao mudar preços.
+ */
+export function valorEhElite(centavos: number) {
+  return centavos >= Math.round(Math.min(PROMOCAO.elite, ELITE.valor) * 100);
 }
 
 /** O que a assinatura inclui (página inicial e tela de assinatura). */
@@ -63,8 +74,6 @@ export const LIMITE_GRATIS_DIA = 5;
  * Separa o dinheiro da plataforma do de outros produtos na mesma conta (ex.: LexCursos).
  */
 export const PREFIXO_REFERENCIA = "nobrega-questoes";
-/** Compras de pagamento único (Black Friday): "nobrega-questoes:compra:<usuarioId>". */
-export const PREFIXO_COMPRA = `${PREFIXO_REFERENCIA}:compra`;
 
 export function formatarReais(valor: number) {
   return valor.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });

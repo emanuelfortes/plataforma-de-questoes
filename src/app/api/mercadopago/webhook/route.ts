@@ -1,5 +1,5 @@
 import { InvalidWebhookSignatureError, WebhookSignatureValidator } from "mercadopago";
-import { sincronizarAssinatura, sincronizarCompra, sincronizarPagamento } from "@/server/assinatura";
+import { sincronizarAssinatura, sincronizarPagamento } from "@/server/assinatura";
 
 // Avisos do Mercado Pago sobre assinaturas. Configure em Suas integrações > (aplicação
 // Nóbrega Questões) > Webhooks: URL https://riccardonobrega.com/api/mercadopago/webhook,
@@ -40,9 +40,7 @@ export async function POST(requisicao: Request) {
   try {
     if (tipo === "subscription_preapproval" || tipo === "preapproval") await sincronizarAssinatura(id);
     else if (tipo === "subscription_authorized_payment" || tipo === "authorized_payment") await sincronizarPagamento(id);
-    // Pagamento avulso: só conta se for a Black Friday desta plataforma (a referência é conferida na API).
-    else if (tipo === "payment" && /^\d{1,20}$/.test(id)) await sincronizarCompra(id);
-    // Outros tipos (planos...) não são desta integração: só confirmamos o recebimento.
+    // Outros tipos (pagamentos avulsos, planos...) não são desta integração: só confirmamos o recebimento.
   } catch (erro) {
     // Devolver erro faz o Mercado Pago tentar de novo mais tarde (a cada 15 minutos).
     console.error(`[mercadopago] falha ao processar ${tipo} ${id}:`, erro);

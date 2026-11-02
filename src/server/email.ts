@@ -133,14 +133,3 @@ export function emailConfirmarEndereco(nome: string, url: string): Omit<Email, "
     texto: `Olá, ${nome}.\n\n${pedido}\n\n${url}\n\n${rodape}`,
   };
 }
-
-export function emailFimDoPeriodo(nome: string, fim: string, valor: string, url: string): Omit<Email, "para"> {
-  const ola = `Olá, ${escapar(nome)}.`;
-  const aviso = `Seus 2 meses da Black Friday terminam em ${fim}. Para continuar estudando sem limite, ative a assinatura de ${valor} por mês. A primeira cobrança só acontece quando o período atual acabar.`;
-  const rodape = "Se não ativar, sua conta continua com o limite grátis de questões por dia.";
-  return {
-    assunto: `Sua Black Friday termina em ${fim}`,
-    html: modelo("Continue estudando", [ola, aviso], { rotulo: "Ativar assinatura", url }, rodape),
-    texto: `Olá, ${nome}.\n\n${aviso}\n\n${url}\n\n${rodape}`,
-  };
-}

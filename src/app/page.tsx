@@ -11,11 +11,12 @@ import {
   ASSINATURA,
   BENEFICIOS_ASSINATURA,
   BENEFICIOS_ELITE,
-  BLACK_FRIDAY,
-  blackFridayAberta,
   ELITE,
   formatarReais,
   LIMITE_GRATIS_DIA,
+  precoDoPlano,
+  PROMOCAO,
+  promocaoAberta,
 } from "@/lib/planos";
 import { obterSessao } from "@/lib/sessao";
 import { cn, formatarNumero } from "@/lib/utils";
@@ -360,16 +361,7 @@ function Preco() {
               <Sparkles className="size-3.5" aria-hidden /> Mais completo
             </span>
             <p className="font-extrabold">{ASSINATURA.nome}</p>
-            <p className="mt-2 text-4xl font-extrabold tracking-tight">
-              {formatarReais(ASSINATURA.valor)}
-              <span className="text-base font-bold text-suave">/mês</span>
-            </p>
-            <p className="text-sm text-suave">cancele quando quiser</p>
-            {blackFridayAberta() && (
-              <p className="mt-3 rounded-xl border border-destaque/50 bg-destaque-suave px-3 py-2 text-sm font-bold text-destaque">
-                ⚠️ Black Friday: 2 meses por {formatarReais(BLACK_FRIDAY.valor)} ({formatarReais(BLACK_FRIDAY.valor / 2)} por mês), pagamento único no Pix ou cartão.
-              </p>
-            )}
+            <PrecoPlano plano="basico" normal={ASSINATURA.valor} />
             <Lista itens={BENEFICIOS_ASSINATURA} />
             <Link href="/cadastrar" className={cn(variantesBotao(), "mt-auto w-full")}>
               Começar agora
@@ -377,11 +369,7 @@ function Preco() {
           </div>
           <div className="flex flex-col rounded-3xl border border-borda bg-superficie p-6 transition-colors hover:border-borda-forte sm:p-8">
             <p className="font-extrabold">🏆 {ELITE.nome}</p>
-            <p className="mt-2 text-4xl font-extrabold tracking-tight">
-              {formatarReais(ELITE.valor)}
-              <span className="text-base font-bold text-suave">/mês</span>
-            </p>
-            <p className="text-sm text-suave">cancele quando quiser</p>
+            <PrecoPlano plano="elite" normal={ELITE.valor} />
             <Lista itens={BENEFICIOS_ELITE} />
             <Link href="/cadastrar" className={cn(variantesBotao({ variante: "contorno" }), "mt-auto w-full")}>
               Quero o Elite
@@ -390,6 +378,26 @@ function Preco() {
         </div>
       </div>
     </section>
+  );
+}
+
+/** Preço do plano: na promoção de lançamento, o normal riscado e o aviso de que o preço fica para sempre. */
+function PrecoPlano({ plano, normal }: { plano: "basico" | "elite"; normal: number }) {
+  const valor = precoDoPlano(plano);
+  return (
+    <>
+      {valor < normal && <p className="mt-2 text-sm font-bold text-suave line-through">{formatarReais(normal)}/mês</p>}
+      <p className={cn("text-4xl font-extrabold tracking-tight", valor < normal ? "mt-0.5" : "mt-2")}>
+        {formatarReais(valor)}
+        <span className="text-base font-bold text-suave">/mês</span>
+      </p>
+      <p className="text-sm text-suave">cancele quando quiser</p>
+      {promocaoAberta() && (
+        <p className="mt-3 rounded-xl border border-destaque/50 bg-destaque-suave px-3 py-2 text-sm font-bold text-destaque">
+          ⚠️ Preço de lançamento: assine até {PROMOCAO.ate.split("-").reverse().join("/")} e pague esse valor para sempre.
+        </p>
+      )}
+    </>
   );
 }
 

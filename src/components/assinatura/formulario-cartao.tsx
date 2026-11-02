@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
-import { PLANOS, type Plano } from "@/lib/planos";
+import type { Plano } from "@/lib/planos";
 import { assinarCartao } from "@/server/acoes-assinatura";
 
 // Checkout transparente: o formulário de cartão do Mercado Pago (Card Payment Brick) aparece dentro
@@ -48,11 +48,14 @@ export function FormularioCartao({
   email,
   rotulo,
   plano = "basico",
+  valor,
 }: {
   chavePublica: string;
   email: string;
   rotulo: string;
   plano?: Plano;
+  /** Preço de hoje, calculado no servidor (precoDoPlano). O valor cobrado é decidido no servidor. */
+  valor: number;
 }) {
   const idCaixa = `${ID_CAIXA}-${plano}`;
   const router = useRouter();
@@ -71,7 +74,7 @@ export function FormularioCartao({
         if (cancelado || !window.MercadoPago) return;
         const mp = new window.MercadoPago(chavePublica, { locale: "pt-BR" });
         const c = await mp.bricks().create("cardPayment", idCaixa, {
-          initialization: { amount: PLANOS[plano].valor, payer: { email } },
+          initialization: { amount: valor, payer: { email } },
           customization: {
             paymentMethods: { maxInstallments: 1, types: { excluded: ["debit_card", "prepaid_card"] } },
             visual: { style: { theme: temaEscuro() ? "dark" : "default" }, texts: { formTitle: "Cartão de crédito", formSubmit: "Assinar" } },
@@ -101,7 +104,7 @@ export function FormularioCartao({
       controle.current?.unmount();
       controle.current = null;
     };
-  }, [aberto, chavePublica, email, router, idCaixa, plano]);
+  }, [aberto, chavePublica, email, router, idCaixa, plano, valor]);
 
   if (sucesso) {
     return (

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { CabecalhoPagina, CardMetrica, classeCabecalhoTabela, Secao, Selo } from "@/components/admin/kit";
-import { ASSINATURA, formatarReais, PREFIXO_REFERENCIA } from "@/lib/planos";
+import { formatarReais, PREFIXO_REFERENCIA } from "@/lib/planos";
 import { resumoFaturamento } from "@/server/assinatura";
 import { resumoPessoas } from "@/server/pessoas";
 
@@ -70,7 +70,7 @@ export default async function PaginaFinanceiro() {
         <CardMetrica
           rotulo="Receita recorrente (MRR)"
           valor={reais(r.mrrCentavos)}
-          dica={`${plural(r.assinantesAtivos, "assinante", "assinantes")} × ${formatarReais(ASSINATURA.valor)}`}
+          dica={`soma das ${plural(r.assinantesAtivos, "assinatura ativa", "assinaturas ativas")} (Basic, Elite e preço de lançamento)`}
           tom="acerto"
         />
         <CardMetrica
