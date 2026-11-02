@@ -61,6 +61,17 @@ export function valorEhElite(centavos: number) {
   return centavos >= Math.round(Math.min(PROMOCAO.elite, ELITE.valor) * 100);
 }
 
+/**
+ * Valor da assinatura depois de incluir ou tirar a Tropa de Elite: soma ou tira o adicional do que o aluno já
+ * paga, para quem assinou na Black Friday não perder o preço do Basic. Em centavos.
+ */
+export function valorAoTrocar(centavosAtuais: number, plano: Plano) {
+  const adicional = Math.round(ADICIONAL_ELITE * 100);
+  const elite = valorEhElite(centavosAtuais);
+  if (plano === "elite") return elite ? centavosAtuais : centavosAtuais + adicional;
+  return elite ? centavosAtuais - adicional : centavosAtuais;
+}
+
 /** O que a assinatura inclui (página inicial e tela de assinatura). */
 export const BENEFICIOS_ASSINATURA = [
   "Questões ilimitadas",

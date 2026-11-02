@@ -16,6 +16,7 @@ import {
   precoDoPlano,
   PROMOCAO,
   promocaoAberta,
+  valorAoTrocar,
   type Plano,
 } from "@/lib/planos";
 import { cn } from "@/lib/utils";
@@ -82,8 +83,8 @@ export default async function PaginaAssinatura({
                 <Link href="/simulados" className="font-bold text-marca-clara hover:underline">
                   Simulados
                 </Link>
-                . Quer só as questões? Volte para o Basic ({formatarReais(precoDoPlano("basico"))}/mês) a partir da
-                próxima cobrança.
+                . Quer só as questões? Volte para o Basic ({formatarReais(valorAoTrocar(a.valorCentavos, "basico") / 100)}
+                /mês) a partir da próxima cobrança.
               </p>
               <BotaoTrocarPlano plano="basico" rotulo="Voltar para o Basic" />
             </div>
@@ -91,7 +92,7 @@ export default async function PaginaAssinatura({
             <div className="space-y-3 border-t border-acerto/30 pt-4 text-sm text-texto/85">
               <p>
                 <strong>{ELITE.nome}:</strong> {BENEFICIOS_ELITE.slice(1).join("; ")}. Por mais{" "}
-                {formatarReais(ADICIONAL_ELITE)}/mês (total de {formatarReais(precoDoPlano("elite"))}/mês): os simulados
+                {formatarReais(ADICIONAL_ELITE)}/mês (total de {formatarReais(valorAoTrocar(a.valorCentavos, "elite") / 100)}/mês): os simulados
                 liberam agora e o novo valor vale a partir da próxima cobrança.
               </p>
               <BotaoTrocarPlano plano="elite" rotulo="Incluir a Tropa de Elite" />
@@ -136,7 +137,7 @@ export default async function PaginaAssinatura({
               valor={precoDoPlano(plano)}
               chavePublica={chavePublica}
               email={usuario.email}
-              rotulo={a?.status === "pending" ? "Concluir pagamento" : plano === "elite" ? "Assinar com a Tropa de Elite" : "Assinar o Basic"}
+              rotulo={a?.status === "pending" ? "Concluir pagamento" : `Assinar por ${formatarReais(precoDoPlano(plano))}/mês`}
             />
           ))}
           <p className="text-xs leading-relaxed text-suave">

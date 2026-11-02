@@ -4,7 +4,7 @@ import { Invoice, MercadoPagoConfig, PreApproval } from "mercadopago";
 import { db } from "@/db";
 import { assinaturas, pagamentos, respostas, user } from "@/db/schema";
 import { inicioDoDiaLocal } from "@/lib/datas";
-import { PLANOS, precoDoPlano, PREFIXO_REFERENCIA, valorEhElite, type Plano } from "@/lib/planos";
+import { PLANOS, precoDoPlano, PREFIXO_REFERENCIA, valorAoTrocar, valorEhElite, type Plano } from "@/lib/planos";
 import { ehAdmin } from "@/lib/admin";
 
 // Assinatura mensal pelo Mercado Pago (preapproval sem plano, status "pending"): o aluno é levado
@@ -213,14 +213,16 @@ export async function temElite(usuario: { id: string; email: string }) {
 }
 
 /**
- * Troca de plano na mesma assinatura (o Mercado Pago deixa mudar só o valor), no preço de hoje: depois de
- * novembro, trocar perde o preço promocional. Vale a partir da próxima cobrança; quem sobe para o Elite já
- * ganha os simulados agora.
+ * Troca de plano na mesma assinatura (o Mercado Pago deixa mudar só o valor): soma ou tira o adicional da
+ * Tropa de Elite do valor que o aluno já paga, então o preço da Black Friday continua valendo. Vale a partir
+ * da próxima cobrança; quem inclui a Tropa de Elite já ganha os simulados agora.
  */
-export async function mudarPlano(id: string, plano: Plano) {
+export async function mudarPlano(id: string, centavosAtuais: number, plano: Plano) {
+  const novo = valorAoTrocar(centavosAtuais, plano);
+  if (novo === centavosAtuais) return;
   await new PreApproval(cliente()).update({
     id,
-    body: { reason: PLANOS[plano].descricao, auto_recurring: { transaction_amount: precoDoPlano(plano), currency_id: "BRL" } },
+    body: { reason: PLANOS[plano].descricao, auto_recurring: { transaction_amount: novo / 100, currency_id: "BRL" } },
   });
   await sincronizarAssinatura(id);
 }

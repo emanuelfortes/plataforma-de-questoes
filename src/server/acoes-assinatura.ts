@@ -94,7 +94,7 @@ export async function trocarPlano(entrada: unknown): Promise<{ ok: boolean; erro
   const a = await assinaturaDoUsuario(usuario.id);
   if (!a || a.status !== "authorized") return { ok: false, erro: "Você não tem assinatura ativa." };
   try {
-    await mudarPlano(a.id, plano.data satisfies Plano);
+    await mudarPlano(a.id, a.valorCentavos, plano.data satisfies Plano);
   } catch (erro) {
     console.error("[assinatura] falha ao trocar de plano:", erro);
     return { ok: false, erro: "Não foi possível trocar de plano agora. Tente de novo em alguns minutos." };

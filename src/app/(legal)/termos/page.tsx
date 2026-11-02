@@ -75,8 +75,8 @@ export default function PaginaTermos() {
         <li>
           <strong>{PROMOCAO.nome}:</strong> quem assina até {PROMOCAO.ate.split("-").reverse().join("/")} paga{" "}
           {formatarReais(PROMOCAO.basico)} por mês no {ASSINATURA.nome} e {formatarReais(PROMOCAO.elite)} com a {ELITE.nome},
-          enquanto mantiver a assinatura. Se cancelar e assinar de novo depois desse prazo, ou trocar de plano depois
-          dele, vale o preço normal.
+          enquanto mantiver a assinatura. Incluir ou tirar a {ELITE.nome} depois soma ou tira {formatarReais(ADICIONAL_ELITE)} desse
+          valor. Se cancelar e assinar de novo depois do prazo, vale o preço normal.
         </li>
         <li>
           O pagamento é processado pelo Mercado Pago, no cartão de crédito, e <strong>renova sozinho todo mês</strong>{" "}
