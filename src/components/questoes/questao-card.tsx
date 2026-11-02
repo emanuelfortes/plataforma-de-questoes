@@ -129,7 +129,9 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
     : resultado?.gabarito;
 
   return (
-    <article className="space-y-6">
+    // touch-manipulation: sem ele, o toque duplo (riscar alternativa) dá zoom no celular e a barra fixa
+    // de Pular e Responder fica solta no meio da tela, cobrindo as alternativas.
+    <article className="touch-manipulation space-y-6">
       {/* 1. progresso  2. matéria e área  3. banca e ano */}
       <header className="space-y-3">
         <div className="flex items-center gap-3">
