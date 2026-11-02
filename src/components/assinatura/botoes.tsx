@@ -2,9 +2,10 @@
 
 import { useState, useTransition } from "react";
 import { Button } from "@/components/ui/button";
-import { assinar, cancelar } from "@/server/acoes-assinatura";
+import { assinar, cancelar, comprarBlackFriday } from "@/server/acoes-assinatura";
 
-export function BotaoAssinar({ rotulo = "Assinar agora" }: { rotulo?: string }) {
+/** Leva ao checkout do Mercado Pago: assinatura mensal ou, com blackFriday, o pagamento único. */
+export function BotaoAssinar({ rotulo = "Assinar agora", blackFriday = false }: { rotulo?: string; blackFriday?: boolean }) {
   const [erro, setErro] = useState<string | null>(null);
   const [enviando, iniciar] = useTransition();
   return (
@@ -16,7 +17,7 @@ export function BotaoAssinar({ rotulo = "Assinar agora" }: { rotulo?: string }) 
         onClick={() =>
           iniciar(async () => {
             setErro(null);
-            const r = await assinar();
+            const r = await (blackFriday ? comprarBlackFriday() : assinar());
             if (!r.ok) return setErro(r.erro);
             window.location.href = r.url; // checkout do Mercado Pago
           })

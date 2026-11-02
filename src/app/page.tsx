@@ -7,7 +7,7 @@ import { BotaoTema } from "@/components/botao-tema";
 import { Logo } from "@/components/logo";
 import { variantesBotao } from "@/components/ui/button";
 import { NOME_PLATAFORMA } from "@/lib/marca";
-import { ASSINATURA, BENEFICIOS_ASSINATURA, formatarReais, LIMITE_GRATIS_DIA } from "@/lib/planos";
+import { ASSINATURA, BENEFICIOS_ASSINATURA, BLACK_FRIDAY, blackFridayAberta, formatarReais, LIMITE_GRATIS_DIA } from "@/lib/planos";
 import { obterSessao } from "@/lib/sessao";
 import { cn, formatarNumero } from "@/lib/utils";
 import { resumoVitrine } from "@/server/vitrine";
@@ -356,6 +356,11 @@ function Preco() {
               <span className="text-base font-bold text-suave">/mês</span>
             </p>
             <p className="text-sm text-suave">cancele quando quiser</p>
+            {blackFridayAberta() && (
+              <p className="mt-3 rounded-xl border border-destaque/50 bg-destaque-suave px-3 py-2 text-sm font-bold text-destaque">
+                ⚠️ Black Friday: 2 meses por {formatarReais(BLACK_FRIDAY.valor)} ({formatarReais(BLACK_FRIDAY.valor / 2)} por mês), pagamento único no Pix ou cartão.
+              </p>
+            )}
             <Lista itens={BENEFICIOS_ASSINATURA} />
             <Link href="/cadastrar" className={cn(variantesBotao(), "mt-auto w-full")}>
               Começar agora

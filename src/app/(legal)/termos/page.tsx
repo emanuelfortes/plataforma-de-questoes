@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ContatoWhatsapp, PaginaLegal, Responsavel } from "@/components/pagina-legal";
 import { LEGAL } from "@/lib/legal";
-import { ASSINATURA, formatarReais, LIMITE_GRATIS_DIA } from "@/lib/planos";
+import { ASSINATURA, BLACK_FRIDAY, formatarReais, LIMITE_GRATIS_DIA } from "@/lib/planos";
 
 export const metadata: Metadata = { title: "Termos de uso" };
 
@@ -65,6 +65,11 @@ export default function PaginaTermos() {
         </li>
         <li>
           <strong>{ASSINATURA.nome}:</strong> {formatarReais(ASSINATURA.valor)} por mês, com questões ilimitadas.
+        </li>
+        <li>
+          <strong>Black Friday (oferta por tempo limitado):</strong> {formatarReais(BLACK_FRIDAY.valor)} por{" "}
+          {BLACK_FRIDAY.dias} dias de acesso completo, em pagamento único (Pix ou cartão), uma vez por conta. Não renova
+          sozinha: ao fim do período, a conta volta ao plano grátis, a menos que você ative a assinatura mensal.
         </li>
         <li>
           O pagamento é processado pelo Mercado Pago, no cartão de crédito, e <strong>renova sozinho todo mês</strong>{" "}
