@@ -32,7 +32,7 @@ async function exigirElite() {
 
 export async function comecarSimulado(id: unknown): Promise<Resultado> {
   const usuario = await exigirElite();
-  if (!usuario) return { ok: false, erro: "Os simulados são do plano Elite." };
+  if (!usuario) return { ok: false, erro: "Os simulados são da Tropa de Elite." };
   const sim = idSchema.safeParse(id);
   if (!sim.success) return { ok: false, erro: "Simulado inválido." };
   const r = await iniciarTentativa(sim.data, usuario.id);
@@ -50,7 +50,7 @@ export async function guardarMarcacoes(id: unknown, respostas: unknown): Promise
 
 export async function entregarSimulado(id: unknown, respostas: unknown): Promise<Resultado> {
   const usuario = await exigirElite();
-  if (!usuario) return { ok: false, erro: "Os simulados são do plano Elite." };
+  if (!usuario) return { ok: false, erro: "Os simulados são da Tropa de Elite." };
   const sim = idSchema.safeParse(id);
   const resp = respostasSchema.safeParse(respostas);
   if (!sim.success || !resp.success) return { ok: false, erro: "Gabarito inválido." };

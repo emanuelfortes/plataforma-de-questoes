@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ContatoWhatsapp, PaginaLegal, Responsavel } from "@/components/pagina-legal";
 import { LEGAL } from "@/lib/legal";
-import { ASSINATURA, ELITE, formatarReais, LIMITE_GRATIS_DIA, PROMOCAO } from "@/lib/planos";
+import { ADICIONAL_ELITE, ASSINATURA, ELITE, formatarReais, LIMITE_GRATIS_DIA, PROMOCAO } from "@/lib/planos";
 
 export const metadata: Metadata = { title: "Termos de uso" };
 
@@ -67,13 +67,14 @@ export default function PaginaTermos() {
           <strong>{ASSINATURA.nome}:</strong> {formatarReais(ASSINATURA.valor)} por mês, com questões ilimitadas.
         </li>
         <li>
-          <strong>{ELITE.nome}:</strong> {formatarReais(ELITE.valor)} por mês: tudo do {ASSINATURA.nome} e os simulados do
-          mês (PDF para baixar e imprimir, gabarito com cronômetro e ranking entre os assinantes Elite). O PDF é de uso
+          <strong>{ELITE.nome}:</strong> adicional de {formatarReais(ADICIONAL_ELITE)} por mês sobre o {ASSINATURA.nome}, cobrado
+          junto numa só cobrança ({formatarReais(ELITE.valor)} por mês no total), com os simulados do mês (PDF para baixar
+          e imprimir, gabarito com cronômetro e ranking entre os assinantes da {ELITE.nome}). O PDF é de uso
           pessoal: não pode ser repassado.
         </li>
         <li>
-          <strong>Preço de lançamento:</strong> quem assina até {PROMOCAO.ate.split("-").reverse().join("/")} paga{" "}
-          {formatarReais(PROMOCAO.basico)} por mês no {ASSINATURA.nome} e {formatarReais(PROMOCAO.elite)} no {ELITE.nome},
+          <strong>{PROMOCAO.nome}:</strong> quem assina até {PROMOCAO.ate.split("-").reverse().join("/")} paga{" "}
+          {formatarReais(PROMOCAO.basico)} por mês no {ASSINATURA.nome} e {formatarReais(PROMOCAO.elite)} com a {ELITE.nome},
           enquanto mantiver a assinatura. Se cancelar e assinar de novo depois desse prazo, ou trocar de plano depois
           dele, vale o preço normal.
         </li>

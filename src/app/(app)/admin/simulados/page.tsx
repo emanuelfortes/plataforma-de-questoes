@@ -17,7 +17,7 @@ export default async function PaginaSimuladosAdmin() {
     <>
       <CabecalhoPagina
         titulo="Simulados"
-        subtitulo="Do plano Elite: o aluno baixa o PDF, imprime, dá o play no cronômetro e marca o gabarito aqui. O ranking sai das entregas."
+        subtitulo="Da Tropa de Elite: o aluno baixa o PDF, imprime, dá o play no cronômetro e marca o gabarito aqui. O ranking sai das entregas."
       />
       <Secao titulo="Novo simulado">
         <NovoSimulado />

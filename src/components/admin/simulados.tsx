@@ -102,7 +102,7 @@ export function NovoSimulado() {
           const falha = await enviarPdf(r.id, pdf, (p) => setAviso(`Enviando o PDF: ${Math.round(p * 100)}%`));
           if (falha) return setErro(`O simulado foi criado, mas o PDF não subiu: ${falha} Envie de novo na lista abaixo.`);
           form.reset();
-          setAviso("Simulado criado. Ele aparece para o Elite na data de liberação.");
+          setAviso("Simulado criado. Ele aparece para a Tropa de Elite na data de liberação.");
           router.refresh();
         });
       }}

@@ -8,6 +8,7 @@ import { Logo } from "@/components/logo";
 import { variantesBotao } from "@/components/ui/button";
 import { NOME_PLATAFORMA } from "@/lib/marca";
 import {
+  ADICIONAL_ELITE,
   ASSINATURA,
   BENEFICIOS_ASSINATURA,
   BENEFICIOS_ELITE,
@@ -368,11 +369,11 @@ function Preco() {
             </Link>
           </div>
           <div className="flex flex-col rounded-3xl border border-borda bg-superficie p-6 transition-colors hover:border-borda-forte sm:p-8">
-            <p className="font-extrabold">🏆 {ELITE.nome}</p>
+            <p className="font-extrabold uppercase">🏆 {ELITE.nome}</p>
             <PrecoPlano plano="elite" normal={ELITE.valor} />
             <Lista itens={BENEFICIOS_ELITE} />
             <Link href="/cadastrar" className={cn(variantesBotao({ variante: "contorno" }), "mt-auto w-full")}>
-              Quero o Elite
+              Quero a Tropa de Elite
             </Link>
           </div>
         </div>
@@ -381,20 +382,40 @@ function Preco() {
   );
 }
 
-/** Preço do plano: na promoção de lançamento, o normal riscado e o aviso de que o preço fica para sempre. */
+/**
+ * Preço do plano: na Black Friday, o normal riscado e o aviso de que o preço fica para sempre. A Tropa de
+ * Elite aparece como adicional (+ R$ 9,90), com o total que o aluno paga logo abaixo.
+ */
 function PrecoPlano({ plano, normal }: { plano: "basico" | "elite"; normal: number }) {
   const valor = precoDoPlano(plano);
+  if (plano === "elite") {
+    return (
+      <>
+        <p className="mt-2 text-sm text-suave">Inclua 2 simulados exclusivos por apenas</p>
+        <p className="text-4xl font-extrabold tracking-tight">
+          + {formatarReais(ADICIONAL_ELITE)}
+          <span className="text-base font-bold text-suave">/mês</span>
+        </p>
+        <p className="text-sm text-suave">
+          Total com o Basic: <strong className="text-texto">{formatarReais(valor)}/mês</strong>
+          {valor < normal && <span className="ml-1.5 line-through">{formatarReais(normal)}</span>}
+        </p>
+      </>
+    );
+  }
   return (
     <>
-      {valor < normal && <p className="mt-2 text-sm font-bold text-suave line-through">{formatarReais(normal)}/mês</p>}
+      {promocaoAberta() && <p className="mt-2 text-sm font-extrabold text-destaque">{PROMOCAO.nome}</p>}
+      {valor < normal && <p className="mt-1 text-sm font-bold text-suave">De <span className="line-through">{formatarReais(normal)}/mês</span></p>}
       <p className={cn("text-4xl font-extrabold tracking-tight", valor < normal ? "mt-0.5" : "mt-2")}>
+        {valor < normal && <span className="text-base font-bold text-suave">Por </span>}
         {formatarReais(valor)}
         <span className="text-base font-bold text-suave">/mês</span>
       </p>
       <p className="text-sm text-suave">cancele quando quiser</p>
       {promocaoAberta() && (
         <p className="mt-3 rounded-xl border border-destaque/50 bg-destaque-suave px-3 py-2 text-sm font-bold text-destaque">
-          ⚠️ Preço de lançamento: assine até {PROMOCAO.ate.split("-").reverse().join("/")} e pague esse valor para sempre.
+          ⚠️ Assine até {PROMOCAO.ate.split("-").reverse().join("/")} e pague esse valor para sempre.
         </p>
       )}
     </>

@@ -8,7 +8,7 @@ export async function GET(_requisicao: Request, { params }: { params: Promise<{ 
   if (!sessao) return new Response("entre na sua conta", { status: 401 });
   const id = Number((await params).id);
   if (!Number.isSafeInteger(id) || id <= 0) return new Response("não encontrado", { status: 404 });
-  if (!(await temElite(sessao.user))) return new Response("os simulados são do plano Elite", { status: 403 });
+  if (!(await temElite(sessao.user))) return new Response("os simulados são da Tropa de Elite", { status: 403 });
 
   const arquivo = await arquivoDoSimulado(id, ehAdmin(sessao.user.email));
   if (!arquivo?.arquivoBytes) return new Response("não encontrado", { status: 404 });

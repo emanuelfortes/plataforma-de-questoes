@@ -3,16 +3,19 @@
 export const ASSINATURA = {
   nome: "Plano Basic",
   /** Valor cobrado todo mês, em reais. */
-  valor: 24.9,
+  valor: 29.9,
   /** Aparece no checkout, no painel do Mercado Pago e na fatura do aluno. */
   descricao: "Riccardo Nóbrega - Assinatura mensal",
 } as const;
 
+/** Tropa de Elite: os simulados do mês, vendidos como adicional do Basic. O aluno paga a soma numa cobrança só. */
+export const ADICIONAL_ELITE = 9.9;
+
 /** Elite: o Basic mais os simulados do mês (PDF para imprimir, gabarito com cronômetro e ranking). */
 export const ELITE = {
-  nome: "Plano Elite",
-  valor: 34.9,
-  descricao: "Riccardo Nóbrega - Plano Elite",
+  nome: "Tropa de Elite",
+  valor: somar(ASSINATURA.valor, ADICIONAL_ELITE),
+  descricao: "Riccardo Nóbrega - Tropa de Elite",
 } as const;
 
 export type Plano = "basico" | "elite";
@@ -29,14 +32,16 @@ export const BENEFICIOS_ELITE = [
 ];
 
 /**
- * Preço de lançamento: quem assina até o fim de novembro paga para sempre o preço promocional (o valor
- * fica gravado na assinatura do Mercado Pago). Depois, quem assina (ou cancela e volta) paga o valor cheio.
+ * Black Friday: quem assina até o fim de novembro paga para sempre o preço promocional (o valor fica gravado
+ * na assinatura do Mercado Pago). Depois, quem assina (ou cancela e volta) paga o valor cheio. O adicional
+ * da Tropa de Elite não muda na promoção.
  */
 export const PROMOCAO = {
+  nome: "Promoção Black Friday 💀",
   /** Último dia (fuso de Brasília). */
   ate: "2026-11-30",
-  basico: 19.9,
-  elite: 29.9,
+  basico: 24.9,
+  elite: somar(24.9, ADICIONAL_ELITE),
 } as const;
 
 export function promocaoAberta(agora = new Date()) {
@@ -74,6 +79,11 @@ export const LIMITE_GRATIS_DIA = 5;
  * Separa o dinheiro da plataforma do de outros produtos na mesma conta (ex.: LexCursos).
  */
 export const PREFIXO_REFERENCIA = "nobrega-questoes";
+
+/** Soma em centavos, para 29,90 + 9,90 dar 39,80 e não 39,800000000000004. */
+function somar(a: number, b: number) {
+  return Math.round((a + b) * 100) / 100;
+}
 
 export function formatarReais(valor: number) {
   return valor.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });

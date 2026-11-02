@@ -5,6 +5,7 @@ import { BotaoAssinar, BotaoCancelar, BotaoTrocarPlano } from "@/components/assi
 import { FormularioCartao } from "@/components/assinatura/formulario-cartao";
 import { Card } from "@/components/ui/card";
 import {
+  ADICIONAL_ELITE,
   ASSINATURA,
   BENEFICIOS_ASSINATURA,
   BENEFICIOS_ELITE,
@@ -89,10 +90,11 @@ export default async function PaginaAssinatura({
           ) : (
             <div className="space-y-3 border-t border-acerto/30 pt-4 text-sm text-texto/85">
               <p>
-                <strong>Elite:</strong> {BENEFICIOS_ELITE.slice(1).join("; ")}. Por {formatarReais(precoDoPlano("elite"))}
-                /mês: os simulados liberam agora e o novo valor vale a partir da próxima cobrança.
+                <strong>{ELITE.nome}:</strong> {BENEFICIOS_ELITE.slice(1).join("; ")}. Por mais{" "}
+                {formatarReais(ADICIONAL_ELITE)}/mês (total de {formatarReais(precoDoPlano("elite"))}/mês): os simulados
+                liberam agora e o novo valor vale a partir da próxima cobrança.
               </p>
-              <BotaoTrocarPlano plano="elite" rotulo="Mudar para o Elite" />
+              <BotaoTrocarPlano plano="elite" rotulo="Incluir a Tropa de Elite" />
             </div>
           )}
           <BotaoCancelar />
@@ -123,7 +125,7 @@ export default async function PaginaAssinatura({
         <div className="space-y-4">
           {promocao && (
             <p className="rounded-2xl border border-destaque/50 bg-destaque-suave px-4 py-3 text-sm font-bold text-destaque">
-              ⚠️ Preço de lançamento: assinando até {fimDaPromocao}, você paga o valor promocional para sempre, enquanto
+              {PROMOCAO.nome}: assinando até {fimDaPromocao}, você paga o valor promocional para sempre, enquanto
               mantiver a assinatura.
             </p>
           )}
@@ -134,7 +136,7 @@ export default async function PaginaAssinatura({
               valor={precoDoPlano(plano)}
               chavePublica={chavePublica}
               email={usuario.email}
-              rotulo={a?.status === "pending" ? "Concluir pagamento" : `Assinar o ${plano === "elite" ? "Elite" : "Basic"}`}
+              rotulo={a?.status === "pending" ? "Concluir pagamento" : plano === "elite" ? "Assinar com a Tropa de Elite" : "Assinar o Basic"}
             />
           ))}
           <p className="text-xs leading-relaxed text-suave">
@@ -178,15 +180,36 @@ function CartaoPlano({
   return (
     <Card className={cn("space-y-5 p-6", elite && "border-2 border-marca")}>
       <div>
-        <p className={cn("text-sm font-bold", elite ? "text-marca-clara" : "text-suave")}>
+        <p className={cn("text-sm font-bold", elite ? "uppercase text-marca-clara" : "text-suave")}>
           {elite ? "🏆 " : "✅ "}
           {PLANOS[plano].nome}
         </p>
-        {valor < normal && <p className="mt-1 text-sm font-bold text-suave line-through">{formatarReais(normal)}/mês</p>}
-        <p className="mt-1 text-4xl font-extrabold tracking-tight">
-          {formatarReais(valor)}
-          <span className="text-base font-bold text-suave"> /mês</span>
-        </p>
+        {elite ? (
+          <>
+            <p className="mt-1 text-sm text-suave">Inclua 2 simulados exclusivos por apenas</p>
+            <p className="text-4xl font-extrabold tracking-tight">
+              + {formatarReais(ADICIONAL_ELITE)}
+              <span className="text-base font-bold text-suave"> /mês</span>
+            </p>
+            <p className="mt-1 text-sm text-suave">
+              Total com o Basic: <strong className="text-texto">{formatarReais(valor)}/mês</strong>
+              {valor < normal && <span className="ml-1.5 line-through">{formatarReais(normal)}</span>}
+            </p>
+          </>
+        ) : (
+          <>
+            {valor < normal && (
+              <p className="mt-1 text-sm font-bold text-suave">
+                De <span className="line-through">{formatarReais(normal)}/mês</span>
+              </p>
+            )}
+            <p className="mt-1 text-4xl font-extrabold tracking-tight">
+              {valor < normal && <span className="text-base font-bold text-suave">Por </span>}
+              {formatarReais(valor)}
+              <span className="text-base font-bold text-suave"> /mês</span>
+            </p>
+          </>
+        )}
       </div>
       <ul className="space-y-2 text-sm">
         {(elite ? BENEFICIOS_ELITE : BENEFICIOS).map((b) => (

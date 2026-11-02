@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Card } from "@/components/ui/card";
 import { variantesBotao } from "@/components/ui/button";
-import { BENEFICIOS_ELITE, ELITE, formatarReais, precoDoPlano } from "@/lib/planos";
+import { ADICIONAL_ELITE, BENEFICIOS_ELITE, ELITE, formatarReais, precoDoPlano } from "@/lib/planos";
 import { exigirUsuario } from "@/lib/sessao";
 import { cn } from "@/lib/utils";
 import { temElite } from "@/server/assinatura";
@@ -20,11 +20,11 @@ export default async function PaginaSimulados() {
   return (
     <div className="mx-auto max-w-2xl space-y-6">
       <div>
-        <p className="text-[13px] font-bold uppercase tracking-[.06em] text-destaque">Plano Elite</p>
+        <p className="text-[13px] font-bold uppercase tracking-[.06em] text-destaque">Tropa de Elite</p>
         <h1 className="mt-1 text-[34px] font-extrabold leading-[1.1] tracking-[-.03em]">Simulados</h1>
         <p className="mt-2 text-sm text-suave">
           Baixe o PDF, imprima e faça como no dia da prova. Aqui você dá o play no cronômetro, marca o gabarito e vê sua
-          posição entre os assinantes Elite.
+          posição entre os assinantes da Tropa de Elite.
         </p>
       </div>
       {elite ? <Lista usuarioId={usuario.id} /> : <ConviteElite />}
@@ -76,11 +76,15 @@ function ConviteElite() {
   return (
     <Card className="space-y-5 border-2 border-marca p-6">
       <div>
-        <p className="text-sm font-bold text-marca-clara">🏆 {ELITE.nome}</p>
-        {precoDoPlano("elite") < ELITE.valor && <p className="mt-1 text-sm font-bold text-suave line-through">{formatarReais(ELITE.valor)}/mês</p>}
-        <p className="mt-1 text-4xl font-extrabold tracking-tight">
-          {formatarReais(precoDoPlano("elite"))}
+        <p className="text-sm font-bold uppercase text-marca-clara">🏆 {ELITE.nome}</p>
+        <p className="mt-1 text-sm text-suave">Inclua 2 simulados exclusivos por apenas</p>
+        <p className="text-4xl font-extrabold tracking-tight">
+          + {formatarReais(ADICIONAL_ELITE)}
           <span className="text-base font-bold text-suave"> /mês</span>
+        </p>
+        <p className="mt-1 text-sm text-suave">
+          Total com o Basic: <strong className="text-texto">{formatarReais(precoDoPlano("elite"))}/mês</strong>
+          {precoDoPlano("elite") < ELITE.valor && <span className="ml-1.5 line-through">{formatarReais(ELITE.valor)}</span>}
         </p>
       </div>
       <ul className="space-y-2 text-sm">
@@ -92,7 +96,7 @@ function ConviteElite() {
         ))}
       </ul>
       <Link href="/assinatura" className={variantesBotao({ tamanho: "grande", className: "w-full sm:w-auto sm:px-10" })}>
-        Quero o Elite
+        Quero a Tropa de Elite
       </Link>
     </Card>
   );
