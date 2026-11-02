@@ -1,6 +1,19 @@
 "use client";
 
-import { ArrowRight, Check, CircleCheck, CircleX, Crosshair, LoaderCircle, RotateCcw, Scissors, TriangleAlert, X } from "lucide-react";
+import {
+  ArrowLeft,
+  ArrowRight,
+  Check,
+  ChevronDown,
+  CircleCheck,
+  CircleX,
+  Crosshair,
+  LoaderCircle,
+  RotateCcw,
+  Scissors,
+  TriangleAlert,
+  X,
+} from "lucide-react";
 import Link from "next/link";
 import { useEffect, useRef, useState, useTransition, type CSSProperties } from "react";
 import { Fogo } from "@/components/fogo";
@@ -19,8 +32,13 @@ type Props = {
   numero: number;
   total?: number;
   progresso?: number; // 0 a 1, posição na página atual
-  onProxima?: () => void; // quando existe, mostra "Próxima" após responder (modo uma por vez)
-  onPular?: () => void;
+  /** Setas (como no TEC): sem `onAnterior` a seta de voltar fica desligada. A de avançar também serve de "pular". */
+  onAnterior?: () => void;
+  onProxima?: () => void;
+  /** Resposta já dada nesta sessão (ao voltar para a questão, ela aparece respondida). */
+  salva?: RespostaSalva;
+  /** Avisado quando a resposta muda (respondeu ou refez), para a resolução guardar. */
+  onSalvar?: (resposta: RespostaSalva | null) => void;
   /** Avisado a cada resposta (a resolução usa para trazer de volta a questão errada e contar erros seguidos).
    *  `conta`: resposta que vale para o ranking (primeira vez na questão e não foi chute). */
   onRespondida?: (correta: boolean, conta: boolean) => void;
@@ -38,6 +56,7 @@ const FRASE_ACERTOS: Record<number, string> = {
 const FRASE_ERROS = "Mais atenção, Papai! A prova é malvada e não perdoa";
 
 type Resultado = Extract<ResultadoResposta, { ok: true }>;
+export type RespostaSalva = { escolhida: string; resultado: Resultado };
 type Alternativa = QuestaoListada["alternativas"][number];
 
 // Certo ou errado (estilo Cebraspe) chega como duas alternativas: C "Certo" e E "Errado".
@@ -46,9 +65,14 @@ function ehCertoErrado(alternativas: Alternativa[]) {
   return alternativas.length === 2 && textos.C === "certo" && textos.E === "errado";
 }
 
-export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPular, onRespondida, revisao, errosSeguidos }: Props) {
-  const [escolhida, setEscolhida] = useState<string | null>(null);
-  const [resultado, setResultado] = useState<Resultado | null>(null);
+export function QuestaoCard(props: Props) {
+  const { questao, numero, total, progresso, onAnterior, onProxima, salva, onSalvar, onRespondida, revisao, errosSeguidos } = props;
+  const [escolhida, setEscolhida] = useState<string | null>(salva?.escolhida ?? null);
+  const [resultado, setResultado] = useState<Resultado | null>(salva?.resultado ?? null);
+  // Respondida agora (não restaurada ao voltar): só então o resultado rola para a vista e as frases aparecem.
+  const [agora, setAgora] = useState(false);
+  // O comentário fica fechado; o aluno abre se quiser (como o "Ver resolução" do TEC).
+  const [verComentario, setVerComentario] = useState(false);
   const [erro, setErro] = useState<string | null>(null);
   const [noLimite, setNoLimite] = useState(false);
   const [enviando, iniciar] = useTransition();
@@ -63,10 +87,10 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
 
   // O resultado aparece abaixo das alternativas: traz para a vista (no celular costuma ficar fora da tela).
   useEffect(() => {
-    if (!resultado) return;
+    if (!resultado || !agora) return;
     const suave = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     refResultado.current?.scrollIntoView({ behavior: suave ? "smooth" : "auto", block: "nearest" });
-  }, [resultado]);
+  }, [resultado, agora]);
 
   function responder() {
     if (!escolhida) return;
@@ -78,6 +102,8 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
         return setErro(r.erro);
       }
       setResultado(r);
+      setAgora(true);
+      onSalvar?.({ escolhida, resultado: r });
       onRespondida?.(r.correta, r.sequencia !== null);
     });
   }
@@ -85,7 +111,9 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
   function refazer() {
     setEscolhida(null);
     setResultado(null);
+    setVerComentario(false);
     setCortadas(new Set());
+    onSalvar?.(null);
   }
 
   function alternarCorte(letra: string) {
@@ -121,16 +149,15 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
   }
 
   const sequencia = resultado?.correta ? (resultado.sequencia ?? 0) : 0;
-  const fraseAcerto = FRASE_ACERTOS[sequencia];
-  const fraseErro = resultado && !resultado.correta && resultado.sequencia !== null && errosSeguidos === 3 ? FRASE_ERROS : undefined;
+  const fraseAcerto = agora ? FRASE_ACERTOS[sequencia] : undefined;
+  const fraseErro = agora && resultado && !resultado.correta && resultado.sequencia !== null && errosSeguidos === 3 ? FRASE_ERROS : undefined;
 
   const textoGabarito = certoErrado
     ? questao.alternativas.find((a) => a.letra === resultado?.gabarito)?.texto
     : resultado?.gabarito;
 
   return (
-    // touch-manipulation: sem ele, o toque duplo (riscar alternativa) dá zoom no celular e a barra fixa
-    // de Pular e Responder fica solta no meio da tela, cobrindo as alternativas.
+    // touch-manipulation: sem ele, o toque duplo (riscar alternativa) dá zoom no celular.
     <article className="touch-manipulation space-y-6">
       {/* 1. progresso  2. matéria e área  3. banca e ano */}
       <header className="space-y-3">
@@ -300,7 +327,7 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
       )}
 
       {resultado && (
-        <div ref={refResultado} className="scroll-mb-28 space-y-5 md:scroll-mb-8" role="status">
+        <div ref={refResultado} className="scroll-mb-6 space-y-5" role="status">
           {fraseAcerto && (
             // Rajada: um tiro na parede por acerto (3 ou 5), com tranco no cartão a cada um.
             <div
@@ -328,6 +355,17 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
             <div className="min-w-0">
               <p className="font-extrabold">{resultado.correta ? "Você acertou" : "Você errou"}</p>
               <p className="text-sm font-semibold text-texto/75">Gabarito: {textoGabarito}</p>
+              {resultado.comentario && (
+                <button
+                  type="button"
+                  onClick={() => setVerComentario((v) => !v)}
+                  aria-expanded={verComentario}
+                  className="mt-1 flex items-center gap-1 text-sm font-extrabold text-marca-clara hover:underline"
+                >
+                  {verComentario ? "Esconder comentário" : "Ver comentário"}
+                  <ChevronDown className={cn("size-4 transition-transform", verComentario && "rotate-180")} aria-hidden />
+                </button>
+              )}
             </div>
             {/* Sequência de acertos (a partir de 2), como a sequência de dias do GitHub */}
             {sequencia >= 2 && (
@@ -344,46 +382,53 @@ export function QuestaoCard({ questao, numero, total, progresso, onProxima, onPu
               Resposta em menos de {SEGUNDOS_CHUTE} segundos: vale para o seu estudo, mas não conta no ranking nem na sequência.
             </p>
           )}
-          {resultado.comentario && (
+        </div>
+      )}
+
+      {/* Setas, como no TEC: voltar, (Responder ou Refazer) e avançar. A seta de avançar sem resposta é o
+          "pular". Nada avança sozinho. No fluxo da página (não fixa no rodapé). */}
+      <div className="flex items-center gap-3">
+        <Button
+          variante="contorno"
+          onClick={onAnterior}
+          disabled={!onAnterior || enviando}
+          aria-label="Questão anterior"
+          title="Questão anterior"
+          className="h-12 w-14 shrink-0 px-0"
+        >
+          <ArrowLeft className="size-5" aria-hidden />
+        </Button>
+        {!resultado ? (
+          <Button onClick={responder} disabled={!escolhida || enviando} className="h-12 flex-1 px-4">
+            {enviando && <LoaderCircle className="size-4 animate-spin" aria-hidden />}
+            {enviando ? "Conferindo" : "Responder"}
+          </Button>
+        ) : (
+          <Button variante="contorno" onClick={refazer} className="h-12 flex-1 px-4">
+            <RotateCcw className="size-4" aria-hidden />
+            Refazer
+          </Button>
+        )}
+        <Button
+          variante={resultado ? undefined : "contorno"}
+          onClick={onProxima}
+          disabled={!onProxima || enviando}
+          aria-label={resultado ? "Próxima questão" : "Pular para a próxima questão"}
+          title={resultado ? "Próxima questão" : "Pular"}
+          className="h-12 w-14 shrink-0 px-0"
+        >
+          <ArrowRight className="size-5" aria-hidden />
+        </Button>
+      </div>
+
+      {resultado && (
+        <div className="space-y-5">
+          {verComentario && resultado.comentario && (
             <ComentarioQuestao comentario={resultado.comentario} gabarito={resultado.gabarito} escolhida={escolhida} />
           )}
           <ReportarErro key={questao.id} tipo="questao" id={questao.id} />
         </div>
       )}
-
-      {/* Celular: fixa no rodapé, acima da área segura (a página reserva o espaço). Computador: no fluxo.
-          Fundo sólido: com transparência o Safari deixa o texto de baixo aparecer atrás dos botões. */}
-      <div className="fixed inset-x-0 bottom-0 z-20 border-t border-borda bg-fundo px-5 pt-4 pb-[calc(1rem+env(safe-area-inset-bottom))] md:static md:z-auto md:border-0 md:bg-transparent md:p-0">
-        {/* Secundária (contorno, 2/5) e principal (cheia, 3/5) com a mesma altura. */}
-        <div className="mx-auto flex max-w-3xl items-center gap-4">
-          {!resultado ? (
-            <>
-              {onPular && (
-                <Button variante="contorno" onClick={onPular} disabled={enviando} className="h-12 flex-[2] px-4 md:flex-none md:px-8">
-                  Pular
-                </Button>
-              )}
-              <Button onClick={responder} disabled={!escolhida || enviando} className="ml-auto h-12 flex-[3] px-4 md:flex-none md:px-12">
-                {enviando && <LoaderCircle className="size-4 animate-spin" aria-hidden />}
-                {enviando ? "Conferindo" : "Responder"}
-              </Button>
-            </>
-          ) : (
-            <>
-              <Button variante="contorno" onClick={refazer} className="h-12 flex-[2] px-4 md:flex-none md:px-8">
-                <RotateCcw className="size-4" aria-hidden />
-                Refazer
-              </Button>
-              {onProxima && (
-                <Button onClick={onProxima} className="ml-auto h-12 flex-[3] px-4 md:flex-none md:px-12">
-                  Próxima
-                  <ArrowRight className="size-4" aria-hidden />
-                </Button>
-              )}
-            </>
-          )}
-        </div>
-      </div>
     </article>
   );
 }

@@ -47,7 +47,7 @@ export function Navegacao({ nome, admin, streak, percentual }: Props) {
   const router = useRouter();
   const links = admin ? [...LINKS, ADMIN] : LINKS;
   const ativo = (l: ItemNav) => l.ativoEm.some((c) => caminho.startsWith(c));
-  // Na resolução de questões o rodapé é da barra de ações (Responder, Próxima); as abas saem para dar espaço.
+  // Na resolução de questões as abas sobem para o topo: a tela fica livre para a questão e as setas.
   const semAbas = caminho.startsWith("/questoes");
 
   async function sair() {
@@ -107,7 +107,7 @@ export function Navegacao({ nome, admin, streak, percentual }: Props) {
         {/* Celular */}
         <div className="flex h-14 items-center gap-2 border-b border-borda px-5 md:hidden">
           {semAbas ? (
-            // Resolvendo questões: o rodapé é dos botões Responder e Próxima, então os ícones das abas sobem
+            // Resolvendo questões: os ícones das abas sobem
             // para esta barra (fixa no topo), no lugar do nome. Continuam à mão com a página rolada.
             <>
               <Link href="/estudar" aria-label={NOME_PLATAFORMA} className="shrink-0">

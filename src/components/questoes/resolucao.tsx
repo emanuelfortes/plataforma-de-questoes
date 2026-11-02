@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { variantesBotao } from "@/components/ui/button";
 import type { QuestaoListada } from "@/server/questoes";
-import { QuestaoCard } from "./questao-card";
+import { QuestaoCard, type RespostaSalva } from "./questao-card";
 
 type Props = {
   questoes: QuestaoListada[];
@@ -30,6 +30,31 @@ export function Resolucao({ questoes, inicio, proximaUrl, totalFiltro }: Props) 
   const item = fila[indice];
   const atual = item?.questao;
   const avancar = () => setIndice((i) => i + 1);
+  const voltar = () => setIndice((i) => Math.max(0, i - 1));
+  // Respostas desta página, por item da fila: ao voltar com a seta, a questão aparece como ficou.
+  const [salvas, setSalvas] = useState<Record<string, RespostaSalva>>({});
+  const chave = item ? `${item.questao.id}-${item.volta}` : "";
+
+  function salvar(resposta: RespostaSalva | null) {
+    setSalvas((s) => {
+      const nova = { ...s };
+      if (resposta) nova[chave] = resposta;
+      else delete nova[chave];
+      return nova;
+    });
+  }
+
+  // No computador, as setas do teclado fazem o mesmo que as setas da tela (fora de campos de texto).
+  useEffect(() => {
+    function tecla(e: KeyboardEvent) {
+      const alvo = e.target as HTMLElement;
+      if (e.altKey || e.ctrlKey || e.metaKey || alvo.closest("input, textarea, select, [contenteditable]")) return;
+      if (e.key === "ArrowRight") setIndice((i) => Math.min(i + 1, fila.length));
+      if (e.key === "ArrowLeft") setIndice((i) => Math.max(0, i - 1));
+    }
+    window.addEventListener("keydown", tecla);
+    return () => window.removeEventListener("keydown", tecla);
+  }, [fila.length]);
   // Erros seguidos (para a frase do 3º erro): acerto zera; só soma resposta que conta (não refazer nem chute).
   const [errosSeguidos, setErrosSeguidos] = useState(0);
 
@@ -60,11 +85,16 @@ export function Resolucao({ questoes, inicio, proximaUrl, totalFiltro }: Props) 
       <div ref={refTopo} className="scroll-mt-20 rounded-2xl border border-borda bg-camada p-8 text-center sm:p-10">
         <p className="text-lg font-extrabold">Você fechou esta página.</p>
         <p className="mt-1 text-sm text-suave">{questoes.length} questões resolvidas aqui. Continue para a próxima.</p>
-        {proximaUrl && (
-          <Link href={proximaUrl} className={variantesBotao({ tamanho: "grande", className: "mt-6 w-full px-9 sm:w-auto" })}>
-            Próxima página
-          </Link>
-        )}
+        <div className="mt-6 flex flex-col-reverse gap-3 sm:flex-row sm:justify-center">
+          <button type="button" onClick={voltar} className={variantesBotao({ variante: "contorno", tamanho: "grande", className: "w-full px-9 sm:w-auto" })}>
+            Voltar à última questão
+          </button>
+          {proximaUrl && (
+            <Link href={proximaUrl} className={variantesBotao({ tamanho: "grande", className: "w-full px-9 sm:w-auto" })}>
+              Próxima página
+            </Link>
+          )}
+        </div>
       </div>
     );
   }
@@ -77,8 +107,10 @@ export function Resolucao({ questoes, inicio, proximaUrl, totalFiltro }: Props) 
         numero={item.numero}
         total={Math.max(totalFiltro, inicio + questoes.length - 1)}
         progresso={(item.numero - 1) / Math.max(totalFiltro, inicio + questoes.length - 1)}
+        onAnterior={indice > 0 ? voltar : undefined}
         onProxima={avancar}
-        onPular={avancar}
+        salva={salvas[chave]}
+        onSalvar={salvar}
         onRespondida={respondida}
         revisao={item.volta > 0}
         errosSeguidos={errosSeguidos}
