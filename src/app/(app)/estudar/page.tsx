@@ -2,6 +2,7 @@ import { BookOpenCheck, Layers, Lock } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArvoreEstudo } from "@/components/estudar/arvore-estudo";
+import { InstalarApp } from "@/components/instalar-app";
 import { lerDificuldades, lerFiltroStatus, lerId, lerIds, lerTipoQuestao } from "@/lib/filtros";
 import { exigirUsuario } from "@/lib/sessao";
 import { cn, formatarNumero } from "@/lib/utils";
@@ -78,6 +79,7 @@ export default async function PaginaEstudar({ searchParams }: { searchParams: Pa
             );
           })}
         </div>
+        <InstalarApp />
       </div>
     );
   }
