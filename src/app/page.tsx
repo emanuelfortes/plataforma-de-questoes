@@ -7,7 +7,16 @@ import { BotaoTema } from "@/components/botao-tema";
 import { Logo } from "@/components/logo";
 import { variantesBotao } from "@/components/ui/button";
 import { NOME_PLATAFORMA } from "@/lib/marca";
-import { ASSINATURA, BENEFICIOS_ASSINATURA, BLACK_FRIDAY, blackFridayAberta, formatarReais, LIMITE_GRATIS_DIA } from "@/lib/planos";
+import {
+  ASSINATURA,
+  BENEFICIOS_ASSINATURA,
+  BENEFICIOS_ELITE,
+  BLACK_FRIDAY,
+  blackFridayAberta,
+  ELITE,
+  formatarReais,
+  LIMITE_GRATIS_DIA,
+} from "@/lib/planos";
 import { obterSessao } from "@/lib/sessao";
 import { cn, formatarNumero } from "@/lib/utils";
 import { resumoVitrine } from "@/server/vitrine";
@@ -333,7 +342,7 @@ function Preco() {
     <section id="preco" className="scroll-mt-20 border-y border-borda bg-superficie/40">
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 md:py-20">
         <Titulo selo="Plano" titulo="Comece grátis. Assine quando quiser ir além." />
-        <div className="mx-auto mt-10 grid max-w-3xl gap-4 md:grid-cols-2">
+        <div className="mx-auto mt-10 grid max-w-5xl gap-4 md:grid-cols-3">
           <div className="flex flex-col rounded-3xl border border-borda bg-superficie p-6 transition-colors hover:border-borda-forte sm:p-8">
             <p className="font-extrabold">Grátis</p>
             <p className="mt-2 text-4xl font-extrabold tracking-tight">{formatarReais(0)}</p>
@@ -364,6 +373,18 @@ function Preco() {
             <Lista itens={BENEFICIOS_ASSINATURA} />
             <Link href="/cadastrar" className={cn(variantesBotao(), "mt-auto w-full")}>
               Começar agora
+            </Link>
+          </div>
+          <div className="flex flex-col rounded-3xl border border-borda bg-superficie p-6 transition-colors hover:border-borda-forte sm:p-8">
+            <p className="font-extrabold">🏆 {ELITE.nome}</p>
+            <p className="mt-2 text-4xl font-extrabold tracking-tight">
+              {formatarReais(ELITE.valor)}
+              <span className="text-base font-bold text-suave">/mês</span>
+            </p>
+            <p className="text-sm text-suave">cancele quando quiser</p>
+            <Lista itens={BENEFICIOS_ELITE} />
+            <Link href="/cadastrar" className={cn(variantesBotao({ variante: "contorno" }), "mt-auto w-full")}>
+              Quero o Elite
             </Link>
           </div>
         </div>

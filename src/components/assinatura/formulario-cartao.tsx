@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
-import { ASSINATURA } from "@/lib/planos";
+import { PLANOS, type Plano } from "@/lib/planos";
 import { assinarCartao } from "@/server/acoes-assinatura";
 
 // Checkout transparente: o formulário de cartão do Mercado Pago (Card Payment Brick) aparece dentro
@@ -11,7 +11,7 @@ import { assinarCartao } from "@/server/acoes-assinatura";
 // Só carrega o script do Mercado Pago quando o aluno clica em assinar.
 
 const SDK = "https://sdk.mercadopago.com/js/v2";
-const ID_CAIXA = "formulario-cartao-mp";
+const ID_CAIXA = "formulario-cartao-mp"; // + "-<plano>": cada plano tem a sua caixa na mesma página
 
 type DadosBrick = { token: string; payer?: { email?: string } };
 type ControleBrick = { unmount: () => void };
@@ -43,7 +43,18 @@ function temaEscuro() {
   return !window.matchMedia("(prefers-color-scheme: light)").matches;
 }
 
-export function FormularioCartao({ chavePublica, email, rotulo }: { chavePublica: string; email: string; rotulo: string }) {
+export function FormularioCartao({
+  chavePublica,
+  email,
+  rotulo,
+  plano = "basico",
+}: {
+  chavePublica: string;
+  email: string;
+  rotulo: string;
+  plano?: Plano;
+}) {
+  const idCaixa = `${ID_CAIXA}-${plano}`;
   const router = useRouter();
   const [aberto, setAberto] = useState(false);
   const [pronto, setPronto] = useState(false);
@@ -59,8 +70,8 @@ export function FormularioCartao({ chavePublica, email, rotulo }: { chavePublica
       .then(async () => {
         if (cancelado || !window.MercadoPago) return;
         const mp = new window.MercadoPago(chavePublica, { locale: "pt-BR" });
-        const c = await mp.bricks().create("cardPayment", ID_CAIXA, {
-          initialization: { amount: ASSINATURA.valor, payer: { email } },
+        const c = await mp.bricks().create("cardPayment", idCaixa, {
+          initialization: { amount: PLANOS[plano].valor, payer: { email } },
           customization: {
             paymentMethods: { maxInstallments: 1, types: { excluded: ["debit_card", "prepaid_card"] } },
             visual: { style: { theme: temaEscuro() ? "dark" : "default" }, texts: { formTitle: "Cartão de crédito", formSubmit: "Assinar" } },
@@ -70,7 +81,7 @@ export function FormularioCartao({ chavePublica, email, rotulo }: { chavePublica
             onError: (e: unknown) => console.error("[assinatura] formulário do cartão:", e),
             onSubmit: async (dados: DadosBrick) => {
               setErro(null);
-              const r = await assinarCartao({ token: dados.token, email: dados.payer?.email || email });
+              const r = await assinarCartao({ token: dados.token, email: dados.payer?.email || email, plano });
               if (!r.ok) {
                 setErro(r.erro);
                 // Token de cartão vale uma vez: rejeitar faz o formulário liberar nova tentativa.
@@ -90,7 +101,7 @@ export function FormularioCartao({ chavePublica, email, rotulo }: { chavePublica
       controle.current?.unmount();
       controle.current = null;
     };
-  }, [aberto, chavePublica, email, router]);
+  }, [aberto, chavePublica, email, router, idCaixa, plano]);
 
   if (sucesso) {
     return (
@@ -113,7 +124,7 @@ export function FormularioCartao({ chavePublica, email, rotulo }: { chavePublica
   return (
     <div className="space-y-2">
       {!pronto && !erro && <p className="text-sm text-suave">Abrindo o pagamento seguro...</p>}
-      <div id={ID_CAIXA} />
+      <div id={idCaixa} />
       {erro && <p className="text-sm font-bold text-erro">{erro}</p>}
     </div>
   );

@@ -7,7 +7,7 @@ export default async function LayoutAdmin({ children }: { children: React.ReactN
   await exigirAdmin();
   return (
     <div className="relative left-1/2 w-[min(100vw-2.5rem,72rem)] -translate-x-1/2">
-      <div className="grid gap-6 md:grid-cols-[200px_1fr] md:gap-8">
+      <div className="grid grid-cols-[minmax(0,1fr)] gap-6 md:grid-cols-[200px_minmax(0,1fr)] md:gap-8">
         <aside>
           <MenuAdmin />
         </aside>

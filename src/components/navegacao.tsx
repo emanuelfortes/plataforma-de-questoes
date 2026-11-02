@@ -1,6 +1,6 @@
 "use client";
 
-import { BookMarked, ChartColumn, Flame, GraduationCap, LogOut, ShieldCheck, Trophy, UserRound, type LucideIcon } from "lucide-react";
+import { BookMarked, ChartColumn, FileClock, Flame, GraduationCap, LogOut, ShieldCheck, Trophy, UserRound, type LucideIcon } from "lucide-react";
 import Link from "next/link";
 import { Logo } from "@/components/logo";
 import { usePathname, useRouter } from "next/navigation";
@@ -16,6 +16,7 @@ const LINKS: ItemNav[] = [
   { href: "/estudar", rotulo: "Estudar", Icone: GraduationCap, ativoEm: ["/estudar", "/questoes", "/flashcards"] },
   { href: "/vade-mecum", rotulo: "Vade Mecum", Icone: BookMarked, ativoEm: ["/vade-mecum"] },
   { href: "/desempenho", rotulo: "Desempenho", Icone: ChartColumn, ativoEm: ["/desempenho"] },
+  { href: "/simulados", rotulo: "Simulados", Icone: FileClock, ativoEm: ["/simulados"] },
   { href: "/ranking", rotulo: "Ranking", Icone: Trophy, ativoEm: ["/ranking"] },
 ];
 const ADMIN: ItemNav = { href: "/admin", rotulo: "Admin", Icone: ShieldCheck, ativoEm: ["/admin"] };
@@ -161,7 +162,7 @@ export function Navegacao({ nome, admin, streak, percentual }: Props) {
             {[...links, CONTA].map((l) => {
               const atual = ativo(l);
               return (
-                <li key={l.href} className="flex-1">
+                <li key={l.href} className="min-w-0 flex-1">
                   <Link
                     href={l.href}
                     aria-label={l.rotulo}
@@ -174,7 +175,7 @@ export function Navegacao({ nome, admin, streak, percentual }: Props) {
                 >
                   <span
                     className={cn(
-                      "grid h-9 w-14 place-items-center rounded-full transition-colors",
+                      "grid h-9 w-full max-w-14 place-items-center rounded-full transition-colors",
                       atual && "bg-marca-suave",
                     )}
                   >

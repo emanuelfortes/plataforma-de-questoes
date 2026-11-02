@@ -4,7 +4,7 @@ import { Invoice, MercadoPagoConfig, Payment, PreApproval, Preference } from "me
 import { db } from "@/db";
 import { assinaturas, pagamentos, respostas, user } from "@/db/schema";
 import { inicioDoDiaLocal } from "@/lib/datas";
-import { ASSINATURA, BLACK_FRIDAY, formatarReais, PREFIXO_COMPRA, PREFIXO_REFERENCIA } from "@/lib/planos";
+import { ASSINATURA, BLACK_FRIDAY, ELITE, formatarReais, PLANOS, PREFIXO_COMPRA, PREFIXO_REFERENCIA, type Plano } from "@/lib/planos";
 import { ehAdmin } from "@/lib/admin";
 import { emailFimDoPeriodo, enviarEmail } from "./email";
 
@@ -36,31 +36,32 @@ const data = (iso: string | undefined | null) => (iso ? new Date(iso) : null);
 const DIA = 24 * 60 * 60 * 1000;
 
 /**
- * Cobrança mensal do aluno, com o início adiado se ele ainda tem acesso pago (Black Friday ou assinatura
+ * Cobrança mensal do aluno. No Basic, o início é adiado se ele ainda tem acesso pago (Black Friday ou assinatura
  * cancelada dentro do período): a 1ª cobrança cai no dia em que o acesso atual acaba, sem pagar duas vezes.
+ * O Elite começa a cobrar na hora (os simulados só valem com o Elite pago).
  */
-async function cobrancaMensal(usuarioId: string) {
-  const atual = await assinaturaDoUsuario(usuarioId);
+async function cobrancaMensal(usuarioId: string, plano: Plano) {
+  const atual = plano === "basico" ? await assinaturaDoUsuario(usuarioId) : null;
   const inicio = atual?.acessoAte && atual.acessoAte.getTime() > Date.now() + 60 * 60 * 1000 ? atual.acessoAte : null;
   return {
     frequency: 1,
     frequency_type: "months",
-    transaction_amount: ASSINATURA.valor,
+    transaction_amount: PLANOS[plano].valor,
     currency_id: "BRL",
     ...(inicio ? { start_date: inicio.toISOString() } : {}),
   };
 }
 
 /** Cria a assinatura no Mercado Pago e devolve o link do checkout. */
-export async function criarCheckout(usuario: { id: string; email: string }) {
+export async function criarCheckout(usuario: { id: string; email: string }, plano: Plano = "basico") {
   const resposta = await new PreApproval(cliente()).create({
     body: {
-      reason: ASSINATURA.descricao,
+      reason: PLANOS[plano].descricao,
       external_reference: referencia(usuario.id),
       payer_email: usuario.email,
       back_url: `${enderecoSite()}/assinatura`,
       status: "pending",
-      auto_recurring: await cobrancaMensal(usuario.id),
+      auto_recurring: await cobrancaMensal(usuario.id, plano),
     },
   });
   if (!resposta.id || !resposta.init_point) throw new Error("O Mercado Pago não devolveu o link de pagamento.");
@@ -73,16 +74,16 @@ export async function criarCheckout(usuario: { id: string; email: string }) {
  * só um token; o número do cartão nunca passa pelo nosso servidor). A assinatura já nasce "authorized"
  * e a primeira cobrança sai na hora. Erro de cartão recusado vem como exceção da API.
  */
-export async function assinarComCartao(usuario: { id: string }, cartao: { token: string; email: string }) {
+export async function assinarComCartao(usuario: { id: string }, cartao: { token: string; email: string }, plano: Plano = "basico") {
   const resposta = await new PreApproval(cliente()).create({
     body: {
-      reason: ASSINATURA.descricao,
+      reason: PLANOS[plano].descricao,
       external_reference: referencia(usuario.id),
       payer_email: cartao.email,
       card_token_id: cartao.token,
       back_url: `${enderecoSite()}/assinatura`,
       status: "authorized",
-      auto_recurring: await cobrancaMensal(usuario.id),
+      auto_recurring: await cobrancaMensal(usuario.id, plano),
     },
   });
   if (!resposta.id) throw new Error("O Mercado Pago não devolveu a assinatura.");
@@ -329,6 +330,29 @@ export function acessoLiberado(a: Awaited<ReturnType<typeof assinaturaDoUsuario>
   if (!a) return false;
   if (a.status === "authorized") return true;
   return !!a.acessoAte && a.acessoAte.getTime() > Date.now();
+}
+
+/** Elite: mensal paga com o valor do Elite (ativa, ou cancelada ainda no período). A Black Friday não conta. */
+export function eliteLiberado(a: Awaited<ReturnType<typeof assinaturaDoUsuario>>) {
+  return !!a && !ehCompra(a.id) && acessoLiberado(a) && a.valorCentavos >= centavos(ELITE.valor);
+}
+
+/** Simulados: Elite, o dono e, com a cobrança desligada, todo mundo. */
+export async function temElite(usuario: { id: string; email: string }) {
+  if (!cobrancaAtiva() || ehAdmin(usuario.email)) return true;
+  return eliteLiberado(await assinaturaDoUsuario(usuario.id));
+}
+
+/**
+ * Troca de plano na mesma assinatura (o Mercado Pago deixa mudar só o valor). Vale a partir da próxima
+ * cobrança; quem sobe para o Elite já ganha os simulados agora.
+ */
+export async function mudarPlano(id: string, plano: Plano) {
+  await new PreApproval(cliente()).update({
+    id,
+    body: { reason: PLANOS[plano].descricao, auto_recurring: { transaction_amount: PLANOS[plano].valor, currency_id: "BRL" } },
+  });
+  await sincronizarAssinatura(id);
 }
 
 /** A cobrança só liga quando o Mercado Pago está configurado: antes disso ninguém tem limite. */

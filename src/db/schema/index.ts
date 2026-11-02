@@ -3,3 +3,4 @@ export * from "./conteudo";
 export * from "./estudo";
 export * from "./pagamento";
 export * from "./revisao";
+export * from "./simulado";

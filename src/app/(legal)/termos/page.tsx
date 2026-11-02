@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ContatoWhatsapp, PaginaLegal, Responsavel } from "@/components/pagina-legal";
 import { LEGAL } from "@/lib/legal";
-import { ASSINATURA, BLACK_FRIDAY, formatarReais, LIMITE_GRATIS_DIA } from "@/lib/planos";
+import { ASSINATURA, BLACK_FRIDAY, ELITE, formatarReais, LIMITE_GRATIS_DIA } from "@/lib/planos";
 
 export const metadata: Metadata = { title: "Termos de uso" };
 
@@ -65,6 +65,11 @@ export default function PaginaTermos() {
         </li>
         <li>
           <strong>{ASSINATURA.nome}:</strong> {formatarReais(ASSINATURA.valor)} por mês, com questões ilimitadas.
+        </li>
+        <li>
+          <strong>{ELITE.nome}:</strong> {formatarReais(ELITE.valor)} por mês: tudo do {ASSINATURA.nome} e os simulados do
+          mês (PDF para baixar e imprimir, gabarito com cronômetro e ranking entre os assinantes Elite). O PDF é de uso
+          pessoal: não pode ser repassado.
         </li>
         <li>
           <strong>Black Friday (oferta por tempo limitado):</strong> {formatarReais(BLACK_FRIDAY.valor)} por{" "}

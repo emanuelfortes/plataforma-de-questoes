@@ -1,16 +1,29 @@
 import { Check } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { BotaoAssinar, BotaoCancelar } from "@/components/assinatura/botoes";
+import { BotaoAssinar, BotaoCancelar, BotaoTrocarPlano } from "@/components/assinatura/botoes";
 import { FormularioCartao } from "@/components/assinatura/formulario-cartao";
 import { Card } from "@/components/ui/card";
-import { ASSINATURA, BENEFICIOS_ASSINATURA, BLACK_FRIDAY, blackFridayAberta, formatarReais, LIMITE_GRATIS_DIA } from "@/lib/planos";
+import {
+  ASSINATURA,
+  BENEFICIOS_ASSINATURA,
+  BENEFICIOS_ELITE,
+  BLACK_FRIDAY,
+  blackFridayAberta,
+  ELITE,
+  formatarReais,
+  LIMITE_GRATIS_DIA,
+  PLANOS,
+  type Plano,
+} from "@/lib/planos";
+import { cn } from "@/lib/utils";
 import { exigirUsuario } from "@/lib/sessao";
 import {
   acessoLiberado,
   assinaturaDoUsuario,
   cobrancaAtiva,
   ehCompra,
+  eliteLiberado,
   jaComprouBlackFriday,
   procurarComprasDoUsuario,
   sincronizarAssinatura,
@@ -62,6 +75,7 @@ export default async function PaginaAssinatura({
   const liberado = acessoLiberado(a);
   const compra = a && ehCompra(a.id) ? a : null;
   const ofertaBlackFriday = blackFridayAberta() && !comprou && !liberado;
+  const elite = eliteLiberado(a);
   const chavePublica = process.env.NEXT_PUBLIC_MP_PUBLIC_KEY;
 
   return (
@@ -75,11 +89,32 @@ export default async function PaginaAssinatura({
 
       {a?.status === "authorized" && (
         <Card className="space-y-4 border-acerto/40 bg-acerto-suave p-6">
-          <p className="font-extrabold text-acerto">Assinatura ativa</p>
+          <p className="font-extrabold text-acerto">{elite ? ELITE.nome : ASSINATURA.nome} ativo</p>
           <p className="text-sm text-texto/85">
             {formatarReais(a.valorCentavos / 100)} por mês, no cartão.
             {a.acessoAte && ` Próxima cobrança em ${dataCurta(a.acessoAte)}.`}
           </p>
+          {elite ? (
+            <div className="space-y-2 border-t border-acerto/30 pt-4 text-sm text-texto/85">
+              <p>
+                Seus simulados estão em{" "}
+                <Link href="/simulados" className="font-bold text-marca-clara hover:underline">
+                  Simulados
+                </Link>
+                . Quer só as questões? Volte para o Basic ({formatarReais(ASSINATURA.valor)}/mês) a partir da próxima
+                cobrança.
+              </p>
+              <BotaoTrocarPlano plano="basico" rotulo="Voltar para o Basic" />
+            </div>
+          ) : (
+            <div className="space-y-3 border-t border-acerto/30 pt-4 text-sm text-texto/85">
+              <p>
+                <strong>Elite:</strong> {BENEFICIOS_ELITE.slice(1).join("; ")}. Por {formatarReais(ELITE.valor)}/mês: os
+                simulados liberam agora e o novo valor vale a partir da próxima cobrança.
+              </p>
+              <BotaoTrocarPlano plano="elite" rotulo="Mudar para o Elite" />
+            </div>
+          )}
           <BotaoCancelar />
         </Card>
       )}
@@ -88,17 +123,10 @@ export default async function PaginaAssinatura({
         <Card className="space-y-4 border-acerto/40 bg-acerto-suave p-6">
           <p className="font-extrabold text-acerto">Black Friday ativa</p>
           <p className="text-sm text-texto/85">Seu acesso completo vai até {dataCurta(compra.acessoAte)}.</p>
-          <div className="space-y-3 border-t border-acerto/30 pt-4">
-            <p className="text-sm text-texto/85">
-              Quer continuar depois? Ative a assinatura de {formatarReais(ASSINATURA.valor)} por mês: a primeira cobrança
-              só acontece em {dataCurta(compra.acessoAte)}, quando a Black Friday acabar. Pode cancelar antes, se quiser.
-            </p>
-            {chavePublica ? (
-              <FormularioCartao chavePublica={chavePublica} email={usuario.email} rotulo="Ativar a continuação" />
-            ) : (
-              <BotaoAssinar rotulo="Ativar a continuação" />
-            )}
-          </div>
+          <p className="border-t border-acerto/30 pt-4 text-sm text-texto/85">
+            Quer continuar depois? Escolha um plano abaixo. No Basic, a primeira cobrança só acontece em{" "}
+            {dataCurta(compra.acessoAte)}, quando a Black Friday acabar. O Elite começa hoje, já com os simulados.
+          </p>
         </Card>
       )}
 
@@ -149,29 +177,25 @@ export default async function PaginaAssinatura({
         </Card>
       )}
 
-      {!liberado && (
-        <Card className="space-y-5 p-6">
-          <div>
-            <p className="text-sm font-bold text-suave">{ASSINATURA.nome}</p>
-            <p className="mt-1 text-4xl font-extrabold tracking-tight">
-              {formatarReais(ASSINATURA.valor)}
-              <span className="text-base font-bold text-suave"> /mês</span>
-            </p>
-          </div>
-          <ul className="space-y-2 text-sm">
-            {BENEFICIOS.map((b) => (
-              <li key={b} className="flex items-start gap-2">
-                <Check className="mt-0.5 size-4 shrink-0 text-acerto" aria-hidden />
-                {b}
-              </li>
-            ))}
-          </ul>
-          {/* Com a Public Key, o cartão é digitado aqui (checkout transparente); sem ela, vai para o Mercado Pago. */}
-          {chavePublica ? (
-            <FormularioCartao chavePublica={chavePublica} email={usuario.email} rotulo="Assinar agora" />
-          ) : (
-            <BotaoAssinar rotulo={a?.status === "pending" ? "Concluir pagamento" : "Assinar agora"} />
-          )}
+      {(!liberado || (compra && liberado)) && (
+        <div className="space-y-4">
+          {(["basico", "elite"] as const).map((plano) => (
+            <CartaoPlano
+              key={plano}
+              plano={plano}
+              chavePublica={chavePublica}
+              email={usuario.email}
+              rotulo={
+                compra && liberado
+                  ? plano === "basico"
+                    ? "Continuar no Basic"
+                    : "Ir para o Elite"
+                  : a?.status === "pending"
+                    ? "Concluir pagamento"
+                    : `Assinar o ${plano === "elite" ? "Elite" : "Basic"}`
+              }
+            />
+          ))}
           <p className="text-xs leading-relaxed text-suave">
             Pagamento seguro pelo Mercado Pago, com cobrança automática todo mês no cartão de crédito. Você pode
             cancelar quando quiser e tem 7 dias para desistir com reembolso. Veja os{" "}
@@ -180,7 +204,7 @@ export default async function PaginaAssinatura({
             </Link>
             .
           </p>
-        </Card>
+        </div>
       )}
 
       {!situacao.assinante && (
@@ -190,5 +214,39 @@ export default async function PaginaAssinatura({
         </p>
       )}
     </div>
+  );
+}
+
+/** Um plano mensal: preço, o que inclui e o pagamento (cartão aqui ou checkout do Mercado Pago). */
+function CartaoPlano({ plano, chavePublica, email, rotulo }: { plano: Plano; chavePublica?: string; email: string; rotulo: string }) {
+  const elite = plano === "elite";
+  const itens = elite ? BENEFICIOS_ELITE : BENEFICIOS;
+  return (
+    <Card className={cn("space-y-5 p-6", elite && "border-2 border-marca")}>
+      <div>
+        <p className={cn("text-sm font-bold", elite ? "text-marca-clara" : "text-suave")}>
+          {elite ? "🏆 " : "✅ "}
+          {PLANOS[plano].nome}
+        </p>
+        <p className="mt-1 text-4xl font-extrabold tracking-tight">
+          {formatarReais(PLANOS[plano].valor)}
+          <span className="text-base font-bold text-suave"> /mês</span>
+        </p>
+      </div>
+      <ul className="space-y-2 text-sm">
+        {itens.map((b) => (
+          <li key={b} className="flex items-start gap-2">
+            <Check className="mt-0.5 size-4 shrink-0 text-acerto" aria-hidden />
+            {b}
+          </li>
+        ))}
+      </ul>
+      {/* Com a Public Key, o cartão é digitado aqui (checkout transparente); sem ela, vai para o Mercado Pago. */}
+      {chavePublica ? (
+        <FormularioCartao chavePublica={chavePublica} email={email} rotulo={rotulo} plano={plano} />
+      ) : (
+        <BotaoAssinar rotulo={rotulo} plano={plano} />
+      )}
+    </Card>
   );
 }

@@ -55,7 +55,10 @@ src/
     (app)/ranking                         Fuzil de questões (mais resolvidas) e Bom de Mira (acerto de primeira, mínimo de 30)
     (app)/admin                           área do dono (ADMIN_EMAILS), com menu lateral: visão geral, financeiro,
                                           pessoas (cadastrados x assinantes) e questões (prompt de IA e importação)
-    (app)/assinatura                      assinatura mensal (Mercado Pago), cancelar, limite grátis do dia
+    (app)/assinatura                      planos Basic e Elite (Mercado Pago, mensal), Black Friday (pagamento único, src/lib/planos.ts), cancelar, trocar de plano
+    (app)/simulados                       Elite: baixar o PDF, dar o play no cronômetro, marcar o gabarito, ranking do simulado
+    (app)/admin/simulados                 cadastro do simulado (PDF em partes, gabarito oficial, tempo, datas)
+    api/simulados/[id]/pdf                PDF do simulado só para Elite (sai do banco em partes)
     (app)/admin/revisao                   fila de revisão: questões e flashcards de IA e itens reportados por alunos
     api/mercadopago/webhook               avisos do Mercado Pago (assinatura e cobranças), opcional
     api/cron/assinaturas                  conferência diária no Mercado Pago (vercel.json, CRON_SECRET)
@@ -99,7 +102,8 @@ src/db/aprovacao.ts                       aprovar, rejeitar e reportar erro (tel
 - `flashcards_revisao`: o mesmo para flashcards. `reportes`: erros reportados por alunos (o item fica `suspensa` e sai das listas e contagens até a revisão).
 - `questoes_revisao`: questões geradas por IA aguardando revisão (status pendente_revisao, aprovada, rejeitada). Fora de `questoes` até a aprovação em /admin/revisao.
   A aprovada leva o mesmo `codigo` para `questoes`, com `origem = 'ia'`, `topico_taxonomia`, `subtopico` e `lei_referencia` (nulos nas importadas por arquivo; índice `questoes_origem_topico`).
-- `assinaturas`, `pagamentos`: assinatura mensal e cada cobrança do Mercado Pago (fonte do faturamento). Só de quem tem `external_reference` com o prefixo `nobrega-questoes:` (`src/lib/planos.ts`), para separar de outros produtos na mesma conta.
+- `simulados`, `simulado_arquivo` (o PDF em pedaços de 3 MB), `simulado_tentativas` (uma por aluno: marcações salvas durante a prova, acertos e tempo). O gabarito oficial só vai para o aluno depois da entrega.
+- `assinaturas`, `pagamentos`: assinatura mensal e cada cobrança do Mercado Pago (fonte do faturamento). Elite = mensal com valor do Elite (`eliteLiberado`); a Black Friday fica com id `compra:<pagamento>` e status do pagamento. Só de quem tem `external_reference` com o prefixo `nobrega-questoes:` (`src/lib/planos.ts`), para separar de outros produtos na mesma conta.
 - `user`, `session`, `account`, `verification`: Better Auth. Não renomeie colunas.
 
 ## Regras do projeto (não quebre)

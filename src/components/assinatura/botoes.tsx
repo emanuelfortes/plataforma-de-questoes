@@ -2,10 +2,19 @@
 
 import { useState, useTransition } from "react";
 import { Button } from "@/components/ui/button";
-import { assinar, cancelar, comprarBlackFriday } from "@/server/acoes-assinatura";
+import type { Plano } from "@/lib/planos";
+import { assinar, cancelar, comprarBlackFriday, trocarPlano } from "@/server/acoes-assinatura";
 
 /** Leva ao checkout do Mercado Pago: assinatura mensal ou, com blackFriday, o pagamento único. */
-export function BotaoAssinar({ rotulo = "Assinar agora", blackFriday = false }: { rotulo?: string; blackFriday?: boolean }) {
+export function BotaoAssinar({
+  rotulo = "Assinar agora",
+  blackFriday = false,
+  plano = "basico",
+}: {
+  rotulo?: string;
+  blackFriday?: boolean;
+  plano?: Plano;
+}) {
   const [erro, setErro] = useState<string | null>(null);
   const [enviando, iniciar] = useTransition();
   return (
@@ -17,7 +26,7 @@ export function BotaoAssinar({ rotulo = "Assinar agora", blackFriday = false }: 
         onClick={() =>
           iniciar(async () => {
             setErro(null);
-            const r = await (blackFriday ? comprarBlackFriday() : assinar());
+            const r = await (blackFriday ? comprarBlackFriday() : assinar(plano));
             if (!r.ok) return setErro(r.erro);
             window.location.href = r.url; // checkout do Mercado Pago
           })
@@ -65,6 +74,30 @@ export function BotaoCancelar() {
         </Button>
       </div>
       {erro && <p className="font-bold text-erro">{erro}</p>}
+    </div>
+  );
+}
+
+/** Troca entre Basic e Elite na assinatura ativa (vale a partir da próxima cobrança). */
+export function BotaoTrocarPlano({ plano, rotulo }: { plano: Plano; rotulo: string }) {
+  const [erro, setErro] = useState<string | null>(null);
+  const [enviando, iniciar] = useTransition();
+  return (
+    <div className="space-y-2">
+      <Button
+        variante={plano === "elite" ? "padrao" : "contorno"}
+        disabled={enviando}
+        onClick={() =>
+          iniciar(async () => {
+            setErro(null);
+            const r = await trocarPlano(plano);
+            if (!r.ok) setErro(r.erro ?? "Não foi possível trocar de plano.");
+          })
+        }
+      >
+        {enviando ? "Trocando..." : rotulo}
+      </Button>
+      {erro && <p className="text-sm font-bold text-erro">{erro}</p>}
     </div>
   );
 }

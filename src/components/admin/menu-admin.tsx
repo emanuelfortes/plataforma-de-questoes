@@ -1,6 +1,6 @@
 "use client";
 
-import { BookMarked, BookOpenCheck, ClipboardCheck, LayoutDashboard, Users, Wallet } from "lucide-react";
+import { BookMarked, BookOpenCheck, ClipboardCheck, FileClock, LayoutDashboard, Users, Wallet } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
@@ -12,6 +12,7 @@ const ITENS = [
   { href: "/admin/questoes", rotulo: "Questões", Icone: BookOpenCheck },
   { href: "/admin/revisao", rotulo: "Revisão", Icone: ClipboardCheck },
   { href: "/admin/vade-mecum", rotulo: "Vade Mecum", Icone: BookMarked },
+  { href: "/admin/simulados", rotulo: "Simulados", Icone: FileClock },
 ];
 
 /** Menu da área do dono: lateral no computador, abas roláveis no celular. */

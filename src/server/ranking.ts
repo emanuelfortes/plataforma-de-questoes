@@ -25,7 +25,7 @@ export type LinhaRanking = {
 };
 
 /** "João Carlos da Silva" vira "João S.": o ranking é público entre os alunos; nunca mostra e-mail. */
-function nomeCurto(nome: string) {
+export function nomeCurto(nome: string) {
   const partes = nome.trim().split(/\s+/).filter(Boolean);
   if (partes.length === 0) return "Aluno";
   const primeiro = partes[0]!;

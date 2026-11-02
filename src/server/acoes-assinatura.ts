@@ -4,7 +4,7 @@
 import { revalidatePath } from "next/cache";
 import { z } from "zod";
 import { exigirUsuario } from "@/lib/sessao";
-import { blackFridayAberta } from "@/lib/planos";
+import { blackFridayAberta, type Plano } from "@/lib/planos";
 import {
   assinarComCartao,
   assinaturaDoUsuario,
@@ -13,7 +13,10 @@ import {
   criarCheckoutBlackFriday,
   ehCompra,
   jaComprouBlackFriday,
+  mudarPlano,
 } from "./assinatura";
+
+const planoSchema = z.enum(["basico", "elite"]);
 
 export type ResultadoAssinar = { ok: true; url: string } | { ok: false; erro: string };
 
@@ -21,13 +24,15 @@ export type ResultadoAssinar = { ok: true; url: string } | { ok: false; erro: st
 const mensalAtiva = async (usuarioId: string) => (await assinaturaDoUsuario(usuarioId))?.status === "authorized";
 
 /** Cria a assinatura no Mercado Pago e devolve o link do checkout. */
-export async function assinar(): Promise<ResultadoAssinar> {
+export async function assinar(entrada: unknown = "basico"): Promise<ResultadoAssinar> {
   const usuario = await exigirUsuario();
+  const plano = planoSchema.safeParse(entrada);
+  if (!plano.success) return { ok: false, erro: "Plano inválido." };
   if (await mensalAtiva(usuario.id)) {
     return { ok: false, erro: "Sua assinatura já está ativa." };
   }
   try {
-    return { ok: true, url: await criarCheckout(usuario) };
+    return { ok: true, url: await criarCheckout(usuario, plano.data) };
   } catch (erro) {
     console.error("[assinatura] falha ao criar checkout:", erro);
     return { ok: false, erro: "Não foi possível abrir o pagamento agora. Tente de novo em alguns minutos." };
@@ -37,6 +42,7 @@ export async function assinar(): Promise<ResultadoAssinar> {
 const cartaoSchema = z.object({
   token: z.string().min(8).max(200),
   email: z.email().max(200),
+  plano: planoSchema.default("basico"),
 });
 
 // Mensagens do Mercado Pago para cartão recusado (cause[].code ou message) em português simples.
@@ -60,7 +66,7 @@ export async function assinarCartao(entrada: unknown): Promise<ResultadoCartao> 
     return { ok: false, erro: "Sua assinatura já está ativa." };
   }
   try {
-    const status = await assinarComCartao(usuario, dados.data);
+    const status = await assinarComCartao(usuario, dados.data, dados.data.plano);
     revalidatePath("/assinatura");
     return { ok: true, ativa: status === "authorized" };
   } catch (erro) {
@@ -95,4 +101,21 @@ export async function comprarBlackFriday(): Promise<ResultadoAssinar> {
     console.error("[assinatura] falha ao criar checkout da Black Friday:", erro);
     return { ok: false, erro: "Não foi possível abrir o pagamento agora. Tente de novo em alguns minutos." };
   }
+}
+
+/** Sobe para o Elite ou volta ao Basic na assinatura mensal ativa (muda o valor das próximas cobranças). */
+export async function trocarPlano(entrada: unknown): Promise<{ ok: boolean; erro?: string }> {
+  const usuario = await exigirUsuario();
+  const plano = planoSchema.safeParse(entrada);
+  if (!plano.success) return { ok: false, erro: "Plano inválido." };
+  const a = await assinaturaDoUsuario(usuario.id);
+  if (!a || a.status !== "authorized" || ehCompra(a.id)) return { ok: false, erro: "Você não tem assinatura mensal ativa." };
+  try {
+    await mudarPlano(a.id, plano.data satisfies Plano);
+  } catch (erro) {
+    console.error("[assinatura] falha ao trocar de plano:", erro);
+    return { ok: false, erro: "Não foi possível trocar de plano agora. Tente de novo em alguns minutos." };
+  }
+  revalidatePath("/assinatura");
+  return { ok: true };
 }

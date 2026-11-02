@@ -1,12 +1,32 @@
 // Plano de assinatura e limite de quem não assina. Compartilhado entre servidor e cliente.
 
 export const ASSINATURA = {
-  nome: "Assinatura mensal",
+  nome: "Plano Basic",
   /** Valor cobrado todo mês, em reais. */
   valor: 24.9,
   /** Aparece no checkout, no painel do Mercado Pago e na fatura do aluno. */
   descricao: "Riccardo Nóbrega - Assinatura mensal",
 } as const;
+
+/** Elite: o Basic mais os simulados do mês (PDF para imprimir, gabarito com cronômetro e ranking). */
+export const ELITE = {
+  nome: "Plano Elite",
+  valor: 34.9,
+  descricao: "Riccardo Nóbrega - Plano Elite",
+} as const;
+
+export type Plano = "basico" | "elite";
+export const PLANOS = { basico: ASSINATURA, elite: ELITE } as const;
+
+/** Concursos que têm simulado no Elite. */
+export const CONCURSOS_SIMULADO = ["GM Fortaleza", "GM Itaitinga", "CFO PMCE"] as const;
+
+export const BENEFICIOS_ELITE = [
+  "Tudo do plano Basic",
+  "2 simulados por mês: GM Fortaleza, GM Itaitinga e CFO PMCE",
+  "PDF para imprimir e fazer como no dia da prova",
+  "Gabarito com cronômetro e ranking dos simulados",
+];
 
 /**
  * Black Friday: paga uma vez (Pix ou cartão) e ganha 2 meses. Não renova sozinha: perto do fim, o aluno
