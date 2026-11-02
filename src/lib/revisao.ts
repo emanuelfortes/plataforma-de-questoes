@@ -43,7 +43,7 @@ export function montarComentario(p: PartesComentario) {
   const blocos = [p.comentario.trim()];
   if (p.analiseAlternativas.length)
     blocos.push(
-      ["Análise das alternativas:", ...p.analiseAlternativas.map((a) => `${a.letra}) ${a.correta ? "Correta" : "Errada"}. ${a.justificativa}`)].join("\n"),
+      ["Análise das alternativas:", ...p.analiseAlternativas.map(linhaAlternativa)].join("\n"),
     );
   if (util(p.fundamentoLegal)) blocos.push(`Fundamento legal: ${p.fundamentoLegal}`);
   if (util(p.fundamentoJurisprudencial)) blocos.push(`Jurisprudência: ${p.fundamentoJurisprudencial}`);
@@ -51,6 +51,16 @@ export function montarComentario(p: PartesComentario) {
   for (const d of p.destaques ?? []) blocos.push(`${ROTULO_DESTAQUE[d.tipo] ?? d.tipo}: ${d.texto}`);
   if (util(p.observacaoTemporal)) blocos.push(`Atualização: ${p.observacaoTemporal}`);
   return blocos.join("\n\n");
+}
+
+/**
+ * Uma alternativa da análise. Com item (geração nova), sai como no TEC: o item repetido ("» ", com o trecho
+ * errado riscado), a explicação e a letra da lei ("> "), cada um na sua linha (lidos em src/lib/comentario.ts).
+ */
+function linhaAlternativa(a: AnaliseAlternativa) {
+  const rotulo = `${a.letra}) ${a.correta ? "Correta" : "Errada"}.`;
+  if (!a.item && !a.lei) return `${rotulo} ${a.justificativa}`;
+  return [rotulo, ...(a.item ? [`» ${a.item}`] : []), a.justificativa, ...(a.lei ? [`> ${a.lei}`] : [])].join("\n");
 }
 
 /** Banca mostrada ao aluno: deixa claro que é questão inédita no estilo da banca, não questão de prova. */

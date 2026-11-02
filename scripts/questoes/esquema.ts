@@ -29,7 +29,18 @@ export const esquemaQuestaoGerada = z.object({
   alternativas: z.array(z.object({ id: texto, texto })).min(2).max(5),
   id_correta: texto,
   comentario_geral: texto,
-  analise_alternativas: z.array(z.object({ id: texto, correta: z.boolean(), justificativa: texto })),
+  analise_alternativas: z.array(
+    z.object({
+      id: texto,
+      correta: z.boolean(),
+      justificativa: texto,
+      // Comentário no estilo TEC (opcionais para não quebrar lotes já gerados): o trecho que deixa a errada
+      // errada (copiado do texto da alternativa) e a letra da lei para o aluno comparar.
+      trecho_errado: z.string().optional(),
+      citacao_lei: z.string().optional(),
+      letra_da_lei: z.string().optional(),
+    }),
+  ),
   fundamento_legal: texto,
   fundamento_jurisprudencial: texto,
   observacao_temporal: texto,
@@ -339,4 +350,55 @@ function semelhancaSimples(a: string, b: string) {
     }
   }
   return (2 * comuns) / total;
+}
+
+// ---------- comentário no estilo TEC ----------
+
+const naoSeAplica = (t?: string) => !t?.trim() || /^n[ãa]o se aplica\b/i.test(t.trim());
+const normalizarLei = (t: string) =>
+  t.replace(/==/g, "").replace(/[“”]/g, '"').replace(/[‘’]/g, "'").replace(/\s+/g, " ").trim().toLowerCase();
+
+type AnaliseGerada = QuestaoGerada["analise_alternativas"][number];
+
+/** A letra da lei confere se cada pedaço dela (separado por "(...)") está de fato no texto legal fornecido. */
+function leiConfere(literal: string, textoLegal: string) {
+  const base = normalizarLei(textoLegal);
+  const pedacos = literal.split(/\(\s*\.\.\.\s*\)|\[\s*\.\.\.\s*\]|…/).map(normalizarLei).filter((p) => p.length > 3);
+  return pedacos.length > 0 && pedacos.every((p) => base.includes(p));
+}
+
+/** Para o gerador corrigir: trecho riscado que não está na alternativa e lei que não está no texto fornecido. */
+export function conferirEstiloTec(q: QuestaoGerada, textoLegal: string): string[] {
+  return q.analise_alternativas.flatMap((a) => {
+    const erros: string[] = [];
+    const texto = q.alternativas.find((x) => x.id === a.id)?.texto ?? "";
+    const trecho = a.trecho_errado?.trim();
+    if (!a.correta && trecho && !naoSeAplica(trecho) && !texto.includes(trecho))
+      erros.push(`${q.id}/${a.id}: trecho_errado "${trecho}" não aparece igual no texto da alternativa (copie exatamente)`);
+    const literal = a.letra_da_lei?.trim();
+    if (literal && !naoSeAplica(literal) && !leiConfere(literal, textoLegal))
+      erros.push(`${q.id}/${a.id}: letra_da_lei não confere com o texto legal fornecido (copie palavra por palavra, cortes com "(...)") ou use "não se aplica"`);
+    return erros;
+  });
+}
+
+/**
+ * Item repetido (a errada com o trecho errado entre ~~ ~~) e a letra da lei para comparar, já no formato que a
+ * tela lê (src/lib/comentario.ts). Lei que não confere com o texto fornecido fica de fora, para nunca mostrar
+ * ao aluno um artigo inventado.
+ */
+export function extrasDaAnalise(a: AnaliseGerada, textoAlternativa: string, textoLegal: string) {
+  // Certo ou errado: a alternativa é só "Certo"/"Errado", não há item para repetir (fica a explicação e a lei).
+  let item = /^(certo|errado)\.?$/i.test(textoAlternativa.trim()) ? "" : textoAlternativa.trim();
+  const trecho = a.trecho_errado?.trim();
+  if (item && !a.correta && trecho && !naoSeAplica(trecho) && item.includes(trecho)) item = item.replace(trecho, `~~${trecho}~~`);
+  let lei: string | undefined;
+  const literal = a.letra_da_lei?.trim();
+  if (literal && !naoSeAplica(literal) && textoLegal && leiConfere(literal, textoLegal)) {
+    // Destaque desemparelhado vira texto puro (senão sobra "==" na tela).
+    const limpo = (literal.match(/==/g)?.length ?? 0) % 2 ? literal.replace(/==/g, "") : literal;
+    const citacao = a.citacao_lei?.trim();
+    lei = citacao && !naoSeAplica(citacao) ? `**${citacao.replace(/[.:]$/, "")}.** ${limpo}` : limpo;
+  }
+  return { ...(item ? { item } : {}), ...(lei ? { lei } : {}) };
 }

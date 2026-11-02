@@ -169,7 +169,10 @@ Se houver mais de uma resposta defensável, reformule a questão ou descarte-a.
 Para cada questão, preencha:
 
 * "comentario_geral": a regra central, sua aplicação ao caso e a razão da resposta correta. Objetivo, adequado para aparecer logo depois da resposta do aluno.
-* "analise_alternativas": uma entrada para cada alternativa, referenciando o "id" dela, dizendo se está correta e explicando especificamente por quê. Evite comentários circulares ("está errada porque não está de acordo com a lei"): identifique o erro concreto de cada distrator.
+* "analise_alternativas": uma entrada para cada alternativa, referenciando o "id" dela, dizendo se está correta e explicando especificamente por quê. Evite comentários circulares ("está errada porque não está de acordo com a lei"): identifique o erro concreto de cada distrator. Cada entrada também traz, para o comentário no estilo TEC (o sistema repete o item com o erro riscado em vermelho e põe a lei embaixo para o aluno comparar):
+  * "trecho_errado": nas erradas, a palavra ou expressão curta que deixa o item errado, copiada exatamente como está no texto da alternativa (ex.: "podendo"). Prefira o menor trecho que, trocado, tornaria o item certo. Na correta, "não se aplica".
+  * "citacao_lei": a referência curta do dispositivo usado na comparação, no formato "CC, art. 11" ou "CF/1988, art. 5º, XVI"; "não se aplica" quando não houver.
+  * "letra_da_lei": o trecho literal do texto legal fornecido que mostra o certo, copiado palavra por palavra (pode cortar com "(...)"), com a palavra que decide a questão entre == == (ex.: "os direitos da personalidade são intransmissíveis e irrenunciáveis, ==não== podendo o seu exercício sofrer limitação voluntária"). O sistema confere o trecho no texto fornecido e descarta o que não bater. Sem texto legal (ex.: Língua Portuguesa) ou quando a lei não ajuda a comparar, "não se aplica": fica só a explicação.
 * "fundamento_legal": o dispositivo realmente aplicável, conforme o texto fornecido.
 * "fundamento_jurisprudencial": quando necessário, com as restrições da seção 4.1; senão, "não se aplica".
 * "observacao_temporal": se a resposta depende de redação anterior, lei nova, regra de transição ou data específica; senão, "não se aplica".

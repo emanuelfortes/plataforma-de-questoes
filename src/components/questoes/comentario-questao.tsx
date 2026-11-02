@@ -75,6 +75,9 @@ function Alternativa({ item, gabarito, escolhida }: { item: ItemAlternativa; gab
   // A cor vem do gabarito (o texto do comentário pode não dizer "Correta"/"Errada").
   const correta = item.letra === gabarito;
   const sua = item.letra === escolhida;
+  const linhas = item.texto.split("\n").map((l) => l.trim()).filter(Boolean);
+  // Estilo TEC: "» " repete o item (em itálico, com o erro riscado) e "> " traz a letra da lei para comparar.
+  const repetido = linhas.find((l) => l.startsWith("» "));
   return (
     <li className={cn("flex gap-3 border-t border-borda p-3 first:border-t-0", correta && "bg-acerto-suave")}>
       <span
@@ -87,11 +90,33 @@ function Alternativa({ item, gabarito, escolhida }: { item: ItemAlternativa; gab
         {item.letra}
       </span>
       <div className="min-w-0 flex-1 text-[14px] leading-relaxed">
-        <p className="flex flex-wrap items-center gap-x-2 text-xs font-extrabold">
-          <span className={correta ? "text-acerto" : "text-erro"}>{correta ? "Correta" : "Errada"}</span>
-          {sua && <span className="rounded bg-marca-suave px-1.5 py-0.5 text-[10px] uppercase tracking-wide text-marca-clara">Sua resposta</span>}
-        </p>
-        <p className="mt-0.5 text-texto/90">{formatar(item.texto)}</p>
+        {(!repetido || sua) && (
+          <p className="flex flex-wrap items-center gap-x-2 text-xs font-extrabold">
+            {!repetido && <span className={correta ? "text-acerto" : "text-erro"}>{correta ? "Correta" : "Errada"}</span>}
+            {sua && <span className="rounded bg-marca-suave px-1.5 py-0.5 text-[10px] uppercase tracking-wide text-marca-clara">Sua resposta</span>}
+          </p>
+        )}
+        <div className="mt-1 space-y-2.5">
+          {repetido && (
+            <p className="italic text-texto/90">
+              {formatar(repetido.slice(2))}{" "}
+              <strong className={cn("not-italic font-extrabold", correta ? "text-acerto" : "text-erro")}>{correta ? "CORRETA" : "INCORRETA"}.</strong>
+            </p>
+          )}
+          {linhas
+            .filter((l) => l !== repetido)
+            .map((l, i) =>
+              l.startsWith("> ") ? (
+                <blockquote key={i} className="border-l-[3px] border-borda-forte pl-3 italic text-texto/85">
+                  {formatar(l.slice(2))}
+                </blockquote>
+              ) : (
+                <p key={i} className="text-texto/90">
+                  {formatar(l)}
+                </p>
+              ),
+            )}
+        </div>
       </div>
     </li>
   );
@@ -111,16 +136,23 @@ function Paragrafos({ texto, className }: { texto: string; className?: string })
 
 /**
  * Marcações simples no texto do comentário: ~~trecho~~ aparece riscado em vermelho (a palavra que deixa a
- * alternativa errada, como no TEC) e **trecho** em negrito. O resto é texto puro (nada de HTML).
+ * alternativa errada, como no TEC), ==trecho== em vermelho forte (a palavra da lei que decide) e **trecho** em
+ * negrito. O resto é texto puro (nada de HTML).
  */
 function formatar(texto: string): ReactNode {
-  const pedacos = texto.split(/(~~[^~]+~~|\*\*[^*]+\*\*)/g);
+  const pedacos = texto.split(/(~~[^~]+~~|==[^=]+==|\*\*[^*]+\*\*)/g);
   return pedacos.map((p, i) => {
     if (p.startsWith("~~") && p.endsWith("~~"))
       return (
         <s key={i} className="text-erro decoration-2">
           {p.slice(2, -2)}
         </s>
+      );
+    if (p.startsWith("==") && p.endsWith("==") && p.length > 4)
+      return (
+        <strong key={i} className="font-extrabold not-italic text-erro">
+          {p.slice(2, -2)}
+        </strong>
       );
     if (p.startsWith("**") && p.endsWith("**"))
       return (

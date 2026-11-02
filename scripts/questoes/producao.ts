@@ -39,7 +39,9 @@ import {
   conferirQuestao,
   dispositivosSemNota,
   esquemaLoteAuditadoProducao,
+  conferirEstiloTec,
   esquemaLoteProducao,
+  extrasDaAnalise,
   sensiveisCitadosQuestao,
   trechosAConfirmar,
   type Auditoria,
@@ -291,8 +293,9 @@ function validarGerado(lote: Lote, arquivo: string, esperados?: { questoes: stri
   const tax = lerTaxonomia();
   const { topico } = acharTopico(tax, lote.topico);
   const sensiveis = sensiveisDoTopico(topico);
-  const temLei = Boolean(textoLegal(tax, topico));
-  const erros = r.data.questoes.flatMap((q) => conferirQuestao(q, lote.alternativas, sensiveis));
+  const lei = textoLegal(tax, topico);
+  const temLei = Boolean(lei);
+  const erros = r.data.questoes.flatMap((q) => [...conferirQuestao(q, lote.alternativas, sensiveis), ...conferirEstiloTec(q, lei)]);
   const enunciados = r.data.questoes.map((q) => q.enunciado);
   erros.push(...r.data.flashcards.flatMap((f) => conferirFlashcard(f, { temLei, sensiveis, enunciados })));
   const idsQ = r.data.questoes.map((q) => q.id);
@@ -371,7 +374,8 @@ async function importarLote(lote: Lote, itensQ: ItemQ[], itensF: ItemF[], descar
   const sensiveis = sensiveisDoTopico(topico);
   const julgados = lerJurisprudencia();
   // Tema jurídico sem nenhum texto legal no pedido: nada é aprovado sozinho (vai para a fila manual).
-  const juridicoSemLei = !textoLegal(tax, topico) && !DISCIPLINAS_SEM_LEI.includes(disciplina);
+  const lei = textoLegal(tax, topico);
+  const juridicoSemLei = !lei && !DISCIPLINAS_SEM_LEI.includes(disciplina);
   const res: Resultado = { questoes: vazio(), flashcards: vazio(), descartes };
   res.questoes.geradas = itensQ.length + descartes.filter((d) => d.id.startsWith("q")).length;
   res.flashcards.geradas = itensF.length + descartes.filter((d) => d.id.startsWith("f")).length;
@@ -474,7 +478,14 @@ async function importarLote(lote: Lote, itensQ: ItemQ[], itensF: ItemF[], descar
       alternativas: ordem.map((a, k) => ({ letra: LETRAS[k]!, texto: a.texto })),
       gabarito,
       comentario: troca(q.comentario_geral)!,
-      analiseAlternativas: q.analise_alternativas.map((x) => ({ letra: letraDe.get(x.id)!, correta: x.correta, justificativa: troca(x.justificativa)! })).sort((x, y) => x.letra.localeCompare(y.letra)),
+      analiseAlternativas: q.analise_alternativas
+        .map((x) => ({
+          letra: letraDe.get(x.id)!,
+          correta: x.correta,
+          justificativa: troca(x.justificativa)!,
+          ...extrasDaAnalise(x, q.alternativas.find((a) => a.id === x.id)?.texto ?? "", lei),
+        }))
+        .sort((x, y) => x.letra.localeCompare(y.letra)),
       fundamentoLegal: naoSeAplica(q.fundamento_legal),
       fundamentoJurisprudencial: naoSeAplica(q.fundamento_jurisprudencial),
       observacaoTemporal: naoSeAplica(q.observacao_temporal),

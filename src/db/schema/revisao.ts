@@ -3,7 +3,8 @@
 import { index, integer, sqliteTable, text } from "drizzle-orm/sqlite-core";
 import type { Alternativa } from "./conteudo";
 
-export type AnaliseAlternativa = { letra: string; correta: boolean; justificativa: string };
+/** item: a alternativa repetida, com o trecho errado entre ~~ ~~; lei: a letra da lei para comparar (==destaque==). */
+export type AnaliseAlternativa = { letra: string; correta: boolean; justificativa: string; item?: string; lei?: string };
 export type ResultadoAuditoria = {
   justificativa: string;
   problemas: { tipo: string; gravidade: string; descricao: string }[];

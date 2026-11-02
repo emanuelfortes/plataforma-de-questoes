@@ -54,7 +54,14 @@ Toda questão e todo flashcard pertencem a uma **disciplina** (matéria) e, de p
 A tela separa o comentário pelos rótulos abaixo, cada um em linha nova (`\n`). Sem rótulo, o texto aparece corrido.
 
 1. Primeiro, sem rótulo: 2 a 4 frases explicando o ponto cobrado.
-2. `Análise das alternativas:` e, uma por linha, `A) Errada: ...`, `B) Correta: ...`. O trecho que deixa a errada errada vai entre `~~ ~~` e aparece riscado.
+2. `Análise das alternativas:` e, uma por linha, `A) Errada: ...`, `B) Correta: ...`. O trecho que deixa a errada errada vai entre `~~ ~~` e aparece riscado. No estilo TEC, cada alternativa pode ocupar várias linhas (a tela mostra cada uma no seu bloco):
+   ```
+   D) Errada.
+   » Com exceção dos casos previstos em lei, os direitos da personalidade são intransmissíveis e irrenunciáveis, ~~podendo~~ o seu exercício sofrer limitação voluntária.
+   O art. 11 do CC veda a limitação voluntária.
+   > **CC, art. 11.** Com exceção dos casos previstos em lei, os direitos da personalidade são intransmissíveis e irrenunciáveis, ==não== podendo o seu exercício sofrer limitação voluntária.
+   ```
+   `» ` repete o item em itálico (com INCORRETA ou CORRETA no fim), `> ` é a letra da lei em destaque e `==palavra==` fica em vermelho. Sem lei para comparar, só a linha `» ` e a explicação.
 3. `Fundamento legal:` com o artigo e a lei (ex.: `CP, art. 157, § 2º, I`). Aparece num quadro de letra de lei, e é por ele que a questão fica ligada ao artigo no Vade Mecum.
 4. Opcional: `Pegadinha:` ou `Macete:`, que aparecem como aviso.
 
