@@ -21,6 +21,19 @@ export const metadata: Metadata = {
     apple: [{ url: "/icones/apple-touch-icon.png", sizes: "180x180" }],
   },
   formatDetection: { telephone: false },
+  // Prévia do link no WhatsApp e nas redes. A imagem fica em public/ (1200x630); trocou a promoção, troque ela.
+  // Domínio fixo: o WhatsApp nem sempre segue o redirecionamento da URL da Vercel.
+  metadataBase: new URL("https://riccardonobrega.com"),
+  openGraph: {
+    type: "website",
+    url: "/",
+    locale: "pt_BR",
+    siteName: NOME_PLATAFORMA,
+    title: `${NOME_PLATAFORMA} Questões | Black Friday: R$ 24,90/mês`,
+    description: "Questões com gabarito comentado, cards inteligentes, ranking e Vade Mecum. Comece grátis: 5 questões por dia.",
+    images: [{ url: "/og-black-friday.jpg", width: 1200, height: 630, alt: `${NOME_PLATAFORMA} Questões: Black Friday` }],
+  },
+  twitter: { card: "summary_large_image" },
 };
 
 // Cor da barra do navegador e do app instalado (= --color-fundo de cada visão).
