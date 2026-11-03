@@ -51,8 +51,11 @@ const cartaoSchema = z.object({
   token: z.string().min(8).max(200),
   email: z.email().max(200),
   plano: planoSchema.default("basico"),
-  /** Código do aparelho gerado pelo security.js do Mercado Pago (pode faltar se o script não carregou). */
-  dispositivo: z.string().regex(/^[\w-]{8,200}$/).optional(),
+  /**
+   * Código do aparelho gerado pelo security.js do Mercado Pago (ex.: "armor.1f2c...", com ponto). Pode faltar se
+   * o script não carregou; se vier num formato inesperado, é ignorado em vez de barrar o pagamento.
+   */
+  dispositivo: z.string().regex(/^[\w.:-]{8,300}$/).optional().catch(undefined),
 });
 
 // Mensagens do Mercado Pago para cartão recusado (cause[].code ou message) em português simples.
@@ -73,7 +76,10 @@ export type ResultadoCartao = { ok: true; ativa: boolean } | { ok: false; erro: 
 export async function assinarCartao(entrada: unknown): Promise<ResultadoCartao> {
   const usuario = await exigirUsuario();
   const dados = cartaoSchema.safeParse(entrada);
-  if (!dados.success) return { ok: false, erro: "Dados do cartão incompletos." };
+  if (!dados.success) {
+    console.error("[assinatura] dados do cartão recusados:", dados.error.issues.map((i) => i.path.join(".")).join(", "));
+    return { ok: false, erro: "Dados do cartão incompletos." };
+  }
   if (await mensalAtiva(usuario.id)) {
     return { ok: false, erro: "Sua assinatura já está ativa." };
   }
