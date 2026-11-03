@@ -7,6 +7,7 @@ import { BotaoTema } from "@/components/botao-tema";
 import { Logo } from "@/components/logo";
 import { variantesBotao } from "@/components/ui/button";
 import { NOME_PLATAFORMA } from "@/lib/marca";
+import { CreditoDev } from "@/components/credito-dev";
 import { NomeMarca } from "@/components/nome-marca";
 import {
   ADICIONAL_ELITE,
@@ -511,6 +512,7 @@ function Rodape() {
           </Link>
         </nav>
       </div>
+      <CreditoDev className="pb-8" />
     </footer>
   );
 }

@@ -1,5 +1,6 @@
 "use client";
 
+import { CreditoDev } from "@/components/credito-dev";
 import Link from "next/link";
 import { Logo } from "@/components/logo";
 import { useRouter } from "next/navigation";
@@ -46,6 +47,7 @@ export function CaixaAcesso({
             Privacidade
           </Link>
         </p>
+        <CreditoDev className="text-left" />
       </div>
     </main>
   );

@@ -1,4 +1,5 @@
 import { AvisoConfirmarEmail } from "@/components/aviso-confirmar-email";
+import { CreditoDev } from "@/components/credito-dev";
 import { Navegacao } from "@/components/navegacao";
 import { ehAdmin, exigirUsuario } from "@/lib/sessao";
 
@@ -10,7 +11,10 @@ export default async function LayoutApp({ children }: { children: React.ReactNod
       <Navegacao nome={usuario.name} admin={ehAdmin(usuario.email)} />
       {!usuario.emailVerified && <AvisoConfirmarEmail email={usuario.email} />}
       {/* No celular sobra espaço embaixo para a barra de abas fixa (h-16 + área segura do iPhone). */}
-      <main className="mx-auto max-w-4xl px-5 pt-6 pb-[calc(6rem+env(safe-area-inset-bottom))] md:py-8">{children}</main>
+      <main className="mx-auto max-w-4xl px-5 pt-6 pb-[calc(6rem+env(safe-area-inset-bottom))] md:py-8">
+        {children}
+        <CreditoDev className="mt-16" />
+      </main>
     </>
   );
 }

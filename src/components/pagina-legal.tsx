@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Logo } from "@/components/logo";
 import { LEGAL, linkWhatsapp, whatsappFormatado } from "@/lib/legal";
 import { NOME_PLATAFORMA } from "@/lib/marca";
+import { CreditoDev } from "./credito-dev";
 import { NomeMarca } from "./nome-marca";
 import { BotaoTema } from "@/components/botao-tema";
 
@@ -25,6 +26,7 @@ export function PaginaLegal({ titulo, children }: { titulo: string; children: Re
         <Link href="/termos">Termos de uso</Link> · <Link href="/privacidade">Política de privacidade</Link> ·{" "}
         <ContatoWhatsapp />
       </p>
+      <CreditoDev className="mt-6 text-left" />
     </main>
   );
 }

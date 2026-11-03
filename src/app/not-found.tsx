@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CreditoDev } from "@/components/credito-dev";
 import { variantesBotao } from "@/components/ui/button";
 
 export default function NaoEncontrada() {
@@ -11,6 +12,7 @@ export default function NaoEncontrada() {
         <Link href="/" className={variantesBotao({ className: "mt-6" })}>
           Voltar para o início
         </Link>
+        <CreditoDev className="mt-10" />
       </div>
     </main>
   );

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import { CreditoDev } from "@/components/credito-dev";
 import { Button } from "@/components/ui/button";
 
 // Mostrada quando uma página quebra no servidor ou no navegador.
@@ -23,6 +24,7 @@ export default function Erro({ error, reset }: { error: Error & { digest?: strin
             Ir para o início
           </a>
         </div>
+        <CreditoDev className="mt-10" />
       </div>
     </main>
   );
