@@ -3,7 +3,7 @@ import { CabecalhoPagina, CardMetrica, LinkBotao, Secao, Selo } from "@/componen
 import { ultimosDias, rotuloDia } from "@/lib/datas";
 import { formatarReais } from "@/lib/planos";
 import { formatarNumero } from "@/lib/utils";
-import { resumoFaturamento } from "@/server/assinatura";
+import { conferirCobrancasPendentes, resumoFaturamento } from "@/server/assinatura";
 import { cadastrosPorDia, resumoPessoas, ROTULO_SITUACAO, totaisConteudo } from "@/server/pessoas";
 import { usoDaPlataforma } from "@/server/uso";
 
@@ -40,6 +40,8 @@ function GraficoCadastros({ porDia }: { porDia: Map<string, number> }) {
 
 // exigirAdmin() já roda no layout de /admin.
 export default async function PaginaVisaoGeral() {
+  // Cobrança do cartão que ainda não entrou (sem esperar a conferência diária das 6h).
+  await conferirCobrancasPendentes();
   const [pessoas, faturamento, conteudo, cadastros, uso] = await Promise.all([
     resumoPessoas(),
     resumoFaturamento(),

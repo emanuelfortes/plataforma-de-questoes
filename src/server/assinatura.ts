@@ -172,6 +172,38 @@ async function salvarPagamento(p: CobrancaMP, usuarioId: string) {
  * e as cobranças de cada uma. Garante renovações, recusas e cancelamentos mesmo sem webhook
  * (a conta do Mercado Pago é compartilhada e o webhook dela aponta para outro produto).
  */
+/**
+ * Cobranças que ainda não chegaram: assinaturas no cartão ativas sem pagamento aprovado nos últimos 32 dias
+ * (a primeira cobrança de quem acabou de assinar, ou a renovação do mês). Roda ao abrir o painel do dono,
+ * para o faturamento não esperar a conferência diária. Só consulta o Mercado Pago para essas poucas.
+ */
+export async function conferirCobrancasPendentes() {
+  if (!cobrancaAtiva()) return;
+  const lista = await db
+    .select({ id: assinaturas.id, usuarioId: assinaturas.usuarioId })
+    .from(assinaturas)
+    .where(
+      and(
+        eq(assinaturas.status, "authorized"),
+        sql`${assinaturas.id} not like 'pix:%'`,
+        sql`not exists (select 1 from ${pagamentos} where ${pagamentos.assinaturaId} = ${assinaturas.id}
+          and ${pagamentos.status} = 'approved' and ${pagamentos.cobradoEm} > unixepoch() - 32 * 86400)`,
+      ),
+    )
+    .limit(20);
+  const faturas = new Invoice(cliente());
+  await Promise.all(
+    lista.map(async (a) => {
+      try {
+        const r = await faturas.search({ options: { preapproval_id: a.id, limit: 10 } });
+        for (const p of r.results ?? []) await salvarPagamento(p, a.usuarioId);
+      } catch (erro) {
+        console.error(`[assinatura] falha ao buscar cobranças de ${a.id}:`, erro);
+      }
+    }),
+  );
+}
+
 export async function sincronizarTodas() {
   const umMesAtras = new Date(Date.now() - 35 * 24 * 60 * 60 * 1000);
   const lista = await db

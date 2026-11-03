@@ -4,7 +4,7 @@ import Link from "next/link";
 import { CabecalhoPagina, CardMetrica, classeCabecalhoTabela, Secao, Selo } from "@/components/admin/kit";
 import { formatarReais, PREFIXO_REFERENCIA } from "@/lib/planos";
 import { cn } from "@/lib/utils";
-import { resumoFaturamento, type FormaPagamento } from "@/server/assinatura";
+import { conferirCobrancasPendentes, resumoFaturamento, type FormaPagamento } from "@/server/assinatura";
 import { resumoPessoas } from "@/server/pessoas";
 
 export const metadata: Metadata = { title: "Financeiro" };
@@ -58,6 +58,8 @@ const FORMAS: { valor?: FormaPagamento; rotulo: string }[] = [
 export default async function PaginaFinanceiro({ searchParams }: { searchParams: Promise<{ forma?: string }> }) {
   const { forma: formaUrl } = await searchParams;
   const forma = formaUrl === "pix" || formaUrl === "cartao" ? formaUrl : undefined;
+  // Cobrança do cartão que ainda não entrou (sem esperar a conferência diária das 6h).
+  await conferirCobrancasPendentes();
   const [r, pessoas] = await Promise.all([resumoFaturamento(forma), resumoPessoas()]);
   const mesAtual = new Date().toLocaleDateString("sv-SE", { timeZone: "America/Sao_Paulo" }).slice(0, 7);
   const doMes = r.porMes.find((m) => m.mes === mesAtual);
