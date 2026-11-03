@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ContatoWhatsapp, PaginaLegal, Responsavel } from "@/components/pagina-legal";
 import { LEGAL } from "@/lib/legal";
-import { ADICIONAL_ELITE, ASSINATURA, ELITE, formatarReais, LIMITE_GRATIS_DIA, PROMOCAO } from "@/lib/planos";
+import { ADICIONAL_ELITE, ASSINATURA, DIAS_PIX, ELITE, formatarReais, LIMITE_GRATIS_DIA, PROMOCAO } from "@/lib/planos";
 
 export const metadata: Metadata = { title: "Termos de uso" };
 
@@ -79,8 +79,13 @@ export default function PaginaTermos() {
           valor. Se cancelar e assinar de novo depois do prazo, vale o preço normal.
         </li>
         <li>
-          O pagamento é processado pelo Mercado Pago, no cartão de crédito, e <strong>renova sozinho todo mês</strong>{" "}
+          O pagamento é processado pelo Mercado Pago. No cartão de crédito, <strong>renova sozinho todo mês</strong>{" "}
           até você cancelar. Não recebemos nem guardamos os dados do seu cartão.
+        </li>
+        <li>
+          <strong>Pix:</strong> cada pagamento libera {DIAS_PIX} dias de acesso e <strong>não renova sozinho</strong>. Pagando
+          o próximo Pix antes do fim, os dias novos começam quando os atuais acabarem. Quem renova em dia (ou até 7 dias
+          depois do fim) mantém o preço que já paga, inclusive o da {PROMOCAO.nome}.
         </li>
         <li>
           <strong>Cancelamento:</strong> a qualquer momento, em <Link href="/assinatura">Assinatura</Link>, sem multa.

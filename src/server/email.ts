@@ -133,3 +133,14 @@ export function emailConfirmarEndereco(nome: string, url: string): Omit<Email, "
     texto: `Olá, ${nome}.\n\n${pedido}\n\n${url}\n\n${rodape}`,
   };
 }
+
+export function emailRenovarPix(nome: string, fim: string, valor: string, url: string): Omit<Email, "para"> {
+  const ola = `Olá, ${escapar(nome)}.`;
+  const aviso = `Seu acesso pago com Pix vai até ${fim}. Para continuar estudando sem limite, pague o próximo Pix de ${valor}: os 30 dias novos começam quando os atuais acabarem, então renovar antes não perde nenhum dia.`;
+  const rodape = "Se não renovar, sua conta volta para o limite grátis de questões por dia. Prefere não se preocupar? Assine no cartão, que renova sozinho.";
+  return {
+    assunto: `Seu acesso vai até ${fim}: renove com Pix`,
+    html: modelo("Renove seu acesso", [ola, aviso], { rotulo: "Pagar com Pix", url }, rodape),
+    texto: `Olá, ${nome}.\n\n${aviso}\n\n${url}\n\n${rodape}`,
+  };
+}

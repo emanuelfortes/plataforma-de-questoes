@@ -1,7 +1,7 @@
 import { InvalidWebhookSignatureError, WebhookSignatureValidator } from "mercadopago";
-import { sincronizarAssinatura, sincronizarPagamento } from "@/server/assinatura";
+import { sincronizarAssinatura, sincronizarPagamento, sincronizarPix } from "@/server/assinatura";
 
-// Avisos do Mercado Pago sobre assinaturas. Configure em Suas integrações > (aplicação
+// Avisos do Mercado Pago sobre assinaturas e Pix. Configure em Suas integrações > (aplicação
 // Nóbrega Questões) > Webhooks: URL https://riccardonobrega.com/api/mercadopago/webhook,
 // eventos "Planos e assinaturas". O segredo de assinatura vai em MP_WEBHOOK_SECRET.
 //
@@ -40,7 +40,9 @@ export async function POST(requisicao: Request) {
   try {
     if (tipo === "subscription_preapproval" || tipo === "preapproval") await sincronizarAssinatura(id);
     else if (tipo === "subscription_authorized_payment" || tipo === "authorized_payment") await sincronizarPagamento(id);
-    // Outros tipos (pagamentos avulsos, planos...) não são desta integração: só confirmamos o recebimento.
+    // Pix: o aviso vem pelo notification_url de cada pagamento; o que não for desta plataforma é ignorado.
+    else if (tipo === "payment") await sincronizarPix(id);
+    // Outros tipos (planos...) não são desta integração: só confirmamos o recebimento.
   } catch (erro) {
     // Devolver erro faz o Mercado Pago tentar de novo mais tarde (a cada 15 minutos).
     console.error(`[mercadopago] falha ao processar ${tipo} ${id}:`, erro);

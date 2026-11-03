@@ -60,8 +60,10 @@ export default async function PaginaConta({
           <p className="mt-2 text-sm text-suave">
             {assinatura?.status === "authorized"
               ? `Ativa: ${formatarReais(assinatura.valorCentavos / 100)} por mês.`
-              : acessoLiberado(assinatura)
-                ? "Cancelada: o acesso continua até o fim do período pago."
+              : acessoLiberado(assinatura) && assinatura?.id.startsWith("pix:")
+                ? `Pago com Pix: acesso até ${assinatura.acessoAte?.toLocaleDateString("pt-BR", { timeZone: "America/Sao_Paulo" })}.`
+                : acessoLiberado(assinatura)
+                  ? "Cancelada: o acesso continua até o fim do período pago."
                 : "Você usa o plano grátis, com limite de questões por dia."}
           </p>
           <Link href="/assinatura" className="mt-3 inline-block text-sm font-bold text-marca-clara hover:underline">

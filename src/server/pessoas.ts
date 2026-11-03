@@ -23,6 +23,8 @@ function classificar(email: string, a: UltimaAssinatura | undefined): Situacao {
   if (ehAdmin(email)) return "equipe";
   if (!a) return "gratis";
   if (a.status === "authorized") return "assinante";
+  // Pix pago e ainda valendo também é assinante (não renova sozinho, mas está pago).
+  if (a.status === "approved" && a.acessoAte && a.acessoAte.getTime() > Date.now()) return "assinante";
   if (a.acessoAte && a.acessoAte.getTime() > Date.now()) return "cancelado";
   if (a.status === "pending") return "pendente";
   return "gratis";
@@ -39,8 +41,13 @@ async function ultimasAssinaturas() {
     })
     .from(assinaturas)
     .orderBy(desc(assinaturas.atualizadaEm));
+  // Vale a mais recente, mas um Pix gerado e não pago não esconde o acesso que o aluno já pagou.
+  const vale = (l: UltimaAssinatura) => l.status === "authorized" || (!!l.acessoAte && l.acessoAte.getTime() > Date.now());
   const mapa = new Map<string, UltimaAssinatura>();
-  for (const l of linhas) if (!mapa.has(l.usuarioId)) mapa.set(l.usuarioId, l);
+  for (const l of linhas) {
+    const atual = mapa.get(l.usuarioId);
+    if (!atual || (!vale(atual) && vale(l))) mapa.set(l.usuarioId, l);
+  }
   return mapa;
 }
 

@@ -3,12 +3,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { BotaoAssinar, BotaoCancelar, BotaoTrocarPlano } from "@/components/assinatura/botoes";
 import { FormularioCartao } from "@/components/assinatura/formulario-cartao";
+import { PagamentoPix } from "@/components/assinatura/pagamento-pix";
 import { Card } from "@/components/ui/card";
 import {
   ADICIONAL_ELITE,
   ASSINATURA,
   BENEFICIOS_ASSINATURA,
   BENEFICIOS_ELITE,
+  DIAS_PIX,
   ELITE,
   formatarReais,
   LIMITE_GRATIS_DIA,
@@ -21,7 +23,17 @@ import {
 } from "@/lib/planos";
 import { cn } from "@/lib/utils";
 import { exigirUsuario } from "@/lib/sessao";
-import { acessoLiberado, assinaturaDoUsuario, cobrancaAtiva, eliteLiberado, sincronizarAssinatura, situacaoDoAluno } from "@/server/assinatura";
+import {
+  acessoLiberado,
+  assinaturaDoUsuario,
+  atualizarPixPendentes,
+  cobrancaAtiva,
+  ehPix,
+  eliteLiberado,
+  precoDoPix,
+  sincronizarAssinatura,
+  situacaoDoAluno,
+} from "@/server/assinatura";
 
 export const metadata: Metadata = { title: "Assinatura" };
 
@@ -54,7 +66,15 @@ export default async function PaginaAssinatura({
     await sincronizarAssinatura(preapproval_id).catch((erro) => console.error("[assinatura] retorno:", erro));
   }
 
-  const [a, situacao] = await Promise.all([assinaturaDoUsuario(usuario.id), situacaoDoAluno(usuario)]);
+  // Pix pago sem o aviso chegar (ou com a tela fechada): confere os que ainda aguardam.
+  await atualizarPixPendentes(usuario.id);
+
+  const [a, situacao, pixBasico, pixElite] = await Promise.all([
+    assinaturaDoUsuario(usuario.id),
+    situacaoDoAluno(usuario),
+    precoDoPix(usuario.id, "basico"),
+    precoDoPix(usuario.id, "elite"),
+  ]);
   const liberado = acessoLiberado(a);
   const elite = eliteLiberado(a);
   const promocao = promocaoAberta();
@@ -102,7 +122,18 @@ export default async function PaginaAssinatura({
         </Card>
       )}
 
-      {a && a.status !== "authorized" && liberado && (
+      {a && ehPix(a.id) && liberado && (
+        <Card className="space-y-2 border-acerto/40 bg-acerto-suave p-6">
+          <p className="font-extrabold text-acerto">{elite ? ELITE.nome : ASSINATURA.nome} ativo (Pix)</p>
+          <p className="text-sm text-texto/85">
+            Seu acesso vai até <strong>{dataCurta(a.acessoAte)}</strong>. Para não parar, pague o próximo Pix antes dessa
+            data: os {DIAS_PIX} dias novos começam quando os atuais acabarem, então renovar antes não perde nenhum dia.
+            Avisamos por e-mail perto do fim.
+          </p>
+        </Card>
+      )}
+
+      {a && !ehPix(a.id) && a.status !== "authorized" && liberado && (
         <Card className="space-y-2 p-6">
           <p className="font-extrabold">Assinatura cancelada</p>
           <p className="text-sm text-texto/85">
@@ -135,14 +166,17 @@ export default async function PaginaAssinatura({
               key={plano}
               plano={plano}
               valor={precoDoPlano(plano)}
+              valorPix={plano === "elite" ? pixElite : pixBasico}
+              renovando={!!a && ehPix(a.id) && liberado}
               chavePublica={chavePublica}
               email={usuario.email}
-              rotulo={a?.status === "pending" ? "Concluir pagamento" : `Assinar por ${formatarReais(precoDoPlano(plano))}/mês`}
+              rotulo={a?.status === "pending" && !ehPix(a.id) ? "Concluir pagamento" : `Assinar por ${formatarReais(precoDoPlano(plano))}/mês`}
             />
           ))}
           <p className="text-xs leading-relaxed text-suave">
-            Pagamento seguro pelo Mercado Pago, com cobrança automática todo mês no cartão de crédito. Você pode
-            cancelar quando quiser e tem 7 dias para desistir com reembolso.
+            Pagamento seguro pelo Mercado Pago. No cartão de crédito, a cobrança é automática todo mês e você pode
+            cancelar quando quiser; no Pix, cada pagamento vale {DIAS_PIX} dias e não renova sozinho. Você tem 7 dias
+            para desistir com reembolso.
             {promocao && " Se cancelar e assinar de novo depois da promoção, vale o preço normal."} Veja os{" "}
             <Link href="/termos" className="font-bold text-marca-clara hover:underline">
               Termos de uso
@@ -166,12 +200,17 @@ export default async function PaginaAssinatura({
 function CartaoPlano({
   plano,
   valor,
+  valorPix,
+  renovando,
   chavePublica,
   email,
   rotulo,
 }: {
   plano: Plano;
   valor: number;
+  /** Preço do Pix: o que o aluno já paga, se estiver renovando (ver precoDoPix). */
+  valorPix: number;
+  renovando: boolean;
   chavePublica?: string;
   email: string;
   rotulo: string;
@@ -226,6 +265,13 @@ function CartaoPlano({
       ) : (
         <BotaoAssinar rotulo={rotulo} plano={plano} />
       )}
+      <div className="space-y-3 border-t border-borda pt-4">
+        <p className="text-sm text-suave">
+          {renovando ? "Renove com Pix:" : "Prefere Pix?"} {formatarReais(valorPix)} por {DIAS_PIX} dias, sem renovação
+          automática.
+        </p>
+        <PagamentoPix plano={plano} valor={valorPix} rotulo="Pagar com Pix" />
+      </div>
     </Card>
   );
 }

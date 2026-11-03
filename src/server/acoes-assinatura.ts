@@ -1,8 +1,11 @@
 "use server";
 
 // Ações da assinatura do aluno. Começam com exigirUsuario(); o aluno só mexe na própria assinatura.
+import { and, eq } from "drizzle-orm";
 import { revalidatePath } from "next/cache";
 import { z } from "zod";
+import { db } from "@/db";
+import { assinaturas } from "@/db/schema";
 import { exigirUsuario } from "@/lib/sessao";
 import type { Plano } from "@/lib/planos";
 import {
@@ -10,7 +13,11 @@ import {
   assinaturaDoUsuario,
   cancelarAssinatura,
   criarCheckout,
+  ehPix,
+  gerarPix,
   mudarPlano,
+  sincronizarPix,
+  type DadosPix,
 } from "./assinatura";
 
 const planoSchema = z.enum(["basico", "elite"]);
@@ -101,4 +108,41 @@ export async function trocarPlano(entrada: unknown): Promise<{ ok: boolean; erro
   }
   revalidatePath("/assinatura");
   return { ok: true };
+}
+
+export type ResultadoPix = { ok: true; pix: DadosPix } | { ok: false; erro: string };
+
+/** Gera o Pix de 30 dias do plano escolhido (o valor é decidido no servidor). */
+export async function pagarComPix(entrada: unknown): Promise<ResultadoPix> {
+  const usuario = await exigirUsuario();
+  const plano = planoSchema.safeParse(entrada);
+  if (!plano.success) return { ok: false, erro: "Plano inválido." };
+  if (await mensalAtiva(usuario.id)) return { ok: false, erro: "Sua assinatura no cartão já está ativa." };
+  try {
+    return { ok: true, pix: await gerarPix(usuario, plano.data) };
+  } catch (erro) {
+    console.error("[pix] falha ao gerar:", erro);
+    return { ok: false, erro: "Não foi possível gerar o Pix agora. Tente de novo em alguns minutos." };
+  }
+}
+
+/** A tela pergunta de tempos em tempos se o Pix já foi pago (só o Pix do próprio aluno). */
+export async function conferirPix(entrada: unknown): Promise<{ pago: boolean; status: string }> {
+  const usuario = await exigirUsuario();
+  const id = z.string().regex(/^\d{1,20}$/).safeParse(entrada);
+  if (!id.success) return { pago: false, status: "invalido" };
+  const [a] = await db
+    .select({ id: assinaturas.id })
+    .from(assinaturas)
+    .where(and(eq(assinaturas.id, `pix:${id.data}`), eq(assinaturas.usuarioId, usuario.id)))
+    .limit(1);
+  if (!a || !ehPix(a.id)) return { pago: false, status: "invalido" };
+  try {
+    const p = await sincronizarPix(id.data);
+    if (p.status === "approved") revalidatePath("/assinatura");
+    return { pago: p.status === "approved", status: p.status ?? "pending" };
+  } catch (erro) {
+    console.error("[pix] falha ao conferir:", erro);
+    return { pago: false, status: "pending" };
+  }
 }

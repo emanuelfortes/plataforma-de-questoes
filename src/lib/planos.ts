@@ -91,6 +91,10 @@ export const LIMITE_GRATIS_DIA = 5;
  */
 export const PREFIXO_REFERENCIA = "nobrega-questoes";
 
+/** Pix: cada pagamento vale estes dias (não renova sozinho). external_reference "nobrega-questoes-pix:<usuarioId>". */
+export const DIAS_PIX = 30;
+export const PREFIXO_PIX = `${PREFIXO_REFERENCIA}-pix`;
+
 /** Soma em centavos, para 29,90 + 9,90 dar 39,80 e não 39,800000000000004. */
 function somar(a: number, b: number) {
   return Math.round((a + b) * 100) / 100;

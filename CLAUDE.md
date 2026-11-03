@@ -55,7 +55,7 @@ src/
     (app)/ranking                         Fuzil de questões (mais resolvidas) e Bom de Mira (acerto de primeira, mínimo de 30)
     (app)/admin                           área do dono (ADMIN_EMAILS), com menu lateral: visão geral, financeiro,
                                           pessoas (cadastrados x assinantes) e questões (prompt de IA e importação)
-    (app)/assinatura                      Basic (R$ 29,90) e o adicional Tropa de Elite (+ R$ 9,90, cobrado junto), Mercado Pago mensal; Black Friday até 30/11 com preço para sempre (src/lib/planos.ts); cancelar, trocar de plano
+    (app)/assinatura                      Basic (R$ 29,90) e o adicional Tropa de Elite (+ R$ 9,90, cobrado junto), Mercado Pago mensal no cartão ou Pix de 30 dias (sem renovação automática, aviso por e-mail antes do fim); Black Friday até 30/11 com preço para sempre (src/lib/planos.ts); cancelar, trocar de plano
     (app)/simulados                       Elite: baixar o PDF, dar o play no cronômetro, marcar o gabarito, ranking do simulado
     (app)/admin/simulados                 cadastro do simulado (PDF em partes, gabarito oficial, tempo, datas)
     api/simulados/[id]/pdf                PDF do simulado só para Elite (sai do banco em partes)
@@ -103,7 +103,7 @@ src/db/aprovacao.ts                       aprovar, rejeitar e reportar erro (tel
 - `questoes_revisao`: questões geradas por IA aguardando revisão (status pendente_revisao, aprovada, rejeitada). Fora de `questoes` até a aprovação em /admin/revisao.
   A aprovada leva o mesmo `codigo` para `questoes`, com `origem = 'ia'`, `topico_taxonomia`, `subtopico` e `lei_referencia` (nulos nas importadas por arquivo; índice `questoes_origem_topico`).
 - `simulados`, `simulado_arquivo` (o PDF em pedaços de 3 MB), `simulado_tentativas` (uma por aluno: marcações salvas durante a prova, acertos e tempo). O gabarito oficial só vai para o aluno depois da entrega.
-- `assinaturas`, `pagamentos`: assinatura mensal e cada cobrança do Mercado Pago (fonte do faturamento). Elite (Tropa de Elite) = mensal com valor de Elite (`valorEhElite`, `eliteLiberado`): todo valor de Elite, promocional ou não, fica acima de todo valor do Basic. Só de quem tem `external_reference` com o prefixo `nobrega-questoes:` (`src/lib/planos.ts`), para separar de outros produtos na mesma conta.
+- `assinaturas`, `pagamentos`: assinatura mensal e cada cobrança do Mercado Pago (fonte do faturamento). Elite (Tropa de Elite) = mensal com valor de Elite (`valorEhElite`, `eliteLiberado`): todo valor de Elite, promocional ou não, fica acima de todo valor do Basic. Pix: linha com id `pix:<pagamento>` e o status do pagamento, acesso de 30 dias a partir do fim do acesso atual; referência `nobrega-questoes-pix:`. Só de quem tem `external_reference` com o prefixo `nobrega-questoes:` (`src/lib/planos.ts`), para separar de outros produtos na mesma conta.
 - `user`, `session`, `account`, `verification`: Better Auth. Não renomeie colunas.
 
 ## Regras do projeto (não quebre)

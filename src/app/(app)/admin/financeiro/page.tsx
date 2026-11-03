@@ -70,7 +70,7 @@ export default async function PaginaFinanceiro() {
         <CardMetrica
           rotulo="Receita recorrente (MRR)"
           valor={reais(r.mrrCentavos)}
-          dica={`soma das ${plural(r.assinantesAtivos, "assinatura ativa", "assinaturas ativas")} (Basic, Elite e preço de lançamento)`}
+          dica={`soma das ${plural(r.assinantesAtivos, "assinatura ativa", "assinaturas ativas")} (cartão e Pix pago em dia, Basic e Tropa de Elite)`}
           tom="acerto"
         />
         <CardMetrica
@@ -122,6 +122,7 @@ export default async function PaginaFinanceiro() {
                       </td>
                       <td className="px-3">
                         <Selo tom={s.tom}>{s.rotulo}</Selo>
+                        <span className="ml-2 text-xs text-suave">{p.assinaturaId.startsWith("pix:") ? "Pix" : "Cartão"}</span>
                       </td>
                       <td className="px-3 text-right tabular-nums sm:pr-5">{reais(p.valorCentavos)}</td>
                     </tr>
