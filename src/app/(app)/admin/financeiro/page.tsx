@@ -1,7 +1,10 @@
+import { CreditCard, QrCode } from "lucide-react";
 import type { Metadata } from "next";
+import Link from "next/link";
 import { CabecalhoPagina, CardMetrica, classeCabecalhoTabela, Secao, Selo } from "@/components/admin/kit";
 import { formatarReais, PREFIXO_REFERENCIA } from "@/lib/planos";
-import { resumoFaturamento } from "@/server/assinatura";
+import { cn } from "@/lib/utils";
+import { resumoFaturamento, type FormaPagamento } from "@/server/assinatura";
 import { resumoPessoas } from "@/server/pessoas";
 
 export const metadata: Metadata = { title: "Financeiro" };
@@ -46,8 +49,16 @@ function GraficoMeses({ meses }: { meses: { mes: string; total: number }[] }) {
 }
 
 // exigirAdmin() já roda no layout de /admin.
-export default async function PaginaFinanceiro() {
-  const [r, pessoas] = await Promise.all([resumoFaturamento(), resumoPessoas()]);
+const FORMAS: { valor?: FormaPagamento; rotulo: string }[] = [
+  { rotulo: "Todas" },
+  { valor: "pix", rotulo: "Pix" },
+  { valor: "cartao", rotulo: "Cartão" },
+];
+
+export default async function PaginaFinanceiro({ searchParams }: { searchParams: Promise<{ forma?: string }> }) {
+  const { forma: formaUrl } = await searchParams;
+  const forma = formaUrl === "pix" || formaUrl === "cartao" ? formaUrl : undefined;
+  const [r, pessoas] = await Promise.all([resumoFaturamento(forma), resumoPessoas()]);
   const mesAtual = new Date().toLocaleDateString("sv-SE", { timeZone: "America/Sao_Paulo" }).slice(0, 7);
   const doMes = r.porMes.find((m) => m.mes === mesAtual);
   const total = r.porMes.reduce((s, m) => s + Number(m.total), 0);
@@ -86,6 +97,25 @@ export default async function PaginaFinanceiro() {
         />
       </div>
 
+      <Secao titulo="Pix x cartão">
+        <div className="grid gap-3 px-4 pb-5 sm:grid-cols-2 sm:px-5">
+          <CardForma
+            icone={<QrCode className="size-5" aria-hidden />}
+            titulo="Pix"
+            dados={r.porForma.pix}
+            totalMes={Number(doMes?.total ?? 0)}
+            nota="Cada Pix vale 30 dias e não renova sozinho"
+          />
+          <CardForma
+            icone={<CreditCard className="size-5" aria-hidden />}
+            titulo="Cartão de crédito"
+            dados={r.porForma.cartao}
+            totalMes={Number(doMes?.total ?? 0)}
+            nota="Mensal com renovação automática"
+          />
+        </div>
+      </Secao>
+
       <Secao titulo="Faturamento por mês" acao={<span className="text-xs text-suave">Total: {reais(total)}</span>}>
         {r.porMes.length === 0 ? (
           <p className="px-5 pb-8 pt-2 text-center text-sm text-suave">Nenhum pagamento aprovado ainda.</p>
@@ -94,9 +124,30 @@ export default async function PaginaFinanceiro() {
         )}
       </Secao>
 
-      <Secao titulo="Últimas cobranças">
+      <Secao
+        titulo="Últimas cobranças"
+        acao={
+          <nav className="flex gap-1" aria-label="Forma de pagamento">
+            {FORMAS.map((f) => (
+              <Link
+                key={f.rotulo}
+                href={f.valor ? `/admin/financeiro?forma=${f.valor}` : "/admin/financeiro"}
+                aria-current={forma === f.valor ? "page" : undefined}
+                className={cn(
+                  "rounded-lg px-3 py-1 text-xs font-bold",
+                  forma === f.valor ? "bg-marca text-sobre-marca" : "text-suave hover:bg-camada hover:text-texto",
+                )}
+              >
+                {f.rotulo}
+              </Link>
+            ))}
+          </nav>
+        }
+      >
         {r.ultimos.length === 0 ? (
-          <p className="px-5 pb-8 pt-2 text-center text-sm text-suave">Nenhuma cobrança ainda.</p>
+          <p className="px-5 pb-8 pt-2 text-center text-sm text-suave">
+            {forma ? `Nenhuma cobrança no ${forma === "pix" ? "Pix" : "cartão"} ainda.` : "Nenhuma cobrança ainda."}
+          </p>
         ) : (
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
@@ -134,5 +185,47 @@ export default async function PaginaFinanceiro() {
         )}
       </Secao>
     </>
+  );
+}
+
+/** Quanto entrou por uma forma de pagamento (aprovado) e quantos assinantes ativos ela tem. */
+function CardForma({
+  icone,
+  titulo,
+  dados,
+  totalMes,
+  nota,
+}: {
+  icone: React.ReactNode;
+  titulo: string;
+  dados: { mes: number; quantidadeMes: number; total: number; quantidade: number; ativos: number };
+  totalMes: number;
+  nota: string;
+}) {
+  const parte = totalMes > 0 ? Math.round((dados.mes / totalMes) * 100) : 0;
+  return (
+    <div className="rounded-2xl border border-borda bg-superficie p-4">
+      <p className="flex items-center gap-2 font-extrabold">
+        <span className="text-marca-clara">{icone}</span>
+        {titulo}
+      </p>
+      <p className="mt-3 text-[13px] text-suave">Recebido este mês</p>
+      <p className="text-[26px] font-extrabold leading-tight tracking-tight tabular-nums">{reais(dados.mes)}</p>
+      <p className="text-xs font-semibold text-suave">
+        {plural(dados.quantidadeMes, "pagamento", "pagamentos")}
+        {totalMes > 0 && ` · ${parte}% do mês`}
+      </p>
+      <dl className="mt-3 grid grid-cols-2 gap-2 border-t border-borda pt-3 text-sm">
+        <div>
+          <dt className="text-xs text-suave">Assinantes ativos</dt>
+          <dd className="font-extrabold tabular-nums">{dados.ativos}</dd>
+        </div>
+        <div>
+          <dt className="text-xs text-suave">Desde o início</dt>
+          <dd className="font-extrabold tabular-nums">{reais(dados.total)}</dd>
+        </div>
+      </dl>
+      <p className="mt-2 text-xs text-suave">{nota}</p>
+    </div>
   );
 }

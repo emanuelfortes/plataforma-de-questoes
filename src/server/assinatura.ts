@@ -3,7 +3,7 @@ import { and, between, count, countDistinct, desc, eq, gt, gte, like, ne, or, sq
 import { Invoice, MercadoPagoConfig, Payment, PreApproval } from "mercadopago";
 import { db } from "@/db";
 import { assinaturas, pagamentos, respostas, user } from "@/db/schema";
-import { inicioDoDiaLocal } from "@/lib/datas";
+import { DESLOCAMENTO_SQLITE, inicioDoDiaLocal } from "@/lib/datas";
 import { DIAS_PIX, formatarReais, PLANOS, precoDoPlano, PREFIXO_PIX, PREFIXO_REFERENCIA, valorAoTrocar, valorEhElite, type Plano } from "@/lib/planos";
 import { ehAdmin } from "@/lib/admin";
 import { emailRenovarPix, enviarEmail } from "./email";
@@ -450,9 +450,17 @@ export async function respondeuHoje(usuarioId: string, questaoId: number) {
   return !!r;
 }
 
-/** Números do painel de faturamento do dono. Lê só as tabelas de assinatura e pagamento. */
-export async function resumoFaturamento() {
-  const [ativas, porMes, ultimos, porStatus] = await Promise.all([
+export type FormaPagamento = "pix" | "cartao";
+
+/** Pix ou cartão, pelo id da assinatura ("pix:<pagamento>" é Pix; o resto é a mensal no cartão). */
+const formaDaAssinatura = sql<FormaPagamento>`case when ${pagamentos.assinaturaId} like 'pix:%' then 'pix' else 'cartao' end`;
+
+/**
+ * Números do painel de faturamento do dono. Lê só as tabelas de assinatura e pagamento.
+ * `forma` filtra a lista das últimas cobranças (Pix ou cartão).
+ */
+export async function resumoFaturamento(forma?: FormaPagamento) {
+  const [ativas, porMes, ultimos, porStatus, porForma, ativosPorForma] = await Promise.all([
     db
       .select({ n: count(), mrr: sql<number>`coalesce(sum(${assinaturas.valorCentavos}), 0)` })
       .from(assinaturas)
@@ -482,21 +490,46 @@ export async function resumoFaturamento() {
       })
       .from(pagamentos)
       .leftJoin(user, eq(user.id, pagamentos.usuarioId))
+      .where(forma ? sql`${formaDaAssinatura} = ${forma}` : undefined)
       .orderBy(desc(pagamentos.cobradoEm))
-      .limit(30),
+      .limit(50),
     // Só assinaturas no cartão: um Pix expirado sem pagar não é cancelamento.
     db
       .select({ status: assinaturas.status, n: count() })
       .from(assinaturas)
       .where(sql`${assinaturas.id} not like 'pix:%'`)
       .groupBy(assinaturas.status),
+    // Recebido (aprovado) por forma de pagamento: no mês atual (fuso de Brasília) e desde o início.
+    db.all<{ forma: FormaPagamento; mes: number; quantidadeMes: number; total: number; quantidade: number }>(sql`
+      SELECT ${formaDaAssinatura} AS forma,
+             SUM(CASE WHEN strftime('%Y-%m', ${pagamentos.cobradoEm}, 'unixepoch', ${DESLOCAMENTO_SQLITE})
+                         = strftime('%Y-%m', 'now', ${DESLOCAMENTO_SQLITE}) THEN ${pagamentos.valorCentavos} ELSE 0 END) AS mes,
+             SUM(CASE WHEN strftime('%Y-%m', ${pagamentos.cobradoEm}, 'unixepoch', ${DESLOCAMENTO_SQLITE})
+                         = strftime('%Y-%m', 'now', ${DESLOCAMENTO_SQLITE}) THEN 1 ELSE 0 END) AS quantidadeMes,
+             SUM(${pagamentos.valorCentavos}) AS total, COUNT(*) AS quantidade
+      FROM ${pagamentos} WHERE ${pagamentos.status} = 'approved'
+      GROUP BY forma`),
+    // Assinantes com acesso pago agora: cartão (mensal ativa) e Pix (pago e ainda valendo).
+    db.all<{ cartao: number; pix: number }>(sql`
+      SELECT (SELECT COUNT(*) FROM ${assinaturas} WHERE ${assinaturas.status} = 'authorized') AS cartao,
+             (SELECT COUNT(DISTINCT ${assinaturas.usuarioId}) FROM ${assinaturas}
+               WHERE ${assinaturas.id} LIKE 'pix:%' AND ${assinaturas.status} = 'approved' AND ${assinaturas.acessoAte} > unixepoch()) AS pix`),
   ]);
+  const vazio = { mes: 0, quantidadeMes: 0, total: 0, quantidade: 0 };
+  const daForma = (f: FormaPagamento) => {
+    const l = porForma.find((x) => x.forma === f);
+    return l ? { mes: Number(l.mes), quantidadeMes: Number(l.quantidadeMes), total: Number(l.total), quantidade: Number(l.quantidade) } : vazio;
+  };
   return {
     assinantesAtivos: ativas[0]?.n ?? 0,
     mrrCentavos: Number(ativas[0]?.mrr ?? 0),
     porMes,
     ultimos,
     porStatus: Object.fromEntries(porStatus.map((s) => [s.status, s.n])) as Record<string, number>,
+    porForma: {
+      pix: { ...daForma("pix"), ativos: Number(ativosPorForma[0]?.pix ?? 0) },
+      cartao: { ...daForma("cartao"), ativos: Number(ativosPorForma[0]?.cartao ?? 0) },
+    },
   };
 }
 
