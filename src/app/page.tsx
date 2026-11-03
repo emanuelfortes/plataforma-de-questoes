@@ -7,6 +7,7 @@ import { BotaoTema } from "@/components/botao-tema";
 import { Logo } from "@/components/logo";
 import { variantesBotao } from "@/components/ui/button";
 import { NOME_PLATAFORMA } from "@/lib/marca";
+import { NomeMarca } from "@/components/nome-marca";
 import {
   ADICIONAL_ELITE,
   ASSINATURA,
@@ -61,7 +62,7 @@ function Topo() {
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-3 px-4 sm:px-6">
         <Link href="/" className="flex items-center gap-2.5 font-extrabold">
           <Logo tamanho={34} />
-          <span className="hidden sm:inline">{NOME_PLATAFORMA}</span>
+          <NomeMarca className="hidden sm:flex" />
         </Link>
         <nav className="flex items-center gap-2">
           <BotaoTema />
@@ -496,7 +497,7 @@ function Rodape() {
     <footer className="border-t border-borda">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-4 py-8 text-sm text-suave sm:flex-row sm:px-6">
         <p>
-          © {new Date().getFullYear()} Professor {NOME_PLATAFORMA}
+          © {new Date().getFullYear()} {NOME_PLATAFORMA}
         </p>
         <nav className="flex gap-4">
           <Link href="/termos" className="hover:text-texto">

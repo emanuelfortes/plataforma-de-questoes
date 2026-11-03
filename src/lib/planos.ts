@@ -5,7 +5,7 @@ export const ASSINATURA = {
   /** Valor cobrado todo mês, em reais. */
   valor: 29.9,
   /** Aparece no checkout, no painel do Mercado Pago e na fatura do aluno. */
-  descricao: "Riccardo Nóbrega - Assinatura mensal",
+  descricao: "Riccardo Nóbrega QProva - Assinatura mensal",
 } as const;
 
 /** Tropa de Elite: os simulados do mês, vendidos como adicional do Basic. O aluno paga a soma numa cobrança só. */
@@ -15,7 +15,7 @@ export const ADICIONAL_ELITE = 9.9;
 export const ELITE = {
   nome: "Tropa de Elite",
   valor: somar(ASSINATURA.valor, ADICIONAL_ELITE),
-  descricao: "Riccardo Nóbrega - Tropa de Elite",
+  descricao: "Riccardo Nóbrega QProva - Tropa de Elite",
 } as const;
 
 export type Plano = "basico" | "elite";

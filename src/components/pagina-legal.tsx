@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Logo } from "@/components/logo";
 import { LEGAL, linkWhatsapp, whatsappFormatado } from "@/lib/legal";
 import { NOME_PLATAFORMA } from "@/lib/marca";
+import { NomeMarca } from "./nome-marca";
 import { BotaoTema } from "@/components/botao-tema";
 
 /** Moldura das páginas públicas de texto (termos e privacidade). */
@@ -11,7 +12,7 @@ export function PaginaLegal({ titulo, children }: { titulo: string; children: Re
       <div className="flex items-center">
         <Link href="/" className="flex items-center gap-2.5 font-extrabold">
           <Logo tamanho={40} />
-          <span>{NOME_PLATAFORMA}</span>
+          <NomeMarca />
         </Link>
         <BotaoTema className="-mr-2 ml-auto" />
       </div>
@@ -39,7 +40,7 @@ export function Responsavel() {
 }
 
 /** Link de atendimento pelo WhatsApp, com a mensagem inicial já escrita. */
-export function ContatoWhatsapp({ mensagem = "Olá! Vim pela plataforma Riccardo Nóbrega." }: { mensagem?: string }) {
+export function ContatoWhatsapp({ mensagem = `Olá! Vim pela plataforma ${NOME_PLATAFORMA}.` }: { mensagem?: string }) {
   return (
     <a href={linkWhatsapp(mensagem)} target="_blank" rel="noopener noreferrer">
       WhatsApp {whatsappFormatado()}

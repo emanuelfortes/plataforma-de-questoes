@@ -29,9 +29,9 @@ export const metadata: Metadata = {
     url: "/",
     locale: "pt_BR",
     siteName: NOME_PLATAFORMA,
-    title: `${NOME_PLATAFORMA} Questões | Black Friday: R$ 24,90/mês`,
+    title: `${NOME_PLATAFORMA} | Black Friday: R$ 24,90/mês`,
     description: "Questões com gabarito comentado, cards inteligentes, ranking e Vade Mecum. Comece grátis: 5 questões por dia.",
-    images: [{ url: "/og-black-friday.jpg", width: 1200, height: 630, alt: `${NOME_PLATAFORMA} Questões: Black Friday` }],
+    images: [{ url: "/og-black-friday.jpg", width: 1200, height: 630, alt: `${NOME_PLATAFORMA}: Black Friday` }],
   },
   twitter: { card: "summary_large_image" },
 };

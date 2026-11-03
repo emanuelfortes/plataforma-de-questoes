@@ -8,7 +8,7 @@ import { CampoSenha, classeCampo } from "@/components/campo-senha";
 import { Button } from "@/components/ui/button";
 import { authClient } from "@/lib/auth-client";
 import { traduzirErroAuth } from "@/lib/erros-auth";
-import { NOME_PLATAFORMA } from "@/lib/marca";
+import { NomeMarca } from "./nome-marca";
 import { BotaoTema } from "@/components/botao-tema";
 
 /** Moldura comum das telas públicas. */
@@ -28,7 +28,7 @@ export function CaixaAcesso({
       <div className="w-full max-w-[380px] space-y-6">
         <div className="flex items-center gap-2.5 font-extrabold">
           <Logo tamanho={44} />
-          <span>{NOME_PLATAFORMA}</span>
+          <NomeMarca />
           <BotaoTema className="-mr-2 ml-auto" />
         </div>
         <div>

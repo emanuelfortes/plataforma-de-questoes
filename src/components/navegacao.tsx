@@ -7,6 +7,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { authClient } from "@/lib/auth-client";
 import { cn } from "@/lib/utils";
 import { NOME_PLATAFORMA } from "@/lib/marca";
+import { NomeMarca } from "./nome-marca";
 import { BotaoTema } from "@/components/botao-tema";
 
 type ItemNav = { href: string; rotulo: string; Icone: LucideIcon; ativoEm: string[] };
@@ -34,7 +35,7 @@ function Marca() {
   return (
     <Link href="/estudar" className="flex min-w-0 items-center gap-2.5 font-extrabold">
       <Logo tamanho={32} />
-      <span className="truncate text-[15px]">{NOME_PLATAFORMA}</span>
+      <NomeMarca />
     </Link>
   );
 }
