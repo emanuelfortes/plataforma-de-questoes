@@ -31,6 +31,7 @@ import {
   ehMonitor,
   ehPix,
   eliteLiberado,
+  podeReativar,
   pausaDoCartao,
   precoDoPix,
   sincronizarAssinatura,
@@ -93,6 +94,8 @@ export default async function PaginaAssinatura({
   ]);
   const liberado = acessoLiberado(a);
   const elite = eliteLiberado(a);
+  // Cancelou no cartão mas o mês pago não acabou: só o botão de reativar (sem a vitrine de planos).
+  const reativar = podeReativar(a);
   const promocao = promocaoAberta();
   const chavePublica = process.env.NEXT_PUBLIC_MP_PUBLIC_KEY;
 
@@ -150,12 +153,34 @@ export default async function PaginaAssinatura({
       )}
 
       {a && !ehPix(a.id) && a.status !== "authorized" && liberado && (
-        <Card className="space-y-2 p-6">
-          <p className="font-extrabold">Assinatura cancelada</p>
-          <p className="text-sm text-texto/85">
-            Seu acesso continua até {dataCurta(a.acessoAte)}. Depois disso, volta o limite de {LIMITE_GRATIS_DIA}{" "}
-            questões por dia.
-          </p>
+        <Card className="space-y-4 p-6">
+          <div className="space-y-2">
+            <p className="font-extrabold">Assinatura cancelada</p>
+            <p className="text-sm text-texto/85">
+              Seu acesso continua até {dataCurta(a.acessoAte)}. Depois disso, volta o limite de {LIMITE_GRATIS_DIA}{" "}
+              questões por dia.
+            </p>
+          </div>
+          {reativar && (
+            <div className="space-y-3 border-t border-borda pt-4">
+              <p className="text-sm text-texto/85">
+                <strong>Mudou de ideia?</strong> Reative o {elite ? ELITE.nome : ASSINATURA.nome} pelo mesmo valor de{" "}
+                {formatarReais(a.valorCentavos / 100)}/mês. Nada é cobrado agora: a próxima cobrança só acontece em{" "}
+                {dataCurta(a.acessoAte)}, quando o mês que você já pagou acaba.
+              </p>
+              {chavePublica ? (
+                <FormularioCartao
+                  chavePublica={chavePublica}
+                  email={usuario.email}
+                  rotulo="Reativar assinatura"
+                  plano={elite ? "elite" : "basico"}
+                  valor={a.valorCentavos / 100}
+                />
+              ) : (
+                <BotaoAssinar rotulo="Reativar assinatura" plano={elite ? "elite" : "basico"} />
+              )}
+            </div>
+          )}
         </Card>
       )}
 
@@ -169,7 +194,7 @@ export default async function PaginaAssinatura({
         </Card>
       )}
 
-      {a?.status !== "authorized" && (
+      {a?.status !== "authorized" && !reativar && (
         <div className="space-y-4">
           {promocao && (
             <p className="rounded-2xl border border-destaque/50 bg-destaque-suave px-4 py-3 text-sm font-bold text-destaque">

@@ -40,15 +40,23 @@ const data = (iso: string | undefined | null) => (iso ? new Date(iso) : null);
  * dia em que o acesso atual acaba, sem pagar duas vezes. O Elite começa a cobrar na hora.
  */
 async function cobrancaMensal(usuarioId: string, plano: Plano) {
-  const atual = plano === "basico" ? await assinaturaDoUsuario(usuarioId) : null;
-  const inicio = atual?.acessoAte && atual.acessoAte.getTime() > Date.now() + 60 * 60 * 1000 ? atual.acessoAte : null;
+  const atual = await assinaturaDoUsuario(usuarioId);
+  const reativacao = podeReativar(atual) && valorEhElite(atual!.valorCentavos) === (plano === "elite");
+  // Reativar: mesmo plano e mesmo preço; nada é cobrado agora, a 1ª cobrança cai quando o mês pago acaba.
+  const comAcesso = (plano === "basico" || reativacao) && atual?.acessoAte && atual.acessoAte.getTime() > Date.now() + 60 * 60 * 1000;
+  const inicio = comAcesso ? atual!.acessoAte : null;
   return {
     frequency: 1,
     frequency_type: "months",
-    transaction_amount: precoDoPlano(plano),
+    transaction_amount: reativacao ? atual!.valorCentavos / 100 : precoDoPlano(plano),
     currency_id: "BRL",
     ...(inicio ? { start_date: inicio.toISOString() } : {}),
   };
+}
+
+/** Cancelou a assinatura no cartão, mas o mês pago ainda não acabou: pode reativar sem pagar de novo agora. */
+export function podeReativar(a: Awaited<ReturnType<typeof assinaturaDoUsuario>>) {
+  return !!a && !ehPix(a.id) && a.status === "cancelled" && !!a.acessoAte && a.acessoAte.getTime() > Date.now() + 60 * 60 * 1000;
 }
 
 /** Cria a assinatura no Mercado Pago e devolve o link do checkout. */
