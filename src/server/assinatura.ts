@@ -1,6 +1,7 @@
 import "server-only";
 import { and, between, count, countDistinct, desc, eq, gt, gte, like, ne, or, sql } from "drizzle-orm";
 import { Invoice, MercadoPagoConfig, Payment, PreApproval } from "mercadopago";
+import { cookies } from "next/headers";
 import { db } from "@/db";
 import { assinaturas, monitores, pagamentos, respostas, user } from "@/db/schema";
 import { DESLOCAMENTO_SQLITE, inicioDoDiaLocal } from "@/lib/datas";
@@ -71,9 +72,16 @@ export async function criarCheckout(usuario: { id: string; email: string }, plan
  * Checkout transparente: o aluno digita o cartão no nosso site (formulário do Mercado Pago, que devolve
  * só um token; o número do cartão nunca passa pelo nosso servidor). A assinatura já nasce "authorized"
  * e a primeira cobrança sai na hora. Erro de cartão recusado vem como exceção da API.
+ * "dispositivo" é o código do aparelho (security.js do Mercado Pago): vai no cabeçalho X-meli-session-id e
+ * ajuda o antifraude a aprovar (sem ele, muitas recusas cc_rejected_high_risk).
  */
-export async function assinarComCartao(usuario: { id: string }, cartao: { token: string; email: string }, plano: Plano = "basico") {
+export async function assinarComCartao(
+  usuario: { id: string },
+  cartao: { token: string; email: string; dispositivo?: string },
+  plano: Plano = "basico",
+) {
   const resposta = await new PreApproval(cliente()).create({
+    requestOptions: cartao.dispositivo ? { meliSessionId: cartao.dispositivo } : undefined,
     body: {
       reason: PLANOS[plano].descricao,
       external_reference: referencia(usuario.id),
@@ -87,6 +95,19 @@ export async function assinarComCartao(usuario: { id: string }, cartao: { token:
   if (!resposta.id) throw new Error("O Mercado Pago não devolveu a assinatura.");
   await salvarAssinatura(resposta);
   return resposta.status ?? "pending";
+}
+
+/**
+ * Pausa no cartão depois de uma recusa do antifraude: novas tentativas seguidas com os mesmos dados pioram a nota
+ * de risco. Fica num cookie do aparelho (o valor é a hora em que a pausa acaba) e a tela oferece o Pix no lugar.
+ */
+export const COOKIE_PAUSA_CARTAO = "cartao_pausa";
+export const PAUSA_CARTAO_MINUTOS = 30;
+
+/** Até quando o cartão está pausado neste aparelho (ou null). */
+export async function pausaDoCartao() {
+  const valor = Number((await cookies()).get(COOKIE_PAUSA_CARTAO)?.value);
+  return Number.isFinite(valor) && valor > Date.now() ? new Date(valor) : null;
 }
 
 type AssinaturaMP = Awaited<ReturnType<PreApproval["get"]>>;
@@ -168,10 +189,14 @@ export async function sincronizarTodas() {
         continue;
       }
       await sincronizarAssinatura(a.id);
-      const r = await faturas.search({ options: { preapproval_id: a.id, limit: 50 } });
-      for (const p of r.results ?? []) {
-        await salvarPagamento(p, a.usuarioId);
-        cobrancas++;
+      // A busca de cobranças aceita no máximo 10 por página (limit maior dá erro "Invalid value for limit").
+      for (let offset = 0; ; offset += 10) {
+        const r = await faturas.search({ options: { preapproval_id: a.id, limit: 10, offset } });
+        for (const p of r.results ?? []) {
+          await salvarPagamento(p, a.usuarioId);
+          cobrancas++;
+        }
+        if ((r.results?.length ?? 0) < 10) break;
       }
     } catch (erro) {
       console.error(`[assinatura] falha ao conferir ${a.id}:`, erro);

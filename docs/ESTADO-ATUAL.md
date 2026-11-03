@@ -68,6 +68,17 @@ Pastas que ficam só neste computador (fora do git; o OneDrive pode sincronizar)
 - Pastas também na Parte Geral do Penal e no Constitucional?
 - Ordem das áreas do Penal: falta a lista do professor.
 
+### Cartão recusado pelo antifraude (desde 03/11/2026)
+
+Em 02 e 03/11 houve 13 tentativas de cartão recusadas, quase todas `cc_rejected_high_risk` (antifraude do Mercado Pago).
+Em 03/11 entraram: o código do aparelho (`security.js`, cabeçalho `X-meli-session-id`) e a pausa de 30 minutos no
+cartão depois dessa recusa, com o Pix no lugar.
+
+- [ ] **Plano B, se as recusas continuarem em ~1 semana:** voltar o cartão para o checkout do Mercado Pago
+  (redirecionamento), em que ele mesmo coleta os dados do antifraude. Não precisa de código: apagar
+  `NEXT_PUBLIC_MP_PUBLIC_KEY` na Vercel e fazer um novo deploy. Para voltar ao cartão no site, recolocar a chave.
+- Para medir: as recusas aparecem no painel do Mercado Pago (Atividade) como "Venda por assinatura, Recusado".
+
 ### Conferir na produção (não sei se já foi feito)
 
 - E-mail: `GMAIL_USUARIO` e `GMAIL_SENHA_APP` na Vercel (sem isso, recuperar senha e confirmar e-mail não chegam).

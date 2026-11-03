@@ -8,9 +8,11 @@ import { assinarCartao } from "@/server/acoes-assinatura";
 
 // Checkout transparente: o formulário de cartão do Mercado Pago (Card Payment Brick) aparece dentro
 // da nossa página. Ele valida o cartão e devolve só um token; o número nunca passa pelo nosso servidor.
-// Só carrega o script do Mercado Pago quando o aluno clica em assinar.
+// Só carrega o script do Mercado Pago quando o aluno clica em assinar. O de segurança (código do aparelho, para o
+// antifraude) carrega ao abrir a tela: ele leva alguns segundos para identificar o aparelho.
 
 const SDK = "https://sdk.mercadopago.com/js/v2";
+const SEGURANCA = "https://www.mercadopago.com/v2/security.js";
 const ID_CAIXA = "formulario-cartao-mp"; // + "-<plano>": cada plano tem a sua caixa na mesma página
 
 type DadosBrick = { token: string; payer?: { email?: string } };
@@ -23,7 +25,16 @@ type MercadoPagoSDK = new (
 declare global {
   interface Window {
     MercadoPago?: MercadoPagoSDK;
+    /** Preenchido pelo security.js do Mercado Pago. */
+    MP_DEVICE_SESSION_ID?: string;
   }
+}
+
+function carregarSeguranca() {
+  if (document.querySelector(`script[src="${SEGURANCA}"]`)) return;
+  const script = Object.assign(document.createElement("script"), { src: SEGURANCA, async: true });
+  script.setAttribute("view", "checkout");
+  document.head.appendChild(script);
 }
 
 function carregarSdk() {
@@ -65,6 +76,8 @@ export function FormularioCartao({
   const [sucesso, setSucesso] = useState<null | "ativa" | "aguardando">(null);
   const controle = useRef<ControleBrick | null>(null);
 
+  useEffect(carregarSeguranca, []);
+
   useEffect(() => {
     if (!aberto) return;
     let cancelado = false;
@@ -84,9 +97,16 @@ export function FormularioCartao({
             onError: (e: unknown) => console.error("[assinatura] formulário do cartão:", e),
             onSubmit: async (dados: DadosBrick) => {
               setErro(null);
-              const r = await assinarCartao({ token: dados.token, email: dados.payer?.email || email, plano });
+              const r = await assinarCartao({
+                token: dados.token,
+                email: dados.payer?.email || email,
+                plano,
+                dispositivo: window.MP_DEVICE_SESSION_ID || undefined,
+              });
               if (!r.ok) {
                 setErro(r.erro);
+                // Recusa do antifraude pausa o cartão: a tela troca o formulário pelo aviso e o Pix.
+                router.refresh();
                 // Token de cartão vale uma vez: rejeitar faz o formulário liberar nova tentativa.
                 throw new Error(r.erro);
               }

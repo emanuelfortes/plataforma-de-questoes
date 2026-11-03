@@ -24,3 +24,6 @@ data/erros-importacao.log
 # cópias do banco de produção e lotes do chat (já importados): ficam só na máquina
 data/backups/
 data/geradas/chat/
+
+# Credenciais coladas à mão (nunca vão para o GitHub)
+credenciais.txt

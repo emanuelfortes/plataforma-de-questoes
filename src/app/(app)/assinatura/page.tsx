@@ -31,6 +31,7 @@ import {
   ehMonitor,
   ehPix,
   eliteLiberado,
+  pausaDoCartao,
   precoDoPix,
   sincronizarAssinatura,
   situacaoDoAluno,
@@ -83,11 +84,12 @@ export default async function PaginaAssinatura({
   // Pix pago sem o aviso chegar (ou com a tela fechada): confere os que ainda aguardam.
   await atualizarPixPendentes(usuario.id);
 
-  const [a, situacao, pixBasico, pixElite] = await Promise.all([
+  const [a, situacao, pixBasico, pixElite, pausaCartao] = await Promise.all([
     assinaturaDoUsuario(usuario.id),
     situacaoDoAluno(usuario),
     precoDoPix(usuario.id, "basico"),
     precoDoPix(usuario.id, "elite"),
+    pausaDoCartao(),
   ]);
   const liberado = acessoLiberado(a);
   const elite = eliteLiberado(a);
@@ -183,6 +185,7 @@ export default async function PaginaAssinatura({
               valorPix={plano === "elite" ? pixElite : pixBasico}
               renovando={!!a && ehPix(a.id) && liberado}
               chavePublica={chavePublica}
+              pausaCartao={pausaCartao}
               email={usuario.email}
               rotulo={a?.status === "pending" && !ehPix(a.id) ? "Concluir pagamento" : `Assinar por ${formatarReais(precoDoPlano(plano))}/mês`}
             />
@@ -217,6 +220,7 @@ function CartaoPlano({
   valorPix,
   renovando,
   chavePublica,
+  pausaCartao,
   email,
   rotulo,
 }: {
@@ -226,6 +230,8 @@ function CartaoPlano({
   valorPix: number;
   renovando: boolean;
   chavePublica?: string;
+  /** Recusa recente do antifraude neste aparelho: até quando o cartão fica pausado (ver pausaDoCartao). */
+  pausaCartao: Date | null;
   email: string;
   rotulo: string;
 }) {
@@ -274,7 +280,14 @@ function CartaoPlano({
         ))}
       </ul>
       {/* Com a Public Key, o cartão é digitado aqui (checkout transparente); sem ela, vai para o Mercado Pago. */}
-      {chavePublica ? (
+      {pausaCartao ? (
+        <p className="rounded-xl border border-erro/40 bg-erro-suave p-4 text-sm leading-relaxed">
+          <strong className="text-erro">O Mercado Pago recusou o cartão por segurança.</strong> Tentar de novo agora
+          costuma dar a mesma recusa, então o cartão volta às{" "}
+          {pausaCartao.toLocaleTimeString("pt-BR", { timeZone: "America/Sao_Paulo", hour: "2-digit", minute: "2-digit" })}.
+          Pague com Pix aqui embaixo: libera na hora.
+        </p>
+      ) : chavePublica ? (
         <FormularioCartao chavePublica={chavePublica} email={email} rotulo={rotulo} plano={plano} valor={valor} />
       ) : (
         <BotaoAssinar rotulo={rotulo} plano={plano} />

@@ -3,6 +3,7 @@
 // Ações da assinatura do aluno. Começam com exigirUsuario(); o aluno só mexe na própria assinatura.
 import { and, eq } from "drizzle-orm";
 import { revalidatePath } from "next/cache";
+import { cookies } from "next/headers";
 import { z } from "zod";
 import { db } from "@/db";
 import { assinaturas } from "@/db/schema";
@@ -12,10 +13,13 @@ import {
   assinarComCartao,
   assinaturaDoUsuario,
   cancelarAssinatura,
+  COOKIE_PAUSA_CARTAO,
   criarCheckout,
   ehPix,
   gerarPix,
   mudarPlano,
+  PAUSA_CARTAO_MINUTOS,
+  pausaDoCartao,
   sincronizarPix,
   type DadosPix,
 } from "./assinatura";
@@ -47,11 +51,15 @@ const cartaoSchema = z.object({
   token: z.string().min(8).max(200),
   email: z.email().max(200),
   plano: planoSchema.default("basico"),
+  /** Código do aparelho gerado pelo security.js do Mercado Pago (pode faltar se o script não carregou). */
+  dispositivo: z.string().regex(/^[\w-]{8,200}$/).optional(),
 });
 
 // Mensagens do Mercado Pago para cartão recusado (cause[].code ou message) em português simples.
 function motivoRecusa(erro: unknown) {
   const texto = JSON.stringify(erro ?? "").toLowerCase();
+  // Antifraude do Mercado Pago (cc_rejected_high_risk): outro cartão costuma cair no mesmo; o Pix passa.
+  if (texto.includes("high_risk")) return "O Mercado Pago recusou este pagamento por segurança. Assine pelo Pix, que libera na hora.";
   if (texto.includes("insufficient") || texto.includes("saldo")) return "O cartão não tem limite suficiente.";
   if (texto.includes("security_code") || texto.includes("cvv")) return "O código de segurança (CVV) não confere.";
   if (texto.includes("expir")) return "O cartão está vencido ou a data de validade está errada.";
@@ -69,12 +77,18 @@ export async function assinarCartao(entrada: unknown): Promise<ResultadoCartao> 
   if (await mensalAtiva(usuario.id)) {
     return { ok: false, erro: "Sua assinatura já está ativa." };
   }
+  if (await pausaDoCartao()) return { ok: false, erro: "O cartão está pausado por alguns minutos. Pague com Pix, que libera na hora." };
   try {
     const status = await assinarComCartao(usuario, dados.data, dados.data.plano);
     revalidatePath("/assinatura");
     return { ok: true, ativa: status === "authorized" };
   } catch (erro) {
     console.error("[assinatura] cartão recusado ou falha:", erro);
+    if (JSON.stringify(erro ?? "").toLowerCase().includes("high_risk")) {
+      const fim = Date.now() + PAUSA_CARTAO_MINUTOS * 60 * 1000;
+      (await cookies()).set(COOKIE_PAUSA_CARTAO, String(fim), { httpOnly: true, sameSite: "lax", secure: true, maxAge: PAUSA_CARTAO_MINUTOS * 60, path: "/" });
+      revalidatePath("/assinatura");
+    }
     return { ok: false, erro: motivoRecusa(erro) };
   }
 }
