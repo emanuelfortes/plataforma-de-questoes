@@ -1,5 +1,5 @@
 import "server-only";
-import { countDistinct, gte, sql } from "drizzle-orm";
+import { count, countDistinct, gte, sql } from "drizzle-orm";
 import { db } from "@/db";
 import { respostas } from "@/db/schema";
 import { DESLOCAMENTO_MS, diaLocal, inicioDoDiaLocal } from "@/lib/datas";
@@ -7,6 +7,7 @@ import { DESLOCAMENTO_MS, diaLocal, inicioDoDiaLocal } from "@/lib/datas";
 // Uso da plataforma para a visão geral do dono: questões resolvidas hoje e no mês e quanto isso pesa na
 // cota de escritas do Turso. Sem COUNT(*) em respostas: o id cresce junto com o tempo, então o total
 // desde uma data é (maior id) - (primeiro id da data) + 1, achado por busca binária (umas 25 leituras).
+// Enquanto o intervalo é pequeno, conta de verdade (respostas de contas apagadas deixam buracos nos ids).
 
 /** Plano grátis do Turso: linhas gravadas por mês. */
 export const COTA_ESCRITAS_MES = 10_000_000;
@@ -51,6 +52,18 @@ async function primeiroIdDesde(desde: Date, ate: number) {
   return achado;
 }
 
+/** Acima disso, o total do período sai pela diferença de ids (estimativa) para não ler milhões de linhas. */
+const CONTAGEM_EXATA_ATE = 20_000;
+
+/** Respostas com id >= primeiro: exato se forem poucas, senão pela diferença de ids. */
+async function totalDesde(primeiro: number | null, ultimo: number) {
+  if (!primeiro) return 0;
+  const estimado = ultimo - primeiro + 1;
+  if (estimado > CONTAGEM_EXATA_ATE) return estimado;
+  const [r] = await db.select({ n: count() }).from(respostas).where(gte(respostas.id, primeiro));
+  return r?.n ?? 0;
+}
+
 /** Instante (UTC) em que começou o mês atual no fuso de Brasília. */
 function inicioDoMesLocal() {
   return new Date(Date.parse(`${diaLocal().slice(0, 7)}-01T00:00:00Z`) - DESLOCAMENTO_MS);
@@ -63,14 +76,15 @@ export async function usoDaPlataforma() {
   const [primeiroMes, primeiroHoje] = ultimo
     ? await Promise.all([primeiroIdDesde(inicioMes, ultimo), primeiroIdDesde(inicioHoje, ultimo)])
     : [null, null];
-  const desde = (primeiro: number | null) => (primeiro ? ultimo - primeiro + 1 : 0);
-
   // Alunos que estudaram hoje: lê só as respostas de hoje (a partir do primeiro id do dia).
-  const [hoje] = primeiroHoje
-    ? await db.select({ n: countDistinct(respostas.usuarioId) }).from(respostas).where(gte(respostas.id, primeiroHoje))
-    : [{ n: 0 }];
+  const [resolvidasHoje, resolvidasMes, [hoje]] = await Promise.all([
+    totalDesde(primeiroHoje, ultimo),
+    totalDesde(primeiroMes, ultimo),
+    primeiroHoje
+      ? db.select({ n: countDistinct(respostas.usuarioId) }).from(respostas).where(gte(respostas.id, primeiroHoje))
+      : Promise.resolve([{ n: 0 }]),
+  ]);
 
-  const resolvidasMes = desde(primeiroMes);
   const agora = Date.now();
   const fimMes = new Date(inicioMes);
   fimMes.setUTCMonth(fimMes.getUTCMonth() + 1);
@@ -79,7 +93,7 @@ export async function usoDaPlataforma() {
   const mediaDia = resolvidasMes / diasPassados;
 
   return {
-    resolvidasHoje: desde(primeiroHoje),
+    resolvidasHoje,
     alunosHoje: hoje?.n ?? 0,
     resolvidasMes,
     mediaDia: Math.round(mediaDia),
