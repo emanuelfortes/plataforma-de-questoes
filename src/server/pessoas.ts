@@ -1,26 +1,28 @@
 import "server-only";
 import { count, desc, inArray, sql } from "drizzle-orm";
 import { db } from "@/db";
-import { assinaturas, contagens, statusQuestao, user } from "@/db/schema";
+import { assinaturas, contagens, monitores, statusQuestao, user } from "@/db/schema";
 import { ehAdmin } from "@/lib/admin";
 
 // Dados da área do dono sobre as pessoas da plataforma. A tabela de usuários é pequena
 // (milhares, não milhões), então a classificação é feita em memória.
 
-export type Situacao = "assinante" | "cancelado" | "pendente" | "gratis" | "equipe";
+export type Situacao = "assinante" | "cancelado" | "pendente" | "gratis" | "monitor" | "equipe";
 
 export const ROTULO_SITUACAO: Record<Situacao, string> = {
   assinante: "Assinante",
   cancelado: "Cancelou (ainda com acesso)",
   pendente: "Pagamento pendente",
   gratis: "Plano grátis",
+  monitor: "Monitor",
   equipe: "Equipe",
 };
 
 type UltimaAssinatura = { status: string; acessoAte: Date | null };
 
-function classificar(email: string, a: UltimaAssinatura | undefined): Situacao {
+function classificar(email: string, a: UltimaAssinatura | undefined, monitor: boolean): Situacao {
   if (ehAdmin(email)) return "equipe";
+  if (monitor) return "monitor";
   if (!a) return "gratis";
   if (a.status === "authorized") return "assinante";
   // Pix pago e ainda valendo também é assinante (não renova sozinho, mas está pago).
@@ -52,7 +54,7 @@ async function ultimasAssinaturas() {
 }
 
 async function todasAsPessoas() {
-  const [pessoas, assinaturasPorUsuario] = await Promise.all([
+  const [pessoas, assinaturasPorUsuario, listaMonitores] = await Promise.all([
     db
       .select({
         id: user.id,
@@ -64,8 +66,10 @@ async function todasAsPessoas() {
       .from(user)
       .orderBy(desc(user.createdAt)),
     ultimasAssinaturas(),
+    db.select({ id: monitores.usuarioId }).from(monitores),
   ]);
-  return pessoas.map((p) => ({ ...p, situacao: classificar(p.email, assinaturasPorUsuario.get(p.id)) }));
+  const ehMonitor = new Set(listaMonitores.map((m) => m.id));
+  return pessoas.map((p) => ({ ...p, situacao: classificar(p.email, assinaturasPorUsuario.get(p.id), ehMonitor.has(p.id)) }));
 }
 
 /** Totais para os cards da área do dono. */
@@ -75,16 +79,18 @@ export async function resumoPessoas() {
   const porSituacao = Object.fromEntries(
     (Object.keys(ROTULO_SITUACAO) as Situacao[]).map((s) => [s, pessoas.filter((p) => p.situacao === s).length]),
   ) as Record<Situacao, number>;
-  const alunos = pessoas.length - porSituacao.equipe;
+  // Equipe (dono) e monitores não contam como alunos: ficam fora dos cadastros e da conversão.
+  const ehAluno = (p: { situacao: Situacao }) => p.situacao !== "equipe" && p.situacao !== "monitor";
+  const alunos = pessoas.filter(ehAluno).length;
   return {
     cadastrados: alunos,
-    novos7: pessoas.filter((p) => p.situacao !== "equipe" && p.criadoEm.getTime() >= dias(7)).length,
-    novos30: pessoas.filter((p) => p.situacao !== "equipe" && p.criadoEm.getTime() >= dias(30)).length,
-    confirmados: pessoas.filter((p) => p.situacao !== "equipe" && p.emailConfirmado).length,
+    novos7: pessoas.filter((p) => ehAluno(p) && p.criadoEm.getTime() >= dias(7)).length,
+    novos30: pessoas.filter((p) => ehAluno(p) && p.criadoEm.getTime() >= dias(30)).length,
+    confirmados: pessoas.filter((p) => ehAluno(p) && p.emailConfirmado).length,
     porSituacao,
     /** Assinantes ativos sobre o total de alunos, em %. */
     conversao: alunos ? Math.round((porSituacao.assinante / alunos) * 1000) / 10 : 0,
-    recentes: pessoas.filter((p) => p.situacao !== "equipe").slice(0, 5),
+    recentes: pessoas.filter(ehAluno).slice(0, 5),
   };
 }
 

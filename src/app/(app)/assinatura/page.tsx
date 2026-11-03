@@ -28,6 +28,7 @@ import {
   assinaturaDoUsuario,
   atualizarPixPendentes,
   cobrancaAtiva,
+  ehMonitor,
   ehPix,
   eliteLiberado,
   precoDoPix,
@@ -57,6 +58,19 @@ export default async function PaginaAssinatura({
         <p className="text-[13px] font-bold uppercase tracking-[.06em] text-destaque">Assinatura</p>
         <h1 className="text-[34px] font-extrabold leading-[1.1] tracking-[-.03em]">Em breve.</h1>
         <p className="text-sm text-suave">Por enquanto, todo o conteúdo está liberado sem limite.</p>
+      </div>
+    );
+  }
+
+  if (await ehMonitor(usuario.id)) {
+    return (
+      <div className="mx-auto max-w-xl space-y-3">
+        <p className="text-[13px] font-bold uppercase tracking-[.06em] text-destaque">Assinatura</p>
+        <h1 className="text-[34px] font-extrabold leading-[1.1] tracking-[-.03em]">Você é monitor.</h1>
+        <p className="text-sm text-suave">
+          Seu acesso é completo e sem custo: questões sem limite, flashcards, desempenho, Vade Mecum e os simulados da{" "}
+          {ELITE.nome}. Não precisa assinar.
+        </p>
       </div>
     );
   }

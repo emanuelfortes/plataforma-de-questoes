@@ -1,13 +1,13 @@
 "use server";
 
 // Ações da área do dono (/admin). Todas começam com exigirAdmin().
-import { inArray } from "drizzle-orm";
+import { eq, inArray } from "drizzle-orm";
 import { revalidatePath } from "next/cache";
 import { z } from "zod";
 import { db } from "@/db";
 import { criarGravador, lerArquivo, prepararItem, type ExtrasArquivo, type ItemPronto } from "@/db/importacao";
 import { aprovarFlashcards, aprovarQuestoes, rejeitar, resolverReporte } from "@/db/aprovacao";
-import { assuntos, disciplinas, flashcards, questoes } from "@/db/schema";
+import { assuntos, disciplinas, flashcards, monitores, questoes, user } from "@/db/schema";
 import { chaveNome, semelhanca } from "@/lib/catalogo";
 import { avisosDoLote } from "@/lib/qualidade";
 import type { Dificuldade } from "@/lib/dificuldade";
@@ -250,4 +250,20 @@ export async function resolverReporteAdmin(reporteId: number, decisao: "restaura
   const ok = await resolverReporte(db, dados.data.id, dados.data.decisao);
   revalidar();
   return ok ? { ok: true, aprovadas: 0 } : { ok: false, erro: "Esse reporte já foi resolvido." };
+}
+
+const monitorSchema = z.object({ usuarioId: z.string().min(1).max(100), monitor: z.boolean() });
+
+/** Marca ou desmarca uma pessoa como monitor (tudo liberado como aluno, sem pagar e sem área do dono). */
+export async function definirMonitor(entrada: unknown): Promise<{ ok: boolean; erro?: string }> {
+  await exigirAdmin();
+  const dados = monitorSchema.safeParse(entrada);
+  if (!dados.success) return { ok: false, erro: "Pedido inválido." };
+  const { usuarioId, monitor } = dados.data;
+  const [pessoa] = await db.select({ id: user.id }).from(user).where(eq(user.id, usuarioId)).limit(1);
+  if (!pessoa) return { ok: false, erro: "Pessoa não encontrada." };
+  if (monitor) await db.insert(monitores).values({ usuarioId, criadoEm: new Date() }).onConflictDoNothing();
+  else await db.delete(monitores).where(eq(monitores.usuarioId, usuarioId));
+  revalidatePath("/admin/pessoas");
+  return { ok: true };
 }

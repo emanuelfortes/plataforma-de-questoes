@@ -104,6 +104,7 @@ src/db/aprovacao.ts                       aprovar, rejeitar e reportar erro (tel
   A aprovada leva o mesmo `codigo` para `questoes`, com `origem = 'ia'`, `topico_taxonomia`, `subtopico` e `lei_referencia` (nulos nas importadas por arquivo; índice `questoes_origem_topico`).
 - `simulados`, `simulado_arquivo` (o PDF em pedaços de 3 MB), `simulado_tentativas` (uma por aluno: marcações salvas durante a prova, acertos e tempo). O gabarito oficial só vai para o aluno depois da entrega.
 - `assinaturas`, `pagamentos`: assinatura mensal e cada cobrança do Mercado Pago (fonte do faturamento). Elite (Tropa de Elite) = mensal com valor de Elite (`valorEhElite`, `eliteLiberado`): todo valor de Elite, promocional ou não, fica acima de todo valor do Basic. Pix: linha com id `pix:<pagamento>` e o status do pagamento, acesso de 30 dias a partir do fim do acesso atual; referência `nobrega-questoes-pix:`. Só de quem tem `external_reference` com o prefixo `nobrega-questoes:` (`src/lib/planos.ts`), para separar de outros produtos na mesma conta.
+- `monitores`: monitor tem tudo liberado como aluno (inclusive a Tropa de Elite), sem pagar e sem a área do dono. O dono marca em /admin/pessoas; o acesso passa por `liberadoSemPagar` em `src/server/assinatura.ts`. Monitor não conta como aluno nos cadastros nem na conversão.
 - `user`, `session`, `account`, `verification`: Better Auth. Não renomeie colunas.
 
 ## Regras do projeto (não quebre)

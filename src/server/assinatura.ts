@@ -2,7 +2,7 @@ import "server-only";
 import { and, between, count, countDistinct, desc, eq, gt, gte, like, ne, or, sql } from "drizzle-orm";
 import { Invoice, MercadoPagoConfig, Payment, PreApproval } from "mercadopago";
 import { db } from "@/db";
-import { assinaturas, pagamentos, respostas, user } from "@/db/schema";
+import { assinaturas, monitores, pagamentos, respostas, user } from "@/db/schema";
 import { DESLOCAMENTO_SQLITE, inicioDoDiaLocal } from "@/lib/datas";
 import { DIAS_PIX, formatarReais, PLANOS, precoDoPlano, PREFIXO_PIX, PREFIXO_REFERENCIA, valorAoTrocar, valorEhElite, type Plano } from "@/lib/planos";
 import { ehAdmin } from "@/lib/admin";
@@ -390,9 +390,20 @@ export function eliteLiberado(a: Awaited<ReturnType<typeof assinaturaDoUsuario>>
   return !!a && acessoLiberado(a) && valorEhElite(a.valorCentavos);
 }
 
-/** Simulados: Elite, o dono e, com a cobrança desligada, todo mundo. */
+/** Monitor: tem tudo liberado sem pagar (marcado pelo dono em /admin/pessoas). Lê uma linha pela chave. */
+export async function ehMonitor(usuarioId: string) {
+  const [m] = await db.select({ id: monitores.usuarioId }).from(monitores).where(eq(monitores.usuarioId, usuarioId)).limit(1);
+  return !!m;
+}
+
+/** Tudo liberado sem olhar a assinatura: cobrança desligada, o dono ou um monitor. */
+async function liberadoSemPagar(usuario: { id: string; email: string }) {
+  return !cobrancaAtiva() || ehAdmin(usuario.email) || (await ehMonitor(usuario.id));
+}
+
+/** Simulados: Elite, o dono, os monitores e, com a cobrança desligada, todo mundo. */
 export async function temElite(usuario: { id: string; email: string }) {
-  if (!cobrancaAtiva() || ehAdmin(usuario.email)) return true;
+  if (await liberadoSemPagar(usuario)) return true;
   return eliteLiberado(await assinaturaDoUsuario(usuario.id));
 }
 
@@ -421,13 +432,13 @@ export function cobrancaAtiva() {
  * estiver desligada (mesma regra do limite diário). Lê só a assinatura do aluno.
  */
 export async function temAcessoCompleto(usuario: { id: string; email: string }) {
-  if (!cobrancaAtiva() || ehAdmin(usuario.email)) return true;
+  if (await liberadoSemPagar(usuario)) return true;
   return acessoLiberado(await assinaturaDoUsuario(usuario.id));
 }
 
-/** Situação do aluno para o limite diário. O dono (ADMIN_EMAILS) nunca tem limite. */
+/** Situação do aluno para o limite diário. O dono (ADMIN_EMAILS) e os monitores nunca têm limite. */
 export async function situacaoDoAluno(usuario: { id: string; email: string }) {
-  if (!cobrancaAtiva() || ehAdmin(usuario.email)) return { assinante: true, respondidasHoje: 0 };
+  if (await liberadoSemPagar(usuario)) return { assinante: true, respondidasHoje: 0 };
   const [a, [hoje]] = await Promise.all([
     assinaturaDoUsuario(usuario.id),
     // Usa o índice (usuario_id, respondida_em): lê só as respostas de hoje do aluno. Conta questões

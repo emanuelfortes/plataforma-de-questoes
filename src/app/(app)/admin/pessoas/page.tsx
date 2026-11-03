@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { BotaoMonitor } from "@/components/admin/botao-monitor";
 import { CabecalhoPagina, CardMetrica, classeCabecalhoTabela, Secao, Selo } from "@/components/admin/kit";
 import { LIMITE_GRATIS_DIA } from "@/lib/planos";
 import { cn, formatarNumero } from "@/lib/utils";
@@ -18,6 +19,7 @@ const TOM_SITUACAO: Record<Situacao, "acerto" | "marca" | "destaque" | "erro" | 
   cancelado: "destaque",
   pendente: "marca",
   gratis: "neutro",
+  monitor: "destaque",
   equipe: "marca",
 };
 
@@ -27,6 +29,7 @@ const ABAS: { filtro: FiltroPessoas; rotulo: string }[] = [
   { filtro: "gratis", rotulo: "Plano grátis" },
   { filtro: "cancelado", rotulo: "Cancelaram" },
   { filtro: "pendente", rotulo: "Pendentes" },
+  { filtro: "monitor", rotulo: "Monitores" },
   { filtro: "equipe", rotulo: "Equipe" },
 ];
 
@@ -43,7 +46,7 @@ export default async function PaginaPessoas({ searchParams }: { searchParams: Pa
 
   const [resumo, lista] = await Promise.all([resumoPessoas(), listarPessoas({ filtro, busca, pagina })]);
   const contagem = (f: FiltroPessoas) =>
-    f === "todos" ? resumo.cadastrados + resumo.porSituacao.equipe : resumo.porSituacao[f];
+    f === "todos" ? resumo.cadastrados + resumo.porSituacao.equipe + resumo.porSituacao.monitor : resumo.porSituacao[f];
 
   const link = (mudancas: Record<string, string | number | undefined>) => {
     const p = new URLSearchParams();
@@ -54,7 +57,10 @@ export default async function PaginaPessoas({ searchParams }: { searchParams: Pa
 
   return (
     <>
-      <CabecalhoPagina titulo="Pessoas" subtitulo="Quem se cadastrou, quem assina e quem usa o plano grátis." />
+      <CabecalhoPagina
+        titulo="Pessoas"
+        subtitulo="Quem se cadastrou, quem assina e quem usa o plano grátis. Monitor tem tudo liberado como aluno, sem pagar e sem acesso a esta área."
+      />
 
       <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
         <CardMetrica
@@ -120,7 +126,10 @@ export default async function PaginaPessoas({ searchParams }: { searchParams: Pa
                   <th className="px-4 py-3 sm:px-5">Pessoa</th>
                   <th className="px-3">Situação</th>
                   <th className="px-3 text-right">Questões</th>
-                  <th className="px-3 sm:pr-5">Cadastro</th>
+                  <th className="px-3">Cadastro</th>
+                  <th className="px-3 sm:pr-5">
+                    <span className="sr-only">Monitor</span>
+                  </th>
                 </tr>
               </thead>
               <tbody>
@@ -137,7 +146,10 @@ export default async function PaginaPessoas({ searchParams }: { searchParams: Pa
                       <Selo tom={TOM_SITUACAO[p.situacao]}>{ROTULO_SITUACAO[p.situacao]}</Selo>
                     </td>
                     <td className="px-3 text-right tabular-nums">{formatarNumero(p.resolvidas)}</td>
-                    <td className="whitespace-nowrap px-3 tabular-nums text-suave sm:pr-5">{dataCurta(p.criadoEm)}</td>
+                    <td className="whitespace-nowrap px-3 tabular-nums text-suave">{dataCurta(p.criadoEm)}</td>
+                    <td className="px-3 text-right sm:pr-5">
+                      {p.situacao !== "equipe" && <BotaoMonitor usuarioId={p.id} monitor={p.situacao === "monitor"} />}
+                    </td>
                   </tr>
                 ))}
               </tbody>

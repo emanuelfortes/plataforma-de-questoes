@@ -10,7 +10,7 @@ import {
 import { Card, CardTitulo } from "@/components/ui/card";
 import { formatarReais } from "@/lib/planos";
 import { exigirUsuario } from "@/lib/sessao";
-import { acessoLiberado, assinaturaDoUsuario, cobrancaAtiva } from "@/server/assinatura";
+import { acessoLiberado, assinaturaDoUsuario, cobrancaAtiva, ehMonitor } from "@/server/assinatura";
 
 export const metadata: Metadata = { title: "Minha conta" };
 
@@ -21,7 +21,7 @@ export default async function PaginaConta({
   searchParams: Promise<{ error?: string }>;
 }) {
   const usuario = await exigirUsuario();
-  const assinatura = await assinaturaDoUsuario(usuario.id);
+  const [assinatura, monitor] = await Promise.all([assinaturaDoUsuario(usuario.id), ehMonitor(usuario.id)]);
   const { error } = await searchParams;
 
   return (
@@ -58,7 +58,9 @@ export default async function PaginaConta({
         <Card>
           <CardTitulo>Assinatura</CardTitulo>
           <p className="mt-2 text-sm text-suave">
-            {assinatura?.status === "authorized"
+            {monitor
+              ? "Você é monitor: acesso completo, sem custo."
+              : assinatura?.status === "authorized"
               ? `Ativa: ${formatarReais(assinatura.valorCentavos / 100)} por mês.`
               : acessoLiberado(assinatura) && assinatura?.id.startsWith("pix:")
                 ? `Pago com Pix: acesso até ${assinatura.acessoAte?.toLocaleDateString("pt-BR", { timeZone: "America/Sao_Paulo" })}.`
