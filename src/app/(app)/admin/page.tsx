@@ -5,6 +5,7 @@ import { formatarReais } from "@/lib/planos";
 import { formatarNumero } from "@/lib/utils";
 import { resumoFaturamento } from "@/server/assinatura";
 import { cadastrosPorDia, resumoPessoas, ROTULO_SITUACAO, totaisConteudo } from "@/server/pessoas";
+import { usoDaPlataforma } from "@/server/uso";
 
 export const metadata: Metadata = { title: "Área do dono" };
 
@@ -39,11 +40,12 @@ function GraficoCadastros({ porDia }: { porDia: Map<string, number> }) {
 
 // exigirAdmin() já roda no layout de /admin.
 export default async function PaginaVisaoGeral() {
-  const [pessoas, faturamento, conteudo, cadastros] = await Promise.all([
+  const [pessoas, faturamento, conteudo, cadastros, uso] = await Promise.all([
     resumoPessoas(),
     resumoFaturamento(),
     totaisConteudo(),
     cadastrosPorDia(),
+    usoDaPlataforma(),
   ]);
   const mesAtual = new Date().toLocaleDateString("sv-SE", { timeZone: "America/Sao_Paulo" }).slice(0, 7);
   const doMes = faturamento.porMes.find((m) => m.mes === mesAtual);
@@ -81,6 +83,33 @@ export default async function PaginaVisaoGeral() {
           dica={`questões · ${formatarNumero(conteudo.flashcards)} flashcards`}
         />
       </div>
+
+      <Secao titulo="Questões resolvidas">
+        <div className="grid grid-cols-2 gap-3 px-4 pb-5 sm:px-5 lg:grid-cols-4">
+          <CardMetrica rotulo="Hoje" valor={formatarNumero(uso.resolvidasHoje)} dica={`${formatarNumero(uso.alunosHoje)} ${uso.alunosHoje === 1 ? "aluno estudou" : "alunos estudaram"}`} />
+          <CardMetrica rotulo="Este mês" valor={formatarNumero(uso.resolvidasMes)} dica={`média de ${formatarNumero(uso.mediaDia)} por dia`} />
+          <CardMetrica rotulo="Previsão do mês" valor={formatarNumero(uso.projecaoMes)} dica="no ritmo atual" />
+          <CardMetrica
+            rotulo="Cabem no mês"
+            valor={formatarNumero(uso.capacidadeMes)}
+            dica={`${String(Math.round((uso.projecaoMes / uso.capacidadeMes) * 1000) / 10).replace(".", ",")}% usados na previsão`}
+            tom={uso.projecaoMes > uso.capacidadeMes * 0.8 ? "erro" : "acerto"}
+          />
+        </div>
+        <div className="px-4 pb-5 sm:px-5">
+          <div className="h-2.5 overflow-hidden rounded-full bg-camada" role="img" aria-label="Uso da cota do mês">
+            <div
+              className={uso.projecaoMes > uso.capacidadeMes * 0.8 ? "h-full rounded-full bg-erro" : "h-full rounded-full bg-marca"}
+              style={{ width: `${Math.min(100, Math.max(1, (uso.resolvidasMes / uso.capacidadeMes) * 100))}%` }}
+            />
+          </div>
+          <p className="mt-2 text-xs text-suave">
+            Limite do plano grátis do banco (Turso): 10 milhões de linhas gravadas por mês. Cada questão resolvida grava até
+            3 linhas, então cabem cerca de {formatarNumero(uso.capacidadeMes)} questões resolvidas por mês. Passou de 80% na
+            previsão? Hora de subir o plano do Turso.
+          </p>
+        </div>
+      </Secao>
 
       <Secao titulo="Novos cadastros (30 dias)" acao={<LinkBotao href="/admin/pessoas">Ver pessoas</LinkBotao>}>
         <GraficoCadastros porDia={porDia} />
