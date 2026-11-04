@@ -10,7 +10,7 @@ export const LEGAL = {
    * WhatsApp de atendimento (dúvidas, erros em questões e pedidos sobre dados pessoais).
    * Só números, com 55 + DDD: ex. "5585999999999".
    */
-  whatsapp: "558591053277",
+  whatsapp: "5585991053277",
   site: "riccardonobrega.com",
   /** Cidade e estado do foro para disputas. */
   foro: "",

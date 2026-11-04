@@ -1,6 +1,8 @@
 import "server-only";
 import nodemailer from "nodemailer";
+import { linkWhatsapp, whatsappFormatado } from "@/lib/legal";
 import { NOME_PLATAFORMA } from "@/lib/marca";
+import { ADICIONAL_ELITE, ASSINATURA, ELITE, PROMOCAO, formatarReais } from "@/lib/planos";
 
 // Envio de e-mail. Usa o primeiro serviço configurado:
 // 1. Gmail (GMAIL_USUARIO + GMAIL_SENHA_APP): sem domínio próprio, até ~500 e-mails por dia.
@@ -10,19 +12,35 @@ const NOME_REMETENTE = NOME_PLATAFORMA;
 
 type Email = { para: string; assunto: string; html: string; texto: string };
 
+/** Qual serviço vai enviar (para os scripts avisarem antes de um envio em massa). */
+export function servicoDeEmail() {
+  const { GMAIL_USUARIO, GMAIL_SENHA_APP, RESEND_API_KEY } = process.env;
+  if (GMAIL_USUARIO && GMAIL_SENHA_APP) return "gmail" as const;
+  if (RESEND_API_KEY) return "resend" as const;
+  return null;
+}
+
+/** Devolve true se o e-mail saiu (false: falhou ou não há serviço configurado). */
 export async function enviarEmail(email: Email) {
   const { GMAIL_USUARIO, GMAIL_SENHA_APP, RESEND_API_KEY } = process.env;
   // Não lança erro: uma falha de e-mail não pode travar cadastro nem expor se a conta existe.
   try {
-    if (GMAIL_USUARIO && GMAIL_SENHA_APP) return await enviarPorGmail(email, GMAIL_USUARIO, GMAIL_SENHA_APP);
-    if (RESEND_API_KEY) return await enviarPorResend(email, RESEND_API_KEY);
+    if (GMAIL_USUARIO && GMAIL_SENHA_APP) {
+      await enviarPorGmail(email, GMAIL_USUARIO, GMAIL_SENHA_APP);
+      return true;
+    }
+    if (RESEND_API_KEY) {
+      await enviarPorResend(email, RESEND_API_KEY);
+      return true;
+    }
   } catch (erro) {
     console.error(`[e-mail] falha ao enviar para ${email.para}:`, erro);
-    return;
+    return false;
   }
   console.info(
     `[e-mail não enviado: nenhum serviço configurado]\nPara: ${email.para}\nAssunto: ${email.assunto}\n${email.texto}`,
   );
+  return false;
 }
 
 async function enviarPorGmail({ para, assunto, html, texto }: Email, usuario: string, senhaApp: string) {
@@ -70,7 +88,14 @@ function enderecoSite() {
   return (process.env.BETTER_AUTH_URL || "https://riccardonobrega.com").replace(/\/$/, "");
 }
 
-function modelo(titulo: string, paragrafos: string[], botao: { rotulo: string; url: string }, rodape: string) {
+function modelo(
+  titulo: string,
+  paragrafos: string[],
+  botao: { rotulo: string; url: string },
+  rodape: string,
+  /** HTML extra entre o texto e o botão (já montado com estilos inline). */
+  extra = "",
+) {
   const site = enderecoSite();
   const fonte = "font-family:Arial,Helvetica,sans-serif";
   const corpo = paragrafos
@@ -90,7 +115,8 @@ function modelo(titulo: string, paragrafos: string[], botao: { rotulo: string; u
       <tr><td style="padding:32px 32px 8px">
         <h1 style="margin:0 0 20px;font-size:24px;line-height:1.25;color:${COR.fundo};${fonte}">${titulo}</h1>
         ${corpo}
-        <table role="presentation" cellpadding="0" cellspacing="0" style="margin:28px 0">
+        ${extra}
+        <table role="presentation" align="center" cellpadding="0" cellspacing="0" style="margin:28px auto">
           <tr><td style="border-radius:12px;background:${COR.marca}">
             <a href="${botao.url}" style="display:inline-block;padding:15px 30px;font-size:16px;font-weight:bold;color:#ffffff;text-decoration:none;border-radius:12px;${fonte}">${botao.rotulo}</a>
           </td></tr>
@@ -142,5 +168,60 @@ export function emailRenovarPix(nome: string, fim: string, valor: string, url: s
     assunto: `Seu acesso vai até ${fim}: renove com Pix`,
     html: modelo("Renove seu acesso", [ola, aviso], { rotulo: "Pagar com Pix", url }, rodape),
     texto: `Olá, ${nome}.\n\n${aviso}\n\n${url}\n\n${rodape}`,
+  };
+}
+
+/** Linha de preço do quadro da Black Friday (e-mail aceita só tabela e estilo inline). */
+function linhaPreco(nome: string, detalhe: string, de: number, por: number) {
+  const fonte = "font-family:Arial,Helvetica,sans-serif";
+  return `<tr>
+    <td style="padding:14px 16px;border-top:1px solid #3a3a3a">
+      <p style="margin:0;font-size:15px;font-weight:bold;color:#ffffff;${fonte}">${nome}</p>
+      <p style="margin:2px 0 0;font-size:12px;line-height:1.4;color:#a3a3a3;${fonte}">${detalhe}</p>
+    </td>
+    <td align="right" style="padding:14px 16px;border-top:1px solid #3a3a3a;white-space:nowrap">
+      <p style="margin:0;font-size:12px;color:#a3a3a3;text-decoration:line-through;${fonte}">${formatarReais(de)}</p>
+      <p style="margin:0;font-size:20px;font-weight:bold;color:${COR.destaque};${fonte}">${formatarReais(por)}<span style="font-size:12px;font-weight:normal;color:#a3a3a3">/mês</span></p>
+    </td>
+  </tr>`;
+}
+
+/** Aviso único (enviado à mão): o pagamento do lançamento falhou e já voltou ao normal. */
+export function emailPagamentoNormalizado(nome: string): Omit<Email, "para"> {
+  const site = enderecoSite();
+  const url = `${site}/assinatura`;
+  const fonte = "font-family:Arial,Helvetica,sans-serif";
+  const [dia, mes] = PROMOCAO.ate.split("-").slice(1).reverse();
+  const fim = `${dia}/${mes}`;
+  const ola = `Olá, ${escapar(nome)}!`;
+  const problema =
+    "Durante o lançamento da plataforma, tivemos um problema que impediu algumas pessoas de concluir o pagamento. O erro foi nosso, mas já está resolvido! <strong>Agora, o pagamento está funcionando normalmente no cartão de crédito e no Pix.</strong>";
+  const desculpas = "Pedimos desculpas pelo transtorno e agradecemos pela paciência.";
+  const promocao = `E a Black Friday continua! Quem assinar até <strong>${fim} garante o preço promocional para sempre</strong>, enquanto a assinatura estiver ativa.`;
+  const aproveite = "Aproveite! 🚀";
+  const quadro = `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:8px 0 4px;border-radius:12px;overflow:hidden;background:${COR.fundo}">
+    <tr><td colspan="2" style="padding:14px 16px 12px">
+      <p style="margin:0;font-size:12px;font-weight:bold;letter-spacing:2px;text-transform:uppercase;color:${COR.destaque};${fonte}">Black Friday 💀 até ${fim}</p>
+    </td></tr>
+    ${linhaPreco(ASSINATURA.nome, "Todas as questões e flashcards, sem limite", ASSINATURA.valor, PROMOCAO.basico)}
+    ${linhaPreco(ELITE.nome, `Basic + 2 simulados exclusivos por mês (+ ${formatarReais(ADICIONAL_ELITE)})`, ELITE.valor, PROMOCAO.elite)}
+    <tr><td colspan="2" style="padding:12px 16px;border-top:1px solid #3a3a3a">
+      <p style="margin:0;font-size:13px;line-height:1.5;color:#d4d4d4;${fonte}">💳 Cartão: renova sozinho todo mês<br>⚡ Pix: 30 dias de acesso</p>
+    </td></tr>
+  </table>`;
+  const zap = linkWhatsapp(`Olá! Tive problema para assinar a plataforma ${NOME_PLATAFORMA}.`);
+  const rodape = `Ainda com dificuldade para pagar? Chame a gente no WhatsApp <a href="${zap}" style="color:${COR.marca};font-weight:bold">${whatsappFormatado()}</a> que resolvemos com você.`;
+  return {
+    assunto: "O pagamento já está normal (e um pedido de desculpas)",
+    html: modelo("Pagamento funcionando normalmente", [ola, problema, desculpas, promocao, aproveite], { rotulo: "Assinar agora", url }, rodape, quadro),
+    texto: [
+      `Olá, ${nome}!`,
+      ...[problema, desculpas, promocao].map((p) => p.replace(/<\/?strong>/g, "")),
+      aproveite,
+      `${ASSINATURA.nome}: de ${formatarReais(ASSINATURA.valor)} por ${formatarReais(PROMOCAO.basico)}/mês`,
+      `${ELITE.nome}: de ${formatarReais(ELITE.valor)} por ${formatarReais(PROMOCAO.elite)}/mês`,
+      `Assine em: ${url}`,
+      `Ainda com dificuldade? WhatsApp ${whatsappFormatado()}: ${zap}`,
+    ].join("\n\n"),
   };
 }
