@@ -7,11 +7,11 @@ import { cn } from "@/lib/utils";
 export type Colocado = {
   usuarioId: string;
   nome: string;
-  /** Questões diferentes resolvidas (define a patente). */
-  resolvidas: number;
+  /** Questões diferentes resolvidas (define a patente). Só para o dono, como os números abaixo. */
+  resolvidas?: number;
   /** Número principal (questões ou %) e a legenda embaixo. */
-  grande: string;
-  pequeno: string;
+  grande?: string;
+  pequeno?: string;
 };
 
 type Props = {
@@ -62,7 +62,7 @@ export function Podio({ primeiros, usuarioId }: Props) {
 
 function Lugar({ posicao, colocado, eu }: { posicao: 1 | 2 | 3; colocado?: Colocado; eu: boolean }) {
   const e = ESTILO[posicao];
-  const patente = colocado ? patenteDe(colocado.resolvidas).atual : null;
+  const patente = colocado?.resolvidas !== undefined ? patenteDe(colocado.resolvidas).atual : null;
   return (
     <li className="flex min-w-0 flex-col items-center" aria-label={`${posicao}º lugar`}>
       {/* Escudo com a chama atrás */}
@@ -113,7 +113,7 @@ function Lugar({ posicao, colocado, eu }: { posicao: 1 | 2 | 3; colocado?: Coloc
         {colocado ? colocado.nome : "Vago"}
       </p>
       {eu && <p className="text-[11px] font-extrabold text-marca-clara">(você)</p>}
-      {colocado && (
+      {colocado?.grande && (
         <p className="mb-2 text-center leading-tight">
           <span className={cn("block font-estencil tabular-nums", posicao === 1 ? "text-xl" : "text-lg", e.numero)}>{colocado.grande}</span>
           <span className="block text-[11px] text-suave">{colocado.pequeno}</span>
@@ -125,7 +125,7 @@ function Lugar({ posicao, colocado, eu }: { posicao: 1 | 2 | 3; colocado?: Coloc
         className={cn(
           "relative grid w-full place-items-center overflow-hidden rounded-t-md border border-b-0 bg-linear-to-b to-transparent",
           e.pedestal,
-          !colocado && "mt-2",
+          !colocado?.grande && "mt-2",
         )}
       >
         <span className="listras absolute inset-x-0 top-0 h-1.5 opacity-50" aria-hidden />

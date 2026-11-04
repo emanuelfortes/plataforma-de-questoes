@@ -6,6 +6,8 @@ import { ehAdmin } from "@/lib/admin";
 
 // Ranking dos alunos. Tudo sai de "placar" (uma linha por aluno, atualizada a cada resposta), nunca do
 // histórico de respostas: o custo não cresce com o número de questões resolvidas.
+// Os números de um aluno não são mostrados aos concorrentes: o aluno recebe só os 3 do pódio e os próprios
+// números; a lista completa e o resto da tropa saem só para o dono.
 
 export type TipoRanking = "fuzil" | "mira";
 
@@ -70,13 +72,15 @@ export async function obterRanking(tipo: TipoRanking, usuarioId: string, email: 
       .from(placar)
       .where(eq(placar.usuarioId, usuarioId)),
     db.select({ participantes: count() }).from(placar).innerJoin(user, eq(user.id, placar.usuarioId)).where(filtro),
-    db
-      .select({ usuarioId: user.id, nome: user.name, resolvidas: resolvidasOuZero })
-      .from(user)
-      .leftJoin(placar, eq(placar.usuarioId, user.id))
-      .where(and(tipo === "fuzil" ? or(foraDoRanking, eq(placar.resolvidas, 0)) : foraDoRanking, semDonos()))
-      .orderBy(desc(resolvidasOuZero), asc(user.createdAt))
-      .limit(TAMANHO_RANKING),
+    dono
+      ? db
+          .select({ usuarioId: user.id, nome: user.name, resolvidas: resolvidasOuZero })
+          .from(user)
+          .leftJoin(placar, eq(placar.usuarioId, user.id))
+          .where(and(tipo === "fuzil" ? or(foraDoRanking, eq(placar.resolvidas, 0)) : foraDoRanking, semDonos()))
+          .orderBy(desc(resolvidasOuZero), asc(user.createdAt))
+          .limit(TAMANHO_RANKING)
+      : [],
   ]);
   const tropa = outros.map((o) => ({ usuarioId: o.usuarioId, nome: nomeCurto(o.nome), resolvidas: Number(o.resolvidas) }));
 
@@ -113,7 +117,7 @@ export async function obterRanking(tipo: TipoRanking, usuarioId: string, email: 
   }
 
   return {
-    lista,
+    lista: dono ? lista : lista.slice(0, 3),
     tropa,
     participantes,
     eu: {

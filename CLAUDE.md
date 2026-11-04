@@ -52,7 +52,7 @@ src/
     (app)/flashcards                      sessão de revisão
     (app)/desempenho                      janelas, gráfico diário, por disciplina
     (app)/vade-mecum                      leis do Planalto (data/leis) em leitura guiada: artigo desmontado, palavras da banca, selos de atualização (só assinantes)
-    (app)/ranking                         Fuzil de questões (mais resolvidas) e Bom de Mira (acerto de primeira, mínimo de 30)
+    (app)/ranking                         Fuzil de questões (mais resolvidas) e Bom de Mira (acerto de primeira, mínimo de 30); o aluno vê só o pódio (nome e colocação) e os próprios números, a lista e os números dos outros só o dono
     (app)/admin                           área do dono (ADMIN_EMAILS), com menu lateral: visão geral, financeiro,
                                           pessoas (cadastrados x assinantes) e questões (prompt de IA e importação)
     (app)/assinatura                      Basic (R$ 29,90) e o adicional Tropa de Elite (+ R$ 9,90, cobrado junto), Mercado Pago mensal no cartão ou Pix de 30 dias (sem renovação automática, aviso por e-mail antes do fim); Black Friday até 30/11 com preço para sempre (src/lib/planos.ts); cancelar, trocar de plano

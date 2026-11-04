@@ -41,7 +41,6 @@ export default async function PaginaRanking({ searchParams }: { searchParams: Pa
           detalhe: `${formatarNumero(l.resolvidas)} questões · ${formatarNumero(l.acertos)} acertos`,
         }
       : { grande: `${l.percentual}%`, pequeno: `${formatarNumero(l.acertos)} de ${formatarNumero(l.resolvidas)}` };
-  const estouNaLista = lista.some((l) => l.usuarioId === usuario.id);
 
   return (
     <div className="mx-auto max-w-2xl space-y-6">
@@ -139,8 +138,14 @@ export default async function PaginaRanking({ searchParams }: { searchParams: Pa
         </p>
       ) : (
         <>
-          <Podio primeiros={lista.slice(0, 3).map((l) => ({ usuarioId: l.usuarioId, nome: l.nome, resolvidas: l.resolvidas, ...valor(l) }))} usuarioId={usuario.id} />
-          {lista.length > 3 && (
+          {/* Os números dos outros alunos só aparecem para o dono: o aluno vê nome e colocação. */}
+          <Podio
+            primeiros={lista
+              .slice(0, 3)
+              .map((l) => (eu.dono ? { usuarioId: l.usuarioId, nome: l.nome, resolvidas: l.resolvidas, ...valor(l) } : { usuarioId: l.usuarioId, nome: l.nome }))}
+            usuarioId={usuario.id}
+          />
+          {eu.dono && lista.length > 3 && (
             <ol className="overflow-hidden rounded-2xl border border-borda bg-superficie">
               {lista.slice(3).map((l) => (
                 <Linha key={l.usuarioId} linha={l} eu={l.usuarioId === usuario.id} valor={valor(l)} />
@@ -183,7 +188,7 @@ export default async function PaginaRanking({ searchParams }: { searchParams: Pa
           </ul>
         </section>
       )}
-      {!estouNaLista && lista.length === TAMANHO_RANKING && (
+      {eu.dono && lista.length === TAMANHO_RANKING && (
         <p className="text-center text-xs text-suave">Mostrando os {TAMANHO_RANKING} primeiros.</p>
       )}
     </div>
