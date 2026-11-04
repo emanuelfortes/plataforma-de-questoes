@@ -146,7 +146,8 @@ export function MeusDados() {
     <Card>
       <CardTitulo>Seus dados</CardTitulo>
       <p className="mt-1 text-sm text-suave">
-        Baixe uma cópia de tudo que guardamos sobre você: perfil, respostas e revisões de flashcards.
+        Baixe uma cópia de tudo que guardamos sobre você: perfil, assinatura e pagamentos, respostas, simulados,
+        ranking e revisões de flashcards. Senha e dados do cartão não ficam com a gente.
       </p>
       {/* Link comum (não Link do Next): a rota devolve um arquivo para download. */}
       <a
