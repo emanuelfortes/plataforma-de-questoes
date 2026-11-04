@@ -27,6 +27,8 @@ const banco = createClient({ url, authToken: process.env.TURSO_AUTH_TOKEN || und
 const pausa = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 async function main() {
+  // Os links do e-mail apontam para o site no ar, mesmo com o .env.local em localhost.
+  process.env.BETTER_AUTH_URL = "https://riccardonobrega.com";
   const servico = servicoDeEmail();
   console.log(`Banco: ${url.startsWith("libsql://") ? "produção (Turso)" : url}`);
   console.log(`Serviço de e-mail: ${servico ?? "nenhum (só imprime no terminal)"}`);
