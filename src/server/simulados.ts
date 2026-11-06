@@ -152,7 +152,8 @@ export async function entregarTentativa(id: number, usuarioId: string, respostas
 export const TAMANHO_RANKING_SIMULADO = 50;
 
 /** Ranking do simulado: mais acertos primeiro; no empate, quem entregou em menos tempo. */
-export async function rankingSimulado(id: number, usuarioId: string) {
+/** O aluno recebe só os 3 primeiros, sem acertos nem tempo; os números dos outros saem só para o dono. */
+export async function rankingSimulado(id: number, usuarioId: string, dono: boolean) {
   const entregue = and(eq(simuladoTentativas.simuladoId, id), isNotNull(simuladoTentativas.entregueEm));
   const [lista, [total]] = await Promise.all([
     db
@@ -179,7 +180,13 @@ export async function rankingSimulado(id: number, usuarioId: string) {
     posicao = (frente?.n ?? 0) + 1;
   }
   return {
-    lista: lista.map((l) => ({ ...l, nome: nomeCurto(l.nome), acertos: l.acertos ?? 0, tempoSeg: l.tempoSeg ?? 0, eu: l.usuarioId === usuarioId })),
+    lista: (dono ? lista : lista.slice(0, 3)).map((l) => ({
+      usuarioId: l.usuarioId,
+      nome: nomeCurto(l.nome),
+      acertos: dono ? (l.acertos ?? 0) : null,
+      tempoSeg: dono ? (l.tempoSeg ?? 0) : null,
+      eu: l.usuarioId === usuarioId,
+    })),
     participantes: total?.n ?? 0,
     posicao,
   };

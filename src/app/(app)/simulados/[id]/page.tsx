@@ -5,7 +5,7 @@ import { notFound, redirect } from "next/navigation";
 import { BotaoComecar, FolhaRespostas } from "@/components/simulados/folha-respostas";
 import { Card } from "@/components/ui/card";
 import { variantesBotao } from "@/components/ui/button";
-import { exigirUsuario } from "@/lib/sessao";
+import { ehAdmin, exigirUsuario } from "@/lib/sessao";
 import { ANULADA, formatarTempo, segundosRestantes } from "@/lib/simulados";
 import { cn } from "@/lib/utils";
 import { temElite } from "@/server/assinatura";
@@ -63,7 +63,7 @@ export default async function PaginaSimulado({ params }: { params: Promise<{ id:
       )}
 
       {t?.entregueEm && gabarito && (
-        <Resultado id={s.id} usuarioId={usuario.id} respostas={t.respostas} gabarito={gabarito} acertos={t.acertos ?? 0} tempoSeg={t.tempoSeg ?? 0} />
+        <Resultado id={s.id} usuarioId={usuario.id} respostas={t.respostas} gabarito={gabarito} acertos={t.acertos ?? 0} tempoSeg={t.tempoSeg ?? 0} dono={ehAdmin(usuario.email)} />
       )}
     </div>
   );
@@ -76,6 +76,7 @@ async function Resultado({
   gabarito,
   acertos,
   tempoSeg,
+  dono,
 }: {
   id: number;
   usuarioId: string;
@@ -83,8 +84,9 @@ async function Resultado({
   gabarito: string[];
   acertos: number;
   tempoSeg: number;
+  dono: boolean;
 }) {
-  const ranking = await rankingSimulado(id, usuarioId);
+  const ranking = await rankingSimulado(id, usuarioId, dono);
   const nota = Math.round((acertos / gabarito.length) * 1000) / 10;
   return (
     <>
@@ -115,7 +117,9 @@ async function Resultado({
         <h2 className="flex items-center gap-2 text-xs font-extrabold uppercase tracking-[.06em] text-marca-clara">
           <Trophy className="size-4" aria-hidden /> Ranking do simulado
         </h2>
-        <p className="text-xs text-suave">Mais acertos na frente; no empate, quem entregou em menos tempo.</p>
+        <p className="text-xs text-suave">
+          {dono ? "Mais acertos na frente; no empate, quem entregou em menos tempo." : "Os 3 primeiros: mais acertos na frente; no empate, quem entregou em menos tempo."}
+        </p>
         <ol className="overflow-hidden rounded-2xl border border-borda">
           {ranking.lista.map((l, i) => (
             <li key={l.usuarioId} className={cn("flex items-center gap-3 border-t border-borda px-4 py-2.5 first:border-t-0", l.eu && "bg-marca-suave")}>
@@ -124,8 +128,8 @@ async function Resultado({
                 {l.nome}
                 {l.eu && " (você)"}
               </span>
-              <span className="text-xs tabular-nums text-suave">{formatarTempo(l.tempoSeg)}</span>
-              <span className="w-14 text-right font-extrabold tabular-nums">{l.acertos}</span>
+              {l.tempoSeg !== null && <span className="text-xs tabular-nums text-suave">{formatarTempo(l.tempoSeg)}</span>}
+              {l.acertos !== null && <span className="w-14 text-right font-extrabold tabular-nums">{l.acertos}</span>}
             </li>
           ))}
         </ol>
