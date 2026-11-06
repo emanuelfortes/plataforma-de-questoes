@@ -118,6 +118,22 @@ export async function pausaDoCartao() {
   return Number.isFinite(valor) && valor > Date.now() ? new Date(valor) : null;
 }
 
+/**
+ * Motivo (status_detail) do cartão que acabou de ser recusado. O erro da criação da assinatura não diz o motivo:
+ * ele fica no pagamento recusado que ela gerou. Pode levar um instante para aparecer na busca (uma nova tentativa).
+ */
+export async function motivoDaRecusa(usuarioId: string) {
+  const pagamentos = new Payment(cliente());
+  for (let tentativa = 0; tentativa < 2; tentativa++) {
+    if (tentativa) await new Promise((r) => setTimeout(r, 1_000));
+    const r = await pagamentos.search({ options: { external_reference: referencia(usuarioId), sort: "date_created", criteria: "desc", limit: 1 } });
+    const p = r.results?.[0];
+    const recente = (data(p?.date_created)?.getTime() ?? 0) > Date.now() - 2 * 60 * 1000;
+    if (p?.status === "rejected" && recente) return p.status_detail ?? null;
+  }
+  return null;
+}
+
 type AssinaturaMP = Awaited<ReturnType<PreApproval["get"]>>;
 
 async function salvarAssinatura(a: AssinaturaMP) {

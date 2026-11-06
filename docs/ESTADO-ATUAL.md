@@ -74,7 +74,11 @@ Em 02 e 03/11 houve 13 tentativas de cartão recusadas, quase todas `cc_rejected
 Em 03/11 entraram: o código do aparelho (`security.js`, cabeçalho `X-meli-session-id`) e a pausa de 30 minutos no
 cartão depois dessa recusa, com o Pix no lugar.
 
-- [ ] **Plano B, se as recusas continuarem em ~1 semana:** voltar o cartão para o checkout do Mercado Pago
+Levantamento de 06/11: de 02 a 06/11, 17 cartões recusados por esse motivo e 2 aprovados. O código do aparelho não resolveu:
+as 5 recusas de 04 e 06/11 vieram depois dele. O erro da criação da assinatura não traz o motivo; ele é lido do pagamento
+recusado (`motivoDaRecusa` em `src/server/assinatura.ts`).
+
+- [ ] **Plano B, recomendado desde 06/11:** voltar o cartão para o checkout do Mercado Pago
   (redirecionamento), em que ele mesmo coleta os dados do antifraude. Não precisa de código: apagar
   `NEXT_PUBLIC_MP_PUBLIC_KEY` na Vercel e fazer um novo deploy. Para voltar ao cartão no site, recolocar a chave.
 - Para medir: as recusas aparecem no painel do Mercado Pago (Atividade) como "Venda por assinatura, Recusado".

@@ -17,6 +17,7 @@ import {
   criarCheckout,
   ehPix,
   gerarPix,
+  motivoDaRecusa,
   mudarPlano,
   PAUSA_CARTAO_MINUTOS,
   pausaDoCartao,
@@ -59,8 +60,8 @@ const cartaoSchema = z.object({
 });
 
 // Mensagens do Mercado Pago para cartão recusado (cause[].code ou message) em português simples.
-function motivoRecusa(erro: unknown) {
-  const texto = JSON.stringify(erro ?? "").toLowerCase();
+function motivoRecusa(erro: unknown, detalhe: string | null) {
+  const texto = `${JSON.stringify(erro ?? "")} ${detalhe ?? ""}`.toLowerCase();
   // Antifraude do Mercado Pago (cc_rejected_high_risk): outro cartão costuma cair no mesmo; o Pix passa.
   if (texto.includes("high_risk")) return "O Mercado Pago recusou este pagamento por segurança. Assine pelo Pix, que libera na hora.";
   if (texto.includes("insufficient") || texto.includes("saldo")) return "O cartão não tem limite suficiente.";
@@ -89,13 +90,14 @@ export async function assinarCartao(entrada: unknown): Promise<ResultadoCartao> 
     revalidatePath("/assinatura");
     return { ok: true, ativa: status === "authorized" };
   } catch (erro) {
-    console.error("[assinatura] cartão recusado ou falha:", erro);
-    if (JSON.stringify(erro ?? "").toLowerCase().includes("high_risk")) {
+    const detalhe = await motivoDaRecusa(usuario.id).catch(() => null);
+    console.error(`[assinatura] cartão recusado ou falha (${detalhe ?? "sem motivo"}):`, erro);
+    if (detalhe === "cc_rejected_high_risk") {
       const fim = Date.now() + PAUSA_CARTAO_MINUTOS * 60 * 1000;
       (await cookies()).set(COOKIE_PAUSA_CARTAO, String(fim), { httpOnly: true, sameSite: "lax", secure: true, maxAge: PAUSA_CARTAO_MINUTOS * 60, path: "/" });
       revalidatePath("/assinatura");
     }
-    return { ok: false, erro: motivoRecusa(erro) };
+    return { ok: false, erro: motivoRecusa(erro, detalhe) };
   }
 }
 
