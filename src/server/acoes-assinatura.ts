@@ -8,7 +8,7 @@ import { z } from "zod";
 import { db } from "@/db";
 import { assinaturas } from "@/db/schema";
 import { exigirUsuario } from "@/lib/sessao";
-import type { Plano } from "@/lib/planos";
+import { CARTAO_LIGADO, type Plano } from "@/lib/planos";
 import {
   assinarComCartao,
   assinaturaDoUsuario,
@@ -33,8 +33,11 @@ export type ResultadoAssinar = { ok: true; url: string } | { ok: false; erro: st
 const mensalAtiva = async (usuarioId: string) => (await assinaturaDoUsuario(usuarioId))?.status === "authorized";
 
 /** Cria a assinatura no Mercado Pago e devolve o link do checkout. */
+const CARTAO_INDISPONIVEL = "O cartão está indisponível no momento. Pague com Pix, que libera na hora.";
+
 export async function assinar(entrada: unknown = "basico"): Promise<ResultadoAssinar> {
   const usuario = await exigirUsuario();
+  if (!CARTAO_LIGADO) return { ok: false, erro: CARTAO_INDISPONIVEL };
   const plano = planoSchema.safeParse(entrada);
   if (!plano.success) return { ok: false, erro: "Plano inválido." };
   if (await mensalAtiva(usuario.id)) {
@@ -76,6 +79,7 @@ export type ResultadoCartao = { ok: true; ativa: boolean } | { ok: false; erro: 
 /** Checkout transparente: recebe só o token do cartão (gerado pelo formulário do Mercado Pago). */
 export async function assinarCartao(entrada: unknown): Promise<ResultadoCartao> {
   const usuario = await exigirUsuario();
+  if (!CARTAO_LIGADO) return { ok: false, erro: CARTAO_INDISPONIVEL };
   const dados = cartaoSchema.safeParse(entrada);
   if (!dados.success) {
     console.error("[assinatura] dados do cartão recusados:", dados.error.issues.map((i) => i.path.join(".")).join(", "));

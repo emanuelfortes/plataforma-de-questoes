@@ -55,7 +55,7 @@ src/
     (app)/ranking                         Fuzil de questões (mais resolvidas) e Bom de Mira (acerto de primeira, mínimo de 30); o aluno vê só o pódio (nome e colocação) e os próprios números, a lista e os números dos outros só o dono
     (app)/admin                           área do dono (ADMIN_EMAILS), com menu lateral: visão geral, financeiro,
                                           pessoas (cadastrados x assinantes) e questões (prompt de IA e importação)
-    (app)/assinatura                      Basic (R$ 29,90) e o adicional Tropa de Elite (+ R$ 9,90, cobrado junto), Mercado Pago mensal no cartão ou Pix de 30 dias (sem renovação automática, aviso por e-mail antes do fim); Black Friday até 30/11 com preço para sempre (src/lib/planos.ts); cancelar, trocar de plano
+    (app)/assinatura                      Basic (R$ 29,90) e o adicional Tropa de Elite (+ R$ 9,90, cobrado junto), Mercado Pago mensal no cartão (novas assinaturas desligadas por enquanto: `CARTAO_LIGADO` em src/lib/planos.ts) ou Pix de 30 dias (sem renovação automática, aviso por e-mail antes do fim); Black Friday até 30/11 com preço para sempre (src/lib/planos.ts); cancelar, trocar de plano
     (app)/simulados                       Elite: baixar o PDF, dar o play no cronômetro, marcar o gabarito; no ranking do simulado o aluno vê só os 3 primeiros (nome e colocação) e a própria nota, os números dos outros só o dono
     (app)/admin/simulados                 cadastro do simulado (PDF em partes, gabarito oficial, tempo, datas)
     api/simulados/[id]/pdf                PDF do simulado só para Elite (sai do banco em partes)

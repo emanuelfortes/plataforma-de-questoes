@@ -2,7 +2,7 @@ import "server-only";
 import nodemailer from "nodemailer";
 import { linkWhatsapp, whatsappFormatado } from "@/lib/legal";
 import { NOME_PLATAFORMA } from "@/lib/marca";
-import { ADICIONAL_ELITE, ASSINATURA, ELITE, PROMOCAO, formatarReais } from "@/lib/planos";
+import { ADICIONAL_ELITE, ASSINATURA, CARTAO_LIGADO, ELITE, PROMOCAO, formatarReais } from "@/lib/planos";
 
 // Envio de e-mail. Usa o primeiro serviço configurado:
 // 1. Gmail (GMAIL_USUARIO + GMAIL_SENHA_APP): sem domínio próprio, até ~500 e-mails por dia.
@@ -163,7 +163,7 @@ export function emailConfirmarEndereco(nome: string, url: string): Omit<Email, "
 export function emailRenovarPix(nome: string, fim: string, valor: string, url: string): Omit<Email, "para"> {
   const ola = `Olá, ${escapar(nome)}.`;
   const aviso = `Seu acesso pago com Pix vai até ${fim}. Para continuar estudando sem limite, pague o próximo Pix de ${valor}: os 30 dias novos começam quando os atuais acabarem, então renovar antes não perde nenhum dia.`;
-  const rodape = "Se não renovar, sua conta volta para o limite grátis de questões por dia. Prefere não se preocupar? Assine no cartão, que renova sozinho.";
+  const rodape = "Se não renovar, sua conta volta para o limite grátis de questões por dia." + (CARTAO_LIGADO ? " Prefere não se preocupar? Assine no cartão, que renova sozinho." : "");
   return {
     assunto: `Seu acesso vai até ${fim}: renove com Pix`,
     html: modelo("Renove seu acesso", [ola, aviso], { rotulo: "Pagar com Pix", url }, rodape),

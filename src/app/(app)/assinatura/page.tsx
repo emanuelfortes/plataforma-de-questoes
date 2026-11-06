@@ -10,6 +10,7 @@ import {
   ASSINATURA,
   BENEFICIOS_ASSINATURA,
   BENEFICIOS_ELITE,
+  CARTAO_LIGADO,
   DIAS_PIX,
   ELITE,
   formatarReais,
@@ -40,7 +41,7 @@ import {
 
 export const metadata: Metadata = { title: "Assinatura" };
 
-const BENEFICIOS = [...BENEFICIOS_ASSINATURA, "Cancele quando quiser, direto aqui"];
+const BENEFICIOS = [...BENEFICIOS_ASSINATURA, ...(CARTAO_LIGADO ? ["Cancele quando quiser, direto aqui"] : [])];
 
 const dataCurta = (d: Date | null | undefined) => (d ? d.toLocaleDateString("pt-BR", { timeZone: "America/Sao_Paulo" }) : "");
 const fimDaPromocao = PROMOCAO.ate.split("-").reverse().join("/");
@@ -99,7 +100,7 @@ export default async function PaginaAssinatura({
   const liberado = acessoLiberado(a);
   const elite = eliteLiberado(a);
   // Cancelou no cartão mas o mês pago não acabou: só o botão de reativar (sem a vitrine de planos).
-  const reativar = podeReativar(a);
+  const reativar = CARTAO_LIGADO && podeReativar(a);
   const promocao = promocaoAberta();
   const chavePublica = CARTAO_NO_SITE ? process.env.NEXT_PUBLIC_MP_PUBLIC_KEY : undefined;
 
@@ -220,10 +221,16 @@ export default async function PaginaAssinatura({
             />
           ))}
           <p className="text-xs leading-relaxed text-suave">
-            Pagamento seguro pelo Mercado Pago. No cartão de crédito, a cobrança é automática todo mês e você pode
-            cancelar quando quiser; no Pix, cada pagamento vale {DIAS_PIX} dias e não renova sozinho. Você tem 7 dias
-            para desistir com reembolso.
-            {promocao && " Se cancelar e assinar de novo depois da promoção, vale o preço normal."} Veja os{" "}
+            Pagamento seguro pelo Mercado Pago.{" "}
+            {CARTAO_LIGADO
+              ? `No cartão de crédito, a cobrança é automática todo mês e você pode cancelar quando quiser; no Pix, cada pagamento vale ${DIAS_PIX} dias e não renova sozinho.`
+              : `Cada Pix vale ${DIAS_PIX} dias e não renova sozinho: avisamos por e-mail perto do fim.`}{" "}
+            Você tem 7 dias para desistir com reembolso.
+            {promocao &&
+              (CARTAO_LIGADO
+                ? " Se cancelar e assinar de novo depois da promoção, vale o preço normal."
+                : " Depois da promoção, quem ficar mais de 7 dias sem renovar passa para o preço normal.")}{" "}
+            Veja os{" "}
             <Link href="/termos" className="font-bold text-marca-clara hover:underline">
               Termos de uso
             </Link>
@@ -309,7 +316,7 @@ function CartaoPlano({
         ))}
       </ul>
       {/* Com a Public Key, o cartão é digitado aqui (checkout transparente); sem ela, vai para o Mercado Pago. */}
-      {pausaCartao ? (
+      {!CARTAO_LIGADO ? null : pausaCartao ? (
         <p className="rounded-xl border border-erro/40 bg-erro-suave p-4 text-sm leading-relaxed">
           <strong className="text-erro">O Mercado Pago recusou o cartão por segurança.</strong> Tentar de novo agora
           costuma dar a mesma recusa, então o cartão volta às{" "}
@@ -321,9 +328,9 @@ function CartaoPlano({
       ) : (
         <BotaoAssinar rotulo={rotulo} plano={plano} />
       )}
-      <div className="space-y-3 border-t border-borda pt-4">
+      <div className={cn("space-y-3", CARTAO_LIGADO && "border-t border-borda pt-4")}>
         <p className="text-sm text-suave">
-          {renovando ? "Renove com Pix:" : "Prefere Pix?"} {formatarReais(valorPix)} por {DIAS_PIX} dias, sem renovação
+          {renovando ? "Renove com Pix:" : CARTAO_LIGADO ? "Prefere Pix?" : "Pague com Pix:"} {formatarReais(valorPix)} por {DIAS_PIX} dias, sem renovação
           automática.
         </p>
         <PagamentoPix plano={plano} valor={valorPix} rotulo="Pagar com Pix" />

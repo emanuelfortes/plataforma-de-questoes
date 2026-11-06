@@ -32,7 +32,7 @@ Pastas que ficam só neste computador (fora do git; o OneDrive pode sincronizar)
 |---|---|
 | Questões | filtro por matéria, área, status e Opções (nível, tipo, resolução); pastas por crime no Penal; tesourinha; questão errada volta 4 questões depois; comentário em partes (explicação, alternativa por alternativa, letra da lei, pegadinha) |
 | Plano grátis | 5 questões diferentes por dia. Flashcards, desempenho e Vade Mecum com cadeado |
-| Assinatura | Basic R$ 29,90 por mês (Black Friday até 30/11: R$ 24,90 para sempre) e Tropa de Elite + R$ 9,90 com os simulados, no Mercado Pago (cartão digitado no site), conferência diária (cron) |
+| Assinatura | Basic R$ 29,90 por mês (Black Friday até 30/11: R$ 24,90 para sempre) e Tropa de Elite + R$ 9,90 com os simulados, no Mercado Pago: novas assinaturas só no Pix (cartão oculto desde 06/11, `CARTAO_LIGADO`), conferência diária (cron) |
 | Ranking | Fuzil de Questões e Bom de Mira, patentes, pódio, sequência de acertos; chute (menos de 8 s) não pontua |
 | Vade Mecum | 41 leis em leitura guiada, selos de atualização, aviso do STF, "N questões cobram este artigo" |
 | Área do dono | visão geral, financeiro, pessoas, questões (prompt e importação), revisão (IA e reportes), Vade Mecum (explicações) |
@@ -82,7 +82,10 @@ recusado (`motivoDaRecusa` em `src/server/assinatura.ts`).
   os dados do antifraude. Só apagar `NEXT_PUBLIC_MP_PUBLIC_KEY` na Vercel e refazer o deploy não tirou o formulário do site,
   então a escolha ficou na constante `CARTAO_NO_SITE` em `src/app/(app)/assinatura/page.tsx`. Para voltar ao cartão no site:
   `true` nessa constante e a chave de volta na Vercel.
-- [ ] Conferir com um pagamento real que a assinatura fica ativa ao voltar da página do Mercado Pago.
+- **Cartão oculto, 06/11 (decisão do dono):** enquanto as recusas não forem resolvidas, novas assinaturas são só no Pix.
+  `CARTAO_LIGADO = false` em `src/lib/planos.ts` tira o cartão da tela (e o "Reativar", que usa cartão) e o servidor recusa
+  cartão novo. Quem já assina no cartão segue igual: renova, troca de plano e cancela. Para voltar: `true` nessa constante.
+- [ ] Ao religar, conferir com um pagamento real que a assinatura fica ativa ao voltar da página do Mercado Pago.
 - Para medir: as recusas aparecem no painel do Mercado Pago (Atividade) como "Venda por assinatura, Recusado".
 
 ### Conferir na produção (não sei se já foi feito)
