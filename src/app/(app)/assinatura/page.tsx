@@ -45,6 +45,10 @@ const BENEFICIOS = [...BENEFICIOS_ASSINATURA, "Cancele quando quiser, direto aqu
 const dataCurta = (d: Date | null | undefined) => (d ? d.toLocaleDateString("pt-BR", { timeZone: "America/Sao_Paulo" }) : "");
 const fimDaPromocao = PROMOCAO.ate.split("-").reverse().join("/");
 
+// Cartão digitado no nosso site (true) ou na página do Mercado Pago (false). Desligado em 06/11/2026: o antifraude
+// recusava quase todos os cartões digitados aqui (cc_rejected_high_risk; ver docs/ESTADO-ATUAL.md).
+const CARTAO_NO_SITE = false;
+
 // O Mercado Pago devolve o aluno para cá com ?preapproval_id=... depois do checkout.
 export default async function PaginaAssinatura({
   searchParams,
@@ -97,7 +101,7 @@ export default async function PaginaAssinatura({
   // Cancelou no cartão mas o mês pago não acabou: só o botão de reativar (sem a vitrine de planos).
   const reativar = podeReativar(a);
   const promocao = promocaoAberta();
-  const chavePublica = process.env.NEXT_PUBLIC_MP_PUBLIC_KEY;
+  const chavePublica = CARTAO_NO_SITE ? process.env.NEXT_PUBLIC_MP_PUBLIC_KEY : undefined;
 
   return (
     <div className="mx-auto max-w-xl space-y-6">

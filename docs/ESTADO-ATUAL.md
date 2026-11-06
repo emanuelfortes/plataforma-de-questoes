@@ -78,9 +78,11 @@ Levantamento de 06/11: de 02 a 06/11, 17 cartões recusados por esse motivo e 2 
 as 5 recusas de 04 e 06/11 vieram depois dele. O erro da criação da assinatura não traz o motivo; ele é lido do pagamento
 recusado (`motivoDaRecusa` em `src/server/assinatura.ts`).
 
-- [ ] **Plano B, recomendado desde 06/11:** voltar o cartão para o checkout do Mercado Pago
-  (redirecionamento), em que ele mesmo coleta os dados do antifraude. Não precisa de código: apagar
-  `NEXT_PUBLIC_MP_PUBLIC_KEY` na Vercel e fazer um novo deploy. Para voltar ao cartão no site, recolocar a chave.
+- **Plano B, ligado em 06/11:** o cartão voltou para a página do Mercado Pago (redirecionamento), em que ele mesmo coleta
+  os dados do antifraude. Só apagar `NEXT_PUBLIC_MP_PUBLIC_KEY` na Vercel e refazer o deploy não tirou o formulário do site,
+  então a escolha ficou na constante `CARTAO_NO_SITE` em `src/app/(app)/assinatura/page.tsx`. Para voltar ao cartão no site:
+  `true` nessa constante e a chave de volta na Vercel.
+- [ ] Conferir com um pagamento real que a assinatura fica ativa ao voltar da página do Mercado Pago.
 - Para medir: as recusas aparecem no painel do Mercado Pago (Atividade) como "Venda por assinatura, Recusado".
 
 ### Conferir na produção (não sei se já foi feito)
