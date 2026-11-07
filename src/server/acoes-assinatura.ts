@@ -95,7 +95,11 @@ export async function assinarCartao(entrada: unknown): Promise<ResultadoCartao> 
     return { ok: true, ativa: status === "authorized" };
   } catch (erro) {
     const detalhe = await motivoDaRecusa(usuario.id).catch(() => null);
-    console.error(`[assinatura] cartão recusado ou falha (${detalhe ?? "sem motivo"}):`, erro);
+    // Código do aparelho junto ou não: o Mercado Pago pergunta isso ao investigar recusas por risco.
+    console.error(
+      `[assinatura] cartão recusado ou falha (${detalhe ?? "sem motivo"}; código do aparelho: ${dados.data.dispositivo ? "enviado" : "ausente"}):`,
+      erro,
+    );
     if (detalhe === "cc_rejected_high_risk") {
       const fim = Date.now() + PAUSA_CARTAO_MINUTOS * 60 * 1000;
       (await cookies()).set(COOKIE_PAUSA_CARTAO, String(fim), { httpOnly: true, sameSite: "lax", secure: true, maxAge: PAUSA_CARTAO_MINUTOS * 60, path: "/" });

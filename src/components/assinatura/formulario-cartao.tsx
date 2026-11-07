@@ -37,6 +37,16 @@ function carregarSeguranca() {
   document.head.appendChild(script);
 }
 
+/**
+ * Espera o security.js preencher o código do aparelho (leva alguns segundos depois de abrir a tela). Sem ele o
+ * antifraude dá nota de risco mais alta; quem preenche o cartão rápido mandava o pagamento antes do código ficar pronto.
+ */
+async function esperarDispositivo(limiteMs = 10_000) {
+  const fim = Date.now() + limiteMs;
+  while (!window.MP_DEVICE_SESSION_ID && Date.now() < fim) await new Promise((r) => setTimeout(r, 250));
+  return window.MP_DEVICE_SESSION_ID || undefined;
+}
+
 function carregarSdk() {
   if (window.MercadoPago) return Promise.resolve();
   return new Promise<void>((resolver, rejeitar) => {
@@ -101,7 +111,7 @@ export function FormularioCartao({
                 token: dados.token,
                 email: dados.payer?.email || email,
                 plano,
-                dispositivo: window.MP_DEVICE_SESSION_ID || undefined,
+                dispositivo: await esperarDispositivo(),
               });
               if (!r.ok) {
                 setErro(r.erro);
