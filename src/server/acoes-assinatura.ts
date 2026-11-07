@@ -66,12 +66,15 @@ const cartaoSchema = z.object({
 function motivoRecusa(erro: unknown, detalhe: string | null) {
   const texto = `${JSON.stringify(erro ?? "")} ${detalhe ?? ""}`.toLowerCase();
   // Antifraude do Mercado Pago (cc_rejected_high_risk): outro cartão costuma cair no mesmo; o Pix passa.
-  if (texto.includes("high_risk")) return "O Mercado Pago recusou este pagamento por segurança. Assine pelo Pix, que libera na hora.";
+  // O Mercado Pago orienta: muitos bancos bloqueiam cobrança recorrente até o cliente liberar no app do banco.
+  if (texto.includes("high_risk")) {
+    return "O pagamento foi recusado por segurança. Seu banco pode estar bloqueando assinaturas: libere compras recorrentes (ou online) no app do banco e tente de novo, ou assine pelo Pix, que libera na hora.";
+  }
   if (texto.includes("insufficient") || texto.includes("saldo")) return "O cartão não tem limite suficiente.";
   if (texto.includes("security_code") || texto.includes("cvv")) return "O código de segurança (CVV) não confere.";
   if (texto.includes("expir")) return "O cartão está vencido ou a data de validade está errada.";
   if (texto.includes("payer_email") || texto.includes("email")) return "Confira o e-mail informado no pagamento.";
-  return "O pagamento foi recusado. Confira os dados do cartão ou tente outro cartão.";
+  return "O pagamento foi recusado. Confira os dados do cartão, libere compras recorrentes no app do seu banco ou assine pelo Pix.";
 }
 
 export type ResultadoCartao = { ok: true; ativa: boolean } | { ok: false; erro: string };

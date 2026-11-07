@@ -85,7 +85,10 @@ recusado (`motivoDaRecusa` em `src/server/assinatura.ts`).
 - **Cartão oculto, 06/11 (decisão do dono):** enquanto as recusas não forem resolvidas, novas assinaturas são só no Pix.
   `CARTAO_LIGADO = false` em `src/lib/planos.ts` tira o cartão da tela (e o "Reativar", que usa cartão) e o servidor recusa
   cartão novo. Quem já assina no cartão segue igual: renova, troca de plano e cancela. Para voltar: `true` nessa constante.
-- [ ] Ao religar, conferir com um pagamento real que a assinatura fica ativa ao voltar da página do Mercado Pago.
+- **Cartão religado em 07/11, no formulário do site** (`CARTAO_LIGADO` e `CARTAO_NO_SITE` em true), depois do atendimento
+  no Mercado Pago (caso 494096665): o formulário agora espera o código do aparelho antes de pagar e o log de cada recusa diz
+  se ele foi enviado. A mensagem de recusa orienta liberar compras recorrentes no app do banco ou pagar no Pix.
+- [ ] Acompanhar as próximas tentativas (Atividade no Mercado Pago e logs da Vercel: "código do aparelho: enviado").
 - Para medir: as recusas aparecem no painel do Mercado Pago (Atividade) como "Venda por assinatura, Recusado".
 
 ### Conferir na produção (não sei se já foi feito)

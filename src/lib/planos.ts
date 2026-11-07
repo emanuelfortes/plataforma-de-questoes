@@ -22,7 +22,7 @@ export const ELITE = {
  * Novas assinaturas no cartão. Desligado em 06/11/2026 (recusas do antifraude, ver docs/ESTADO-ATUAL.md): só o Pix
  * aparece e o servidor recusa cartão novo. Quem já assina no cartão segue igual. Para voltar, troque para true.
  */
-export const CARTAO_LIGADO = false;
+export const CARTAO_LIGADO = true;
 
 export type Plano = "basico" | "elite";
 export const PLANOS = { basico: ASSINATURA, elite: ELITE } as const;

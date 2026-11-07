@@ -48,7 +48,7 @@ const fimDaPromocao = PROMOCAO.ate.split("-").reverse().join("/");
 
 // Cartão digitado no nosso site (true) ou na página do Mercado Pago (false). Desligado em 06/11/2026: o antifraude
 // recusava quase todos os cartões digitados aqui (cc_rejected_high_risk; ver docs/ESTADO-ATUAL.md).
-const CARTAO_NO_SITE = false;
+const CARTAO_NO_SITE = true;
 
 // O Mercado Pago devolve o aluno para cá com ?preapproval_id=... depois do checkout.
 export default async function PaginaAssinatura({
