@@ -47,6 +47,14 @@ async function esperarDispositivo(limiteMs = 10_000) {
   return window.MP_DEVICE_SESSION_ID || undefined;
 }
 
+/**
+ * Navegador interno de app (Instagram, Facebook, WhatsApp, TikTok...): o link aberto dentro do app. Nele o security.js
+ * costuma não identificar o aparelho e o antifraude recusa o cartão; no Chrome ou no Safari passa.
+ */
+function navegadorDeApp() {
+  return /Instagram|FBAN|FBAV|FB_IAB|FBIOS|WhatsApp|TikTok|musical_ly|BytedanceWebview|Line\/|Snapchat|Twitter/i.test(navigator.userAgent);
+}
+
 function carregarSdk() {
   if (window.MercadoPago) return Promise.resolve();
   return new Promise<void>((resolver, rejeitar) => {
@@ -84,9 +92,12 @@ export function FormularioCartao({
   const [pronto, setPronto] = useState(false);
   const [erro, setErro] = useState<string | null>(null);
   const [sucesso, setSucesso] = useState<null | "ativa" | "aguardando">(null);
+  // Só depois de montar (no servidor não há navigator).
+  const [dentroDeApp, setDentroDeApp] = useState(false);
   const controle = useRef<ControleBrick | null>(null);
 
   useEffect(carregarSeguranca, []);
+  useEffect(() => setDentroDeApp(navegadorDeApp()), []);
 
   useEffect(() => {
     if (!aberto) return;
@@ -146,11 +157,22 @@ export function FormularioCartao({
     );
   }
 
+  const avisoApp = dentroDeApp && (
+    <p className="rounded-xl border border-destaque/40 bg-destaque-suave p-3 text-sm leading-relaxed">
+      <strong className="text-destaque">Você abriu o site dentro de um app.</strong> Para pagar no cartão, abra no Chrome ou no
+      Safari (toque nos três pontinhos e em &quot;Abrir no navegador&quot;): aqui o banco costuma recusar. Ou pague com Pix logo
+      abaixo, que libera na hora.
+    </p>
+  );
+
   if (!aberto) {
     return (
-      <Button tamanho="grande" className="w-full shadow-lg shadow-marca/30 sm:w-auto sm:px-10" onClick={() => setAberto(true)}>
-        {rotulo}
-      </Button>
+      <div className="space-y-3">
+        {avisoApp}
+        <Button tamanho="grande" className="w-full shadow-lg shadow-marca/30 sm:w-auto sm:px-10" onClick={() => setAberto(true)}>
+          {rotulo}
+        </Button>
+      </div>
     );
   }
 

@@ -3,7 +3,7 @@
 // Ações da assinatura do aluno. Começam com exigirUsuario(); o aluno só mexe na própria assinatura.
 import { and, eq } from "drizzle-orm";
 import { revalidatePath } from "next/cache";
-import { cookies } from "next/headers";
+import { cookies, headers } from "next/headers";
 import { z } from "zod";
 import { db } from "@/db";
 import { assinaturas } from "@/db/schema";
@@ -77,6 +77,15 @@ function motivoRecusa(erro: unknown, detalhe: string | null) {
   return "O pagamento foi recusado. Confira os dados do cartão, libere compras recorrentes no app do seu banco ou assine pelo Pix.";
 }
 
+/** Celular ou computador e navegador (app ou não), para o log das recusas. */
+async function aparelho() {
+  const ua = (await headers()).get("user-agent") ?? "";
+  const tipo = /Mobi|Android|iPhone|iPad/i.test(ua) ? "celular" : "computador";
+  const app = ua.match(/Instagram|FBAN|FBAV|FB_IAB|WhatsApp|TikTok|BytedanceWebview|Line\/|Snapchat|Twitter/i)?.[0];
+  const navegador = app ? `app ${app}` : (ua.match(/Edg|OPR|SamsungBrowser|Firefox|CriOS|Chrome|Safari/)?.[0] ?? "outro");
+  return `${tipo}, ${navegador}`;
+}
+
 export type ResultadoCartao = { ok: true; ativa: boolean } | { ok: false; erro: string };
 
 /** Checkout transparente: recebe só o token do cartão (gerado pelo formulário do Mercado Pago). */
@@ -100,7 +109,7 @@ export async function assinarCartao(entrada: unknown): Promise<ResultadoCartao> 
     const detalhe = await motivoDaRecusa(usuario.id).catch(() => null);
     // Código do aparelho junto ou não: o Mercado Pago pergunta isso ao investigar recusas por risco.
     console.error(
-      `[assinatura] cartão recusado ou falha (${detalhe ?? "sem motivo"}; código do aparelho: ${dados.data.dispositivo ? "enviado" : "ausente"}):`,
+      `[assinatura] cartão recusado ou falha (${detalhe ?? "sem motivo"}; código do aparelho: ${dados.data.dispositivo ? "enviado" : "ausente"}; ${await aparelho()}):`,
       erro,
     );
     if (detalhe === "cc_rejected_high_risk") {
