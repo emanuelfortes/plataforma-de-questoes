@@ -88,6 +88,8 @@ recusado (`motivoDaRecusa` em `src/server/assinatura.ts`).
 - **Cartão religado em 07/11, no formulário do site** (`CARTAO_LIGADO` e `CARTAO_NO_SITE` em true), depois do atendimento
   no Mercado Pago (caso 494096665): o formulário agora espera o código do aparelho antes de pagar e o log de cada recusa diz
   se ele foi enviado. A mensagem de recusa orienta liberar compras recorrentes no app do banco ou pagar no Pix.
+- Chamado aberto em 07/11 com o suporte de developers do Mercado Pago (Subscriptions; número WCS-XXXXX chega por e-mail)
+  para confirmar se o device_id chegou em 187119807785 e 187045479127 e o motivo real da recusa (antifraude ou emissor).
 - [ ] Acompanhar as próximas tentativas (Atividade no Mercado Pago e logs da Vercel: "código do aparelho: enviado").
 - Para medir: as recusas aparecem no painel do Mercado Pago (Atividade) como "Venda por assinatura, Recusado".
 
