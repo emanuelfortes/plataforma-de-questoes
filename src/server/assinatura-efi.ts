@@ -199,7 +199,8 @@ export async function sincronizarAssinaturaCartaoEfi(subscriptionId: string) {
 
   // Acesso pago até a próxima cobrança (mais 2 dias para a cobrança do dia cair). Fora de "authorized", mantém o que já era.
   const proxima = dataEfi(s.next_execution);
-  let acessoAte = status === "authorized" && proxima ? new Date(proxima.getTime() + 2 * DIA) : (nossa?.acessoAte ?? (proxima ? new Date(proxima.getTime() + 2 * DIA) : null));
+  // Só a assinatura ativa ganha acesso novo; pendente, pausada ou cancelada mantém só o que já estava pago (ou nada).
+  let acessoAte = status === "authorized" && proxima ? new Date(proxima.getTime() + 2 * DIA) : (nossa?.acessoAte ?? null);
   // Cancelada com a última cobrança estornada ou contestada (arrependimento, chargeback): o acesso acaba agora.
   const ultimaStatus = ultima ? statusDaCobranca(ultima.status) : null;
   if (status === "cancelled" && (ultimaStatus === "refunded" || ultimaStatus === "charged_back")) {
