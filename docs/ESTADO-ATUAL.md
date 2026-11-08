@@ -74,10 +74,14 @@ Por causa das recusas no cartão (abaixo), os pagamentos novos passam para a Ef�
 cartão. Quem já assina no Mercado Pago continua lá. Código pronto; falta o dono configurar a conta e testar.
 Passo a passo completo em `docs/EFI.md`.
 
-- [ ] Criar a aplicação na Efí, gerar os certificados e preencher as variáveis `EFI_*` (homologação primeiro).
-- [ ] Testar em homologação: Pix, cartão, cancelar, trocar de plano.
-- [ ] Produção: variáveis na Vercel, deploy e `scripts/efi/configurar.ts --aplicar` (aviso de Pix).
-- [ ] Primeiro Pix e primeiro cartão de verdade; conferir em `/admin/financeiro`.
+- [x] Aplicação "Qprova" na Efí (conta PF do Riccardo), certificado de produção, variáveis `EFI_*` no `.env.local` e na Vercel (08/11). Foi direto para produção, sem homologação.
+- [x] Aviso de Pix cadastrado na chave (`scripts/efi/configurar.ts --aplicar`).
+- [x] Primeiro cartão de verdade (08/11): R$ 24,90 pago, assinatura `efi:1583057` cancelada em seguida pelo dono. Cancelar funciona.
+- [ ] Estornar essa cobrança de teste no painel da Efí e conferir que o acesso da conta de teste acaba.
+- [ ] Testar "Incluir a Tropa de Elite" numa assinatura ativa no cartão (a Efí pode não aceitar mudar o valor).
+- [ ] Primeiro Pix de verdade pela Efí.
+
+Detalhe: o `custom_id` da Efí só aceita letras, números, `_`, `-` e espaço (por isso `nobrega-questoes_<id>`, e não `:`).
 
 ### Cartão recusado pelo antifraude (desde 03/11/2026)
 
