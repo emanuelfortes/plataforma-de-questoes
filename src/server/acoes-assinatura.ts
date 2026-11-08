@@ -150,6 +150,11 @@ const cartaoEfiSchema = z.object({
 
 /** Mensagem da Efí para o aluno (em português simples). */
 function motivoRecusaEfi(erro: unknown) {
+  if (erro instanceof CartaoRecusadoEfi && erro.antifraude) {
+    // "AF - Transação não autorizada": análise de segurança da Efí, não o banco. Costuma vir de várias tentativas
+    // seguidas com o mesmo cartão ou do navegador bloqueando a verificação do aparelho (Safari).
+    return "O pagamento não passou na análise de segurança da Efí (não foi o seu banco). Evite tentar várias vezes seguidas com o mesmo cartão: tente mais tarde, de preferência pelo Chrome, ou assine pelo Pix, que libera na hora.";
+  }
   if (erro instanceof CartaoRecusadoEfi) {
     return "O banco recusou o pagamento. Confira os dados do cartão, veja se ele tem limite e se compras online estão liberadas no app do banco, ou assine pelo Pix, que libera na hora.";
   }
@@ -202,7 +207,7 @@ export async function assinarCartaoEfi(entrada: unknown): Promise<ResultadoCarta
     return { ok: true, ativa: status === "authorized" };
   } catch (erro) {
     console.error(
-      `[efi] cartão recusado ou falha (${erro instanceof ErroEfi ? textoDoErroEfi(erro) : erro instanceof CartaoRecusadoEfi ? "1ª cobrança recusada" : "erro"}; antifraude ${d.antifraudeBloqueado ? "BLOQUEADO" : "ok"}; ${await aparelho()}):`,
+      `[efi] cartão recusado ou falha (${erro instanceof ErroEfi ? textoDoErroEfi(erro) : erro instanceof CartaoRecusadoEfi ? `1ª cobrança recusada: ${erro.motivo ?? "sem motivo"}` : "erro"}; antifraude ${d.antifraudeBloqueado ? "BLOQUEADO" : "ok"}; ${await aparelho()}):`,
       erro,
     );
     revalidatePath("/assinatura");

@@ -234,7 +234,28 @@ export async function sincronizarAssinaturaCartaoEfi(subscriptionId: string) {
   return { usuarioId, status, ultimaCobranca: ultima ? statusDaCobranca(ultima.status) : null };
 }
 
-export class CartaoRecusadoEfi extends Error {}
+/** Primeira cobrança recusada. `motivo` é a última mensagem do histórico da cobrança na Efí ("AF - ..." = antifraude). */
+export class CartaoRecusadoEfi extends Error {
+  constructor(readonly motivo: string | null) {
+    super(`Primeira cobrança recusada${motivo ? `: ${motivo}` : ""}`);
+  }
+  get antifraude() {
+    return !!this.motivo && /\bAF\b|antifraude|risco/i.test(this.motivo);
+  }
+}
+
+/** Última mensagem do histórico da cobrança (o motivo da recusa). */
+async function motivoDaCobranca(chargeId: number | undefined) {
+  if (!chargeId) return null;
+  try {
+    const c = (await consultarCobrancaEfi(chargeId)) as CobrancaEfiComHistorico;
+    return c.history?.at(-1)?.message ?? null;
+  } catch {
+    return null;
+  }
+}
+
+type CobrancaEfiComHistorico = { history?: { message: string; created_at: string }[] };
 
 /**
  * Cria a assinatura no cartão (token gerado no navegador pelo payment-token-efi). Quem ainda tem acesso pago
@@ -263,9 +284,11 @@ export async function assinarComCartaoEfi(
   const situacao = await sincronizarAssinaturaCartaoEfi(id);
   const recusada = r.charge?.status === "unpaid" || situacao?.ultimaCobranca === "rejected";
   if (recusada) {
+    const chargeId = r.charge?.id ?? (await consultarAssinaturaEfi(id).catch(() => null))?.history?.at(-1)?.charge_id;
+    const motivo = await motivoDaCobranca(chargeId);
     await cancelarAssinaturaEfi(id).catch((erro) => console.error("[efi] falha ao cancelar assinatura recusada:", erro));
     await sincronizarAssinaturaCartaoEfi(id).catch(() => null);
-    throw new CartaoRecusadoEfi("Primeira cobrança recusada.");
+    throw new CartaoRecusadoEfi(motivo);
   }
   return situacao?.status ?? "pending";
 }
