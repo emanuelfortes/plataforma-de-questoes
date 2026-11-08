@@ -70,7 +70,7 @@ export default async function PaginaFinanceiro({ searchParams }: { searchParams:
     <>
       <CabecalhoPagina
         titulo="Financeiro"
-        subtitulo={`Só o dinheiro desta plataforma (referência "${PREFIXO_REFERENCIA}" no Mercado Pago), separado do LexCursos. Valores brutos, antes das taxas.`}
+        subtitulo={`Só o dinheiro desta plataforma (Efí e, das assinaturas antigas, o Mercado Pago com a referência "${PREFIXO_REFERENCIA}"), separado do LexCursos. Valores brutos, antes das taxas.`}
       />
 
       <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
@@ -175,7 +175,10 @@ export default async function PaginaFinanceiro({ searchParams }: { searchParams:
                       </td>
                       <td className="px-3">
                         <Selo tom={s.tom}>{s.rotulo}</Selo>
-                        <span className="ml-2 text-xs text-suave">{p.assinaturaId.startsWith("pix:") ? "Pix" : "Cartão"}</span>
+                        <span className="ml-2 text-xs text-suave">
+                          {p.assinaturaId.startsWith("pix:") ? "Pix" : "Cartão"}
+                          {p.assinaturaId.startsWith("pix:efi:") || p.assinaturaId.startsWith("efi:") ? " (Efí)" : " (MP)"}
+                        </span>
                       </td>
                       <td className="px-3 text-right tabular-nums sm:pr-5">{reais(p.valorCentavos)}</td>
                     </tr>

@@ -79,7 +79,8 @@ export default function PaginaTermos() {
           valor. Se cancelar e assinar de novo depois do prazo, vale o preço normal.
         </li>
         <li>
-          O pagamento é processado pelo Mercado Pago. No cartão de crédito, <strong>renova sozinho todo mês</strong>{" "}
+          O pagamento é processado pela Efí (as assinaturas feitas antes dela seguem no Mercado Pago). No cartão de
+          crédito, <strong>renova sozinho todo mês</strong>{" "}
           até você cancelar. Não recebemos nem guardamos os dados do seu cartão.
         </li>
         <li>
@@ -97,8 +98,8 @@ export default function PaginaTermos() {
         </li>
         <li>Se o preço mudar, avisaremos antes; a mudança só vale para as cobranças seguintes ao aviso.</li>
         <li>
-          Se uma cobrança for recusada, o Mercado Pago tenta de novo nos dias seguintes; sem pagamento, o acesso
-          volta ao plano grátis.
+          Se uma cobrança mensal for recusada, o acesso vai só até o fim do período já pago e depois volta ao plano
+          grátis, até o pagamento ser regularizado.
         </li>
       </ul>
 

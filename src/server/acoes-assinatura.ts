@@ -21,9 +21,12 @@ import {
   mudarPlano,
   PAUSA_CARTAO_MINUTOS,
   pausaDoCartao,
-  sincronizarPix,
+  sincronizarPixPorId,
   type DadosPix,
 } from "./assinatura";
+import { assinarComCartaoEfi, CartaoRecusadoEfi } from "./assinatura-efi";
+import { efiCartaoAtivo, ErroEfi, textoDoErroEfi } from "./efi";
+import { cepValido, cpfValido, soDigitos, telefoneValido, UFS } from "@/lib/documentos";
 
 const planoSchema = z.enum(["basico", "elite"]);
 
@@ -122,6 +125,74 @@ export async function assinarCartao(entrada: unknown): Promise<ResultadoCartao> 
   }
 }
 
+// ---------- Cartão na Efí ----------
+
+const texto = (max: number) => z.string().trim().min(1).max(max);
+
+const cartaoEfiSchema = z.object({
+  /** payment_token gerado no navegador pelo payment-token-efi (o número do cartão nunca chega aqui). */
+  token: z.string().min(8).max(500),
+  plano: planoSchema,
+  nome: texto(100).refine((n) => n.split(/\s+/).length >= 2, "Nome e sobrenome"),
+  cpf: z.string().refine(cpfValido, "CPF inválido").transform(soDigitos),
+  nascimento: z.iso.date(),
+  celular: z.string().refine(telefoneValido, "Celular inválido").transform(soDigitos),
+  cep: z.string().refine(cepValido, "CEP inválido").transform(soDigitos),
+  rua: texto(200),
+  numero: texto(55),
+  bairro: texto(100),
+  cidade: texto(100),
+  uf: z.enum(UFS),
+  complemento: z.string().trim().max(55).optional(),
+});
+
+/** Mensagem da Efí para o aluno (em português simples). */
+function motivoRecusaEfi(erro: unknown) {
+  if (erro instanceof CartaoRecusadoEfi) {
+    return "O banco recusou o pagamento. Confira os dados do cartão, veja se ele tem limite e se compras online estão liberadas no app do banco, ou assine pelo Pix, que libera na hora.";
+  }
+  const t = textoDoErroEfi(erro).toLowerCase();
+  if (t.includes("birth") || t.includes("nascimento")) return "Confira a data de nascimento.";
+  if (t.includes("cpf")) return "Confira o CPF do titular do cartão.";
+  if (t.includes("phone")) return "Confira o celular com DDD.";
+  if (t.includes("zipcode") || t.includes("cep") || t.includes("billing_address")) return "Confira o endereço de cobrança.";
+  if (t.includes("payment_token") || t.includes("token")) return "Os dados do cartão expiraram. Confira e tente de novo.";
+  return "Não foi possível concluir o pagamento. Confira os dados ou assine pelo Pix, que libera na hora.";
+}
+
+/** Assinatura mensal no cartão pela Efí. Recebe só o token do cartão e os dados do titular. */
+export async function assinarCartaoEfi(entrada: unknown): Promise<ResultadoCartao> {
+  const usuario = await exigirUsuario();
+  if (!CARTAO_LIGADO || !efiCartaoAtivo()) return { ok: false, erro: CARTAO_INDISPONIVEL };
+  const dados = cartaoEfiSchema.safeParse(entrada);
+  if (!dados.success) {
+    const primeiro = dados.error.issues[0];
+    return { ok: false, erro: primeiro?.message && !primeiro.message.startsWith("Invalid") ? primeiro.message : "Confira os dados do formulário." };
+  }
+  if (await mensalAtiva(usuario.id)) return { ok: false, erro: "Sua assinatura já está ativa." };
+  const d = dados.data;
+  try {
+    const status = await assinarComCartaoEfi(
+      usuario.id,
+      {
+        token: d.token,
+        cliente: { name: d.nome, cpf: d.cpf, email: usuario.email, phone_number: d.celular, birth: d.nascimento },
+        endereco: { street: d.rua, number: d.numero, neighborhood: d.bairro, zipcode: d.cep, city: d.cidade, state: d.uf, complement: d.complemento },
+      },
+      d.plano,
+    );
+    revalidatePath("/assinatura");
+    return { ok: true, ativa: status === "authorized" };
+  } catch (erro) {
+    console.error(
+      `[efi] cartão recusado ou falha (${erro instanceof ErroEfi ? textoDoErroEfi(erro) : erro instanceof CartaoRecusadoEfi ? "1ª cobrança recusada" : "erro"}; ${await aparelho()}):`,
+      erro,
+    );
+    revalidatePath("/assinatura");
+    return { ok: false, erro: motivoRecusaEfi(erro) };
+  }
+}
+
 export async function cancelar():Promise<{ ok: boolean; erro?: string }> {
   const usuario = await exigirUsuario();
   const a = await assinaturaDoUsuario(usuario.id);
@@ -172,18 +243,19 @@ export async function pagarComPix(entrada: unknown): Promise<ResultadoPix> {
 /** A tela pergunta de tempos em tempos se o Pix já foi pago (só o Pix do próprio aluno). */
 export async function conferirPix(entrada: unknown): Promise<{ pago: boolean; status: string }> {
   const usuario = await exigirUsuario();
-  const id = z.string().regex(/^\d{1,20}$/).safeParse(entrada);
+  // "pix:<id do Mercado Pago>" ou "pix:efi:<txid>".
+  const id = z.string().regex(/^pix:(\d{1,20}|efi:[a-zA-Z0-9]{26,35})$/).safeParse(entrada);
   if (!id.success) return { pago: false, status: "invalido" };
   const [a] = await db
     .select({ id: assinaturas.id })
     .from(assinaturas)
-    .where(and(eq(assinaturas.id, `pix:${id.data}`), eq(assinaturas.usuarioId, usuario.id)))
+    .where(and(eq(assinaturas.id, id.data), eq(assinaturas.usuarioId, usuario.id)))
     .limit(1);
   if (!a || !ehPix(a.id)) return { pago: false, status: "invalido" };
   try {
-    const p = await sincronizarPix(id.data);
-    if (p.status === "approved") revalidatePath("/assinatura");
-    return { pago: p.status === "approved", status: p.status ?? "pending" };
+    const status = await sincronizarPixPorId(a.id);
+    if (status === "approved") revalidatePath("/assinatura");
+    return { pago: status === "approved", status };
   } catch (erro) {
     console.error("[pix] falha ao conferir:", erro);
     return { pago: false, status: "pending" };

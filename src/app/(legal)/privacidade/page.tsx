@@ -39,11 +39,16 @@ export default function PaginaPrivacidade() {
       <ul>
         <li>
           <strong>Assinatura:</strong> se você assinar, guardamos a situação da assinatura (ativa ou cancelada), o
-          valor, as datas e o resultado de cada cobrança. Os dados do cartão são digitados direto no Mercado Pago:
-          nunca passam por nós.
+          valor, as datas e o resultado de cada cobrança. Os dados do cartão são criptografados no seu aparelho pela
+          empresa de pagamento: o número do cartão nunca passa por nós.
+        </li>
+        <li>
+          <strong>Pagamento no cartão:</strong> o nome, o CPF, a data de nascimento, o celular e o endereço de cobrança do
+          titular, exigidos pela Efí para a cobrança, passam pelo nosso servidor só para serem enviados a ela. Não
+          guardamos esses dados.
         </li>
       </ul>
-      <p>Não coletamos documentos, endereço, telefone, números de cartão nem dados sensíveis.</p>
+      <p>Fora isso, não coletamos documentos, endereço, telefone, números de cartão nem dados sensíveis.</p>
 
       <h2>3. Para que usamos</h2>
       <ul>
@@ -82,8 +87,12 @@ export default function PaginaPrivacidade() {
           <strong>Turso:</strong> banco de dados onde ficam sua conta e seu histórico, em servidores em São Paulo.
         </li>
         <li>
-          <strong>Mercado Pago:</strong> processa o pagamento da assinatura. Recebe seu e-mail e os dados do cartão
-          que você informar na página dele.
+          <strong>Efí (Efí S.A. Instituição de Pagamento):</strong> processa os pagamentos novos no Pix e no cartão.
+          Recebe seu e-mail, o Pix pago e, no cartão, os dados do titular e do cartão.
+        </li>
+        <li>
+          <strong>Mercado Pago:</strong> processa as assinaturas feitas antes da Efí. Recebe seu e-mail e os dados do
+          cartão que você informou nele.
         </li>
         <li>
           <strong>Serviço de envio de e-mail:</strong> recebe apenas seu nome e e-mail para entregar as mensagens do

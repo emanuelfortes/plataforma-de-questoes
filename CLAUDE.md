@@ -60,7 +60,8 @@ src/
     (app)/admin/simulados                 cadastro do simulado (PDF em partes, gabarito oficial, tempo, datas)
     api/simulados/[id]/pdf                PDF do simulado só para Elite (sai do banco em partes)
     (app)/admin/revisao                   fila de revisão: questões e flashcards de IA e itens reportados por alunos
-    api/mercadopago/webhook               avisos do Mercado Pago (assinatura e cobranças), opcional
+    api/efi/pix, api/efi/cobrancas        avisos da Efí (Pix pago e cobranças do cartão), com segredo na URL (docs/EFI.md)
+    api/mercadopago/webhook               avisos do Mercado Pago (assinaturas antigas e cobranças), opcional
     api/cron/assinaturas                  conferência diária no Mercado Pago (vercel.json, CRON_SECRET)
     api/auth/[...all]                     rotas do Better Auth
   components/                             UI (ui/ são primitivos genéricos; admin/kit.tsx são os blocos do painel do dono)
@@ -103,7 +104,7 @@ src/db/aprovacao.ts                       aprovar, rejeitar e reportar erro (tel
 - `questoes_revisao`: questões geradas por IA aguardando revisão (status pendente_revisao, aprovada, rejeitada). Fora de `questoes` até a aprovação em /admin/revisao.
   A aprovada leva o mesmo `codigo` para `questoes`, com `origem = 'ia'`, `topico_taxonomia`, `subtopico` e `lei_referencia` (nulos nas importadas por arquivo; índice `questoes_origem_topico`).
 - `simulados`, `simulado_arquivo` (o PDF em pedaços de 3 MB), `simulado_tentativas` (uma por aluno: marcações salvas durante a prova, acertos e tempo). O gabarito oficial só vai para o aluno depois da entrega.
-- `assinaturas`, `pagamentos`: assinatura mensal e cada cobrança do Mercado Pago (fonte do faturamento). Elite (Tropa de Elite) = mensal com valor de Elite (`valorEhElite`, `eliteLiberado`): todo valor de Elite, promocional ou não, fica acima de todo valor do Basic. Pix: linha com id `pix:<pagamento>` e o status do pagamento, acesso de 30 dias a partir do fim do acesso atual; referência `nobrega-questoes-pix:`. Só de quem tem `external_reference` com o prefixo `nobrega-questoes:` (`src/lib/planos.ts`), para separar de outros produtos na mesma conta.
+- `assinaturas`, `pagamentos`: assinatura mensal e cada cobrança, da Efí ou do Mercado Pago (fonte do faturamento). Efí: id `pix:efi:<txid>` (Pix) e `efi:<subscription_id>` (cartão), status gravados no mesmo vocabulário do Mercado Pago. Elite (Tropa de Elite) = mensal com valor de Elite (`valorEhElite`, `eliteLiberado`): todo valor de Elite, promocional ou não, fica acima de todo valor do Basic. Pix: linha com id `pix:<pagamento>` e o status do pagamento, acesso de 30 dias a partir do fim do acesso atual; referência `nobrega-questoes-pix:`. Só de quem tem `external_reference` com o prefixo `nobrega-questoes:` (`src/lib/planos.ts`), para separar de outros produtos na mesma conta.
 - `monitores`: monitor tem tudo liberado como aluno (inclusive a Tropa de Elite), sem pagar e sem a área do dono. O dono marca em /admin/pessoas; o acesso passa por `liberadoSemPagar` em `src/server/assinatura.ts`. Monitor não conta como aluno nos cadastros nem na conversão.
 - `user`, `session`, `account`, `verification`: Better Auth. Não renomeie colunas.
 
@@ -117,7 +118,7 @@ src/db/aprovacao.ts                       aprovar, rejeitar e reportar erro (tel
 6. **Importação em lote:** inserts de 500 linhas, `onConflictDoNothing` pelo `codigo`. Um item do JSONL deve gerar uma escrita (por isso alternativas ficam em JSON).
 7. **Separação servidor e cliente:** arquivos em `src/server/` importam `server-only` (exceto `acoes.ts`, que é `"use server"`). Constantes e tipos usados nos dois lados ficam em `src/lib/`.
 8. **Mudou o formato do JSONL?** Atualize juntos `src/lib/formato-jsonl.ts`, `src/db/importacao.ts`, `src/lib/prompt-ia.ts`, `docs/FORMATO-QUESTOES.md`, `docs/PROMPT-GERAR-QUESTOES.md` e `scripts/gerar-exemplo.ts`.
-11. **Pagamentos:** nunca confie no conteúdo do aviso (webhook) nem em parâmetros da URL: pegue só o id e busque o recurso na API do Mercado Pago (`src/server/assinatura.ts`). Sem `MP_ACCESS_TOKEN` a cobrança fica desligada (sem limite diário).
+11. **Pagamentos:** nunca confie no conteúdo do aviso (webhook) nem em parâmetros da URL: pegue só o id e busque o recurso na API (Efí em `src/server/assinatura-efi.ts`, Mercado Pago em `src/server/assinatura.ts`). Pagamentos novos vão para a Efí quando ela está configurada; o Mercado Pago fica com as assinaturas antigas (`docs/EFI.md`). Sem `MP_ACCESS_TOKEN` e sem a Efí a cobrança fica desligada (sem limite diário).
 10. **Área do dono:** páginas e ações de `/admin` começam com `exigirAdmin()` (e-mails em `ADMIN_EMAILS`).
 12. **Itens suspensos (reportados) não aparecem para o aluno:** toda consulta nova de `questoes` ou `flashcards` para o aluno filtra `suspensa = false`.
 9. Toda consulta nova que filtra `questoes` precisa de índice que a cubra. Confira com `EXPLAIN QUERY PLAN` (veja `/revisar-performance`).
@@ -140,6 +141,6 @@ src/db/aprovacao.ts                       aprovar, rejeitar e reportar erro (tel
 
 ## Ambiente
 
-- `.env.local` (copie de `.env.example`): `TURSO_DATABASE_URL`, `TURSO_AUTH_TOKEN`, `BETTER_AUTH_SECRET`, `BETTER_AUTH_URL`, `ADMIN_EMAILS`, `MP_ACCESS_TOKEN`, `MP_WEBHOOK_SECRET`, `CRON_SECRET`, `GMAIL_USUARIO`, `GMAIL_SENHA_APP` (ou `RESEND_API_KEY` e `EMAIL_REMETENTE` com domínio próprio).
+- `.env.local` (copie de `.env.example`): `TURSO_DATABASE_URL`, `TURSO_AUTH_TOKEN`, `BETTER_AUTH_SECRET`, `BETTER_AUTH_URL`, `ADMIN_EMAILS`, `EFI_CLIENT_ID`, `EFI_CLIENT_SECRET`, `EFI_CERTIFICADO`, `EFI_CHAVE_PIX`, `EFI_SANDBOX`, `EFI_WEBHOOK_SEGREDO`, `NEXT_PUBLIC_EFI_CONTA` (veja `docs/EFI.md`), `MP_ACCESS_TOKEN`, `MP_WEBHOOK_SECRET`, `CRON_SECRET`, `GMAIL_USUARIO`, `GMAIL_SENHA_APP` (ou `RESEND_API_KEY` e `EMAIL_REMETENTE` com domínio próprio).
 - E-mails (recuperar senha, confirmar e-mail) saem por `src/server/email.ts`. Usa o Gmail se configurado, senão o Resend, senão só imprime no terminal.
 - Sem `TURSO_DATABASE_URL` o app usa `file:local.db`. Na Vercel o modo arquivo não funciona: use sempre a URL do Turso.

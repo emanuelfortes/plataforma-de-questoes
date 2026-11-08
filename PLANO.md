@@ -137,6 +137,7 @@ Todos com plano gratuito. Limites mudam: confira as páginas de preço antes de 
 - [x] **8.2 Planos:** grátis com 5 questões diferentes por dia (refazer e revisar não gastam) e assinatura mensal de R$ 24,90 (`src/lib/planos.ts`). Flashcards, desempenho e Vade Mecum só para assinantes (cadeado com prévia).
 - [x] **8.3 Pagamento:** assinatura recorrente no cartão pelo Mercado Pago (preapproval), webhook, cancelamento pelo aluno e painel de faturamento em `/admin/faturamento`. Falta: credenciais da aplicação "Nóbrega Questões" e webhook configurados na produção.
 - [x] **8.4 Página de vendas** na raiz do domínio (visitante vê a vitrine; logado vai para `/estudar`). Termos e privacidade em `/termos` e `/privacidade`; dados do responsável e WhatsApp em `src/lib/legal.ts`.
+- [x] **8.5 Efí:** Pix de 30 dias e cartão recorrente pela Efí para pagamentos novos; Mercado Pago só para as assinaturas antigas (`docs/EFI.md`). Falta: configurar a conta e testar (ver `docs/ESTADO-ATUAL.md`).
 
 ---
 

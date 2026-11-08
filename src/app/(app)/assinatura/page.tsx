@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { BotaoAssinar, BotaoCancelar, BotaoTrocarPlano } from "@/components/assinatura/botoes";
 import { FormularioCartao } from "@/components/assinatura/formulario-cartao";
+import { FormularioCartaoEfi } from "@/components/assinatura/formulario-cartao-efi";
 import { PagamentoPix } from "@/components/assinatura/pagamento-pix";
 import { Card } from "@/components/ui/card";
 import {
@@ -38,6 +39,10 @@ import {
   sincronizarAssinatura,
   situacaoDoAluno,
 } from "@/server/assinatura";
+import { ambienteEfi, efiCartaoAtivo, efiPixAtivo } from "@/server/efi";
+
+/** Cartão pela Efí: identificador de conta (público) e ambiente, para o formulário. */
+type CartaoEfi = { conta: string; ambiente: "production" | "sandbox" } | null;
 
 export const metadata: Metadata = { title: "Assinatura" };
 
@@ -103,6 +108,9 @@ export default async function PaginaAssinatura({
   const reativar = CARTAO_LIGADO && podeReativar(a);
   const promocao = promocaoAberta();
   const chavePublica = CARTAO_NO_SITE ? process.env.NEXT_PUBLIC_MP_PUBLIC_KEY : undefined;
+  // Efí configurada: assinaturas novas no cartão saem por ela (o Mercado Pago fica só com as antigas).
+  const cartaoEfi: CartaoEfi = CARTAO_LIGADO && efiCartaoAtivo() ? { conta: process.env.NEXT_PUBLIC_EFI_CONTA!, ambiente: ambienteEfi() } : null;
+  const processador = cartaoEfi || efiPixAtivo() ? "Efí" : "Mercado Pago";
 
   return (
     <div className="mx-auto max-w-xl space-y-6">
@@ -173,7 +181,9 @@ export default async function PaginaAssinatura({
                 {formatarReais(a.valorCentavos / 100)}/mês. Nada é cobrado agora: a próxima cobrança só acontece em{" "}
                 {dataCurta(a.acessoAte)}, quando o mês que você já pagou acaba.
               </p>
-              {chavePublica ? (
+              {cartaoEfi ? (
+                <FormularioCartaoEfi {...cartaoEfi} rotulo="Reativar assinatura" plano={elite ? "elite" : "basico"} />
+              ) : chavePublica ? (
                 <FormularioCartao
                   chavePublica={chavePublica}
                   email={usuario.email}
@@ -215,13 +225,14 @@ export default async function PaginaAssinatura({
               valorPix={plano === "elite" ? pixElite : pixBasico}
               renovando={!!a && ehPix(a.id) && liberado}
               chavePublica={chavePublica}
+              cartaoEfi={cartaoEfi}
               pausaCartao={pausaCartao}
               email={usuario.email}
               rotulo={a?.status === "pending" && !ehPix(a.id) ? "Concluir pagamento" : `Assinar por ${formatarReais(precoDoPlano(plano))}/mês`}
             />
           ))}
           <p className="text-xs leading-relaxed text-suave">
-            Pagamento seguro pelo Mercado Pago.{" "}
+            Pagamento seguro {processador === "Efí" ? "pela Efí" : "pelo Mercado Pago"}.{" "}
             {CARTAO_LIGADO
               ? `No cartão de crédito, a cobrança é automática todo mês e você pode cancelar quando quiser; no Pix, cada pagamento vale ${DIAS_PIX} dias e não renova sozinho.`
               : `Cada Pix vale ${DIAS_PIX} dias e não renova sozinho: avisamos por e-mail perto do fim.`}{" "}
@@ -256,6 +267,7 @@ function CartaoPlano({
   valorPix,
   renovando,
   chavePublica,
+  cartaoEfi,
   pausaCartao,
   email,
   rotulo,
@@ -266,6 +278,7 @@ function CartaoPlano({
   valorPix: number;
   renovando: boolean;
   chavePublica?: string;
+  cartaoEfi: CartaoEfi;
   /** Recusa recente do antifraude neste aparelho: até quando o cartão fica pausado (ver pausaDoCartao). */
   pausaCartao: Date | null;
   email: string;
@@ -316,7 +329,9 @@ function CartaoPlano({
         ))}
       </ul>
       {/* Com a Public Key, o cartão é digitado aqui (checkout transparente); sem ela, vai para o Mercado Pago. */}
-      {!CARTAO_LIGADO ? null : pausaCartao ? (
+      {!CARTAO_LIGADO ? null : cartaoEfi ? (
+        <FormularioCartaoEfi {...cartaoEfi} rotulo={rotulo} plano={plano} />
+      ) : pausaCartao ? (
         <p className="rounded-xl border border-erro/40 bg-erro-suave p-4 text-sm leading-relaxed">
           <strong className="text-erro">O Mercado Pago recusou o cartão por segurança.</strong> Tentar de novo agora
           costuma dar a mesma recusa, então o cartão volta às{" "}

@@ -68,6 +68,17 @@ Pastas que ficam só neste computador (fora do git; o OneDrive pode sincronizar)
 - Pastas também na Parte Geral do Penal e no Constitucional?
 - Ordem das áreas do Penal: falta a lista do professor.
 
+### Efí no lugar do Mercado Pago (08/11/2026)
+
+Por causa das recusas no cartão (abaixo), os pagamentos novos passam para a Efí: Pix de 30 dias e assinatura mensal no
+cartão. Quem já assina no Mercado Pago continua lá. Código pronto; falta o dono configurar a conta e testar.
+Passo a passo completo em `docs/EFI.md`.
+
+- [ ] Criar a aplicação na Efí, gerar os certificados e preencher as variáveis `EFI_*` (homologação primeiro).
+- [ ] Testar em homologação: Pix, cartão, cancelar, trocar de plano.
+- [ ] Produção: variáveis na Vercel, deploy e `scripts/efi/configurar.ts --aplicar` (aviso de Pix).
+- [ ] Primeiro Pix e primeiro cartão de verdade; conferir em `/admin/financeiro`.
+
 ### Cartão recusado pelo antifraude (desde 03/11/2026)
 
 Em 02 e 03/11 houve 13 tentativas de cartão recusadas, quase todas `cc_rejected_high_risk` (antifraude do Mercado Pago).

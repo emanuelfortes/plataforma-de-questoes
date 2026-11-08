@@ -8,7 +8,23 @@ import { DESLOCAMENTO_SQLITE, inicioDoDiaLocal } from "@/lib/datas";
 import { DIAS_PIX, formatarReais, PLANOS, precoDoPlano, PREFIXO_PIX, PREFIXO_REFERENCIA, valorAoTrocar, valorEhElite, type Plano } from "@/lib/planos";
 import { ehAdmin } from "@/lib/admin";
 import { emailRenovarPix, enviarEmail } from "./email";
+import { efiPixAtivo } from "./efi";
+import {
+  cancelarAssinaturaCartaoEfi,
+  dadosDoPixEfi,
+  ehCartaoEfi,
+  ehPixEfi,
+  gerarPixEfi,
+  mudarValorCartaoEfi,
+  PREFIXO_CARTAO_EFI,
+  PREFIXO_PIX_EFI,
+  sincronizarAssinaturaCartaoEfi,
+  sincronizarPixEfi,
+} from "./assinatura-efi";
 
+// Pagamentos novos saem pela Efí quando ela está configurada (ver src/server/assinatura-efi.ts e docs/EFI.md);
+// o Mercado Pago segue cuidando das assinaturas e Pix que já estavam nele.
+//
 // Assinatura mensal pelo Mercado Pago (preapproval sem plano, status "pending"): o aluno é levado
 // ao checkout do Mercado Pago (init_point), cadastra o cartão e as cobranças seguem sozinhas.
 // Tudo que chega (webhook ou retorno do checkout) é conferido de novo na API com o nosso token.
@@ -39,16 +55,21 @@ const data = (iso: string | undefined | null) => (iso ? new Date(iso) : null);
  * o início é adiado se ele ainda tem acesso pago (cancelou e voltou dentro do período): a 1ª cobrança cai no
  * dia em que o acesso atual acaba, sem pagar duas vezes. O Elite começa a cobrar na hora.
  */
-async function cobrancaMensal(usuarioId: string, plano: Plano) {
+export async function condicoesDaMensal(usuarioId: string, plano: Plano) {
   const atual = await assinaturaDoUsuario(usuarioId);
   const reativacao = podeReativar(atual) && valorEhElite(atual!.valorCentavos) === (plano === "elite");
   // Reativar: mesmo plano e mesmo preço; nada é cobrado agora, a 1ª cobrança cai quando o mês pago acaba.
   const comAcesso = (plano === "basico" || reativacao) && atual?.acessoAte && atual.acessoAte.getTime() > Date.now() + 60 * 60 * 1000;
-  const inicio = comAcesso ? atual!.acessoAte : null;
+  return { valor: reativacao ? atual!.valorCentavos / 100 : precoDoPlano(plano), inicio: comAcesso ? atual!.acessoAte : null };
+}
+
+/** A mesma cobrança no formato do Mercado Pago (auto_recurring). */
+async function cobrancaMensal(usuarioId: string, plano: Plano) {
+  const { valor, inicio } = await condicoesDaMensal(usuarioId, plano);
   return {
     frequency: 1,
     frequency_type: "months",
-    transaction_amount: reativacao ? atual!.valorCentavos / 100 : precoDoPlano(plano),
+    transaction_amount: valor,
     currency_id: "BRL",
     ...(inicio ? { start_date: inicio.toISOString() } : {}),
   };
@@ -202,14 +223,16 @@ async function salvarPagamento(p: CobrancaMP, usuarioId: string) {
  * para o faturamento não esperar a conferência diária. Só consulta o Mercado Pago para essas poucas.
  */
 export async function conferirCobrancasPendentes() {
-  if (!cobrancaAtiva()) return;
+  if (!process.env.MP_ACCESS_TOKEN) return;
   const lista = await db
     .select({ id: assinaturas.id, usuarioId: assinaturas.usuarioId })
     .from(assinaturas)
     .where(
       and(
         eq(assinaturas.status, "authorized"),
+        // Só o cartão do Mercado Pago (o da Efí avisa cada cobrança e entra na conferência diária).
         sql`${assinaturas.id} not like 'pix:%'`,
+        sql`${assinaturas.id} not like ${PREFIXO_CARTAO_EFI + "%"}`,
         sql`not exists (select 1 from ${pagamentos} where ${pagamentos.assinaturaId} = ${assinaturas.id}
           and ${pagamentos.status} = 'approved' and ${pagamentos.cobradoEm} > unixepoch() - 32 * 86400)`,
       ),
@@ -241,9 +264,14 @@ export async function sincronizarTodas() {
     try {
       if (ehPix(a.id)) {
         // Pix: confere enquanto aguarda o pagamento e por 40 dias depois (estorno, contestação).
-        if (a.status !== "approved" || a.criadaEm.getTime() > Date.now() - 40 * DIA) await sincronizarPix(a.id.slice(4));
+        if (a.status !== "approved" || a.criadaEm.getTime() > Date.now() - 40 * DIA) await sincronizarPixPorId(a.id);
         continue;
       }
+      if (ehCartaoEfi(a.id)) {
+        await sincronizarAssinaturaCartaoEfi(a.id.slice(PREFIXO_CARTAO_EFI.length));
+        continue;
+      }
+      if (!process.env.MP_ACCESS_TOKEN) continue;
       await sincronizarAssinatura(a.id);
       // A busca de cobranças aceita no máximo 10 por página (limit maior dá erro "Invalid value for limit").
       for (let offset = 0; ; offset += 10) {
@@ -308,19 +336,19 @@ export async function precoDoPix(usuarioId: string, plano: Plano) {
 
 type PagamentoMP = Awaited<ReturnType<Payment["get"]>>;
 
-/** Dados para a tela: QR code (imagem), copia e cola e validade. */
-function dadosDoPix(p: PagamentoMP) {
+/** Dados para a tela: id da nossa linha ("pix:..."), QR code (imagem), copia e cola e valor. */
+export type DadosPix = { id: string; copiaECola: string; imagem: string; valor: number };
+
+function dadosDoPix(p: PagamentoMP): DadosPix {
   const t = p.point_of_interaction?.transaction_data;
   if (!p.id || !t?.qr_code || !t.qr_code_base64) throw new Error("O Mercado Pago não devolveu o QR code do Pix.");
   return {
-    id: String(p.id),
+    id: `pix:${p.id}`,
     copiaECola: t.qr_code,
     imagem: `data:image/png;base64,${t.qr_code_base64}`,
     valor: p.transaction_amount ?? 0,
   };
 }
-
-export type DadosPix = ReturnType<typeof dadosDoPix>;
 
 /** Grava o Pix (e a cobrança, para o faturamento). Estorno ou recusa tiram o acesso. */
 async function salvarPix(p: PagamentoMP) {
@@ -364,6 +392,12 @@ export async function sincronizarPix(id: string) {
   return p;
 }
 
+/** Confere um Pix nosso, da Efí ou do Mercado Pago, pelo id da linha ("pix:efi:<txid>" ou "pix:<id>"). Devolve o status. */
+export async function sincronizarPixPorId(assinaturaId: string) {
+  if (ehPixEfi(assinaturaId)) return (await sincronizarPixEfi(assinaturaId.slice(PREFIXO_PIX_EFI.length))) ?? "invalido";
+  return (await sincronizarPix(assinaturaId.slice(4))).status ?? "pending";
+}
+
 /**
  * Gera o Pix de 30 dias (ou devolve o que o aluno gerou há pouco, no mesmo valor, ainda sem pagar).
  * O valor sai do servidor (precoDoPix); o aviso do pagamento vem direto para o nosso webhook.
@@ -386,9 +420,16 @@ export async function gerarPix(usuario: { id: string; email: string }, plano: Pl
     .orderBy(desc(assinaturas.criadaEm))
     .limit(1);
   if (pendente) {
-    const p = await sincronizarPix(pendente.id.slice(4));
-    if (p.status === "pending") return dadosDoPix(p);
+    if (ehPixEfi(pendente.id)) {
+      const dados = efiPixAtivo() ? await dadosDoPixEfi(pendente.id) : null;
+      if (dados) return dados;
+    } else if (!efiPixAtivo()) {
+      const p = await sincronizarPix(pendente.id.slice(4));
+      if (p.status === "pending") return dadosDoPix(p);
+    }
   }
+  // Efí configurada: todo Pix novo sai por ela (o início dos 30 dias é calculado ao confirmar o pagamento).
+  if (efiPixAtivo()) return gerarPixEfi(usuario.id, valor, plano);
   const atual = await ultimoPixPago(usuario.id);
   const inicio = atual?.acessoAte && atual.acessoAte.getTime() > Date.now() ? atual.acessoAte.toISOString() : undefined;
   const site = enderecoSite();
@@ -417,7 +458,7 @@ export async function atualizarPixPendentes(usuarioId: string) {
     .from(assinaturas)
     .where(and(eq(assinaturas.usuarioId, usuarioId), like(assinaturas.id, "pix:%"), eq(assinaturas.status, "pending")))
     .limit(5);
-  for (const a of lista) await sincronizarPix(a.id.slice(4)).catch((erro) => console.error("[pix] conferência:", erro));
+  for (const a of lista) await sincronizarPixPorId(a.id).catch((erro) => console.error("[pix] conferência:", erro));
 }
 
 /** E-mail 2 a 3 dias antes do fim do acesso pago no Pix (o cron roda 1x por dia, então sai um só). */
@@ -441,6 +482,7 @@ async function avisarFimDoPix() {
 }
 
 export async function cancelarAssinatura(id: string) {
+  if (ehCartaoEfi(id)) return cancelarAssinaturaCartaoEfi(id);
   await new PreApproval(cliente()).update({ id, body: { status: "cancelled" } });
   await sincronizarAssinatura(id);
 }
@@ -496,6 +538,7 @@ export async function temElite(usuario: { id: string; email: string }) {
 export async function mudarPlano(id: string, centavosAtuais: number, plano: Plano) {
   const novo = valorAoTrocar(centavosAtuais, plano);
   if (novo === centavosAtuais) return;
+  if (ehCartaoEfi(id)) return mudarValorCartaoEfi(id, plano, novo);
   await new PreApproval(cliente()).update({
     id,
     body: { reason: PLANOS[plano].descricao, auto_recurring: { transaction_amount: novo / 100, currency_id: "BRL" } },
@@ -503,9 +546,9 @@ export async function mudarPlano(id: string, centavosAtuais: number, plano: Plan
   await sincronizarAssinatura(id);
 }
 
-/** A cobrança só liga quando o Mercado Pago está configurado: antes disso ninguém tem limite. */
+/** A cobrança só liga quando o Mercado Pago ou a Efí estão configurados: antes disso ninguém tem limite. */
 export function cobrancaAtiva() {
-  return !!process.env.MP_ACCESS_TOKEN;
+  return !!process.env.MP_ACCESS_TOKEN || efiPixAtivo();
 }
 
 /**
@@ -629,6 +672,8 @@ export async function resumoFaturamento(forma?: FormaPagamento) {
 export async function cancelarAssinaturasDoUsuario(usuarioId: string) {
   const lista = await db.select().from(assinaturas).where(eq(assinaturas.usuarioId, usuarioId));
   for (const a of lista) {
+    // Pix não renova sozinho: não há o que cancelar.
+    if (ehPix(a.id)) continue;
     if (a.status === "authorized" || a.status === "pending" || a.status === "paused") await cancelarAssinatura(a.id);
   }
 }
