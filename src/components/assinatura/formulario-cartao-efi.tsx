@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { cepValido, cpfValido, soDigitos, telefoneValido, UFS } from "@/lib/documentos";
 import type { Plano } from "@/lib/planos";
 import { cn } from "@/lib/utils";
-import { assinarCartaoEfi } from "@/server/acoes-assinatura";
+import { assinarCartaoEfi, registrarFalhaCartao } from "@/server/acoes-assinatura";
 
 // Cartão de crédito pela Efí: os dados do cartão viram um payment_token aqui no navegador (biblioteca oficial
 // payment-token-efi, que também coleta a impressão do aparelho para o antifraude). O número do cartão nunca vai
@@ -38,6 +38,15 @@ const mascaras: Partial<Record<keyof Campos, (v: string) => string>> = {
 /** Navegador interno de app (Instagram, WhatsApp...): o script do antifraude costuma falhar nele. */
 function navegadorDeApp() {
   return /Instagram|FBAN|FBAV|FB_IAB|FBIOS|WhatsApp|TikTok|musical_ly|BytedanceWebview|Line\/|Snapchat|Twitter/i.test(navigator.userAgent);
+}
+
+/** Mensagem quando o cartão não vira token (dados do cartão, ou o Safari bloqueando o antifraude). */
+function mensagemFalhaToken(bloqueado: boolean, detalhe?: string) {
+  const motivo = detalhe ? ` (${detalhe.slice(0, 140)})` : "";
+  if (bloqueado) {
+    return `Seu navegador bloqueou a verificação de segurança do pagamento${motivo}. No iPhone, abra o site no Chrome, ou no Safari desligue em Ajustes > Apps > Safari > Avançado a "Proteção avançada contra rastreamento" e os bloqueadores de conteúdo. Ou pague com Pix.`;
+  }
+  return `Não foi possível validar o cartão${motivo}. Confira o número, a validade, o CVV e o CPF do titular.`;
 }
 
 function conferir(c: Campos) {
@@ -112,12 +121,13 @@ export function FormularioCartaoEfi({
     const problema = conferir(c);
     if (problema) return setErro(problema);
     setEnviando(true);
+    let bloqueado = false;
     try {
       // Carrega a biblioteca da Efí só na hora de pagar.
       const EfiPay = (await import("payment-token-efi")).default;
-      if (await EfiPay.CreditCard.isScriptBlocked()) {
-        return setErro("Um bloqueador de anúncios impediu o pagamento seguro. Desative-o para este site ou pague com Pix.");
-      }
+      // Script de antifraude (ClearSale) bloqueado: o Safari bloqueia por padrão em vários casos (proteção contra
+      // rastreamento, Retransmissão Privada, bloqueadores). Não desiste: tenta gerar o token mesmo assim e registra.
+      bloqueado = await EfiPay.CreditCard.isScriptBlocked().catch(() => true);
       const numero = soDigitos(c.numero);
       const bandeira = await EfiPay.CreditCard.setCardNumber(numero).verifyCardBrand();
       if (!bandeira || bandeira === "undefined" || bandeira === "unsupported") return setErro("Bandeira do cartão não aceita. Tente outro cartão ou pague com Pix.");
@@ -137,7 +147,8 @@ export function FormularioCartaoEfi({
         .getPaymentToken();
       if (!("payment_token" in r)) {
         console.error("[efi] token do cartão:", r);
-        return setErro("Não foi possível validar o cartão. Confira os dados.");
+        await registrarFalhaCartao({ etapa: "token", bloqueado, detalhe: String(r.error_description ?? r.error ?? "") }).catch(() => null);
+        return setErro(mensagemFalhaToken(bloqueado, r.error_description));
       }
       const resposta = await assinarCartaoEfi({
         token: r.payment_token,
@@ -153,13 +164,16 @@ export function FormularioCartaoEfi({
         cidade: c.cidade,
         uf: c.uf,
         complemento: c.complemento || undefined,
+        antifraudeBloqueado: bloqueado,
       });
       if (!resposta.ok) return setErro(resposta.erro);
       setSucesso(resposta.ativa ? "ativa" : "aguardando");
       router.refresh();
     } catch (falha) {
       console.error("[efi] formulário do cartão:", falha);
-      setErro("Não foi possível validar o cartão. Confira os dados e a internet e tente de novo.");
+      const detalhe = (falha as { error_description?: string; message?: string })?.error_description ?? (falha as Error)?.message ?? String(falha);
+      await registrarFalhaCartao({ etapa: "formulario", bloqueado, detalhe: String(detalhe) }).catch(() => null);
+      setErro(mensagemFalhaToken(bloqueado, detalhe));
     } finally {
       setEnviando(false);
     }

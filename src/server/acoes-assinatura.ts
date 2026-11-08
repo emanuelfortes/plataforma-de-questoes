@@ -144,6 +144,8 @@ const cartaoEfiSchema = z.object({
   cidade: texto(100),
   uf: z.enum(UFS),
   complemento: z.string().trim().max(55).optional(),
+  /** O script de antifraude da Efí foi bloqueado no navegador (só para o log). */
+  antifraudeBloqueado: z.boolean().optional(),
 });
 
 /** Mensagem da Efí para o aluno (em português simples). */
@@ -158,6 +160,21 @@ function motivoRecusaEfi(erro: unknown) {
   if (t.includes("zipcode") || t.includes("cep") || t.includes("billing_address")) return "Confira o endereço de cobrança.";
   if (t.includes("payment_token") || t.includes("token")) return "Os dados do cartão expiraram. Confira e tente de novo.";
   return "Não foi possível concluir o pagamento. Confira os dados ou assine pelo Pix, que libera na hora.";
+}
+
+/**
+ * Falha no navegador antes de chegar à Efí (o cartão não virou token). Só registra no log da Vercel, com o
+ * navegador e se o antifraude foi bloqueado: sem isso essas tentativas não deixavam rastro.
+ */
+export async function registrarFalhaCartao(entrada: unknown) {
+  const usuario = await exigirUsuario();
+  const d = z
+    .object({ etapa: z.enum(["token", "formulario"]), bloqueado: z.boolean(), detalhe: z.string().max(300) })
+    .safeParse(entrada);
+  if (!d.success) return;
+  console.error(
+    `[efi] cartão não virou token (${d.data.etapa}; antifraude ${d.data.bloqueado ? "BLOQUEADO" : "ok"}; ${await aparelho()}; usuário ${usuario.id}): ${d.data.detalhe}`,
+  );
 }
 
 /** Assinatura mensal no cartão pela Efí. Recebe só o token do cartão e os dados do titular. */
@@ -185,7 +202,7 @@ export async function assinarCartaoEfi(entrada: unknown): Promise<ResultadoCarta
     return { ok: true, ativa: status === "authorized" };
   } catch (erro) {
     console.error(
-      `[efi] cartão recusado ou falha (${erro instanceof ErroEfi ? textoDoErroEfi(erro) : erro instanceof CartaoRecusadoEfi ? "1ª cobrança recusada" : "erro"}; ${await aparelho()}):`,
+      `[efi] cartão recusado ou falha (${erro instanceof ErroEfi ? textoDoErroEfi(erro) : erro instanceof CartaoRecusadoEfi ? "1ª cobrança recusada" : "erro"}; antifraude ${d.antifraudeBloqueado ? "BLOQUEADO" : "ok"}; ${await aparelho()}):`,
       erro,
     );
     revalidatePath("/assinatura");
