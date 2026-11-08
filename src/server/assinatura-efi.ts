@@ -35,9 +35,10 @@ export const PREFIXO_CARTAO_EFI = "efi:";
 export const ehPixEfi = (id: string) => id.startsWith(PREFIXO_PIX_EFI);
 export const ehCartaoEfi = (id: string) => id.startsWith(PREFIXO_CARTAO_EFI);
 
-const referencia = (usuarioId: string) => `${PREFIXO_REFERENCIA}:${usuarioId}`;
+// custom_id da Efí só aceita letras, números, "_", "-" e espaço (^[a-zA-Z0-9_\-\s]+$): o separador é "_", não ":".
+const referencia = (usuarioId: string) => `${PREFIXO_REFERENCIA}_${usuarioId}`;
 function usuarioDaReferencia(ref: string | null | undefined) {
-  const prefixo = `${PREFIXO_REFERENCIA}:`;
+  const prefixo = `${PREFIXO_REFERENCIA}_`;
   return ref?.startsWith(prefixo) ? ref.slice(prefixo.length) : null;
 }
 

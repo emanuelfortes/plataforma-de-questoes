@@ -197,6 +197,9 @@ export type EnderecoEfi = {
   complement?: string;
 };
 
+/** Só consulta: lista os planos de assinatura (usado no teste de conexão). */
+export const listarPlanosEfi = () => efi<RespostaCobrancas<unknown[]>>("cobrancas", "GET", "/v1/plans");
+
 const NOME_PLANO = "QProva mensal";
 let planoId: number | null = null;
 

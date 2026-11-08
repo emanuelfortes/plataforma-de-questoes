@@ -3,7 +3,7 @@
 //
 //   npx tsx --conditions=react-server scripts/efi/testar-conexao.ts
 import "../_env";
-import { consultarCobPix, ErroEfi } from "../../src/server/efi";
+import { consultarCobPix, ErroEfi, listarPlanosEfi } from "../../src/server/efi";
 
 console.log(`Ambiente: ${process.env.EFI_SANDBOX === "true" ? "homologação" : "PRODUÇÃO"}`);
 try {
@@ -19,4 +19,12 @@ try {
   } else {
     console.log("Falha de conexão:", erro instanceof Error ? erro.message : erro);
   }
+}
+
+// API Cobranças (cartão): token e lista de planos, só leitura.
+try {
+  const planos = await listarPlanosEfi();
+  console.log(`API COBRANÇAS OK: ${planos.data?.length ?? 0} plano(s) na conta.`, JSON.stringify(planos.data).slice(0, 400));
+} catch (erro) {
+  console.log("API Cobranças recusou:", erro instanceof Error ? erro.message : erro);
 }
