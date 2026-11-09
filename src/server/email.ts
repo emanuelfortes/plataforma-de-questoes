@@ -225,3 +225,66 @@ export function emailPagamentoNormalizado(nome: string): Omit<Email, "para"> {
     ].join("\n\n"),
   };
 }
+
+// ---------- Simulado liberado ----------
+
+/** Quem recebe qual versão do aviso de simulado liberado. */
+export type PublicoAviso = "elite" | "basico" | "sem-plano";
+
+export type DadosAvisoSimulado = {
+  titulo: string;
+  concurso: string;
+  questoes: number;
+  /** "4 h", "5 h", "3 h 30 min". */
+  tempo: string;
+  /** "até 30/11" ou "" sem prazo. */
+  prazo: string;
+  /** Página do simulado (Elite) ou da assinatura (os demais). */
+  url: string;
+  /** Preço total da Tropa de Elite hoje, já formatado (para quem não assina). */
+  precoElite: string;
+};
+
+/** Quadro escuro com os dados do simulado (título, questões, tempo), igual ao topo do e-mail. */
+function quadroSimulado(d: DadosAvisoSimulado) {
+  const fonte = "font-family:Arial,Helvetica,sans-serif";
+  const linha = (rotulo: string, valor: string) =>
+    `<td style="padding:10px 14px;border-top:1px solid #3a3a3a"><p style="margin:0;font-size:11px;letter-spacing:1px;text-transform:uppercase;color:#a3a3a3;${fonte}">${rotulo}</p><p style="margin:2px 0 0;font-size:16px;font-weight:bold;color:#ffffff;${fonte}">${valor}</p></td>`;
+  return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:8px 0 4px;border-radius:12px;overflow:hidden;background:${COR.fundo}">
+    <tr><td colspan="3" style="padding:14px 14px 12px">
+      <p style="margin:0;font-size:12px;font-weight:bold;letter-spacing:2px;text-transform:uppercase;color:${COR.destaque};${fonte}">🔓 Liberado · ${escapar(d.concurso)}</p>
+      <p style="margin:6px 0 0;font-size:18px;font-weight:bold;color:#ffffff;${fonte}">${escapar(d.titulo)}</p>
+    </td></tr>
+    <tr>${linha("Questões", String(d.questoes))}${linha("Tempo", d.tempo)}${linha("Prazo", d.prazo || "sem prazo")}</tr>
+  </table>`;
+}
+
+/** Aviso de simulado liberado, em três versões: Tropa de Elite, assinante do Basic e quem não assina. */
+export function emailSimuladoLiberado(nome: string, publico: PublicoAviso, d: DadosAvisoSimulado): Omit<Email, "para"> {
+  const ola = `Olá, ${escapar(nome)}!`;
+  const quadro = quadroSimulado(d);
+  const prazo = d.prazo ? ` Você pode começar ${d.prazo}.` : "";
+  if (publico === "elite") {
+    const liberado = `O <strong>${escapar(d.titulo)}</strong> acabou de ser liberado para a ${ELITE.nome}.${prazo}`;
+    const como =
+      "Baixe a prova, imprima e faça como no dia do concurso. Na plataforma, dê o play no cronômetro e marque o gabarito: na entrega você vê a nota, a sua posição no ranking e libera o <strong>gabarito comentado</strong>, com a explicação de todas as alternativas.";
+    const rodape = "Você recebe este aviso porque faz parte da Tropa de Elite. Bons estudos!";
+    return {
+      assunto: `🔓 Simulado liberado: ${d.titulo}`,
+      html: modelo("Seu simulado está liberado", [ola, liberado, como], { rotulo: "Fazer o simulado", url: d.url }, rodape, quadro),
+      texto: [`Olá, ${nome}!`, `O ${d.titulo} acabou de ser liberado para a ${ELITE.nome}.${prazo}`, como.replace(/<\/?strong>/g, ""), d.url, rodape].join("\n\n"),
+    };
+  }
+  const liberado = `Acabou de ser liberado o <strong>${escapar(d.titulo)}</strong>, exclusivo da ${ELITE.nome}: ${d.questoes} questões no modelo da prova, para imprimir e fazer com cronômetro, com ranking entre os participantes e gabarito comentado.`;
+  const convite =
+    publico === "basico"
+      ? `Você já assina o ${ASSINATURA.nome}. Para participar deste e dos próximos simulados, inclua a ${ELITE.nome} por apenas <strong>+ ${formatarReais(ADICIONAL_ELITE)} por mês</strong>, somados à sua assinatura. Os simulados liberam na hora.`
+      : `Para participar deste e dos próximos simulados, assine a ${ELITE.nome}: questões sem limite, flashcards, desempenho, Vade Mecum e 2 simulados por mês, por <strong>${d.precoElite} por mês</strong>.`;
+  const rodape = "Você recebe este aviso porque tem conta na plataforma. Os simulados saem duas vezes por mês.";
+  const rotulo = publico === "basico" ? "Incluir a Tropa de Elite" : "Quero a Tropa de Elite";
+  return {
+    assunto: `Simulado ${d.concurso} liberado: participe com a ${ELITE.nome}`,
+    html: modelo("Simulado liberado na Tropa de Elite", [ola, liberado, convite], { rotulo, url: d.url }, rodape, quadro),
+    texto: [`Olá, ${nome}!`, liberado.replace(/<\/?strong>/g, ""), convite.replace(/<\/?strong>/g, ""), d.url, rodape].join("\n\n"),
+  };
+}

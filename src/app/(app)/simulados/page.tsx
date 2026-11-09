@@ -2,6 +2,8 @@ import { Check, ChevronRight, FileText } from "lucide-react";
 import { CartaoAgendado } from "@/components/simulados/cartao-agendado";
 import type { Metadata } from "next";
 import Link from "next/link";
+import { after } from "next/server";
+import { dispararAvisosSimulados } from "@/server/avisos-simulado";
 import { Card } from "@/components/ui/card";
 import { variantesBotao } from "@/components/ui/button";
 import { ADICIONAL_ELITE, BENEFICIOS_ELITE, ELITE, formatarReais, precoDoPlano } from "@/lib/planos";
@@ -14,8 +16,13 @@ export const metadata: Metadata = { title: "Simulados" };
 
 const dataCurta = (d: Date) => d.toLocaleDateString("pt-BR", { timeZone: "America/Sao_Paulo" });
 
+// O aviso por e-mail do simulado liberado roda depois da resposta (after) e pode levar alguns segundos.
+export const maxDuration = 60;
+
 export default async function PaginaSimulados({ searchParams }: { searchParams: Promise<{ ensaio?: string }> }) {
   const usuario = await exigirUsuario();
+  // Simulado recém-liberado ainda sem aviso: os e-mails saem em segundo plano, sem atrasar esta página.
+  after(dispararAvisosSimulados);
   const elite = await temElite(usuario);
   // Ensaio do cartão agendado (só o dono): /simulados?ensaio=70 conta 70 s a partir de agora e explode, sem recarregar.
   const ensaioPedido = Number((await searchParams).ensaio);

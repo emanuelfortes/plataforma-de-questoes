@@ -3,6 +3,7 @@ import { EditarSimulado, NovoSimulado } from "@/components/admin/simulados";
 import { CabecalhoPagina, Secao, Selo } from "@/components/admin/kit";
 import { exigirAdmin } from "@/lib/sessao";
 import { OPCOES_SIMULADO, type OpcoesSimulado } from "@/lib/simulados";
+import { situacaoAvisos } from "@/server/avisos-simulado";
 import { listarSimuladosAdmin } from "@/server/simulados";
 
 export const metadata: Metadata = { title: "Simulados" };
@@ -11,7 +12,7 @@ const dataHora = (d: Date) => d.toLocaleString("pt-BR", { timeZone: "America/Sao
 
 export default async function PaginaSimuladosAdmin() {
   await exigirAdmin();
-  const lista = await listarSimuladosAdmin();
+  const [lista, avisos] = await Promise.all([listarSimuladosAdmin(), situacaoAvisos()]);
   const agora = Date.now();
   return (
     <>
@@ -43,6 +44,16 @@ export default async function PaginaSimuladosAdmin() {
                     <span className="text-xs text-suave">
                       {s.questoes} questões ({OPCOES_SIMULADO[s.opcoes as OpcoesSimulado]}), {s.duracaoMin} min, {s.entregas} entregas
                     </span>
+                    {avisos && s.liberadoEm.getTime() <= agora && (
+                      <span className="text-xs text-suave">
+                        · E-mail de liberação:{" "}
+                        {avisos.get(s.id)?.concluido
+                          ? `enviado (${avisos.get(s.id)!.enviados})`
+                          : avisos.get(s.id)
+                            ? `${avisos.get(s.id)!.enviados} enviados, continua no próximo disparo`
+                            : "ainda não enviado"}
+                      </span>
+                    )}
                   </summary>
                   <EditarSimulado
                     simulado={{
