@@ -1,4 +1,5 @@
-import { Check, ChevronRight, FileText } from "lucide-react";
+import { Check, ChevronRight, FileText, Lock } from "lucide-react";
+import { ContagemLiberacao } from "@/components/simulados/contagem-liberacao";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Card } from "@/components/ui/card";
@@ -7,7 +8,7 @@ import { ADICIONAL_ELITE, BENEFICIOS_ELITE, ELITE, formatarReais, precoDoPlano }
 import { exigirUsuario } from "@/lib/sessao";
 import { cn } from "@/lib/utils";
 import { temElite } from "@/server/assinatura";
-import { encerrado, listarSimuladosAluno } from "@/server/simulados";
+import { encerrado, listarProximosSimulados, listarSimuladosAluno } from "@/server/simulados";
 
 export const metadata: Metadata = { title: "Simulados" };
 
@@ -27,8 +28,46 @@ export default async function PaginaSimulados() {
           posição entre os assinantes da Tropa de Elite.
         </p>
       </div>
+      <Proximos elite={elite} />
       {elite ? <Lista usuarioId={usuario.id} /> : <ConviteElite />}
     </div>
+  );
+}
+
+const dataHora = (d: Date) =>
+  d.toLocaleString("pt-BR", { timeZone: "America/Sao_Paulo", day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" });
+
+/** Simulados agendados: cadeado e contagem regressiva até a liberação (destrava sozinho quando zera). */
+async function Proximos({ elite }: { elite: boolean }) {
+  const proximos = await listarProximosSimulados();
+  if (!proximos.length) return null;
+  return (
+    <ul className="space-y-3">
+      {proximos.map((s) => (
+        <li key={s.id} className="space-y-3 rounded-2xl border-2 border-dashed border-destaque/50 bg-destaque-suave p-4">
+          <div className="flex items-start gap-4">
+            <span className="grid size-11 shrink-0 place-items-center rounded-xl bg-superficie text-destaque" aria-hidden>
+              <Lock className="size-5" />
+            </span>
+            <div className="min-w-0 flex-1">
+              <p className="text-xs font-bold uppercase tracking-[.06em] text-destaque">Em breve · {s.concurso}</p>
+              <p className="font-extrabold">{s.titulo}</p>
+              <p className="text-xs text-suave">
+                {s.questoes} questões, {s.duracaoMin} min. Libera em {dataHora(s.liberadoEm)}.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-wrap items-center gap-3">
+            <ContagemLiberacao liberaEm={s.liberadoEm.toISOString()} />
+            <p className="text-xs text-suave">
+              {elite
+                ? "Quando o cronômetro zerar, o PDF libera aqui."
+                : `Exclusivo da ${ELITE.nome}: assine para fazer este simulado.`}
+            </p>
+          </div>
+        </li>
+      ))}
+    </ul>
   );
 }
 

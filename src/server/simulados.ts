@@ -41,6 +41,26 @@ export async function listarSimuladosAluno(usuarioId: string) {
     .limit(100);
 }
 
+/**
+ * Simulados agendados (PDF já enviado, liberação no futuro): aparecem com cadeado e contagem regressiva.
+ * Só dados públicos: nada de PDF nem gabarito antes da hora (a rota do PDF e a página do simulado seguem fechadas).
+ */
+export async function listarProximosSimulados() {
+  return db
+    .select({
+      id: simulados.id,
+      titulo: simulados.titulo,
+      concurso: simulados.concurso,
+      questoes: questoesDoSimulado,
+      duracaoMin: simulados.duracaoMin,
+      liberadoEm: simulados.liberadoEm,
+    })
+    .from(simulados)
+    .where(and(isNotNull(simulados.arquivoNome), sql`${simulados.liberadoEm} > unixepoch()`))
+    .orderBy(asc(simulados.liberadoEm))
+    .limit(5);
+}
+
 export function encerrado(s: { encerraEm: Date | null }) {
   return !!s.encerraEm && s.encerraEm.getTime() < Date.now();
 }
