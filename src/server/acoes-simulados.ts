@@ -7,6 +7,7 @@ import { CONCURSOS_SIMULADO } from "@/lib/planos";
 import { exigirAdmin, exigirUsuario } from "@/lib/sessao";
 import { lerGabarito, MAXIMO_PDF, OPCOES_SIMULADO, TAMANHO_PARTE, type OpcoesSimulado } from "@/lib/simulados";
 import { temElite } from "./assinatura";
+import { enviarTesteAviso } from "./avisos-simulado";
 import {
   atualizarDatas,
   atualizarGabarito,
@@ -157,4 +158,13 @@ export async function apagarSimulado(id: unknown): Promise<Resultado> {
   revalidatePath("/admin/simulados");
   revalidatePath("/simulados");
   return { ok: true };
+}
+
+/** Dono: manda as três versões do e-mail de simulado liberado só para o próprio e-mail (teste do texto e do envio). */
+export async function testarAvisoSimulado(id: unknown): Promise<{ ok: true; para: string; servico: string } | { ok: false; erro: string }> {
+  const dono = await exigirAdmin();
+  const sim = idSchema.safeParse(id);
+  if (!sim.success) return { ok: false, erro: "Simulado inválido." };
+  const r = await enviarTesteAviso(sim.data, dono.email);
+  return r.ok ? { ok: true, para: dono.email, servico: r.servico } : r;
 }

@@ -65,6 +65,40 @@ export async function publicosDoAviso() {
   });
 }
 
+/** Dados do simulado que entram no e-mail (sem o link, que muda conforme o público). */
+function dadosBase(s: typeof simulados.$inferSelect): Omit<DadosAvisoSimulado, "url"> {
+  return {
+    titulo: s.titulo,
+    concurso: s.concurso,
+    questoes: s.gabarito.length,
+    tempo: tempoLegivel(s.duracaoMin),
+    prazo: s.encerraEm ? `até ${s.encerraEm.toLocaleDateString("pt-BR", { timeZone: "America/Sao_Paulo", day: "2-digit", month: "2-digit" })}` : "",
+    precoElite: formatarReais(precoDoPlano("elite")),
+  };
+}
+
+/**
+ * Teste do dono: manda as três versões do aviso só para o e-mail indicado (o da conta do dono), com o serviço de
+ * e-mail configurado no servidor. Não grava nada em avisos_enviados. Funciona mesmo antes da liberação.
+ */
+export async function enviarTesteAviso(id: number, para: string) {
+  const servico = servicoDeEmail();
+  if (!servico) return { ok: false as const, erro: "Nenhum serviço de e-mail configurado no servidor (GMAIL_USUARIO e GMAIL_SENHA_APP, ou RESEND_API_KEY)." };
+  const [s] = await db.select().from(simulados).where(eq(simulados.id, id)).limit(1);
+  if (!s) return { ok: false as const, erro: "Simulado não encontrado." };
+  const base = dadosBase(s);
+  const falhas: string[] = [];
+  for (const publico of ["elite", "basico", "sem-plano"] as PublicoAviso[]) {
+    const url = publico === "elite" ? `${site()}/simulados/${id}` : `${site()}/assinatura`;
+    const email = emailSimuladoLiberado("Teste", publico, { ...base, url });
+    if (!(await enviarEmail({ para, ...email, assunto: `[TESTE ${publico}] ${email.assunto}` }))) falhas.push(publico);
+  }
+  if (falhas.length) {
+    return { ok: false as const, erro: `O serviço de e-mail (${servico}) recusou o envio. Confira as credenciais na Vercel; o detalhe está nos logs ([e-mail]).` };
+  }
+  return { ok: true as const, servico };
+}
+
 /** Envia (um lote de) o aviso de um simulado já liberado. Devolve quantos saíram e quantos faltam. */
 export async function avisarSimulado(id: number) {
   const [s] = await db
@@ -79,14 +113,7 @@ export async function avisarSimulado(id: number) {
 
   const pessoas = await publicosDoAviso();
   const pendentes = pessoas.filter((p) => !ja.has(p.id));
-  const base: Omit<DadosAvisoSimulado, "url"> = {
-    titulo: s.titulo,
-    concurso: s.concurso,
-    questoes: s.gabarito.length,
-    tempo: tempoLegivel(s.duracaoMin),
-    prazo: s.encerraEm ? `até ${s.encerraEm.toLocaleDateString("pt-BR", { timeZone: "America/Sao_Paulo", day: "2-digit", month: "2-digit" })}` : "",
-    precoElite: formatarReais(precoDoPlano("elite")),
-  };
+  const base = dadosBase(s);
 
   const inicio = Date.now();
   let enviados = 0;

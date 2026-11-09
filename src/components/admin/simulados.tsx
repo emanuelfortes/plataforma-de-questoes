@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { CONCURSOS_SIMULADO } from "@/lib/planos";
 import { MAXIMO_PDF, OPCOES_SIMULADO, TAMANHO_PARTE } from "@/lib/simulados";
 import { cn } from "@/lib/utils";
-import { apagarSimulado, concluirPdf, editarSimulado, enviarParteDoPdf, novoSimulado } from "@/server/acoes-simulados";
+import { apagarSimulado, concluirPdf, editarSimulado, enviarParteDoPdf, novoSimulado, testarAvisoSimulado } from "@/server/acoes-simulados";
 
 // Simulados do Elite na área do dono: cadastro (dados, gabarito e PDF), edição e exclusão.
 
@@ -376,6 +376,25 @@ export function EditarSimulado({ simulado }: { simulado: Simulado }) {
             Baixar o comentado
           </a>
         )}
+        <button
+          type="button"
+          disabled={enviando}
+          className="text-sm font-bold text-marca-clara hover:underline disabled:opacity-60"
+          onClick={() =>
+            iniciar(async () => {
+              setErro(null);
+              setAviso("Enviando o teste do e-mail...");
+              const r = await testarAvisoSimulado(simulado.id);
+              if (r.ok) setAviso(`Teste enviado para ${r.para} (3 e-mails: Tropa de Elite, Basic e sem plano, pelo ${r.servico}). Confira também o spam.`);
+              else {
+                setAviso(null);
+                setErro(r.erro);
+              }
+            })
+          }
+        >
+          Testar o e-mail de liberação
+        </button>
         <span className="flex-1" />
         {apagar ? (
           <span className="flex flex-wrap items-center gap-2 text-sm">
