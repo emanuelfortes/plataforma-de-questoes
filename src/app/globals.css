@@ -348,6 +348,197 @@ select option:disabled {
   40%, 80% { transform: translateX(6px); }
 }
 
+/* Simulado agendado (src/components/simulados/cartao-agendado.tsx): uma chapa de metal que esquenta de baixo
+   para cima até a liberação e explode quando o cronômetro zera. --calor vai de 0 (fria) a 1 (no limite) e
+   dirige a cor da borda, o brilho e as labaredas; as fases (frio, morno, quente, critico) ligam o resto. */
+.chapa {
+  --calor: 0;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  border: 2px solid color-mix(in oklab, var(--color-fogo) calc(var(--calor) * 100%), var(--color-borda));
+  background-color: var(--color-superficie);
+  /* Rebites nos cantos de cima, calor subindo da base e o escovado do metal. */
+  background-image:
+    radial-gradient(circle at 10px 10px, var(--color-borda-forte) 2px, transparent 2.5px),
+    radial-gradient(circle at calc(100% - 10px) 10px, var(--color-borda-forte) 2px, transparent 2.5px),
+    linear-gradient(to top, color-mix(in oklab, var(--color-fogo) calc(var(--calor) * 38%), transparent), transparent 72%),
+    repeating-linear-gradient(90deg, transparent 0 3px, color-mix(in oklab, var(--color-camada) 55%, transparent) 3px 4px);
+  box-shadow: 0 0 calc(var(--calor) * 42px) color-mix(in oklab, var(--color-fogo) calc(var(--calor) * 70%), transparent);
+  transition: border-color 1s linear, box-shadow 1s linear;
+}
+.chapa-tremendo { animation: chapa-tremor 0.11s linear infinite; }
+@keyframes chapa-tremor {
+  0%, 100% { transform: translate(0, 0); }
+  25% { transform: translate(calc(var(--amp) * -1), calc(var(--amp) * 0.5)); }
+  50% { transform: translate(calc(var(--amp) * 0.6), calc(var(--amp) * -0.7)); }
+  75% { transform: translate(calc(var(--amp) * 0.9), calc(var(--amp) * 0.3)); }
+}
+/* Mostrador de cada unidade da contagem: esquenta junto com a chapa. */
+.chapa-digito {
+  border: 1px solid color-mix(in oklab, var(--color-fogo) calc(var(--calor) * 90%), var(--color-borda));
+  background: color-mix(in oklab, var(--color-fogo) calc(var(--calor) * 18%), var(--color-camada));
+}
+.chapa-critico .chapa-digito-valor {
+  color: var(--color-nucleo-fogo);
+  text-shadow: 0 0 6px var(--color-fogo), 0 0 14px var(--color-fogo);
+}
+.chapa-pulso { animation: chapa-pulso 1s ease-out; }
+@keyframes chapa-pulso {
+  0% { transform: scale(1.14); }
+  100% { transform: scale(1); }
+}
+.chapa-cadeado { color: color-mix(in oklab, var(--color-fogo) calc(var(--calor) * 100%), var(--color-destaque)); }
+.chapa-critico .chapa-cadeado { animation: chapa-cadeado 0.35s ease-in-out infinite alternate; filter: drop-shadow(0 0 5px var(--color-fogo)); }
+@keyframes chapa-cadeado {
+  from { transform: rotate(-7deg); }
+  to { transform: rotate(7deg); }
+}
+/* Fagulhas: sobem da base com deriva lateral e apagam no caminho. */
+.fagulha {
+  position: absolute;
+  bottom: -6px;
+  left: var(--x);
+  width: var(--tam, 3px);
+  height: var(--tam, 3px);
+  border-radius: 50%;
+  background: var(--color-ouro);
+  box-shadow: 0 0 6px var(--color-fogo), 0 0 2px var(--color-nucleo-fogo);
+  opacity: 0;
+  z-index: -1;
+  animation: fagulha var(--dur, 2.6s) ease-out var(--atraso, 0s) infinite;
+}
+@keyframes fagulha {
+  0% { opacity: 0; transform: translate(0, 0) scale(1); }
+  10% { opacity: 1; }
+  100% { opacity: 0; transform: translate(var(--deriva, 10px), -170px) scale(0.3); }
+}
+/* Labaredas na borda de baixo: altura proporcional ao calor. */
+.labaredas {
+  position: absolute;
+  inset: auto 0 0 0;
+  height: calc(var(--calor) * 78px);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  z-index: -1;
+  pointer-events: none;
+}
+.labareda {
+  width: 13%;
+  height: var(--alt, 100%);
+  border-radius: 50% 50% 35% 35% / 70% 70% 30% 30%;
+  background: radial-gradient(60% 75% at 50% 100%, var(--color-nucleo-fogo) 0%, var(--color-ouro) 30%, var(--color-fogo) 58%, transparent 78%);
+  filter: blur(1.5px);
+  transform-origin: 50% 100%;
+  animation: labareda var(--dur, 0.8s) ease-in-out var(--atraso, 0s) infinite alternate;
+}
+@keyframes labareda {
+  from { transform: scaleY(0.72) scaleX(1.06) skewX(-4deg); opacity: 0.75; }
+  to { transform: scaleY(1.08) scaleX(0.9) skewX(5deg); opacity: 1; }
+}
+/* Rachaduras em brasa nos últimos 10 segundos (o traço se desenha pelo --rachar, de 0 a 1). */
+.rachaduras { position: absolute; inset: 0; z-index: 1; pointer-events: none; overflow: visible; }
+.rachaduras path {
+  fill: none;
+  stroke: var(--color-nucleo-fogo);
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-dasharray: 1;
+  stroke-dashoffset: calc(1 - var(--rachar, 0));
+  filter: drop-shadow(0 0 3px var(--color-fogo)) drop-shadow(0 0 7px var(--color-fogo));
+  transition: stroke-dashoffset 1s linear;
+}
+/* Explosão: clarão branco-quente, onda de choque, estilhaços da chapa e faíscas; a chapa some e o "liberado" aparece. */
+.explodindo { overflow: visible; animation: explosao-tranco 0.45s cubic-bezier(0.3, 1.6, 0.5, 1); }
+@keyframes explosao-tranco {
+  0% { transform: scale(1); }
+  18% { transform: scale(1.05) rotate(-0.6deg); }
+  40% { transform: translate(-6px, 3px) rotate(0.5deg); }
+  65% { transform: translate(4px, -2px); }
+  100% { transform: none; }
+}
+.explosao-clarao {
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  width: 140%;
+  aspect-ratio: 1;
+  translate: -50% -50%;
+  border-radius: 50%;
+  z-index: 3;
+  pointer-events: none;
+  background: radial-gradient(circle, var(--color-nucleo-fogo) 0 14%, var(--color-ouro) 30%, color-mix(in oklab, var(--color-fogo) 70%, transparent) 50%, transparent 70%);
+  animation: explosao-clarao 0.75s ease-out both;
+}
+@keyframes explosao-clarao {
+  0% { opacity: 1; transform: scale(0.15); }
+  35% { opacity: 1; }
+  100% { opacity: 0; transform: scale(1.6); }
+}
+.explosao-onda {
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  width: 60px;
+  aspect-ratio: 1;
+  translate: -50% -50%;
+  border-radius: 50%;
+  border: 3px solid var(--color-nucleo-fogo);
+  box-shadow: 0 0 18px var(--color-fogo), inset 0 0 12px var(--color-fogo);
+  z-index: 3;
+  pointer-events: none;
+  animation: explosao-onda 0.7s cubic-bezier(0.1, 0.6, 0.3, 1) 0.05s both;
+}
+@keyframes explosao-onda {
+  from { opacity: 1; transform: scale(0.2); }
+  to { opacity: 0; transform: scale(9); border-width: 1px; }
+}
+.estilhaco-chapa {
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  width: var(--l);
+  height: var(--a);
+  z-index: 2;
+  background: var(--color-camada);
+  border: 1px solid color-mix(in oklab, var(--color-fogo) 80%, transparent);
+  box-shadow: 0 0 8px var(--color-fogo);
+  clip-path: polygon(0 20%, 60% 0, 100% 45%, 75% 100%, 10% 85%);
+  animation: estilhaco-chapa 1s cubic-bezier(0.15, 0.7, 0.35, 1) both;
+}
+@keyframes estilhaco-chapa {
+  0% { opacity: 1; transform: translate(0, 0) rotate(0deg); }
+  100% { opacity: 0; transform: translate(var(--dx), var(--dy)) rotate(var(--giro)); }
+}
+.faisca-explosao {
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  width: 2px;
+  height: 11px;
+  border-radius: 2px;
+  z-index: 3;
+  background: linear-gradient(var(--color-nucleo-fogo), var(--color-fogo));
+  box-shadow: 0 0 5px var(--color-fogo);
+  transform-origin: 50% 0;
+  rotate: var(--ang);
+  animation: faisca-explosao 0.75s cubic-bezier(0.1, 0.8, 0.3, 1) both;
+}
+@keyframes faisca-explosao {
+  from { opacity: 1; translate: 0 0; }
+  to { opacity: 0; translate: var(--dx) var(--dy); }
+}
+.chapa-some { animation: chapa-some 0.35s ease-in 0.08s both; }
+@keyframes chapa-some {
+  to { opacity: 0; transform: scale(1.04); filter: brightness(2.2); }
+}
+.liberado-surge { animation: liberado-surge 0.6s cubic-bezier(0.2, 1.4, 0.4, 1) 0.4s both; }
+@keyframes liberado-surge {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
 /* Ranking: fundo tático (manchas de camuflagem em oliva e grade de mira bem leve). */
 .fundo-tatico {
   background-color: var(--color-superficie);
@@ -382,4 +573,9 @@ select option:disabled {
   .faisca { display: none; }
   /* Sem movimento, os furos já aparecem prontos (sem clarão, estilhaço nem fumaça). */
   .clarao, .estilhaco, .fumaca { display: none; }
+  /* Chapa do simulado agendado: só a cor esquenta; sem tremor, fagulha, labareda nem estilhaço. */
+  .chapa-tremendo, .chapa-pulso, .chapa-critico .chapa-cadeado, .explodindo, .labareda { animation: none; }
+  .fagulha, .explosao-clarao, .explosao-onda, .estilhaco-chapa, .faisca-explosao { display: none; }
+  .chapa-some { animation: none; opacity: 0; }
+  .liberado-surge { animation: none; }
 }
