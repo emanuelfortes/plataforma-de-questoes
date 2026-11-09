@@ -1,7 +1,8 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useState, useTransition } from "react";
+import { FileCheck2, FileUp, X } from "lucide-react";
+import { useEffect, useRef, useState, useTransition } from "react";
 import { classeCampo } from "@/components/campo-senha";
 import { Button } from "@/components/ui/button";
 import { CONCURSOS_SIMULADO } from "@/lib/planos";
@@ -92,24 +93,161 @@ function CampoGabarito({ inicial, questoes }: { inicial?: string; questoes?: num
   );
 }
 
-function CampoPdf({ obrigatorio }: { obrigatorio?: boolean }) {
+const tamanhoLegivel = (bytes: number) =>
+  bytes >= 1024 * 1024 ? `${(bytes / 1024 / 1024).toLocaleString("pt-BR", { maximumFractionDigits: 1 })} MB` : `${Math.ceil(bytes / 1024)} KB`;
+
+/**
+ * Área de envio de PDF: cartão com passo, explicação, botão "Escolher PDF" e arrastar e soltar. Mostra o arquivo
+ * escolhido (nome e tamanho) e permite tirar. O <input type="file"> continua no formulário com o mesmo name.
+ */
+function CampoArquivo({
+  nome,
+  passo,
+  titulo,
+  descricao,
+  obrigatorio,
+  jaEnviado,
+}: {
+  nome: "pdf" | "comentado";
+  passo: string;
+  titulo: string;
+  descricao: string;
+  obrigatorio?: boolean;
+  /** Já há um arquivo publicado: escolher outro substitui. */
+  jaEnviado?: boolean;
+}) {
+  const entrada = useRef<HTMLInputElement>(null);
+  const [arquivo, setArquivo] = useState<File | null>(null);
+  const [arrastando, setArrastando] = useState(false);
+  const [erro, setErro] = useState<string | null>(null);
+
+  // O formulário de novo simulado é limpo depois de criar: o cartão volta ao estado vazio junto.
+  useEffect(() => {
+    const form = entrada.current?.form;
+    if (!form) return;
+    const limpar = () => setArquivo(null);
+    form.addEventListener("reset", limpar);
+    return () => form.removeEventListener("reset", limpar);
+  }, []);
+
+  function escolher(f: File | undefined) {
+    setErro(null);
+    if (!f) return setArquivo(null);
+    if (f.type !== "application/pdf" && !f.name.toLowerCase().endsWith(".pdf")) {
+      if (entrada.current) entrada.current.value = "";
+      return setErro("Escolha um arquivo PDF.");
+    }
+    if (f.size > MAXIMO_PDF) {
+      if (entrada.current) entrada.current.value = "";
+      return setErro(`O PDF passa de ${MAXIMO_PDF / 1024 / 1024} MB.`);
+    }
+    setArquivo(f);
+  }
+
+  function tirar() {
+    if (entrada.current) entrada.current.value = "";
+    setArquivo(null);
+  }
+
   return (
-    <label className="sm:col-span-2">
-      <span className={rotulo}>PDF da prova, só as questões (o aluno baixa e imprime antes de começar)</span>
-      <input name="pdf" type="file" accept="application/pdf" required={obrigatorio} className="block w-full text-sm" />
-    </label>
+    <div className="sm:col-span-2">
+      <div
+        onDragOver={(e) => {
+          e.preventDefault();
+          setArrastando(true);
+        }}
+        onDragLeave={() => setArrastando(false)}
+        onDrop={(e) => {
+          e.preventDefault();
+          setArrastando(false);
+          const f = e.dataTransfer.files[0];
+          if (f && entrada.current) {
+            const dt = new DataTransfer();
+            dt.items.add(f);
+            entrada.current.files = dt.files;
+          }
+          escolher(f);
+        }}
+        className={cn(
+          "flex flex-col gap-4 rounded-2xl border-2 border-dashed p-4 transition-colors sm:flex-row sm:items-center sm:p-5",
+          arquivo ? "border-acerto/60 bg-acerto-suave" : arrastando ? "border-marca bg-marca-suave" : "border-borda bg-camada",
+        )}
+      >
+        <span
+          className={cn(
+            "grid size-12 shrink-0 place-items-center rounded-xl",
+            arquivo ? "bg-acerto text-sobre-marca" : "bg-superficie text-marca-clara",
+          )}
+          aria-hidden
+        >
+          {arquivo ? <FileCheck2 className="size-6" /> : <FileUp className="size-6" />}
+        </span>
+        <div className="min-w-0 flex-1 space-y-1">
+          <p className="text-xs font-extrabold uppercase tracking-[.06em] text-suave">{passo}</p>
+          <p className="font-extrabold">
+            {titulo}
+            {!obrigatorio && <span className="ml-1.5 text-xs font-bold text-suave">(opcional)</span>}
+          </p>
+          {arquivo ? (
+            <p className="truncate text-sm font-bold text-acerto">
+              {arquivo.name} · {tamanhoLegivel(arquivo.size)}
+            </p>
+          ) : (
+            <p className="text-sm text-suave">
+              {descricao}
+              {jaEnviado && <strong className="text-acerto"> Já enviado: escolha outro só se quiser trocar.</strong>}
+            </p>
+          )}
+          {erro && <p className="text-sm font-bold text-erro">{erro}</p>}
+        </div>
+        <div className="flex shrink-0 gap-2">
+          <Button type="button" variante={arquivo ? "contorno" : "padrao"} onClick={() => entrada.current?.click()}>
+            {arquivo ? "Trocar" : "Escolher PDF"}
+          </Button>
+          {arquivo && (
+            <Button type="button" variante="fantasma" onClick={tirar} aria-label="Tirar o arquivo">
+              <X className="size-4" aria-hidden />
+            </Button>
+          )}
+        </div>
+        <input
+          ref={entrada}
+          name={nome}
+          type="file"
+          accept="application/pdf,.pdf"
+          required={obrigatorio}
+          onChange={(e) => escolher(e.target.files?.[0])}
+          className="sr-only"
+          tabIndex={-1}
+        />
+      </div>
+      {!arquivo && <p className="mt-1.5 text-xs text-suave">Ou arraste o arquivo para dentro do quadro.</p>}
+    </div>
+  );
+}
+
+function CampoPdf({ obrigatorio, jaEnviado }: { obrigatorio?: boolean; jaEnviado?: boolean }) {
+  return (
+    <CampoArquivo
+      nome="pdf"
+      passo="Arquivo 1 · liberado na hora"
+      titulo="PDF da prova"
+      descricao="Só as questões e a folha de respostas, sem gabarito. O aluno baixa e imprime antes de começar."
+      obrigatorio={obrigatorio}
+      jaEnviado={jaEnviado}
+    />
   );
 }
 
 function CampoComentado({ temComentado }: { temComentado?: boolean }) {
   return (
-    <label className="sm:col-span-2">
-      <span className={rotulo}>
-        PDF do gabarito comentado (opcional; o aluno só baixa depois de entregar a prova)
-        {temComentado && " · já enviado, escolha outro só para trocar"}
-      </span>
-      <input name="comentado" type="file" accept="application/pdf" className="block w-full text-sm" />
-    </label>
+    <CampoArquivo
+      nome="comentado"
+      passo="Arquivo 2 · liberado depois da entrega"
+      titulo="PDF do gabarito e das questões comentadas"
+      descricao="Fica bloqueado até o aluno marcar e entregar o gabarito na plataforma."
+      jaEnviado={temComentado}
+    />
   );
 }
 
@@ -222,7 +360,7 @@ export function EditarSimulado({ simulado }: { simulado: Simulado }) {
         }}
       />
       <CampoGabarito inicial={simulado.gabarito.join("")} questoes={simulado.gabarito.length} />
-      <CampoPdf />
+      <CampoPdf jaEnviado={simulado.temPdf} />
       <CampoComentado temComentado={simulado.temComentado} />
       <div className="flex flex-wrap items-center gap-2 sm:col-span-2">
         <Button type="submit" disabled={enviando}>
