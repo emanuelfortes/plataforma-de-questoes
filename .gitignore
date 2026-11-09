@@ -32,3 +32,6 @@ data/avisos/
 # Certificados da Efí (nunca no git)
 *.p12
 *.pem
+
+# PDFs de simulado soltos na raiz (sobem pela área do dono, não pelo git)
+/*.pdf

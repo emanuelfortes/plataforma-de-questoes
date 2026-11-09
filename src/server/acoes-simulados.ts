@@ -10,7 +10,9 @@ import { temElite } from "./assinatura";
 import {
   atualizarDatas,
   atualizarGabarito,
+  BASE_ENVIO_COMENTADO,
   concluirArquivo,
+  concluirComentado,
   criarSimulado,
   entregarTentativa,
   excluirSimulado,
@@ -110,9 +112,15 @@ export async function editarSimulado(id: unknown, entrada: unknown): Promise<Res
   return { ok: true, recorrigidas };
 }
 
-/** Um pedaço do PDF (FormData: id, parte, dados). O navegador corta o arquivo em TAMANHO_PARTE. */
+const tipoSchema = z.enum(["prova", "comentado"]).catch("prova");
+
+/**
+ * Um pedaço do PDF (FormData: id, parte, dados e tipo). O navegador corta o arquivo em TAMANHO_PARTE.
+ * tipo "prova" é o caderno que o aluno baixa; "comentado" é o gabarito comentado, liberado só depois da entrega.
+ */
 export async function enviarParteDoPdf(form: FormData): Promise<Resultado> {
   await exigirAdmin();
+  const tipo = tipoSchema.parse(form.get("tipo"));
   const id = idSchema.safeParse(form.get("id"));
   const parte = z.coerce.number().int().min(0).max(Math.ceil(MAXIMO_PDF / TAMANHO_PARTE)).safeParse(form.get("parte"));
   const dados = form.get("dados");
@@ -122,17 +130,20 @@ export async function enviarParteDoPdf(form: FormData): Promise<Resultado> {
   const bytes = Buffer.from(await dados.arrayBuffer());
   // Confere a assinatura de PDF ("%PDF") no começo do arquivo.
   if (parte.data === 0 && bytes.subarray(0, 4).toString("latin1") !== "%PDF") return { ok: false, erro: "O arquivo não é um PDF." };
-  await gravarParte(id.data, parte.data, bytes);
+  await gravarParte(id.data, (tipo === "comentado" ? BASE_ENVIO_COMENTADO : 0) + parte.data, bytes);
   return { ok: true };
 }
 
-export async function concluirPdf(id: unknown, nome: unknown, bytes: unknown, partes: unknown): Promise<Resultado> {
+export async function concluirPdf(id: unknown, nome: unknown, bytes: unknown, partes: unknown, tipo: unknown = "prova"): Promise<Resultado> {
   await exigirAdmin();
   const d = z
     .object({ id: idSchema, nome: z.string().trim().min(1).max(200), bytes: z.number().int().positive().max(MAXIMO_PDF), partes: z.number().int().positive() })
     .safeParse({ id, nome, bytes, partes });
   if (!d.success) return { ok: false, erro: "Dados do arquivo inválidos." };
-  const ok = await concluirArquivo(d.data.id, d.data.nome, d.data.bytes, d.data.partes);
+  const ok =
+    tipoSchema.parse(tipo) === "comentado"
+      ? await concluirComentado(d.data.id, d.data.bytes, d.data.partes)
+      : await concluirArquivo(d.data.id, d.data.nome, d.data.bytes, d.data.partes);
   revalidatePath("/admin/simulados");
   revalidatePath("/simulados");
   return ok ? { ok: true } : { ok: false, erro: "O envio do PDF ficou incompleto. Tente de novo." };

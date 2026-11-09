@@ -13,22 +13,43 @@ import { apagarSimulado, concluirPdf, editarSimulado, enviarParteDoPdf, novoSimu
 
 const rotulo = "mb-1 block text-xs font-bold text-suave";
 
+type TipoPdf = "prova" | "comentado";
+
 /** Envia o PDF em partes (cada uma abaixo do limite da Vercel) e fecha o envio. */
-async function enviarPdf(id: number, arquivo: File, progresso: (p: number) => void) {
+async function enviarPdf(id: number, arquivo: File, progresso: (p: number) => void, tipo: TipoPdf = "prova") {
   if (arquivo.size > MAXIMO_PDF) return `O PDF passa de ${MAXIMO_PDF / 1024 / 1024} MB.`;
   const partes = Math.ceil(arquivo.size / TAMANHO_PARTE);
   for (let i = 0; i < partes; i++) {
     const form = new FormData();
     form.set("id", String(id));
+    form.set("tipo", tipo);
     form.set("parte", String(i));
     form.set("dados", arquivo.slice(i * TAMANHO_PARTE, (i + 1) * TAMANHO_PARTE));
     const r = await enviarParteDoPdf(form);
     if (!r.ok) return r.erro;
     progresso((i + 1) / partes);
   }
-  const r = await concluirPdf(id, arquivo.name, arquivo.size, partes);
+  const r = await concluirPdf(id, arquivo.name, arquivo.size, partes, tipo);
   return r.ok ? null : r.erro;
 }
+
+/** Envia os PDFs escolhidos no formulário (prova e gabarito comentado). Devolve o erro ou null. */
+async function enviarArquivos(id: number, f: FormData, aviso: (t: string) => void) {
+  const pdf = f.get("pdf");
+  if (pdf instanceof File && pdf.size) {
+    const falha = await enviarPdf(id, pdf, (p) => aviso(`Enviando a prova: ${Math.round(p * 100)}%`));
+    if (falha) return `a prova não subiu: ${falha}`;
+  }
+  const comentado = f.get("comentado");
+  if (comentado instanceof File && comentado.size) {
+    const falha = await enviarPdf(id, comentado, (p) => aviso(`Enviando o gabarito comentado: ${Math.round(p * 100)}%`), "comentado");
+    if (falha) return `o gabarito comentado não subiu: ${falha}`;
+  }
+  return null;
+}
+
+/** Campos que não vão para a ação de dados (são enviados em partes). */
+const semArquivos = (f: FormData) => Object.fromEntries([...f.entries()].filter(([k]) => k !== "pdf" && k !== "comentado"));
 
 /** "2026-11-20T08:00" no fuso de Brasília, para o campo datetime-local. */
 export function paraCampoData(d: Date | null) {
@@ -74,8 +95,20 @@ function CampoGabarito({ inicial, questoes }: { inicial?: string; questoes?: num
 function CampoPdf({ obrigatorio }: { obrigatorio?: boolean }) {
   return (
     <label className="sm:col-span-2">
-      <span className={rotulo}>PDF da prova (o aluno baixa e imprime)</span>
+      <span className={rotulo}>PDF da prova, só as questões (o aluno baixa e imprime antes de começar)</span>
       <input name="pdf" type="file" accept="application/pdf" required={obrigatorio} className="block w-full text-sm" />
+    </label>
+  );
+}
+
+function CampoComentado({ temComentado }: { temComentado?: boolean }) {
+  return (
+    <label className="sm:col-span-2">
+      <span className={rotulo}>
+        PDF do gabarito comentado (opcional; o aluno só baixa depois de entregar a prova)
+        {temComentado && " · já enviado, escolha outro só para trocar"}
+      </span>
+      <input name="comentado" type="file" accept="application/pdf" className="block w-full text-sm" />
     </label>
   );
 }
@@ -97,10 +130,10 @@ export function NovoSimulado() {
           setErro(null);
           setAviso(null);
           if (!(pdf instanceof File) || !pdf.size) return setErro("Escolha o PDF da prova.");
-          const r = await novoSimulado(Object.fromEntries([...f.entries()].filter(([k]) => k !== "pdf")));
+          const r = await novoSimulado(semArquivos(f));
           if (!r.ok) return setErro(r.erro);
-          const falha = await enviarPdf(r.id, pdf, (p) => setAviso(`Enviando o PDF: ${Math.round(p * 100)}%`));
-          if (falha) return setErro(`O simulado foi criado, mas o PDF não subiu: ${falha} Envie de novo na lista abaixo.`);
+          const falha = await enviarArquivos(r.id, f, setAviso);
+          if (falha) return setErro(`O simulado foi criado, mas ${falha} Envie de novo na lista abaixo.`);
           form.reset();
           setAviso("Simulado criado. Ele aparece para a Tropa de Elite na data de liberação.");
           router.refresh();
@@ -132,6 +165,7 @@ export function NovoSimulado() {
       </label>
       <CampoGabarito />
       <CampoPdf obrigatorio />
+      <CampoComentado />
       <div className="space-y-2 sm:col-span-2">
         <Button type="submit" disabled={enviando}>
           {enviando ? "Salvando..." : "Criar simulado"}
@@ -151,6 +185,7 @@ type Simulado = {
   encerraEm: Date | null;
   gabarito: string[];
   temPdf: boolean;
+  temComentado: boolean;
   entregas: number;
 };
 
@@ -166,16 +201,13 @@ export function EditarSimulado({ simulado }: { simulado: Simulado }) {
       onSubmit={(e) => {
         e.preventDefault();
         const f = new FormData(e.currentTarget);
-        const pdf = f.get("pdf");
         iniciar(async () => {
           setErro(null);
           setAviso(null);
-          const r = await editarSimulado(simulado.id, Object.fromEntries([...f.entries()].filter(([k]) => k !== "pdf")));
+          const r = await editarSimulado(simulado.id, semArquivos(f));
           if (!r.ok) return setErro(r.erro);
-          if (pdf instanceof File && pdf.size) {
-            const falha = await enviarPdf(simulado.id, pdf, (p) => setAviso(`Enviando o PDF: ${Math.round(p * 100)}%`));
-            if (falha) return setErro(`Dados salvos, mas o PDF não subiu: ${falha}`);
-          }
+          const falha = await enviarArquivos(simulado.id, f, setAviso);
+          if (falha) return setErro(`Dados salvos, mas ${falha}`);
           setAviso(r.recorrigidas ? `Salvo. ${r.recorrigidas} entregas foram recorrigidas com o novo gabarito.` : "Salvo.");
           router.refresh();
         });
@@ -191,13 +223,19 @@ export function EditarSimulado({ simulado }: { simulado: Simulado }) {
       />
       <CampoGabarito inicial={simulado.gabarito.join("")} questoes={simulado.gabarito.length} />
       <CampoPdf />
+      <CampoComentado temComentado={simulado.temComentado} />
       <div className="flex flex-wrap items-center gap-2 sm:col-span-2">
         <Button type="submit" disabled={enviando}>
           {enviando ? "Salvando..." : "Salvar"}
         </Button>
         {simulado.temPdf && (
           <a href={`/api/simulados/${simulado.id}/pdf`} className="text-sm font-bold text-marca-clara hover:underline">
-            Baixar o PDF
+            Baixar a prova
+          </a>
+        )}
+        {simulado.temComentado && (
+          <a href={`/api/simulados/${simulado.id}/pdf?tipo=comentado`} className="text-sm font-bold text-marca-clara hover:underline">
+            Baixar o comentado
           </a>
         )}
         <span className="flex-1" />

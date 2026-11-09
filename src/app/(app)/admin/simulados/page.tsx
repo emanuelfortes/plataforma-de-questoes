@@ -53,6 +53,7 @@ export default async function PaginaSimuladosAdmin() {
                       encerraEm: s.encerraEm,
                       gabarito: s.gabarito,
                       temPdf: !!s.arquivoNome,
+                      temComentado: !!Number(s.temComentado),
                       entregas: s.entregas,
                     }}
                   />

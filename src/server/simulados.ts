@@ -209,6 +209,8 @@ export async function listarSimuladosAdmin() {
       arquivoBytes: simulados.arquivoBytes,
       gabarito: simulados.gabarito,
       entregas: sql<number>`(select count(*) from ${simuladoTentativas} where ${simuladoTentativas.simuladoId} = ${simulados.id} and ${simuladoTentativas.entregueEm} is not null)`,
+      temComentado: sql<number>`exists (select 1 from ${simuladoArquivo} where ${simuladoArquivo.simuladoId} = ${simulados.id}
+        and ${simuladoArquivo.parte} >= ${BASE_COMENTADO} and ${simuladoArquivo.parte} < ${BASE_ENVIO_COMENTADO})`,
     })
     .from(simulados)
     .orderBy(desc(simulados.liberadoEm))
@@ -260,13 +262,56 @@ export async function gravarParte(id: number, parte: number, dados: Buffer) {
     .onConflictDoUpdate({ target: [simuladoArquivo.simuladoId, simuladoArquivo.parte], set: { dados } });
 }
 
-/** Fecha o envio do PDF: só publica se todas as partes chegaram (apaga sobras de um envio anterior maior). */
-export async function concluirArquivo(id: number, nome: string, bytes: number, partes: number) {
-  await db.delete(simuladoArquivo).where(and(eq(simuladoArquivo.simuladoId, id), sql`${simuladoArquivo.parte} >= ${partes}`));
+// O gabarito comentado (2º PDF) fica na mesma tabela, em outra faixa de partes: a prova usa 0 a 999, o comentado
+// publicado 1000 a 1999 e o envio em andamento 2000 em diante (só vira público quando chega inteiro).
+// Assim não foi preciso mudar a estrutura do banco. O comentado só sai para quem já entregou a prova.
+export const BASE_COMENTADO = 1000;
+export const BASE_ENVIO_COMENTADO = 2000;
+
+const faixa = (de: number, ate: number) => and(sql`${simuladoArquivo.parte} >= ${de}`, sql`${simuladoArquivo.parte} < ${ate}`);
+
+async function contarPartes(id: number, de: number, ate: number) {
   const [r] = await db
     .select({ n: count(), bytes: sql<number>`coalesce(sum(length(${simuladoArquivo.dados})), 0)` })
     .from(simuladoArquivo)
-    .where(eq(simuladoArquivo.simuladoId, id));
+    .where(and(eq(simuladoArquivo.simuladoId, id), faixa(de, ate)));
+  return { n: r?.n ?? 0, bytes: Number(r?.bytes ?? 0) };
+}
+
+/** Fecha o envio do gabarito comentado: confere as partes e só então troca o que estava publicado. */
+export async function concluirComentado(id: number, bytes: number, partes: number) {
+  await db.delete(simuladoArquivo).where(and(eq(simuladoArquivo.simuladoId, id), sql`${simuladoArquivo.parte} >= ${BASE_ENVIO_COMENTADO + partes}`));
+  const r = await contarPartes(id, BASE_ENVIO_COMENTADO, BASE_ENVIO_COMENTADO + partes);
+  if (r.n !== partes || r.bytes !== bytes) return false;
+  await db.delete(simuladoArquivo).where(and(eq(simuladoArquivo.simuladoId, id), faixa(BASE_COMENTADO, BASE_ENVIO_COMENTADO)));
+  await db
+    .update(simuladoArquivo)
+    .set({ parte: sql`${simuladoArquivo.parte} - ${BASE_ENVIO_COMENTADO - BASE_COMENTADO}` })
+    .where(and(eq(simuladoArquivo.simuladoId, id), sql`${simuladoArquivo.parte} >= ${BASE_ENVIO_COMENTADO}`));
+  return true;
+}
+
+/** Gabarito comentado publicado: quantas partes e o tamanho (ou null se não houver). */
+export async function infoComentado(id: number) {
+  const r = await contarPartes(id, BASE_COMENTADO, BASE_ENVIO_COMENTADO);
+  return r.n ? { partes: r.n, bytes: r.bytes } : null;
+}
+
+/** O aluno pode baixar o comentado: simulado publicado e prova já entregue (ou o tempo dela acabou). */
+export async function podeBaixarComentado(id: number, usuarioId: string) {
+  const s = await simuladoPublicado(id);
+  if (!s) return false;
+  await fecharVencidas(id, s.gabarito, s.duracaoMin);
+  return !!(await tentativaDe(id, usuarioId))?.entregueEm;
+}
+
+/** Fecha o envio do PDF: só publica se todas as partes chegaram (apaga sobras de um envio anterior maior). */
+export async function concluirArquivo(id: number, nome: string, bytes: number, partes: number) {
+  await db.delete(simuladoArquivo).where(and(eq(simuladoArquivo.simuladoId, id), faixa(partes, BASE_COMENTADO)));
+  const [r] = await db
+    .select({ n: count(), bytes: sql<number>`coalesce(sum(length(${simuladoArquivo.dados})), 0)` })
+    .from(simuladoArquivo)
+    .where(and(eq(simuladoArquivo.simuladoId, id), faixa(0, BASE_COMENTADO)));
   if (r?.n !== partes || Number(r.bytes) !== bytes) return false;
   await db.update(simulados).set({ arquivoNome: nome, arquivoBytes: bytes, partesTotal: partes }).where(eq(simulados.id, id));
   return true;
@@ -277,8 +322,8 @@ export async function excluirSimulado(id: number) {
 }
 
 /** Partes do PDF, uma por vez (para enviar em fluxo sem juntar tudo na memória). */
-export async function* partesDoPdf(id: number, total: number) {
-  for (let parte = 0; parte < total; parte++) {
+export async function* partesDoPdf(id: number, total: number, base = 0) {
+  for (let parte = base; parte < base + total; parte++) {
     const [p] = await db
       .select({ dados: simuladoArquivo.dados })
       .from(simuladoArquivo)

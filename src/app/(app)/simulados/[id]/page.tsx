@@ -1,4 +1,4 @@
-import { ArrowLeft, Download, Printer, Trophy } from "lucide-react";
+import { ArrowLeft, BookOpenCheck, Download, Lock, Printer, Trophy } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
@@ -9,7 +9,7 @@ import { ehAdmin, exigirUsuario } from "@/lib/sessao";
 import { ANULADA, formatarTempo, segundosRestantes } from "@/lib/simulados";
 import { cn } from "@/lib/utils";
 import { temElite } from "@/server/assinatura";
-import { encerrado, obterSimuladoAluno, rankingSimulado } from "@/server/simulados";
+import { encerrado, infoComentado, obterSimuladoAluno, rankingSimulado } from "@/server/simulados";
 
 export const metadata: Metadata = { title: "Simulado" };
 
@@ -21,6 +21,9 @@ export default async function PaginaSimulado({ params }: { params: Promise<{ id:
   const dados = await obterSimuladoAluno(id, usuario.id);
   if (!dados) notFound();
   const { simulado: s, tentativa: t, gabarito } = dados;
+  // Lê só a contagem das partes do gabarito comentado (o arquivo em si sai pela rota do PDF, depois da entrega).
+  const comentado = await infoComentado(s.id);
+  const entregue = !!t?.entregueEm;
 
   return (
     <div className="mx-auto max-w-3xl space-y-6">
@@ -42,9 +45,35 @@ export default async function PaginaSimulado({ params }: { params: Promise<{ id:
           cronômetro correndo.
         </p>
         <a href={`/api/simulados/${s.id}/pdf`} className={variantesBotao({ variante: "contorno", className: "shrink-0" })}>
-          <Download className="size-4" aria-hidden /> Baixar PDF
+          <Download className="size-4" aria-hidden /> Baixar a prova
         </a>
       </Card>
+
+      {comentado && (
+        <Card className={cn("flex flex-col gap-4 p-5 sm:flex-row sm:items-center", entregue && "border-acerto/40 bg-acerto-suave")}>
+          {entregue ? (
+            <BookOpenCheck className="hidden size-8 shrink-0 text-acerto sm:block" aria-hidden />
+          ) : (
+            <Lock className="hidden size-8 shrink-0 text-suave sm:block" aria-hidden />
+          )}
+          <p className="min-w-0 flex-1 text-sm text-texto/85">
+            {entregue ? (
+              <>
+                <strong>Gabarito comentado liberado.</strong> Cada questão com a explicação de todas as alternativas.
+              </>
+            ) : (
+              <>
+                <strong>Gabarito comentado:</strong> libera aqui assim que você entregar a prova.
+              </>
+            )}
+          </p>
+          {entregue && (
+            <a href={`/api/simulados/${s.id}/pdf?tipo=comentado`} className={variantesBotao({ className: "shrink-0" })}>
+              <Download className="size-4" aria-hidden /> Baixar o comentado
+            </a>
+          )}
+        </Card>
+      )}
 
       {!t &&
         (encerrado(s) ? (
