@@ -1,0 +1,4598 @@
+{
+  "resumo": {
+    "Consumação, Tentativa e Desistência": {
+      "Tentativa (q)": 28,
+      "Dolo (q)": 3,
+      "Culpa (q)": 5,
+      "Desistência Voluntária e Arrependimento Eficaz (q)": 13,
+      "Consumação (q)": 14,
+      "Crime Impossível (q)": 10,
+      "Arrependimento Posterior (q)": 13,
+      "Agravação pelo Resultado (q)": 3,
+      "Relação de Causalidade (q)": 11,
+      "Relação de Causalidade (f)": 5,
+      "Desistência Voluntária e Arrependimento Eficaz (f)": 6,
+      "Arrependimento Posterior (f)": 1,
+      "Agravação pelo Resultado (f)": 2,
+      "Tentativa (f)": 3,
+      "Aplicação da Lei Penal (f)": 1,
+      "Crime Impossível (f)": 3,
+      "Consumação (f)": 2,
+      "Dolo (f)": 1
+    },
+    "Crime Consumado e Tentativa": {
+      "Tentativa (q)": 9,
+      "Consumação (q)": 3,
+      "Consumação (f)": 1,
+      "Tentativa (f)": 2
+    },
+    "Desistência Voluntária, Arrependimento Eficaz e Arrependimento Posterior": {
+      "Arrependimento Posterior (q)": 6,
+      "Desistência Voluntária e Arrependimento Eficaz (q)": 6,
+      "Desistência Voluntária e Arrependimento Eficaz (f)": 1,
+      "Arrependimento Posterior (f)": 2
+    },
+    "Crime Doloso, Culposo e Agravação pelo Resultado": {
+      "Culpa (q)": 10,
+      "Agravação pelo Resultado (q)": 4,
+      "Dolo (q)": 4,
+      "Dolo (f)": 2,
+      "Culpa (f)": 1
+    },
+    "Erro de Tipo e Descriminantes Putativas": {
+      "Erro de Tipo (q)": 10,
+      "Descriminantes Putativas (q)": 5,
+      "Erro de Tipo (f)": 3
+    },
+    "Coação Irresistível e Obediência Hierárquica": {
+      "Coação Moral Irresistível (q)": 5,
+      "Obediência Hierárquica (q)": 7,
+      "Coação Moral Irresistível (f)": 1,
+      "Obediência Hierárquica (f)": 2
+    },
+    "Ilicitude e Excludentes": {
+      "Erro de Proibição (q)": 9,
+      "Excludentes de Ilicitude (q)": 19,
+      "Descriminantes Putativas (q)": 7,
+      "Legítima Defesa (q)": 23,
+      "Estado de Necessidade (q)": 17,
+      "Obediência Hierárquica (q)": 5,
+      "Erro de Tipo (q)": 16,
+      "Coação Moral Irresistível (q)": 4,
+      "Estado de Necessidade (f)": 4,
+      "Legítima Defesa (f)": 5,
+      "Excludentes de Ilicitude (f)": 5,
+      "Erro de Proibição (f)": 2,
+      "Descriminantes Putativas (f)": 1,
+      "Erro de Tipo (f)": 3,
+      "Coação Moral Irresistível (f)": 1,
+      "Obediência Hierárquica (f)": 2
+    },
+    "Culpabilidade e Imputabilidade": {
+      "Obediência Hierárquica (q)": 5,
+      "Inimputabilidade por Doença Mental (q)": 23,
+      "Emoção, Paixão e Embriaguez (q)": 25,
+      "Erro de Proibição (q)": 10,
+      "Menoridade Penal (q)": 10,
+      "Teoria do Crime e Fato Típico (q)": 5,
+      "Erro de Tipo (q)": 3,
+      "Descriminantes Putativas (q)": 6,
+      "Coação Moral Irresistível (q)": 7,
+      "Estado de Necessidade (q)": 1,
+      "Excludentes de Ilicitude (q)": 3,
+      "Ação Penal (q)": 1,
+      "Erro de Tipo (f)": 2,
+      "Erro de Proibição (f)": 3,
+      "Obediência Hierárquica (f)": 3,
+      "Inimputabilidade por Doença Mental (f)": 5,
+      "Emoção, Paixão e Embriaguez (f)": 6,
+      "Coação Moral Irresistível (f)": 1,
+      "Menoridade Penal (f)": 4
+    },
+    "Ação Penal, Punibilidade e Prescrição": {
+      "Ação Penal (q)": 55,
+      "Prescrição (q)": 83,
+      "Extinção da Punibilidade (q)": 18,
+      "Prescrição (f)": 18,
+      "Ação Penal (f)": 11,
+      "Extinção da Punibilidade (f)": 3
+    }
+  },
+  "indefinidos": [],
+  "todos": [
+    {
+      "tabela": "questoes",
+      "id": 9687,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15075,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Dolo",
+      "motivo": "artigos: 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15085,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Culpa",
+      "motivo": "artigos: 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1826,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "artigos: 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4615,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9698,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Consumação",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15098,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Crime Impossível",
+      "motivo": "palavras: crime imposs[íi]vel|tentativa "
+    },
+    {
+      "tabela": "questoes",
+      "id": 15099,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "palavras: tentativa|tentad"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9679,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Arrependimento Posterior",
+      "motivo": "artigos: 16"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15077,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Agravação pelo Resultado",
+      "motivo": "artigos: 19"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4602,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Consumação",
+      "motivo": "artigos: 14, 155"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4608,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "artigos: 14, 352"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9674,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1834,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Culpa",
+      "motivo": "artigos: 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1819,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Relação de Causalidade",
+      "motivo": "artigos: 13"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15089,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Culpa",
+      "motivo": "decidida lendo o enunciado"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1822,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Consumação",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9689,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "palavras: desist[êe]ncia volunt[áa]ria|a"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9697,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1821,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Relação de Causalidade",
+      "motivo": "artigos: 13"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4614,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4610,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "palavras: tentativa|tentad"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1829,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Arrependimento Posterior",
+      "motivo": "artigos: 16"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15087,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Crime Impossível",
+      "motivo": "palavras: crime imposs[íi]vel|tentativa "
+    },
+    {
+      "tabela": "questoes",
+      "id": 9676,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "artigos: 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1833,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Dolo",
+      "motivo": "artigos: 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9671,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4605,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "palavras: tentativa|tentad"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9693,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Crime Impossível",
+      "motivo": "palavras: crime imposs[íi]vel|tentativa "
+    },
+    {
+      "tabela": "questoes",
+      "id": 1830,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Arrependimento Posterior",
+      "motivo": "artigos: 16"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9684,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Crime Impossível",
+      "motivo": "artigos: 17"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9685,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Consumação",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15096,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Agravação pelo Resultado",
+      "motivo": "artigos: 19"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9699,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Consumação",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15088,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "artigos: 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1817,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "palavras: tentativa|tentad"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15078,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Crime Impossível",
+      "motivo": "artigos: 17"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15071,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "palavras: tentativa|tentad"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4600,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Consumação",
+      "motivo": "artigos: 14, 316"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15092,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Relação de Causalidade",
+      "motivo": "artigos: 13"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1828,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15074,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Dolo",
+      "motivo": "artigos: 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4612,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "artigos: 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1832,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Crime Impossível",
+      "motivo": "palavras: crime imposs[íi]vel|tentativa "
+    },
+    {
+      "tabela": "questoes",
+      "id": 15070,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Relação de Causalidade",
+      "motivo": "artigos: 13"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15090,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "artigos: 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1820,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Relação de Causalidade",
+      "motivo": "artigos: 13"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15082,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Arrependimento Posterior",
+      "motivo": "palavras: arrependimento posterior"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1823,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9695,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Arrependimento Posterior",
+      "motivo": "artigos: 16"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9675,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15094,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Culpa",
+      "motivo": "artigos: 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9691,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Arrependimento Posterior",
+      "motivo": "artigos: 16"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9683,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Crime Impossível",
+      "motivo": "artigos: 17"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9692,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Consumação",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15081,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "artigos: 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15084,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Relação de Causalidade",
+      "motivo": "artigos: 13"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9696,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4606,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "palavras: tentativa|tentad"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9678,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Arrependimento Posterior",
+      "motivo": "artigos: 16"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15093,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Relação de Causalidade",
+      "motivo": "artigos: 13"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4599,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Consumação",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9680,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Arrependimento Posterior",
+      "motivo": "artigos: 16"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1835,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Agravação pelo Resultado",
+      "motivo": "artigos: 19"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15083,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Arrependimento Posterior",
+      "motivo": "artigos: 16"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4613,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "palavras: desist[êe]ncia volunt[áa]ria|a"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1827,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "artigos: 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1831,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Crime Impossível",
+      "motivo": "artigos: 17"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4597,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "artigos: 14, 288"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15097,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Relação de Causalidade",
+      "motivo": "artigos: 13"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4609,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "artigos: 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1824,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "fundamento: art. 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9673,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Consumação",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4611,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "palavras: desist[êe]ncia volunt[áa]ria|a"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1825,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9690,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4596,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Consumação",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15073,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Culpa",
+      "motivo": "artigos: 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4604,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1816,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Relação de Causalidade",
+      "motivo": "artigos: 13"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15072,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Relação de Causalidade",
+      "motivo": "artigos: 13"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9682,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Consumação",
+      "motivo": "palavras: consuma[çc][ãa]o|consumad"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15080,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "artigos: 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4603,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "palavras: tentativa (?:branca|cruenta|in"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15079,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Crime Impossível",
+      "motivo": "artigos: 17"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4598,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9681,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Crime Impossível",
+      "motivo": "artigos: 17"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9686,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15095,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Arrependimento Posterior",
+      "motivo": "artigos: 16"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9672,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Consumação",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9688,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Arrependimento Posterior",
+      "motivo": "artigos: 16"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15076,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Consumação",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9677,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "artigos: 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15091,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Arrependimento Posterior",
+      "motivo": "artigos: 16"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4607,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15086,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Arrependimento Posterior",
+      "motivo": "artigos: 16"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9694,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4601,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Consumação",
+      "motivo": "artigos: 14, 150"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1818,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Relação de Causalidade",
+      "motivo": "artigos: 13"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9670,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 504,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Relação de Causalidade",
+      "motivo": "artigos: 13"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 505,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Relação de Causalidade",
+      "motivo": "artigos: 13"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 506,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Relação de Causalidade",
+      "motivo": "artigos: 13"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 507,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "artigos: 15"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 508,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Arrependimento Posterior",
+      "motivo": "artigos: 16"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 509,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Agravação pelo Resultado",
+      "motivo": "artigos: 19"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1334,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1335,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1336,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Tentativa",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1337,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Aplicação da Lei Penal",
+      "motivo": "artigos: 4"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1338,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "palavras: desist[êe]ncia volunt[áa]ria|a"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1339,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "palavras: desist[êe]ncia volunt[áa]ria|a"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2349,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "artigos: 15"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2350,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "artigos: 15"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2351,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Crime Impossível",
+      "motivo": "artigos: 17"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2352,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Crime Impossível",
+      "motivo": "palavras: crime imposs[íi]vel|tentativa "
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2353,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Consumação",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2354,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Consumação",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 3425,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Relação de Causalidade",
+      "motivo": "artigos: 13, 13"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 3426,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Dolo",
+      "motivo": "artigos: 18"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 3427,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Agravação pelo Resultado",
+      "motivo": "artigos: 19, 19"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 3428,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "artigos: 15"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 3429,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Crime Impossível",
+      "motivo": "artigos: 17"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 3430,
+      "de": "Consumação, Tentativa e Desistência",
+      "para": "Relação de Causalidade",
+      "motivo": "artigos: 13, 13"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18371,
+      "de": "Crime Consumado e Tentativa",
+      "para": "Tentativa",
+      "motivo": "fundamento: art. 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18372,
+      "de": "Crime Consumado e Tentativa",
+      "para": "Consumação",
+      "motivo": "fundamento: art. 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18367,
+      "de": "Crime Consumado e Tentativa",
+      "para": "Tentativa",
+      "motivo": "fundamento: art. 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18374,
+      "de": "Crime Consumado e Tentativa",
+      "para": "Tentativa",
+      "motivo": "fundamento: art. 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18369,
+      "de": "Crime Consumado e Tentativa",
+      "para": "Tentativa",
+      "motivo": "fundamento: art. 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18373,
+      "de": "Crime Consumado e Tentativa",
+      "para": "Tentativa",
+      "motivo": "fundamento: art. 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18366,
+      "de": "Crime Consumado e Tentativa",
+      "para": "Tentativa",
+      "motivo": "fundamento: art. 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18368,
+      "de": "Crime Consumado e Tentativa",
+      "para": "Tentativa",
+      "motivo": "fundamento: art. 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18364,
+      "de": "Crime Consumado e Tentativa",
+      "para": "Consumação",
+      "motivo": "fundamento: art. 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18370,
+      "de": "Crime Consumado e Tentativa",
+      "para": "Consumação",
+      "motivo": "fundamento: art. 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18375,
+      "de": "Crime Consumado e Tentativa",
+      "para": "Tentativa",
+      "motivo": "fundamento: art. 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18365,
+      "de": "Crime Consumado e Tentativa",
+      "para": "Tentativa",
+      "motivo": "fundamento: art. 14"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 4080,
+      "de": "Crime Consumado e Tentativa",
+      "para": "Consumação",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 4081,
+      "de": "Crime Consumado e Tentativa",
+      "para": "Tentativa",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 4082,
+      "de": "Crime Consumado e Tentativa",
+      "para": "Tentativa",
+      "motivo": "artigos: 14"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18382,
+      "de": "Desistência Voluntária, Arrependimento Eficaz e Arrependimento Posterior",
+      "para": "Arrependimento Posterior",
+      "motivo": "fundamento: art. 16"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18380,
+      "de": "Desistência Voluntária, Arrependimento Eficaz e Arrependimento Posterior",
+      "para": "Arrependimento Posterior",
+      "motivo": "fundamento: art. 16"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18387,
+      "de": "Desistência Voluntária, Arrependimento Eficaz e Arrependimento Posterior",
+      "para": "Arrependimento Posterior",
+      "motivo": "fundamento: art. 16"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18385,
+      "de": "Desistência Voluntária, Arrependimento Eficaz e Arrependimento Posterior",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "fundamento: art. 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18376,
+      "de": "Desistência Voluntária, Arrependimento Eficaz e Arrependimento Posterior",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "fundamento: art. 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18377,
+      "de": "Desistência Voluntária, Arrependimento Eficaz e Arrependimento Posterior",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "fundamento: art. 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18384,
+      "de": "Desistência Voluntária, Arrependimento Eficaz e Arrependimento Posterior",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "fundamento: art. 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18386,
+      "de": "Desistência Voluntária, Arrependimento Eficaz e Arrependimento Posterior",
+      "para": "Arrependimento Posterior",
+      "motivo": "fundamento: art. 16"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18381,
+      "de": "Desistência Voluntária, Arrependimento Eficaz e Arrependimento Posterior",
+      "para": "Arrependimento Posterior",
+      "motivo": "fundamento: art. 16"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18378,
+      "de": "Desistência Voluntária, Arrependimento Eficaz e Arrependimento Posterior",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "fundamento: art. 15"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18383,
+      "de": "Desistência Voluntária, Arrependimento Eficaz e Arrependimento Posterior",
+      "para": "Arrependimento Posterior",
+      "motivo": "fundamento: art. 16"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18379,
+      "de": "Desistência Voluntária, Arrependimento Eficaz e Arrependimento Posterior",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "fundamento: art. 15"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 4083,
+      "de": "Desistência Voluntária, Arrependimento Eficaz e Arrependimento Posterior",
+      "para": "Desistência Voluntária e Arrependimento Eficaz",
+      "motivo": "artigos: 15"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 4084,
+      "de": "Desistência Voluntária, Arrependimento Eficaz e Arrependimento Posterior",
+      "para": "Arrependimento Posterior",
+      "motivo": "artigos: 16"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 4085,
+      "de": "Desistência Voluntária, Arrependimento Eficaz e Arrependimento Posterior",
+      "para": "Arrependimento Posterior",
+      "motivo": "artigos: 16"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18418,
+      "de": "Crime Doloso, Culposo e Agravação pelo Resultado",
+      "para": "Culpa",
+      "motivo": "fundamento: art. 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18421,
+      "de": "Crime Doloso, Culposo e Agravação pelo Resultado",
+      "para": "Agravação pelo Resultado",
+      "motivo": "fundamento: art. 19"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18419,
+      "de": "Crime Doloso, Culposo e Agravação pelo Resultado",
+      "para": "Culpa",
+      "motivo": "fundamento: art. 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18429,
+      "de": "Crime Doloso, Culposo e Agravação pelo Resultado",
+      "para": "Dolo",
+      "motivo": "fundamento: art. 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18422,
+      "de": "Crime Doloso, Culposo e Agravação pelo Resultado",
+      "para": "Dolo",
+      "motivo": "fundamento: art. 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18427,
+      "de": "Crime Doloso, Culposo e Agravação pelo Resultado",
+      "para": "Dolo",
+      "motivo": "fundamento: art. 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18415,
+      "de": "Crime Doloso, Culposo e Agravação pelo Resultado",
+      "para": "Culpa",
+      "motivo": "fundamento: art. 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18430,
+      "de": "Crime Doloso, Culposo e Agravação pelo Resultado",
+      "para": "Culpa",
+      "motivo": "fundamento: art. 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18423,
+      "de": "Crime Doloso, Culposo e Agravação pelo Resultado",
+      "para": "Culpa",
+      "motivo": "fundamento: art. 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18426,
+      "de": "Crime Doloso, Culposo e Agravação pelo Resultado",
+      "para": "Culpa",
+      "motivo": "fundamento: art. 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18414,
+      "de": "Crime Doloso, Culposo e Agravação pelo Resultado",
+      "para": "Culpa",
+      "motivo": "fundamento: art. 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18417,
+      "de": "Crime Doloso, Culposo e Agravação pelo Resultado",
+      "para": "Culpa",
+      "motivo": "fundamento: art. 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18425,
+      "de": "Crime Doloso, Culposo e Agravação pelo Resultado",
+      "para": "Dolo",
+      "motivo": "fundamento: art. 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18416,
+      "de": "Crime Doloso, Culposo e Agravação pelo Resultado",
+      "para": "Culpa",
+      "motivo": "fundamento: art. 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18424,
+      "de": "Crime Doloso, Culposo e Agravação pelo Resultado",
+      "para": "Agravação pelo Resultado",
+      "motivo": "fundamento: art. 19"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18413,
+      "de": "Crime Doloso, Culposo e Agravação pelo Resultado",
+      "para": "Culpa",
+      "motivo": "fundamento: art. 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18428,
+      "de": "Crime Doloso, Culposo e Agravação pelo Resultado",
+      "para": "Agravação pelo Resultado",
+      "motivo": "fundamento: art. 19"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18420,
+      "de": "Crime Doloso, Culposo e Agravação pelo Resultado",
+      "para": "Agravação pelo Resultado",
+      "motivo": "fundamento: art. 19"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 4090,
+      "de": "Crime Doloso, Culposo e Agravação pelo Resultado",
+      "para": "Dolo",
+      "motivo": "artigos: 18, 18"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 4091,
+      "de": "Crime Doloso, Culposo e Agravação pelo Resultado",
+      "para": "Culpa",
+      "motivo": "artigos: 18, 18"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 4092,
+      "de": "Crime Doloso, Culposo e Agravação pelo Resultado",
+      "para": "Dolo",
+      "motivo": "artigos: 18, 18"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18344,
+      "de": "Erro de Tipo e Descriminantes Putativas",
+      "para": "Erro de Tipo",
+      "motivo": "fundamento: art. 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18343,
+      "de": "Erro de Tipo e Descriminantes Putativas",
+      "para": "Descriminantes Putativas",
+      "motivo": "fundamento: art. 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18351,
+      "de": "Erro de Tipo e Descriminantes Putativas",
+      "para": "Erro de Tipo",
+      "motivo": "fundamento: art. 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18349,
+      "de": "Erro de Tipo e Descriminantes Putativas",
+      "para": "Descriminantes Putativas",
+      "motivo": "fundamento: art. 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18353,
+      "de": "Erro de Tipo e Descriminantes Putativas",
+      "para": "Descriminantes Putativas",
+      "motivo": "fundamento: art. 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18350,
+      "de": "Erro de Tipo e Descriminantes Putativas",
+      "para": "Erro de Tipo",
+      "motivo": "fundamento: art. 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18352,
+      "de": "Erro de Tipo e Descriminantes Putativas",
+      "para": "Erro de Tipo",
+      "motivo": "fundamento: art. 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18339,
+      "de": "Erro de Tipo e Descriminantes Putativas",
+      "para": "Erro de Tipo",
+      "motivo": "fundamento: art. 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18347,
+      "de": "Erro de Tipo e Descriminantes Putativas",
+      "para": "Erro de Tipo",
+      "motivo": "fundamento: art. 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18342,
+      "de": "Erro de Tipo e Descriminantes Putativas",
+      "para": "Descriminantes Putativas",
+      "motivo": "fundamento: art. 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18341,
+      "de": "Erro de Tipo e Descriminantes Putativas",
+      "para": "Descriminantes Putativas",
+      "motivo": "fundamento: art. 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18348,
+      "de": "Erro de Tipo e Descriminantes Putativas",
+      "para": "Erro de Tipo",
+      "motivo": "fundamento: art. 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18340,
+      "de": "Erro de Tipo e Descriminantes Putativas",
+      "para": "Erro de Tipo",
+      "motivo": "fundamento: art. 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18345,
+      "de": "Erro de Tipo e Descriminantes Putativas",
+      "para": "Erro de Tipo",
+      "motivo": "fundamento: art. 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18346,
+      "de": "Erro de Tipo e Descriminantes Putativas",
+      "para": "Erro de Tipo",
+      "motivo": "fundamento: art. 20"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 4075,
+      "de": "Erro de Tipo e Descriminantes Putativas",
+      "para": "Erro de Tipo",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 4076,
+      "de": "Erro de Tipo e Descriminantes Putativas",
+      "para": "Erro de Tipo",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 4077,
+      "de": "Erro de Tipo e Descriminantes Putativas",
+      "para": "Erro de Tipo",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18139,
+      "de": "Coação Irresistível e Obediência Hierárquica",
+      "para": "Coação Moral Irresistível",
+      "motivo": "fundamento: art. 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18135,
+      "de": "Coação Irresistível e Obediência Hierárquica",
+      "para": "Obediência Hierárquica",
+      "motivo": "fundamento: art. 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18137,
+      "de": "Coação Irresistível e Obediência Hierárquica",
+      "para": "Obediência Hierárquica",
+      "motivo": "fundamento: art. 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18130,
+      "de": "Coação Irresistível e Obediência Hierárquica",
+      "para": "Coação Moral Irresistível",
+      "motivo": "fundamento: art. 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18136,
+      "de": "Coação Irresistível e Obediência Hierárquica",
+      "para": "Obediência Hierárquica",
+      "motivo": "fundamento: art. 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18131,
+      "de": "Coação Irresistível e Obediência Hierárquica",
+      "para": "Coação Moral Irresistível",
+      "motivo": "fundamento: art. 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18138,
+      "de": "Coação Irresistível e Obediência Hierárquica",
+      "para": "Obediência Hierárquica",
+      "motivo": "fundamento: art. 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18132,
+      "de": "Coação Irresistível e Obediência Hierárquica",
+      "para": "Obediência Hierárquica",
+      "motivo": "fundamento: art. 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18134,
+      "de": "Coação Irresistível e Obediência Hierárquica",
+      "para": "Coação Moral Irresistível",
+      "motivo": "fundamento: art. 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18133,
+      "de": "Coação Irresistível e Obediência Hierárquica",
+      "para": "Obediência Hierárquica",
+      "motivo": "fundamento: art. 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18141,
+      "de": "Coação Irresistível e Obediência Hierárquica",
+      "para": "Coação Moral Irresistível",
+      "motivo": "fundamento: art. 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 18140,
+      "de": "Coação Irresistível e Obediência Hierárquica",
+      "para": "Obediência Hierárquica",
+      "motivo": "fundamento: art. 22"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 4031,
+      "de": "Coação Irresistível e Obediência Hierárquica",
+      "para": "Coação Moral Irresistível",
+      "motivo": "artigos: 22"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 4032,
+      "de": "Coação Irresistível e Obediência Hierárquica",
+      "para": "Obediência Hierárquica",
+      "motivo": "artigos: 22"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 4033,
+      "de": "Coação Irresistível e Obediência Hierárquica",
+      "para": "Obediência Hierárquica",
+      "motivo": "artigos: 22, 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14068,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Proibição",
+      "motivo": "artigos: 21"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3905,
+      "de": "Ilicitude e Excludentes",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "artigos: 23"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14062,
+      "de": "Ilicitude e Excludentes",
+      "para": "Descriminantes Putativas",
+      "motivo": "decidida lendo o enunciado"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3903,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "palavras: leg[íi]tima defesa"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14071,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "palavras: leg[íi]tima defesa"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3913,
+      "de": "Ilicitude e Excludentes",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "artigos: 23"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14063,
+      "de": "Ilicitude e Excludentes",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "palavras: art\\.?\\s*23\\b|n[ãa]o h[áa] cri"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8960,
+      "de": "Ilicitude e Excludentes",
+      "para": "Estado de Necessidade",
+      "motivo": "artigos: 24"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3897,
+      "de": "Ilicitude e Excludentes",
+      "para": "Estado de Necessidade",
+      "motivo": "artigos: 24"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14065,
+      "de": "Ilicitude e Excludentes",
+      "para": "Obediência Hierárquica",
+      "motivo": "artigos: 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3907,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "artigos: 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 701,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "artigos: 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14054,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Tipo",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8975,
+      "de": "Ilicitude e Excludentes",
+      "para": "Estado de Necessidade",
+      "motivo": "artigos: 24"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8973,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Tipo",
+      "motivo": "palavras: erro de tipo|erro sobre elemen"
+    },
+    {
+      "tabela": "questoes",
+      "id": 697,
+      "de": "Ilicitude e Excludentes",
+      "para": "Estado de Necessidade",
+      "motivo": "artigos: 24"
+    },
+    {
+      "tabela": "questoes",
+      "id": 707,
+      "de": "Ilicitude e Excludentes",
+      "para": "Descriminantes Putativas",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14072,
+      "de": "Ilicitude e Excludentes",
+      "para": "Obediência Hierárquica",
+      "motivo": "decidida lendo o enunciado"
+    },
+    {
+      "tabela": "questoes",
+      "id": 700,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "artigos: 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14058,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "palavras: leg[íi]tima defesa"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3909,
+      "de": "Ilicitude e Excludentes",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "artigos: 23"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8964,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "artigos: 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14061,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Proibição",
+      "motivo": "artigos: 21"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14078,
+      "de": "Ilicitude e Excludentes",
+      "para": "Estado de Necessidade",
+      "motivo": "palavras: estado de necessidade"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14079,
+      "de": "Ilicitude e Excludentes",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "decidida lendo o enunciado"
+    },
+    {
+      "tabela": "questoes",
+      "id": 714,
+      "de": "Ilicitude e Excludentes",
+      "para": "Estado de Necessidade",
+      "motivo": "palavras: estado de necessidade"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14053,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Tipo",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8968,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Tipo",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3914,
+      "de": "Ilicitude e Excludentes",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "artigos: 23"
+    },
+    {
+      "tabela": "questoes",
+      "id": 698,
+      "de": "Ilicitude e Excludentes",
+      "para": "Estado de Necessidade",
+      "motivo": "artigos: 24"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8957,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Proibição",
+      "motivo": "palavras: erro (?:de|sobre a) proibi[çc]"
+    },
+    {
+      "tabela": "questoes",
+      "id": 703,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "artigos: 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8970,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "artigos: 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8956,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Proibição",
+      "motivo": "artigos: 21"
+    },
+    {
+      "tabela": "questoes",
+      "id": 705,
+      "de": "Ilicitude e Excludentes",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "artigos: 23"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8962,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "artigos: 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8969,
+      "de": "Ilicitude e Excludentes",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "artigos: 23"
+    },
+    {
+      "tabela": "questoes",
+      "id": 696,
+      "de": "Ilicitude e Excludentes",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "artigos: 23"
+    },
+    {
+      "tabela": "questoes",
+      "id": 715,
+      "de": "Ilicitude e Excludentes",
+      "para": "Estado de Necessidade",
+      "motivo": "artigos: 24"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3906,
+      "de": "Ilicitude e Excludentes",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "artigos: 23"
+    },
+    {
+      "tabela": "questoes",
+      "id": 699,
+      "de": "Ilicitude e Excludentes",
+      "para": "Estado de Necessidade",
+      "motivo": "fundamento: art. 24"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8952,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Tipo",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3908,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "artigos: 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8972,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "palavras: leg[íi]tima defesa"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14077,
+      "de": "Ilicitude e Excludentes",
+      "para": "Descriminantes Putativas",
+      "motivo": "palavras: descriminantes? putativ|legíti"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8951,
+      "de": "Ilicitude e Excludentes",
+      "para": "Coação Moral Irresistível",
+      "motivo": "artigos: 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 713,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Proibição",
+      "motivo": "artigos: 21"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8974,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Tipo",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8954,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Tipo",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 710,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Tipo",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8955,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Tipo",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 712,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Proibição",
+      "motivo": "artigos: 21"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14070,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Tipo",
+      "motivo": "decidida lendo o enunciado"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8977,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "artigos: 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14069,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "palavras: leg[íi]tima defesa"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14057,
+      "de": "Ilicitude e Excludentes",
+      "para": "Obediência Hierárquica",
+      "motivo": "artigos: 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14050,
+      "de": "Ilicitude e Excludentes",
+      "para": "Estado de Necessidade",
+      "motivo": "palavras: estado de necessidade"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8963,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "palavras: leg[íi]tima defesa"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14052,
+      "de": "Ilicitude e Excludentes",
+      "para": "Descriminantes Putativas",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3896,
+      "de": "Ilicitude e Excludentes",
+      "para": "Estado de Necessidade",
+      "motivo": "artigos: 24"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8953,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Tipo",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14073,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Tipo",
+      "motivo": "palavras: erro de tipo|erro sobre elemen"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14076,
+      "de": "Ilicitude e Excludentes",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "palavras: estrito cumprimento|exerc[íi]c"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14075,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Tipo",
+      "motivo": "decidida lendo o enunciado"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3904,
+      "de": "Ilicitude e Excludentes",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "artigos: 23"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14051,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Tipo",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3910,
+      "de": "Ilicitude e Excludentes",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "artigos: 23"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8980,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "palavras: leg[íi]tima defesa"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8958,
+      "de": "Ilicitude e Excludentes",
+      "para": "Obediência Hierárquica",
+      "motivo": "artigos: 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14060,
+      "de": "Ilicitude e Excludentes",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "decidida lendo o enunciado"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3900,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "artigos: 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3911,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "palavras: leg[íi]tima defesa"
+    },
+    {
+      "tabela": "questoes",
+      "id": 708,
+      "de": "Ilicitude e Excludentes",
+      "para": "Descriminantes Putativas",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14066,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "artigos: 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3898,
+      "de": "Ilicitude e Excludentes",
+      "para": "Estado de Necessidade",
+      "motivo": "artigos: 24"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8959,
+      "de": "Ilicitude e Excludentes",
+      "para": "Obediência Hierárquica",
+      "motivo": "artigos: 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14074,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Proibição",
+      "motivo": "decidida lendo o enunciado"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14064,
+      "de": "Ilicitude e Excludentes",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "decidida lendo o enunciado"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3902,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "palavras: leg[íi]tima defesa"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8965,
+      "de": "Ilicitude e Excludentes",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "artigos: 23"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8976,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "artigos: 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8978,
+      "de": "Ilicitude e Excludentes",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "artigos: 23"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14059,
+      "de": "Ilicitude e Excludentes",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "artigos: 23"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3915,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "artigos: 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 711,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Proibição",
+      "motivo": "fundamento: art. 21"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3912,
+      "de": "Ilicitude e Excludentes",
+      "para": "Estado de Necessidade",
+      "motivo": "artigos: 24"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8971,
+      "de": "Ilicitude e Excludentes",
+      "para": "Coação Moral Irresistível",
+      "motivo": "artigos: 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8967,
+      "de": "Ilicitude e Excludentes",
+      "para": "Coação Moral Irresistível",
+      "motivo": "palavras: coa[çc][ãa]o (?:moral )?irresi"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3901,
+      "de": "Ilicitude e Excludentes",
+      "para": "Estado de Necessidade",
+      "motivo": "palavras: estado de necessidade"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14067,
+      "de": "Ilicitude e Excludentes",
+      "para": "Estado de Necessidade",
+      "motivo": "palavras: estado de necessidade"
+    },
+    {
+      "tabela": "questoes",
+      "id": 709,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Tipo",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 706,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Tipo",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 702,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "artigos: 25"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8966,
+      "de": "Ilicitude e Excludentes",
+      "para": "Descriminantes Putativas",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14056,
+      "de": "Ilicitude e Excludentes",
+      "para": "Coação Moral Irresistível",
+      "motivo": "artigos: 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 3899,
+      "de": "Ilicitude e Excludentes",
+      "para": "Estado de Necessidade",
+      "motivo": "palavras: estado de necessidade"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8961,
+      "de": "Ilicitude e Excludentes",
+      "para": "Estado de Necessidade",
+      "motivo": "artigos: 24"
+    },
+    {
+      "tabela": "questoes",
+      "id": 704,
+      "de": "Ilicitude e Excludentes",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "artigos: 23"
+    },
+    {
+      "tabela": "questoes",
+      "id": 8979,
+      "de": "Ilicitude e Excludentes",
+      "para": "Descriminantes Putativas",
+      "motivo": "palavras: descriminantes? putativ|legíti"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14055,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Proibição",
+      "motivo": "palavras: erro (?:de|sobre a) proibi[çc]"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 168,
+      "de": "Ilicitude e Excludentes",
+      "para": "Estado de Necessidade",
+      "motivo": "artigos: 24"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 169,
+      "de": "Ilicitude e Excludentes",
+      "para": "Estado de Necessidade",
+      "motivo": "artigos: 24"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 170,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "artigos: 25, 25"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 171,
+      "de": "Ilicitude e Excludentes",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "artigos: 23, 23"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 172,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Proibição",
+      "motivo": "artigos: 21"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 173,
+      "de": "Ilicitude e Excludentes",
+      "para": "Descriminantes Putativas",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1125,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "artigos: 25"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1126,
+      "de": "Ilicitude e Excludentes",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "artigos: 23"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1127,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "artigos: 25"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1128,
+      "de": "Ilicitude e Excludentes",
+      "para": "Estado de Necessidade",
+      "motivo": "artigos: 24"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1129,
+      "de": "Ilicitude e Excludentes",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "artigos: 23"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1130,
+      "de": "Ilicitude e Excludentes",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "artigos: 23"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2207,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Tipo",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2208,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Tipo",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2209,
+      "de": "Ilicitude e Excludentes",
+      "para": "Coação Moral Irresistível",
+      "motivo": "artigos: 22"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2210,
+      "de": "Ilicitude e Excludentes",
+      "para": "Obediência Hierárquica",
+      "motivo": "artigos: 22"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2211,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "artigos: 25"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 3222,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Proibição",
+      "motivo": "artigos: 21"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 3223,
+      "de": "Ilicitude e Excludentes",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "palavras: art\\.?\\s*23\\b|n[ãa]o h[áa] cri"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 3224,
+      "de": "Ilicitude e Excludentes",
+      "para": "Legítima Defesa",
+      "motivo": "artigos: 25, 25"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 3225,
+      "de": "Ilicitude e Excludentes",
+      "para": "Obediência Hierárquica",
+      "motivo": "artigos: 22, 22"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 3226,
+      "de": "Ilicitude e Excludentes",
+      "para": "Erro de Tipo",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 3227,
+      "de": "Ilicitude e Excludentes",
+      "para": "Estado de Necessidade",
+      "motivo": "artigos: 24"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14315,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Obediência Hierárquica",
+      "motivo": "artigos: 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9226,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "palavras: doen[çc]a mental|desenvolvimen"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1734,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "artigos: 28"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4487,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "artigos: 28"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9246,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "artigos: 28"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14304,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Erro de Proibição",
+      "motivo": "artigos: 21"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14294,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Obediência Hierárquica",
+      "motivo": "artigos: 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4491,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "artigos: 28"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14301,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Erro de Proibição",
+      "motivo": "artigos: 21"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4485,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Menoridade Penal",
+      "motivo": "artigos: 27"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14311,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Teoria do Crime e Fato Típico",
+      "motivo": "decidida lendo o enunciado"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9240,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "artigos: 26"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1720,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Erro de Tipo",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9242,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Menoridade Penal",
+      "motivo": "artigos: 228, 27"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1723,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Erro de Proibição",
+      "motivo": "artigos: 21"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4488,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "artigos: 28"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14310,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Teoria do Crime e Fato Típico",
+      "motivo": "decidida lendo o enunciado"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4495,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Descriminantes Putativas",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1731,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "artigos: 28"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9249,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Menoridade Penal",
+      "motivo": "artigos: 228, 27"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1735,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "palavras: embriaguez|emo[çc][ãa]o ou a p"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14300,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "artigos: 26"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4489,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "artigos: 28"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14296,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "artigos: 26"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9228,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "artigos: 28"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1724,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Erro de Proibição",
+      "motivo": "artigos: 21"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14309,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "palavras: embriaguez|emo[çc][ãa]o ou a p"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4492,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Erro de Proibição",
+      "motivo": "artigos: 21"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14295,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Erro de Proibição",
+      "motivo": "artigos: 21"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9247,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "artigos: 26"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4478,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Coação Moral Irresistível",
+      "motivo": "artigos: 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14313,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Erro de Proibição",
+      "motivo": "decidida lendo o enunciado"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14316,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Coação Moral Irresistível",
+      "motivo": "palavras: coa[çc][ãa]o (?:moral )?irresi"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14314,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "artigos: 28"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4477,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Coação Moral Irresistível",
+      "motivo": "palavras: coa[çc][ãa]o (?:moral )?irresi"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9248,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "decidida lendo o enunciado"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4490,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "artigos: 28"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1728,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "fundamento: art. 26"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1719,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Descriminantes Putativas",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9235,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "palavras: doen[çc]a mental|desenvolvimen"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14303,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "artigos: 26"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9221,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "palavras: doen[çc]a mental|desenvolvimen"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14318,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Coação Moral Irresistível",
+      "motivo": "artigos: 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14306,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "artigos: 28"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14291,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Coação Moral Irresistível",
+      "motivo": "artigos: 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14319,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "artigos: 28"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1732,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "artigos: 28"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14297,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Estado de Necessidade",
+      "motivo": "palavras: estado de necessidade"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14293,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Menoridade Penal",
+      "motivo": "artigos: 27"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1722,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Erro de Proibição",
+      "motivo": "artigos: 21"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4481,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Obediência Hierárquica",
+      "motivo": "artigos: 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9222,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "palavras: doen[çc]a mental|desenvolvimen"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14317,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Descriminantes Putativas",
+      "motivo": "decidida lendo o enunciado"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9231,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Teoria do Crime e Fato Típico",
+      "motivo": "decidida lendo o enunciado"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9244,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "artigos: 26"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9223,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "artigos: 28"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9236,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "artigos: 26"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14292,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Menoridade Penal",
+      "motivo": "artigos: 27"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9238,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "decidida lendo o enunciado"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4476,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Teoria do Crime e Fato Típico",
+      "motivo": "decidida lendo o enunciado"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9239,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "artigos: 28"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9245,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "artigos: 26"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9233,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Teoria do Crime e Fato Típico",
+      "motivo": "decidida lendo o enunciado"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1730,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Menoridade Penal",
+      "motivo": "artigos: 27"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1718,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Descriminantes Putativas",
+      "motivo": "fundamento: art. 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14290,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "palavras: art\\.?\\s*23\\b|n[ãa]o h[áa] cri"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4493,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Erro de Proibição",
+      "motivo": "palavras: erro (?:de|sobre a) proibi[çc]"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9229,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "artigos: 28"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9243,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "artigos: 26"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4483,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "artigos: 26"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9237,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Menoridade Penal",
+      "motivo": "artigos: 228, 27"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4484,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "artigos: 26"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1727,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "artigos: 26"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14299,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "artigos: 28"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9232,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "artigos: 26"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9225,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Menoridade Penal",
+      "motivo": "artigos: 228, 27"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14312,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "artigos: 28"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1717,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Descriminantes Putativas",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9227,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "artigos: 28"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14298,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "palavras: estrito cumprimento|exerc[íi]c"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4494,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Erro de Proibição",
+      "motivo": "palavras: erro (?:de|sobre a) proibi[çc]"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1733,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "artigos: 28"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4486,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "palavras: doen[çc]a mental|desenvolvimen"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9234,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "artigos: 26"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1721,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Erro de Tipo",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14305,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "palavras: embriaguez|emo[çc][ãa]o ou a p"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14307,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Descriminantes Putativas",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14308,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Excludentes de Ilicitude",
+      "motivo": "palavras: estrito cumprimento|exerc[íi]c"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9224,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Menoridade Penal",
+      "motivo": "artigos: 228, 27"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1726,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Obediência Hierárquica",
+      "motivo": "artigos: 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4480,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Obediência Hierárquica",
+      "motivo": "artigos: 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4482,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "artigos: 26"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1725,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Coação Moral Irresistível",
+      "motivo": "fundamento: art. 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1729,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "artigos: 26"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4479,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Coação Moral Irresistível",
+      "motivo": "artigos: 22"
+    },
+    {
+      "tabela": "questoes",
+      "id": 14302,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Menoridade Penal",
+      "motivo": "artigos: 27"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9241,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "artigos: 26"
+    },
+    {
+      "tabela": "questoes",
+      "id": 9230,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Ação Penal",
+      "motivo": "palavras: a[çc][ãa]o penal|queixa|repres"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1716,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Erro de Tipo",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 474,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Erro de Tipo",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 475,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Erro de Tipo",
+      "motivo": "artigos: 20"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 476,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Erro de Proibição",
+      "motivo": "artigos: 21"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 477,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Obediência Hierárquica",
+      "motivo": "artigos: 22"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 478,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "artigos: 26"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 479,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "artigos: 28"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1298,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Coação Moral Irresistível",
+      "motivo": "artigos: 22"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1299,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Erro de Proibição",
+      "motivo": "artigos: 21"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1300,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Menoridade Penal",
+      "motivo": "artigos: 27"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1301,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "artigos: 26"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1302,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Obediência Hierárquica",
+      "motivo": "artigos: 22"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1303,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "artigos: 28"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2259,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "artigos: 26"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2260,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "artigos: 28"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2261,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "artigos: 28"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2262,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "decidida lendo o enunciado"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2263,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Menoridade Penal",
+      "motivo": "artigos: 27"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2264,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "artigos: 26"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 3270,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Obediência Hierárquica",
+      "motivo": "artigos: 22, 22, 22"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 3271,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Erro de Proibição",
+      "motivo": "artigos: 21"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 3272,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Menoridade Penal",
+      "motivo": "artigos: 27"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 3273,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Menoridade Penal",
+      "motivo": "artigos: 27"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 3274,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Emoção, Paixão e Embriaguez",
+      "motivo": "palavras: embriaguez|emo[çc][ãa]o ou a p"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 3275,
+      "de": "Culpabilidade e Imputabilidade",
+      "para": "Inimputabilidade por Doença Mental",
+      "motivo": "artigos: 26"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10235,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos (maioria): 102, 105, 107"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1394,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 117"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10213,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 117"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19388,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "fundamento: art. 117"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10230,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 103"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10221,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 111"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15456,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 113"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10231,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 102"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1381,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "palavras: a[çc][ãa]o penal|queixa|repres"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15451,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 106"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4880,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Extinção da Punibilidade",
+      "motivo": "artigos: 107"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19156,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "fundamento: art. 104"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4879,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Extinção da Punibilidade",
+      "motivo": "artigos: 107"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15444,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 117"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19385,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "fundamento: art. 114"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19392,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "fundamento: art. 115"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4896,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "palavras: prescri[çc][ãa]o|prescreve"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4903,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "palavras: prescri[çc][ãa]o|prescreve"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4878,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "palavras: a[çc][ãa]o penal|queixa|repres"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19148,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "fundamento: art. 100"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19391,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Extinção da Punibilidade",
+      "motivo": "fundamento: art. 120"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15432,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 103"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19162,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "fundamento: art. 106"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19383,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "fundamento: art. 111"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10210,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 100"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19384,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "fundamento: art. 111"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4902,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "palavras: prescri[çc][ãa]o|prescreve"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4890,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 117"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4895,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "palavras: a[çc][ãa]o penal|queixa|repres"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19390,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "fundamento: art. 119"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15439,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 111"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4883,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 109"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1391,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 116, 117"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1386,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 109, 114"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10216,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 112, 117"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19397,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "fundamento: art. 115"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4899,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "palavras: a[çc][ãa]o penal|queixa|repres"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19376,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Extinção da Punibilidade",
+      "motivo": "fundamento: art. 107"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19386,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "fundamento: art. 115"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15454,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 119"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19380,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "fundamento: art. 109"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4885,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 115"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4887,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 111"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4891,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "palavras: prescri[çc][ãa]o|prescreve"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4889,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 117"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15442,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "palavras: prescri[çc][ãa]o|prescreve"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10215,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "palavras: a[çc][ãa]o penal|queixa|repres"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10227,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Extinção da Punibilidade",
+      "motivo": "artigos: 107"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1393,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 117"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19159,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "fundamento: art. 106"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1392,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 116"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19151,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "fundamento: art. 101"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10211,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 100"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19396,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "fundamento: art. 109"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1377,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 100, 103"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1388,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 109, 115"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10214,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "palavras: a[çc][ãa]o penal|queixa|repres"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4884,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 109"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10218,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 100, 103"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4904,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "palavras: prescri[çc][ãa]o|prescreve"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19150,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "fundamento: art. 100"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15434,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 100"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15459,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 111"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4901,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "palavras: prescri[çc][ãa]o|prescreve"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1376,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 100"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15447,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "palavras: a[çc][ãa]o penal|queixa|repres"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15449,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 114"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19161,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "fundamento: art. 106"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1380,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "palavras: a[çc][ãa]o penal|queixa|repres"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4882,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 109"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15453,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "palavras: a[çc][ãa]o penal|queixa|repres"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15433,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 115"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4900,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "palavras: prescri[çc][ãa]o|prescreve"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10219,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 109, 110"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1390,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 109, 110"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19163,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "fundamento: art. 106"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15448,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Extinção da Punibilidade",
+      "motivo": "palavras: extin[çc][ãa]o da punibilidade"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10225,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 114"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19394,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "fundamento: art. 117"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15435,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 100"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19378,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Extinção da Punibilidade",
+      "motivo": "fundamento: art. 107"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15458,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Extinção da Punibilidade",
+      "motivo": "artigos: 108"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1384,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Extinção da Punibilidade",
+      "motivo": "artigos: 108"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1385,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Extinção da Punibilidade",
+      "motivo": "artigos: 107, 120"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4875,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 100"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10238,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 116"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19398,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "fundamento: art. 112"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15438,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 111"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10226,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 112, 113"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15455,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 102"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1379,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 103"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15431,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 103"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10220,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "palavras: prescri[çc][ãa]o|prescreve"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4881,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Extinção da Punibilidade",
+      "motivo": "artigos: 108"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10234,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 106"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15443,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos (maioria): 105, 106, 107"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10222,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 111"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4876,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 101"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4898,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "palavras: prescri[çc][ãa]o|prescreve"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1387,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 109"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4893,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 103"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19158,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "fundamento: art. 106"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15450,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 117"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19160,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "fundamento: art. 106"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1382,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 100"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19153,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "fundamento: art. 103"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4886,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 111"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1395,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 109, 112, 113"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19146,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "fundamento: art. 100"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19149,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "fundamento: art. 100"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19377,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Extinção da Punibilidade",
+      "motivo": "fundamento: art. 107"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1389,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 109, 115"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19154,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "fundamento: art. 103"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10237,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 116"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19379,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Extinção da Punibilidade",
+      "motivo": "fundamento: art. 108"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4888,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 111"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19166,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "fundamento: art. 100"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10223,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 112, 117"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10236,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 115"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19152,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "fundamento: art. 102"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1378,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 102"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19395,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "fundamento: art. 116"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19389,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "fundamento: art. 117"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19164,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "fundamento: art. 104"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19157,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "fundamento: art. 105"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19375,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Extinção da Punibilidade",
+      "motivo": "fundamento: art. 107"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4894,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 110"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10228,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 117"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19155,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "fundamento: art. 104"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10217,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 116"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19381,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "fundamento: art. 109"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10239,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 111"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19147,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "fundamento: art. 100"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4877,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 104"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10233,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "palavras: prescri[çc][ãa]o|prescreve"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19387,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "fundamento: art. 116"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15446,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 115"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15437,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "palavras: a[çc][ãa]o penal|queixa|repres"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10229,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 109, 110"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15457,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 117"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15452,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Extinção da Punibilidade",
+      "motivo": "artigos: 107"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19393,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "fundamento: art. 111"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10232,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 116"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10224,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 116"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19382,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "fundamento: art. 110"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15440,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 115"
+    },
+    {
+      "tabela": "questoes",
+      "id": 1383,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Extinção da Punibilidade",
+      "motivo": "artigos: 107"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4897,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Extinção da Punibilidade",
+      "motivo": "palavras: extin[çc][ãa]o da punibilidade"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15441,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "palavras: prescri[çc][ãa]o|prescreve"
+    },
+    {
+      "tabela": "questoes",
+      "id": 10212,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 111"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15436,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Extinção da Punibilidade",
+      "motivo": "artigos: 108"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19165,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "fundamento: art. 103"
+    },
+    {
+      "tabela": "questoes",
+      "id": 4892,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "palavras: prescri[çc][ãa]o|prescreve"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15430,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 118"
+    },
+    {
+      "tabela": "questoes",
+      "id": 19145,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "fundamento: art. 100"
+    },
+    {
+      "tabela": "questoes",
+      "id": 15445,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 116"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 372,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 114"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 373,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 111"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 374,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 111"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 375,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 110"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 376,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 119"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 377,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 106"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1394,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 100"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1395,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 109"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1396,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 109"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1397,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 117"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1398,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Extinção da Punibilidade",
+      "motivo": "artigos: 120"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 1399,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 113"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2457,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 105"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2458,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 100"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2459,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 102"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2460,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 117"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2461,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 116"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 2462,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 116"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 3497,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 118, 118"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 3498,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 103"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 3499,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 115, 115"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 3500,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 100"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 3501,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 117, 113"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 3502,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Extinção da Punibilidade",
+      "motivo": "artigos: 108"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 4224,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 100"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 4225,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 102"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 4226,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 103"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 4227,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Ação Penal",
+      "motivo": "artigos: 104"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 4265,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Extinção da Punibilidade",
+      "motivo": "artigos: 107, 107"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 4266,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 109"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 4267,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 118"
+    },
+    {
+      "tabela": "flashcards",
+      "id": 4268,
+      "de": "Ação Penal, Punibilidade e Prescrição",
+      "para": "Prescrição",
+      "motivo": "artigos: 116"
+    }
+  ]
+}
