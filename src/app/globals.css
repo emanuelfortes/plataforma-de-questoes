@@ -45,6 +45,17 @@
   --color-oliva: #a3b46b;
   --color-oliva-suave: rgba(130, 148, 72, 0.09);
 
+  /* Uma cor por parte da plataforma (cartões de entrada, ícones e aba ativa): questões no azul da marca,
+     flashcards violeta, simulados laranja (a chapa que esquenta) e Vade Mecum verde-água. */
+  --color-questoes: #4aaeea;
+  --color-questoes-suave: rgba(74, 174, 234, 0.16);
+  --color-flash: #a78bfa;
+  --color-flash-suave: rgba(167, 139, 250, 0.16);
+  --color-simulado: #ff8a3d;
+  --color-simulado-suave: rgba(255, 138, 61, 0.16);
+  --color-vade: #34c7a5;
+  --color-vade-suave: rgba(52, 199, 165, 0.15);
+
   --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
   /* Letra de estêncil (caixotes e fardas), só em títulos e números do ranking. */
   --font-estencil: var(--font-black-ops), var(--font-manrope), ui-sans-serif, sans-serif;
@@ -96,6 +107,14 @@
     --color-fogo: #e8531c;
     --color-oliva: #55682a;
     --color-oliva-suave: rgba(85, 104, 42, 0.06);
+    --color-questoes: #1b8ed3;
+    --color-questoes-suave: #e2f1fb;
+    --color-flash: #7356d6;
+    --color-flash-suave: #eeeafc;
+    --color-simulado: #d4621a;
+    --color-simulado-suave: #fdeee3;
+    --color-vade: #0e8c72;
+    --color-vade-suave: #ddf4ee;
   }
   @media (prefers-color-scheme: light) {
     :root:not([data-tema]) {
@@ -123,6 +142,14 @@
       --color-fogo: #e8531c;
       --color-oliva: #55682a;
       --color-oliva-suave: rgba(85, 104, 42, 0.06);
+      --color-questoes: #1b8ed3;
+      --color-questoes-suave: #e2f1fb;
+      --color-flash: #7356d6;
+      --color-flash-suave: #eeeafc;
+      --color-simulado: #d4621a;
+      --color-simulado-suave: #fdeee3;
+      --color-vade: #0e8c72;
+      --color-vade-suave: #ddf4ee;
     }
   }
 }

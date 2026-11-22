@@ -28,7 +28,7 @@ export default async function PaginaFlashcards({ searchParams }: { searchParams:
   return (
     <div className="mx-auto max-w-xl space-y-6">
       <div>
-        <p className="text-[13px] font-bold uppercase tracking-[.06em] text-destaque">Flashcards</p>
+        <p className="text-[13px] font-bold uppercase tracking-[.06em] text-flash">Flashcards</p>
         <h1 className="mt-1 text-[28px] sm:text-[34px] font-extrabold leading-[1.1] tracking-[-.03em]">Revisão do dia</h1>
         <p className="mt-2 text-sm text-suave">
           Revisões vencidas primeiro, depois cards novos. O intervalo de cada card se ajusta à sua resposta.

@@ -1,4 +1,4 @@
-import { Check, ChevronRight, FileText } from "lucide-react";
+import { Check, ChevronRight, FileClock, FileText } from "lucide-react";
 import { CartaoAgendado } from "@/components/simulados/cartao-agendado";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -31,7 +31,9 @@ export default async function PaginaSimulados({ searchParams }: { searchParams: 
   return (
     <div className="mx-auto max-w-2xl space-y-6">
       <div>
-        <p className="text-[13px] font-bold uppercase tracking-[.06em] text-destaque">Tropa de Elite</p>
+        <p className="inline-flex items-center gap-1.5 text-[13px] font-bold uppercase tracking-[.06em] text-simulado">
+          <FileClock className="size-4" aria-hidden /> Tropa de Elite
+        </p>
         <h1 className="mt-1 text-[34px] font-extrabold leading-[1.1] tracking-[-.03em]">Simulados</h1>
         <p className="mt-2 text-sm text-suave">
           Baixe o PDF, imprima e faça como no dia da prova. Aqui você dá o play no cronômetro, marca o gabarito e vê sua
@@ -97,14 +99,16 @@ async function Lista({ usuarioId }: { usuarioId: string }) {
             ? { tom: "text-destaque", texto: "Em andamento" }
             : encerrado(s)
               ? { tom: "text-suave", texto: "Encerrado" }
-              : { tom: "text-marca-clara", texto: "Disponível" };
+              : { tom: "text-simulado", texto: "Disponível" };
         return (
           <li key={s.id}>
             <Link
               href={`/simulados/${s.id}`}
-              className="flex items-center gap-4 rounded-2xl border border-borda bg-superficie p-4 transition-colors hover:bg-camada"
+              className="group flex items-center gap-4 rounded-2xl border border-borda bg-superficie p-4 transition-colors hover:border-simulado hover:bg-camada"
             >
-              <FileText className="size-8 shrink-0 text-marca-clara" aria-hidden />
+              <span className="grid size-12 shrink-0 place-items-center rounded-xl bg-simulado-suave text-simulado transition-transform group-hover:-rotate-6 group-hover:scale-110 motion-reduce:transform-none">
+                <FileText className="size-6" aria-hidden />
+              </span>
               <div className="min-w-0 flex-1">
                 <p className="text-xs font-bold uppercase tracking-[.06em] text-suave">{s.concurso}</p>
                 <p className="font-extrabold">{s.titulo}</p>
@@ -114,7 +118,7 @@ async function Lista({ usuarioId }: { usuarioId: string }) {
                 </p>
                 <p className={cn("mt-1 text-sm font-bold", situacao.tom)}>{situacao.texto}</p>
               </div>
-              <ChevronRight className="size-5 shrink-0 text-suave" aria-hidden />
+              <ChevronRight className="size-5 shrink-0 text-suave transition-transform group-hover:translate-x-1 group-hover:text-simulado motion-reduce:transform-none" aria-hidden />
             </Link>
           </li>
         );

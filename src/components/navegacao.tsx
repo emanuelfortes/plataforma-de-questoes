@@ -6,22 +6,24 @@ import { Logo } from "@/components/logo";
 import { usePathname, useRouter } from "next/navigation";
 import { authClient } from "@/lib/auth-client";
 import { cn } from "@/lib/utils";
+import { COR_AREA, type ChaveCor } from "@/lib/cores-area";
 import { NOME_PLATAFORMA } from "@/lib/marca";
 import { NomeMarca } from "./nome-marca";
 import { BotaoTema } from "@/components/botao-tema";
 
-type ItemNav = { href: string; rotulo: string; Icone: LucideIcon; ativoEm: string[] };
+/** cor: a cor da parte (src/lib/cores-area.ts), usada na aba ativa. */
+type ItemNav = { href: string; rotulo: string; Icone: LucideIcon; ativoEm: string[]; cor: ChaveCor };
 
 // "Estudar" fica ativo também durante a resolução (questões e flashcards).
 const LINKS: ItemNav[] = [
-  { href: "/estudar", rotulo: "Estudar", Icone: GraduationCap, ativoEm: ["/estudar", "/questoes", "/flashcards"] },
-  { href: "/vade-mecum", rotulo: "Vade Mecum", Icone: BookMarked, ativoEm: ["/vade-mecum"] },
-  { href: "/desempenho", rotulo: "Desempenho", Icone: ChartColumn, ativoEm: ["/desempenho"] },
-  { href: "/simulados", rotulo: "Simulados", Icone: FileClock, ativoEm: ["/simulados"] },
-  { href: "/ranking", rotulo: "Ranking", Icone: Trophy, ativoEm: ["/ranking"] },
+  { href: "/estudar", rotulo: "Estudar", Icone: GraduationCap, ativoEm: ["/estudar", "/questoes", "/flashcards"], cor: "questoes" },
+  { href: "/vade-mecum", rotulo: "Vade Mecum", Icone: BookMarked, ativoEm: ["/vade-mecum"], cor: "vade" },
+  { href: "/desempenho", rotulo: "Desempenho", Icone: ChartColumn, ativoEm: ["/desempenho"], cor: "desempenho" },
+  { href: "/simulados", rotulo: "Simulados", Icone: FileClock, ativoEm: ["/simulados"], cor: "simulados" },
+  { href: "/ranking", rotulo: "Ranking", Icone: Trophy, ativoEm: ["/ranking"], cor: "ranking" },
 ];
-const ADMIN: ItemNav = { href: "/admin", rotulo: "Admin", Icone: ShieldCheck, ativoEm: ["/admin"] };
-const CONTA: ItemNav = { href: "/conta", rotulo: "Minha conta", Icone: UserRound, ativoEm: ["/conta"] };
+const ADMIN: ItemNav = { href: "/admin", rotulo: "Admin", Icone: ShieldCheck, ativoEm: ["/admin"], cor: "marca" };
+const CONTA: ItemNav = { href: "/conta", rotulo: "Minha conta", Icone: UserRound, ativoEm: ["/conta"], cor: "marca" };
 
 type Props = {
   nome: string;
@@ -49,6 +51,8 @@ export function Navegacao({ nome, admin, streak, percentual }: Props) {
   const router = useRouter();
   const links = admin ? [...LINKS, ADMIN] : LINKS;
   const ativo = (l: ItemNav) => l.ativoEm.some((c) => caminho.startsWith(c));
+  // Na revisão de flashcards a aba Estudar fica na cor dos flashcards.
+  const cor = (l: ItemNav) => COR_AREA[l.href === "/estudar" && caminho.startsWith("/flashcards") ? "flashcards" : l.cor];
   // Na resolução de questões as abas sobem para o topo: a tela fica livre para a questão e as setas.
   const semAbas = caminho.startsWith("/questoes");
 
@@ -84,7 +88,7 @@ export function Navegacao({ nome, admin, streak, percentual }: Props) {
                 href={l.href}
                 className={cn(
                   "border-b-2 px-3.5 py-2 text-sm transition-colors",
-                  ativo(l) ? "border-marca font-bold text-texto" : "border-transparent font-semibold text-suave hover:text-texto",
+                  ativo(l) ? cn(cor(l).linha, "font-bold text-texto") : "border-transparent font-semibold text-suave hover:text-texto",
                 )}
               >
                 {l.rotulo}
@@ -127,7 +131,7 @@ export function Navegacao({ nome, admin, streak, percentual }: Props) {
                       title={l.rotulo}
                       className={cn(
                         "grid size-9 shrink-0 place-items-center rounded-xl transition-colors",
-                        atual ? "bg-marca-suave text-marca-clara" : "text-suave hover:text-texto",
+                        atual ? cn(cor(l).fundo, cor(l).texto) : "text-suave hover:text-texto",
                       )}
                     >
                       <l.Icone className="size-5" strokeWidth={atual ? 2.4 : 2} aria-hidden />
@@ -171,13 +175,13 @@ export function Navegacao({ nome, admin, streak, percentual }: Props) {
                     title={l.rotulo}
                     className={cn(
                       "flex h-16 items-center justify-center transition-colors",
-                      atual ? "text-marca-clara" : "text-suave hover:text-texto",
+                      atual ? cor(l).texto : "text-suave hover:text-texto",
                   )}
                 >
                   <span
                     className={cn(
                       "grid h-9 w-full max-w-14 place-items-center rounded-full transition-colors",
-                      atual && "bg-marca-suave",
+                      atual && cor(l).fundo,
                     )}
                   >
                     <l.Icone className="size-6" strokeWidth={atual ? 2.4 : 2} aria-hidden />

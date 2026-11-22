@@ -1,4 +1,4 @@
-import { BookMarked, ChevronRight } from "lucide-react";
+import { BookMarked, ChevronRight, Scale } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { VadeMecumBloqueado } from "@/components/vade-mecum/bloqueado";
@@ -26,7 +26,7 @@ export default async function PaginaVadeMecum() {
   return (
     <div className="mx-auto max-w-3xl space-y-6">
       <div>
-        <p className="inline-flex items-center gap-1.5 text-[13px] font-bold uppercase tracking-[.06em] text-destaque">
+        <p className="inline-flex items-center gap-1.5 text-[13px] font-bold uppercase tracking-[.06em] text-vade">
           <BookMarked className="size-4" aria-hidden /> Vade Mecum
         </p>
         <h1 className="mt-1 text-[28px] font-extrabold leading-[1.1] tracking-[-.03em] sm:text-[34px]">A lei, do jeito certo de ler</h1>
@@ -41,9 +41,12 @@ export default async function PaginaVadeMecum() {
           <ul className="overflow-hidden rounded-2xl border border-borda bg-superficie">
             {g.leis.map((l) => (
               <li key={l.id} className="border-t border-borda first:border-t-0">
-                <Link href={`/vade-mecum/${l.id}`} className="flex items-center gap-3 px-4 py-3 text-sm font-bold transition-colors hover:bg-camada">
+                <Link href={`/vade-mecum/${l.id}`} className="group flex items-center gap-3 px-4 py-3 text-sm font-bold transition-colors hover:bg-vade-suave">
+                  <span className="grid size-8 shrink-0 place-items-center rounded-lg bg-vade-suave text-vade transition-transform group-hover:scale-110 motion-reduce:transform-none">
+                    <Scale className="size-4" aria-hidden />
+                  </span>
                   <span className="min-w-0 flex-1">{l.nome}</span>
-                  <ChevronRight className="size-4 shrink-0 text-suave" aria-hidden />
+                  <ChevronRight className="size-4 shrink-0 text-suave transition-transform group-hover:translate-x-1 group-hover:text-vade motion-reduce:transform-none" aria-hidden />
                 </Link>
               </li>
             ))}
