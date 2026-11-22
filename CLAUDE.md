@@ -91,7 +91,8 @@ src/db/aprovacao.ts                       aprovar, rejeitar e reportar erro (tel
 - `flashcards`: frente e verso.
 - `disciplinas`, `assuntos` (matéria e área). Criadas na importação (a IA tira do PDF); nomes equivalentes são unidos por `chaveNome()` em `src/lib/catalogo.ts`.
 - `questoes.dificuldade`: 1 fácil, 2 médio, 3 difícil (`src/lib/dificuldade.ts`). É opção do aluno na tela de filtro (Opções), mas na questão só aparece depois da resposta.
-- `questoes.ordem`: posição sorteada na importação. A listagem segue `(ordem, id)` para misturar níveis e áreas, começando num ponto sorteado por sessão.
+- `questoes.ordem`: posição sorteada na importação. A listagem segue `(ordem, id)` para misturar áreas, começando num ponto sorteado por sessão.
+  Níveis: uma fila por nível (cursor próprio, índice `(matéria ou área, dificuldade, ordem)`), juntas em 50% fácil, 30% médio e 20% difícil (`PESO_NIVEL` em `src/lib/dificuldade.ts`); se um nível acaba, os outros completam. Posições na URL: `n1`, `n2`, `n3`.
 - `contagens`: totais pré-calculados (`q:total`, `q:d:<id>`, `q:a:<id>`, `f:total`, `f:d:<id>`, `f:a:<id>`).
 - `respostas`: histórico, uma linha por tentativa. Fonte do desempenho.
 - `status_questao`: último estado por aluno e questão. Fonte dos filtros e ícones.

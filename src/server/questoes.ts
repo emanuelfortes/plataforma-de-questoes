@@ -6,7 +6,7 @@ import { artigosQuestao, assuntos, contagens, disciplinas, questoes, statusQuest
 
 import { dificuldadePorNivel } from "@/lib/dificuldade";
 import { totalDoFiltro } from "@/lib/contagens";
-import { NIVEL_DIFICULDADE } from "@/lib/dificuldade";
+import { NIVEL_DIFICULDADE, PESO_NIVEL } from "@/lib/dificuldade";
 import type { DificuldadeFiltro, FiltroStatus, StatusAluno, TipoQuestao } from "@/lib/filtros";
 
 export const TAMANHO_PAGINA = 20;
@@ -78,41 +78,105 @@ export async function listarAssuntos(disciplinaId: number) {
     .orderBy(asc(assuntos.nome));
 }
 
+/** Onde uma fila parou: depois deste par (ordem, id), se já deu a volta e se acabou. Sem cursor = do começo. */
+export type PosicaoFila = { cursor?: CursorQuestoes; voltou: boolean; fim?: boolean };
+/** Uma posição por fila: "t" (todas, no artigo de lei), "1", "2", "3" (níveis) e "0" (sem nível). */
+export type PosicoesQuestoes = Record<string, PosicaoFila>;
+
+const CHAVES_FILA = ["t", "1", "2", "3", "0"] as const;
+
+/** Posições na URL: n1=ordem.id (".v" se já deu a volta) ou n1=fim. Sem o parâmetro, a fila está no começo. */
+export function lerPosicoes(texto: (k: string) => string | undefined): PosicoesQuestoes {
+  const posicoes: PosicoesQuestoes = {};
+  for (const chave of CHAVES_FILA) {
+    const valor = texto(`n${chave}`);
+    if (!valor) continue;
+    if (valor === "fim") {
+      posicoes[chave] = { voltou: true, fim: true };
+      continue;
+    }
+    const [ordem, id, v] = valor.split(".");
+    const o = Number(ordem);
+    const i = Number(id);
+    if (Number.isInteger(o) && o >= 0 && Number.isInteger(i) && i > 0) posicoes[chave] = { cursor: { ordem: o, id: i }, voltou: v === "v" };
+  }
+  return posicoes;
+}
+
+export function escreverPosicoes(p: URLSearchParams, posicoes: PosicoesQuestoes) {
+  for (const [chave, pos] of Object.entries(posicoes)) {
+    if (pos.fim) p.set(`n${chave}`, "fim");
+    else if (pos.cursor) p.set(`n${chave}`, `${pos.cursor.ordem}.${pos.cursor.id}${pos.voltou ? ".v" : ""}`);
+  }
+}
+
+/**
+ * Rodízio ponderado suave: devolve a fila de cada vaga, espalhando os pesos (5, 3, 2 dá F M F D F M F M D F).
+ * "pode" diz se a fila ainda tem o que dar, sabendo quantas vagas ela já levou.
+ */
+function rodizio(pesos: number[], vagas: number, pode: (i: number, levadas: number) => boolean) {
+  const acumulado = pesos.map(() => 0);
+  const levadas = pesos.map(() => 0);
+  const saida: number[] = [];
+  while (saida.length < vagas) {
+    const ativas = pesos.map((_, i) => i).filter((i) => pode(i, levadas[i]!));
+    if (!ativas.length) break;
+    let soma = 0;
+    let melhor = ativas[0]!;
+    for (const i of ativas) {
+      soma += pesos[i]!;
+      acumulado[i]! += pesos[i]!;
+      if (acumulado[i]! > acumulado[melhor]!) melhor = i;
+    }
+    acumulado[melhor]! -= soma;
+    levadas[melhor]!++;
+    saida.push(melhor);
+  }
+  return saida;
+}
+
 /**
  * Lista questões em ordem embaralhada, com paginação por cursor. Nunca use OFFSET nem ORDER BY random():
  * com 1 milhão de linhas os dois leem a tabela inteira.
  *
- * Cada questão recebe na importação uma posição sorteada ("ordem"), então níveis e áreas vêm misturados.
- * Cada sessão começa num ponto sorteado ("inicio"): vai de inicio até o fim e depois dá a volta,
- * do começo até inicio ("voltou"). Assim cada aluno, a cada sessão, vê uma sequência diferente.
+ * Cada questão recebe na importação uma posição sorteada ("ordem"). Cada sessão começa num ponto sorteado
+ * ("inicio"): vai de inicio até o fim e depois dá a volta, do começo até inicio ("voltou").
+ *
+ * Níveis: uma fila por nível, cada uma com o próprio cursor e o índice (matéria ou área, nível, ordem). A página
+ * junta as filas na proporção de PESO_NIVEL (5 fáceis, 3 médias e 2 difíceis a cada 10). Se um nível acaba,
+ * os outros completam. Com o filtro de nível, só os níveis escolhidos, na mesma proporção entre si.
  *
  * O gabarito e o comentário NÃO saem desta função. Eles só são revelados por responderQuestao.
  */
-export async function listarQuestoes(
-  filtros: FiltrosQuestoes & { inicio: number; cursor?: CursorQuestoes; voltou: boolean },
-) {
-  const { usuarioId, disciplinaId, assuntoIds, status, inicio, cursor, voltou, dificuldades, tipo, ids } = filtros;
+export async function listarQuestoes(filtros: FiltrosQuestoes & { inicio: number; posicoes: PosicoesQuestoes }) {
+  const { usuarioId, disciplinaId, assuntoIds, status, inicio, posicoes, dificuldades, tipo, ids } = filtros;
 
   // Questão reportada por aluno fica fora do ar até ser revisada.
   const condicoes: SQL[] = [eq(questoes.suspensa, false)];
+  type Fila = { chave: string; nivel?: SQL; peso: number };
+  let filas: Fila[];
   if (ids) {
-    // Artigo de lei: poucas questões, buscadas pela chave primária (o SQLite ordena só elas).
+    // Artigo de lei: poucas questões, buscadas pela chave primária (o SQLite ordena só elas). Uma fila só.
     condicoes.push(inArray(questoes.id, ids.length ? ids : [-1]));
+    condicoes.push(...filtrosDeOpcoes(dificuldades, tipo));
+    filas = [{ chave: "t", peso: 1 }];
   } else {
     if (disciplinaId) condicoes.push(eq(questoes.disciplinaId, disciplinaId));
     const areas = filtroAreas(questoes.assuntoId, assuntoIds);
     if (areas) condicoes.push(areas);
+    condicoes.push(...filtrosDeOpcoes(undefined, tipo));
+    const escolhidos: number[] = dificuldades?.length ? dificuldades.map((d) => NIVEL_DIFICULDADE[d]) : [1, 2, 3];
+    filas = ([1, 2, 3] as const)
+      .filter((n) => escolhidos.includes(n))
+      .map((n) => ({ chave: String(n), nivel: eq(questoes.dificuldade, n), peso: PESO_NIVEL[n] }));
+    // Sem filtro de nível, a questão sem nível também entra (na prática não há: a IA e a importação dão o nível).
+    if (filas.length === 3) filas.push({ chave: "0", nivel: isNull(questoes.dificuldade), peso: PESO_NIVEL[0] });
   }
-  condicoes.push(...filtrosDeOpcoes(dificuldades, tipo));
 
   if (status === "nao_resolvidas") condicoes.push(isNull(statusQuestao.questaoId));
   if (status === "resolvidas") condicoes.push(isNotNull(statusQuestao.questaoId));
   if (status === "acertei") condicoes.push(eq(statusQuestao.ultimaCorreta, true));
   if (status === "errei") condicoes.push(eq(statusQuestao.ultimaCorreta, false));
-
-  const depoisDoCursor = cursor
-    ? sql`(${questoes.ordem}, ${questoes.id}) > (${cursor.ordem}, ${cursor.id})`
-    : undefined;
 
   const buscar = (trecho: SQL | undefined, limite: number) =>
     db
@@ -141,24 +205,56 @@ export async function listarQuestoes(
       .orderBy(asc(questoes.ordem), asc(questoes.id))
       .limit(limite);
 
-  // Trecho 1: de "inicio" até o fim. Trecho 2 (a volta): do começo até "inicio".
   type Linha = Awaited<ReturnType<typeof buscar>>[number] & { daVolta: boolean };
-  let linhas: Linha[];
-  if (!voltou) {
-    const primeiro = await buscar(depoisDoCursor ?? gte(questoes.ordem, inicio), TAMANHO_PAGINA + 1);
-    linhas = primeiro.map((l) => ({ ...l, daVolta: false }));
-    if (primeiro.length <= TAMANHO_PAGINA && inicio > 0) {
-      const volta = await buscar(lt(questoes.ordem, inicio), TAMANHO_PAGINA + 1 - primeiro.length);
-      linhas.push(...volta.map((l) => ({ ...l, daVolta: true })));
-    }
-  } else {
-    const volta = await buscar(and(lt(questoes.ordem, inicio), depoisDoCursor), TAMANHO_PAGINA + 1);
-    linhas = volta.map((l) => ({ ...l, daVolta: true }));
+
+  /** Até "limite" questões de uma fila a partir da posição. Trecho 1: de inicio até o fim; trecho 2 (a volta): do começo até inicio. */
+  async function lerFila(fila: Fila, pos: PosicaoFila, limite: number): Promise<Linha[]> {
+    const depois = pos.cursor ? sql`(${questoes.ordem}, ${questoes.id}) > (${pos.cursor.ordem}, ${pos.cursor.id})` : undefined;
+    if (pos.voltou) return (await buscar(and(fila.nivel, lt(questoes.ordem, inicio), depois), limite)).map((l) => ({ ...l, daVolta: true }));
+    const primeiro = (await buscar(and(fila.nivel, depois ?? gte(questoes.ordem, inicio)), limite)).map((l) => ({ ...l, daVolta: false }));
+    if (primeiro.length >= limite || inicio === 0) return primeiro;
+    const volta = await buscar(and(fila.nivel, lt(questoes.ordem, inicio)), limite - primeiro.length);
+    return [...primeiro, ...volta.map((l) => ({ ...l, daVolta: true }))];
   }
 
-  const temMais = linhas.length > TAMANHO_PAGINA;
-  const visiveis = linhas.slice(0, TAMANHO_PAGINA);
-  const ultima = visiveis[visiveis.length - 1];
+  const pesos = filas.map((f) => f.peso);
+  const inicial = filas.map((f): PosicaoFila => posicoes[f.chave] ?? { voltou: false });
+
+  // Quantas de cada fila a página pede (uma a mais para saber se há próxima página).
+  const cota = filas.map(() => 0);
+  for (const i of rodizio(pesos, TAMANHO_PAGINA, (i) => !inicial[i]!.fim)) cota[i]!++;
+  const lidas = await Promise.all(filas.map((f, i) => (cota[i] ? lerFila(f, inicial[i]!, cota[i]! + 1) : Promise.resolve([] as Linha[]))));
+  // Esgotada: a fila devolveu menos do que foi pedido (não há mais nada nela).
+  const esgotada = filas.map((_, i) => inicial[i]!.fim === true || lidas[i]!.length < cota[i]! + 1);
+
+  // Um nível acabou e a página não fechou: as outras filas completam (uma leitura a mais, só nesse caso).
+  const lidasAteAqui = lidas.reduce((s, l) => s + l.length, 0);
+  if (lidasAteAqui < TAMANHO_PAGINA + 1) {
+    const falta = TAMANHO_PAGINA + 1 - lidasAteAqui;
+    await Promise.all(
+      filas.map(async (f, i) => {
+        if (esgotada[i]) return;
+        const ultima = lidas[i]!.at(-1);
+        const pos: PosicaoFila = ultima ? { cursor: { ordem: ultima.ordem, id: ultima.id }, voltou: ultima.daVolta } : inicial[i]!;
+        const mais = await lerFila(f, pos, falta);
+        lidas[i]!.push(...mais);
+        if (mais.length < falta) esgotada[i] = true;
+      }),
+    );
+  }
+
+  // Monta a página no rodízio dos pesos, só com o que cada fila tem.
+  const usadas = filas.map(() => 0);
+  const visiveis = rodizio(pesos, TAMANHO_PAGINA, (i, levadas) => levadas < lidas[i]!.length).map((i) => lidas[i]![usadas[i]!++]!);
+  const temMais = filas.some((_, i) => usadas[i]! < lidas[i]!.length || !esgotada[i]);
+
+  const proximas: PosicoesQuestoes = {};
+  filas.forEach((f, i) => {
+    const ultima = usadas[i] ? lidas[i]![usadas[i]! - 1] : undefined;
+    if (esgotada[i] && usadas[i] === lidas[i]!.length) proximas[f.chave] = { voltou: true, fim: true };
+    else if (ultima) proximas[f.chave] = { cursor: { ordem: ultima.ordem, id: ultima.id }, voltou: ultima.daVolta };
+    else proximas[f.chave] = inicial[i]!;
+  });
 
   const pagina = visiveis.map(({ nivel, ordem: _ordem, daVolta: _daVolta, ...l }) => ({
     ...l,
@@ -170,14 +266,9 @@ export async function listarQuestoes(
         : "errou") as StatusAluno,
   }));
 
-  return {
-    questoes: pagina,
-    proximo:
-      temMais && ultima
-        ? { cursor: { ordem: ultima.ordem, id: ultima.id }, voltou: ultima.daVolta }
-        : undefined,
-  };
+  return { questoes: pagina, proximo: temMais ? proximas : undefined };
 }
+
 
 export type QuestaoListada = Awaited<ReturnType<typeof listarQuestoes>>["questoes"][number];
 

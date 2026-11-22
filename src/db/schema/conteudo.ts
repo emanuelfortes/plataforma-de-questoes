@@ -69,6 +69,10 @@ export const questoes = sqliteTable(
     index("questoes_ordem").on(t.ordem),
     index("questoes_disciplina_ordem").on(t.disciplinaId, t.ordem),
     index("questoes_assunto_ordem").on(t.assuntoId, t.ordem),
+    // Listagem do aluno: uma fila por nível (50% fácil, 30% médio, 20% difícil; listarQuestoes em src/server/questoes.ts).
+    index("questoes_nivel_ordem").on(t.dificuldade, t.ordem),
+    index("questoes_disciplina_nivel_ordem").on(t.disciplinaId, t.dificuldade, t.ordem),
+    index("questoes_assunto_nivel_ordem").on(t.assuntoId, t.dificuldade, t.ordem),
   ],
 );
 

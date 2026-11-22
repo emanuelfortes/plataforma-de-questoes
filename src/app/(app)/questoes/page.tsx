@@ -20,7 +20,7 @@ import { formatarNumero } from "@/lib/utils";
 import { situacaoDoAluno } from "@/server/assinatura";
 import { nomesSelecao, temCertoErrado } from "@/server/estudar";
 import { nomeDaLei } from "@/server/vade-mecum";
-import { contarPorStatus, idsDoArtigo, listarQuestoes, TAMANHO_PAGINA, type CursorQuestoes } from "@/server/questoes";
+import { contarPorStatus, escreverPosicoes, idsDoArtigo, lerPosicoes, listarQuestoes, TAMANHO_PAGINA } from "@/server/questoes";
 
 export const metadata: Metadata = { title: "Questões" };
 
@@ -30,13 +30,6 @@ type Params = Promise<{ [chave: string]: string | string[] | undefined }>;
 const META_DIARIA = 30;
 
 // Cursor na URL: "ordem.id" (posição na ordem embaralhada).
-function lerCursor(valor: string | undefined): CursorQuestoes | undefined {
-  const [ordem, id] = (valor ?? "").split(".").map(Number);
-  return Number.isInteger(ordem) && ordem! >= 0 && Number.isInteger(id) && id! > 0
-    ? { ordem: ordem!, id: id! }
-    : undefined;
-}
-
 export default async function PaginaQuestoes({ searchParams }: { searchParams: Params }) {
   const usuario = await exigirUsuario();
   const sp = await searchParams;
@@ -56,15 +49,15 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
   // Ponto de partida sorteado a cada sessão nova; as páginas seguintes levam o mesmo na URL.
   const inicioUrl = Number(texto("inicio"));
   const inicio = Number.isInteger(inicioUrl) && inicioUrl >= 0 ? inicioUrl : randomInt(2 ** 31);
-  const cursor = lerCursor(texto("cursor"));
-  const voltou = texto("volta") === "1";
+  // Onde cada fila de nível parou (n1, n2, n3...); sem nada, a sessão está no começo.
+  const posicoes = lerPosicoes(texto);
   const pagina = Math.max(1, lerId(texto("pagina")) ?? 1);
 
   const [situacao, nomes, contagens, { questoes, proximo }] = await Promise.all([
     situacaoDoAluno(usuario),
     nomesSelecao(disciplinaId, assuntoIds),
     contarPorStatus({ usuarioId: usuario.id, disciplinaId, assuntoIds, dificuldades, tipo: tipoQuestao, ids }),
-    listarQuestoes({ usuarioId: usuario.id, disciplinaId, assuntoIds, status, inicio, cursor, voltou, dificuldades, tipo: tipoQuestao, ids }),
+    listarQuestoes({ usuarioId: usuario.id, disciplinaId, assuntoIds, status, inicio, posicoes, dificuldades, tipo: tipoQuestao, ids }),
   ]);
 
   // Filtros na URL (sem a posição na sequência). Tirar um filtro recomeça a sequência, com o mesmo ponto sorteado.
@@ -117,8 +110,7 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
     if (!proximo) return null;
     const p = parametros(atual);
     p.set("inicio", String(inicio));
-    p.set("cursor", `${proximo.cursor.ordem}.${proximo.cursor.id}`);
-    if (proximo.voltou) p.set("volta", "1");
+    escreverPosicoes(p, proximo);
     p.set("pagina", String(pagina + 1));
     return `/questoes?${p.toString()}`;
   })();
@@ -192,7 +184,7 @@ export default async function PaginaQuestoes({ searchParams }: { searchParams: P
         ) : (
           <Resolucao
             totalFiltro={contagens[status]}
-            key={`${leiArtigo ? `${leiArtigo.lei}:${leiArtigo.artigo}` : ""}-${disciplinaId}-${assuntoIds.join(".")}-${status}-${dificuldades.join(".")}-${tipoQuestao ?? ""}-${inicio}-${texto("cursor") ?? ""}`}
+            key={`${leiArtigo ? `${leiArtigo.lei}:${leiArtigo.artigo}` : ""}-${disciplinaId}-${assuntoIds.join(".")}-${status}-${dificuldades.join(".")}-${tipoQuestao ?? ""}-${inicio}-${pagina}`}
             questoes={questoes}
             inicio={(pagina - 1) * TAMANHO_PAGINA + 1}
             proximaUrl={proximaUrl}
