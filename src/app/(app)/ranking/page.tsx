@@ -7,7 +7,7 @@ import { Podio } from "@/components/ranking/podio";
 import { patenteDe, pontosFuzil, SEGUNDOS_CHUTE } from "@/lib/patentes";
 import { exigirUsuario } from "@/lib/sessao";
 import { cn, formatarNumero } from "@/lib/utils";
-import { obterRanking, TAMANHO_RANKING, type LinhaRanking, type TipoRanking } from "@/server/ranking";
+import { MINIMO_ACERTO_MIRA, obterRanking, TAMANHO_RANKING, type LinhaRanking, type TipoRanking } from "@/server/ranking";
 
 export const metadata: Metadata = { title: "Ranking" };
 
@@ -22,7 +22,7 @@ const ABAS: Record<TipoRanking, { rotulo: string; Icone: typeof Zap; descricao: 
   mira: {
     rotulo: "Bom de Mira",
     Icone: Crosshair,
-    descricao: `Quem mais acerta de primeira: vale o número de acertos, então quem continua resolvendo sobe. Empate: a melhor porcentagem fica na frente. Chute (menos de ${SEGUNDOS_CHUTE} segundos) não conta.`,
+    descricao: `Quem mais acerta de primeira: vale o número de acertos, então quem continua resolvendo sobe. Para entrar, acerto de pelo menos ${MINIMO_ACERTO_MIRA}%. Empate: a melhor porcentagem fica na frente. Chute (menos de ${SEGUNDOS_CHUTE} segundos) não conta.`,
   },
 };
 
@@ -97,7 +97,9 @@ export default async function PaginaRanking({ searchParams }: { searchParams: Pa
             </p>
           </div>
         ) : tipo === "mira" && eu.resolvidas > 0 ? (
-          <p className="mt-1 text-sm">Acerte uma questão de primeira para entrar no Bom de Mira.</p>
+          <p className="mt-1 text-sm">
+            Seu acerto de primeira está em <strong>{Math.floor((100 * eu.acertos) / eu.resolvidas)}%</strong>. Chegue a {MINIMO_ACERTO_MIRA}% para entrar no Bom de Mira.
+          </p>
         ) : (
           <p className="mt-1 text-sm">
             Você ainda não entrou no ranking.{" "}
@@ -134,7 +136,7 @@ export default async function PaginaRanking({ searchParams }: { searchParams: Pa
       {lista.length === 0 ? (
         <p className="rounded-2xl border border-dashed border-borda p-8 text-center text-sm text-suave">
           {tipo === "mira"
-            ? "Ninguém acertou de primeira ainda. Seja o primeiro."
+            ? `Ninguém chegou a ${MINIMO_ACERTO_MIRA}% de acerto ainda. Seja o primeiro.`
             : "Ninguém resolveu questões ainda. Seja o primeiro."}
         </p>
       ) : (
@@ -163,7 +165,7 @@ export default async function PaginaRanking({ searchParams }: { searchParams: Pa
             <h2 className="font-estencil text-sm uppercase tracking-[.14em] text-oliva">Resto da tropa</h2>
             <p className="text-xs text-suave">
               {tipo === "mira"
-                ? "Entram no Bom de Mira no primeiro acerto de primeira."
+                ? `Entram no Bom de Mira ao chegar a ${MINIMO_ACERTO_MIRA}% de acerto de primeira.`
                 : "Ainda não resolveram questões. Na primeira, entram no ranking."}
             </p>
           </div>

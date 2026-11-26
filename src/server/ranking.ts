@@ -11,7 +11,14 @@ import { ehAdmin } from "@/lib/admin";
 
 // Bom de Mira: quem tem mais acertos de primeira (o número, não a porcentagem: pela porcentagem, quem parava de
 // estudar com 29 de 31 ficava no topo para sempre). Empate: a melhor porcentagem fica na frente.
+// Para entrar, acerto de primeira de pelo menos MINIMO_ACERTO_MIRA% (resolver muito chutando não basta).
 export type TipoRanking = "fuzil" | "mira";
+
+/** Porcentagem mínima de acerto de primeira para entrar no Bom de Mira. */
+export const MINIMO_ACERTO_MIRA = 60;
+/** Mesma regra em SQL (conta inteira, sem arredondar): acertos / resolvidas >= 60%. */
+const naMira = sql`(${placar.acertos} > 0 and ${placar.acertos} * 100 >= ${MINIMO_ACERTO_MIRA} * ${placar.resolvidas})`;
+const entraNaMira = (acertos: number, resolvidas: number) => acertos > 0 && acertos * 100 >= MINIMO_ACERTO_MIRA * resolvidas;
 
 export const TAMANHO_RANKING = 50;
 
@@ -52,12 +59,12 @@ function semDonos(): SQL | undefined {
 export async function obterRanking(tipo: TipoRanking, usuarioId: string, email: string) {
   // O dono fica fora da lista; sem isto ele via "1º de 1" com as próprias questões.
   const dono = ehAdmin(email);
-  const participa = tipo === "fuzil" ? gt(placar.resolvidas, 0) : gt(placar.acertos, 0);
+  const participa = tipo === "fuzil" ? gt(placar.resolvidas, 0) : naMira;
   const filtro = and(participa, semDonos());
 
-  // O resto da tropa: alunos que ainda não entram neste ranking (sem questões, ou sem acerto de primeira no Bom de Mira).
+  // O resto da tropa: alunos que ainda não entram neste ranking (sem questões, ou abaixo de 60% de acerto no Bom de Mira).
   const resolvidasOuZero = sql<number>`coalesce(${placar.resolvidas}, 0)`;
-  const foraDoRanking = tipo === "fuzil" ? isNull(placar.resolvidas) : or(isNull(placar.acertos), eq(placar.acertos, 0));
+  const foraDoRanking = tipo === "fuzil" ? isNull(placar.resolvidas) : or(isNull(placar.acertos), sql`not ${naMira}`);
 
   const [linhas, [eu], [{ participantes } = { participantes: 0 }], outros] = await Promise.all([
     db
@@ -101,7 +108,7 @@ export async function obterRanking(tipo: TipoRanking, usuarioId: string, email: 
     sequencia: eu?.sequencia ?? 0,
     maiorSequencia: eu?.maiorSequencia ?? 0,
   };
-  const entra = !dono && (tipo === "fuzil" ? meus.resolvidas > 0 : meus.acertos > 0);
+  const entra = !dono && (tipo === "fuzil" ? meus.resolvidas > 0 : entraNaMira(meus.acertos, meus.resolvidas));
   let posicao: number | null = lista.find((l) => l.usuarioId === usuarioId)?.posicao ?? null;
   if (entra && posicao === null) {
     const frente =
