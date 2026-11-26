@@ -7,7 +7,7 @@ import { Podio } from "@/components/ranking/podio";
 import { patenteDe, pontosFuzil, SEGUNDOS_CHUTE } from "@/lib/patentes";
 import { exigirUsuario } from "@/lib/sessao";
 import { cn, formatarNumero } from "@/lib/utils";
-import { MINIMO_MIRA, obterRanking, TAMANHO_RANKING, type LinhaRanking, type TipoRanking } from "@/server/ranking";
+import { obterRanking, TAMANHO_RANKING, type LinhaRanking, type TipoRanking } from "@/server/ranking";
 
 export const metadata: Metadata = { title: "Ranking" };
 
@@ -22,7 +22,7 @@ const ABAS: Record<TipoRanking, { rotulo: string; Icone: typeof Zap; descricao: 
   mira: {
     rotulo: "Bom de Mira",
     Icone: Crosshair,
-    descricao: `Quem mais acerta de primeira, entre quem já resolveu pelo menos ${MINIMO_MIRA} questões. Chute (menos de ${SEGUNDOS_CHUTE} segundos) não conta.`,
+    descricao: `Quem mais acerta de primeira: vale o número de acertos, então quem continua resolvendo sobe. Empate: a melhor porcentagem fica na frente. Chute (menos de ${SEGUNDOS_CHUTE} segundos) não conta.`,
   },
 };
 
@@ -40,7 +40,11 @@ export default async function PaginaRanking({ searchParams }: { searchParams: Pa
           // Na lista e na sua posição cabe o detalhe; no pódio fica só "pontos".
           detalhe: `${formatarNumero(l.resolvidas)} questões · ${formatarNumero(l.acertos)} acertos`,
         }
-      : { grande: `${l.percentual}%`, pequeno: `${formatarNumero(l.acertos)} de ${formatarNumero(l.resolvidas)}` };
+      : {
+          grande: formatarNumero(l.acertos),
+          pequeno: "acertos",
+          detalhe: `${l.percentual}% · ${formatarNumero(l.acertos)} de ${formatarNumero(l.resolvidas)}`,
+        };
 
   return (
     <div className="mx-auto max-w-2xl space-y-6">
@@ -93,10 +97,7 @@ export default async function PaginaRanking({ searchParams }: { searchParams: Pa
             </p>
           </div>
         ) : tipo === "mira" && eu.resolvidas > 0 ? (
-          <p className="mt-1 text-sm">
-            Resolva mais <strong>{eu.faltamParaMira}</strong> {eu.faltamParaMira === 1 ? "questão" : "questões"} para entrar no
-            Bom de Mira (você tem {eu.resolvidas} de {MINIMO_MIRA}).
-          </p>
+          <p className="mt-1 text-sm">Acerte uma questão de primeira para entrar no Bom de Mira.</p>
         ) : (
           <p className="mt-1 text-sm">
             Você ainda não entrou no ranking.{" "}
@@ -133,7 +134,7 @@ export default async function PaginaRanking({ searchParams }: { searchParams: Pa
       {lista.length === 0 ? (
         <p className="rounded-2xl border border-dashed border-borda p-8 text-center text-sm text-suave">
           {tipo === "mira"
-            ? `Ninguém chegou às ${MINIMO_MIRA} questões ainda. Seja o primeiro.`
+            ? "Ninguém acertou de primeira ainda. Seja o primeiro."
             : "Ninguém resolveu questões ainda. Seja o primeiro."}
         </p>
       ) : (
@@ -162,7 +163,7 @@ export default async function PaginaRanking({ searchParams }: { searchParams: Pa
             <h2 className="font-estencil text-sm uppercase tracking-[.14em] text-oliva">Resto da tropa</h2>
             <p className="text-xs text-suave">
               {tipo === "mira"
-                ? `Entram no Bom de Mira ao completar ${MINIMO_MIRA} questões resolvidas.`
+                ? "Entram no Bom de Mira no primeiro acerto de primeira."
                 : "Ainda não resolveram questões. Na primeira, entram no ranking."}
             </p>
           </div>
@@ -180,7 +181,7 @@ export default async function PaginaRanking({ searchParams }: { searchParams: Pa
                     {eu && <span className="ml-1.5 text-xs font-extrabold text-marca-clara">(você)</span>}
                   </span>
                   <span className="shrink-0 text-xs text-suave">
-                    {tipo === "mira" ? `${formatarNumero(t.resolvidas)} de ${MINIMO_MIRA}` : patente.nome}
+                    {patente.nome}
                   </span>
                 </li>
               );

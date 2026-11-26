@@ -1,5 +1,5 @@
 import "server-only";
-import { and, asc, count, desc, eq, gt, gte, isNull, lt, notInArray, or, sql, type SQL } from "drizzle-orm";
+import { and, asc, count, desc, eq, gt, isNull, notInArray, or, sql, type SQL } from "drizzle-orm";
 import { db } from "@/db";
 import { placar, user } from "@/db/schema";
 import { ehAdmin } from "@/lib/admin";
@@ -9,10 +9,10 @@ import { ehAdmin } from "@/lib/admin";
 // Os números de um aluno não são mostrados aos concorrentes: o aluno recebe só os 3 do pódio e os próprios
 // números; a lista completa e o resto da tropa saem só para o dono.
 
+// Bom de Mira: quem tem mais acertos de primeira (o número, não a porcentagem: pela porcentagem, quem parava de
+// estudar com 29 de 31 ficava no topo para sempre). Empate: a melhor porcentagem fica na frente.
 export type TipoRanking = "fuzil" | "mira";
 
-/** Bom de Mira só considera quem já resolveu isto (sem isso, 1 de 1 seria 100% e ficaria em primeiro). */
-export const MINIMO_MIRA = 30;
 export const TAMANHO_RANKING = 50;
 
 export type LinhaRanking = {
@@ -52,12 +52,12 @@ function semDonos(): SQL | undefined {
 export async function obterRanking(tipo: TipoRanking, usuarioId: string, email: string) {
   // O dono fica fora da lista; sem isto ele via "1º de 1" com as próprias questões.
   const dono = ehAdmin(email);
-  const participa = tipo === "fuzil" ? gt(placar.resolvidas, 0) : gte(placar.resolvidas, MINIMO_MIRA);
+  const participa = tipo === "fuzil" ? gt(placar.resolvidas, 0) : gt(placar.acertos, 0);
   const filtro = and(participa, semDonos());
 
-  // O resto da tropa: alunos que ainda não entram neste ranking (sem questões, ou abaixo do mínimo do Bom de Mira).
+  // O resto da tropa: alunos que ainda não entram neste ranking (sem questões, ou sem acerto de primeira no Bom de Mira).
   const resolvidasOuZero = sql<number>`coalesce(${placar.resolvidas}, 0)`;
-  const foraDoRanking = tipo === "fuzil" ? isNull(placar.resolvidas) : or(isNull(placar.resolvidas), lt(placar.resolvidas, MINIMO_MIRA));
+  const foraDoRanking = tipo === "fuzil" ? isNull(placar.resolvidas) : or(isNull(placar.acertos), eq(placar.acertos, 0));
 
   const [linhas, [eu], [{ participantes } = { participantes: 0 }], outros] = await Promise.all([
     db
@@ -65,7 +65,7 @@ export async function obterRanking(tipo: TipoRanking, usuarioId: string, email: 
       .from(placar)
       .innerJoin(user, eq(user.id, placar.usuarioId))
       .where(filtro)
-      .orderBy(...(tipo === "fuzil" ? [desc(pontos), desc(placar.resolvidas)] : [desc(taxa), desc(placar.resolvidas)]), asc(placar.atualizadoEm))
+      .orderBy(...(tipo === "fuzil" ? [desc(pontos), desc(placar.resolvidas)] : [desc(placar.acertos), desc(taxa)]), asc(placar.atualizadoEm))
       .limit(TAMANHO_RANKING),
     db
       .select({ resolvidas: placar.resolvidas, acertos: placar.acertos, sequencia: placar.sequencia, maiorSequencia: placar.maiorSequencia })
@@ -101,13 +101,13 @@ export async function obterRanking(tipo: TipoRanking, usuarioId: string, email: 
     sequencia: eu?.sequencia ?? 0,
     maiorSequencia: eu?.maiorSequencia ?? 0,
   };
-  const entra = !dono && (tipo === "fuzil" ? meus.resolvidas > 0 : meus.resolvidas >= MINIMO_MIRA);
+  const entra = !dono && (tipo === "fuzil" ? meus.resolvidas > 0 : meus.acertos > 0);
   let posicao: number | null = lista.find((l) => l.usuarioId === usuarioId)?.posicao ?? null;
   if (entra && posicao === null) {
     const frente =
       tipo === "fuzil"
         ? sql`${pontos} > ${meus.resolvidas + meus.acertos}`
-        : sql`${taxa} > ${meus.acertos / meus.resolvidas}`;
+        : sql`(${placar.acertos} > ${meus.acertos} or (${placar.acertos} = ${meus.acertos} and ${taxa} > ${meus.acertos / meus.resolvidas}))`;
     const [{ n } = { n: 0 }] = await db
       .select({ n: count() })
       .from(placar)
@@ -125,7 +125,6 @@ export async function obterRanking(tipo: TipoRanking, usuarioId: string, email: 
       dono,
       percentual: percentual(meus.acertos, meus.resolvidas),
       posicao: entra ? posicao : null,
-      faltamParaMira: Math.max(MINIMO_MIRA - meus.resolvidas, 0),
     },
   };
 }

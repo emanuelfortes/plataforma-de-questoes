@@ -78,7 +78,7 @@ export const placar = sqliteTable(
       .references(() => user.id, { onDelete: "cascade" }),
     /** Questões diferentes já respondidas (Fuzil de questões). */
     resolvidas: integer("resolvidas").notNull().default(0),
-    /** Dessas, quantas acertou de primeira (Bom de Mira = acertos / resolvidas). */
+    /** Dessas, quantas acertou de primeira (Bom de Mira ordena por estes acertos). */
     acertos: integer("acertos").notNull().default(0),
     /** Acertos seguidos agora e o recorde (mesma regra: só primeira tentativa e sem chute; um erro zera). */
     sequencia: integer("sequencia").notNull().default(0),
