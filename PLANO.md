@@ -145,7 +145,7 @@ Todos com plano gratuito. Limites mudam: confira as páginas de preço antes de 
 
 - [x] **9.1 Filtros:** etiquetas com X (um filtro por linha), Opções (dificuldade, tipo, resolução, cada grupo com "Todas"), pastas por crime no Direito Penal, total real do filtro ("Questão X de N"), filtro vazio explica o motivo.
 - [x] **9.2 Questões:** tesourinha para riscar alternativas; questão errada volta 4 questões depois (até 3 vezes); bloqueio de questão repetida (`chave_enunciado`); comentário em partes como no TEC (`src/lib/comentario.ts`).
-- [x] **9.3 Ranking:** Fuzil de Questões e Bom de Mira (número de acertos de primeira, mínimo de 60% de acerto; empate pela porcentagem), tema militar com patentes e pódio, sequência de acertos; resposta a menos de 8 s da anterior é chute e não pontua (tabela `placar`).
+- [x] **9.3 Ranking:** Fuzil de Questões e Bom de Mira (número de acertos de primeira, mínimo de 55% de acerto; empate pela porcentagem), tema militar com patentes e pódio, sequência de acertos; resposta a menos de 8 s da anterior é chute e não pontua (tabela `placar`).
 - [x] **9.4 Vade Mecum** (só assinantes): 41 leis do Planalto em leitura guiada (selos de atualização, palavras da banca, aviso do STF), "N questões cobram este artigo" e "Entender este artigo" (explicações aprovadas pelo professor em `/admin/vade-mecum`).
 - [ ] **9.5 Professor revisar as 126 explicações** do lote 1 em `/admin/vade-mecum` (35 marcadas para conferir vêm primeiro).
 - [ ] **9.6 Grifos e anotações do aluno na lei** (tabela nova na produção).

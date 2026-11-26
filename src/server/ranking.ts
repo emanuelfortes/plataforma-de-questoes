@@ -15,8 +15,8 @@ import { ehAdmin } from "@/lib/admin";
 export type TipoRanking = "fuzil" | "mira";
 
 /** Porcentagem mínima de acerto de primeira para entrar no Bom de Mira. */
-export const MINIMO_ACERTO_MIRA = 60;
-/** Mesma regra em SQL (conta inteira, sem arredondar): acertos / resolvidas >= 60%. */
+export const MINIMO_ACERTO_MIRA = 55;
+/** Mesma regra em SQL (conta inteira, sem arredondar): acertos / resolvidas >= 55%. */
 const naMira = sql`(${placar.acertos} > 0 and ${placar.acertos} * 100 >= ${MINIMO_ACERTO_MIRA} * ${placar.resolvidas})`;
 const entraNaMira = (acertos: number, resolvidas: number) => acertos > 0 && acertos * 100 >= MINIMO_ACERTO_MIRA * resolvidas;
 
@@ -62,7 +62,7 @@ export async function obterRanking(tipo: TipoRanking, usuarioId: string, email: 
   const participa = tipo === "fuzil" ? gt(placar.resolvidas, 0) : naMira;
   const filtro = and(participa, semDonos());
 
-  // O resto da tropa: alunos que ainda não entram neste ranking (sem questões, ou abaixo de 60% de acerto no Bom de Mira).
+  // O resto da tropa: alunos que ainda não entram neste ranking (sem questões, ou abaixo de 55% de acerto no Bom de Mira).
   const resolvidasOuZero = sql<number>`coalesce(${placar.resolvidas}, 0)`;
   const foraDoRanking = tipo === "fuzil" ? isNull(placar.resolvidas) : or(isNull(placar.acertos), sql`not ${naMira}`);
 
