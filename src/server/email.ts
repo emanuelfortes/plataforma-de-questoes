@@ -164,7 +164,7 @@ export function emailRenovarPix(nome: string, fim: string, valor: string, url: s
   const ola = `Olá, ${escapar(nome)}.`;
   if (!PIX_LIGADO) {
     // Pix desligado: quem pagou Pix é chamado para o cartão, que renova sozinho.
-    const aviso = `Seu acesso pago com Pix vai até ${fim}. Não aceitamos mais Pix: para continuar estudando sem limite, assine no cartão de crédito, que renova sozinho todo mês e pode ser cancelado quando quiser. A primeira cobrança é no dia em que você assinar.`;
+    const aviso = `Seu acesso pago com Pix vai até ${fim}. Não aceitamos mais Pix: para continuar estudando sem limite, assine no cartão de crédito, que renova sozinho todo mês e pode ser cancelado quando quiser. Você mantém o preço que paga hoje (${valor}), e a primeira cobrança só acontece quando o acesso do Pix acabar.`;
     const rodape = "Se não assinar, sua conta volta para o limite grátis de questões por dia.";
     return {
       assunto: `Seu acesso vai até ${fim}: continue no cartão`,

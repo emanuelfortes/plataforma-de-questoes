@@ -18,7 +18,6 @@ import {
   LIMITE_GRATIS_DIA,
   PIX_LIGADO,
   PLANOS,
-  precoDoPlano,
   PROMOCAO,
   promocaoAberta,
   valorAoTrocar,
@@ -99,8 +98,9 @@ export default async function PaginaAssinatura({
   const [a, situacao, pixBasico, pixElite, pausaCartao] = await Promise.all([
     assinaturaDoUsuario(usuario.id),
     situacaoDoAluno(usuario),
-    PIX_LIGADO ? precoDoPix(usuario.id, "basico") : 0,
-    PIX_LIGADO ? precoDoPix(usuario.id, "elite") : 0,
+    // Quem vem do Pix mantém o preço que pagava (no Pix e no cartão); os outros, o preço de hoje.
+    precoDoPix(usuario.id, "basico"),
+    precoDoPix(usuario.id, "elite"),
     pausaDoCartao(),
   ]);
   const liberado = acessoLiberado(a);
@@ -162,7 +162,7 @@ export default async function PaginaAssinatura({
             Seu acesso vai até <strong>{dataCurta(a.acessoAte)}</strong>.{" "}
             {PIX_LIGADO
               ? `Para não parar, pague o próximo Pix antes dessa data: os ${DIAS_PIX} dias novos começam quando os atuais acabarem, então renovar antes não perde nenhum dia. Avisamos por e-mail perto do fim.`
-              : "Não aceitamos mais Pix: para continuar depois dessa data, assine no cartão de crédito aqui embaixo, que renova sozinho todo mês. A primeira cobrança é no dia em que você assinar, então o melhor é assinar perto do fim. Avisamos por e-mail."}
+              : "Não aceitamos mais Pix: para continuar depois dessa data, assine no cartão de crédito aqui embaixo, que renova sozinho todo mês. Você mantém o preço que paga hoje e pode assinar já: no mesmo plano, a primeira cobrança só acontece quando o acesso do Pix acabar."}
           </p>
         </Card>
       )}
@@ -223,14 +223,14 @@ export default async function PaginaAssinatura({
             <CartaoPlano
               key={plano}
               plano={plano}
-              valor={precoDoPlano(plano)}
+              valor={plano === "elite" ? pixElite : pixBasico}
               valorPix={plano === "elite" ? pixElite : pixBasico}
               renovando={!!a && ehPix(a.id) && liberado}
               chavePublica={chavePublica}
               cartaoEfi={cartaoEfi}
               pausaCartao={pausaCartao}
               email={usuario.email}
-              rotulo={a?.status === "pending" && !ehPix(a.id) ? "Concluir pagamento" : `Assinar por ${formatarReais(precoDoPlano(plano))}/mês`}
+              rotulo={a?.status === "pending" && !ehPix(a.id) ? "Concluir pagamento" : `Assinar por ${formatarReais(plano === "elite" ? pixElite : pixBasico)}/mês`}
             />
           ))}
           <p className="text-xs leading-relaxed text-suave">

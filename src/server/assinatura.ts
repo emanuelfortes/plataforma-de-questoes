@@ -51,16 +51,22 @@ const centavos = (valor: number | undefined) => Math.round((valor ?? 0) * 100);
 const data = (iso: string | undefined | null) => (iso ? new Date(iso) : null);
 
 /**
- * Cobrança mensal do aluno, no preço de hoje (promocional em novembro: fica gravado na assinatura). No Basic,
- * o início é adiado se ele ainda tem acesso pago (cancelou e voltou dentro do período): a 1ª cobrança cai no
- * dia em que o acesso atual acaba, sem pagar duas vezes. O Elite começa a cobrar na hora.
+ * Cobrança mensal do aluno, no preço de hoje (promocional em novembro: fica gravado na assinatura). Quem vem do
+ * Pix (em dia ou até 7 dias depois de vencer) mantém o preço que pagava no Pix, inclusive o da Black Friday
+ * (precoDoPix). No Basic, o início é adiado se ele ainda tem acesso pago (cancelou e voltou dentro do período, ou
+ * ainda tem dias do Pix): a 1ª cobrança cai no dia em que o acesso atual acaba, sem pagar duas vezes. O Elite
+ * começa a cobrar na hora (libera os simulados), menos para quem já tinha o Elite (reativação ou Pix do Elite).
  */
 export async function condicoesDaMensal(usuarioId: string, plano: Plano) {
   const atual = await assinaturaDoUsuario(usuarioId);
-  const reativacao = podeReativar(atual) && valorEhElite(atual!.valorCentavos) === (plano === "elite");
+  const mesmoPlano = !!atual && valorEhElite(atual.valorCentavos) === (plano === "elite");
+  const reativacao = podeReativar(atual) && mesmoPlano;
+  const vemDoPix = !!atual && ehPix(atual.id) && atual.status === "approved";
   // Reativar: mesmo plano e mesmo preço; nada é cobrado agora, a 1ª cobrança cai quando o mês pago acaba.
-  const comAcesso = (plano === "basico" || reativacao) && atual?.acessoAte && atual.acessoAte.getTime() > Date.now() + 60 * 60 * 1000;
-  return { valor: reativacao ? atual!.valorCentavos / 100 : precoDoPlano(plano), inicio: comAcesso ? atual!.acessoAte : null };
+  const comAcesso =
+    (plano === "basico" || reativacao || (vemDoPix && mesmoPlano)) && atual?.acessoAte && atual.acessoAte.getTime() > Date.now() + 60 * 60 * 1000;
+  const valor = reativacao ? atual!.valorCentavos / 100 : await precoDoPix(usuarioId, plano);
+  return { valor, inicio: comAcesso ? atual!.acessoAte : null };
 }
 
 /** A mesma cobrança no formato do Mercado Pago (auto_recurring). */
@@ -323,8 +329,9 @@ async function ultimoPixPago(usuarioId: string) {
 }
 
 /**
- * Preço do próximo Pix: quem renova em dia (ou até 7 dias depois de vencer) mantém o preço que já paga, com
- * a Tropa de Elite somada ou tirada; quem volta depois disso paga o preço de hoje.
+ * Preço de quem vem do Pix (próximo Pix, ou a assinatura no cartão depois que o Pix foi desligado): quem renova em
+ * dia (ou até 7 dias depois de vencer) mantém o preço que já paga, com a Tropa de Elite somada ou tirada; quem
+ * volta depois disso, ou nunca pagou Pix, paga o preço de hoje.
  */
 export async function precoDoPix(usuarioId: string, plano: Plano) {
   const ultimo = await ultimoPixPago(usuarioId);
