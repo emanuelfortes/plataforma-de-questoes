@@ -16,6 +16,7 @@ import {
   ELITE,
   formatarReais,
   LIMITE_GRATIS_DIA,
+  PIX_LIGADO,
   PLANOS,
   precoDoPlano,
   PROMOCAO,
@@ -98,8 +99,8 @@ export default async function PaginaAssinatura({
   const [a, situacao, pixBasico, pixElite, pausaCartao] = await Promise.all([
     assinaturaDoUsuario(usuario.id),
     situacaoDoAluno(usuario),
-    precoDoPix(usuario.id, "basico"),
-    precoDoPix(usuario.id, "elite"),
+    PIX_LIGADO ? precoDoPix(usuario.id, "basico") : 0,
+    PIX_LIGADO ? precoDoPix(usuario.id, "elite") : 0,
     pausaDoCartao(),
   ]);
   const liberado = acessoLiberado(a);
@@ -158,9 +159,10 @@ export default async function PaginaAssinatura({
         <Card className="space-y-2 border-acerto/40 bg-acerto-suave p-6">
           <p className="font-extrabold text-acerto">{elite ? ELITE.nome : ASSINATURA.nome} ativo (Pix)</p>
           <p className="text-sm text-texto/85">
-            Seu acesso vai até <strong>{dataCurta(a.acessoAte)}</strong>. Para não parar, pague o próximo Pix antes dessa
-            data: os {DIAS_PIX} dias novos começam quando os atuais acabarem, então renovar antes não perde nenhum dia.
-            Avisamos por e-mail perto do fim.
+            Seu acesso vai até <strong>{dataCurta(a.acessoAte)}</strong>.{" "}
+            {PIX_LIGADO
+              ? `Para não parar, pague o próximo Pix antes dessa data: os ${DIAS_PIX} dias novos começam quando os atuais acabarem, então renovar antes não perde nenhum dia. Avisamos por e-mail perto do fim.`
+              : "Não aceitamos mais Pix: para continuar depois dessa data, assine no cartão de crédito aqui embaixo, que renova sozinho todo mês. A primeira cobrança é no dia em que você assinar, então o melhor é assinar perto do fim. Avisamos por e-mail."}
           </p>
         </Card>
       )}
@@ -234,7 +236,7 @@ export default async function PaginaAssinatura({
           <p className="text-xs leading-relaxed text-suave">
             Pagamento seguro {processador === "Efí" ? "pela Efí" : "pelo Mercado Pago"}.{" "}
             {CARTAO_LIGADO
-              ? `No cartão de crédito, a cobrança é automática todo mês e você pode cancelar quando quiser; no Pix, cada pagamento vale ${DIAS_PIX} dias e não renova sozinho.`
+              ? `No cartão de crédito, a cobrança é automática todo mês e você pode cancelar quando quiser${PIX_LIGADO ? `; no Pix, cada pagamento vale ${DIAS_PIX} dias e não renova sozinho` : ""}.`
               : `Cada Pix vale ${DIAS_PIX} dias e não renova sozinho: avisamos por e-mail perto do fim.`}{" "}
             Você tem 7 dias para desistir com reembolso.
             {promocao &&
@@ -336,13 +338,14 @@ function CartaoPlano({
           <strong className="text-erro">O Mercado Pago recusou o cartão por segurança.</strong> Tentar de novo agora
           costuma dar a mesma recusa, então o cartão volta às{" "}
           {pausaCartao.toLocaleTimeString("pt-BR", { timeZone: "America/Sao_Paulo", hour: "2-digit", minute: "2-digit" })}.
-          Pague com Pix aqui embaixo: libera na hora.
+          {PIX_LIGADO ? "Pague com Pix aqui embaixo: libera na hora." : "Tente de novo nesse horário."}
         </p>
       ) : chavePublica ? (
         <FormularioCartao chavePublica={chavePublica} email={email} rotulo={rotulo} plano={plano} valor={valor} />
       ) : (
         <BotaoAssinar rotulo={rotulo} plano={plano} />
       )}
+      {PIX_LIGADO && (
       <div className={cn("space-y-3", CARTAO_LIGADO && "border-t border-borda pt-4")}>
         <p className="text-sm text-suave">
           {renovando ? "Renove com Pix:" : CARTAO_LIGADO ? "Prefere Pix?" : "Pague com Pix:"} {formatarReais(valorPix)} por {DIAS_PIX} dias, sem renovação
@@ -350,6 +353,7 @@ function CartaoPlano({
         </p>
         <PagamentoPix plano={plano} valor={valorPix} rotulo="Pagar com Pix" />
       </div>
+      )}
     </Card>
   );
 }

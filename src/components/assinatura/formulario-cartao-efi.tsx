@@ -6,7 +6,7 @@ import { useEffect, useState, type ComponentProps, type FormEvent } from "react"
 import { classeCampo } from "@/components/campo-senha";
 import { Button } from "@/components/ui/button";
 import { cepValido, cpfValido, soDigitos, telefoneValido, UFS } from "@/lib/documentos";
-import type { Plano } from "@/lib/planos";
+import { PIX_LIGADO, type Plano } from "@/lib/planos";
 import { cn } from "@/lib/utils";
 import { assinarCartaoEfi, registrarFalhaCartao } from "@/server/acoes-assinatura";
 
@@ -44,7 +44,7 @@ function navegadorDeApp() {
 function mensagemFalhaToken(bloqueado: boolean, detalhe?: string) {
   const motivo = detalhe ? ` (${detalhe.slice(0, 140)})` : "";
   if (bloqueado) {
-    return `Seu navegador bloqueou a verificação de segurança do pagamento${motivo}. No iPhone, abra o site no Chrome, ou no Safari desligue em Ajustes > Apps > Safari > Avançado a "Proteção avançada contra rastreamento" e os bloqueadores de conteúdo. Ou pague com Pix.`;
+    return `Seu navegador bloqueou a verificação de segurança do pagamento${motivo}. No iPhone, abra o site no Chrome, ou no Safari desligue em Ajustes > Apps > Safari > Avançado a "Proteção avançada contra rastreamento" e os bloqueadores de conteúdo.${PIX_LIGADO ? " Ou pague com Pix." : ""}`;
   }
   return `Não foi possível validar o cartão${motivo}. Confira o número, a validade, o CVV e o CPF do titular.`;
 }
@@ -130,7 +130,7 @@ export function FormularioCartaoEfi({
       bloqueado = await EfiPay.CreditCard.isScriptBlocked().catch(() => true);
       const numero = soDigitos(c.numero);
       const bandeira = await EfiPay.CreditCard.setCardNumber(numero).verifyCardBrand();
-      if (!bandeira || bandeira === "undefined" || bandeira === "unsupported") return setErro("Bandeira do cartão não aceita. Tente outro cartão ou pague com Pix.");
+      if (!bandeira || bandeira === "undefined" || bandeira === "unsupported") return setErro(PIX_LIGADO ? "Bandeira do cartão não aceita. Tente outro cartão ou pague com Pix." : "Bandeira do cartão não aceita. Tente outro cartão.");
       const [mes = "", ano = ""] = c.validade.split("/");
       const r = await EfiPay.CreditCard.setAccount(conta)
         .setEnvironment(ambiente)
@@ -190,7 +190,7 @@ export function FormularioCartaoEfi({
   const avisoApp = dentroDeApp && (
     <p className="rounded-xl border border-destaque/40 bg-destaque-suave p-3 text-sm leading-relaxed">
       <strong className="text-destaque">Você abriu o site dentro de um app.</strong> Para pagar no cartão, abra no Chrome ou no Safari
-      (toque nos três pontinhos e em &quot;Abrir no navegador&quot;). Ou pague com Pix logo abaixo, que libera na hora.
+      (toque nos três pontinhos e em &quot;Abrir no navegador&quot;).{PIX_LIGADO && " Ou pague com Pix logo abaixo, que libera na hora."}
     </p>
   );
 

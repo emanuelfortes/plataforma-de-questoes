@@ -24,6 +24,13 @@ export const ELITE = {
  */
 export const CARTAO_LIGADO = true;
 
+/**
+ * Pix de 30 dias. Desligado em 27/11/2026 (o cartão funciona bem e o Pix não renova sozinho): a tela não oferece
+ * mais o Pix e o servidor recusa gerar um novo. Quem já pagou segue até o fim dos 30 dias, e um Pix já gerado
+ * ainda é confirmado (aviso da Efí e conferência na tela). Para voltar, troque para true.
+ */
+export const PIX_LIGADO = false;
+
 export type Plano = "basico" | "elite";
 export const PLANOS = { basico: ASSINATURA, elite: ELITE } as const;
 

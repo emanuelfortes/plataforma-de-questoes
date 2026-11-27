@@ -2,7 +2,7 @@ import "server-only";
 import nodemailer from "nodemailer";
 import { linkWhatsapp, whatsappFormatado } from "@/lib/legal";
 import { NOME_PLATAFORMA } from "@/lib/marca";
-import { ADICIONAL_ELITE, ASSINATURA, CARTAO_LIGADO, ELITE, PROMOCAO, formatarReais } from "@/lib/planos";
+import { ADICIONAL_ELITE, ASSINATURA, CARTAO_LIGADO, ELITE, PIX_LIGADO, PROMOCAO, formatarReais } from "@/lib/planos";
 
 // Envio de e-mail. Usa o primeiro serviço configurado:
 // 1. Gmail (GMAIL_USUARIO + GMAIL_SENHA_APP): sem domínio próprio, até ~500 e-mails por dia.
@@ -162,6 +162,16 @@ export function emailConfirmarEndereco(nome: string, url: string): Omit<Email, "
 
 export function emailRenovarPix(nome: string, fim: string, valor: string, url: string): Omit<Email, "para"> {
   const ola = `Olá, ${escapar(nome)}.`;
+  if (!PIX_LIGADO) {
+    // Pix desligado: quem pagou Pix é chamado para o cartão, que renova sozinho.
+    const aviso = `Seu acesso pago com Pix vai até ${fim}. Não aceitamos mais Pix: para continuar estudando sem limite, assine no cartão de crédito, que renova sozinho todo mês e pode ser cancelado quando quiser. A primeira cobrança é no dia em que você assinar.`;
+    const rodape = "Se não assinar, sua conta volta para o limite grátis de questões por dia.";
+    return {
+      assunto: `Seu acesso vai até ${fim}: continue no cartão`,
+      html: modelo("Continue estudando", [ola, aviso], { rotulo: "Assinar no cartão", url }, rodape),
+      texto: `Olá, ${nome}.\n\n${aviso}\n\n${url}\n\n${rodape}`,
+    };
+  }
   const aviso = `Seu acesso pago com Pix vai até ${fim}. Para continuar estudando sem limite, pague o próximo Pix de ${valor}: os 30 dias novos começam quando os atuais acabarem, então renovar antes não perde nenhum dia.`;
   const rodape = "Se não renovar, sua conta volta para o limite grátis de questões por dia." + (CARTAO_LIGADO ? " Prefere não se preocupar? Assine no cartão, que renova sozinho." : "");
   return {

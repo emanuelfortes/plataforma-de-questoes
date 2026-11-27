@@ -87,8 +87,9 @@ export default function PaginaPrivacidade() {
           <strong>Turso:</strong> banco de dados onde ficam sua conta e seu histórico, em servidores em São Paulo.
         </li>
         <li>
-          <strong>Efí (Efí S.A. Instituição de Pagamento):</strong> processa os pagamentos novos no Pix e no cartão.
-          Recebe seu e-mail, o Pix pago e, no cartão, os dados do titular e do cartão.
+          <strong>Efí (Efí S.A. Instituição de Pagamento):</strong> processa os pagamentos novos no cartão (e os Pix
+          pagos até 27/11/2026, quando deixamos de aceitar Pix). Recebe seu e-mail, os dados do titular e do cartão e, de
+          quem pagou com Pix, o Pix pago.
         </li>
         <li>
           <strong>Mercado Pago:</strong> processa as assinaturas feitas antes da Efí. Recebe seu e-mail e os dados do

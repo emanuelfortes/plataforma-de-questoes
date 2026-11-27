@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
-import type { Plano } from "@/lib/planos";
+import { PIX_LIGADO, type Plano } from "@/lib/planos";
 import { assinarCartao } from "@/server/acoes-assinatura";
 
 // Checkout transparente: o formulário de cartão do Mercado Pago (Card Payment Brick) aparece dentro
@@ -160,8 +160,7 @@ export function FormularioCartao({
   const avisoApp = dentroDeApp && (
     <p className="rounded-xl border border-destaque/40 bg-destaque-suave p-3 text-sm leading-relaxed">
       <strong className="text-destaque">Você abriu o site dentro de um app.</strong> Para pagar no cartão, abra no Chrome ou no
-      Safari (toque nos três pontinhos e em &quot;Abrir no navegador&quot;): aqui o banco costuma recusar. Ou pague com Pix logo
-      abaixo, que libera na hora.
+      Safari (toque nos três pontinhos e em &quot;Abrir no navegador&quot;): aqui o banco costuma recusar.{PIX_LIGADO && " Ou pague com Pix logo abaixo, que libera na hora."}
     </p>
   );
 

@@ -8,7 +8,7 @@ import { z } from "zod";
 import { db } from "@/db";
 import { assinaturas } from "@/db/schema";
 import { exigirUsuario } from "@/lib/sessao";
-import { CARTAO_LIGADO, type Plano } from "@/lib/planos";
+import { CARTAO_LIGADO, PIX_LIGADO, type Plano } from "@/lib/planos";
 import {
   assinarComCartao,
   assinaturaDoUsuario,
@@ -36,7 +36,9 @@ export type ResultadoAssinar = { ok: true; url: string } | { ok: false; erro: st
 const mensalAtiva = async (usuarioId: string) => (await assinaturaDoUsuario(usuarioId))?.status === "authorized";
 
 /** Cria a assinatura no Mercado Pago e devolve o link do checkout. */
-const CARTAO_INDISPONIVEL = "O cartão está indisponível no momento. Pague com Pix, que libera na hora.";
+const CARTAO_INDISPONIVEL = PIX_LIGADO ? "O cartão está indisponível no momento. Pague com Pix, que libera na hora." : "O cartão está indisponível no momento. Tente de novo em alguns minutos.";
+/** Fim das mensagens de recusa: só sugere o Pix enquanto ele estiver ligado. */
+const OU_PIX = PIX_LIGADO ? ", ou assine pelo Pix, que libera na hora" : "";
 
 export async function assinar(entrada: unknown = "basico"): Promise<ResultadoAssinar> {
   const usuario = await exigirUsuario();
@@ -71,13 +73,13 @@ function motivoRecusa(erro: unknown, detalhe: string | null) {
   // Antifraude do próprio Mercado Pago (cc_rejected_high_risk), não o banco (confirmado pelo suporte em 07/11).
   // Eles orientam: nome e CPF exatamente como no cartão e não repetir várias tentativas seguidas.
   if (texto.includes("high_risk")) {
-    return "O pagamento foi recusado pela análise de segurança do Mercado Pago. Confira se o nome e o CPF são exatamente os do titular do cartão e tente mais tarde (tentar várias vezes seguidas piora), ou assine pelo Pix, que libera na hora.";
+    return `O pagamento foi recusado pela análise de segurança do Mercado Pago. Confira se o nome e o CPF são exatamente os do titular do cartão e tente mais tarde (tentar várias vezes seguidas piora)${OU_PIX}.`;
   }
   if (texto.includes("insufficient") || texto.includes("saldo")) return "O cartão não tem limite suficiente.";
   if (texto.includes("security_code") || texto.includes("cvv")) return "O código de segurança (CVV) não confere.";
   if (texto.includes("expir")) return "O cartão está vencido ou a data de validade está errada.";
   if (texto.includes("payer_email") || texto.includes("email")) return "Confira o e-mail informado no pagamento.";
-  return "O pagamento foi recusado. Confira os dados do cartão (nome e CPF do titular, exatamente como no cartão) ou assine pelo Pix, que libera na hora.";
+  return `O pagamento foi recusado. Confira os dados do cartão (nome e CPF do titular, exatamente como no cartão)${OU_PIX}.`;
 }
 
 /** Celular ou computador e navegador (app ou não), para o log das recusas. */
@@ -103,7 +105,7 @@ export async function assinarCartao(entrada: unknown): Promise<ResultadoCartao> 
   if (await mensalAtiva(usuario.id)) {
     return { ok: false, erro: "Sua assinatura já está ativa." };
   }
-  if (await pausaDoCartao()) return { ok: false, erro: "O cartão está pausado por alguns minutos. Pague com Pix, que libera na hora." };
+  if (await pausaDoCartao()) return { ok: false, erro: `O cartão está pausado por alguns minutos${PIX_LIGADO ? ". Pague com Pix, que libera na hora" : ": tente de novo daqui a pouco"}.` };
   try {
     // Sempre o e-mail da conta: o Mercado Pago pede o mesmo payer_email em todas as tentativas do comprador.
     const status = await assinarComCartao(usuario, { ...dados.data, email: usuario.email }, dados.data.plano);
@@ -153,10 +155,10 @@ function motivoRecusaEfi(erro: unknown) {
   if (erro instanceof CartaoRecusadoEfi && erro.antifraude) {
     // "AF - Transação não autorizada": análise de segurança da Efí, não o banco. Costuma vir de várias tentativas
     // seguidas com o mesmo cartão ou do navegador bloqueando a verificação do aparelho (Safari).
-    return "O pagamento não passou na análise de segurança da Efí (não foi o seu banco). Evite tentar várias vezes seguidas com o mesmo cartão: tente mais tarde, de preferência pelo Chrome, ou assine pelo Pix, que libera na hora.";
+    return `O pagamento não passou na análise de segurança da Efí (não foi o seu banco). Evite tentar várias vezes seguidas com o mesmo cartão: tente mais tarde, de preferência pelo Chrome${OU_PIX}.`;
   }
   if (erro instanceof CartaoRecusadoEfi) {
-    return "O banco recusou o pagamento. Confira os dados do cartão, veja se ele tem limite e se compras online estão liberadas no app do banco, ou assine pelo Pix, que libera na hora.";
+    return `O banco recusou o pagamento. Confira os dados do cartão, veja se ele tem limite e se compras online estão liberadas no app do banco${OU_PIX}.`;
   }
   const t = textoDoErroEfi(erro).toLowerCase();
   if (t.includes("birth") || t.includes("nascimento")) return "Confira a data de nascimento.";
@@ -164,7 +166,7 @@ function motivoRecusaEfi(erro: unknown) {
   if (t.includes("phone")) return "Confira o celular com DDD.";
   if (t.includes("zipcode") || t.includes("cep") || t.includes("billing_address")) return "Confira o endereço de cobrança.";
   if (t.includes("payment_token") || t.includes("token")) return "Os dados do cartão expiraram. Confira e tente de novo.";
-  return "Não foi possível concluir o pagamento. Confira os dados ou assine pelo Pix, que libera na hora.";
+  return `Não foi possível concluir o pagamento. Confira os dados${OU_PIX || " e tente de novo"}.`;
 }
 
 /**
@@ -252,6 +254,7 @@ export type ResultadoPix = { ok: true; pix: DadosPix } | { ok: false; erro: stri
 export async function pagarComPix(entrada: unknown): Promise<ResultadoPix> {
   const usuario = await exigirUsuario();
   const plano = planoSchema.safeParse(entrada);
+  if (!PIX_LIGADO) return { ok: false, erro: "Não aceitamos mais Pix. Assine no cartão de crédito." };
   if (!plano.success) return { ok: false, erro: "Plano inválido." };
   if (await mensalAtiva(usuario.id)) return { ok: false, erro: "Sua assinatura no cartão já está ativa." };
   try {
